@@ -1,16 +1,9 @@
 ---
 title: Awesome Site
-description: A practical foundation for site-owned content.
+description: A multilingual home for carefully sourced awesome collections.
 ---
 
 # Welcome to Awesome Site
 
-Awesome Site is a small, independently buildable foundation for creating and
-publishing site-owned documentation. It provides a shared reading shell,
-navigation, search, and discovery output without importing content from another
-site.
-
-## Start here
-
-Read the [Getting started guide](/guides/getting-started/) to install the
-project, configure its site URL, and add your own pages.
+Awesome Site brings together useful, carefully sourced collections in ten
+languages. Browse the [Awesome GitHub Profile README](/awesome/awesome-github-profile-readme/).

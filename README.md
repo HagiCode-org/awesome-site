@@ -1,28 +1,27 @@
 # Awesome Site
 
-An English-only, static documentation site built with Astro, Starlight, and
-Hagilight. It uses its own authored Markdown and locked dependencies; it does
-not ingest OpenSpec content or depend on the `openspec-docs` repository.
+A static, multilingual collection site built with Astro, Starlight, and Hagilight. Site-authored pages and pinned upstream README sources are maintained separately; the site does not ingest OpenSpec content or depend on the `openspec-docs` repository.
 
 ## Requirements
 
 - Node.js 22.12 or later
 - npm 9.6.5 or later
+- Git with submodule support
 
 ## Install and run
 
+Clone with the pinned source submodules, or initialize them after cloning:
+
 ```sh
+git clone --recurse-submodules https://github.com/HagiCode-org/awesome-site.git
+cd awesome-site
+# For an existing checkout:
+git submodule update --init --recursive
 npm ci
-SITE_URL=http://localhost:36265 npm run dev
+npm run dev
 ```
 
-The development server and production preview use port `36265` (not Astro's
-default port). The port is strict: the server fails rather than silently
-choosing another port if `36265` is occupied.
-
-Set `SITE_URL` to an absolute HTTP(S) URL for every site-generating command.
-For local work use `http://localhost:36265`; use the intended origin when
-building for another environment:
+`npm run dev` defaults to `http://localhost:36265`, and the development server and preview use strict port `36265`. Set `SITE_URL` for checks, builds, tests, and previews:
 
 ```sh
 SITE_URL=http://localhost:36265 npm run check
@@ -31,22 +30,45 @@ SITE_URL=http://localhost:36265 npm test
 SITE_URL=http://localhost:36265 npm run preview
 ```
 
-Run `npm test` after a successful build. It checks generated pages and
-discovery output, exercises configuration failures, and temporarily builds a
-valid authored page before confirming missing titles fail validation.
+`dev`, `check`, and `build` prepare collection pages before using them. `preview` serves an existing build without regenerating content. Run `npm test` after a successful build.
 
-## Content and output
+## Content ownership and locales
 
-Author pages as Markdown under `src/content/docs/`. Every page needs a
-non-empty `title` in its frontmatter; for example,
-`src/content/docs/guides/example.md` publishes at `/guides/example/`. The home
-page is `src/content/docs/index.md`. Starlight validates the content schema.
+The authored homepage lives at `src/content/docs/index.md` and requires a non-empty `title` in frontmatter.
 
-Astro, Starlight, and Hagilight own the generated HTML, assets, Pagefind search
-index, RSS feeds, robots file, and sitemap in `dist/`. Do not edit generated
-output. The build includes `dist/404.html`; a static host or server must serve
-that file for unknown routes.
+`content/awesome/collections.json` is the collection registry. Each source is a pinned submodule under `sources/`; the initial source is `awesome-github-profile-readme`. Check the pinned `README.md` and `LICENSE` when registering or updating a source. Its current verified identifier is `CC0-1.0`. Builds fail if the checkout is missing, dirty, or no longer matches the pinned revision/license.
 
-The site currently exposes English content only. Analytics, tracking, and
-promotion surfaces are disabled. It does not import OpenSpec articles, modify
-the reference repository, or configure hosting or deployment automation.
+Reviewed translation inputs live under `content/awesome/<id>/`. Generated collection pages under `src/content/docs/**/awesome/` and `.awesome-content-manifest.json` are pipeline-owned; do not edit them directly. The pipeline only replaces its registered outputs. Homepage files remain authored content.
+
+The site publishes English at unprefixed routes and nine locale editions at `/zh-CN/`, `/zh-Hant/`, `/fr-FR/`, `/de-DE/`, `/es-ES/`, `/ja-JP/`, `/ko-KR/`, `/pt-BR/`, and `/ru-RU/`. Hagilight owns `/rss.xml`, its English alias `/rss.en.xml`, the locale RSS feeds, and `robots.txt`; Astro's sitemap integration owns the sitemap. Feeds and search contain actual locale editions, not English fallback copies. Requests for untranslated optional authored pages recover to their English source.
+
+## Translate or update a collection
+
+Export a translation work package without overwriting existing files:
+
+```sh
+npm run content:export -- --collection awesome-github-profile-readme --output /tmp/agpr-translation
+```
+
+The export contains the byte-preserved README and license, pinned revision, SHA-256 source digest, target locale list, and full-coverage instructions. Translate the complete README for each target locale. Preserve names, code, list/table entries, link and image destinations, and section order. Store each body at `content/awesome/<id>/locales/<locale>.md`.
+
+For every locale, record a localized `title` and `description`, the current `sourceDigest`, `reviewStatus: "reviewed"`, and a truthful `isAITranslation` boolean in `content/awesome/<id>/translations.json`. AI translations must set `isAITranslation: true`; the published edition then shows an AI-translation disclosure. Builds validate review status and structure but do not contact translation services or claim that structural checks prove linguistic quality.
+
+Run the content gate before building:
+
+```sh
+npm run content:check
+npm run content:prepare
+```
+
+If the source README changes, export it again and update all translations to the new digest. Missing, stale, unreviewed, unsafe, or structurally incomplete content fails with a collection/locale diagnostic before generated pages are replaced. Fix the reported inputs and rerun preparation; authored files and the previous generated set remain intact on validation or staging failure.
+
+## Build and publication
+
+Local builds may use `http://localhost:36265`. The publication workflow requires the repository variable `SITE_URL` to be a non-loopback HTTPS origin without credentials, path, query, or fragment; configure it to the intended production origin. The workflow validates this before installing dependencies and building.
+
+The publication job only hands off its existing static payload after content preparation, checks, build, and regression tests succeed. The payload layout remains `.deploy/gh-pages/` with `dist/`, `esa.jsonc`, and `wrangler.jsonc`. A successful build proves a valid static snapshot was assembled; it does not prove that an external hosting service has published it or that the live site is reachable.
+
+Relative repository images are pinned to the source revision. Other external assets and linked profiles remain remote upstream dependencies and may become unavailable; the build does not mirror them.
+
+Analytics and site promotions remain disabled. Do not edit generated HTML, Pagefind, RSS, robots, or sitemap output in `dist/`.
