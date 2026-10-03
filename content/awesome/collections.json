@@ -1,0 +1,12 @@
+[
+  {
+    "id": "awesome-github-profile-readme",
+    "repositoryUrl": "https://github.com/abhisheknaiidu/awesome-github-profile-readme",
+    "sourceDir": "sources/awesome-github-profile-readme",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE",
+    "licenseId": "CC0-1.0",
+    "route": "awesome/awesome-github-profile-readme",
+    "title": "Awesome GitHub Profile README"
+  }
+]

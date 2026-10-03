@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Awesome GitHub 个人资料 README",
+      "description": "精选的 GitHub 个人资料 README 展示与工具。",
+      "sourceDigest": "8e7ba07d7fab3e38a8a8b6727dd9639e2ed41ed00189b9fedcee9fb6b53f317a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "zh-Hant": {
+      "title": "Awesome GitHub 個人檔案 README",
+      "description": "精選的 GitHub 個人檔案 README 範例與工具。",
+      "sourceDigest": "8e7ba07d7fab3e38a8a8b6727dd9639e2ed41ed00189b9fedcee9fb6b53f317a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "fr-FR": {
+      "title": "README de profil GitHub : sélection",
+      "description": "Une sélection de README de profil GitHub et d’outils.",
+      "sourceDigest": "8e7ba07d7fab3e38a8a8b6727dd9639e2ed41ed00189b9fedcee9fb6b53f317a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "de-DE": {
+      "title": "Auswahl an GitHub-Profil-READMEs",
+      "description": "Ausgewählte GitHub-Profil-READMEs und passende Tools.",
+      "sourceDigest": "8e7ba07d7fab3e38a8a8b6727dd9639e2ed41ed00189b9fedcee9fb6b53f317a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "es-ES": {
+      "title": "Selección de README para perfiles de GitHub",
+      "description": "Una selección de README de perfiles de GitHub y herramientas.",
+      "sourceDigest": "8e7ba07d7fab3e38a8a8b6727dd9639e2ed41ed00189b9fedcee9fb6b53f317a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ja-JP": {
+      "title": "GitHub プロフィール README 厳選集",
+      "description": "GitHub プロフィール README の作例と便利なツールを紹介します。",
+      "sourceDigest": "8e7ba07d7fab3e38a8a8b6727dd9639e2ed41ed00189b9fedcee9fb6b53f317a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ko-KR": {
+      "title": "GitHub 프로필 README 모음",
+      "description": "엄선한 GitHub 프로필 README 예시와 도구입니다.",
+      "sourceDigest": "8e7ba07d7fab3e38a8a8b6727dd9639e2ed41ed00189b9fedcee9fb6b53f317a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "pt-BR": {
+      "title": "Seleção de READMEs para perfil do GitHub",
+      "description": "Uma seleção de READMEs de perfil do GitHub e ferramentas.",
+      "sourceDigest": "8e7ba07d7fab3e38a8a8b6727dd9639e2ed41ed00189b9fedcee9fb6b53f317a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ru-RU": {
+      "title": "Подборка README для профиля GitHub",
+      "description": "Подборка примеров README профиля GitHub и полезных инструментов.",
+      "sourceDigest": "8e7ba07d7fab3e38a8a8b6727dd9639e2ed41ed00189b9fedcee9fb6b53f317a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    }
+  }
+}

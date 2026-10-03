@@ -1,0 +1,378 @@
+<h1 align="center">Awesome GitHub Profile README
+<a href="https://www.producthunt.com/posts/awesome-github-profiles?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-awesome-github-profiles" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=277987&theme=light" alt="Awesome GitHub Profiles - Lista selecionada de READMEs de desenvolvedores, atualizada a cada 15 min | Product Hunt" style="width: 200px; height: 44px;" width="200" height="44" /></a></h1>
+<div align="center">
+<img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Badge Awesome"/>
+<a href="https://arbeitnow.com/?utm_source=awesome-github-profile-readme"><img src="https://img.shields.io/static/v1?label=&labelColor=505050&message=arbeitnow&color=%230076D6&style=flat&logo=google-chrome&logoColor=%230076D6" alt="Site"/></a>
+<!-- <img src="http://hits.dwyl.com/abhisheknaiidu/awesome-github-profile-readme.svg" alt="Hits Badge"/> -->
+<img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Badge de estrelas"/>
+<a href="https://discord.gg/XTW52Kt"><img src="https://img.shields.io/discord/733027681184251937.svg?style=flat&label=Join%20Community&color=7289DA" alt="Badge para participar da comunidade"/></a>
+<a href="https://twitter.com/abhisheknaiidu" ><img src="https://img.shields.io/twitter/follow/abhisheknaiidu.svg?style=social" /> </a>
+<br>
+
+<i>Uma lista selecionada de ótimos READMEs para perfis do GitHub</i>
+
+<a href="https://github.com/abhisheknaiidu/awesome-github-profile-readme/stargazers"><img src="https://img.shields.io/github/stars/abhisheknaiidu/awesome-github-profile-readme" alt="Badge de estrelas"/></a>
+<a href="https://github.com/abhisheknaiidu/awesome-github-profile-readme/network/members"><img src="https://img.shields.io/github/forks/abhisheknaiidu/awesome-github-profile-readme" alt="Badge de forks"/></a>
+<a href="https://github.com/abhisheknaiidu/awesome-github-profile-readme/pulls"><img src="https://img.shields.io/github/issues-pr/abhisheknaiidu/awesome-github-profile-readme" alt="Badge de pull requests"/></a>
+<a href="https://github.com/abhisheknaiidu/awesome-github-profile-readme/issues"><img src="https://img.shields.io/github/issues/abhisheknaiidu/awesome-github-profile-readme" alt="Badge de issues"/></a>
+<a href="https://github.com/abhisheknaiidu/awesome-github-profile-readme/graphs/contributors"><img alt="Contribuidores do GitHub" src="https://img.shields.io/github/contributors/abhisheknaiidu/awesome-github-profile-readme?color=2b9348"></a>
+<a href="https://github.com/abhisheknaiidu/awesome-github-profile-readme/blob/master/LICENSE"><img src="https://img.shields.io/github/license/abhisheknaiidu/awesome-github-profile-readme?color=2b9348" alt="Badge de licença"/></a>
+
+<img alt="Awesome GitHub Profile Readme" src="assets/agpr.gif"> </img>
+
+<i>Gostou do projeto? Considere fazer uma [doação](https://paypal.me/abhisheknaiidu) para ajudar a melhorá-lo!</i>
+
+</div>
+
+### Conteúdo:
+  - [Categorias](#categories)
+      - [GitHub Actions 🤖](#github-actions-)
+      - [Modo de jogo 🚀](#game-mode-)
+      - [Modo de código 👨🏽‍💻](#code-mode-)
+      - [Tempo real dinâmico 💫](#dynamic-realtime-)
+      - [Um pouco de tudo 😃](#a-little-bit-of-everything-)
+      - [Descritivos 🗒](#descriptive-)
+      - [Simples, mas inovadores 🤗](#simple-but-innovative-ones-)
+      - [Modo de digitação 🎰](#typing-mode-)
+      - [Anime 👾](#anime-)
+      - [Minimalistas ✨](#minimalistic-)
+      - [GIFs 👻](#gifs-)
+      - [Somente imagens 🎭](#just-images-)
+      - [Emblemas 🎫](#badges-)
+      - [Fontes especiais 🖋](#fancy-fonts-)
+      - [Ícones 🎯](#icons-)
+      - [Retrô 😎](#retro-)
+  - [Ferramentas](#tools)
+  - [Artigos](#articles)
+  - [Tutoriais em vídeo](#tutorials)
+  - [Contribua](#contribute)
+  - [License](#license)
+
+
+## Categorias
+
+#### GitHub Actions 🤖
+- [Abhishek Naidu](https://github.com/abhisheknaiidu/abhisheknaiidu)
+- [Thomas Guibert](https://github.com/thmsgbrt/thmsgbrt)
+- [Brian Douglas](https://github.com/bdougie/bdougie)
+- [Shawn Wang](https://github.com/sw-yx/sw-yx)
+- [Simon Willison](https://github.com/simonw/simonw)
+- [Mike Coutermarsh](https://github.com/mscoutermarsh/mscoutermarsh)
+- [Michael Hoffmann (Mokkapps)](https://github.com/mokkapps/mokkapps)
+- [Athul Cyriac Ajay](https://github.com/athul/athul)
+- [Gautam Krishna R](https://github.com/gautamkrishnar/gautamkrishnar)
+- [Roald Nefs](https://github.com/roaldnefs/roaldnefs)
+- [Leo](https://github.com/mopig/mopig)
+- [Dhruv Jain](https://github.com/maddhruv/maddhruv)
+- [Erwin Lejeune](https://github.com/guilyx/guilyx)
+- [Jessica Lim](https://github.com/JessicaLim8/JessicaLim8)
+- [侑夕-Tw93](https://github.com/tw93/tw93)
+- [liununu](https://github.com/liununu/liununu)
+- [Filippo Rossi (qu4k)](https://github.com/qu4k/qu4k)
+- [Moe Poi ~](https://github.com/moepoi/moepoi)
+- [Elon Tang (blackcater)](https://github.com/blackcater/blackcater)
+- [Stanley Lim (Spiderpig86)](https://github.com/Spiderpig86/Spiderpig86)
+- [Akshit Garg (gargakshit)](https://github.com/gargakshit/gargakshit)
+- [Yufan You](https://github.com/ouuan/ouuan)
+- [Danny Koppenhagen](https://github.com/d-koppenhagen/d-koppenhagen)
+- [Vidya Bhandary](https://github.com/vidyabhandary/vidyabhandary)
+- [Rao Hai](https://github.com/RaoHai/RaoHai)
+- [Jatin Rao](https://github.com/jatin2003/jatin2003)
+- [teoxoy](https://github.com/teoxoy/teoxoy)
+- [Aral Roca](https://github.com/aralroca/aralroca)
+- [codeSTACKr](https://github.com/codestackr/codestackr)
+- [itgoyo](https://github.com/itgoyo/itgoyo)
+- [lifeparticle](https://github.com/lifeparticle/lifeparticle)
+
+#### Modo de jogo 🚀
+- [Tim Burgan](https://github.com/timburgan/timburgan)
+- [Ben Sampica](https://github.com/benjaminsampica/benjaminsampica)
+- [Kavish Hukmani](https://github.com/DoubleGremlin181/DoubleGremlin181)
+- [Jonathan Gin](https://github.com/JonathanGin52/JonathanGin52)
+- [Ross Williams](https://github.com/rossjrw/rossjrw)
+- [kylepls](https://github.com/kylepls/kylepls)
+- [Aaron Liu](https://github.com/HFO4/HFO4)
+- [marcizhu](https://github.com/marcizhu/marcizhu)
+
+#### Modo de código 👨🏽‍💻
+- [Thaiane Braga](https://github.com/Thaiane/Thaiane)
+- [Ash Baker](https://github.com/ashbakernz/ashbakernz)
+- [Anmol Singh](https://github.com/anmol098/anmol098)
+- [Kiho](https://github.com/monkindey/monkindey)
+- [Ahmad Munir](https://github.com/ddroid/ddroid)
+- [Marton](https://github.com/martonlederer/martonlederer)
+- [Redowan Delowar](https://github.com/rednafi/rednafi)
+- [Zhenye Na](https://github.com/Zhenye-Na/Zhenye-Na)
+
+#### Tempo real dinâmico 💫
+- [Anurag Hazra](https://github.com/anuraghazra/anuraghazra)
+- [DenverCoder1](https://github.com/DenverCoder1/DenverCoder1)
+- [Hemant Joshi](https://github.com/8bithemant/8bithemant)
+- [Kittinan](https://github.com/kittinan/kittinan)
+- [Andrew Novac](https://github.com/novatorem/novatorem)
+- [Johnny Villegas](https://github.com/C9-LinkRs/C9-LinkRs)
+- [Andrew Young](https://github.com/andyruwruw/andyruwruw)
+- [Rashmi Jadhav](https://github.com/rusty-sj/rusty-sj)
+- [andyruwruw](https://github.com/andyruwruw/andyruwruw)
+- [Jacob Colvin](https://github.com/MacroPower/MacroPower)
+- [Osman Durdağ](https://github.com/zumrudu-anka/zumrudu-anka)
+- [iampavangandhi](https://github.com/iampavangandhi/iampavangandhi)
+- [Dani Akash](https://github.com/daniakash/daniakash)
+- [Rahul Jha](https://github.com/rahul-jha98/rahul-jha98)
+- [Taehyun Hwang](https://github.com/HwangTaehyun/HwangTaehyun)
+- [Nisarg Bhatt](https://github.com/nisarg1212)
+
+#### Um pouco de tudo 😃
+- [Raymond Li](https://github.com/Raymo111/Raymo111)
+- [Martin Heinz](https://github.com/MartinHeinz/MartinHeinz)
+- [Adam Alston](https://github.com/adamalston/adamalston)
+- [Rafnix Guzmán](https://github.com/rafnixg/rafnixg)
+- [Aditya Pal](https://github.com/sciencepal/sciencepal)
+- [Hedy Li](https://github.com/hedythedev/hedythedev)
+- [Xunzhuo](https://github.com/xunzhuo/xunzhuo)
+- [Khaleel Gibran](https://github.com/khalby786/khalby786)
+- [Apoorv Tyagi](https://github.com/apoorvtyagi/apoorvtyagi)
+- [CxyFreedom](https://github.com/cxyfreedom/cxyfreedom)
+- [Miller Camilo Vega](https://github.com/minoveaz/minoveaz)
+- [Abhishek Maira](https://github.com/AbhishekMaira10/AbhishekMaira10)
+- [Clayton Hamilton](https://github.com/claytonjhamilton/claytonjhamilton)
+- [Sy Rashid](https://github.com/syrashid/syrashid)
+- [Quin Knight](https://github.com/cheesits456/cheesits456)
+- [Jackyu-1999](https://github.com/Jackyu-1999/Jackyu-1999)
+- [Rak Laptudirm](https://github.com/raklaptudirm/raklaptudirm)
+- [Trini B](https://github.com/trinib/trinib)
+- [holic-x](https://github.com/holic-x/holic-x)
+- [Magrelaio](https://github.com/Magrelaio/Magrelaio)
+
+#### Descritivos 🗒
+- [Filip Troníček](https://github.com/filiptronicek/filiptronicek)
+- [Garima Singh](https://github.com/garimasingh128/garimasingh128)
+- [lizheming](https://github.com/lizheming/lizheming)
+- [Nguyễn Hoàng Dương](https://github.com/you-create/you-create)
+- [Saksham Taneja](https://github.com/sakshamtaneja21/sakshamtaneja21)
+- [TheAbbie](https://github.com/theabbie/theabbie)
+- [Keshav Singh](https://github.com/keshavsingh4522/keshavsingh4522)
+- [Vidur Satija](https://github.com/vidursatija/vidursatija)
+- [Dani El-Ayyass](https://github.com/dayyass/dayyass)
+- [Nanra Sukedy](https://github.com/Nanra/Nanra)
+
+#### Simples, mas inovadores 🤗
+- [Nate Moore](https://github.com/natemoo-re/natemoo-re)
+- [Jhey Tompkins](https://github.com/jh3y/jh3y)
+- [Waylon Walker](https://github.com/WaylonWalker/WaylonWalker)
+- [Vansh Kapoor](https://github.com/vanshkapoor/vanshkapoor)
+- [Harsh Kumar Khatri](https://github.com/harshkumarkhatri/harshkumarkhatri)
+- [Stephen Ajulu](https://github.com/stephenajulu/stephenajulu)
+- [Haany Ali](https://github.com/MarikIshtar007/MarikIshtar007)
+- [Anurag Singh](https://github.com/ashleymavericks/ashleymavericks)
+- [Rishit Dagli](https://github.com/Rishit-dagli/Rishit-dagli)
+- [Vinit Shahdeo](https://github.com/vinitshahdeo/vinitshahdeo/)
+- [Fatih Kadir Akın](https://github.com/f/f/)
+- [Lucas Vazquez](https://github.com/lucasvazq/lucasvazq)
+- [小弟调调™](https://github.com/jaywcjlove/jaywcjlove)
+- [Johnny Villegas](https://github.com/C9-LinkRs/C9-LinkRs)
+- [一缕殇流化隐半边冰霜](https://github.com/halfrost/halfrost)
+- [Srihari Kapu](https://github.com/sriharikapu/sriharikapu)
+- [vaaski](https://github.com/vaaski/vaaski)
+- [Arturs Smirnovs](https://github.com/arturssmirnovs/arturssmirnovs)
+- [Yash Sahijwani](https://github.com/Terabyte17/Terabyte17)
+- [Hemanth Kollipara](https://github.com/Defcon27/Defcon27)
+- [Tushar Mittal](https://github.com/techytushar/techytushar)
+- [Onimur](https://github.com/onimur/onimur)
+- [Bruno Tacca](https://github.com/brunotacca/brunotacca)
+- [Matthew Taylor](https://github.com/Wrapperup/Wrapperup)
+- [Ali Hamza](https://github.com/alihamzaio/alihamzaio)
+
+#### Modo de digitação 🎰
+- [Mathieu Ledru](https://github.com/matyo91/matyo91)
+- [CyrisXD](https://github.com/CyrisXD/CyrisXD)
+- [Mpho Mphego](https://github.com/mmphego/mmphego)
+- [Abhinav Sharma](https://github.com/ABSphreak/ABSphreak)
+- [Mason Slover](https://github.com/MasonSlover/MasonSlover)
+- [SuperSupeng](https://github.com/SuperSupeng/SuperSupeng)
+
+#### Anime 👾
+- [Ing](https://github.com/innng/innng)
+- [edisonlee55](https://github.com/edisonlee55/edisonlee55)
+- [Ashutosh](https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX)
+- [Yukii](https://github.com/PrincessAkira/PrincessAkira)
+
+#### Minimalistas ✨
+- [Caneco](https://github.com/caneco/)
+- [Gift Egwuenu](https://github.com/lauragift21/lauragift21)
+- [Kelechi Precious Nwachukwu](https://github.com/PluckyPrecious/PluckyPrecious)
+- [Ghazi Khan](https://github.com/gkhan205)
+- [Pratik Kumar](https://github.com/pr2tik1/pr2tik1)
+- [Dennis Hartrampf](https://github.com/DennisHartrampf/DennisHartrampf)
+- [MrStanDu33](https://github.com/MrStanDu33/MrStanDu33)
+- [Jayraj Roshan](https://github.com/jayrajroshan/jayrajroshan)
+- [ridermansb](https://github.com/Ridermansb/Ridermansb)
+- [Maximous Black](https://github.com/maximousblk/maximousblk)
+- [Alex Martin](https://github.com/AlexMartinFR/AlexMartinFR)
+- [ChungZH](https://github.com/ChungZH/ChungZH/)
+- [Orhun](https://github.com/orhun/orhun)
+- [Aveek Saha](https://github.com/Aveek-Saha/Aveek-Saha)
+- [Zheeeng](https://github.com/Zheeeng/Zheeeng)
+- [TallGuyJenks](https://github.com/tallguyjenks/tallguyjenks)
+- [Stefanie Grunwald](https://github.com/moertel/moertel)
+- [Abdul Khaliq](https://github.com/kha7iq/kha7iq)
+- [Bilivro](https://github.com/bilivro)
+
+#### GIFs 👻
+- [Pouya Saadeghi](https://github.com/saadeghi/saadeghi)
+- [Ari](https://github.com/ari-hacks/ari-hacks)
+- [Siv Ram Shastri](https://github.com/Prince-Shivaram/Prince-Shivaram)
+- [Shanu Mishra](https://github.com/Shanu1515/Shanu1515)
+- [Shubham Kumar](https://github.com/imskr/imskr)
+- [Duncan](https://github.com/dephraiim/dephraiim)
+- [Demartini](https://github.com/demartini/demartini)
+- [Sindre Sorhus](https://github.com/sindresorhus/sindresorhus)
+- [Pranjal Bhardwaj](https://github.com/Bhard27/Bhard27)
+- [Okan Koçyiğit](https://github.com/okankocyigit/okankocyigit)
+- [Raghav Khullar](https://github.com/RaghavK16/RaghavK16)
+- [xrkffgg](https://github.com/xrkffgg/xrkffgg)
+- [Kevin Cui](https://github.com/KevCui/KevCui)
+- [Muskan Rani](https://github.com/muskanrani/muskanrani)
+- [Rishav Anand](https://github.com/rishavanand/rishavanand)
+- [KelviNosse](https://github.com/KelviNosse/KelviNosse)
+- [nilfalse](https://github.com/nilfalse/nilfalse)
+- [Shahriar Shafin](https://github.com/ShahriarShafin/ShahriarShafin)
+- [Somnath Paul](https://github.com/SP-XD/SP-XD)
+- [Ksenia Morozova](https://github.com/kmoroz/kmoroz)
+
+#### Somente imagens 🎭
+- [Zack Krida](https://github.com/zackkrida/zackkrida)
+- [偏右](https://github.com/afc163/afc163)
+- [thewhiteh4t](https://github.com/thewhiteh4t/thewhiteh4t)
+- [Akash Rai](https://github.com/akasrai/akasrai)
+- [Oussama Bouchikhi](https://github.com/oussamabouchikhi/oussamabouchikhi)
+- [Daily Random Photo](https://github.com/dailyrandomphoto/dailyrandomphoto)
+
+#### Emblemas 🎫
+- [Harish Kumar S S](https://github.com/harish-sethuraman/harish-sethuraman)
+- [Anirudh Emmadi](https://github.com/aemmadi/aemmadi)
+- [Brendon Smith](https://github.com/br3ndonland/br3ndonland)
+- [Alwin Wang](https://github.com/alwinw/alwinw)
+- [Moshfiq Rony](https://github.com/moshfiqrony/moshfiqrony)
+- [Ileriayo Adebiyi](https://github.com/ileriayo/ileriayo)
+- [Samujjwaal Dey](https://github.com/samujjwaal/samujjwaal)
+- [Char-Al](https://github.com/char-al/char-al)
+- [Oka](https://github.com/Coordinate-Cat/Coordinate-Cat)
+- [Nikita Rusetskii](https://github.com/xtenzQ/xtenzQ)
+- [Raphael Ebner](https://github.com/rafi0101/rafi0101)
+
+#### Fontes especiais 🖋
+- [xiaoluoboding](https://github.com/xiaoluoboding/xiaoluoboding)
+
+#### Ícones 🎯
+- [Yuan Tang](https://github.com/terrytangyuan/terrytangyuan)
+- [Hussainweb](https://github.com/hussainweb/hussainweb)
+- [Peter Han](https://github.com/peterthehan/peterthehan)
+- [Thomas George Thomas](https://github.com/Thomas-George-T/Thomas-George-T)
+- [Derek Nguyen](https://github.com/dereknguyen269/dereknguyen269)
+- [Valentin Briand](https://github.com/vbriand/vbriand)
+
+#### Retrô 😎
+- [Livio Brunner](https://github.com/BrunnerLivio/BrunnerLivio)
+- [Christian Petersen](https://github.com/fnky/fnky)
+
+## Ferramentas
+- [Git Bonsai](https://github.com/egorthinks/git-bonsai) - Crie um bonsai exclusivo e determinístico em pixel art a partir do histórico do GitHub; o GIF animado do README continua crescendo a cada commit 🌳
+- [Todoist Stats in Readme](https://github.com/abhisheknaiidu/todoist-readme) - Estatísticas diárias do Todoist no README do seu perfil
+- [Visitor Badge](https://visitor-badge.glitch.me/#docs) - Conte as visitas ao seu README.md, Issues e PRs no GitHub
+- [1990s style Visitor Counter](https://twitter.com/ryanlanciaux/status/1283755637126705152) - Adicione um contador de visitas ao estilo dos anos 1990 com uma linha de Markdown.
+- [Visitor Count](https://pufler.dev/badge-it/) - Conte as visitas ao README.md com um badge que pode ser usado com shields.io
+- [Shields Project](https://shields.io/) - Crie badges de perfil com Shields, compatível com Simple Icons
+- [GitCard Studio](https://github.com/creativecodeco/gitcard-studio) - Gerador de cartões SVG dinâmicos e API ao vivo para estatísticas do GitHub, distribuição de linguagens, hábitos de commits, sequência de contribuições, classificação de desenvolvedores, troféus e patrocinadores. ([Gerador web](https://gitcard-studio.creativecode.com.co/))
+- [Github Readme Stats](https://github.com/anuraghazra/github-readme-stats) - Obtenha estatísticas do GitHub geradas dinamicamente nos seus READMEs
+- [GitHub Stats](https://github.com/dvigo/github-stats) - 🚀 Gerador de estatísticas SVG ultrarrápido e elegante, com design True Glassmorphism e temas
+- [Github Readme Insight Terminal Ascii](https://github.com/seuthootDev/github-readme-insight-terminal-ascii) - Gere gráficos de contribuição, estatísticas e SVGs dos principais idiomas em estilo de terminal para o README do seu perfil do GitHub
+- [Github Contributor Stats](https://github.com/HwangTaehyun/github-contributor-stats) - :fire: Exiba estatísticas de contribuidores do GitHub geradas dinamicamente nos READMEs (repositórios nos quais você realmente contribuiu)
+- [GitHub Gravity](https://github.com/flycran/github-gravity) - 🌌 Faça o gráfico de contribuições do GitHub cair sob a gravidade e colidir com texto personalizado para criar um belo SVG animado
+- [GitHub Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats) - 🔥 Mantenha a motivação e mostre sua sequência de contribuições! 🌟 Exiba o total de contribuições, a sequência atual e a mais longa no README do seu perfil do GitHub
+- [gitglance](https://github.com/rafaeloliveiraz/gitglance) - Cartões de estatísticas do GitHub que podem ser hospedados por você, com 16 estilos visuais, 21 temas, cartões de gráficos (rosca, medidores, atividade de commits) e um criador visual
+- [Simple Icons](https://github.com/simple-icons/simple-icons#cdn-usage) - Ícones SVG de marcas populares para seus arquivos README.md
+- [Laravel GitHub Profile Visit Counter](https://github.com/caneco/laravel-github-profile-view-counter) - Adicione ao seu projeto Laravel um badge rápido para contar as visitas ao perfil.
+- [Dev Metrics in Readme](https://github.com/athul/waka-readme) - Métricas semanais do [WakaTime](https://wakatime.com/) no README do seu perfil
+- [Profile Activity Generator](https://github.com/omidnikrah/profile-activity-generator) - Gere atividades personalizadas para o README do seu perfil
+- [Current UTC time](https://github.com/jojoee/jojoee) - Exemplo de código de servidor que pode fornecer conteúdo dinâmico em um perfil do GitHub
+- [Github Activity in README](https://github.com/jamesgeorge007/github-activity-readme) - Atualiza o `README.md` com a atividade recente de GitHub de um usuário
+- [Github Profile README Generator](https://github.com/rahuldkjain/github-profile-readme-generator) - Esta ferramenta facilita a criação de um README de perfil do GitHub com recursos recentes, como contagem de visitantes e estatísticas do GitHub.
+- [Dynamic Profile Page On Github](https://github.com/umutphp/github-action-dynamic-profile-page) - Gere dinamicamente no README do perfil do GitHub a lista de commits dos repositórios configurados.
+- [npm package downloads](https://github.com/maddhruv/github-readme-npm-downloads) - Mostre todos os seus pacotes npm e o total de downloads
+- [All Dev Stats in Readme](https://github.com/anmol098/waka-readme-stats) - Você é uma pessoa matutina 🐤 ou noturna 🦉? Quando é mais produtivo durante o dia? Quais linguagens programa? E outras coisas… Confira no seu README!
+- [Feedparser](https://pythonhosted.org/feedparser/) - Processamento prático de arquivos RSS
+- [Profile README Widgets](https://github.com/marketplace/actions/profile-readme) - Adicione widgets simples ao seu README de perfil.
+- [Spotify now playing card generator](https://github.com/kittinan/spotify-github-profile) - Gere um cartão do Spotify com a música tocando no momento para seu perfil do GitHub
+- [Markdown Badges](https://github.com/Ileriayo/markdown-badges) - Adicione badges ao seu perfil.
+- [Latest Blog Posts and StackOverflow activity in readme](https://github.com/gautamkrishnar/blog-post-workflow) - Mostre automaticamente no README do perfil ou projeto do GitHub os posts mais recentes de qualquer fonte ou a atividade no StackOverflow, usando o feed RSS com esta GitHub Action
+- [GitHub Readme LinkedIn](https://github.com/soroushchehresa/github-readme-linkedin) - Obtenha nos READMEs do GitHub imagens geradas dinamicamente a partir do seu perfil do LinkedIn
+- [GitHub Readme Medium](https://github.com/omidnikrah/github-readme-medium) - Mostre seu artigo mais recente do Medium nos READMEs!
+- [GitHub Readme StackOverflow](https://github.com/omidnikrah/github-readme-stackoverflow) - Gere dinamicamente nos READMEs do GitHub o status do seu perfil do StackOverflow!
+- [StackOverflow Stats Badge](https://github.com/claytonjhamilton/stackoverflow-badge) - Exiba suas estatísticas com este badge exclusivo do StackOverflow!
+- [Github Profile README Generator](https://github.com/arturssmirnovs/github-profile-readme-generator) - Este projeto permite criar arquivos README de perfil do GitHub simples e bonitos.
+- [Profile Readme Stats](https://github.com/marketplace/actions/profile-readme-stats) - [GitHub Action] Destaque suas estatísticas do GitHub no README.md do seu perfil
+- [README Jokes](https://github.com/ABSphreak/readme-jokes) - Piadas aleatórias de desenvolvedores no seu README do GitHub.
+- [GitHub Profile Trophy](https://github.com/ryo-ma/github-profile-trophy) - 🏆 Adicione ao README um troféu do GitHub gerado dinamicamente
+- [Github Readme Twitter](https://github.com/gazf/github-readme-twitter) - Mostre seu tuíte mais recente nos READMEs.
+- [Random Dev Memes](https://github.com/techytushar/random-memer) - Memes aleatórios de desenvolvedores para exibir no seu README do GitHub.
+- [GitHub Readme Quotes](https://github.com/PiyushSuthar/github-readme-quotes) - Citações de desenvolvedores no README do seu perfil do GitHub.
+- [GitHub Profilinator](https://github.com/rishavanand/github-profilinator) - Esta ferramenta contém pequenos componentes de GUI que você pode combinar para gerar o README perfeito.
+- [PageSpeed score](https://github.com/ankurparihar/readme-pagespeed-insights) - Gere a pontuação PageSpeed de um site como SVG animado para usar em um README do GitHub
+- [Gitwar Profile Score](https://github.com/iampavangandhi/Gitwar) - Adicione sua pontuação do perfil do GitHub ao README.
+- [Header Images for Github Profile READMEs](https://github.com/khalby786/REHeader) - Gere imagens de cabeçalho com conteúdo personalizado para os READMEs do seu perfil do GitHub
+- [YouTube Channel Stats](https://github.com/DenverCoder1/github-readme-youtube-stats) - 📺 Exiba o número de inscritos no YouTube e/ou visualizações do canal como badge
+- [Current Book Status from GoodReads](https://github.com/theFr1nge/goodreads-readme) - Adicione um cartão do livro que está lendo; ele sincroniza automaticamente com o GoodReads para mostrar seu progresso.
+- [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg) - :zap: SVG gerado dinamicamente e personalizável que simula a digitação e a exclusão de texto
+- [Snake and Commits](https://github.com/dahan8473/snake-and-commits) - 🐍 Transforme seu gráfico de contribuições em um jogo de Snake que funciona sozinho. Inclui IA para encontrar caminhos, evitar colisões consigo mesmo e crescer ao comer. SVG animado puro, sem dependências, pronto para usar como Action.
+- [GitHub Profile Stats](https://github.com/rowkav09/GitHub-profile-stats) - Cartões gratuitos de estatísticas do GitHub em tempo real, gráficos de linguagens, mini badges e sparklines de atividade para seu README. Sem token nem configuração: basta colar uma linha. [Demonstração ao vivo](https://ghstats.dev)
+- [github-candles](https://github.com/starlash7/github-candles) - Renderize suas contribuições do GitHub como um gráfico de candles de negociação que se atualiza sozinho.
+- [Daily Badge](https://github.com/in-c0/daily-badge) - Uma nova mensagem divertida de “neste dia” aparece no seu perfil diariamente, no seu fuso horário. Uma URL, sem precisar de fork.
+- [Dither Portrait](https://github.com/0xharkirat/dither-portrait) - Transforme uma foto em SVG animado com dithering para o README do perfil e visualize-a em um playground no navegador
+- [GitHub Readme Zodiac](https://github.com/seuthootDev/github-readme-zodiac) - Cartões de perfil SVG com tema do zodíaco e Gists fixados da sua atividade no GitHub.
+- [GitHub Readme Chinese Zodiac](https://github.com/seuthootDev/github-readme-chinese-zodiac) - Cartões de perfil SVG com tema do zodíaco asiático (十二生肖) e Gists fixados da sua atividade no GitHub.
+- [vinilo](https://github.com/icortesb/vinilo) - Suas faixas recentes do Spotify em SVG estático, criado com suas próprias GitHub Actions e commitado no seu branch; nenhum serviço de terceiros guarda seu token
+- [Github Pet](https://github.com/prsdx/github-pet) - Gato animado em pixel art para o README do seu perfil do GitHub, que reage a atividades reais (falhas de CI, sequências, lançamentos); SVGs animados sem dependências via GitHub Action.
+
+## Artigos
+- ["Como criar um README de perfil do GitHub"](https://www.aboutmonica.com/blog/how-to-create-a-github-profile-readme) - *Monica Powell*
+- ["Como se destacar no GitHub com READMEs de perfil"](https://medium.com/better-programming/how-to-stand-out-on-github-with-profile-readmes-dfd2102a3490?source=friends_link&sk=61df9c4b63b329ad95528b8d7c00061f) - *Jessica Lim*
+- ["O que há no seu perfil do GitHub?"](https://dev.to/waylonwalker/what-s-on-your-github-profile-40p3) - *Waylon Walker*
+- ["3 maneiras de dar vida ao README do seu perfil do GitHub 🔥"](https://dev.to/jayehernandez/3-ways-to-spice-up-your-github-profile-readme-1276) - *Jaye Hernandez*
+- ["Estatísticas do GitHub geradas dinamicamente para seu README de perfil"](https://dev.to/anuraghazra/dynamically-generated-github-stats-for-your-profile-readme-o4g) - *Anurag Hazra*
+- ["Como criar um GIF incrível para o README do seu perfil do GitHub"](https://dev.to/satvikchachra/how-to-add-an-awesome-readme-to-your-github-profile-361n) - *Satvik Chachra*
+- ["Criar um repositório especial no seu perfil do GitHub 🔨: recursos compatíveis e incompatíveis"](https://torrocus.com/blog/special-github-repository/) - *Alex Malaszkiewicz*
+- ["Como criar um README de perfil com estatísticas dinâmicas do GitHub"](https://codewithghazi.com/how-to-create-a-github-profile-readme-with-dynamic-github-stats/) - *Ghazi Khan*
+- ["Como criei um README que se atualiza sozinho no meu perfil do GitHub"](https://www.mokkapps.de/blog/how-i-built-a-self-updating-readme-on-my-git-hub-profile/) - *Michael Hoffmann (Mokkapps)*
+- ["Criando um README de perfil do GitHub que se atualiza sozinho"](https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/) - *Simon Willison*
+- ["Como criar um README interativo para seu perfil do GitHub"](https://kavishhukmani.me/github-profile-interactive-readme-tutorial/) - *Kavish Hukmani*
+- ["O quê? Dá para fazer tudo isso no Github?"](https://zhuanlan.zhihu.com/p/161705999) - *Tw93*
+- ["Primeiros passos com Markdown Badges"](https://dev.to/ileriayo/mardown-badges-2og0) - *Ileriayo Adebiyi*
+- ["Exiba automaticamente as publicações mais recentes do dev.to no README do seu perfil do GitHub"](https://dev.to/gautamkrishnar/show-your-latest-dev-to-posts-automatically-in-your-github-profile-readme-3nk8)  - *Gautam krishna R*
+- ["Como criei um README que se atualiza sozinho com Webhooks e Netlify Functions"](https://github.com/RaoHai/RaoHai/blob/master/How-I-Built-A-Self-Updating-README-by-Webhooks-and-Netlify-Functions.md/) - *Rao Hai*
+- ["Crie um README incrível para seu perfil do GitHub"](https://towardsdatascience.com/build-a-stunning-readme-for-your-github-profile-9b80434fe5d7) - *Martin Heinz*
+- ["Como adicionei minhas estatísticas do Spotify ao README do GitHub 📜"](https://dev.to/gargakshit/how-i-added-my-spotify-statistics-to-my-github-readme-4jdd) - *Akshit Garg*
+- ["Regeneração estática do README"](https://dev.to/aralroca/static-readme-regeneration-4pf2) - *Aral Roca*
+- ["Como criar um README.md que se atualiza sozinho para seu perfil do GitHub"](https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91) - *Thomas Guibert*
+- ["Domine a página inicial do GitHub em um único artigo"](https://blog.holic-x.com/wv-blog/post/7ad96a5d.html) - *holic-x*
+
+## Tutorials
+- ["Crie um portfólio impressionante no GitHub"](https://www.youtube.com/watch?v=dkE4mVhwMB4) - *MTECHVIRAL*
+- ["Como criar um README de perfil do GitHub"](https://www.youtube.com/watch?v=DOiGs2NiDbU) - *James Q Quick*
+- ["Como criar um README de perfil do GitHub"](https://www.youtube.com/watch?v=vND_UY7xk24) - *Code With Confidence*
+- ["Como criar um README de perfil do GitHub"](https://www.youtube.com/watch?v=Y1z7_GfEPiE) - *Program With Erik*
+- ["README de perfil do GitHub em outro nível"](https://youtu.be/ECuqb5Tv9qI) - *codeSTACKr*
+
+## Contribua
+
+Contribuições são sempre bem-vindas!
+Leia primeiro as [diretrizes de contribuição](contributing.md).
+
+## Agradecimentos especiais 🙇
+- [Zetao Zhuang](https://github.com/zzetao) por criar o incrível site deste repositório!
+
+## Licença
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+Na medida permitida por lei, [Abhishek Naidu](https://abhisheknaidu.tech/) renunciou a todos os direitos autorais e direitos conexos sobre esta obra.
