@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: recursive
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -32,7 +34,7 @@ jobs:
             sleep 1
           done
           curl --fail --silent http://127.0.0.1:36265/ >/dev/null
-          curl --fail --silent http://127.0.0.1:36265/guides/getting-started/ >/dev/null
+          curl --fail --silent http://127.0.0.1:36265/awesome/awesome-github-profile-readme/ >/dev/null
         env:
           SITE_URL: http://localhost:36265
         shell: bash

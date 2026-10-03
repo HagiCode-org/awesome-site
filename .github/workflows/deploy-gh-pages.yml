@@ -19,10 +19,13 @@ jobs:
     permissions:
       contents: read
     env:
-      # awesome-site's astro.config.mjs requires SITE_URL to build.
-      SITE_URL: http://localhost:36265
+      SITE_URL: ${{ vars.SITE_URL }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Validate production origin
+        run: node scripts/validate-production-origin.mjs
       - uses: actions/setup-node@v4
         with:
           node-version: 22
