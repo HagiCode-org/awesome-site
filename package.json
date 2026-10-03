@@ -9,17 +9,30 @@
   },
   "scripts": {
     "dev": "astro dev",
+    "predev": "npm run content:prepare",
     "check": "astro check",
+    "precheck": "npm run content:prepare",
     "build": "astro build",
+    "prebuild": "npm run content:prepare",
     "preview": "astro preview",
-    "test": "node --test test/*.test.mjs"
+    "test": "node --test --test-concurrency=1 test/*.test.mjs",
+    "content:export": "node scripts/content-pipeline.mjs export",
+    "content:check": "node scripts/content-pipeline.mjs check",
+    "content:prepare": "node scripts/content-pipeline.mjs prepare"
   },
   "dependencies": {
+    "@astrojs/markdown-remark": "7.3.0",
     "@astrojs/sitemap": "^3.7.1",
     "@astrojs/starlight": "^0.42.4",
     "@hagicode/hagilight": "0.5.0",
     "@hagicode/hagilight-starlight": "0.5.0",
-    "astro": "^7.3.5"
+    "astro": "^7.3.5",
+    "github-slugger": "2.0.0",
+    "rehype-parse": "9.0.1",
+    "rehype-raw": "7.0.0",
+    "remark-gfm": "4.0.1",
+    "remark-parse": "11.0.0",
+    "unified": "11.0.5"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
