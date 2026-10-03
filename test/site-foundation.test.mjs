@@ -6,7 +6,7 @@ import test from "node:test";
 import { fileURLToPath } from "node:url";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
-const siteUrl = "http://localhost:36265";
+const siteUrl = new URL(process.env.SITE_URL ?? "http://localhost:36265").origin;
 
 function configResult(value, includeSiteUrl = true, command = "build") {
   const env = { ...process.env };
@@ -62,7 +62,7 @@ test("built pages use Awesome Site identity, local routes, shared shell, and gen
   assert.match(home, /class="hagilight-article-promotion(?:\s|")/u);
   assert.doesNotMatch(home, /googletagmanager|google-analytics|51la|promoto/u);
 
-  assert.match(home, new RegExp(`rel="canonical" href="${siteUrl}/"`));
+  assert.ok(home.includes(`rel="canonical" href="${siteUrl}/"`));
   assert.match(home, /href="\/awesome\/awesome-github-profile-readme\/"/u);
   assert.match(notFound, /404/u);
   assert.match(notFound, /href="\/"/u);
