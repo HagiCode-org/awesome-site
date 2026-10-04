@@ -15,3 +15,13 @@ src/content/docs/ja-JP/awesome/
 src/content/docs/ko-KR/awesome/
 src/content/docs/pt-BR/awesome/
 src/content/docs/ru-RU/awesome/
+src/content/docs/index.md
+src/content/docs/zh-CN/index.md
+src/content/docs/zh-Hant/index.md
+src/content/docs/fr-FR/index.md
+src/content/docs/de-DE/index.md
+src/content/docs/es-ES/index.md
+src/content/docs/ja-JP/index.md
+src/content/docs/ko-KR/index.md
+src/content/docs/pt-BR/index.md
+src/content/docs/ru-RU/index.md
