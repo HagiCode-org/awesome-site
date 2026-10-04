@@ -173,7 +173,7 @@ test("built pages use Awesome Site identity, local routes, shared shell, and gen
     assert.equal(contentLinks(allCollectionsEnglish).filter(({ href }) => href === `/${route}/`).length, 1);
   }
   assert.match(allCollectionsEnglishMain, /href="\/awesome\/tags\/github-profile-readme\/"/u);
-  assert.match(allCollectionsEnglishMain, /More repositories on GitHub \(32\)/u);
+  assert.match(allCollectionsEnglishMain, new RegExp(`More repositories on GitHub \\(${candidates.length}\\)`));
   for (const { repositoryUrl } of candidates) {
     assert.ok(allCollectionsEnglishMain.includes(`href="${repositoryUrl}"`), `${repositoryUrl} appears in the English index`);
   }
@@ -329,7 +329,7 @@ test("built pages use Awesome Site identity, local routes, shared shell, and gen
         collections.some(({ route }) => href === `/${prefix}${route}/`));
       assert.equal(articleSidebarLinks.length, collections.length, `${locale} sidebar ${pageIndex} has all articles`);
       assert.equal(
-        linksIn(sidebar).some(({ href }) => href?.includes("/awesome/tags/") || href?.startsWith("https://github.com/")),
+        linksIn(sidebar).some(({ href }) => href?.startsWith("https://github.com/")),
         false,
       );
       assert.match(sidebar, new RegExp(`href="/${prefix}awesome/"`));
@@ -368,6 +368,37 @@ test("built pages use Awesome Site identity, local routes, shared shell, and gen
   const pagefindFiles = await readdir(path.join(root, "dist/pagefind"));
   for (const [locale] of locales) {
     assert.ok(pagefindFiles.some((file) => file.startsWith(`pagefind.${locale.toLowerCase()}_`)));
+  }
+});
+
+test("production sidebars include all localized topic links", async () => {
+  const collections = JSON.parse(await readFile(path.join(root, "content/awesome/collections.json"), "utf8"));
+  const catalogs = JSON.parse(await readFile(path.join(root, "content/awesome/catalogs.json"), "utf8"));
+  const topics = [...new Set(collections.flatMap(({ catalog, tags = [] }) => [
+    ...(Array.isArray(catalog) ? catalog : [catalog]),
+    ...(Array.isArray(tags) ? tags : [tags]),
+  ]))].sort();
+  const locales = ["root", "zh-CN", "zh-Hant", "fr-FR", "de-DE", "es-ES", "ja-JP", "ko-KR", "pt-BR", "ru-RU"];
+  const routes = [
+    "awesome/awesome-github-profile-readme",
+    "awesome",
+    "awesome/tags/github-profile-readme",
+  ];
+
+  for (const locale of locales) {
+    const prefix = locale === "root" ? "" : `${locale}/`;
+    for (const route of routes) {
+      const html = await readFile(path.join(root, "dist", `${prefix}${route}/index.html`), "utf8");
+      const topicLinks = linksIn(sidebarContent(html)).filter(({ href }) => href?.includes("/awesome/tags/"));
+      assert.equal(topicLinks.length, topics.length, `${locale} ${route} sidebar has all topics`);
+      for (const topic of topics) {
+        assert.ok(
+          topicLinks.some(({ href, label }) =>
+            href === `/${prefix}awesome/tags/${topic}/` && label === catalogs[topic].labels[locale]),
+          `${locale} ${route} sidebar localizes topic ${topic}`,
+        );
+      }
+    }
   }
 });
 

@@ -1,11 +1,14 @@
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 import starlight from "@astrojs/starlight";
+import collections from "./content/awesome/collections.json" with { type: "json" };
+import catalogs from "./content/awesome/catalogs.json" with { type: "json" };
 import hagilight from "@hagicode/hagilight-starlight";
 import { locales as hagilightLocales } from "@hagicode/hagilight-starlight/locales";
 import { hagilight as hagilightDiscovery } from "@hagicode/hagilight/integration";
 import { unified } from "@astrojs/markdown-remark";
 import rehypeRaw from "rehype-raw";
+import { normalizeCatalogTags } from "./src/catalog-tags.mjs";
 import { awesomeContent, awesomeSourceImages } from "./src/plugins/awesome-content.mjs";
 
 const rawSiteUrl = process.env.SITE_URL
@@ -34,6 +37,25 @@ if (siteUrl.protocol !== "http:" && siteUrl.protocol !== "https:") {
 
 const siteOrigin = siteUrl.origin;
 const siteDescription = "A practical foundation for site-owned content.";
+const topicLabels = {
+  root: "Browse by topic",
+  "zh-CN": "按主题浏览",
+  "zh-Hant": "依主題瀏覽",
+  "fr-FR": "Parcourir par sujet",
+  "de-DE": "Nach Thema durchsuchen",
+  "es-ES": "Explorar por tema",
+  "ja-JP": "トピックから探す",
+  "ko-KR": "주제별로 둘러보기",
+  "pt-BR": "Navegar por tópico",
+  "ru-RU": "Обзор по темам",
+};
+const usedTopics = [...new Set(collections.flatMap((collection) =>
+  normalizeCatalogTags(collection).tags))].sort();
+const topicItems = usedTopics.map((topic) => ({
+  label: catalogs[topic].labels.root,
+  translations: catalogs[topic].labels,
+  link: `/awesome/tags/${topic}/`,
+}));
 const sidebarLabels = {
   home: {
     "zh-CN": "首页",
@@ -96,6 +118,11 @@ export default defineConfig({
           }, {
             autogenerate: { directory: "awesome" },
           }],
+        },
+        {
+          label: topicLabels.root,
+          translations: topicLabels,
+          items: topicItems,
         },
       ],
       components: { PageTitle: "./src/components/PageTitle.astro" },
