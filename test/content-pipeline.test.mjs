@@ -494,7 +494,7 @@ test("fresh-checkout preparation creates all homepages and their ownership manif
   const fixtureRoot = await createIsolatedPipeline({ validSource: true });
   try {
     await rm(path.join(fixtureRoot, ".awesome-content-manifest.json"));
-    await rm(path.join(fixtureRoot, "src/content/docs/awesome/old-page.md"));
+    await rm(path.join(fixtureRoot, "src/content"), { recursive: true });
     const result = spawnSync(process.execPath, ["scripts/content-pipeline.mjs", "prepare"], {
       cwd: fixtureRoot,
       encoding: "utf8",
@@ -512,6 +512,29 @@ test("fresh-checkout preparation creates all homepages and their ownership manif
     }
   } finally {
     await rm(fixtureRoot, { recursive: true, force: true });
+  }
+});
+
+test("fresh-checkout preparation rejects symlinked content ancestors", async () => {
+  for (const relative of ["src/content", "src/content/docs"]) {
+    const fixtureRoot = await createIsolatedPipeline({ validSource: true });
+    try {
+      await rm(path.join(fixtureRoot, ".awesome-content-manifest.json"));
+      await rm(path.join(fixtureRoot, relative), { recursive: true });
+      const target = path.join(fixtureRoot, "outside-docs");
+      await mkdir(target);
+      await symlink(target, path.join(fixtureRoot, relative), "dir");
+      const result = spawnSync(process.execPath, ["scripts/content-pipeline.mjs", "prepare"], {
+        cwd: fixtureRoot,
+        encoding: "utf8",
+      });
+      assert.notEqual(result.status, 0);
+      assert.match(`${result.stdout}${result.stderr}`, /Generated path parent is not a real directory/u);
+      await assert.rejects(access(path.join(target, "index.md")), { code: "ENOENT" });
+      await assert.rejects(access(path.join(fixtureRoot, ".awesome-content-manifest.json")), { code: "ENOENT" });
+    } finally {
+      await rm(fixtureRoot, { recursive: true, force: true });
+    }
   }
 });
 

@@ -692,12 +692,8 @@ async function ensureNoSymlinkAncestors(filePath) {
   if (relative.startsWith("..") || path.isAbsolute(relative)) {
     throw new Error(`Generated path escaped docs root: ${filePath}`);
   }
-  let current = docsRoot;
-  const docsStat = await lstat(docsRoot);
-  if (!docsStat.isDirectory() || docsStat.isSymbolicLink()) {
-    throw new Error("src/content/docs must be a real directory");
-  }
-  for (const part of path.dirname(relative).split(path.sep).filter(Boolean)) {
+  let current = root;
+  for (const part of path.relative(root, path.dirname(filePath)).split(path.sep).filter(Boolean)) {
     current = path.join(current, part);
     try {
       const stat = await lstat(current);
