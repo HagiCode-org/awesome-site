@@ -58,15 +58,15 @@ const sidebarLabels = {
     "ru-RU": "Подборки",
   },
   allCollections: {
-    "zh-CN": "所有合集",
-    "zh-Hant": "所有精選集",
-    "fr-FR": "Toutes les collections",
-    "de-DE": "Alle Sammlungen",
-    "es-ES": "Todas las colecciones",
-    "ja-JP": "すべてのコレクション",
-    "ko-KR": "모든 컬렉션",
-    "pt-BR": "Todas as coleções",
-    "ru-RU": "Все подборки",
+    "zh-CN": "合集与仓库",
+    "zh-Hant": "精選集與儲存庫",
+    "fr-FR": "Collections et dépôts",
+    "de-DE": "Sammlungen und Repositories",
+    "es-ES": "Colecciones y repositorios",
+    "ja-JP": "コレクションとリポジトリ",
+    "ko-KR": "컬렉션 및 저장소",
+    "pt-BR": "Coleções e repositórios",
+    "ru-RU": "Подборки и репозитории",
   },
 };
 
@@ -90,9 +90,11 @@ export default defineConfig({
           label: "Awesome collections",
           translations: sidebarLabels.collections,
           items: [{
-            label: "All collections",
+            label: "Collections and repositories",
             translations: sidebarLabels.allCollections,
             link: "/awesome/",
+          }, {
+            autogenerate: { directory: "awesome" },
           }],
         },
       ],
