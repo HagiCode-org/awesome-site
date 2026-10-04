@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Awesome Terraform 精选",
+      "description": "HashiCorp Terraform 相关资源精选。",
+      "sourceDigest": "96f4a8ad20607b1933fa8af465780249bcb2fcb8ccb38e64a79d297ac5fd5ab1",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Awesome Terraform 精選",
+      "description": "精選 HashiCorp Terraform 相關資源。",
+      "sourceDigest": "96f4a8ad20607b1933fa8af465780249bcb2fcb8ccb38e64a79d297ac5fd5ab1",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Sélection Awesome Terraform",
+      "description": "Une sélection de ressources sur Terraform de HashiCorp.",
+      "sourceDigest": "96f4a8ad20607b1933fa8af465780249bcb2fcb8ccb38e64a79d297ac5fd5ab1",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Awesome Terraform – Auswahl",
+      "description": "Eine kuratierte Sammlung von Ressourcen zu HashiCorps Terraform.",
+      "sourceDigest": "96f4a8ad20607b1933fa8af465780249bcb2fcb8ccb38e64a79d297ac5fd5ab1",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Selección de Awesome Terraform",
+      "description": "Una selección de recursos sobre Terraform de HashiCorp.",
+      "sourceDigest": "96f4a8ad20607b1933fa8af465780249bcb2fcb8ccb38e64a79d297ac5fd5ab1",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Awesome Terraform 厳選集",
+      "description": "HashiCorp Terraform に関するリソースを厳選して紹介します。",
+      "sourceDigest": "96f4a8ad20607b1933fa8af465780249bcb2fcb8ccb38e64a79d297ac5fd5ab1",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Awesome Terraform 모음",
+      "description": "HashiCorp Terraform 관련 자료를 엄선했습니다.",
+      "sourceDigest": "96f4a8ad20607b1933fa8af465780249bcb2fcb8ccb38e64a79d297ac5fd5ab1",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Seleção Awesome Terraform",
+      "description": "Uma seleção de recursos sobre o Terraform da HashiCorp.",
+      "sourceDigest": "96f4a8ad20607b1933fa8af465780249bcb2fcb8ccb38e64a79d297ac5fd5ab1",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка Awesome Terraform",
+      "description": "Подборка ресурсов о Terraform от HashiCorp.",
+      "sourceDigest": "96f4a8ad20607b1933fa8af465780249bcb2fcb8ccb38e64a79d297ac5fd5ab1",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

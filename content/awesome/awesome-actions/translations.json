@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Awesome Actions 精选",
+      "description": "GitHub Actions 相关资源精选。",
+      "sourceDigest": "3f17b8c855ba7ddeddd260f4e91ae748ea292f435fe5780d6e031cdd9b3616b3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Awesome Actions 精選",
+      "description": "精選與 GitHub Actions 相關的優質資源。",
+      "sourceDigest": "3f17b8c855ba7ddeddd260f4e91ae748ea292f435fe5780d6e031cdd9b3616b3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Sélection Awesome Actions",
+      "description": "Une sélection de ressources utiles autour de GitHub Actions.",
+      "sourceDigest": "3f17b8c855ba7ddeddd260f4e91ae748ea292f435fe5780d6e031cdd9b3616b3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Awesome Actions – Auswahl",
+      "description": "Eine kuratierte Sammlung empfehlenswerter Ressourcen rund um GitHub Actions.",
+      "sourceDigest": "3f17b8c855ba7ddeddd260f4e91ae748ea292f435fe5780d6e031cdd9b3616b3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Selección de Awesome Actions",
+      "description": "Una selección de recursos relacionados con GitHub Actions.",
+      "sourceDigest": "3f17b8c855ba7ddeddd260f4e91ae748ea292f435fe5780d6e031cdd9b3616b3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Awesome Actions 厳選集",
+      "description": "GitHub Actions に関する便利なリソースを厳選して紹介します。",
+      "sourceDigest": "3f17b8c855ba7ddeddd260f4e91ae748ea292f435fe5780d6e031cdd9b3616b3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Awesome Actions 모음",
+      "description": "GitHub Actions 관련 유용한 리소스를 엄선했습니다.",
+      "sourceDigest": "3f17b8c855ba7ddeddd260f4e91ae748ea292f435fe5780d6e031cdd9b3616b3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Seleção Awesome Actions",
+      "description": "Uma seleção de recursos relacionados ao GitHub Actions.",
+      "sourceDigest": "3f17b8c855ba7ddeddd260f4e91ae748ea292f435fe5780d6e031cdd9b3616b3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка Awesome Actions",
+      "description": "Подборка полезных ресурсов, связанных с GitHub Actions.",
+      "sourceDigest": "3f17b8c855ba7ddeddd260f4e91ae748ea292f435fe5780d6e031cdd9b3616b3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

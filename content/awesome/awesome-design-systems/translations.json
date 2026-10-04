@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "精选设计系统",
+      "description": "精选的设计系统、组件库、设计指南和相关开源资源。",
+      "sourceDigest": "f23bc070cb6225ddd5b84316159a7074d7442820c141d6677cec5654c7858974",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "精選設計系統",
+      "description": "精選設計系統、元件程式庫、設計指南及相關開放原始碼資源。",
+      "sourceDigest": "f23bc070cb6225ddd5b84316159a7074d7442820c141d6677cec5654c7858974",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Sélection de systèmes de conception",
+      "description": "Une sélection de systèmes de conception, de bibliothèques de composants, de guides de conception et de ressources à code source ouvert.",
+      "sourceDigest": "f23bc070cb6225ddd5b84316159a7074d7442820c141d6677cec5654c7858974",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Auswahl an Designsystemen",
+      "description": "Eine Auswahl an Designsystemen, Komponentenbibliotheken, Designrichtlinien und Open-Source-Ressourcen.",
+      "sourceDigest": "f23bc070cb6225ddd5b84316159a7074d7442820c141d6677cec5654c7858974",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Selección de sistemas de diseño",
+      "description": "Una selección de sistemas de diseño, bibliotecas de componentes, guías de diseño y recursos de código abierto.",
+      "sourceDigest": "f23bc070cb6225ddd5b84316159a7074d7442820c141d6677cec5654c7858974",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "デザインシステム厳選集",
+      "description": "デザインシステム、コンポーネントライブラリ、デザインガイド、関連するオープンソースリソースを厳選して紹介します。",
+      "sourceDigest": "f23bc070cb6225ddd5b84316159a7074d7442820c141d6677cec5654c7858974",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "디자인 시스템 모음",
+      "description": "엄선한 디자인 시스템, 컴포넌트 라이브러리, 디자인 가이드 및 관련 오픈 소스 리소스입니다.",
+      "sourceDigest": "f23bc070cb6225ddd5b84316159a7074d7442820c141d6677cec5654c7858974",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Seleção de sistemas de design",
+      "description": "Uma seleção de sistemas de design, bibliotecas de componentes, guias de design e recursos de código aberto.",
+      "sourceDigest": "f23bc070cb6225ddd5b84316159a7074d7442820c141d6677cec5654c7858974",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка дизайн-систем",
+      "description": "Подборка дизайн-систем, библиотек компонентов, руководств по дизайну и связанных ресурсов с открытым исходным кодом.",
+      "sourceDigest": "f23bc070cb6225ddd5b84316159a7074d7442820c141d6677cec5654c7858974",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

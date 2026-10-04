@@ -1,0 +1,48 @@
+---
+import HagilightPageTitle from "@hagicode/hagilight-starlight/PageTitle";
+import catalogs from "../../content/awesome/catalogs.json";
+
+const route = Astro.locals.starlightRoute;
+const { data } = route.entry;
+const tags = data.awesomeSource ? data.tags ?? [] : [];
+const locale = route.locale;
+const taxonomy = new Map(Object.entries(catalogs));
+
+function localizedTopic(topic: string) {
+  const entry = taxonomy.get(topic);
+  if (!entry) throw new Error(`Unknown catalog topic "${topic}"`);
+  if (locale === undefined) return entry.labels.root;
+  if (locale === "zh-CN") return entry.labels["zh-CN"];
+  if (locale === "zh-Hant") return entry.labels["zh-Hant"];
+  if (locale === "fr-FR") return entry.labels["fr-FR"];
+  if (locale === "de-DE") return entry.labels["de-DE"];
+  if (locale === "es-ES") return entry.labels["es-ES"];
+  if (locale === "ja-JP") return entry.labels["ja-JP"];
+  if (locale === "ko-KR") return entry.labels["ko-KR"];
+  if (locale === "pt-BR") return entry.labels["pt-BR"];
+  if (locale === "ru-RU") return entry.labels["ru-RU"];
+  throw new Error(`Unsupported catalog locale "${locale}"`);
+}
+
+const topicsLabel = locale === undefined ? "Topics"
+  : locale === "zh-CN" ? "主题"
+    : locale === "zh-Hant" ? "主題"
+      : locale === "fr-FR" ? "Sujets"
+        : locale === "de-DE" ? "Themen"
+          : locale === "es-ES" ? "Temas"
+            : locale === "ja-JP" ? "トピック"
+              : locale === "ko-KR" ? "주제"
+                : locale === "pt-BR" ? "Tópicos"
+                  : locale === "ru-RU" ? "Темы"
+                    : (() => { throw new Error(`Unsupported catalog locale "${locale}"`); })();
+const prefix = locale === undefined ? "" : `/${locale}`;
+---
+
+<HagilightPageTitle />
+{tags.length > 0 && <nav class="awesome-topic-nav" aria-label={topicsLabel}>
+    <span>{topicsLabel}</span>
+    <ul>
+      {tags.map((tag) => <li><a href={`${prefix}/awesome/tags/${tag}/`}>{localizedTopic(tag)}</a></li>)}
+    </ul>
+  </nav>
+}

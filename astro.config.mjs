@@ -6,7 +6,7 @@ import { locales as hagilightLocales } from "@hagicode/hagilight-starlight/local
 import { hagilight as hagilightDiscovery } from "@hagicode/hagilight/integration";
 import { unified } from "@astrojs/markdown-remark";
 import rehypeRaw from "rehype-raw";
-import { awesomeContent } from "./src/plugins/awesome-content.mjs";
+import { awesomeContent, awesomeSourceImages } from "./src/plugins/awesome-content.mjs";
 
 const rawSiteUrl = process.env.SITE_URL
   ?? (process.argv[2] === "dev" ? "http://localhost:36265" : undefined);
@@ -57,16 +57,16 @@ const sidebarLabels = {
     "pt-BR": "Coleções",
     "ru-RU": "Подборки",
   },
-  profileReadme: {
-    "zh-CN": "GitHub 个人资料 README",
-    "zh-Hant": "GitHub 個人檔案 README",
-    "fr-FR": "README de profil GitHub",
-    "de-DE": "GitHub-Profil-README",
-    "es-ES": "README de perfil de GitHub",
-    "ja-JP": "GitHub プロフィール README",
-    "ko-KR": "GitHub 프로필 README",
-    "pt-BR": "README de perfil do GitHub",
-    "ru-RU": "README профиля GitHub",
+  allCollections: {
+    "zh-CN": "所有合集",
+    "zh-Hant": "所有精選集",
+    "fr-FR": "Toutes les collections",
+    "de-DE": "Alle Sammlungen",
+    "es-ES": "Todas las colecciones",
+    "ja-JP": "すべてのコレクション",
+    "ko-KR": "모든 컬렉션",
+    "pt-BR": "Todas as coleções",
+    "ru-RU": "Все подборки",
   },
 };
 
@@ -76,7 +76,7 @@ export default defineConfig({
   server: { port: 36265, strictPort: true },
   preview: { port: 36265, strictPort: true },
   markdown: {
-    processor: unified({ rehypePlugins: [rehypeRaw, awesomeContent] }),
+    processor: unified({ remarkPlugins: [awesomeSourceImages], rehypePlugins: [rehypeRaw, awesomeContent] }),
   },
   integrations: [
     starlight({
@@ -90,15 +90,17 @@ export default defineConfig({
           label: "Awesome collections",
           translations: sidebarLabels.collections,
           items: [{
-            label: "GitHub Profile README",
-            translations: sidebarLabels.profileReadme,
-            link: "/awesome/awesome-github-profile-readme/",
+            label: "All collections",
+            translations: sidebarLabels.allCollections,
+            link: "/awesome/",
           }],
         },
       ],
+      components: { PageTitle: "./src/components/PageTitle.astro" },
       customCss: ["./src/styles/site.css"],
       plugins: [
         hagilight({
+          contentComponents: { pageTitle: false },
           rss: { getFeed: "./src/rss-feed.mjs" },
           seo: {
             title: "Awesome Site",
@@ -113,7 +115,7 @@ export default defineConfig({
             googleAnalytics: { enabled: false },
             fiftyOneLa: { enabled: false },
           },
-          promoto: { enabled: false },
+          promoto: { enabled: true },
         }),
       ],
     }),

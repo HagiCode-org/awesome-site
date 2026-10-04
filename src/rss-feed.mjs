@@ -10,7 +10,7 @@ export default async function getFeed({ route, lang }) {
       if (!prefix) return !localeKeys.some((locale) => id === locale || id.startsWith(`${locale}/`));
       return id === prefix || id.startsWith(`${prefix}/`);
     })
-    .filter(({ data }) => !data.draft)
+    .filter(({ data }) => !data.draft && data.rss !== false)
     .map(({ id, data }) => {
       const slug = id === "index" ? "" : id;
       return {

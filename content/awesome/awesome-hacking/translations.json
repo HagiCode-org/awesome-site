@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "黑客与网络安全资源精选",
+      "description": "精选黑客、渗透测试与安全研究资源，汇集实用目录、工具和学习资料。",
+      "sourceDigest": "1eb72603c56b75fdfc1c770add9b16330f319e615dc1216fb99533f59329c971",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "駭客與網路安全資源精選",
+      "description": "精選駭客、滲透測試與資安研究資源，彙集實用清單、工具和學習資料。",
+      "sourceDigest": "1eb72603c56b75fdfc1c770add9b16330f319e615dc1216fb99533f59329c971",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Sélection de ressources de hacking et de cybersécurité",
+      "description": "Une sélection de ressources pour les hackers, les testeurs d’intrusion et les chercheurs en sécurité : listes, outils et supports de formation.",
+      "sourceDigest": "1eb72603c56b75fdfc1c770add9b16330f319e615dc1216fb99533f59329c971",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Sammlung von Hacking- und Cybersicherheitsressourcen",
+      "description": "Eine Auswahl an Ressourcen für Hacker, Penetrationstester und Sicherheitsforscher: Listen, Tools und Lernmaterialien.",
+      "sourceDigest": "1eb72603c56b75fdfc1c770add9b16330f319e615dc1216fb99533f59329c971",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Selección de recursos de hacking y ciberseguridad",
+      "description": "Selección de recursos para hackers, pentesters e investigadores de seguridad: listas, herramientas y materiales de aprendizaje.",
+      "sourceDigest": "1eb72603c56b75fdfc1c770add9b16330f319e615dc1216fb99533f59329c971",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "ハッキング・サイバーセキュリティ資料集",
+      "description": "ハッカー、ペネトレーションテスター、セキュリティ研究者向けに、便利なリストやツール、学習資料を厳選して紹介します。",
+      "sourceDigest": "1eb72603c56b75fdfc1c770add9b16330f319e615dc1216fb99533f59329c971",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "해킹 및 사이버 보안 자료 모음",
+      "description": "해커, 침투 테스터, 보안 연구자를 위한 유용한 목록, 도구 및 학습 자료를 엄선했습니다.",
+      "sourceDigest": "1eb72603c56b75fdfc1c770add9b16330f319e615dc1216fb99533f59329c971",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Seleção de recursos de hacking e cibersegurança",
+      "description": "Seleção de recursos para hackers, pentesters e pesquisadores de segurança: listas, ferramentas e materiais de aprendizado.",
+      "sourceDigest": "1eb72603c56b75fdfc1c770add9b16330f319e615dc1216fb99533f59329c971",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка ресурсов по хакингу и кибербезопасности",
+      "description": "Подборка ресурсов для хакеров, пентестеров и исследователей безопасности: списки, инструменты и учебные материалы.",
+      "sourceDigest": "1eb72603c56b75fdfc1c770add9b16330f319e615dc1216fb99533f59329c971",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

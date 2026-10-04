@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Awesome Postgres 精选集",
+      "description": "精选的 PostgreSQL 软件、库、工具与资源。",
+      "sourceDigest": "07263aea2887ca79aa67297c6b22cf0258e0bbee2aaac9d7ac200894baae61e9",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Awesome Postgres 精選集",
+      "description": "精選的 PostgreSQL 軟體、函式庫、工具與資源。",
+      "sourceDigest": "07263aea2887ca79aa67297c6b22cf0258e0bbee2aaac9d7ac200894baae61e9",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Sélection Awesome Postgres",
+      "description": "Une sélection de logiciels, bibliothèques, outils et ressources PostgreSQL.",
+      "sourceDigest": "07263aea2887ca79aa67297c6b22cf0258e0bbee2aaac9d7ac200894baae61e9",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Awesome Postgres: eine Auswahl",
+      "description": "Eine Auswahl an PostgreSQL-Software, Bibliotheken, Werkzeugen und Ressourcen.",
+      "sourceDigest": "07263aea2887ca79aa67297c6b22cf0258e0bbee2aaac9d7ac200894baae61e9",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Selección de Awesome Postgres",
+      "description": "Una selección de software, bibliotecas, herramientas y recursos de PostgreSQL.",
+      "sourceDigest": "07263aea2887ca79aa67297c6b22cf0258e0bbee2aaac9d7ac200894baae61e9",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Awesome Postgres 厳選集",
+      "description": "PostgreSQL のソフトウェア、ライブラリ、ツール、リソースを厳選して紹介します。",
+      "sourceDigest": "07263aea2887ca79aa67297c6b22cf0258e0bbee2aaac9d7ac200894baae61e9",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Awesome Postgres 추천 모음",
+      "description": "엄선한 PostgreSQL 소프트웨어, 라이브러리, 도구 및 자료입니다.",
+      "sourceDigest": "07263aea2887ca79aa67297c6b22cf0258e0bbee2aaac9d7ac200894baae61e9",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Seleção Awesome Postgres",
+      "description": "Uma seleção de softwares, bibliotecas, ferramentas e recursos para PostgreSQL.",
+      "sourceDigest": "07263aea2887ca79aa67297c6b22cf0258e0bbee2aaac9d7ac200894baae61e9",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка Awesome Postgres",
+      "description": "Подборка программ, библиотек, инструментов и ресурсов для PostgreSQL.",
+      "sourceDigest": "07263aea2887ca79aa67297c6b22cf0258e0bbee2aaac9d7ac200894baae61e9",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

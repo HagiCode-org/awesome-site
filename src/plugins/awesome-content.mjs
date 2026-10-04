@@ -237,7 +237,39 @@ export function resolveSourceUrl(target, {
   return `https://${host}/${ownerRepo}${prefix}/${revision}/${decodedPath}${suffix}`;
 }
 
+export function awesomeSourceImages() {
+  return function transform(tree, file) {
+    const source = file.data.astro?.frontmatter?.awesomeSource;
+    if (!source) return;
+    const options = {
+      repositoryUrl: source.repositoryUrl,
+      revision: source.revision,
+      readmePath: source.readmePath,
+      kind: "image",
+    };
+    const definitions = new Map();
+    walk(tree, (node) => {
+      if (node.type === "definition") definitions.set(node.identifier, node);
+    });
+    walk(tree, (node) => {
+      if (node.type === "image") {
+        node.url = resolveSourceUrl(node.url, options);
+      } else if (node.type === "imageReference") {
+        const definition = definitions.get(node.identifier);
+        if (!definition) throw new Error(`${source.id}: unresolved image reference "${node.identifier}"`);
+        node.type = "image";
+        node.url = resolveSourceUrl(definition.url, options);
+        node.title ??= definition.title;
+        delete node.identifier;
+        delete node.label;
+        delete node.referenceType;
+      }
+    });
+  };
+}
+
 export function awesomeContent() {
+  const reportedMissingFragments = new Set();
   return function transform(tree, file) {
     const frontmatter = file.data.astro?.frontmatter;
     const source = frontmatter?.awesomeSource;
@@ -279,7 +311,11 @@ export function awesomeContent() {
       const target = node.properties[property];
       if (property === "href" && target.startsWith(`/awesome/${source.id}/`)) return;
       if (target.startsWith("#") && !ids.has(decodeURIComponent(target.slice(1)))) {
-        throw new Error(`${source.id}: in-page link points to missing section "${target}"`);
+        const missingFragment = `${source.id}:${target}`;
+        if (!reportedMissingFragments.has(missingFragment)) {
+          console.warn(`${source.id}: pinned source links to missing section "${target}"; preserving the upstream link`);
+          reportedMissingFragments.add(missingFragment);
+        }
       }
       node.properties[property] = resolveSourceUrl(target, {
         repositoryUrl: source.repositoryUrl,

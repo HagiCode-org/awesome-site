@@ -7,6 +7,172 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-github-profile-readme",
-    "title": "Awesome GitHub Profile README"
+    "title": "Awesome GitHub Profile README",
+    "catalog": "github-profile-readme"
+  },
+  {
+    "id": "awesome-design-systems",
+    "repositoryUrl": "https://github.com/alexpate/awesome-design-systems",
+    "sourceDir": "sources/awesome-design-systems",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE",
+    "licenseId": "Unlicense",
+    "route": "awesome/awesome-design-systems",
+    "title": "Awesome Design Systems",
+    "catalog": "design-systems"
+  },
+  {
+    "id": "awesome-ansible",
+    "repositoryUrl": "https://github.com/ansible-community/awesome-ansible",
+    "sourceDir": "sources/awesome-ansible",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE",
+    "licenseId": "CC0-1.0",
+    "route": "awesome/awesome-ansible",
+    "title": "Awesome Ansible",
+    "catalog": "ansible"
+  },
+  {
+    "id": "awesome-rag",
+    "repositoryUrl": "https://github.com/Danielskry/Awesome-RAG",
+    "sourceDir": "sources/awesome-rag",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE",
+    "licenseId": "CC0-1.0",
+    "route": "awesome/awesome-rag",
+    "title": "Awesome RAG",
+    "catalog": "rag"
+  },
+  {
+    "id": "awesome-electron",
+    "repositoryUrl": "https://github.com/sindresorhus/awesome-electron",
+    "sourceDir": "sources/awesome-electron",
+    "readmePath": "readme.md",
+    "licensePath": "license",
+    "licenseId": "CC0-1.0",
+    "route": "awesome/awesome-electron",
+    "title": "Awesome Electron",
+    "catalog": "electron"
+  },
+  {
+    "id": "awesome-postgres",
+    "repositoryUrl": "https://github.com/dhamaniasad/awesome-postgres",
+    "sourceDir": "sources/awesome-postgres",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE",
+    "licenseId": "CC0-1.0",
+    "route": "awesome/awesome-postgres",
+    "title": "Awesome PostgreSQL",
+    "catalog": "postgresql"
+  },
+  {
+    "id": "awesome-typescript",
+    "repositoryUrl": "https://github.com/dzharii/awesome-typescript",
+    "sourceDir": "sources/awesome-typescript",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE",
+    "licenseId": "Unlicense",
+    "route": "awesome/awesome-typescript",
+    "title": "Awesome TypeScript",
+    "catalog": "typescript"
+  },
+  {
+    "id": "awesome-hacking",
+    "repositoryUrl": "https://github.com/Hack-with-Github/Awesome-Hacking",
+    "sourceDir": "sources/awesome-hacking",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE",
+    "licenseId": "CC0-1.0",
+    "route": "awesome/awesome-hacking",
+    "title": "Awesome Hacking",
+    "catalog": "cybersecurity"
+  },
+  {
+    "id": "awesome-actions",
+    "repositoryUrl": "https://github.com/sdras/awesome-actions",
+    "sourceDir": "sources/awesome-actions",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE",
+    "licenseId": "CC0-1.0",
+    "route": "awesome/awesome-actions",
+    "title": "Awesome Actions",
+    "catalog": "github-actions"
+  },
+  {
+    "id": "awesome-tf",
+    "repositoryUrl": "https://github.com/shuaibiyy/awesome-tf",
+    "sourceDir": "sources/awesome-tf",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE",
+    "licenseId": "CC0-1.0",
+    "route": "awesome/awesome-tf",
+    "title": "Awesome Terraform",
+    "catalog": "terraform-opentofu"
+  },
+  {
+    "id": "awesome-llm",
+    "repositoryUrl": "https://github.com/Hannibal046/Awesome-LLM",
+    "sourceDir": "sources/awesome-llm",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE.md",
+    "licenseId": "CC0-1.0",
+    "route": "awesome/awesome-llm",
+    "title": "Awesome LLM",
+    "catalog": "llm-research"
+  },
+  {
+    "id": "awesome-docker",
+    "repositoryUrl": "https://github.com/veggiemonk/awesome-docker",
+    "sourceDir": "sources/awesome-docker",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE",
+    "licenseId": "Apache-2.0",
+    "route": "awesome/awesome-docker",
+    "title": "Awesome Docker",
+    "catalog": "docker"
+  },
+  {
+    "id": "awesome-llm-apps",
+    "repositoryUrl": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "sourceDir": "sources/awesome-llm-apps",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE",
+    "licenseId": "Apache-2.0",
+    "route": "awesome/awesome-llm-apps",
+    "title": "Awesome LLM Apps",
+    "catalog": "llm-apps"
+  },
+  {
+    "id": "awesome-nlp",
+    "repositoryUrl": "https://github.com/keon/awesome-nlp",
+    "sourceDir": "sources/awesome-nlp",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE",
+    "licenseId": "CC0-1.0",
+    "route": "awesome/awesome-nlp",
+    "title": "Awesome NLP",
+    "catalog": "nlp"
+  },
+  {
+    "id": "awesome-nodejs",
+    "repositoryUrl": "https://github.com/sindresorhus/awesome-nodejs",
+    "sourceDir": "sources/awesome-nodejs",
+    "readmePath": "readme.md",
+    "licensePath": "license",
+    "licenseId": "CC0-1.0",
+    "route": "awesome/awesome-nodejs",
+    "title": "Awesome Node.js",
+    "catalog": "nodejs"
+  },
+  {
+    "id": "awesome-php",
+    "repositoryUrl": "https://github.com/ziadoz/awesome-php",
+    "sourceDir": "sources/awesome-php",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE.md",
+    "licenseId": "WTFPL",
+    "route": "awesome/awesome-php",
+    "title": "Awesome PHP",
+    "catalog": "php"
   }
 ]

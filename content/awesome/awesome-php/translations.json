@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Awesome PHP 精选集",
+      "description": "精选的 PHP 库、资源和实用工具。",
+      "sourceDigest": "aee845f038bd60887ed2812e28337182a2038c3af63e3cc7b5b2a14a378c270f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Awesome PHP 精選集",
+      "description": "精選的 PHP 函式庫、資源與實用工具。",
+      "sourceDigest": "aee845f038bd60887ed2812e28337182a2038c3af63e3cc7b5b2a14a378c270f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Sélection Awesome PHP",
+      "description": "Une sélection de bibliothèques, ressources et outils PHP utiles.",
+      "sourceDigest": "aee845f038bd60887ed2812e28337182a2038c3af63e3cc7b5b2a14a378c270f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Awesome PHP: eine Auswahl",
+      "description": "Eine Auswahl an PHP-Bibliotheken, Ressourcen und nützlichen Werkzeugen.",
+      "sourceDigest": "aee845f038bd60887ed2812e28337182a2038c3af63e3cc7b5b2a14a378c270f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Selección de Awesome PHP",
+      "description": "Una selección de bibliotecas, recursos y herramientas útiles de PHP.",
+      "sourceDigest": "aee845f038bd60887ed2812e28337182a2038c3af63e3cc7b5b2a14a378c270f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Awesome PHP 厳選集",
+      "description": "PHP の便利なライブラリ、リソース、ツールを厳選して紹介します。",
+      "sourceDigest": "aee845f038bd60887ed2812e28337182a2038c3af63e3cc7b5b2a14a378c270f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Awesome PHP 모음",
+      "description": "엄선한 PHP 라이브러리, 자료 및 유용한 도구 모음입니다.",
+      "sourceDigest": "aee845f038bd60887ed2812e28337182a2038c3af63e3cc7b5b2a14a378c270f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Seleção Awesome PHP",
+      "description": "Uma seleção de bibliotecas, recursos e ferramentas úteis para PHP.",
+      "sourceDigest": "aee845f038bd60887ed2812e28337182a2038c3af63e3cc7b5b2a14a378c270f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка Awesome PHP",
+      "description": "Подборка полезных библиотек, ресурсов и инструментов для PHP.",
+      "sourceDigest": "aee845f038bd60887ed2812e28337182a2038c3af63e3cc7b5b2a14a378c270f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

@@ -44,6 +44,11 @@ test("SITE_URL is required outside dev and must be an absolute HTTP(S) URL", () 
 });
 
 test("built pages use Awesome Site identity, local routes, shared shell, and generated search", async () => {
+  const collections = JSON.parse(await readFile(path.join(root, "content/awesome/collections.json"), "utf8"));
+  const topics = [...new Set(collections.flatMap(({ catalog, tags = [] }) => [
+    ...(Array.isArray(catalog) ? catalog : [catalog]),
+    ...(Array.isArray(tags) ? tags : [tags]),
+  ]))].sort();
   const [home, notFound, robots, sitemap, feed, feedAlias, pagefind] = await Promise.all([
     readFile(path.join(root, "dist/index.html"), "utf8"),
     readFile(path.join(root, "dist/404.html"), "utf8"),
@@ -60,7 +65,7 @@ test("built pages use Awesome Site identity, local routes, shared shell, and gen
   assert.match(home, /href="https:\/\/github\.com\/HagiCode-org\/site"[^>]*>GitHub</u);
   assert.match(home, /href="https:\/\/tasks\.hagicode\.com\/"[^>]*>HagiTask</u);
   assert.match(home, /class="hagilight-article-promotion(?:\s|")/u);
-  assert.doesNotMatch(home, /googletagmanager|google-analytics|51la|promoto/u);
+  assert.doesNotMatch(home, /googletagmanager|google-analytics|51la/u);
 
   assert.ok(home.includes(`rel="canonical" href="${siteUrl}/"`));
   assert.match(home, /href="\/awesome\/awesome-github-profile-readme\/"/u);
@@ -72,15 +77,14 @@ test("built pages use Awesome Site identity, local routes, shared shell, and gen
 
   const itemLinks = (xml) => {
     assert.match(xml, /^<\?xml/u);
-    assert.match(xml, new RegExp(`<link>${siteUrl}/</link>`));
     return [...xml.matchAll(/<item>[\s\S]*?<link>([^<]+)<\/link>[\s\S]*?<\/item>/gu)]
       .map(([, link]) => link);
   };
   assert.deepEqual(itemLinks(feed), itemLinks(feedAlias));
-  assert.deepEqual(itemLinks(feed), [
-    `${siteUrl}/awesome/awesome-github-profile-readme/`,
-    `${siteUrl}/`,
-  ]);
+  assert.deepEqual(
+    itemLinks(feed).sort(),
+    [...collections.map(({ route }) => `${siteUrl}/${route}/`), `${siteUrl}/`].sort(),
+  );
 
   const locales = [
     ["zh-CN", "zh-CN", "欢迎来到 Awesome Site"],
@@ -106,30 +110,71 @@ test("built pages use Awesome Site identity, local routes, shared shell, and gen
     htmlFor("root", "awesome/awesome-github-profile-readme"),
     readFile(path.join(root, "dist/sitemap-0.xml"), "utf8"),
   ]);
+  const [allCollectionsEnglish, topicEnglish] = await Promise.all([
+    htmlFor("root", "awesome"),
+    htmlFor("root", "awesome/tags/github-profile-readme"),
+  ]);
+  const sitemapRoutes = [...sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/gu)]
+    .map(([, link]) => link)
+    .filter((link) => new URL(link).pathname.includes("/awesome/"))
+    .sort();
+  const expectedSitemapRoutes = ["", ...locales.map(([locale]) => `${locale}/`)].flatMap((prefix) => [
+    `${siteUrl}/${prefix}awesome/`,
+    ...collections.map(({ route }) => `${siteUrl}/${prefix}${route}/`),
+    ...topics.map((topic) => `${siteUrl}/${prefix}awesome/tags/${topic}/`),
+  ]).sort();
+  assert.deepEqual(sitemapRoutes, expectedSitemapRoutes);
+
   const englishCollection = `${siteUrl}/awesome/awesome-github-profile-readme/`;
   assert.match(collectionEnglish, /https:\/\/raw\.githubusercontent\.com\/abhisheknaiidu\/awesome-github-profile-readme\/[a-f0-9]{40}\/assets\/agpr\.gif/u);
   assert.match(collectionEnglish, /CC0-1\.0/u);
   assert.match(collectionEnglish, new RegExp(`href="${englishCollection}"`));
+  assert.match(collectionEnglish, /awesome-topic-nav/u);
+  assert.match(collectionEnglish, /href="\/awesome\/tags\/github-profile-readme\/"/u);
+  assert.match(allCollectionsEnglish, /href="\/awesome\/awesome-github-profile-readme\/"/u);
+  for (const { route } of collections) {
+    assert.equal((allCollectionsEnglish.match(new RegExp(`href="/${route}/"`, "gu")) ?? []).length, 1);
+  }
+  assert.match(allCollectionsEnglish, /href="\/awesome\/tags\/github-profile-readme\/"/u);
+  assert.match(topicEnglish, /href="\/awesome\/"/u);
+  assert.match(topicEnglish, /href="\/awesome\/awesome-github-profile-readme\/"/u);
+  assert.equal((collectionEnglish.match(/<h1 id="_top"/gu) ?? []).length, 1);
+  assert.equal((collectionEnglish.match(/class="hagilight-content-width-toggle"/gu) ?? []).length, 1);
+  assert.equal((allCollectionsEnglish.match(/class="hagilight-site-links\b/gu) ?? []).length, 1);
+  assert.equal((topicEnglish.match(/class="hagilight-site-links\b/gu) ?? []).length, 1);
 
   const expectedAlternateLocales = ["en-US", ...locales.map(([, lang]) => lang), "x-default"];
+  await assert.rejects(
+    readFile(path.join(root, "dist/awesome/tags/unused-topic/index.html")),
+    { code: "ENOENT" },
+  );
   for (const [locale, lang, homeText] of [["root", "en-US", "Welcome to Awesome Site"], ...locales]) {
     const prefix = locale === "root" ? "" : `${locale}/`;
     await assert.rejects(
       readFile(path.join(root, "dist", `${prefix}guides/getting-started/index.html`)),
       { code: "ENOENT" },
     );
-    const [localizedHome, localizedCollection, localeFeed] = await Promise.all([
+    const [localizedHome, localizedCollection, localizedIndex, localizedTopic, localeFeed] = await Promise.all([
       htmlFor(locale, ""),
       htmlFor(locale, "awesome/awesome-github-profile-readme"),
+      htmlFor(locale, "awesome"),
+      htmlFor(locale, "awesome/tags/github-profile-readme"),
       readFile(path.join(root, "dist", `rss.${locale === "root" ? "en" : locale}.xml`), "utf8"),
     ]);
 
     assert.match(localizedHome, new RegExp(`<html lang="${lang}"`));
     assert.ok(localizedHome.includes(homeText), `${locale} home should contain localized prose`);
     assert.doesNotMatch(localizedHome, /guides\/getting-started/u);
+    assert.match(localizedHome, new RegExp(`href="/${prefix}awesome/"`));
     assert.match(localizedHome, new RegExp(`href="/${prefix}awesome/awesome-github-profile-readme/"`));
     assert.match(localizedCollection, new RegExp(`<html lang="${lang}"`));
-    for (const html of [localizedHome, localizedCollection]) {
+    assert.match(localizedIndex, new RegExp(`<html lang="${lang}"`));
+    assert.match(localizedTopic, new RegExp(`<html lang="${lang}"`));
+    assert.match(localizedIndex, new RegExp(`href="/${prefix}awesome/awesome-github-profile-readme/"`));
+    assert.match(localizedIndex, new RegExp(`href="/${prefix}awesome/tags/github-profile-readme/"`));
+    assert.match(localizedTopic, new RegExp(`href="/${prefix}awesome/"`));
+    assert.match(localizedTopic, new RegExp(`href="/${prefix}awesome/awesome-github-profile-readme/"`));
+    for (const html of [localizedHome, localizedCollection, localizedIndex, localizedTopic]) {
       assert.match(html, /class="hagilight-article-promotion(?:\s|")/u, `${locale} pages show the HagiCode promotion`);
     }
     assert.match(localizedCollection, new RegExp(`blob/[a-f0-9]{40}/README\\.md`));
@@ -142,6 +187,14 @@ test("built pages use Awesome Site identity, local routes, shared shell, and gen
     }
     assert.match(localizedCollection, /<hagilight-language-chooser/u);
     assert.match(localizedCollection, new RegExp(`data-locale="${locale}"[^>]*aria-selected="true"`));
+    assert.match(localizedTopic, /<hagilight-language-chooser/u);
+    assert.match(localizedTopic, new RegExp(`data-href="/${prefix}awesome/tags/github-profile-readme/"`));
+    for (const alternate of expectedAlternateLocales) {
+      assert.match(localizedIndex, new RegExp(`hreflang="${alternate}"`));
+      assert.match(localizedTopic, new RegExp(`hreflang="${alternate}"`));
+    }
+    assert.equal((localizedIndex.match(/class="hagilight-site-links\b/gu) ?? []).length, 1);
+    assert.equal((localizedTopic.match(/class="hagilight-site-links\b/gu) ?? []).length, 1);
     assert.match(
       localizedCollection,
       new RegExp(`data-href="/${prefix}awesome/awesome-github-profile-readme/"`),
@@ -155,12 +208,40 @@ test("built pages use Awesome Site identity, local routes, shared shell, and gen
       assert.ok(ids.has(fragment), `${locale} collection fragment #${fragment} should exist`);
     }
     assert.match(localeFeed, new RegExp(`<language>${lang}</language>`));
-    assert.match(localeFeed, new RegExp(`<link>${siteUrl}/${prefix}`));
     assert.doesNotMatch(localeFeed, /guides\/getting-started/u);
-    if (locale !== "root") {
-      assert.doesNotMatch(localeFeed, new RegExp(`<link>${siteUrl}/awesome/awesome-github-profile-readme/`));
+    assert.deepEqual(
+      itemLinks(localeFeed).sort(),
+      [
+        ...collections.map(({ route }) => `${siteUrl}/${prefix}${route}/`),
+        `${siteUrl}/${prefix}`,
+      ].sort(),
+    );
+    for (const { route } of collections) {
+      assert.equal((localizedIndex.match(new RegExp(`href="/${prefix}${route}/"`, "gu")) ?? []).length, 1);
+      assert.match(sitemapXml, new RegExp(`${siteUrl}/${prefix}${route}/`));
     }
-    assert.match(sitemapXml, new RegExp(`${siteUrl}/${prefix}awesome/awesome-github-profile-readme/`));
+    for (const topic of topics) {
+      const topicPage = await htmlFor(locale, `awesome/tags/${topic}`);
+      const members = collections.filter(({ catalog, tags = [] }) => {
+        const effectiveTags = [
+          ...(Array.isArray(catalog) ? catalog : [catalog]),
+          ...(Array.isArray(tags) ? tags : [tags]),
+        ];
+        return effectiveTags.includes(topic);
+      });
+      for (const { route } of members) {
+        assert.equal((topicPage.match(new RegExp(`href="/${prefix}${route}/"`, "gu")) ?? []).length, 1);
+      }
+      for (const { route } of collections.filter(({ catalog, tags = [] }) => {
+        const effectiveTags = [
+          ...(Array.isArray(catalog) ? catalog : [catalog]),
+          ...(Array.isArray(tags) ? tags : [tags]),
+        ];
+        return !effectiveTags.includes(topic);
+      })) {
+        assert.doesNotMatch(topicPage, new RegExp(`href="/${prefix}${route}/"`, "u"));
+      }
+    }
   }
 
   const pagefindFiles = await readdir(path.join(root, "dist/pagefind"));

@@ -17,15 +17,20 @@ import {
   assertEquivalentStructure,
   inspectMarkdown,
 } from "../src/plugins/awesome-content.mjs";
+import { normalizeCatalogTags } from "../src/catalog-tags.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 const registryPath = path.join(root, "content/awesome/collections.json");
+const catalogsPath = path.join(root, "content/awesome/catalogs.json");
 const manifestPath = path.join(root, ".awesome-content-manifest.json");
 const locales = ["zh-CN", "zh-Hant", "fr-FR", "de-DE", "es-ES", "ja-JP", "ko-KR", "pt-BR", "ru-RU"];
+const discoveryLocales = ["root", ...locales];
 const licenseMarkers = {
   "CC0-1.0": /CC0 1\.0 Universal/u,
   "MIT": /MIT License/u,
   "Apache-2.0": /Apache License\s+Version 2\.0/u,
+  "Unlicense": /This is free and unencumbered software released into the public domain/u,
+  "WTFPL": /DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE[\s\S]{0,100}Version 2, December 2004/u,
 };
 
 function git(args, cwd = root) {
@@ -117,10 +122,34 @@ export function validateRepositoryUrl(value, collectionId) {
   }
 }
 
-export function validateRegistry(collections) {
+export function validateCatalogs(catalogs) {
+  if (!catalogs || typeof catalogs !== "object" || Array.isArray(catalogs)) {
+    throw new Error("content/awesome/catalogs.json must contain a topic object");
+  }
+  for (const [topic, entry] of Object.entries(catalogs)) {
+    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/u.test(topic)) {
+      throw new Error(`Invalid taxonomy topic "${topic}"`);
+    }
+    if (!entry || typeof entry !== "object" || !entry.labels || typeof entry.labels !== "object") {
+      throw new Error(`${topic}: taxonomy labels are required`);
+    }
+    for (const locale of discoveryLocales) {
+      if (typeof entry.labels[locale] !== "string" || !entry.labels[locale].trim()) {
+        throw new Error(`${topic}: missing nonempty taxonomy label for ${locale}`);
+      }
+    }
+  }
+}
+
+export function licenseIsVerified(licenseId, text) {
+  return licenseMarkers[licenseId]?.test(text) ?? false;
+}
+
+export function validateRegistry(collections, catalogs) {
   if (!Array.isArray(collections) || collections.length === 0) {
     throw new Error("content/awesome/collections.json must contain at least one collection");
   }
+  validateCatalogs(catalogs);
   const ids = new Set();
   const routes = new Set();
   for (const collection of collections) {
@@ -129,6 +158,9 @@ export function validateRegistry(collections) {
     }
     if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/u.test(collection.id)) {
       throw new Error(`Invalid collection identifier "${collection.id}"`);
+    }
+    if (collection.id === "index" || collection.id === "tags") {
+      throw new Error(`${collection.id}: collection identifier is reserved for discovery routes`);
     }
     if (ids.has(collection.id)) throw new Error(`Duplicate collection identifier "${collection.id}"`);
     if (routes.has(collection.route)) throw new Error(`Duplicate collection route "${collection.route}"`);
@@ -144,6 +176,13 @@ export function validateRegistry(collections) {
     }
     if (typeof collection.title !== "string" || !collection.title.trim()) {
       throw new Error(`${collection.id}: title is required`);
+    }
+    const normalizedTags = normalizeCatalogTags(collection, collection.id);
+    if (!normalizedTags.catalog) throw new Error(`${collection.id}: catalog metadata is required`);
+    for (const tag of normalizedTags.tags) {
+      if (!Object.hasOwn(catalogs, tag)) {
+        throw new Error(`${collection.id}: unknown catalog/tag topic "${tag}"`);
+      }
     }
     ids.add(collection.id);
     routes.add(collection.route);
@@ -172,8 +211,7 @@ async function validateSource(collection) {
   const readme = await realPathInside(sourceDirectory, collection.readmePath, `${collection.id} README`);
   const license = await realPathInside(sourceDirectory, collection.licensePath, `${collection.id} license`);
   const licenseText = await readFile(license, "utf8");
-  const marker = licenseMarkers[collection.licenseId];
-  if (!marker || !marker.test(licenseText)) {
+  if (!licenseIsVerified(collection.licenseId, licenseText)) {
     throw new Error(`${collection.id}: pinned ${collection.licensePath} does not confirm ${collection.licenseId}`);
   }
   const sourceBytes = await readFile(readme);
@@ -191,7 +229,8 @@ async function validateSource(collection) {
 
 async function loadSources() {
   const collections = JSON.parse(await readFile(registryPath, "utf8"));
-  validateRegistry(collections);
+  const catalogs = JSON.parse(await readFile(catalogsPath, "utf8"));
+  validateRegistry(collections, catalogs);
   const sources = [];
   for (const collection of collections) {
     sources.push(await validateSource(collection));
@@ -303,6 +342,11 @@ function quote(value) {
 function frontmatter(source, title, description, aiTranslation, fragments) {
   const metadata = source.collection;
   const links = sourceLinks(source);
+  const catalogTags = normalizeCatalogTags(metadata, metadata.id);
+  const catalogYaml = Array.isArray(catalogTags.catalog)
+    ? `catalog:\n${catalogTags.catalog.map((tag) => `  - ${quote(tag)}`).join("\n")}`
+    : `catalog: ${quote(catalogTags.catalog)}`;
+  const tagsYaml = catalogTags.tags.map((tag) => `  - ${quote(tag)}`).join("\n");
   const fragmentYaml = fragments.length
     ? fragments.map(({ sourceId, targetId }) =>
       `  - sourceId: ${quote(sourceId)}\n    targetId: ${quote(targetId)}`).join("\n")
@@ -314,6 +358,9 @@ function frontmatter(source, title, description, aiTranslation, fragments) {
     `isAITranslation: ${aiTranslation}`,
     "isAIAuthor: false",
     'sourceLocale: "root"',
+    catalogYaml,
+    "tags:",
+    tagsYaml,
     "awesomeSource:",
     `  id: ${quote(metadata.id)}`,
     `  repositoryUrl: ${quote(metadata.repositoryUrl)}`,
@@ -346,12 +393,193 @@ function getFragments(sourceStructure, translatedStructure) {
   }));
 }
 
+function russianCollectionCount(count) {
+  const mod100 = count % 100;
+  const mod10 = count % 10;
+  const noun = mod100 >= 11 && mod100 <= 14
+    ? "подборок"
+    : mod10 === 1
+      ? "подборка"
+      : mod10 >= 2 && mod10 <= 4
+        ? "подборки"
+        : "подборок";
+  return `${count} ${noun}`;
+}
+
+const discoveryCopy = {
+  root: {
+    collections: "Awesome collections",
+    browseTopics: "Browse by topic",
+    allCollections: "All collections",
+    collectionCount: (count) => `${count} collection${count === 1 ? "" : "s"}`,
+  },
+  "zh-CN": {
+    collections: "Awesome 合集",
+    browseTopics: "按主题浏览",
+    allCollections: "所有合集",
+    collectionCount: (count) => `${count} 个合集`,
+  },
+  "zh-Hant": {
+    collections: "Awesome 精選集",
+    browseTopics: "依主題瀏覽",
+    allCollections: "所有精選集",
+    collectionCount: (count) => `${count} 個精選集`,
+  },
+  "fr-FR": {
+    collections: "Collections Awesome",
+    browseTopics: "Parcourir par sujet",
+    allCollections: "Toutes les collections",
+    collectionCount: (count) => `${count} collection${count === 1 ? "" : "s"}`,
+  },
+  "de-DE": {
+    collections: "Awesome-Sammlungen",
+    browseTopics: "Nach Thema durchsuchen",
+    allCollections: "Alle Sammlungen",
+    collectionCount: (count) => `${count} Sammlung${count === 1 ? "" : "en"}`,
+  },
+  "es-ES": {
+    collections: "Colecciones Awesome",
+    browseTopics: "Explorar por tema",
+    allCollections: "Todas las colecciones",
+    collectionCount: (count) => `${count} colecci${count === 1 ? "ón" : "ones"}`,
+  },
+  "ja-JP": {
+    collections: "Awesome コレクション",
+    browseTopics: "トピックから探す",
+    allCollections: "すべてのコレクション",
+    collectionCount: (count) => `${count} 件のコレクション`,
+  },
+  "ko-KR": {
+    collections: "Awesome 컬렉션",
+    browseTopics: "주제별로 찾아보기",
+    allCollections: "모든 컬렉션",
+    collectionCount: (count) => `${count}개 컬렉션`,
+  },
+  "pt-BR": {
+    collections: "Coleções Awesome",
+    browseTopics: "Navegar por tópico",
+    allCollections: "Todas as coleções",
+    collectionCount: (count) => `${count} coleç${count === 1 ? "ão" : "ões"}`,
+  },
+  "ru-RU": {
+    collections: "Подборки Awesome",
+    browseTopics: "Обзор по темам",
+    allCollections: "Все подборки",
+    collectionCount: russianCollectionCount,
+  },
+};
+
+function localePath(locale) {
+  return locale === "root" ? "" : `${locale}/`;
+}
+
+function escapeMarkdownLabel(value) {
+  return value.replaceAll("\\", "\\\\").replaceAll("[", "\\[").replaceAll("]", "\\]");
+}
+
+function markdownLink(label, destination) {
+  return `[${escapeMarkdownLabel(label)}](/${destination}/)`;
+}
+
+function discoveryFrontmatter(title, description, kind, topic) {
+  const index = kind === "tag"
+    ? `awesomeIndex:\n  kind: "tag"\n  topic: ${quote(topic)}`
+    : 'awesomeIndex:\n  kind: "collections"';
+  return [
+    "---",
+    `title: ${quote(title)}`,
+    `description: ${quote(description)}`,
+    "rss: false",
+    index,
+    "---",
+    "",
+  ].join("\n");
+}
+
+function localizedCollection(source, locale) {
+  if (locale === "root") {
+    const ownerRepo = new URL(source.collection.repositoryUrl).pathname.slice(1);
+    return {
+      title: source.collection.title,
+      description: `A curated collection from ${ownerRepo}.`,
+    };
+  }
+  const translation = source.translations.find((entry) => entry.locale === locale);
+  if (!translation) throw new Error(`${source.collection.id}: missing prepared ${locale} edition`);
+  return {
+    title: translation.metadata.title,
+    description: translation.metadata.description,
+  };
+}
+
+function effectiveTags(source) {
+  return normalizeCatalogTags(source.collection, source.collection.id).tags;
+}
+
+async function stageDiscoveryPages(stage, newPaths, prepared, catalogs) {
+  const sortedSources = [...prepared].sort((first, second) =>
+    first.collection.id.localeCompare(second.collection.id));
+  const usedTopics = [...new Set(sortedSources.flatMap(effectiveTags))].sort();
+
+  for (const locale of discoveryLocales) {
+    const prefix = localePath(locale);
+    const copy = discoveryCopy[locale];
+    const localized = sortedSources.map((source) => ({
+      source,
+      ...localizedCollection(source, locale),
+      tags: effectiveTags(source),
+    }));
+    const topicCounts = new Map(usedTopics.map((topic) => [
+      topic,
+      localized.filter(({ tags }) => tags.includes(topic)).length,
+    ]));
+    const indexPath = `src/content/docs/${prefix}awesome/index.md`;
+    const indexOutput = path.join(stage, indexPath);
+    await mkdir(path.dirname(indexOutput), { recursive: true });
+    const topicLinks = usedTopics.map((topic) => {
+      const label = catalogs[topic].labels[locale];
+      return `- ${markdownLink(label, `${prefix}awesome/tags/${topic}`)} (${copy.collectionCount(topicCounts.get(topic))})`;
+    }).join("\n");
+    const collectionLinks = localized.map(({ source, title, description, tags }) => {
+      const links = tags.map((topic) =>
+        markdownLink(catalogs[topic].labels[locale], `${prefix}awesome/tags/${topic}`)).join(", ");
+      return `- ${markdownLink(title, `${prefix}${source.collection.route}`)} — ${description}\n  - ${copy.browseTopics}: ${links}`;
+    }).join("\n");
+    await writeFile(
+      indexOutput,
+      `${discoveryFrontmatter(copy.collections, copy.collectionCount(sortedSources.length), "collections")}` +
+      `# ${copy.collections}\n\n${copy.collectionCount(sortedSources.length)}\n\n` +
+      `## ${copy.browseTopics}\n\n${topicLinks}\n\n## ${copy.collections}\n\n${collectionLinks}\n`,
+      { flag: "wx" },
+    );
+    newPaths.push(indexPath);
+
+    for (const topic of usedTopics) {
+      const members = localized.filter(({ tags }) => tags.includes(topic));
+      const label = catalogs[topic].labels[locale];
+      const topicPath = `src/content/docs/${prefix}awesome/tags/${topic}.md`;
+      const topicOutput = path.join(stage, topicPath);
+      await mkdir(path.dirname(topicOutput), { recursive: true });
+      const collectionItems = members.map(({ source, title, description }) =>
+        `- ${markdownLink(title, `${prefix}${source.collection.route}`)} — ${description}`).join("\n");
+      await writeFile(
+        topicOutput,
+        `${discoveryFrontmatter(label, copy.collectionCount(members.length), "tag", topic)}` +
+        `# ${label}\n\n${copy.collectionCount(members.length)}\n\n` +
+        `${markdownLink(copy.allCollections, `${prefix}awesome`)}\n\n## ${copy.collections}\n\n${collectionItems}\n`,
+        { flag: "wx" },
+      );
+      newPaths.push(topicPath);
+    }
+  }
+}
+
 function safeOwnedPath(relative) {
   const normalized = path.posix.normalize(relative);
+  const localePrefix = `(?:(?:${locales.join("|")})/)?`;
   if (
-    !relative.startsWith("src/content/docs/") ||
     normalized !== relative ||
-    !/(?:^|\/)awesome\/[a-z0-9-]+\.md$/u.test(relative) ||
+    !new RegExp(`^src/content/docs/${localePrefix}awesome/(?:[a-z0-9-]+\\.md|index\\.md|tags/[a-z0-9-]+\\.md)$`, "u").test(relative) ||
     relative.split("/").some((part) => part === "..")
   ) {
     throw new Error(`Invalid pipeline-owned path in manifest: "${relative}"`);
@@ -483,10 +711,13 @@ export async function preparePages(prepared) {
   const previousPaths = await readOwnedManifest();
   const newPaths = [];
   try {
+    const catalogs = JSON.parse(await readFile(catalogsPath, "utf8"));
+    validateCatalogs(catalogs);
     for (const source of prepared) {
       const englishStructure = source.sourceStructure;
       const englishFragments = getFragments(englishStructure, englishStructure);
       const englishPath = `src/content/docs/${source.collection.route}.md`;
+      safeOwnedPath(englishPath);
       const englishOutput = path.join(stage, englishPath);
       await mkdir(path.dirname(englishOutput), { recursive: true });
       await writeFile(
@@ -505,6 +736,7 @@ export async function preparePages(prepared) {
 
       for (const translation of source.translations) {
         const relative = `src/content/docs/${translation.locale}/${source.collection.route}.md`;
+        safeOwnedPath(relative);
         const staged = path.join(stage, relative);
         await mkdir(path.dirname(staged), { recursive: true });
         const fragments = getFragments(englishStructure, translation.structure);
@@ -523,6 +755,7 @@ export async function preparePages(prepared) {
         newPaths.push(relative);
       }
     }
+    await stageDiscoveryPages(stage, newPaths, prepared, catalogs);
 
     for (const relative of newPaths) {
       const destination = safeOwnedPath(relative);

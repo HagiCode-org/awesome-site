@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Awesome 大语言模型（LLM）",
+      "description": "精选大语言模型论文、训练与部署工具、课程、教程、公开模型检查点和 API。",
+      "sourceDigest": "9bc521cfa7dc4f4c60c8d758fe0b3e48f079c546c1e9b443784221d34d25ff57",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Awesome 大型語言模型（LLM）",
+      "description": "精選大型語言模型論文、訓練與部署工具、課程、教學資源、公開模型檢查點及 API。",
+      "sourceDigest": "9bc521cfa7dc4f4c60c8d758fe0b3e48f079c546c1e9b443784221d34d25ff57",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Sélection sur les grands modèles de langage",
+      "description": "Une sélection d’articles, d’outils d’entraînement et de déploiement, de cours, de tutoriels, de points de contrôle publics et d’API pour les LLM.",
+      "sourceDigest": "9bc521cfa7dc4f4c60c8d758fe0b3e48f079c546c1e9b443784221d34d25ff57",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Auswahl zu Large Language Models",
+      "description": "Eine Auswahl an Fachartikeln, Trainings- und Bereitstellungswerkzeugen, Kursen, Tutorials, öffentlichen Modell-Checkpoints und APIs für LLMs.",
+      "sourceDigest": "9bc521cfa7dc4f4c60c8d758fe0b3e48f079c546c1e9b443784221d34d25ff57",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Selección sobre grandes modelos de lenguaje",
+      "description": "Una selección de artículos, herramientas de entrenamiento e implementación, cursos, tutoriales, puntos de control públicos y API para LLM.",
+      "sourceDigest": "9bc521cfa7dc4f4c60c8d758fe0b3e48f079c546c1e9b443784221d34d25ff57",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "大規模言語モデル（LLM）厳選集",
+      "description": "大規模言語モデルの論文、学習・デプロイ用ツール、コース、チュートリアル、公開チェックポイント、APIを厳選して紹介します。",
+      "sourceDigest": "9bc521cfa7dc4f4c60c8d758fe0b3e48f079c546c1e9b443784221d34d25ff57",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "대규모 언어 모델(LLM) 모음",
+      "description": "대규모 언어 모델 논문, 학습 및 배포 도구, 강좌, 튜토리얼, 공개 체크포인트와 API를 엄선했습니다.",
+      "sourceDigest": "9bc521cfa7dc4f4c60c8d758fe0b3e48f079c546c1e9b443784221d34d25ff57",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Seleção de recursos sobre LLMs",
+      "description": "Uma seleção de artigos, ferramentas de treinamento e implantação, cursos, tutoriais, checkpoints públicos e APIs para LLMs.",
+      "sourceDigest": "9bc521cfa7dc4f4c60c8d758fe0b3e48f079c546c1e9b443784221d34d25ff57",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка материалов о больших языковых моделях",
+      "description": "Подборка статей, инструментов для обучения и развертывания, курсов, руководств, общедоступных контрольных точек моделей и API для LLM.",
+      "sourceDigest": "9bc521cfa7dc4f4c60c8d758fe0b3e48f079c546c1e9b443784221d34d25ff57",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

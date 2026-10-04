@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "精选 TypeScript 资源",
+      "description": "精选客户端与服务端 TypeScript 学习资源、工具、库和项目。",
+      "sourceDigest": "b0844167d583c9029b2b9b19bca8e6c9064ebcc962f1cb37085c8ec41a2566a2",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "精選 TypeScript 資源",
+      "description": "精選用於用戶端與伺服器端開發的 TypeScript 學習資源、工具、程式庫及專案。",
+      "sourceDigest": "b0844167d583c9029b2b9b19bca8e6c9064ebcc962f1cb37085c8ec41a2566a2",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Sélection TypeScript",
+      "description": "Une sélection de ressources, outils, bibliothèques et projets TypeScript pour le développement côté client et serveur.",
+      "sourceDigest": "b0844167d583c9029b2b9b19bca8e6c9064ebcc962f1cb37085c8ec41a2566a2",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "TypeScript-Ressourcensammlung",
+      "description": "Eine Auswahl an TypeScript-Lernressourcen, Werkzeugen, Bibliotheken und Projekten für die Client- und Serverentwicklung.",
+      "sourceDigest": "b0844167d583c9029b2b9b19bca8e6c9064ebcc962f1cb37085c8ec41a2566a2",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Selección de TypeScript",
+      "description": "Una selección de recursos, herramientas, bibliotecas y proyectos de TypeScript para el desarrollo en cliente y servidor.",
+      "sourceDigest": "b0844167d583c9029b2b9b19bca8e6c9064ebcc962f1cb37085c8ec41a2566a2",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "TypeScript 厳選集",
+      "description": "クライアント側・サーバー側開発向けの TypeScript 学習リソース、ツール、ライブラリ、プロジェクトを厳選して紹介します。",
+      "sourceDigest": "b0844167d583c9029b2b9b19bca8e6c9064ebcc962f1cb37085c8ec41a2566a2",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "TypeScript 모음",
+      "description": "클라이언트 및 서버 개발을 위한 TypeScript 학습 자료, 도구, 라이브러리와 프로젝트 모음입니다.",
+      "sourceDigest": "b0844167d583c9029b2b9b19bca8e6c9064ebcc962f1cb37085c8ec41a2566a2",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Seleção de TypeScript",
+      "description": "Uma seleção de recursos de aprendizado, ferramentas, bibliotecas e projetos TypeScript para desenvolvimento no cliente e no servidor.",
+      "sourceDigest": "b0844167d583c9029b2b9b19bca8e6c9064ebcc962f1cb37085c8ec41a2566a2",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка TypeScript",
+      "description": "Подборка ресурсов для изучения TypeScript, инструментов, библиотек и проектов для клиентской и серверной разработки.",
+      "sourceDigest": "b0844167d583c9029b2b9b19bca8e6c9064ebcc962f1cb37085c8ec41a2566a2",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}
