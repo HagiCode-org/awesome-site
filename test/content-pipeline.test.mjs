@@ -36,6 +36,28 @@ const sourceOptions = {
 };
 const catalogLocales = ["root", "zh-CN", "zh-Hant", "fr-FR", "de-DE", "es-ES", "ja-JP", "ko-KR", "pt-BR", "ru-RU"];
 const translationLocales = catalogLocales.slice(1);
+
+test("generated pages and their ownership manifest stay ignored and untracked", () => {
+  const generatedPaths = [
+    ".awesome-content-manifest.json",
+    ...catalogLocales.flatMap((locale) => {
+      const prefix = locale === "root" ? "" : `${locale}/`;
+      return [`src/content/docs/${prefix}index.md`, `src/content/docs/${prefix}awesome/`];
+    }),
+  ];
+  assert.equal(
+    execFileSync("git", ["ls-files", "--", ...generatedPaths], { cwd: root, encoding: "utf8" }),
+    "",
+    "Tracking generated pages without their manifest breaks preparation in a fresh checkout",
+  );
+  const ignoredPaths = execFileSync("git", ["check-ignore", "--no-index", "--stdin"], {
+    cwd: root,
+    encoding: "utf8",
+    input: `${generatedPaths.join("\n")}\n`,
+  }).trim().split("\n");
+  assert.deepEqual(ignoredPaths, generatedPaths);
+});
+
 const testCatalogs = {
   "test-topic": {
     labels: Object.fromEntries(catalogLocales.map((locale) => [locale, "Test topic"])),
@@ -465,6 +487,31 @@ test("missing or invalid review ledgers stop export, check, and prepare before o
         await rm(fixtureRoot, { recursive: true, force: true });
       }
     }
+  }
+});
+
+test("fresh-checkout preparation creates all homepages and their ownership manifest", async () => {
+  const fixtureRoot = await createIsolatedPipeline({ validSource: true });
+  try {
+    await rm(path.join(fixtureRoot, ".awesome-content-manifest.json"));
+    await rm(path.join(fixtureRoot, "src/content/docs/awesome/old-page.md"));
+    const result = spawnSync(process.execPath, ["scripts/content-pipeline.mjs", "prepare"], {
+      cwd: fixtureRoot,
+      encoding: "utf8",
+    });
+    assert.equal(result.status, 0, `${result.stdout}${result.stderr}`);
+    const manifest = JSON.parse(await readFile(path.join(fixtureRoot, ".awesome-content-manifest.json"), "utf8"));
+    for (const locale of catalogLocales) {
+      const prefix = locale === "root" ? "" : `${locale}/`;
+      const homepagePath = `src/content/docs/${prefix}index.md`;
+      assert.ok(manifest.paths.includes(homepagePath));
+      assert.equal(
+        await readFile(path.join(fixtureRoot, homepagePath), "utf8"),
+        await readFile(path.join(fixtureRoot, `src/content/docs/${prefix}awesome/index.md`), "utf8"),
+      );
+    }
+  } finally {
+    await rm(fixtureRoot, { recursive: true, force: true });
   }
 });
 
