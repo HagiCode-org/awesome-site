@@ -1,0 +1,79 @@
+---
+import { locales } from "@hagicode/hagilight-starlight/locales";
+import collections from "../../content/awesome/collections.json";
+import catalogs from "../../content/awesome/catalogs.json";
+import { normalizeCatalogTags } from "../catalog-tags.mjs";
+import { getWelcomeCopy } from "../home-copy.mjs";
+
+const locale = Astro.locals.starlightRoute.locale ?? "root";
+const copy = getWelcomeCopy(locale);
+const prefix = locale === "root" ? "" : `/${locale}`;
+const usedTopics = [...new Set(collections.flatMap((collection) => normalizeCatalogTags(collection).tags))].sort();
+const preferredTopics = ["rag", "typescript", "design-systems", "github-profile-readme"];
+const featuredTopics = [...new Set([...preferredTopics.filter((topic) => usedTopics.includes(topic)), ...usedTopics])].slice(0, 6);
+const taxonomy: Map<string, Record<string, string>> = new Map(
+  Object.entries(catalogs).map(([topic, { labels }]) => [topic, labels]),
+);
+const number = new Intl.NumberFormat(locale === "root" ? "en-US" : locale);
+const stats = [
+  { value: collections.length, label: copy.collections },
+  { value: usedTopics.length, label: copy.topics },
+  { value: Object.keys(locales).length, label: copy.languages },
+];
+
+function topicLabel(topic: string) {
+  const entry = taxonomy.get(topic);
+  if (!entry || !Object.hasOwn(entry, locale)) {
+    throw new Error(`Missing welcome topic label for "${topic}/${locale}"`);
+  }
+  return entry[locale];
+}
+---
+
+<div class="awesome-welcome">
+  <section class="awesome-welcome-hero" aria-labelledby="awesome-welcome-title">
+    <div class="awesome-welcome-copy">
+      <p class="awesome-welcome-eyebrow"><span aria-hidden="true"></span>{copy.eyebrow}</p>
+      <h2 id="awesome-welcome-title">{copy.title}</h2>
+      <p class="awesome-welcome-intro">{copy.intro}</p>
+      <div class="awesome-welcome-actions">
+        <a class="awesome-welcome-primary" href={`${prefix}/awesome/`}>
+          {copy.explore}<span aria-hidden="true">&#8599;</span>
+        </a>
+        <a class="awesome-welcome-secondary" href="#awesome-start">
+          {copy.start}<span aria-hidden="true">&#8595;</span>
+        </a>
+      </div>
+    </div>
+    <div class="awesome-welcome-art" aria-hidden="true">
+      <div class="awesome-welcome-orbit awesome-welcome-orbit-outer"></div>
+      <div class="awesome-welcome-orbit awesome-welcome-orbit-inner"></div>
+      <span class="awesome-welcome-node awesome-welcome-node-code">&lt;/&gt;</span>
+      <span class="awesome-welcome-node awesome-welcome-node-star">&#10022;</span>
+      <span class="awesome-welcome-node awesome-welcome-node-branch">&#9282;</span>
+      <span class="awesome-welcome-monogram">A<span>&#8226;</span></span>
+    </div>
+  </section>
+
+  <dl class="awesome-welcome-stats">
+    {stats.map(({ value, label }) => <div><dt>{label}</dt><dd>{number.format(value)}</dd></div>)}
+  </dl>
+
+  <section class="awesome-welcome-topics" aria-labelledby="awesome-start">
+    <h2 id="awesome-start" tabindex="-1">{copy.topicTitle}</h2>
+    <p>{copy.topicIntro}</p>
+    <ul>
+      {featuredTopics.map((topic) => <li>
+        <a href={`${prefix}/awesome/tags/${topic}/`}>{topicLabel(topic)}<span aria-hidden="true">&#8599;</span></a>
+      </li>)}
+    </ul>
+  </section>
+
+  <div class="awesome-welcome-features">
+    {copy.features.map(({ title, body }, index) => <section>
+      <span class="awesome-welcome-feature-index" aria-hidden="true">{number.format(index + 1).padStart(2, "0")}</span>
+      <h3>{title}</h3>
+      <p>{body}</p>
+    </section>)}
+  </div>
+</div>

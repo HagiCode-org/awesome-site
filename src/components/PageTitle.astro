@@ -1,11 +1,13 @@
 ---
 import HagilightPageTitle from "@hagicode/hagilight-starlight/PageTitle";
+import HomeWelcome from "./HomeWelcome.astro";
 import catalogs from "../../content/awesome/catalogs.json";
 
 const route = Astro.locals.starlightRoute;
 const { data } = route.entry;
 const tags = data.awesomeSource ? data.tags ?? [] : [];
 const locale = route.locale;
+const isHomepage = route.id === (locale ?? "");
 const taxonomy = new Map(Object.entries(catalogs));
 
 function localizedTopic(topic: string) {
@@ -39,6 +41,7 @@ const prefix = locale === undefined ? "" : `/${locale}`;
 ---
 
 <HagilightPageTitle />
+{isHomepage && <HomeWelcome />}
 {tags.length > 0 && <nav class="awesome-topic-nav" aria-label={topicsLabel}>
     <span>{topicsLabel}</span>
     <ul>
