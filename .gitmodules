@@ -1,3 +1,144 @@
 [submodule "sources/awesome-github-profile-readme"]
 	path = sources/awesome-github-profile-readme
 	url = https://github.com/abhisheknaiidu/awesome-github-profile-readme.git
+[submodule "sources/awesome-python"]
+	path = sources/awesome-python
+	url = https://github.com/vinta/awesome-python.git
+[submodule "sources/awesome-go"]
+	path = sources/awesome-go
+	url = https://github.com/avelino/awesome-go.git
+[submodule "sources/awesome-java"]
+	path = sources/awesome-java
+	url = https://github.com/akullpp/awesome-java.git
+[submodule "sources/awesome-javascript"]
+	path = sources/awesome-javascript
+	url = https://github.com/sorrycc/awesome-javascript.git
+[submodule "sources/awesome-typescript"]
+	path = sources/awesome-typescript
+	url = https://github.com/dzharii/awesome-typescript.git
+[submodule "sources/awesome-cpp"]
+	path = sources/awesome-cpp
+	url = https://github.com/fffaraz/awesome-cpp.git
+[submodule "sources/awesome-rust"]
+	path = sources/awesome-rust
+	url = https://github.com/rust-unofficial/awesome-rust.git
+[submodule "sources/awesome-php"]
+	path = sources/awesome-php
+	url = https://github.com/ziadoz/awesome-php.git
+[submodule "sources/awesome-dotnet"]
+	path = sources/awesome-dotnet
+	url = https://github.com/quozd/awesome-dotnet.git
+[submodule "sources/awesome-ruby"]
+	path = sources/awesome-ruby
+	url = https://github.com/markets/awesome-ruby.git
+[submodule "sources/awesome-swift"]
+	path = sources/awesome-swift
+	url = https://github.com/matteocrippa/awesome-swift.git
+[submodule "sources/awesome-llm-apps"]
+	path = sources/awesome-llm-apps
+	url = https://github.com/Shubhamsaboo/awesome-llm-apps.git
+[submodule "sources/awesome-machine-learning"]
+	path = sources/awesome-machine-learning
+	url = https://github.com/josephmisiti/awesome-machine-learning.git
+[submodule "sources/awesome-deep-learning"]
+	path = sources/awesome-deep-learning
+	url = https://github.com/ChristosChristofidis/awesome-deep-learning.git
+[submodule "sources/awesome-llm"]
+	path = sources/awesome-llm
+	url = https://github.com/Hannibal046/Awesome-LLM.git
+[submodule "sources/awesome-nlp"]
+	path = sources/awesome-nlp
+	url = https://github.com/keon/awesome-nlp.git
+[submodule "sources/awesome-computer-vision"]
+	path = sources/awesome-computer-vision
+	url = https://github.com/jbhuang0604/awesome-computer-vision.git
+[submodule "sources/awesome-ai-agents"]
+	path = sources/awesome-ai-agents
+	url = https://github.com/e2b-dev/awesome-ai-agents.git
+[submodule "sources/awesome-mcp-servers"]
+	path = sources/awesome-mcp-servers
+	url = https://github.com/punkpeye/awesome-mcp-servers.git
+[submodule "sources/awesome-rag"]
+	path = sources/awesome-rag
+	url = https://github.com/Danielskry/Awesome-RAG.git
+[submodule "sources/awesome-production-machine-learning"]
+	path = sources/awesome-production-machine-learning
+	url = https://github.com/EthicalML/awesome-production-machine-learning.git
+[submodule "sources/awesome-selfhosted"]
+	path = sources/awesome-selfhosted
+	url = https://github.com/awesome-selfhosted/awesome-selfhosted.git
+[submodule "sources/awesome-scalability"]
+	path = sources/awesome-scalability
+	url = https://github.com/binhnguyennus/awesome-scalability.git
+[submodule "sources/awesome-sysadmin"]
+	path = sources/awesome-sysadmin
+	url = https://github.com/awesome-foss/awesome-sysadmin.git
+[submodule "sources/awesome-linux-software"]
+	path = sources/awesome-linux-software
+	url = https://github.com/luong-komorebi/Awesome-Linux-Software.git
+[submodule "sources/awesome-docker"]
+	path = sources/awesome-docker
+	url = https://github.com/veggiemonk/awesome-docker.git
+[submodule "sources/awesome-kubernetes"]
+	path = sources/awesome-kubernetes
+	url = https://github.com/ramitsurana/awesome-kubernetes.git
+[submodule "sources/awesome-tf"]
+	path = sources/awesome-tf
+	url = https://github.com/shuaibiyy/awesome-tf.git
+[submodule "sources/awesome-ansible"]
+	path = sources/awesome-ansible
+	url = https://github.com/ansible-community/awesome-ansible.git
+[submodule "sources/awesome-aws"]
+	path = sources/awesome-aws
+	url = https://github.com/donnemartin/awesome-aws.git
+[submodule "sources/awesome-db"]
+	path = sources/awesome-db
+	url = https://github.com/numetriclabz/awesome-db.git
+[submodule "sources/awesome-postgres"]
+	path = sources/awesome-postgres
+	url = https://github.com/dhamaniasad/awesome-postgres.git
+[submodule "sources/awesome-react"]
+	path = sources/awesome-react
+	url = https://github.com/enaqx/awesome-react.git
+[submodule "sources/awesome-flutter"]
+	path = sources/awesome-flutter
+	url = https://github.com/Solido/awesome-flutter.git
+[submodule "sources/awesome-vue"]
+	path = sources/awesome-vue
+	url = https://github.com/vuejs/awesome-vue.git
+[submodule "sources/awesome-nodejs"]
+	path = sources/awesome-nodejs
+	url = https://github.com/sindresorhus/awesome-nodejs.git
+[submodule "sources/awesome-react-native"]
+	path = sources/awesome-react-native
+	url = https://github.com/jondot/awesome-react-native.git
+[submodule "sources/awesome-ios"]
+	path = sources/awesome-ios
+	url = https://github.com/vsouza/awesome-ios.git
+[submodule "sources/awesome-android-ui"]
+	path = sources/awesome-android-ui
+	url = https://github.com/wasabeef/awesome-android-ui.git
+[submodule "sources/awesome-electron"]
+	path = sources/awesome-electron
+	url = https://github.com/sindresorhus/awesome-electron.git
+[submodule "sources/awesome-hacking"]
+	path = sources/awesome-hacking
+	url = https://github.com/Hack-with-Github/Awesome-Hacking.git
+[submodule "sources/awesome-courses"]
+	path = sources/awesome-courses
+	url = https://github.com/prakhar1989/awesome-courses.git
+[submodule "sources/awesome-mac"]
+	path = sources/awesome-mac
+	url = https://github.com/jaywcjlove/awesome-mac.git
+[submodule "sources/awesome-shell"]
+	path = sources/awesome-shell
+	url = https://github.com/alebcay/awesome-shell.git
+[submodule "sources/awesome-actions"]
+	path = sources/awesome-actions
+	url = https://github.com/sdras/awesome-actions.git
+[submodule "sources/awesome-design-systems"]
+	path = sources/awesome-design-systems
+	url = https://github.com/alexpate/awesome-design-systems.git
+[submodule "sources/awesome-algorithms"]
+	path = sources/awesome-algorithms
+	url = https://github.com/tayllan/awesome-algorithms.git
