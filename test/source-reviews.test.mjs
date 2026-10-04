@@ -226,10 +226,13 @@ test("migration data covers the ledger baseline and both registries", async () =
   const collectionByIdentity = new Map(collections.map((item) => [identity(item.repositoryUrl), item]));
   const candidateByIdentity = new Map(candidates.map((item) => [identity(item.repositoryUrl), item]));
 
-  assert.equal(baseline.size, 51);
-  assert.equal(reviews.length, 51);
-  assert.equal(new Set(reviews.map(({ id }) => id)).size, 51);
-  assert.deepEqual([...reviewsByIdentity.keys()].sort(), [...baseline].sort());
+  assert.equal(candidates.length, 50);
+  assert.ok(candidates.every(({ licenseId }) =>
+    ["CC0-1.0", "MIT", "Apache-2.0", "Unlicense", "WTFPL"].includes(licenseId)));
+  assert.equal(baseline.size, 69);
+  assert.equal(reviews.length, 96);
+  assert.equal(new Set(reviews.map(({ id }) => id)).size, 96);
+  assert.equal(reviewsByIdentity.size, reviews.length);
   for (const source of baseline) {
     const item = reviewsByIdentity.get(source);
     assert.ok(item, `missing review for ${source}`);
@@ -237,7 +240,7 @@ test("migration data covers the ledger baseline and both registries", async () =
     if (candidateByIdentity.has(source)) assert.equal(item.imported, false, `${source} candidate status`);
   }
   assert.equal(reviews.filter(({ imported }) => imported).length, collections.length);
-  assert.equal(reviews.filter(({ imported }) => !imported).length, 35);
+  assert.equal(reviews.filter(({ imported }) => !imported).length, 80);
   assert.match(reviewsByIdentity.get("jamzywang/awesome-redis").notImportedReason, /746.*below.*1,000/u);
   assert.match(reviewsByIdentity.get("heapy/awesome-kotlin").notImportedReason, /introduction/u);
   assert.match(reviewsByIdentity.get("awesomedata/awesome-public-datasets").notImportedReason, /reStructuredText/u);

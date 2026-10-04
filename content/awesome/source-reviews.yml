@@ -1,4 +1,10 @@
 # Imported records may have null importedAt when historical admission timing is unknown.
+- id: awesome-agent-skills
+  source: https://github.com/VoltAgent/awesome-agent-skills
+  title: Awesome Agent Skills
+  imported: false
+  notImportedReason: "Pending source review and publication prerequisites."
+  importedAt: null
 - id: awesome-actions
   source: https://github.com/sdras/awesome-actions
   title: Awesome Actions
@@ -9,13 +15,13 @@
   source: https://github.com/e2b-dev/awesome-ai-agents
   title: Awesome AI Agents
   imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  notImportedReason: "Excluded from the license-qualified candidate set: repository license is CC BY-NC 4.0, outside the supported license allowlist."
   importedAt: null
 - id: awesome-algorithms
   source: https://github.com/tayllan/awesome-algorithms
   title: Awesome Algorithms
   imported: false
-  notImportedReason: "Pending redistribution permission review; no LICENSE file was present in the 2026-10-03 audit."
+  notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
   importedAt: null
 - id: awesome-android-ui
   source: https://github.com/wasabeef/awesome-android-ui
@@ -33,19 +39,49 @@
   source: https://github.com/donnemartin/awesome-aws
   title: Awesome AWS
   imported: false
+  notImportedReason: "Excluded from the license-qualified candidate set: repository license is CC BY 4.0, outside the supported license allowlist."
+  importedAt: null
+- id: awesome-chatgpt-prompts-zh
+  source: https://github.com/PlexPt/awesome-chatgpt-prompts-zh
+  title: Awesome ChatGPT Prompts (Chinese)
+  imported: false
+  notImportedReason: "Pending source review and publication prerequisites."
+  importedAt: null
+- id: awesome-claude-skills
+  source: https://github.com/ComposioHQ/awesome-claude-skills
+  title: Awesome Claude Skills
+  imported: false
+  notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
+  importedAt: null
+- id: awesome-cli-apps
+  source: https://github.com/agarrharr/awesome-cli-apps
+  title: Awesome CLI Apps
+  imported: false
+  notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
+  importedAt: null
+- id: awesome-compose
+  source: https://github.com/docker/awesome-compose
+  title: Awesome Compose
+  imported: false
+  notImportedReason: "Pending source review and publication prerequisites."
+  importedAt: null
+- id: awesome-copilot
+  source: https://github.com/github/awesome-copilot
+  title: Awesome Copilot
+  imported: false
   notImportedReason: "Pending source review and publication prerequisites."
   importedAt: null
 - id: awesome-computer-vision
   source: https://github.com/jbhuang0604/awesome-computer-vision
   title: Awesome Computer Vision
   imported: false
-  notImportedReason: "Pending redistribution permission review; no LICENSE file was present in the 2026-10-03 audit."
+  notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
   importedAt: null
 - id: awesome-courses
   source: https://github.com/prakhar1989/awesome-courses
   title: Awesome Courses
   imported: false
-  notImportedReason: "Pending redistribution permission review; no LICENSE file was present in the 2026-10-03 audit."
+  notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
   importedAt: null
 - id: awesome-cpp
   source: https://github.com/fffaraz/awesome-cpp
@@ -53,17 +89,47 @@
   imported: false
   notImportedReason: "Pending source review and publication prerequisites."
   importedAt: null
+- id: awesome-datascience
+  source: https://github.com/academic/awesome-datascience
+  title: Awesome Data Science
+  imported: false
+  notImportedReason: "Pending source review and publication prerequisites."
+  importedAt: null
 - id: awesome-db
   source: https://github.com/numetriclabz/awesome-db
   title: Awesome DB
   imported: false
-  notImportedReason: "Pending redistribution permission review; no LICENSE file was present in the 2026-10-03 audit."
+  notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
+  importedAt: null
+- id: awesome-db-tools
+  source: https://github.com/mgramin/awesome-db-tools
+  title: Awesome DB Tools
+  imported: false
+  notImportedReason: "Pending source review and publication prerequisites."
   importedAt: null
 - id: awesome-deep-learning
   source: https://github.com/ChristosChristofidis/awesome-deep-learning
   title: Awesome Deep Learning
   imported: false
+  notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
+  importedAt: null
+- id: awesome-deepseek-integration
+  source: https://github.com/deepseek-ai/awesome-deepseek-integration
+  title: Awesome DeepSeek Integration
+  imported: false
   notImportedReason: "Pending source review and publication prerequisites."
+  importedAt: null
+- id: awesome-design-md
+  source: https://github.com/VoltAgent/awesome-design-md
+  title: Awesome Design.md
+  imported: false
+  notImportedReason: "Pending source review and publication prerequisites."
+  importedAt: null
+- id: awesome-design-patterns
+  source: https://github.com/DovAmir/awesome-design-patterns
+  title: Awesome Design Patterns
+  imported: false
+  notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
   importedAt: null
 - id: awesome-design-systems
   source: https://github.com/alexpate/awesome-design-systems
@@ -76,6 +142,12 @@
   title: Awesome .NET
   imported: false
   notImportedReason: "Pending source review and publication prerequisites."
+  importedAt: null
+- id: awesome-dotnet-core
+  source: https://github.com/thangchung/awesome-dotnet-core
+  title: Awesome .NET Core
+  imported: false
+  notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
   importedAt: null
 - id: awesome-docker
   source: https://github.com/veggiemonk/awesome-docker
@@ -93,7 +165,13 @@
   source: https://github.com/Solido/awesome-flutter
   title: Awesome Flutter
   imported: false
-  notImportedReason: "Pending redistribution permission review; no LICENSE file was present in the 2026-10-03 audit."
+  notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
+  importedAt: null
+- id: awesome-generative-ai-guide
+  source: https://github.com/aishwaryanr/awesome-generative-ai-guide
+  title: Awesome Generative AI Guide
+  imported: false
+  notImportedReason: "Pending source review and publication prerequisites."
   importedAt: null
 - id: awesome-github-profile-readme
   source: https://github.com/abhisheknaiidu/awesome-github-profile-readme
@@ -123,7 +201,7 @@
   source: https://github.com/akullpp/awesome-java
   title: Awesome Java
   imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  notImportedReason: "Excluded from the license-qualified candidate set: repository license is CC BY-SA 4.0, outside the supported license allowlist."
   importedAt: null
 - id: awesome-javascript
   source: https://github.com/sorrycc/awesome-javascript
@@ -141,13 +219,19 @@
   source: https://github.com/ramitsurana/awesome-kubernetes
   title: Awesome Kubernetes
   imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  notImportedReason: "Excluded from the license-qualified candidate set: repository license is CC BY-NC 4.0, outside the supported license allowlist."
   importedAt: null
 - id: awesome-linux-software
   source: https://github.com/luong-komorebi/Awesome-Linux-Software
   title: Awesome Linux Software
   imported: false
-  notImportedReason: "Pending redistribution permission review; no LICENSE file was present in the 2026-10-03 audit."
+  notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
+  importedAt: null
+- id: awesome-low-level-design
+  source: https://github.com/ashishps1/awesome-low-level-design
+  title: Awesome Low Level Design
+  imported: false
+  notImportedReason: "Excluded from the license-qualified candidate set: repository license is GPL-3.0, outside the supported license allowlist."
   importedAt: null
 - id: awesome-llm
   source: https://github.com/Hannibal046/Awesome-LLM
@@ -165,7 +249,7 @@
   source: https://github.com/josephmisiti/awesome-machine-learning
   title: Awesome Machine Learning
   imported: false
-  notImportedReason: "Pending review: redistribution license terms were unclear in the 2026-10-03 audit."
+  notImportedReason: "Excluded from the license-qualified candidate set: custom license text does not clearly establish supported redistribution terms."
   importedAt: null
 - id: awesome-mac
   source: https://github.com/jaywcjlove/awesome-mac
@@ -190,6 +274,12 @@
   title: Awesome Node.js
   imported: true
   notImportedReason: null
+  importedAt: null
+- id: awesome-osint
+  source: https://github.com/jivoi/awesome-osint
+  title: Awesome OSINT
+  imported: false
+  notImportedReason: "Excluded from the license-qualified candidate set: repository license is CC BY-SA 4.0, outside the supported license allowlist."
   importedAt: null
 - id: awesome-php
   source: https://github.com/ziadoz/awesome-php
@@ -219,7 +309,7 @@
   source: https://github.com/vinta/awesome-python
   title: Awesome Python
   imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  notImportedReason: "Excluded from the license-qualified candidate set: repository license is CC BY 4.0, outside the supported license allowlist."
   importedAt: null
 - id: awesome-rag
   source: https://github.com/Danielskry/Awesome-RAG
@@ -227,17 +317,23 @@
   imported: true
   notImportedReason: null
   importedAt: null
+- id: awesome-react-components
+  source: https://github.com/brillout/awesome-react-components
+  title: Awesome React Components
+  imported: false
+  notImportedReason: "Pending source review and publication prerequisites."
+  importedAt: null
 - id: awesome-react
   source: https://github.com/enaqx/awesome-react
   title: Awesome React
   imported: false
-  notImportedReason: "Pending redistribution permission review; no LICENSE file was present in the 2026-10-03 audit."
+  notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
   importedAt: null
 - id: awesome-react-native
   source: https://github.com/jondot/awesome-react-native
   title: Awesome React Native
   imported: false
-  notImportedReason: "Pending redistribution permission review; no LICENSE file was present in the 2026-10-03 audit."
+  notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
   importedAt: null
 - id: awesome-redis
   source: https://github.com/JamzyWang/awesome-redis
@@ -249,7 +345,7 @@
   source: https://github.com/markets/awesome-ruby
   title: Awesome Ruby
   imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
   importedAt: null
 - id: awesome-rust
   source: https://github.com/rust-unofficial/awesome-rust
@@ -267,7 +363,7 @@
   source: https://github.com/awesome-selfhosted/awesome-selfhosted
   title: Awesome Selfhosted
   imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  notImportedReason: "Excluded from the license-qualified candidate set: repository license is CC BY-SA 3.0, outside the supported license allowlist."
   importedAt: null
 - id: awesome-shell
   source: https://github.com/alebcay/awesome-shell
@@ -285,13 +381,25 @@
   source: https://github.com/awesome-foss/awesome-sysadmin
   title: Awesome Sysadmin
   imported: false
-  notImportedReason: "Pending redistribution permission review; no LICENSE file was present in the 2026-10-03 audit."
+  notImportedReason: "Excluded from the license-qualified candidate set: repository license is CC BY-SA 4.0, outside the supported license allowlist."
   importedAt: null
 - id: awesome-tf
   source: https://github.com/shuaibiyy/awesome-tf
   title: Awesome Terraform
   imported: true
   notImportedReason: null
+  importedAt: null
+- id: awesome-system-design-resources
+  source: https://github.com/ashishps1/awesome-system-design-resources
+  title: Awesome System Design Resources
+  imported: false
+  notImportedReason: "Excluded from the license-qualified candidate set: repository license is GPL-3.0, outside the supported license allowlist."
+  importedAt: null
+- id: awesome-tuis
+  source: https://github.com/rothgar/awesome-tuis
+  title: Awesome TUIs
+  imported: false
+  notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
   importedAt: null
 - id: awesome-typescript
   source: https://github.com/dzharii/awesome-typescript
@@ -304,4 +412,166 @@
   title: Awesome Vue
   imported: false
   notImportedReason: "Pending source-safety review for <style> content rejected by the current content checks."
+  importedAt: null
+- id: awesome-ai4s
+  source: https://github.com/hyperai/awesome-ai4s
+  title: Awesome AI for Science
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-agentic-patterns
+  source: https://github.com/nibzard/awesome-agentic-patterns
+  title: Awesome Agentic Patterns
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-automl-papers
+  source: https://github.com/hibayesian/awesome-automl-papers
+  title: Awesome AutoML Papers
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-bash
+  source: https://github.com/awesome-lists/awesome-bash
+  title: Awesome Bash
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-cloud-security
+  source: https://github.com/teamssix/awesome-cloud-security
+  title: Awesome Cloud Security
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-ctf
+  source: https://github.com/apsdehal/awesome-ctf
+  title: Awesome CTF
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-deep-text-detection-recognition
+  source: https://github.com/hwalsuklee/awesome-deep-text-detection-recognition
+  title: Awesome Deep Text Detection and Recognition
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-django
+  source: https://github.com/wsvincent/awesome-django
+  title: Awesome Django
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-fastapi
+  source: https://github.com/mjhea0/awesome-fastapi
+  title: Awesome FastAPI
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-flask
+  source: https://github.com/humiaozuzu/awesome-flask
+  title: Awesome Flask
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-generative-ai
+  source: https://github.com/steven2358/awesome-generative-ai
+  title: Awesome Generative AI
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-golang-algorithm
+  source: https://github.com/6boris/awesome-golang-algorithm
+  title: Awesome Golang Algorithm
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-gpt-agents
+  source: https://github.com/fr0gger/Awesome-GPT-Agents
+  title: Awesome GPT Agents
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-incident-response
+  source: https://github.com/meirwah/awesome-incident-response
+  title: Awesome Incident Response
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-k8s-resources
+  source: https://github.com/tomhuang12/awesome-k8s-resources
+  title: Awesome Kubernetes Resources
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-knowledge-distillation
+  source: https://github.com/dkozlov/awesome-knowledge-distillation
+  title: Awesome Knowledge Distillation
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-llm-resources
+  source: https://github.com/WangRongsheng/awesome-LLM-resources
+  title: Awesome LLM Resources
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-llm-strawberry
+  source: https://github.com/hijkzzz/Awesome-LLM-Strawberry
+  title: Awesome LLM Strawberry
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-microservices
+  source: https://github.com/mfornos/awesome-microservices
+  title: Awesome Microservices
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-paddle-deeplearning
+  source: https://github.com/PaddlePaddle/awesome-DeepLearning
+  title: Awesome DeepLearning
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-prompt-engineering
+  source: https://github.com/promptslab/Awesome-Prompt-Engineering
+  title: Awesome Prompt Engineering
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-rlhf
+  source: https://github.com/opendilab/awesome-RLHF
+  title: Awesome RLHF
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-sre
+  source: https://github.com/dastergon/awesome-sre
+  title: Awesome SRE
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-software-architecture
+  source: https://github.com/mehdihadeli/awesome-software-architecture
+  title: Awesome Software Architecture
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-system-design
+  source: https://github.com/madd86/awesome-system-design
+  title: Awesome System Design
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-threat-intelligence
+  source: https://github.com/hslatman/awesome-threat-intelligence
+  title: Awesome Threat Intelligence
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
+  importedAt: null
+- id: awesome-waf
+  source: https://github.com/0xInfection/Awesome-WAF
+  title: Awesome WAF
+  imported: false
+  notImportedReason: "Not hosted: source safety and translation review remain pending."
   importedAt: null
