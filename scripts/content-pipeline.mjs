@@ -18,10 +18,18 @@ import {
   inspectMarkdown,
 } from "../src/plugins/awesome-content.mjs";
 import { normalizeCatalogTags } from "../src/catalog-tags.mjs";
+import {
+  loadSourceReviews,
+  reconcileSourceReviews,
+  validateRepositoryUrl,
+} from "./source-reviews.mjs";
+
+export { validateRepositoryUrl };
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 const registryPath = path.join(root, "content/awesome/collections.json");
 const catalogsPath = path.join(root, "content/awesome/catalogs.json");
+const candidatesPath = path.join(root, "content/awesome/candidates.json");
 const manifestPath = path.join(root, ".awesome-content-manifest.json");
 const locales = ["zh-CN", "zh-Hant", "fr-FR", "de-DE", "es-ES", "ja-JP", "ko-KR", "pt-BR", "ru-RU"];
 const discoveryLocales = ["root", ...locales];
@@ -99,29 +107,6 @@ function validateSubmoduleRegistration(collection) {
   }
 }
 
-export function validateRepositoryUrl(value, collectionId) {
-  let url;
-  try {
-    url = new URL(value);
-  } catch {
-    throw new Error(`${collectionId}: repositoryUrl must be a canonical HTTPS GitHub repository URL`);
-  }
-  const parts = url.pathname.replace(/\/$/u, "").split("/").filter(Boolean);
-  if (
-    url.protocol !== "https:" ||
-    url.hostname !== "github.com" ||
-    url.username ||
-    url.password ||
-    url.search ||
-    url.hash ||
-    parts.length !== 2 ||
-    parts.some((part) => part.endsWith(".git")) ||
-    url.pathname.endsWith("/")
-  ) {
-    throw new Error(`${collectionId}: unsupported repository URL "${value}"`);
-  }
-}
-
 export function validateCatalogs(catalogs) {
   if (!catalogs || typeof catalogs !== "object" || Array.isArray(catalogs)) {
     throw new Error("content/awesome/catalogs.json must contain a topic object");
@@ -189,6 +174,33 @@ export function validateRegistry(collections, catalogs) {
   }
 }
 
+export function validateCandidateRepositories(candidates, collections, catalogs) {
+  if (!Array.isArray(candidates)) {
+    throw new Error("content/awesome/candidates.json must contain a repository array");
+  }
+  const ids = new Set(collections.map(({ id }) => id));
+  const urls = new Set(collections.map(({ repositoryUrl }) => repositoryUrl));
+  for (const candidate of candidates) {
+    if (!candidate || typeof candidate !== "object" || Array.isArray(candidate)) {
+      throw new Error("Every repository candidate must be an object");
+    }
+    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/u.test(candidate.id)) {
+      throw new Error(`Invalid repository candidate identifier "${candidate.id}"`);
+    }
+    validateRepositoryUrl(candidate.repositoryUrl, candidate.id);
+    if (ids.has(candidate.id)) throw new Error(`${candidate.id}: duplicate collection or repository candidate`);
+    if (urls.has(candidate.repositoryUrl)) throw new Error(`${candidate.id}: duplicate repository URL`);
+    if (!Number.isSafeInteger(candidate.stars) || candidate.stars < 1000) {
+      throw new Error(`${candidate.id}: repository candidates require at least 1,000 snapshot stars`);
+    }
+    if (typeof candidate.catalog !== "string" || !Object.hasOwn(catalogs, candidate.catalog)) {
+      throw new Error(`${candidate.id}: unknown repository candidate topic "${candidate.catalog}"`);
+    }
+    ids.add(candidate.id);
+    urls.add(candidate.repositoryUrl);
+  }
+}
+
 async function validateSource(collection) {
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/u.test(collection.id)) {
     throw new Error(`Invalid collection identifier "${collection.id}"`);
@@ -230,7 +242,11 @@ async function validateSource(collection) {
 async function loadSources() {
   const collections = JSON.parse(await readFile(registryPath, "utf8"));
   const catalogs = JSON.parse(await readFile(catalogsPath, "utf8"));
+  const candidates = JSON.parse(await readFile(candidatesPath, "utf8"));
   validateRegistry(collections, catalogs);
+  validateCandidateRepositories(candidates, collections, catalogs);
+  const reviews = await loadSourceReviews();
+  reconcileSourceReviews(reviews, collections, candidates);
   const sources = [];
   for (const collection of collections) {
     sources.push(await validateSource(collection));
@@ -411,60 +427,90 @@ const discoveryCopy = {
     collections: "Awesome collections",
     browseTopics: "Browse by topic",
     allCollections: "All collections",
+    additionalRepositories: "More repositories on GitHub",
+    externalOnly: "Links only; repository contents remain on GitHub. Stars are from the 2026-10-03 snapshot.",
+    stars: "stars",
     collectionCount: (count) => `${count} collection${count === 1 ? "" : "s"}`,
   },
   "zh-CN": {
     collections: "Awesome 合集",
     browseTopics: "按主题浏览",
     allCollections: "所有合集",
+    additionalRepositories: "更多 GitHub 仓库",
+    externalOnly: "此处仅列出链接；仓库内容仍在 GitHub。Star 数为 2026-10-03 快照。",
+    stars: "星",
     collectionCount: (count) => `${count} 个合集`,
   },
   "zh-Hant": {
     collections: "Awesome 精選集",
     browseTopics: "依主題瀏覽",
     allCollections: "所有精選集",
+    additionalRepositories: "更多 GitHub 儲存庫",
+    externalOnly: "此處僅列出連結；儲存庫內容仍在 GitHub。Star 數為 2026-10-03 快照。",
+    stars: "星",
     collectionCount: (count) => `${count} 個精選集`,
   },
   "fr-FR": {
     collections: "Collections Awesome",
     browseTopics: "Parcourir par sujet",
     allCollections: "Toutes les collections",
+    additionalRepositories: "Autres dépôts sur GitHub",
+    externalOnly: "Liens uniquement ; le contenu reste sur GitHub. Les étoiles correspondent au relevé du 2026-10-03.",
+    stars: "étoiles",
     collectionCount: (count) => `${count} collection${count === 1 ? "" : "s"}`,
   },
   "de-DE": {
     collections: "Awesome-Sammlungen",
     browseTopics: "Nach Thema durchsuchen",
     allCollections: "Alle Sammlungen",
+    additionalRepositories: "Weitere Repositories auf GitHub",
+    externalOnly: "Nur Links; die Inhalte bleiben auf GitHub. Die Sterne stammen aus dem Snapshot vom 03.10.2026.",
+    stars: "Sterne",
     collectionCount: (count) => `${count} Sammlung${count === 1 ? "" : "en"}`,
   },
   "es-ES": {
     collections: "Colecciones Awesome",
     browseTopics: "Explorar por tema",
     allCollections: "Todas las colecciones",
+    additionalRepositories: "Más repositorios en GitHub",
+    externalOnly: "Solo enlaces; el contenido permanece en GitHub. Las estrellas corresponden a la captura del 2026-10-03.",
+    stars: "estrellas",
     collectionCount: (count) => `${count} colecci${count === 1 ? "ón" : "ones"}`,
   },
   "ja-JP": {
     collections: "Awesome コレクション",
     browseTopics: "トピックから探す",
     allCollections: "すべてのコレクション",
+    additionalRepositories: "その他の GitHub リポジトリ",
+    externalOnly: "リンクのみを掲載しています。リポジトリの内容は GitHub にあります。Star 数は 2026-10-03 時点です。",
+    stars: "スター",
     collectionCount: (count) => `${count} 件のコレクション`,
   },
   "ko-KR": {
     collections: "Awesome 컬렉션",
     browseTopics: "주제별로 찾아보기",
     allCollections: "모든 컬렉션",
+    additionalRepositories: "더 많은 GitHub 저장소",
+    externalOnly: "링크만 제공하며 저장소 콘텐츠는 GitHub에 있습니다. 별 수는 2026-10-03 스냅샷 기준입니다.",
+    stars: "별",
     collectionCount: (count) => `${count}개 컬렉션`,
   },
   "pt-BR": {
     collections: "Coleções Awesome",
     browseTopics: "Navegar por tópico",
     allCollections: "Todas as coleções",
+    additionalRepositories: "Mais repositórios no GitHub",
+    externalOnly: "Apenas links; o conteúdo permanece no GitHub. As estrelas são da captura de 2026-10-03.",
+    stars: "estrelas",
     collectionCount: (count) => `${count} coleç${count === 1 ? "ão" : "ões"}`,
   },
   "ru-RU": {
     collections: "Подборки Awesome",
     browseTopics: "Обзор по темам",
     allCollections: "Все подборки",
+    additionalRepositories: "Другие репозитории на GitHub",
+    externalOnly: "Здесь только ссылки; содержимое остается на GitHub. Число звезд — снимок на 03.10.2026.",
+    stars: "звезд",
     collectionCount: russianCollectionCount,
   },
 };
@@ -482,6 +528,15 @@ function markdownLink(label, destination) {
 }
 
 function discoveryFrontmatter(title, description, kind, topic) {
+  if (typeof title !== "string" || !title.trim()) {
+    throw new Error("Generated discovery pages require a nonempty localized title");
+  }
+  if (typeof description !== "string" || !description.trim()) {
+    throw new Error("Generated discovery pages require a nonempty description");
+  }
+  if (kind !== "collections" && kind !== "tag") {
+    throw new Error(`Unsupported generated discovery page kind "${kind}"`);
+  }
   const index = kind === "tag"
     ? `awesomeIndex:\n  kind: "tag"\n  topic: ${quote(topic)}`
     : 'awesomeIndex:\n  kind: "collections"';
@@ -490,6 +545,7 @@ function discoveryFrontmatter(title, description, kind, topic) {
     `title: ${quote(title)}`,
     `description: ${quote(description)}`,
     "rss: false",
+    "sidebar:\n  hidden: true",
     index,
     "---",
     "",
@@ -516,45 +572,66 @@ function effectiveTags(source) {
   return normalizeCatalogTags(source.collection, source.collection.id).tags;
 }
 
-async function stageDiscoveryPages(stage, newPaths, prepared, catalogs) {
+function renderCollectionDirectory(locale, sortedSources, usedTopics, catalogs, candidates) {
+  const prefix = localePath(locale);
+  const copy = discoveryCopy[locale];
+  const localized = sortedSources.map((source) => ({
+    source,
+    ...localizedCollection(source, locale),
+    tags: effectiveTags(source),
+  }));
+  const registeredIds = new Set(sortedSources.map(({ collection }) => collection.id));
+  const externalCandidates = candidates.filter(({ id }) => !registeredIds.has(id));
+  const topicCounts = new Map(usedTopics.map((topic) => [
+    topic,
+    localized.filter(({ tags }) => tags.includes(topic)).length,
+  ]));
+  const topicLinks = usedTopics.map((topic) => {
+    const label = catalogs[topic].labels[locale];
+    return `- ${markdownLink(label, `${prefix}awesome/tags/${topic}`)} (${copy.collectionCount(topicCounts.get(topic))})`;
+  }).join("\n");
+  const collectionLinks = localized.map(({ source, title, description, tags }) => {
+    const links = tags.map((topic) =>
+      markdownLink(catalogs[topic].labels[locale], `${prefix}awesome/tags/${topic}`)).join(", ");
+    return `- ${markdownLink(title, `${prefix}${source.collection.route}`)} — ${description}\n  - ${copy.browseTopics}: ${links}`;
+  }).join("\n");
+  const candidateLinks = externalCandidates.map(({ repositoryUrl, catalog, stars }) =>
+    `- [${escapeMarkdownLabel(catalogs[catalog].labels[locale])}](${repositoryUrl}) — ${new Intl.NumberFormat(locale === "root" ? "en-US" : locale).format(stars)} ${copy.stars}`
+  ).join("\n");
+  const count = copy.collectionCount(sortedSources.length);
+  return `${discoveryFrontmatter(copy.collections, count, "collections")}` +
+    `# ${copy.collections}\n\n${count}\n\n` +
+    `## ${copy.browseTopics}\n\n${topicLinks}\n\n## ${copy.collections}\n\n${collectionLinks}\n` +
+    (externalCandidates.length
+      ? `\n## ${copy.additionalRepositories} (${externalCandidates.length})\n\n${copy.externalOnly}\n\n${candidateLinks}\n`
+      : "");
+}
+
+async function stageDiscoveryPages(stage, newPaths, prepared, catalogs, candidates) {
   const sortedSources = [...prepared].sort((first, second) =>
     first.collection.id.localeCompare(second.collection.id));
   const usedTopics = [...new Set(sortedSources.flatMap(effectiveTags))].sort();
 
   for (const locale of discoveryLocales) {
     const prefix = localePath(locale);
-    const copy = discoveryCopy[locale];
-    const localized = sortedSources.map((source) => ({
-      source,
-      ...localizedCollection(source, locale),
-      tags: effectiveTags(source),
-    }));
-    const topicCounts = new Map(usedTopics.map((topic) => [
-      topic,
-      localized.filter(({ tags }) => tags.includes(topic)).length,
-    ]));
+    const content = renderCollectionDirectory(locale, sortedSources, usedTopics, catalogs, candidates);
+    const homepagePath = `src/content/docs/${prefix}index.md`;
     const indexPath = `src/content/docs/${prefix}awesome/index.md`;
-    const indexOutput = path.join(stage, indexPath);
-    await mkdir(path.dirname(indexOutput), { recursive: true });
-    const topicLinks = usedTopics.map((topic) => {
-      const label = catalogs[topic].labels[locale];
-      return `- ${markdownLink(label, `${prefix}awesome/tags/${topic}`)} (${copy.collectionCount(topicCounts.get(topic))})`;
-    }).join("\n");
-    const collectionLinks = localized.map(({ source, title, description, tags }) => {
-      const links = tags.map((topic) =>
-        markdownLink(catalogs[topic].labels[locale], `${prefix}awesome/tags/${topic}`)).join(", ");
-      return `- ${markdownLink(title, `${prefix}${source.collection.route}`)} — ${description}\n  - ${copy.browseTopics}: ${links}`;
-    }).join("\n");
-    await writeFile(
-      indexOutput,
-      `${discoveryFrontmatter(copy.collections, copy.collectionCount(sortedSources.length), "collections")}` +
-      `# ${copy.collections}\n\n${copy.collectionCount(sortedSources.length)}\n\n` +
-      `## ${copy.browseTopics}\n\n${topicLinks}\n\n## ${copy.collections}\n\n${collectionLinks}\n`,
-      { flag: "wx" },
-    );
-    newPaths.push(indexPath);
+
+    for (const relative of [homepagePath, indexPath]) {
+      const output = path.join(stage, relative);
+      await mkdir(path.dirname(output), { recursive: true });
+      await writeFile(output, content, { flag: "wx" });
+      newPaths.push(relative);
+    }
 
     for (const topic of usedTopics) {
+      const copy = discoveryCopy[locale];
+      const localized = sortedSources.map((source) => ({
+        source,
+        ...localizedCollection(source, locale),
+        tags: effectiveTags(source),
+      }));
       const members = localized.filter(({ tags }) => tags.includes(topic));
       const label = catalogs[topic].labels[locale];
       const topicPath = `src/content/docs/${prefix}awesome/tags/${topic}.md`;
@@ -574,12 +651,18 @@ async function stageDiscoveryPages(stage, newPaths, prepared, catalogs) {
   }
 }
 
-function safeOwnedPath(relative) {
+export function safeOwnedPath(relative) {
   const normalized = path.posix.normalize(relative);
   const localePrefix = `(?:(?:${locales.join("|")})/)?`;
+  const isHomepage = relative === "src/content/docs/index.md"
+    || locales.some((locale) => relative === `src/content/docs/${locale}/index.md`);
+  const isCollectionOutput = new RegExp(
+    `^src/content/docs/${localePrefix}awesome/(?:[a-z0-9-]+\\.md|index\\.md|tags/[a-z0-9-]+\\.md)$`,
+    "u",
+  ).test(relative);
   if (
     normalized !== relative ||
-    !new RegExp(`^src/content/docs/${localePrefix}awesome/(?:[a-z0-9-]+\\.md|index\\.md|tags/[a-z0-9-]+\\.md)$`, "u").test(relative) ||
+    (!isHomepage && !isCollectionOutput) ||
     relative.split("/").some((part) => part === "..")
   ) {
     throw new Error(`Invalid pipeline-owned path in manifest: "${relative}"`);
@@ -628,24 +711,6 @@ async function ensureNoSymlinkAncestors(filePath) {
   }
 }
 
-async function validateAuthoredEntryPoints() {
-  const missing = [];
-  for (const locale of locales) {
-    const route = "index.md";
-    const file = path.join(root, "src/content/docs", locale, route);
-    try {
-      const body = await readFile(file, "utf8");
-      if (!/^title:\s*["']?[^"'\n]+/mu.test(body.slice(0, body.indexOf("---", 3)))) {
-        throw new Error(`${locale}/${route}: missing a nonempty title`);
-      }
-    } catch (error) {
-      if (error.code === "ENOENT") missing.push(`${locale}/${route}`);
-      else throw error;
-    }
-  }
-  if (missing.length) throw new Error(`missing localized home pages: ${missing.join(", ")}`);
-}
-
 async function validateAll() {
   const sources = await loadSources();
   const prepared = [];
@@ -653,7 +718,6 @@ async function validateAll() {
     const translationData = await validateTranslations(source);
     prepared.push({ ...source, ...translationData });
   }
-  await validateAuthoredEntryPoints();
   return prepared;
 }
 
@@ -706,13 +770,15 @@ async function exportTranslations(args) {
   console.log(`Exported ${id} at ${source.revision} (${source.digest}) to ${outputDirectory}`);
 }
 
-export async function preparePages(prepared) {
+export async function preparePages(prepared, { rename: renameFile = rename } = {}) {
   const stage = await mkdtemp(path.join(root, ".awesome-content-stage-"));
   const previousPaths = await readOwnedManifest();
   const newPaths = [];
   try {
     const catalogs = JSON.parse(await readFile(catalogsPath, "utf8"));
     validateCatalogs(catalogs);
+    const candidates = JSON.parse(await readFile(candidatesPath, "utf8"));
+    validateCandidateRepositories(candidates, prepared.map(({ collection }) => collection), catalogs);
     for (const source of prepared) {
       const englishStructure = source.sourceStructure;
       const englishFragments = getFragments(englishStructure, englishStructure);
@@ -755,7 +821,7 @@ export async function preparePages(prepared) {
         newPaths.push(relative);
       }
     }
-    await stageDiscoveryPages(stage, newPaths, prepared, catalogs);
+    await stageDiscoveryPages(stage, newPaths, prepared, catalogs, candidates);
 
     for (const relative of newPaths) {
       const destination = safeOwnedPath(relative);
@@ -785,31 +851,31 @@ export async function preparePages(prepared) {
           await lstat(destination);
           const backup = path.join(backupRoot, relative);
           await mkdir(path.dirname(backup), { recursive: true });
-          await rename(destination, backup);
+          await renameFile(destination, backup);
           movedToBackup.push({ destination, backup });
         } catch (error) {
           if (error.code !== "ENOENT") throw error;
         }
         if (newPaths.includes(relative)) {
           await mkdir(path.dirname(destination), { recursive: true });
-          await rename(path.join(stage, relative), destination);
+          await renameFile(path.join(stage, relative), destination);
           installed.push(destination);
         }
       }
       const manifestBackup = path.join(backupRoot, ".awesome-content-manifest.json");
       try {
-        await rename(manifestPath, manifestBackup);
+        await renameFile(manifestPath, manifestBackup);
         movedToBackup.push({ destination: manifestPath, backup: manifestBackup });
       } catch (error) {
         if (error.code !== "ENOENT") throw error;
       }
-      await rename(stagedManifest, manifestPath);
+      await renameFile(stagedManifest, manifestPath);
       installed.push(manifestPath);
     } catch (error) {
       for (const file of installed.reverse()) await rm(file, { force: true });
       for (const { destination, backup } of movedToBackup.reverse()) {
         await mkdir(path.dirname(destination), { recursive: true });
-        await rename(backup, destination);
+        await renameFile(backup, destination);
       }
       throw error;
     }
@@ -823,7 +889,7 @@ async function main() {
   if (command === "export") return exportTranslations(args);
   if (command === "check") {
     await validateAll();
-    console.log("All source, translation, and authored-entry inputs are valid.");
+    console.log("All source and translation inputs are valid.");
     return;
   }
   if (command === "prepare") {

@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { execFileSync, spawnSync } from "node:child_process";
-import { mkdtemp, mkdir, readFile, rm, symlink, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
+import { access, copyFile, mkdtemp, mkdir, readFile, rename, rm, symlink, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import test from "node:test";
@@ -17,11 +18,15 @@ import {
   realPathInside,
   preparePages,
   validateCatalogs,
+  validateCandidateRepositories,
   validateMetadata,
   validateRegistry,
   validateTranslationRecords,
   licenseIsVerified,
+  safeOwnedPath,
 } from "../scripts/content-pipeline.mjs";
+import { loadSourceReviews } from "../scripts/source-reviews.mjs";
+import { stringify } from "yaml";
 import { normalizeCatalogTags } from "../src/catalog-tags.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
@@ -30,6 +35,7 @@ const sourceOptions = {
   readmePath: "docs/README.md",
 };
 const catalogLocales = ["root", "zh-CN", "zh-Hant", "fr-FR", "de-DE", "es-ES", "ja-JP", "ko-KR", "pt-BR", "ru-RU"];
+const translationLocales = catalogLocales.slice(1);
 const testCatalogs = {
   "test-topic": {
     labels: Object.fromEntries(catalogLocales.map((locale) => [locale, "Test topic"])),
@@ -38,6 +44,143 @@ const testCatalogs = {
     labels: Object.fromEntries(catalogLocales.map((locale) => [locale, "Secondary topic"])),
   },
 };
+
+async function createIsolatedPipeline({ ledgerContent, validSource = false }) {
+  const fixtureRoot = await mkdtemp(path.join(os.tmpdir(), "awesome-pipeline-isolated-"));
+  const collection = {
+    id: "test-collection",
+    repositoryUrl: "https://github.com/example/test-collection",
+    sourceDir: "sources/test-collection",
+    readmePath: "README.md",
+    licensePath: "LICENSE",
+    licenseId: "Unlicense",
+    route: "awesome/test-collection",
+    title: "Test Collection",
+    catalog: "test-topic",
+  };
+  const candidate = {
+    id: "test-candidate",
+    repositoryUrl: "https://github.com/example/test-candidate",
+    catalog: "test-topic",
+    stars: 1000,
+  };
+  const importedReview = {
+    id: collection.id,
+    source: collection.repositoryUrl,
+    title: collection.title,
+    imported: true,
+    notImportedReason: null,
+    importedAt: null,
+  };
+  const pendingReview = {
+    id: candidate.id,
+    source: candidate.repositoryUrl,
+    title: "Test Candidate",
+    imported: false,
+    notImportedReason: "Pending review.",
+    importedAt: null,
+  };
+  const reviewYaml = [
+    `- id: ${importedReview.id}`,
+    `  source: ${importedReview.source}`,
+    `  title: "${importedReview.title}"`,
+    "  imported: true",
+    "  notImportedReason: null",
+    "  importedAt: null",
+    `- id: ${pendingReview.id}`,
+    `  source: ${pendingReview.source}`,
+    `  title: "${pendingReview.title}"`,
+    "  imported: false",
+    '  notImportedReason: "Pending review."',
+    "  importedAt: null",
+    "",
+  ].join("\n");
+  const directories = [
+    "scripts",
+    "src/plugins",
+    "content/awesome/test-collection/locales",
+    "src/content/docs/awesome",
+  ];
+  for (const directory of directories) await mkdir(path.join(fixtureRoot, directory), { recursive: true });
+  await symlink(path.join(root, "node_modules"), path.join(fixtureRoot, "node_modules"), "dir");
+  await Promise.all([
+    copyFile(path.join(root, "scripts/content-pipeline.mjs"), path.join(fixtureRoot, "scripts/content-pipeline.mjs")),
+    copyFile(path.join(root, "scripts/source-reviews.mjs"), path.join(fixtureRoot, "scripts/source-reviews.mjs")),
+    copyFile(path.join(root, "src/plugins/awesome-content.mjs"), path.join(fixtureRoot, "src/plugins/awesome-content.mjs")),
+    copyFile(path.join(root, "src/catalog-tags.mjs"), path.join(fixtureRoot, "src/catalog-tags.mjs")),
+  ]);
+  const catalogs = {
+    "test-topic": {
+      labels: Object.fromEntries(catalogLocales.map((locale) => [locale, `Test topic ${locale}`])),
+    },
+  };
+  const initialFiles = [
+    writeFile(path.join(fixtureRoot, "content/awesome/collections.json"), `${JSON.stringify([collection], null, 2)}\n`),
+    writeFile(path.join(fixtureRoot, "content/awesome/catalogs.json"), `${JSON.stringify(catalogs, null, 2)}\n`),
+    writeFile(path.join(fixtureRoot, "content/awesome/candidates.json"), `${JSON.stringify([candidate], null, 2)}\n`),
+    writeFile(path.join(fixtureRoot, ".awesome-content-manifest.json"), `${JSON.stringify({ paths: ["src/content/docs/awesome/old-page.md"] })}\n`),
+    writeFile(path.join(fixtureRoot, "src/content/docs/awesome/old-page.md"), "Previously generated content\n"),
+  ];
+  if (ledgerContent !== null) {
+    initialFiles.push(writeFile(
+      path.join(fixtureRoot, "content/awesome/source-reviews.yml"),
+      ledgerContent ?? reviewYaml,
+    ));
+  }
+  await Promise.all(initialFiles);
+
+  if (validSource) {
+    const sourceDirectory = path.join(fixtureRoot, collection.sourceDir);
+    await mkdir(sourceDirectory, { recursive: true });
+    const sourceMarkdown = "# Example\n\nA concise source.\n";
+    await writeFile(path.join(sourceDirectory, "README.md"), sourceMarkdown);
+    await writeFile(
+      path.join(sourceDirectory, "LICENSE"),
+      "This is free and unencumbered software released into the public domain.",
+    );
+    execFileSync("git", ["init", "--quiet"], { cwd: sourceDirectory, stdio: "pipe" });
+    execFileSync("git", ["add", "README.md", "LICENSE"], { cwd: sourceDirectory, stdio: "pipe" });
+    execFileSync("git", [
+      "-c", "user.name=Fixture",
+      "-c", "user.email=fixture@example.invalid",
+      "commit", "--quiet", "-m", "fixture source",
+    ], { cwd: sourceDirectory, stdio: "pipe" });
+    const revision = execFileSync("git", ["rev-parse", "HEAD"], {
+      cwd: sourceDirectory,
+      encoding: "utf8",
+    }).trim();
+    execFileSync("git", ["init", "--quiet"], { cwd: fixtureRoot, stdio: "pipe" });
+    await writeFile(
+      path.join(fixtureRoot, ".gitmodules"),
+      `[submodule "sources/test-collection"]\n\tpath = sources/test-collection\n\turl = ${collection.repositoryUrl}\n`,
+    );
+    execFileSync("git", [
+      "update-index",
+      "--add",
+      "--cacheinfo",
+      `160000,${revision},${collection.sourceDir}`,
+    ], { cwd: fixtureRoot, stdio: "pipe" });
+    const sourceDigest = createHash("sha256").update(sourceMarkdown).digest("hex");
+    const translations = Object.fromEntries(translationLocales.map((locale) => [locale, {
+      title: `Example ${locale}`,
+      description: `An example collection in ${locale}.`,
+      sourceDigest,
+      reviewStatus: "reviewed",
+      isAITranslation: false,
+    }]));
+    await Promise.all([
+      ...translationLocales.map((locale) => writeFile(
+        path.join(fixtureRoot, `content/awesome/test-collection/locales/${locale}.md`),
+        `# Example ${locale}\n\nTranslated source ${locale}.\n`,
+      )),
+      writeFile(
+        path.join(fixtureRoot, "content/awesome/test-collection/translations.json"),
+        `${JSON.stringify({ translations }, null, 2)}\n`,
+      ),
+    ]);
+  }
+  return fixtureRoot;
+}
 
 test("catalog tags normalize optional fields, stable unions, and invalid values", () => {
   assert.deepEqual(normalizeCatalogTags({}), { tags: [] });
@@ -135,6 +278,33 @@ test("registry rejects invalid collections and unknown topic metadata", () => {
   ], testCatalogs));
 });
 
+test("repository candidates require unique GitHub links, known topics, and 1K snapshot stars", () => {
+  const candidate = {
+    id: "awesome-python",
+    repositoryUrl: "https://github.com/vinta/awesome-python",
+    catalog: "test-topic",
+    stars: 324948,
+  };
+  assert.doesNotThrow(() => validateCandidateRepositories([candidate], [], testCatalogs));
+  assert.throws(() => validateCandidateRepositories({}, [], testCatalogs), /repository array/u);
+  assert.throws(
+    () => validateCandidateRepositories([{ ...candidate, stars: 999 }], [], testCatalogs),
+    /at least 1,000 snapshot stars/u,
+  );
+  assert.throws(
+    () => validateCandidateRepositories([{ ...candidate, catalog: "unknown" }], [], testCatalogs),
+    /unknown repository candidate topic/u,
+  );
+  assert.throws(
+    () => validateCandidateRepositories([candidate, candidate], [], testCatalogs),
+    /duplicate collection or repository candidate/u,
+  );
+  assert.throws(
+    () => validateCandidateRepositories([candidate], [{ id: candidate.id, repositoryUrl: "https://github.com/vinta/awesome-python" }], testCatalogs),
+    /duplicate collection or repository candidate/u,
+  );
+});
+
 test("license verification accepts only matching declared license text", () => {
   assert.equal(
     licenseIsVerified("Unlicense", "This is free and unencumbered software released into the public domain."),
@@ -152,68 +322,20 @@ test("license verification accepts only matching declared license text", () => {
   assert.equal(licenseIsVerified("unknown", "any text"), false);
 });
 
-test("numbered repository rows map exactly once to source submodules", async () => {
-  const [inventory, gitmodules] = await Promise.all([
-    readFile(path.join(root, "awesome-repositories.md"), "utf8"),
-    readFile(path.join(root, ".gitmodules"), "utf8"),
-  ]);
-  const repositoryUrl = /https:\/\/github\.com\/([^/`]+\/[^/`)\s]+)/u;
-  const eligible = inventory
-    .split("\n")
-    .filter((line) => /^\|\s*\d+\s*\|/u.test(line) && line.includes("https://github.com/"))
-    .map((line) => ({
-      repository: line.match(repositoryUrl)?.[1].replace(/\.git$/u, "").toLowerCase(),
-      row: Number(line.match(/^\|\s*(\d+)/u)?.[1]),
-    }));
-  const audit = inventory.split("## README 与热度筛选快照（2026-10-03）")[1];
-  assert.ok(audit, "dated eligibility audit should be present");
-  const eligibleRows = new Set([...audit.matchAll(
-    /^\|\s*(\d+)\s*\|\s*([\d,]+)\s*\|\s*`([^`]+)`\s*\|\s*[\d,]+\s*\|\s*([^|]+)\|$/gmu,
-  )]
-    .filter(([, , stars, readme, decision]) =>
-      Number(stars.replaceAll(",", "")) >= 1000
-      && readme.toLowerCase().endsWith(".md")
-      && !decision.trim().startsWith("排除"))
-    .map(([, row]) => Number(row)));
-  const expected = eligible
-    .filter(({ row }) => eligibleRows.has(row))
-    .map(({ repository }) => repository);
-  const registered = [...gitmodules.matchAll(/^\s*url\s*=\s*https:\/\/github\.com\/([^/]+\/[^/\s]+)\.git\s*$/gmu)]
-    .map(([, repository]) => repository.toLowerCase())
-    .filter((repository) => repository !== "abhisheknaiidu/awesome-github-profile-readme");
-
-  assert.equal(eligible.length, 50);
-  assert.equal(eligibleRows.size, 47);
-  assert.ok(expected.every(Boolean));
-  assert.equal(new Set(expected).size, expected.length);
-  assert.equal(new Set(registered).size, registered.length);
-  assert.deepEqual(registered.sort(), expected.sort());
-});
-
-test("source selection snapshot enforces the 1K-star single-Markdown-README criteria", async () => {
-  const inventory = await readFile(path.join(root, "awesome-repositories.md"), "utf8");
-  const snapshot = inventory.split("## README 与热度筛选快照（2026-10-03）")[1];
-  assert.ok(snapshot, "dated GitHub stars and README audit should be present");
-  const rows = [...snapshot.matchAll(
-    /^\|\s*(\d+)\s*\|\s*([\d,]+)\s*\|\s*`([^`]+)`\s*\|\s*([\d,]+)\s*\|\s*([^|]+)\|$/gmu,
-  )].map(([, row, stars, readme, lines, decision]) => ({
-    row: Number(row),
-    stars: Number(stars.replaceAll(",", "")),
-    readme,
-    lines: Number(lines.replaceAll(",", "")),
-    decision: decision.trim(),
-  }));
-
-  assert.equal(rows.length, 50);
-  assert.deepEqual(rows.map(({ row }) => row), Array.from({ length: 50 }, (_, index) => index + 1));
-  assert.equal(rows.filter(({ stars }) => stars >= 1000).length, 49);
-  const selected = rows.filter(({ stars, readme, decision }) =>
-    stars >= 1000 && readme.toLowerCase().endsWith(".md") && !decision.startsWith("排除"));
-  assert.equal(selected.length, 47);
-  assert.deepEqual(
-    rows.filter(({ decision }) => decision.startsWith("排除")).map(({ row }) => row),
-    [12, 34, 44],
-  );
+test("pipeline ownership permits only the ten configured homepage paths", () => {
+  const homepagePaths = [
+    "src/content/docs/index.md",
+    ...catalogLocales.slice(1).map((locale) => `src/content/docs/${locale}/index.md`),
+  ];
+  for (const relative of homepagePaths) assert.doesNotThrow(() => safeOwnedPath(relative));
+  for (const relative of [
+    "src/content/docs/it-IT/index.md",
+    "src/content/docs/zh-CN/guides/index.md",
+    "src/content/docs/another-page.md",
+    "src/content/docs/../README.md",
+  ]) {
+    assert.throws(() => safeOwnedPath(relative), /Invalid pipeline-owned path/u);
+  }
 });
 
 test("translation metadata requires all locales, current digests, review, and honest AI flags", () => {
@@ -263,8 +385,10 @@ test("content check reports missing source checkouts and stale translation diges
     root,
     "content/awesome/awesome-github-profile-readme/translations.json",
   );
+  const reviewPath = path.join(root, "content/awesome/source-reviews.yml");
   const originalRegistry = await readFile(registryPath, "utf8");
   const originalSidecar = await readFile(sidecarPath, "utf8");
+  const originalLedger = await readFile(reviewPath, "utf8");
   const runCheck = () => spawnSync(process.execPath, ["scripts/content-pipeline.mjs", "check"], {
     cwd: root,
     encoding: "utf8",
@@ -279,6 +403,10 @@ test("content check reports missing source checkouts and stale translation diges
     assert.match(`${missingSource.stdout}${missingSource.stderr}`, /awesome-github-profile-readme sourceDir does not exist/u);
 
     await writeFile(registryPath, `${JSON.stringify([JSON.parse(originalRegistry)[0]], null, 2)}\n`);
+    const firstCollectionId = JSON.parse(originalRegistry)[0].id;
+    const retainedReviews = (await loadSourceReviews(reviewPath))
+      .filter((review) => !review.imported || review.id === firstCollectionId);
+    await writeFile(reviewPath, stringify(retainedReviews));
     const sidecar = JSON.parse(originalSidecar);
     sidecar.translations["fr-FR"].sourceDigest = "0".repeat(64);
     await writeFile(sidecarPath, `${JSON.stringify(sidecar, null, 2)}\n`);
@@ -288,6 +416,101 @@ test("content check reports missing source checkouts and stale translation diges
   } finally {
     await writeFile(registryPath, originalRegistry);
     await writeFile(sidecarPath, originalSidecar);
+    await writeFile(reviewPath, originalLedger);
+  }
+});
+
+test("missing or invalid review ledgers stop export, check, and prepare before output writes", async () => {
+  const authoredPaths = [
+    "content/awesome/collections.json",
+    "content/awesome/catalogs.json",
+    "content/awesome/candidates.json",
+    ".awesome-content-manifest.json",
+    "src/content/docs/awesome/old-page.md",
+  ];
+
+  for (const [state, ledgerContent] of [
+    ["missing", null],
+    ["invalid", "- id: [\n"],
+  ]) {
+    for (const command of ["export", "check", "prepare"]) {
+      const fixtureRoot = await createIsolatedPipeline({ ledgerContent });
+      const ledgerPath = path.join(fixtureRoot, "content/awesome/source-reviews.yml");
+      const exportPath = path.join(fixtureRoot, "translation-export");
+      const args = ["scripts/content-pipeline.mjs", command];
+      if (command === "export") {
+        args.push("--collection", "test-collection", "--output", exportPath);
+      }
+      try {
+        const before = await Promise.all(authoredPaths.map(async (relative) => [
+          relative,
+          await readFile(path.join(fixtureRoot, relative)),
+        ]));
+        const ledgerBefore = ledgerContent === null ? null : await readFile(ledgerPath);
+        const result = spawnSync(process.execPath, args, { cwd: fixtureRoot, encoding: "utf8" });
+        const diagnostic = `${result.stdout}${result.stderr}`;
+        assert.notEqual(result.status, 0, `${state} ledger should fail ${command}`);
+        assert.match(diagnostic, /source-reviews\.yml/u);
+        if (state === "invalid") assert.match(diagnostic, /invalid YAML/u);
+        for (const [relative, bytes] of before) {
+          assert.deepEqual(await readFile(path.join(fixtureRoot, relative)), bytes);
+        }
+        if (ledgerBefore === null) {
+          await assert.rejects(access(ledgerPath), { code: "ENOENT" });
+        } else {
+          assert.deepEqual(await readFile(ledgerPath), ledgerBefore);
+        }
+        if (command === "export") await assert.rejects(access(exportPath), { code: "ENOENT" });
+      } finally {
+        await rm(fixtureRoot, { recursive: true, force: true });
+      }
+    }
+  }
+});
+
+test("valid repeated checks and preparations preserve the ledger and hosted-versus-candidate output", async () => {
+  const fixtureRoot = await createIsolatedPipeline({ validSource: true });
+  const ledgerPath = path.join(fixtureRoot, "content/awesome/source-reviews.yml");
+  const originalLedger = await readFile(ledgerPath);
+  const run = (command) => spawnSync(
+    process.execPath,
+    ["scripts/content-pipeline.mjs", command],
+    { cwd: fixtureRoot, encoding: "utf8" },
+  );
+  const generatedSnapshot = async () => {
+    const manifest = JSON.parse(await readFile(path.join(fixtureRoot, ".awesome-content-manifest.json"), "utf8"));
+    return Promise.all([
+      [".awesome-content-manifest.json", await readFile(path.join(fixtureRoot, ".awesome-content-manifest.json"))],
+      ...await Promise.all(manifest.paths.map(async (relative) => [
+        relative,
+        await readFile(path.join(fixtureRoot, relative)),
+      ])),
+    ]);
+  };
+
+  try {
+    for (let attempt = 0; attempt < 2; attempt += 1) {
+      const checked = run("check");
+      assert.equal(checked.status, 0, `${checked.stdout}${checked.stderr}`);
+    }
+    const firstPreparation = run("prepare");
+    assert.equal(firstPreparation.status, 0, `${firstPreparation.stdout}${firstPreparation.stderr}`);
+    const firstOutput = await generatedSnapshot();
+    const englishIndex = await readFile(
+      path.join(fixtureRoot, "src/content/docs/awesome/index.md"),
+      "utf8",
+    );
+    assert.match(englishIndex, /https:\/\/github\.com\/example\/test-candidate/u);
+    await assert.rejects(
+      access(path.join(fixtureRoot, "src/content/docs/awesome/test-candidate.md")),
+      { code: "ENOENT" },
+    );
+    const secondPreparation = run("prepare");
+    assert.equal(secondPreparation.status, 0, `${secondPreparation.stdout}${secondPreparation.stderr}`);
+    assert.deepEqual(await generatedSnapshot(), firstOutput);
+    assert.deepEqual(await readFile(ledgerPath), originalLedger);
+  } finally {
+    await rm(fixtureRoot, { recursive: true, force: true });
   }
 });
 
@@ -542,6 +765,21 @@ test("generated English retains the source bytes and repeated preparation is det
     "src/content/docs/awesome/awesome-github-profile-readme.md",
   );
   const manifest = JSON.parse(await readFile(path.join(root, ".awesome-content-manifest.json"), "utf8"));
+  const homepagePaths = [
+    "src/content/docs/index.md",
+    ...catalogLocales.slice(1).map((locale) => `src/content/docs/${locale}/index.md`),
+  ];
+  for (const relative of homepagePaths) assert.ok(manifest.paths.includes(relative));
+  for (const locale of catalogLocales) {
+    const prefix = locale === "root" ? "" : `${locale}/`;
+    const homepage = await readFile(path.join(root, `src/content/docs/${prefix}index.md`), "utf8");
+    const directory = await readFile(path.join(root, `src/content/docs/${prefix}awesome/index.md`), "utf8");
+    assert.equal(homepage, directory);
+    assert.match(homepage, /^title: ".+"$/mu);
+    assert.match(homepage, /^rss: false$/mu);
+    assert.match(homepage, /^sidebar:\n  hidden: true$/mu);
+    assert.match(homepage, /^awesomeIndex:\n  kind: "collections"$/mu);
+  }
   const snapshot = async () => Promise.all(manifest.paths.map(async (relative) => [
     relative,
     await readFile(path.join(root, relative), "utf8"),
@@ -564,11 +802,11 @@ test("generated English retains the source bytes and repeated preparation is det
 test("failed staging leaves all pipeline-owned outputs unchanged", async () => {
   const manifestPath = path.join(root, ".awesome-content-manifest.json");
   const manifest = JSON.parse(await readFile(manifestPath, "utf8"));
+  const candidates = JSON.parse(await readFile(path.join(root, "content/awesome/candidates.json"), "utf8"));
   const before = await Promise.all(manifest.paths.map(async (relative) => [
     relative,
     await readFile(path.join(root, relative), "utf8"),
   ]));
-  const authoredHome = await readFile(path.join(root, "src/content/docs/index.md"), "utf8");
   const source = {
     collection: {
       id: "invalid-stage",
@@ -587,15 +825,23 @@ test("failed staging leaves all pipeline-owned outputs unchanged", async () => {
     translations: [],
   };
 
+  await assert.rejects(
+    preparePages([{
+      collection: {
+        id: candidates[0].id,
+        repositoryUrl: candidates[0].repositoryUrl,
+      },
+    }]),
+    /duplicate collection or repository candidate/u,
+  );
   await assert.rejects(preparePages([source]), /Invalid pipeline-owned path/u);
   assert.deepEqual(
     await Promise.all(manifest.paths.map(async (relative) => [
       relative,
       await readFile(path.join(root, relative), "utf8"),
-    ])),
+    ]    )),
     before,
   );
-  assert.equal(await readFile(path.join(root, "src/content/docs/index.md"), "utf8"), authoredHome);
 });
 
 test("preparation supports another collection and removes retired outputs only", async () => {
@@ -643,13 +889,21 @@ test("preparation supports another collection and removes retired outputs only",
     makePrepared("second-collection", "Second collection"),
     makePrepared("third-collection", "Third collection"),
   ];
-  const authoredHome = await readFile(path.join(root, "src/content/docs/index.md"), "utf8");
   const manifestPath = path.join(root, ".awesome-content-manifest.json");
+  const homepagePaths = [
+    "src/content/docs/index.md",
+    ...locales.map((locale) => `src/content/docs/${locale}/index.md`),
+  ];
+  const authoredFixture = path.join(root, "src/content/docs/pipeline-preservation-fixture.md");
 
   try {
+    await assert.rejects(readFile(authoredFixture), { code: "ENOENT" });
+    await writeFile(authoredFixture, "---\ntitle: Preserved authored page\n---\n");
+    await Promise.all(homepagePaths.map((relative) => rm(path.join(root, relative), { force: true })));
     await preparePages(prepared);
     const manifest = JSON.parse(await readFile(manifestPath, "utf8"));
-    assert.equal(manifest.paths.length, 50);
+    assert.equal(manifest.paths.length, 60);
+    for (const relative of homepagePaths) assert.ok(manifest.paths.includes(relative));
     assert.ok(manifest.paths.includes("src/content/docs/awesome/second-collection.md"));
     assert.ok(manifest.paths.includes("src/content/docs/awesome/third-collection.md"));
     assert.ok(manifest.paths.includes("src/content/docs/awesome/index.md"));
@@ -657,11 +911,24 @@ test("preparation supports another collection and removes retired outputs only",
     assert.ok(manifest.paths.includes("src/content/docs/awesome/tags/python.md"));
     const allCollections = await readFile(path.join(root, "src/content/docs/awesome/index.md"), "utf8");
     const sharedTopic = await readFile(path.join(root, "src/content/docs/awesome/tags/python.md"), "utf8");
+    for (const locale of ["root", ...locales]) {
+      const prefix = locale === "root" ? "" : `${locale}/`;
+      assert.equal(
+        await readFile(path.join(root, `src/content/docs/${prefix}index.md`), "utf8"),
+        await readFile(path.join(root, `src/content/docs/${prefix}awesome/index.md`), "utf8"),
+      );
+    }
     assert.equal((allCollections.match(/\/awesome\/second-collection\//gu) ?? []).length, 1);
     assert.equal((allCollections.match(/\/awesome\/third-collection\//gu) ?? []).length, 1);
     assert.equal((sharedTopic.match(/\/awesome\/second-collection\//gu) ?? []).length, 1);
     assert.equal((sharedTopic.match(/\/awesome\/third-collection\//gu) ?? []).length, 1);
     assert.match(allCollections, /Python\].* \(2 collections\)/u);
+    assert.match(allCollections, /More repositories on GitHub \(32\)/u);
+    assert.match(allCollections, /Links only; repository contents remain on GitHub/u);
+    assert.match(allCollections, /324,948 stars/u);
+    for (const { repositoryUrl } of JSON.parse(await readFile(path.join(root, "content/awesome/candidates.json"), "utf8"))) {
+      assert.ok(allCollections.includes(`](${repositoryUrl})`), `${repositoryUrl} appears in the English index`);
+    }
     assert.match(
       await readFile(path.join(root, "src/content/docs/fr-FR/awesome/index.md"), "utf8"),
       /\[Second collection \(fr-FR\)\]\(\/fr-FR\/awesome\/second-collection\/\)/u,
@@ -687,9 +954,33 @@ test("preparation supports another collection and removes retired outputs only",
     await preparePages(prepared);
     assert.deepEqual(await snapshot(), firstPreparation);
 
+    const manifestBeforeFailure = await readFile(manifestPath, "utf8");
+    let failedInstallation = false;
+    await assert.rejects(
+      preparePages(prepared, {
+        rename: async (from, to) => {
+          if (
+            !failedInstallation
+            && from.includes(".awesome-content-stage-")
+            && from.endsWith(path.join("src", "content", "docs", "awesome", "third-collection.md"))
+          ) {
+            failedInstallation = true;
+            throw new Error("simulated installation failure");
+          }
+          await rename(from, to);
+        },
+      }),
+      /simulated installation failure/u,
+    );
+    assert.equal(failedInstallation, true);
+    assert.deepEqual(await snapshot(), firstPreparation);
+    assert.equal(await readFile(manifestPath, "utf8"), manifestBeforeFailure);
+    assert.equal(await readFile(authoredFixture, "utf8"), "---\ntitle: Preserved authored page\n---\n");
+
     await preparePages([prepared[0]]);
     const reducedManifest = JSON.parse(await readFile(manifestPath, "utf8"));
-    assert.equal(reducedManifest.paths.length, 40);
+    assert.equal(reducedManifest.paths.length, 50);
+    assert.ok(homepagePaths.every((relative) => reducedManifest.paths.includes(relative)));
     assert.ok(reducedManifest.paths.includes("src/content/docs/awesome/index.md"));
     assert.ok(reducedManifest.paths.includes("src/content/docs/awesome/tags/python.md"));
     assert.ok(reducedManifest.paths.includes("src/content/docs/awesome/tags/github-profile-readme.md"));
@@ -708,7 +999,7 @@ test("preparation supports another collection and removes retired outputs only",
 
     await preparePages([]);
     const emptyManifest = JSON.parse(await readFile(manifestPath, "utf8"));
-    assert.equal(emptyManifest.paths.length, 10);
+    assert.equal(emptyManifest.paths.length, 20);
     await assert.rejects(
       readFile(path.join(root, "src/content/docs/awesome/tags/github-profile-readme.md")),
       { code: "ENOENT" },
@@ -721,8 +1012,61 @@ test("preparation supports another collection and removes retired outputs only",
       readFile(path.join(root, "src/content/docs/awesome/second-collection.md")),
       { code: "ENOENT" },
     );
-    assert.equal(await readFile(path.join(root, "src/content/docs/index.md"), "utf8"), authoredHome);
+    for (const locale of ["root", ...locales]) {
+      const prefix = locale === "root" ? "" : `${locale}/`;
+      const homepage = await readFile(path.join(root, `src/content/docs/${prefix}index.md`), "utf8");
+      assert.equal(
+        homepage,
+        await readFile(path.join(root, `src/content/docs/${prefix}awesome/index.md`), "utf8"),
+      );
+      assert.doesNotMatch(homepage, /second-collection|third-collection/u);
+    }
+    assert.equal(await readFile(authoredFixture, "utf8"), "---\ntitle: Preserved authored page\n---\n");
   } finally {
+    await rm(authoredFixture, { force: true });
+    execFileSync("npm", ["run", "content:prepare"], { cwd: root, stdio: "pipe" });
+  }
+});
+
+test("unowned homepage collisions and symlinked output parents are rejected without changes", async () => {
+  const manifestPath = path.join(root, ".awesome-content-manifest.json");
+  const manifestBytes = await readFile(manifestPath, "utf8");
+  const manifest = JSON.parse(manifestBytes);
+  const snapshot = async () => Promise.all(manifest.paths.map(async (relative) => [
+    relative,
+    await readFile(path.join(root, relative), "utf8"),
+  ]));
+  const before = await snapshot();
+
+  try {
+    await writeFile(manifestPath, `${JSON.stringify({
+      paths: manifest.paths.filter((relative) => relative !== "src/content/docs/index.md"),
+    }, null, 2)}\n`);
+    await assert.rejects(
+      preparePages([]),
+      /Refusing to overwrite non-pipeline content: src\/content\/docs\/index\.md/u,
+    );
+    assert.deepEqual(await snapshot(), before);
+  } finally {
+    await writeFile(manifestPath, manifestBytes);
+    execFileSync("npm", ["run", "content:prepare"], { cwd: root, stdio: "pipe" });
+  }
+
+  const docsTags = path.join(root, "src/content/docs/zh-CN/awesome/tags");
+  const temporaryRoot = await mkdtemp(path.join(root, ".awesome-symlink-test-"));
+  const backup = path.join(temporaryRoot, "tags");
+  let moved = false;
+  let linked = false;
+  try {
+    await rename(docsTags, backup);
+    moved = true;
+    await symlink(backup, docsTags);
+    linked = true;
+    await assert.rejects(preparePages([]), /Generated path parent is not a real directory/u);
+  } finally {
+    if (linked) await rm(docsTags, { force: true });
+    if (moved) await rename(backup, docsTags);
+    await rm(temporaryRoot, { recursive: true, force: true });
     execFileSync("npm", ["run", "content:prepare"], { cwd: root, stdio: "pipe" });
   }
 });
