@@ -85,6 +85,7 @@ async function createIsolatedPipeline({ ledgerContent, validSource = false }) {
     repositoryUrl: "https://github.com/example/test-candidate",
     catalog: "test-topic",
     stars: 1000,
+    licenseId: "MIT",
   };
   const importedReview = {
     id: collection.id,
@@ -300,18 +301,23 @@ test("registry rejects invalid collections and unknown topic metadata", () => {
   ], testCatalogs));
 });
 
-test("repository candidates require unique GitHub links, known topics, and 1K snapshot stars", () => {
+test("repository candidates require unique links, known topics, 1K stars, and supported licenses", () => {
   const candidate = {
     id: "awesome-python",
     repositoryUrl: "https://github.com/vinta/awesome-python",
     catalog: "test-topic",
     stars: 324948,
+    licenseId: "MIT",
   };
   assert.doesNotThrow(() => validateCandidateRepositories([candidate], [], testCatalogs));
   assert.throws(() => validateCandidateRepositories({}, [], testCatalogs), /repository array/u);
   assert.throws(
     () => validateCandidateRepositories([{ ...candidate, stars: 999 }], [], testCatalogs),
     /at least 1,000 snapshot stars/u,
+  );
+  assert.throws(
+    () => validateCandidateRepositories([{ ...candidate, licenseId: "GPL-3.0" }], [], testCatalogs),
+    /verified supported license/u,
   );
   assert.throws(
     () => validateCandidateRepositories([{ ...candidate, catalog: "unknown" }], [], testCatalogs),
@@ -960,6 +966,7 @@ test("preparation supports another collection and removes retired outputs only",
     makePrepared("third-collection", "Third collection"),
   ];
   const manifestPath = path.join(root, ".awesome-content-manifest.json");
+  const candidates = JSON.parse(await readFile(path.join(root, "content/awesome/candidates.json"), "utf8"));
   const homepagePaths = [
     "src/content/docs/index.md",
     ...locales.map((locale) => `src/content/docs/${locale}/index.md`),
@@ -993,10 +1000,10 @@ test("preparation supports another collection and removes retired outputs only",
     assert.equal((sharedTopic.match(/\/awesome\/second-collection\//gu) ?? []).length, 1);
     assert.equal((sharedTopic.match(/\/awesome\/third-collection\//gu) ?? []).length, 1);
     assert.match(allCollections, /Python\].* \(2 collections\)/u);
-    assert.match(allCollections, /More repositories on GitHub \(32\)/u);
+    assert.match(allCollections, /More repositories on GitHub \(50\)/u);
     assert.match(allCollections, /Links only; repository contents remain on GitHub/u);
-    assert.match(allCollections, /324,948 stars/u);
-    for (const { repositoryUrl } of JSON.parse(await readFile(path.join(root, "content/awesome/candidates.json"), "utf8"))) {
+    assert.match(allCollections, new RegExp(`${candidates[0].stars.toLocaleString("en-US")} stars`));
+    for (const { repositoryUrl } of candidates) {
       assert.ok(allCollections.includes(`](${repositoryUrl})`), `${repositoryUrl} appears in the English index`);
     }
     assert.match(

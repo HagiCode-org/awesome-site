@@ -193,6 +193,9 @@ export function validateCandidateRepositories(candidates, collections, catalogs)
     if (!Number.isSafeInteger(candidate.stars) || candidate.stars < 1000) {
       throw new Error(`${candidate.id}: repository candidates require at least 1,000 snapshot stars`);
     }
+    if (typeof candidate.licenseId !== "string" || !licenseMarkers[candidate.licenseId]) {
+      throw new Error(`${candidate.id}: repository candidates require a verified supported license`);
+    }
     if (typeof candidate.catalog !== "string" || !Object.hasOwn(catalogs, candidate.catalog)) {
       throw new Error(`${candidate.id}: unknown repository candidate topic "${candidate.catalog}"`);
     }
