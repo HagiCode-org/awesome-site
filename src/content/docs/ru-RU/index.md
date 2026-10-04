@@ -5,4 +5,4 @@ description: Полезные коллекции из проверенных и�
 
 # Добро пожаловать в Awesome Site
 
-В Awesome Site собраны полезные коллекции на десяти языках. Посмотрите [Awesome GitHub Profile README](/ru-RU/awesome/awesome-github-profile-readme/).
+В Awesome Site собраны полезные коллекции на десяти языках. [Все подборки](/ru-RU/awesome/) можно просмотреть по темам или открыть [Awesome GitHub Profile README](/ru-RU/awesome/awesome-github-profile-readme/).
