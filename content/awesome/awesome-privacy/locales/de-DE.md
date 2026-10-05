@@ -32,7 +32,7 @@
 	- [ChatGPT](#chatgpt)
 	- [KI-Programmierung](#ai-coding)
 	- [Text-to-Speech](#text-to-speech)
-  	- [Speech-to-Text](#speech-to-text)
+  	- [Sprache-zu-Text](#speech-to-text)
 	- [Bildgenerierung](#image-generation)
 - [Lesezeichen](#bookmarking)
     - [Buch- und Webanmerkungen](#book-and-web-annotationshighlights-management)
@@ -65,7 +65,7 @@
     - [Pokémon](#pokemon)
     - [Sonic the Hedgehog](#sonic-the-hedgehog)
 - [Heimassistenten](#home-assistants)
-- [Instant Messaging](#instant-messaging)
+- [Sofortnachrichten](#instant-messaging)
 - [Link-in-Bio-Werkzeuge](#link-in-bio-tools)
 - [Linkverkürzer](#link-shorteners)
 - [Standortverfolgung](#location-tracking)
@@ -77,7 +77,7 @@
     - [Podcasts](#podcasts)
 - [Musikerkennung (Shazam-Alternativen)](#music-recognition)
 - [Notizen und Aufgaben](#notes-and-tasks)
-- [Office](#office)
+- [Büro](#office)
 - [Online-Telefonanbieter (SMS)](#online-phone-providers)
 - [Betriebssysteme](#operating-systems)
     - [Android](#android)
@@ -123,7 +123,7 @@
 - [Webbrowser](#web-browser)
     - [Browser-Erweiterungen](#browser-addons) 
     - [Browsersynchronisierung](#browser-sync)
-- [Whistleblowing](#whistleblowing)
+- [Hinweisgeberschutz](#whistleblowing)
 
 ## 2FA
 ⛔ Vermeide Apps, mit denen sich deine Schlüssel nicht **einfach** exportieren lassen.
@@ -141,7 +141,7 @@
 
 [Zurück nach oben 🔝](#contents)
 
-## Analytics
+## Analytik
 ⛔ Vermeide Analysedienste von Google, Facebook, Microsoft oder anderen privaten Anbietern. Diese Art von Analytik beeinträchtigt den Datenschutz der Nutzer.
 
 ✅  **Stattdessen verwenden**
@@ -163,7 +163,7 @@
 
 ## Android
 
-### Android App Store
+### Android-App-Store
 ⛔ **Vermeiden**
 - Google Play Store [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 
@@ -177,17 +177,17 @@
 - [Obtainium](https://github.com/ImranR98/Obtainium) - Erhalte App-Updates direkt von der Quelle.
 - [Accrescent](https://github.com/accrescent/accrescent) - Ein neuartiger Android-App-Store mit Schwerpunkt auf Sicherheit, Datenschutz und Benutzerfreundlichkeit.
 
-### Alternative Google Play Store clients
+### Alternative Clients für den Google Play Store
 - [Aurora Store](https://auroraoss.com/download/#aurora-store) - Aurora Store ist ein quelloffener alternativer Frontend-Client für den Google Play Store, bei dessen Entwicklung Datenschutz und modernes Design im Mittelpunkt standen.
 
-### Android Debloat Tools
+### Android-Entfernungswerkzeuge
 ⛔ **Vermeiden**
 - ADB AppControl - Ein einfacher ADB-Wrapper mit einer [schrecklichen Datenschutzrichtlinie](https://adbappcontrol.com/en/terms/), der Dinge wie Geräteinformationen und installierte bzw. deinstallierte Apps erfasst.
 
 ✅ **Stattdessen verwenden**
 - [Universal Android Debloater Next Generation](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/) - Plattformübergreifende, in Rust geschriebene grafische Oberfläche, die ADB verwendet, um Android-Geräte ohne Root-Zugriff von überflüssiger Software zu befreien. Verbessere den Datenschutz, die Sicherheit und die Akkulaufzeit deines Geräts.
 
-### Android Dialer
+### Android-Wählprogramm
 ⛔ **Vermeiden**
 
 Drittanbieter-Wählprogramme aus dem Play Store. Sie können Werbung oder Tracker enthalten und unnötige Berechtigungen verlangen.
@@ -195,7 +195,7 @@ Drittanbieter-Wählprogramme aus dem Play Store. Sie können Werbung oder Tracke
 ✅  **Stattdessen verwenden**
 - [Fossify Phone](https://github.com/FossifyOrg/Phone) - Praktische Telefon-App mit Telefonbuch, Nummernblockierung und Dual-SIM-Unterstützung.
 
-### Android File Manager
+### Android-Dateimanager
 ⛔ **Vermeiden**
 Vorinstallierte Dateimanager und Dateimanager-Apps von Drittanbietern aus dem Play Store. Sie können Werbung oder Tracker enthalten und unnötige Berechtigungen verlangen.
 
@@ -229,7 +229,7 @@ Die Galerie deines Smartphones enthält sehr persönliche Einblicke in dein Lebe
 
 ⛔ **Vermeiden**
 - **Google Photos** hat Datenschutzprobleme. Der Dienst sammelt viele Daten über dich, wie du in der [Datenschutzerklärung](https://policies.google.com/privacy?hl=en-US#infocollect) nachlesen kannst. Google kann deine Fotos scannen und aus unterschiedlichen Gründen markieren, wie dieser [Vorfall](https://petapixel.com/2022/08/22/google-flags-photos-of-fathers-sick-son-as-child-abuse-informs-police/) zeigt. Außerdem werden deine Fotos zur Verbesserung der KI-Technologie verwendet.
-- **Amazon Photos** hat ähnliche Datenschutzprobleme. Wie Google Photos sammelt der Dienst viele Informationen aus deiner Fotogalerie. Einige Beispiele für die erfassten Daten findest du in der Liste mit [**Beispielen**](https://www.amazon.com/gp/help/customer/display.html?nodeId=468496&ref_=footer_privacy#GUID-8966E75F-9B92-4A2B-BFD5-967D57513A40__SECTION_87C837F9CCD84769).
+- **Amazon Photos** hat ähnliche Datenschutzprobleme. Wie Google Photos sammelt der Dienst viele Informationen aus deiner Fotogalerie. Einige Beispiele für die erfassten Daten findest du in der Liste mit [**Beispielen**](https://www.amazon.com/gp/help/customer/display.html?nodeId=468496&ref_=footer_privacy#GUID-8966E75F-9B92-4A2B-BFD5-967D57513A40__SECTION_87C837F9CCD84769B4AE2BEB14AF4F01).
 - Galerie-Apps von **Samsung, Huawei, Xiaomi usw.**
 
 ✅ **Stattdessen verwenden**
@@ -284,7 +284,7 @@ Bei cloudbasierten KI-Diensten werden die von dir eingegebenen Daten häufig vom
 - [Espeak](https://github.com/espeak-ng/espeak-ng) - eSpeak NG ist ein quelloffener Sprachsynthesizer, der mehr als hundert Sprachen und Akzente unterstützt. Die Stimmen klingen eher roboterhaft.
 - [Chatterbox](https://github.com/resemble-ai/chatterbox) - Lokales Text-to-Speech-Modell mit Stimmklonen, das vollständig auf deinem eigenen Rechner läuft. Quelloffen und MIT-lizenziert.
 
-#### Speech-to-Text
+#### Sprache-zu-Text
 
 - **Modelle**
 	- [Moonshine](https://github.com/moonshine-ai/moonshine) - Schnelle und präzise automatische Spracherkennung (ASR) für Edge-Geräte.
@@ -642,7 +642,7 @@ Nintendo [sammelt Nutzerdaten](https://www.reddit.com/r/privacy/comments/qtj9xt/
 
 [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
 
-Das Spiel gehört Microsoft. Das allein wäre schon Grund genug zur Sorge, aber seit dem 11. März 2022 ist zum Spielen von Minecraft auch ein Microsoft-Konto erforderlich. Microsoft sperrt Konten mitunter kurz nach ihrer Erstellung und [zwingt Nutzer](https://github.com/MultiMC/Launcher/issues/4093) [dazu](https://www.reddit.com/r/privacy/comments/e6x27o/microsoft_forcing_me_to_give_then_my_phone_number), eine **Telefonnummer** anzugeben. Siehe: [Minecraft-FAQ](https://help.minecraft.net/hc/en-us/articles/360050865492-Minecraft-Java-Edition-Account-Migration-FAQ), [1](https://www.reddit.com/r/Minecraft/comments/sl8pkv/how_can_my_friend_migrate_her_account_to/hvq2sv6/), [2](https://www.reddit.com/r/privacy/comments/spcuj4/microsoft_is_going_to_attempt_to_move_everyone_on/)
+Das Spiel gehört Microsoft. Das allein wäre schon Grund genug zur Sorge, aber seit dem 11. März 2022 ist zum Spielen von Minecraft auch ein Microsoft-Konto erforderlich. Microsoft sperrt Konten mitunter kurz nach ihrer Erstellung und [zwingt Nutzer](https://github.com/MultiMC/Launcher/issues/4093) [dazu](https://www.reddit.com/r/privacy/comments/e6x27o/microsoft_forcing_me_to_give_then_my_phone_number/), eine **Telefonnummer** anzugeben. Siehe: [Minecraft-FAQ](https://help.minecraft.net/hc/en-us/articles/360050865492-Minecraft-Java-Edition-Account-Migration-FAQ), [1](https://www.reddit.com/r/Minecraft/comments/sl8pkv/how_can_my_friend_migrate_her_account_to/hvq2sv6/), [2](https://www.reddit.com/r/privacy/comments/spcuj4/microsoft_is_going_to_attempt_to_move_everyone_on/)
 
 Seit Version 21w38a ist im Spiel [Telemetrie eingebettet, die sich nicht deaktivieren lässt](https://bugs.mojang.com/browse/MC-237493). Außerdem ist es an die [Nutzungsbedingungen von Microsoft](https://www.minecraft.net/en-us/terms) und die [Datenschutzerklärung von Microsoft](https://privacy.microsoft.com/en-us/privacystatement) gebunden – ein Datenschutz-Albtraum.
 
@@ -690,7 +690,7 @@ Lesenswerte Artikel: [1](https://www.theguardian.com/technology/2019/oct/09/alex
 
 [Zurück nach oben 🔝](#contents)
 
-## Instant Messaging
+## Sofortnachrichten
 **Vergleiche findest du auf [dieser Website](https://www.securemessagingapps.com/)*.
 
 ⛔ **Vermeiden**
@@ -806,7 +806,7 @@ Es sind keine Server beteiligt. Alles wird direkt von einem Peer zum anderen üb
 - [Mox](https://github.com/mjl-/mox) - Moderner, funktionsreicher, quelloffener und sicherer Mailserver für wartungsarme, selbst gehostete E-Mail.
 - [Stalwart](https://stalw.art/) - All-in-one-Mailserver in Rust für SMTP, IMAP und JMAP, mit zwei unabhängigen Sicherheitsprüfungen (AGPL-3.0).
 
-### Clients
+### E-Mail-Clients
 
 #### Android / iOS
 - [🤖](#icons) [FairEmail](https://github.com/M66B/FairEmail) - Funktionsreiche, quelloffene und datenschutzfreundliche E-Mail-App für Android.
@@ -958,7 +958,7 @@ Diese Anbieter bieten Apps und Dienste voller Datentracker. Außerdem speichern 
 
 [Zurück nach oben 🔝](#contents)
 
-## Office
+## Büro
 
 ⛔ **Vermeiden**
 - Microsoft Office [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
@@ -1713,7 +1713,7 @@ Informiere dich vor der Installation darüber, was eine Erweiterung tut. Wenn du
 
 [Zurück nach oben 🔝](#contents)
 
-## Whistleblowing
+## Hinweisgeberschutz
 
 ✅  **Stattdessen verwenden**
 - [GlobaLeaks](https://www.globaleaks.org/) - Selbst hostbare Whistleblowing-Plattform für Organisationen, Redaktionen und Aktivisten als Ersatz für gehostete Meldeportale. Quelloffen (AGPL-3.0).
