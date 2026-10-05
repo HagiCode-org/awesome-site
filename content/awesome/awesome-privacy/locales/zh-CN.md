@@ -5,17 +5,16 @@
 	<a href="https://codeberg.org/pluja/awesome-privacy"><img alt="Mirror" src="https://img.shields.io/badge/Mirror-Codeberg-blue"></img></a>
 </p>
 <p align="center">免费、开源且尊重隐私的服务及其对专有服务的替代方案列表。</p>
-<p align="center">免费、开源且尊重隐私的服务及其对专有服务的替代方案列表。</p>
 <p align="center">
-	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/ABOUT.md"> 关于 </a> | 
-	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/Contributing.md"> 参与贡献 </a> | 
-	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/QUOTES.md"> 引言 </a> | 
+	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/ABOUT.md"> 关于 </a> |
+	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/Contributing.md"> 参与贡献 </a> |
+	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/QUOTES.md"> 引言 </a> |
 	<a href="https://github.com/pluja/awesome-privacy/discussions"> 讨论 </a>
 </p>
 
 > [!IMPORTANT]
 > 匿名性、隐私和安全常被混为一谈，但它们实际上代表不同的概念。了解它们之间的区别很重要。[在下文此处了解更多](#privacy-vs-security-vs-anonymity)。
-> 
+>
 > 本列表主要提供优先考虑隐私的替代方案。这些方案让你掌控自己的数据，且不会收集或出售数据。
 
 ## 目录
@@ -54,9 +53,9 @@
 - [加密](#encryption)
 - [文件管理与共享](#file-management-and-sharing)
 - [健身与健康](#fitness-and-health)
-	- [健身追踪器](#fitness-追踪器)
+	- [健身追踪器](#fitness-trackers)
 	- [饮食](#food)
-	- [月经周期追踪器](#menstrual-cycle-追踪器)
+	- [月经周期追踪器](#menstrual-cycle-trackers)
 	- [医疗健康](#medical-health)
 - [字体](#fonts)
 - [表单](#forms)
@@ -92,7 +91,7 @@
  	- [预算管理](#budget-management)
   	- [共同开支](#shared-expenses)
 	- [其他](#others)
- 	- [投资组合追踪器](#portfolio-追踪器)
+	- [投资组合追踪器](#portfolio-trackers)
 - [照片编辑与管理](#photo-editing-and-management)
 - [照片存储](#photo-storage)
 - [隐私工具](#privacy-tools)
@@ -122,7 +121,7 @@
 - [视频编辑](#video-editing)
 - [虚拟专用网络（VPN）](#vpns)
 - [网页浏览器](#web-browser)
-    - [浏览器扩展](#browser-addons) 
+    - [浏览器扩展](#browser-addons)
     - [浏览器同步](#browser-sync)
 - [举报平台](#whistleblowing)
 
@@ -256,7 +255,7 @@
 
 ## 人工智能
 
-使用云端 AI 服务时，你输入的数据通常会被服务提供商收集和存储。这不仅可能包括请求内容，还包括时间戳或 IP 地址等元数据。根据隐私政策，第三方服务器可能允许其员工、合作伙伴甚至其他用户访问你的数据。数据可能被用于模型训练、研究乃至营销等各种用途。你向第三方 AI 服务发送的请求可能与用户信息和付款详情关联，从而将数据与你的身份联系起来。 
+使用云端 AI 服务时，你输入的数据通常会被服务提供商收集和存储。这不仅可能包括请求内容，还包括时间戳或 IP 地址等元数据。根据隐私政策，第三方服务器可能允许其员工、合作伙伴甚至其他用户访问你的数据。数据可能被用于模型训练、研究乃至营销等各种用途。你向第三方 AI 服务发送的请求可能与用户信息和付款详情关联，从而将数据与你的身份联系起来。
 
 #### ChatGPT
 
@@ -310,7 +309,7 @@
 
 ## 书签管理
 ⛔ **请避免**
-- Evernote Web Clipper -  [糟糕的隐私政策](https://tosdr.org/en/service/207). [应用包含许多追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.evernote/latest/) and require too many permissions.
+- Evernote Web Clipper - [隐私政策糟糕](https://tosdr.org/en/service/207)。[应用包含许多追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.evernote/latest/)，且要求过多权限。
 
 ✅  **请改用**
 - [42links](https://42links.tuxproject.de) - 开源、自托管的极简书签存储服务。
@@ -393,7 +392,7 @@ Google 验证码使用 Cookie 追踪用户并对其 IP 地址进行评级。
 ## 云存储
 ⛔ **请避免**
 - **Google Drive** - 由 Google 所有，因此其隐私政策[很糟糕](https://tosdr.org/en/service/217)。数据存储在其远程服务器上，你将失去对数据的控制权。该服务使用追踪器，且不提供加密。
-- **DropBox** - [糟糕的隐私政策](https://tosdr.org/en/service/270). 该应用has [various 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.dropbox.android/latest/) and requires many permissions.
+- **DropBox** - [隐私政策糟糕](https://tosdr.org/en/service/270)。该应用包含[各种追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.dropbox.android/latest/)，且要求许多权限。
 - **OneDrive** - 由 Microsoft 所有，其隐私政策[很糟糕](https://tosdr.org/en/service/244)。数据存储在其远程服务器上，你将失去对数据的控制权。该服务使用追踪器，且不提供加密。
 
 ✅  **请改用**
@@ -429,9 +428,9 @@ Google 验证码使用 Cookie 追踪用户并对其 IP 地址进行评级。
 ✅ 请改用
 - [Appwrite](https://appwrite.io/) - 面向 Web、移动端和 Flutter 开发者的安全开源后端服务器。
 - [Supabase](https://supabase.com/) - 开源的 Firebase 替代方案（[Limited](https://github.com/supabase/supabase/issues/4934) [self-hosting](https://github.com/supabase/supabase/issues/4440#issuecomment-992108832))
-- [Pocketbase](https://pocketbase.io/) - Open Source backend in 1 file written in Go.
-- [TrailBase](https://trailbase.io/) - Open source, single-executable Firebase alternative built on Rust and SQLite, with type-safe REST and realtime APIs, auth, and an admin UI. OSL-3.0 licensed.
-- [Baserow](https://baserow.io/) - Self-hosted no-code database and spreadsheet that works as an open source Airtable alternative. MIT licensed core.
+- [Pocketbase](https://pocketbase.io/) - 使用 Go 编写、仅由单个文件构成的开源后端。
+- [TrailBase](https://trailbase.io/) - 基于 Rust 和 SQLite 构建的开源单可执行文件 Firebase 替代方案，提供类型安全的 REST 和实时 API、身份验证及管理界面。采用 OSL-3.0 许可。
+- [Baserow](https://baserow.io/) - 自托管的无代码数据库和电子表格，是开源 Airtable 替代方案。核心版本采用 MIT 许可。
 
 [返回顶部 🔝](#contents)
 
@@ -464,7 +463,7 @@ Tinder 等应用会收集并出售你的个人隐私信息。研究发现，Tind
 
 ## 设计工具
 
-**Adobe** 在设计工具领域的主导地位限制了设计师的选择并损害其隐私。Adobe[lack of Linux support](https://helpx.adobe.com/in/download-install/kb/operating-system-guidelines.html)，使设计师只能使用 Windows 或 macOS。此外，Adobe 通过 Creative Cloud[data collection via Creative Cloud](https://tosdr.org/en/service/417) and [追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.adobe.psmobile/latest/)进一步加剧了隐私问题。他们还可能[使用用户的作品训练其 AI](https://mastodon.art/@Krita/109632425661190494)，这可能引发知识产权问题。因此，设计师可以考虑使用开源且尊重隐私的替代方案，规避大部分此类问题。
+**Adobe** 在设计工具领域的主导地位限制了设计师的选择并损害其隐私。Adobe [不支持 Linux](https://helpx.adobe.com/in/download-install/kb/operating-system-guidelines.html)，这使设计师只能使用 Windows 或 macOS。此外，Adobe 通过 [Creative Cloud 收集数据](https://tosdr.org/en/service/417)和[追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.adobe.psmobile/latest/)进一步加剧隐私问题。他们还可能[使用用户的作品训练 AI](https://mastodon.art/@Krita/109632425661190494)，这可能引发知识产权问题。因此，设计师可以考虑使用开源且尊重隐私的替代方案，规避大部分此类问题。
 
 ### InDesign
 
@@ -544,8 +543,8 @@ DMCrypt 内核模块的磁盘加密。
 
 ## 文件管理与共享
 ⛔ **请避免**
-- **WeTransfer** - [糟糕的隐私政策](https://tosdr.org/en/service/214). Files are not e2e encrypted. Website has many analytics and 追踪器.
-- **SendAnywhere** - No e2e encryption. Website has loads of analytics and 追踪器 from Facebook, Google, Cloudflare...
+- **WeTransfer** - [隐私政策糟糕](https://tosdr.org/en/service/214)。文件未进行端到端加密。网站包含大量分析工具和追踪器。
+- **SendAnywhere** - 没有端到端加密。网站包含来自 Facebook、Google、Cloudflare 等的大量分析工具和追踪器。
 
 ✅ **请改用**
 - [Blaze](https://blaze.vercel.app/) - 快速、P2P 且截然不同的文件传输方式。
@@ -577,7 +576,7 @@ DMCrypt 内核模块的磁盘加密。
 
 ✅  **请改用**
 
-### Fitness 追踪器
+### 健身追踪器
 
 - [🤖](#icons) [Fitotrack](https://codeberg.org/jannis/FitoTrack) - 注重隐私的安卓健身追踪器。
 - [🤖](#icons) [OpenTracks](https://codeberg.org/OpenTracksApp/OpenTracks) - OpenTracks 是一款充分尊重隐私的运动追踪应用。
@@ -592,7 +591,7 @@ DMCrypt 内核模块的磁盘加密。
 - [OpenFoodFacts](https://world.openfoodfacts.org/) - Open Food Facts 是一个由所有人共同建立、服务于所有人的食品数据库，可帮助你做出更好的饮食选择。
     - [OFF Apps](https://world.openfoodfacts.org/open-food-facts-mobile-app) - 开源的安卓和 iOS 应用，可扫描食品条形码并查看成分、添加剂和营养数据。
 
-### Menstrual cycle 追踪器
+### 月经周期追踪器
 - [🤖](#icons) [Bluemoon](https://gitlab.com/ngrob/bluemoon-android) - 开源、尊重隐私的月经追踪应用。你的经期，你的数据！
 - [🤖](#icons) [Drip](https://dripapp.org/) - 月经周期和生育力追踪。你输入的所有内容都保留在设备上。
 - [Euki](https://eukiapp.org/) - 不会追踪你的经期追踪器。
@@ -646,13 +645,13 @@ Nintendo [会收集用户数据](https://www.reddit.com/r/privacy/comments/qtj9x
 
 [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
 
-该游戏归 Microsoft 所有。此外，自 2022 年 3 月 11 日起，游玩 Minecraft 还需要 Microsoft 帐户。Microsoft 会在帐户创建后不久锁定部分帐户，并[forces the user](https://github.com/MultiMC/Launcher/issues/4093) [to provide](https://www.reddit.com/r/privacy/comments/e6x27o/microsoft_forcing_me_to_give_then_my_phone_number/) 提供一个**电话号码**。参见：[Minecraft FAQ](https://help.minecraft.net/hc/en-us/articles/360050865492-Minecraft-Java-Edition-Account-Migration-FAQ), [1](https://www.reddit.com/r/Minecraft/comments/sl8pkv/how_can_my_friend_migrate_her_account_to/hvq2sv6/), [2](https://www.reddit.com/r/privacy/comments/spcuj4/microsoft_is_going_to_attempt_to_move_everyone_on/)
+该游戏归 Microsoft 所有。此外，自 2022 年 3 月 11 日起，游玩 Minecraft 还需要 Microsoft 帐户。Microsoft 会在帐户创建后不久锁定部分帐户，并[强迫用户](https://github.com/MultiMC/Launcher/issues/4093)[提供](https://www.reddit.com/r/privacy/comments/e6x27o/microsoft_forcing_me_to_give_then_my_phone_number/)一个**电话号码**。参见：[Minecraft FAQ](https://help.minecraft.net/hc/en-us/articles/360050865492-Minecraft-Java-Edition-Account-Migration-FAQ)、[1](https://www.reddit.com/r/Minecraft/comments/sl8pkv/how_can_my_friend_migrate_her_account_to/hvq2sv6/)、[2](https://www.reddit.com/r/privacy/comments/spcuj4/microsoft_is_going_to_attempt_to_move_everyone_on/)
 
-自 v21w38a 起，游戏内置了[telemetry embeded in it since v21w38a which you can't opt-out](https://bugs.mojang.com/browse/MC-237493)。此外，[游戏还受制于](https://www.minecraft.net/en-us/terms) 所列的[Microsoft privacy terms](https://privacy.microsoft.com/en-us/privacystatement)，其隐私条款令人担忧。
+自 v21w38a 起，游戏内置了[无法选择退出的遥测功能](https://bugs.mojang.com/browse/MC-237493)。此外，[游戏还受制于](https://www.minecraft.net/en-us/terms)[Microsoft 隐私条款](https://privacy.microsoft.com/en-us/privacystatement)，其隐私条款令人担忧。
 
 ✅  **请改用**
-- [Luanti](https://www.luanti.org/) - An open source voxel game engine with many features.
-    - [Mineclonia](https://content.luanti.org/packages/ryvnf/mineclonia/) - Survival sandbox game inspired by Minecraft. Fork of MineClone2 with focus on stability, multiplayer performance and features. 
+- [Luanti](https://www.luanti.org/) - 功能丰富的开源体素游戏引擎。
+    - [Mineclonia](https://content.luanti.org/packages/ryvnf/mineclonia/) - 受 Minecraft 启发的生存沙盒游戏，是 MineClone2 的分支，注重稳定性、多人游戏性能和功能。
 
 #### Minecraft 插件
 
@@ -708,11 +707,11 @@ Nintendo [会收集用户数据](https://www.reddit.com/r/privacy/comments/qtj9x
 ✅  **请改用**
 
 ### 去中心化
-No single point of control或failure. A decentralized network operated by different servers from different volunteers around the globe. You choose where your data stays或you can self-host your own server. Somewhat more complex protocols (because of federation between servers) and some extra metadata is added 所列的messages (without compromising privacy).
+没有单一的控制或故障点。去中心化网络由全球各地不同志愿者运营的服务器组成。你可以选择数据的存储位置，也可以自行托管服务器。协议会稍复杂一些（因为服务器之间需要联邦互通），消息也会附带一些额外元数据（但不会损害隐私）。
 
 - [Matrix (Protocol)](https://matrix.org/) - 用于安全、去中心化通信的开放网络。
    - [Element](https://element.io/) - 面向团队、朋友和组织的一体化安全聊天应用。让你掌控对话，远离数据挖掘和广告，并采用端到端加密。
-   - [Cinny](https://cinny.in/) - 主打简洁、优雅、安全界面的 Matrix 客户端。 
+   - [Cinny](https://cinny.in/) - 主打简洁、优雅、安全界面的 Matrix 客户端。
 - [Jabber / XMPP (Protocol)](https://xmpp.org/) - 通用开放的消息标准。经过实践检验，独立自主，注重隐私并采用端到端加密。
   - [🤖](#icons) [Conversations](https://conversations.im/) - 面向安卓 4.0 及以上智能手机的 Jabber/XMPP 客户端，经过优化以提供独特的移动体验。
   - [AstraChat](https://astrachat.com/) - 另一款 XMPP 客户端。
@@ -732,7 +731,7 @@ No single point of control或failure. A decentralized network operated by differ
   - [🤖](#icons) [Molly](https://github.com/mollyim/mollyim-android) - 兼容 Signal 的分支客户端，并进行了一些安全性改进。
 
 ### 点对点（P2P）
-No servers involved. Everything goes directly from one peer 所列的other peer. No point of failure或control. The features are reduced because of the lack of server, messaging can be slower. Best option for critical chats.
+不涉及服务器，所有通信都在对等方之间直接进行，没有故障点或控制点。由于没有服务器，功能较少，消息传递也可能更慢。适用于关键对话的最佳选择。
 
 - [Tox](https://tox.chat/) - Tox 是一款易于使用的软件，让你与朋友和家人联系，而无需担心他人窃听。
 - [Briar](https://briarproject.org/) - 点对点加密消息和论坛。
@@ -775,7 +774,7 @@ No servers involved. Everything goes directly from one peer 所列的other peer.
 ✅  **请改用**
 
 ### 追踪
-- [Nextcloud Phonetrack](https://apps.nextcloud.com/apps/phonetrack) - Nextcloud app to track location history with an [Android app](https://gitlab.com/eneiluj/phonetrack-android) ([other apps also supported](https://gitlab.com/eneiluj/phonetrack-oc/-/wikis/userdoc#logging-methods)). Supports caching positions offline and sending them 所列的server in batches. The first-party app has good battery saving options.
+- [Nextcloud Phonetrack](https://apps.nextcloud.com/apps/phonetrack) - 用于追踪位置历史的 Nextcloud 应用，配有[安卓应用](https://gitlab.com/eneiluj/phonetrack-android)（也[支持其他应用](https://gitlab.com/eneiluj/phonetrack-oc/-/wikis/userdoc#logging-methods)）。支持离线缓存位置并批量发送到服务器。官方应用具有出色的省电选项。
 - [OwnTracks](https://owntracks.org/) - 用于显示当前位置的追踪工具（位置历史记录功能有限）。
 - [Traccar](https://www.traccar.org/) - 专为 GPS 记录设备打造的位置追踪软件。
 - [Dawarich](https://github.com/Freika/dawarich) - Google 位置记录的自托管替代方案。
@@ -849,13 +848,13 @@ No servers involved. Everything goes directly from one peer 所列的other peer.
 
 ## 媒体流媒体平台
 ⛔ **请避免**
-- **Amazon Prime** - [糟糕的隐私政策](https://tosdr.org/en/service/2444). Apps have [Google 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.amazon.amazonvideo.livingroom/latest/). Many permissions are required for a streaming app.
-- **Netflix** - [糟糕的隐私政策](https://tosdr.org/en/service/185). Apps have [Google 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.amazon.amazonvideo.livingroom/latest/). Many permissions are required for a streaming app.
-- **Disney Plus** - [Very bad privacy policy](https://tosdr.org/en/service/2745). Apps have [various 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.amazon.amazonvideo.livingroom/latest/). Many permissions are required for a streaming app.
-- **Plex** - [Dubitous privacy policy](https://tosdr.org/en/service/1567). Apps have [many 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.plexapp.android/latest/). Way too many permissions are required for a streaming app.
-- **Spotify** - [Very bad privacy policy](https://tosdr.org/en/service/225). Apps have [many 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/). Way too many permissions are required for a streaming app.
-- **Deezer** - [糟糕的隐私政策](https://tosdr.org/en/service/2516). Apps have [many 追踪器](https://reports.exodus-privacy.eu.org/en/reports/deezer.android.tv/latest/). Way too many permissions are required for a streaming app.
-- **SoundCloud** - [Dubitous priavcy policy](https://tosdr.org/en/service/276). Apps have [many 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.soundcloud.android/latest/). Way too many permissions are required for a streaming app.
+- **Amazon Prime** - [隐私政策糟糕](https://tosdr.org/en/service/2444)。应用包含 [Google 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.amazon.amazonvideo.livingroom/latest/)。作为流媒体应用，却要求许多权限。
+- **Netflix** - [隐私政策糟糕](https://tosdr.org/en/service/185)。应用包含 [Google 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.amazon.amazonvideo.livingroom/latest/)。作为流媒体应用，却要求许多权限。
+- **Disney Plus** - [隐私政策极差](https://tosdr.org/en/service/2745)。应用包含[各种追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.amazon.amazonvideo.livingroom/latest/)。作为流媒体应用，却要求许多权限。
+- **Plex** - [隐私政策可疑](https://tosdr.org/en/service/1567)。应用包含[大量追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.plexapp.android/latest/)。作为流媒体应用，却要求的权限实在太多。
+- **Spotify** - [隐私政策极差](https://tosdr.org/en/service/225)。应用包含[大量追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/)。作为流媒体应用，却要求的权限实在太多。
+- **Deezer** - [隐私政策糟糕](https://tosdr.org/en/service/2516)。应用包含[大量追踪器](https://reports.exodus-privacy.eu.org/en/reports/deezer.android.tv/latest/)。作为流媒体应用，却要求的权限实在太多。
+- **SoundCloud** - [隐私政策可疑](https://tosdr.org/en/service/276)。应用包含[大量追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.soundcloud.android/latest/)。作为流媒体应用，却要求的权限实在太多。
 
 ✅  **请改用**
 #### 视频与音频
@@ -887,32 +886,32 @@ No servers involved. Everything goes directly from one peer 所列的other peer.
 
 **YouTube Music 替代客户端**
 - [Beatbump](https://github.com/snuffyDev/Beatbump) [💀](#icons) - YouTube Music 的替代前端；无广告，并采用自定义 API 封装。
-- [SimpMusic](https://github.com/Maxrave-Dev/SimpMusic) - Open source, actively maintained YouTube Music client for Android (successor 所列的discontinued ViMusic and RiMusic).
+- [SimpMusic](https://github.com/Maxrave-Dev/SimpMusic) - 开源且积极维护的安卓 YouTube Music 客户端（已停止维护的 ViMusic 和 RiMusic 的后继项目）。
 
 **Deezer 替代客户端**
 - [dzr](https://github.com/yne/dzr) - 适用于 Linux、BSD、Android+Termux 的命令行 Deezer 播放器。
 
 #### 播客
 
-⛔ **请避免** 
+⛔ **请避免**
 
-- **Spotify** - [Very bad](https://tosdr.org/en/service/225) privacy policy. They collect tons of data about you: mood, free time, likes, dislikes, friends..。此外，their apps have [way too many 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/).
-- **iVoox** - Their apps are [filled with 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.ivoox.app/latest/). Their website has 追踪器.
-- **Audible** - [Very bad](https://tosdr.org/en/service/190) privacy policy. Their app has [many 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.audible.application/latest/).
-- **Deezer** - [糟糕的隐私政策](https://tosdr.org/en/service/2516). Apps have [many 追踪器](https://reports.exodus-privacy.eu.org/en/reports/deezer.android.tv/latest/). Way too many permissions are required for a streaming app.
+- **Spotify** - [隐私政策极差](https://tosdr.org/en/service/225)。它会收集大量关于你的数据：情绪、空闲时间、喜好、厌恶、朋友等……此外，其应用包含[过多追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/)。
+- **iVoox** - 其应用[布满追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.ivoox.app/latest/)，网站也有追踪器。
+- **Audible** - [隐私政策极差](https://tosdr.org/en/service/190)，其应用含有[大量追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.audible.application/latest/)。
+- **Deezer** - [隐私政策糟糕](https://tosdr.org/en/service/2516)。应用包含[大量追踪器](https://reports.exodus-privacy.eu.org/en/reports/deezer.android.tv/latest/)。作为流媒体应用，却要求的权限实在太多。
 
 ✅  **请改用**
 
-- [Antennapod](https://antennapod.org) - 完全开放的播客播放器，可订阅任意 RSS 订阅源。 
-- [Castopod](https://castopod.org) - 轻松自行托管播客，掌控自己的创作，并直接与听众交流，无需中间方。播客及其听众只属于你。 
+- [Antennapod](https://antennapod.org) - 完全开放的播客播放器，可订阅任意 RSS 订阅源。
+- [Castopod](https://castopod.org) - 轻松自行托管播客，掌控自己的创作，并直接与听众交流，无需中间方。播客及其听众只属于你。
 - [Funkwhale](https://funkwhale.audio/) - 享受和分享音频的社交平台。
 
 [返回顶部 🔝](#contents)
 
 ## 笔记与任务
-⛔ **请避免** 
+⛔ **请避免**
 
-These providers offer apps and services filled with data 追踪器。此外，most of them store your notes on their servers and do not offer any kind of encryption.
+这些服务商提供的应用和服务布满数据追踪器。此外，它们大多会将笔记存储在自己的服务器上，且不提供任何加密。
 
 - Google Keep
     - [Keep To Markdown](https://github.com/erikelisath/keep-to-markdown) - 将 Google Keep 笔记转换为标准 Markdown + YAML 页眉格式。
@@ -928,17 +927,17 @@ These providers offer apps and services filled with data 追踪器。此外，mo
 - [HedgeDoc](https://hedgedoc.org/) - 原名 CodiMD（社区版），是编写和分享 Markdown 的优秀平台。
 - [Joplin](https://github.com/laurent22/joplin) - 支持同步和加密的笔记与待办事项应用。
 - [Logseq](https://logseq.com/) - 隐私优先的 WorkFlowy 替代品。
-- [Memos](https://github.com/usememos/memos) - 开源、自托管的备忘录中心，具备知识管理和社交功能。 
+- [Memos](https://github.com/usememos/memos) - 开源、自托管的备忘录中心，具备知识管理和社交功能。
 - [Nextcloud Notes](https://github.com/nextcloud/notes/) - 这款笔记应用是 Nextcloud 的无干扰笔记工具。
 	- [Nextcloud Notes app](https://github.com/nextcloud/notes-android) - Nextcloud Notes 的安卓客户端。
 - [Notally](https://github.com/OmGodse/Notally) - 精美的笔记应用（仅本地存储，不支持同步）。
 - [Notesnook](https://notesnook.com/) - 开源、零知识、私密的笔记应用。
-- [Obsidian](https://obsidian.md) - Obsidian is the private and flexible note‑taking app. Closed source but has no 追踪器 (website / apps) and E2EE sync. 
+- [Obsidian](https://obsidian.md) - Obsidian 是私密且灵活的笔记应用。虽然闭源，但（网站/应用）没有追踪器，并支持端到端加密同步。
 - [Quillpad](https://quillpad.github.io/) - 记录精美的 Markdown 笔记，并通过任务列表保持井然有序。Quillnote 的分支。
 - [SiYuan](https://github.com/siyuan-note/siyuan) - 本地优先的个人知识管理系统。
 - [Standard Notes](https://standardnotes.com/) - 免费、开源且完全加密的笔记应用。
 - [TinyList](https://tinylist.app/) - 创建和分享笔记及检查清单，同时不牺牲隐私。
-- [Trilium Notes](https://github.com/TriliumNext/Trilium) - 使用 Trilium Notes 构建个人知识库 
+- [Trilium Notes](https://github.com/TriliumNext/Trilium) - 使用 Trilium Notes 构建个人知识库
 - [Vikunja](https://vikunja.io) - 帮助你安排生活的开源待办应用。
 - [YankNote](https://github.com/purocean/yn) - 面向程序员的可扩展 Markdown 笔记应用。
 - [🤖](#icons) [Tasks.org](https://tasks.org) - 适用于安卓的开源待办事项和任务管理器，支持 CalDAV 同步及离线使用。采用 GPL-3.0 许可。
@@ -958,7 +957,7 @@ These providers offer apps and services filled with data 追踪器。此外，mo
 **Shazam 替代客户端**
 
 - [SongRec](https://github.com/marin-m/SongRec) - 使用 Rust 编写的 Linux 开源 Shazam 客户端。
-- [SongID Telegram Bot](https://github.com/smcclennon/SongID) - Telegram 机器人，可识别你发送的音频/视频文件中的音乐。 
+- [SongID Telegram Bot](https://github.com/smcclennon/SongID) - Telegram 机器人，可识别你发送的音频/视频文件中的音乐。
 
 [返回顶部 🔝](#contents)
 
@@ -974,7 +973,7 @@ These providers offer apps and services filled with data 追踪器。此外，mo
 - [Cryptpad](https://cryptpad.fr/) - 加密的开源协作套件。
 - [Etherpad](https://etherpad.org/) - 高度可定制的开源在线编辑器，支持真正实时的协作编辑。
 - [Fileverse](https://fileverse.io) - Fileverse 致力于打造更健康的替代方案，以自主掌控、隐私保护设计和标准合规为核心。
-	- [Ddocs](https://ddocs.new): 注重隐私的 Google Docs 替代品：基于链上技术、端到端加密且去中心化。 
+	- [Ddocs](https://ddocs.new): 注重隐私的 Google Docs 替代品：基于链上技术、端到端加密且去中心化。
  	- [dSheets](https://sheets.fileverse.io): Excel 和 Google Sheets 的去中心化替代品。
 - [Grist](https://www.getgrist.com) - 可自行托管的电子表格和数据库混合工具，用于整理数据，是开源 Airtable 替代品。采用 Apache-2.0 许可。
 
@@ -1006,9 +1005,9 @@ These providers offer apps and services filled with data 追踪器。此外，mo
 > 尽管这些操作系统都基于安卓，但由于缺少部分应用所需的 GMS（Google 移动服务），应用兼容性可能不够完善。你可以通过[Plexus](https://plexus.techlore.tech/)查看社区报告的安卓应用在这些环境中的运行情况，其中涵盖 microg（免费的开源 GMS 替代品）和完全不使用 GMS 的情形。
 
 > [!NOTE]
-> 自定义 ROM 既可能提升隐私，也可能降低安卓安全性；务必使用支持验证启动和加密、且**默认未启用** root 的 ROM。尽可能不要使用 userdebug 构建版本。如果你的威胁模型要求高度安全，请购买 Google Pixel 并安装 GrapheneOS。[Read more on PrivacyGuides](https://www.privacyguides.org/android/overview).
+> 自定义 ROM 既可能提升隐私，也可能降低安卓安全性；务必使用支持验证启动和加密、且**默认未启用** root 的 ROM。尽可能不要使用 userdebug 构建版本。如果你的威胁模型要求高度安全，请购买 Google Pixel 并安装 GrapheneOS。[在 PrivacyGuides 上了解更多](https://www.privacyguides.org/android/overview)。
 
-#### 安卓-Based
+#### 基于安卓的系统
 
 **GrapheneOS** 高度重视安全和隐私。它采用多种技术缓解漏洞，并大幅增加漏洞利用难度，从而提升操作系统及其上运行的应用的安全性。
 
@@ -1019,7 +1018,7 @@ These providers offer apps and services filled with data 追踪器。此外，mo
 - [CalyxOS](https://calyxos.org/) - 隐私保护设计的 ROM。安全性优于 LineageOS 或 Replicant。
 - [LineageOS](https://lineageos.org/) - 基于安卓移动平台、适用于多种设备的免费开源操作系统。
 - [/e/OS](https://e.foundation/e-os) - Murena 推出的去 Google 化安卓 ROM，内置 microG 和可选云服务。开源，采用 GPL-3.0 许可。
-- [iodéOS](https://iode.tech/iodeos) - Degoogled Android ROM with a built-in network firewall that blocks ads and 追踪器. Open source, GPL-3.0 licensed.
+- [iodéOS](https://iode.tech/iodeos) - 去 Google 化安卓 ROM，内置网络防火墙以屏蔽广告和追踪器。开源，采用 GPL-3.0 许可。
 
 #### 基于 Linux
 - [UBPorts](https://www.ubports.com/) - Ubuntu Touch 是适合触屏操作的 Ubuntu 移动版本。
@@ -1047,26 +1046,26 @@ These providers offer apps and services filled with data 追踪器。此外，mo
 - macOS。
 
 ✅ **请改用**
-#### [GNU/Linux](https://www.linux.com/what-is-linux/) 
+#### [GNU/Linux](https://www.linux.com/what-is-linux/)
 
-GNU/Linux is a family of free (as in freedom and as in free beer) and open source Operating Systems mostly developed by the community. If you don't know where to start these are good options for begginers:
+GNU/Linux 是自由（既指自由权利，也指免费）开源操作系统家族，主要由社区开发。如果你不知道从哪里开始，下面是一些适合初学者的选择：
 
-- [Fedora](https://fedoraproject.org/) - Community Linux distribution sponsored by Red Hat, shipping recent open source software on a six-month cycle.
-- [Mint (Cinnamon)](https://linuxmint.com/edition.php?id=305) is a beginner friendly distribution.
-- [Qubes OS](https://qubes-os.org/) is a security-oriented operating system that isolates various workspaces into separate virtual machines to enhance privacy and security.
-- [Tails](https://tails.net/) is a portable operating system that protects against surveillance and censorship. It always starts from the same clean state and everything you do disappears automatically when you shut down Tails.
-- [Whonix](https://www.whonix.org/) is an operating system that runs inside virtual machines and forces every connection through Tor.
-- [Kicksecure](https://www.kicksecure.com/) is a hardened Debian-based distribution from the Whonix developers, secure by default.
-- [secureblue](https://secureblue.dev/) is a hardened image built on Fedora Atomic Desktops, with security-focused defaults and a hardened browser.
-
-> [!TIP]
->  If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). You can also investigate [Ventoy](https://www.ventoy.net) to easily download and test linux distros with a USB stick.
+- [Fedora](https://fedoraproject.org/) - 由 Red Hat 赞助的社区 Linux 发行版，每六个月发布一次最新开源软件。
+- [Mint (Cinnamon)](https://linuxmint.com/edition.php?id=305) 是一款适合初学者的发行版。
+- [Qubes OS](https://qubes-os.org/) 是一款注重安全的操作系统，通过将不同工作空间隔离到独立虚拟机中来增强隐私和安全性。
+- [Tails](https://tails.net/) 是一款便携式操作系统，可防范监控和审查。每次启动都会回到相同的干净状态，关闭 Tails 后，你所做的一切都会自动消失。
+- [Whonix](https://www.whonix.org/) 是在虚拟机中运行的操作系统，会强制所有连接通过 Tor。
+- [Kicksecure](https://www.kicksecure.com/) 是 Whonix 开发者推出的、基于 Debian 并经过安全加固的发行版，默认安全。
+- [secureblue](https://secureblue.dev/) 是基于 Fedora Atomic Desktops 构建的加固镜像，默认采用注重安全的配置并配备加固浏览器。
 
 > [!TIP]
-> If you want to install Linux but keep your current operating System, you can set up [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
+> 如果你想在不安装到电脑上的情况下试用，可以使用 [Live USB](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm)。你也可以了解 [Ventoy](https://www.ventoy.net)，轻松通过 U 盘下载并测试 Linux 发行版。
+
+> [!TIP]
+> 如果你想安装 Linux，同时保留当前操作系统，可以设置[双系统启动](https://averagelinuxuser.com/dualboot-linux-windows/)。
 
 > [!NOTE]
-> Not all Linux distributions are free (as in freedom), free (as in free beer)或respect user privacy. There are tons of GNU/Linux distributions and you should investigate a bit before jumping into one of them!
+> 并非所有 Linux 发行版都自由（自由权利意义上的自由）、免费（免费如啤酒）或尊重用户隐私。GNU/Linux 发行版数量众多，选择前请先做些调查！
 
 #### 其他操作系统：
 
@@ -1098,7 +1097,7 @@ GNU/Linux is a family of free (as in freedom and as in free beer) and open sourc
 
 ## Pastebin 与机密共享
 
-These tools are useful when sharing secrets, code snippets或any other kind of text with others in a private way.
+分享机密、代码片段或其他文本时，这些工具能帮助你以私密方式与他人共享。
 
 - [crypt.fyi](https://www.crypt.fyi) - 零知识、阅后即焚的敏感数据共享平台，提供网页、命令行和 Chrome 扩展客户端。
 - [NoPaste](https://github.com/bokub/nopaste) - 开源 Pastebin 替代方案，无需数据库和后端代码。数据经过压缩后完全储存在你分享的链接中，不会存放在其他地方。
@@ -1122,18 +1121,18 @@ These tools are useful when sharing secrets, code snippets或any other kind of t
 - Cash - 使用纸币和硬币进行点对点支付。
 
 > [!WARNING]
-> [Bitcoin](https://bitcoin.org)既不匿名也不私密。比特币可追踪、透明且使用假名。入门介绍请看[see aantonop' 的视频](https://yewtu.be/watch?v=JN1Bowgcle8).。进阶用户可以观看这部[比特币隐私系列](https://yewtu.be/watch?v=QEnL5k0R08w).
+> [Bitcoin](https://bitcoin.org)既不匿名也不私密。比特币可追踪、透明且使用假名。入门介绍请观看 [aantonop 的视频](https://yewtu.be/watch?v=JN1Bowgcle8)。进阶用户可以观看这部[比特币隐私系列](https://yewtu.be/watch?v=QEnL5k0R08w)。
 
-### Wallets
+### 钱包
 
 - [Sparrow Wallet](https://www.sparrowwallet.com/) - 开源跨平台桌面钱包，提供多种保护隐私的支付工具。
 - [Wasabi Wallet](https://www.wasabiwallet.io/) - 适用于桌面的开源、非托管、注重隐私的比特币钱包。
 - [Cake Wallet](https://cakewallet.com) - 适用于移动端和桌面的开源非托管钱包，支持 Monero、Bitcoin 等加密货币。采用 MIT 许可。
 - [Feather Wallet](https://featherwallet.org/) - 轻量级开源 Monero 桌面钱包，内置 Tor 和币种控制功能。采用 BSD-3 许可。
 
-### Payment Processors
+### 支付处理器
 
-- [BTCPay Server](https://btcpayserver.org) - Self-hosted, non-custodial cryptocurrency payment processor for merchants, as an alternative to PayPal或BitPay. MIT licensed.
+- [BTCPay Server](https://btcpayserver.org) - 面向商家的自托管非托管加密货币支付处理器，可替代 PayPal 或 BitPay。采用 MIT 许可。
 
 ### Monero 和 Bitcoin 的使用场景
 
@@ -1160,8 +1159,8 @@ These tools are useful when sharing secrets, code snippets或any other kind of t
 
 ⛔ **请避免**
 
-- Tricount - App size is massive (~200MB) and contains many 追踪器 from Facebook, Google and Huawei.
-- Splitwise - App contains 追踪器 from Google and Amazon.
+- Tricount - 应用体积巨大（约 200 MB），并包含来自 Facebook、Google 和 Huawei 的许多追踪器。
+- Splitwise - 应用包含来自 Google 和 Amazon 的追踪器。
 
 ✅  **请改用**
 
@@ -1172,11 +1171,11 @@ These tools are useful when sharing secrets, code snippets或any other kind of t
 - [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - 受优秀项目 IHateMoney 启发的群组/共同预算管理器。
   - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Nextcloud Cospend 和 IHateMoney 服务器的安卓客户端。
 
-### 其他 
+### 其他
 
-- [Debitum](https://github.com/Marmo/debitum) [💀](#icons) - With Debitum you can track all kinds of IOUs, be it money或lent items.
+- [Debitum](https://github.com/Marmo/debitum) [💀](#icons) - 使用 Debitum 可追踪各种欠条，无论是欠款还是借出的物品。
 
-### Portfolio 追踪器
+### 投资组合追踪器
 
 - [Ghostfolio](https://github.com/ghostfolio/ghostfolio#readme) - 使用网页技术构建的开源财富管理软件。
 - [PortfolioPerformance](https://www.portfolio-performance.info/en/) - 用于计算投资组合整体表现的开源工具。
@@ -1220,7 +1219,7 @@ These tools are useful when sharing secrets, code snippets或any other kind of t
 ### 自行托管
 - [Immich](https://github.com/immich-app/immich) - 可直接从手机备份照片和视频的自托管解决方案。
 - [LibrePhotos](https://github.com/LibrePhotos/librephotos) - 积极维护的[OwnPhotos](https://github.com/hooram/ownphotos)分支。Google Photos 的自托管替代方案。
-- [Nextcloud](https://nextcloud.com/) - 开源的自托管效率平台，让你掌控自己的数据。 It has a [*Photos*](https://github.com/nextcloud/photos) plugin to help you organize and visualize your photos.
+- [Nextcloud](https://nextcloud.com/) - 开源的自托管效率平台，让你掌控自己的数据。它还提供 [*Photos*](https://github.com/nextcloud/photos) 插件，帮助你整理和浏览照片。
 - [Photoprism](https://photoprism.app) - 功能丰富的服务器端应用，用于浏览、整理和分享个人照片集。它与 Google Photos 最为相似。
 - [Pigallery2](http://bpatrik.github.io/pigallery2/) - 目录优先的自托管照片图库网站。
 - [Photoview](https://photoview.github.io/) - 适用于个人自托管服务器、带有人脸识别功能的照片图库。
@@ -1236,7 +1235,7 @@ These tools are useful when sharing secrets, code snippets或any other kind of t
 ### 本地
 - [DigiKam](https://www.digikam.org/) - 借助开源力量实现出色的专业照片管理。
 - [Photok](https://github.com/leonlatsch/Photok) - Photok 是免费的照片保险箱。它会在设备上加密存储照片，并将其隐藏起来。
-- [ImageGlass](https://imageglass.org/) - ImageGlass 是一款轻量级软件，旨在为你提供清爽直观的图像浏览环境。 
+- [ImageGlass](https://imageglass.org/) - ImageGlass 是一款轻量级软件，旨在为你提供清爽直观的图像浏览环境。
 
 [返回顶部 🔝](#contents)
 
@@ -1249,70 +1248,70 @@ These tools are useful when sharing secrets, code snippets或any other kind of t
 - [Whoami Project](https://github.com/owerdogan/whoami-project) [💀](#icons) - Whoami 为基于 Debian 和 Arch 的 Linux 发行版提供增强的隐私保护和匿名性。
 - [BusKill](https://www.buskill.in/) - BusKill 是一种“死人开关”，磁性脱离装置触发、USB 连接断开时便会启动。
 - [OpenSnitch](https://github.com/evilsocket/opensnitch) - 适用于 GNU/Linux 的交互式应用防火墙，帮助用户检测、监控并阻止不需要的出站连接。
-- [MAT2](https://github.com/jvoisin/mat2) - Removes metadata from images, documents, audio and other files. Command line tool with file manager integrations.
-- [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) - Simple desktop app to view and remove file metadata, built on MAT2.
-- [Mobile Verification Toolkit](https://github.com/mvt-project/mvt) - Forensic tool from Amnesty International that checks Android and iOS devices for traces of spyware such as Pegasus.
+- [MAT2](https://github.com/jvoisin/mat2) - 移除图像、文档、音频和其他文件中的元数据。提供命令行工具并可集成文件管理器。
+- [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) - 基于 MAT2 构建的简单桌面应用，可查看和移除文件元数据。
+- [Mobile Verification Toolkit](https://github.com/mvt-project/mvt) - Amnesty International 的取证工具，可检查安卓和 iOS 设备中是否存在 Pegasus 等间谍软件的痕迹。
 
 ### 安卓
 
-- [εxodus](https://reports.exodus-privacy.eu.org/en/) - The privacy audit platform for Android applications. Find how many 追踪器 your apps have.
-	- [ClassyShark3xodus](https://f-droid.org/en/packages/com.oF2pks.classyshark3xodus/) - Checks apk(s) for known 追踪器 (provided by Exodus) +other warnings and specs. 
-- [Plexus](https://plexus.techlore.tech/) - Remove the fear of Android app compatibility on de-Googled devices. Find if an app will work on a De-Googled device.
-- [Netguard](https://netguard.me/) - A simple way to block access 所列的internet per application.
-- [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - An open-source, no-root firewall and DNS changer, with anti-censorship capabilities for Android 6+.
-- [🤖](#icons) [Orbot](https://orbot.app/) - Routes app traffic through the Tor network, system-wide as a VPN或per app. Made by the Guardian Project.
+- [εxodus](https://reports.exodus-privacy.eu.org/en/) - 安卓应用隐私审计平台，可查看应用包含多少追踪器。
+	- [ClassyShark3xodus](https://f-droid.org/en/packages/com.oF2pks.classyshark3xodus/) - 检查 APK 中已知的追踪器（由 Exodus 提供）以及其他警告和规格。
+- [Plexus](https://plexus.techlore.tech/) - 消除在去 Google 化设备上使用安卓应用的兼容性顾虑。检查应用能否在去 Google 化设备上运行。
+- [Netguard](https://netguard.me/) - 按应用阻止其访问互联网的简单方法。
+- [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - 适用于安卓 6 及以上版本的开源无 Root 防火墙和 DNS 切换工具，具备反审查功能。
+- [🤖](#icons) [Orbot](https://orbot.app/) - 通过 Tor 网络路由应用流量，可作为系统级 VPN 或按应用单独设置。由 Guardian Project 开发。
 
 [返回顶部 🔝](#contents)
 
-## Remote Access and Control
+## 远程访问与控制
 ⛔ **请避免**
 - TeamViewer
 - AnyDesk
 
 ✅  **请改用**
-- [RustDesk](https://rustdesk.com/) - Open-source remote desktop client software, written in Rust. Works out of the box, full control of your data, with no concerns about security.
-- [screego](https://screego.net/) - Screen sharing for developers.
-- [Remmina](https://remmina.org/) - Remote access screen and file sharing to your desktop (RDP).
-- [UltraVNC](https://www.uvnc.com/) - UltraVNC is a powerful, easy to use and free - remote pc access softwares - that can display the screen of another computer (via internet或network) on your own screen.
-- [MeshCentral](https://meshcentral.com/) - The open source, multi-platform, self-hosted, feature packed web site for remote device management.
-- [Apache Guacamole](https://guacamole.apache.org) - Clientless self-hosted remote desktop gateway that gives RDP, VNC, and SSH access from a browser. Apache-2.0 licensed.
-- [Sunshine + Moonlight](https://app.lizardbyte.dev/Sunshine) - Self-hosted desktop and game streaming host (Sunshine) with matching clients (Moonlight). Open source, GPL-3.0 licensed.
+- [RustDesk](https://rustdesk.com/) - 使用 Rust 编写的开源远程桌面客户端软件。开箱即用，让你完全掌控数据，无需担忧安全问题。
+- [screego](https://screego.net/) - 面向开发者的屏幕共享工具。
+- [Remmina](https://remmina.org/) - 通过 RDP 远程访问桌面并共享文件。
+- [UltraVNC](https://www.uvnc.com/) - UltraVNC 是一款强大、易用且免费的远程电脑访问软件，可通过互联网或网络将另一台电脑的屏幕显示在你的屏幕上。
+- [MeshCentral](https://meshcentral.com/) - 开源、跨平台、自托管且功能丰富的远程设备管理网页平台。
+- [Apache Guacamole](https://guacamole.apache.org) - 无需客户端的自托管远程桌面网关，可通过浏览器访问 RDP、VNC 和 SSH。采用 Apache-2.0 许可。
+- [Sunshine + Moonlight](https://app.lizardbyte.dev/Sunshine) - 自托管桌面和游戏流媒体主机（Sunshine）及配套客户端（Moonlight）。开源，采用 GPL-3.0 许可。
 
 [返回顶部 🔝](#contents)
 
-## Routers
+## 路由器
 ⛔ **请避免**
-- Stock ISP routers and vendor firmware: closed source, slow或missing security updates, and often phone home 所列的vendor或ISP.
+- ISP 提供的原厂路由器和厂商固件：闭源、安全更新缓慢或缺失，而且经常向厂商或 ISP 回传数据。
 
 ✅  **请改用**
-- [OpenWrt](https://openwrt.org/) - Open source Linux firmware that replaces the stock software on hundreds of consumer routers, with years of security updates.
-- [OPNsense](https://opnsense.org/) - Open source firewall and routing platform based on FreeBSD, for dedicated hardware或a spare PC.
-- [IPFire](https://www.ipfire.org/) - Hardened open source Linux firewall distribution with intrusion prevention and a web interface.
+- [OpenWrt](https://openwrt.org/) - 开源 Linux 固件，可替换数百种消费级路由器的原厂软件，并提供多年的安全更新。
+- [OPNsense](https://opnsense.org/) - 基于 FreeBSD 的开源防火墙和路由平台，可运行于专用硬件或闲置电脑。
+- [IPFire](https://www.ipfire.org/) - 经过安全加固的开源 Linux 防火墙发行版，提供入侵防护和网页界面。
 
 [返回顶部 🔝](#contents)
 
-## RSS Readers
+## RSS 阅读器
 ⛔ **请避免**
 - Feedly
 - Inoreader
 - Google News
 
-These services build a profile from everything you read. A local或self-hosted reader fetches feeds directly, so nobody sees your reading list.
+这些服务会根据你的所有阅读内容建立个人档案。本地或自托管阅读器直接获取订阅源，因此无人能看到你的阅读列表。
 
 ✅  **请改用**
-- [FreshRSS](https://freshrss.org/) - Self-hosted feed aggregator with a web interface, multi-user support and an API for mobile apps.
-- [Miniflux](https://miniflux.app/) - Minimalist self-hosted feed reader with no tracking, written in Go.
-- [NetNewsWire](https://netnewswire.com/) - Open source RSS reader for macOS and iOS that works locally或syncs with self-hosted services.
-- [Fluent Reader](https://github.com/yang991178/fluent-reader) - Open source desktop RSS reader for Windows, macOS and Linux.
-- [NewsFlash](https://gitlab.com/news-flash/news_flash_gtk) - Open source RSS reader for Linux that works locally或with self-hosted services such as Miniflux and FreshRSS.
-- [Newsboat](https://newsboat.org/) - RSS reader for the terminal.
-- [🤖](#icons) [Feeder](https://github.com/spacecowboy/Feeder) - Open source RSS reader for Android that fetches feeds directly on your device, with no account.
-- [🤖](#icons) [Read You](https://github.com/ReadYouApp/ReadYou) - Open source Material You RSS reader for Android, local或synced with self-hosted services.
-- [🤖](#icons) [Capy Reader](https://github.com/jocmp/capyreader) - Open source RSS reader for Android, local或synced with Miniflux and FreshRSS.
+- [FreshRSS](https://freshrss.org/) - 自托管订阅源聚合器，提供网页界面、多用户支持和供移动应用使用的 API。
+- [Miniflux](https://miniflux.app/) - 使用 Go 编写的极简自托管订阅阅读器，不含追踪。
+- [NetNewsWire](https://netnewswire.com/) - 适用于 macOS 和 iOS 的开源 RSS 阅读器，可本地使用或与自托管服务同步。
+- [Fluent Reader](https://github.com/yang991178/fluent-reader) - 适用于 Windows、macOS 和 Linux 的开源桌面 RSS 阅读器。
+- [NewsFlash](https://gitlab.com/news-flash/news_flash_gtk) - 适用于 Linux 的开源 RSS 阅读器，可本地使用或连接 Miniflux、FreshRSS 等自托管服务。
+- [Newsboat](https://newsboat.org/) - 终端 RSS 阅读器。
+- [🤖](#icons) [Feeder](https://github.com/spacecowboy/Feeder) - 安卓开源 RSS 阅读器，可直接在设备上获取订阅源，无需帐户。
+- [🤖](#icons) [Read You](https://github.com/ReadYouApp/ReadYou) - 安卓开源 Material You RSS 阅读器，可本地使用或与自托管服务同步。
+- [🤖](#icons) [Capy Reader](https://github.com/jocmp/capyreader) - 安卓开源 RSS 阅读器，可本地使用或与 Miniflux 和 FreshRSS 同步。
 
 [返回顶部 🔝](#contents)
 
-## Search Engines
+## 搜索引擎
 
 ⛔ **请避免**
 - Google [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
@@ -1322,156 +1321,156 @@ These services build a profile from everything you read. A local或self-hosted r
 - Ecosia [![](https://shields.tosdr.org/en_591.svg)](https://tosdr.org/en/service/591)
 
 ✅  **请改用**
-- [librengine](https://github.com/liameno/librengine) [💀](#icons) - Privacy Web Search Engine 
-- [SearxNG](https://github.com/searxng/searxng) - Free internet metasearch engine which aggregates results from various search services and databases.  
-- [DuckDuckGo](https://duckduckgo.com) - A privacy respecting search engine.
-- [Brave Search](https://search.brave.com) - A privacy respecting search engine with [its own independent index](https://brave.com/search-independence/).
-- [Qwant](https://www.qwant.com/) - A zero tracking search engine made and hosted in France, EU.
-- [Marginalia](https://marginalia-search.com/) - Independent search engine with its own crawler and index that favors text-heavy, non-commercial pages. Self-hostable, AGPL-3.0 licensed.
-- [YaCy](https://yacy.net/) - Peer-to-peer decentralized search engine where every user runs a node and shares the index. Open source, GPL-2.0 licensed.
+- [librengine](https://github.com/liameno/librengine) [💀](#icons) - 注重隐私的网页搜索引擎
+- [SearxNG](https://github.com/searxng/searxng) - 免费互联网元搜索引擎，可聚合多个搜索服务和数据库的结果。
+- [DuckDuckGo](https://duckduckgo.com) - 尊重隐私的搜索引擎。
+- [Brave Search](https://search.brave.com) - 尊重隐私的搜索引擎，拥有[独立的自有索引](https://brave.com/search-independence/).
+- [Qwant](https://www.qwant.com/) - 在欧盟法国开发和托管的零追踪搜索引擎。
+- [Marginalia](https://marginalia-search.com/) - 拥有自有爬虫和索引的独立搜索引擎，优先展示文本丰富的非商业页面。可自行托管，采用 AGPL-3.0 许可。
+- [YaCy](https://yacy.net/) - 点对点去中心化搜索引擎，每位用户都运行节点并共享索引。开源，采用 GPL-2.0 许可。
 
 [返回顶部 🔝](#contents)
 
-## Social Networks and Platforms
+## 社交网络与平台
 
 > [!NOTE]
-> **The fediverse**
+ > **联邦宇宙（Fediverse）**
 >
-> The fediverse is a "**fed**erated" "un**iverse**" of social network platforms that are able to talk to one another through a standard and open protocol. This means that you can consume content on any network from any of these networks. You are not locked to a single provider, you are free to choose. Please [watch thi 的视频](https://framatube.org/w/9dRFC6Ya11NCVeYKn8ZhiD?start=8s) by FramaSoft that illustrates the concept very good.
+> 联邦宇宙（Fediverse）是由社交网络平台组成的“联邦化（federated）宇宙（universe）”，这些平台可以通过标准开放协议相互通信。这意味着你可以在任意一个网络中浏览其他网络的内容。你不会被某个服务提供商绑定，可以自由选择。请观看 FramaSoft 制作的[这段视频](https://framatube.org/w/9dRFC6Ya11NCVeYKn8ZhiD?start=8s)，它很好地说明了这一概念。
 >
-> Ideally, we should all move 所列的fediverse and abandon the centralized and monopolized social networks that are now the most popular (Twitter, Reddit, Instagram...).
+> 理想情况下，我们都应该转向联邦宇宙，放弃目前最流行的中心化、垄断式社交网络（Twitter、Reddit、Instagram 等）。
 >
-> All the apps compatible with the Fediverse (ActivityPub) are marked with a [🧩](#icons)
+> 所有兼容联邦宇宙（ActivityPub）的应用均以[🧩](#icons)
 
 > [!NOTE]
-> **Alternative frontends and clients**
+ > **替代前端与客户端**
 >
-> Alternative frontends are good to protect your individual privacy. You can still consume the contents of privative and privacy-harmful services with protection over your privacy and some anonymity. Even using most these alternative frontends, still, the privative services will receive requests about the content you are consuming (even not knowing it is you). This sitll harms the collective privacy and adds data to their algorithms in some ways. Only the alternative frontends (or clients) that act as a proxy will hide your real IP from the content provider. 
+> 替代前端有助于保护个人隐私。你仍可通过这些工具浏览专有且损害隐私的服务内容，同时获得隐私保护和一定程度的匿名性。即使使用大多数替代前端，专有服务仍会收到有关你所浏览内容的请求（尽管不知道请求来自你）。这仍会损害整体隐私，并以某种方式为其算法提供数据。只有充当代理的替代前端（或客户端）才能向内容提供商隐藏你的真实 IP。
 >
-> You can use these browser extensions and apps to automatically redirect any links to privacy-respecting alternative frontends:
-> - [LibRedirect](https://github.com/libredirect/browser_extension#get) - A web extension that redirects YouTube, Twitter... requests to alternative privacy friendly frontends and backends.
-> - [UntrackMe](https://www.f-droid.org/en/packages/app.fedilab.nitterizeme/) - Transform Youtube, Twitter & other links to their free and open source alternatives.
+> 你可以使用以下浏览器扩展和应用，自动将链接重定向到尊重隐私的替代前端：
+> - [LibRedirect](https://github.com/libredirect/browser_extension#get) - 将 YouTube、Twitter 等请求重定向到尊重隐私的替代前端和后端的网页扩展。
+> - [UntrackMe](https://www.f-droid.org/en/packages/app.fedilab.nitterizeme/) - 将 YouTube、Twitter 等链接转换为对应的免费开源替代服务。
 
 
 
-### Blogging platforms (Medium)
+### 博客平台（Medium）
 
 ⛔ **请避免**:
-- **Medium** - website has Google 追踪器 and ads.
-- **Blogger** - Google owned, has google 追踪器 and ads.
+- **Medium** - 网站包含 Google 追踪器和广告。
+- **Blogger** - 由 Google 所有，包含 Google 追踪器和广告。
 
-✅ **Alternatives:**
-- [Plume](https://github.com/Plume-org/Plume) [🧩](#icons) - Federated blogging application, thanks to ActivityPub.
-- [WriteFreely](https://writefreely.org/) [🧩](#icons) - An open source platform for building a writing space on the web.
+✅ **替代方案：**
+- [Plume](https://github.com/Plume-org/Plume) [🧩](#icons) - 借助 ActivityPub 实现联邦化的博客应用。
+- [WriteFreely](https://writefreely.org/) [🧩](#icons) - 用于在网络上建立写作空间的开源平台。
 
-✅ **Alternative Medium frontends:**
-- [Scribe](https://git.sr.ht/~edwardloveall/scribe/) - Medium alternative forntend inspired by Invidious.
+✅ **Medium 替代前端：**
+- [Scribe](https://git.sr.ht/~edwardloveall/scribe/) - 受 Invidious 启发的 Medium 替代前端。
 
 ### Instagram
 
 [![](https://shields.tosdr.org/en_219.svg)](https://tosdr.org/en/service/219)
 
-⛔ Don't use Instagram (or at least the official client). Instagram is a very privacy-invasive app with biased results and feeds based on user profiles, it is also used as a manipulation tool and has a lot of censorship going against free speech. Lastly, it has an addictive and toxic UI design.
+⛔ 不要使用 Instagram（至少不要使用官方客户端）。Instagram 是一款严重侵犯隐私的应用，根据用户画像提供有偏见的搜索结果和信息流，也被用作操纵工具，并存在大量损害言论自由的审查。最后，它的界面设计容易令人上瘾且具有毒性。
 
 ✅ **请改用**
 
-**Alternatives to Instagram**
-- [Pixelfed](https://pixelfed.org/) [🧩](#icons) - Decentralized, federated and Open Source alternative to Instagram with posts, videos, stories, tags, etc.
+**Instagram 替代方案**
+- [Pixelfed](https://pixelfed.org/) [🧩](#icons) - Instagram 的去中心化、联邦化开源替代品，支持帖子、视频、快拍、标签等。
 
 ### Quora
 
-⛔ Quora's website has ads and 追踪器 that are used to get your data which is then sold/shared to third parties. Their [privacy policy](https://tosdr.org/en/service/314) is bad.
+⛔ Quora 网站包含广告和追踪器，用于收集你的数据并将其出售/分享给第三方。其[隐私政策](https://tosdr.org/en/service/314)很糟糕。
 
-✅ **Quora alternative frontends (web-based):**
-- [Quetre](https://github.com/zyachel/quetre) - Quetre is an alternative front-end to Quora. It enables you to see answers without ads, 追踪器, and other such bloat.
+✅ **Quora 网页替代前端：**
+- [Quetre](https://github.com/zyachel/quetre) - Quetre 是 Quora 的替代前端，让你无需广告、追踪器和其他臃肿内容即可查看答案。
 
 
 ### YouTube
 
 [![](https://shields.tosdr.org/en_274.svg)](https://tosdr.org/en/service/274)
 
-⛔ Don't use YouTube (or at least the official client). YouTube is very privacy invasive, it generates a very accurate profile based on your interests. Also it is a [radicalization tool](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization) which shows [biased content to users](https://arxiv.org/pdf/1908.08313.pdf) in order to get more engagement and to get them to watch more and more content creating an [addiction](https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883). It never shows you [alternative opinions](https://arxiv.org/pdf/1908.08313.pdf) to your ideology/bias. YouTube censors a lot. YouTube collects a LOT of your data: interests, free time, ideology, likes, dislikes, music taste, etc.
+⛔ 不要使用 YouTube（至少不要使用官方客户端）。YouTube 严重侵犯隐私，会根据你的兴趣建立非常精准的个人画像。此外，它还是一种[激进化工具](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization)，会向用户展示[有偏见的内容](https://arxiv.org/pdf/1908.08313.pdf)，以获取更多互动并让用户不断观看更多内容，从而造成[成瘾](https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883)，它从不向你展示与你的意识形态/偏见不同的[其他观点](https://arxiv.org/pdf/1908.08313.pdf)。YouTube 审查内容严重，还会收集你大量数据：兴趣、空闲时间、意识形态、喜好、厌恶、音乐品味等。
 
 ✅ **请改用**
-- [Peertube](https://joinpeertube.org/en/) [🧩](#icons) - A free, open and decentralized alternative to video platforms.
-- [Odysee](https://odysee.com/) - Odysee is a video platform backed by the creators of lbry and uses the lbry blockchain protocol.
-- [DTube](https://github.com/dtube/dtube) - A full-featured video sharing website, decentralized.
+- [Peertube](https://joinpeertube.org/en/) [🧩](#icons) - 免费、开放且去中心化的视频平台替代方案。
+- [Odysee](https://odysee.com/) - Odysee 是由 lbry 的创建者支持的视频平台，采用 lbry 区块链协议。
+- [DTube](https://github.com/dtube/dtube) - 功能齐全的去中心化视频分享网站。
 
-✅ **YouTube alternative frontends (web-based):**
-- [Invidious](https://github.com/iv-org/invidious) - Alternative and privacy respecting YouTube frontend.
-- [Piped](https://github.com/TeamPiped/Piped) - An alternative privacy-friendly YouTube frontend which is efficient by design.
-- [ViewTube](https://github.com/ViewTube/viewtube) - ViewTube is an alternative privacy-friendly YouTube frontend written in Vue.js
-- [Youtube-Local](https://github.com/user234683/youtube-local) - browser-based client for watching Youtube anonymously and with greater page performance.
+✅ **YouTube 网页替代前端：**
+- [Invidious](https://github.com/iv-org/invidious) - 尊重隐私的 YouTube 替代前端。
+- [Piped](https://github.com/TeamPiped/Piped) - 注重隐私且设计高效的 YouTube 替代前端。
+- [ViewTube](https://github.com/ViewTube/viewtube) - ViewTube 是使用 Vue.js 编写、尊重隐私的 YouTube 替代前端。
+- [Youtube-Local](https://github.com/user234683/youtube-local) - 基于浏览器的客户端，可匿名观看 YouTube，页面性能也更佳。
 
-✅ **YouTube alternative clients (apps):**
-- [🤖](#icons) [NewPipe](https://newpipe.net/) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
-- [🤖](#icons) [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
-- [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API或Invidious for backend).
-- [🤖](#icons) [LibreTube](https://github.com/Libre-tube/LibreTube) - An alternative frontend for YouTube, for Android using Piped.
-- [Yattee](https://github.com/yattee/yattee) - Alternative YouTube frontend for iOS, tvOS and macOS built with Invidious and Piped.
-- [🤖](#icons) [Clipious](https://github.com/lamarios/clipious) [💀](#icons) Invidious client for android
+✅ **YouTube 替代客户端（应用）：**
+- [🤖](#icons) [NewPipe](https://newpipe.net/) - 安卓 YouTube 替代应用。无需帐户、尊重隐私且无广告。
+- [🤖](#icons) [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - 安卓 YouTube 替代应用。无需帐户、尊重隐私且无广告。
+- [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube 是一款注重隐私的开源桌面 YouTube 播放器。（使用本地 RSS API 或 Invidious 作为后端。）
+- [🤖](#icons) [LibreTube](https://github.com/Libre-tube/LibreTube) - 使用 Piped 的安卓 YouTube 替代前端。
+- [Yattee](https://github.com/yattee/yattee) - 基于 Invidious 和 Piped 构建、适用于 iOS、tvOS 和 macOS 的 YouTube 替代前端。
+- [🤖](#icons) [Clipious](https://github.com/lamarios/clipious) [💀](#icons) 安卓 Invidious 客户端
 
 ### TikTok
 
 [![](https://shields.tosdr.org/en_1448.svg)](https://tosdr.org/en/service/1448)
 
-⛔ Avoid using TikTok, it is a toxic-designed application that harms not only the user privacy but also user integrity. You can take a read on [these several posts](https://www.reddit.com/r/privacy/search?q=tiktok&restrict_sr=on&sort=top&t=all).
+⛔ 避免使用 TikTok。这款设计具有毒性的应用不仅损害用户隐私，也伤害用户身心健康。你可以阅读[这些帖子](https://www.reddit.com/r/privacy/search?q=tiktok&restrict_sr=on&sort=top&t=all)。
 
-✅ **TikTok alternative frontends (web-based):**
-- [ProxiTok](https://github.com/pablouser1/ProxiTok) - Open source alternative frontend for TikTok
+✅ **TikTok 网页替代前端：**
+- [ProxiTok](https://github.com/pablouser1/ProxiTok) - TikTok 的开源替代前端
 
 ### Twitter
 
 [![](https://shields.tosdr.org/en_195.svg)](https://tosdr.org/en/service/195)
 
-⛔ Avoid using Twitter official app / website. It tracks users and creates user profiles based on what they follow, retweet and like. Twitter harms and violates user privacy with their policies [by default](https://www.eff.org/deeplinks/2017/05/how-opt-out-twitters-new-privacy-settings). 
+⛔ 避免使用 Twitter 官方应用/网站。它会追踪用户，并根据关注、转推和点赞内容建立用户画像。Twitter 的政策[默认情况下](https://www.eff.org/deeplinks/2017/05/how-opt-out-twitters-new-privacy-settings)就会损害并侵犯用户隐私。
 
 #### 自行托管
 
-- [Memos](https://github.com/usememos/memos) - An open-source, self-hosted memo hub with knowledge management and socialization.
+- [Memos](https://github.com/usememos/memos) - 开源、自托管的备忘录中心，具备知识管理和社交功能。
 
 #### 去中心化
 
-- [Nostr](https://nostr.com/) - Open protocol that is able to create a censorship-resistant global "social" network. It doesn't rely on any trusted central server, hence it is resilient; it is based on cryptographic keys and signatures, so it is tamperproof; it does not rely on P2P techniques, therefore it works. **Note**: Nostr is a protocol, so it is capable of offering much more than a Twitter alternative.
+- [Nostr](https://nostr.com/) - 可构建全球抗审查“社交”网络的开放协议。它不依赖任何可信中央服务器，因此具有韧性；基于加密密钥和签名，因此无法篡改；它不依赖 P2P 技术，因此能够正常工作。**注意**：Nostr 是一种协议，所能提供的远不止 Twitter 替代方案。
 
 > [!NOTE]
-> **Federated social networks**: A federated social network isn't a single website like Twitter或Facebook, it's a network of thousands of communities operated by different organizations and individuals that provide a seamless social media experience.
+> **联邦式社交网络**：联邦式社交网络并非 Twitter 或 Facebook 那样的单一网站，而是由不同组织和个人运营的数千个社区组成的网络，可提供无缝的社交媒体体验。
 
-- [Mastodon](https://joinmastodon.org/) [🧩](#icons) - Free, federated microblogging social network built on open protocols.
-  - [Mastodon Apps](https://joinmastodon.org/apps) - List of Mastodon apps for Android, iOS, Web and Desktop.
-- [Pleroma](https://pleroma.social/) [🧩](#icons) - Pleroma is a free, federated social networking server built on open protocols.
-  - [Soapbox](https://gitlab.com/soapbox-pub/soapbox-fe) - A frontend for Pleroma with a focus on custom branding and ease of use.
+- [Mastodon](https://joinmastodon.org/) [🧩](#icons) - 基于开放协议构建的免费联邦式微博社交网络。
+  - [Mastodon Apps](https://joinmastodon.org/apps) - 适用于安卓、iOS、网页和桌面的 Mastodon 应用列表。
+- [Pleroma](https://pleroma.social/) [🧩](#icons) - Pleroma 是基于开放协议构建的免费联邦式社交网络服务器。
+  - [Soapbox](https://gitlab.com/soapbox-pub/soapbox-fe) - Pleroma 的前端，注重自定义品牌和易用性。
 
-#### Alternative Frontends
-- [Nitter](https://github.com/zedeus/nitter/wiki/Instances) [💀](#icons) - Nitter is a free and open source alternative Twitter front-end focused on privacy.
-- [Squawker](https://github.com/j-fbriere/squawker) - Open source Twitter client for Android, the maintained fork of Fritter.
-- [Feetter](https://codeberg.org/pluja/Feetter) [💀](#icons) - Create, sync and manage Nitter feeds without registration from any device.
+#### 替代前端
+- [Nitter](https://github.com/zedeus/nitter/wiki/Instances) [💀](#icons) - Nitter 是注重隐私的免费开源 Twitter 替代前端。
+- [Squawker](https://github.com/j-fbriere/squawker) - 安卓开源 Twitter 客户端，是仍在维护的 Fritter 分支。
+- [Feetter](https://codeberg.org/pluja/Feetter) [💀](#icons) - 无需注册，即可在任何设备上创建、同步和管理 Nitter 订阅源。
 
 ### Reddit
 
 [![](https://shields.tosdr.org/en_194.svg)](https://tosdr.org/en/service/194)
 
-⛔ Try to avoid using Reddit或at least avoid their official clients as they are plenty of 追踪器, ads and share unnecessary user data with their servers.
+⛔ 尽量避免使用 Reddit，至少不要使用其官方客户端，因为其中布满追踪器和广告，并会向服务器分享不必要的用户数据。
 
-✅ **Reddit alternatives:**
-- [Aether](https://getaether.net/) - Peer-to-peer ephemeral public communities.
-- [Mbin](https://github.com/MbinOrg/mbin) [🧩](#icons) - A reddit-like content aggregator and micro-blogging platform for the fediverse; the community-maintained continuation of kbin.
-- [Lemmy](https://join-lemmy.org/) [🧩](#icons) - A federated and open alternative to Reddit in Rust.
+✅ **Reddit 替代方案：**
+- [Aether](https://getaether.net/) - 点对点阅后即焚式公共社区。
+- [Mbin](https://github.com/MbinOrg/mbin) [🧩](#icons) - 联邦宇宙中的 Reddit 式内容聚合和微博平台；由社区维护的 kbin 后继项目。
+- [Lemmy](https://join-lemmy.org/) [🧩](#icons) - 使用 Rust 编写的联邦式 Reddit 开放替代品。
 
-✅ **Privacy respecting Reddit clients:**
-- [Redlib](https://github.com/redlib-org/redlib) - An alternative private front-end to Reddit, with its origins in Libreddit.
+✅ **尊重隐私的 Reddit 客户端：**
+- [Redlib](https://github.com/redlib-org/redlib) - 源自 Libreddit 的 Reddit 私密替代前端。
 
-### Streaming Platforms (Twitch)
+### 直播平台（Twitch）
 
 [![](https://shields.tosdr.org/en_200.svg)](https://tosdr.org/en/service/200)
 
-⛔  Avoid using platforms as Twitch, Patreon, YouTube as they are very privacy-invasive with your viewers (and you!). Instead, you can try using some self-hosted platforms that do take care of everyone's privacy.
+⛔ 避免使用 Twitch、Patreon、YouTube 等平台，它们会严重侵犯你和观众的隐私。你可以尝试使用关注所有人隐私的自托管平台。
 
-✅ **Alternatives:**
-- [Owncast](https://github.com/owncast/owncast) - Take control over your live stream video by running it yourself. Streaming + chat out of the box.
+✅ **替代方案：**
+- [Owncast](https://github.com/owncast/owncast) - 自行运行直播视频，掌控一切。开箱即用地提供直播和聊天功能。
 
-✅ **Privacy respecting Twitch clients:**
-- [🤖](#icons) [Twire](https://github.com/twireapp/Twire) - Open source, ad-free Twitch browser and stream player，适用于安卓。
+✅ **尊重隐私的 Twitch 客户端：**
+- [🤖](#icons) [Twire](https://github.com/twireapp/Twire) - 适用于安卓的开源无广告 Twitch 浏览器和流媒体播放器。
 
 [返回顶部 🔝](#contents)
 
@@ -1479,32 +1478,32 @@ These services build a profile from everything you read. A local或self-hosted r
 
 [![](https://shields.tosdr.org/en_325.svg)](https://tosdr.org/en/service/325)
 
-⛔ Imgur website is plenty of bloat, gifs, cookies, javascript and 追踪器.
+⛔ Imgur 网站充斥臃肿内容、GIF、Cookie、JavaScript 和追踪器。
 
-✅ **Alternatives:**
-- [rimgo](https://codeberg.org/video-prize-ranch/rimgo#instances) - An alternative frontend for Imgur. Read-only, no-js, Based on rimgu and rewritten in Go.
+✅ **替代方案：**
+- [rimgo](https://codeberg.org/video-prize-ranch/rimgo#instances) - Imgur 的替代前端。只读、无 JavaScript，基于 rimgu 并使用 Go 重写。
 
 [返回顶部 🔝](#contents)
 
 ### IMDb
 
-⛔ IMDb is owned by Amazon and its website is loaded with ads and third-party 追踪器.
+⛔ IMDb 归 Amazon 所有，其网站充斥广告和第三方追踪器。
 
-✅ **IMDb alternative frontends:**
-- [libremdb](https://libremdb.iket.me/) - Alternative privacy-respecting frontend for IMDb that removes ads and 追踪器. Open source and self-hostable (AGPL-3.0).
+✅ **IMDb 替代前端：**
+- [libremdb](https://libremdb.iket.me/) - 尊重隐私的 IMDb 替代前端，可移除广告和追踪器。开源且可自行托管（AGPL-3.0）。
 
 [返回顶部 🔝](#contents)
 
 ### Fandom
 
-⛔ Fandom wikis (formerly Wikia) are overloaded with ads, autoplaying video, and 追踪器.
+⛔ Fandom Wiki（原名 Wikia）充斥广告、自动播放视频和追踪器。
 
-✅ **Fandom alternative frontends:**
-- [BreezeWiki](https://breezewiki.com/) - Alternative frontend for Fandom wikis that strips ads, video, and clutter. Open source and self-hostable.
+✅ **Fandom 替代前端：**
+- [BreezeWiki](https://breezewiki.com/) - Fandom Wiki 的替代前端，可去除广告、视频和杂乱内容。开源且可自行托管。
 
 [返回顶部 🔝](#contents)
 
-## Teamworking Tools
+## 团队协作工具
 ⛔ **请避免**
 - [![](https://shields.tosdr.org/en_206.svg)](https://tosdr.org/en/service/206)
 - Google Meet [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
@@ -1512,244 +1511,244 @@ These services build a profile from everything you read. A local或self-hosted r
 - [![](https://shields.tosdr.org/en_536.svg)](https://tosdr.org/en/service/536)
 
 ✅  **请改用**
-- [Zulip](https://zulip.com/) - Chat for distributed teams.
-- [Stoat](https://stoat.chat/) (formerly Revolt) - User-first chat platform built with modern web technologies.
-- [Twake](https://twake.app/) - Work in a team faster. Twake covers all of your organizational needs through a single platform.
-- [RocketChat](https://rocket.chat/) - Control your communication, manage your data, and have your own collaboration platform to improve team productivity.
-- [Nextcloud Talk](https://nextcloud.com/talk/) - Keep conversations private with Nextcloud Talk.
-- [Mattermost](https://mattermost.com/) - Open-source Slack alternative.
+- [Zulip](https://zulip.com/) - 分布式团队聊天工具。
+- [Stoat](https://stoat.chat/) （原名 Revolt）- 采用现代网页技术构建、以用户为先的聊天平台。
+- [Twake](https://twake.app/) - 提升团队协作效率。Twake 通过单一平台满足组织的各类需求。
+- [RocketChat](https://rocket.chat/) - 掌控通信、管理数据，并拥有自己的协作平台以提升团队效率。
+- [Nextcloud Talk](https://nextcloud.com/talk/) - 使用 Nextcloud Talk 保持对话私密。
+- [Mattermost](https://mattermost.com/) - 开源的 Slack 替代品。
 
 > [!WARNING]
-> **Alternative clients/modifications of Discord:**
-> Your IP and messages will still be shared and belong to Discord and they are not encrypted.\
-> Also using any of these modifications/clients [violates](https://x.com/discord/status/1006178587731550208) the [Discord ToS](https://discord.com/terms) so, we are not responsible of any suspension或termination of your account **but**, this should [not happen **yet**](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos).
+ > **Discord 的替代客户端/修改版：**
+> 你的 IP 和消息仍会被分享给 Discord 并归 Discord 所有，而且不会加密。\
+> 此外，使用这些修改版/客户端中的任何一个都[违反](https://x.com/discord/status/1006178587731550208)[Discord 服务条款](https://discord.com/terms)，因此我们不对你的帐户被暂停或终止负责；**不过**，目前应该[还不会发生](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos)。
 
-- [See this section for Discord mods and alternative clients](https://github.com/pluja/awesome-privacy/blob/main/README.md#alternative-clientsmodifications-of-discord)
+- [请参阅此处了解 Discord 修改版和替代客户端](https://github.com/pluja/awesome-privacy/blob/main/README.md#alternative-clientsmodifications-of-discord)
 
 [返回顶部 🔝](#contents)
 
-## Screen recording
+## 屏幕录制
 
-- [Screenity](https://screenity.io/) - A powerful privacy-friendly screen recorder and annotation tool to make better videos for work, education, and more.
+- [Screenity](https://screenity.io/) - 功能强大且尊重隐私的屏幕录制和批注工具，帮助制作更好的工作、教育等视频。
 - [OBS](https://obsproject.com/) - 免费开源的视频录制与直播软件。
 
 [返回顶部 🔝](#contents)
 
-## Translation
+## 翻译
 ⛔ **请避免**
 - Google Translate [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 - DeepL
 - Bing Translator [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
 
-✅ **Text translation**
-- [Mozilla Translate](https://mozilla.github.io/translate/) - Open Source, runs model locally in your browser.
-- [Libretranslate](https://libretranslate.com/) - Open Source Machine Translation - 100% Self-Hosted. No Limits. No Ties to Proprietary Services.
-- [Apertium](https://apertium.org/) - A free/open-source machine translation platform, runs offline on your computer
-- [Softcatala](https://www.softcatala.org/traductor/) - Open Source Translation tool - Only Catalan/Spanish/English/French (uses apertium)
-- [TranslateLocally](https://github.com/XapaJIaMnu/translateLocally) – Free/open-source neural MT, runs offline on your computer
-- [Linguist](https://linguister.io) - A free and Open Source full-featured translation solution in-browser with embedded offline translator and [custom translators](https://linguister.io/docs/CustomTranslator). Full-page translation, TTS, dictionary, translation for user input and selected text on page.
+✅ **文本翻译**
+- [Mozilla Translate](https://mozilla.github.io/translate/) - 开源，可在浏览器本地运行模型。
+- [Libretranslate](https://libretranslate.com/) - 开源机器翻译——100% 自行托管、没有限制、不依赖专有服务。
+- [Apertium](https://apertium.org/) - 免费开源的机器翻译平台，可在电脑上离线运行。
+- [Softcatala](https://www.softcatala.org/traductor/) - 开源翻译工具——仅支持加泰罗尼亚语/西班牙语/英语/法语（使用 apertium）。
+- [TranslateLocally](https://github.com/XapaJIaMnu/translateLocally) – 免费开源的神经机器翻译工具，可在电脑上离线运行。
+- [Linguist](https://linguister.io) - 免费开源、功能齐全的浏览器翻译方案，内置离线翻译器及[自定义翻译器](https://linguister.io/docs/CustomTranslator)。支持整页翻译、文本转语音、词典，以及用户输入和网页所选文本翻译。
 
-✅ **Alternative Google Translate frontends**
-- [Lingva](https://github.com/TheDavidDelta/lingva-translate) [💀](#icons) - Alternative front-end for Google Translate. [Demo](https://lingva.ml/).
-- [Simplytranslate](https://codeberg.org/ManeraKai/simplytranslate) - Alternative front-end for Google Translate and LibreTranslate. [Demo](https://simplytranslate.org/)
-- [Mozhi](https://codeberg.org/aryak/mozhi) - Alternative frontend that aggregates Google Translate, DeepL, Yandex, and other engines behind one private UI. Self-hostable, AGPL-3.0 licensed.
-
-[返回顶部 🔝](#contents)
-
-## Uncategorized
-- [Skymap](https://skymaponline.net/) - Open online planetarium program.
-- [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban.
-- [Hetty](https://github.com/dstotijn/hetty) - Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
-- [Visited](https://github.com/didvc/visited) - Locally collect browsing history over browsers.
+✅ **Google Translate 替代前端**
+- [Lingva](https://github.com/TheDavidDelta/lingva-translate) [💀](#icons) - Google Translate 的替代前端。[Demo](https://lingva.ml/).
+- [Simplytranslate](https://codeberg.org/ManeraKai/simplytranslate) - Google Translate 和 LibreTranslate 的替代前端。[Demo](https://simplytranslate.org/)
+- [Mozhi](https://codeberg.org/aryak/mozhi) - 替代前端，在一个私密界面中聚合 Google Translate、DeepL、Yandex 等翻译引擎。可自行托管，采用 AGPL-3.0 许可。
 
 [返回顶部 🔝](#contents)
 
-## Utilities
-- [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
+## 未分类
+- [Skymap](https://skymaponline.net/) - 开放的在线天文馆程序。
+- [CrowdSec](https://github.com/crowdsecurity/crowdsec) - 开源、现代化且支持协作的 fail2ban。
+- [Hetty](https://github.com/dstotijn/hetty) - Hetty 是用于安全研究的 HTTP 工具包，旨在成为 Burp Suite Pro 的开源替代品。
+- [Visited](https://github.com/didvc/visited) - 在本地收集浏览器的浏览历史。
 
 [返回顶部 🔝](#contents)
 
-## Version Control
+## 实用工具
+- [Deskreen](https://github.com/pavlobu/deskreen) - 将任意设备变成电脑的扩展屏幕。
+
+[返回顶部 🔝](#contents)
+
+## 版本控制
 ⛔ **请避免**
 
-- **Github** - [![](https://shields.tosdr.org/en_297.svg)](https://tosdr.org/en/service/297), although the privacy policy is not 很糟糕, it is owned by Microsoft, and it's common knowledge that it uses the code it hosts to train AI models.
+- **GitHub** - [![](https://shields.tosdr.org/en_297.svg)](https://tosdr.org/en/service/297)，虽然其隐私政策不算太差，但它归 Microsoft 所有，而且众所周知，它会使用托管的代码训练 AI 模型。
 
 ✅  **请改用**
-- [Codeberg](https://codeberg.org/) -  Codeberg is a collaboration platform providing Git hosting and services for free and open source software, content and projects. 
-- [Forgejo](https://forgejo.org/) - Forgejo is a self-hosted lightweight software forge.
-- [GitLab](https://about.gitlab.com/) - GitLab a DevOps software package that can develop, secure, and operate software.
-- [Radicle](https://radicle.dev/) - An open source, peer-to-peer code collaboration stack built on Git. Unlike centralized code hosting platforms, there is no single entity controlling the network. Repositories are replicated across peers in a decentralized manner, and users are in full control of their data and workflow.
-- [Gitea](https://gitea.com) - Lightweight self-hosted Git forge and the project Forgejo was forked from. Open source, MIT licensed.
+- [Codeberg](https://codeberg.org/) -  Codeberg 是一个协作平台，为自由开源软件、内容和项目提供 Git 托管及相关服务。
+- [Forgejo](https://forgejo.org/) - Forgejo 是轻量级的自托管代码协作平台。
+- [GitLab](https://about.gitlab.com/) - GitLab 是一套 DevOps 软件，可用于开发、保障安全并运维软件。
+- [Radicle](https://radicle.dev/) - 基于 Git 构建的开源点对点代码协作技术栈。不同于中心化代码托管平台，网络不受任何单一实体控制。仓库以去中心化方式在各节点间复制，用户完全掌控自己的数据和工作流。
+- [Gitea](https://gitea.com) - 轻量级自托管 Git 代码协作平台，也是 Forgejo 的源项目。开源，采用 MIT 许可。
 
 [返回顶部 🔝](#contents)
 
-## Video and Audio Conferencing
+## 视频与音频会议
 ⛔ **请避免**
 
-- **Zoom** - [Very bad privacy policy](https://tosdr.org/en/service/2198). Apps have [Google 追踪器](https://reports.exodus-privacy.eu.org/en/reports/us.zoom.videomeetings/latest/). Many permissions required.
-- **Skype** - [Very bad privacy policy](https://tosdr.org/en/service/244). Apps have [Google and Microsoft 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.skype.insiders/latest/). Way too many permissions required.
-- **Google Meet** - [Very bad privacy policy](https://tosdr.org/en/service/217). Apps have [Google 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.google.android.apps.tachyon/latest/) embeded (as it is a Google app). Way too many permissions required.
-- **Whatsapp** - [糟糕的隐私政策](https://tosdr.org/en/service/198). Apps have [Google 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.whatsapp/latest/) and most probably Facebook 追踪器 embeded (as it is a Facebook app). Way too many permissions required.
-- **Instagram** - [Very bad privacy policy](https://tosdr.org/en/service/219). Apps have [Facebook 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.instagram.android/latest/). Way too many permissions required.
-- **Discord** - [Very bad privacy policy.](https://tosdr.org/en/service/536). Apps have [various 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.discord/latest/). Many permissions required.
+- **Zoom** - [隐私政策极差](https://tosdr.org/en/service/2198)。应用包含 [Google 追踪器](https://reports.exodus-privacy.eu.org/en/reports/us.zoom.videomeetings/latest/)，并要求许多权限。
+- **Skype** - [隐私政策极差](https://tosdr.org/en/service/244)。应用包含 [Google 和 Microsoft 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.skype.insiders/latest/)，并要求过多权限。
+- **Google Meet** - [隐私政策极差](https://tosdr.org/en/service/217)。应用内置 [Google 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.google.android.apps.tachyon/latest/)（毕竟这是 Google 应用），并要求过多权限。
+- **WhatsApp** - [隐私政策糟糕](https://tosdr.org/en/service/198)。应用包含 [Google 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.whatsapp/latest/)且很可能内置 Facebook 追踪器（毕竟这是 Facebook 应用），并要求过多权限。
+- **Instagram** - [隐私政策极差](https://tosdr.org/en/service/219)。应用包含 [Facebook 追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.instagram.android/latest/)，并要求过多权限。
+- **Discord** - [隐私政策极差](https://tosdr.org/en/service/536)。应用包含[各种追踪器](https://reports.exodus-privacy.eu.org/en/reports/com.discord/latest/)，并要求许多权限。
 - Clubhouse
 
 ✅  **请改用**
-- [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton is a web conferencing system designed for online learning.
-- [Briefing](https://github.com/holtwick/briefing/) - Secure direct video group chat. Only open technologies (such as WebRTC) are used, which work with all modern browsers.
-- [Chitchatter](https://chitchatter.im/) - Secure P2P chat that is serverless, decentralized, and ephemeral. Supports text, audio, video, screen, and file sharing.
-- [Jam](https://github.com/jam-systems/jam) [💀](#icons) - Jam is your own open source Clubhouse for mini conferences, friends, communities.
-- [Jami](https://jami.net/) - P2P audio and video conferences.
-- [Jitsi Meet](https://github.com/jitsi/jitsi-meet) - More secure, more flexible, and completely free video conferencing. If you use the official instance, you will need to login. Self-hosting is recommended.
-- [Mirotalk P2P](https://p2p.mirotalk.com/) - Free WebRTC - P2P - Simple, Secure, Fast Real-Time Video Conferences Up to 4k and 60fps, compatible with all browsers and platforms.
-- [Mumble](https://www.mumble.info/) - Mumble is an open source voice communication application with advanced features.
-- [PeerCalls](https://github.com/peer-calls/peer-calls) - Group peer to peer video calls for everyone written in Go and TypeScript.
-- [Nextcloud Talk](https://nextcloud.com/talk/) - Self-hosted video calls and chat that run inside your own Nextcloud server over WebRTC (AGPL-3.0).
+- [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton 是为在线学习设计的网页会议系统。
+- [Briefing](https://github.com/holtwick/briefing/) - 安全的直接视频群聊。仅使用 WebRTC 等开放技术，兼容所有现代浏览器。
+- [Chitchatter](https://chitchatter.im/) - 安全的 P2P 聊天工具，无服务器、去中心化且阅后即焚。支持文本、音频、视频、屏幕和文件共享。
+- [Jam](https://github.com/jam-systems/jam) [💀](#icons) - Jam 是你自己的开源 Clubhouse，适用于小型会议、朋友和社群。
+- [Jami](https://jami.net/) - 点对点音频和视频会议。
+- [Jitsi Meet](https://github.com/jitsi/jitsi-meet) - 更安全、更灵活且完全免费的视频会议。如果使用官方实例，你需要登录。建议自行托管。
+- [Mirotalk P2P](https://p2p.mirotalk.com/) - 免费 WebRTC 点对点工具——简单、安全、快速的实时视频会议，最高支持 4K 和 60fps，兼容所有浏览器和平台。
+- [Mumble](https://www.mumble.info/) - Mumble 是一款功能先进的开源语音通信应用。
+- [PeerCalls](https://github.com/peer-calls/peer-calls) - 使用 Go 和 TypeScript 编写、面向所有人的群组点对点视频通话应用。
+- [Nextcloud Talk](https://nextcloud.com/talk/) - 在自有 Nextcloud 服务器内通过 WebRTC 运行的自托管视频通话和聊天服务（AGPL-3.0）。
 
 
-##### Alternative clients/modifications of Discord:
+##### Discord 的替代客户端/修改版：
 > [!WARNING]
-> Your IP and messages will still be shared and belong to Discord and they are not encrypted.\
-> Also using any of these modifications/clients [violates](https://x.com/discord/status/1006178587731550208) the [Discord ToS](https://discord.com/terms) so, we are not responsible of any suspension或termination of your account **but**, this should [not happen **yet**](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos).
-- [OpenAsar](https://openasar.dev/) - An open-source alternative of Discord desktop's app.asar that comes with a [No Tracking](https://github.com/GooseMod/OpenAsar#readme) option that disables Discord's crash and error reporting.
-- [Vencord](https://github.com/Vendicated/Vencord) - A Discord client mod that does things differently.
-- [BetterDiscord](https://betterdiscord.app/) - A client modification for Discord, also you need to install a [DoNotTrack](https://betterdiscord.app/plugin/DoNotTrack) plugin to block 追踪器.
-- [Kernel](https://github.com/kernel-mod/electron) [💀](#icons) - A super small and fast Electron client mod with the most capability, also you need to install a [Discord Utilities](https://github.com/slow/discord-utilities) package to block 追踪器.
-- [Replugged](https://replugged.dev/) - A continuation of the deprecated client mod [Powercord](https://powercord.dev).
-- [WebCord](https://github.com/SpacingBat3/WebCord) - A Discord and Fosscord API-less client made with the Electron.
-- [🤖](#icons) [Aliucord](https://github.com/Aliucord/Aliucord) - A modification for the Android Discord app that fully [disables the Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
-- [Vesktop](https://vesktop.dev/) - Standalone desktop client for Discord that blocks its telemetry and ships with Vencord built in. Open source, GPL-3.0 licensed.
+> 你的 IP 和消息仍会被分享给 Discord 并归 Discord 所有，而且不会加密。\
+> 此外，使用这些修改版/客户端中的任何一个都[违反](https://x.com/discord/status/1006178587731550208)[Discord 服务条款](https://discord.com/terms)，因此我们不对你的帐户被暂停或终止负责；**不过**，目前应该[还不会发生](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos)。
+- [OpenAsar](https://openasar.dev/) - Discord 桌面端 app.asar 的开源替代品，附带[无追踪](https://github.com/GooseMod/OpenAsar#readme)选项，可关闭 Discord 的崩溃和错误报告。
+- [Vencord](https://github.com/Vendicated/Vencord) - 采用不同方式实现功能的 Discord 客户端修改版。
+- [BetterDiscord](https://betterdiscord.app/) - Discord 的客户端修改版，你还需要安装[DoNotTrack](https://betterdiscord.app/plugin/DoNotTrack) plugin to block 追踪器.
+- [Kernel](https://github.com/kernel-mod/electron) [💀](#icons) - 体积极小、速度极快且功能强大的 Electron 客户端修改版，你还需要安装[Discord Utilities](https://github.com/slow/discord-utilities) package to block 追踪器.
+- [Replugged](https://replugged.dev/) - 已弃用客户端修改版[Powercord](https://powercord.dev).
+- [WebCord](https://github.com/SpacingBat3/WebCord) - 使用 Electron 构建、不依赖 Discord 和 Fosscord API 的客户端。
+- [🤖](#icons) [Aliucord](https://github.com/Aliucord/Aliucord) - 安卓 Discord 应用的修改版，可完全[禁用 Discord 追踪](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
+- [Vesktop](https://vesktop.dev/) - 独立的 Discord 桌面客户端，可屏蔽遥测并内置 Vencord。开源，采用 GPL-3.0 许可。
 
 [返回顶部 🔝](#contents)
 
-## Video Editing
+## 视频编辑
 ⛔ **请避免**
 - [![](https://shields.tosdr.org/en_417.svg)](https://tosdr.org/en/service/417)
 - Sony Vegas
 - DaVinci Resolve
 
-Such programs come filled with 追踪器 and telemetry. You can get a full list of reasons of why you should **not** use Adobe [here](https://www.gnu.org/proprietary/malware-adobe.html). Almost the same apply for many privative editors.
+此类程序充斥追踪器和遥测功能。你可以在[此处](https://www.gnu.org/proprietary/malware-adobe.html)查看**不应**使用 Adobe 的完整理由。许多专有编辑器也存在类似问题。
 
 ✅  **请改用**
 
-- [kdenlive](https://kdenlive.org/) - Open source video editor. Free and easy to use for any purpose, forever.
-- [LosslessCut](https://github.com/mifi/lossless-cut) - LosslessCut aims to be the ultimate cross platform FFmpeg GUI for extremely fast and lossless operations on video, audio, subtitle and other related media files.
-- [Olive Video Editor](https://olivevideoeditor.org/) - Free open-source advanced non-linear video editor currently in Alpha state.
-- [OpenCut](https://github.com/OpenCut-app/OpenCut) - [beta] A free, open-source video editor for web, desktop, and mobile.
-- [Shotcut](https://www.shotcut.org/) - Shotcut is a free, open source and simple cross-platform video editor.
+- [kdenlive](https://kdenlive.org/) - 开源视频编辑器。永久免费，可轻松用于任何用途。
+- [LosslessCut](https://github.com/mifi/lossless-cut) - LosslessCut 致力于成为终极跨平台 FFmpeg 图形界面，可对视频、音频、字幕及其他相关媒体文件进行极快且无损的操作。
+- [Olive Video Editor](https://olivevideoeditor.org/) - 免费开源的高级非线性视频编辑器，目前处于 Alpha 阶段。
+- [OpenCut](https://github.com/OpenCut-app/OpenCut) - [Beta] 适用于网页、桌面和移动设备的免费开源视频编辑器。
+- [Shotcut](https://www.shotcut.org/) - Shotcut 是一款免费、开源、简单易用的跨平台视频编辑器。
 
 [返回顶部 🔝](#contents)
 
-## VPNs
+## VPN
 
 ⛔ **请避免**
 
-- [Free VPNs](https://techcrunch.com/2020/09/24/free-vpn-bad-for-privacy/) from Google Play或any appstore. These services are not free as they will suck your connections' data, keep logs and profile you to [sell your data to advertisers](https://thenextweb.com/news/be-cautious-free-vpns-are-selling-your-data-to-3rd-parties). If a government wants to track someone, such apps will be the first ones to fall.
+- [免费 VPN](https://techcrunch.com/2020/09/24/free-vpn-bad-for-privacy/)（来自 Google Play 或任何应用商店）。这些服务并非真正免费：它们会窃取连接数据、保留日志并建立用户画像，进而[将数据出售给广告商](https://thenextweb.com/news/be-cautious-free-vpns-are-selling-your-data-to-3rd-parties)。如果政府要追踪某人，这类应用会最先屈服。
 
-- Closed source VPN apps such as Surfshark或NordVPN may be less trustworthy as nobody can be sure how they handle your data。此外，paying with Credit Card will get you identified on the payment. Furthermore, if you need to give your email it will also identify you if this same email has been used in other services.
+- Surfshark 或 NordVPN 等闭源 VPN 应用可能不太可信，因为没人能确定它们如何处理你的数据。此外，使用信用卡付款会暴露你的身份。如果还需要提供电子邮件地址，而该地址也用于其他服务，同样会泄露身份。
 
 
 ✅  **请改用**
 
-Here are some open source and truly private (no personal data and/or credit card needed) options:
+以下是一些开源且真正私密的选择（无需个人数据和/或信用卡）：
 
-- [IVPN](https://ivpn.net) - No-logs VPN with open source apps, no-email signup, and cash, Monero,或Bitcoin payment.
-- [nadanada](https://nadanada.me) (formerly LNVPN) - Pay-per-use WireGuard VPN with no account, paid by Lightning Network或other cryptocurrency.
-- [Mullvad VPN](https://mullvad.net) - No-logs VPN with open source apps, anonymous numbered accounts, and cash或cryptocurrency payment.
-- [Proton VPN](https://protonvpn.com) - Swiss no-logs VPN with open source, 经过审计 apps on every platform and a no-data-cap free tier.
-- [SPN](https://safing.io/) - Open source, system-wide network that routes each app connection through its own path across multiple nodes, giving per-connection IP separation instead of a single shared exit. Built in所列的Safing Portmaster firewall for Windows and Linux.
-- [Amnezia VPN](https://amnezia.org) - Self-hosted, censorship-resistant VPN that you deploy on your own server, with 经过审计 open source apps (GPL-3.0).
+- [IVPN](https://ivpn.net) - 无日志 VPN，应用开源、注册无需邮箱，支持现金、Monero 或 Bitcoin 付款。
+- [nadanada](https://nadanada.me)（原名 LNVPN）- 按使用量付费的 WireGuard VPN，无需帐户，可通过闪电网络或其他加密货币付款。
+- [Mullvad VPN](https://mullvad.net) - 无日志 VPN，应用开源，使用匿名编号帐户，支持现金或加密货币付款。
+- [Proton VPN](https://protonvpn.com) - 瑞士无日志 VPN，各平台应用均开源并经过审计，免费套餐无流量上限。
+- [SPN](https://safing.io/) - 开源系统级网络，通过多个节点为每个应用连接单独路由，实现逐连接 IP 隔离，而非共用一个出口。内置于适用于 Windows 和 Linux 的 Safing Portmaster 防火墙。
+- [Amnezia VPN](https://amnezia.org) - 自行部署在个人服务器上的抗审查 VPN，应用开源并经过审计（GPL-3.0）。
 - [Find more at kycnot.me (VPN Category)](https://kycnot.me/?categories=vpn) - KYC-free VPN providers.
 
 [返回顶部 🔝](#contents)
 
-## Web Browser
+## 网页浏览器
 
 ⛔ **请避免**
 
-- **Google Chrome** - Owned by google and built upon the open-source Chromium project (also Google-owned). It comes with many privacy-invasive features, it is connected to your Google account most times. It is under [Google's privacy policy](https://tosdr.org/en/service/217) which is known to be 很糟糕. Google is willing to enforce the [Manifest v3](https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening) which is outright harmful to privacy efforts.
-- **Microsoft Edge** - It's a Microsoft-themed version of Chromium with Microsoft 追踪器 instead of Google ones. Under [Microsoft's privacy policy](https://tosdr.org/en/service/244), which is also 很糟糕. If you still want to use it, you can [follow this guide](https://anonymousplanet.net/guide/#hardening-edge) to harden it a bit.
-- **Opera** - Opera was [acquired by a consortium of Chinese investors](https://en.wikipedia.org/wiki/Opera_(web_browser)#Acquisition_by_Chinese_consortium). 该应用has [many 追踪器](https://reports.exodus-privacy.eu.org/de/reports/com.opera.browser/latest/).
+- **Google Chrome** - 归 Google 所有，基于同样由 Google 所有的开源 Chromium 项目构建。它包含许多侵犯隐私的功能，通常会与你的 Google 帐户关联。其受[隐私政策](https://tosdr.org/en/service/217)管辖，众所周知该政策极差。Google 还打算强制推行 [Manifest V3](https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening)，这会直接损害隐私保护工作。
+- **Microsoft Edge** - 这是采用 Microsoft 品牌的 Chromium 版本，其中是 Microsoft 追踪器而非 Google 追踪器。其受[Microsoft 隐私政策](https://tosdr.org/en/service/244)管辖，该政策同样很糟糕。如果你仍想使用它，可以[参考此指南](https://anonymousplanet.net/guide/#hardening-edge)以稍作加固。
+- **Opera** - Opera 曾被[一家中国投资者财团收购](https://en.wikipedia.org/wiki/Opera_(web_browser)#Acquisition_by_Chinese_consortium). 该应用has [many 追踪器](https://reports.exodus-privacy.eu.org/de/reports/com.opera.browser/latest/).
 
 ✅  **请改用**
 
 #### 安卓 / iOS
-- [Brave](https://brave.com/) - Android/iOS. Brave offers a pretty good out-of-the-box set of privacy and tracker protections.
-- [Firefox](https://www.firefox.com/en-US/mobile/) - Android/iOS
-    - [🤖](#icons) [IronFox](https://gitlab.com/ironfox-oss/IronFox) - Mull browser fork. A hardened fork of Firefox for Android, with proprietary blobs removed.
-- [🤖](#icons) [Vanadium](https://vanadium.app/) - Privacy and security enhanced releases of Chromium by GrapheneOS.
+- [Brave](https://brave.com/) - 安卓/iOS 版。Brave 开箱即提供相当不错的隐私和追踪器防护。
+- [Firefox](https://www.firefox.com/en-US/mobile/) - 适用于安卓/iOS
+    - [🤖](#icons) [IronFox](https://gitlab.com/ironfox-oss/IronFox) - Mull 浏览器的分支。经过加固的安卓 Firefox 分支，移除了专有二进制组件。
+- [🤖](#icons) [Vanadium](https://vanadium.app/) - GrapheneOS 发布的增强隐私和安全性的 Chromium 版本。
 - [🤖](#icons) [Privacy Browser](https://www.stoutner.com/privacy-browser/)
-- [Tor Browser](https://www.torproject.org/) - iOS/Android. Defend yourself against tracking and surveillance and circumvent censorship.
-- [Cromite](https://github.com/uazo/cromite) - Cromite is a Chromium fork based on Bromite with built-in support for ad blocking and an eye for privacy.
+- [Tor Browser](https://www.torproject.org/) - iOS/安卓版。保护自己免受追踪和监控，并绕过审查。
+- [Cromite](https://github.com/uazo/cromite) - 基于 Bromite 的 Chromium 分支，内置广告拦截功能并注重隐私。
 
 #### 桌面端
-- [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) - A lightweight approach to removing Google web service dependency. Ungoogled-chromium is Google Chromium, sans dependency on Google web services.
-- [Brave](https://brave.com/) - Brave offers a pretty good out-of-the-box set of privacy and tracker protections.
-- [Firefox](https://www.firefox.com/en-US/) - Open Source, independent browser. It needs some [hardening and tweaking](https://anonymousplanet.net/guide/#hardening-firefox) to achieve great privacy.
+- [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) - 以轻量方式移除对 Google 网页服务的依赖。Ungoogled Chromium 是不依赖 Google 网页服务的 Google Chromium。
+- [Brave](https://brave.com/) - Brave 开箱即提供相当不错的隐私和追踪器防护。
+- [Firefox](https://www.firefox.com/en-US/) - 开源、独立的浏览器。需要进行一些[加固和调整](https://anonymousplanet.net/guide/#hardening-firefox)以实现更好的隐私保护。
   - [LibreWolf](https://librewolf.net/) - Privacy-focused Firefox fork.
-- [Tor Browser](https://www.torproject.org/) - Hardened Firefox that routes traffic through the Tor network to resist tracking, surveillance, and censorship.
-- [Mullvad Browser](https://mullvad.net/en/browser/) - Browser with the privacy and security implications of the Tor Browser, without the use of the Tor network.
-- [Zen Browser](https://zen-browser.app/) - Firefox-based browser with enhanced tracking protection on by default and a focus on calm, uncluttered browsing. MPL-2.0 licensed.
-- [Floorp](https://floorp.app/) - Firefox fork with telemetry disabled and extra customization, built with privacy in mind. Open source, MPL-2.0 licensed.
+- [Tor Browser](https://www.torproject.org/) - 经过加固的 Firefox，通过 Tor 网络路由流量，以抵御追踪、监控和审查。
+- [Mullvad Browser](https://mullvad.net/en/browser/) - 具备 Tor Browser 隐私与安全特性、但不使用 Tor 网络的浏览器。
+- [Zen Browser](https://zen-browser.app/) - 基于 Firefox 的浏览器，默认启用增强追踪保护，专注于宁静、清爽的浏览体验。采用 MPL-2.0 许可。
+- [Floorp](https://floorp.app/) - 注重隐私的 Firefox 分支，禁用遥测并提供额外的自定义功能。开源，采用 MPL-2.0 许可。
 
 > [!TIP]
-> It may be interesting to learn what you can do to harden your browser. You can follow this [Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.net/guide/#hardening-browsers) section to do it. Please, if you don't understand what you are doing, don't do it as you may be causing more harm than good to your privacy.
+> 了解如何加固浏览器可能会很有帮助。你可以参阅这份[《网络匿名漫游指南》](https://anonymousplanet.net/guide/#hardening-browsers)章节进行操作。如果你不明白自己在做什么，请不要尝试，否则可能弊大于利，反而损害隐私。
 
 [返回顶部 🔝](#contents)
 
-### Browser Addons
+### 浏览器扩展
 
-#### Anti-tracking
-Please read about what the addon does before installing. If you don't understand what you are doing you could end up damaging your privacy。此外，too many addons can slow down your browsing experience.
+#### 反追踪
+安装前请先了解扩展的功能。如果不明白自己在做什么，可能反而会损害隐私。此外，扩展过多也会拖慢浏览体验。
 
-- [uBlock Origin](https://ublockorigin.com/) - Free, open-source ad content blocker. Easy on CPU and memory.
-	- [Read the extension docs](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and pick one of the recommended modes to increase your privacy.
-	- Go to settings > filters list > annoyances, turn on easylist-cookies. This will avoid you the annoying Cookie popups.
-- [LibRedirect](https://github.com/libredirect/browser_extension) - A simple web extension that redirects Twitter, YouTube, Google Maps and many more requests to privacy friendly alternatives. Former Privacy Redirect is no longer maintained, LibRedirect is a maintained fork.
-- [Privacy Badger](https://privacybadger.org/) - Browser extension from the EFF that learns to block 追踪器 as you browse. Open source, GPL-3.0 licensed.
-- [ClearURLs](https://clearurls.xyz/) - Browser extension that automatically strips tracking parameters from links and URLs. Open source, LGPL-3.0 licensed.
+- [uBlock Origin](https://ublockorigin.com/) - 免费开源的广告和内容拦截器，占用 CPU 和内存少。
+	- [阅读扩展文档](https://github.com/gorhill/uBlock/wiki/Blocking-mode)，并选择一种推荐模式以增强隐私保护。
+	- 进入“设置 > 过滤器列表 > 烦人内容”，启用 easylist-cookies，即可屏蔽烦人的 Cookie 弹窗。
+- [LibRedirect](https://github.com/libredirect/browser_extension) - 简单的网页扩展，可将 Twitter、YouTube、Google Maps 等请求重定向到尊重隐私的替代服务。原 Privacy Redirect 已停止维护，LibRedirect 是仍在维护的分支。
+- [Privacy Badger](https://privacybadger.org/) - EFF 推出的浏览器扩展，会在你浏览时学习拦截追踪器。开源，采用 GPL-3.0 许可。
+- [ClearURLs](https://clearurls.xyz/) - 浏览器扩展，可自动从链接和 URL 中剥除追踪参数。开源，采用 LGPL-3.0 许可。
 
-#### Useful Tools
-- [Single File](https://github.com/gildas-lormeau/SingleFile) - Save a faithful copy of an entire web page in a single HTML file so you can use it offline.
+#### 实用工具
+- [Single File](https://github.com/gildas-lormeau/SingleFile) - 将整个网页完整保存为单个 HTML 文件，以便离线使用。
 
-### Browser Sync
-- [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
+### 浏览器同步
+- [xBrowserSync](https://www.xbrowsersync.org/) - 理想的浏览器同步：安全、匿名且免费！
 
 [返回顶部 🔝](#contents)
 
-## Whistleblowing
+## 举报平台
 
 ✅  **请改用**
-- [GlobaLeaks](https://www.globaleaks.org/) - Self-hostable whistleblowing platform for organisations, newsrooms and activists, replacing hosted reporting portals. Open source (AGPL-3.0).
-- [SecureDrop](https://securedrop.org/) - Self-hosted submission system that lets newsrooms receive documents from anonymous sources over Tor, replacing email and cloud uploads. Open source (AGPL-3.0).
+- [GlobaLeaks](https://www.globaleaks.org/) - 可自行托管的举报平台，面向组织、新闻编辑部和活动人士，可替代托管式举报门户。开源（AGPL-3.0）。
+- [SecureDrop](https://securedrop.org/) - 自托管投稿系统，让新闻编辑部通过 Tor 接收匿名来源提交的文件，取代电子邮件和云端上传。开源（AGPL-3.0）。
 
 [返回顶部 🔝](#contents)
 
-## Privacy vs Security vs Anonymity
+## 隐私、安全与匿名性之别
 
-Anonymity, Privacy, and Security are often used interchangeably, but they actually represent distinct concepts. It is important to understand the differences between them.
+匿名性、隐私和安全常被混为一谈，但它们实际上代表不同的概念。了解它们之间的区别很重要。
 
-- Privacy is about regulating who has access to your personal information, being aware of the data that is being collected about you, and having the ability to decide who can access it and how. In short, privacy involves controlling your personal information.
+- 隐私关乎控制谁能访问你的个人信息、了解有哪些数据正在被收集，以及决定谁能以何种方式访问这些数据。简言之，隐私意味着掌控个人信息。
 
-- Security refers to safeguarding your personal information from unauthorized access或theft. It involves ensuring that your data is protected and stored in a secure manner, making it difficult for malicious actors to access it.
+- 安全指保护个人信息免受未经授权的访问或窃取。它意味着确保数据得到妥善保护和安全存储，令恶意行为者难以访问。
 
-- Anonymity is about ensuring that your actions cannot be traced back to you. This means that even if someone discovers what you are doing, they will not be able to identify you as the source.
+- 匿名性指确保你的行为无法追溯到你本人。也就是说，即使有人发现你在做什么，也无法确定你就是信息来源。
 
-It is important to note that privacy and security are not necessarily interdependent. For instance, Google systems are secure and unlikely to be hacked, but Google still has access to your personal data and makes use of it. 
+需要注意的是，隐私和安全并非必然相互依存。例如，Google 系统很安全，不太可能被黑客入侵，但 Google 仍然能够访问并使用你的个人数据。
 
-Privacy and anonymity are also not necessarily linked, services like Signal offer high levels of privacy since they do not collect any data about what you say, who you talk to或how you use the app, but they may not be anonymous since you still need to register using your phone number (which is in many cases linked to your identity).
+隐私和匿名性也不一定相关。Signal 等服务具有很高的隐私保护水平，因为它们不会收集你说了什么、与谁交谈或如何使用应用的数据；但它们未必匿名，因为你仍需使用电话号码注册（而电话号码通常与你的身份关联）。
 
-Finally, there are services that may offer all three: anonymity, privacy, and security. The primary focus of this list is to provide alternatives that prioritize privacy. These alternatives give you control over your data and do not collect或sell it.
+最后，也有一些服务可能同时提供匿名性、隐私和安全。本列表主要提供优先考虑隐私的替代方案。这些方案让你掌控自己的数据，且不会收集或出售数据。
 
 [返回顶部 🔝](#contents)
 
-## Icons
+## 图标
 
-| Icon | Meaning |
+| 图标 | 含义 |
 |-------|---------|
-| 💀    | Caution: The development of this service seems to be inactive for a long time. Maybe the project is abandoned. Investigate before use. |
-| ♻️    | The software is a fork: someone has made a copy of the original project (a fork) and started developing it further。 |
-| 🧩    | The software uses ActivityPub, a decentralized social networking protocol. |
-| 🤖    | Android Only. |
+| 💀    | 注意：该服务似乎已长期停止开发，项目可能已被放弃。使用前请先调查。 |
+| ♻️    | 该软件是一个分支：有人复制了原项目，并开始独立继续开发。 |
+| 🧩    | 该软件使用 ActivityPub，一种去中心化社交网络协议。 |
+| 🤖    | 仅限安卓。 |
 
 [返回顶部 🔝](#contents)

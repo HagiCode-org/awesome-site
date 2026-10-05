@@ -159,7 +159,7 @@
 - [Unidentified Analytics](https://unidentifiedanalytics.web.app/) - 可在各種情境（網頁、命令列、電子郵件等）運作的簡易 IP 追蹤工具。無需帳戶，方便開發者使用。
 - [Rybbit](https://rybbit.com) - 開源且重視隱私的 Google Analytics 替代方案，直覺程度提升 10 倍。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## Android
 
@@ -230,7 +230,7 @@ Play 商店中的第三方撥號器可能含有廣告／追蹤器，並要求不
 
 ⛔ **避免使用**
 - **Google Photos** 有隱私問題，會收集大量個人資料，詳情可見其[隱私權政策](https://policies.google.com/privacy?hl=en-US#infocollect)。Google 能掃描你的相片，並可能因不同原因標記相片，如這起[事件](https://petapixel.com/2022/08/22/google-flags-photos-of-fathers-sick-son-as-child-abuse-informs-police/)所示。Google 也會使用你的相片來改進 AI 技術。
-- **Amazon Photos** 也有類似的隱私問題。與 Google Photos 一樣，它會從相簿收集大量資訊。你可以在其[**範例**清單](https://www.amazon.com/gp/help/customer/display.html?nodeId=468496&ref_=footer_privacy#GUID-8966E75F-9B92-4A2B-BFD5-967D57513A40__SECTION_87C837F9CCD84769)中了解它們收集的部分資料。
+- **Amazon Photos** 也有類似的隱私問題。與 Google Photos 一樣，它會從相簿收集大量資訊。你可以在其[**範例**清單](https://www.amazon.com/gp/help/customer/display.html?nodeId=468496&ref_=footer_privacy#GUID-8966E75F-9B92-4A2B-BFD5-967D57513A40__SECTION_87C837F9CCD84769B4AE2BEB14AF4F01)中了解它們收集的部分資料。
 - **Samsung、Huawei、Xiaomi 等品牌的相簿**
 
 ✅ **建議改用**
@@ -251,7 +251,7 @@ Play 商店中的第三方啟動器可能含有廣告／追蹤器，並要求不
 - [Bliss Launcher](https://gitlab.e.foundation/e/os/BlissLauncher3) - /e/ Android 作業系統的預設啟動器。
 使用者可輕鬆建立及瀏覽應用程式群組，並在應用程式圖示上顯示通知徽章。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 人工智慧
 
@@ -305,7 +305,7 @@ Play 商店中的第三方啟動器可能含有廣告／追蹤器，並要求不
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI) - 在本機運用最新 AI 技術生成並創作精彩的視覺媒體。
 - [SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) - 為 Stable Diffusion 與其他擴散模型打造的本機網頁介面，以 ComfyUI 為後端。採用 MIT 授權。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 書籤
 ⛔ **避免使用**
@@ -329,7 +329,7 @@ Play 商店中的第三方啟動器可能含有廣告／追蹤器，並要求不
 - [Hypothesis](https://github.com/hypothesis/h/) - 隨時隨地與任何人一起為網頁加上註記。
 - [Kobuddy](https://github.com/karlicoss/kobuddy) - 將 Kobo 電子書閱讀器的書籤與註記匯出為 .txt 檔案。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 驗證碼
 ⛔ **避免使用**
@@ -344,7 +344,7 @@ Google 驗證碼會使用 Cookie 追蹤使用者並評估其 IP 位址。
 - [mCaptcha](http://mcaptcha.org/) ([程式碼儲存庫](https://github.com/mCaptcha/mCaptcha)) - 使用體驗流暢的開源驗證碼系統。mCaptcha 使用以 SHA256 為基礎的工作量證明（PoW）來限制使用者請求速率。
 - [Private Captcha](https://github.com/PrivateCaptcha/PrivateCaptcha) - 以隱私為優先、可自行代管且於歐盟開發的工作量證明驗證碼替代方案。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 行事曆
 
@@ -360,7 +360,7 @@ Google 驗證碼會使用 Cookie 追蹤使用者並評估其 IP 位址。
 - [Nextcloud Calendar](https://apps.nextcloud.com/apps/calendar) - 支援 CalDAV、可自行代管的 Nextcloud 行事曆應用程式。
 - [Proton Calendar](https://proton.me/calendar) - Proton 提供的端對端加密行事曆，是 Proton 隱私生態系的一部分。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 留言系統
 
@@ -376,7 +376,7 @@ Google 驗證碼會使用 Cookie 追蹤使用者並評估其 IP 位址。
 - [Remark42](https://remark42.com) - 可自行代管、輕量且簡單（但功能完整）的留言引擎，不會窺探使用者。
 - [Giscus](https://giscus.app) - 將討論儲存在 GitHub Discussions 的留言系統，不需要資料庫、廣告或追蹤功能。開源，採用 MIT 授權。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 隱匿工具
 ### 影像
@@ -387,7 +387,7 @@ Google 驗證碼會使用 Cookie 追蹤使用者並評估其 IP 位址。
 ### 文字
 - [Stegcloak](https://stegcloak.surge.sh/) [💀](#icons) - 使用密碼將秘密安全地隱藏在純文字的不可見字元中（[程式碼儲存庫](https://github.com/kurolabs/stegcloak)）。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 雲端儲存
 ⛔ **避免使用**
@@ -408,7 +408,7 @@ Google 驗證碼會使用 Cookie 追蹤使用者並評估其 IP 位址。
 - [Rclone](https://rclone.org/) - 管理雲端儲存檔案的命令列程式，是功能豐富的雲端供應商網頁儲存介面替代方案，也能像上列工具一樣加密雲端檔案。
 - [Restic](https://restic.net/) - 另一款用於管理各種雲端儲存服務檔案的命令列程式，預設採用加密。特色包括以類似 Git 的快照方式瀏覽儲存內容而不額外占用空間、資料去重，以及透過壓縮大幅節省空間。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 創作者工具
 
@@ -419,7 +419,7 @@ Google 驗證碼會使用 Cookie 追蹤使用者並評估其 IP 位址。
 - [OBS Studio](https://obsproject.com/) - 免費開源的影片錄製與直播軟體。
 - [Screenity](https://screenity.io/) - 免費、私密且易用的螢幕錄影工具。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 資料庫
 [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
@@ -432,7 +432,7 @@ Google 驗證碼會使用 Cookie 追蹤使用者並評估其 IP 位址。
 - [TrailBase](https://trailbase.io/) - 以 Rust 和 SQLite 打造的開源單一執行檔 Firebase 替代方案，具備型別安全的 REST 與即時 API、驗證功能和管理介面。採用 OSL-3.0 授權。
 - [Baserow](https://baserow.io/) - 可自行代管的免程式碼資料庫與試算表，是開源 Airtable 替代方案。核心採用 MIT 授權。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 開發者工具
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - 開源 SQL 編輯器與資料庫管理員，使命宣言中承諾重視隱私。
@@ -444,7 +444,7 @@ Google 驗證碼會使用 Cookie 追蹤使用者並評估其 IP 位址。
 - [Neovim](https://neovim.io/) - 高度可擴充的 Vim 文字編輯器。
 - [VSCodium](https://vscodium.com/) - VSCode 的自由／Libre 開源軟體二進位版本。VSCode 原始碼採用開源 MIT 授權，但可下載的產品 Visual Studio Code 使用[非 FLOSS 授權](https://code.visualstudio.com/license)，並含有遙測／追蹤功能。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 交友應用程式
 
@@ -459,7 +459,7 @@ Tinder 等應用程式會收集並販售你的個人私密資訊。特別是 Tin
 ✅  **建議改用**
 - [Alovoa](https://alovoa.com/) - 尊重隱私的免費開源交友平台。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 設計工具
 
@@ -482,7 +482,7 @@ Tinder 等應用程式會收集並販售你的個人私密資訊。特別是 Tin
 ✅  **建議改用**
 - [Penpot](https://penpot.app/) - 為產品團隊打造的開源設計與原型製作平台。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 網域與主機代管
 ⛔ 避免使用侵犯隱私的網域註冊商。
@@ -492,7 +492,7 @@ Tinder 等應用程式會收集並販售你的個人私密資訊。特別是 Tin
 - [1984 Hosting](https://1984.hosting/) - 位於冰島、重視公民權利的主機與網域註冊商，支援 Monero 與匿名註冊。
 - [到 kycnot.me 尋找更多（VPS 分類）](https://kycnot.me/?categories=vps) - 不需 KYC 的 VPS 與主機供應商。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 下載管理員
 
@@ -501,7 +501,7 @@ Tinder 等應用程式會收集並販售你的個人私密資訊。特別是 Tin
 - [Xtreme Download Manager](https://github.com/subhra74/xdm) - Xtreme Download Manager（XDM）是強大工具，可將下載速度提升至五倍、儲存 YouTube、DailyMotion、Facebook、Vimeo、Google Video 等超過 1,000 個網站的串流影片、續傳中斷／失效的下載，以及排程與轉換下載內容。
 - [axel](https://github.com/axel-download-accelerator/axel) - 輕量 CLI 下載加速器，支援 HTTP、HTTPS、FTP 與 FTPS 通訊協定。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 電子書
 
@@ -519,7 +519,7 @@ Tinder 等應用程式會收集並販售你的個人私密資訊。特別是 Tin
 - [Kavita](https://github.com/Kareadita/Kavita) - 跨平台、可自行代管的電子書與漫畫數位圖書館，內建網頁閱讀器（GPL-3.0）。
 - [Komga](https://github.com/gotson/komga) - 可自行代管的漫畫、雜誌與電子書媒體伺服器，具備自適應網頁介面並支援 OPDS（MIT）。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 加密
 請記住：若沒有強大的加密機制，許多人就能有系統地監視你。
@@ -537,7 +537,7 @@ Tinder 等應用程式會收集並販售你的個人私密資訊。特別是 Tin
 
 - [Cryptsetup](https://gitlab.com/cryptsetup/cryptsetup) - Linux 全磁碟加密工具。Cryptsetup 可方便地設定以 DMCrypt 核心模組為基礎的磁碟加密。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 檔案管理與分享
 ⛔ **避免使用**
@@ -565,7 +565,7 @@ Tinder 等應用程式會收集並販售你的個人私密資訊。特別是 Tin
 - [Yopass](https://github.com/jhaals/yopass) - 安全分享秘密、密碼與檔案。
 - [scrt.link](https://scrt.link/file) - 端對端加密檔案傳輸服務，支援最大 100 GB，保留期限為 30 天，資料儲存在瑞士。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 健身與健康
 ⛔ 健康資料是**非常**重要的**私人資料**，你應該**高度重視**。健康相關資料也是最受覬覦的資訊之一。請勿使用 Google、Fitbit、Huawei、Xiaomi 或任何意圖收集個人資料的公司所推出的應用程式。
@@ -599,7 +599,7 @@ Tinder 等應用程式會收集並販售你的個人私密資訊。特別是 Tin
 ### 醫療健康
 - [Fasten](https://github.com/fastenhealth/fasten-onprem) [💀](#icons) - 開源且可自行代管的個人／家庭電子病歷彙整工具，設計上可整合數千家保險公司、醫院與診所。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 字型
 ⛔ **避免使用**
@@ -614,7 +614,7 @@ Tinder 等應用程式會收集並販售你的個人私密資訊。特別是 Tin
 - [Velvetyne](https://www.velvetyne.fr/) - 法國字型鑄造廠，發行可免費用於個人與商業用途的自由開源字型。
 - [OpenFoundry](https://open-foundry.com/) - 精選展示可免費使用與修改的開源字型平台。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 表單
 ⛔ **避免使用**
@@ -626,7 +626,7 @@ Tinder 等應用程式會收集並販售你的個人私密資訊。特別是 Tin
 - [FramaForms](https://framaforms.org/) - 輕鬆設計線上問卷，同時尊重填答者。
 - [Formbricks](https://formbricks.com) - 可自行代管的問卷與表單建置工具，收集回覆時無須將資料交給第三方（AGPL-3.0）。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 遊戲
 
@@ -643,7 +643,7 @@ Nintendo [會收集使用者資料](https://www.reddit.com/r/privacy/comments/qt
 
 [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
 
-Minecraft 歸 Microsoft 所有。自 2022 年 3 月 11 日起，遊玩 Minecraft 必須有 Microsoft 帳戶，這還不夠嗎？Microsoft 有時會在建立帳戶後不久鎖定帳戶，並[強迫使用者](https://github.com/MultiMC/Launcher/issues/4093)[提供](https://www.reddit.com/r/privacy/comments/e6x27o/microsoft_forcing_me_to_give_then_my_phone_number)**電話號碼**。請參閱：[Minecraft 常見問題](https://help.minecraft.net/hc/en-us/articles/360050865492-Minecraft-Java-Edition-Account-Migration-FAQ)、[1](https://www.reddit.com/r/Minecraft/comments/sl8pkv/how_can_my_friend_migrate_her_account_to/hvq2sv6/)、[2](https://www.reddit.com/r/privacy/comments/spcuj4/microsoft_is_going_to_attempt_to_move_everyone_on/)。
+Minecraft 歸 Microsoft 所有。自 2022 年 3 月 11 日起，遊玩 Minecraft 必須有 Microsoft 帳戶，這還不夠嗎？Microsoft 有時會在建立帳戶後不久鎖定帳戶，並[強迫使用者](https://github.com/MultiMC/Launcher/issues/4093) [提供](https://www.reddit.com/r/privacy/comments/e6x27o/microsoft_forcing_me_to_give_then_my_phone_number/) **電話號碼**。請參閱：[Minecraft 常見問題](https://help.minecraft.net/hc/en-us/articles/360050865492-Minecraft-Java-Edition-Account-Migration-FAQ)、[1](https://www.reddit.com/r/Minecraft/comments/sl8pkv/how_can_my_friend_migrate_her_account_to/hvq2sv6/)、[2](https://www.reddit.com/r/privacy/comments/spcuj4/microsoft_is_going_to_attempt_to_move_everyone_on/)。
 
 自 v21w38a 起，遊戲便[內建無法選擇退出的遙測功能](https://bugs.mojang.com/browse/MC-237493)。此外，遊戲[受制於](https://www.minecraft.net/en-us/terms)令人擔憂的 [Microsoft 隱私條款](https://privacy.microsoft.com/en-us/privacystatement)。
 
@@ -672,13 +672,13 @@ Nintendo [會收集使用者資料](https://www.reddit.com/r/privacy/comments/qt
 
 - [Sonic Robo Blast 2](https://www.srb2.org/) - Sonic Robo Blast 2 是開源的 3D 音速小子同人遊戲，以經過修改的 Doom Legacy 移植版 Doom 打造。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 家庭助理
 
 請勿使用 Google Home 或 Alexa，真的不要，也不要送給任何人。它們會為居家監控敞開大門，並可任意將這些自動更新的裝置變成監控設備。
 
-Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/alexa-are-you-invading-my-privacy-the-dark-side-of-our-voice-assistants), [2](https://www.theregister.com/2020/08/08/ai_in_brief/), [3](https://www.networkworld.com/article/3190176/virtual-assistants-hear-everything-so-watch-what-you-say-i-m-not-kidding.html), [4](https://www.democracynow.org/2017/1/4/privacy_advocates_warn_of_potential_surveillance), [5](https://www.mirror.co.uk/news/weird-news/woman-finds-amazon-thousands-recordings-25240984), [6](https://www.seattletimes.com/business/locked-down-lawyers-warned-alexa-is-hearing-confidential-calls/), [7](https://hide.me/en/blog/assistant-devices-are-a-privacy-nightmare/).
+延伸閱讀：[1](https://www.theguardian.com/technology/2019/oct/09/alexa-are-you-invading-my-privacy-the-dark-side-of-our-voice-assistants), [2](https://www.theregister.com/2020/08/08/ai_in_brief/), [3](https://www.networkworld.com/article/3190176/virtual-assistants-hear-everything-so-watch-what-you-say-i-m-not-kidding.html), [4](https://www.democracynow.org/2017/1/4/privacy_advocates_warn_of_potential_surveillance), [5](https://www.mirror.co.uk/news/weird-news/woman-finds-amazon-thousands-recordings-25240984), [6](https://www.seattletimes.com/business/locked-down-lawyers-warned-alexa-is-hearing-confidential-calls/), [7](https://hide.me/en/blog/assistant-devices-are-a-privacy-nightmare/).
 
 - Google Home [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 - Alexa [![](https://shields.tosdr.org/en_190.svg)](https://tosdr.org/en/service/190)
@@ -689,7 +689,7 @@ Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/ale
 - [OpenVoiceOS](https://openvoiceos.org) - 開源語音助理，也是持續維護的 Mycroft 後繼專案，可完全離線在自己的硬體上執行。採用 Apache-2.0 授權。
 - [Home Assistant](https://www.home-assistant.io/) - 開源家庭自動化系統，以本機控制與隱私為優先。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 即時通訊
 **請至[此網站](https://www.securemessagingapps.com/)查看比較*。
@@ -707,7 +707,7 @@ Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/ale
 ### 去中心化
 沒有單一控制點或故障點。網路由全球各地不同志工營運的伺服器組成。你可以選擇資料的存放位置，也可以自行代管伺服器。通訊協定稍微複雜一些（因為伺服器間採用聯邦機制），訊息也會增加部分中繼資料（但不會損害隱私）。
 
--- [Matrix (Protocol)](https://matrix.org/) - 安全、去中心化通訊的開放網路。
+- [Matrix (Protocol)](https://matrix.org/) - 安全、去中心化通訊的開放網路。
    - [Element](https://element.io/) - 適合團隊、朋友與組織的一站式安全聊天應用程式。讓你掌控對話，不受資料挖掘與廣告干擾，並採用端對端加密。
    - [Cinny](https://cinny.in/) - Matrix 用戶端，著重簡潔、優雅且安全的介面。
 - [Jabber / XMPP (Protocol)](https://xmpp.org/) - 通用且開放的訊息標準，經過實證、獨立並重視隱私，支援端對端加密。
@@ -736,14 +736,14 @@ Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/ale
 - [Tinfoil Chat](https://github.com/maqp/tfc) - 使用洋蔥路由的端點安全通訊系統。
 - [Berty](https://berty.tech/) - 以隱私為先的通訊應用程式，不論有無網際網路、行動數據或網路信任皆可運作。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 個人簡介連結工具
 
 - [Keyoxide](https://keyoxide.org/) - 建立去中心化線上身分的現代、安全且重視隱私的平台。
 - [LinkStack](https://linkstack.org/) - 可自行代管的開源 Linktree 替代方案。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 短網址服務
 
@@ -760,7 +760,7 @@ Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/ale
 - [Kutt](https://kutt.it/) - 可自行代管的短網址服務，支援自訂網域與密碼保護連結。開源，採用 MIT 授權。
 - [Shlink](https://shlink.io/) - 可自行代管的短網址服務，會在你的伺服器上保存點擊分析資料。開源，採用 MIT 授權。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 位置追蹤
 
@@ -781,7 +781,7 @@ Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/ale
 - [Find My Device](https://gitlab.com/Nulide/findmydevice) - 透過 SMS 尋找你的 Android 裝置。
 - [GPSlogger](https://github.com/mendhak/gpslogger) - 輕量的 Android GPS 紀錄應用程式。無需伺服器或網際網路，資料以簡易檔案儲存於本機。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 郵件服務
 ⛔ **避免使用**
@@ -823,7 +823,7 @@ Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/ale
 - [SimpleLogin](https://github.com/simple-login/app) - 開源且可自行代管的電子郵件別名服務，現由 Proton 擁有（AGPL-3.0）。
 - [AnonAddy](https://github.com/anonaddy/anonaddy) - 開源且可自行代管的電子郵件別名與轉寄服務，現名為 addy.io（AGPL-3.0）。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 地圖與導航
 ⛔ **避免使用**
@@ -842,7 +842,7 @@ Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/ale
 - [Organic Maps](https://organicmaps.app/) - 非常適合健行者與自行車騎士的離線地圖。
 - [CoMaps](https://www.comaps.app/) - 由社群主導、以 OSM 為基礎的免費開源地圖應用程式。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 媒體串流平台
 ⛔ **避免使用**
@@ -872,11 +872,11 @@ Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/ale
 **Spotify 替代用戶端**
  > 雖然這些用戶端的追蹤功能較少，但由於你仍以自己的**付費（已識別身分）**帳戶從 Spotify 伺服器串流內容，因此完全無法保護隱私。
 
-\* Premium required.
+\* 需要 Premium 方案。
 
-- [Spot*](https://github.com/xou816/spot) - Native Spotify client built in GTK and Rust.
-- [psst*](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI.
-- [ncspot*](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+- [Spot*](https://github.com/xou816/spot) - 以 GTK 和 Rust 打造的原生 Spotify 用戶端。
+- [psst*](https://github.com/jpochyla/psst) - 快速、跨平台且具備原生 GUI 的 Spotify 用戶端。
+- [ncspot*](https://github.com/hrkfdn/ncspot) - 以 Rust 編寫的跨平台 ncurses Spotify 用戶端，靈感來自 ncmpc 等專案。
 
 無需 Premium：
 
@@ -904,7 +904,7 @@ Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/ale
 - [Castopod](https://castopod.org) - 輕鬆自行代管 Podcast，掌控創作內容，並直接與聽眾交流，不需中間人。Podcast 與聽眾完全屬於你。
 - [Funkwhale](https://funkwhale.audio/) - 享受與分享音訊的社群平台。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 筆記與待辦事項
 ⛔ **避免使用**
@@ -940,7 +940,7 @@ Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/ale
 - [YankNote](https://github.com/purocean/yn) - 為程式設計師打造、可擴充的 Markdown 筆記應用程式。
 - [🤖](#icons) [Tasks.org](https://tasks.org) - 適用於 Android 的開源待辦事項與任務管理員，支援 CalDAV 同步及離線使用。採用 GPL-3.0 授權。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 音樂辨識
 
@@ -957,7 +957,7 @@ Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/ale
 - [SongRec](https://github.com/marin-m/SongRec) - 以 Rust 編寫的 Linux 開源 Shazam 用戶端。
 - [SongID Telegram Bot](https://github.com/smcclennon/SongID) - Telegram 機器人，可辨識你傳送的音訊／影片檔案中的音樂。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 辦公室軟體
 
@@ -975,7 +975,7 @@ Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/ale
  	- [dSheets](https://sheets.fileverse.io)：Excel 與 Google Sheets 的去中心化替代方案。
 - [Grist](https://www.getgrist.com) - 可自行代管的試算表與資料庫混合工具，用於整理資料，是開源 Airtable 替代方案。採用 Apache-2.0 授權。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 線上電話服務
 
@@ -1071,7 +1071,7 @@ GNU/Linux 是一系列自由（包含自由之意與免費之意）、開源且�
 - [ReactOS](https://reactos.org/) - 可執行 Windows 軟體與驅動程式、外觀類似 Windows 的免費開源作業系統。
 - [RedoxOS](https://www.redox-os.org/) - 正在開發中的專案，目標是提供以 Rust 編寫、類 Unix 的作業系統。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 密碼管理員
 ⛔ **避免使用**
@@ -1104,7 +1104,7 @@ GNU/Linux 是一系列自由（包含自由之意與免費之意）、開源且�
 - [scrt.link](https://scrt.link) - 分享秘密，採用端對端加密、限時且開源。
 - [dele-to](https://dele.to) - 現代開源應用程式，透過用戶端 AES-256 加密、零知識架構與自動銷毀功能安全分享敏感憑證與秘密。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 付款
 ⛔ **避免使用**
@@ -1136,94 +1136,94 @@ GNU/Linux 是一系列自由（包含自由之意與免費之意）、開源且�
 
 - [kycnot.me](https://kycnot.me/) - 不需 KYC 的交易所、付款處理器與其他隱私服務目錄。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
-## Personal Finances
+## 個人財務
 
-### Full Featured Financial Management
+### 完整財務管理
 
-- [Actual](https://actualbudget.org) - Super fast and privacy-focused app for managing your finances.
-- [Firefly III](https://www.firefly-iii.org/) - A free and open source personal finance manager.
-- [GnuCash](https://gnucash.org/) - GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X and Microsoft Windows.
-- [Sure](https://github.com/we-promise/sure) - Open Source and secure OS for your personal finances. Community maintained fork of the archived [Maybe](https://github.com/maybe-finance/maybe) project.
-- [ezBookkeeping](https://ezbookkeeping.mayswind.net/) - A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.
+- [Actual](https://actualbudget.org) - 速度極快、重視隱私的個人財務管理應用程式。
+- [Firefly III](https://www.firefly-iii.org/) - 免費開源的個人財務管理員。
+- [GnuCash](https://gnucash.org/) - 個人與小型企業會計軟體，採用自由授權 GNU GPL，適用於 GNU/Linux、BSD、Solaris、Mac OS X 與 Microsoft Windows。
+- [Sure](https://github.com/we-promise/sure) - 個人財務開源安全作業系統，是社群維護的已封存專案 [Maybe](https://github.com/maybe-finance/maybe) 分支。
+- [ezBookkeeping](https://ezbookkeeping.mayswind.net/) - 輕量、可自行代管的個人財務應用程式，介面易用且具備強大的記帳功能。
 
-### Budget Management
-- [ProExpense](https://github.com/arduia/ProExpense/) - A simple free finance note to safely record daily expenses.
-- [My Expenses](https://github.com/mtotschnig/MyExpenses) - Featureful GPL licenced Android Expense Tracking App.
-- [Wallos](https://wallosapp.com) - Self-hosted tracker for subscriptions and recurring expenses, with reminders and spending statistics. Open source, GPL-3.0 licensed.
+### 預算管理
+- [ProExpense](https://github.com/arduia/ProExpense/) - 簡單免費的財務筆記，可安全記錄每日支出。
+- [My Expenses](https://github.com/mtotschnig/MyExpenses) - 功能豐富、採用 GPL 授權的 Android 支出追蹤應用程式。
+- [Wallos](https://wallosapp.com) - 可自行代管的訂閱與週期性支出追蹤器，提供提醒與消費統計。開源，採用 GPL-3.0 授權。
 
-### Shared Expenses
+### 共同支出
 
-⛔ **Avoid**
+⛔ **避免使用**
 
-- Tricount - App size is massive (~200MB) and contains many trackers from Facebook, Google and Huawei.
-- Splitwise - App contains trackers from Google and Amazon.
+- Tricount - 應用程式非常龐大（約 200 MB），含有許多來自 Facebook、Google 與 Huawei 的追蹤器。
+- Splitwise - 應用程式含有來自 Google 與 Amazon 的追蹤器。
 
-✅  **Instead use**
+✅  **建議改用**
 
-- [Spliit](https://github.com/spliit-app/spliit#readme) - Share Expenses with Friends & Family. No ads. No account. Open Source. Forever Free.
-- [SplitPro](https://github.com/oss-apps/split-pro#readme) - [Website](https://splitpro.app) - Split Expenses with your friends for free. An open source alternative to SplitWise.
-- [IHateMoney](https://ihatemoney.org/) - Manage your shared expenses, easily. Lacks unequal splitting.
-  - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and IHateMoney servers.
-- [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - A group/shared budget manager inspired by the great IHateMoney.
-  - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and IHateMoney servers.
+- [Spliit](https://github.com/spliit-app/spliit#readme) - 與親友分享支出，沒有廣告、無需帳戶、開源且永遠免費。
+- [SplitPro](https://github.com/oss-apps/split-pro#readme) - [網站](https://splitpro.app) - 免費與朋友分攤支出，是開源 SplitWise 替代方案。
+- [IHateMoney](https://ihatemoney.org/) - 輕鬆管理共同支出，但不支援不平均分攤。
+  - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Nextcloud Cospend 與 IHateMoney 伺服器的 Android 用戶端。
+- [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - 受優秀的 IHateMoney 啟發的群組／共同預算管理員。
+  - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Nextcloud Cospend 與 IHateMoney 伺服器的 Android 用戶端。
 
-### Others 
+### 其他
 
-- [Debitum](https://github.com/Marmo/debitum) [💀](#icons) - With Debitum you can track all kinds of IOUs, be it money or lent items.
+- [Debitum](https://github.com/Marmo/debitum) [💀](#icons) - 使用 Debitum 可追蹤各種欠款，無論是金錢或借出的物品。
 
-### Portfolio trackers
+### 投資組合追蹤器
 
-- [Ghostfolio](https://github.com/ghostfolio/ghostfolio#readme) - open source wealth management software built with web technology.
-- [PortfolioPerformance](https://www.portfolio-performance.info/en/) - An open source tool to calculate the overall performance of an investment portfolio-
-- [Rotki](https://github.com/rotki/rotki) - An awesome portfolio tracking, analytics, accounting and tax reporting application that protects your privacy.
+- [Ghostfolio](https://github.com/ghostfolio/ghostfolio#readme) - 以網頁技術打造的開源財富管理軟體。
+- [PortfolioPerformance](https://www.portfolio-performance.info/en/) - 用於計算投資組合整體績效的開源工具。
+- [Rotki](https://github.com/rotki/rotki) - 出色的投資組合追蹤、分析、會計與稅務申報應用程式，同時保護隱私。
 
-## Photo Editing and Management
-⛔ **Avoid**
+## 相片編輯與管理
+⛔ **避免使用**
 - [![](https://shields.tosdr.org/en_417.svg)](https://tosdr.org/en/service/417)
 - VSCO
 
-✅  **Instead use**
-#### Web
-- [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+✅  **建議改用**
+#### 網頁
+- [miniPaint](https://github.com/viliusle/miniPaint) - Photopea 的開源替代方案。miniPaint 直接在瀏覽器中運作，不會將任何內容傳送至伺服器，所有資料都留在瀏覽器內。
 
-#### Desktop
-- [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
-- [Krita](https://github.com/KDE/krita) - Krita is a free and open source digital painting application
-- [Czkawka](https://github.com/qarmin/czkawka) - Multi functional app to find duplicates and similar images etc.
-- [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
-- [Inkscape](https://inkscape.org/) - Inkscape is a free and open-source vector graphics editor used to create vector images.
-- [ImageGlass](https://imageglass.org/) - ImageGlass is a lightweight software application whose purpose is to help you view images in a clean and intuitive working environment.
-- [darktable](https://www.darktable.org/) - darktable is an open source photography workflow application and raw developer
-- [RapidRAW](https://github.com/CyberTimon/RapidRAW) - A beautiful, non-destructive and GPU-accelerated RAW image editor built with performance in mind. Lightweight (<20MB) cross-platform alternative to Adobe Lightroom. AGPL-3.0 licensed.
-- [RawTherapee](https://rawtherapee.com) - Offline open source RAW photo developer that pairs well with darktable as a Lightroom alternative. GPL-3.0 licensed.
+#### 桌面
+- [GIMP](https://www.gimp.org/) - 免費開源的影像編輯器。
+- [Krita](https://github.com/KDE/krita) - 免費開源的數位繪圖應用程式。
+- [Czkawka](https://github.com/qarmin/czkawka) - 多功能應用程式，可尋找重複或相似影像等。
+- [DigiKam](https://www.digikam.org/) - 運用開源力量，提供出色的專業相片管理功能。
+- [Inkscape](https://inkscape.org/) - 用於建立向量影像的免費開源向量圖形編輯器。
+- [ImageGlass](https://imageglass.org/) - 輕量軟體應用程式，旨在提供整潔直覺的環境來檢視影像。
+- [darktable](https://www.darktable.org/) - 開源攝影工作流程應用程式與 RAW 顯影工具。
+- [RapidRAW](https://github.com/CyberTimon/RapidRAW) - 美觀、非破壞性且經 GPU 加速的 RAW 影像編輯器，以效能為設計考量。輕量（<20 MB）的跨平台 Adobe Lightroom 替代方案。採用 AGPL-3.0 授權。
+- [RawTherapee](https://rawtherapee.com) - 可離線使用的開源 RAW 相片顯影工具，搭配 darktable 可作為 Lightroom 替代方案。採用 GPL-3.0 授權。
 
 #### Android
-- [Pocket Paint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
-- [Scrambled Exif](https://gitlab.com/juanitobananas/scrambled-exif) - Remove Exif data from pictures before sharing them.
-- [ImagePipe](https://codeberg.org/Starfish/Imagepipe) - Reduces image size and removes exif-tags when sharing images on android devices.
+- [Pocket Paint](https://github.com/Catrobat/Paintroid) - Catroid 的標準影像處理應用程式。
+- [Scrambled Exif](https://gitlab.com/juanitobananas/scrambled-exif) - 分享照片前移除 Exif 資料。
+- [ImagePipe](https://codeberg.org/Starfish/Imagepipe) - 在 Android 裝置分享影像時縮小圖片並移除 Exif 標籤。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
-## Photo Storage
-⛔ **Avoid**
+## 相片儲存
+⛔ **避免使用**
 - Google Photos [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
-    - [Google Photos Takeout Helper](https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper) [💀](#icons) - Script that organizes the Google Takeout messy archive into one big chronological folder. Use this script to get out of Google Photos :).
+    - [Google Photos Takeout Helper](https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper) [💀](#icons) - 將 Google Takeout 混亂封存檔整理成一個大型時間順序資料夾的指令碼。使用此指令碼即可離開 Google Photos。
 - Amazon Photos
 
-✅  **Instead use**
+✅  **建議改用**
 
-### Self-hosted
-- [Immich](https://github.com/immich-app/immich) - Self-hosted photo and video backup solution directly from your mobile phone.
-- [LibrePhotos](https://github.com/LibrePhotos/librephotos) - Active [OwnPhotos](https://github.com/hooram/ownphotos) fork. Self hosted alternative to Google Photos.
-- [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control. It has a [*Photos*](https://github.com/nextcloud/photos) plugin to help you organize and visualize your photos.
-- [Photoprism](https://photoprism.app) - Feature rich server-based application for browsing, organizing and sharing your personal photo collection. The most similar to Google Photos.
-- [Pigallery2](http://bpatrik.github.io/pigallery2/) - A self-hosted directory-first photo gallery website.
-- [Photoview](https://photoview.github.io/) - Photo gallery for self-hosted personal servers with Facial Recognition.
-- [Photostructure](https://photostructure.com/) - Self-hosted photo library that makes browsing and sharing a lifetime of memories delightful.
-- [Stingle Photos](https://stingle.org/) - Open source solution that provides strong security, privacy and encryption to backup your photos.
-- [Ente](https://ente.com/) - End-to-end encrypted storage for photos and videos. Open source, [audited](https://ente.com/blog/cryptography-audit/) independently.
+### 自行代管
+- [Immich](https://github.com/immich-app/immich) - 直接從手機備份照片與影片的自行代管方案。
+- [LibrePhotos](https://github.com/LibrePhotos/librephotos) - 積極維護的 [OwnPhotos](https://github.com/hooram/ownphotos) 分支，是 Google Photos 的自我代管替代方案。
+- [Nextcloud](https://nextcloud.com/) - 開源、自我代管的生產力平台，讓你掌控資料。提供 [*Photos*](https://github.com/nextcloud/photos) 外掛協助整理與瀏覽照片。
+- [Photoprism](https://photoprism.app) - 功能豐富的伺服器應用程式，可瀏覽、整理及分享個人相片收藏，與 Google Photos 最為相似。
+- [Pigallery2](http://bpatrik.github.io/pigallery2/) - 以目錄為核心的自行代管相片圖庫網站。
+- [Photoview](https://photoview.github.io/) - 適用於個人自我代管伺服器的相片圖庫，支援臉部辨識。
+- [Photostructure](https://photostructure.com/) - 自我代管相片圖庫，讓瀏覽與分享一生回憶變得愉快。
+- [Stingle Photos](https://stingle.org/) - 開源方案，提供強大的安全性、隱私保護與加密功能來備份照片。
+- [Ente](https://ente.com/) - 端對端加密的照片與影片儲存服務。開源，並經過[獨立稽核](https://ente.com/blog/cryptography-audit/)。
 
 ### 第三方服務
 - [Crypt.ee](https://crypt.ee/) - 私密且加密的空間，可存放所有照片、文件、筆記等資料。
@@ -1235,7 +1235,7 @@ GNU/Linux 是一系列自由（包含自由之意與免費之意）、開源且�
 - [Photok](https://github.com/leonlatsch/Photok) - 免費的相片保險箱，可在裝置上加密儲存照片並避免他人看見。
 - [ImageGlass](https://imageglass.org/) - 輕量軟體應用程式，旨在提供整潔直覺的環境來檢視影像。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 隱私工具
 
@@ -1259,7 +1259,7 @@ GNU/Linux 是一系列自由（包含自由之意與免費之意）、開源且�
 - [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - 適用於 Android 6 以上的開源、免 root 防火牆與 DNS 變更工具，具備反審查功能。
 - [🤖](#icons) [Orbot](https://orbot.app/) - 將應用程式流量經由 Tor 網路傳送，可作為全系統 VPN 或逐一設定應用程式。由 Guardian Project 開發。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 遠端存取與控制
 ⛔ **避免使用**
@@ -1275,7 +1275,7 @@ GNU/Linux 是一系列自由（包含自由之意與免費之意）、開源且�
 - [Apache Guacamole](https://guacamole.apache.org) - 無需用戶端、可自行代管的遠端桌面閘道，可透過瀏覽器使用 RDP、VNC 與 SSH。採用 Apache-2.0 授權。
 - [Sunshine + Moonlight](https://app.lizardbyte.dev/Sunshine) - 可自行代管的桌面與遊戲串流主機（Sunshine）及其相應用戶端（Moonlight）。開源，採用 GPL-3.0 授權。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 路由器
 ⛔ **避免使用**
@@ -1286,7 +1286,7 @@ GNU/Linux 是一系列自由（包含自由之意與免費之意）、開源且�
 - [OPNsense](https://opnsense.org/) - 以 FreeBSD 為基礎的開源防火牆與路由平台，可用於專用硬體或備用電腦。
 - [IPFire](https://www.ipfire.org/) - 強化版開源 Linux 防火牆發行版，具備入侵防護與網頁介面。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## RSS 閱讀器
 ⛔ **避免使用**
@@ -1307,7 +1307,7 @@ GNU/Linux 是一系列自由（包含自由之意與免費之意）、開源且�
 - [🤖](#icons) [Read You](https://github.com/ReadYouApp/ReadYou) - Android 開源 Material You RSS 閱讀器，可在本機使用或與自行代管服務同步。
 - [🤖](#icons) [Capy Reader](https://github.com/jocmp/capyreader) - Android 開源 RSS 閱讀器，可在本機使用或與 Miniflux、FreshRSS 同步。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 搜尋引擎
 
@@ -1327,7 +1327,7 @@ GNU/Linux 是一系列自由（包含自由之意與免費之意）、開源且�
 - [Marginalia](https://marginalia-search.com/) - 獨立搜尋引擎，擁有自己的爬蟲與索引，偏好文字豐富、非商業網頁。可自行代管，採用 AGPL-3.0 授權。
 - [YaCy](https://yacy.net/) - 點對點去中心化搜尋引擎，每位使用者都執行節點並分享索引。開源，採用 GPL-2.0 授權。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ## 社群網路與平台
 
@@ -1470,283 +1470,282 @@ GNU/Linux 是一系列自由（包含自由之意與免費之意）、開源且�
 ✅ **尊重隱私的 Twitch 用戶端：**
 - [🤖](#icons) [Twire](https://github.com/twireapp/Twire) - Android 開源、無廣告的 Twitch 瀏覽器與串流播放器。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ### Imgur
 
 [![](https://shields.tosdr.org/en_325.svg)](https://tosdr.org/en/service/325)
 
-⛔ Imgur website is plenty of bloat, gifs, cookies, javascript and trackers.
+⛔ Imgur 網站充斥著臃腫內容、GIF、Cookie、JavaScript 與追蹤器。
 
-✅ **Alternatives:**
-- [rimgo](https://codeberg.org/video-prize-ranch/rimgo#instances) - An alternative frontend for Imgur. Read-only, no-js, Based on rimgu and rewritten in Go.
+✅ **替代方案：**
+- [rimgo](https://codeberg.org/video-prize-ranch/rimgo#instances) - Imgur 替代前端，唯讀、無 JavaScript，以 rimgu 為基礎並以 Go 重寫。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ### IMDb
 
-⛔ IMDb is owned by Amazon and its website is loaded with ads and third-party trackers.
+⛔ IMDb 由 Amazon 擁有，網站充斥廣告與第三方追蹤器。
 
-✅ **IMDb alternative frontends:**
-- [libremdb](https://libremdb.iket.me/) - Alternative privacy-respecting frontend for IMDb that removes ads and trackers. Open source and self-hostable (AGPL-3.0).
+✅ **IMDb 替代前端：**
+- [libremdb](https://libremdb.iket.me/) - 尊重隱私的 IMDb 替代前端，可移除廣告與追蹤器。開源且可自行代管（AGPL-3.0）。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
 ### Fandom
 
-⛔ Fandom wikis (formerly Wikia) are overloaded with ads, autoplaying video, and trackers.
+⛔ Fandom Wiki（前稱 Wikia）充斥廣告、自動播放影片與追蹤器。
 
-✅ **Fandom alternative frontends:**
-- [BreezeWiki](https://breezewiki.com/) - Alternative frontend for Fandom wikis that strips ads, video, and clutter. Open source and self-hostable.
+✅ **Fandom 替代前端：**
+- [BreezeWiki](https://breezewiki.com/) - Fandom Wiki 的替代前端，可移除廣告、影片與雜亂內容。開源且可自行代管。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
-## Teamworking Tools
-⛔ **Avoid**
+## 團隊協作工具
+⛔ **避免使用**
 - [![](https://shields.tosdr.org/en_206.svg)](https://tosdr.org/en/service/206)
 - Google Meet [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 - Microsoft Teams [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
 - [![](https://shields.tosdr.org/en_536.svg)](https://tosdr.org/en/service/536)
 
-✅  **Instead use**
-- [Zulip](https://zulip.com/) - Chat for distributed teams.
-- [Stoat](https://stoat.chat/) (formerly Revolt) - User-first chat platform built with modern web technologies.
-- [Twake](https://twake.app/) - Work in a team faster. Twake covers all of your organizational needs through a single platform.
-- [RocketChat](https://rocket.chat/) - Control your communication, manage your data, and have your own collaboration platform to improve team productivity.
-- [Nextcloud Talk](https://nextcloud.com/talk/) - Keep conversations private with Nextcloud Talk.
-- [Mattermost](https://mattermost.com/) - Open-source Slack alternative.
+✅  **建議改用**
+- [Zulip](https://zulip.com/) - 分散式團隊聊天工具。
+- [Stoat](https://stoat.chat/)（前稱 Revolt）- 以使用者為先、採用現代網頁技術打造的聊天平台。
+- [Twake](https://twake.app/) - 加速團隊協作，透過單一平台滿足所有組織需求。
+- [RocketChat](https://rocket.chat/) - 掌控通訊與資料，擁有自己的協作平台以提升團隊生產力。
+- [Nextcloud Talk](https://nextcloud.com/talk/) - 使用 Nextcloud Talk 保持對話私密。
+- [Mattermost](https://mattermost.com/) - 開源 Slack 替代方案。
 
 > [!WARNING]
-> **Alternative clients/modifications of Discord:**
-> Your IP and messages will still be shared and belong to Discord and they are not encrypted.\
-> Also using any of these modifications/clients [violates](https://x.com/discord/status/1006178587731550208) the [Discord ToS](https://discord.com/terms) so, we are not responsible of any suspension or termination of your account **but**, this should [not happen **yet**](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos).
+> **Discord 替代用戶端／修改版本：**
+> 你的 IP 與訊息仍會分享給 Discord 並歸 Discord 所有，而且不會加密。\
+> 此外，使用這些修改版本／用戶端皆[違反](https://x.com/discord/status/1006178587731550208) [Discord 服務條款](https://discord.com/terms)，因此我們不對帳戶遭停權或終止負責，**但**目前應該[還不會發生](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos)。
 
-- [See this section for Discord mods and alternative clients](https://github.com/pluja/awesome-privacy/blob/main/README.md#alternative-clientsmodifications-of-discord)
+- [請參閱本節的 Discord 修改版本與替代用戶端](https://github.com/pluja/awesome-privacy/blob/main/README.md#alternative-clientsmodifications-of-discord)
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
-## Screen recording
+## 螢幕錄影
 
-- [Screenity](https://screenity.io/) - A powerful privacy-friendly screen recorder and annotation tool to make better videos for work, education, and more.
-- [OBS](https://obsproject.com/) - Free and open source software for video recording and live streaming.
+- [Screenity](https://screenity.io/) - 強大且尊重隱私的螢幕錄影與註記工具，可製作更優質的工作、教育等影片。
+- [OBS](https://obsproject.com/) - 免費開源的影片錄製與直播軟體。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
-## Translation
-⛔ **Avoid**
+## 翻譯
+⛔ **避免使用**
 - Google Translate [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 - DeepL
 - Bing Translator [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
 
-✅ **Text translation**
-- [Mozilla Translate](https://mozilla.github.io/translate/) - Open Source, runs model locally in your browser.
-- [Libretranslate](https://libretranslate.com/) - Open Source Machine Translation - 100% Self-Hosted. No Limits. No Ties to Proprietary Services.
-- [Apertium](https://apertium.org/) - A free/open-source machine translation platform, runs offline on your computer
-- [Softcatala](https://www.softcatala.org/traductor/) - Open Source Translation tool - Only Catalan/Spanish/English/French (uses apertium)
-- [TranslateLocally](https://github.com/XapaJIaMnu/translateLocally) – Free/open-source neural MT, runs offline on your computer
-- [Linguist](https://linguister.io) - A free and Open Source full-featured translation solution in-browser with embedded offline translator and [custom translators](https://linguister.io/docs/CustomTranslator). Full-page translation, TTS, dictionary, translation for user input and selected text on page.
+✅ **文字翻譯**
+- [Mozilla Translate](https://mozilla.github.io/translate/) - 開源服務，模型直接在瀏覽器本機執行。
+- [Libretranslate](https://libretranslate.com/) - 開源機器翻譯，完全自行代管、無限制且不依賴專有服務。
+- [Apertium](https://apertium.org/) - 免費開源機器翻譯平台，可在電腦離線執行。
+- [Softcatala](https://www.softcatala.org/traductor/) - 開源翻譯工具，僅支援加泰隆尼亞文／西班牙文／英文／法文（使用 apertium）。
+- [TranslateLocally](https://github.com/XapaJIaMnu/translateLocally) – 免費開源神經機器翻譯，可在電腦離線執行。
+- [Linguist](https://linguister.io) - 免費開源、功能完整的瀏覽器內翻譯方案，內建離線翻譯器並支援[自訂翻譯器](https://linguister.io/docs/CustomTranslator)。提供整頁翻譯、TTS、字典、使用者輸入文字翻譯與頁面選取文字翻譯。
 
-✅ **Alternative Google Translate frontends**
-- [Lingva](https://github.com/TheDavidDelta/lingva-translate) [💀](#icons) - Alternative front-end for Google Translate. [Demo](https://lingva.ml/).
-- [Simplytranslate](https://codeberg.org/ManeraKai/simplytranslate) - Alternative front-end for Google Translate and LibreTranslate. [Demo](https://simplytranslate.org/)
-- [Mozhi](https://codeberg.org/aryak/mozhi) - Alternative frontend that aggregates Google Translate, DeepL, Yandex, and other engines behind one private UI. Self-hostable, AGPL-3.0 licensed.
+✅ **Google 翻譯替代前端**
+- [Lingva](https://github.com/TheDavidDelta/lingva-translate) [💀](#icons) - Google 翻譯替代前端。[展示](https://lingva.ml/)。
+- [Simplytranslate](https://codeberg.org/ManeraKai/simplytranslate) - Google 翻譯與 LibreTranslate 替代前端。[展示](https://simplytranslate.org/)
+- [Mozhi](https://codeberg.org/aryak/mozhi) - 替代前端，透過單一私密 UI 彙整 Google 翻譯、DeepL、Yandex 等引擎。可自行代管，採用 AGPL-3.0 授權。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
-## Uncategorized
-- [Skymap](https://skymaponline.net/) - Open online planetarium program.
-- [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban.
-- [Hetty](https://github.com/dstotijn/hetty) - Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
-- [Visited](https://github.com/didvc/visited) - Locally collect browsing history over browsers.
+## 未分類
+- [Skymap](https://skymaponline.net/) - 線上開放式天文館程式。
+- [CrowdSec](https://github.com/crowdsecurity/crowdsec) - 現代化且協作式的開源 fail2ban。
+- [Hetty](https://github.com/dstotijn/hetty) - 用於安全研究的 HTTP 工具組，目標是成為 Burp Suite Pro 的開源替代方案。
+- [Visited](https://github.com/didvc/visited) - 在本機彙整各瀏覽器的瀏覽紀錄。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
-## Utilities
-- [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
+## 實用工具
+- [Deskreen](https://github.com/pavlobu/deskreen) - 將任何裝置變成電腦的第二螢幕。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
-## Version Control
-⛔ **Avoid**
+## 版本控制
+⛔ **避免使用**
 
-- **Github** - [![](https://shields.tosdr.org/en_297.svg)](https://tosdr.org/en/service/297), although the privacy policy is not very bad, it is owned by Microsoft, and it's common knowledge that it uses the code it hosts to train AI models.
+- **Github** - [![](https://shields.tosdr.org/en_297.svg)](https://tosdr.org/en/service/297)，雖然隱私權政策不算太差，但它由 Microsoft 擁有，而且眾所周知會使用代管的程式碼訓練 AI 模型。
 
-✅  **Instead use**
-- [Codeberg](https://codeberg.org/) -  Codeberg is a collaboration platform providing Git hosting and services for free and open source software, content and projects. 
-- [Forgejo](https://forgejo.org/) - Forgejo is a self-hosted lightweight software forge.
-- [GitLab](https://about.gitlab.com/) - GitLab a DevOps software package that can develop, secure, and operate software.
-- [Radicle](https://radicle.dev/) - An open source, peer-to-peer code collaboration stack built on Git. Unlike centralized code hosting platforms, there is no single entity controlling the network. Repositories are replicated across peers in a decentralized manner, and users are in full control of their data and workflow.
-- [Gitea](https://gitea.com) - Lightweight self-hosted Git forge and the project Forgejo was forked from. Open source, MIT licensed.
+✅  **建議改用**
+- [Codeberg](https://codeberg.org/) - 協作平台，為自由開源軟體、內容與專案提供免費 Git 代管及相關服務。
+- [Forgejo](https://forgejo.org/) - 輕量、自行代管的軟體鍛造平台。
+- [GitLab](https://about.gitlab.com/) - DevOps 軟體套件，可用於開發、保護與營運軟體。
+- [Radicle](https://radicle.dev/) - 以 Git 為基礎的開源點對點程式碼協作技術堆疊。不同於集中式程式碼代管平台，沒有單一實體控制網路。儲存庫以去中心化方式在各節點間複製，使用者完全掌控資料與工作流程。
+- [Gitea](https://gitea.com) - 輕量、自行代管的 Git 鍛造平台，也是 Forgejo 分支自的專案。開源，採用 MIT 授權。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
-## Video and Audio Conferencing
-⛔ **Avoid**
+## 視訊與音訊會議
+⛔ **避免使用**
 
-- **Zoom** - [Very bad privacy policy](https://tosdr.org/en/service/2198). Apps have [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/us.zoom.videomeetings/latest/). Many permissions required.
-- **Skype** - [Very bad privacy policy](https://tosdr.org/en/service/244). Apps have [Google and Microsoft trackers](https://reports.exodus-privacy.eu.org/en/reports/com.skype.insiders/latest/). Way too many permissions required.
-- **Google Meet** - [Very bad privacy policy](https://tosdr.org/en/service/217). Apps have [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/com.google.android.apps.tachyon/latest/) embeded (as it is a Google app). Way too many permissions required.
-- **Whatsapp** - [Bad privacy policy](https://tosdr.org/en/service/198). Apps have [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/com.whatsapp/latest/) and most probably Facebook trackers embeded (as it is a Facebook app). Way too many permissions required.
-- **Instagram** - [Very bad privacy policy](https://tosdr.org/en/service/219). Apps have [Facebook trackers](https://reports.exodus-privacy.eu.org/en/reports/com.instagram.android/latest/). Way too many permissions required.
-- **Discord** - [Very bad privacy policy.](https://tosdr.org/en/service/536). Apps have [various trackers](https://reports.exodus-privacy.eu.org/en/reports/com.discord/latest/). Many permissions required.
+- **Zoom** - [隱私權政策非常糟糕](https://tosdr.org/en/service/2198)。應用程式含有 [Google 追蹤器](https://reports.exodus-privacy.eu.org/en/reports/us.zoom.videomeetings/latest/)，且要求許多權限。
+- **Skype** - [隱私權政策非常糟糕](https://tosdr.org/en/service/244)。應用程式含有 [Google 與 Microsoft 追蹤器](https://reports.exodus-privacy.eu.org/en/reports/com.skype.insiders/latest/)，且要求過多權限。
+- **Google Meet** - [隱私權政策非常糟糕](https://tosdr.org/en/service/217)。應用程式內嵌 [Google 追蹤器](https://reports.exodus-privacy.eu.org/en/reports/com.google.android.apps.tachyon/latest/)（畢竟是 Google 應用程式），且要求過多權限。
+- **Whatsapp** - [隱私權政策不佳](https://tosdr.org/en/service/198)。應用程式含有 [Google 追蹤器](https://reports.exodus-privacy.eu.org/en/reports/com.whatsapp/latest/)，且很可能內嵌 Facebook 追蹤器（畢竟是 Facebook 應用程式），並要求過多權限。
+- **Instagram** - [隱私權政策非常糟糕](https://tosdr.org/en/service/219)。應用程式含有 [Facebook 追蹤器](https://reports.exodus-privacy.eu.org/en/reports/com.instagram.android/latest/)，且要求過多權限。
+- **Discord** - [隱私權政策非常糟糕](https://tosdr.org/en/service/536)。應用程式含有[多種追蹤器](https://reports.exodus-privacy.eu.org/en/reports/com.discord/latest/)，且要求許多權限。
 - Clubhouse
 
-✅  **Instead use**
-- [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton is a web conferencing system designed for online learning.
-- [Briefing](https://github.com/holtwick/briefing/) - Secure direct video group chat. Only open technologies (such as WebRTC) are used, which work with all modern browsers.
-- [Chitchatter](https://chitchatter.im/) - Secure P2P chat that is serverless, decentralized, and ephemeral. Supports text, audio, video, screen, and file sharing.
-- [Jam](https://github.com/jam-systems/jam) [💀](#icons) - Jam is your own open source Clubhouse for mini conferences, friends, communities.
-- [Jami](https://jami.net/) - P2P audio and video conferences.
-- [Jitsi Meet](https://github.com/jitsi/jitsi-meet) - More secure, more flexible, and completely free video conferencing. If you use the official instance, you will need to login. Self-hosting is recommended.
-- [Mirotalk P2P](https://p2p.mirotalk.com/) - Free WebRTC - P2P - Simple, Secure, Fast Real-Time Video Conferences Up to 4k and 60fps, compatible with all browsers and platforms.
-- [Mumble](https://www.mumble.info/) - Mumble is an open source voice communication application with advanced features.
-- [PeerCalls](https://github.com/peer-calls/peer-calls) - Group peer to peer video calls for everyone written in Go and TypeScript.
-- [Nextcloud Talk](https://nextcloud.com/talk/) - Self-hosted video calls and chat that run inside your own Nextcloud server over WebRTC (AGPL-3.0).
+✅  **建議改用**
+- [BigBlueButton](https://bigbluebutton.org/) - 專為線上學習設計的網頁會議系統。
+- [Briefing](https://github.com/holtwick/briefing/) - 安全的直接視訊群組聊天。僅使用 WebRTC 等開放技術，相容所有現代瀏覽器。
+- [Chitchatter](https://chitchatter.im/) - 安全的 P2P 聊天，無伺服器、去中心化且短暫存在。支援文字、音訊、視訊、螢幕與檔案分享。
+- [Jam](https://github.com/jam-systems/jam) [💀](#icons) - 專屬於你的開源 Clubhouse，適用於小型會議、朋友與社群。
+- [Jami](https://jami.net/) - P2P 音訊與視訊會議。
+- [Jitsi Meet](https://github.com/jitsi/jitsi-meet) - 更安全、更彈性且完全免費的視訊會議。使用官方執行個體需要登入，建議自行代管。
+- [Mirotalk P2P](https://p2p.mirotalk.com/) - 免費 WebRTC P2P 工具，提供簡單、安全、快速的即時視訊會議，最高支援 4K、60 fps，相容各種瀏覽器與平台。
+- [Mumble](https://www.mumble.info/) - 具備進階功能的開源語音通訊應用程式。
+- [PeerCalls](https://github.com/peer-calls/peer-calls) - 以 Go 與 TypeScript 編寫、適合所有人的多人點對點視訊通話。
+- [Nextcloud Talk](https://nextcloud.com/talk/) - 透過 WebRTC 在自己的 Nextcloud 伺服器執行的自行代管視訊通話與聊天（AGPL-3.0）。
 
 
-##### Alternative clients/modifications of Discord:
+##### Discord 替代用戶端／修改版本：
 > [!WARNING]
-> Your IP and messages will still be shared and belong to Discord and they are not encrypted.\
-> Also using any of these modifications/clients [violates](https://x.com/discord/status/1006178587731550208) the [Discord ToS](https://discord.com/terms) so, we are not responsible of any suspension or termination of your account **but**, this should [not happen **yet**](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos).
-- [OpenAsar](https://openasar.dev/) - An open-source alternative of Discord desktop's app.asar that comes with a [No Tracking](https://github.com/GooseMod/OpenAsar#readme) option that disables Discord's crash and error reporting.
-- [Vencord](https://github.com/Vendicated/Vencord) - A Discord client mod that does things differently.
-- [BetterDiscord](https://betterdiscord.app/) - A client modification for Discord, also you need to install a [DoNotTrack](https://betterdiscord.app/plugin/DoNotTrack) plugin to block trackers.
-- [Kernel](https://github.com/kernel-mod/electron) [💀](#icons) - A super small and fast Electron client mod with the most capability, also you need to install a [Discord Utilities](https://github.com/slow/discord-utilities) package to block trackers.
-- [Replugged](https://replugged.dev/) - A continuation of the deprecated client mod [Powercord](https://powercord.dev).
-- [WebCord](https://github.com/SpacingBat3/WebCord) - A Discord and Fosscord API-less client made with the Electron.
-- [🤖](#icons) [Aliucord](https://github.com/Aliucord/Aliucord) - A modification for the Android Discord app that fully [disables the Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
-- [Vesktop](https://vesktop.dev/) - Standalone desktop client for Discord that blocks its telemetry and ships with Vencord built in. Open source, GPL-3.0 licensed.
+> 你的 IP 與訊息仍會分享給 Discord 並歸 Discord 所有，而且不會加密。\
+> 此外，使用這些修改版本／用戶端皆[違反](https://x.com/discord/status/1006178587731550208) [Discord 服務條款](https://discord.com/terms)，因此我們不對帳戶遭停權或終止負責，**但**目前應該[還不會發生](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos)。
+- [OpenAsar](https://openasar.dev/) - Discord 桌面版 app.asar 的開源替代方案，提供[不追蹤](https://github.com/GooseMod/OpenAsar#readme)選項，可停用 Discord 當機與錯誤回報。
+- [Vencord](https://github.com/Vendicated/Vencord) - 以不同方式運作的 Discord 用戶端模組。
+- [BetterDiscord](https://betterdiscord.app/) - Discord 用戶端修改版本，另須安裝 [DoNotTrack](https://betterdiscord.app/plugin/DoNotTrack) 外掛以封鎖追蹤器。
+- [Kernel](https://github.com/kernel-mod/electron) [💀](#icons) - 功能最齊全、極小且快速的 Electron 用戶端修改版本，另須安裝 [Discord Utilities](https://github.com/slow/discord-utilities) 套件以封鎖追蹤器。
+- [Replugged](https://replugged.dev/) - 已棄用用戶端模組 [Powercord](https://powercord.dev) 的延續專案。
+- [WebCord](https://github.com/SpacingBat3/WebCord) - 使用 Electron 打造、無需 Discord 與 Fosscord API 的用戶端。
+- [🤖](#icons) [Aliucord](https://github.com/Aliucord/Aliucord) - Android Discord 應用程式修改版本，可完全[停用 Discord 追蹤](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java)。
+- [Vesktop](https://vesktop.dev/) - 獨立的 Discord 桌面用戶端，可封鎖遙測功能並內建 Vencord。開源，採用 GPL-3.0 授權。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
-## Video Editing
-⛔ **Avoid**
+## 影片編輯
+⛔ **避免使用**
 - [![](https://shields.tosdr.org/en_417.svg)](https://tosdr.org/en/service/417)
 - Sony Vegas
 - DaVinci Resolve
 
-Such programs come filled with trackers and telemetry. You can get a full list of reasons of why you should **not** use Adobe [here](https://www.gnu.org/proprietary/malware-adobe.html). Almost the same apply for many privative editors.
+這類程式充斥追蹤器與遙測功能。你可以在[此處](https://www.gnu.org/proprietary/malware-adobe.html)查看為何**不應**使用 Adobe 的完整理由。許多專有編輯器也有幾乎相同的問題。
 
-✅  **Instead use**
+✅  **建議改用**
 
-- [kdenlive](https://kdenlive.org/) - Open source video editor. Free and easy to use for any purpose, forever.
-- [LosslessCut](https://github.com/mifi/lossless-cut) - LosslessCut aims to be the ultimate cross platform FFmpeg GUI for extremely fast and lossless operations on video, audio, subtitle and other related media files.
-- [Olive Video Editor](https://olivevideoeditor.org/) - Free open-source advanced non-linear video editor currently in Alpha state.
-- [OpenCut](https://github.com/OpenCut-app/OpenCut) - [beta] A free, open-source video editor for web, desktop, and mobile.
-- [Shotcut](https://www.shotcut.org/) - Shotcut is a free, open source and simple cross-platform video editor.
+- [kdenlive](https://kdenlive.org/) - 開源影片編輯器，永遠免費且易於各種用途使用。
+- [LosslessCut](https://github.com/mifi/lossless-cut) - 旨在成為終極跨平台 FFmpeg 圖形介面，可極快速、無損地處理影片、音訊、字幕與其他相關媒體檔案。
+- [Olive Video Editor](https://olivevideoeditor.org/) - 目前處於 Alpha 階段的免費開源進階非線性影片編輯器。
+- [OpenCut](https://github.com/OpenCut-app/OpenCut) - [Beta] 免費開源的網頁、桌面與行動裝置影片編輯器。
+- [Shotcut](https://www.shotcut.org/) - 免費、開源且簡單易用的跨平台影片編輯器。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
-## VPNs
+## VPN
 
-⛔ **Avoid**
+⛔ **避免使用**
 
-- [Free VPNs](https://techcrunch.com/2020/09/24/free-vpn-bad-for-privacy/) from Google Play or any appstore. These services are not free as they will suck your connections' data, keep logs and profile you to [sell your data to advertisers](https://thenextweb.com/news/be-cautious-free-vpns-are-selling-your-data-to-3rd-parties). If a government wants to track someone, such apps will be the first ones to fall.
+- Google Play 或任何應用程式商店提供的[免費 VPN](https://techcrunch.com/2020/09/24/free-vpn-bad-for-privacy/)。這些服務並非真正免費，會竊取連線資料、保留紀錄並建立使用者檔案，以便[將資料販售給廣告商](https://thenextweb.com/news/be-cautious-free-vpns-are-selling-your-data-to-3rd-parties)。若政府想追蹤某人，這類應用程式會最先屈服。
 
-- Closed source VPN apps such as Surfshark or NordVPN may be less trustworthy as nobody can be sure how they handle your data. Also, paying with Credit Card will get you identified on the payment. Furthermore, if you need to give your email it will also identify you if this same email has been used in other services.
+- Surfshark 或 NordVPN 等閉源 VPN 應用程式可能較不值得信任，因為無人能確定它們如何處理你的資料。此外，以信用卡付款會讓你在付款時暴露身分；若需提供電子郵件，而該信箱也用於其他服務，同樣能識別你的身分。
 
 
-✅  **Instead use**
+✅  **建議改用**
 
-Here are some open source and truly private (no personal data and/or credit card needed) options:
+以下是一些開源且真正私密的選擇（不需提供個人資料及／或信用卡）：
 
-- [IVPN](https://ivpn.net) - No-logs VPN with open source apps, no-email signup, and cash, Monero, or Bitcoin payment.
-- [nadanada](https://nadanada.me) (formerly LNVPN) - Pay-per-use WireGuard VPN with no account, paid by Lightning Network or other cryptocurrency.
-- [Mullvad VPN](https://mullvad.net) - No-logs VPN with open source apps, anonymous numbered accounts, and cash or cryptocurrency payment.
-- [Proton VPN](https://protonvpn.com) - Swiss no-logs VPN with open source, audited apps on every platform and a no-data-cap free tier.
-- [SPN](https://safing.io/) - Open source, system-wide network that routes each app connection through its own path across multiple nodes, giving per-connection IP separation instead of a single shared exit. Built into the Safing Portmaster firewall for Windows and Linux.
-- [Amnezia VPN](https://amnezia.org) - Self-hosted, censorship-resistant VPN that you deploy on your own server, with audited open source apps (GPL-3.0).
-- [Find more at kycnot.me (VPN Category)](https://kycnot.me/?categories=vpn) - KYC-free VPN providers.
+- [IVPN](https://ivpn.net) - 無日誌 VPN，應用程式開源，註冊無需電子郵件，支援現金、Monero 或 Bitcoin 付款。
+- [nadanada](https://nadanada.me)（前稱 LNVPN）- 按使用量付費的 WireGuard VPN，無需帳戶，可使用 Lightning Network 或其他加密貨幣付款。
+- [Mullvad VPN](https://mullvad.net) - 無日誌 VPN，應用程式開源，使用匿名編號帳戶，支援現金或加密貨幣付款。
+- [Proton VPN](https://protonvpn.com) - 瑞士無日誌 VPN，各平台應用程式皆開源並經過稽核，免費方案沒有流量上限。
+- [SPN](https://safing.io/) - 開源全系統網路，透過多個節點為每個應用程式連線配置獨立路徑，讓各連線使用不同 IP，而非共用單一出口。內建於 Windows 與 Linux 的 Safing Portmaster 防火牆。
+- [Amnezia VPN](https://amnezia.org) - 可部署在自有伺服器上的自行代管抗審查 VPN，搭配經稽核的開源應用程式（GPL-3.0）。
+- [到 kycnot.me 尋找更多（VPN 分類）](https://kycnot.me/?categories=vpn) - 不需 KYC 的 VPN 供應商。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
-## Web Browser
+## 網頁瀏覽器
+⛔ **避免使用**
 
-⛔ **Avoid**
+- **Google Chrome** - 由 Google 擁有，並以同樣由 Google 擁有的開源 Chromium 專案為基礎。內建許多侵犯隱私的功能，且通常會連結至 Google 帳戶。適用眾所周知[非常糟糕的 Google 隱私權政策](https://tosdr.org/en/service/217)。Google 打算強制推行[Manifest v3](https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening)，這會直接傷害隱私保護工作。
+- **Microsoft Edge** - 以 Microsoft 品牌包裝的 Chromium 版本，使用 Microsoft 追蹤器取代 Google 追蹤器。適用同樣[非常糟糕的 Microsoft 隱私權政策](https://tosdr.org/en/service/244)。若仍想使用，可[參考此指南](https://anonymousplanet.net/guide/#hardening-edge)稍微強化防護。
+- **Opera** - Opera 已[被中國投資者財團收購](https://en.wikipedia.org/wiki/Opera_(web_browser)#Acquisition_by_Chinese_consortium)。應用程式含有[許多追蹤器](https://reports.exodus-privacy.eu.org/de/reports/com.opera.browser/latest/)。
 
-- **Google Chrome** - Owned by google and built upon the open-source Chromium project (also Google-owned). It comes with many privacy-invasive features, it is connected to your Google account most times. It is under [Google's privacy policy](https://tosdr.org/en/service/217) which is known to be very bad. Google is willing to enforce the [Manifest v3](https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening) which is outright harmful to privacy efforts.
-- **Microsoft Edge** - It's a Microsoft-themed version of Chromium with Microsoft trackers instead of Google ones. Under [Microsoft's privacy policy](https://tosdr.org/en/service/244), which is also very bad. If you still want to use it, you can [follow this guide](https://anonymousplanet.net/guide/#hardening-edge) to harden it a bit.
-- **Opera** - Opera was [acquired by a consortium of Chinese investors](https://en.wikipedia.org/wiki/Opera_(web_browser)#Acquisition_by_Chinese_consortium). The app has [many trackers](https://reports.exodus-privacy.eu.org/de/reports/com.opera.browser/latest/).
-
-✅  **Instead use**
+✅  **建議改用**
 
 #### Android / iOS
-- [Brave](https://brave.com/) - Android/iOS. Brave offers a pretty good out-of-the-box set of privacy and tracker protections.
-- [Firefox](https://www.firefox.com/en-US/mobile/) - Android/iOS
-    - [🤖](#icons) [IronFox](https://gitlab.com/ironfox-oss/IronFox) - Mull browser fork. A hardened fork of Firefox for Android, with proprietary blobs removed.
-- [🤖](#icons) [Vanadium](https://vanadium.app/) - Privacy and security enhanced releases of Chromium by GrapheneOS.
+- [Brave](https://brave.com/) - Android／iOS 瀏覽器。Brave 開箱即提供相當不錯的隱私與追蹤器防護。
+- [Firefox](https://www.firefox.com/en-US/mobile/) - Android／iOS 瀏覽器。
+    - [🤖](#icons) [IronFox](https://gitlab.com/ironfox-oss/IronFox) - Mull 瀏覽器分支，是移除專有二進位檔並強化防護的 Android Firefox 分支。
+- [🤖](#icons) [Vanadium](https://vanadium.app/) - GrapheneOS 推出的隱私與安全強化版 Chromium。
 - [🤖](#icons) [Privacy Browser](https://www.stoutner.com/privacy-browser/)
-- [Tor Browser](https://www.torproject.org/) - iOS/Android. Defend yourself against tracking and surveillance and circumvent censorship.
-- [Cromite](https://github.com/uazo/cromite) - Cromite is a Chromium fork based on Bromite with built-in support for ad blocking and an eye for privacy.
+- [Tor Browser](https://www.torproject.org/) - iOS／Android 瀏覽器，可防範追蹤與監控並繞過審查。
+- [Cromite](https://github.com/uazo/cromite) - 以 Bromite 為基礎的 Chromium 分支，內建廣告封鎖功能並重視隱私。
 
-#### Desktop
-- [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) - A lightweight approach to removing Google web service dependency. Ungoogled-chromium is Google Chromium, sans dependency on Google web services.
-- [Brave](https://brave.com/) - Brave offers a pretty good out-of-the-box set of privacy and tracker protections.
-- [Firefox](https://www.firefox.com/en-US/) - Open Source, independent browser. It needs some [hardening and tweaking](https://anonymousplanet.net/guide/#hardening-firefox) to achieve great privacy.
-  - [LibreWolf](https://librewolf.net/) - Privacy-focused Firefox fork.
-- [Tor Browser](https://www.torproject.org/) - Hardened Firefox that routes traffic through the Tor network to resist tracking, surveillance, and censorship.
-- [Mullvad Browser](https://mullvad.net/en/browser/) - Browser with the privacy and security implications of the Tor Browser, without the use of the Tor network.
-- [Zen Browser](https://zen-browser.app/) - Firefox-based browser with enhanced tracking protection on by default and a focus on calm, uncluttered browsing. MPL-2.0 licensed.
-- [Floorp](https://floorp.app/) - Firefox fork with telemetry disabled and extra customization, built with privacy in mind. Open source, MPL-2.0 licensed.
+#### 桌面
+- [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) - 移除 Google 網路服務相依性的輕量作法。Ungoogled Chromium 是不依賴 Google 網路服務的 Google Chromium。
+- [Brave](https://brave.com/) - Brave 開箱即提供相當不錯的隱私與追蹤器防護。
+- [Firefox](https://www.firefox.com/en-US/) - 開源、獨立的瀏覽器。需要進行一些[強化與調整](https://anonymousplanet.net/guide/#hardening-firefox)才能達到高度隱私保護。
+  - [LibreWolf](https://librewolf.net/) - 重視隱私的 Firefox 分支。
+- [Tor Browser](https://www.torproject.org/) - 經強化的 Firefox，透過 Tor 網路傳送流量，以抵禦追蹤、監控與審查。
+- [Mullvad Browser](https://mullvad.net/en/browser/) - 具備 Tor Browser 隱私與安全特性的瀏覽器，但不使用 Tor 網路。
+- [Zen Browser](https://zen-browser.app/) - 以 Firefox 為基礎的瀏覽器，預設強化追蹤防護，著重沉靜、簡潔的瀏覽體驗。採用 MPL-2.0 授權。
+- [Floorp](https://floorp.app/) - 以隱私為設計考量、停用遙測並提供額外自訂功能的 Firefox 分支。開源，採用 MPL-2.0 授權。
 
 > [!TIP]
-> It may be interesting to learn what you can do to harden your browser. You can follow this [Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.net/guide/#hardening-browsers) section to do it. Please, if you don't understand what you are doing, don't do it as you may be causing more harm than good to your privacy.
+> 了解如何強化瀏覽器或許很有幫助。你可以參閱[《線上匿名漫遊者指南》](https://anonymousplanet.net/guide/#hardening-browsers)此節。若不了解自己正在做什麼，請勿貿然操作，否則可能弊大於利，反而損害隱私。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
-### Browser Addons
+### 瀏覽器擴充功能
 
-#### Anti-tracking
-Please read about what the addon does before installing. If you don't understand what you are doing you could end up damaging your privacy. Also, too many addons can slow down your browsing experience.
+#### 反追蹤
+安裝前請先了解擴充功能的作用。若不了解操作內容，可能反而損害隱私。此外，擴充功能太多也會拖慢瀏覽速度。
 
-- [uBlock Origin](https://ublockorigin.com/) - Free, open-source ad content blocker. Easy on CPU and memory.
-	- [Read the extension docs](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and pick one of the recommended modes to increase your privacy.
-	- Go to settings > filters list > annoyances, turn on easylist-cookies. This will avoid you the annoying Cookie popups.
-- [LibRedirect](https://github.com/libredirect/browser_extension) - A simple web extension that redirects Twitter, YouTube, Google Maps and many more requests to privacy friendly alternatives. Former Privacy Redirect is no longer maintained, LibRedirect is a maintained fork.
-- [Privacy Badger](https://privacybadger.org/) - Browser extension from the EFF that learns to block trackers as you browse. Open source, GPL-3.0 licensed.
-- [ClearURLs](https://clearurls.xyz/) - Browser extension that automatically strips tracking parameters from links and URLs. Open source, LGPL-3.0 licensed.
+- [uBlock Origin](https://ublockorigin.com/) - 免費開源的廣告與內容封鎖器，CPU 與記憶體用量低。
+	- 請[閱讀擴充功能文件](https://github.com/gorhill/uBlock/wiki/Blocking-mode)，並選擇其中一種建議模式來提升隱私。
+	- 前往設定 > 篩選器清單 > 惱人項目，開啟 easylist-cookies。即可避免惱人的 Cookie 彈出視窗。
+- [LibRedirect](https://github.com/libredirect/browser_extension) - 簡易網頁擴充功能，可將 Twitter、YouTube、Google Maps 等請求重新導向重視隱私的替代方案。前身 Privacy Redirect 已停止維護，LibRedirect 是持續維護的分支。
+- [Privacy Badger](https://privacybadger.org/) - EFF 推出的瀏覽器擴充功能，會在你瀏覽網頁時學習封鎖追蹤器。開源，採用 GPL-3.0 授權。
+- [ClearURLs](https://clearurls.xyz/) - 瀏覽器擴充功能，可自動移除連結與 URL 中的追蹤參數。開源，採用 LGPL-3.0 授權。
 
-#### Useful Tools
-- [Single File](https://github.com/gildas-lormeau/SingleFile) - Save a faithful copy of an entire web page in a single HTML file so you can use it offline.
+#### 實用工具
+- [Single File](https://github.com/gildas-lormeau/SingleFile) - 將完整網頁忠實儲存為單一 HTML 檔案，以便離線使用。
 
-### Browser Sync
-- [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
+### 瀏覽器同步
+- [xBrowserSync](https://www.xbrowsersync.org/) - 瀏覽器同步就該如此：安全、匿名且免費！
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
-## Whistleblowing
+## 吹哨者通報
 
-✅  **Instead use**
-- [GlobaLeaks](https://www.globaleaks.org/) - Self-hostable whistleblowing platform for organisations, newsrooms and activists, replacing hosted reporting portals. Open source (AGPL-3.0).
-- [SecureDrop](https://securedrop.org/) - Self-hosted submission system that lets newsrooms receive documents from anonymous sources over Tor, replacing email and cloud uploads. Open source (AGPL-3.0).
+✅  **建議改用**
+- [GlobaLeaks](https://www.globaleaks.org/) - 組織、新聞編輯室與行動人士可自行代管的吹哨者通報平台，可取代代管式通報入口網站。開源（AGPL-3.0）。
+- [SecureDrop](https://securedrop.org/) - 可自行代管的投稿系統，讓新聞編輯室透過 Tor 接收匿名來源提供的文件，取代電子郵件與雲端上傳。開源（AGPL-3.0）。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
-## Privacy vs Security vs Anonymity
+## 隱私 vs 安全 vs 匿名
 
-Anonymity, Privacy, and Security are often used interchangeably, but they actually represent distinct concepts. It is important to understand the differences between them.
+匿名、隱私與安全常被混為一談，但實際上是不同的概念。了解它們之間的差異非常重要。
 
-- Privacy is about regulating who has access to your personal information, being aware of the data that is being collected about you, and having the ability to decide who can access it and how. In short, privacy involves controlling your personal information.
+- 隱私關乎管理哪些人能存取你的個人資訊、了解有哪些資料正在被收集，以及決定誰能如何存取資料。簡而言之，隱私就是掌控自己的個人資訊。
 
-- Security refers to safeguarding your personal information from unauthorized access or theft. It involves ensuring that your data is protected and stored in a secure manner, making it difficult for malicious actors to access it.
+- 安全是指保護個人資訊，避免遭未經授權存取或竊取。這包括確保資料受到保護並安全儲存，讓惡意人士難以存取。
 
-- Anonymity is about ensuring that your actions cannot be traced back to you. This means that even if someone discovers what you are doing, they will not be able to identify you as the source.
+- 匿名是確保你的行為無法追溯至你本人。也就是說，即使有人發現你做了什麼，也無法確認你是來源。
 
-It is important to note that privacy and security are not necessarily interdependent. For instance, Google systems are secure and unlikely to be hacked, but Google still has access to your personal data and makes use of it. 
+請注意，隱私與安全不一定相互依存。例如，Google 系統安全且不太可能遭駭，但 Google 仍能存取並使用你的個人資料。
 
-Privacy and anonymity are also not necessarily linked, services like Signal offer high levels of privacy since they do not collect any data about what you say, who you talk to or how you use the app, but they may not be anonymous since you still need to register using your phone number (which is in many cases linked to your identity).
+隱私與匿名也不一定相關。Signal 等服務不會收集你說了什麼、與誰交談或如何使用應用程式的資料，因此提供高度隱私保護；但它們未必匿名，因為你仍須使用電話號碼註冊（許多情況下電話號碼與身分相關）。
 
-Finally, there are services that may offer all three: anonymity, privacy, and security. The primary focus of this list is to provide alternatives that prioritize privacy. These alternatives give you control over your data and do not collect or sell it.
+最後，有些服務或許能同時提供匿名、隱私與安全三者。本清單主要提供以隱私為優先的替代方案，讓你掌控自己的資料，且不會收集或販售資料。
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
 
-## Icons
+## 圖示
 
-| Icon | Meaning |
+| 圖示 | 說明 |
 |-------|---------|
-| 💀    | Caution: The development of this service seems to be inactive for a long time. Maybe the project is abandoned. Investigate before use. |
-| ♻️    | The software is a fork: someone has made a copy of the original project (a fork) and started developing it further independently. |
-| 🧩    | The software uses ActivityPub, a decentralized social networking protocol. |
-| 🤖    | Android Only. |
+| 💀    | 注意：此服務似乎已長時間停止開發，專案可能已遭棄置。使用前請先調查。 |
+| ♻️    | 此軟體為分支：有人複製原始專案（fork），並開始獨立進一步開發。 |
+| 🧩    | 此軟體使用 ActivityPub 去中心化社群網路通訊協定。 |
+| 🤖    | 僅限 Android。 |
 
-[Back to top 🔝](#contents)
+[回到頂端 🔝](#contents)
