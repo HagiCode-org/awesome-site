@@ -1329,146 +1329,146 @@ GNU/Linux 是一系列自由（包含自由之意與免費之意）、開源且�
 
 [Back to top 🔝](#contents)
 
-## Social Networks and Platforms
+## 社群網路與平台
 
 > [!NOTE]
-> **The fediverse**
+> **Fediverse（聯邦宇宙）**
 >
-> The fediverse is a "**fed**erated" "un**iverse**" of social network platforms that are able to talk to one another through a standard and open protocol. This means that you can consume content on any network from any of these networks. You are not locked to a single provider, you are free to choose. Please [watch this video](https://framatube.org/w/9dRFC6Ya11NCVeYKn8ZhiD?start=8s) by FramaSoft that illustrates the concept very good.
+> Fediverse 是能透過標準開放通訊協定彼此溝通的社群網路平台「**聯邦（fed**erated）」「宇宙（un**iverse**）」。這表示你可以從任一網路瀏覽其他網路的內容，不會被單一供應商綁定，可以自由選擇。請[觀看 FramaSoft 的這部影片](https://framatube.org/w/9dRFC6Ya11NCVeYKn8ZhiD?start=8s)，深入了解這個概念。
 >
-> Ideally, we should all move to the fediverse and abandon the centralized and monopolized social networks that are now the most popular (Twitter, Reddit, Instagram...).
+> 理想情況下，我們都應轉向 Fediverse，放棄目前最受歡迎、集中且被壟斷的社群網路（Twitter、Reddit、Instagram 等）。
 >
-> All the apps compatible with the Fediverse (ActivityPub) are marked with a [🧩](#icons)
+> 所有相容 Fediverse（ActivityPub）的應用程式都會標上 [🧩](#icons)。
 
 > [!NOTE]
-> **Alternative frontends and clients**
+> **替代前端與用戶端**
 >
-> Alternative frontends are good to protect your individual privacy. You can still consume the contents of privative and privacy-harmful services with protection over your privacy and some anonymity. Even using most these alternative frontends, still, the privative services will receive requests about the content you are consuming (even not knowing it is you). This sitll harms the collective privacy and adds data to their algorithms in some ways. Only the alternative frontends (or clients) that act as a proxy will hide your real IP from the content provider. 
+> 替代前端有助於保護個人隱私。你仍可在獲得隱私保護及一定程度匿名性的情況下瀏覽專有且有害隱私的服務內容。但即使使用多數替代前端，專有服務仍會收到你正在瀏覽哪些內容的請求（雖然不知道是你本人），在某些方面仍會損害整體隱私，並為其演算法增加資料。只有充當代理伺服器的替代前端（或用戶端）才能向內容供應商隱藏你的真實 IP 位址。
 >
-> You can use these browser extensions and apps to automatically redirect any links to privacy-respecting alternative frontends:
-> - [LibRedirect](https://github.com/libredirect/browser_extension#get) - A web extension that redirects YouTube, Twitter... requests to alternative privacy friendly frontends and backends.
-> - [UntrackMe](https://www.f-droid.org/en/packages/app.fedilab.nitterizeme/) - Transform Youtube, Twitter & other links to their free and open source alternatives.
+> 你可以使用以下瀏覽器擴充功能與應用程式，自動將連結轉向尊重隱私的替代前端：
+> - [LibRedirect](https://github.com/libredirect/browser_extension#get) - 網頁擴充功能，可將 YouTube、Twitter 等請求轉向尊重隱私的替代前端與後端。
+> - [UntrackMe](https://www.f-droid.org/en/packages/app.fedilab.nitterizeme/) - 將 YouTube、Twitter 等連結轉換為自由開源替代方案。
 
 
 
-### Blogging platforms (Medium)
+### 部落格平台（Medium）
 
-⛔ **Avoid**:
-- **Medium** - website has Google trackers and ads.
-- **Blogger** - Google owned, has google trackers and ads.
+⛔ **避免使用**：
+- **Medium** - 網站含有 Google 追蹤器與廣告。
+- **Blogger** - 由 Google 擁有，含有 Google 追蹤器與廣告。
 
-✅ **Alternatives:**
-- [Plume](https://github.com/Plume-org/Plume) [🧩](#icons) - Federated blogging application, thanks to ActivityPub.
-- [WriteFreely](https://writefreely.org/) [🧩](#icons) - An open source platform for building a writing space on the web.
+✅ **替代方案：**
+- [Plume](https://github.com/Plume-org/Plume) [🧩](#icons) - 透過 ActivityPub 實現聯邦式部落格應用程式。
+- [WriteFreely](https://writefreely.org/) [🧩](#icons) - 在網路上建立寫作空間的開源平台。
 
-✅ **Alternative Medium frontends:**
-- [Scribe](https://git.sr.ht/~edwardloveall/scribe/) - Medium alternative forntend inspired by Invidious.
+✅ **Medium 替代前端：**
+- [Scribe](https://git.sr.ht/~edwardloveall/scribe/) - 受 Invidious 啟發的 Medium 替代前端。
 
 ### Instagram
 
 [![](https://shields.tosdr.org/en_219.svg)](https://tosdr.org/en/service/219)
 
-⛔ Don't use Instagram (or at least the official client). Instagram is a very privacy-invasive app with biased results and feeds based on user profiles, it is also used as a manipulation tool and has a lot of censorship going against free speech. Lastly, it has an addictive and toxic UI design.
+⛔ 請勿使用 Instagram（至少不要使用官方用戶端）。Instagram 是非常侵犯隱私的應用程式，會根據使用者個人檔案提供有偏見的搜尋結果與動態，也被用作操縱工具，且有許多違反言論自由的審查。最後，它的 UI 設計令人上癮且有害。
 
-✅ **Instead use**
+✅ **建議改用**
 
-**Alternatives to Instagram**
-- [Pixelfed](https://pixelfed.org/) [🧩](#icons) - Decentralized, federated and Open Source alternative to Instagram with posts, videos, stories, tags, etc.
+**Instagram 替代方案**
+- [Pixelfed](https://pixelfed.org/) [🧩](#icons) - Instagram 的去中心化、聯邦式開源替代方案，支援貼文、影片、限時動態、標籤等。
 
 ### Quora
 
-⛔ Quora's website has ads and trackers that are used to get your data which is then sold/shared to third parties. Their [privacy policy](https://tosdr.org/en/service/314) is bad.
+⛔ Quora 網站含有用來取得你資料的廣告與追蹤器，資料隨後會販售／分享給第三方。其[隱私權政策](https://tosdr.org/en/service/314)不佳。
 
-✅ **Quora alternative frontends (web-based):**
-- [Quetre](https://github.com/zyachel/quetre) - Quetre is an alternative front-end to Quora. It enables you to see answers without ads, trackers, and other such bloat.
+✅ **Quora 替代前端（網頁版）：**
+- [Quetre](https://github.com/zyachel/quetre) - Quora 的替代前端，讓你不受廣告、追蹤器及其他臃腫功能干擾地查看回答。
 
 
 ### YouTube
 
 [![](https://shields.tosdr.org/en_274.svg)](https://tosdr.org/en/service/274)
 
-⛔ Don't use YouTube (or at least the official client). YouTube is very privacy invasive, it generates a very accurate profile based on your interests. Also it is a [radicalization tool](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization) which shows [biased content to users](https://arxiv.org/pdf/1908.08313.pdf) in order to get more engagement and to get them to watch more and more content creating an [addiction](https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883). It never shows you [alternative opinions](https://arxiv.org/pdf/1908.08313.pdf) to your ideology/bias. YouTube censors a lot. YouTube collects a LOT of your data: interests, free time, ideology, likes, dislikes, music taste, etc.
+⛔ 請勿使用 YouTube（至少不要使用官方用戶端）。YouTube 非常侵犯隱私，會根據興趣建立極為精確的個人檔案。此外，它是[激進化工具](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization)，為了提升互動並讓使用者不斷觀看內容，會[向使用者顯示有偏見的內容](https://arxiv.org/pdf/1908.08313.pdf)，造成[成癮](https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883)。它絕不會向你展示與你的意識形態／偏見不同的[其他觀點](https://arxiv.org/pdf/1908.08313.pdf)。YouTube 審查嚴重，也會收集你**大量**資料：興趣、空閒時間、意識形態、喜好、厭惡、音樂品味等。
 
-✅ **Instead use**
-- [Peertube](https://joinpeertube.org/en/) [🧩](#icons) - A free, open and decentralized alternative to video platforms.
-- [Odysee](https://odysee.com/) - Odysee is a video platform backed by the creators of lbry and uses the lbry blockchain protocol.
-- [DTube](https://github.com/dtube/dtube) - A full-featured video sharing website, decentralized.
+✅ **建議改用**
+- [Peertube](https://joinpeertube.org/en/) [🧩](#icons) - 免費、開放且去中心化的影片平台替代方案。
+- [Odysee](https://odysee.com/) - 由 lbry 創作者支持的影片平台，採用 lbry 區塊鏈通訊協定。
+- [DTube](https://github.com/dtube/dtube) - 功能完整的去中心化影片分享網站。
 
-✅ **YouTube alternative frontends (web-based):**
-- [Invidious](https://github.com/iv-org/invidious) - Alternative and privacy respecting YouTube frontend.
-- [Piped](https://github.com/TeamPiped/Piped) - An alternative privacy-friendly YouTube frontend which is efficient by design.
-- [ViewTube](https://github.com/ViewTube/viewtube) - ViewTube is an alternative privacy-friendly YouTube frontend written in Vue.js
-- [Youtube-Local](https://github.com/user234683/youtube-local) - browser-based client for watching Youtube anonymously and with greater page performance.
+✅ **YouTube 替代前端（網頁版）：**
+- [Invidious](https://github.com/iv-org/invidious) - 尊重隱私的 YouTube 替代前端。
+- [Piped](https://github.com/TeamPiped/Piped) - 以高效率為設計理念、重視隱私的 YouTube 替代前端。
+- [ViewTube](https://github.com/ViewTube/viewtube) - 以 Vue.js 編寫、重視隱私的 YouTube 替代前端。
+- [Youtube-Local](https://github.com/user234683/youtube-local) - 瀏覽器用戶端，可匿名觀看 YouTube 並提升頁面效能。
 
-✅ **YouTube alternative clients (apps):**
-- [🤖](#icons) [NewPipe](https://newpipe.net/) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
-- [🤖](#icons) [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
-- [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend).
-- [🤖](#icons) [LibreTube](https://github.com/Libre-tube/LibreTube) - An alternative frontend for YouTube, for Android using Piped.
-- [Yattee](https://github.com/yattee/yattee) - Alternative YouTube frontend for iOS, tvOS and macOS built with Invidious and Piped.
-- [🤖](#icons) [Clipious](https://github.com/lamarios/clipious) [💀](#icons) Invidious client for android
+✅ **YouTube 替代用戶端（應用程式）：**
+- [🤖](#icons) [NewPipe](https://newpipe.net/) - Android YouTube 替代應用程式。無需帳戶、尊重隱私且沒有廣告。
+- [🤖](#icons) [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - Android YouTube 替代應用程式。無需帳戶、尊重隱私且沒有廣告。
+- [FreeTube](https://github.com/FreeTubeApp/FreeTube) - 以隱私為設計核心的開源桌面 YouTube 播放器。（使用本機 RSS API 或 Invidious 作為後端。）
+- [🤖](#icons) [LibreTube](https://github.com/Libre-tube/LibreTube) - 適用於 Android、使用 Piped 的 YouTube 替代前端。
+- [Yattee](https://github.com/yattee/yattee) - 適用於 iOS、tvOS 和 macOS，以 Invidious 與 Piped 打造的 YouTube 替代前端。
+- [🤖](#icons) [Clipious](https://github.com/lamarios/clipious) [💀](#icons) Android Invidious 用戶端。
 
 ### TikTok
 
 [![](https://shields.tosdr.org/en_1448.svg)](https://tosdr.org/en/service/1448)
 
-⛔ Avoid using TikTok, it is a toxic-designed application that harms not only the user privacy but also user integrity. You can take a read on [these several posts](https://www.reddit.com/r/privacy/search?q=tiktok&restrict_sr=on&sort=top&t=all).
+⛔ 避免使用 TikTok，這款應用程式的有害設計不僅損害使用者隱私，也損害使用者身心健全。你可以閱讀[這些相關貼文](https://www.reddit.com/r/privacy/search?q=tiktok&restrict_sr=on&sort=top&t=all)。
 
-✅ **TikTok alternative frontends (web-based):**
-- [ProxiTok](https://github.com/pablouser1/ProxiTok) - Open source alternative frontend for TikTok
+✅ **TikTok 替代前端（網頁版）：**
+- [ProxiTok](https://github.com/pablouser1/ProxiTok) - TikTok 開源替代前端。
 
 ### Twitter
 
 [![](https://shields.tosdr.org/en_195.svg)](https://tosdr.org/en/service/195)
 
-⛔ Avoid using Twitter official app / website. It tracks users and creates user profiles based on what they follow, retweet and like. Twitter harms and violates user privacy with their policies [by default](https://www.eff.org/deeplinks/2017/05/how-opt-out-twitters-new-privacy-settings). 
+⛔ 避免使用 Twitter 官方應用程式／網站。它會追蹤使用者，並根據追蹤、轉推與喜歡的內容建立個人檔案。Twitter 的政策[預設就會](https://www.eff.org/deeplinks/2017/05/how-opt-out-twitters-new-privacy-settings)損害並侵犯使用者隱私。
 
-#### Self-hosted
+#### 自行代管
 
-- [Memos](https://github.com/usememos/memos) - An open-source, self-hosted memo hub with knowledge management and socialization.
+- [Memos](https://github.com/usememos/memos) - 開源、可自行代管的備忘錄中心，具備知識管理與社交功能。
 
-#### Decentralized
+#### 去中心化
 
-- [Nostr](https://nostr.com/) - Open protocol that is able to create a censorship-resistant global "social" network. It doesn't rely on any trusted central server, hence it is resilient; it is based on cryptographic keys and signatures, so it is tamperproof; it does not rely on P2P techniques, therefore it works. **Note**: Nostr is a protocol, so it is capable of offering much more than a Twitter alternative.
+- [Nostr](https://nostr.com/) - 可建立抗審查全球「社群」網路的開放通訊協定。不依賴任何受信任的中央伺服器，因此具有韌性；以密碼學金鑰與簽章為基礎，因此防竄改；不依賴 P2P 技術，因此能正常運作。**注意**：Nostr 是一種通訊協定，能提供遠超 Twitter 替代方案的功能。
 
 > [!NOTE]
-> **Federated social networks**: A federated social network isn't a single website like Twitter or Facebook, it's a network of thousands of communities operated by different organizations and individuals that provide a seamless social media experience.
+> **聯邦式社群網路**：聯邦式社群網路並非 Twitter 或 Facebook 這類單一網站，而是由不同組織與個人營運的數千個社群所組成的網路，提供無縫的社群媒體體驗。
 
-- [Mastodon](https://joinmastodon.org/) [🧩](#icons) - Free, federated microblogging social network built on open protocols.
-  - [Mastodon Apps](https://joinmastodon.org/apps) - List of Mastodon apps for Android, iOS, Web and Desktop.
-- [Pleroma](https://pleroma.social/) [🧩](#icons) - Pleroma is a free, federated social networking server built on open protocols.
-  - [Soapbox](https://gitlab.com/soapbox-pub/soapbox-fe) - A frontend for Pleroma with a focus on custom branding and ease of use.
+- [Mastodon](https://joinmastodon.org/) [🧩](#icons) - 以開放通訊協定打造的免費聯邦式微網誌社群網路。
+  - [Mastodon Apps](https://joinmastodon.org/apps) - Android、iOS、網頁與桌面版 Mastodon 應用程式清單。
+- [Pleroma](https://pleroma.social/) [🧩](#icons) - 以開放通訊協定打造的免費聯邦式社群網路伺服器。
+  - [Soapbox](https://gitlab.com/soapbox-pub/soapbox-fe) - Pleroma 前端，著重自訂品牌與易用性。
 
-#### Alternative Frontends
-- [Nitter](https://github.com/zedeus/nitter/wiki/Instances) [💀](#icons) - Nitter is a free and open source alternative Twitter front-end focused on privacy.
-- [Squawker](https://github.com/j-fbriere/squawker) - Open source Twitter client for Android, the maintained fork of Fritter.
-- [Feetter](https://codeberg.org/pluja/Feetter) [💀](#icons) - Create, sync and manage Nitter feeds without registration from any device.
+#### 替代前端
+- [Nitter](https://github.com/zedeus/nitter/wiki/Instances) [💀](#icons) - 免費開源、重視隱私的 Twitter 替代前端。
+- [Squawker](https://github.com/j-fbriere/squawker) - Android 開源 Twitter 用戶端，是持續維護的 Fritter 分支。
+- [Feetter](https://codeberg.org/pluja/Feetter) [💀](#icons) - 無需註冊即可在任何裝置建立、同步與管理 Nitter 摘要。
 
 ### Reddit
 
 [![](https://shields.tosdr.org/en_194.svg)](https://tosdr.org/en/service/194)
 
-⛔ Try to avoid using Reddit or at least avoid their official clients as they are plenty of trackers, ads and share unnecessary user data with their servers.
+⛔ 盡量避免使用 Reddit，至少不要使用官方用戶端，因為它們充斥追蹤器與廣告，並會將不必要的使用者資料分享給伺服器。
 
-✅ **Reddit alternatives:**
-- [Aether](https://getaether.net/) - Peer-to-peer ephemeral public communities.
-- [Mbin](https://github.com/MbinOrg/mbin) [🧩](#icons) - A reddit-like content aggregator and micro-blogging platform for the fediverse; the community-maintained continuation of kbin.
-- [Lemmy](https://join-lemmy.org/) [🧩](#icons) - A federated and open alternative to Reddit in Rust.
+✅ **Reddit 替代方案：**
+- [Aether](https://getaether.net/) - 點對點、短暫存在的公開社群。
+- [Mbin](https://github.com/MbinOrg/mbin) [🧩](#icons) - Fediverse 的 Reddit 式內容彙整與微網誌平台，是由社群維護的 kbin 延續專案。
+- [Lemmy](https://join-lemmy.org/) [🧩](#icons) - 以 Rust 編寫的聯邦式開源 Reddit 替代方案。
 
-✅ **Privacy respecting Reddit clients:**
-- [Redlib](https://github.com/redlib-org/redlib) - An alternative private front-end to Reddit, with its origins in Libreddit.
+✅ **尊重隱私的 Reddit 用戶端：**
+- [Redlib](https://github.com/redlib-org/redlib) - Reddit 的私密替代前端，源自 Libreddit。
 
-### Streaming Platforms (Twitch)
+### 串流平台（Twitch）
 
 [![](https://shields.tosdr.org/en_200.svg)](https://tosdr.org/en/service/200)
 
-⛔  Avoid using platforms as Twitch, Patreon, YouTube as they are very privacy-invasive with your viewers (and you!). Instead, you can try using some self-hosted platforms that do take care of everyone's privacy.
+⛔ 避免使用 Twitch、Patreon、YouTube 等平台，因為它們會嚴重侵犯你（以及觀眾）的隱私。建議改用能保護所有人隱私的自行代管平台。
 
-✅ **Alternatives:**
-- [Owncast](https://github.com/owncast/owncast) - Take control over your live stream video by running it yourself. Streaming + chat out of the box.
+✅ **替代方案：**
+- [Owncast](https://github.com/owncast/owncast) - 自行執行直播服務，掌控自己的直播影片。開箱即用，支援串流與聊天。
 
-✅ **Privacy respecting Twitch clients:**
-- [🤖](#icons) [Twire](https://github.com/twireapp/Twire) - Open source, ad-free Twitch browser and stream player for Android.
+✅ **尊重隱私的 Twitch 用戶端：**
+- [🤖](#icons) [Twire](https://github.com/twireapp/Twire) - Android 開源、無廣告的 Twitch 瀏覽器與串流播放器。
 
 [Back to top 🔝](#contents)
 
