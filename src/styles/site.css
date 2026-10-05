@@ -37,6 +37,112 @@
   margin-top: 0.75rem;
 }
 
+.awesome-external-warning {
+  box-sizing: border-box;
+  width: min(34rem, calc(100vw - 2rem));
+  max-width: none;
+  max-height: min(90vh, 48rem);
+  overflow: auto;
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: 0.75rem;
+  padding: clamp(1.25rem, 4vw, 2rem);
+  color: var(--sl-color-text);
+  background: var(--sl-color-bg);
+}
+
+.awesome-external-warning::backdrop {
+  background: rgb(0 0 0 / 65%);
+}
+
+.awesome-external-warning h2 {
+  margin-block: 0 0.75rem;
+  color: var(--sl-color-white);
+  font-size: 1.35rem;
+}
+
+.awesome-external-warning p {
+  margin-block: 0.5rem;
+}
+
+.awesome-external-warning-label {
+  margin-block-start: 1.25rem !important;
+  font-weight: 650;
+}
+
+.awesome-external-warning-host {
+  font-family: var(--sl-font-mono);
+  font-weight: 650;
+}
+
+.awesome-external-warning-url {
+  overflow-wrap: anywhere;
+  unicode-bidi: plaintext;
+  font-family: var(--sl-font-mono);
+  font-size: 0.9rem;
+}
+
+.awesome-external-warning-error {
+  color: var(--sl-color-red);
+}
+
+.awesome-external-warning-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-block-start: 1.5rem;
+}
+
+.awesome-external-warning-actions > :is(button, a) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: 0.4rem;
+  padding: 0.55rem 0.85rem;
+  color: var(--sl-color-text);
+  background: var(--sl-color-bg);
+  font: inherit;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.awesome-external-warning-actions > a:not([aria-disabled="true"]) {
+  border-color: var(--sl-color-text-accent);
+  color: var(--sl-color-black);
+  background: var(--sl-color-text-accent);
+}
+
+.awesome-external-warning-actions > [aria-disabled="true"] {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.awesome-external-warning-actions > :focus-visible {
+  outline: 2px solid var(--sl-color-text-accent);
+  outline-offset: 0.2rem;
+}
+
+@media (max-width: 30rem) {
+  .awesome-external-warning-actions {
+    flex-direction: column;
+  }
+
+  .awesome-external-warning-actions > :is(button, a) {
+    width: 100%;
+  }
+}
+
+@media print {
+  .awesome-external-warning,
+  .awesome-external-warning::backdrop {
+    display: none !important;
+  }
+}
+
 .awesome-welcome {
   --awesome-signal: #b8ee75;
   --awesome-ink: #192510;

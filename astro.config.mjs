@@ -125,7 +125,10 @@ export default defineConfig({
           items: topicItems,
         },
       ],
-      components: { PageTitle: "./src/components/PageTitle.astro" },
+      components: {
+        PageTitle: "./src/components/PageTitle.astro",
+        PageFrame: "./src/components/PageFrame.astro",
+      },
       customCss: ["./src/styles/site.css"],
       plugins: [
         hagilight({

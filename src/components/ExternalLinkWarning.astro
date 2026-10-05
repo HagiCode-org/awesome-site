@@ -1,0 +1,28 @@
+---
+import { getExternalLinkWarningCopy } from "../external-link-copy.mjs";
+
+const locale = Astro.locals.starlightRoute.locale ?? "root";
+const copy = getExternalLinkWarningCopy(locale);
+---
+
+<dialog
+  class="awesome-external-warning"
+  aria-labelledby="awesome-external-warning-heading"
+  aria-describedby="awesome-external-warning-explanation"
+  data-warning-fallback={copy.fallback}
+  data-pagefind-ignore
+>
+  <h2 id="awesome-external-warning-heading">{copy.heading}</h2>
+  <p id="awesome-external-warning-explanation">{copy.explanation}</p>
+  <p class="awesome-external-warning-label">{copy.destination}</p>
+  <p class="awesome-external-warning-host" data-warning-host></p>
+  <p class="awesome-external-warning-url" data-warning-url></p>
+  <p class="awesome-external-warning-error" data-warning-error role="alert" aria-live="assertive" hidden>{copy.invalid}</p>
+  <div class="awesome-external-warning-actions">
+    <button type="button" data-warning-stay autofocus>{copy.stay}</button>
+    <a data-warning-continue aria-disabled="true" tabindex="-1">{copy.continue}</a>
+  </div>
+  <script>
+    import "../external-link-warning.mjs";
+  </script>
+</dialog>
