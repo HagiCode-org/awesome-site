@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "知识蒸馏精选",
+      "description": "知识蒸馏及相关模型知识迁移方法的精选论文、视频与实现资源。",
+      "sourceDigest": "9fa5f6da0d8fe2c8ffebd05b92f010768275960598dfb3fdcd61d1f1928773a8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "知識蒸餾精選",
+      "description": "知識蒸餾及相關模型知識轉移方法的精選論文、影片與實作資源。",
+      "sourceDigest": "9fa5f6da0d8fe2c8ffebd05b92f010768275960598dfb3fdcd61d1f1928773a8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Sélection sur la distillation des connaissances",
+      "description": "Sélection d’articles, de vidéos et d’implémentations sur la distillation des connaissances et les méthodes de transfert entre modèles.",
+      "sourceDigest": "9fa5f6da0d8fe2c8ffebd05b92f010768275960598dfb3fdcd61d1f1928773a8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Auswahl zur Wissensdestillation",
+      "description": "Ausgewählte Arbeiten, Videos und Implementierungen zur Wissensdestillation und verwandten Verfahren zur Wissensübertragung zwischen Modellen.",
+      "sourceDigest": "9fa5f6da0d8fe2c8ffebd05b92f010768275960598dfb3fdcd61d1f1928773a8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Selección sobre destilación del conocimiento",
+      "description": "Selección de artículos, vídeos e implementaciones sobre destilación del conocimiento y métodos relacionados para transferir conocimiento entre modelos.",
+      "sourceDigest": "9fa5f6da0d8fe2c8ffebd05b92f010768275960598dfb3fdcd61d1f1928773a8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "知識蒸留の厳選資料",
+      "description": "知識蒸留と、モデル間で知識を転移する関連手法に関する論文、動画、実装を厳選して紹介します。",
+      "sourceDigest": "9fa5f6da0d8fe2c8ffebd05b92f010768275960598dfb3fdcd61d1f1928773a8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "지식 증류 자료 모음",
+      "description": "지식 증류와 모델 간 지식 전달 관련 방법을 다룬 논문, 동영상 및 구현 자료를 엄선했습니다.",
+      "sourceDigest": "9fa5f6da0d8fe2c8ffebd05b92f010768275960598dfb3fdcd61d1f1928773a8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Seleção sobre destilação de conhecimento",
+      "description": "Seleção de artigos, vídeos e implementações sobre destilação de conhecimento e métodos relacionados de transferência entre modelos.",
+      "sourceDigest": "9fa5f6da0d8fe2c8ffebd05b92f010768275960598dfb3fdcd61d1f1928773a8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка по дистилляции знаний",
+      "description": "Подборка статей, видео и реализаций по дистилляции знаний и связанным методам переноса знаний между моделями.",
+      "sourceDigest": "9fa5f6da0d8fe2c8ffebd05b92f010768275960598dfb3fdcd61d1f1928773a8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

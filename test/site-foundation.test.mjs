@@ -5,6 +5,7 @@ import path from "node:path";
 import test from "node:test";
 import { fileURLToPath } from "node:url";
 import { getWelcomeCopy } from "../src/home-copy.mjs";
+import { getExternalLinkWarningCopy } from "../src/external-link-copy.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 const siteUrl = new URL(process.env.SITE_URL ?? "http://localhost:36265").origin;
@@ -59,6 +60,18 @@ function headingIn(html) {
     .trim();
 }
 
+function assertExternalLinkWarning(html, locale) {
+  const warning = section(html, '<dialog class="awesome-external-warning"', "</dialog>");
+  const copy = getExternalLinkWarningCopy(locale);
+  assert.equal((html.match(/<dialog class="awesome-external-warning"/gu) ?? []).length, 1);
+  assert.ok(warning.includes(`<h2 id="awesome-external-warning-heading">${copy.heading}</h2>`));
+  assert.ok(warning.includes("data-pagefind-ignore"));
+  assert.ok(html.includes("/_astro/ExternalLinkWarning.astro_astro_type_script_index_0_lang."));
+  if (/<main data-pagefind-body/u.test(html)) {
+    assert.doesNotMatch(mainContent(html), /awesome-external-warning|Leave Awesome Site/u);
+  }
+}
+
 test("SITE_URL is required outside dev and must be an absolute HTTP(S) URL", () => {
   const cases = [
     [undefined, false],
@@ -102,6 +115,8 @@ test("built pages use Awesome Site identity, local routes, shared shell, and gen
   assert.match(home, /href="https:\/\/tasks\.hagicode\.com\/"[^>]*>HagiTask</u);
   assert.match(home, /class="hagilight-article-promotion(?:\s|")/u);
   assert.doesNotMatch(home, /googletagmanager|google-analytics|51la/u);
+  assertExternalLinkWarning(home, "root");
+  assertExternalLinkWarning(notFound, "root");
 
   assert.ok(home.includes(`rel="canonical" href="${siteUrl}/"`));
   assert.match(mainContent(home), /href="\/awesome\/awesome-github-profile-readme\/"/u);
@@ -209,6 +224,9 @@ test("built pages use Awesome Site identity, local routes, shared shell, and gen
     ]);
 
     assert.match(localizedHome, new RegExp(`<html lang="${lang}"`));
+    for (const html of [localizedHome, localizedCollection, localizedIndex, localizedTopic]) {
+      assertExternalLinkWarning(html, locale);
+    }
     const localizedHomeMain = mainContent(localizedHome);
     const localizedIndexMain = mainContent(localizedIndex);
     const localizedSidebars = [localizedHome, localizedCollection, localizedIndex, localizedTopic]

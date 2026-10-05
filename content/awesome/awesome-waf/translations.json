@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "WAF 精选",
+      "description": "精选 Web 应用防火墙资源、指纹特征、工具、测试方法、研究资料及规避技术参考。",
+      "sourceDigest": "a44b49a818726519c200e80c148fbe92f7e656fa64985f250106830fdece44e7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "WAF 精選",
+      "description": "精選 Web 應用程式防火牆資源、指紋特徵、工具、測試方法、研究資料與規避技術參考。",
+      "sourceDigest": "a44b49a818726519c200e80c148fbe92f7e656fa64985f250106830fdece44e7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Sélection de ressources WAF",
+      "description": "Une sélection de ressources sur les pare-feu applicatifs Web : empreintes, outils, méthodes de test, recherches et techniques de contournement.",
+      "sourceDigest": "a44b49a818726519c200e80c148fbe92f7e656fa64985f250106830fdece44e7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "WAF-Ressourcensammlung",
+      "description": "Eine kuratierte Sammlung von Ressourcen zu Web Application Firewalls: Fingerprints, Tools, Testmethoden, Forschung und Umgehungstechniken.",
+      "sourceDigest": "a44b49a818726519c200e80c148fbe92f7e656fa64985f250106830fdece44e7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Recursos destacados sobre WAF",
+      "description": "Una selección de recursos sobre cortafuegos de aplicaciones web: huellas, herramientas, métodos de prueba, investigaciones y técnicas de evasión.",
+      "sourceDigest": "a44b49a818726519c200e80c148fbe92f7e656fa64985f250106830fdece44e7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "WAF リソース集",
+      "description": "Web アプリケーションファイアウォールのリソース、フィンガープリント、ツール、テスト方法、研究、回避技術を厳選して紹介します。",
+      "sourceDigest": "a44b49a818726519c200e80c148fbe92f7e656fa64985f250106830fdece44e7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "WAF 리소스 모음",
+      "description": "웹 애플리케이션 방화벽 리소스, 지문, 도구, 테스트 방법, 연구 및 우회 기술 참고 자료를 엄선한 목록입니다.",
+      "sourceDigest": "a44b49a818726519c200e80c148fbe92f7e656fa64985f250106830fdece44e7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Seleção de recursos sobre WAF",
+      "description": "Uma seleção de recursos sobre firewalls de aplicações Web: fingerprints, ferramentas, métodos de teste, pesquisas e técnicas de evasão.",
+      "sourceDigest": "a44b49a818726519c200e80c148fbe92f7e656fa64985f250106830fdece44e7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка материалов о WAF",
+      "description": "Подборка ресурсов по межсетевым экранам веб-приложений: сигнатуры, инструменты, методы тестирования, исследования и способы обхода.",
+      "sourceDigest": "a44b49a818726519c200e80c148fbe92f7e656fa64985f250106830fdece44e7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

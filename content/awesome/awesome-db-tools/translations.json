@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Awesome 数据库工具",
+      "description": "数据库工具精选清单。",
+      "sourceDigest": "07696fd07c5641c45d80920eaa58047ae7ad0abc29d09431d464fae8dfa80976",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Awesome 資料庫工具",
+      "description": "資料庫工具精選清單。",
+      "sourceDigest": "07696fd07c5641c45d80920eaa58047ae7ad0abc29d09431d464fae8dfa80976",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Sélection d’outils de base de données",
+      "description": "Une sélection d’outils pour bases de données.",
+      "sourceDigest": "07696fd07c5641c45d80920eaa58047ae7ad0abc29d09431d464fae8dfa80976",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Auswahl an Datenbankwerkzeugen",
+      "description": "Eine kuratierte Sammlung von Datenbankwerkzeugen.",
+      "sourceDigest": "07696fd07c5641c45d80920eaa58047ae7ad0abc29d09431d464fae8dfa80976",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Selección de herramientas de bases de datos",
+      "description": "Una selección de herramientas de bases de datos.",
+      "sourceDigest": "07696fd07c5641c45d80920eaa58047ae7ad0abc29d09431d464fae8dfa80976",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "データベースツールの厳選集",
+      "description": "データベースツールを厳選してまとめたリストです。",
+      "sourceDigest": "07696fd07c5641c45d80920eaa58047ae7ad0abc29d09431d464fae8dfa80976",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "엄선한 데이터베이스 도구",
+      "description": "엄선한 데이터베이스 도구 모음입니다.",
+      "sourceDigest": "07696fd07c5641c45d80920eaa58047ae7ad0abc29d09431d464fae8dfa80976",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Seleção de ferramentas para bancos de dados",
+      "description": "Uma seleção de ferramentas para bancos de dados.",
+      "sourceDigest": "07696fd07c5641c45d80920eaa58047ae7ad0abc29d09431d464fae8dfa80976",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка инструментов для баз данных",
+      "description": "Подборка инструментов для работы с базами данных.",
+      "sourceDigest": "07696fd07c5641c45d80920eaa58047ae7ad0abc29d09431d464fae8dfa80976",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

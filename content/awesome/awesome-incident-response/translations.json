@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "安全事件响应资源",
+      "description": "精选安全事件响应工具与资源，涵盖数字取证、事件调查和响应（DFIR），帮助安全分析师及团队处理事件。",
+      "sourceDigest": "ff840fb55e17f94597a1b22bf22cf5fd390cae617a5111e7b12ff55e107ee4ca",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "資安事件應變資源",
+      "description": "精選資安事件應變工具與資源，涵蓋數位鑑識、事件調查與應變（DFIR），協助安全分析師及團隊處理事件。",
+      "sourceDigest": "ff840fb55e17f94597a1b22bf22cf5fd390cae617a5111e7b12ff55e107ee4ca",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Ressources de réponse aux incidents",
+      "description": "Une sélection d’outils et de ressources pour la réponse aux incidents de sécurité, la criminalistique numérique et la réponse aux incidents (DFIR), à destination des analystes et des équipes.",
+      "sourceDigest": "ff840fb55e17f94597a1b22bf22cf5fd390cae617a5111e7b12ff55e107ee4ca",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Ressourcen zur Reaktion auf Sicherheitsvorfälle",
+      "description": "Eine kuratierte Sammlung von Tools und Ressourcen für die Reaktion auf Sicherheitsvorfälle sowie Digital Forensics and Incident Response (DFIR), für Sicherheitsanalysten und Teams.",
+      "sourceDigest": "ff840fb55e17f94597a1b22bf22cf5fd390cae617a5111e7b12ff55e107ee4ca",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Recursos de respuesta a incidentes",
+      "description": "Selección de herramientas y recursos para responder a incidentes de seguridad y para DFIR (análisis forense digital y respuesta ante incidentes), dirigida a analistas y equipos de seguridad.",
+      "sourceDigest": "ff840fb55e17f94597a1b22bf22cf5fd390cae617a5111e7b12ff55e107ee4ca",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "セキュリティインシデント対応リソース",
+      "description": "セキュリティアナリストやチーム向けに、セキュリティインシデント対応、デジタルフォレンジック、インシデント対応（DFIR）のツールと資料を厳選しています。",
+      "sourceDigest": "ff840fb55e17f94597a1b22bf22cf5fd390cae617a5111e7b12ff55e107ee4ca",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "보안 인시던트 대응 자료",
+      "description": "보안 분석가와 팀을 위해 보안 인시던트 대응 및 디지털 포렌식·인시던트 대응(DFIR) 도구와 자료를 엄선했습니다.",
+      "sourceDigest": "ff840fb55e17f94597a1b22bf22cf5fd390cae617a5111e7b12ff55e107ee4ca",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Recursos de resposta a incidentes",
+      "description": "Seleção de ferramentas e recursos para resposta a incidentes de segurança e DFIR (forense digital e resposta a incidentes), voltada a analistas e equipes de segurança.",
+      "sourceDigest": "ff840fb55e17f94597a1b22bf22cf5fd390cae617a5111e7b12ff55e107ee4ca",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Ресурсы по реагированию на инциденты",
+      "description": "Подборка инструментов и ресурсов для реагирования на инциденты безопасности, цифровой криминалистики и реагирования (DFIR), предназначенная для аналитиков и команд безопасности.",
+      "sourceDigest": "ff840fb55e17f94597a1b22bf22cf5fd390cae617a5111e7b12ff55e107ee4ca",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

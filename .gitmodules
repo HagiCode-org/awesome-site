@@ -142,3 +142,117 @@
 [submodule "sources/awesome-algorithms"]
 	path = sources/awesome-algorithms
 	url = https://github.com/tayllan/awesome-algorithms.git
+[submodule "sources/awesome-privacy"]
+	path = sources/awesome-privacy
+	url = https://github.com/pluja/awesome-privacy.git
+[submodule "sources/awesome-agent-skills"]
+	path = sources/awesome-agent-skills
+	url = https://github.com/VoltAgent/awesome-agent-skills.git
+[submodule "sources/awesome-ai4s"]
+	path = sources/awesome-ai4s
+	url = https://github.com/hyperai/awesome-ai4s.git
+[submodule "sources/awesome-agentic-patterns"]
+	path = sources/awesome-agentic-patterns
+	url = https://github.com/nibzard/awesome-agentic-patterns.git
+[submodule "sources/awesome-automl-papers"]
+	path = sources/awesome-automl-papers
+	url = https://github.com/hibayesian/awesome-automl-papers.git
+[submodule "sources/awesome-bash"]
+	path = sources/awesome-bash
+	url = https://github.com/awesome-lists/awesome-bash.git
+[submodule "sources/awesome-chatgpt-prompts-zh"]
+	path = sources/awesome-chatgpt-prompts-zh
+	url = https://github.com/PlexPt/awesome-chatgpt-prompts-zh.git
+[submodule "sources/awesome-cloud-security"]
+	path = sources/awesome-cloud-security
+	url = https://github.com/teamssix/awesome-cloud-security.git
+[submodule "sources/awesome-compose"]
+	path = sources/awesome-compose
+	url = https://github.com/docker/awesome-compose.git
+[submodule "sources/awesome-copilot"]
+	path = sources/awesome-copilot
+	url = https://github.com/github/awesome-copilot.git
+[submodule "sources/awesome-ctf"]
+	path = sources/awesome-ctf
+	url = https://github.com/apsdehal/awesome-ctf.git
+[submodule "sources/awesome-datascience"]
+	path = sources/awesome-datascience
+	url = https://github.com/academic/awesome-datascience.git
+[submodule "sources/awesome-db-tools"]
+	path = sources/awesome-db-tools
+	url = https://github.com/mgramin/awesome-db-tools.git
+[submodule "sources/awesome-deepseek-integration"]
+	path = sources/awesome-deepseek-integration
+	url = https://github.com/deepseek-ai/awesome-deepseek-integration.git
+[submodule "sources/awesome-design-md"]
+	path = sources/awesome-design-md
+	url = https://github.com/VoltAgent/awesome-design-md.git
+[submodule "sources/awesome-deep-text-detection-recognition"]
+	path = sources/awesome-deep-text-detection-recognition
+	url = https://github.com/hwalsuklee/awesome-deep-text-detection-recognition.git
+[submodule "sources/awesome-django"]
+	path = sources/awesome-django
+	url = https://github.com/wsvincent/awesome-django.git
+[submodule "sources/awesome-fastapi"]
+	path = sources/awesome-fastapi
+	url = https://github.com/mjhea0/awesome-fastapi.git
+[submodule "sources/awesome-flask"]
+	path = sources/awesome-flask
+	url = https://github.com/humiaozuzu/awesome-flask.git
+[submodule "sources/awesome-generative-ai"]
+	path = sources/awesome-generative-ai
+	url = https://github.com/steven2358/awesome-generative-ai.git
+[submodule "sources/awesome-generative-ai-guide"]
+	path = sources/awesome-generative-ai-guide
+	url = https://github.com/aishwaryanr/awesome-generative-ai-guide.git
+[submodule "sources/awesome-golang-algorithm"]
+	path = sources/awesome-golang-algorithm
+	url = https://github.com/6boris/awesome-golang-algorithm.git
+[submodule "sources/awesome-gpt-agents"]
+	path = sources/awesome-gpt-agents
+	url = https://github.com/fr0gger/Awesome-GPT-Agents.git
+[submodule "sources/awesome-incident-response"]
+	path = sources/awesome-incident-response
+	url = https://github.com/meirwah/awesome-incident-response.git
+[submodule "sources/awesome-k8s-resources"]
+	path = sources/awesome-k8s-resources
+	url = https://github.com/tomhuang12/awesome-k8s-resources.git
+[submodule "sources/awesome-knowledge-distillation"]
+	path = sources/awesome-knowledge-distillation
+	url = https://github.com/dkozlov/awesome-knowledge-distillation.git
+[submodule "sources/awesome-llm-resources"]
+	path = sources/awesome-llm-resources
+	url = https://github.com/WangRongsheng/awesome-LLM-resources.git
+[submodule "sources/awesome-llm-strawberry"]
+	path = sources/awesome-llm-strawberry
+	url = https://github.com/hijkzzz/Awesome-LLM-Strawberry.git
+[submodule "sources/awesome-microservices"]
+	path = sources/awesome-microservices
+	url = https://github.com/mfornos/awesome-microservices.git
+[submodule "sources/awesome-paddle-deeplearning"]
+	path = sources/awesome-paddle-deeplearning
+	url = https://github.com/PaddlePaddle/awesome-DeepLearning.git
+[submodule "sources/awesome-prompt-engineering"]
+	path = sources/awesome-prompt-engineering
+	url = https://github.com/promptslab/Awesome-Prompt-Engineering.git
+[submodule "sources/awesome-react-components"]
+	path = sources/awesome-react-components
+	url = https://github.com/brillout/awesome-react-components.git
+[submodule "sources/awesome-rlhf"]
+	path = sources/awesome-rlhf
+	url = https://github.com/opendilab/awesome-RLHF.git
+[submodule "sources/awesome-sre"]
+	path = sources/awesome-sre
+	url = https://github.com/dastergon/awesome-sre.git
+[submodule "sources/awesome-software-architecture"]
+	path = sources/awesome-software-architecture
+	url = https://github.com/mehdihadeli/awesome-software-architecture.git
+[submodule "sources/awesome-system-design"]
+	path = sources/awesome-system-design
+	url = https://github.com/madd86/awesome-system-design.git
+[submodule "sources/awesome-threat-intelligence"]
+	path = sources/awesome-threat-intelligence
+	url = https://github.com/hslatman/awesome-threat-intelligence.git
+[submodule "sources/awesome-waf"]
+	path = sources/awesome-waf
+	url = https://github.com/0xInfection/Awesome-WAF.git

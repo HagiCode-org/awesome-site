@@ -8,6 +8,7 @@ import {
   loadSourceReviews,
   reconcileSourceReviews,
   validateSourceReviews,
+  validateReadmeRightsReviews,
 } from "../scripts/source-reviews.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
@@ -215,6 +216,7 @@ test("migration data covers the ledger baseline and both registries", async () =
     readFile(path.join(root, "content/awesome/candidates.json"), "utf8").then(JSON.parse),
   ]);
   const reviews = await loadSourceReviews(ledgerPath);
+  const rightsReviews = reviews.filter((review) => Object.hasOwn(review, "reviewedAt"));
   const baseline = new Set([
     ...collections.map((entry) => identity(entry.repositoryUrl)),
     ...candidates.map((entry) => identity(entry.repositoryUrl)),
@@ -226,12 +228,14 @@ test("migration data covers the ledger baseline and both registries", async () =
   const collectionByIdentity = new Map(collections.map((item) => [identity(item.repositoryUrl), item]));
   const candidateByIdentity = new Map(candidates.map((item) => [identity(item.repositoryUrl), item]));
 
-  assert.equal(candidates.length, 50);
+  assert.equal(rightsReviews.length, candidates.length);
+  assert.ok(rightsReviews.every(({ disposition }) =>
+    disposition === "github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared"));
   assert.ok(candidates.every(({ licenseId }) =>
     ["CC0-1.0", "MIT", "Apache-2.0", "Unlicense", "WTFPL"].includes(licenseId)));
   assert.equal(baseline.size, 69);
-  assert.equal(reviews.length, 96);
-  assert.equal(new Set(reviews.map(({ id }) => id)).size, 96);
+  assert.equal(reviews.length, 97);
+  assert.equal(new Set(reviews.map(({ id }) => id)).size, 97);
   assert.equal(reviewsByIdentity.size, reviews.length);
   for (const source of baseline) {
     const item = reviewsByIdentity.get(source);
@@ -240,9 +244,26 @@ test("migration data covers the ledger baseline and both registries", async () =
     if (candidateByIdentity.has(source)) assert.equal(item.imported, false, `${source} candidate status`);
   }
   assert.equal(reviews.filter(({ imported }) => imported).length, collections.length);
-  assert.equal(reviews.filter(({ imported }) => !imported).length, 80);
+  assert.equal(reviews.filter(({ imported }) => !imported).length, reviews.length - collections.length);
   assert.match(reviewsByIdentity.get("jamzywang/awesome-redis").notImportedReason, /746.*below.*1,000/u);
   assert.match(reviewsByIdentity.get("heapy/awesome-kotlin").notImportedReason, /introduction/u);
   assert.match(reviewsByIdentity.get("awesomedata/awesome-public-datasets").notImportedReason, /reStructuredText/u);
   assert.doesNotThrow(() => reconcileSourceReviews(reviews, collections, candidates));
+  assert.doesNotThrow(() => validateReadmeRightsReviews(rightsReviews, candidates));
+
+  const rightsDirectory = await mkdtemp(path.join(os.tmpdir(), "readme-rights-unquoted-"));
+  const rightsPath = path.join(rightsDirectory, "reviews.yml");
+  const rightsSource = await readFile(ledgerPath, "utf8");
+  try {
+    await writeFile(rightsPath, rightsSource.replace(
+      /^  reviewedAt: "([^"]+)"$/mu,
+      "  reviewedAt: $1",
+    ));
+    await assert.rejects(
+      loadSourceReviews(rightsPath),
+      /reviewedAt must be a quoted UTC timestamp/u,
+    );
+  } finally {
+    await rm(rightsDirectory, { recursive: true, force: true });
+  }
 });

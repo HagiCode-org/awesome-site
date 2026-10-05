@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Awesome Compose 示例精选",
+      "description": "Docker Compose 示例精选列表。",
+      "sourceDigest": "879fa3222cf509885aa37b55268882252ba65908597b726378c0a62a275041f7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Awesome Compose 範例精選",
+      "description": "Docker Compose 範例精選清單。",
+      "sourceDigest": "879fa3222cf509885aa37b55268882252ba65908597b726378c0a62a275041f7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Sélection Awesome Compose",
+      "description": "Une sélection d’exemples Docker Compose.",
+      "sourceDigest": "879fa3222cf509885aa37b55268882252ba65908597b726378c0a62a275041f7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Awesome Compose – Beispiele",
+      "description": "Eine kuratierte Sammlung von Docker-Compose-Beispielen.",
+      "sourceDigest": "879fa3222cf509885aa37b55268882252ba65908597b726378c0a62a275041f7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Selección de Awesome Compose",
+      "description": "Una lista seleccionada de ejemplos de Docker Compose.",
+      "sourceDigest": "879fa3222cf509885aa37b55268882252ba65908597b726378c0a62a275041f7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Awesome Compose サンプル集",
+      "description": "Docker Compose のサンプルを厳選したリストです。",
+      "sourceDigest": "879fa3222cf509885aa37b55268882252ba65908597b726378c0a62a275041f7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Awesome Compose 샘플 모음",
+      "description": "Docker Compose 샘플을 엄선한 목록입니다.",
+      "sourceDigest": "879fa3222cf509885aa37b55268882252ba65908597b726378c0a62a275041f7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Seleção de exemplos do Awesome Compose",
+      "description": "Uma lista selecionada de exemplos do Docker Compose.",
+      "sourceDigest": "879fa3222cf509885aa37b55268882252ba65908597b726378c0a62a275041f7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка Awesome Compose",
+      "description": "Подборка примеров Docker Compose.",
+      "sourceDigest": "879fa3222cf509885aa37b55268882252ba65908597b726378c0a62a275041f7",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

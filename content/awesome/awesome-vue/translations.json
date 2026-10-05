@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Vue.js 精选",
+      "description": "精选 Vue.js 资源、项目、组件、库、工具及学习资料。",
+      "sourceDigest": "db02a453cc6971de013efb6673b70c41d6b450e9c7062059c0faedbbaf77eb9e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Vue.js 精選",
+      "description": "精選 Vue.js 資源、專案、元件、程式庫、工具與學習資料。",
+      "sourceDigest": "db02a453cc6971de013efb6673b70c41d6b450e9c7062059c0faedbbaf77eb9e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Sélection Awesome Vue.js",
+      "description": "Une sélection de ressources, projets, composants, bibliothèques, utilitaires et supports d’apprentissage pour Vue.js.",
+      "sourceDigest": "db02a453cc6971de013efb6673b70c41d6b450e9c7062059c0faedbbaf77eb9e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Awesome Vue.js – Auswahl",
+      "description": "Eine kuratierte Auswahl an Vue.js-Ressourcen, Projekten, Komponenten, Bibliotheken, Hilfsprogrammen und Lernmaterialien.",
+      "sourceDigest": "db02a453cc6971de013efb6673b70c41d6b450e9c7062059c0faedbbaf77eb9e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Selección Awesome Vue.js",
+      "description": "Una selección de recursos, proyectos, componentes, bibliotecas, utilidades y materiales de aprendizaje de Vue.js.",
+      "sourceDigest": "db02a453cc6971de013efb6673b70c41d6b450e9c7062059c0faedbbaf77eb9e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Awesome Vue.js 厳選集",
+      "description": "Vue.js のリソース、プロジェクト、コンポーネント、ライブラリ、ユーティリティ、学習資料を厳選して紹介します。",
+      "sourceDigest": "db02a453cc6971de013efb6673b70c41d6b450e9c7062059c0faedbbaf77eb9e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Awesome Vue.js 모음",
+      "description": "Vue.js 리소스, 프로젝트, 컴포넌트, 라이브러리, 유틸리티 및 학습 자료를 엄선한 목록입니다.",
+      "sourceDigest": "db02a453cc6971de013efb6673b70c41d6b450e9c7062059c0faedbbaf77eb9e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Seleção Awesome Vue.js",
+      "description": "Uma seleção de recursos, projetos, componentes, bibliotecas, utilitários e materiais de aprendizagem de Vue.js.",
+      "sourceDigest": "db02a453cc6971de013efb6673b70c41d6b450e9c7062059c0faedbbaf77eb9e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка Awesome Vue.js",
+      "description": "Подборка ресурсов, проектов, компонентов, библиотек, утилит и учебных материалов по Vue.js.",
+      "sourceDigest": "db02a453cc6971de013efb6673b70c41d6b450e9c7062059c0faedbbaf77eb9e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

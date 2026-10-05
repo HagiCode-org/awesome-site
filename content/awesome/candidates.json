@@ -1,52 +1,93 @@
 [
-  { "id": "awesome-agent-skills", "repositoryUrl": "https://github.com/VoltAgent/awesome-agent-skills", "catalog": "ai-agents", "stars": 35172, "licenseId": "MIT" },
-  { "id": "awesome-ai4s", "repositoryUrl": "https://github.com/hyperai/awesome-ai4s", "catalog": "machine-learning", "stars": 3376, "licenseId": "Apache-2.0" },
-  { "id": "awesome-android-ui", "repositoryUrl": "https://github.com/wasabeef/awesome-android-ui", "catalog": "android-ui", "stars": 57814, "licenseId": "MIT" },
-  { "id": "awesome-agentic-patterns", "repositoryUrl": "https://github.com/nibzard/awesome-agentic-patterns", "catalog": "ai-agents", "stars": 5016, "licenseId": "Apache-2.0" },
-  { "id": "awesome-automl-papers", "repositoryUrl": "https://github.com/hibayesian/awesome-automl-papers", "catalog": "machine-learning", "stars": 4161, "licenseId": "Apache-2.0" },
-  { "id": "awesome-bash", "repositoryUrl": "https://github.com/awesome-lists/awesome-bash", "catalog": "shell", "stars": 10119, "licenseId": "CC0-1.0" },
-  { "id": "awesome-chatgpt-prompts-zh", "repositoryUrl": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh", "catalog": "llm-apps", "stars": 62919, "licenseId": "MIT" },
-  { "id": "awesome-cloud-security", "repositoryUrl": "https://github.com/teamssix/awesome-cloud-security", "catalog": "cybersecurity", "stars": 2109, "licenseId": "Apache-2.0" },
-  { "id": "awesome-compose", "repositoryUrl": "https://github.com/docker/awesome-compose", "catalog": "docker", "stars": 46459, "licenseId": "CC0-1.0" },
-  { "id": "awesome-copilot", "repositoryUrl": "https://github.com/github/awesome-copilot", "catalog": "ai-agents", "stars": 39674, "licenseId": "MIT" },
-  { "id": "awesome-cpp", "repositoryUrl": "https://github.com/fffaraz/awesome-cpp", "catalog": "cpp", "stars": 73596, "licenseId": "MIT" },
-  { "id": "awesome-ctf", "repositoryUrl": "https://github.com/apsdehal/awesome-ctf", "catalog": "cybersecurity", "stars": 11886, "licenseId": "CC0-1.0" },
-  { "id": "awesome-datascience", "repositoryUrl": "https://github.com/academic/awesome-datascience", "catalog": "machine-learning", "stars": 30105, "licenseId": "MIT" },
-  { "id": "awesome-db-tools", "repositoryUrl": "https://github.com/mgramin/awesome-db-tools", "catalog": "databases", "stars": 5319, "licenseId": "CC0-1.0" },
-  { "id": "awesome-deepseek-integration", "repositoryUrl": "https://github.com/deepseek-ai/awesome-deepseek-integration", "catalog": "llm-apps", "stars": 39300, "licenseId": "CC0-1.0" },
-  { "id": "awesome-design-md", "repositoryUrl": "https://github.com/VoltAgent/awesome-design-md", "catalog": "design-systems", "stars": 119435, "licenseId": "MIT" },
-  { "id": "awesome-deep-text-detection-recognition", "repositoryUrl": "https://github.com/hwalsuklee/awesome-deep-text-detection-recognition", "catalog": "computer-vision", "stars": 2532, "licenseId": "Apache-2.0" },
-  { "id": "awesome-dotnet", "repositoryUrl": "https://github.com/quozd/awesome-dotnet", "catalog": "dotnet", "stars": 21639, "licenseId": "CC0-1.0" },
-  { "id": "awesome-django", "repositoryUrl": "https://github.com/wsvincent/awesome-django", "catalog": "python", "stars": 11269, "licenseId": "CC0-1.0" },
-  { "id": "awesome-fastapi", "repositoryUrl": "https://github.com/mjhea0/awesome-fastapi", "catalog": "python", "stars": 11702, "licenseId": "CC0-1.0" },
-  { "id": "awesome-flask", "repositoryUrl": "https://github.com/humiaozuzu/awesome-flask", "catalog": "python", "stars": 12782, "licenseId": "CC0-1.0" },
-  { "id": "awesome-generative-ai", "repositoryUrl": "https://github.com/steven2358/awesome-generative-ai", "catalog": "llm-apps", "stars": 12705, "licenseId": "CC0-1.0" },
-  { "id": "awesome-generative-ai-guide", "repositoryUrl": "https://github.com/aishwaryanr/awesome-generative-ai-guide", "catalog": "llm-research", "stars": 29677, "licenseId": "MIT" },
-  { "id": "awesome-go", "repositoryUrl": "https://github.com/avelino/awesome-go", "catalog": "go", "stars": 186769, "licenseId": "MIT" },
-  { "id": "awesome-golang-algorithm", "repositoryUrl": "https://github.com/6boris/awesome-golang-algorithm", "catalog": "algorithms", "stars": 3505, "licenseId": "Apache-2.0" },
-  { "id": "awesome-gpt-agents", "repositoryUrl": "https://github.com/fr0gger/Awesome-GPT-Agents", "catalog": "ai-agents", "stars": 6598, "licenseId": "Apache-2.0" },
-  { "id": "awesome-ios", "repositoryUrl": "https://github.com/vsouza/awesome-ios", "catalog": "ios", "stars": 53511, "licenseId": "MIT" },
-  { "id": "awesome-incident-response", "repositoryUrl": "https://github.com/meirwah/awesome-incident-response", "catalog": "cybersecurity", "stars": 9431, "licenseId": "Apache-2.0" },
-  { "id": "awesome-k8s-resources", "repositoryUrl": "https://github.com/tomhuang12/awesome-k8s-resources", "catalog": "kubernetes", "stars": 4236, "licenseId": "CC0-1.0" },
-  { "id": "awesome-knowledge-distillation", "repositoryUrl": "https://github.com/dkozlov/awesome-knowledge-distillation", "catalog": "deep-learning", "stars": 3909, "licenseId": "Apache-2.0" },
-  { "id": "awesome-llm-resources", "repositoryUrl": "https://github.com/WangRongsheng/awesome-LLM-resources", "catalog": "llm-research", "stars": 8997, "licenseId": "Apache-2.0" },
-  { "id": "awesome-llm-strawberry", "repositoryUrl": "https://github.com/hijkzzz/Awesome-LLM-Strawberry", "catalog": "llm-research", "stars": 6907, "licenseId": "Apache-2.0" },
-  { "id": "awesome-mac", "repositoryUrl": "https://github.com/jaywcjlove/awesome-mac", "catalog": "macos", "stars": 115345, "licenseId": "CC0-1.0" },
-  { "id": "awesome-mcp-servers", "repositoryUrl": "https://github.com/punkpeye/awesome-mcp-servers", "catalog": "mcp", "stars": 95792, "licenseId": "MIT" },
-  { "id": "awesome-microservices", "repositoryUrl": "https://github.com/mfornos/awesome-microservices", "catalog": "scalability", "stars": 14530, "licenseId": "CC0-1.0" },
-  { "id": "awesome-paddle-deeplearning", "repositoryUrl": "https://github.com/PaddlePaddle/awesome-DeepLearning", "catalog": "deep-learning", "stars": 3656, "licenseId": "Apache-2.0" },
-  { "id": "awesome-production-machine-learning", "repositoryUrl": "https://github.com/EthicalML/awesome-production-machine-learning", "catalog": "mlops", "stars": 20968, "licenseId": "MIT" },
-  { "id": "awesome-prompt-engineering", "repositoryUrl": "https://github.com/promptslab/Awesome-Prompt-Engineering", "catalog": "llm-apps", "stars": 6357, "licenseId": "Apache-2.0" },
-  { "id": "awesome-react-components", "repositoryUrl": "https://github.com/brillout/awesome-react-components", "catalog": "react", "stars": 48546, "licenseId": "CC0-1.0" },
-  { "id": "awesome-rust", "repositoryUrl": "https://github.com/rust-unofficial/awesome-rust", "catalog": "rust", "stars": 59666, "licenseId": "CC0-1.0" },
-  { "id": "awesome-rlhf", "repositoryUrl": "https://github.com/opendilab/awesome-RLHF", "catalog": "llm-research", "stars": 4431, "licenseId": "Apache-2.0" },
-  { "id": "awesome-scalability", "repositoryUrl": "https://github.com/binhnguyennus/awesome-scalability", "catalog": "scalability", "stars": 74503, "licenseId": "MIT" },
-  { "id": "awesome-shell", "repositoryUrl": "https://github.com/alebcay/awesome-shell", "catalog": "shell", "stars": 37716, "licenseId": "CC0-1.0" },
-  { "id": "awesome-sre", "repositoryUrl": "https://github.com/dastergon/awesome-sre", "catalog": "sysadmin", "stars": 13691, "licenseId": "CC0-1.0" },
-  { "id": "awesome-software-architecture", "repositoryUrl": "https://github.com/mehdihadeli/awesome-software-architecture", "catalog": "scalability", "stars": 11699, "licenseId": "CC0-1.0" },
-  { "id": "awesome-swift", "repositoryUrl": "https://github.com/matteocrippa/awesome-swift", "catalog": "swift", "stars": 26312, "licenseId": "CC0-1.0" },
-  { "id": "awesome-system-design", "repositoryUrl": "https://github.com/madd86/awesome-system-design", "catalog": "scalability", "stars": 12603, "licenseId": "CC0-1.0" },
-  { "id": "awesome-threat-intelligence", "repositoryUrl": "https://github.com/hslatman/awesome-threat-intelligence", "catalog": "cybersecurity", "stars": 10696, "licenseId": "Apache-2.0" },
-  { "id": "awesome-vue", "repositoryUrl": "https://github.com/vuejs/awesome-vue", "catalog": "vue", "stars": 73536, "licenseId": "MIT" },
-  { "id": "awesome-waf", "repositoryUrl": "https://github.com/0xInfection/Awesome-WAF", "catalog": "cybersecurity", "stars": 7632, "licenseId": "Apache-2.0" }
+  {
+    "id": "awesome-agent-skills",
+    "repositoryUrl": "https://github.com/VoltAgent/awesome-agent-skills",
+    "catalog": "ai-agents",
+    "stars": 35172,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-ai4s",
+    "repositoryUrl": "https://github.com/hyperai/awesome-ai4s",
+    "catalog": "machine-learning",
+    "stars": 3376,
+    "licenseId": "Apache-2.0"
+  },
+  {
+    "id": "awesome-copilot",
+    "repositoryUrl": "https://github.com/github/awesome-copilot",
+    "catalog": "ai-agents",
+    "stars": 39674,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-cpp",
+    "repositoryUrl": "https://github.com/fffaraz/awesome-cpp",
+    "catalog": "cpp",
+    "stars": 73596,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-datascience",
+    "repositoryUrl": "https://github.com/academic/awesome-datascience",
+    "catalog": "machine-learning",
+    "stars": 30105,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-go",
+    "repositoryUrl": "https://github.com/avelino/awesome-go",
+    "catalog": "go",
+    "stars": 186769,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-ios",
+    "repositoryUrl": "https://github.com/vsouza/awesome-ios",
+    "catalog": "ios",
+    "stars": 53511,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-mcp-servers",
+    "repositoryUrl": "https://github.com/punkpeye/awesome-mcp-servers",
+    "catalog": "mcp",
+    "stars": 95792,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-production-machine-learning",
+    "repositoryUrl": "https://github.com/EthicalML/awesome-production-machine-learning",
+    "catalog": "mlops",
+    "stars": 20968,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-privacy",
+    "repositoryUrl": "https://github.com/pluja/awesome-privacy",
+    "catalog": "cybersecurity",
+    "stars": 19900,
+    "licenseId": "CC0-1.0"
+  },
+  {
+    "id": "awesome-rust",
+    "repositoryUrl": "https://github.com/rust-unofficial/awesome-rust",
+    "catalog": "rust",
+    "stars": 59666,
+    "licenseId": "CC0-1.0"
+  },
+  {
+    "id": "awesome-swift",
+    "repositoryUrl": "https://github.com/matteocrippa/awesome-swift",
+    "catalog": "swift",
+    "stars": 26312,
+    "licenseId": "CC0-1.0"
+  },
+  {
+    "id": "awesome-vue",
+    "repositoryUrl": "https://github.com/vuejs/awesome-vue",
+    "catalog": "vue",
+    "stars": 73536,
+    "licenseId": "MIT"
+  }
 ]

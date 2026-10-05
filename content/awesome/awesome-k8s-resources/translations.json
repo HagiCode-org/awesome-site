@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Awesome Kubernetes 资源",
+      "description": "Kubernetes 工具与资源精选清单。",
+      "sourceDigest": "dbf2dffb3484853fd904c53fda7ff77dcc471d3df873b9b6cdd9ceebc922d7ec",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Awesome Kubernetes 資源",
+      "description": "Kubernetes 工具與資源精選清單。",
+      "sourceDigest": "dbf2dffb3484853fd904c53fda7ff77dcc471d3df873b9b6cdd9ceebc922d7ec",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Sélection de ressources Kubernetes",
+      "description": "Une sélection d’outils et de ressources Kubernetes.",
+      "sourceDigest": "dbf2dffb3484853fd904c53fda7ff77dcc471d3df873b9b6cdd9ceebc922d7ec",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Kuratierte Kubernetes-Ressourcen",
+      "description": "Eine kuratierte Liste von Kubernetes-Werkzeugen und -Ressourcen.",
+      "sourceDigest": "dbf2dffb3484853fd904c53fda7ff77dcc471d3df873b9b6cdd9ceebc922d7ec",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Selección de recursos de Kubernetes",
+      "description": "Una selección de herramientas y recursos de Kubernetes.",
+      "sourceDigest": "dbf2dffb3484853fd904c53fda7ff77dcc471d3df873b9b6cdd9ceebc922d7ec",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Kubernetes リソースの厳選集",
+      "description": "Kubernetes のツールとリソースを厳選した一覧です。",
+      "sourceDigest": "dbf2dffb3484853fd904c53fda7ff77dcc471d3df873b9b6cdd9ceebc922d7ec",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "엄선한 Kubernetes 리소스",
+      "description": "엄선한 Kubernetes 도구 및 리소스 목록입니다.",
+      "sourceDigest": "dbf2dffb3484853fd904c53fda7ff77dcc471d3df873b9b6cdd9ceebc922d7ec",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Seleção de recursos do Kubernetes",
+      "description": "Uma seleção de ferramentas e recursos do Kubernetes.",
+      "sourceDigest": "dbf2dffb3484853fd904c53fda7ff77dcc471d3df873b9b6cdd9ceebc922d7ec",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка ресурсов Kubernetes",
+      "description": "Подборка инструментов и ресурсов Kubernetes.",
+      "sourceDigest": "dbf2dffb3484853fd904c53fda7ff77dcc471d3df873b9b6cdd9ceebc922d7ec",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

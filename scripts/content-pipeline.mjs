@@ -22,6 +22,7 @@ import {
   loadSourceReviews,
   reconcileSourceReviews,
   validateRepositoryUrl,
+  validateReadmeRightsReviews,
 } from "./source-reviews.mjs";
 
 export { validateRepositoryUrl };
@@ -249,6 +250,7 @@ async function loadSources() {
   validateRegistry(collections, catalogs);
   validateCandidateRepositories(candidates, collections, catalogs);
   const reviews = await loadSourceReviews();
+  validateReadmeRightsReviews(reviews.filter((review) => Object.hasOwn(review, "reviewedAt")), candidates);
   reconcileSourceReviews(reviews, collections, candidates);
   const sources = [];
   for (const collection of collections) {

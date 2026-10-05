@@ -6,7 +6,38 @@ import { isAlias, isMap, isScalar, isSeq, parseAllDocuments } from "yaml";
 const root = fileURLToPath(new URL("../", import.meta.url));
 const defaultLedgerPath = path.join(root, "content/awesome/source-reviews.yml");
 const fields = new Set(["id", "source", "title", "imported", "notImportedReason", "importedAt"]);
+const readmeRightsFields = new Set([
+  "id",
+  "source",
+  "reviewedAt",
+  "revision",
+  "readmePath",
+  "readmeBlob",
+  "licensePath",
+  "licenseBlob",
+  "licenseId",
+  "readmeNotice",
+  "localAssetReferences",
+  "externalAssetReferences",
+  "externalAssetHosts",
+  "disposition",
+]);
+const readmeRightsMetadataFields = new Set(
+  [...readmeRightsFields].filter((field) => field !== "id" && field !== "source"),
+);
+const sourceReviewFields = new Set([...fields, ...readmeRightsMetadataFields]);
 const timestampPattern = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/u;
+const gitObjectPattern = /^[a-f0-9]{40}$/u;
+const readmeNotices = new Set([
+  "none-detected",
+  "explicit-cc0-waiver",
+  "explicit-mit-license-reference",
+  "explicit-apache-license-reference",
+  "third-party-trademark-warning",
+  "third-party-license-references",
+  "third-party-copyright-notices-in-list",
+]);
+const linkOnlyDisposition = "github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared";
 const standardTags = new Set([
   "tag:yaml.org,2002:binary",
   "tag:yaml.org,2002:bool",
@@ -76,7 +107,15 @@ export function validateSourceReviews(reviews, filePath = defaultLedgerPath) {
       if (!Object.hasOwn(review, field)) throw new Error(`${filePath}: ${label} is missing required field "${field}"`);
     }
     for (const field of Object.keys(review)) {
-      if (!fields.has(field)) throw new Error(`${filePath}: ${label} has unknown field "${field}"`);
+      if (!sourceReviewFields.has(field)) throw new Error(`${filePath}: ${label} has unknown field "${field}"`);
+    }
+    const hasRightsMetadata = [...readmeRightsMetadataFields].some((field) => Object.hasOwn(review, field));
+    if (hasRightsMetadata) {
+      for (const field of readmeRightsMetadataFields) {
+        if (!Object.hasOwn(review, field)) {
+          throw new Error(`${filePath}: ${label} is missing required README rights field "${field}"`);
+        }
+      }
     }
 
     const id = review.id;
@@ -126,6 +165,95 @@ export function validateSourceReviews(reviews, filePath = defaultLedgerPath) {
   return reviews;
 }
 
+export function validateReadmeRightsReviews(reviews, candidates, filePath = defaultLedgerPath) {
+  if (!Array.isArray(reviews)) {
+    throw new Error(`${filePath}: rights review ledger must have a YAML sequence root`);
+  }
+  if (reviews.length !== candidates.length) {
+    throw new Error(`${filePath}: expected ${candidates.length} candidate reviews, found ${reviews.length}`);
+  }
+  const candidatesById = new Map(candidates.map((candidate) => [candidate.id, candidate]));
+  const ids = new Set();
+  const repositories = new Set();
+  for (const [index, review] of reviews.entries()) {
+    const label = `record ${index + 1}`;
+    if (!review || typeof review !== "object" || Array.isArray(review)) {
+      throw new Error(`${filePath}: ${label} must be a mapping`);
+    }
+    for (const field of readmeRightsMetadataFields) {
+      if (!Object.hasOwn(review, field)) throw new Error(`${filePath}: ${label} is missing required field "${field}"`);
+    }
+    for (const field of Object.keys(review)) {
+      if (!sourceReviewFields.has(field)) throw new Error(`${filePath}: ${label} has unknown field "${field}"`);
+    }
+    if (typeof review.id !== "string" || !candidatesById.has(review.id) || ids.has(review.id)) {
+      throw new Error(`${filePath}: ${label} has an unknown or duplicate candidate identifier`);
+    }
+    const candidate = candidatesById.get(review.id);
+    if (typeof review.source !== "string") throw new Error(`${filePath}: ${review.id}: source must be a GitHub URL`);
+    validateRepositoryUrl(review.source, review.id);
+    if (repositoryIdentity(review.source) !== repositoryIdentity(candidate.repositoryUrl)) {
+      throw new Error(`${filePath}: ${review.id}: source does not match the candidate registry`);
+    }
+    if (!timestampPattern.test(review.reviewedAt ?? "")) {
+      throw new Error(`${filePath}: ${review.id}: reviewedAt must be a quoted UTC timestamp`);
+    }
+    const reviewedAt = new Date(review.reviewedAt);
+    if (Number.isNaN(reviewedAt.valueOf()) || reviewedAt.toISOString().replace(".000Z", "Z") !== review.reviewedAt) {
+      throw new Error(`${filePath}: ${review.id}: reviewedAt is not a valid UTC timestamp`);
+    }
+    for (const field of ["revision", "readmeBlob", "licenseBlob"]) {
+      if (typeof review[field] !== "string" || !gitObjectPattern.test(review[field])) {
+        throw new Error(`${filePath}: ${review.id}: ${field} must be a full Git object ID`);
+      }
+    }
+    if (
+      typeof review.readmePath !== "string" ||
+      !/\.md$/iu.test(review.readmePath) ||
+      review.readmePath.startsWith("/") ||
+      review.readmePath.split("/").includes("..")
+    ) {
+      throw new Error(`${filePath}: ${review.id}: readmePath must be a repository-relative Markdown path`);
+    }
+    if (
+      typeof review.licensePath !== "string" ||
+      review.licensePath.startsWith("/") ||
+      review.licensePath.split("/").includes("..")
+    ) {
+      throw new Error(`${filePath}: ${review.id}: licensePath must be a repository-relative path`);
+    }
+    if (review.licenseId !== candidate.licenseId) {
+      throw new Error(`${filePath}: ${review.id}: reviewed license does not match the candidate registry`);
+    }
+    if (!readmeNotices.has(review.readmeNotice)) {
+      throw new Error(`${filePath}: ${review.id}: unsupported README rights notice classification`);
+    }
+    for (const field of ["localAssetReferences", "externalAssetReferences"]) {
+      if (!Number.isSafeInteger(review[field]) || review[field] < 0) {
+        throw new Error(`${filePath}: ${review.id}: ${field} must be a nonnegative integer`);
+      }
+    }
+    if (
+      !Array.isArray(review.externalAssetHosts) ||
+      review.externalAssetHosts.some((host) => typeof host !== "string" || !host || host !== host.toLowerCase()) ||
+      new Set(review.externalAssetHosts).size !== review.externalAssetHosts.length ||
+      [...review.externalAssetHosts].sort().some((host, i) => host !== review.externalAssetHosts[i]) ||
+      Boolean(review.externalAssetReferences) !== Boolean(review.externalAssetHosts.length)
+    ) {
+      throw new Error(`${filePath}: ${review.id}: externalAssetHosts must be a sorted unique host list matching the asset count`);
+    }
+    if (review.disposition !== linkOnlyDisposition) {
+      throw new Error(`${filePath}: ${review.id}: disposition must keep README and embedded assets link-only`);
+    }
+    ids.add(review.id);
+    repositories.add(repositoryIdentity(review.source));
+  }
+  if (repositories.size !== candidates.length) {
+    throw new Error(`${filePath}: rights reviews do not cover each candidate exactly once`);
+  }
+  return reviews;
+}
+
 function findNodeIssue(node) {
   if (!node) return undefined;
   if (isAlias(node)) return "YAML aliases are not supported";
@@ -152,16 +280,18 @@ function validateTimestampStyles(node, filePath) {
     if (!isMap(record)) continue;
     const id = record.items.find((pair) => isScalar(pair.key) && pair.key.value === "id")?.value;
     const label = isScalar(id) && typeof id.value === "string" ? id.value : `record ${index + 1}`;
-    const timestamp = record.items.find((pair) =>
-      isScalar(pair.key) && pair.key.value === "importedAt"
-    )?.value;
-    if (
-      isScalar(timestamp) &&
-      timestamp.value !== null &&
-      timestamp.type !== "QUOTE_DOUBLE" &&
-      timestamp.type !== "QUOTE_SINGLE"
-    ) {
-      throw new Error(`${filePath}: ${label}: importedAt must be a quoted UTC timestamp`);
+    for (const field of ["importedAt", "reviewedAt"]) {
+      const timestamp = record.items.find((pair) =>
+        isScalar(pair.key) && pair.key.value === field
+      )?.value;
+      if (
+        isScalar(timestamp) &&
+        timestamp.value !== null &&
+        timestamp.type !== "QUOTE_DOUBLE" &&
+        timestamp.type !== "QUOTE_SINGLE"
+      ) {
+        throw new Error(`${filePath}: ${label}: ${field} must be a quoted UTC timestamp`);
+      }
     }
   }
 }

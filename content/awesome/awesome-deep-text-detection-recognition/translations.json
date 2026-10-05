@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "深度文本检测与识别",
+      "description": "基于深度学习的场景文本检测与识别论文、数据集、代码和教学资源精选。",
+      "sourceDigest": "c0d462cb77ebd8f409ed6155eb615e0b5db4721a856390dd930a36a8f7a3bbd3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "深度文字偵測與辨識",
+      "description": "精選以深度學習進行場景文字偵測與辨識的論文、資料集、程式碼及教學資源。",
+      "sourceDigest": "c0d462cb77ebd8f409ed6155eb615e0b5db4721a856390dd930a36a8f7a3bbd3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Détection et reconnaissance de texte profondes",
+      "description": "Sélection d’articles, de jeux de données, de codes et de ressources pédagogiques sur la détection et la reconnaissance de texte dans les images par apprentissage profond.",
+      "sourceDigest": "c0d462cb77ebd8f409ed6155eb615e0b5db4721a856390dd930a36a8f7a3bbd3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Erkennung und Lesung von Text mit Deep Learning",
+      "description": "Ausgewählte Arbeiten, Datensätze, Code und Lernmaterialien zur Erkennung und zum Lesen von Text in Szenenbildern mit Deep Learning.",
+      "sourceDigest": "c0d462cb77ebd8f409ed6155eb615e0b5db4721a856390dd930a36a8f7a3bbd3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Detección y reconocimiento de texto profundo",
+      "description": "Selección de artículos, conjuntos de datos, código y recursos educativos sobre detección y reconocimiento de texto en imágenes mediante aprendizaje profundo.",
+      "sourceDigest": "c0d462cb77ebd8f409ed6155eb615e0b5db4721a856390dd930a36a8f7a3bbd3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "深層学習によるテキスト検出・認識",
+      "description": "深層学習を用いたシーンテキストの検出と認識に関する論文、データセット、コード、学習資料を厳選して紹介します。",
+      "sourceDigest": "c0d462cb77ebd8f409ed6155eb615e0b5db4721a856390dd930a36a8f7a3bbd3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "딥러닝 텍스트 검출 및 인식",
+      "description": "딥러닝 기반 장면 텍스트 검출 및 인식에 관한 논문, 데이터셋, 코드와 학습 자료를 엄선했습니다.",
+      "sourceDigest": "c0d462cb77ebd8f409ed6155eb615e0b5db4721a856390dd930a36a8f7a3bbd3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Detecção e reconhecimento de texto com deep learning",
+      "description": "Seleção de artigos, conjuntos de dados, códigos e materiais didáticos sobre detecção e reconhecimento de texto em cenas com aprendizado profundo.",
+      "sourceDigest": "c0d462cb77ebd8f409ed6155eb615e0b5db4721a856390dd930a36a8f7a3bbd3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Обнаружение и распознавание текста с помощью глубокого обучения",
+      "description": "Подборка статей, наборов данных, программного кода и учебных материалов по обнаружению и распознаванию текста на изображениях с помощью глубокого обучения.",
+      "sourceDigest": "c0d462cb77ebd8f409ed6155eb615e0b5db4721a856390dd930a36a8f7a3bbd3",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

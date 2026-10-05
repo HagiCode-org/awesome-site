@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Awesome 微服务",
+      "description": "微服务架构相关原则与技术精选清单。",
+      "sourceDigest": "bea22d96d59c0af04be579f425eba42039d5908e5334fdeeb5df39da3d6ec4d8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Awesome 微服務",
+      "description": "微服務架構相關原則與技術精選清單。",
+      "sourceDigest": "bea22d96d59c0af04be579f425eba42039d5908e5334fdeeb5df39da3d6ec4d8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Sélection de ressources sur les microservices",
+      "description": "Une sélection de principes et technologies liés à l’architecture des microservices.",
+      "sourceDigest": "bea22d96d59c0af04be579f425eba42039d5908e5334fdeeb5df39da3d6ec4d8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Auswahl an Ressourcen zu Microservices",
+      "description": "Eine kuratierte Liste von Prinzipien und Technologien rund um die Microservice-Architektur.",
+      "sourceDigest": "bea22d96d59c0af04be579f425eba42039d5908e5334fdeeb5df39da3d6ec4d8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Selección de recursos sobre microservicios",
+      "description": "Una selección de principios y tecnologías relacionados con la arquitectura de microservicios.",
+      "sourceDigest": "bea22d96d59c0af04be579f425eba42039d5908e5334fdeeb5df39da3d6ec4d8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "マイクロサービス関連リソースの厳選集",
+      "description": "マイクロサービスアーキテクチャに関する原則や技術を厳選した一覧です。",
+      "sourceDigest": "bea22d96d59c0af04be579f425eba42039d5908e5334fdeeb5df39da3d6ec4d8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "마이크로서비스 관련 자료 모음",
+      "description": "마이크로서비스 아키텍처 관련 원칙과 기술을 엄선한 목록입니다.",
+      "sourceDigest": "bea22d96d59c0af04be579f425eba42039d5908e5334fdeeb5df39da3d6ec4d8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Seleção de recursos sobre microsserviços",
+      "description": "Uma seleção de princípios e tecnologias relacionados à arquitetura de microsserviços.",
+      "sourceDigest": "bea22d96d59c0af04be579f425eba42039d5908e5334fdeeb5df39da3d6ec4d8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка материалов о микросервисах",
+      "description": "Подборка принципов и технологий, связанных с архитектурой микросервисов.",
+      "sourceDigest": "bea22d96d59c0af04be579f425eba42039d5908e5334fdeeb5df39da3d6ec4d8",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

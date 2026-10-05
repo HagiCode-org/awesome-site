@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Awesome React 组件与库",
+      "description": "精选实用而独特的 React 组件、库和工具。",
+      "sourceDigest": "cef8d2e0891d4f3b0b0d1fec06f74d54f245dc6850f475e7ceb4194e10307e54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Awesome React 元件與函式庫",
+      "description": "精選實用且獨特的 React 元件、函式庫與工具。",
+      "sourceDigest": "cef8d2e0891d4f3b0b0d1fec06f74d54f245dc6850f475e7ceb4194e10307e54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Composants et bibliothèques React incontournables",
+      "description": "Une sélection de composants, bibliothèques et outils React utiles et originaux.",
+      "sourceDigest": "cef8d2e0891d4f3b0b0d1fec06f74d54f245dc6850f475e7ceb4194e10307e54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Ausgewählte React-Komponenten und -Bibliotheken",
+      "description": "Eine Auswahl nützlicher und besonderer React-Komponenten, Bibliotheken und Tools.",
+      "sourceDigest": "cef8d2e0891d4f3b0b0d1fec06f74d54f245dc6850f475e7ceb4194e10307e54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Componentes y bibliotecas imprescindibles de React",
+      "description": "Una selección de componentes, bibliotecas y herramientas de React útiles y originales.",
+      "sourceDigest": "cef8d2e0891d4f3b0b0d1fec06f74d54f245dc6850f475e7ceb4194e10307e54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "React の注目コンポーネントとライブラリ",
+      "description": "実用的で特色のある React コンポーネント、ライブラリ、ツールを厳選して紹介します。",
+      "sourceDigest": "cef8d2e0891d4f3b0b0d1fec06f74d54f245dc6850f475e7ceb4194e10307e54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "엄선한 React 컴포넌트 및 라이브러리",
+      "description": "유용하고 독창적인 React 컴포넌트, 라이브러리 및 도구를 엄선해 소개합니다.",
+      "sourceDigest": "cef8d2e0891d4f3b0b0d1fec06f74d54f245dc6850f475e7ceb4194e10307e54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Componentes e bibliotecas essenciais de React",
+      "description": "Uma seleção de componentes, bibliotecas e ferramentas React úteis e diferenciados.",
+      "sourceDigest": "cef8d2e0891d4f3b0b0d1fec06f74d54f245dc6850f475e7ceb4194e10307e54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка компонентов и библиотек React",
+      "description": "Подборка полезных и оригинальных компонентов, библиотек и инструментов React.",
+      "sourceDigest": "cef8d2e0891d4f3b0b0d1fec06f74d54f245dc6850f475e7ceb4194e10307e54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

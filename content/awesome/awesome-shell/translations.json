@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Shell 资源精选",
+      "description": "精选 Shell、命令行工具、框架、开发资源、系统实用程序与指南。",
+      "sourceDigest": "4af834f2b06ef1cbdbe88f40579af1e55cdf1e48450794f5dba6397561a3916f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Shell 資源精選",
+      "description": "精選 Shell、命令列工具、框架、開發資源、系統實用程式及指南。",
+      "sourceDigest": "4af834f2b06ef1cbdbe88f40579af1e55cdf1e48450794f5dba6397561a3916f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Sélection de ressources Shell",
+      "description": "Une sélection de shells, d’outils en ligne de commande, de frameworks, de ressources pour développeurs, d’utilitaires système et de guides.",
+      "sourceDigest": "4af834f2b06ef1cbdbe88f40579af1e55cdf1e48450794f5dba6397561a3916f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Shell-Ressourcensammlung",
+      "description": "Eine Auswahl an Shells, Kommandozeilenwerkzeugen, Frameworks, Entwicklerressourcen, Systemwerkzeugen und Anleitungen.",
+      "sourceDigest": "4af834f2b06ef1cbdbe88f40579af1e55cdf1e48450794f5dba6397561a3916f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Selección de recursos de Shell",
+      "description": "Una selección de shells, herramientas de línea de comandos, frameworks, recursos para desarrolladores, utilidades del sistema y guías.",
+      "sourceDigest": "4af834f2b06ef1cbdbe88f40579af1e55cdf1e48450794f5dba6397561a3916f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Shellリソース厳選集",
+      "description": "Shell、コマンドラインツール、フレームワーク、開発者向けリソース、システムユーティリティ、ガイドを厳選して紹介します。",
+      "sourceDigest": "4af834f2b06ef1cbdbe88f40579af1e55cdf1e48450794f5dba6397561a3916f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Shell 리소스 모음",
+      "description": "Shell, 명령줄 도구, 프레임워크, 개발자 리소스, 시스템 유틸리티와 가이드를 엄선한 모음입니다.",
+      "sourceDigest": "4af834f2b06ef1cbdbe88f40579af1e55cdf1e48450794f5dba6397561a3916f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Seleção de recursos de Shell",
+      "description": "Uma seleção de shells, ferramentas de linha de comando, frameworks, recursos para desenvolvedores, utilitários de sistema e guias.",
+      "sourceDigest": "4af834f2b06ef1cbdbe88f40579af1e55cdf1e48450794f5dba6397561a3916f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка ресурсов по Shell",
+      "description": "Подборка оболочек, инструментов командной строки, фреймворков, ресурсов для разработчиков, системных утилит и руководств.",
+      "sourceDigest": "4af834f2b06ef1cbdbe88f40579af1e55cdf1e48450794f5dba6397561a3916f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

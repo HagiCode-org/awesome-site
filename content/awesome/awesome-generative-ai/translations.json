@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "生成式人工智能精选",
+      "description": "精选生成式 AI 项目与服务，涵盖文本、编程、智能体、图像、视频、音频及学习资源。",
+      "sourceDigest": "a102a24d0c58259e106a77b5da6c497732a330757e720706cc77d821baec27ff",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "生成式人工智慧精選",
+      "description": "精選生成式 AI 專案與服務，涵蓋文字、程式設計、代理、影像、影片、音訊及學習資源。",
+      "sourceDigest": "a102a24d0c58259e106a77b5da6c497732a330757e720706cc77d821baec27ff",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "IA générative",
+      "description": "Une sélection de projets et services d’IA générative couvrant le texte, le code, les agents, l’image, la vidéo, l’audio et les ressources pédagogiques.",
+      "sourceDigest": "a102a24d0c58259e106a77b5da6c497732a330757e720706cc77d821baec27ff",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Generative KI",
+      "description": "Eine kuratierte Sammlung generativer KI-Projekte und -Dienste aus den Bereichen Text, Programmierung, Agenten, Bilder, Video, Audio und Lernressourcen.",
+      "sourceDigest": "a102a24d0c58259e106a77b5da6c497732a330757e720706cc77d821baec27ff",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Inteligencia artificial generativa",
+      "description": "Selección de proyectos y servicios de IA generativa sobre texto, programación, agentes, imágenes, vídeo, audio y recursos de aprendizaje.",
+      "sourceDigest": "a102a24d0c58259e106a77b5da6c497732a330757e720706cc77d821baec27ff",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "生成 AI プロジェクト集",
+      "description": "テキスト、コーディング、エージェント、画像、動画、音声、学習リソースに関する生成 AI のプロジェクトとサービスを厳選しています。",
+      "sourceDigest": "a102a24d0c58259e106a77b5da6c497732a330757e720706cc77d821baec27ff",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "생성형 AI 프로젝트 모음",
+      "description": "텍스트, 코딩, 에이전트, 이미지, 비디오, 오디오, 학습 자료를 다루는 생성형 AI 프로젝트와 서비스를 엄선했습니다.",
+      "sourceDigest": "a102a24d0c58259e106a77b5da6c497732a330757e720706cc77d821baec27ff",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Inteligência artificial generativa",
+      "description": "Seleção de projetos e serviços de IA generativa sobre texto, programação, agentes, imagens, vídeo, áudio e recursos de aprendizagem.",
+      "sourceDigest": "a102a24d0c58259e106a77b5da6c497732a330757e720706cc77d821baec27ff",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Генеративный искусственный интеллект",
+      "description": "Подборка проектов и сервисов генеративного ИИ для работы с текстом, кодом, агентами, изображениями, видео, аудио и учебными материалами.",
+      "sourceDigest": "a102a24d0c58259e106a77b5da6c497732a330757e720706cc77d821baec27ff",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

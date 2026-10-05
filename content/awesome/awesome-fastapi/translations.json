@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "FastAPI 精选资源",
+      "description": "FastAPI扩展集,工具,教程,部署选项,以及实例项目.",
+      "sourceDigest": "38ef5324df7622f61fef9541009ca31290b124f50a67fa51634c25d788a0bf7f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "FastAPI 精選資源",
+      "description": "FastAPI 延伸、工具、教學、部署選項和範例專案的整理集 。",
+      "sourceDigest": "38ef5324df7622f61fef9541009ca31290b124f50a67fa51634c25d788a0bf7f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Ressources sélectionnées pour FastAPI",
+      "description": "Une collection soignée d'extensions FastAPI, d'outils, de tutoriels, d'options de déploiement et de projets exemples.",
+      "sourceDigest": "38ef5324df7622f61fef9541009ca31290b124f50a67fa51634c25d788a0bf7f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Ausgewählte FastAPI-Ressourcen",
+      "description": "Eine kuratierte Sammlung von FastAPI-Erweiterungen, Tools, Tutorials, Bereitstellungsoptionen und Beispielprojekten.",
+      "sourceDigest": "38ef5324df7622f61fef9541009ca31290b124f50a67fa51634c25d788a0bf7f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Recursos seleccionados de FastAPI",
+      "description": "Una colección curada de extensiones de FastAPI, herramientas, tutoriales, opciones de implementación y proyectos de ejemplo.",
+      "sourceDigest": "38ef5324df7622f61fef9541009ca31290b124f50a67fa51634c25d788a0bf7f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "FastAPI のおすすめリソース",
+      "description": "FastAPI拡張機能、ツール、チュートリアル、デプロイメントオプション、およびプロジェクト例のキュレーションコレクション。",
+      "sourceDigest": "38ef5324df7622f61fef9541009ca31290b124f50a67fa51634c25d788a0bf7f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "FastAPI 추천 리소스",
+      "description": "FastAPI 확장, 도구, 자습서, 배포 옵션 및 예 프로젝트의 큐레이터 컬렉션.",
+      "sourceDigest": "38ef5324df7622f61fef9541009ca31290b124f50a67fa51634c25d788a0bf7f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Recursos selecionados de FastAPI",
+      "description": "Uma coleção com curadoria de extensões, ferramentas, tutoriais, opções de implantação e projetos de exemplo FastAPI.",
+      "sourceDigest": "38ef5324df7622f61fef9541009ca31290b124f50a67fa51634c25d788a0bf7f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка ресурсов по FastAPI",
+      "description": "Кураторская коллекция расширений FastAPI, инструментов, учебных пособий, вариантов развертывания и примеров проектов.",
+      "sourceDigest": "38ef5324df7622f61fef9541009ca31290b124f50a67fa51634c25d788a0bf7f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

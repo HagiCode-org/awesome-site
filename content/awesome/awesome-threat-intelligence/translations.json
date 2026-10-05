@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "威胁情报精选资源",
+      "description": "精选威胁情报资源，涵盖情报来源、数据格式、框架与平台、工具、研究、标准和书籍。",
+      "sourceDigest": "ae2a47dd7e52e9c7a51b57ae793f7c0893995f129b4dca322abd0d86eef5a92e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "威脅情報精選資源",
+      "description": "精選威脅情報資源，涵蓋情報來源、資料格式、框架與平台、工具、研究、標準及書籍。",
+      "sourceDigest": "ae2a47dd7e52e9c7a51b57ae793f7c0893995f129b4dca322abd0d86eef5a92e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Ressources de référence sur le renseignement sur les menaces",
+      "description": "Une sélection de ressources sur le renseignement sur les menaces : sources, formats, cadres et plateformes, outils, recherches, normes et ouvrages.",
+      "sourceDigest": "ae2a47dd7e52e9c7a51b57ae793f7c0893995f129b4dca322abd0d86eef5a92e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Ausgewählte Ressourcen zu Threat Intelligence",
+      "description": "Eine kuratierte Sammlung zu Threat Intelligence mit Quellen, Formaten, Frameworks und Plattformen, Tools, Forschung, Standards und Fachbüchern.",
+      "sourceDigest": "ae2a47dd7e52e9c7a51b57ae793f7c0893995f129b4dca322abd0d86eef5a92e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Recursos seleccionados de inteligencia de amenazas",
+      "description": "Una selección de recursos de inteligencia de amenazas: fuentes, formatos, marcos y plataformas, herramientas, investigación, estándares y libros.",
+      "sourceDigest": "ae2a47dd7e52e9c7a51b57ae793f7c0893995f129b4dca322abd0d86eef5a92e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "脅威インテリジェンス資料集",
+      "description": "脅威インテリジェンスの情報源、形式、フレームワークとプラットフォーム、ツール、研究、標準、書籍を厳選しました。",
+      "sourceDigest": "ae2a47dd7e52e9c7a51b57ae793f7c0893995f129b4dca322abd0d86eef5a92e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "위협 인텔리전스 자료 모음",
+      "description": "위협 인텔리전스 소스, 형식, 프레임워크와 플랫폼, 도구, 연구, 표준 및 도서를 엄선했습니다.",
+      "sourceDigest": "ae2a47dd7e52e9c7a51b57ae793f7c0893995f129b4dca322abd0d86eef5a92e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Recursos selecionados de inteligência contra ameaças",
+      "description": "Uma seleção de recursos de inteligência contra ameaças: fontes, formatos, frameworks e plataformas, ferramentas, pesquisas, normas e livros.",
+      "sourceDigest": "ae2a47dd7e52e9c7a51b57ae793f7c0893995f129b4dca322abd0d86eef5a92e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка ресурсов по киберразведке",
+      "description": "Подборка ресурсов по киберразведке: источники, форматы, фреймворки и платформы, инструменты, исследования, стандарты и книги.",
+      "sourceDigest": "ae2a47dd7e52e9c7a51b57ae793f7c0893995f129b4dca322abd0d86eef5a92e",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

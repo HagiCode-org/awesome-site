@@ -103,6 +103,21 @@ async function createIsolatedPipeline({ ledgerContent, validSource = false }) {
     notImportedReason: "Pending review.",
     importedAt: null,
   };
+  const rightsReviewYaml = [
+    '  reviewedAt: "2026-10-04T05:33:15Z"',
+    `  revision: ${"a".repeat(40)}`,
+    "  readmePath: README.md",
+    `  readmeBlob: ${"b".repeat(40)}`,
+    "  licensePath: LICENSE",
+    `  licenseBlob: ${"c".repeat(40)}`,
+    "  licenseId: MIT",
+    "  readmeNotice: none-detected",
+    "  localAssetReferences: 0",
+    "  externalAssetReferences: 0",
+    "  externalAssetHosts: []",
+    "  disposition: >-",
+    "    github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared",
+  ].join("\n");
   const reviewYaml = [
     `- id: ${importedReview.id}`,
     `  source: ${importedReview.source}`,
@@ -116,6 +131,7 @@ async function createIsolatedPipeline({ ledgerContent, validSource = false }) {
     "  imported: false",
     '  notImportedReason: "Pending review."',
     "  importedAt: null",
+    rightsReviewYaml,
     "",
   ].join("\n");
   const directories = [
@@ -434,7 +450,10 @@ test("content check reports missing source checkouts and stale translation diges
     const firstCollectionId = JSON.parse(originalRegistry)[0].id;
     const retainedReviews = (await loadSourceReviews(reviewPath))
       .filter((review) => !review.imported || review.id === firstCollectionId);
-    await writeFile(reviewPath, stringify(retainedReviews));
+    await writeFile(
+      reviewPath,
+      stringify(retainedReviews).replace(/^  reviewedAt: ([^\s]+)$/gmu, '  reviewedAt: "$1"'),
+    );
     const sidecar = JSON.parse(originalSidecar);
     sidecar.translations["fr-FR"].sourceDigest = "0".repeat(64);
     await writeFile(sidecarPath, `${JSON.stringify(sidecar, null, 2)}\n`);
@@ -1000,7 +1019,7 @@ test("preparation supports another collection and removes retired outputs only",
     assert.equal((sharedTopic.match(/\/awesome\/second-collection\//gu) ?? []).length, 1);
     assert.equal((sharedTopic.match(/\/awesome\/third-collection\//gu) ?? []).length, 1);
     assert.match(allCollections, /Python\].* \(2 collections\)/u);
-    assert.match(allCollections, /More repositories on GitHub \(50\)/u);
+    assert.match(allCollections, new RegExp(`More repositories on GitHub \\(${candidates.length}\\)`));
     assert.match(allCollections, /Links only; repository contents remain on GitHub/u);
     assert.match(allCollections, new RegExp(`${candidates[0].stars.toLocaleString("en-US")} stars`));
     for (const { repositoryUrl } of candidates) {

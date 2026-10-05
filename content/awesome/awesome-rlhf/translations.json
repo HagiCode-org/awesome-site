@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "人类反馈强化学习（RLHF）精选资源",
+      "description": "涵盖人类反馈强化学习的研究论文、代码库、数据集、博客和书籍。",
+      "sourceDigest": "c16ad013c0a37c0b9586443015565053c48cc7d424f864e6b466441931c0c15d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "人類回饋強化學習（RLHF）精選資源",
+      "description": "涵蓋人類回饋強化學習的研究論文、程式碼庫、資料集、部落格與書籍。",
+      "sourceDigest": "c16ad013c0a37c0b9586443015565053c48cc7d424f864e6b466441931c0c15d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Ressources incontournables sur le RLHF",
+      "description": "Des articles de recherche, des bases de code, des jeux de données, des blogs et des livres sur l’apprentissage par renforcement à partir de retours humains.",
+      "sourceDigest": "c16ad013c0a37c0b9586443015565053c48cc7d424f864e6b466441931c0c15d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Auswahl zu Reinforcement Learning mit menschlichem Feedback (RLHF)",
+      "description": "Forschungsarbeiten, Codebasen, Datensätze, Blogs und Bücher zu Reinforcement Learning mit menschlichem Feedback.",
+      "sourceDigest": "c16ad013c0a37c0b9586443015565053c48cc7d424f864e6b466441931c0c15d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Recursos imprescindibles sobre RLHF",
+      "description": "Artículos de investigación, bases de código, conjuntos de datos, blogs y libros sobre aprendizaje por refuerzo con retroalimentación humana.",
+      "sourceDigest": "c16ad013c0a37c0b9586443015565053c48cc7d424f864e6b466441931c0c15d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "人間のフィードバックによる強化学習（RLHF）リソース集",
+      "description": "人間のフィードバックによる強化学習に関する研究論文、コードベース、データセット、ブログ、書籍を紹介します。",
+      "sourceDigest": "c16ad013c0a37c0b9586443015565053c48cc7d424f864e6b466441931c0c15d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "인간 피드백 기반 강화학습(RLHF) 자료 모음",
+      "description": "인간 피드백 기반 강화학습에 관한 연구 논문, 코드베이스, 데이터셋, 블로그 및 도서를 모았습니다.",
+      "sourceDigest": "c16ad013c0a37c0b9586443015565053c48cc7d424f864e6b466441931c0c15d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Recursos essenciais sobre RLHF",
+      "description": "Artigos de pesquisa, bases de código, conjuntos de dados, blogs e livros sobre aprendizado por reforço com feedback humano.",
+      "sourceDigest": "c16ad013c0a37c0b9586443015565053c48cc7d424f864e6b466441931c0c15d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Подборка ресурсов по обучению с подкреплением на основе обратной связи от людей (RLHF)",
+      "description": "Научные статьи, кодовые базы, наборы данных, блоги и книги об обучении с подкреплением на основе обратной связи от людей.",
+      "sourceDigest": "c16ad013c0a37c0b9586443015565053c48cc7d424f864e6b466441931c0c15d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

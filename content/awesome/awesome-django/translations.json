@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Django 精选资源",
+      "description": "精选 Django 第三方软件包、开发工具、Python 包、学习资料、托管服务及开源项目。",
+      "sourceDigest": "e40a1c512a60587ed685198741f6cb0620818c8c8ab75e66d53aef1aafe17e98",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Django 精選資源",
+      "description": "精選 Django 第三方套件、開發工具、Python 套件、學習資源、代管服務及開源專案。",
+      "sourceDigest": "e40a1c512a60587ed685198741f6cb0620818c8c8ab75e66d53aef1aafe17e98",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Ressources Django",
+      "description": "Une sélection de packages tiers Django, d’outils de développement, de packages Python, de ressources, de services d’hébergement et de projets open source.",
+      "sourceDigest": "e40a1c512a60587ed685198741f6cb0620818c8c8ab75e66d53aef1aafe17e98",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Django-Ressourcen",
+      "description": "Eine kuratierte Sammlung von Django-Paketen, Entwicklungswerkzeugen, Python-Paketen, Lernmaterialien, Hosting-Diensten und Open-Source-Projekten.",
+      "sourceDigest": "e40a1c512a60587ed685198741f6cb0620818c8c8ab75e66d53aef1aafe17e98",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Recursos de Django",
+      "description": "Selección de paquetes de terceros para Django, herramientas de desarrollo, paquetes de Python, recursos, servicios de alojamiento y proyectos de código abierto.",
+      "sourceDigest": "e40a1c512a60587ed685198741f6cb0620818c8c8ab75e66d53aef1aafe17e98",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Django リソース集",
+      "description": "Django のサードパーティーパッケージ、開発ツール、Python パッケージ、学習資料、ホスティングサービス、オープンソースプロジェクトを厳選しています。",
+      "sourceDigest": "e40a1c512a60587ed685198741f6cb0620818c8c8ab75e66d53aef1aafe17e98",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Django 자료 모음",
+      "description": "Django 서드파티 패키지, 개발 도구, Python 패키지, 학습 자료, 호스팅 서비스, 오픈소스 프로젝트를 엄선했습니다.",
+      "sourceDigest": "e40a1c512a60587ed685198741f6cb0620818c8c8ab75e66d53aef1aafe17e98",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Recursos Django",
+      "description": "Seleção de pacotes de terceiros para Django, ferramentas de desenvolvimento, pacotes Python, recursos, serviços de hospedagem e projetos de código aberto.",
+      "sourceDigest": "e40a1c512a60587ed685198741f6cb0620818c8c8ab75e66d53aef1aafe17e98",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Ресурсы Django",
+      "description": "Подборка сторонних пакетов для Django, инструментов разработки, пакетов Python, учебных материалов, хостинговых сервисов и проектов с открытым исходным кодом.",
+      "sourceDigest": "e40a1c512a60587ed685198741f6cb0620818c8c8ab75e66d53aef1aafe17e98",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

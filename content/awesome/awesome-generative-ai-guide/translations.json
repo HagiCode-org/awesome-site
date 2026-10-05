@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Awesome 生成式 AI 指南",
+      "description": "生成式 AI 学习路径、研究、课程、工具与面试准备指南。",
+      "sourceDigest": "360b1e5f40ed8c543495d13b88f93303e546667c50291ec0b52061d1eb65d33b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Awesome 生成式 AI 指南",
+      "description": "生成式 AI 學習路徑、研究、課程、工具與面試準備指南。",
+      "sourceDigest": "360b1e5f40ed8c543495d13b88f93303e546667c50291ec0b52061d1eb65d33b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Guide Awesome sur l’IA générative",
+      "description": "Un guide des parcours d’apprentissage, recherches, cours, outils et préparations aux entretiens en IA générative.",
+      "sourceDigest": "360b1e5f40ed8c543495d13b88f93303e546667c50291ec0b52061d1eb65d33b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Awesome-Leitfaden für generative KI",
+      "description": "Ein Leitfaden zu Lernpfaden, Forschung, Kursen, Tools und Interviewvorbereitung für generative KI.",
+      "sourceDigest": "360b1e5f40ed8c543495d13b88f93303e546667c50291ec0b52061d1eb65d33b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Guía Awesome de IA generativa",
+      "description": "Una guía de itinerarios de aprendizaje, investigación, cursos, herramientas y preparación de entrevistas sobre IA generativa.",
+      "sourceDigest": "360b1e5f40ed8c543495d13b88f93303e546667c50291ec0b52061d1eb65d33b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Awesome 生成 AI ガイド",
+      "description": "生成 AI の学習パス、研究、コース、ツール、面接対策のガイドです。",
+      "sourceDigest": "360b1e5f40ed8c543495d13b88f93303e546667c50291ec0b52061d1eb65d33b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Awesome 생성형 AI 가이드",
+      "description": "생성형 AI 학습 경로, 연구, 강좌, 도구 및 면접 준비를 위한 안내서입니다.",
+      "sourceDigest": "360b1e5f40ed8c543495d13b88f93303e546667c50291ec0b52061d1eb65d33b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Guia Awesome de IA generativa",
+      "description": "Um guia de trilhas de aprendizagem, pesquisa, cursos, ferramentas e preparação para entrevistas em IA generativa.",
+      "sourceDigest": "360b1e5f40ed8c543495d13b88f93303e546667c50291ec0b52061d1eb65d33b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Руководство Awesome по генеративному ИИ",
+      "description": "Руководство по обучению, исследованиям, курсам, инструментам и подготовке к собеседованиям по генеративному ИИ.",
+      "sourceDigest": "360b1e5f40ed8c543495d13b88f93303e546667c50291ec0b52061d1eb65d33b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}
