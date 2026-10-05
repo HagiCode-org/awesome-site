@@ -38,11 +38,11 @@ The English homepage at `/` and the nine locale homepages at `/zh-CN/`, `/zh-Han
 
 `content/awesome/collections.json` is the collection registry. Each imported source is a pinned submodule under `sources/`; the original source is `awesome-github-profile-readme`. The source review ledger records the imported sources, GitHub-only candidates, and the three documented exclusions: `awesome-redis` (746 stars at the 2026-10-03 review), `awesome-kotlin` (its README is an introduction, not the collection), and `awesome-public-datasets` (its README is reStructuredText). Git records each selected source's exact commit, so later upstream commits do not change a build until the gitlink is deliberately updated.
 
-`content/awesome/candidates.json` lists qualifying repositories that do not yet have a hosted collection edition. The current 50 candidates have a reviewed repository license matching the pipeline's supported allowlist; their `licenseId` and dated star count are recorded in the registry and validated by the pipeline. This is a repository-level check, not proof that third-party links or assets in the README have the same license. Their localized topic labels and repository links appear under “More repositories on GitHub” on the all-collections page, linked from the documentation sidebar. These entries link to GitHub only; they do not copy or translate repository README content.
+`content/awesome/candidates.json` lists qualifying repositories that do not yet have a hosted collection edition. The candidates have a reviewed repository license matching the pipeline's supported allowlist; their `licenseId` and dated star count are recorded in the registry and validated by the pipeline. Candidate entries in `content/awesome/source-reviews.yml` also record the reviewed README/license commit and blobs, README rights notices, embedded-asset counts, and remote asset hosts. These checks do not independently clear third-party material or prove a repository license covers every README asset. All candidates remain GitHub links only: the site does not copy or translate their README or embedded assets.
 
 ## Source review ledger
 
-[`content/awesome/source-reviews.yml`](content/awesome/source-reviews.yml) is the canonical maintainer record of source review outcomes. Each YAML sequence entry has exactly six fields: `id` (stable kebab-case identifier), `source` (canonical GitHub repository URL), `title`, `imported` (a boolean), `notImportedReason`, and `importedAt`. Repository identities are compared case-insensitively.
+[`content/awesome/source-reviews.yml`](content/awesome/source-reviews.yml) is the canonical maintainer record of source review outcomes. Each YAML sequence entry includes `id` (stable kebab-case identifier), `source` (canonical GitHub repository URL), `title`, `imported` (a boolean), `notImportedReason`, and `importedAt`. Candidate entries also include the README rights review fields. Repository identities are compared case-insensitively.
 
 `imported: true` means the matching source is admitted to `collections.json`. A checked-out submodule or a GitHub-only candidate is not an import. Imported records have `notImportedReason: null`; non-imported records require a reason and `importedAt: null`. For example:
 
@@ -97,6 +97,14 @@ npm run content:prepare
 ```
 
 If the source README changes, export it again and update all translations to the new digest. Missing, stale, unreviewed, unsafe, or structurally incomplete content fails with a collection/locale diagnostic before generated pages are replaced. Fix the reported inputs and rerun preparation; authored files and the previous generated set remain intact on validation or staging failure.
+
+## External-link warning
+
+With JavaScript enabled, ordinary clicks, keyboard activations, modifier clicks, and middle clicks on non-allowlisted HTTP(S) links show a localized confirmation with the exact destination. Staying or pressing Escape cancels; continuing uses the displayed URL and preserves same-tab or isolated new-context intent. Named targets, `_top`, and `_parent` are normalized to an isolated new context; browsers decide whether that appears as a tab or window. If native modal dialogs are unavailable, a localized browser confirmation is used instead. With JavaScript disabled, original links and their native behavior remain unchanged.
+
+The exact-hostname exceptions are configured in `src/external-link-policy.mjs` as `externalHostnameAllowlist`, which is intentionally empty by default. Add only a reviewed hostname string (without a scheme, path, or port); a match applies to that hostname on any HTTP(S) scheme and port, but never to its subdomains or similar suffixes. Do not add broad domains merely for convenience.
+
+This prompt is an informed-choice step, not a safety check: it does not guard browser context-menu commands, copied URLs, programmatic navigation, embedded assets, or redirects after a destination is reached.
 
 ## Build and publication
 
