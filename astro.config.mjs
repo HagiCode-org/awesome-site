@@ -143,10 +143,6 @@ export default defineConfig({
             isAIAuthor: false,
             sourceLocale: "root",
           },
-          analytics: {
-            googleAnalytics: { enabled: false },
-            fiftyOneLa: { enabled: false },
-          },
           promoto: { enabled: true },
         }),
       ],
