@@ -1,0 +1,160 @@
+# Awesome Rust [![lint badge](https://github.com/rust-unofficial/awesome-rust/actions/workflows/lint.yml/badge.svg)](https://github.com/rust-unofficial/awesome-rust/actions/workflows/lint.yml) [![build badge](https://github.com/rust-unofficial/awesome-rust/actions/workflows/rust.yml/badge.svg?branch=main)](https://github.com/rust-unofficial/awesome-rust/actions/workflows/rust.yml) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/rust-unofficial/awesome-rust/)
+
+Rust 代码与资源精选列表。
+
+如果你想贡献内容，请阅读[此文档](CONTRIBUTING.md)。
+
+<!-- BEGIN mktoc {"min_depth": 2} -->
+
+- [应用程序](#applications)
+  - [音频与音乐](#audio-and-music)
+  - [区块链](#blockchain)
+  - [数据库](#database)
+  - [嵌入式](#embedded)
+  - [模拟器](#emulators)
+  - [文件管理器](#file-manager)
+  - [金融](#finance)
+  - [游戏](#games)
+  - [图形](#graphics)
+  - [图像处理](#image-processing)
+  - [工业自动化](#industrial-automation)
+  - [消息队列](#message-queue)
+  - [MLOps](#mlops)
+  - [可观测性](#observability)
+  - [操作系统](#operating-systems)
+  - [包管理器](#package-managers)
+  - [支付](#payments)
+  - [效率工具](#productivity)
+  - [路由协议](#routing-protocols)
+  - [安全工具](#security-tools)
+  - [社交网络](#social-networks)
+  - [系统工具](#system-tools)
+  - [任务调度](#task-scheduling)
+  - [文本编辑器](#text-editors)
+  - [文本处理](#text-processing)
+  - [实用工具](#utilities)
+  - [视频](#video)
+  - [虚拟化](#virtualization)
+  - [Web](#web)
+  - [Web 服务器](#web-servers)
+  - [工作流自动化](#workflow-automation)
+- [开发工具](#development-tools)
+  - [构建系统](#build-system)
+  - [调试](#debugging)
+  - [部署](#deployment)
+  - [嵌入式](#embedded-1)
+  - [FFI](#ffi)
+  - [格式化工具](#formatters)
+  - [IDE](#ides)
+  - [性能分析](#profiling)
+  - [服务](#services)
+  - [静态分析](#static-analysis)
+  - [测试](#testing)
+  - [转译](#transpiling)
+  - [隧道](#tunnel)
+- [库](#libraries)
+  - [人工智能](#artificial-intelligence)
+    - [遗传算法](#genetic-algorithms)
+    - [Google Gemini](#google-gemini)
+    - [机器学习](#machine-learning)
+    - [OpenAI](#openai)
+    - [工具](#tooling)
+  - [天文学](#astronomy)
+  - [异步](#asynchronous)
+  - [音频与音乐](#audio-and-music-1)
+  - [身份验证](#authentication)
+  - [汽车](#automotive)
+  - [生物信息学](#bioinformatics)
+  - [缓存](#caching)
+  - [云](#cloud)
+  - [命令行](#command-line)
+  - [压缩](#compression)
+  - [计算](#computation)
+  - [并发](#concurrency)
+  - [配置](#configuration)
+  - [密码学](#cryptography)
+  - [数据处理](#data-processing)
+  - [数据流](#data-streaming)
+  - [数据结构](#data-structures)
+  - [数据可视化](#data-visualization)
+  - [数据库](#database-1)
+  - [日期与时间](#date-and-time)
+  - [分布式系统](#distributed-systems)
+  - [领域驱动设计](#domain-driven-design)
+  - [eBPF](#ebpf)
+  - [电子邮件](#email)
+  - [编码](#encoding)
+  - [文件系统](#filesystem)
+  - [金融](#finance-1)
+  - [函数式编程](#functional-programming)
+  - [游戏开发](#game-development)
+  - [地理空间](#geospatial)
+  - [图算法](#graph-algorithms)
+  - [图形](#graphics-1)
+  - [GUI](#gui)
+  - [图像处理](#image-processing-1)
+  - [语言规范](#language-specification)
+  - [许可](#licensing)
+  - [日志记录](#logging)
+  - [宏](#macro)
+  - [标记语言](#markup-language)
+  - [移动开发](#mobile)
+  - [网络编程](#network-programming)
+  - [解析](#parsing)
+  - [外设](#peripherals)
+  - [平台专用](#platform-specific)
+  - [逆向工程](#reverse-engineering)
+  - [脚本](#scripting)
+  - [仿真](#simulation)
+  - [社交网络](#social-networks-1)
+  - [系统](#system)
+  - [任务调度](#task-scheduling-1)
+  - [模板引擎](#template-engine)
+  - [文本处理](#text-processing-1)
+  - [文本搜索](#text-search)
+  - [不安全代码](#unsafe)
+  - [视频](#video-1)
+  - [虚拟化](#virtualization-1)
+  - [Web 编程](#web-programming)
+- [注册表](#registries)
+- [资源](#resources)
+- [许可](#license)
+<!-- END mktoc -->
+
+## 应用程序
+
+* [ad-si/Woxi](https://github.com/ad-si/Woxi) [[woxi](https://crates.io/crates/woxi)] - 由 Rust 驱动的 Wolfram 语言解释器。
+* [alacritty](https://github.com/alacritty/alacritty) - 一款跨平台、使用 GPU 加速的终端模拟器
+* [Andromeda](https://github.com/tryandromeda/andromeda) - 从头开始使用 Rust 构建的 JavaScript 和 TypeScript 运行时 🦀，由 Nova Engine 驱动。
+* [arimxyer/models](https://github.com/arimxyer/models) [[modelsdev](https://crates.io/crates/modelsdev)] - 用于浏览 AI 模型、基准测试和编程代理的 TUI [![CI](https://github.com/arimxyer/models/actions/workflows/ci.yml/badge.svg)](https://github.com/arimxyer/models/actions/workflows/ci.yml)
+* [Arti](https://gitlab.torproject.org/tpo/core/arti) - Tor 的一种实现。（目前还是一个尚不完整的客户端，敬请期待！）[![Crates.io](https://img.shields.io/crates/v/arti.svg)](https://crates.io/crates/arti)
+* [asm-cli-rust](https://github.com/cch123/asm-cli-rust) - 交互式汇编语言 shell。
+* [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - 基于 Tauri 和 Rust 构建的跨平台现代 Clash GUI，支持 Windows、macOS 和 Linux。
+* [cloudflare/boringtun](https://github.com/cloudflare/boringtun) - 用户空间 WireGuard VPN 实现 [![build badge](https://img.shields.io/crates/v/boringtun.svg)](https://crates.io/crates/boringtun)
+* [DBX](https://github.com/t8y2/dbx) - 使用 Tauri 构建的轻量级开源数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB 等。[![CI](https://github.com/t8y2/dbx/actions/workflows/ci.yml/badge.svg)](https://github.com/t8y2/dbx/actions/workflows/ci.yml)
+* [defguard](https://github.com/defguard/defguard) - 企业级开源 SSO 和 WireGuard VPN，支持真正的双因素/多因素身份验证。
+* [denoland/deno](https://github.com/denoland/deno) - 基于 V8 和 Tokio 构建的安全 JavaScript/TypeScript 运行时 [![Build Status](https://github.com/denoland/deno/actions/workflows/ci.yml/badge.svg)](https://github.com/denoland/deno/actions)
+* [doprz/dipc](https://github.com/doprz/dipc) - 使用你喜爱的调色板/主题转换喜爱的图像和壁纸 [![crates.io](https://img.shields.io/crates/v/dipc)](https://crates.io/crates/dipc)
+* [EasyTier](https://github.com/EasyTier/EasyTier) - 简单、功能齐全的去中心化网状 VPN，支持 WireGuard。[![crates.io](https://img.shields.io/crates/v/easytier)](https://crates.io/crates/easytier) [![GitHub actions](https://github.com/EasyTier/EasyTier/actions/workflows/core.yml/badge.svg)](https://github.com/EasyTier/EasyTier/actions/)[![GitHub actions](https://github.com/EasyTier/EasyTier/actions/workflows/gui.yml/badge.svg)](https://github.com/EasyTier/EasyTier/actions/)
+* [Edit](https://github.com/microsoft/edit) - 满足简单需求的简易编辑器。[![CI](https://github.com/microsoft/edit/actions/workflows/ci.yml/badge.svg)](https://github.com/microsoft/edit/actions/workflows/ci.yml)
+* [fcsonline/drill](https://github.com/fcsonline/drill) - 受 Ansible 语法启发的 HTTP 负载测试应用程序
+* [fend](https://github.com/printfn/fend) - 支持单位运算的任意精度计算器 [![build](https://github.com/printfn/fend/workflows/build/badge.svg)](https://github.com/printfn/fend/actions/workflows/actions.yml)
+* [Fractalide](https://github.com/fractalide/fractalide) - 简单的微服务
+* [GCWing/BitFun](https://github.com/GCWing/BitFun) - 跨平台桌面 AI 代理，使用 Rust 运行时，可在真实代码仓库中工作，并操控浏览器、终端和桌面应用程序。
+* [giga-grabber](https://github.com/chanderlud/giga-grabber) - 极快且相对稳定的 Mega 下载器 [![build](https://github.com/chanderlud/giga-grabber/actions/workflows/release.yml/badge.svg)](https://github.com/chanderlud/giga-grabber/actions/workflows/release.yml)
+* [glzr-io/glazewm](https://github.com/glzr-io/glazewm) - 受 i3wm 启发的 Windows 平铺式窗口管理器，支持 YAML 配置、多显示器和键盘驱动的命令
+* [google/mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-helpers) [[mdbook-i18n-helpers](https://crates.io/crates/mdbook-i18n-helpers)] - mdbook 的国际化和渲染扩展。
+* [habitat](https://github.com/habitat-sh/habitat) - Chef 创建的应用程序构建、部署和管理工具。
+* [Herd](https://github.com/imjacobclark/Herd) - 实验性的 HTTP 负载测试应用程序
+* [hickory-dns](https://crates.io/crates/hickory-dns) - DNS 服务器 [![Build Status](https://github.com/hickory-dns/hickory-dns/actions/workflows/test.yml/badge.svg)](https://github.com/hickory-dns/hickory-dns/actions?query=workflow%3Atest)
+* [innernet](https://github.com/tonarino/innernet) - 底层使用 WireGuard 的覆盖网络或私有网状网络
+* [jedisct1/flowgger](https://github.com/awslabs/flowgger) - 快速、简单且轻量级的数据收集器
+* [kalker](https://github.com/PaddiM8/kalker) - 支持类数学语法、用户自定义变量和函数、求导、积分及复数的科学计算器。支持跨平台和 WASM [![Build Status](https://github.com/PaddiM8/kalker/workflows/Release/badge.svg)](https://github.com/PaddiM8/kalker/actions)
+* [kftray](https://github.com/hcavarsan/kftray) - 用于管理和共享多个 kubectl 端口转发配置的跨平台系统托盘应用。[![Build Status](https://github.com/hcavarsan/kftray/workflows/Release/badge.svg)](https://github.com/hcavarsan/kftray/actions)
+* [kytan](https://github.com/changlan/kytan) - 高性能点对点 VPN
+* [linkerd/linkerd2-proxy](https://github.com/linkerd/linkerd2-proxy) - 超轻量级 Kubernetes 服务网格。
+* [LWE](https://github.com/YangYuS8/lwe) - 使用 Rust 和 Tauri 构建的 Linux 桌面应用程序，用于浏览、管理和应用 Wallpaper Engine 内容。
+* [lzanini/mdbook-katex](https://github.com/lzanini/mdbook-katex) [[mdbook-katex](https://crates.io/crates/mdbook-katex)] - mdBook 的预处理器，使用 KaTeX 渲染 LaTeX 数学表达式。
+* [MaidSafe](https://github.com/maidsafe) - 去中心化平台。
+* [mayocream/koharu](https://github.com/mayocream/koharu) - 使用 Candle 和 Tauri 构建的机器学习漫画翻译器，支持自动检测对话气泡、OCR、图像修复和 LLM 翻译
+* [mdBook](https://github.com/rust-lang/mdBook) - 用于从 Markdown 文件创建书籍的命令行工具 [![Build Status](https://github.com/rust-lang/mdBook/actions/workflows/main.yml/badge.svg)](https://github.com/rust-lang/mdBook/actions)
