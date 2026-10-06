@@ -37,7 +37,12 @@
   margin-top: 0.75rem;
 }
 
+/* Starlight 的 reset.css 用 * { margin: 0 } 覆盖了 UA 对模态 dialog 的 margin: auto 居中,
+   这里显式声明 fixed + inset: 0 + margin: auto 使对话框在视口正中。 */
 .awesome-external-warning {
+  position: fixed;
+  inset: 0;
+  margin: auto;
   box-sizing: border-box;
   width: min(34rem, calc(100vw - 2rem));
   max-width: none;
