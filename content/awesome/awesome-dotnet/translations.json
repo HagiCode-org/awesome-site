@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "厉害的. NET!",
+      "description": "收集了令人赞叹的.NET库、工具、框架和软件。",
+      "sourceDigest": "3984b378338dc565a279dd71299e49ecc71ce48a917659bb409f19da47ebe7ab",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "真棒,NET!",
+      "description": "包括令人驚訝的.",
+      "sourceDigest": "3984b378338dc565a279dd71299e49ecc71ce48a917659bb409f19da47ebe7ab",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Génial.",
+      "description": "Une collection impressionnante de bibliothèques, d'outils, de cadres et de logiciels .NET.",
+      "sourceDigest": "3984b378338dc565a279dd71299e49ecc71ce48a917659bb409f19da47ebe7ab",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Tolles .NET!",
+      "description": "Eine Sammlung fantastischer .NET-Bibliotheken, Tools, Frameworks und Software.",
+      "sourceDigest": "3984b378338dc565a279dd71299e49ecc71ce48a917659bb409f19da47ebe7ab",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Impresionante .NET!",
+      "description": "Una colección de impresionantes bibliotecas .NET, herramientas, marcos y software.",
+      "sourceDigest": "3984b378338dc565a279dd71299e49ecc71ce48a917659bb409f19da47ebe7ab",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "素晴らしい .NET!",
+      "description": "素晴らしい.NETライブラリ、ツール、フレームワーク、ソフトウェアのコレクション。",
+      "sourceDigest": "3984b378338dc565a279dd71299e49ecc71ce48a917659bb409f19da47ebe7ab",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "최고 .NET!",
+      "description": ".NET 라이브러리, 도구, 프레임 워크 및 소프트웨어의 컬렉션.",
+      "sourceDigest": "3984b378338dc565a279dd71299e49ecc71ce48a917659bb409f19da47ebe7ab",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Awesome .NET!",
+      "description": "Uma coleção incrível de bibliotecas, ferramentas, frameworks e softwares .NET.",
+      "sourceDigest": "3984b378338dc565a279dd71299e49ecc71ce48a917659bb409f19da47ebe7ab",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Awesome .NET!",
+      "description": "Подборка замечательных библиотек, инструментов, платформ и программного обеспечения для .NET.",
+      "sourceDigest": "3984b378338dc565a279dd71299e49ecc71ce48a917659bb409f19da47ebe7ab",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}
