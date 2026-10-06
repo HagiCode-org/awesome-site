@@ -288,6 +288,7 @@ export function awesomeContent() {
     for (let index = 0; index < headings.length; index += 1) {
       const heading = headings[index];
       const { sourceId, targetId } = fragments[index];
+      if (!sourceId && !targetId) continue;
       if (!sourceId || !targetId || ids.has(targetId) || ids.has(sourceId)) {
         throw new Error(`${source.id}: heading anchor collision at "${sourceId}"`);
       }
