@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "Awesome 提示工程资源集",
+      "title": "Prompt Engineering",
       "description": "精选提示工程与上下文工程资源，涵盖论文、工具、模型、API、基准测试、课程和社区。",
       "sourceDigest": "831f4e9b66c5052d40af14b9f570419e78bb2886b95fc22c4da88ea594bd09bd",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "Awesome 提示工程資源集",
+      "title": "Prompt Engineering",
       "description": "精選提示工程與上下文工程資源，涵蓋論文、工具、模型、API、基準測試、課程和社群。",
       "sourceDigest": "831f4e9b66c5052d40af14b9f570419e78bb2886b95fc22c4da88ea594bd09bd",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Ressources incontournables en ingénierie des prompts",
+      "title": "Prompt Engineering",
       "description": "Une sélection de ressources en ingénierie des prompts et du contexte : articles, outils, modèles, API, benchmarks, cours et communautés.",
       "sourceDigest": "831f4e9b66c5052d40af14b9f570419e78bb2886b95fc22c4da88ea594bd09bd",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Ausgewählte Ressourcen zum Prompt Engineering",
+      "title": "Prompt Engineering",
       "description": "Eine kuratierte Sammlung zu Prompt- und Context-Engineering mit Fachartikeln, Tools, Modellen, APIs, Benchmarks, Kursen und Communities.",
       "sourceDigest": "831f4e9b66c5052d40af14b9f570419e78bb2886b95fc22c4da88ea594bd09bd",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Recursos imprescindibles de ingeniería de prompts",
+      "title": "Prompt Engineering",
       "description": "Una selección de recursos sobre ingeniería de prompts y de contexto: artículos, herramientas, modelos, API, benchmarks, cursos y comunidades.",
       "sourceDigest": "831f4e9b66c5052d40af14b9f570419e78bb2886b95fc22c4da88ea594bd09bd",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "プロンプトエンジニアリング資料集",
+      "title": "Prompt Engineering",
       "description": "プロンプトおよびコンテキストエンジニアリングに関する論文、ツール、モデル、API、ベンチマーク、講座、コミュニティを厳選しました。",
       "sourceDigest": "831f4e9b66c5052d40af14b9f570419e78bb2886b95fc22c4da88ea594bd09bd",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "프롬프트 엔지니어링 자료 모음",
+      "title": "Prompt Engineering",
       "description": "프롬프트 및 컨텍스트 엔지니어링 관련 논문, 도구, 모델, API, 벤치마크, 강좌와 커뮤니티를 엄선했습니다.",
       "sourceDigest": "831f4e9b66c5052d40af14b9f570419e78bb2886b95fc22c4da88ea594bd09bd",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Recursos essenciais de engenharia de prompts",
+      "title": "Prompt Engineering",
       "description": "Uma seleção de recursos de engenharia de prompts e de contexto: artigos, ferramentas, modelos, APIs, benchmarks, cursos e comunidades.",
       "sourceDigest": "831f4e9b66c5052d40af14b9f570419e78bb2886b95fc22c4da88ea594bd09bd",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка ресурсов по промпт-инжинирингу",
+      "title": "Prompt Engineering",
       "description": "Подборка материалов по промпт- и контекст-инжинирингу: статьи, инструменты, модели, API, бенчмарки, курсы и сообщества.",
       "sourceDigest": "831f4e9b66c5052d40af14b9f570419e78bb2886b95fc22c4da88ea594bd09bd",
       "isAITranslation": true,

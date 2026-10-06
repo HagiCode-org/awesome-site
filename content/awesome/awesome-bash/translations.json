@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "Awesome Bash 精选",
+      "title": "Bash",
       "description": "Bash 脚本与资源精选集。",
       "sourceDigest": "23092c368b0f4f171653a0241b4c40d8d0340a107d70199322ae6d7a4814f3e1",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "Awesome Bash 精選",
+      "title": "Bash",
       "description": "Bash 指令碼與資源精選集。",
       "sourceDigest": "23092c368b0f4f171653a0241b4c40d8d0340a107d70199322ae6d7a4814f3e1",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Sélection Awesome Bash",
+      "title": "Bash",
       "description": "Une sélection de scripts et de ressources Bash.",
       "sourceDigest": "23092c368b0f4f171653a0241b4c40d8d0340a107d70199322ae6d7a4814f3e1",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Awesome Bash – Auswahl",
+      "title": "Bash",
       "description": "Eine kuratierte Sammlung von Bash-Skripten und Ressourcen.",
       "sourceDigest": "23092c368b0f4f171653a0241b4c40d8d0340a107d70199322ae6d7a4814f3e1",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Selección de Awesome Bash",
+      "title": "Bash",
       "description": "Una selección de scripts y recursos de Bash.",
       "sourceDigest": "23092c368b0f4f171653a0241b4c40d8d0340a107d70199322ae6d7a4814f3e1",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "Awesome Bash 厳選集",
+      "title": "Bash",
       "description": "Bash スクリプトとリソースの厳選コレクションです。",
       "sourceDigest": "23092c368b0f4f171653a0241b4c40d8d0340a107d70199322ae6d7a4814f3e1",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "Awesome Bash 모음",
+      "title": "Bash",
       "description": "Bash 스크립트와 리소스를 엄선한 모음입니다.",
       "sourceDigest": "23092c368b0f4f171653a0241b4c40d8d0340a107d70199322ae6d7a4814f3e1",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Seleção do Awesome Bash",
+      "title": "Bash",
       "description": "Uma seleção de scripts e recursos de Bash.",
       "sourceDigest": "23092c368b0f4f171653a0241b4c40d8d0340a107d70199322ae6d7a4814f3e1",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка Awesome Bash",
+      "title": "Bash",
       "description": "Подборка скриптов и ресурсов для Bash.",
       "sourceDigest": "23092c368b0f4f171653a0241b4c40d8d0340a107d70199322ae6d7a4814f3e1",
       "isAITranslation": true,

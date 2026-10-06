@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "Awesome 系统设计",
+      "title": "System Design",
       "description": "分布式计算和大数据系统设计的文章、书籍、视频与工具精选清单。",
       "sourceDigest": "0fe711a1fb773d1787538cf0078bc8d968297a36a0921924d156b6f50487c93d",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "Awesome 系統設計",
+      "title": "System Design",
       "description": "分散式運算與大數據系統設計的文章、書籍、影片及工具精選清單。",
       "sourceDigest": "0fe711a1fb773d1787538cf0078bc8d968297a36a0921924d156b6f50487c93d",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Conception de systèmes Awesome",
+      "title": "System Design",
       "description": "Sélection d’articles, de livres, de vidéos et d’outils sur la conception de systèmes distribués et le big data.",
       "sourceDigest": "0fe711a1fb773d1787538cf0078bc8d968297a36a0921924d156b6f50487c93d",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Awesome Systemdesign",
+      "title": "System Design",
       "description": "Auswahl von Artikeln, Büchern, Videos und Werkzeugen zu verteilten Systemen und Big Data.",
       "sourceDigest": "0fe711a1fb773d1787538cf0078bc8d968297a36a0921924d156b6f50487c93d",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Diseño de sistemas Awesome",
+      "title": "System Design",
       "description": "Selección de artículos, libros, vídeos y herramientas sobre sistemas distribuidos y big data.",
       "sourceDigest": "0fe711a1fb773d1787538cf0078bc8d968297a36a0921924d156b6f50487c93d",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "Awesome システム設計",
+      "title": "System Design",
       "description": "分散コンピューティングとビッグデータ向けのシステム設計に関する記事、書籍、動画、ツール集です。",
       "sourceDigest": "0fe711a1fb773d1787538cf0078bc8d968297a36a0921924d156b6f50487c93d",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "Awesome 시스템 설계",
+      "title": "System Design",
       "description": "분산 컴퓨팅과 빅데이터 시스템 설계 관련 문서, 서적, 동영상 및 도구를 엄선한 목록입니다.",
       "sourceDigest": "0fe711a1fb773d1787538cf0078bc8d968297a36a0921924d156b6f50487c93d",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Design de sistemas Awesome",
+      "title": "System Design",
       "description": "Seleção de artigos, livros, vídeos e ferramentas sobre sistemas distribuídos e big data.",
       "sourceDigest": "0fe711a1fb773d1787538cf0078bc8d968297a36a0921924d156b6f50487c93d",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Проектирование систем Awesome",
+      "title": "System Design",
       "description": "Подборка статей, книг, видео и инструментов по распределённым системам и большим данным.",
       "sourceDigest": "0fe711a1fb773d1787538cf0078bc8d968297a36a0921924d156b6f50487c93d",
       "isAITranslation": true,

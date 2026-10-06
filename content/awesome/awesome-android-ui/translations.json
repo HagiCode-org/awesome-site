@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "Android UI/UX 精选",
+      "title": "Android UI",
       "description": "精选 Android UI/UX 库、组件与工具资源。",
       "sourceDigest": "67be7247e547fc5145e6b4345059170d5b3e63e171edeb8954ff450028b92107",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "Android UI/UX 精選",
+      "title": "Android UI",
       "description": "精選 Android UI/UX 函式庫、元件與工具資源。",
       "sourceDigest": "67be7247e547fc5145e6b4345059170d5b3e63e171edeb8954ff450028b92107",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Sélection de ressources Android UI/UX",
+      "title": "Android UI",
       "description": "Une sélection de bibliothèques, composants et outils Android pour l’interface et l’expérience utilisateur.",
       "sourceDigest": "67be7247e547fc5145e6b4345059170d5b3e63e171edeb8954ff450028b92107",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Ausgewählte Android-UI/UX-Ressourcen",
+      "title": "Android UI",
       "description": "Eine Auswahl an Android-Bibliotheken, Komponenten und Werkzeugen für UI/UX.",
       "sourceDigest": "67be7247e547fc5145e6b4345059170d5b3e63e171edeb8954ff450028b92107",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Selección de recursos Android UI/UX",
+      "title": "Android UI",
       "description": "Una selección de bibliotecas, componentes y herramientas Android para UI/UX.",
       "sourceDigest": "67be7247e547fc5145e6b4345059170d5b3e63e171edeb8954ff450028b92107",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "Android UI/UX リソース集",
+      "title": "Android UI",
       "description": "Android の UI/UX ライブラリ、コンポーネント、ツールを厳選して紹介します。",
       "sourceDigest": "67be7247e547fc5145e6b4345059170d5b3e63e171edeb8954ff450028b92107",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "Android UI/UX 자료 모음",
+      "title": "Android UI",
       "description": "Android UI/UX 라이브러리, 구성 요소 및 도구를 엄선해 소개합니다.",
       "sourceDigest": "67be7247e547fc5145e6b4345059170d5b3e63e171edeb8954ff450028b92107",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Seleção de recursos Android UI/UX",
+      "title": "Android UI",
       "description": "Uma seleção de bibliotecas, componentes e ferramentas Android para UI/UX.",
       "sourceDigest": "67be7247e547fc5145e6b4345059170d5b3e63e171edeb8954ff450028b92107",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка материалов Android UI/UX",
+      "title": "Android UI",
       "description": "Подборка библиотек, компонентов и инструментов Android для UI/UX.",
       "sourceDigest": "67be7247e547fc5145e6b4345059170d5b3e63e171edeb8954ff450028b92107",
       "isAITranslation": true,

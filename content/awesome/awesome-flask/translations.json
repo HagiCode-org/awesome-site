@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "Flask 精选资源",
+      "title": "Flask",
       "description": "收藏弗拉斯克扩展版、教程、书籍、实例项目和部署选项。",
       "sourceDigest": "2d37cf3d0da08ee7031adf40592c86227f03c75f930cc31560a710479e5efd44",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "Flask 精選資源",
+      "title": "Flask",
       "description": "由 Flask 延伸、教學、書本、範例計畫及部署選項組成。",
       "sourceDigest": "2d37cf3d0da08ee7031adf40592c86227f03c75f930cc31560a710479e5efd44",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Ressources sélectionnées pour Flask",
+      "title": "Flask",
       "description": "Une collection curée d'extensions Flask, des tutoriels, des livres, des exemples de projets et des options de déploiement.",
       "sourceDigest": "2d37cf3d0da08ee7031adf40592c86227f03c75f930cc31560a710479e5efd44",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Ausgewählte Flask-Ressourcen",
+      "title": "Flask",
       "description": "Eine kuratierte Sammlung von Flask Erweiterungen, Tutorials, Büchern, Beispielprojekten und Bereitstellungsoptionen.",
       "sourceDigest": "2d37cf3d0da08ee7031adf40592c86227f03c75f930cc31560a710479e5efd44",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Recursos seleccionados de Flask",
+      "title": "Flask",
       "description": "Una colección curada de extensiones de Flask, tutoriales, libros, proyectos de ejemplo y opciones de implementación.",
       "sourceDigest": "2d37cf3d0da08ee7031adf40592c86227f03c75f930cc31560a710479e5efd44",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "Flask のおすすめリソース",
+      "title": "Flask",
       "description": "フラスコ拡張、チュートリアル、書籍、例のプロジェクト、および展開オプションのキュレーションコレクション。",
       "sourceDigest": "2d37cf3d0da08ee7031adf40592c86227f03c75f930cc31560a710479e5efd44",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "Flask 추천 리소스",
+      "title": "Flask",
       "description": "플라스크 확장, 튜토리얼, 책, 예 프로젝트 및 배포 옵션의 큐레이터 컬렉션.",
       "sourceDigest": "2d37cf3d0da08ee7031adf40592c86227f03c75f930cc31560a710479e5efd44",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Recursos selecionados de Flask",
+      "title": "Flask",
       "description": "Uma coleção curadoria de extensões Flask, tutoriais, livros, projetos de exemplo e opções de implantação.",
       "sourceDigest": "2d37cf3d0da08ee7031adf40592c86227f03c75f930cc31560a710479e5efd44",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка ресурсов по Flask",
+      "title": "Flask",
       "description": "Кураторская коллекция расширений Flask, учебных пособий, книг, примеров проектов и вариантов развертывания.",
       "sourceDigest": "2d37cf3d0da08ee7031adf40592c86227f03c75f930cc31560a710479e5efd44",
       "isAITranslation": true,

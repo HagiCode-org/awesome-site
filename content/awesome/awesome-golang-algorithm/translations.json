@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "Awesome Go 算法",
+      "title": "Golang Algorithm",
       "description": "LeetCode 和《剑指 Offer》题目的 Go 实现与文档。",
       "sourceDigest": "480d0c455c1669d17ebc6e7b9ad28f8eb9656c8ae2e9f33726b8d24009ca3277",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "Awesome Go 演算法",
+      "title": "Golang Algorithm",
       "description": "LeetCode 與《劍指 Offer》題目的 Go 實作與文件。",
       "sourceDigest": "480d0c455c1669d17ebc6e7b9ad28f8eb9656c8ae2e9f33726b8d24009ca3277",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Algorithmes Awesome en Go",
+      "title": "Golang Algorithm",
       "description": "Implémentations Go et documentation des problèmes LeetCode et Sword Finger Offer.",
       "sourceDigest": "480d0c455c1669d17ebc6e7b9ad28f8eb9656c8ae2e9f33726b8d24009ca3277",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Awesome-Go-Algorithmen",
+      "title": "Golang Algorithm",
       "description": "Go-Implementierungen und Dokumentation zu LeetCode- und Sword-Finger-Offer-Aufgaben.",
       "sourceDigest": "480d0c455c1669d17ebc6e7b9ad28f8eb9656c8ae2e9f33726b8d24009ca3277",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Algoritmos Awesome en Go",
+      "title": "Golang Algorithm",
       "description": "Implementaciones en Go y documentación de problemas de LeetCode y Sword Finger Offer.",
       "sourceDigest": "480d0c455c1669d17ebc6e7b9ad28f8eb9656c8ae2e9f33726b8d24009ca3277",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "Awesome Go アルゴリズム",
+      "title": "Golang Algorithm",
       "description": "LeetCode と Sword Finger Offer の問題の Go 実装とドキュメントです。",
       "sourceDigest": "480d0c455c1669d17ebc6e7b9ad28f8eb9656c8ae2e9f33726b8d24009ca3277",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "Awesome Go 알고리즘",
+      "title": "Golang Algorithm",
       "description": "LeetCode 및 Sword Finger Offer 문제의 Go 구현과 문서입니다.",
       "sourceDigest": "480d0c455c1669d17ebc6e7b9ad28f8eb9656c8ae2e9f33726b8d24009ca3277",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Algoritmos Awesome em Go",
+      "title": "Golang Algorithm",
       "description": "Implementações em Go e documentação de problemas do LeetCode e Sword Finger Offer.",
       "sourceDigest": "480d0c455c1669d17ebc6e7b9ad28f8eb9656c8ae2e9f33726b8d24009ca3277",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Алгоритмы Awesome на Go",
+      "title": "Golang Algorithm",
       "description": "Реализации на Go и документация к задачам LeetCode и Sword Finger Offer.",
       "sourceDigest": "480d0c455c1669d17ebc6e7b9ad28f8eb9656c8ae2e9f33726b8d24009ca3277",
       "isAITranslation": true,

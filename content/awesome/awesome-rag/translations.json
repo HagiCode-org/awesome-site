@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "Awesome 检索增强生成（RAG）",
+      "title": "RAG",
       "description": "面向检索增强生成系统的工具、框架、技术与学习资源精选。",
       "sourceDigest": "a1fa44c4e7092b7b771c2058edb69946570e35c95ffb47606368b066ba9f9be3",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "Awesome 檢索增強生成（RAG）",
+      "title": "RAG",
       "description": "精選檢索增強生成系統所需的工具、框架、技術與學習資源。",
       "sourceDigest": "a1fa44c4e7092b7b771c2058edb69946570e35c95ffb47606368b066ba9f9be3",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Ressources incontournables sur la génération augmentée par récupération (RAG)",
+      "title": "RAG",
       "description": "Une sélection d’outils, de frameworks, de techniques et de ressources pédagogiques pour créer des systèmes RAG.",
       "sourceDigest": "a1fa44c4e7092b7b771c2058edb69946570e35c95ffb47606368b066ba9f9be3",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Auswahl zur Retrieval-Augmented Generation (RAG)",
+      "title": "RAG",
       "description": "Ausgewählte Tools, Frameworks, Techniken und Lernmaterialien zum Erstellen von RAG-Systemen.",
       "sourceDigest": "a1fa44c4e7092b7b771c2058edb69946570e35c95ffb47606368b066ba9f9be3",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Recursos imprescindibles sobre generación aumentada por recuperación (RAG)",
+      "title": "RAG",
       "description": "Una selección de herramientas, frameworks, técnicas y materiales de aprendizaje para crear sistemas RAG.",
       "sourceDigest": "a1fa44c4e7092b7b771c2058edb69946570e35c95ffb47606368b066ba9f9be3",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "検索拡張生成（RAG）厳選リソース集",
+      "title": "RAG",
       "description": "RAG システムの構築に役立つツール、フレームワーク、手法、学習資料を厳選して紹介します。",
       "sourceDigest": "a1fa44c4e7092b7b771c2058edb69946570e35c95ffb47606368b066ba9f9be3",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "검색 증강 생성(RAG) 리소스 모음",
+      "title": "RAG",
       "description": "RAG 시스템 구축을 위한 엄선된 도구, 프레임워크, 기법 및 학습 자료입니다.",
       "sourceDigest": "a1fa44c4e7092b7b771c2058edb69946570e35c95ffb47606368b066ba9f9be3",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Recursos essenciais sobre geração aumentada por recuperação (RAG)",
+      "title": "RAG",
       "description": "Uma seleção de ferramentas, frameworks, técnicas e materiais de aprendizagem para criar sistemas RAG.",
       "sourceDigest": "a1fa44c4e7092b7b771c2058edb69946570e35c95ffb47606368b066ba9f9be3",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка ресурсов по генерации с дополненной выборкой (RAG)",
+      "title": "RAG",
       "description": "Подборка инструментов, фреймворков, методик и учебных материалов для создания систем RAG.",
       "sourceDigest": "a1fa44c4e7092b7b771c2058edb69946570e35c95ffb47606368b066ba9f9be3",
       "isAITranslation": true,

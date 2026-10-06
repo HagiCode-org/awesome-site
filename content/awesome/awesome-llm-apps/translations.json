@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "Awesome LLM 应用",
+      "title": "LLM Apps",
       "description": "精选开源 LLM 智能体、智能体技能和 RAG 应用，附带可直接运行的完整项目。",
       "sourceDigest": "3dbbf31020bb25a256f8b7790cb7447bc568c46bfc2a061ff18e162c36700dc2",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "Awesome LLM 應用程式",
+      "title": "LLM Apps",
       "description": "精選開源 LLM 代理、代理技能和 RAG 應用程式，提供可直接執行的完整專案。",
       "sourceDigest": "3dbbf31020bb25a256f8b7790cb7447bc568c46bfc2a061ff18e162c36700dc2",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Applications LLM incontournables",
+      "title": "LLM Apps",
       "description": "Une sélection d’agents IA, de compétences et d’applications RAG open source, conçus et testés de bout en bout.",
       "sourceDigest": "3dbbf31020bb25a256f8b7790cb7447bc568c46bfc2a061ff18e162c36700dc2",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Awesome LLM-Apps",
+      "title": "LLM Apps",
       "description": "Eine Auswahl quelloffener KI-Agenten, Agenten-Skills und RAG-Anwendungen, von Hand erstellt und durchgehend getestet.",
       "sourceDigest": "3dbbf31020bb25a256f8b7790cb7447bc568c46bfc2a061ff18e162c36700dc2",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Aplicaciones LLM increíbles",
+      "title": "LLM Apps",
       "description": "Selección de agentes de IA, habilidades de agentes y aplicaciones RAG de código abierto, creados y probados de principio a fin.",
       "sourceDigest": "3dbbf31020bb25a256f8b7790cb7447bc568c46bfc2a061ff18e162c36700dc2",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "Awesome LLMアプリ集",
+      "title": "LLM Apps",
       "description": "オープンソースのAIエージェント、スキル、RAGアプリを厳選。手作業で構築し、エンドツーエンドでテストしています。",
       "sourceDigest": "3dbbf31020bb25a256f8b7790cb7447bc568c46bfc2a061ff18e162c36700dc2",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "Awesome LLM 앱 모음",
+      "title": "LLM Apps",
       "description": "직접 제작하고 엔드투엔드로 테스트한 오픈소스 AI 에이전트, 스킬, RAG 앱을 엄선했습니다.",
       "sourceDigest": "3dbbf31020bb25a256f8b7790cb7447bc568c46bfc2a061ff18e162c36700dc2",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Aplicativos LLM incríveis",
+      "title": "LLM Apps",
       "description": "Seleção de agentes de IA, habilidades de agentes e aplicativos RAG de código aberto, criados e testados de ponta a ponta.",
       "sourceDigest": "3dbbf31020bb25a256f8b7790cb7447bc568c46bfc2a061ff18e162c36700dc2",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка LLM-приложений",
+      "title": "LLM Apps",
       "description": "Подборка ИИ-агентов, навыков и RAG-приложений с открытым кодом, созданных и проверенных от начала до конца.",
       "sourceDigest": "3dbbf31020bb25a256f8b7790cb7447bc568c46bfc2a061ff18e162c36700dc2",
       "isAITranslation": true,

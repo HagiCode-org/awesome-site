@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "Awesome Electron 精选",
+      "title": "Electron",
       "description": "精选的 Electron 应用、工具、组件、文档和学习资源。",
       "sourceDigest": "93e6b70dd4468b5e5fbd4260a331c99034f8d617e59d101a136ad8bc9354168f",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "Awesome Electron 精選",
+      "title": "Electron",
       "description": "精選的 Electron 應用程式、工具、元件、文件與學習資源。",
       "sourceDigest": "93e6b70dd4468b5e5fbd4260a331c99034f8d617e59d101a136ad8bc9354168f",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Sélection Awesome Electron",
+      "title": "Electron",
       "description": "Une sélection d’applications, d’outils, de composants, de documentation et de ressources d’apprentissage pour Electron.",
       "sourceDigest": "93e6b70dd4468b5e5fbd4260a331c99034f8d617e59d101a136ad8bc9354168f",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Awesome Electron – Auswahl",
+      "title": "Electron",
       "description": "Eine Auswahl an Electron-Apps, Tools, Komponenten, Dokumentation und Lernressourcen.",
       "sourceDigest": "93e6b70dd4468b5e5fbd4260a331c99034f8d617e59d101a136ad8bc9354168f",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Selección de Awesome Electron",
+      "title": "Electron",
       "description": "Una selección de aplicaciones, herramientas, componentes, documentación y recursos de aprendizaje para Electron.",
       "sourceDigest": "93e6b70dd4468b5e5fbd4260a331c99034f8d617e59d101a136ad8bc9354168f",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "Awesome Electron 厳選集",
+      "title": "Electron",
       "description": "Electron のアプリ、ツール、コンポーネント、ドキュメント、学習リソースを厳選して紹介します。",
       "sourceDigest": "93e6b70dd4468b5e5fbd4260a331c99034f8d617e59d101a136ad8bc9354168f",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "Awesome Electron 모음",
+      "title": "Electron",
       "description": "엄선한 Electron 앱, 도구, 구성 요소, 문서 및 학습 자료입니다.",
       "sourceDigest": "93e6b70dd4468b5e5fbd4260a331c99034f8d617e59d101a136ad8bc9354168f",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Seleção Awesome Electron",
+      "title": "Electron",
       "description": "Uma seleção de aplicativos, ferramentas, componentes, documentação e recursos de aprendizado para Electron.",
       "sourceDigest": "93e6b70dd4468b5e5fbd4260a331c99034f8d617e59d101a136ad8bc9354168f",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка Awesome Electron",
+      "title": "Electron",
       "description": "Подборка приложений, инструментов, компонентов, документации и учебных материалов для Electron.",
       "sourceDigest": "93e6b70dd4468b5e5fbd4260a331c99034f8d617e59d101a136ad8bc9354168f",
       "isAITranslation": true,

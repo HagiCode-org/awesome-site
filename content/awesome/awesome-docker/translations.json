@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "Awesome Docker 精选",
+      "title": "Docker",
       "description": "Docker 相关项目精选。",
       "sourceDigest": "2d1499d5364e34522bbc3e48cf129840b522a96e6d780fd8f71aa888babc7af9",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "Awesome Docker 精選",
+      "title": "Docker",
       "description": "精選與 Docker 相關的專案。",
       "sourceDigest": "2d1499d5364e34522bbc3e48cf129840b522a96e6d780fd8f71aa888babc7af9",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Sélection Awesome Docker",
+      "title": "Docker",
       "description": "Une sélection de projets pour Docker.",
       "sourceDigest": "2d1499d5364e34522bbc3e48cf129840b522a96e6d780fd8f71aa888babc7af9",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Awesome Docker – Auswahl",
+      "title": "Docker",
       "description": "Eine kuratierte Liste von Docker-Projekten.",
       "sourceDigest": "2d1499d5364e34522bbc3e48cf129840b522a96e6d780fd8f71aa888babc7af9",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Selección de Awesome Docker",
+      "title": "Docker",
       "description": "Una selección de proyectos para Docker.",
       "sourceDigest": "2d1499d5364e34522bbc3e48cf129840b522a96e6d780fd8f71aa888babc7af9",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "Awesome Docker 厳選集",
+      "title": "Docker",
       "description": "Docker 向けプロジェクトを厳選して紹介します。",
       "sourceDigest": "2d1499d5364e34522bbc3e48cf129840b522a96e6d780fd8f71aa888babc7af9",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "Awesome Docker 모음",
+      "title": "Docker",
       "description": "Docker를 위한 프로젝트를 엄선했습니다.",
       "sourceDigest": "2d1499d5364e34522bbc3e48cf129840b522a96e6d780fd8f71aa888babc7af9",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Seleção Awesome Docker",
+      "title": "Docker",
       "description": "Uma seleção de projetos para Docker.",
       "sourceDigest": "2d1499d5364e34522bbc3e48cf129840b522a96e6d780fd8f71aa888babc7af9",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка Awesome Docker",
+      "title": "Docker",
       "description": "Подборка проектов для Docker.",
       "sourceDigest": "2d1499d5364e34522bbc3e48cf129840b522a96e6d780fd8f71aa888babc7af9",
       "isAITranslation": true,

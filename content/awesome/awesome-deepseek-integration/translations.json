@@ -1,63 +1,63 @@
 {
   "translations": {
     "de-DE": {
-      "title": "DeepSeek-Integrationen",
+      "title": "DeepSeek Integrations",
       "description": "Eine Auswahl an Apps, Tools, Erweiterungen und Frameworks zur Integration von DeepSeek.",
       "sourceDigest": "c5918abc282aedde38979acace98c1b3902801057d1fef513e2387bfd566666d",
       "reviewStatus": "reviewed",
       "isAITranslation": true
     },
     "es-ES": {
-      "title": "Integraciones de DeepSeek",
+      "title": "DeepSeek Integrations",
       "description": "Selección de aplicaciones, herramientas, extensiones y frameworks que integran DeepSeek.",
       "sourceDigest": "c5918abc282aedde38979acace98c1b3902801057d1fef513e2387bfd566666d",
       "reviewStatus": "reviewed",
       "isAITranslation": true
     },
     "fr-FR": {
-      "title": "Intégrations DeepSeek",
+      "title": "DeepSeek Integrations",
       "description": "Une sélection d’applications, d’outils, d’extensions et de frameworks intégrant DeepSeek.",
       "sourceDigest": "c5918abc282aedde38979acace98c1b3902801057d1fef513e2387bfd566666d",
       "reviewStatus": "reviewed",
       "isAITranslation": true
     },
     "ja-JP": {
-      "title": "DeepSeek 連携厳選集",
+      "title": "DeepSeek Integrations",
       "description": "DeepSeek を統合するアプリ、ツール、拡張機能、フレームワークを厳選して紹介します。",
       "sourceDigest": "c5918abc282aedde38979acace98c1b3902801057d1fef513e2387bfd566666d",
       "reviewStatus": "reviewed",
       "isAITranslation": true
     },
     "ko-KR": {
-      "title": "DeepSeek 통합 모음",
+      "title": "DeepSeek Integrations",
       "description": "DeepSeek을 연동하는 엄선된 앱, 도구, 확장 프로그램 및 프레임워크입니다.",
       "sourceDigest": "c5918abc282aedde38979acace98c1b3902801057d1fef513e2387bfd566666d",
       "reviewStatus": "reviewed",
       "isAITranslation": true
     },
     "zh-CN": {
-      "title": "Awesome DeepSeek 集成",
+      "title": "DeepSeek Integrations",
       "description": "精选集成 DeepSeek 的应用、工具、扩展和框架。",
       "sourceDigest": "c5918abc282aedde38979acace98c1b3902801057d1fef513e2387bfd566666d",
       "reviewStatus": "reviewed",
       "isAITranslation": true
     },
     "zh-Hant": {
-      "title": "Awesome DeepSeek 整合",
+      "title": "DeepSeek Integrations",
       "description": "精選整合 DeepSeek 的應用程式、工具、擴充功能與框架。",
       "sourceDigest": "c5918abc282aedde38979acace98c1b3902801057d1fef513e2387bfd566666d",
       "reviewStatus": "reviewed",
       "isAITranslation": true
     },
     "pt-BR": {
-      "title": "Integrações Awesome DeepSeek",
+      "title": "DeepSeek Integrations",
       "description": "Uma seleção de aplicativos, ferramentas, extensões e frameworks que integram o DeepSeek.",
       "sourceDigest": "c5918abc282aedde38979acace98c1b3902801057d1fef513e2387bfd566666d",
       "reviewStatus": "reviewed",
       "isAITranslation": true
     },
     "ru-RU": {
-      "title": "Интеграции DeepSeek",
+      "title": "DeepSeek Integrations",
       "description": "Подборка приложений, инструментов, расширений и фреймворков для интеграции с DeepSeek.",
       "sourceDigest": "c5918abc282aedde38979acace98c1b3902801057d1fef513e2387bfd566666d",
       "reviewStatus": "reviewed",

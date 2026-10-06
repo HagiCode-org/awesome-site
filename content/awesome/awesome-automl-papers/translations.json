@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "AutoML 论文精选",
+      "title": "AutoML Papers",
       "description": "自动机器学习论文、综述、教程、演示文稿和项目精选，涵盖特征工程、超参数优化、元学习与神经架构搜索。",
       "sourceDigest": "4b0023dba2d9eb284789356f04f4d0066c88b8eea9ba2ceda0b0f1e00b89fc3b",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "AutoML 論文精選",
+      "title": "AutoML Papers",
       "description": "精選自動化機器學習論文、綜述、教學、簡報與專案，涵蓋特徵工程、超參數最佳化、元學習及神經架構搜尋。",
       "sourceDigest": "4b0023dba2d9eb284789356f04f4d0066c88b8eea9ba2ceda0b0f1e00b89fc3b",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Sélection d’articles sur l’AutoML",
+      "title": "AutoML Papers",
       "description": "Sélection d’articles, de tutoriels, de présentations et de projets sur l’apprentissage automatique automatisé : ingénierie des caractéristiques, optimisation des hyperparamètres, méta-apprentissage et recherche d’architectures neuronales.",
       "sourceDigest": "4b0023dba2d9eb284789356f04f4d0066c88b8eea9ba2ceda0b0f1e00b89fc3b",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Auswahl von AutoML-Fachartikeln",
+      "title": "AutoML Papers",
       "description": "Ausgewählte Arbeiten, Übersichten, Tutorials, Präsentationen und Projekte zum automatisierten maschinellen Lernen, darunter Feature Engineering, Hyperparameteroptimierung, Meta-Learning und neuronale Architektursuche.",
       "sourceDigest": "4b0023dba2d9eb284789356f04f4d0066c88b8eea9ba2ceda0b0f1e00b89fc3b",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Selección de artículos sobre AutoML",
+      "title": "AutoML Papers",
       "description": "Selección de artículos, tutoriales, presentaciones y proyectos sobre aprendizaje automático automatizado, con ingeniería de características, optimización de hiperparámetros, metaaprendizaje y búsqueda de arquitecturas neuronales.",
       "sourceDigest": "4b0023dba2d9eb284789356f04f4d0066c88b8eea9ba2ceda0b0f1e00b89fc3b",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "AutoML 論文集",
+      "title": "AutoML Papers",
       "description": "自動機械学習に関する論文、サーベイ、チュートリアル、スライド、プロジェクトを厳選して紹介します。特徴量エンジニアリング、ハイパーパラメーター最適化、メタ学習、ニューラルアーキテクチャ探索を網羅します。",
       "sourceDigest": "4b0023dba2d9eb284789356f04f4d0066c88b8eea9ba2ceda0b0f1e00b89fc3b",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "AutoML 논문 모음",
+      "title": "AutoML Papers",
       "description": "자동화 머신러닝 관련 논문, 서베이, 튜토리얼, 발표 자료와 프로젝트를 엄선했습니다. 특성 공학, 하이퍼파라미터 최적화, 메타 학습, 신경망 구조 탐색을 다룹니다.",
       "sourceDigest": "4b0023dba2d9eb284789356f04f4d0066c88b8eea9ba2ceda0b0f1e00b89fc3b",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Seleção de artigos sobre AutoML",
+      "title": "AutoML Papers",
       "description": "Seleção de artigos, tutoriais, apresentações e projetos sobre aprendizado de máquina automatizado, incluindo engenharia de atributos, otimização de hiperparâmetros, meta-aprendizado e busca de arquiteturas neurais.",
       "sourceDigest": "4b0023dba2d9eb284789356f04f4d0066c88b8eea9ba2ceda0b0f1e00b89fc3b",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка статей по AutoML",
+      "title": "AutoML Papers",
       "description": "Подборка статей, обзоров, учебных материалов, презентаций и проектов по автоматизированному машинному обучению: инженерия признаков, оптимизация гиперпараметров, метаобучение и поиск нейросетевых архитектур.",
       "sourceDigest": "4b0023dba2d9eb284789356f04f4d0066c88b8eea9ba2ceda0b0f1e00b89fc3b",
       "isAITranslation": true,

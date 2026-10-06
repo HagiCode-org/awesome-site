@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "Awesome 智能体模式",
+      "title": "Agentic Patterns",
       "description": "真实环境中的 AI 智能体工作流、编排、安全、记忆与协作模式精选目录。",
       "sourceDigest": "5b0775d5c79d8cf17d69ea8d64b64ba961d3ce99d5a3326a4298ecc5c72ab19c",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "Awesome 智能體模式",
+      "title": "Agentic Patterns",
       "description": "精選真實環境中的 AI 代理工作流程、協調、安全、記憶與協作模式。",
       "sourceDigest": "5b0775d5c79d8cf17d69ea8d64b64ba961d3ce99d5a3326a4298ecc5c72ab19c",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Modèles agentiques Awesome",
+      "title": "Agentic Patterns",
       "description": "Catalogue de modèles pratiques pour les agents IA : workflows, orchestration, sécurité, mémoire et collaboration.",
       "sourceDigest": "5b0775d5c79d8cf17d69ea8d64b64ba961d3ce99d5a3326a4298ecc5c72ab19c",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Awesome-Muster für agentische KI",
+      "title": "Agentic Patterns",
       "description": "Kuratierte Muster für KI-Agenten in der Praxis: Workflows, Orchestrierung, Sicherheit, Speicher und Zusammenarbeit.",
       "sourceDigest": "5b0775d5c79d8cf17d69ea8d64b64ba961d3ce99d5a3326a4298ecc5c72ab19c",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Patrones agénticos de Awesome",
+      "title": "Agentic Patterns",
       "description": "Catálogo seleccionado de patrones prácticos para agentes de IA: flujos, orquestación, seguridad, memoria y colaboración.",
       "sourceDigest": "5b0775d5c79d8cf17d69ea8d64b64ba961d3ce99d5a3326a4298ecc5c72ab19c",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "Awesome エージェントパターン",
+      "title": "Agentic Patterns",
       "description": "実運用の AI エージェント向けワークフロー、オーケストレーション、安全性、記憶、協調パターン集です。",
       "sourceDigest": "5b0775d5c79d8cf17d69ea8d64b64ba961d3ce99d5a3326a4298ecc5c72ab19c",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "Awesome 에이전틱 패턴",
+      "title": "Agentic Patterns",
       "description": "실제 AI 에이전트의 워크플로, 오케스트레이션, 보안, 메모리 및 협업 패턴을 엄선한 카탈로그입니다.",
       "sourceDigest": "5b0775d5c79d8cf17d69ea8d64b64ba961d3ce99d5a3326a4298ecc5c72ab19c",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Padrões agênticos Awesome",
+      "title": "Agentic Patterns",
       "description": "Catálogo selecionado de padrões práticos para agentes de IA: fluxos, orquestração, segurança, memória e colaboração.",
       "sourceDigest": "5b0775d5c79d8cf17d69ea8d64b64ba961d3ce99d5a3326a4298ecc5c72ab19c",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Паттерны агентного ИИ Awesome",
+      "title": "Agentic Patterns",
       "description": "Подборка практических паттернов для ИИ-агентов: процессы, оркестрация, безопасность, память и взаимодействие.",
       "sourceDigest": "5b0775d5c79d8cf17d69ea8d64b64ba961d3ce99d5a3326a4298ecc5c72ab19c",
       "isAITranslation": true,

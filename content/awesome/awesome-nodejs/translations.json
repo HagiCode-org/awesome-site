@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "Awesome Node.js 精选",
+      "title": "Node.js",
       "description": "Node.js 精选工具、软件包、学习资料与社区资源。",
       "sourceDigest": "431f6ffff73bdb17f9d90a731ada5494b40fe1444d3f2894e4fd2c839e11bb58",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "Awesome Node.js 精選",
+      "title": "Node.js",
       "description": "精選 Node.js 工具、套件、學習資源與社群資源。",
       "sourceDigest": "431f6ffff73bdb17f9d90a731ada5494b40fe1444d3f2894e4fd2c839e11bb58",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Sélection Awesome Node.js",
+      "title": "Node.js",
       "description": "Une sélection d’outils, de packages, de ressources pédagogiques et de communautés pour Node.js.",
       "sourceDigest": "431f6ffff73bdb17f9d90a731ada5494b40fe1444d3f2894e4fd2c839e11bb58",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Awesome Node.js – Auswahl",
+      "title": "Node.js",
       "description": "Eine Auswahl an Node.js-Tools, Paketen, Lernressourcen und Communitys.",
       "sourceDigest": "431f6ffff73bdb17f9d90a731ada5494b40fe1444d3f2894e4fd2c839e11bb58",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Selección de Awesome Node.js",
+      "title": "Node.js",
       "description": "Una selección de herramientas, paquetes, recursos de aprendizaje y comunidades de Node.js.",
       "sourceDigest": "431f6ffff73bdb17f9d90a731ada5494b40fe1444d3f2894e4fd2c839e11bb58",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "Awesome Node.js 厳選集",
+      "title": "Node.js",
       "description": "Node.js の厳選ツール、パッケージ、学習リソース、コミュニティ集。",
       "sourceDigest": "431f6ffff73bdb17f9d90a731ada5494b40fe1444d3f2894e4fd2c839e11bb58",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "Awesome Node.js 모음",
+      "title": "Node.js",
       "description": "엄선한 Node.js 도구, 패키지, 학습 자료 및 커뮤니티 모음입니다.",
       "sourceDigest": "431f6ffff73bdb17f9d90a731ada5494b40fe1444d3f2894e4fd2c839e11bb58",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Seleção Awesome Node.js",
+      "title": "Node.js",
       "description": "Uma seleção de ferramentas, pacotes, materiais de aprendizagem e comunidades para Node.js.",
       "sourceDigest": "431f6ffff73bdb17f9d90a731ada5494b40fe1444d3f2894e4fd2c839e11bb58",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка Awesome Node.js",
+      "title": "Node.js",
       "description": "Подборка инструментов, пакетов, учебных материалов и сообществ для Node.js.",
       "sourceDigest": "431f6ffff73bdb17f9d90a731ada5494b40fe1444d3f2894e4fd2c839e11bb58",
       "isAITranslation": true,

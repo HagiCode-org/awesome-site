@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "Awesome 自然语言处理",
+      "title": "NLP",
       "description": "精选自然语言处理领域的研究、工具、数据集与学习资源。",
       "sourceDigest": "a29eca048884a58a43b227a95b44ead3ce1a5c1c1d7ee0a9703d1eeca7efb4c6",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "Awesome 自然語言處理",
+      "title": "NLP",
       "description": "精選自然語言處理領域的研究、工具、資料集與學習資源。",
       "sourceDigest": "a29eca048884a58a43b227a95b44ead3ce1a5c1c1d7ee0a9703d1eeca7efb4c6",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Ressources incontournables en traitement automatique des langues",
+      "title": "NLP",
       "description": "Une sélection de recherches, d’outils, de jeux de données et de ressources pédagogiques en traitement automatique des langues.",
       "sourceDigest": "a29eca048884a58a43b227a95b44ead3ce1a5c1c1d7ee0a9703d1eeca7efb4c6",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Auswahl an Ressourcen zur natürlichen Sprachverarbeitung",
+      "title": "NLP",
       "description": "Eine Auswahl an Forschung, Werkzeugen, Datensätzen und Lernmaterialien zur natürlichen Sprachverarbeitung.",
       "sourceDigest": "a29eca048884a58a43b227a95b44ead3ce1a5c1c1d7ee0a9703d1eeca7efb4c6",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Recursos imprescindibles de procesamiento del lenguaje natural",
+      "title": "NLP",
       "description": "Una selección de investigaciones, herramientas, conjuntos de datos y materiales de aprendizaje sobre procesamiento del lenguaje natural.",
       "sourceDigest": "a29eca048884a58a43b227a95b44ead3ce1a5c1c1d7ee0a9703d1eeca7efb4c6",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "自然言語処理の厳選リソース集",
+      "title": "NLP",
       "description": "自然言語処理に関する研究、ツール、データセット、学習資料を厳選して紹介します。",
       "sourceDigest": "a29eca048884a58a43b227a95b44ead3ce1a5c1c1d7ee0a9703d1eeca7efb4c6",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "자연어 처리 리소스 모음",
+      "title": "NLP",
       "description": "자연어 처리 분야의 연구, 도구, 데이터셋 및 학습 자료를 엄선했습니다.",
       "sourceDigest": "a29eca048884a58a43b227a95b44ead3ce1a5c1c1d7ee0a9703d1eeca7efb4c6",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Recursos essenciais de processamento de linguagem natural",
+      "title": "NLP",
       "description": "Uma seleção de pesquisas, ferramentas, conjuntos de dados e materiais de aprendizagem sobre processamento de linguagem natural.",
       "sourceDigest": "a29eca048884a58a43b227a95b44ead3ce1a5c1c1d7ee0a9703d1eeca7efb4c6",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка ресурсов по обработке естественного языка",
+      "title": "NLP",
       "description": "Подборка исследований, инструментов, наборов данных и учебных материалов по обработке естественного языка.",
       "sourceDigest": "a29eca048884a58a43b227a95b44ead3ce1a5c1c1d7ee0a9703d1eeca7efb4c6",
       "isAITranslation": true,

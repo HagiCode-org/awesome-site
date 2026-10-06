@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "飞桨深度学习精选",
+      "title": "DeepLearning",
       "description": "飞桨（PaddlePaddle）深度学习课程、书籍、问答、面试资料、产业实践案例与教程汇总。",
       "sourceDigest": "ed049741dc4c784ae637a6d79a8bd6f695592a1be715d74d7a8b20a428d37254",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "飛槳深度學習精選",
+      "title": "DeepLearning",
       "description": "飛槳（PaddlePaddle）深度學習課程、書籍、問答、面試資料、產業實踐案例與教學資源彙整。",
       "sourceDigest": "ed049741dc4c784ae637a6d79a8bd6f695592a1be715d74d7a8b20a428d37254",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Sélection DeepLearning",
+      "title": "DeepLearning",
       "description": "Une sélection de cours, livres, questions-réponses, ressources d’entretien, projets industriels et tutoriels sur le deep learning avec PaddlePaddle.",
       "sourceDigest": "ed049741dc4c784ae637a6d79a8bd6f695592a1be715d74d7a8b20a428d37254",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "DeepLearning-Sammlung",
+      "title": "DeepLearning",
       "description": "Eine Sammlung von Kursen, Büchern, Fragen und Antworten, Interviewmaterialien, Praxisprojekten und Tutorials zu Deep Learning mit PaddlePaddle.",
       "sourceDigest": "ed049741dc4c784ae637a6d79a8bd6f695592a1be715d74d7a8b20a428d37254",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Selección de DeepLearning",
+      "title": "DeepLearning",
       "description": "Selección de cursos, libros, preguntas y respuestas, recursos para entrevistas, proyectos industriales y tutoriales de aprendizaje profundo con PaddlePaddle.",
       "sourceDigest": "ed049741dc4c784ae637a6d79a8bd6f695592a1be715d74d7a8b20a428d37254",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "DeepLearning 厳選集",
+      "title": "DeepLearning",
       "description": "PaddlePaddle を使った深層学習の講座、書籍、Q&A、面接資料、産業応用事例、チュートリアルを集めています。",
       "sourceDigest": "ed049741dc4c784ae637a6d79a8bd6f695592a1be715d74d7a8b20a428d37254",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "DeepLearning 자료 모음",
+      "title": "DeepLearning",
       "description": "PaddlePaddle을 활용한 딥러닝 강의, 도서, 문답, 면접 자료, 산업 실습 사례와 튜토리얼 모음입니다.",
       "sourceDigest": "ed049741dc4c784ae637a6d79a8bd6f695592a1be715d74d7a8b20a428d37254",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Seleção de DeepLearning",
+      "title": "DeepLearning",
       "description": "Seleção de cursos, livros, perguntas e respostas, materiais para entrevistas, projetos industriais e tutoriais de aprendizado profundo com PaddlePaddle.",
       "sourceDigest": "ed049741dc4c784ae637a6d79a8bd6f695592a1be715d74d7a8b20a428d37254",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка материалов по DeepLearning",
+      "title": "DeepLearning",
       "description": "Подборка курсов, книг, вопросов и ответов, материалов для собеседований, практических отраслевых проектов и руководств по глубокому обучению с PaddlePaddle.",
       "sourceDigest": "ed049741dc4c784ae637a6d79a8bd6f695592a1be715d74d7a8b20a428d37254",
       "isAITranslation": true,

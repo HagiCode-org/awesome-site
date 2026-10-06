@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "Awesome GPT 网络安全智能体",
+      "title": "GPT Agents",
       "description": "面向网络安全攻防场景的 GPT 智能体精选清单。",
       "sourceDigest": "9ecaeb37c84d3347b4c6b42d903b37aeb9c3551d48c2a0df903b5bd53226dfe8",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "Awesome GPT 網路安全代理",
+      "title": "GPT Agents",
       "description": "網路安全攻防領域的 GPT 代理精選清單。",
       "sourceDigest": "9ecaeb37c84d3347b4c6b42d903b37aeb9c3551d48c2a0df903b5bd53226dfe8",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Agents GPT Awesome pour la cybersécurité",
+      "title": "GPT Agents",
       "description": "Une sélection d’agents GPT consacrés à la cybersécurité offensive et défensive.",
       "sourceDigest": "9ecaeb37c84d3347b4c6b42d903b37aeb9c3551d48c2a0df903b5bd53226dfe8",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Awesome GPT-Agenten für Cybersicherheit",
+      "title": "GPT Agents",
       "description": "Eine Auswahl von GPT-Agenten für offensive und defensive Cybersicherheit.",
       "sourceDigest": "9ecaeb37c84d3347b4c6b42d903b37aeb9c3551d48c2a0df903b5bd53226dfe8",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Agentes GPT Awesome para ciberseguridad",
+      "title": "GPT Agents",
       "description": "Una selección de agentes GPT centrados en la ciberseguridad ofensiva y defensiva.",
       "sourceDigest": "9ecaeb37c84d3347b4c6b42d903b37aeb9c3551d48c2a0df903b5bd53226dfe8",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "Awesome サイバーセキュリティ GPT エージェント",
+      "title": "GPT Agents",
       "description": "サイバーセキュリティの攻撃・防御に特化した GPT エージェントの厳選リストです。",
       "sourceDigest": "9ecaeb37c84d3347b4c6b42d903b37aeb9c3551d48c2a0df903b5bd53226dfe8",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "Awesome 사이버 보안 GPT 에이전트",
+      "title": "GPT Agents",
       "description": "공격 및 방어 사이버 보안에 초점을 둔 GPT 에이전트 엄선 목록입니다.",
       "sourceDigest": "9ecaeb37c84d3347b4c6b42d903b37aeb9c3551d48c2a0df903b5bd53226dfe8",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Agentes GPT Awesome para cibersegurança",
+      "title": "GPT Agents",
       "description": "Uma seleção de agentes GPT voltados à cibersegurança ofensiva e defensiva.",
       "sourceDigest": "9ecaeb37c84d3347b4c6b42d903b37aeb9c3551d48c2a0df903b5bd53226dfe8",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "GPT-агенты Awesome для кибербезопасности",
+      "title": "GPT Agents",
       "description": "Подборка GPT-агентов для наступательной и защитной кибербезопасности.",
       "sourceDigest": "9ecaeb37c84d3347b4c6b42d903b37aeb9c3551d48c2a0df903b5bd53226dfe8",
       "isAITranslation": true,

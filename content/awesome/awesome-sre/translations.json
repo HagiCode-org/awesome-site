@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "站点可靠性工程精选",
+      "title": "SRE",
       "description": "站点可靠性工程与生产工程领域的精选资源。",
       "sourceDigest": "41451994f64ccb22051aa30863a87446f78164b9e5336d164b1dea3648b5d8d2",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "網站可靠性工程精選",
+      "title": "SRE",
       "description": "網站可靠性工程與生產工程領域的精選資源。",
       "sourceDigest": "41451994f64ccb22051aa30863a87446f78164b9e5336d164b1dea3648b5d8d2",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Ressources SRE sélectionnées",
+      "title": "SRE",
       "description": "Ressources sélectionnées sur l’ingénierie de fiabilité des sites et l’ingénierie de production.",
       "sourceDigest": "41451994f64ccb22051aa30863a87446f78164b9e5336d164b1dea3648b5d8d2",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Ausgewählte SRE-Ressourcen",
+      "title": "SRE",
       "description": "Ausgewählte Ressourcen zu Site Reliability Engineering und Produktionsengineering.",
       "sourceDigest": "41451994f64ccb22051aa30863a87446f78164b9e5336d164b1dea3648b5d8d2",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Selección de recursos SRE",
+      "title": "SRE",
       "description": "Recursos seleccionados sobre ingeniería de fiabilidad de sitios e ingeniería de producción.",
       "sourceDigest": "41451994f64ccb22051aa30863a87446f78164b9e5336d164b1dea3648b5d8d2",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "サイト信頼性エンジニアリング資料集",
+      "title": "SRE",
       "description": "サイト信頼性エンジニアリングとプロダクションエンジニアリングに関する厳選資料。",
       "sourceDigest": "41451994f64ccb22051aa30863a87446f78164b9e5336d164b1dea3648b5d8d2",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "사이트 신뢰성 엔지니어링 자료 모음",
+      "title": "SRE",
       "description": "사이트 신뢰성 엔지니어링과 프로덕션 엔지니어링 분야의 엄선된 자료입니다.",
       "sourceDigest": "41451994f64ccb22051aa30863a87446f78164b9e5336d164b1dea3648b5d8d2",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Seleção de recursos de SRE",
+      "title": "SRE",
       "description": "Recursos selecionados sobre engenharia de confiabilidade de sites e engenharia de produção.",
       "sourceDigest": "41451994f64ccb22051aa30863a87446f78164b9e5336d164b1dea3648b5d8d2",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка материалов по SRE",
+      "title": "SRE",
       "description": "Подборка материалов по инженерии надежности сайтов и производственной инженерии.",
       "sourceDigest": "41451994f64ccb22051aa30863a87446f78164b9e5336d164b1dea3648b5d8d2",
       "isAITranslation": true,

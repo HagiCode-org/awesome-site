@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "Awesome Ansible 精选",
+      "title": "Ansible",
       "description": "精选的 Ansible 资源、工具、角色、教程与社区内容。",
       "sourceDigest": "b26d24f81c085bfe9424cf51c15017e3a20c43ca55d8ae5598c27215aa2d0bb9",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "Awesome Ansible 精選",
+      "title": "Ansible",
       "description": "精選 Ansible 資源、工具、角色、教學與社群內容。",
       "sourceDigest": "b26d24f81c085bfe9424cf51c15017e3a20c43ca55d8ae5598c27215aa2d0bb9",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Sélection de ressources Ansible",
+      "title": "Ansible",
       "description": "Une sélection de ressources, outils, rôles et tutoriels Ansible.",
       "sourceDigest": "b26d24f81c085bfe9424cf51c15017e3a20c43ca55d8ae5598c27215aa2d0bb9",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Auswahl an Ansible-Ressourcen",
+      "title": "Ansible",
       "description": "Eine Auswahl an Ansible-Ressourcen, Werkzeugen, Rollen und Tutorials.",
       "sourceDigest": "b26d24f81c085bfe9424cf51c15017e3a20c43ca55d8ae5598c27215aa2d0bb9",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Selección de recursos de Ansible",
+      "title": "Ansible",
       "description": "Una selección de recursos, herramientas, roles y tutoriales de Ansible.",
       "sourceDigest": "b26d24f81c085bfe9424cf51c15017e3a20c43ca55d8ae5598c27215aa2d0bb9",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "Ansible リソース集",
+      "title": "Ansible",
       "description": "厳選した Ansible のリソース、ツール、ロール、チュートリアルです。",
       "sourceDigest": "b26d24f81c085bfe9424cf51c15017e3a20c43ca55d8ae5598c27215aa2d0bb9",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "Ansible 리소스 모음",
+      "title": "Ansible",
       "description": "엄선한 Ansible 리소스, 도구, 역할 및 튜토리얼입니다.",
       "sourceDigest": "b26d24f81c085bfe9424cf51c15017e3a20c43ca55d8ae5598c27215aa2d0bb9",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Seleção de recursos do Ansible",
+      "title": "Ansible",
       "description": "Uma seleção de recursos, ferramentas, funções e tutoriais do Ansible.",
       "sourceDigest": "b26d24f81c085bfe9424cf51c15017e3a20c43ca55d8ae5598c27215aa2d0bb9",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка ресурсов Ansible",
+      "title": "Ansible",
       "description": "Подборка ресурсов, инструментов, ролей и руководств по Ansible.",
       "sourceDigest": "b26d24f81c085bfe9424cf51c15017e3a20c43ca55d8ae5598c27215aa2d0bb9",
       "isAITranslation": true,

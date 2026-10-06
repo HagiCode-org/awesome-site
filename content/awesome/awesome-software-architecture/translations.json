@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "软件架构精选资源",
+      "title": "Software Architecture",
       "description": "软件架构模式,系统,AI工程,实用资源的可搜索指南.",
       "sourceDigest": "0598a36ba126c06aedb28007ae694c4042baf8d4e8bfe3323725b8a68a21624a",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "軟體架構精選資源",
+      "title": "Software Architecture",
       "description": "關於軟體建構模式、系統、AI工程與實際資源的可搜尋指南。",
       "sourceDigest": "0598a36ba126c06aedb28007ae694c4042baf8d4e8bfe3323725b8a68a21624a",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Ressources sélectionnées en architecture logicielle",
+      "title": "Software Architecture",
       "description": "Un guide consultable sur les modèles d'architecture logicielle, les systèmes, l'ingénierie de l'IA et les ressources pratiques.",
       "sourceDigest": "0598a36ba126c06aedb28007ae694c4042baf8d4e8bfe3323725b8a68a21624a",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Ausgewählte Ressourcen zur Softwarearchitektur",
+      "title": "Software Architecture",
       "description": "Eine durchsuchbare Anleitung zu Software-Architekturmustern, Systemen, KI-Engineering und praktischen Ressourcen.",
       "sourceDigest": "0598a36ba126c06aedb28007ae694c4042baf8d4e8bfe3323725b8a68a21624a",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Recursos seleccionados de arquitectura de software",
+      "title": "Software Architecture",
       "description": "Una guía de búsqueda de patrones de arquitectura de software, sistemas, ingeniería de inteligencia artificial y recursos prácticos.",
       "sourceDigest": "0598a36ba126c06aedb28007ae694c4042baf8d4e8bfe3323725b8a68a21624a",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "ソフトウェアアーキテクチャの厳選リソース",
+      "title": "Software Architecture",
       "description": "ソフトウェアアーキテクチャパターン、システム、AIエンジニアリング、実用的なリソースの検索可能なガイド。",
       "sourceDigest": "0598a36ba126c06aedb28007ae694c4042baf8d4e8bfe3323725b8a68a21624a",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "소프트웨어 아키텍처 추천 자료",
+      "title": "Software Architecture",
       "description": "소프트웨어 아키텍처 패턴, 시스템, AI 엔지니어링 및 실제 리소스에 대한 검색 가능한 가이드.",
       "sourceDigest": "0598a36ba126c06aedb28007ae694c4042baf8d4e8bfe3323725b8a68a21624a",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Recursos selecionados de arquitetura de software",
+      "title": "Software Architecture",
       "description": "Um guia pesquisável para padrões de arquitetura de software, sistemas, engenharia de IA e recursos práticos.",
       "sourceDigest": "0598a36ba126c06aedb28007ae694c4042baf8d4e8bfe3323725b8a68a21624a",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка ресурсов по архитектуре программного обеспечения",
+      "title": "Software Architecture",
       "description": "Поисковое руководство по шаблонам архитектуры программного обеспечения, системам, разработке ИИ и практическим ресурсам.",
       "sourceDigest": "0598a36ba126c06aedb28007ae694c4042baf8d4e8bfe3323725b8a68a21624a",
       "isAITranslation": true,

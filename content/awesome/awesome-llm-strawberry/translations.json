@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "LLM Strawberry（OpenAI o1）研究精选",
+      "title": "LLM Strawberry",
       "description": "精选关于 OpenAI Strawberry（o1）与大语言模型推理的研究论文、技术报告、演讲、课程和博客。",
       "sourceDigest": "895421d555291fff08ff6a827605aa280b9f5df8f8243f37bb6197c215a9e74e",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "LLM Strawberry（OpenAI o1）研究精選",
+      "title": "LLM Strawberry",
       "description": "精選關於 OpenAI Strawberry（o1）與大型語言模型推理的研究論文、技術報告、演講、課程及部落格。",
       "sourceDigest": "895421d555291fff08ff6a827605aa280b9f5df8f8243f37bb6197c215a9e74e",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Études sur LLM Strawberry (OpenAI o1)",
+      "title": "LLM Strawberry",
       "description": "Sélection d’articles de recherche, de rapports techniques, de conférences, de cours et de blogs sur OpenAI Strawberry (o1) et le raisonnement des grands modèles de langage.",
       "sourceDigest": "895421d555291fff08ff6a827605aa280b9f5df8f8243f37bb6197c215a9e74e",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Forschung zu LLM Strawberry (OpenAI o1)",
+      "title": "LLM Strawberry",
       "description": "Eine Auswahl von Forschungsarbeiten, technischen Berichten, Vorträgen, Kursen und Blogs zu OpenAI Strawberry (o1) und dem Schlussfolgern mit großen Sprachmodellen.",
       "sourceDigest": "895421d555291fff08ff6a827605aa280b9f5df8f8243f37bb6197c215a9e74e",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Investigación sobre LLM Strawberry (OpenAI o1)",
+      "title": "LLM Strawberry",
       "description": "Selección de artículos de investigación, informes técnicos, charlas, cursos y blogs sobre OpenAI Strawberry (o1) y el razonamiento de los grandes modelos de lenguaje.",
       "sourceDigest": "895421d555291fff08ff6a827605aa280b9f5df8f8243f37bb6197c215a9e74e",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "LLM Strawberry（OpenAI o1）の研究資料",
+      "title": "LLM Strawberry",
       "description": "OpenAI Strawberry（o1）と大規模言語モデルの推論に関する研究論文、技術レポート、講演、講座、ブログを厳選しています。",
       "sourceDigest": "895421d555291fff08ff6a827605aa280b9f5df8f8243f37bb6197c215a9e74e",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "LLM Strawberry(OpenAI o1) 연구 자료",
+      "title": "LLM Strawberry",
       "description": "OpenAI Strawberry(o1)와 대규모 언어 모델 추론에 관한 연구 논문, 기술 보고서, 강연, 강좌, 블로그를 엄선했습니다.",
       "sourceDigest": "895421d555291fff08ff6a827605aa280b9f5df8f8243f37bb6197c215a9e74e",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Pesquisa sobre LLM Strawberry (OpenAI o1)",
+      "title": "LLM Strawberry",
       "description": "Seleção de artigos de pesquisa, relatórios técnicos, palestras, cursos e blogs sobre o OpenAI Strawberry (o1) e o raciocínio de grandes modelos de linguagem.",
       "sourceDigest": "895421d555291fff08ff6a827605aa280b9f5df8f8243f37bb6197c215a9e74e",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Исследования LLM Strawberry (OpenAI o1)",
+      "title": "LLM Strawberry",
       "description": "Подборка научных статей, технических отчётов, докладов, курсов и блогов об OpenAI Strawberry (o1) и рассуждениях больших языковых моделей.",
       "sourceDigest": "895421d555291fff08ff6a827605aa280b9f5df8f8243f37bb6197c215a9e74e",
       "isAITranslation": true,

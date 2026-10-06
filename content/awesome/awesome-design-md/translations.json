@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "精选 DESIGN.md 设计系统",
+      "title": "Design.md",
       "description": "精选来自真实网站的 DESIGN.md 文件，提供可直接用于 AI 生成界面的设计令牌、模式与指南。",
       "sourceDigest": "211e14edb394ae4eeead27a5bd4dd967426d22da6e8441de8dca1c43fece2f42",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "精選 DESIGN.md 設計系統",
+      "title": "Design.md",
       "description": "精選取材自真實網站的 DESIGN.md 檔案，提供可用於 AI 生成介面的設計權杖、模式與指南。",
       "sourceDigest": "211e14edb394ae4eeead27a5bd4dd967426d22da6e8441de8dca1c43fece2f42",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Sélection de systèmes de design DESIGN.md",
+      "title": "Design.md",
       "description": "Une collection sélectionnée de fichiers DESIGN.md issus de sites réels, avec des jetons, des modèles et des conseils de conception pour générer des interfaces avec l’IA.",
       "sourceDigest": "211e14edb394ae4eeead27a5bd4dd967426d22da6e8441de8dca1c43fece2f42",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Auswahl an DESIGN.md-Designsystemen",
+      "title": "Design.md",
       "description": "Eine kuratierte Sammlung von DESIGN.md-Dateien realer Websites mit Design-Tokens, Mustern und Richtlinien für die KI-gestützte Erstellung hochwertiger Benutzeroberflächen.",
       "sourceDigest": "211e14edb394ae4eeead27a5bd4dd967426d22da6e8441de8dca1c43fece2f42",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Selección de sistemas de diseño DESIGN.md",
+      "title": "Design.md",
       "description": "Una colección seleccionada de archivos DESIGN.md basados en sitios web reales, con tokens, patrones y pautas de diseño para generar interfaces con IA.",
       "sourceDigest": "211e14edb394ae4eeead27a5bd4dd967426d22da6e8441de8dca1c43fece2f42",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "DESIGN.md デザインシステム集",
+      "title": "Design.md",
       "description": "実在するWebサイトをもとにしたDESIGN.mdファイルの厳選集です。AIによるUI生成に役立つデザイントークン、パターン、ガイドラインを収録しています。",
       "sourceDigest": "211e14edb394ae4eeead27a5bd4dd967426d22da6e8441de8dca1c43fece2f42",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "DESIGN.md 디자인 시스템 모음",
+      "title": "Design.md",
       "description": "실제 웹사이트를 바탕으로 한 DESIGN.md 파일 모음으로, AI UI 생성에 활용할 수 있는 디자인 토큰, 패턴, 지침을 제공합니다.",
       "sourceDigest": "211e14edb394ae4eeead27a5bd4dd967426d22da6e8441de8dca1c43fece2f42",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Seleção de sistemas de design DESIGN.md",
+      "title": "Design.md",
       "description": "Uma coleção selecionada de arquivos DESIGN.md baseados em sites reais, com tokens, padrões e diretrizes de design para gerar interfaces com IA.",
       "sourceDigest": "211e14edb394ae4eeead27a5bd4dd967426d22da6e8441de8dca1c43fece2f42",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка дизайн-систем DESIGN.md",
+      "title": "Design.md",
       "description": "Подборка файлов DESIGN.md, созданных на основе реальных сайтов: в ней собраны токены, шаблоны и рекомендации для генерации интерфейсов с помощью ИИ.",
       "sourceDigest": "211e14edb394ae4eeead27a5bd4dd967426d22da6e8441de8dca1c43fece2f42",
       "isAITranslation": true,

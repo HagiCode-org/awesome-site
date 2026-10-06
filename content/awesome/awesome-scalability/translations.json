@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "Awesome 可扩展性",
+      "title": "Scalability",
       "description": "关于可扩展、可靠且高性能的大型系统与系统设计的阅读清单。",
       "sourceDigest": "17fad8e9fca73ce95d73f703a733af05c76496fa36433abebeadfdc8daae1167",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "Awesome 可擴展性",
+      "title": "Scalability",
       "description": "關於可擴展、可靠且高效能大型系統與系統設計的閱讀清單。",
       "sourceDigest": "17fad8e9fca73ce95d73f703a733af05c76496fa36433abebeadfdc8daae1167",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Awesome sur l’évolutivité",
+      "title": "Scalability",
       "description": "Une liste de lecture sur la conception de systèmes à grande échelle évolutifs, fiables et performants.",
       "sourceDigest": "17fad8e9fca73ce95d73f703a733af05c76496fa36433abebeadfdc8daae1167",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Awesome Skalierbarkeit",
+      "title": "Scalability",
       "description": "Eine Leseliste zum Entwurf skalierbarer, zuverlässiger und leistungsfähiger Großsysteme.",
       "sourceDigest": "17fad8e9fca73ce95d73f703a733af05c76496fa36433abebeadfdc8daae1167",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Awesome sobre escalabilidad",
+      "title": "Scalability",
       "description": "Una lista de lectura sobre el diseño de sistemas a gran escala escalables, fiables y de alto rendimiento.",
       "sourceDigest": "17fad8e9fca73ce95d73f703a733af05c76496fa36433abebeadfdc8daae1167",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "Awesome スケーラビリティ",
+      "title": "Scalability",
       "description": "拡張性、信頼性、性能に優れた大規模システムとシステム設計に関する読書リストです。",
       "sourceDigest": "17fad8e9fca73ce95d73f703a733af05c76496fa36433abebeadfdc8daae1167",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "Awesome 확장성",
+      "title": "Scalability",
       "description": "확장성, 신뢰성, 성능이 뛰어난 대규모 시스템 및 시스템 설계에 관한 읽을거리 목록입니다.",
       "sourceDigest": "17fad8e9fca73ce95d73f703a733af05c76496fa36433abebeadfdc8daae1167",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Awesome sobre escalabilidade",
+      "title": "Scalability",
       "description": "Uma lista de leitura sobre o projeto de sistemas de grande escala escaláveis, confiáveis e de alto desempenho.",
       "sourceDigest": "17fad8e9fca73ce95d73f703a733af05c76496fa36433abebeadfdc8daae1167",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Awesome: масштабируемость",
+      "title": "Scalability",
       "description": "Список материалов о проектировании масштабируемых, надежных и высокопроизводительных крупномасштабных систем.",
       "sourceDigest": "17fad8e9fca73ce95d73f703a733af05c76496fa36433abebeadfdc8daae1167",
       "isAITranslation": true,

@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "大语言模型资源",
+      "title": "LLM Resources",
       "description": "汇总大型语言模型研究、数据集、工具、课程和实践资源。",
       "sourceDigest": "c134acdde04ba2c0f58a0e3f9f360bd7f12bf21eafc0d774f98003b7e4f152ea",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "大型語言模型資源",
+      "title": "LLM Resources",
       "description": "彙整大型語言模型研究、資料集、工具、課程與實務資源。",
       "sourceDigest": "c134acdde04ba2c0f58a0e3f9f360bd7f12bf21eafc0d774f98003b7e4f152ea",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Ressources sur les LLM",
+      "title": "LLM Resources",
       "description": "Une sélection de recherches, jeux de données, outils, cours et ressources pratiques sur les grands modèles de langage.",
       "sourceDigest": "c134acdde04ba2c0f58a0e3f9f360bd7f12bf21eafc0d774f98003b7e4f152ea",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Ressourcen zu großen Sprachmodellen",
+      "title": "LLM Resources",
       "description": "Eine Sammlung von Forschung, Datensätzen, Tools, Kursen und praktischen Ressourcen zu großen Sprachmodellen.",
       "sourceDigest": "c134acdde04ba2c0f58a0e3f9f360bd7f12bf21eafc0d774f98003b7e4f152ea",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Recursos sobre LLM",
+      "title": "LLM Resources",
       "description": "Una selección de investigaciones, conjuntos de datos, herramientas, cursos y recursos prácticos sobre modelos de lenguaje grandes.",
       "sourceDigest": "c134acdde04ba2c0f58a0e3f9f360bd7f12bf21eafc0d774f98003b7e4f152ea",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "大規模言語モデルのリソース",
+      "title": "LLM Resources",
       "description": "大規模言語モデルに関する研究、データセット、ツール、講座、実践的なリソースをまとめています。",
       "sourceDigest": "c134acdde04ba2c0f58a0e3f9f360bd7f12bf21eafc0d774f98003b7e4f152ea",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "대규모 언어 모델 리소스",
+      "title": "LLM Resources",
       "description": "대규모 언어 모델에 관한 연구, 데이터셋, 도구, 강좌 및 실용 자료를 모았습니다.",
       "sourceDigest": "c134acdde04ba2c0f58a0e3f9f360bd7f12bf21eafc0d774f98003b7e4f152ea",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Recursos sobre LLMs",
+      "title": "LLM Resources",
       "description": "Uma seleção de pesquisas, conjuntos de dados, ferramentas, cursos e recursos práticos sobre grandes modelos de linguagem.",
       "sourceDigest": "c134acdde04ba2c0f58a0e3f9f360bd7f12bf21eafc0d774f98003b7e4f152ea",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Ресурсы по большим языковым моделям",
+      "title": "LLM Resources",
       "description": "Подборка исследований, наборов данных, инструментов, курсов и практических материалов по большим языковым моделям.",
       "sourceDigest": "c134acdde04ba2c0f58a0e3f9f360bd7f12bf21eafc0d774f98003b7e4f152ea",
       "isAITranslation": true,

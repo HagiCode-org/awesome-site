@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "云安全资源精选",
+      "title": "Cloud Security",
       "description": "云安全学习资料、博客、资讯、社区、工具、漏洞与攻防资源汇总。",
       "sourceDigest": "6a9bdc13d0f5565f89ba860f8f78d2ec15a34e1bfef05446e6bb2759ca66c51f",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "雲端安全資源精選",
+      "title": "Cloud Security",
       "description": "雲端安全學習資料、部落格、資訊、社群、工具、漏洞與攻防資源彙整。",
       "sourceDigest": "6a9bdc13d0f5565f89ba860f8f78d2ec15a34e1bfef05446e6bb2759ca66c51f",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Sélection de ressources sur la sécurité cloud",
+      "title": "Cloud Security",
       "description": "Une sélection de supports d’apprentissage, blogs, actualités, communautés, outils, vulnérabilités et ressources offensives et défensives en sécurité cloud.",
       "sourceDigest": "6a9bdc13d0f5565f89ba860f8f78d2ec15a34e1bfef05446e6bb2759ca66c51f",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "Sammlung von Cloud-Sicherheitsressourcen",
+      "title": "Cloud Security",
       "description": "Eine Sammlung von Lernmaterialien, Blogs, Nachrichten, Communities, Tools, Schwachstellen sowie Ressourcen für offensive und defensive Cloud-Sicherheit.",
       "sourceDigest": "6a9bdc13d0f5565f89ba860f8f78d2ec15a34e1bfef05446e6bb2759ca66c51f",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Selección de recursos de seguridad en la nube",
+      "title": "Cloud Security",
       "description": "Selección de materiales de aprendizaje, blogs, noticias, comunidades, herramientas, vulnerabilidades y recursos de seguridad ofensiva y defensiva en la nube.",
       "sourceDigest": "6a9bdc13d0f5565f89ba860f8f78d2ec15a34e1bfef05446e6bb2759ca66c51f",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "クラウドセキュリティ資料集",
+      "title": "Cloud Security",
       "description": "クラウドセキュリティの学習資料、ブログ、ニュース、コミュニティ、ツール、脆弱性、攻防に関するリソースを集めています。",
       "sourceDigest": "6a9bdc13d0f5565f89ba860f8f78d2ec15a34e1bfef05446e6bb2759ca66c51f",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "클라우드 보안 자료 모음",
+      "title": "Cloud Security",
       "description": "클라우드 보안 학습 자료, 블로그, 뉴스, 커뮤니티, 도구, 취약점, 공격 및 방어 리소스를 모았습니다.",
       "sourceDigest": "6a9bdc13d0f5565f89ba860f8f78d2ec15a34e1bfef05446e6bb2759ca66c51f",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Seleção de recursos de segurança em nuvem",
+      "title": "Cloud Security",
       "description": "Seleção de materiais de aprendizagem, blogs, notícias, comunidades, ferramentas, vulnerabilidades e recursos de segurança ofensiva e defensiva na nuvem.",
       "sourceDigest": "6a9bdc13d0f5565f89ba860f8f78d2ec15a34e1bfef05446e6bb2759ca66c51f",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка ресурсов по безопасности облака",
+      "title": "Cloud Security",
       "description": "Подборка учебных материалов, блогов, новостей, сообществ, инструментов, уязвимостей и ресурсов по защите и атаке облачных систем.",
       "sourceDigest": "6a9bdc13d0f5565f89ba860f8f78d2ec15a34e1bfef05446e6bb2759ca66c51f",
       "isAITranslation": true,

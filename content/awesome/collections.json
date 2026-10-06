@@ -7,7 +7,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-github-profile-readme",
-    "title": "Awesome GitHub Profile README",
+    "title": "GitHub Profile README",
     "catalog": "github-profile-readme"
   },
   {
@@ -18,7 +18,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Unlicense",
     "route": "awesome/awesome-design-systems",
-    "title": "Awesome Design Systems",
+    "title": "Design Systems",
     "catalog": "design-systems"
   },
   {
@@ -29,7 +29,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-ansible",
-    "title": "Awesome Ansible",
+    "title": "Ansible",
     "catalog": "ansible"
   },
   {
@@ -40,7 +40,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-rag",
-    "title": "Awesome RAG",
+    "title": "RAG",
     "catalog": "rag"
   },
   {
@@ -51,7 +51,7 @@
     "licensePath": "license",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-electron",
-    "title": "Awesome Electron",
+    "title": "Electron",
     "catalog": "electron"
   },
   {
@@ -62,7 +62,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-postgres",
-    "title": "Awesome PostgreSQL",
+    "title": "PostgreSQL",
     "catalog": "postgresql"
   },
   {
@@ -73,7 +73,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Unlicense",
     "route": "awesome/awesome-typescript",
-    "title": "Awesome TypeScript",
+    "title": "TypeScript",
     "catalog": "typescript"
   },
   {
@@ -84,7 +84,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-hacking",
-    "title": "Awesome Hacking",
+    "title": "Hacking",
     "catalog": "cybersecurity"
   },
   {
@@ -95,7 +95,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-actions",
-    "title": "Awesome Actions",
+    "title": "Actions",
     "catalog": "github-actions"
   },
   {
@@ -106,7 +106,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-tf",
-    "title": "Awesome Terraform",
+    "title": "Terraform",
     "catalog": "terraform-opentofu"
   },
   {
@@ -117,7 +117,7 @@
     "licensePath": "LICENSE.md",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-llm",
-    "title": "Awesome LLM",
+    "title": "LLM",
     "catalog": "llm-research"
   },
   {
@@ -128,7 +128,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-llm-resources",
-    "title": "Awesome LLM Resources",
+    "title": "LLM Resources",
     "catalog": "llm-research"
   },
   {
@@ -139,7 +139,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-docker",
-    "title": "Awesome Docker",
+    "title": "Docker",
     "catalog": "docker"
   },
   {
@@ -150,7 +150,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-compose",
-    "title": "Awesome Compose",
+    "title": "Compose",
     "catalog": "docker"
   },
   {
@@ -161,7 +161,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-llm-apps",
-    "title": "Awesome LLM Apps",
+    "title": "LLM Apps",
     "catalog": "llm-apps"
   },
   {
@@ -172,7 +172,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-nlp",
-    "title": "Awesome NLP",
+    "title": "NLP",
     "catalog": "nlp"
   },
   {
@@ -183,7 +183,7 @@
     "licensePath": "license",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-nodejs",
-    "title": "Awesome Node.js",
+    "title": "Node.js",
     "catalog": "nodejs"
   },
   {
@@ -194,7 +194,7 @@
     "licensePath": "LICENSE.md",
     "licenseId": "WTFPL",
     "route": "awesome/awesome-php",
-    "title": "Awesome PHP",
+    "title": "PHP",
     "catalog": "php"
   },
   {
@@ -205,7 +205,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-bash",
-    "title": "Awesome Bash",
+    "title": "Bash",
     "catalog": "shell"
   },
   {
@@ -216,7 +216,7 @@
     "licensePath": "LICENSE.md",
     "licenseId": "MIT",
     "route": "awesome/awesome-generative-ai-guide",
-    "title": "Awesome Generative AI Guide",
+    "title": "Generative AI Guide",
     "catalog": "llm-research"
   },
   {
@@ -227,7 +227,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-golang-algorithm",
-    "title": "Awesome Golang Algorithm",
+    "title": "Golang Algorithm",
     "catalog": "algorithms"
   },
   {
@@ -238,7 +238,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-agentic-patterns",
-    "title": "Awesome Agentic Patterns",
+    "title": "Agentic Patterns",
     "catalog": "ai-agents"
   },
   {
@@ -249,7 +249,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-gpt-agents",
-    "title": "Awesome GPT Agents",
+    "title": "GPT Agents",
     "catalog": "ai-agents"
   },
   {
@@ -260,7 +260,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-system-design",
-    "title": "Awesome System Design",
+    "title": "System Design",
     "catalog": "scalability"
   },
   {
@@ -271,7 +271,7 @@
     "licensePath": "LICENSE",
     "licenseId": "MIT",
     "route": "awesome/awesome-scalability",
-    "title": "Awesome Scalability",
+    "title": "Scalability",
     "catalog": "scalability"
   },
   {
@@ -282,7 +282,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-ctf",
-    "title": "Awesome CTF",
+    "title": "CTF",
     "catalog": "cybersecurity"
   },
   {
@@ -293,7 +293,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-knowledge-distillation",
-    "title": "Awesome Knowledge Distillation",
+    "title": "Knowledge Distillation",
     "catalog": "deep-learning"
   },
   {
@@ -304,7 +304,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-automl-papers",
-    "title": "Awesome AutoML Papers",
+    "title": "AutoML Papers",
     "catalog": "machine-learning"
   },
   {
@@ -315,7 +315,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-deep-text-detection-recognition",
-    "title": "Awesome Deep Text Detection and Recognition",
+    "title": "Deep Text Detection and Recognition",
     "catalog": "computer-vision"
   },
   {
@@ -326,7 +326,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-fastapi",
-    "title": "Awesome FastAPI",
+    "title": "FastAPI",
     "catalog": "python"
   },
   {
@@ -337,7 +337,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-flask",
-    "title": "Awesome Flask",
+    "title": "Flask",
     "catalog": "python"
   },
   {
@@ -348,7 +348,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-software-architecture",
-    "title": "Awesome Software Architecture",
+    "title": "Software Architecture",
     "catalog": "scalability"
   },
   {
@@ -359,7 +359,7 @@
     "licensePath": "LICENSE",
     "licenseId": "MIT",
     "route": "awesome/awesome-design-md",
-    "title": "Awesome Design.md",
+    "title": "Design.md",
     "catalog": "design-systems"
   },
   {
@@ -370,7 +370,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-shell",
-    "title": "Awesome Shell",
+    "title": "Shell",
     "catalog": "shell"
   },
   {
@@ -381,7 +381,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-llm-strawberry",
-    "title": "Awesome LLM Strawberry",
+    "title": "LLM Strawberry",
     "catalog": "llm-research"
   },
   {
@@ -392,7 +392,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-incident-response",
-    "title": "Awesome Incident Response",
+    "title": "Incident Response",
     "catalog": "cybersecurity"
   },
   {
@@ -403,7 +403,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-django",
-    "title": "Awesome Django",
+    "title": "Django",
     "catalog": "python"
   },
   {
@@ -414,7 +414,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-generative-ai",
-    "title": "Awesome Generative AI",
+    "title": "Generative AI",
     "catalog": "llm-apps"
   },
   {
@@ -425,7 +425,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-db-tools",
-    "title": "Awesome DB Tools",
+    "title": "DB Tools",
     "catalog": "databases"
   },
   {
@@ -436,7 +436,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-k8s-resources",
-    "title": "Awesome Kubernetes Resources",
+    "title": "Kubernetes Resources",
     "catalog": "kubernetes"
   },
   {
@@ -447,7 +447,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-microservices",
-    "title": "Awesome Microservices",
+    "title": "Microservices",
     "catalog": "scalability"
   },
   {
@@ -458,7 +458,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-paddle-deeplearning",
-    "title": "Awesome DeepLearning",
+    "title": "DeepLearning",
     "catalog": "deep-learning"
   },
   {
@@ -469,7 +469,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-cloud-security",
-    "title": "Awesome Cloud Security",
+    "title": "Cloud Security",
     "catalog": "cybersecurity"
   },
   {
@@ -480,7 +480,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-sre",
-    "title": "Awesome SRE",
+    "title": "SRE",
     "catalog": "sysadmin"
   },
   {
@@ -491,7 +491,7 @@
     "licensePath": "LICENSE",
     "licenseId": "MIT",
     "route": "awesome/awesome-android-ui",
-    "title": "Awesome Android UI",
+    "title": "Android UI",
     "catalog": "android-ui"
   },
   {
@@ -502,7 +502,7 @@
     "licensePath": "license",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-react-components",
-    "title": "Awesome React Components",
+    "title": "React Components",
     "catalog": "react"
   },
   {
@@ -513,7 +513,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-rlhf",
-    "title": "Awesome RLHF",
+    "title": "RLHF",
     "catalog": "llm-research"
   },
   {
@@ -524,7 +524,7 @@
     "licensePath": "LICENSE",
     "licenseId": "MIT",
     "route": "awesome/awesome-chatgpt-prompts-zh",
-    "title": "Awesome ChatGPT Prompts (Chinese)",
+    "title": "ChatGPT Prompts (Chinese)",
     "catalog": "llm-apps"
   },
   {
@@ -535,7 +535,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-prompt-engineering",
-    "title": "Awesome Prompt Engineering",
+    "title": "Prompt Engineering",
     "catalog": "llm-apps"
   },
   {
@@ -546,7 +546,7 @@
     "licensePath": "LICENSE",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-deepseek-integration",
-    "title": "Awesome DeepSeek Integrations",
+    "title": "DeepSeek Integrations",
     "catalog": "llm-apps"
   },
   {
@@ -557,7 +557,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-waf",
-    "title": "Awesome WAF",
+    "title": "WAF",
     "catalog": "cybersecurity"
   },
   {
@@ -568,7 +568,7 @@
     "licensePath": "LICENSE",
     "licenseId": "Apache-2.0",
     "route": "awesome/awesome-threat-intelligence",
-    "title": "Awesome Threat Intelligence",
+    "title": "Threat Intelligence",
     "catalog": "cybersecurity"
   },
   {
@@ -579,7 +579,7 @@
     "licensePath": "LICENSE.txt",
     "licenseId": "CC0-1.0",
     "route": "awesome/awesome-dotnet",
-    "title": "Awesome .NET",
+    "title": ".NET",
     "catalog": "dotnet"
   }
 ]

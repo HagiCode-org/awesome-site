@@ -1,63 +1,63 @@
 {
   "translations": {
     "zh-CN": {
-      "title": "CTF 精选",
+      "title": "CTF",
       "description": "精选的 CTF 挑战创建与解题框架、工具、资源和教程合集。",
       "sourceDigest": "e0457ef6cb3bc811657816ab8d0ea1395c98a75bd7a891feb9cac9b7f849e46b",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "zh-Hant": {
-      "title": "CTF 精選",
+      "title": "CTF",
       "description": "精選的 CTF 挑戰建立與解題框架、工具、資源及教學合集。",
       "sourceDigest": "e0457ef6cb3bc811657816ab8d0ea1395c98a75bd7a891feb9cac9b7f849e46b",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "fr-FR": {
-      "title": "Sélection CTF",
+      "title": "CTF",
       "description": "Une sélection de frameworks, outils, ressources et tutoriels pour créer et résoudre des défis CTF.",
       "sourceDigest": "e0457ef6cb3bc811657816ab8d0ea1395c98a75bd7a891feb9cac9b7f849e46b",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "de-DE": {
-      "title": "CTF-Sammlung",
+      "title": "CTF",
       "description": "Eine kuratierte Sammlung von Frameworks, Tools, Ressourcen und Anleitungen zum Erstellen und Lösen von CTF-Aufgaben.",
       "sourceDigest": "e0457ef6cb3bc811657816ab8d0ea1395c98a75bd7a891feb9cac9b7f849e46b",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "es-ES": {
-      "title": "Selección de CTF",
+      "title": "CTF",
       "description": "Selección de frameworks, herramientas, recursos y tutoriales para crear y resolver retos CTF.",
       "sourceDigest": "e0457ef6cb3bc811657816ab8d0ea1395c98a75bd7a891feb9cac9b7f849e46b",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ja-JP": {
-      "title": "CTF 厳選集",
+      "title": "CTF",
       "description": "CTF の問題作成と攻略に役立つフレームワーク、ツール、資料、チュートリアルを厳選した一覧です。",
       "sourceDigest": "e0457ef6cb3bc811657816ab8d0ea1395c98a75bd7a891feb9cac9b7f849e46b",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ko-KR": {
-      "title": "CTF 모음",
+      "title": "CTF",
       "description": "CTF 문제 제작과 풀이를 위한 프레임워크, 도구, 자료 및 튜토리얼을 엄선한 목록입니다.",
       "sourceDigest": "e0457ef6cb3bc811657816ab8d0ea1395c98a75bd7a891feb9cac9b7f849e46b",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "pt-BR": {
-      "title": "Seleção de CTF",
+      "title": "CTF",
       "description": "Seleção de frameworks, ferramentas, recursos e tutoriais para criar e resolver desafios de CTF.",
       "sourceDigest": "e0457ef6cb3bc811657816ab8d0ea1395c98a75bd7a891feb9cac9b7f849e46b",
       "isAITranslation": true,
       "reviewStatus": "reviewed"
     },
     "ru-RU": {
-      "title": "Подборка CTF",
+      "title": "CTF",
       "description": "Подборка фреймворков, инструментов, ресурсов и руководств по созданию и решению заданий CTF.",
       "sourceDigest": "e0457ef6cb3bc811657816ab8d0ea1395c98a75bd7a891feb9cac9b7f849e46b",
       "isAITranslation": true,
