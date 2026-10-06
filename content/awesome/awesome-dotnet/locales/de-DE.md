@@ -163,7 +163,7 @@ Soweit gesetzlich möglich,[Vitali Fokin](https://github.com/quozd)auf alle Urhe
 * [ABP](https://github.com/abpframework/abp)- Die nächste Generation des ASP.NET Boilerplate Web Application Framework.
 * [Orleans](https://github.com/dotnet/orleans)Orleans ist ein Framework, das einen geradlinigen Ansatz für die Erstellung verteilter High-Scale-Computing-Anwendungen bietet, ohne dass komplexe Gleichzeitigkeit oder andere Skalierungsmuster gelernt und angewendet werden müssen.
 * [Runtime](https://github.com/dotnet/runtime)- Das Runtime-Repo enthält die Bibliotheksimplementierung (früher "CoreFX" genannt) für .NET (5+). Dazu gehört auch System. Sammlungen, System. IO, System. Xml und viele andere Komponenten.
-* [CSLA .NET](https://github.com/MarimerLLC/csla)- Business Layer Development Frameworkhttps://cslanet.com/
+* [CSLA .NET](https://github.com/MarimerLLC/csla)- Business Layer Development Framework https://cslanet.com/
 * [Mono](https://github.com/mono/mono)- Open Source ECMA CLI, C#, F#, VB und .NET Implementierung
 * [peasy](https://github.com/peasy/Peasy.NET)Peasy ist ein Framework der mittleren Ebene, das eine einfach zu bedienende und flexible Regel-Engine bietet und entwickelt wurde, um gemeinsame Herausforderungen wie Concurrency-Handling, Transaktionsunterstützung, Fehlertoleranz, Threading, Skalierbarkeit, Async- und Multiple-Client-Unterstützung und einfache Testbarkeit ohne große Lernkurve anzugehen!
 * [Plastic](https://github.com/sang-hyeon/Plastic)- Plastic bietet eine Kapselung von Dingen wie Domain, Anwendungsregeln, Geschäftsregeln oder Geschäftslogik in der Anwendung. Dazu wird das Kommandomuster verwendet.
@@ -433,7 +433,7 @@ Soweit gesetzlich möglich,[Vitali Fokin](https://github.com/quozd)auf alle Urhe
 ## Dokumentation
 
 * [Sandcastle](https://github.com/EWSoftware/SHFB)Sandcastle Help File Builder ähnlich wie NDoc
-* [SourceBrowser](https://github.com/KirillOsenkov/SourceBrowser)Source Browser Website Generator, der Powershttps://referencesource.microsoft.com
+* [SourceBrowser](https://github.com/KirillOsenkov/SourceBrowser)Source Browser Website Generator, der Powers https://referencesource.microsoft.com
 * [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.WebApi)Nahtlos fügt ein Swagger zu Web API-Projekten hinzu.
 * [F# Formatting](https://fsprojects.github.io/FSharp.Formatting/)- Tools zum Dokumentieren von F#- und C#-Projekten aus F#-Skriptdateien, Markdown-Dokumenten und Inline-XML- oder Markdown-Kommentaren
 * [DocFX](https://github.com/dotnet/docfx)- Tools zum Erstellen und Veröffentlichen von API-Dokumentationen für .NET-Projekte
@@ -445,7 +445,7 @@ Soweit gesetzlich möglich,[Vitali Fokin](https://github.com/quozd)auf alle Urhe
 * [NopCommerce](https://github.com/nopSolutions/nopCommerce)- nopCommerce. Kostenloser Open-Source-E-Commerce-Einkaufswagen (ASP.NET Core)
 * [ServiceStack.Stripe](https://github.com/ServiceStack/ServiceStack)- Typisierte .NET-Clients für stripe.com REST APIs
 * [SmartStoreNET](https://github.com/smartstore/Smartstore)Kostenloses ASP.NET Core MVC E-Commerce Shopping Cart Lösung
-* [Stripe.Net](https://github.com/stripe/stripe-dotnet)Stripe.net ist eine Full Service .NET API fürhttps://stripe.com/
+* [Stripe.Net](https://github.com/stripe/stripe-dotnet)Stripe.net ist eine Full Service .NET API für https://stripe.com/
 * [Virto Commerce](https://github.com/VirtoCommerce/vc-platform)Virto Commerce ist das Release der zweiten Generation und das einzige E-Commerce-Produkt auf Unternehmensebene, das vollständig unter Open Source-Lizenz erhältlich ist. Virto Commerce basiert auf .NET 4.5 mit umfangreichem Einsatz von MVC, IoC, EF, Azure, AngularJS und vielen anderen innovativen Technologien. Es kann in Microsoft Cloud (Azure), Amazon Web Services (AWS) und On-Premise bereitgestellt werden.https://virtocommerce.com
 * [SimplCommerce](https://github.com/simplcommerce/simplcommerce)- Super einfaches E-Commerce-System, das auf .NET Core basiert. Einfach zu bedienen und einfach anzupassen. Dank .NET Core können Sie SimplCommerce unter Windows und Linux ausführen. Mit verschiedenen RDBMS: Microsoft SQL Server, PostgreSQL, MySQL
 * [GrandNode](https://github.com/grandnode/grandnode2)Headless, Multi-Vendor, Multi-Tenant, die fortschrittlichste Open-Source-E-Commerce-Plattform auf Basis von .NET Core 5.0 und MongoDB.
@@ -746,7 +746,7 @@ Metadaten in Mediendateien, einschließlich Video-, Audio- und Fotoformaten
 * [CSharp Pad](http://csharppad.com)- Ein webbasiertes C# REPL mit fantastischer Codevervollständigung.
 * [AzureCrawler](https://github.com/yagopv/AzureCrawler)Nehmen Sie HTML Snapshots für Ihre Angular-, Ember-, Durandal- oder JavaScript-Anwendungen
 * [CSScript](https://www.cs-script.net/)CS-Script ist ein CLR-basiertes Skriptsystem, das C# als Programmiersprache verwendet. CS-Script zielt derzeit auf die Microsoft-Implementierung von CLR (.NET 2.0/3.0/3.5/4.0/4.5) mit voller Unterstützung für Mono ab. Kommt mit vielen zusätzlichen Funktionen, wie Skript-Hosting.
-* [CsvHelper](https://github.com/JoshClose/CsvHelper)Bibliothek zum Lesen und Schreiben von CSV-Dateienhttps://github.com/JoshClose/CsvHelper
+* [CsvHelper](https://github.com/JoshClose/CsvHelper)Bibliothek zum Lesen und Schreiben von CSV-Dateien https://github.com/JoshClose/CsvHelper
 * [RecordParser](https://github.com/leandromoh/recordparser)Bibliothek zum Lesen und Schreiben von CSV- und Flat-Dateien mit Null-Heap-Zuweisung.
 * [Sep](https://github.com/nietras/Sep)Der schnellste .NET CSV Parser der Welt. Moderne, minimale, schnelle, Nullzuweisung, Lesen und Schreiben getrennter Werte ()`csv`,`tsv`usw. Plattformübergreifend, trimmbar und AOT/NativeAOT kompatibel.
 * [ConsoleTableExt](https://github.com/minhhungit/ConsoleTableExt)- Fluent Library zum Erstellen von Tabellen für . Netzkonsolenanwendung.
@@ -806,7 +806,7 @@ Metadaten in Mediendateien, einschließlich Video-, Audio- und Fotoformaten
 * [ExcelDna](https://github.com/Excel-DNA/ExcelDna)ExcelDna erleichtert das Erstellen und Bereitstellen von Excel-Add-Ins mit C#, F# oder VB .NET
 * [ClosedXML](https://github.com/ClosedXML/ClosedXML)ClosedXML erleichtert Entwicklern die Erstellung von Excel 2007/2010-Dateien
 * [OfficeIMO](https://github.com/EvotecIt/OfficeIMO)OfficeIMO erleichtert Entwicklern das Erstellen/Ändern von Word-Dateien (docx), ohne dass Microsoft Word oder Office installiert sind
-* [NPOI](https://github.com/tonyqus/npoi)- Dieses Projekt ist die .NET-Version des POI Java Projekts unterhttps://poi.apache.org/.
+* [NPOI](https://github.com/tonyqus/npoi)- Dieses Projekt ist die .NET-Version des POI Java Projekts unter https://poi.apache.org/.
 * [EPPlus](https://github.com/EPPlusSoftware/EPPlus)EPPlus ist eine .NET-Bibliothek, die Excel 2007/2010-Dateien mit dem Open Office XML-Format (xlsx) liest und schreibt.
 **[Quelle verfügbar]** **[Free Tier]**
 * [Open XML SDK](https://github.com/officedev/open-xml-sdk)Das Open XML SDK bietet Open-Source-Bibliotheken für die Arbeit mit Open XML-Dokumenten (DOCX, XLSX und PPTX).
@@ -904,7 +904,7 @@ Metadaten in Mediendateien, einschließlich Video-, Audio- und Fotoformaten
 * [Confluent's .NET Client](https://github.com/confluentinc/confluent-kafka-dotnet)- Confluent .NET Client für Apache Kafka.
 * [Streamiz](https://github.com/LGouellec/streamiz)- eine .NET Stream Processing Library für Apache Kafka.
 * [Foundatio](https://github.com/FoundatioFx/Foundatio#queues)Eine gemeinsame Schnittstelle mit In-Memory-, Redis- und Azure-Implementierungen.
-* [Brighter](https://github.com/BrighterCommand/Brighter)Command Dispatcher, Processor und Distributed Task Queuehttps://www.goparamore.io/
+* [Brighter](https://github.com/BrighterCommand/Brighter)Command Dispatcher, Processor und Distributed Task Queue https://www.goparamore.io/
 * [Silverback](https://silverback-messaging.net)- Ein einfacher, aber funktionsreicher Nachrichtenbus für .NET Core (unterstützt Kafka, RabbitMQ und MQTT).
 * [SlimMessageBus](https://github.com/zarusz/SlimMessageBus)- Leichter Nachrichtenbus mit Transporten für gängige Messaging-Systeme (Kafka, Redis, Azure Service Bus und andere) und In-Memory-Kommunikation.
 * [AsyncMonolith](https://github.com/Timmoth/AsyncMonolith)Erleichtert einfaches asynchrones Messaging in Dotnet-Apps.
@@ -964,7 +964,7 @@ Metadaten in Mediendateien, einschließlich Video-, Audio- und Fotoformaten
 * [CsvExport](https://github.com/jitbit/CsvExport)- Sehr einfach und leicht CSV-Exporteur, Excel freundlich, entkommt Text & Zitate etc.
 * [Protobuf.NET](https://github.com/protobuf-net/protobuf-net)Protokollpuffer ist der Name des binären Serialisierungsformats, das Google für einen Großteil seiner Datenkommunikation verwendet
 * [Json.NET](https://github.com/JamesNK/Newtonsoft.Json)- Beliebtes Hochleistungs-JSON-Framework für .NET
-* [ServiceStack] Texthttps://github.com/ServiceStack/ServiceStack/tree/main/ServiceStack.Text) - JSON, JSV und CSV Text Serializer in servicestack.net verwendet
+* [ServiceStack] Text https://github.com/ServiceStack/ServiceStack/tree/main/ServiceStack.Text) - JSON, JSV und CSV Text Serializer in servicestack.net verwendet
 * [Msgpack-Cli](https://github.com/msgpack/msgpack-cli)- MessagePack Implementierung für Common Language Infrastructure
 * [FlatSharp](https://github.com/jamescourtney/FlatSharp)- Schnelle, idiomatische FlatBuffers Implementierung. Verwenden Sie .fbs-Dateien oder Attribute.
 * [F# Data](https://fsprojects.github.io/FSharp.Data/)- Anbieter vom Typ F# für den Zugriff auf XML-, JSON-, CSV- und HTML-Dateien (basierend auf Musterdokumenten) und für den Zugriff auf WorldBank-Daten
@@ -1013,7 +1013,7 @@ Metadaten in Mediendateien, einschließlich Video-, Audio- und Fotoformaten
 * [BDTest](https://github.com/thomhurst/BDTest/wiki)- Ein verhaltensorientiertes Test- und Berichtsrahmen!
 * [Bogus](https://github.com/bchavez/Bogus)- Ein einfacher und vernünftiger gefälschter Datengenerator für C#. Basierend auf und portiert von der berühmten faker.js.
 * [ExpressionToCode](https://github.com/EamonNerbonne/ExpressionToCode)- Use plain C#-Syntax in Assertions, die sowohl den Ausdrucks- als auch den Subexpressionswert in der Fehlermeldung enthalten.
-* [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)- Die einfache Spottbibliothek für .NEThttps://fakeiteasy.github.io
+* [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)- Die einfache Spottbibliothek für .NET https://fakeiteasy.github.io
 * [Fluent Assertions](https://github.com/fluentassertions/fluentassertions)- Eine Reihe von .NET-Erweiterungsmethoden, mit denen Sie das erwartete Ergebnis eines TDD- oder BDD-Tests natürlicher angeben können **[Quelle verfügbar]** **[Free for OSS]**
 * [FsCheck](https://github.com/fscheck/FsCheck)Random Testing für .NET.
 * [Machine.Specifications](https://github.com/machine/machine.specifications)- Maschine. Spezifikationen (MSpec) ist ein Kontext / Spezifikation Framework, das Sprachrauschen entfernt und Tests vereinfacht.

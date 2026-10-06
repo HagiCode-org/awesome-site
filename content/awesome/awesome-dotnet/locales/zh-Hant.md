@@ -445,7 +445,7 @@
 * [NopCommerce](https://github.com/nopSolutions/nopCommerce)- 不通商。 (ASP.NET Core)
 * [ServiceStack.Stripe](https://github.com/ServiceStack/ServiceStack)- typed .NET 客戶端的字條.com REST API
 * [SmartStoreNET](https://github.com/smartstore/Smartstore)- 免費ASP.NET 核心 MVC 電子商業
-* [Stripe.Net](https://github.com/stripe/stripe-dotnet)- Frede.net是全程服務.NET APIhttps://stripe.com/
+* [Stripe.Net](https://github.com/stripe/stripe-dotnet)- Stripe.net 是一個功能齊全的 .NET API，適用於 https://stripe.com/
 * [Virto Commerce](https://github.com/VirtoCommerce/vc-platform)- Virto Commerce是第二代發行, Virto Commercience基于. NET 4.5,广泛使用MVC、IoC、EF、Azure、AngularJS和其他許多尖端科技。 它可以部署在Microsoft Cloud (Azure), Amazon Web Services (AWS) 和 op-promise 中.https://virtocommerce.com
 * [SimplCommerce](https://github.com/simplcommerce/simplcommerce)- 超簡單的电子商务系統建立在.NET Core之上。 易用易自訂. 多虧了 . NET Core, 您可以在 Windows, Linux 上執行 SimplCommerce 。 使用不同的 RDBMS: Microsoft SQL 伺服器、 PostgreSQL 、 MySQL
 * [GrandNode](https://github.com/grandnode/grandnode2)無頭、多vendor、多租戶,

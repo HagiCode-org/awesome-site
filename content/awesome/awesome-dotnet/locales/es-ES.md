@@ -163,7 +163,7 @@ En la medida de lo posible en virtud de la ley,[Vitali Fokin](https://github.com
 * [ABP](https://github.com/abpframework/abp)- La próxima generación del marco de aplicación web ASP.NET Boilerplate.
 * [Orleans](https://github.com/dotnet/orleans)- Orleans es un marco que proporciona un enfoque directo para la construcción de aplicaciones de computación distribuidas a gran escala, sin necesidad de aprender y aplicar patrones complejos de concurrencia u otros patrones de escalado
 * [Runtime](https://github.com/dotnet/runtime)- El descanso de tiempo de ejecución contiene la implementación de la biblioteca (anteriormente llamada "CoreFX") para .NET (5+). Incluye Sistema. Colecciones, Sistema. IO, System. Xml y muchos otros componentes.
-* [CSLA .NET](https://github.com/MarimerLLC/csla)- Marco de desarrollo de la capa empresarialhttps://cslanet.com/
+* [CSLA .NET](https://github.com/MarimerLLC/csla)- Marco de desarrollo de la capa empresarial https://cslanet.com/
 * [Mono](https://github.com/mono/mono)- Open source ECMA CLI, C#, F#, VB and .NET implementation
 * [peasy](https://github.com/peasy/Peasy.NET)- Peasy es un marco de nivel medio que ofrece un motor de reglas fácil de usar y flexible y fue diseñado para abordar retos comunes como el manejo de concurrencias, soporte transaccional, tolerancia a fallas, rosca, escalabilidad, asinc y soporte múltiple cliente, y fácil testabilidad, todo sin una enorme curva de aprendizaje!
 * [Plastic](https://github.com/sang-hyeon/Plastic)- El plástico proporciona encapsulación de cosas como Dominio, Normas de Aplicación, Reglas de Negocios o Lógica de Negocios en Aplicación. Para esto, el patrón de mando se utiliza.
@@ -433,7 +433,7 @@ En la medida de lo posible en virtud de la ley,[Vitali Fokin](https://github.com
 ## Documentación
 
 * [Sandcastle](https://github.com/EWSoftware/SHFB)- Sandcastle Help File Builder similar a NDoc
-* [SourceBrowser](https://github.com/KirillOsenkov/SourceBrowser)- Generador del sitio web del navegador fuente que potenciahttps://referencesource.microsoft.com
+* [SourceBrowser](https://github.com/KirillOsenkov/SourceBrowser)- Generador del sitio web del navegador fuente que potencia https://referencesource.microsoft.com
 * [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.WebApi)- Agrega sin problemas un Swagger a proyectos de API web.
 * [F# Formatting](https://fsprojects.github.io/FSharp.Formatting/)- Herramientas para documentar proyectos F# y C# de archivos de script F#, documentos de Markdown y comentarios en línea XML o Markdown
 * [DocFX](https://github.com/dotnet/docfx)- Herramientas para construir y publicar documentación de API para proyectos .NET
@@ -445,7 +445,7 @@ En la medida de lo posible en virtud de la ley,[Vitali Fokin](https://github.com
 * [NopCommerce](https://github.com/nopSolutions/nopCommerce)- NopCommerce. Cesta de compra de comercio electrónico de código abierto (ASP.NET Core)
 * [ServiceStack.Stripe](https://github.com/ServiceStack/ServiceStack)- Clientes Tipod .NET para APIs de stripe.com REST
 * [SmartStoreNET](https://github.com/smartstore/Smartstore)- Libre ASP.NET Core MVC comercio electrónico Shopping Cart Solution
-* [Stripe.Net](https://github.com/stripe/stripe-dotnet)- Stripe.net es un servicio completo .NET API parahttps://stripe.com/
+* [Stripe.Net](https://github.com/stripe/stripe-dotnet)- Stripe.net es un servicio completo .NET API para https://stripe.com/
 * [Virto Commerce](https://github.com/VirtoCommerce/vc-platform)- Virto Commerce es la segunda versión de generación y es el único producto de comercio electrónico de nivel empresarial totalmente disponible bajo licencia Open Source. Virto Commerce se basa en .NET 4.5 con amplio uso de MVC, IoC, EF, Azure, AngularJS y muchas otras tecnologías de vanguardia. Puede ser implementado en Microsoft Cloud (Azure), Amazon Web Services (AWS) y on-premise.https://virtocommerce.com
 * [SimplCommerce](https://github.com/simplcommerce/simplcommerce)- Sistema de comercio electrónico súper simple construido en .NET Core. Simple de usar y fácil de personalizar. Gracias a .NET Core, puede ejecutar el SimplCommerce en Windows, Linux. Con varios RDBMS: Microsoft SQL Server, PostgreSQL, MySQL
 * [GrandNode](https://github.com/grandnode/grandnode2)- Headless, multi-vendor, multi-tenant, la plataforma de comercio electrónico de código abierto más avanzada basada en .NET Core 5.0 y MongoDB.
@@ -746,7 +746,7 @@ metadatos en archivos multimedia, incluyendo formatos de vídeo, audio y fotos
 * [CSharp Pad](http://csharppad.com)- Un C# REPL basado en la web con una terminación de código impresionante.
 * [AzureCrawler](https://github.com/yagopv/AzureCrawler)- Tome instantáneas HTML para sus aplicaciones Angulares, Ember, Durandal o JavaScript
 * [CSScript](https://www.cs-script.net/)- CS-Script es un sistema de scripting basado en CLR que utiliza C# como lenguaje de programación. CS-Script se dirige actualmente a la implementación de Microsoft de CLR (.NET 2.0/3.0/3.5/4.0/4.5) con soporte completo en Mono. Viene con muchas características adicionales, como script hosting.
-* [CsvHelper](https://github.com/JoshClose/CsvHelper)- Biblioteca para ayudar a leer y escribir archivos CSVhttps://github.com/JoshClose/CsvHelper
+* [CsvHelper](https://github.com/JoshClose/CsvHelper)- Biblioteca para ayudar a leer y escribir archivos CSV https://github.com/JoshClose/CsvHelper
 * [RecordParser](https://github.com/leandromoh/recordparser)- Biblioteca para ayudar a leer y escribir archivos CSV y Flat con asignación de cero montones.
 * [Sep](https://github.com/nietras/Sep)- El parser CSV más rápido del mundo. Moderno, mínimo, rápido, cero asignación, lectura y escritura de valores separados (`csv`,`tsv`etc.). Multiplataforma, trimmable y compatible con AOT/NativeAOT.
 * [ConsoleTableExt](https://github.com/minhhungit/ConsoleTableExt)- Librería fluida para crear mesa para . Aplicación de consola neta.
@@ -806,7 +806,7 @@ metadatos en archivos multimedia, incluyendo formatos de vídeo, audio y fotos
 * [ExcelDna](https://github.com/Excel-DNA/ExcelDna)- ExcelDna hace más fácil crear e implementar Excel Add-Ins usando C#, F# o VB .NET
 * [ClosedXML](https://github.com/ClosedXML/ClosedXML)- LockXML hace más fácil para los desarrolladores crear archivos Excel 2007/2010
 * [OfficeIMO](https://github.com/EvotecIt/OfficeIMO)- OfficeIMO facilita a los desarrolladores crear/modificar archivos Word (docx) sin tener instalado Microsoft Word o Office
-* [NPOI](https://github.com/tonyqus/npoi)- Este proyecto es la versión .NET del proyecto POI Java enhttps://poi.apache.org/.
+* [NPOI](https://github.com/tonyqus/npoi)- Este proyecto es la versión .NET del proyecto POI Java en https://poi.apache.org/.
 * [EPPlus](https://github.com/EPPlusSoftware/EPPlus)- EPPlus es una biblioteca .NET que lee y escribe archivos Excel 2007/2010 utilizando el formato Open Office XML (xlsx).
 ** [Fuente disponible]** ** [Gratis Tier]**
 * [Open XML SDK](https://github.com/officedev/open-xml-sdk)- El SDK Open XML ofrece bibliotecas de código abierto para trabajar con documentos XML abiertos (DOCX, XLSX y PPTX).
@@ -904,7 +904,7 @@ metadatos en archivos multimedia, incluyendo formatos de vídeo, audio y fotos
 * [Confluent's .NET Client](https://github.com/confluentinc/confluent-kafka-dotnet)- Cliente .NET para Apache Kafka.
 * [Streamiz](https://github.com/LGouellec/streamiz)- una .NET Stream Processing Library para Apache Kafka.
 * [Foundatio](https://github.com/FoundatioFx/Foundatio#queues)- Una interfaz común con implementaciones en memoria, Redis y Azure.
-* [Brighter](https://github.com/BrighterCommand/Brighter)- Comando Dipatcher, procesador y cola de tareas distribuidahttps://www.goparamore.io/
+* [Brighter](https://github.com/BrighterCommand/Brighter)- Comando Dipatcher, procesador y cola de tareas distribuida https://www.goparamore.io/
 * [Silverback](https://silverback-messaging.net)- Un autobús de mensaje sencillo pero rico en características para el núcleo .NET (apoya Kafka, RabbitMQ y MQTT).
 * [SlimMessageBus](https://github.com/zarusz/SlimMessageBus)- Autobús de mensaje ligero con transportes para sistemas de mensajería populares (Kafka, Redis, Azure Service Bus y otros) y comunicación en memoria.
 * [AsyncMonolith](https://github.com/Timmoth/AsyncMonolith)- Facilita mensajes simples asincrónicos en aplicaciones de dotnet.
@@ -1013,7 +1013,7 @@ metadatos en archivos multimedia, incluyendo formatos de vídeo, audio y fotos
 * [BDTest](https://github.com/thomhurst/BDTest/wiki)- ¡Un marco de pruebas e informes impulsado por el comportamiento!
 * [Bogus](https://github.com/bchavez/Bogus)- Un generador de datos falsos simple y sane para C#. Basado en y portado del famoso faker.js.
 * [ExpressionToCode](https://github.com/EamonNerbonne/ExpressionToCode)- Usar llanura Sintaxis C# en afirmaciones que incluyen tanto los valores de expresión y subexpresión en el mensaje de fracaso.
-* [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)- La biblioteca fácil para .NEThttps://fakeiteasy.github.io
+* [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)- La biblioteca fácil para .NET https://fakeiteasy.github.io
 * [Fluent Assertions](https://github.com/fluentassertions/fluentassertions)- Un conjunto de métodos de extensión .NET que le permiten especificar más naturalmente el resultado esperado de una prueba tipo TDD o BDD **[Fuente disponible]** **[Gratuito para OSS]**
 * [FsCheck](https://github.com/fscheck/FsCheck)- Pruebas aleatorias para .NET.
 * [Machine.Specifications](https://github.com/machine/machine.specifications)- Máquina. Especificaciones (MSpec) es un marco context/specificación que elimina el ruido del lenguaje y simplifica las pruebas.

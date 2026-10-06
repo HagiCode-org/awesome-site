@@ -433,7 +433,7 @@ Dans la mesure du possible en vertu de la loi,[Vitali Fokin](https://github.com/
 ## Documentation
 
 * [Sandcastle](https://github.com/EWSoftware/SHFB)- Sandcastle Help File Builder similaire à NDoc
-* [SourceBrowser](https://github.com/KirillOsenkov/SourceBrowser)- Source navigateur générateur de site Web que les pouvoirshttps://referencesource.microsoft.com
+* [SourceBrowser](https://github.com/KirillOsenkov/SourceBrowser)- Source navigateur générateur de site Web que les pouvoirs https://referencesource.microsoft.com
 * [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.WebApi)- Ajoute sans couture un Swagger aux projets d'API Web.
 * [F# Formatting](https://fsprojects.github.io/FSharp.Formatting/)- Outils pour documenter les projets F# et C# à partir des fichiers de script F#, des documents Markdown et des commentaires XML ou Markdown en ligne
 * [DocFX](https://github.com/dotnet/docfx)- Outils pour construire et publier la documentation API pour les projets .NET
@@ -445,7 +445,7 @@ Dans la mesure du possible en vertu de la loi,[Vitali Fokin](https://github.com/
 * [NopCommerce](https://github.com/nopSolutions/nopCommerce)- pas de commerce. Panier d'achats open-source (ASP.NET Core)
 * [ServiceStack.Stripe](https://github.com/ServiceStack/ServiceStack)- Clients .NET tapés pour les API REST stripe.com
 * [SmartStoreNET](https://github.com/smartstore/Smartstore)- ASP.NET gratuit Core MVC e-commerce Panier Solution
-* [Stripe.Net](https://github.com/stripe/stripe-dotnet)- Stripe.net est une API .NET complète pourhttps://stripe.com/
+* [Stripe.Net](https://github.com/stripe/stripe-dotnet)- Stripe.net est une API .NET complète pour https://stripe.com/
 * [Virto Commerce](https://github.com/VirtoCommerce/vc-platform)- Virto Commerce est la version de deuxième génération et est le seul produit de commerce électronique de niveau entreprise entièrement disponible sous licence Open Source. Virto Commerce est basé sur .NET 4.5 avec une large utilisation de MVC, IoC, EF, Azure, AngularJS et beaucoup d'autres technologies de pointe. Il peut être déployé dans Microsoft Cloud (Azure), Amazon Web Services (AWS) et sur site.https://virtocommerce.com
 * [SimplCommerce](https://github.com/simplcommerce/simplcommerce)- Système e-commerce super simple construit sur .NET Core. Simple à utiliser et facile à personnaliser. Grâce à .NET Core, vous pouvez exécuter le SimplCommerce sous Windows, Linux. Avec divers RDBMS: Microsoft SQL Server, PostgreSQL, MySQL
 * [GrandNode](https://github.com/grandnode/grandnode2)- Sans tête, multivendeur, multi-tenu, la plate-forme de commerce électronique open source la plus avancée basée sur .NET Core 5.0 et MongoDB.
@@ -746,7 +746,7 @@ métadonnées dans les fichiers multimédias, y compris les formats vidéo, audi
 * [CSharp Pad](http://csharppad.com)- Un C# REPL basé sur le web avec un code génial.
 * [AzureCrawler](https://github.com/yagopv/AzureCrawler)- Prendre des Snapshots HTML pour vos applications Angulaire, Ember, Durandal ou JavaScript
 * [CSScript](https://www.cs-script.net/)- CS-Script est un système de script basé sur CLR qui utilise C# comme langage de programmation. CS-Script cible actuellement la mise en œuvre de CLR par Microsoft (.NET 2.0/3.0/3,5/4.0/4,5) avec un support complet sur Mono. Livré avec de nombreuses fonctionnalités supplémentaires, comme l'hébergement de script.
-* [CsvHelper](https://github.com/JoshClose/CsvHelper)- Bibliothèque pour aider à lire et à écrire les fichiers CSVhttps://github.com/JoshClose/CsvHelper
+* [CsvHelper](https://github.com/JoshClose/CsvHelper)- Bibliothèque pour aider à lire et à écrire les fichiers CSV https://github.com/JoshClose/CsvHelper
 * [RecordParser](https://github.com/leandromoh/recordparser)- Bibliothèque pour aider à lire et écrire des fichiers CSV et Flat avec aucune allocation de tas.
 * [Sep](https://github.com/nietras/Sep)- Le plus rapide du monde. Moderne, minimal, rapide, zéro allocation, lecture et écriture de valeurs séparées (`csv`,`tsv`etc.). Plateforme transversale, parementable et compatible AOT/NativeAOT.
 * [ConsoleTableExt](https://github.com/minhhungit/ConsoleTableExt)- Bibliothèque fluide pour créer une table pour . Application de console nette.
@@ -904,7 +904,7 @@ métadonnées dans les fichiers multimédias, y compris les formats vidéo, audi
 * [Confluent's .NET Client](https://github.com/confluentinc/confluent-kafka-dotnet)- Client .NET pour Apache Kafka.
 * [Streamiz](https://github.com/LGouellec/streamiz)- une bibliothèque de traitement de flux .NET pour Apache Kafka.
 * [Foundatio](https://github.com/FoundatioFx/Foundatio#queues)- Une interface commune avec les implémentations en mémoire, Redis et Azure.
-* [Brighter](https://github.com/BrighterCommand/Brighter)- Régulateur de commande, processeur et tâche distribuéehttps://www.goparamore.io/
+* [Brighter](https://github.com/BrighterCommand/Brighter)- Régulateur de commande, processeur et tâche distribuée https://www.goparamore.io/
 * [Silverback](https://silverback-messaging.net)- Un bus de message simple mais riche en fonctionnalités pour le noyau .NET (supporte Kafka, RabbitMQ et MQTT).
 * [SlimMessageBus](https://github.com/zarusz/SlimMessageBus)- Bus de message léger avec des transports pour les systèmes de messagerie populaires (Kafka, Redis, Azure Service Bus, etc.) et la communication en mémoire.
 * [AsyncMonolith](https://github.com/Timmoth/AsyncMonolith)- Facilite la messagerie asynchrone dans les applications dotnet.
@@ -1013,7 +1013,7 @@ métadonnées dans les fichiers multimédias, y compris les formats vidéo, audi
 * [BDTest](https://github.com/thomhurst/BDTest/wiki)- Un cadre d'essai et de rapport axé sur le comportement!
 * [Bogus](https://github.com/bchavez/Bogus)- Un générateur de données simple et sain pour C#. Basé sur et porté du célèbre faux.js.
 * [ExpressionToCode](https://github.com/EamonNerbonne/ExpressionToCode)- Utilisation simple Syntaxe C# dans les assertions qui incluent les valeurs d'expression et de sous-expression dans le message d'échec.
-* [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)- La bibliothèque facile de moquerie pour .NEThttps://fakeiteasy.github.io
+* [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)- La bibliothèque facile de moquerie pour .NET https://fakeiteasy.github.io
 * [Fluent Assertions](https://github.com/fluentassertions/fluentassertions)- Un ensemble de méthodes d'extension .NET qui vous permettent de spécifier plus naturellement le résultat attendu d'un test de type TDD ou BDD **[Source disponible]** **[Free for OSS]**
 * [FsCheck](https://github.com/fscheck/FsCheck)- Essai aléatoire pour .NET.
 * [Machine.Specifications](https://github.com/machine/machine.specifications)- La machine. Spécifications (MSpec) est un cadre contextuel/spécifique qui élimine le bruit de langage et simplifie les tests.

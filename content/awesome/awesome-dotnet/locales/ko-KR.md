@@ -964,7 +964,7 @@
 * [CsvExport](https://github.com/jitbit/CsvExport)- 아주 간단하고 & 경량 CSV 수출상, Excel 친절한, 탈출 원본 & 따옴표 등.
 * [Protobuf.NET](https://github.com/protobuf-net/protobuf-net)- Protocol Buffers는 데이터 통신의 대부분을 위해 Google에서 사용되는 바이너리 직렬화 형식의 이름입니다.
 * [Json.NET](https://github.com/JamesNK/Newtonsoft.Json)- .NET을 위한 대중적인 고성능 JSON 기구
-* [서비스 스택. 본문내용https://github.com/ServiceStack/ServiceStack/tree/main/ServiceStack.Text) - JSON, JSV 및 CSV 텍스트 Serializers는 servicetack.net에서 사용됩니다.
+* [서비스 스택. 본문내용 https://github.com/ServiceStack/ServiceStack/tree/main/ServiceStack.Text) - JSON, JSV 및 CSV 텍스트 Serializers는 servicetack.net에서 사용됩니다.
 * [Msgpack-Cli](https://github.com/msgpack/msgpack-cli)- Common Language Infrastructure에 대한 MessagePack 구현
 * [FlatSharp](https://github.com/jamescourtney/FlatSharp)- 빠른, 관용 FlatBuffers 구현. .fbs 파일 또는 속성을 사용하십시오.
 * [F# Data](https://fsprojects.github.io/FSharp.Data/)- XML, JSON, CSV 및 HTML 파일에 액세스하기위한 F # 유형 제공업체 (샘플 문서에 기반) 및 WorldBank 데이터 액세스
