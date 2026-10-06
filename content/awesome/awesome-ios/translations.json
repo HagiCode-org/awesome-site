@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "iOS",
+      "description": "精选的 iOS 开发库、工具与资源合集。",
+      "sourceDigest": "7af700bce9c26a44ef9cc2012cc3bac718780fb79916449323d7b5cd75d9d091",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "zh-Hant": {
+      "title": "iOS",
+      "description": "精選的 iOS 開發程式庫、工具與資源合集。",
+      "sourceDigest": "7af700bce9c26a44ef9cc2012cc3bac718780fb79916449323d7b5cd75d9d091",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "fr-FR": {
+      "title": "iOS",
+      "description": "Une sélection de bibliothèques, outils et ressources pour le développement iOS.",
+      "sourceDigest": "7af700bce9c26a44ef9cc2012cc3bac718780fb79916449323d7b5cd75d9d091",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "de-DE": {
+      "title": "iOS",
+      "description": "Eine Auswahl an Bibliotheken, Tools und Ressourcen für die iOS-Entwicklung.",
+      "sourceDigest": "7af700bce9c26a44ef9cc2012cc3bac718780fb79916449323d7b5cd75d9d091",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "es-ES": {
+      "title": "iOS",
+      "description": "Una selección de bibliotecas, herramientas y recursos para el desarrollo de iOS.",
+      "sourceDigest": "7af700bce9c26a44ef9cc2012cc3bac718780fb79916449323d7b5cd75d9d091",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ja-JP": {
+      "title": "iOS",
+      "description": "iOS 開発に役立つライブラリ、ツール、リソースの厳選コレクション。",
+      "sourceDigest": "7af700bce9c26a44ef9cc2012cc3bac718780fb79916449323d7b5cd75d9d091",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ko-KR": {
+      "title": "iOS",
+      "description": "iOS 개발에 유용한 라이브러리, 도구, 리소스 모음입니다.",
+      "sourceDigest": "7af700bce9c26a44ef9cc2012cc3bac718780fb79916449323d7b5cd75d9d091",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "pt-BR": {
+      "title": "iOS",
+      "description": "Uma seleção de bibliotecas, ferramentas e recursos para desenvolvimento iOS.",
+      "sourceDigest": "7af700bce9c26a44ef9cc2012cc3bac718780fb79916449323d7b5cd75d9d091",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ru-RU": {
+      "title": "iOS",
+      "description": "Подборка библиотек, инструментов и ресурсов для разработки под iOS.",
+      "sourceDigest": "7af700bce9c26a44ef9cc2012cc3bac718780fb79916449323d7b5cd75d9d091",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    }
+  }
+}
