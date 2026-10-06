@@ -163,6 +163,9 @@ export function validateRegistry(collections, catalogs) {
     if (typeof collection.title !== "string" || !collection.title.trim()) {
       throw new Error(`${collection.id}: title is required`);
     }
+    if (/^awesome\b/iu.test(collection.title.trim())) {
+      throw new Error(`${collection.id}: title must be the bare collection name without the "Awesome" prefix`);
+    }
     const normalizedTags = normalizeCatalogTags(collection, collection.id);
     if (!normalizedTags.catalog) throw new Error(`${collection.id}: catalog metadata is required`);
     for (const tag of normalizedTags.tags) {
@@ -284,8 +287,10 @@ export function validateMetadata(metadata, source, locale) {
       throw new Error(`${id}/${locale}: localized ${key} is required`);
     }
   }
-  if (metadata.title.trim() === source.collection.title) {
-    throw new Error(`${id}/${locale}: title must be localized`);
+  if (metadata.title.trim() !== source.collection.title.trim()) {
+    throw new Error(
+      `${id}/${locale}: title must match the collection title "${source.collection.title.trim()}"; only the description is localized`,
+    );
   }
   if (metadata.sourceDigest !== source.digest) {
     throw new Error(`${id}/${locale}: translation is stale; export the current source digest`);
@@ -765,7 +770,7 @@ async function exportTranslations(args) {
   );
   await writeFile(
     path.join(inputs, "TRANSLATION-INSTRUCTIONS.md"),
-    `# Translation instructions\n\nTranslate the complete README into each of these locales: ${locales.join(", ")}.\n\nPreserve all headings and their order, list and table entries, code values, names, identifiers, link and image destinations, and source-fragment links. Translate prose and headings fully; do not add recommendations or omit content. Keep each locale in \`locales/<locale>.md\`. Have a maintainer review each translation and record its current source digest and truthful AI-translation flag in \`translations.json\`. Builds never contact translation services.\n`,
+    `# Translation instructions\n\nTranslate the complete README into each of these locales: ${locales.join(", ")}.\n\nPreserve all headings and their order, list and table entries, code values, names, identifiers, link and image destinations, and source-fragment links. Translate prose and headings fully; do not add recommendations or omit content. Keep each locale in \`locales/<locale>.md\`. Have a maintainer review each translation and record its current source digest and truthful AI-translation flag in \`translations.json\`; keep every locale's title identical to the collection title and localize only the description. Builds never contact translation services.\n`,
     { flag: "wx" },
   );
   console.log(`Exported ${id} at ${source.revision} (${source.digest}) to ${outputDirectory}`);

@@ -201,7 +201,7 @@ async function createIsolatedPipeline({ ledgerContent, validSource = false }) {
     ], { cwd: fixtureRoot, stdio: "pipe" });
     const sourceDigest = createHash("sha256").update(sourceMarkdown).digest("hex");
     const translations = Object.fromEntries(translationLocales.map((locale) => [locale, {
-      title: `Example ${locale}`,
+      title: collection.title,
       description: `An example collection in ${locale}.`,
       sourceDigest,
       reviewStatus: "reviewed",
@@ -402,13 +402,17 @@ test("translation metadata requires all locales, current digests, review, and ho
     collection: { id: "test-collection", title: "Source title" },
   };
   const metadata = {
-    title: "Titre traduit",
+    title: "Source title",
     description: "Description traduite",
     sourceDigest: source.digest,
     reviewStatus: "reviewed",
     isAITranslation: true,
   };
   assert.doesNotThrow(() => validateMetadata(metadata, source, "fr-FR"));
+  assert.throws(
+    () => validateMetadata({ ...metadata, title: "Titre traduit" }, source, "fr-FR"),
+    /title must match the collection title/u,
+  );
   assert.throws(
     () => validateMetadata({ ...metadata, sourceDigest: "b".repeat(64) }, source, "fr-FR"),
     /translation is stale/u,
