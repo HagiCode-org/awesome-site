@@ -2,6 +2,40 @@
 # readmeNotice summarizes explicit license, waiver, trademark, or third-party rights notices found in the README.
 # Asset counts cover Markdown images and HTML media embeds; external hosts identify linked third-party asset origins.
 # This is not legal clearance: README-specific scope and third-party asset rights remain unverified; only GitHub links are published.
+- id: android-security-awesome
+  source: https://github.com/ashishb/android-security-awesome
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: eb95fe860b3a3a024f4d6daed143d2833d0a7a6a
+  readmePath: README.md
+  readmeBlob: 6edc943529e2a8d6a1fbd0602f6f6071a2665fff
+  licensePath: LICENSE
+  licenseBlob: ad410e11302107da9aa47ce3d46bd5ad011c4c43
+  licenseId: Apache-2.0
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 8
+  externalAssetHosts:
+    - api.star-history.com
+    - cdn.rawgit.com
+    - github.com
+    - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-3d-gaussian-splatting
+  source: https://github.com/MrNeRF/awesome-3D-gaussian-splatting
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: e945732c972fc1a8444244cecc12c9d6e42c4782
+  readmePath: README.md
+  readmeBlob: 722844e2117704391a2aaaa10b3dd8c617aa992a
+  licensePath: LICENSE
+  licenseBlob: dd52bcd94a54ae59393be1955092bbd7d0ca8511
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 0
+  externalAssetHosts: []
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
 - id: awesome-agent-skills
   source: https://github.com/VoltAgent/awesome-agent-skills
   reviewedAt: "2026-10-04T05:33:15Z"
@@ -20,6 +54,99 @@
     - contrib.rocks
     - github.com
     - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-agentic-ai-zh
+  source: https://github.com/WenyuChiou/awesome-agentic-ai-zh
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: f4282ac68907db2c82809c9cbfc5ba8af3d93ca6
+  readmePath: README.md
+  readmeBlob: 2863dea1940d79e9158a86402fc717df0dadd17e
+  licensePath: LICENSE
+  licenseBlob: c71119323e8397ed3307004e4ecce4f0dca92908
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 3
+  externalAssetReferences: 7
+  externalAssetHosts:
+    - contrib.rocks
+    - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-ai-apps
+  source: https://github.com/Arindam200/awesome-ai-apps
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 276e635f3f2bf3212359d37709f09d1fab6ba313
+  readmePath: README.md
+  readmeBlob: 2efacd7c4a91ffdcc36c5e4eba7cb75febc56570
+  licensePath: LICENSE
+  licenseBlob: c1bcb65f6f0736abe6efad76f78b844a18644fba
+  licenseId: MIT
+  readmeNotice: explicit-mit-license-reference
+  localAssetReferences: 7
+  externalAssetReferences: 12
+  externalAssetHosts:
+    - avatars.githubusercontent.com
+    - awesome.re
+    - byteful.com
+    - github.com
+    - img.shields.io
+    - raw.githubusercontent.com
+    - star-history.dera.page
+    - trendshift.io
+    - upload.wikimedia.org
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-ai-tools
+  source: https://github.com/mahseema/awesome-ai-tools
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 9d8b9d49fa26114fcc635a80ac1db1e950d3542a
+  readmePath: README.md
+  readmeBlob: b6331631928aab64ac99cbe813efd43e77decb64
+  licensePath: LICENSE
+  licenseBlob: 7c17f6baf040112733eb3644d4c28c4dc60bbc42
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - awesome.re
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-ai4s
+  source: https://github.com/hyperai/awesome-ai4s
+  reviewedAt: "2026-10-04T05:33:15Z"
+  revision: 3793b89cf9b7397fce2fcb41d78ae52a378f6817
+  readmePath: README.md
+  readmeBlob: 17c199ef05deba161f4b5872848e41fc0c50417c
+  licensePath: LICENSE
+  licenseBlob: 261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64
+  licenseId: Apache-2.0
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 0
+  externalAssetHosts: []
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-android
+  source: https://github.com/JStumpp/awesome-android
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: c9598e7541686b3705df7cc177a845d6093685c2
+  readmePath: readme.md
+  readmeBlob: 7f04f57712f66c1348eadc8a0189ce206613f464
+  licensePath: LICENSE
+  licenseBlob: 670154e3538863b2d9891fd5483160fbdfc89164
+  licenseId: CC0-1.0
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 6
+  externalAssetHosts:
+    - api.travis-ci.org
+    - cdn.rawgit.com
+    - img.shields.io
+    - instabug-ga.appspot.com
+    - raw.githubusercontent.com
+    - user-images.githubusercontent.com
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
 - id: awesome-android-ui
@@ -44,6 +171,125 @@
     - user-images.githubusercontent.com
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
+- id: awesome-angular
+  source: https://github.com/PatrickJS/awesome-angular
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: a29a5f1deaf6d8e2431b73dfa7e10535927243d8
+  readmePath: README.md
+  readmeBlob: fb1b61130db2912ad59ddc7ba121e9955795a483
+  licensePath: LICENSE
+  licenseBlob: 2c4afabdb632b5d68e60c9fe9fe0b0819676a729
+  licenseId: CC0-1.0
+  readmeNotice: third-party-license-references
+  localAssetReferences: 1
+  externalAssetReferences: 2
+  externalAssetHosts:
+    - awesome.re
+    - badge.fury.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-appsec
+  source: https://github.com/paragonie/awesome-appsec
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: df38442fb1fb9e1d2018ab2717ed381823b36c27
+  readmePath: README.md
+  readmeBlob: d97880848e5a9ac28c9c0ad794009458573872a5
+  licensePath: LICENSE
+  licenseBlob: 45c7017dfb33dd003ee038cc9232d2430ffbf9a2
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 1
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - cdn.rawgit.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-artificial-intelligence
+  source: https://github.com/owainlewis/awesome-artificial-intelligence
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: ab1c3cceef8ab906586505a7a7a293f434280862
+  readmePath: README.md
+  readmeBlob: 63de0e4d7d24c040c0a8f0e23c7efd0f090cdc17
+  licensePath: LICENSE
+  licenseBlob: ab6e8efa3d282a29f8addef8701635d66f28167e
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - media.giphy.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-bigdata
+  source: https://github.com/oxnr/awesome-bigdata
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: e316edaa36dd9cbd47743c76b0414da2ff92299d
+  readmePath: README.md
+  readmeBlob: f35178be800a86679e58139f51ea54700e9763ba
+  licensePath: LICENSE
+  licenseBlob: 5ec68f9eb6fcd51aa5ad5a7e3b257d842ed176da
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - cdn.rawgit.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-blazor
+  source: https://github.com/AdrienTorris/awesome-blazor
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: e8dd4546a628dcf2e74cbae47f9e8789214380a7
+  readmePath: README.md
+  readmeBlob: 94205718c8b6723631e3a9d3730fb1f4ae777911
+  licensePath: LICENCE
+  licenseBlob: 3bbbc1ee92562e6a2eebfc6a366f4309d06c7d54
+  licenseId: CC0-1.0
+  readmeNotice: third-party-license-references
+  localAssetReferences: 0
+  externalAssetReferences: 449
+  externalAssetHosts:
+    - adrientorris.github.io
+    - awesome.re
+    - camo.githubusercontent.com
+    - img.shields.io
+    - mirrors.creativecommons.org
+    - pbs.twimg.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-bugbounty-tools
+  source: https://github.com/vavkamil/awesome-bugbounty-tools
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 1e10997d6f17f40a40d1d9dff88e475516e829c8
+  readmePath: README.md
+  readmeBlob: f245c7360f13aa5b548a178d5b7a315bd3224c91
+  licensePath: LICENSE
+  licenseBlob: 670154e3538863b2d9891fd5483160fbdfc89164
+  licenseId: CC0-1.0
+  readmeNotice: explicit-cc0-waiver
+  localAssetReferences: 0
+  externalAssetReferences: 2
+  externalAssetHosts:
+    - awesome.re
+    - mirrors.creativecommons.org
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-chaos-engineering
+  source: https://github.com/dastergon/awesome-chaos-engineering
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 1da63559c6f31abfa9ecfc34cdea7ba0e61e43ed
+  readmePath: README.md
+  readmeBlob: f7f9e9d2912be2d02eee22babb5bd4e37417e0f2
+  licensePath: LICENSE
+  licenseBlob: 670154e3538863b2d9891fd5483160fbdfc89164
+  licenseId: CC0-1.0
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - cdn.rawgit.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
 - id: awesome-chatgpt-prompts-zh
   source: https://github.com/PlexPt/awesome-chatgpt-prompts-zh
   reviewedAt: "2026-10-04T05:33:15Z"
@@ -60,6 +306,130 @@
     - api.star-history.com
     - github.com
     - user-images.githubusercontent.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-chatgpt-zh
+  source: https://github.com/EmbraceAGI/awesome-chatgpt-zh
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68
+  readmePath: README.md
+  readmeBlob: 9b60c547c57819e549863d94478785b08f537bc1
+  licensePath: LICENSE
+  licenseBlob: 5e743ee151ab20325fe453719b92c6d70e401d94
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 1
+  externalAssetReferences: 5
+  externalAssetHosts:
+    - api.star-history.com
+    - awesome.re
+    - contrib.rocks
+    - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-chinese-nlp
+  source: https://github.com/crownpku/Awesome-Chinese-NLP
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 923e20ae68723d30a62fc48d3e552bf3ba6a0829
+  readmePath: README.md
+  readmeBlob: ac03d0fe720166390c3546f8a50ee28d702420d2
+  licensePath: LICENSE
+  licenseBlob: 261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64
+  licenseId: Apache-2.0
+  readmeNotice: none-detected
+  localAssetReferences: 1
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - awesome.re
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-chrome-devtools
+  source: https://github.com/ChromeDevTools/awesome-chrome-devtools
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 237471d0162ab53901ad0a813c802e6773169af0
+  readmePath: readme.md
+  readmeBlob: 18ff8154110818897c9eac9a259c44ea45f0f720
+  licensePath: LICENSE
+  licenseBlob: 670154e3538863b2d9891fd5483160fbdfc89164
+  licenseId: CC0-1.0
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - awesome.re
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-claude-code-subagents
+  source: https://github.com/VoltAgent/awesome-claude-code-subagents
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 721e9734670bfaf7283194e234ebb88e94c82dcd
+  readmePath: README.md
+  readmeBlob: c86fe368f43fdd7ce6201cb0868c809f372b3e3f
+  licensePath: LICENSE
+  licenseBlob: d0d77b4b2054f2e2ac448150dc1ac6acc4112281
+  licenseId: MIT
+  readmeNotice: explicit-mit-license-reference
+  localAssetReferences: 0
+  externalAssetReferences: 13
+  externalAssetHosts:
+    - awesome.re
+    - cdn.voltagent.dev
+    - contrib.rocks
+    - github.com
+    - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-cloud-security
+  source: https://github.com/teamssix/awesome-cloud-security
+  reviewedAt: "2026-10-04T05:33:15Z"
+  revision: 91d259bc6ef792092fbae0973f1fd482bf58ca68
+  readmePath: README.md
+  readmeBlob: d0412bfcab4e247108b229f0a6bb42fd5b977c89
+  licensePath: LICENSE
+  licenseBlob: 005fa4c42a685ba35059e02bacc050583a284b50
+  licenseId: Apache-2.0
+  readmeNotice: none-detected
+  localAssetReferences: 28
+  externalAssetReferences: 159
+  externalAssetHosts:
+    - api.star-history.com
+    - cdn.jsdelivr.net
+    - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-codex-subagents
+  source: https://github.com/VoltAgent/awesome-codex-subagents
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 16f880a2a0486f880da75d2baffcd68af4cc4811
+  readmePath: README.md
+  readmeBlob: 63b1f94fd71a573ad32e811bd2ceb702babcb676
+  licensePath: LICENSE
+  licenseBlob: 5cea5d78a41df83eafe1fb9fc0710675a5b7acf6
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 12
+  externalAssetHosts:
+    - awesome.re
+    - cdn.voltagent.dev
+    - github.com
+    - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-console-services
+  source: https://github.com/chubin/awesome-console-services
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: c87505129445557a9de428556e815c75faf464e1
+  readmePath: README.md
+  readmeBlob: 85db7a6e4cbe1d222bc4d438119abbde29e0bfa8
+  licensePath: LICENSE
+  licenseBlob: ba49180689a46e36d063cb00dfc40e27c08f1212
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - cdn.rawgit.com
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
 - id: awesome-copilot
@@ -79,6 +449,23 @@
     - img.shields.io
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
+- id: awesome-coreml-models
+  source: https://github.com/likedan/Awesome-CoreML-Models
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: f65751092d0ba1e3a8e83c8351f46bfd54606a91
+  readmePath: README.md
+  readmeBlob: 42e9b21beaade6218f7b6811424d5b929d106253
+  licensePath: LICENSE.txt
+  licenseBlob: 8ecfb21c45d9844bbf055bbe9fc6882dce2624a1
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 1
+  externalAssetReferences: 2
+  externalAssetHosts:
+    - cdn.rawgit.com
+    - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
 - id: awesome-cpp
   source: https://github.com/fffaraz/awesome-cpp
   reviewedAt: "2026-10-04T05:33:15Z"
@@ -94,6 +481,39 @@
   externalAssetHosts:
     - awesome.re
     - www.trackawesomelist.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-cursorrules
+  source: https://github.com/PatrickJS/awesome-cursorrules
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: b044f956f021b6e8877f16781bcfc466a6a120e9
+  readmePath: README.md
+  readmeBlob: 8204dac5cf335416e138c1059d73b578f6c776ea
+  licensePath: LICENSE
+  licenseBlob: 670154e3538863b2d9891fd5483160fbdfc89164
+  licenseId: CC0-1.0
+  readmeNotice: none-detected
+  localAssetReferences: 2
+  externalAssetReferences: 3
+  externalAssetHosts:
+    - awesome.re
+    - github.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-data-engineering
+  source: https://github.com/igorbarinov/awesome-data-engineering
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 32a61951065b3919b866d51171cb50c6027e957a
+  readmePath: README.md
+  readmeBlob: ad77bc8fb64507e1caa7eda8498c837b0a10bb8d
+  licensePath: license
+  licenseBlob: 3ad65fdca6c56fc42eadbd442f08f418cdd6ed5e
+  licenseId: CC0-1.0
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - awesome.re
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
 - id: awesome-datascience
@@ -118,6 +538,39 @@
     - www.springboard.com
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
+- id: awesome-diffusion-models
+  source: https://github.com/diff-usion/Awesome-Diffusion-Models
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 01be334d2e258b0150093761d77ab55b789e88d3
+  readmePath: README.md
+  readmeBlob: f2520386c928bd54bdbbd16c1c67b7fd48fd3616
+  licensePath: license
+  licenseBlob: d4bbeb940b8f0b00dfc23cb2f30bce54ea541705
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 3
+  externalAssetHosts:
+    - cdn.rawgit.com
+    - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-dify-workflow
+  source: https://github.com/svcvit/Awesome-Dify-Workflow
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: e730ed3627e5fa56fc1668d995b83178b6b1181c
+  readmePath: README.md
+  readmeBlob: 236be290f4700df753adc5cfa495d018f41ba58a
+  licensePath: LICENSE
+  licenseBlob: bf37093cc91bb8930898f241f83ed01b20f7a6d6
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 60
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - trendshift.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
 - id: awesome-dotnet
   source: https://github.com/quozd/awesome-dotnet
   reviewedAt: "2026-10-04T05:33:15Z"
@@ -136,6 +589,41 @@
     - github.com
     - img.shields.io
     - licensebuttons.net
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-free-chatgpt
+  source: https://github.com/LiLittleCat/awesome-free-chatgpt
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 7b716a693f95e2b1c6707195c35029a2478b9818
+  readmePath: README.md
+  readmeBlob: d97b677b0658710534546c24465af7d86bef203e
+  licensePath: LICENSE
+  licenseBlob: 057a1225cb68b90fc2c57aa9119fa28b0fe37956
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 6
+  externalAssetHosts:
+    - api.star-history.com
+    - cdn.jsdelivr.net
+    - contrib.rocks
+    - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-free-llm-apis
+  source: https://github.com/mnfst/awesome-free-llm-apis
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: b25c0395fe1e7628ecc99bf119a40365801c6fb4
+  readmePath: README.md
+  readmeBlob: dc33bad95a82eb40410ee2e75ed87207a7d4500b
+  licensePath: license
+  licenseBlob: 0e259d42c996742e9e3cba14c677129b2c1b6311
+  licenseId: CC0-1.0
+  readmeNotice: none-detected
+  localAssetReferences: 2
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - awesome.re
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
 - id: awesome-go
@@ -160,6 +648,40 @@
     - www.trackawesomelist.com
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
+- id: awesome-gpt-image-2
+  source: https://github.com/freestylefly/awesome-gpt-image-2
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 65a9c57a1968a13f2f1997c58409cac9aa146bc7
+  readmePath: README.md
+  readmeBlob: 76ff77eac9157e539f6926bc2fa0de54317d919a
+  licensePath: LICENSE
+  licenseBlob: 5470a1c5d15a236acdd32d4fa1c489b3bd1b160d
+  licenseId: MIT
+  readmeNotice: third-party-license-references
+  localAssetReferences: 40
+  externalAssetReferences: 7
+  externalAssetHosts:
+    - api.star-history.com
+    - img.shields.io
+    - trendshift.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-hacker-search-engines
+  source: https://github.com/edoardottt/awesome-hacker-search-engines
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 312a5fa06367476359c034ffb3eea3513d83491d
+  readmePath: README.md
+  readmeBlob: a37d9d05ef872bfdc66faa9fa32c2ceabae3011f
+  licensePath: LICENSE
+  licenseBlob: 4b4c13f3bd434e7c5fbaa8fa8760d7755a8dab9c
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - raw.githubusercontent.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
 - id: awesome-ios
   source: https://github.com/vsouza/awesome-ios
   reviewedAt: "2026-10-04T05:33:15Z"
@@ -177,6 +699,74 @@
     - github.com
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
+- id: awesome-jellyfin
+  source: https://github.com/awesome-jellyfin/awesome-jellyfin
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 36a6a3f7b2bbd9b0d3ea81db136bce709ce3cf94
+  readmePath: README.md
+  readmeBlob: ed6216e21507092799935e0ca7839139beb306e7
+  licensePath: LICENSE
+  licenseBlob: 0e259d42c996742e9e3cba14c677129b2c1b6311
+  licenseId: CC0-1.0
+  readmeNotice: none-detected
+  localAssetReferences: 1
+  externalAssetReferences: 0
+  externalAssetHosts: []
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-langchain
+  source: https://github.com/kyrolabs/awesome-langchain
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: f3a81c8922a5ee6cb6c509755a626f5f2f03837c
+  readmePath: README.md
+  readmeBlob: c36d0cf51782ba0e847ab07eb7326597402f8604
+  licensePath: LICENSE
+  licenseBlob: 0e259d42c996742e9e3cba14c677129b2c1b6311
+  licenseId: CC0-1.0
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 188
+  externalAssetHosts:
+    - awesome.re
+    - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-llms-in-china
+  source: https://github.com/wgwang/awesome-LLMs-In-China
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: f2a1119ca2dc01c9c3585dd49a5983fea3efecf5
+  readmePath: README.md
+  readmeBlob: 5214723552ce4a983f87f56299e00004738ee43d
+  licensePath: LICENSE
+  licenseBlob: 261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64
+  licenseId: Apache-2.0
+  readmeNotice: none-detected
+  localAssetReferences: 3
+  externalAssetReferences: 0
+  externalAssetHosts: []
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-mcp-clients
+  source: https://github.com/punkpeye/awesome-mcp-clients
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: aeb965ecf9f29e367faff6425a2507c5e8eb26c7
+  readmePath: README.md
+  readmeBlob: 2756b150d3aea6925407d8489f48040916321973
+  licensePath: LICENSE
+  licenseBlob: eb830bd7e19be488474ded777cfa1fae864f2031
+  licenseId: MIT
+  readmeNotice: third-party-license-references
+  localAssetReferences: 139
+  externalAssetReferences: 31
+  externalAssetHosts:
+    - asciinema.org
+    - awesome.re
+    - docs.enola.dev
+    - github.com
+    - img.shields.io
+    - media.beehiiv.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
 - id: awesome-mcp-servers
   source: https://github.com/punkpeye/awesome-mcp-servers
   reviewedAt: "2026-10-04T05:33:15Z"
@@ -192,6 +782,165 @@
   externalAssetHosts:
     - glama.ai
     - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-mcp-zh
+  source: https://github.com/yzfly/Awesome-MCP-ZH
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 8e5be9a5371b462064ce43ff2431ba8ebb739678
+  readmePath: README.md
+  readmeBlob: 2458e0b030edb4721a26908527e237dc42fd7b2f
+  licensePath: LICENSE
+  licenseBlob: cccdf4c046d11e7946242c9bf5c301d0ecba63ce
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 13
+  externalAssetHosts:
+    - api.star-history.com
+    - files.mdnice.com
+    - img.shields.io
+    - www.ee.chat
+    - youjb.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-multimodal-ml
+  source: https://github.com/pliang279/awesome-multimodal-ml
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: f1d3bae4aec6a9da8c52da47ac9c115be6e14f6c
+  readmePath: README.md
+  readmeBlob: 0ee49af54c02897885ba58758321b3512bffbfaa
+  licensePath: LICENSE
+  licenseBlob: 67b69842686449168f42935822841c0528155cb7
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 0
+  externalAssetHosts: []
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-nerf
+  source: https://github.com/awesome-NeRF/awesome-NeRF
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: f2631543def2dccab54ee77ebf41ad4a224e73dd
+  readmePath: README.md
+  readmeBlob: c069f6aa106c096ad03a6333e66e3189d5459f45
+  licensePath: LICENSE
+  licenseBlob: d14ca4ccc566b73cdb461b915425f9244fd14f70
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - cdn.rawgit.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-openclaw-skills
+  source: https://github.com/VoltAgent/awesome-openclaw-skills
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 01583d57f727519006058633830b767ade714c0b
+  readmePath: README.md
+  readmeBlob: 8bf1adbc54a3b85c08ac8043575235203db839c4
+  licensePath: LICENSE
+  licenseBlob: 5cea5d78a41df83eafe1fb9fc0710675a5b7acf6
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 14
+  externalAssetHosts:
+    - awesome.re
+    - cdn.voltagent.dev
+    - github.com
+    - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-openclaw-usecases
+  source: https://github.com/hesamsheikh/awesome-openclaw-usecases
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 659895e58e2105c6db8fbef39f446c8a786a480c
+  readmePath: README.md
+  readmeBlob: 739985e80f0f71deb97b87405afe3976f33d11fb
+  licensePath: LICENSE
+  licenseBlob: 14fac913ccf80234b1848540089a3bbcb6e5283d
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 6
+  externalAssetHosts:
+    - awesome.re
+    - github.com
+    - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-opencode
+  source: https://github.com/awesome-opencode/awesome-opencode
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: bcc5c03cec19789b45ef9af4a969e3fe3fd7431b
+  readmePath: README.md
+  readmeBlob: ef1de85bcff7773fc64f281669243368f9f595bc
+  licensePath: LICENSE
+  licenseBlob: 0e259d42c996742e9e3cba14c677129b2c1b6311
+  licenseId: CC0-1.0
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 221
+  externalAssetHosts:
+    - badgen.net
+    - cdn.rawgit.com
+    - github.com
+    - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-oss-alternatives
+  source: https://github.com/RunaCapital/awesome-oss-alternatives
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: e5a1bd6153c602404c6f25a97b178228b755aebb
+  readmePath: README.md
+  readmeBlob: 5399da967a481a81dd14d83e96b4da5dac4cad81
+  licensePath: LICENSE
+  licenseBlob: 0eb77c00e141c303e19da30e5a74e39a976622b8
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 216
+  externalAssetHosts:
+    - about.gitlab.com
+    - cdn.rawgit.com
+    - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-paddle-deeplearning
+  source: https://github.com/PaddlePaddle/awesome-DeepLearning
+  reviewedAt: "2026-10-04T05:33:15Z"
+  revision: 772e97d3103fae65313fc2683d3dff13e5cbb723
+  readmePath: README.md
+  readmeBlob: 2966867c0cab7b2ec8e86ff1e5789477c006022e
+  licensePath: LICENSE
+  licenseBlob: 261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64
+  licenseId: Apache-2.0
+  readmeNotice: none-detected
+  localAssetReferences: 3
+  externalAssetReferences: 2
+  externalAssetHosts:
+    - github.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-privacy
+  source: https://github.com/pluja/awesome-privacy
+  reviewedAt: "2026-10-04T05:33:15Z"
+  revision: c42699ca52f13666c8e1a04837bed7093cd5d53f
+  readmePath: README.md
+  readmeBlob: da260a95d9a880fe09c171fe808e3713553e6890
+  licensePath: LICENSE
+  licenseBlob: 0e259d42c996742e9e3cba14c677129b2c1b6311
+  licenseId: CC0-1.0
+  readmeNotice: third-party-license-references
+  localAssetReferences: 1
+  externalAssetReferences: 26
+  externalAssetHosts:
+    - awesome.re
+    - img.shields.io
+    - shields.tosdr.org
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
 - id: awesome-production-machine-learning
@@ -213,6 +962,42 @@
     - star-history.dera.page
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
+- id: awesome-project-ideas
+  source: https://github.com/NirantK/awesome-project-ideas
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 31f6fb0dba79430f220ee9b77e773ed496193be6
+  readmePath: README.md
+  readmeBlob: ce8bc37a22c43e635d928d3cc196e0733a3fc393
+  licensePath: LICENSE
+  licenseBlob: bdf5f1cfb385abc0082bbfccba792455dec257b4
+  licenseId: MIT
+  readmeNotice: explicit-mit-license-reference
+  localAssetReferences: 0
+  externalAssetReferences: 2
+  externalAssetHosts:
+    - cdn.rawgit.com
+    - user-images.githubusercontent.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-prompt-engineering
+  source: https://github.com/promptslab/Awesome-Prompt-Engineering
+  reviewedAt: "2026-10-04T05:33:15Z"
+  revision: 23542555e534d520cf78111470a398d5fc321dad
+  readmePath: README.md
+  readmeBlob: 393b484632c86eb54b6e2508bbb4a0ea51aba9bf
+  licensePath: LICENSE
+  licenseBlob: 261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64
+  licenseId: Apache-2.0
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 8
+  externalAssetHosts:
+    - awesome.re
+    - contrib.rocks
+    - img.shields.io
+    - raw.githubusercontent.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
 - id: awesome-react-components
   source: https://github.com/brillout/awesome-react-components
   reviewedAt: "2026-10-04T05:33:15Z"
@@ -226,6 +1011,55 @@
   localAssetReferences: 0
   externalAssetReferences: 0
   externalAssetHosts: []
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-react-hooks
+  source: https://github.com/rehooks/awesome-react-hooks
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 33424d3e810c864ca69e379b74d195094b08a8e3
+  readmePath: README.md
+  readmeBlob: 8186f6d5afd2b25b956124f3254a2d03454e1572
+  licensePath: LICENSE
+  licenseBlob: 0e259d42c996742e9e3cba14c677129b2c1b6311
+  licenseId: CC0-1.0
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - awesome.re
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-red-teaming
+  source: https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 1075eed002871aa5bf30b8b6f66a03956840f351
+  readmePath: README.md
+  readmeBlob: df385d5532c785ce2367550d9249272ef6068b87
+  licensePath: LICENSE
+  licenseBlob: f1bd11f496f5babfbb0d831159ad7436bb9a0e9b
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 0
+  externalAssetHosts: []
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-rlhf
+  source: https://github.com/opendilab/awesome-RLHF
+  reviewedAt: "2026-10-04T05:33:15Z"
+  revision: 96acdd4571e7bf31a61370daf6cebafcabd5580e
+  readmePath: README.md
+  readmeBlob: b1c80a66e81fad369b0e3edff2c0ec14797acc52
+  licensePath: LICENSE
+  licenseBlob: 261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64
+  licenseId: Apache-2.0
+  readmeNotice: none-detected
+  localAssetReferences: 2
+  externalAssetReferences: 5
+  externalAssetHosts:
+    - cdn.rawgit.com
+    - img.shields.io
+    - visitor-badge.lithub.cc
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
 - id: awesome-rust
@@ -256,6 +1090,74 @@
     - www.trackawesomelist.com
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
+- id: awesome-security
+  source: https://github.com/sbilly/awesome-security
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 51b613c02b8801d23c0d2b8d9dc7b40d15c1b16e
+  readmePath: README.md
+  readmeBlob: 1b61b334df9ec96aeb206bb32487b6f613a0beb5
+  licensePath: LICENSE
+  licenseBlob: a518731f38f05ff957fa93f36fea883defb58da3
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - cdn.rawgit.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-shadcn-ui
+  source: https://github.com/birobirobiro/awesome-shadcn-ui
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 125c1b8618e1d51b0053bde860a587f60c48f838
+  readmePath: README.md
+  readmeBlob: 6a95b7a7d75620a71c0968a18fce9e8ac0c44d80
+  licensePath: LICENSE
+  licenseBlob: 97cdea686828d337657a117aaed06be59610be60
+  licenseId: MIT
+  readmeNotice: third-party-license-references
+  localAssetReferences: 3
+  externalAssetReferences: 5
+  externalAssetHosts:
+    - api.star-history.com
+    - cdn.rawgit.com
+    - contrib.rocks
+    - img.shields.io
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-shodan-queries
+  source: https://github.com/jakejarvis/awesome-shodan-queries
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: b3439d187b037211b98ac6c12b94a7bdf43af729
+  readmePath: readme.md
+  readmeBlob: 23462b07464f71e5307b67d87b4cd9eb0ec88f9f
+  licensePath: license.md
+  licenseBlob: 670154e3538863b2d9891fd5483160fbdfc89164
+  licenseId: CC0-1.0
+  readmeNotice: explicit-cc0-waiver
+  localAssetReferences: 30
+  externalAssetReferences: 2
+  externalAssetHosts:
+    - awesome.re
+    - mirrors.creativecommons.org
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-sre
+  source: https://github.com/dastergon/awesome-sre
+  reviewedAt: "2026-10-04T05:33:15Z"
+  revision: e91ef69aa52129662164e54cc22272bc90e9b636
+  readmePath: README.md
+  readmeBlob: 97b7f5ecf6645ff4a0bb575ba24109de0bb8b184
+  licensePath: LICENSE
+  licenseBlob: 670154e3538863b2d9891fd5483160fbdfc89164
+  licenseId: CC0-1.0
+  readmeNotice: none-detected
+  localAssetReferences: 1
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - cdn.rawgit.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
 - id: awesome-swift
   source: https://github.com/matteocrippa/awesome-swift
   reviewedAt: "2026-10-04T05:33:15Z"
@@ -271,6 +1173,39 @@
   externalAssetHosts:
     - cdn.rawgit.com
     - github.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-tensorflow
+  source: https://github.com/jtoy/awesome-tensorflow
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 2c1780ae4ce541d5abb9b8a3bd5976a9ab3bfb29
+  readmePath: README.md
+  readmeBlob: 7ad410ed77c6faf64945084b149a227966fd138e
+  licensePath: LICENSE
+  licenseBlob: 670154e3538863b2d9891fd5483160fbdfc89164
+  licenseId: CC0-1.0
+  readmeNotice: none-detected
+  localAssetReferences: 0
+  externalAssetReferences: 1
+  externalAssetHosts:
+    - cdn.rawgit.com
+  disposition: github-link-only; README and embedded assets are not republished; third-party asset
+    rights are not individually cleared
+- id: awesome-vite
+  source: https://github.com/vitejs/awesome-vite
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: ec6b41d8295ed4a18a58778a1219aa430bb55963
+  readmePath: README.md
+  readmeBlob: a97cceef40b1eba4dba2d02753ba23b1a7a1eba7
+  licensePath: LICENSE
+  licenseBlob: 7bf70f500501de0f119570a7dca6e1e33b3ce076
+  licenseId: MIT
+  readmeNotice: none-detected
+  localAssetReferences: 1
+  externalAssetReferences: 2
+  externalAssetHosts:
+    - cdn.rawgit.com
+    - user-images.githubusercontent.com
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
 - id: awesome-vue
@@ -291,123 +1226,50 @@
     - www.trackawesomelist.com
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
-- id: awesome-ai4s
-  source: https://github.com/hyperai/awesome-ai4s
-  reviewedAt: "2026-10-04T05:33:15Z"
-  revision: 3793b89cf9b7397fce2fcb41d78ae52a378f6817
+- id: awesome-web-hacking
+  source: https://github.com/infoslack/awesome-web-hacking
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 89b0179c90517e518e27ec37b679201ce06aebc2
   readmePath: README.md
-  readmeBlob: 17c199ef05deba161f4b5872848e41fc0c50417c
+  readmeBlob: abbc1a951a6fe66d0cb6eeb7327c6c966eb6a1cc
   licensePath: LICENSE
-  licenseBlob: 261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64
-  licenseId: Apache-2.0
+  licenseBlob: c872dc4657090ce241e603ba770baa9d28cf14a4
+  licenseId: MIT
   readmeNotice: none-detected
   localAssetReferences: 0
   externalAssetReferences: 0
   externalAssetHosts: []
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
-- id: awesome-cloud-security
-  source: https://github.com/teamssix/awesome-cloud-security
-  reviewedAt: "2026-10-04T05:33:15Z"
-  revision: 91d259bc6ef792092fbae0973f1fd482bf58ca68
+- id: awesome-wpo
+  source: https://github.com/davidsonfellipe/awesome-wpo
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 84f32948a6298456d6a94cff64551f39f2666e6f
   readmePath: README.md
-  readmeBlob: d0412bfcab4e247108b229f0a6bb42fd5b977c89
+  readmeBlob: 464597c616ce138fa950ad56dc9f6d39cb0438b5
   licensePath: LICENSE
-  licenseBlob: 005fa4c42a685ba35059e02bacc050583a284b50
-  licenseId: Apache-2.0
-  readmeNotice: none-detected
-  localAssetReferences: 28
-  externalAssetReferences: 159
-  externalAssetHosts:
-    - api.star-history.com
-    - cdn.jsdelivr.net
-    - img.shields.io
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset
-    rights are not individually cleared
-- id: awesome-paddle-deeplearning
-  source: https://github.com/PaddlePaddle/awesome-DeepLearning
-  reviewedAt: "2026-10-04T05:33:15Z"
-  revision: 772e97d3103fae65313fc2683d3dff13e5cbb723
-  readmePath: README.md
-  readmeBlob: 2966867c0cab7b2ec8e86ff1e5789477c006022e
-  licensePath: LICENSE
-  licenseBlob: 261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64
-  licenseId: Apache-2.0
-  readmeNotice: none-detected
-  localAssetReferences: 3
-  externalAssetReferences: 2
-  externalAssetHosts:
-    - github.com
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset
-    rights are not individually cleared
-- id: awesome-prompt-engineering
-  source: https://github.com/promptslab/Awesome-Prompt-Engineering
-  reviewedAt: "2026-10-04T05:33:15Z"
-  revision: 23542555e534d520cf78111470a398d5fc321dad
-  readmePath: README.md
-  readmeBlob: 393b484632c86eb54b6e2508bbb4a0ea51aba9bf
-  licensePath: LICENSE
-  licenseBlob: 261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64
-  licenseId: Apache-2.0
-  readmeNotice: none-detected
+  licenseBlob: cfe6d03771f29405096d865e57beddf5e36c384d
+  licenseId: MIT
+  readmeNotice: explicit-mit-license-reference
   localAssetReferences: 0
-  externalAssetReferences: 8
+  externalAssetReferences: 3
   externalAssetHosts:
     - awesome.re
-    - contrib.rocks
     - img.shields.io
-    - raw.githubusercontent.com
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared
-- id: awesome-rlhf
-  source: https://github.com/opendilab/awesome-RLHF
-  reviewedAt: "2026-10-04T05:33:15Z"
-  revision: 96acdd4571e7bf31a61370daf6cebafcabd5580e
+- id: go-awesome
+  source: https://github.com/shockerli/go-awesome
+  reviewedAt: "2026-10-06T20:13:23Z"
+  revision: 1b9a10e2f77b0c4979b451edde1487bff39b98de
   readmePath: README.md
-  readmeBlob: b1c80a66e81fad369b0e3edff2c0ec14797acc52
-  licensePath: LICENSE
-  licenseBlob: 261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64
-  licenseId: Apache-2.0
-  readmeNotice: none-detected
-  localAssetReferences: 2
-  externalAssetReferences: 5
-  externalAssetHosts:
-    - cdn.rawgit.com
-    - img.shields.io
-    - visitor-badge.lithub.cc
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset
-    rights are not individually cleared
-- id: awesome-sre
-  source: https://github.com/dastergon/awesome-sre
-  reviewedAt: "2026-10-04T05:33:15Z"
-  revision: e91ef69aa52129662164e54cc22272bc90e9b636
-  readmePath: README.md
-  readmeBlob: 97b7f5ecf6645ff4a0bb575ba24109de0bb8b184
+  readmeBlob: 114bb49ff949ff0aa39c262e2ed130e25158ba00
   licensePath: LICENSE
   licenseBlob: 670154e3538863b2d9891fd5483160fbdfc89164
   licenseId: CC0-1.0
   readmeNotice: none-detected
-  localAssetReferences: 1
-  externalAssetReferences: 1
-  externalAssetHosts:
-    - cdn.rawgit.com
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset
-    rights are not individually cleared
-- id: awesome-privacy
-  source: https://github.com/pluja/awesome-privacy
-  reviewedAt: "2026-10-04T05:33:15Z"
-  revision: c42699ca52f13666c8e1a04837bed7093cd5d53f
-  readmePath: README.md
-  readmeBlob: da260a95d9a880fe09c171fe808e3713553e6890
-  licensePath: LICENSE
-  licenseBlob: 0e259d42c996742e9e3cba14c677129b2c1b6311
-  licenseId: CC0-1.0
-  readmeNotice: third-party-license-references
-  localAssetReferences: 1
-  externalAssetReferences: 26
-  externalAssetHosts:
-    - awesome.re
-    - img.shields.io
-    - shields.tosdr.org
+  localAssetReferences: 0
+  externalAssetReferences: 0
+  externalAssetHosts: []
   disposition: github-link-only; README and embedded assets are not republished; third-party asset
     rights are not individually cleared

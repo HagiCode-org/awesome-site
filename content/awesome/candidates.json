@@ -1,9 +1,44 @@
 [
   {
+    "id": "android-security-awesome",
+    "repositoryUrl": "https://github.com/ashishb/android-security-awesome",
+    "catalog": "cybersecurity",
+    "stars": 9730,
+    "licenseId": "Apache-2.0"
+  },
+  {
+    "id": "awesome-3d-gaussian-splatting",
+    "repositoryUrl": "https://github.com/MrNeRF/awesome-3D-gaussian-splatting",
+    "catalog": "computer-vision",
+    "stars": 8927,
+    "licenseId": "MIT"
+  },
+  {
     "id": "awesome-agent-skills",
     "repositoryUrl": "https://github.com/VoltAgent/awesome-agent-skills",
     "catalog": "ai-agents",
     "stars": 35172,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-agentic-ai-zh",
+    "repositoryUrl": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
+    "catalog": "ai-agents",
+    "stars": 7409,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-ai-apps",
+    "repositoryUrl": "https://github.com/Arindam200/awesome-ai-apps",
+    "catalog": "llm-apps",
+    "stars": 16074,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-ai-tools",
+    "repositoryUrl": "https://github.com/mahseema/awesome-ai-tools",
+    "catalog": "llm-apps",
+    "stars": 6357,
     "licenseId": "MIT"
   },
   {
@@ -14,10 +49,115 @@
     "licenseId": "Apache-2.0"
   },
   {
+    "id": "awesome-android",
+    "repositoryUrl": "https://github.com/JStumpp/awesome-android",
+    "catalog": "android-ui",
+    "stars": 12375,
+    "licenseId": "CC0-1.0"
+  },
+  {
+    "id": "awesome-angular",
+    "repositoryUrl": "https://github.com/PatrickJS/awesome-angular",
+    "catalog": "javascript",
+    "stars": 10080,
+    "licenseId": "CC0-1.0"
+  },
+  {
+    "id": "awesome-appsec",
+    "repositoryUrl": "https://github.com/paragonie/awesome-appsec",
+    "catalog": "cybersecurity",
+    "stars": 7083,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-artificial-intelligence",
+    "repositoryUrl": "https://github.com/owainlewis/awesome-artificial-intelligence",
+    "catalog": "machine-learning",
+    "stars": 16628,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-bigdata",
+    "repositoryUrl": "https://github.com/oxnr/awesome-bigdata",
+    "catalog": "databases",
+    "stars": 14660,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-blazor",
+    "repositoryUrl": "https://github.com/AdrienTorris/awesome-blazor",
+    "catalog": "dotnet",
+    "stars": 9376,
+    "licenseId": "CC0-1.0"
+  },
+  {
+    "id": "awesome-bugbounty-tools",
+    "repositoryUrl": "https://github.com/vavkamil/awesome-bugbounty-tools",
+    "catalog": "cybersecurity",
+    "stars": 6289,
+    "licenseId": "CC0-1.0"
+  },
+  {
+    "id": "awesome-chaos-engineering",
+    "repositoryUrl": "https://github.com/dastergon/awesome-chaos-engineering",
+    "catalog": "sysadmin",
+    "stars": 6663,
+    "licenseId": "CC0-1.0"
+  },
+  {
+    "id": "awesome-chatgpt-zh",
+    "repositoryUrl": "https://github.com/EmbraceAGI/awesome-chatgpt-zh",
+    "catalog": "llm-apps",
+    "stars": 11732,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-chinese-nlp",
+    "repositoryUrl": "https://github.com/crownpku/Awesome-Chinese-NLP",
+    "catalog": "nlp",
+    "stars": 7921,
+    "licenseId": "Apache-2.0"
+  },
+  {
+    "id": "awesome-chrome-devtools",
+    "repositoryUrl": "https://github.com/ChromeDevTools/awesome-chrome-devtools",
+    "catalog": "javascript",
+    "stars": 7155,
+    "licenseId": "CC0-1.0"
+  },
+  {
+    "id": "awesome-claude-code-subagents",
+    "repositoryUrl": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "catalog": "ai-agents",
+    "stars": 25535,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-codex-subagents",
+    "repositoryUrl": "https://github.com/VoltAgent/awesome-codex-subagents",
+    "catalog": "ai-agents",
+    "stars": 6281,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-console-services",
+    "repositoryUrl": "https://github.com/chubin/awesome-console-services",
+    "catalog": "shell",
+    "stars": 6539,
+    "licenseId": "MIT"
+  },
+  {
     "id": "awesome-copilot",
     "repositoryUrl": "https://github.com/github/awesome-copilot",
     "catalog": "ai-agents",
     "stars": 39674,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-coreml-models",
+    "repositoryUrl": "https://github.com/likedan/Awesome-CoreML-Models",
+    "catalog": "machine-learning",
+    "stars": 7056,
     "licenseId": "MIT"
   },
   {
@@ -28,6 +168,20 @@
     "licenseId": "MIT"
   },
   {
+    "id": "awesome-cursorrules",
+    "repositoryUrl": "https://github.com/PatrickJS/awesome-cursorrules",
+    "catalog": "llm-apps",
+    "stars": 40882,
+    "licenseId": "CC0-1.0"
+  },
+  {
+    "id": "awesome-data-engineering",
+    "repositoryUrl": "https://github.com/igorbarinov/awesome-data-engineering",
+    "catalog": "databases",
+    "stars": 9145,
+    "licenseId": "CC0-1.0"
+  },
+  {
     "id": "awesome-datascience",
     "repositoryUrl": "https://github.com/academic/awesome-datascience",
     "catalog": "machine-learning",
@@ -35,10 +189,52 @@
     "licenseId": "MIT"
   },
   {
+    "id": "awesome-diffusion-models",
+    "repositoryUrl": "https://github.com/diff-usion/Awesome-Diffusion-Models",
+    "catalog": "deep-learning",
+    "stars": 12376,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-dify-workflow",
+    "repositoryUrl": "https://github.com/svcvit/Awesome-Dify-Workflow",
+    "catalog": "llm-apps",
+    "stars": 10779,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-free-chatgpt",
+    "repositoryUrl": "https://github.com/LiLittleCat/awesome-free-chatgpt",
+    "catalog": "llm-apps",
+    "stars": 21287,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-free-llm-apis",
+    "repositoryUrl": "https://github.com/mnfst/awesome-free-llm-apis",
+    "catalog": "llm-apps",
+    "stars": 9311,
+    "licenseId": "CC0-1.0"
+  },
+  {
     "id": "awesome-go",
     "repositoryUrl": "https://github.com/avelino/awesome-go",
     "catalog": "go",
     "stars": 186769,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-gpt-image-2",
+    "repositoryUrl": "https://github.com/freestylefly/awesome-gpt-image-2",
+    "catalog": "llm-apps",
+    "stars": 33999,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-hacker-search-engines",
+    "repositoryUrl": "https://github.com/edoardottt/awesome-hacker-search-engines",
+    "catalog": "cybersecurity",
+    "stars": 11255,
     "licenseId": "MIT"
   },
   {
@@ -49,6 +245,34 @@
     "licenseId": "MIT"
   },
   {
+    "id": "awesome-jellyfin",
+    "repositoryUrl": "https://github.com/awesome-jellyfin/awesome-jellyfin",
+    "catalog": "self-hosted",
+    "stars": 9505,
+    "licenseId": "CC0-1.0"
+  },
+  {
+    "id": "awesome-langchain",
+    "repositoryUrl": "https://github.com/kyrolabs/awesome-langchain",
+    "catalog": "llm-apps",
+    "stars": 9555,
+    "licenseId": "CC0-1.0"
+  },
+  {
+    "id": "awesome-llms-in-china",
+    "repositoryUrl": "https://github.com/wgwang/awesome-LLMs-In-China",
+    "catalog": "llm-research",
+    "stars": 6484,
+    "licenseId": "Apache-2.0"
+  },
+  {
+    "id": "awesome-mcp-clients",
+    "repositoryUrl": "https://github.com/punkpeye/awesome-mcp-clients",
+    "catalog": "mcp",
+    "stars": 6595,
+    "licenseId": "MIT"
+  },
+  {
     "id": "awesome-mcp-servers",
     "repositoryUrl": "https://github.com/punkpeye/awesome-mcp-servers",
     "catalog": "mcp",
@@ -56,10 +280,52 @@
     "licenseId": "MIT"
   },
   {
-    "id": "awesome-production-machine-learning",
-    "repositoryUrl": "https://github.com/EthicalML/awesome-production-machine-learning",
-    "catalog": "mlops",
-    "stars": 20968,
+    "id": "awesome-mcp-zh",
+    "repositoryUrl": "https://github.com/yzfly/Awesome-MCP-ZH",
+    "catalog": "mcp",
+    "stars": 7708,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-multimodal-ml",
+    "repositoryUrl": "https://github.com/pliang279/awesome-multimodal-ml",
+    "catalog": "machine-learning",
+    "stars": 6940,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-nerf",
+    "repositoryUrl": "https://github.com/awesome-NeRF/awesome-NeRF",
+    "catalog": "computer-vision",
+    "stars": 6776,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-openclaw-skills",
+    "repositoryUrl": "https://github.com/VoltAgent/awesome-openclaw-skills",
+    "catalog": "ai-agents",
+    "stars": 52973,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-openclaw-usecases",
+    "repositoryUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases",
+    "catalog": "llm-apps",
+    "stars": 31676,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-opencode",
+    "repositoryUrl": "https://github.com/awesome-opencode/awesome-opencode",
+    "catalog": "ai-agents",
+    "stars": 10499,
+    "licenseId": "CC0-1.0"
+  },
+  {
+    "id": "awesome-oss-alternatives",
+    "repositoryUrl": "https://github.com/RunaCapital/awesome-oss-alternatives",
+    "catalog": "self-hosted",
+    "stars": 19733,
     "licenseId": "MIT"
   },
   {
@@ -70,10 +336,59 @@
     "licenseId": "CC0-1.0"
   },
   {
+    "id": "awesome-production-machine-learning",
+    "repositoryUrl": "https://github.com/EthicalML/awesome-production-machine-learning",
+    "catalog": "mlops",
+    "stars": 20968,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-project-ideas",
+    "repositoryUrl": "https://github.com/NirantK/awesome-project-ideas",
+    "catalog": "machine-learning",
+    "stars": 9334,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-react-hooks",
+    "repositoryUrl": "https://github.com/rehooks/awesome-react-hooks",
+    "catalog": "react",
+    "stars": 10260,
+    "licenseId": "CC0-1.0"
+  },
+  {
+    "id": "awesome-red-teaming",
+    "repositoryUrl": "https://github.com/yeyintminthuhtut/Awesome-Red-Teaming",
+    "catalog": "cybersecurity",
+    "stars": 8120,
+    "licenseId": "MIT"
+  },
+  {
     "id": "awesome-rust",
     "repositoryUrl": "https://github.com/rust-unofficial/awesome-rust",
     "catalog": "rust",
     "stars": 59666,
+    "licenseId": "CC0-1.0"
+  },
+  {
+    "id": "awesome-security",
+    "repositoryUrl": "https://github.com/sbilly/awesome-security",
+    "catalog": "cybersecurity",
+    "stars": 14945,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-shadcn-ui",
+    "repositoryUrl": "https://github.com/birobirobiro/awesome-shadcn-ui",
+    "catalog": "react",
+    "stars": 20616,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-shodan-queries",
+    "repositoryUrl": "https://github.com/jakejarvis/awesome-shodan-queries",
+    "catalog": "cybersecurity",
+    "stars": 7767,
     "licenseId": "CC0-1.0"
   },
   {
@@ -84,10 +399,45 @@
     "licenseId": "CC0-1.0"
   },
   {
+    "id": "awesome-tensorflow",
+    "repositoryUrl": "https://github.com/jtoy/awesome-tensorflow",
+    "catalog": "deep-learning",
+    "stars": 17535,
+    "licenseId": "CC0-1.0"
+  },
+  {
+    "id": "awesome-vite",
+    "repositoryUrl": "https://github.com/vitejs/awesome-vite",
+    "catalog": "javascript",
+    "stars": 17263,
+    "licenseId": "MIT"
+  },
+  {
     "id": "awesome-vue",
     "repositoryUrl": "https://github.com/vuejs/awesome-vue",
     "catalog": "vue",
     "stars": 73536,
     "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-web-hacking",
+    "repositoryUrl": "https://github.com/infoslack/awesome-web-hacking",
+    "catalog": "cybersecurity",
+    "stars": 7285,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "awesome-wpo",
+    "repositoryUrl": "https://github.com/davidsonfellipe/awesome-wpo",
+    "catalog": "javascript",
+    "stars": 9107,
+    "licenseId": "MIT"
+  },
+  {
+    "id": "go-awesome",
+    "repositoryUrl": "https://github.com/shockerli/go-awesome",
+    "catalog": "go",
+    "stars": 6617,
+    "licenseId": "CC0-1.0"
   }
 ]
