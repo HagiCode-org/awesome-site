@@ -48,10 +48,8 @@ function setContinuation(anchor, intent) {
     return;
   }
   anchor.href = intent.url;
-  if (intent.newContext) {
-    anchor.target = "_blank";
-    anchor.rel = "noopener noreferrer";
-  }
+  anchor.target = "_blank";
+  anchor.rel = "noopener noreferrer";
   if (intent.download !== null) anchor.setAttribute("download", intent.download);
   anchor.removeAttribute("aria-disabled");
   anchor.removeAttribute("tabindex");
@@ -87,11 +85,7 @@ function activateFallback(intent, dialog, windowObject, finish) {
     continuation.click();
     return;
   }
-  if (intent.newContext) {
-    windowObject.open(intent.url, "_blank", "noopener,noreferrer");
-  } else {
-    windowObject.location.assign(intent.url);
-  }
+  windowObject.open(intent.url, "_blank", "noopener,noreferrer");
   finish(false);
 }
 

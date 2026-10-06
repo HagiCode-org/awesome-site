@@ -321,12 +321,12 @@ test("dynamic links, downloads, and duplicate initialization keep one listener s
   assert.equal(continuation.getAttribute("download"), "archive.zip");
 });
 
-test("fallback requires confirmation, blocks invalid destinations, and preserves browsing context", () => {
+test("fallback requires confirmation, blocks invalid destinations, and opens external sites in a new tab", () => {
   const f = fixture({ modal: false });
   const external = f.anchor("https://outside.example/path");
   f.controller.handle(makeEvent(external));
   assert.match(f.window.confirmMessage, /Destination: outside\.example/u);
-  assert.deepEqual(f.opened, [["same", "https://outside.example/path"]]);
+  assert.deepEqual(f.opened, [["new", "https://outside.example/path", "_blank", "noopener,noreferrer"]]);
 
   const newContext = f.anchor("https://outside.example/new", { target: "_blank" });
   f.controller.handle(makeEvent(newContext));
