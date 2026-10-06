@@ -9,6 +9,9 @@ import { getExternalLinkWarningCopy } from "../src/external-link-copy.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 const siteUrl = new URL(process.env.SITE_URL ?? "http://localhost:36265").origin;
+// Fast mode skips the full astro check run this test performs against a fixture;
+// CI keeps running it with the full suite.
+const slowSkip = process.env.AWESOME_TEST_FAST === "1" ? "slow astro check integration test" : false;
 
 function configResult(value, includeSiteUrl = true, command = "build") {
   const env = { ...process.env };
@@ -421,7 +424,7 @@ test("production sidebars include all localized topic links", async () => {
   }
 });
 
-test("generated homepages validate while authored content keeps its title requirement", async () => {
+test("generated homepages validate while authored content keeps its title requirement", { skip: slowSkip }, async () => {
   const fixture = path.join(root, "src/content/docs/pipeline-invalid-authored-fixture.md");
   const env = { ...process.env, SITE_URL: siteUrl };
 

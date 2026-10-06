@@ -30,6 +30,10 @@ import { stringify } from "yaml";
 import { normalizeCatalogTags } from "../src/catalog-tags.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
+// Fast mode skips the slow content-pipeline integration tests that prepare real
+// collections end to end; CI keeps running them with the full suite.
+const FAST_TESTS = process.env.AWESOME_TEST_FAST === "1";
+const slowSkip = FAST_TESTS ? "slow content pipeline integration test" : false;
 const sourceOptions = {
   collectionId: "test-collection",
   readmePath: "docs/README.md",
@@ -799,7 +803,7 @@ test("source images are pinned before local image imports", () => {
   assert.equal(tree.children[2].title, "logo");
 });
 
-test("translation export includes pinned provenance and refuses to overwrite work", async () => {
+test("translation export includes pinned provenance and refuses to overwrite work", { skip: slowSkip }, async () => {
   const temporaryRoot = await mkdtemp(path.join(os.tmpdir(), "awesome-export-test-"));
   const output = path.join(temporaryRoot, "export");
   const sourceFile = path.join(root, "sources/awesome-github-profile-readme/README.md");
@@ -857,7 +861,7 @@ test("production origin validator requires a public HTTPS origin", () => {
   }
 });
 
-test("generated English retains the source bytes and repeated preparation is deterministic", async () => {
+test("generated English retains the source bytes and repeated preparation is deterministic", { skip: slowSkip }, async () => {
   const source = await readFile(path.join(root, "sources/awesome-github-profile-readme/README.md"), "utf8");
   const generatedPath = path.join(
     root,
@@ -943,7 +947,7 @@ test("failed staging leaves all pipeline-owned outputs unchanged", async () => {
   );
 });
 
-test("preparation supports another collection and removes retired outputs only", async () => {
+test("preparation supports another collection and removes retired outputs only", { skip: slowSkip }, async () => {
   const locales = ["zh-CN", "zh-Hant", "fr-FR", "de-DE", "es-ES", "ja-JP", "ko-KR", "pt-BR", "ru-RU"];
   const sourceMarkdown = "# Sample\n\n- [Entry](entry.md)\n";
   const makePrepared = (id, title) => {
@@ -1128,7 +1132,7 @@ test("preparation supports another collection and removes retired outputs only",
   }
 });
 
-test("unowned homepage collisions and symlinked output parents are rejected without changes", async () => {
+test("unowned homepage collisions and symlinked output parents are rejected without changes", { skip: slowSkip }, async () => {
   const manifestPath = path.join(root, ".awesome-content-manifest.json");
   const manifestBytes = await readFile(manifestPath, "utf8");
   const manifest = JSON.parse(manifestBytes);
@@ -1171,7 +1175,7 @@ test("unowned homepage collisions and symlinked output parents are rejected with
   }
 });
 
-test("publication workflow gates payload assembly on origin, checks, build, and tests", async () => {
+test("publication workflow gates payload assembly on origin, build, and fast tests", async () => {
   const [ci, publication] = await Promise.all([
     readFile(path.join(root, ".github/workflows/ci.yml"), "utf8"),
     readFile(path.join(root, ".github/workflows/deploy-gh-pages.yml"), "utf8"),
@@ -1179,14 +1183,18 @@ test("publication workflow gates payload assembly on origin, checks, build, and 
   assert.match(ci, /submodules:\s*recursive/u);
   assert.match(publication, /submodules:\s*recursive/u);
   assert.match(publication, /SITE_URL:\s*\$\{\{\s*vars\.SITE_URL\s*\}\}/u);
+  assert.match(ci, /npm run check/u);
+  assert.match(ci, /npm test/u);
   const originGate = publication.indexOf("node scripts/validate-production-origin.mjs");
   const install = publication.indexOf("npm ci");
-  const check = publication.indexOf("npm run check");
   const build = publication.indexOf("npm run build");
   const tests = publication.indexOf("npm test");
   const payload = publication.indexOf("Assemble publication payload");
   assert.ok(originGate >= 0 && originGate < install);
-  assert.ok(install < check && check < build && build < tests && tests < payload);
+  assert.ok(install < build && build < tests && tests < payload);
+  const fastTests = publication.indexOf("AWESOME_TEST_FAST");
+  assert.ok(fastTests >= 0 && fastTests > tests, "publication tests run in fast mode");
+  assert.doesNotMatch(publication, /npm run check/u);
   assert.match(publication, /needs:\s*build/u);
   assert.doesNotMatch(publication, /continue-on-error:\s*true/u);
   assert.match(publication, /esa\.jsonc/u);
