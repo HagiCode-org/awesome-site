@@ -1,0 +1,138 @@
+169|## Análise de dados
+171| *Plataformas de análise, SDKs, rastreamento de erros e respostas em tempo real sobre o seu aplicativo*
+173| - O Answers oferece insights em tempo real sobre a experiência das pessoas no seu aplicativo.
+174| - Análise de dados simples, de código aberto e com foco em privacidade para aplicativos Swift.
+175| - Rastreamento de erros com plano gratuito. Os relatórios de erro incluem dados sobre o dispositivo, a versão e o usuário, e aceitam dados arbitrários.
+176| - Plataforma de código aberto de análise mobile e web, relatórios de falhas e notificações push para iOS e Android.
+177| - Serviço de análise abrangente que aprimora seu projeto e economiza tempo no desenvolvimento do produto.
+178| - Observabilidade mobile, construída sobre o OpenTelemetry, para oferecer aplicativos confiáveis e focados no usuário.
+179| - Evite regressões de tamanho e desempenho do aplicativo em cada pull request e receba insights automatizados sobre como melhorar.
+180| - Feedback no aplicativo, relatórios de bugs e falhas; corrija bugs mais rápido com os passos do usuário, gravações de vídeo, anotações de tela e registro de requisições de rede.
+181| - O MatomoTracker é um SDK para iOS, tvOS e macOS que envia dados de análise do aplicativo para um servidor Matomo.
+182| - Monitoramento de aplicativos móveis de código aberto e auto-hospedável, com rastreamento de erros, rastreamento de desempenho e linhas do tempo completas das sessões, para gastar menos tempo juntando contexto e corrigir problemas mais rápido.
+183| - Plataforma avançada de análise de dados.
+184| - Backend pago de análise de dados multiplataforma.
+185| - A forma descomplicada de integrar análise de dados a qualquer aplicativo iOS.
+186| - O Sentry oferece monitoramento de erros auto-hospedado e baseado em nuvem que ajuda todas as equipes de software a descobrir, triar e priorizar erros em tempo real.
+187| - Ferramenta de feedback e relatório de bugs no aplicativo. Corrija bugs até 50x mais rápido com dados detalhados do dispositivo, passos para reprodução, gravação de vídeo, dados de caixa-preta, requisições de rede e logs personalizados.
+191|## Roteamento de aplicativos
+193|  *Roteamento elegante de URLs, frameworks de navegação, deep links e muito mais*
+195| - Coordinator é um objeto que gerencia o fluxo de navegação e repassa o controle do fluxo para o próximo coordinator ao avançar para a próxima etapa da cadeia.
+196| - Abra facilmente aplicativos externos e crie deep links para eles, recorrendo à web caso não estejam instalados.
+197| - Uma biblioteca de código aberto para criar aplicativos SwiftUI com suporte a deep links, pensada para composição, testes e ergonomia
+198| - Crossroad é um roteador de URLs focado em lidar com esquemas de URL personalizados. Com ele, você pode rotear vários esquemas de URL e obter argumentos e parâmetros facilmente.
+199| - Uma forma esplêndida, baseada em blocos e em correspondência de rotas, de lidar com seus deep links.
+200| - Biblioteca de roteamento de URLs para iOS com uma API simples baseada em blocos.
+201| - Forma leve de lidar com deep links internos e externos no iOS.
+202| - Marshroute é uma biblioteca iOS para tornar seus Routers simples, mas extremamente poderosos.
+203| - Biblioteca que ajuda nas tarefas de composição de view controllers, roteamento e deep linking.
+204| - Framework de navegação para aplicativos iOS baseado no padrão Reactive Flow Coordinator.
+205| - Uma biblioteca para gerenciar fluxos de trabalho complexos.
+206| - Um roteador de URLs para iOS.
+207| - Roteamento elegante de URLs para Swift
+208| - Roteamento no iOS feito do jeito certo. Lida tanto com o reconhecimento de URLs quanto com a exibição de controllers com os parâmetros já processados. Tudo em uma linha, com a pilha de controllers preservada automaticamente!
+212|=
+214|*Diretrizes da Apple e bibliotecas de notificação de novas versões*
+216| - Destaca alguns dos problemas mais comuns que fazem aplicativos serem rejeitados.
+217| - Permite acompanhar a visibilidade do seu aplicativo na App Store em termos de palavras-chave e concorrentes.
+221|=
+223|*View controllers, wrappers, gerenciadores de templates e players de vídeo para tvOS.*
+225| - Controles e extensões para iOS que adicionam efeito de paralaxe ao seu aplicativo.
+226| - Teclado de PIN para tvOS.
+227| - Player de vídeo do YouTube para iOS, tvOS e macOS.
+231|## Padrões de arquitetura
+233|*Clean Architecture, Viper, MVVM, reativa... escolha sua arma.*
+235| - Um projeto de demonstração que mostra a configuração de produção de um aplicativo SwiftUI com Clean Architecture.
+236| - Exemplo de Clean Architecture em um aplicativo iOS usando RxSwift.
+237| - Uma coleção de arquiteturas iOS - MVC, MVVM, MVVM+RxSwift, VIPER, RIBs e muitas outras.
+238| - Este repositório contém um aplicativo de exemplo detalhado que implementa a arquitetura VIPER no iOS usando bibliotecas e frameworks como Alamofire, AlamofireImage, PKHUD, CoreData etc.
+239| - Reactant é uma arquitetura reativa para iOS.
+240| - Uma implementação universal de um sistema de Feedback Loop para RxSwift, ReactiveSwift e Combine
+241| - Torna a implementação da arquitetura VIPER muito mais fácil e limpa.
+242| - The Composable Architecture é uma biblioteca para criar aplicativos de forma consistente e compreensível, pensada para composição, testes e ergonomia.
+243| - Framework VIPER para iOS. Desenvolva um aplicativo seguindo a arquitetura VIPER de forma fácil. Escrito e testado em Swift.
+247|=
+249|*Bibliotecas e ferramentas para ajudar você a criar experiências de realidade aumentada incomparáveis*
+251| - Posicionamento de objetos virtuais em realidade aumentada.
+252| - Combina a alta precisão da RA com a escala dos dados de GPS.
+253| - Grave e capture vídeos, fotos, Live Photos e GIFs do ARKit.
+254| - Esta biblioteca usa o rastreamento facial do ARKit para captar o sorriso do usuário.
+258|## Autenticação
+260|*Bibliotecas OAuth e OAuth2, logins sociais e ferramentas de captcha.*
+262| - Biblioteca OAuth 2 fácil de usar para iOS, escrita em Swift.
+263| - Framework OAuth2 para macOS e iOS, escrito em Swift.
+264| - Biblioteca OAuth para iOS baseada em Swift
+265| - ReCaptcha (in)visível para iOS.
+266| - Uma biblioteca OAuth simples para iOS com um conjunto integrado de provedores.
+270|=
+272|*Ferramentas para interagir com contratos inteligentes. Implementações do protocolo Bitcoin e frameworks para interagir com criptomoedas.*
+274| - Kit de ferramentas do protocolo Bitcoin para Swift; o BitcoinKit implementa o protocolo Bitcoin em Swift. É uma implementação do protocolo Bitcoin SPV escrita em Swift.
+275| - EthereumKit é um framework Swift gratuito e de código aberto para interagir facilmente com o Ethereum.
+276| - Biblioteca Web3 para interagir com a blockchain do Ethereum.
+277| - Funcionalidade elegante do Web3js em Swift. Parsing nativo de ABI e interações com contratos inteligentes.
+281|## Livros
+283|*Livros mais recomendados*
+285|@- [Advanced Swift, de Chris Eidhof, Ole Begemann e Airspeed Velocity](https://www.objc.io/books/advanced-swift/)
+286|@- [Anyone Can Create an App, de Wendy L. Wise](https://www.manning.com/books/anyone-can-create-an-app)
+289|@- [Core Data, de Florian Kugler e Daniel Eggert](https://www.objc.io/books/core-data/)
+290|@- [Functional Swift, de Chris Eidhof, Florian Kugler e Wouter Swierstra](https://www.objc.io/books/functional-swift/)
+291|@- [Hello Swift!, de Tanmay Bakshi com Lynn Beighley](https://www.manning.com/books/hello-swift)
+292|@- [iOS Development with Swift, de Craig Grummitt](https://www.manning.com/books/ios-development-with-swift)
+293|@- [iOS Programming: The Big Nerd Ranch Guide, de Christian Keur e Aaron Hillegass](https://www.bignerdranch.com/books/ios-programming-the-big-nerd-ranch-guide-seventh-edition/)
+294|@- [Programming in Objective-C, de Stephen G. Kochan](https://www.amazon.com/Programming-Objective-C-6th-Developers-Library/dp/0321967607)
+297|@- [The Swift Programming Language, da Apple](https://books.apple.com/us/book/swift-programming-language/id881256329)
+301|=
+303|*Bibliotecas e frameworks de cache thread-safe, offline e de alto desempenho.*
+305| - Cache em disco encantador (escrito em Swift).
+306| - Nada além de cache.
+307| - Framework encantador para iOS que facilita a persistência de structs, imagens e dados.
+308| - Um cache genérico e leve para iOS escrito em Swift, com carinho extra para imagens.
+309| - Cache offline de conteúdo web para iOS.
+310| - Cache de objetos paralelo, rápido e sem deadlocks para iOS e macOS.
+311| - Uma solução de cache e consistência para modelos imutáveis.
+312| - Todo mundo tenta implementar um cache em algum momento do ciclo de vida do seu aplicativo iOS, e este é o nosso. Do Spotify.
+313| - Track é um cache thread-safe escrito em Swift. Composto por DiskCache e MemoryCache, com suporte a LRU.
+314| - Framework de cache de alto desempenho para iOS.
+318|## Gráficos
+320|*Explore bibliotecas de gráficos para iOS bonitas, fáceis de usar e personalizáveis, perfeitas para criar visualizações de dados dinâmicas e impressionantes.*
+322| - ANDLineChartView é uma classe baseada em view, fácil de usar, para exibir gráficos de linha animados.
+323| - Um framework poderoso de gráficos, o equivalente no iOS ao [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart).
+324| - Uma biblioteca de plotagem 2D altamente personalizável e capaz de desenhar diversos tipos de gráficos.
+325| - Eat fit é um componente para representação atraente de dados, inspirado no Google Fit.
+326| - Gráficos para iOS/iPhone/iPad. Com suporte a tratamento de eventos e animações.
+327| - Uma biblioteca de gráficos para visualizar e interagir com um mapa vetorial no iOS. É como o Geochart, mas para iOS.
+328| - Uma biblioteca de gráficos de linha para iOS.
+329| - Biblioteca de gráficos para iOS com suporte a gráficos de linha e de barras.
+330| - Uma implementação de código aberto de gráfico de radar para iOS.
+331| - Gráfico de pizza incrível baseado em layers. Fantasticamente rápido e totalmente personalizável. Animações incríveis disponíveis com o MagicPie.
+332| - Biblioteca de gráficos de pizza fácil de usar e altamente personalizável para iOS.
+333| - Uma biblioteca de gráficos simples e bonita, usada no Piner e no CoinsMan para iOS.
+334| - Uma graph view adaptável e rolável para iOS, para visualizar conjuntos de dados discretos simples. Escrita em Swift.
+335| - Biblioteca de gráficos de linha e de área para iOS.
+336| - Biblioteca de gráficos para iOS simples e intuitiva. Gráfico de contribuições, gráfico de relógio e gráfico de barras.
+337| - Um gráfico de radar personalizável em Swift.
+338| - Um wrapper iOS para o ChartJS. Crie facilmente gráficos animados aproveitando o poder do código Obj-C nativo.
+342|## Injeção de código
+344| *Reduza o tempo de desenvolvimento com estas ferramentas*
+346| - Hot reloading para aplicativos Swift!
+347| - Injeção de código, incluindo Swift.
+348| - Vaccine é um framework que visa tornar seus aplicativos imunes à doença da recompilação.
+352|## Qualidade de código
+354| *Qualidade sempre importa. Verificadores de código, vigilantes de memória, açúcares sintáticos e muito mais.*
+356| - Aardvark é uma biblioteca que torna extremamente simples criar relatórios de bugs acionáveis.
+357| - Bootstrap de projeto iOS voltado para código de alta qualidade.
+358| - Relatórios de bugs e falhas no aplicativo com vídeo, logs, tráfego de rede e rastros.
+359| - Biblioteca iOS para ajudar a detectar ciclos de retenção em tempo de execução.
+360| - Encontre problemas e vazamentos de memória no seu aplicativo iOS sem o Instruments.
+361| - Encontre vazamentos de memória no seu aplicativo iOS durante o desenvolvimento.
+362| - Facilita o suporte a versões mais antigas do iOS corrigindo problemas e adicionando métodos ausentes.
+363| - Faça commits de código Objective-C totalmente formatado em equipe, sem nenhum esforço.
+364| - SwiftCop é uma biblioteca de validação escrita inteiramente em Swift e inspirada na clareza das validações do Active Record do Ruby on Rails.
+365| - Uma biblioteca de código e ferramenta de formatação de linha de comando para reformatar código Swift.
+366| - Analisador estático multiplataforma para Swift que ajuda você a escrever código mais limpo e evitar bugs.
+370|=
+372|*Analisadores estáticos de código para impor estilo e convenções.*
+374| - Faça lint de qualquer coisa combinando o poder do Swift e das expressões regulares.
+375| - Uma ferramenta de lint para o Interface Builder.
+376| - Ferramenta de análise estática de código para melhorar a qualidade e reduzir defeitos.
+377| - Uma ferramenta para impor o estilo e as convenções do Swift.

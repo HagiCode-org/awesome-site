@@ -1,0 +1,164 @@
+381|## Cores
+383|*Extensões de cores hexadecimais, temas, seletores de cores e outras ferramentas de cores incríveis.*
+385| - Um kit de cores leve, mas poderoso (Swift).
+386| - Um seletor de cores intuitivo para iOS, feito em Swift.
+387| - Um belo conjunto de cores predefinidas e de métodos de cores para facilitar sua vida no desenvolvimento iOS/macOS.
+388| - Mais uma extensão para manipular cores facilmente em Swift.
+389| - Utilitários da paleta de cores Flat UI escritos em Swift.
+390| - Uma biblioteca de temas para aplicativos iOS, leve e não intrusiva, com suporte à troca animada de temas.
+391| - Hue é o utilitário de cores completo de que você vai precisar.
+392| - Estiliza e colore texto no Terminal com códigos de escape ANSI. Em conformidade com o padrão ECMA 48.
+393| - Um gerador de cores atraentes para Swift. Portado do `randomColor.js`.
+394| - Um seletor de cores no estilo action sheet para iOS.
+395| - Manipulação de cores HEX como extensão de UIColor.
+396| - Método de conveniência para criar cores autoreleased usando uma string hexadecimal RGBA.
+400|## Linha de comando
+402|*Ferramentas inteligentes, bonitas e elegantes para ajudar você a criar aplicativos de linha de comando.*
+404| - Estilização de strings no terminal para Swift.
+405| - Componha belas interfaces de linha de comando em Swift.
+406| - O framework de linha de comando mais inteligente e bonito (compatível com POSIX) para Swift.
+407| - Um substituto do readline em Swift puro
+408| - Ferramenta de linha de comando que facilita a criação de documentação na forma de Swift Playgrounds.
+409| - Adicione belas barras de progresso aos seus loops.
+410| - Ferramenta de linha de comando que gera documentação em Markdown a partir de comentários no código-fonte.
+411| - Parsing de argumentos simples e com segurança de tipos para Swift
+412| - Um framework poderoso para desenvolver CLIs em Swift
+413| - Swiftline é um conjunto de ferramentas para ajudar você a criar aplicativos de linha de comando.
+414| - Um framework Swift para scripts de shell e execução de comandos de shell.
+415| - Uma biblioteca leve para gerar tabelas de texto.
+419|## Concorrência
+421|*Agendadores de tarefas, corrotinas, bibliotecas e frameworks de threads assíncronas e com segurança de tipos escritos em Swift*
+423| - Um conjunto completo de primitivas de concorrência e programação reativa.
+424| - Uma biblioteca de filas que permite enviar tarefas ordenadas de contextos síncronos para assíncronos.
+425| - Primitivas de concorrência funcionais.
+426| - Um gerenciador de filas construído sobre OperationQueue e Dispatch (também conhecido como GCD).
+427| - Agendador de tarefas com execução concorrente, falha/nova tentativa, persistência, repetição, atraso e muito mais.
+428| - CSP (corrotinas, canais, select) para Swift.
+432|=
+434|*Frameworks, wrappers, geradores e boilerplates para Core Data.*
+436| - Wrapper de Core Data superincrível em Swift.
+437| - Sincronização robusta com o CloudKit: edição offline, relacionamentos, bancos de dados compartilhados e públicos, deltas por campo e muito mais.
+438| - Framework poderoso de Core Data para migrações incrementais, buscas, observação etc.
+439| - Um framework de sincronização para Core Data.
+440| - Um framework elegante orientado a dados para CoreData em Swift.
+441| - Uma stack de Core Data mais ágil e mais "Swift".
+442| - Buscas superincríveis e fáceis para Core Data.
+443| - Geração automática de código para Core Data.
+444| - Escreva NSPredicates incríveis, fortemente tipados e fáceis de ler, de forma fluente, sem precisar adivinhar nomes de atributos ou operações de predicado nem errar o tipo dos argumentos.
+445| - Uma DSL de NSPredicate para iOS, macOS, tvOS e watchOS. Inspirada no SnapKit e escrita com carinho em Swift.
+446| - Uma versão minimalista, thread-safe, sem boilerplate e superfácil de usar do Active Record sobre o Core Data. Simplesmente tudo de que você precisa para trabalhar com Core Data.
+447| - Sincronização moderna de JSON para o Core Data em Swift.
+451|## Cursos
+453|*Cursos online, tutoriais e recursos de aprendizagem para dar o pontapé inicial na sua jornada de desenvolvimento iOS.*
+455|### Primeiros passos
+457|*Cursos, tutoriais, guias e bootcamps*
+459| - Coleção gratuita de vídeos e tutoriais atualizada para iOS 15 e Swift 5.5.
+461| - Comece a usar o ARKit - Um pequeno exercício para iniciantes.
+462|@- [Classpert - Uma lista de 500 cursos de desenvolvimento iOS (gratuitos e pagos) das principais plataformas de e-learning](https://classpert.com/ios-development) - Catálogo completo de cursos da Udacity, Pluralsight, Coursera, Edx, Treehouse e Skillshare.
+464| - Aprenda a programar aplicativos iOS.
+465| - CS193p de Stanford - Developing Apps for iOS.
+466| - Curso gratuito da Udacity. Crie seu primeiro aplicativo para iPhone.
+470|## Banco de dados
+472|*Wrappers, clientes, alternativas ao Parse e ferramentas seguras para lidar com dados efêmeros e persistentes.*
+474| - Armazenamento de documentos do Couchbase para dispositivos móveis, com sincronização na nuvem.
+475| - Interface moderna para UserDefaults + suporte a Codable.
+476| - UserDefaults moderno e no estilo Swift.
+477| - DuckDB é um sistema de banco de dados analítico de alto desempenho.
+478| - Uma alternativa ao Core Data para quem gosta de ter acesso direto ao SQL.
+479| - Implementação simples de ActiveRecord para trabalhar com seu banco de dados em Swift.
+480| - Um wrapper Cocoa / Objective-C para o SQLite.
+481| - Um kit de ferramentas versátil de SQLite para Swift, com suporte ao modo WAL.
+482| - Sincronize o Realm Database com o CloudKit.
+483| - Um framework de armazenamento chave-valor para dispositivos móveis, eficiente e compacto, desenvolvido pelo WeChat. Funciona em iOS, Android, macOS e Windows.
+484| - Uma implementação de cliente MongoDB em Swift puro, com suporte a bancos de dados embarcados.
+485| - Um wrapper Swift para a biblioteca cliente do MySQL, que permite acessar servidores MySQL.
+486| - Nora é uma camada de abstração do Firebase para trabalhar com FirebaseDatabase e FirebaseStorage.
+487| - ObjectBox é um framework de persistência de objetos superrápido e leve.
+488| - Um wrapper Objective-C da API C do MySQL.
+489| - Armazene e recupere objetos Codable em várias camadas de persistência com poucas linhas de código.
+490| - Biblioteca Swift que facilita a serialização das preferências do usuário (configurações do aplicativo) com o User Defaults do sistema ou um arquivo Property List em disco.
+491| - Prephirences é uma biblioteca Swift que oferece protocolos úteis e métodos de conveniência para gerenciar preferências, configurações e o estado do aplicativo.
+492| - A alternativa ao CoreData e ao SQLite: simples, moderna e rápida.
+493| - RealmGeoQueries simplifica consultas espaciais com o Realm Cocoa. Na ausência de funções oficiais, esta biblioteca oferece a possibilidade de fazer buscas por proximidade.
+494| - Um wrapper leve sobre UserDefaults/NSUserDefaults com uma camada extra de criptografia AES-256.
+495| - Sua caixa de ferramentas leve de persistência.
+496| - Uma camada com segurança de tipos, em linguagem Swift, sobre o SQLite3.
+497| - Seu solucionador de problemas de armazenamento de dados.
+498|  - Biblioteca de gerenciamento de persistência de dados.
+499| - Armazenamento chave-valor para Swift baseado no LevelDB.
+500| - NSUserDefaults com tipagem estática.
+501| - TypedDefaults é uma biblioteca utilitária para usar NSUserDefaults com segurança de tipos.
+502| - Unrealm permite armazenar facilmente classes, structs e enums nativos do Swift no Realm.
+503| - UserDefaults simples e fortemente tipado para iOS, macOS e tvOS.
+504| - WCDB é um framework de banco de dados mobile eficiente, completo e fácil de usar para iOS e macOS.
+505| - YapDatabase é um banco de dados extensível para iOS e Mac.
+509|## Estruturas de dados / Algoritmos
+511|*Diffs, keypaths, listas ordenadas e outros wrappers e bibliotecas incríveis de estruturas de dados.*
+513| - Algorithm é uma coleção de estruturas de dados potencializadas por um conjunto de ferramentas de probabilidade.
+514| - Coleções ordenadas rápidas para Swift usando árvores B em memória.
+515| - Microframework Swift para diffs eficientes de arrays, observação de coleções e configuração de células.
+516| - Edições mínimas de uma coleção para outra.
+517| - Biblioteca Swift para gerar diferenças e patches entre coleções.
+518| - Um framework de algoritmo de diferenças O(n), rápido e flexível, para coleções Swift.
+519| - Um framework de diffing rápido e conveniente.
+520| - Implementação do Flux com múltiplos stores em Swift.
+521| - Um cinto de utilidades funcionais para a linguagem Swift, semelhante ao Lo-Dash ou ao Underscore.js em JavaScript https://www.dollarswift.org/.
+522| - Alguns algoritmos e estruturas de dados conhecidos da ciência da computação em Objective-C.
+523| - Uma biblioteca de diffing rápida para Swift.
+524| - KeyPathKit oferece uma sintaxe fluida para manipular dados usando keypaths tipados.
+525| - Tipo Swift que modela o sucesso/falha de operações arbitrárias.
+526| - Algoritmos e estruturas de dados em Swift, com explicações!
+527| - Estrutura de dados de grafo e funções utilitárias em Swift puro.
+528| - Uma fila de prioridade com uma implementação clássica de heap binário em Swift puro.
+529| - Exemplos de estruturas de dados e algoritmos de uso comum em Swift.
+533|## Data e hora
+535|*Bibliotecas de tempo e NSCalendar. Também inclui geradores de horários de nascer e pôr do sol, seletores de horário e interfaces para NSTimer.*
+537| - Este controle é um belo seletor de horário do dia, fortemente inspirado no temporizador "Hora de Dormir" do iOS 10.
+538| - API de data e hora no estilo Swift, inspirada na API DateTime do Java 8.
+539| - Construindo uma biblioteca de data/hora melhor.
+540| - Extensão de conveniência para NSDate em Swift.
+541| - Datas e horários de forma fácil em Objective-C.
+542| - Uma subclasse de NSFormatter do Cocoa para converter datas de e para strings no formato ISO-8601. Suporta os formatos de calendário, semana e ordinal.
+543| - Biblioteca elegante de datas via NTP em Swift.
+544| - Biblioteca de extensões de Date para Swift 4.
+545| - ⏳ O agendador de tarefas leve que faltava para Swift, com uma sintaxe incrivelmente amigável.
+546| - Uma microbiblioteca Swift para gerar os horários do nascer e do pôr do sol.
+547| - A melhor maneira de gerenciar datas e fusos horários em Swift.
+548| - API no estilo Swift para NSTimer.
+549| - Cálculos de tempo com segurança de tipos em Swift, com o poder dos genéricos.
+550| - Extensões intuitivas de NSDate em Swift.
+551| - Um UIViewController TimeZonePicker semelhante ao do app Ajustes do iOS.
+552| - Obtenha a hora atual real, imune a alterações no relógio do dispositivo.
+556|## Depuração
+558|*Ferramentas de depuração, relatórios de falhas, logs e interfaces de console.*
+560| - Sobreposição de interface de console personalizável, com log de depuração, sobre o seu aplicativo iOS.
+561| - Framework de depuração de nova geração para iOS.
+562| - Serviço remoto de depuração e coleta de dados para iOS e Android. Você pode depurar rede, logs, CoreData, SQLite e NSNotificationCenter, além de simular a geolocalização do dispositivo.
+563| - Um framework iOS pequeno e poderoso para interceptar o tráfego HTTP/HTTPS do seu aplicativo iOS. Chega de mexer com configurações de proxy e certificados. Inspecione o log de tráfego com o app Proxyman.
+564| - Coleção de comandos do LLDB para auxiliar na depuração de aplicativos iOS.
+565| - Conjunto de ferramentas de depuração fáceis de usar para desenvolvedores iOS e engenheiros de QA.
+566| - Um kit de ferramentas abrangente criado para simplificar e aprimorar o processo de depuração de aplicativos iOS.
+567| - Um assistente completo para o desenvolvimento de aplicativos iOS, com mais de 30 ferramentas incluídas. Você merece.
+568| - Uma ferramenta de depuração e exploração dentro do aplicativo para iOS.
+569| - Aplicativo para desenvolvedores testarem APIs REST.
+570| - Ferramenta de revisão de design dentro do aplicativo para inspecionar medidas, atributos e animações.
+571| - Depure layouts de aplicativos diretamente no dispositivo iOS: inspecione camadas em 3D e depure os atributos de cada view visível.
+572| - Ferramentas de auxílio a profiling / depuração para iOS, incluindo: UITimeProfiler, Memory Allocations, Living ObjC Objects Sniffer, Network Transaction Waterfall etc.
+573| - Uma biblioteca leve de depuração de rede para iOS / macOS, configurada com uma linha!
+574| - Uma biblioteca de depuração de rede para iOS. Ela pode monitorar requisições HTTP dentro do aplicativo e exibir informações relacionadas a cada requisição.
+575| - Uma biblioteca para desenvolver componentes de interface de forma isolada e gerar snapshots deles automaticamente.
+576| - Depuração remota de rede e dados para seu aplicativo iOS nativo usando o Chrome Developer Tools.
+577| - Um menu de depuração completo dentro do aplicativo, repleto de ferramentas úteis, incluindo registro de rede, inspeção de layout, simulação de localização, logs de console e muito mais.
+578| - Visualize arquivos do sandbox, UserDefaults e requisições de rede a partir do Mac.
+579| - Depuração de rede no iOS, como um mago.
+580| - Um profiler de rede em Swift construído sobre o URLSession.
+585|## Injeção de dependência
+587|*Frameworks e bibliotecas de injeção de dependência para código iOS desacoplado e testável.*
+589| - Framework de injeção de dependência para aplicativos iOS escrito em Swift limpo.
+590| — Framework de injeção de dependência para Swift com segurança em tempo de compilação e código real.
+591| - Injeção de dependência fácil para segues de storyboard.
+592| - Injeção de dependência com segurança em tempo de compilação no Swift 6.
+593| - Framework de injeção de dependência para Swift.
+594| - Injeção de dependência poderosa para Objective-C.
+595| - Um framework de injeção de dependência declarativo, fácil de usar e seguro para Swift.
+599|## Gerenciador de dependências / pacotes

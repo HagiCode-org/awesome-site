@@ -1,0 +1,156 @@
+601|*Ferramentas para gerenciar dependências e pacotes de terceiros nos seus projetos iOS.*
+603| - Um gerenciador de dependências baseado no SwiftPM para iOS e afins, com melhorias em relação ao Carthage.
+604| - Um gerenciador de dependências simples e descentralizado para Cocoa.
+605| - CocoaPods é o gerenciador de dependências para projetos Objective-C. Ele tem milhares de bibliotecas e pode ajudar você a escalar seus projetos com elegância.
+606| - Uma ferramenta de cache para frameworks compilados pelo Carthage.
+607| - O gerenciador de pacotes da linguagem de programação Swift.
+608| - O Xcode Maven Plugin pode ser usado para executar builds do Xcode incorporados a um ciclo de vida do Maven.
+612|## Implantação / Distribuição
+614|*Ferramentas de integração contínua, entrega e distribuição para publicar aplicativos iOS.*
+616| - Compile, teste, publique e monitore continuamente aplicativos para todas as plataformas.
+617| — Uma plataforma de DevOps mobile de nível empresarial que automatiza a compilação, os testes e a publicação de aplicativos móveis nas lojas, para um ciclo de lançamentos mais rápido e eficiente
+618| - Criador gratuito de capturas de tela para a App Store.
+619| - Integração e entrega contínuas para dispositivos móveis, com dezenas de integrações para compilar, testar, implantar e colaborar.
+620| - Crie instantaneamente uma página de inscrição simples para testadores beta do TestFlight.
+621| - Uma plataforma de iteração mobile - compile, implante e colabore.
+622| - Compile, teste e entregue aplicativos iOS 20% mais rápido com o CI/CD do Codemagic.
+623| - Um serviço de relatórios de falhas e testes beta.
+624| - Envie capturas de tela, metadados e seu aplicativo para a App Store com um único comando.
+625| - Reúna todas as ferramentas de implantação iOS em um único fluxo de trabalho simplificado.
+626| - Feedback no aplicativo, relatórios de bugs e falhas; corrija bugs mais rápido com os passos do usuário, gravações de vídeo, anotações de tela e registro de requisições de rede.
+627| - Um conjunto de ferramentas web para desenvolvedores de aplicativos móveis, agora de código aberto!
+628| - SDK para aplicar patches, corrigir bugs, modificar e manipular aplicativos nativos (Obj-C e Swift) em tempo real.
+629| - Lançamentos mobile mais fáceis para equipes. Integra-se a diversas ferramentas (controle de versão, gerenciamento de projetos, CI, lojas de aplicativos, relatórios de falhas etc.) para oferecer uma única fonte de verdade em torno da qual as equipes mobile se reúnem durante os ciclos de lançamento. Partes iguais de automação e colaboração.
+630| - Rollbacks instantâneos e implantações canário para iOS.
+631| - Com o Screenshot Framer, você pode criar facilmente imagens bonitas e localizadas para a App Store.
+632| - Serviço de CI/CD que facilita compilar, testar e implantar aplicativos para qualquer dispositivo Apple. O suporte ao iOS é totalmente integrado ao Semaphore 2.0, para que você possa usar no iOS os mesmos recursos poderosos de pipeline de CI/CD que usa no desenvolvimento baseado em Linux.
+633| - Automatize a captura de telas localizadas do seu aplicativo iOS em todos os dispositivos.
+634| - O serviço de testes beta hospedado no iTunes Connect (requer iOS 8 ou posterior).
+635| - Receba uma notificação assim que o processamento do seu build no iTunes Connect for concluído.
+639|=
+641|*Bibliotecas de Promises e Futures para ajudar você a escrever código assíncrono melhor em Swift.*
+643| - Bolts é uma coleção de bibliotecas de baixo nível criadas para facilitar o desenvolvimento de aplicativos móveis, incluindo tasks (promises) e app links (deep links).
+644| - Bolts é uma coleção de bibliotecas de baixo nível criadas para facilitar o desenvolvimento de aplicativos móveis.
+645| - Uma biblioteca de Future/Promises baseada em Swift para iOS e macOS.
+646| - Promises e Await - Escreva código assíncrono melhor em Swift.
+647| - O framework de Future e Promises mais fácil em Swift. Sem mágica. Sem boilerplate.
+648| - Uma biblioteca de Promise para Swift, baseada parcialmente na especificação A+ do JavaScript.
+649| - Promises para iOS e macOS.
+650| - Uma biblioteca de Promise leve para Objective-C.
+651| - Eventos fortemente tipados.
+652| - Um barramento de eventos publish/subscribe otimizado para iOS.
+653| - Um NotificationCenter orientado a protocolos, com segurança de tipos, de threads e de memória.
+654| - Promise + progresso + pausa + cancelamento + nova tentativa para Swift.
+655| - Código assíncrono elegante em Swift.
+656| - Uma implementação leve de Promises em Swift.
+660|## Arquivos
+662|*Gerenciamento de arquivos, navegador de arquivos, manipulação de zip e observadores de arquivos.*
+664| - Framework Swift para se conectar a compartilhamentos SMB 2/3 no iOS.
+665| - AppFolder é um framework leve que permite criar uma representação amigável e fortemente tipada dos diretórios dentro do contêiner do seu aplicativo.
+666| - Navegador de arquivos poderoso em Swift para iOS.
+667| - Gerenciamento de arquivos simples e expressivo em Swift.
+668| - Substituto do FileManager para arquivos locais, do iCloud e remotos (WebDAV/FTP/Dropbox/OneDrive/SMB2) no iOS/tvOS e macOS.
+669| - Um microframework para observar alterações em arquivos, tanto locais quanto remotos. Útil para criar ferramentas para desenvolvedores.
+670| - Framework Swift para compactar e descompactar arquivos.
+671| - ZipArchive é uma classe utilitária simples para compactar e descompactar arquivos no iOS e no Mac.
+672| - Manipulação de ZIP sem esforço em Swift.
+673| - Biblioteca de E/S de arquivos zip para iOS, macOS e tvOS.
+678|## Programação funcional
+680|*Coleção de ferramentas de programação funcional em Swift.*
+682| - Biblioteca funcional de parsing de JSON para Swift.
+683| - Biblioteca complementar de programação funcional tipada para Swift.
+684| - Microframework Swift com extensões para o tipo Optional.
+685| - Microframework Swift de ferramentas simples de programação funcional.
+686| - Operadores infixos para funções monádicas em Swift.
+687| - Tipos de dados e funções funcionais para qualquer projeto.
+688| - Programação funcional em Swift.
+692|## Jogos
+694|*Engines de jogos, frameworks e projetos de exemplo para criar jogos no iOS.*
+696| - Um framework Swift para uma collectionView no SpriteKit.
+697| - Engine baseada em SpriteKit e GameplayKit para criar jogos 2D, com exemplos práticos e tutoriais.
+698| - Uma biblioteca de xadrez multiplataforma para Swift.
+699| - Framework Swift para trabalhar com assets do Tiled no SpriteKit.
+700| - Um framework multiplataforma para jogos como a Roda da Fortuna.
+704|=
+706|*Açúcares sintáticos, ferramentas e timers para o Grand Central Dispatch.*
+708| - Açúcar sintático em Swift para despachos assíncronos no Grand Central Dispatch.
+709| - Grand Central Dispatch simplificado com Swift.
+710| - Timer do Grand Central Dispatch (GCD) bem testado, em Swift.
+711| - Classe utilitária iOS para gerenciar a fila de despacho global.
+715|## Gestos
+717|*Bibliotecas e ferramentas para lidar com gestos.*
+719| - Ferramenta de reconhecimento de gestos.
+720| - Uma category de UINavigationController que habilita o gesto de pop em tela cheia no estilo do sistema iOS 7+, com AOP.
+721| - Uma forma especial de trabalhar com gestos no iOS.
+722| - Ajuda na prototipagem de UIGestureRecognizers em Xcode Playgrounds.
+723| - Uma forma melhor de lidar com gestos no iOS.
+727|## Computação gráfica
+729|*Bibliotecas, utilitários e ferramentas de CoreGraphics, CoreAnimation, SVG e CGContext.*
+731| - Um framework simples para adicionar gradientes animados ao seu aplicativo iOS.
+732| - Framework iOS para criar views de desenho raster e de marcação de imagens.
+733| - Crie gradientes e gradientes desfocados sem uma única linha de código.
+734| - Um framework iOS para adicionar facilmente desenhos e texto a imagens.
+735| - Biblioteca de gráficos vetoriais poderosa e fácil de usar, com suporte a SVG, escrita em Swift.
+736| - View de gradiente baseada em Core Graphics, capaz de produzir gradientes lineares (axiais), radiais (circulares), cônicos (angulares) e bilineares (de quatro pontos), escrita em Swift.
+737| - Um wrapper Objective-C para o CGContext do CoreGraphics.
+738| - NXDrawKit é um kit de desenho simples e fácil, mas útil, para iPhone.
+739| - SVG em Swift.
+740| - Exiba e interaja com imagens SVG no iOS / macOS usando renderização nativa (CoreAnimation) (atualmente com suporte apenas para iOS - o código para macOS precisa ser atualizado).
+741| - Um parser de SVG de passagem única com várias opções de interface (String, NS/UIBezierPath, CAShapeLayer e NS/UIView).
+742| - Classes utilitárias iOS para renderização e exibição assíncronas.
+746|=
+748|*Bibliotecas e utilitários para interagir com o hardware de dispositivos iOS.*
+750|=
+752|*Bibliotecas para lidar com dispositivos próximos, ferramentas de BLE e wrappers de MultipeerConnectivity.*
+754| - A maneira mais fácil de usar Bluetooth (BLE) no iOS/MacOS.
+755| - BLE (Bluetooth LE) para você.
+756| - Framework de Bluetooth LE para iOS.
+757| - Um framework Swift simples para criar aplicativos Bluetooth LE confiáveis.
+758| - Mapeamento de Bluetooth em Swift.
+759| - Comunique-se facilmente entre dispositivos iOS/macOS usando BLE.
+760| - Uma biblioteca muito simples para descobrir e obter dados de dispositivos próximos (mesmo que o aplicativo par esteja em segundo plano).
+761| - Biblioteca simples, leve e baseada em blocos sobre o CoreBluetooth. Vai deixar limpo o seu código relacionado ao Core Bluetooth.
+762| - Multipeer é um wrapper para o framework MultipeerConnectivity da Apple, para transmissão de dados offline entre dispositivos Apple. Ele facilita a conexão automática a vários dispositivos próximos e o compartilhamento de informações via Bluetooth ou Wi-Fi.
+763| Um framework Swift de código aberto para criar aplicativos Multipeer Connectivity orientados a eventos e sem configuração.
+767|### Câmera
+769|*Mocks, ImagePickers e diversas opções de implementações de câmera personalizáveis*
+771| - Leitor de código de barras simples e bonito.
+772| - Aumente drasticamente o desempenho e a facilidade de uso da câmera no seu próximo projeto iOS.
+773| - Classe Swift simples que oferece todas as configurações de que você precisa para criar uma view de câmera personalizada no seu aplicativo.
+774| - Uma implementação de câmera moderna e totalmente personalizável para iOS, feita com AVFoundation.
+775| - Seletor de mídia personalizável
+776| - Framework de câmera rápido e fácil para iOS, com filtros personalizáveis.
+777| - Tire facilmente uma foto ou grave um vídeo, ou escolha um da biblioteca.
+778| - Navegador de fotos no estilo do Instagram e recurso de câmera com poucas linhas de código em Swift.
+779| - Biblioteca iOS de última geração para gravação de vídeo / captura de fotos em tempo real.
+780| - Câmera de vídeo e foto para iOS, semelhante à câmera do Snapchat.
+781| - Uma coleção de exemplos de código para as APIs de profundidade (Depth).
+782| - Um controle de câmera simples e personalizável - gravador de vídeo para iOS.
+783| - Câmera completa que tira fotos, grava vídeos, transmite frames, detecta metadados e transmite previsões do CoreML.
+784| - Câmera simplificada. Biblioteca de câmera totalmente personalizável que reduz significativamente o tempo e o esforço de implementação. Escrita com e para SwiftUI.
+785| - Next Level é uma biblioteca de câmera para captura de mídia no iOS.
+786| - Leitor e geradores de códigos de barras 1D e 2D para iOS 8, com controles encantadores. Agora em Swift.
+787| - Engine de câmera com toque para gravar no estilo do Vine, filtros animáveis, câmera lenta e edição de segmentos.
+788| - Um framework de câmera para iOS inspirado no Snapchat, escrito em Swift.
+789| - Seletor de imagens e filtros no estilo do Instagram para iOS.
+793|=
+795|*Ações rápidas e interações de peek and pop*
+797| - PeekView oferece suporte a ações de peek, pop e pré-visualização em dispositivos iOS sem 3D Touch.
+798| - Wrapper Swift para as Ações Rápidas da Tela de Início do iOS (atalhos do ícone do aplicativo).
+802|=
+804|*Bibliotecas de detecção de dispositivos e utilitários para iBeacon*
+806| - Transforme seu Mac em um iBeacon.
+807| - Uma classe gerenciadora de iBeacons responsável por detectar beacons próximos.
+808| - Plataforma paga de marketing de proximidade que permite adicionar experiências incríveis de proximidade ao seu aplicativo.
+809|=
+813|### Geolocalização
+815|*Bibliotecas de monitoramento de localização, detecção de movimento e geofencing*
+817| - Wrapper para o framework CoreLocation da Apple com a concorrência moderna do Swift (async/await).
+818| - Um gerenciador de localização para implementar facilmente serviços de localização e geofencing no iOS.
+819| - Oferece uma API assíncrona baseada em blocos para solicitar a localização atual, uma única vez ou continuamente.
+820| - CLI para definir a localização no simulador do iOS.
+821| - Biblioteca simples para detectar movimento. Baseada em atualizações de localização e na aceleração.
+822| - Monitoramento de localização e de beacons em Swift.
+826|### Outros hardwares
+828|*Utilitários para acelerômetros, giroscópios, feedback háptico e outros sensores do dispositivo.*
+830| - Simplesmente a forma mais rápida de transmitir dados entre iOS/tvOS e macOS.
