@@ -32,9 +32,13 @@ jobs:
           cache: npm
           cache-dependency-path: package-lock.json
       - run: npm ci
-      - run: npm run check
       - run: npm run build
       - run: npm test
+        # CI runs the full suite (including the slow content-pipeline
+        # integration tests and astro check) on the same commit; publishing
+        # only re-verifies the fast subset to keep deploys short.
+        env:
+          AWESOME_TEST_FAST: "1"
       - name: Assemble publication payload
         run: |
           mkdir -p "$PUBLICATION_DIR/dist"
