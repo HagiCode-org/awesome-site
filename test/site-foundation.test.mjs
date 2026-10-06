@@ -114,7 +114,8 @@ test("built pages use Awesome Site identity, local routes, shared shell, and gen
   assert.match(home, /href="https:\/\/github\.com\/HagiCode-org\/site"[^>]*>GitHub</u);
   assert.match(home, /href="https:\/\/tasks\.hagicode\.com\/"[^>]*>HagiTask</u);
   assert.match(home, /class="hagilight-article-promotion(?:\s|")/u);
-  assert.doesNotMatch(home, /googletagmanager|google-analytics|51la/u);
+  assert.match(home, /googletagmanager\.com\/gtag\/js/u);
+  assert.match(home, /sdk\.51\.la\/js-sdk-pro\.min\.js/u);
   assertExternalLinkWarning(home, "root");
   assertExternalLinkWarning(notFound, "root");
 
