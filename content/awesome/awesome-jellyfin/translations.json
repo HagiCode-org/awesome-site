@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Jellyfin",
+      "description": "精选的 Jellyfin 主题、插件、配套应用与工具、指南和代码片段列表。",
+      "sourceDigest": "bfd48fdc446a4b211795fdebe1586cf024d8a4aea2b89a82bd0d443816a0ed9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Jellyfin",
+      "description": "精選的 Jellyfin 主題、外掛、配套應用程式與工具、指南和程式碼片段清單。",
+      "sourceDigest": "bfd48fdc446a4b211795fdebe1586cf024d8a4aea2b89a82bd0d443816a0ed9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Jellyfin",
+      "description": "Une liste sélectionnée de thèmes, plugins, applications compagnons, guides et extraits pour Jellyfin.",
+      "sourceDigest": "bfd48fdc446a4b211795fdebe1586cf024d8a4aea2b89a82bd0d443816a0ed9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Jellyfin",
+      "description": "Eine kuratierte Liste von Jellyfin-Themes, -Plugins, Begleit-Apps, Anleitungen und Snippets.",
+      "sourceDigest": "bfd48fdc446a4b211795fdebe1586cf024d8a4aea2b89a82bd0d443816a0ed9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Jellyfin",
+      "description": "Una lista seleccionada de temas, plugins, aplicaciones complementarias, guías y fragmentos de código para Jellyfin.",
+      "sourceDigest": "bfd48fdc446a4b211795fdebe1586cf024d8a4aea2b89a82bd0d443816a0ed9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Jellyfin",
+      "description": "Jellyfin のテーマ、プラグイン、コンパニオンアプリ、ガイド、スニペットを集めた厳選リスト。",
+      "sourceDigest": "bfd48fdc446a4b211795fdebe1586cf024d8a4aea2b89a82bd0d443816a0ed9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Jellyfin",
+      "description": "Jellyfin 테마, 플러그인, 보조 앱, 가이드, 스니펫을 엄선한 목록입니다.",
+      "sourceDigest": "bfd48fdc446a4b211795fdebe1586cf024d8a4aea2b89a82bd0d443816a0ed9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Jellyfin",
+      "description": "Uma lista selecionada de temas, plugins, aplicativos complementares, guias e snippets para o Jellyfin.",
+      "sourceDigest": "bfd48fdc446a4b211795fdebe1586cf024d8a4aea2b89a82bd0d443816a0ed9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Jellyfin",
+      "description": "Подборка тем, плагинов, сопутствующих приложений, руководств и сниппетов для Jellyfin.",
+      "sourceDigest": "bfd48fdc446a4b211795fdebe1586cf024d8a4aea2b89a82bd0d443816a0ed9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}
