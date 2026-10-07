@@ -270,6 +270,11 @@ test("registry rejects invalid collections and unknown topic metadata", () => {
   };
 
   assert.doesNotThrow(() => validateRegistry([collection], testCatalogs));
+  assert.doesNotThrow(() => validateRegistry([{ ...collection, sourceLocale: "zh-Hant" }], testCatalogs));
+  assert.throws(
+    () => validateRegistry([{ ...collection, sourceLocale: "en" }], testCatalogs),
+    /sourceLocale must be one of/u,
+  );
   assert.throws(
     () => validateRegistry([collection, { ...collection }], testCatalogs),
     /Duplicate collection identifier/u,

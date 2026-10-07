@@ -166,6 +166,9 @@ export function validateRegistry(collections, catalogs) {
     if (/^awesome\b/iu.test(collection.title.trim())) {
       throw new Error(`${collection.id}: title must be the bare collection name without the "Awesome" prefix`);
     }
+    if (collection.sourceLocale !== undefined && !locales.includes(collection.sourceLocale)) {
+      throw new Error(`${collection.id}: sourceLocale must be one of ${locales.join(", ")}`);
+    }
     const normalizedTags = normalizeCatalogTags(collection, collection.id);
     if (!normalizedTags.catalog) throw new Error(`${collection.id}: catalog metadata is required`);
     for (const tag of normalizedTags.tags) {
@@ -334,7 +337,7 @@ async function validateTranslations(source) {
       throw error;
     }
     if (!body.trim()) throw new Error(`${source.collection.id}/${locale}: translation body is empty`);
-    if (body.trim() === source.sourceMarkdown.trim()) {
+    if (locale !== source.collection.sourceLocale && body.trim() === source.sourceMarkdown.trim()) {
       throw new Error(`${source.collection.id}/${locale}: translation body is identical to English`);
     }
     const structure = inspectMarkdown(body, {
