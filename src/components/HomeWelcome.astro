@@ -1,33 +1,20 @@
 ---
+import { getCollection } from "astro:content";
 import { locales } from "@hagicode/hagilight-starlight/locales";
-import collections from "../../content/awesome/collections.json";
-import catalogs from "../../content/awesome/catalogs.json";
-import { normalizeCatalogTags } from "../catalog-tags.mjs";
 import { getWelcomeCopy } from "../home-copy.mjs";
+import CollectionBrowser from "./CollectionBrowser.astro";
 
 const locale = Astro.locals.starlightRoute.locale ?? "root";
 const copy = getWelcomeCopy(locale);
 const prefix = locale === "root" ? "" : `/${locale}`;
-const usedTopics = [...new Set(collections.flatMap((collection) => normalizeCatalogTags(collection).tags))].sort();
-const preferredTopics = ["rag", "typescript", "design-systems", "github-profile-readme"];
-const featuredTopics = [...new Set([...preferredTopics.filter((topic) => usedTopics.includes(topic)), ...usedTopics])].slice(0, 6);
-const taxonomy: Map<string, Record<string, string>> = new Map(
-  Object.entries(catalogs).map(([topic, { labels }]) => [topic, labels]),
-);
+const docPrefix = locale === "root" ? "awesome/" : `${locale}/awesome/`;
+const hosted = await getCollection("docs", ({ id, data }) => Boolean(data.awesomeSource) && id.startsWith(docPrefix));
 const number = new Intl.NumberFormat(locale === "root" ? "en-US" : locale);
 const stats = [
-  { value: collections.length, label: copy.collections },
-  { value: usedTopics.length, label: copy.topics },
+  { value: hosted.length, label: copy.collections },
+  { value: new Set(hosted.flatMap(({ data }) => data.tags ?? [])).size, label: copy.topics },
   { value: Object.keys(locales).length, label: copy.languages },
 ];
-
-function topicLabel(topic: string) {
-  const entry = taxonomy.get(topic);
-  if (!entry || !Object.hasOwn(entry, locale)) {
-    throw new Error(`Missing welcome topic label for "${topic}/${locale}"`);
-  }
-  return entry[locale];
-}
 ---
 
 <div class="awesome-welcome">
@@ -59,15 +46,7 @@ function topicLabel(topic: string) {
     {stats.map(({ value, label }) => <div><dt>{label}</dt><dd>{number.format(value)}</dd></div>)}
   </dl>
 
-  <section class="awesome-welcome-topics" aria-labelledby="awesome-start">
-    <h2 id="awesome-start" tabindex="-1">{copy.topicTitle}</h2>
-    <p>{copy.topicIntro}</p>
-    <ul>
-      {featuredTopics.map((topic) => <li>
-        <a href={`${prefix}/awesome/tags/${topic}/`}>{topicLabel(topic)}<span aria-hidden="true">&#8599;</span></a>
-      </li>)}
-    </ul>
-  </section>
+  <CollectionBrowser />
 
   <div class="awesome-welcome-features">
     {copy.features.map(({ title, body }, index) => <section>

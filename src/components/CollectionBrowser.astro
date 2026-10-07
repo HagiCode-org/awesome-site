@@ -1,0 +1,215 @@
+---
+import { getCollection } from "astro:content";
+import catalogs from "../../content/awesome/catalogs.json";
+import candidates from "../../content/awesome/candidates.json";
+import { getBrowserCopy, getWelcomeCopy } from "../home-copy.mjs";
+
+const locale = Astro.locals.starlightRoute.locale ?? "root";
+const copy = getBrowserCopy(locale);
+const welcome = getWelcomeCopy(locale);
+const prefix = locale === "root" ? "" : `/${locale}`;
+const docPrefix = locale === "root" ? "awesome/" : `${locale}/awesome/`;
+const collator = new Intl.Collator(locale === "root" ? "en" : locale);
+const number = new Intl.NumberFormat(locale === "root" ? "en-US" : locale);
+
+const taxonomy: Map<string, { labels: Record<string, string> }> = new Map(Object.entries(catalogs));
+function topicLabel(topic: string) {
+  const entry = taxonomy.get(topic);
+  if (!entry || !Object.hasOwn(entry.labels, locale)) {
+    throw new Error(`Missing browser topic label for "${topic}/${locale}"`);
+  }
+  return entry.labels[locale];
+}
+
+const docs = await getCollection("docs", ({ id, data }) => Boolean(data.awesomeSource) && id.startsWith(docPrefix));
+const items = docs.map(({ id, data }) => {
+  const tags = data.tags ?? [];
+  const catalog = Array.isArray(data.catalog) ? data.catalog[0] : data.catalog;
+  return {
+    id: data.awesomeSource!.id,
+    title: data.title,
+    href: `${prefix}/${id}/`,
+    repo: new URL(data.awesomeSource!.repositoryUrl).pathname.slice(1),
+    tags,
+    primary: catalog ?? tags[0],
+  };
+}).sort((a, b) => collator.compare(a.title, b.title));
+
+const hosted = new Set(items.map(({ id }) => id));
+const topics = [...new Set(items.flatMap(({ tags }) => tags))]
+  .map((topic) => ({
+    topic,
+    label: topicLabel(topic),
+    count: items.filter(({ tags }) => tags.includes(topic)).length,
+  }))
+  .sort((a, b) => b.count - a.count || collator.compare(a.label, b.label));
+
+const groupCounts = new Map<string, number>();
+for (const { primary } of items) groupCounts.set(primary, (groupCounts.get(primary) ?? 0) + 1);
+const groups = [...groupCounts.keys()]
+  .map((topic) => ({
+    topic,
+    label: topicLabel(topic),
+    members: items.filter(({ primary }) => primary === topic),
+  }))
+  .sort((a, b) => b.members.length - a.members.length || collator.compare(a.label, b.label));
+
+const more = (candidates as Array<{ id: string; repositoryUrl: string; catalog: string; stars: number }>)
+  .filter(({ id }) => !hosted.has(id))
+  .sort((a, b) => b.stars - a.stars);
+---
+
+<section class="awesome-browser" aria-labelledby="awesome-start" data-awesome-browser>
+  <header class="awesome-browser-head">
+    <h2 id="awesome-start" tabindex="-1">{welcome.topicTitle}</h2>
+    <p>{welcome.topicIntro}</p>
+  </header>
+
+  <div class="awesome-browser-tools" data-tools hidden>
+    <label class="awesome-browser-search">
+      <span class="awesome-visually-hidden">{copy.searchLabel}</span>
+      <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false">
+        <circle cx="7" cy="7" r="4.5" fill="none" stroke="currentColor" stroke-width="1.5" />
+        <path d="m10.5 10.5 3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+      </svg>
+      <input type="search" name="q" autocomplete="off" spellcheck="false" placeholder={copy.searchPlaceholder} data-search />
+    </label>
+    <p class="awesome-browser-status" role="status" aria-live="polite" data-status data-template={copy.showing}></p>
+    <button type="button" class="awesome-browser-clear" data-clear hidden>{copy.clear}</button>
+  </div>
+
+  <div class="awesome-browser-body">
+    <nav class="awesome-browser-rail" aria-label={copy.topicsNav}>
+      <ul>
+        <li>
+          <a href={`${prefix}/awesome/`} data-topic="" aria-current="true">
+            <span>{copy.allTopics}</span><span class="awesome-browser-count">{number.format(items.length)}</span>
+          </a>
+        </li>
+        {topics.map(({ topic, label, count }) => <li>
+          <a href={`${prefix}/awesome/tags/${topic}/`} data-topic={topic}>
+            <span>{label}</span><span class="awesome-browser-count">{number.format(count)}</span>
+          </a>
+        </li>)}
+      </ul>
+    </nav>
+
+    <div class="awesome-browser-main">
+      <div class="awesome-browser-groups" data-groups>
+        {groups.map(({ topic, label, members }) => <section class="awesome-browser-group" data-group aria-labelledby={`awesome-group-${topic}`}>
+          <h3 id={`awesome-group-${topic}`} style={`view-transition-name: h-${topic}`}>
+            <a href={`${prefix}/awesome/tags/${topic}/`}>{label}</a>
+            <span class="awesome-browser-count">{number.format(members.length)}</span>
+          </h3>
+          <ul>
+            {members.map((item) => <li
+              data-item
+              data-tags={item.tags.join(" ")}
+              data-search={[item.title, item.repo, ...item.tags.map(topicLabel)].join(" ").toLowerCase()}
+              style={`view-transition-name: c-${item.id}`}
+            >
+              <a href={item.href}>
+                <strong>{item.title}</strong>
+                <span class="awesome-browser-repo">{item.repo}</span>
+                {item.tags.length > 1 && <span class="awesome-browser-tags">
+                  {item.tags.map(topicLabel).join(" · ")}
+                </span>}
+              </a>
+            </li>)}
+          </ul>
+        </section>)}
+      </div>
+      <p class="awesome-browser-empty" data-empty hidden>{copy.empty}</p>
+    </div>
+  </div>
+
+  {more.length > 0 && <details class="awesome-more">
+    <summary>
+      <span>{copy.moreTitle}</span>
+      <span class="awesome-browser-count">{number.format(more.length)}</span>
+    </summary>
+    <p>{copy.moreNote}</p>
+    <ul>
+      {more.map(({ repositoryUrl, catalog, stars }) => <li>
+        <a href={repositoryUrl}>
+          <strong>{new URL(repositoryUrl).pathname.slice(1)}</strong>
+          <span class="awesome-browser-repo">{topicLabel(catalog)} · {number.format(stars)} {copy.stars}</span>
+        </a>
+      </li>)}
+    </ul>
+  </details>}
+</section>
+
+<script>
+  const root = document.querySelector<HTMLElement>("[data-awesome-browser]");
+  if (root) {
+    const tools = root.querySelector<HTMLElement>("[data-tools]")!;
+    const input = root.querySelector<HTMLInputElement>("[data-search]")!;
+    const status = root.querySelector<HTMLElement>("[data-status]")!;
+    const clear = root.querySelector<HTMLButtonElement>("[data-clear]")!;
+    const empty = root.querySelector<HTMLElement>("[data-empty]")!;
+    const groupsEl = root.querySelector<HTMLElement>("[data-groups]")!;
+    const groups = [...root.querySelectorAll<HTMLElement>("[data-group]")];
+    const items = [...root.querySelectorAll<HTMLElement>("[data-item]")];
+    const railLinks = [...root.querySelectorAll<HTMLAnchorElement>(".awesome-browser-rail a")];
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    let topic = "";
+
+    function apply() {
+      const query = input.value.trim().toLowerCase();
+      let shown = 0;
+      for (const item of items) {
+        const match = (!topic || item.dataset.tags!.split(" ").includes(topic))
+          && (!query || item.dataset.search!.includes(query));
+        item.hidden = !match;
+        if (match) shown++;
+      }
+      for (const group of groups) group.hidden = !group.querySelector("[data-item]:not([hidden])");
+      const filtered = Boolean(topic || query);
+      groupsEl.classList.toggle("is-filtered", filtered);
+      for (const link of railLinks) {
+        if (link.dataset.topic === topic) link.setAttribute("aria-current", "true");
+        else link.removeAttribute("aria-current");
+      }
+      status.textContent = status.dataset.template!
+        .replace("{shown}", String(shown))
+        .replace("{total}", String(items.length));
+      empty.hidden = shown > 0;
+      clear.hidden = !filtered;
+    }
+
+    function selectTopic(next: string) {
+      topic = next;
+      if (reducedMotion.matches || !document.startViewTransition) apply();
+      else {
+        document.documentElement.dataset.awesomeFiltering = "";
+        document.startViewTransition(apply).finished.finally(() => {
+          delete document.documentElement.dataset.awesomeFiltering;
+        });
+      }
+    }
+
+    tools.hidden = false;
+    apply();
+
+    input.addEventListener("input", apply);
+    input.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && input.value) {
+        input.value = "";
+        apply();
+      }
+    });
+    clear.addEventListener("click", () => {
+      input.value = "";
+      selectTopic("");
+      input.focus();
+    });
+    root.querySelector(".awesome-browser-rail")!.addEventListener("click", (event) => {
+      const link = (event.target as Element).closest<HTMLAnchorElement>("a[data-topic]");
+      const mouse = event as MouseEvent;
+      if (!link || mouse.metaKey || mouse.ctrlKey || mouse.shiftKey || mouse.altKey || mouse.button !== 0) return;
+      event.preventDefault();
+      selectTopic(link.dataset.topic!);
+    });
+  }
+</script>

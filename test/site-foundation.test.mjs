@@ -257,11 +257,16 @@ test("built pages use Awesome Site identity, local routes, shared shell, and gen
     ]) {
       assert.ok(welcomeStats.includes(`<dt>${label}</dt><dd>${number.format(value)}</dd>`));
     }
-    const welcomeTopics = section(localizedHomeMain, '<section class="awesome-welcome-topics"', "</section>");
-    const featuredLinks = linksIn(welcomeTopics);
-    assert.equal(featuredLinks.length, Math.min(6, topics.length));
-    for (const { href } of featuredLinks) {
+    const browser = section(localizedHomeMain, '<section class="awesome-browser"', "</section>\n");
+    const railLinks = linksIn(section(browser, '<nav class="awesome-browser-rail"', "</nav>"));
+    assert.equal(railLinks.length, topics.length + 1);
+    for (const { href } of railLinks.slice(1)) {
       assert.ok(topics.some((topic) => href === `/${prefix}awesome/tags/${topic}/`));
+    }
+    const browserItems = browser.match(/<li\b[^>]*data-item\b/gu) ?? [];
+    assert.equal(browserItems.length, collections.length, `${locale} browser lists every hosted collection`);
+    for (const { route } of collections) {
+      assert.ok(browser.includes(`href="/${prefix}${route}/"`), `${locale} browser links ${route}`);
     }
     assert.doesNotMatch(localizedIndexMain, /class="awesome-welcome"/u);
     assert.doesNotMatch(mainContent(localizedCollection), /class="awesome-welcome"/u);
