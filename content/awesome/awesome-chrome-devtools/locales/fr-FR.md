@@ -6,12 +6,12 @@ Outils, pilotes de protocole, visualiseurs de traces et interfaces autonomes con
 
 ## Sommaire
 
-- [Apprentissage](#apprentissage)
-- [Tracing et profilage](#tracing-et-profilage)
+- [Apprentissage](#learning)
+- [Tracing et profilage](#tracing--profiling)
 - [Chrome DevTools Protocol](#chrome-devtools-protocol)
-- [Utiliser le frontend DevTools avec d'autres plateformes](#utiliser-le-frontend-devtools-avec-dautres-plateformes)
-- [Extensions DevTools](#extensions-devtools)
-- [Anciens projets](#anciens-projets)
+- [Utiliser le frontend DevTools avec d'autres plateformes](#using-devtools-frontend-with-other-platforms)
+- [Extensions DevTools](#devtools-extensions)
+- [Anciens projets](#alumni)
 
 ---
 

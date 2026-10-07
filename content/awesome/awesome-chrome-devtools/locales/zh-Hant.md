@@ -6,12 +6,12 @@
 
 ## 目錄
 
-- [學習](#學習)
-- [追蹤與效能分析](#追蹤與效能分析)
-- [Chrome DevTools 協定](#chrome-devtools-協定)
-- [在其他平台上使用 DevTools 前端](#在其他平台上使用-devtools-前端)
-- [DevTools 擴充功能](#devtools-擴充功能)
-- [退役專案](#退役專案)
+- [學習](#learning)
+- [追蹤與效能分析](#tracing--profiling)
+- [Chrome DevTools 協定](#chrome-devtools-protocol)
+- [在其他平台上使用 DevTools 前端](#using-devtools-frontend-with-other-platforms)
+- [DevTools 擴充功能](#devtools-extensions)
+- [退役專案](#alumni)
 
 ---
 

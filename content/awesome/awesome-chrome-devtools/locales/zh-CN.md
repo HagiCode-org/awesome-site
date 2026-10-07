@@ -6,12 +6,12 @@
 
 ## 目录
 
-- [学习](#学习)
-- [追踪与性能分析](#追踪与性能分析)
-- [Chrome DevTools 协议](#chrome-devtools-协议)
-- [在其他平台上使用 DevTools 前端](#在其他平台上使用-devtools-前端)
-- [DevTools 扩展](#devtools-扩展)
-- [退役项目](#退役项目)
+- [学习](#learning)
+- [追踪与性能分析](#tracing--profiling)
+- [Chrome DevTools 协议](#chrome-devtools-protocol)
+- [在其他平台上使用 DevTools 前端](#using-devtools-frontend-with-other-platforms)
+- [DevTools 扩展](#devtools-extensions)
+- [退役项目](#alumni)
 
 ---
 

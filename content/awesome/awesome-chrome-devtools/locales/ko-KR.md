@@ -6,12 +6,12 @@ Chrome DevTools와 Chrome DevTools Protocol(CDP)을 중심으로 구축된 도�
 
 ## 목차
 
-- [학습](#학습)
-- [트레이싱 및 프로파일링](#트레이싱-및-프로파일링)
+- [학습](#learning)
+- [트레이싱 및 프로파일링](#tracing--profiling)
 - [Chrome DevTools Protocol](#chrome-devtools-protocol)
-- [다른 플랫폼에서 DevTools 프론트엔드 사용하기](#다른-플랫폼에서-devtools-프론트엔드-사용하기)
-- [DevTools 확장 프로그램](#devtools-확장-프로그램)
-- [졸업(구) 프로젝트](#졸업구-프로젝트)
+- [다른 플랫폼에서 DevTools 프론트엔드 사용하기](#using-devtools-frontend-with-other-platforms)
+- [DevTools 확장 프로그램](#devtools-extensions)
+- [졸업(구) 프로젝트](#alumni)
 
 ---
 

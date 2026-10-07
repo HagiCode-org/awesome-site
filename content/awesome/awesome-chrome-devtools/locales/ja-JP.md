@@ -6,12 +6,12 @@ Chrome DevTools および Chrome DevTools Protocol（CDP）を中心に構築さ
 
 ## 目次
 
-- [学習](#学習)
-- [トレースとプロファイリング](#トレースとプロファイリング)
+- [学習](#learning)
+- [トレースとプロファイリング](#tracing--profiling)
 - [Chrome DevTools Protocol](#chrome-devtools-protocol)
-- [他のプラットフォームで DevTools フロントエンドを使う](#他のプラットフォームで-devtools-フロントエンドを使う)
-- [DevTools 拡張機能](#devtools-拡張機能)
-- [過去のプロジェクト](#過去のプロジェクト)
+- [他のプラットフォームで DevTools フロントエンドを使う](#using-devtools-frontend-with-other-platforms)
+- [DevTools 拡張機能](#devtools-extensions)
+- [過去のプロジェクト](#alumni)
 
 ---
 

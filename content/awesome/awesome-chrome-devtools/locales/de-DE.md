@@ -6,12 +6,12 @@ Werkzeuge, Protokoll-Treiber, Trace-Viewer und eigenständige Frontends, die run
 
 ## Inhaltsverzeichnis
 
-- [Lernen](#lernen)
+- [Lernen](#learning)
 - [Tracing & Profiling](#tracing--profiling)
 - [Chrome DevTools Protocol](#chrome-devtools-protocol)
-- [DevTools-Frontend mit anderen Plattformen nutzen](#devtools-frontend-mit-anderen-plattformen-nutzen)
-- [DevTools-Erweiterungen](#devtools-erweiterungen)
-- [Ehemalige Projekte](#ehemalige-projekte)
+- [DevTools-Frontend mit anderen Plattformen nutzen](#using-devtools-frontend-with-other-platforms)
+- [DevTools-Erweiterungen](#devtools-extensions)
+- [Ehemalige Projekte](#alumni)
 
 ---
 

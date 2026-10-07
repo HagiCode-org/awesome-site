@@ -6,12 +6,12 @@
 
 ## Содержание
 
-- [Обучение](#обучение)
-- [Трассировка и профилирование](#трассировка-и-профилирование)
+- [Обучение](#learning)
+- [Трассировка и профилирование](#tracing--profiling)
 - [Chrome DevTools Protocol](#chrome-devtools-protocol)
-- [Использование фронтенда DevTools с другими платформами](#использование-фронтенда-devtools-с-другими-платформами)
-- [Расширения DevTools](#расширения-devtools)
-- [Архив](#архив)
+- [Использование фронтенда DevTools с другими платформами](#using-devtools-frontend-with-other-platforms)
+- [Расширения DevTools](#devtools-extensions)
+- [Архив](#alumni)
 
 ---
 

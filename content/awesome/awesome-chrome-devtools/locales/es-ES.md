@@ -6,12 +6,12 @@ Herramientas, controladores de protocolo, visualizadores de trazas y frontends i
 
 ## Contenido
 
-- [Aprendizaje](#aprendizaje)
-- [Trazado y perfilado](#trazado-y-perfilado)
+- [Aprendizaje](#learning)
+- [Trazado y perfilado](#tracing--profiling)
 - [Chrome DevTools Protocol](#chrome-devtools-protocol)
-- [Usar el frontend de DevTools con otras plataformas](#usar-el-frontend-de-devtools-con-otras-plataformas)
-- [Extensiones de DevTools](#extensiones-de-devtools)
-- [Proyectos antiguos](#proyectos-antiguos)
+- [Usar el frontend de DevTools con otras plataformas](#using-devtools-frontend-with-other-platforms)
+- [Extensiones de DevTools](#devtools-extensions)
+- [Proyectos antiguos](#alumni)
 
 ---
 

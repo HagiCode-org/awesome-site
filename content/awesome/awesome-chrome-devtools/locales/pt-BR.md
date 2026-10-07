@@ -6,12 +6,12 @@ Ferramentas, drivers de protocolo, visualizadores de trace e frontends independe
 
 ## Conteúdo
 
-- [Aprendizado](#aprendizado)
-- [Tracing e Profiling](#tracing-e-profiling)
+- [Aprendizado](#learning)
+- [Tracing e Profiling](#tracing--profiling)
 - [Chrome DevTools Protocol](#chrome-devtools-protocol)
-- [Usando o frontend do DevTools com outras plataformas](#usando-o-frontend-do-devtools-com-outras-plataformas)
-- [Extensões do DevTools](#extensões-do-devtools)
-- [Projetos aposentados](#projetos-aposentados)
+- [Usando o frontend do DevTools com outras plataformas](#using-devtools-frontend-with-other-platforms)
+- [Extensões do DevTools](#devtools-extensions)
+- [Projetos aposentados](#alumni)
 
 ---
 
