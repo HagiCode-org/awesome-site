@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Red Teaming",
+      "description": "按 MITRE ATT&CK 对抗战术与技术组织的红队资源精选列表。",
+      "sourceDigest": "f04d2f6081304f0f7a822b5a0d8a811afb17b14c2024c77f3e27f494c685d6ae",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Red Teaming",
+      "description": "依 MITRE ATT&CK 對抗戰術與技術整理的紅隊資源精選清單。",
+      "sourceDigest": "f04d2f6081304f0f7a822b5a0d8a811afb17b14c2024c77f3e27f494c685d6ae",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Red Teaming",
+      "description": "Une liste sélectionnée de ressources de Red Team organisées selon les tactiques et techniques adverses de MITRE ATT&CK.",
+      "sourceDigest": "f04d2f6081304f0f7a822b5a0d8a811afb17b14c2024c77f3e27f494c685d6ae",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Red Teaming",
+      "description": "Eine kuratierte Liste von Red-Team-Ressourcen, geordnet nach den gegnerischen Taktiken und Techniken von MITRE ATT&CK.",
+      "sourceDigest": "f04d2f6081304f0f7a822b5a0d8a811afb17b14c2024c77f3e27f494c685d6ae",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Red Teaming",
+      "description": "Una lista seleccionada de recursos de Red Team organizados según las tácticas y técnicas adversarias de MITRE ATT&CK.",
+      "sourceDigest": "f04d2f6081304f0f7a822b5a0d8a811afb17b14c2024c77f3e27f494c685d6ae",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Red Teaming",
+      "description": "MITRE ATT&CK の攻撃者の戦術・技術に沿って整理した、レッドチーム関連リソースの厳選リスト。",
+      "sourceDigest": "f04d2f6081304f0f7a822b5a0d8a811afb17b14c2024c77f3e27f494c685d6ae",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Red Teaming",
+      "description": "MITRE ATT&CK의 공격자 전술과 기법에 따라 정리한 레드팀 리소스 엄선 목록입니다.",
+      "sourceDigest": "f04d2f6081304f0f7a822b5a0d8a811afb17b14c2024c77f3e27f494c685d6ae",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Red Teaming",
+      "description": "Uma lista selecionada de recursos de Red Team organizados pelas táticas e técnicas adversárias do MITRE ATT&CK.",
+      "sourceDigest": "f04d2f6081304f0f7a822b5a0d8a811afb17b14c2024c77f3e27f494c685d6ae",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Red Teaming",
+      "description": "Подборка ресурсов по Red Team, организованная по тактикам и техникам противника MITRE ATT&CK.",
+      "sourceDigest": "f04d2f6081304f0f7a822b5a0d8a811afb17b14c2024c77f3e27f494c685d6ae",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}
