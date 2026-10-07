@@ -301,3 +301,30 @@
 [submodule "sources/awesome-red-teaming"]
 	path = sources/awesome-red-teaming
 	url = https://github.com/yeyintminthuhtut/Awesome-Red-Teaming.git
+[submodule "sources/awesome-claude-code-subagents"]
+	path = sources/awesome-claude-code-subagents
+	url = https://github.com/VoltAgent/awesome-claude-code-subagents.git
+[submodule "sources/awesome-openclaw-skills"]
+	path = sources/awesome-openclaw-skills
+	url = https://github.com/VoltAgent/awesome-openclaw-skills.git
+[submodule "sources/awesome-shadcn-ui"]
+	path = sources/awesome-shadcn-ui
+	url = https://github.com/birobirobiro/awesome-shadcn-ui.git
+[submodule "sources/awesome-vite"]
+	path = sources/awesome-vite
+	url = https://github.com/vitejs/awesome-vite.git
+[submodule "sources/awesome-tensorflow"]
+	path = sources/awesome-tensorflow
+	url = https://github.com/jtoy/awesome-tensorflow.git
+[submodule "sources/awesome-diffusion-models"]
+	path = sources/awesome-diffusion-models
+	url = https://github.com/diff-usion/Awesome-Diffusion-Models.git
+[submodule "sources/awesome-wpo"]
+	path = sources/awesome-wpo
+	url = https://github.com/davidsonfellipe/awesome-wpo.git
+[submodule "sources/awesome-appsec"]
+	path = sources/awesome-appsec
+	url = https://github.com/paragonie/awesome-appsec.git
+[submodule "sources/awesome-mcp-clients"]
+	path = sources/awesome-mcp-clients
+	url = https://github.com/punkpeye/awesome-mcp-clients.git
