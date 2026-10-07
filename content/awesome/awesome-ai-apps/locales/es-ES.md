@@ -400,25 +400,25 @@ Recibe tutoriales semanales fáciles de seguir y análisis profundos sobre IA, L
 2. **Elegir un proyecto** y navegar a su directorio
 
    ```bash
-   cd starter_ai_agents/agno_starter  # Ejemplo: Empieza con el starter Agno
+   cd starter_ai_agents/agno_starter  # Example: Start with Agno starter
    ```
 
 3. **Configurar variables de entorno**
 
    ```bash
-   cp .env.example .env  # Copiar archivo de entorno de ejemplo
-   # Edita .env con tus claves API
+   cp .env.example .env  # Copy example environment file
+   # Edit .env with your API keys
    ```
 
 4. **Instalar dependencias**
 
    ```bash
-   # Usando pip
+   # Using pip
    pip install -r requirements.txt
 
-   # O usando uv (recomendado - más rápido)
+   # OR using uv (recommended - faster)
    uv sync
-   # o
+   # or
    uv pip install -e .
    ```
 
@@ -426,7 +426,7 @@ Recibe tutoriales semanales fáciles de seguir y análisis profundos sobre IA, L
 
    ```bash
    python main.py
-   # o para apps Streamlit
+   # or for Streamlit apps
    streamlit run app.py
    ```
 

@@ -400,25 +400,25 @@
 2. **選擇一個專案**並進入其目錄
 
    ```bash
-   cd starter_ai_agents/agno_starter  # 範例：從 Agno 入門開始
+   cd starter_ai_agents/agno_starter  # Example: Start with Agno starter
    ```
 
 3. **設定環境變數**
 
    ```bash
-   cp .env.example .env  # 複製環境變數範例檔案
-   # 使用你的 API 金鑰編輯 .env
+   cp .env.example .env  # Copy example environment file
+   # Edit .env with your API keys
    ```
 
 4. **安裝依賴**
 
    ```bash
-   # 使用 pip
+   # Using pip
    pip install -r requirements.txt
 
-   # 或 使用 uv（推薦 - 更快）
+   # OR using uv (recommended - faster)
    uv sync
-   # 或
+   # or
    uv pip install -e .
    ```
 
@@ -426,7 +426,7 @@
 
    ```bash
    python main.py
-   # 或 對於 Streamlit 應用
+   # or for Streamlit apps
    streamlit run app.py
    ```
 

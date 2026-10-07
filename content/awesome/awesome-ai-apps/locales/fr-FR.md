@@ -400,25 +400,25 @@ Recevez des tutoriels hebdomadaires faciles à suivre et des analyses approfondi
 2. **Choisir un projet** et naviguer vers son répertoire
 
    ```bash
-   cd starter_ai_agents/agno_starter  # Exemple : commencer avec le starter Agno
+   cd starter_ai_agents/agno_starter  # Example: Start with Agno starter
    ```
 
 3. **Configurer les variables d'environnement**
 
    ```bash
-   cp .env.example .env  # Copier le fichier d'environnement d'exemple
-   # Éditer .env avec vos clés API
+   cp .env.example .env  # Copy example environment file
+   # Edit .env with your API keys
    ```
 
 4. **Installer les dépendances**
 
    ```bash
-   # Avec pip
+   # Using pip
    pip install -r requirements.txt
 
-   # OU avec uv (recommandé - plus rapide)
+   # OR using uv (recommended - faster)
    uv sync
-   # ou
+   # or
    uv pip install -e .
    ```
 
@@ -426,7 +426,7 @@ Recevez des tutoriels hebdomadaires faciles à suivre et des analyses approfondi
 
    ```bash
    python main.py
-   # ou pour les apps Streamlit
+   # or for Streamlit apps
    streamlit run app.py
    ```
 

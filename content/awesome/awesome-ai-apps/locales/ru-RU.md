@@ -400,25 +400,25 @@
 2. **Выберите проект** и перейдите в его каталог
 
    ```bash
-   cd starter_ai_agents/agno_starter  # Пример: начните со starter Agno
+   cd starter_ai_agents/agno_starter  # Example: Start with Agno starter
    ```
 
 3. **Настройте переменные окружения**
 
    ```bash
-   cp .env.example .env  # Скопируйте пример файла окружения
-   # Отредактируйте .env своими API-ключами
+   cp .env.example .env  # Copy example environment file
+   # Edit .env with your API keys
    ```
 
 4. **Установите зависимости**
 
    ```bash
-   # Используя pip
+   # Using pip
    pip install -r requirements.txt
 
-   # ИЛИ используя uv (рекомендуется - быстрее)
+   # OR using uv (recommended - faster)
    uv sync
-   # или
+   # or
    uv pip install -e .
    ```
 
@@ -426,7 +426,7 @@
 
    ```bash
    python main.py
-   # или для Streamlit-приложений
+   # or for Streamlit apps
    streamlit run app.py
    ```
 

@@ -400,25 +400,25 @@ AI、LLM、エージェントフレームワークに関する分かりやすい
 2. **プロジェクトを選択**し、そのディレクトリに移動
 
    ```bash
-   cd starter_ai_agents/agno_starter  # 例: Agno スターターから開始
+   cd starter_ai_agents/agno_starter  # Example: Start with Agno starter
    ```
 
 3. **環境変数を設定**
 
    ```bash
-   cp .env.example .env  # 環境変数のサンプルファイルをコピー
-   # .env を自分の API キーで編集
+   cp .env.example .env  # Copy example environment file
+   # Edit .env with your API keys
    ```
 
 4. **依存関係をインストール**
 
    ```bash
-   # pip を使用
+   # Using pip
    pip install -r requirements.txt
 
-   # または uv を使用（推奨 - 高速）
+   # OR using uv (recommended - faster)
    uv sync
-   # または
+   # or
    uv pip install -e .
    ```
 
@@ -426,7 +426,7 @@ AI、LLM、エージェントフレームワークに関する分かりやすい
 
    ```bash
    python main.py
-   # または Streamlit アプリの場合
+   # or for Streamlit apps
    streamlit run app.py
    ```
 

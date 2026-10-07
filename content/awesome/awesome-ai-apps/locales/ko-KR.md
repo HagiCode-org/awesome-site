@@ -400,25 +400,25 @@ AI, LLM, 에이전트 프레임워크에 대한 이해하기 쉬운 주간 튜�
 2. **프로젝트 선택** 후 해당 디렉터리로 이동
 
    ```bash
-   cd starter_ai_agents/agno_starter  # 예: Agno 스타터로 시작
+   cd starter_ai_agents/agno_starter  # Example: Start with Agno starter
    ```
 
 3. **환경 변수 설정**
 
    ```bash
-   cp .env.example .env  # 환경 변수 예제 파일 복사
-   # .env를 자신의 API 키로 편집
+   cp .env.example .env  # Copy example environment file
+   # Edit .env with your API keys
    ```
 
 4. **의존성 설치**
 
    ```bash
-   # pip 사용
+   # Using pip
    pip install -r requirements.txt
 
-   # 또는 uv 사용(권장 - 더 빠름)
+   # OR using uv (recommended - faster)
    uv sync
-   # 또는
+   # or
    uv pip install -e .
    ```
 
@@ -426,7 +426,7 @@ AI, LLM, 에이전트 프레임워크에 대한 이해하기 쉬운 주간 튜�
 
    ```bash
    python main.py
-   # 또는 Streamlit 앱의 경우
+   # or for Streamlit apps
    streamlit run app.py
    ```
 
