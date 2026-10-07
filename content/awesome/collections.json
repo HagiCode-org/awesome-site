@@ -791,5 +791,49 @@
     "route": "awesome/awesome-chrome-devtools",
     "title": "Chrome DevTools",
     "catalog": "javascript"
+  },
+  {
+    "id": "awesome-coreml-models",
+    "repositoryUrl": "https://github.com/likedan/Awesome-CoreML-Models",
+    "sourceDir": "sources/awesome-coreml-models",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE.txt",
+    "licenseId": "MIT",
+    "route": "awesome/awesome-coreml-models",
+    "title": "Core ML Models",
+    "catalog": "machine-learning"
+  },
+  {
+    "id": "awesome-jellyfin",
+    "repositoryUrl": "https://github.com/awesome-jellyfin/awesome-jellyfin",
+    "sourceDir": "sources/awesome-jellyfin",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE",
+    "licenseId": "CC0-1.0",
+    "route": "awesome/awesome-jellyfin",
+    "title": "Jellyfin",
+    "catalog": "self-hosted"
+  },
+  {
+    "id": "awesome-react-hooks",
+    "repositoryUrl": "https://github.com/rehooks/awesome-react-hooks",
+    "sourceDir": "sources/awesome-react-hooks",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE",
+    "licenseId": "CC0-1.0",
+    "route": "awesome/awesome-react-hooks",
+    "title": "React Hooks",
+    "catalog": "react"
+  },
+  {
+    "id": "awesome-red-teaming",
+    "repositoryUrl": "https://github.com/yeyintminthuhtut/Awesome-Red-Teaming",
+    "sourceDir": "sources/awesome-red-teaming",
+    "readmePath": "README.md",
+    "licensePath": "LICENSE",
+    "licenseId": "MIT",
+    "route": "awesome/awesome-red-teaming",
+    "title": "Red Teaming",
+    "catalog": "cybersecurity"
   }
 ]

@@ -372,8 +372,8 @@
 - id: awesome-coreml-models
   source: https://github.com/likedan/Awesome-CoreML-Models
   title: Awesome Core ML Models
-  imported: false
-  notImportedReason: "Hosted registration withdrawn until all nine reviewed locale translations and translations.json are complete."
+  imported: true
+  notImportedReason: null
   importedAt: null
 - id: awesome-courses
   source: https://github.com/prakhar1989/awesome-courses
@@ -744,8 +744,8 @@
 - id: awesome-jellyfin
   source: https://github.com/awesome-jellyfin/awesome-jellyfin
   title: Awesome Jellyfin
-  imported: false
-  notImportedReason: "Hosted registration withdrawn until all nine reviewed locale translations and translations.json are complete."
+  imported: true
+  notImportedReason: null
   importedAt: null
 - id: awesome-k8s-resources
   source: https://github.com/tomhuang12/awesome-k8s-resources
@@ -1148,8 +1148,8 @@
 - id: awesome-react-hooks
   source: https://github.com/rehooks/awesome-react-hooks
   title: Awesome React Hooks
-  imported: false
-  notImportedReason: "Hosted registration withdrawn until all nine reviewed locale translations and translations.json are complete."
+  imported: true
+  notImportedReason: null
   importedAt: null
 - id: awesome-react-native
   source: https://github.com/jondot/awesome-react-native
@@ -1160,8 +1160,8 @@
 - id: awesome-red-teaming
   source: https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
   title: Awesome Red Teaming
-  imported: false
-  notImportedReason: "Hosted registration withdrawn until all nine reviewed locale translations and translations.json are complete."
+  imported: true
+  notImportedReason: null
   importedAt: null
 - id: awesome-redis
   source: https://github.com/JamzyWang/awesome-redis
