@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Core ML Models",
+      "description": "精选的 Core ML 格式机器学习模型列表。",
+      "sourceDigest": "34e69fceb8a3a68220c09b6137d22a212fe18ff489b33391b2ce934f407b42bc",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Core ML Models",
+      "description": "精選的 Core ML 格式機器學習模型清單。",
+      "sourceDigest": "34e69fceb8a3a68220c09b6137d22a212fe18ff489b33391b2ce934f407b42bc",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Core ML Models",
+      "description": "Une liste sélectionnée de modèles d'apprentissage automatique au format Core ML.",
+      "sourceDigest": "34e69fceb8a3a68220c09b6137d22a212fe18ff489b33391b2ce934f407b42bc",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Core ML Models",
+      "description": "Eine kuratierte Liste von Machine-Learning-Modellen im Core-ML-Format.",
+      "sourceDigest": "34e69fceb8a3a68220c09b6137d22a212fe18ff489b33391b2ce934f407b42bc",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Core ML Models",
+      "description": "Una lista seleccionada de modelos de aprendizaje automático en formato Core ML.",
+      "sourceDigest": "34e69fceb8a3a68220c09b6137d22a212fe18ff489b33391b2ce934f407b42bc",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Core ML Models",
+      "description": "Core ML 形式の機械学習モデルを集めた厳選リスト。",
+      "sourceDigest": "34e69fceb8a3a68220c09b6137d22a212fe18ff489b33391b2ce934f407b42bc",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Core ML Models",
+      "description": "Core ML 형식의 머신러닝 모델을 엄선한 목록입니다.",
+      "sourceDigest": "34e69fceb8a3a68220c09b6137d22a212fe18ff489b33391b2ce934f407b42bc",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Core ML Models",
+      "description": "Uma lista selecionada de modelos de aprendizado de máquina no formato Core ML.",
+      "sourceDigest": "34e69fceb8a3a68220c09b6137d22a212fe18ff489b33391b2ce934f407b42bc",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Core ML Models",
+      "description": "Подборка моделей машинного обучения в формате Core ML.",
+      "sourceDigest": "34e69fceb8a3a68220c09b6137d22a212fe18ff489b33391b2ce934f407b42bc",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}
