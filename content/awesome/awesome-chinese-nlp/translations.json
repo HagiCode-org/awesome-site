@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Chinese NLP",
+      "description": "面向中文自然语言处理（NLP）的精选资源列表。",
+      "sourceDigest": "6fd4a73ad76c01af77ea474bdbb2372f932809e05314f16afc8686ff5bd38a54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Chinese NLP",
+      "description": "針對中文自然語言處理（NLP）的精選資源清單。",
+      "sourceDigest": "6fd4a73ad76c01af77ea474bdbb2372f932809e05314f16afc8686ff5bd38a54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Chinese NLP",
+      "description": "Une liste sélectionnée de ressources pour le TALN (traitement automatique du langage naturel) du chinois.",
+      "sourceDigest": "6fd4a73ad76c01af77ea474bdbb2372f932809e05314f16afc8686ff5bd38a54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Chinese NLP",
+      "description": "Eine kuratierte Liste von Ressourcen für NLP (Natural Language Processing) für die chinesische Sprache.",
+      "sourceDigest": "6fd4a73ad76c01af77ea474bdbb2372f932809e05314f16afc8686ff5bd38a54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Chinese NLP",
+      "description": "Una lista curada de recursos para el PLN (procesamiento del lenguaje natural) del chino.",
+      "sourceDigest": "6fd4a73ad76c01af77ea474bdbb2372f932809e05314f16afc8686ff5bd38a54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Chinese NLP",
+      "description": "中国語の自然言語処理（NLP）のための厳選されたリソース一覧。",
+      "sourceDigest": "6fd4a73ad76c01af77ea474bdbb2372f932809e05314f16afc8686ff5bd38a54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Chinese NLP",
+      "description": "중국어 자연어 처리(NLP)를 위한 엄선된 자료 목록.",
+      "sourceDigest": "6fd4a73ad76c01af77ea474bdbb2372f932809e05314f16afc8686ff5bd38a54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Chinese NLP",
+      "description": "Uma lista selecionada de recursos para PLN (processamento de linguagem natural) para o chinês.",
+      "sourceDigest": "6fd4a73ad76c01af77ea474bdbb2372f932809e05314f16afc8686ff5bd38a54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Chinese NLP",
+      "description": "Подборка ресурсов по NLP (обработке естественного языка) для китайского языка.",
+      "sourceDigest": "6fd4a73ad76c01af77ea474bdbb2372f932809e05314f16afc8686ff5bd38a54",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Android Security Awesome",
+      "description": "一份精选的 Android 安全相关资源合集。",
+      "sourceDigest": "09f1a820def4623df2856ae02685f5080e324362ba41010608a5a4be0c01055f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Android Security Awesome",
+      "description": "一份精選的 Android 安全相關資源合集。",
+      "sourceDigest": "09f1a820def4623df2856ae02685f5080e324362ba41010608a5a4be0c01055f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Android Security Awesome",
+      "description": "Une liste curée de ressources liées à la sécurité Android.",
+      "sourceDigest": "09f1a820def4623df2856ae02685f5080e324362ba41010608a5a4be0c01055f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Android Security Awesome",
+      "description": "Eine kuratierte Sammlung von Android-sicherheitsrelevanten Ressourcen.",
+      "sourceDigest": "09f1a820def4623df2856ae02685f5080e324362ba41010608a5a4be0c01055f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Android Security Awesome",
+      "description": "Una colección curada de recursos relacionados con la seguridad de Android.",
+      "sourceDigest": "09f1a820def4623df2856ae02685f5080e324362ba41010608a5a4be0c01055f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Android Security Awesome",
+      "description": "Android セキュリティ関連のリソースを集めたキュレーションリスト。",
+      "sourceDigest": "09f1a820def4623df2856ae02685f5080e324362ba41010608a5a4be0c01055f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Android Security Awesome",
+      "description": "Android 보안 관련 리소스를 모아놓은 큐레이션 목록입니다.",
+      "sourceDigest": "09f1a820def4623df2856ae02685f5080e324362ba41010608a5a4be0c01055f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Android Security Awesome",
+      "description": "Uma coleção curada de recursos relacionados à segurança do Android.",
+      "sourceDigest": "09f1a820def4623df2856ae02685f5080e324362ba41010608a5a4be0c01055f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Android Security Awesome",
+      "description": "Подборка ресурсов, связанных с безопасностью Android.",
+      "sourceDigest": "09f1a820def4623df2856ae02685f5080e324362ba41010608a5a4be0c01055f",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

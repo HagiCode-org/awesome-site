@@ -1,0 +1,13 @@
+{
+  "translations": {
+    "zh-CN":   { "title": "Console Services", "description": "一份可通过终端/命令行访问的精选控制台服务列表。", "sourceDigest": "6d338630a23231ba37047e5d2f4295c07701135668288b3ea3e8d833c815f900", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "zh-Hant": { "title": "Console Services", "description": "一份可透過終端/命令列存取的控制台服務精選列表。", "sourceDigest": "6d338630a23231ba37047e5d2f4295c07701135668288b3ea3e8d833c815f900", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "fr-FR":   { "title": "Console Services", "description": "Une liste sélectionnée de services console accessibles depuis le terminal ou la ligne de commande.", "sourceDigest": "6d338630a23231ba37047e5d2f4295c07701135668288b3ea3e8d833c815f900", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "de-DE":   { "title": "Console Services", "description": "Eine kuratierte Liste von Konsolendiensten, die über Terminal oder Kommandozeile erreichbar sind.", "sourceDigest": "6d338630a23231ba37047e5d2f4295c07701135668288b3ea3e8d833c815f900", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "es-ES":   { "title": "Console Services", "description": "Una lista curada de servicios de consola accesibles desde la terminal o la línea de comandos.", "sourceDigest": "6d338630a23231ba37047e5d2f4295c07701135668288b3ea3e8d833c815f900", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "ja-JP":   { "title": "Console Services", "description": "ターミナルや CLI からアクセスできるコンソールサービスの厳選リストです。", "sourceDigest": "6d338630a23231ba37047e5d2f4295c07701135668288b3ea3e8d833c815f900", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "ko-KR":   { "title": "Console Services", "description": "터미널이나 CLI에서 접근할 수 있는 콘솔 서비스의 엄선된 목록입니다.", "sourceDigest": "6d338630a23231ba37047e5d2f4295c07701135668288b3ea3e8d833c815f900", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "pt-BR":   { "title": "Console Services", "description": "Uma lista selecionada de serviços de console acessíveis via terminal ou linha de comando.", "sourceDigest": "6d338630a23231ba37047e5d2f4295c07701135668288b3ea3e8d833c815f900", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "ru-RU":   { "title": "Console Services", "description": "Подборка консольных сервисов, доступных через терминал или командную строку.", "sourceDigest": "6d338630a23231ba37047e5d2f4295c07701135668288b3ea3e8d833c815f900", "isAITranslation": true, "reviewStatus": "reviewed" }
+  }
+}

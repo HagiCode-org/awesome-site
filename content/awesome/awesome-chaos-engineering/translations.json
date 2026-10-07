@@ -1,0 +1,13 @@
+{
+  "translations": {
+    "zh-CN":   { "title": "Chaos Engineering", "description": "精选的混沌工程资源、工具与学习资料列表。", "sourceDigest": "969f1be06dd93be332f1f53c7382eee9f99e3750f9edf3516c5279b695fd9e67", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "zh-Hant": { "title": "Chaos Engineering", "description": "精選的混沌工程資源、工具與學習資料清單。", "sourceDigest": "969f1be06dd93be332f1f53c7382eee9f99e3750f9edf3516c5279b695fd9e67", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "fr-FR":   { "title": "Chaos Engineering", "description": "Une liste sélectionnée de ressources, d'outils et de supports d'apprentissage sur l'ingénierie du chaos.", "sourceDigest": "969f1be06dd93be332f1f53c7382eee9f99e3750f9edf3516c5279b695fd9e67", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "de-DE":   { "title": "Chaos Engineering", "description": "Eine kuratierte Liste von Ressourcen, Werkzeugen und Lernmaterialien zur Chaos Engineering.", "sourceDigest": "969f1be06dd93be332f1f53c7382eee9f99e3750f9edf3516c5279b695fd9e67", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "es-ES":   { "title": "Chaos Engineering", "description": "Una lista curada de recursos, herramientas y materiales de aprendizaje sobre ingeniería del caos.", "sourceDigest": "969f1be06dd93be332f1f53c7382eee9f99e3750f9edf3516c5279b695fd9e67", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "ja-JP":   { "title": "Chaos Engineering", "description": "カオスエンジニアリングに関するリソース、ツール、学習資料を厳選したリスト。", "sourceDigest": "969f1be06dd93be332f1f53c7382eee9f99e3750f9edf3516c5279b695fd9e67", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "ko-KR":   { "title": "Chaos Engineering", "description": "카오스 엔지니어링 관련 리소스, 도구 및 학습 자료를 큐레이션한 목록.", "sourceDigest": "969f1be06dd93be332f1f53c7382eee9f99e3750f9edf3516c5279b695fd9e67", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "pt-BR":   { "title": "Chaos Engineering", "description": "Uma lista selecionada de recursos, ferramentas e materiais de aprendizado sobre engenharia do caos.", "sourceDigest": "969f1be06dd93be332f1f53c7382eee9f99e3750f9edf3516c5279b695fd9e67", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "ru-RU":   { "title": "Chaos Engineering", "description": "Подборка ресурсов, инструментов и учебных материалов по инженерии хаоса.", "sourceDigest": "969f1be06dd93be332f1f53c7382eee9f99e3750f9edf3516c5279b695fd9e67", "isAITranslation": true, "reviewStatus": "reviewed" }
+  }
+}

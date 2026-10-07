@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Agentic AI (Chinese)",
+      "description": "一份面向中文学习者的、精选并有序编排的智能体（Agentic AI）学习路线图与资源清单。",
+      "sourceDigest": "da1dbaf2dd24170e68d08bcec21764db297cab5216ef2c9ad68d95b265f30e7b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Agentic AI (Chinese)",
+      "description": "一份面向中文學習者的、精選並有序編排的 Agentic AI（智能體）學習路線圖與資源清單。",
+      "sourceDigest": "da1dbaf2dd24170e68d08bcec21764db297cab5216ef2c9ad68d95b265f30e7b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Agentic AI (Chinese)",
+      "description": "Une feuille de route d'apprentissage structurée et sélectionnée pour l'Agentic AI, orientée vers les apprenants sinophones.",
+      "sourceDigest": "da1dbaf2dd24170e68d08bcec21764db297cab5216ef2c9ad68d95b265f30e7b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Agentic AI (Chinese)",
+      "description": "Eine kuratierte, strukturierte Lernroadmap für Agentic AI, ausgerichtet auf chinesischsprachige Lernende.",
+      "sourceDigest": "da1dbaf2dd24170e68d08bcec21764db297cab5216ef2c9ad68d95b265f30e7b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Agentic AI (Chinese)",
+      "description": "Una hoja de ruta de aprendizaje estructurada y seleccionada para Agentic AI, orientada a estudiantes de habla china.",
+      "sourceDigest": "da1dbaf2dd24170e68d08bcec21764db297cab5216ef2c9ad68d95b265f30e7b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Agentic AI (Chinese)",
+      "description": "中国語話者の学習者向けに構成された、Agentic AI の厳選・体系的学習ロードマップとリソース集。",
+      "sourceDigest": "da1dbaf2dd24170e68d08bcec21764db297cab5216ef2c9ad68d95b265f30e7b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Agentic AI (Chinese)",
+      "description": "중국어 사용 학습자를 위해 엄선되고 체계적으로 구성된 Agentic AI 학습 로드맵 및 자원 목록.",
+      "sourceDigest": "da1dbaf2dd24170e68d08bcec21764db297cab5216ef2c9ad68d95b265f30e7b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Agentic AI (Chinese)",
+      "description": "Um roteiro de aprendizagem estruturado e selecionado para Agentic AI, voltado a estudantes de língua chinesa.",
+      "sourceDigest": "da1dbaf2dd24170e68d08bcec21764db297cab5216ef2c9ad68d95b265f30e7b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Agentic AI (Chinese)",
+      "description": "Курируемая и структурированная учебная дорожная карта по Agentic AI для китайскоязычных читателей.",
+      "sourceDigest": "da1dbaf2dd24170e68d08bcec21764db297cab5216ef2c9ad68d95b265f30e7b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

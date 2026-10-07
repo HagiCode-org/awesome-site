@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Chrome DevTools",
+      "description": "围绕 Chrome DevTools 与 Chrome DevTools 协议构建的工具、协议驱动、追踪查看器及独立前端的精选列表。",
+      "sourceDigest": "d0232ee72e46c0a66801e97010bd760f5b78c747bfc7e59f279aba2d428a7c9d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Chrome DevTools",
+      "description": "圍繞 Chrome DevTools 與 Chrome DevTools 協定建構的工具、協定驅動、追蹤檢視器及獨立前端的精選清單。",
+      "sourceDigest": "d0232ee72e46c0a66801e97010bd760f5b78c747bfc7e59f279aba2d428a7c9d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Chrome DevTools",
+      "description": "Une liste sélectionnée d'outils, de pilotes de protocole, de visualiseurs de traces et de frontends autonomes construits autour de Chrome DevTools.",
+      "sourceDigest": "d0232ee72e46c0a66801e97010bd760f5b78c747bfc7e59f279aba2d428a7c9d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Chrome DevTools",
+      "description": "Eine kuratierte Liste von Werkzeugen, Protokoll-Treibern, Trace-Viewern und eigenständigen Frontends rund um Chrome DevTools.",
+      "sourceDigest": "d0232ee72e46c0a66801e97010bd760f5b78c747bfc7e59f279aba2d428a7c9d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Chrome DevTools",
+      "description": "Una lista curada de herramientas, controladores de protocolo, visualizadores de trazas y frontends independientes construidos en torno a Chrome DevTools.",
+      "sourceDigest": "d0232ee72e46c0a66801e97010bd760f5b78c747bfc7e59f279aba2d428a7c9d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Chrome DevTools",
+      "description": "Chrome DevTools を中心に構築されたツール、プロトコルドライバー、トレースビューア、スタンドアローンフロントエンドの厳選リスト。",
+      "sourceDigest": "d0232ee72e46c0a66801e97010bd760f5b78c747bfc7e59f279aba2d428a7c9d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Chrome DevTools",
+      "description": "Chrome DevTools를 중심으로 구축된 도구, 프로토콜 드라이버, 트레이스 뷰어, 독립형 프론트엔드의 엄선된 목록.",
+      "sourceDigest": "d0232ee72e46c0a66801e97010bd760f5b78c747bfc7e59f279aba2d428a7c9d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Chrome DevTools",
+      "description": "Uma lista selecionada de ferramentas, drivers de protocolo, visualizadores de trace e frontends independentes construídos em torno do Chrome DevTools.",
+      "sourceDigest": "d0232ee72e46c0a66801e97010bd760f5b78c747bfc7e59f279aba2d428a7c9d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Chrome DevTools",
+      "description": "Подборка инструментов, драйверов протокола, средств просмотра трассировок и автономных фронтендов, созданных вокруг Chrome DevTools.",
+      "sourceDigest": "d0232ee72e46c0a66801e97010bd760f5b78c747bfc7e59f279aba2d428a7c9d",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

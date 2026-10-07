@@ -1,92 +1,27 @@
 - id: android-security-awesome
   source: https://github.com/ashishb/android-security-awesome
   title: Android Security Awesome
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  imported: true
+  notImportedReason: null
   importedAt: null
-  reviewedAt: "2026-10-06T20:13:23Z"
-  revision: eb95fe860b3a3a024f4d6daed143d2833d0a7a6a
-  readmePath: README.md
-  readmeBlob: 6edc943529e2a8d6a1fbd0602f6f6071a2665fff
-  licensePath: LICENSE
-  licenseBlob: ad410e11302107da9aa47ce3d46bd5ad011c4c43
-  licenseId: Apache-2.0
-  readmeNotice: none-detected
-  localAssetReferences: 0
-  externalAssetReferences: 8
-  externalAssetHosts:
-    - api.star-history.com
-    - cdn.rawgit.com
-    - github.com
-    - img.shields.io
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-3d-gaussian-splatting
   source: https://github.com/MrNeRF/awesome-3D-gaussian-splatting
   title: Awesome 3D Gaussian Splatting
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  imported: true
+  notImportedReason: null
   importedAt: null
-  reviewedAt: "2026-10-06T20:13:23Z"
-  revision: e945732c972fc1a8444244cecc12c9d6e42c4782
-  readmePath: README.md
-  readmeBlob: 722844e2117704391a2aaaa10b3dd8c617aa992a
-  licensePath: LICENSE
-  licenseBlob: dd52bcd94a54ae59393be1955092bbd7d0ca8511
-  licenseId: MIT
-  readmeNotice: none-detected
-  localAssetReferences: 0
-  externalAssetReferences: 0
-  externalAssetHosts: []
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-actions
   source: https://github.com/sdras/awesome-actions
   title: Awesome Actions
   imported: true
   notImportedReason: null
   importedAt: null
-- id: awesome-agent-skills
-  source: https://github.com/VoltAgent/awesome-agent-skills
-  title: Awesome Agent Skills
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
-  importedAt: null
-  reviewedAt: "2026-10-04T05:33:15Z"
-  revision: fd4c28d3be5576a88b1a0b0c4f5267c448d94ef5
-  readmePath: README.md
-  readmeBlob: aa187e84c4b0bdfa615e0e581d67767d0fa0aeae
-  licensePath: LICENSE
-  licenseBlob: a0d0a9bbe350d5c6f22a61ca408364e1c36c964d
-  licenseId: MIT
-  readmeNotice: none-detected
-  localAssetReferences: 0
-  externalAssetReferences: 13
-  externalAssetHosts:
-    - awesome.re
-    - cdn.voltagent.dev
-    - contrib.rocks
-    - github.com
-    - img.shields.io
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-agentic-ai-zh
   source: https://github.com/WenyuChiou/awesome-agentic-ai-zh
   title: Awesome Agentic AI (Chinese)
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  imported: true
+  notImportedReason: null
   importedAt: null
-  reviewedAt: "2026-10-06T20:13:23Z"
-  revision: f4282ac68907db2c82809c9cbfc5ba8af3d93ca6
-  readmePath: README.md
-  readmeBlob: 2863dea1940d79e9158a86402fc717df0dadd17e
-  licensePath: LICENSE
-  licenseBlob: c71119323e8397ed3307004e4ecce4f0dca92908
-  licenseId: MIT
-  readmeNotice: none-detected
-  localAssetReferences: 3
-  externalAssetReferences: 7
-  externalAssetHosts:
-    - contrib.rocks
-    - img.shields.io
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-agentic-patterns
   source: https://github.com/nibzard/awesome-agentic-patterns
   title: Awesome Agentic Patterns
@@ -102,30 +37,9 @@
 - id: awesome-ai-apps
   source: https://github.com/Arindam200/awesome-ai-apps
   title: Awesome AI Apps
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  imported: true
+  notImportedReason: null
   importedAt: null
-  reviewedAt: "2026-10-06T20:13:23Z"
-  revision: 276e635f3f2bf3212359d37709f09d1fab6ba313
-  readmePath: README.md
-  readmeBlob: 2efacd7c4a91ffdcc36c5e4eba7cb75febc56570
-  licensePath: LICENSE
-  licenseBlob: c1bcb65f6f0736abe6efad76f78b844a18644fba
-  licenseId: MIT
-  readmeNotice: explicit-mit-license-reference
-  localAssetReferences: 7
-  externalAssetReferences: 12
-  externalAssetHosts:
-    - avatars.githubusercontent.com
-    - awesome.re
-    - byteful.com
-    - github.com
-    - img.shields.io
-    - raw.githubusercontent.com
-    - star-history.dera.page
-    - trendshift.io
-    - upload.wikimedia.org
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-ai-tools
   source: https://github.com/mahseema/awesome-ai-tools
   title: Awesome AI Tools
@@ -347,22 +261,9 @@
 - id: awesome-chaos-engineering
   source: https://github.com/dastergon/awesome-chaos-engineering
   title: Awesome Chaos Engineering
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  imported: true
+  notImportedReason: null
   importedAt: null
-  reviewedAt: "2026-10-06T20:13:23Z"
-  revision: 1da63559c6f31abfa9ecfc34cdea7ba0e61e43ed
-  readmePath: README.md
-  readmeBlob: f7f9e9d2912be2d02eee22babb5bd4e37417e0f2
-  licensePath: LICENSE
-  licenseBlob: 670154e3538863b2d9891fd5483160fbdfc89164
-  licenseId: CC0-1.0
-  readmeNotice: none-detected
-  localAssetReferences: 0
-  externalAssetReferences: 1
-  externalAssetHosts:
-    - cdn.rawgit.com
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-chatgpt-prompts-zh
   source: https://github.com/PlexPt/awesome-chatgpt-prompts-zh
   title: Awesome ChatGPT Prompts (Chinese)
@@ -394,41 +295,15 @@
 - id: awesome-chinese-nlp
   source: https://github.com/crownpku/Awesome-Chinese-NLP
   title: Awesome Chinese NLP
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  imported: true
+  notImportedReason: null
   importedAt: null
-  reviewedAt: "2026-10-06T20:13:23Z"
-  revision: 923e20ae68723d30a62fc48d3e552bf3ba6a0829
-  readmePath: README.md
-  readmeBlob: ac03d0fe720166390c3546f8a50ee28d702420d2
-  licensePath: LICENSE
-  licenseBlob: 261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64
-  licenseId: Apache-2.0
-  readmeNotice: none-detected
-  localAssetReferences: 1
-  externalAssetReferences: 1
-  externalAssetHosts:
-    - awesome.re
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-chrome-devtools
   source: https://github.com/ChromeDevTools/awesome-chrome-devtools
   title: Awesome Chrome DevTools
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  imported: true
+  notImportedReason: null
   importedAt: null
-  reviewedAt: "2026-10-06T20:13:23Z"
-  revision: 237471d0162ab53901ad0a813c802e6773169af0
-  readmePath: readme.md
-  readmeBlob: 18ff8154110818897c9eac9a259c44ea45f0f720
-  licensePath: LICENSE
-  licenseBlob: 670154e3538863b2d9891fd5483160fbdfc89164
-  licenseId: CC0-1.0
-  readmeNotice: none-detected
-  localAssetReferences: 0
-  externalAssetReferences: 1
-  externalAssetHosts:
-    - awesome.re
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-claude-code-subagents
   source: https://github.com/VoltAgent/awesome-claude-code-subagents
   title: Awesome Claude Code Subagents
@@ -473,25 +348,9 @@
 - id: awesome-codex-subagents
   source: https://github.com/VoltAgent/awesome-codex-subagents
   title: Awesome Codex Subagents
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  imported: true
+  notImportedReason: null
   importedAt: null
-  reviewedAt: "2026-10-06T20:13:23Z"
-  revision: 16f880a2a0486f880da75d2baffcd68af4cc4811
-  readmePath: README.md
-  readmeBlob: 63b1f94fd71a573ad32e811bd2ceb702babcb676
-  licensePath: LICENSE
-  licenseBlob: 5cea5d78a41df83eafe1fb9fc0710675a5b7acf6
-  licenseId: MIT
-  readmeNotice: none-detected
-  localAssetReferences: 0
-  externalAssetReferences: 12
-  externalAssetHosts:
-    - awesome.re
-    - cdn.voltagent.dev
-    - github.com
-    - img.shields.io
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-compose
   source: https://github.com/docker/awesome-compose
   title: Awesome Compose
@@ -507,88 +366,21 @@
 - id: awesome-console-services
   source: https://github.com/chubin/awesome-console-services
   title: Awesome Console Services
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  imported: true
+  notImportedReason: null
   importedAt: null
-  reviewedAt: "2026-10-06T20:13:23Z"
-  revision: c87505129445557a9de428556e815c75faf464e1
-  readmePath: README.md
-  readmeBlob: 85db7a6e4cbe1d222bc4d438119abbde29e0bfa8
-  licensePath: LICENSE
-  licenseBlob: ba49180689a46e36d063cb00dfc40e27c08f1212
-  licenseId: MIT
-  readmeNotice: none-detected
-  localAssetReferences: 0
-  externalAssetReferences: 1
-  externalAssetHosts:
-    - cdn.rawgit.com
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
-- id: awesome-copilot
-  source: https://github.com/github/awesome-copilot
-  title: Awesome Copilot
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
-  importedAt: null
-  reviewedAt: "2026-10-04T05:33:15Z"
-  revision: 143a3d976b3c1603cc8932984d5e1f28501cb5fc
-  readmePath: README.md
-  readmeBlob: be19eb08c928ef5998b149b209798f937d99e70a
-  licensePath: LICENSE
-  licenseBlob: 89bc5e962c9944cdb050887062afdaaf89be504a
-  licenseId: MIT
-  readmeNotice: third-party-trademark-warning
-  localAssetReferences: 0
-  externalAssetReferences: 381
-  externalAssetHosts:
-    - avatars.githubusercontent.com
-    - img.shields.io
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-coreml-models
   source: https://github.com/likedan/Awesome-CoreML-Models
   title: Awesome Core ML Models
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  imported: true
+  notImportedReason: null
   importedAt: null
-  reviewedAt: "2026-10-06T20:13:23Z"
-  revision: f65751092d0ba1e3a8e83c8351f46bfd54606a91
-  readmePath: README.md
-  readmeBlob: 42e9b21beaade6218f7b6811424d5b929d106253
-  licensePath: LICENSE.txt
-  licenseBlob: 8ecfb21c45d9844bbf055bbe9fc6882dce2624a1
-  licenseId: MIT
-  readmeNotice: none-detected
-  localAssetReferences: 1
-  externalAssetReferences: 2
-  externalAssetHosts:
-    - cdn.rawgit.com
-    - img.shields.io
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-courses
   source: https://github.com/prakhar1989/awesome-courses
   title: Awesome Courses
   imported: false
   notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
   importedAt: null
-- id: awesome-cpp
-  source: https://github.com/fffaraz/awesome-cpp
-  title: Awesome C++
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
-  importedAt: null
-  reviewedAt: "2026-10-04T05:33:15Z"
-  revision: e724f64ef0c167a23110dadc19eb9336a174aed4
-  readmePath: README.md
-  readmeBlob: 10e52c0488779575c6a52270933f9fbe3b297af0
-  licensePath: LICENSE
-  licenseBlob: 5c34c8d99f0c3a39f05186a88367ba6c183ddefc
-  licenseId: MIT
-  readmeNotice: none-detected
-  localAssetReferences: 0
-  externalAssetReferences: 2
-  externalAssetHosts:
-    - awesome.re
-    - www.trackawesomelist.com
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-ctf
   source: https://github.com/apsdehal/awesome-ctf
   title: Awesome CTF
@@ -633,31 +425,6 @@
   externalAssetReferences: 1
   externalAssetHosts:
     - awesome.re
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
-- id: awesome-datascience
-  source: https://github.com/academic/awesome-datascience
-  title: Awesome Data Science
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
-  importedAt: null
-  reviewedAt: "2026-10-04T05:33:15Z"
-  revision: ccc90503018edf1d32a1c8790ffdc8705a817e99
-  readmePath: README.md
-  readmeBlob: 649a151e48000346a72420a6e9a7419d6cab3da1
-  licensePath: LICENSE
-  licenseBlob: 1dadb90ebadc43870639fce01ae0f87c71ba55a6
-  licenseId: MIT
-  readmeNotice: none-detected
-  localAssetReferences: 1
-  externalAssetReferences: 16
-  externalAssetHosts:
-    - cdn.jsdelivr.net
-    - cloud.githubusercontent.com
-    - data-literacy.geckoboard.com
-    - i.imgur.com
-    - raw.githubusercontent.com
-    - scikit-learn.org
-    - www.springboard.com
   disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-db
   source: https://github.com/numetriclabz/awesome-db
@@ -977,21 +744,9 @@
 - id: awesome-jellyfin
   source: https://github.com/awesome-jellyfin/awesome-jellyfin
   title: Awesome Jellyfin
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  imported: true
+  notImportedReason: null
   importedAt: null
-  reviewedAt: "2026-10-06T20:13:23Z"
-  revision: 36a6a3f7b2bbd9b0d3ea81db136bce709ce3cf94
-  readmePath: README.md
-  readmeBlob: ed6216e21507092799935e0ca7839139beb306e7
-  licensePath: LICENSE
-  licenseBlob: 0e259d42c996742e9e3cba14c677129b2c1b6311
-  licenseId: CC0-1.0
-  readmeNotice: none-detected
-  localAssetReferences: 1
-  externalAssetReferences: 0
-  externalAssetHosts: []
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-k8s-resources
   source: https://github.com/tomhuang12/awesome-k8s-resources
   title: Awesome Kubernetes Resources
@@ -1334,49 +1089,6 @@
   imported: true
   notImportedReason: null
   importedAt: null
-- id: awesome-privacy
-  source: https://github.com/pluja/awesome-privacy
-  title: Awesome Privacy
-  imported: false
-  notImportedReason: "Not hosted: source safety and translation review remain pending."
-  importedAt: null
-  reviewedAt: "2026-10-04T05:33:15Z"
-  revision: c42699ca52f13666c8e1a04837bed7093cd5d53f
-  readmePath: README.md
-  readmeBlob: da260a95d9a880fe09c171fe808e3713553e6890
-  licensePath: LICENSE
-  licenseBlob: 0e259d42c996742e9e3cba14c677129b2c1b6311
-  licenseId: CC0-1.0
-  readmeNotice: third-party-license-references
-  localAssetReferences: 1
-  externalAssetReferences: 26
-  externalAssetHosts:
-    - awesome.re
-    - img.shields.io
-    - shields.tosdr.org
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
-- id: awesome-production-machine-learning
-  source: https://github.com/EthicalML/awesome-production-machine-learning
-  title: Awesome Production Machine Learning
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
-  importedAt: null
-  reviewedAt: "2026-10-04T05:33:15Z"
-  revision: 4efc0a16249c6a3a67561faa7975507d2fcd756e
-  readmePath: README.md
-  readmeBlob: 051b3ae8090a0232efeacb12b1e4753a5cf44658
-  licensePath: LICENSE
-  licenseBlob: c5b2c1db27aa9bcdd126e3cfb6272d4f8c29d65c
-  licenseId: MIT
-  readmeNotice: none-detected
-  localAssetReferences: 3
-  externalAssetReferences: 520
-  externalAssetHosts:
-    - awesome.re
-    - contrib.rocks
-    - img.shields.io
-    - star-history.dera.page
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-project-ideas
   source: https://github.com/NirantK/awesome-project-ideas
   title: Awesome Project Ideas
@@ -1436,22 +1148,9 @@
 - id: awesome-react-hooks
   source: https://github.com/rehooks/awesome-react-hooks
   title: Awesome React Hooks
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  imported: true
+  notImportedReason: null
   importedAt: null
-  reviewedAt: "2026-10-06T20:13:23Z"
-  revision: 33424d3e810c864ca69e379b74d195094b08a8e3
-  readmePath: README.md
-  readmeBlob: 8186f6d5afd2b25b956124f3254a2d03454e1572
-  licensePath: LICENSE
-  licenseBlob: 0e259d42c996742e9e3cba14c677129b2c1b6311
-  licenseId: CC0-1.0
-  readmeNotice: none-detected
-  localAssetReferences: 0
-  externalAssetReferences: 1
-  externalAssetHosts:
-    - awesome.re
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-react-native
   source: https://github.com/jondot/awesome-react-native
   title: Awesome React Native
@@ -1461,21 +1160,9 @@
 - id: awesome-red-teaming
   source: https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
   title: Awesome Red Teaming
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  imported: true
+  notImportedReason: null
   importedAt: null
-  reviewedAt: "2026-10-06T20:13:23Z"
-  revision: 1075eed002871aa5bf30b8b6f66a03956840f351
-  readmePath: README.md
-  readmeBlob: df385d5532c785ce2367550d9249272ef6068b87
-  licensePath: LICENSE
-  licenseBlob: f1bd11f496f5babfbb0d831159ad7436bb9a0e9b
-  licenseId: MIT
-  readmeNotice: none-detected
-  localAssetReferences: 0
-  externalAssetReferences: 0
-  externalAssetHosts: []
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-redis
   source: https://github.com/JamzyWang/awesome-redis
   title: Awesome Redis
@@ -1494,37 +1181,6 @@
   imported: false
   notImportedReason: "Excluded from the license-qualified candidate set: no LICENSE file was found."
   importedAt: null
-- id: awesome-rust
-  source: https://github.com/rust-unofficial/awesome-rust
-  title: Awesome Rust
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
-  importedAt: null
-  reviewedAt: "2026-10-04T05:33:15Z"
-  revision: 9b97e64101f6361b08b2c2d07bd45d6809eb286f
-  readmePath: README.md
-  readmeBlob: 64f00bd848ad2dabb9b7ab6e6af170ba95249f20
-  licensePath: LICENSE.txt
-  licenseBlob: 0e259d42c996742e9e3cba14c677129b2c1b6311
-  licenseId: CC0-1.0
-  readmeNotice: third-party-license-references
-  localAssetReferences: 0
-  externalAssetReferences: 704
-  externalAssetHosts:
-    - api.securityscorecards.dev
-    - ci.appveyor.com
-    - circleci.com
-    - cloud.drone.io
-    - dev.azure.com
-    - github.com
-    - gitlab.com
-    - img.shields.io
-    - licensebuttons.net
-    - shields.io
-    - woodpecker.deuxfleurs.fr
-    - www.bestpractices.dev
-    - www.trackawesomelist.com
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-scalability
   source: https://github.com/binhnguyennus/awesome-scalability
   title: Awesome Scalability
@@ -1587,23 +1243,9 @@
 - id: awesome-shodan-queries
   source: https://github.com/jakejarvis/awesome-shodan-queries
   title: Awesome Shodan Queries
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  imported: true
+  notImportedReason: null
   importedAt: null
-  reviewedAt: "2026-10-06T20:13:23Z"
-  revision: b3439d187b037211b98ac6c12b94a7bdf43af729
-  readmePath: readme.md
-  readmeBlob: 23462b07464f71e5307b67d87b4cd9eb0ec88f9f
-  licensePath: license.md
-  licenseBlob: 670154e3538863b2d9891fd5483160fbdfc89164
-  licenseId: CC0-1.0
-  readmeNotice: explicit-cc0-waiver
-  localAssetReferences: 30
-  externalAssetReferences: 2
-  externalAssetHosts:
-    - awesome.re
-    - mirrors.creativecommons.org
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-software-architecture
   source: https://github.com/mehdihadeli/awesome-software-architecture
   title: Awesome Software Architecture
@@ -1616,26 +1258,6 @@
   imported: true
   notImportedReason: null
   importedAt: null
-- id: awesome-swift
-  source: https://github.com/matteocrippa/awesome-swift
-  title: Awesome Swift
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
-  importedAt: null
-  reviewedAt: "2026-10-04T05:33:15Z"
-  revision: d042674e19d2aa376b2ff6198fc1af73091d97d0
-  readmePath: README.md
-  readmeBlob: cd4a94d6070bfbad96c02c85eaa75ce07cf6a341
-  licensePath: LICENSE
-  licenseBlob: 3bbbc1ee92562e6a2eebfc6a366f4309d06c7d54
-  licenseId: CC0-1.0
-  readmeNotice: none-detected
-  localAssetReferences: 0
-  externalAssetReferences: 2
-  externalAssetHosts:
-    - cdn.rawgit.com
-    - github.com
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-sysadmin
   source: https://github.com/awesome-foss/awesome-sysadmin
   title: Awesome Sysadmin
@@ -1747,21 +1369,9 @@
 - id: awesome-web-hacking
   source: https://github.com/infoslack/awesome-web-hacking
   title: Awesome Web Hacking
-  imported: false
-  notImportedReason: "Pending source review and publication prerequisites."
+  imported: true
+  notImportedReason: null
   importedAt: null
-  reviewedAt: "2026-10-06T20:13:23Z"
-  revision: 89b0179c90517e518e27ec37b679201ce06aebc2
-  readmePath: README.md
-  readmeBlob: abbc1a951a6fe66d0cb6eeb7327c6c966eb6a1cc
-  licensePath: LICENSE
-  licenseBlob: c872dc4657090ce241e603ba770baa9d28cf14a4
-  licenseId: MIT
-  readmeNotice: none-detected
-  localAssetReferences: 0
-  externalAssetReferences: 0
-  externalAssetHosts: []
-  disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
 - id: awesome-wpo
   source: https://github.com/davidsonfellipe/awesome-wpo
   title: Awesome WPO
@@ -1800,3 +1410,59 @@
   externalAssetReferences: 0
   externalAssetHosts: []
   disposition: github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared
+
+- id: awesome-agent-skills
+  source: https://github.com/VoltAgent/awesome-agent-skills
+  title: Awesome Agent Skills
+  imported: true
+  notImportedReason: null
+  importedAt: null
+
+- id: awesome-copilot
+  source: https://github.com/github/awesome-copilot
+  title: Awesome Copilot
+  imported: true
+  notImportedReason: null
+  importedAt: null
+
+- id: awesome-cpp
+  source: https://github.com/fffaraz/awesome-cpp
+  title: Awesome C++
+  imported: true
+  notImportedReason: null
+  importedAt: null
+
+- id: awesome-datascience
+  source: https://github.com/academic/awesome-datascience
+  title: Awesome Data Science
+  imported: true
+  notImportedReason: null
+  importedAt: null
+
+- id: awesome-privacy
+  source: https://github.com/pluja/awesome-privacy
+  title: Awesome Privacy
+  imported: true
+  notImportedReason: null
+  importedAt: null
+
+- id: awesome-production-machine-learning
+  source: https://github.com/EthicalML/awesome-production-machine-learning
+  title: Awesome Production Machine Learning
+  imported: true
+  notImportedReason: null
+  importedAt: null
+
+- id: awesome-rust
+  source: https://github.com/rust-unofficial/awesome-rust
+  title: Awesome Rust
+  imported: true
+  notImportedReason: null
+  importedAt: null
+
+- id: awesome-swift
+  source: https://github.com/matteocrippa/awesome-swift
+  title: Awesome Swift
+  imported: true
+  notImportedReason: null
+  importedAt: null

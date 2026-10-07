@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "AI Apps",
+      "description": "精选的 AI 应用、教程与配方合集，用于构建由 LLM 驱动的应用。",
+      "sourceDigest": "faef049a4987df57100d4da45d8bddca5aea6657b4729088fdc4c26cbd530e47",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "AI Apps",
+      "description": "精選的 AI 應用、教學與配方合集，用於建構由 LLM 驅動的應用。",
+      "sourceDigest": "faef049a4987df57100d4da45d8bddca5aea6657b4729088fdc4c26cbd530e47",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "AI Apps",
+      "description": "Une collection curée d'applications d'IA, de tutoriels et de recettes pour construire des applications propulsées par les LLM.",
+      "sourceDigest": "faef049a4987df57100d4da45d8bddca5aea6657b4729088fdc4c26cbd530e47",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "AI Apps",
+      "description": "Eine kuratierte Sammlung von KI-Anwendungen, Tutorials und Rezepten zum Erstellen LLM-betriebener Anwendungen.",
+      "sourceDigest": "faef049a4987df57100d4da45d8bddca5aea6657b4729088fdc4c26cbd530e47",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "AI Apps",
+      "description": "Una colección curada de aplicaciones de IA, tutoriales y recetas para construir aplicaciones impulsadas por LLM.",
+      "sourceDigest": "faef049a4987df57100d4da45d8bddca5aea6657b4729088fdc4c26cbd530e47",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "AI Apps",
+      "description": "LLM 駆動のアプリケーションを構築するための AI アプリ、チュートリアル、レシピをまとめたキュレートされたリスト。",
+      "sourceDigest": "faef049a4987df57100d4da45d8bddca5aea6657b4729088fdc4c26cbd530e47",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "AI Apps",
+      "description": "LLM 기반 애플리케이션을 구축하기 위한 AI 앱, 튜토리얼, 레시피를 모아둔 큐레이션 목록입니다.",
+      "sourceDigest": "faef049a4987df57100d4da45d8bddca5aea6657b4729088fdc4c26cbd530e47",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "AI Apps",
+      "description": "Uma coleção curada de aplicativos de IA, tutoriais e receitas para construir aplicações impulsionadas por LLM.",
+      "sourceDigest": "faef049a4987df57100d4da45d8bddca5aea6657b4729088fdc4c26cbd530e47",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "AI Apps",
+      "description": "Курируемая подборка AI-приложений, учебных пособий и рецептов для создания приложений на базе LLM.",
+      "sourceDigest": "faef049a4987df57100d4da45d8bddca5aea6657b4729088fdc4c26cbd530e47",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

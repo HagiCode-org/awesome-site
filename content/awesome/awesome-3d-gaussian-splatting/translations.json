@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "3D Gaussian Splatting",
+      "description": "3D Gaussian Splatting（3DGS）及相关技术的精选资源合集。",
+      "sourceDigest": "aef9c8a3a5106f92be19da7176dd917076587949e87a302cda507803dd1a8f74",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "3D Gaussian Splatting",
+      "description": "3D Gaussian Splatting（3DGS）及相關技術的精選資源合集。",
+      "sourceDigest": "aef9c8a3a5106f92be19da7176dd917076587949e87a302cda507803dd1a8f74",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "3D Gaussian Splatting",
+      "description": "Une liste sélectionnée de ressources sur le 3D Gaussian Splatting (3DGS) et les technologies associées.",
+      "sourceDigest": "aef9c8a3a5106f92be19da7176dd917076587949e87a302cda507803dd1a8f74",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "3D Gaussian Splatting",
+      "description": "Eine kuratierte Sammlung von Ressourcen rund um 3D Gaussian Splatting (3DGS) und verwandte Technologien.",
+      "sourceDigest": "aef9c8a3a5106f92be19da7176dd917076587949e87a302cda507803dd1a8f74",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "3D Gaussian Splatting",
+      "description": "Una lista curada de recursos centrados en el 3D Gaussian Splatting (3DGS) y tecnologías relacionadas.",
+      "sourceDigest": "aef9c8a3a5106f92be19da7176dd917076587949e87a302cda507803dd1a8f74",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "3D Gaussian Splatting",
+      "description": "3D Gaussian Splatting（3DGS）および関連技術に焦点を当てた厳選されたリソース集。",
+      "sourceDigest": "aef9c8a3a5106f92be19da7176dd917076587949e87a302cda507803dd1a8f74",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "3D Gaussian Splatting",
+      "description": "3D Gaussian Splatting(3DGS) 및 관련 기술에 집중한 엄선된 리소스 모음입니다.",
+      "sourceDigest": "aef9c8a3a5106f92be19da7176dd917076587949e87a302cda507803dd1a8f74",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "3D Gaussian Splatting",
+      "description": "Uma lista curada de recursos focados no 3D Gaussian Splatting (3DGS) e tecnologias relacionadas.",
+      "sourceDigest": "aef9c8a3a5106f92be19da7176dd917076587949e87a302cda507803dd1a8f74",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "3D Gaussian Splatting",
+      "description": "Подборка ресурсов, посвящённых 3D Gaussian Splatting (3DGS) и смежным технологиям.",
+      "sourceDigest": "aef9c8a3a5106f92be19da7176dd917076587949e87a302cda507803dd1a8f74",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

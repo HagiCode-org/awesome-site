@@ -1,0 +1,13 @@
+{
+  "translations": {
+    "zh-CN":   { "title": "Codex Subagents", "description": "按 13 个分类整理的 175+ 个 Codex 子代理（专为 Codex 设计的 AI 助手定义）精选清单。", "sourceDigest": "d6d2b4a3833ff22de1b6f1c7fb031e88d56bdb216867cc2a00a2399e288f6b4f", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "zh-Hant": { "title": "Codex Subagents", "description": "精選整理 13 個分類、175+ 個 Codex 子代理（專為 Codex 設計的 AI 助手定義）的清單。", "sourceDigest": "d6d2b4a3833ff22de1b6f1c7fb031e88d56bdb216867cc2a00a2399e288f6b4f", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "fr-FR":   { "title": "Codex Subagents", "description": "Une sélection organisée de plus de 175 définitions de sous-agents Codex (assistants IA conçus pour Codex) réparties en 13 catégories.", "sourceDigest": "d6d2b4a3833ff22de1b6f1c7fb031e88d56bdb216867cc2a00a2399e288f6b4f", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "de-DE":   { "title": "Codex Subagents", "description": "Eine kuratierte Liste von über 175 Codex-Subagenten (für Codex entworfenen KI-Assistenten-Definitionen) in 13 Kategorien.", "sourceDigest": "d6d2b4a3833ff22de1b6f1c7fb031e88d56bdb216867cc2a00a2399e288f6b4f", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "es-ES":   { "title": "Codex Subagents", "description": "Una lista curada de más de 175 definiciones de subagentes Codex (asistentes de IA diseñados para Codex) en 13 categorías.", "sourceDigest": "d6d2b4a3833ff22de1b6f1c7fb031e88d56bdb216867cc2a00a2399e288f6b4f", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "ja-JP":   { "title": "Codex Subagents", "description": "Codex 向けに設計された AI アシスタント定義である 175 以上の Codex サブエージェントを 13 カテゴリにまとめたキュレーションリスト。", "sourceDigest": "d6d2b4a3833ff22de1b6f1c7fb031e88d56bdb216867cc2a00a2399e288f6b4f", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "ko-KR":   { "title": "Codex Subagents", "description": "Codex를 위해 설계된 AI 어시스턴트 정의인 175개 이상의 Codex 서브에이전트를 13개 분야로 정리한 큐레이션 목록.", "sourceDigest": "d6d2b4a3833ff22de1b6f1c7fb031e88d56bdb216867cc2a00a2399e288f6b4f", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "pt-BR":   { "title": "Codex Subagents", "description": "Uma lista organizada de mais de 175 definições de subagentes Codex (assistentes de IA projetados para o Codex) em 13 categorias.", "sourceDigest": "d6d2b4a3833ff22de1b6f1c7fb031e88d56bdb216867cc2a00a2399e288f6b4f", "isAITranslation": true, "reviewStatus": "reviewed" },
+    "ru-RU":   { "title": "Codex Subagents", "description": "Курируемый список из более чем 175 определений Codex-сабагентов (ИИ-ассистентов, созданных для Codex) в 13 категориях.", "sourceDigest": "d6d2b4a3833ff22de1b6f1c7fb031e88d56bdb216867cc2a00a2399e288f6b4f", "isAITranslation": true, "reviewStatus": "reviewed" }
+  }
+}
