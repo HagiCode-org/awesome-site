@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Privacy",
+      "description": "精选的隐私工具、指南与资源合集。",
+      "sourceDigest": "b2cee1b958bf0fdc261e55823ad4fdfa164da088c52e839561d054e668175247",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "zh-Hant": {
+      "title": "Privacy",
+      "description": "精選的隱私工具、指南與資源合集。",
+      "sourceDigest": "b2cee1b958bf0fdc261e55823ad4fdfa164da088c52e839561d054e668175247",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "fr-FR": {
+      "title": "Privacy",
+      "description": "Une liste curée d'outils, de guides et de ressources sur la confidentialité.",
+      "sourceDigest": "b2cee1b958bf0fdc261e55823ad4fdfa164da088c52e839561d054e668175247",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "de-DE": {
+      "title": "Privacy",
+      "description": "Eine kuratierte Liste von Datenschutz-Tools, -Leitfäden und -Ressourcen。",
+      "sourceDigest": "b2cee1b958bf0fdc261e55823ad4fdfa164da088c52e839561d054e668175247",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "es-ES": {
+      "title": "Privacy",
+      "description": "Una lista curada de herramientas, guías y recursos de privacidad.",
+      "sourceDigest": "b2cee1b958bf0fdc261e55823ad4fdfa164da088c52e839561d054e668175247",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ja-JP": {
+      "title": "Privacy",
+      "description": "プライバシーツール、ガイド、リソースをまとめたキュレーションリスト。",
+      "sourceDigest": "b2cee1b958bf0fdc261e55823ad4fdfa164da088c52e839561d054e668175247",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ko-KR": {
+      "title": "Privacy",
+      "description": "프라이버시 도구, 가이드, 리소스를 모은 큐레이션 목록。",
+      "sourceDigest": "b2cee1b958bf0fdc261e55823ad4fdfa164da088c52e839561d054e668175247",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "pt-BR": {
+      "title": "Privacy",
+      "description": "Uma lista curada de ferramentas, guias e recursos de privacidade。",
+      "sourceDigest": "b2cee1b958bf0fdc261e55823ad4fdfa164da088c52e839561d054e668175247",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ru-RU": {
+      "title": "Privacy",
+      "description": "Подборка инструментов, руководств и ресурсов по приватности。",
+      "sourceDigest": "b2cee1b958bf0fdc261e55823ad4fdfa164da088c52e839561d054e668175247",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    }
+  }
+}

@@ -10,11 +10,11 @@ PLEASE DO NOT UPDATE THIS FILE, UPDATE CONTENTS.JSON INSTEAD. THANK YOU :-)
 
 | Génial | Linux | Projets | Mise à jour |
 |:-------:|:-----:|:--------:|:-------:|
-| [[Génial](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) | :pingouin: | 1107 | 3 août 2026 |
+| [![Génial](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) | :pingouin: | 1107 | 3 août 2026 |
 
 En partenariat avec:
 
-[[Mouvement de code](https://github.com/matteocrippa/awesome-swift/blob/master/.github/images/codemotion_logo.png?raw=true)](https://codemo.tech/partners)
+[![Mouvement de code](https://github.com/matteocrippa/awesome-swift/blob/master/.github/images/codemotion_logo.png?raw=true)](https://codemo.tech/partners)
 
 
 

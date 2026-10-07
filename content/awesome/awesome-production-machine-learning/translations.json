@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Production Machine Learning",
+      "description": "精选的生产环境机器学习资源合集。",
+      "sourceDigest": "67404d16918fdad5685a52c6afbb3d0aedc1bae1e62e7d0e5e3a0b4ee34fa3c5",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "zh-Hant": {
+      "title": "Production Machine Learning",
+      "description": "精選的生產環境機器學習資源合集。",
+      "sourceDigest": "67404d16918fdad5685a52c6afbb3d0aedc1bae1e62e7d0e5e3a0b4ee34fa3c5",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "fr-FR": {
+      "title": "Production Machine Learning",
+      "description": "Une liste curée de ressources pour exploiter le machine learning en production.",
+      "sourceDigest": "67404d16918fdad5685a52c6afbb3d0aedc1bae1e62e7d0e5e3a0b4ee34fa3c5",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "de-DE": {
+      "title": "Production Machine Learning",
+      "description": "Eine kuratierte Liste von Ressourcen für Machine Learning in Produktion。",
+      "sourceDigest": "67404d16918fdad5685a52c6afbb3d0aedc1bae1e62e7d0e5e3a0b4ee34fa3c5",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "es-ES": {
+      "title": "Production Machine Learning",
+      "description": "Una lista curada de recursos para ejecutar machine learning en producción.",
+      "sourceDigest": "67404d16918fdad5685a52c6afbb3d0aedc1bae1e62e7d0e5e3a0b4ee34fa3c5",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ja-JP": {
+      "title": "Production Machine Learning",
+      "description": "本番環境で機械学習を運用するためのリソースをまとめたキュレーションリスト。",
+      "sourceDigest": "67404d16918fdad5685a52c6afbb3d0aedc1bae1e62e7d0e5e3a0b4ee34fa3c5",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ko-KR": {
+      "title": "Production Machine Learning",
+      "description": "프로덕션 환경에서 머신러닝을 운영하기 위한 리소스를 모은 큐레이션 목록。",
+      "sourceDigest": "67404d16918fdad5685a52c6afbb3d0aedc1bae1e62e7d0e5e3a0b4ee34fa3c5",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "pt-BR": {
+      "title": "Production Machine Learning",
+      "description": "Uma lista curada de recursos para executar machine learning em produção。",
+      "sourceDigest": "67404d16918fdad5685a52c6afbb3d0aedc1bae1e62e7d0e5e3a0b4ee34fa3c5",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ru-RU": {
+      "title": "Production Machine Learning",
+      "description": "Подборка ресурсов для эксплуатации машинного обучения в производстве。",
+      "sourceDigest": "67404d16918fdad5685a52c6afbb3d0aedc1bae1e62e7d0e5e3a0b4ee34fa3c5",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Swift",
+      "description": "精选的 Swift 框架、库与资源合集。",
+      "sourceDigest": "e526333e3a90a825ef3a34a2afbb58369b8050a98c559ee859353824400500c6",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "zh-Hant": {
+      "title": "Swift",
+      "description": "精選的 Swift 框架、函式庫與資源合集。",
+      "sourceDigest": "e526333e3a90a825ef3a34a2afbb58369b8050a98c559ee859353824400500c6",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "fr-FR": {
+      "title": "Swift",
+      "description": "Une liste curée de frameworks, bibliothèques et ressources Swift.",
+      "sourceDigest": "e526333e3a90a825ef3a34a2afbb58369b8050a98c559ee859353824400500c6",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "de-DE": {
+      "title": "Swift",
+      "description": "Eine kuratierte Liste von Swift-Frameworks, -Bibliotheken und -Ressourcen。",
+      "sourceDigest": "e526333e3a90a825ef3a34a2afbb58369b8050a98c559ee859353824400500c6",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "es-ES": {
+      "title": "Swift",
+      "description": "Una lista curada de frameworks, bibliotecas y recursos de Swift.",
+      "sourceDigest": "e526333e3a90a825ef3a34a2afbb58369b8050a98c559ee859353824400500c6",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ja-JP": {
+      "title": "Swift",
+      "description": "Swift のフレームワーク、ライブラリ、リソースをまとめたキュレーションリスト。",
+      "sourceDigest": "e526333e3a90a825ef3a34a2afbb58369b8050a98c559ee859353824400500c6",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ko-KR": {
+      "title": "Swift",
+      "description": "Swift 프레임워크, 라이브러리, 리소스를 모은 큐레이션 목록。",
+      "sourceDigest": "e526333e3a90a825ef3a34a2afbb58369b8050a98c559ee859353824400500c6",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "pt-BR": {
+      "title": "Swift",
+      "description": "Uma lista curada de frameworks, bibliotecas e recursos de Swift。",
+      "sourceDigest": "e526333e3a90a825ef3a34a2afbb58369b8050a98c559ee859353824400500c6",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ru-RU": {
+      "title": "Swift",
+      "description": "Подборка фреймворков, библиотек и ресурсов Swift。",
+      "sourceDigest": "e526333e3a90a825ef3a34a2afbb58369b8050a98c559ee859353824400500c6",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    }
+  }
+}

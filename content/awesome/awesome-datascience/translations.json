@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Data Science",
+      "description": "精选的数据科学资源、工具与教程合集。",
+      "sourceDigest": "1f4d2c3e470829623601bda91688e4fd9d93d3740829a3f1f10a8b51afc6e0c2",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "zh-Hant": {
+      "title": "Data Science",
+      "description": "精選的資料科學資源、工具與教學合集。",
+      "sourceDigest": "1f4d2c3e470829623601bda91688e4fd9d93d3740829a3f1f10a8b51afc6e0c2",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "fr-FR": {
+      "title": "Data Science",
+      "description": "Une liste curée de ressources, d'outils et de tutoriels en science des données.",
+      "sourceDigest": "1f4d2c3e470829623601bda91688e4fd9d93d3740829a3f1f10a8b51afc6e0c2",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "de-DE": {
+      "title": "Data Science",
+      "description": "Eine kuratierte Liste von Data-Science-Ressourcen, -Werkzeugen und -Tutorials。",
+      "sourceDigest": "1f4d2c3e470829623601bda91688e4fd9d93d3740829a3f1f10a8b51afc6e0c2",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "es-ES": {
+      "title": "Data Science",
+      "description": "Una lista curada de recursos, herramientas y tutoriales de ciencia de datos.",
+      "sourceDigest": "1f4d2c3e470829623601bda91688e4fd9d93d3740829a3f1f10a8b51afc6e0c2",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ja-JP": {
+      "title": "Data Science",
+      "description": "データサイエンスのリソース、ツール、チュートリアルをまとめたキュレーションリスト。",
+      "sourceDigest": "1f4d2c3e470829623601bda91688e4fd9d93d3740829a3f1f10a8b51afc6e0c2",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ko-KR": {
+      "title": "Data Science",
+      "description": "데이터 과학 리소스, 도구, 튜토리얼을 모은 큐레이션 목록。",
+      "sourceDigest": "1f4d2c3e470829623601bda91688e4fd9d93d3740829a3f1f10a8b51afc6e0c2",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "pt-BR": {
+      "title": "Data Science",
+      "description": "Uma lista curada de recursos, ferramentas e tutoriais de ciência de dados。",
+      "sourceDigest": "1f4d2c3e470829623601bda91688e4fd9d93d3740829a3f1f10a8b51afc6e0c2",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ru-RU": {
+      "title": "Data Science",
+      "description": "Подборка ресурсов, инструментов и учебных материалов по data science。",
+      "sourceDigest": "1f4d2c3e470829623601bda91688e4fd9d93d3740829a3f1f10a8b51afc6e0c2",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    }
+  }
+}

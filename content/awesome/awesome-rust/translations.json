@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Rust",
+      "description": "精选的 Rust 代码、crate 与资源合集。",
+      "sourceDigest": "5bbd8c94fa0eb73e3e6d2a7766d720b4effa0c701c3fdbb92b79e99915df535f",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "zh-Hant": {
+      "title": "Rust",
+      "description": "精選的 Rust 程式碼、crate 與資源合集。",
+      "sourceDigest": "5bbd8c94fa0eb73e3e6d2a7766d720b4effa0c701c3fdbb92b79e99915df535f",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "fr-FR": {
+      "title": "Rust",
+      "description": "Une liste curée de code, de crates et de ressources Rust.",
+      "sourceDigest": "5bbd8c94fa0eb73e3e6d2a7766d720b4effa0c701c3fdbb92b79e99915df535f",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "de-DE": {
+      "title": "Rust",
+      "description": "Eine kuratierte Liste von Rust-Code, -Crates und -Ressourcen。",
+      "sourceDigest": "5bbd8c94fa0eb73e3e6d2a7766d720b4effa0c701c3fdbb92b79e99915df535f",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "es-ES": {
+      "title": "Rust",
+      "description": "Una lista curada de código, crates y recursos de Rust.",
+      "sourceDigest": "5bbd8c94fa0eb73e3e6d2a7766d720b4effa0c701c3fdbb92b79e99915df535f",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ja-JP": {
+      "title": "Rust",
+      "description": "Rust のコード、クレート、リソースをまとめたキュレーションリスト。",
+      "sourceDigest": "5bbd8c94fa0eb73e3e6d2a7766d720b4effa0c701c3fdbb92b79e99915df535f",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ko-KR": {
+      "title": "Rust",
+      "description": "Rust 코드, crate, 리소스를 모은 큐레이션 목록。",
+      "sourceDigest": "5bbd8c94fa0eb73e3e6d2a7766d720b4effa0c701c3fdbb92b79e99915df535f",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "pt-BR": {
+      "title": "Rust",
+      "description": "Uma lista curada de código, crates e recursos de Rust。",
+      "sourceDigest": "5bbd8c94fa0eb73e3e6d2a7766d720b4effa0c701c3fdbb92b79e99915df535f",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ru-RU": {
+      "title": "Rust",
+      "description": "Подборка Rust-кода, crate и ресурсов。",
+      "sourceDigest": "5bbd8c94fa0eb73e3e6d2a7766d720b4effa0c701c3fdbb92b79e99915df535f",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    }
+  }
+}

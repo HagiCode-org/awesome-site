@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "C++",
+      "description": "精选的 C++ 框架、库与资源合集。",
+      "sourceDigest": "29e595113e125dcfce1ca130be78dc06125f287e8f2195237f84d1667da8119a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "zh-Hant": {
+      "title": "C++",
+      "description": "精選的 C++ 框架、函式庫與資源合集。",
+      "sourceDigest": "29e595113e125dcfce1ca130be78dc06125f287e8f2195237f84d1667da8119a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "fr-FR": {
+      "title": "C++",
+      "description": "Une liste curée de frameworks, bibliothèques et ressources C++.",
+      "sourceDigest": "29e595113e125dcfce1ca130be78dc06125f287e8f2195237f84d1667da8119a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "de-DE": {
+      "title": "C++",
+      "description": "Eine kuratierte Liste von C++-Frameworks, -Bibliotheken und -Ressourcen。",
+      "sourceDigest": "29e595113e125dcfce1ca130be78dc06125f287e8f2195237f84d1667da8119a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "es-ES": {
+      "title": "C++",
+      "description": "Una lista curada de frameworks, bibliotecas y recursos de C++.",
+      "sourceDigest": "29e595113e125dcfce1ca130be78dc06125f287e8f2195237f84d1667da8119a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ja-JP": {
+      "title": "C++",
+      "description": "C++ のフレームワーク、ライブラリ、リソースをまとめたキュレーションリスト。",
+      "sourceDigest": "29e595113e125dcfce1ca130be78dc06125f287e8f2195237f84d1667da8119a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ko-KR": {
+      "title": "C++",
+      "description": "C++ 프레임워크, 라이브러리, 리소스를 모은 큐레이션 목록。",
+      "sourceDigest": "29e595113e125dcfce1ca130be78dc06125f287e8f2195237f84d1667da8119a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "pt-BR": {
+      "title": "C++",
+      "description": "Uma lista curada de frameworks, bibliotecas e recursos de C++。",
+      "sourceDigest": "29e595113e125dcfce1ca130be78dc06125f287e8f2195237f84d1667da8119a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ru-RU": {
+      "title": "C++",
+      "description": "Подборка фреймворков, библиотек и ресурсов C++。",
+      "sourceDigest": "29e595113e125dcfce1ca130be78dc06125f287e8f2195237f84d1667da8119a",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Agent Skills",
+      "description": "精选的智能体技能与能力合集。",
+      "sourceDigest": "4d55cde73d23d6ebecf8308469585d7a071a04967eeda5f58e4b19cc48791c3b",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "zh-Hant": {
+      "title": "Agent Skills",
+      "description": "精選的智慧型代理技能與能力合集。",
+      "sourceDigest": "4d55cde73d23d6ebecf8308469585d7a071a04967eeda5f58e4b19cc48791c3b",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "fr-FR": {
+      "title": "Agent Skills",
+      "description": "Une liste curée de compétences et capacités d'agents.",
+      "sourceDigest": "4d55cde73d23d6ebecf8308469585d7a071a04967eeda5f58e4b19cc48791c3b",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "de-DE": {
+      "title": "Agent Skills",
+      "description": "Eine kuratierte Liste von Agentenfähigkeiten und -kompetenzen.",
+      "sourceDigest": "4d55cde73d23d6ebecf8308469585d7a071a04967eeda5f58e4b19cc48791c3b",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "es-ES": {
+      "title": "Agent Skills",
+      "description": "Una lista curada de habilidades y capacidades de agentes.",
+      "sourceDigest": "4d55cde73d23d6ebecf8308469585d7a071a04967eeda5f58e4b19cc48791c3b",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ja-JP": {
+      "title": "Agent Skills",
+      "description": "エージェントのスキルと能力をまとめたキュレーションリスト。",
+      "sourceDigest": "4d55cde73d23d6ebecf8308469585d7a071a04967eeda5f58e4b19cc48791c3b",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ko-KR": {
+      "title": "Agent Skills",
+      "description": "에이전트 기술과 능력을 모은 큐레이션 목록。",
+      "sourceDigest": "4d55cde73d23d6ebecf8308469585d7a071a04967eeda5f58e4b19cc48791c3b",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "pt-BR": {
+      "title": "Agent Skills",
+      "description": "Uma lista curada de habilidades e capacidades de agentes。",
+      "sourceDigest": "4d55cde73d23d6ebecf8308469585d7a071a04967eeda5f58e4b19cc48791c3b",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ru-RU": {
+      "title": "Agent Skills",
+      "description": "Подборка навыков и возможностей агентов。",
+      "sourceDigest": "4d55cde73d23d6ebecf8308469585d7a071a04967eeda5f58e4b19cc48791c3b",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    }
+  }
+}

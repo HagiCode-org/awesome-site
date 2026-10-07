@@ -10,11 +10,11 @@ PLEASE DO NOT UPDATE THIS FILE, UPDATE CONTENTS.JSON INSTEAD. THANK YOU :-)
 
 | 厉害 | 链接 | 项目 | 更新 |
 |:-------:|:-----:|:--------:|:-------:|
-| [[厉害](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) | 宾客: | 1107 | 2026年8月03日 (中文(简体) ). |
+| [![厉害](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) | 宾客: | 1107 | 2026年8月03日 (中文(简体) ). |
 
 参加:
 
-[[编码](https://github.com/matteocrippa/awesome-swift/blob/master/.github/images/codemotion_logo.png?raw=true)](https://codemo.tech/partners)
+[![编码](https://github.com/matteocrippa/awesome-swift/blob/master/.github/images/codemotion_logo.png?raw=true)](https://codemo.tech/partners)
 
 
 

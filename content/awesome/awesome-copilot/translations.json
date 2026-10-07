@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Copilot",
+      "description": "精选的 GitHub Copilot 资源与工具合集。",
+      "sourceDigest": "6ceb77b283cebb02f0b271e8cba8c5bd43e8e04ab32de0b08d18cbb8b836a1d7",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "zh-Hant": {
+      "title": "Copilot",
+      "description": "精選的 GitHub Copilot 資源與工具合集。",
+      "sourceDigest": "6ceb77b283cebb02f0b271e8cba8c5bd43e8e04ab32de0b08d18cbb8b836a1d7",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "fr-FR": {
+      "title": "Copilot",
+      "description": "Une liste curée de ressources et d'outils GitHub Copilot.",
+      "sourceDigest": "6ceb77b283cebb02f0b271e8cba8c5bd43e8e04ab32de0b08d18cbb8b836a1d7",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "de-DE": {
+      "title": "Copilot",
+      "description": "Eine kuratierte Liste von GitHub-Copilot-Ressourcen und Werkzeugen。",
+      "sourceDigest": "6ceb77b283cebb02f0b271e8cba8c5bd43e8e04ab32de0b08d18cbb8b836a1d7",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "es-ES": {
+      "title": "Copilot",
+      "description": "Una lista curada de recursos y herramientas de GitHub Copilot.",
+      "sourceDigest": "6ceb77b283cebb02f0b271e8cba8c5bd43e8e04ab32de0b08d18cbb8b836a1d7",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ja-JP": {
+      "title": "Copilot",
+      "description": "GitHub Copilot のリソースとツールをまとめたキュレーションリスト。",
+      "sourceDigest": "6ceb77b283cebb02f0b271e8cba8c5bd43e8e04ab32de0b08d18cbb8b836a1d7",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ko-KR": {
+      "title": "Copilot",
+      "description": "GitHub Copilot 리소스와 도구를 모은 큐레이션 목록。",
+      "sourceDigest": "6ceb77b283cebb02f0b271e8cba8c5bd43e8e04ab32de0b08d18cbb8b836a1d7",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "pt-BR": {
+      "title": "Copilot",
+      "description": "Uma lista curada de recursos e ferramentas do GitHub Copilot。",
+      "sourceDigest": "6ceb77b283cebb02f0b271e8cba8c5bd43e8e04ab32de0b08d18cbb8b836a1d7",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    },
+    "ru-RU": {
+      "title": "Copilot",
+      "description": "Подборка ресурсов и инструментов GitHub Copilot。",
+      "sourceDigest": "6ceb77b283cebb02f0b271e8cba8c5bd43e8e04ab32de0b08d18cbb8b836a1d7",
+      "reviewStatus": "reviewed",
+      "isAITranslation": true
+    }
+  }
+}
