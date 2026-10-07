@@ -392,6 +392,8 @@ Imagen del profesor Qiu Xipeng de la Universidad Fudan
 
 - [Camino de entrada a la investigación NLP](https://github.com/zibuyu/research_tao) del profesor Liu Zhiyuan de 清华
 
+- [Chinese NLP](https://chinesenlp.xyz/#/) Tareas compartidas, conjuntos de datos y resultados de vanguardia para el procesamiento del lenguaje natural en chino
+
 
 <br />
 <br />

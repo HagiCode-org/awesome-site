@@ -392,6 +392,8 @@ Bild vom Professor Qiu Xipeng der Fudan-Universität
 
 - [Einstieg in die NLP-Forschung](https://github.com/zibuyu/research_tao) von Professor Liu Zhiyuan der 清华
 
+- [Chinese NLP](https://chinesenlp.xyz/#/) Shared Tasks, Datensätze und Spitzenergebnisse für die Verarbeitung der chinesischen Sprache
+
 
 <br />
 <br />

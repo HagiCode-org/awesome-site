@@ -392,6 +392,8 @@
 
 - [NLP 研究入門の道](https://github.com/zibuyu/research_tao) 清華大学の劉知遠先生による
 
+- [Chinese NLP](https://chinesenlp.xyz/#/) 中国語自然言語処理の共有タスク、データセット、最新の成果
+
 
 <br />
 <br />

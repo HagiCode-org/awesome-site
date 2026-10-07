@@ -392,6 +392,8 @@
 
 - [NLP 연구 입문의 길](https://github.com/zibuyu/research_tao) 칭화대 류즈위안 교수가 제공
 
+- [Chinese NLP](https://chinesenlp.xyz/#/) 중국어 자연어 처리를 위한 공유 과제, 데이터셋 및 최신 성과
+
 
 <br />
 <br />

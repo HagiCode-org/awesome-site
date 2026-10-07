@@ -248,7 +248,7 @@
 
 - [金融文本資料集](https://github.com/smoothnlp/FinancialDatasets) SmoothNLP 金融文本資料集(公開) Public Financial Datasets for NLP Researches
 
-- [保險行業語料庫](https://github.com/Samurais/insuranceqa-corpus-zh)   [[52nlp 介紹 Blog](http://www.52nlp.cn/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%BF%9D%E9%99%A9%E8%A1%8C%E4%B8%9A%E9%97%AE%E7%AD%94%E5%BC%80%E6%94%BE%E6%95%B8%E6%8D%AE%E9%9B%86)] 面向機器學習的保險領域開放資料 OpenData in insurance area for Machine Learning Tasks
+- [保險行業語料庫](https://github.com/Samurais/insuranceqa-corpus-zh)   [[52nlp 介紹 Blog](http://www.52nlp.cn/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%BF%9D%E9%99%A9%E8%A1%8C%E4%B8%9A%E9%97%AE%E7%AD%94%E5%BC%80%E6%94%BE%E6%95%B0%E6%8D%AE%E9%9B%86)] 面向機器學習的保險領域開放資料 OpenData in insurance area for Machine Learning Tasks
 
 - [最全中華古詩詞資料庫](https://github.com/chinese-poetry/chinese-poetry) 唐宋兩朝近一萬四千古詩人, 接近 5.5 萬首唐詩加 26 萬宋詩. 兩宋時期 1564 位詞人，21050 首詞。
 
@@ -391,6 +391,8 @@
 - [nlp_tasks](https://github.com/Kyubyong/nlp_tasks) Natural Language Processing Tasks and Selected References
 
 - [NLP 研究入門之道](https://github.com/zibuyu/research_tao) from 清華劉知遠老師
+
+- [Chinese NLP](https://chinesenlp.xyz/#/) 中文自然語言處理的共享任務、資料集與最新成果
 
 
 <br />

@@ -392,6 +392,8 @@ Image issue du professeur Qiu Xipeng de l'Université Fudan
 
 - [Introduction à la recherche NLP](https://github.com/zibuyu/research_tao) par le professeur Liu Zhiyuan de 清华
 
+- [Chinese NLP](https://chinesenlp.xyz/#/) Tâches partagées, jeux de données et résultats de l'état de l'art pour le traitement automatique du chinois
+
 
 <br />
 <br />
