@@ -3638,3 +3638,498 @@ _Software escrito em Go._
 - [Dropship](https://github.com/chrismckenzie/dropship) - Ferramenta para implantar código via CDN.
 - [easyssh-proxy](https://github.com/appleboy/easyssh-proxy) - Pacote Golang para execução remota fácil via SSH e downloads por SCP via `ProxyCommand`.
 - [fac](https://github.com/mkchoi212/fac) - Interface de linha de comando para corrigir conflitos de merge do git.
+- [Flannel](https://github.com/flannel-io/flannel) - Flannel é um fabric de rede para contêineres, projetado para Kubernetes.
+- [Fleet device management](https://github.com/fleetdm/fleet) - Telemetria leve e programável para servidores e estações de trabalho.
+- [gaia](https://github.com/gaia-pipeline/gaia) - Construa pipelines poderosos em qualquer linguagem de programação.
+- [ghorg](https://github.com/gabrie30/ghorg) - Clone rapidamente repositórios inteiros de org/usuários em um único diretório - Suporta GitHub, GitLab, Gitea e Bitbucket.
+- [Gitea](https://github.com/go-gitea/gitea) - Fork do Gogs, totalmente movido pela comunidade.
+- [gitea-github-migrator](https://git.jonasfranz.software/JonasFranzDEV/gitea-github-migrator) - Migre todos seus repositórios do GitHub, issues, milestones e labels para sua instância Gitea.
+- [gitl](https://github.com/akomyagin/gitl) - Revisão de IA de intervalos de commit do git com pontuação de risco (baixo/médio/alto), geração de changelog e resumo de atividade multirrepositório. GitHub Action incluída.
+- [go-furnace](https://github.com/go-furnace/go-furnace) - Solução de hospedagem escrita em Go. Implante seu aplicativo com facilidade na AWS, GCP ou DigitalOcean.
+- [go-rocket-update](https://github.com/mouuff/go-rocket-update) - Um jeito simples de tornar aplicações Go auto-atualizáveis - Suporta Github e Gitlab.
+- [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Permite que seus aplicativos Go se atualizem automaticamente.
+- [gobrew](https://github.com/cryptojuice/gobrew) - gobrew permite que você alterne facilmente entre várias versões do go.
+- [gobrew](https://github.com/kevincobain2000/gobrew) - Gerenciador de versão Go. Ferramenta super simples para instalar e gerenciar versões do Go. Instale go sem root. Gobrew não requer rehash de shell.
+- [godbg](https://github.com/sirnewton01/godbg) - Aplicação front-end gdb baseada em web.
+- [Gogs](https://gogs.io/) - Um serviço Git auto-hospedado escrito em Go.
+- [goma-gateway](https://github.com/jkaninda/goma-gateway) - Um gateway de API leve e proxy reverso com configuração declarativa, middleware robusto e suporte para REST, GraphQL, TCP, UDP e gRPC.
+- [gonative](https://github.com/inconshreveable/gonative) - Ferramenta que cria uma build do Go que pode compilar cruzadamente para todas as plataformas enquanto ainda usa as versões habilitadas por Cgo dos pacotes stdlib.
+- [govvv](https://github.com/ahmetalpbalkan/govvv) - Wrapper "go build" para adicionar facilmente informações de versão em binários Go.
+- [grapes](https://github.com/yaronsumel/grapes) - Ferramenta leve projetada para distribuir comandos via ssh com facilidade.
+- [GVM](https://github.com/moovweb/gvm) - GVM fornece uma interface para gerenciar versões do Go.
+- [Hey](https://github.com/rakyll/hey) - Hey é um pequeno programa que envia alguma carga para um aplicativo web.
+- [httpref](https://github.com/dnnrly/httpref) - httpref é uma referência CLI prática para métodos HTTP, códigos de status, headers e portas TCP e UDP.
+- [jcli](https://github.com/jenkins-zh/jenkins-cli) - O CLI Jenkins permite que você gerencie seu Jenkins da forma mais fácil.
+- [k0s](https://github.com/k0sproject/k0s) - Distribuição Kubernetes sem fricção.
+- [k3d](https://github.com/k3d-io/k3d) - Pequeno ajudante para executar k3s do CNCF no Docker.
+- [k3s](https://github.com/k3s-io/k3s) - Kubernetes leve.
+- [k6](https://github.com/grafana/k6) - Uma ferramenta moderna de teste de carga, usando Go e JavaScript.
+- [k9s](https://github.com/derailed/k9s) - CLI do Kubernetes para gerenciar seus clusters com estilo.
+- [kala](https://github.com/ajvb/kala) - Agendador de tarefas simples, moderno e performático.
+- [kcli](https://github.com/cswank/kcli) - Ferramenta de linha de comando para inspecionar tópicos/partições/mensagens do kafka.
+- [kind](https://github.com/kubernetes-sigs/kind) - Kubernetes IN Docker - clusters locais para testar o Kubernetes.
+- [ko](https://github.com/google/ko) - Ferramenta de linha de comando para construir e implantar aplicações Go no Kubernetes
+- [kool](https://github.com/kool-dev/kool) - Ferramenta de linha de comando para gerenciar ambientes Docker da forma mais fácil.
+- [kubeblocks](https://github.com/apecloud/kubeblocks) - KubeBlocks é um plano de controle open-source que executa e gerencia bancos de dados, filas de mensagens e outras infraestruturas de dados em K8s.
+- [kubefwd](https://github.com/txn2/kubefwd) - Encaminhamento em massa de portas do Kubernetes com IPs únicos por serviço para desenvolvimento local.
+- [kubernetes](https://github.com/kubernetes/kubernetes) - Gerenciador de cluster de contêineres do Google.
+- [kubeshark](https://github.com/kubeshark/kubeshark) - Analisador de tráfego de API para Kubernetes, inspirado por Wireshark, propositadamente construído para Kubernetes.
+- [KubeVela](https://github.com/kubevela/kubevela) - Entrega de aplicações nativas de nuvem.
+- [KubeVPN](https://github.com/kubenetworks/kubevpn) - KubeVPN oferece um ambiente de desenvolvimento nativo na nuvem que se conecta perfeitamente à rede do seu cluster Kubernetes.
+- [KusionStack](https://github.com/KusionStack/kusion) - Uma stack técnica de configuração programável unificada para entregar apps modernos em abordagem 'platform as code' e 'infra as code'.
+- [kwatch](https://github.com/abahmed/kwatch) - Monitore e detecte falhas em seu cluster Kubernetes(K8s) instantaneamente.
+- [lstags](https://github.com/ivanilves/lstags) - Ferramenta e API para sincronizar imagens Docker entre diferentes registros.
+- [lwc](https://github.com/timdp/lwc) - Uma versão atualizada em tempo real do comando wc do UNIX.
+- [manssh](https://github.com/xwjdsh/manssh) - manssh é uma ferramenta de linha de comando para gerenciar facilmente a configuração do seu alias ssh.
+- [Mantil](https://github.com/mantil-io/mantil) - Framework específico para Go para construir aplicações serverless na AWS que permite que você se concentre em código puro Go enquanto Mantil cuida da infraestrutura.
+- [minikube](https://github.com/kubernetes/minikube) - Execute Kubernetes localmente.
+- [Moby](https://github.com/moby/moby) - Projeto colaborativo para o ecossistema de contêineres para montar sistemas baseados em contêineres.
+- [Mora](https://github.com/emicklei/mora) - Servidor REST para acessar documentos MongoDB e metadados.
+- [mq-studio](https://github.com/amigoer/mq-studio) - Cliente desktop multiplataforma para gerenciar e monitorar clusters RocketMQ, RabbitMQ, Kafka, Pulsar, Redis Stream, MQTT, NATS e ActiveMQ.
+- [ostent](https://github.com/ostrost/ostent) - coleta e exibe métricas do sistema e opcionalmente retransmite para Graphite e/ou InfluxDB.
+- [Packer](https://github.com/mitchellh/packer) - Packer é uma ferramenta para criar imagens de máquina idênticas para múltiplas plataformas a partir de uma única configuração de origem.
+- [Pewpew](https://github.com/bengadbois/pewpew) - Testador de estresse de linha de comando HTTP flexível.
+- [pingtower](https://github.com/crleonard/pingtower) - Monitor de uptime auto-hospedado leve para websites e APIs.
+- [PipeCD](https://github.com/pipe-cd/pipecd) - Uma plataforma de entrega contínua estilo GitOps que oferece experiência consistente de implantação e operações para qualquer aplicação.
+- [podinfo](https://github.com/stefanprodan/podinfo) - Podinfo é um pequeno aplicativo web feito com Go que mostra as melhores práticas de execução de microsserviços no Kubernetes. Podinfo é usado por projetos CNCF como Flux e Flagger para testes end-to-end e workshops.
+- [podman-tui](https://github.com/containers/podman-tui) - Interface do usuário terminal para gerenciamento do Podman.
+- [Pomerium](https://github.com/pomerium/pomerium) - Pomerium é um proxy de acesso consciente de identidade.
+- [Rodent](https://github.com/alouche/rodent) - Rodent ajuda você a gerenciar versões do Go, projetos e rastrear dependências.
+- [s3-proxy](https://github.com/oxyno-zeta/s3-proxy) - Proxy S3 com métodos GET, PUT e DELETE e autenticação (OpenID Connect e Basic Auth).
+- [s3gof3r](https://github.com/rlmcpherson/s3gof3r) - Utilitário/biblioteca pequeno otimizado para transferência de alta velocidade de objetos grandes de e para Amazon S3.
+- [s5cmd](https://github.com/peak/s5cmd) - Ferramenta de execução de S3 e sistema de arquivos local extremamente rápida.
+- [Scaleway-cli](https://github.com/scaleway/scaleway-cli) - Gerencie servidores BareMetal a partir da linha de comando (tão facilmente quanto com Docker).
+- [script](https://github.com/bitfield/script) - Tornando fácil escrever scripts com estilo shell em Go para tarefas de DevOps e administração de sistemas.
+- [sg](https://github.com/ChristopherRabotin/sg) - Faz benchmark de um conjunto de endpoints HTTP (como ab), com possibilidade de usar o código de resposta e dados entre cada chamada para estresse de servidor específico com base na resposta anterior.
+- [sigma](https://github.com/go-sigma/sigma) - Registro de imagem de contêiner nativo OCI, suporte a artefato nativo OCI, análise de artefato, construção de imagem etc.
+- [skm](https://github.com/TimothyYe/skm) - SKM é um gerenciador simples e poderoso de chaves SSH, ajuda você a gerenciar múltiplas chaves SSH facilmente!
+- [sortie](https://github.com/sortie-ai/sortie) - Transforme tickets do rastreador em sessões de agente de codificação autônomos.
+- [StatusOK](https://github.com/sanathp/statusok) - Monitore seu website e APIs REST. Seja notificado via Slack, E-mail quando seu servidor estiver inativo ou tempo de resposta for maior que o esperado.
+- [tau](https://github.com/taubyte/tau) - Construa facilmente plataformas de computação em nuvem com recursos como funções WebAssembly serverless, hospedagem frontend, CI/CD, armazenamento de objetos, banco de dados K/V e mensageria Pub-Sub.
+- [terraform-provider-openapi](https://github.com/dikhan/terraform-provider-openapi) - Plugin provedor Terraform que se configura dinamicamente no tempo de execução com base em um documento OpenAPI (anteriormente conhecido como arquivo swagger) contendo as definições das APIs expostas.
+- [tf-profile](https://github.com/datarootsio/tf-profile) - Profiler para execuções do Terraform. Gere estatísticas globais, estatísticas em nível de recurso ou visualizações.
+- [tickstem/uptime](https://github.com/tickstem/uptime) - Cliente Go para monitoramento de uptime HTTP com alertas de expiração de SSL e asserções de resposta configuráveis.
+- [tlm](https://github.com/yusufcanb/tlm) - Copiloto local de cli, alimentado por CodeLLaMa
+- [traefik](https://github.com/containous/traefik) - Proxy reverso e balanceador de carga com suporte para múltiplos backends.
+- [trubka](https://github.com/xitonix/trubka) - Uma ferramenta CLI para gerenciar e solucionar problemas de clusters Apache Kafka com a capacidade de publicar/consumir genericamente eventos protocol buffer e texto simples para/do Kafka.
+- [Updatecli](https://github.com/updatecli/updatecli) - Um mecanismo de política de atualização declarativa universal.
+- [uTask](https://github.com/ovh/utask) - Mecanismo de automação que modela e executa processos de negócios declarados em yaml.
+- [Vegeta](https://github.com/tsenart/vegeta) - Ferramenta e biblioteca de testes de carga HTTP. É mais de 9000!
+- [wait-for](https://github.com/dnnrly/wait-for) - Aguarde algo acontecer (a partir da linha de comando) antes de continuar. Orquestração fácil de serviços Docker e outras coisas.
+- [Wide](https://wide.b3log.org/login) - IDE baseada em web para equipes usando Golang.
+- [winrm-cli](https://github.com/masterzen/winrm-cli) - Ferramenta CLI para executar remotamente comandos em máquinas Windows.
+- [zerohand](https://github.com/nilpoona/zerohand) - Uma ferramenta simples e eficiente de testes de carga para web APIs.
+
+**[⬆ voltar ao topo](#contents)**
+
+### Outro Software
+
+- [Backrest](https://github.com/garethgeorge/backrest) - Interface web e orquestrador para backup restic.
+- [Better Go Playground](https://goplay.tools) - Go playground com destaque de sintaxe, conclusão de código e outras funcionalidades.
+- [blocky](https://github.com/0xERR0R/blocky) - Proxy DNS rápido e leve como bloqueador de anúncios para rede local com muitos recursos.
+- [bluetuith](https://github.com/bluetuith-org/bluetuith) - Gerenciador TUI Bluetooth para Linux.
+- [borg](https://github.com/crufter/borg) - Mecanismo de busca baseado em terminal para snippets bash.
+- [boxed](https://github.com/tejo/boxed) - Mecanismo de blog baseado em Dropbox.
+- [Chapar](https://github.com/chapar-rest/chapar) - Chapar é uma alternativa multiplataforma do Postman construída com go, visa ajudar desenvolvedores a testar seus endpoints de api. suporta protocolos http e grpc.
+- [Cherry](https://github.com/rafael-santiago/cherry) - Pequeno servidor de webchat em Go.
+- [chicha-isotope-map](https://github.com/matveynator/chicha-isotope-map) - Mapa de radiação público auto-hospedado para importar, analisar e visualizar faixas de medição.
+- [Circuit](https://github.com/gocircuit/circuit) - Circuit é uma plataforma programável platform-as-a-service (PaaS) e/ou Infrastructure-as-a-Service (IaaS), para gerenciamento, descoberta, sincronização e orquestração de serviços e hosts que compõem aplicações em nuvem.
+- [claude-grep](https://github.com/evoleinik/claude-grep) - Pesquise histórico de sessão do Claude Code com busca regex e semântica (vetor).
+- [Comcast](https://github.com/tylertreat/Comcast) - Simule conexões de rede ruim.
+- [confd](https://github.com/kelseyhightower/confd) - Gerencie arquivos de configuração de aplicação local usando templates e dados do etcd ou consul.
+- [crawley](https://github.com/s0rg/crawley) - Raspador/rastreador web para cli.
+- [croc](https://github.com/schollz/croc) - Envie arquivos ou pastas de forma fácil e segura de um computador para outro.
+- [CrunchyCleaner](https://github.com/Knuspii/CrunchyCleaner) - Uma ferramenta leve de limpeza de cache de software para Windows & Linux.
+- [dispositio](https://github.com/tsraveling/dispositio) - Ferramenta de terminal para planejar grandes projetos em markdown simples.
+- [Documize](https://github.com/documize/community) - Software wiki moderno que integra dados de ferramentas SaaS.
+- [dp](https://github.com/scryinfo/dp) - Através do SDK para troca de dados com blockchain, desenvolvedores podem obter fácil acesso ao desenvolvimento DAPP.
+- [drive](https://github.com/odeke-em/drive) - Cliente Google Drive para a linha de comando.
+- [Duplicacy](https://github.com/gilbertchen/duplicacy) - Uma ferramenta de backup de rede e nuvem multiplataforma baseada na ideia de deduplicação sem lock-free.
+- [fjira](https://github.com/mk-5/fjira) - Uma aplicação interface de usuário terminal baseada em busca fuzzy para Jira do Atlassian
+- [Gebug](https://github.com/moshebe/gebug) - Uma ferramenta que torna a depuração de aplicações Go dockerizadas super fácil habilitando recursos de debugger e hot-reload perfeitamente.
+- [gfile](https://github.com/Antonito/gfile) - Transfira arquivos com segurança entre dois computadores, sem nenhum terceiro, sobre WebRTC.
+- [Go Package Store](https://github.com/shurcooL/Go-Package-Store) - Aplicativo que exibe atualizações para os pacotes Go em seu GOPATH.
+- [go-peerflix](https://github.com/Sioro-Neoku/go-peerflix) - Cliente de streaming de vídeo torrent.
+- [goblin](https://goblin.run) - Construtor de nuvem para CLIs escritos em go lang
+- [GoBoy](https://github.com/Humpheh/goboy) - Emulador Nintendo Game Boy Color escrito em Go.
+- [gocc](https://github.com/goccmack/gocc) - Gocc é um kit de compilador para Go escrito em Go.
+- [GoDocTooltip](https://github.com/diankong/GoDocTooltip) - Extensão do Chrome para sites do Go Doc, que mostra descrição de função como dica de ferramenta em lista de funções.
+- [Gokapi](https://github.com/Forceu/gokapi) - Servidor leve para compartilhar arquivos, que expiram após um número definido de downloads ou dias. Similar ao Firefox Send, mas sem upload público.
+- [GoLand](https://jetbrains.com/go) - IDE Go completo multiplataforma.
+- [GoNB](https://github.com/janpfeifer/gonb) - Programação interativa com Go com Jupyter Notebooks (também funciona no VSCode, Binder e Colab do Google).
+- [GooseForum](https://github.com/leancodebox/GooseForum) - Plataforma de fórum auto-hospedada construída com Go, Vue e Tailwind CSS.
+- [Gor](https://github.com/buger/gor) - Ferramenta de replicação de tráfego Http, para reproduzir tráfego da produção para ambientes stage/dev em tempo real.
+- [Guora](https://github.com/meloalright/guora) - Uma aplicação web auto-hospedada similar ao Quora escrita em Go.
+- [GURL](https://github.com/matveynator/gurl) - Quando CURL diz que sua biblioteca SSL é muito antiga — use GURL. Um arquivo. Zero dependências SSL.
+- [hoofli](https://github.com/dnnrly/hoofli) - Gere diagramas PlantUML a partir de inspeções de rede do Chrome ou Firefox.
+- [hotswap](https://github.com/edwingeng/hotswap) - Uma solução completa para recarregar seu código go sem reiniciar seu servidor, interromper ou bloquear nenhum procedimento em andamento.
+- [hugo](https://gohugo.io/) - Mecanismo rápido e moderno de site estático.
+- [ide](https://github.com/thestrukture/ide) - IDE acessível por navegador. Projetado para Go com Go.
+- [joincap](https://github.com/assafmo/joincap) - Utilitário de linha de comando para mesclar múltiplos arquivos pcap.
+- [JuiceFS](https://github.com/juicedata/juicefs) - Sistema de arquivos POSIX distribuído construído sobre Redis e AWS S3.
+- [Juju](https://jujucharms.com/) - Implantação de serviço agnóstica de nuvem e orquestração - suporta EC2, Azure, Openstack, MAAS e mais.
+- [KeibiDrop](https://github.com/KeibiSoft/KeibiDrop) - Sistema de arquivos peer-to-peer sob demanda que monta uma pasta remota e oculta latência de link com read-ahead, criptografado de ponta a ponta com X25519 híbrido e ML-KEM-1024.
+- [Layli](https://layli.app) - Desenhe belos diagramas de layout como código.
+- [Leaps](https://github.com/jeffail/leaps) - Serviço de programação em par usando transformações operacionais.
+- [lgo](https://github.com/yunabe/lgo) - Programação interativa com Go com Jupyter. Suporta conclusão de código, inspeção de código e compatibilidade Go 100%.
+- [LightCMS](https://github.com/jonradoff/lightcms) - Sistema de gerenciamento de conteúdo auto-hospedado com geração de página estática, controle de acesso baseado em função e servidor MCP para operações de conteúdo orientadas por agentes.
+- [limetext](https://limetext.github.io) - Lime Text é um editor de texto poderoso e elegante desenvolvido principalmente em Go que visa ser um sucessor de software livre e de código aberto ao Sublime Text.
+- [LiteIDE](https://github.com/visualfc/liteide) - LiteIDE é um IDE Go simples, open source e multiplataforma.
+- [mac-cleanup-go](https://github.com/2ykwang/mac-cleanup-go) - TUI com visualização primeiro para limpeza de caches, logs e arquivos temporários do macOS.
+- [mdv](https://github.com/Allra-Fintech/mdv) - Ferramenta CLI que renderiza arquivos Markdown no navegador com recarga ao vivo, GFM, destaque de sintaxe, diagramas Mermaid e exportação PDF.
+- [mockingjay](https://github.com/quii/mockingjay-server) - Servidores HTTP falsos e contratos orientados ao consumidor a partir de um arquivo de configuração. Você também pode fazer o servidor se comportar aleatoriamente de forma inadequada para ajudar a fazer testes de desempenho mais realistas.
+- [myLG](https://github.com/mehrdadrad/mylg) - Ferramenta de diagnóstico de rede de linha de comando escrita em Go.
+- [naclpipe](https://github.com/unix4fun/naclpipe) - Ferramenta simples de tubo criptográfico baseada em NaCL EC25519 escrita em Go.
+- [Neo-cowsay](https://github.com/Code-Hex/Neo-cowsay) - 🐮 cowsay é renascido. para uma Nova Era.
+- [nes](https://github.com/fogleman/nes) - Emulador Nintendo Entertainment System (NES) escrito em Go.
+- [onWatch](https://github.com/onllm-dev/onWatch) - Monitore quotas de API de IA em provedores localmente com rastreamento histórico, alertas e um painel web para evitar estrangulamento surpresa e sobrecarga de orçamento.
+- [Orbit](https://github.com/gulien/orbit) - Uma ferramenta simples para executar comandos e gerar arquivos a partir de templates.
+- [peg](https://github.com/pointlander/peg) - Peg, Parsing Expression Grammar, é uma implementação de um gerador de parser Packrat.
+- [Plakar](https://github.com/PlakarKorp/plakar) - Um mecanismo de backup criptografado, deduplicado, verificável e escalável sem lock-in de fornecedor.
+- [Plik](https://github.com/root-gg/plik) - Plik é um sistema de upload de arquivo temporário (tipo Wetransfer) em Go.
+- [portal](https://github.com/SpatiumPortae/portal) - Portal é um utilitário de transferência de arquivo rápido e fácil de usar da linha de comando de qualquer computador para outro.
+- [restic](https://github.com/restic/restic) - Programa de backup com deduplicação.
+- [sake](https://github.com/alajmo/sake) - sake é um executor de comando para hosts locais e remotos.
+- [scc](https://github.com/boyter/scc) - Sloc Cloc and Code, um contador de código muito rápido e preciso com cálculos de complexidade e estimativas COCOMO.
+- [ScheduleGate](https://github.com/gjunqueira-sys/ScheduleGate) - Avaliação de cronograma em 14 pontos DCMA CLI para exportações Excel/CSV do MS Project.
+- [Seaweed File System](https://github.com/chrislusf/seaweedfs) - Sistema de arquivos distribuído rápido, simples e escalável com busca em disco O(1).
+- [shell2http](https://github.com/msoap/shell2http) - Executando comandos shell via servidor http (para prototipagem ou controle remoto).
+- [Snitch](https://github.com/lucasgomide/snitch) - Forma simples de notificar sua equipe e muitas ferramentas quando alguém implantou qualquer aplicação via Tsuru.
+- [sonic](https://github.com/go-sonic/sonic) - Sonic é uma plataforma de blog Go. Simples e poderosa.
+- [spotify-screensaver](https://github.com/benzjeremy/spotify-screensaver) - Protetor de tela desktop para Spotify com relógio digital OLED, visualizador de áudio em canvas e controles MPRIS.
+- [Stack Up](https://github.com/pressly/sup) - Stack Up, uma ferramenta de implantação super simples - apenas Unix - pense nela como 'make' para uma rede de servidores.
+- [stew](https://github.com/marwanhawari/stew) - Um gerenciador de pacotes independente para binários compilados.
+- [syncthing](https://syncthing.net/) - Ferramenta e protocolo de sincronização de arquivo aberto e descentralizado.
+- [tcpdog](https://github.com/mehrdadrad/tcpdog) - Observabilidade TCP baseada em eBPF.
+- [tinycare-tui](https://github.com/DMcP89/tinycare-tui) - Pequeno aplicativo de terminal que mostra commits git das últimas 24 horas e semana, clima atual, alguns conselhos de autocuidado, uma piada e suas tarefas da lista de afazeres atual.
+- [tldx](https://github.com/brandonyoungdev/tldx) - Verificador de disponibilidade de domínio em massa usando RDAP, DNS e fallback WHOIS com geração de permutação de palavras-chave.
+- [toxiproxy](https://github.com/shopify/toxiproxy) - Proxy para simular condições de rede e sistema para testes automatizados.
+- [tsuru](https://tsuru.io/) - Software extensível e open source Platform as a Service.
+- [untis-go](https://github.com/benzjeremy/untis-go) - Cliente desktop WebUntis nativo rápido para alunos e professores. Navegação de barra lateral, horários, lições de casa, faltas e mensagens. Credenciais criptografadas AES-256-GCM, cache-first SQLite, segurança de porta aleatória.
+- [vaku](https://github.com/lingrino/vaku) - CLI & API para funções baseadas em pasta em Vault como copiar, mover e pesquisar.
+- [vFlow](https://github.com/VerizonDigital/vflow) - Coletor de IPFIX, sFlow e Netflow de alto desempenho, escalável e confiável.
+- [Wave Terminal](https://waveterm.dev) - Wave é um terminal aberto nativo de IA construído para fluxos de trabalho de desenvolvedor perfeitos com renderização inline, uma interface moderna e sessões persistentes.
+- [wellington](https://github.com/wellington/wellington) - Ferramenta de gerenciamento de projeto Sass, estende a linguagem com funções de sprite (como Compass).
+- [woke](https://github.com/get-woke/woke) - Detecte linguagem não inclusiva em seu código-fonte.
+- [yai](https://github.com/ekkinox/yai) - Assistente de terminal alimentado por IA.
+- [zs](https://git.mills.io/prologic/zs) - um gerador de site estático extremamente mínimo.
+
+**[⬆ voltar ao topo](#contents)**
+
+# Recursos
+
+_Onde descobrir novas bibliotecas Go._
+
+**[⬆ voltar ao topo](#contents)**
+
+## Benchmarks
+
+- [autobench](https://github.com/davecheney/autobench) - Framework para comparar o desempenho entre diferentes versões do Go.
+- [go-benchmark-app](https://github.com/mrLSD/go-benchmark-app) - Poderosa ferramenta de benchmark HTTP misturada com Аb, Wrk, ferramentas Siege. Coleta estatísticas e vários parâmetros para benchmarks e comparação de resultados.
+- [go-benchmarks](https://github.com/tylertreat/go-benchmarks) - Alguns microbenchmarks Go diversos. Compare alguns recursos de linguagem com abordagens alternativas.
+- [go-http-routing-benchmark](https://github.com/julienschmidt/go-http-routing-benchmark) - Benchmark de roteador HTTP em Go e comparação.
+- [go-json-benchmark](https://github.com/zerosnake0/go-json-benchmark) - Benchmark JSON em Go.
+- [go-ml-benchmarks](https://github.com/nikolaydubina/go-ml-benchmarks) - benchmarks para inferência de aprendizado de máquina em Go.
+- [go-web-framework-benchmark](https://github.com/smallnest/go-web-framework-benchmark) - Benchmark de framework web em Go.
+- [go_serialization_benchmarks](https://github.com/alecthomas/go_serialization_benchmarks) - Benchmarks dos métodos de serialização de Go.
+- [gocostmodel](https://github.com/PuerkitoBio/gocostmodel) - Benchmarks de operações básicas comuns para a linguagem Go.
+- [golang-benchmarks](https://github.com/SimonWaldherr/golang-benchmarks) - uma coleção de benchmarks golang.
+- [gospeed](https://github.com/feyeleanor/GoSpeed) - Micro-benchmarks Go para calcular a velocidade das construções de linguagem.
+- [kvbench](https://github.com/jimrobinson/kvbench) - Benchmark de banco de dados de chave/valor.
+- [skynet](https://github.com/atemerev/skynet) - Microbenchmark Skynet 1M threads.
+- [speedtest-resize](https://github.com/fawick/speedtest-resize) - Compare vários algoritmos de redimensionamento de imagem para a linguagem Go.
+- [vizb](https://github.com/goptics/vizb) - Uma ferramenta CLI para visualizar dados de benchmark de Go em 4D.
+
+**[⬆ voltar ao topo](#contents)**
+
+## Conferências
+
+- [GoCon](https://gocon.connpass.com/) - Tokyo, Japão.
+- [GoDays](https://www.godays.io/) - Berlim, Alemanha.
+- [GoLab](https://golab.io/) - Florença, Itália.
+- [GopherCon](https://www.gophercon.com/) - Locais variados a cada ano, EUA.
+- [GopherCon Africa](https://gophercon.africa/) - Nairobi, Quênia.
+- [GopherCon Australia](https://gophercon.com.au/) - Sydney, Austrália.
+- [GopherCon Brazil](https://gopherconbr.org) - Florianópolis, Brasil.
+- [GopherCon China](https://gophercon.com.cn) - Xangai, China.
+- [GopherCon Europe](https://gophercon.eu/) - Berlim, Alemanha.
+- [GopherCon India](https://gopherconindia.org/) - Pune, Índia.
+- [GopherCon Israel](https://www.gophercon.org.il/) - Tel Aviv, Israel.
+- [GopherCon Russia](https://www.gophercon-russia.ru) - Moscou, Rússia.
+- [GopherCon Singapore](https://gophercon.sg) - Mapletree Business City, Singapura.
+- [GopherCon UK](https://www.gophercon.co.uk/) - Londres, Reino Unido.
+- [GopherCon Vietnam](https://gophercon.vn/) - Ho Chi Minh City, Vietnã.
+- [GoWest Conference](https://www.gowestconf.com/) - Lehi, EUA.
+
+**[⬆ voltar ao topo](#contents)**
+
+## E-Books
+
+### E-books para compra
+
+- [100 Go Mistakes: How to Avoid Them](https://www.manning.com/books/100-go-mistakes-how-to-avoid-them)
+- [Black Hat Go](https://nostarch.com/blackhatgo) - Programação em Go para hackers e pentesters.
+- [Build an Orchestrator in Go](https://www.manning.com/books/build-an-orchestrator-in-go)
+- [Continuous Delivery in Go](https://www.manning.com/books/continuous-delivery-in-go) - Este guia prático de entrega contínua mostra como estabelecer rapidamente um pipeline automatizado que melhorará seus testes, qualidade de código e produto final.
+- [Creative DIY Microcontroller Project With TinyGo and WebAssembly](https://www.packtpub.com/product/creative-diy-microcontroller-projects-with-tinygo-and-webassembly/9781800560208) - Uma introdução ao compilador TinyGo com projetos envolvendo Arduino e WebAssembly.
+- [Effective Go: Elegant, efficient, and testable code](https://www.manning.com/books/effective-go) - Desbloqueie a perspectiva única do Go sobre design de programa e comece a escrever código Go simples, mantível e testável.
+- [For the Love of Go](https://bitfieldconsulting.com/books/love) - Um livro introdutório para iniciantes em Go.
+- [Go in Practice, Second Edition](https://www.manning.com/books/go-in-practice-second-edition) - Seu guia prático sobre os detalhes do desenvolvimento em Go, cobrindo a biblioteca padrão e as ferramentas mais importantes do poderoso ecossistema do Go.
+- [Know Go: Generics](https://bitfieldconsulting.com/books/generics) - Um guia para entender e usar genéricos em Go.
+- [Lets-Go](https://lets-go.alexedwards.net) - Um guia passo a passo para criar aplicações web rápidas, seguras e mantíveis com Go.
+- [Lets-Go-Further](https://lets-go-further.alexedwards.net) - Padrões avançados para construir APIs e aplicações web em Go.
+- [The Power of Go: Tests](https://bitfieldconsulting.com/books/tests) - Um guia para testes em Go.
+- [The Power of Go: Tools](https://bitfieldconsulting.com/books/tools) - Um guia para escrever ferramentas de linha de comando em Go.
+- [Writing A Compiler In Go](https://compilerbook.com)
+- [Writing An Interpreter In Go](https://interpreterbook.com) - Livro que introduz dúzias de técnicas para escrever código Go idiomático, expressivo e eficiente que evita armadilhas comuns.
+
+### E-books gratuitos
+
+- [A Go Developer's Notebook](https://leanpub.com/GoNotebook/read)
+- [An Introduction to Programming in Go](http://www.golang-book.com/)
+- [Build a blockchain from scratch in Go with gRPC](https://github.com/volodymyrprokopyuk/go-blockchain) - O guia fundamental e prático para aprender efetivamente e construir progressivamente um blockchain do zero em Go com gRPC.
+- [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/)
+- [Building Web Apps With Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/)
+- [Go 101](https://go101.org) - Um livro focando em sintaxe/semântica do Go e todos os tipos de detalhes.
+- [Go AST Book (Chinese)](https://github.com/chai2010/go-ast-book) - Um livro focando nos pacotes `go/*` do Go.
+- [Go Faster](https://leanpub.com/gofaster) - Este livro busca encurtar sua curva de aprendizado e ajudá-lo a se tornar um programador Go proficiente, mais rápido.
+- [Go Succinctly](https://github.com/thedevsir/gosuccinctly) - em Persa.
+- [Go with the domain](https://threedots.tech/go-with-the-domain/) - Um livro mostrando como aplicar DDD, Clean Architecture e CQRS através de refatoração prática.
+- [GoBooks](https://github.com/dariubs/GoBooks) - Uma lista curada de livros de Go.
+- [How To Code in Go eBook](https://www.digitalocean.com/community/books/how-to-code-in-go-ebook) - Uma introdução de 600 páginas a Go destinada a desenvolvedores iniciantes.
+- [Learning Go](https://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
+- [Network Programming With Go](https://jan.newmarch.name/golang/)
+- [Practical Go Lessons](https://www.practical-go-lessons.com/)
+- [Spaceship Go A Journey to the Standard Library](https://blasrodri.github.io/spaceship-go-gh-pages/)
+- [The Go Programming Language](https://www.gopl.io/)
+- [The Golang Standard Library by Example (Chinese)](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
+- [The Little Go Book](https://github.com/karlseguin/the-little-go-book)
+- [Web Application with Go the Anti-Textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)
+
+**[⬆ voltar ao topo](#contents)**
+
+## Gophers
+
+- [Free Gophers Pack](https://github.com/MariaLetta/free-gophers-pack) - Pacote de gráficos Gopher da Maria Letta com ilustrações e personagens emocionais em vetor e raster.
+- [Go-gopher-Vector](https://github.com/keygx/Go-gopher-Vector) - Dados do Vetor Go gopher [.ai, .svg].
+- [gopher-logos](https://github.com/GolangUA/gopher-logos) - logos adoráveis de gopher.
+- [gopher-stickers](https://github.com/tenntenn/gopher-stickers)
+- [gophericons](https://github.com/shalakhin/gophericons)
+- [gopherize.me](https://github.com/matryer/gopherize.me) - Gopherize a si mesmo.
+- [gophers](https://github.com/ashleymcnamara/gophers) - Obras de arte de Gopher por Ashley McNamara.
+- [gophers](https://github.com/egonelbre/gophers) - Gophers gratuitos.
+- [gophers](https://github.com/rogeralsing/gophers) - gráficos aleatórios de gopher.
+- [gophers](https://github.com/sillecelik/go-gopher) - Padrão de brinquedo amigurumi de Gopher.
+- [gophers](https://github.com/scraly/gophers) - Gophers por Aurélie Vache.
+
+**[⬆ voltar ao topo](#contents)**
+
+## Meetups
+
+- [Basel Go Meetup](https://www.meetup.com/Basel-Go-Meetup/)
+- [Belfast Gophers](https://www.meetup.com/Belfast-Gophers/)
+- [Belgrade Golang Meetup](https://www.meetup.com/golang-serbia/)
+- [Berlin Golang](https://www.meetup.com/golang-users-berlin/)
+- [Brisbane Gophers](https://www.meetup.com/Brisbane-Golang-Meetup/)
+- [Bärner Go Meetup - Berne, Switzerland](https://www.meetup.com/berner-go-meetup/)
+- [Go Ireland - Dublin](https://www.meetup.com/goireland/)
+- [Go Language NYC](https://www.meetup.com/golanguagenewyork/)
+- [Go London User Group](https://www.meetup.com/Go-London-User-Group/)
+- [Go Remote Meetup](https://www.meetup.com/Go-Remote-Meetup/)
+- [Go Toronto](https://www.meetup.com/go-toronto/)
+- [Go User Group Atlanta](https://www.meetup.com/Go-Users-Group-Atlanta/)
+- [GoBandung](https://www.meetup.com/GoBandung/)
+- [GoBridge, San Francisco, CA](https://www.meetup.com/gobridge/)
+- [GoCracow - Krakow, Poland](https://www.meetup.com/GoCracow/)
+- [GoJakarta](https://www.meetup.com/GoJakarta/)
+- [Golang Amsterdam](https://www.meetup.com/golang-amsterdam/)
+- [Golang Argentina](https://www.meetup.com/Golang-Argentina/)
+- [Golang Athens](https://www.meetup.com/Athens-Gophers/)
+- [Golang Baltimore, MD](https://www.meetup.com/BaltimoreGolang/)
+- [Golang Bangalore](https://www.meetup.com/Golang-Bangalore/)
+- [Golang Belo Horizonte - Brazil](https://www.meetup.com/go-belo-horizonte/)
+- [Golang Boston](https://www.meetup.com/bostongo/)
+- [Golang Bulgaria](https://www.meetup.com/Golang-Bulgaria/)
+- [Golang Cardiff, UK](https://www.meetup.com/Cardiff-Go-Meetup/)
+- [Golang Copenhagen](https://www.meetup.com/Go-Cph/)
+- [Golang Curitiba - Brazil](https://www.meetup.com/GolangCWB/)
+- [Golang DC, Arlington, VA](https://www.meetup.com/Golang-DC/)
+- [Golang Dorset, UK](https://www.meetup.com/golang-dorset/)
+- [Golang Estonia](https://www.meetup.com/Golang-Estonia/)
+- [Golang Gurgaon, India](https://www.meetup.com/Gurgaon-Go-Meetup/)
+- [Golang Hamburg - Germany](https://www.meetup.com/Go-User-Group-Hamburg/)
+- [Golang Israel](https://www.meetup.com/Go-Israel/)
+- [Golang Kathmandu](https://www.meetup.com/Golang-Kathmandu/)
+- [Golang Lima - Peru](https://www.meetup.com/Golang-Peru/)
+- [Golang Lyon](https://www.meetup.com/Golang-Lyon/)
+- [Golang Marseille](https://www.meetup.com/fr-FR/Golang-Marseille/)
+- [Golang Melbourne](https://www.meetup.com/golang-mel/)
+- [Golang Milano](https://www.meetup.com/golang-milano/)
+- [Golang North East](https://www.meetup.com/en-AU/Golang-North-East/)
+- [Golang Paris](https://www.meetup.com/Golang-Paris/)
+- [Golang Poland](https://www.meetup.com/Golang-Poland/)
+- [Golang Pune](https://www.meetup.com/Golang-Pune/)
+- [Golang Roma](https://www.meetup.com/golangroma/)
+- [Golang Rotterdam](https://www.meetup.com/golang-rotterdam/)
+- [Golang Singapore](https://www.meetup.com/golangsg/)
+- [Golang Stockholm](https://www.meetup.com/Go-Stockholm/)
+- [Golang Sydney, AU](https://www.meetup.com/golang-syd/)
+- [Golang São Paulo - Brazil](https://www.meetup.com/golangbr/)
+- [Golang Taipei](https://www.meetup.com/golang-taipei-meetup/)
+- [Golang Thessaloniki](https://www.meetup.com/thessaloniki-golang-meetup/)
+- [Golang Torino](https://www.meetup.com/golang-torino/)
+- [Golang Turkey](https://kommunity.com/goturkiye)
+- [Golang Vancouver, BC](https://www.meetup.com/golangvan/)
+- [Golang Vienna, Austria](https://www.meetup.com/viennago/)
+- [Golang Москва](https://www.meetup.com/Golang-Moscow/)
+- [GoSF - San Francisco, CA](https://www.meetup.com/golangsf)
+- [Istanbul Golang](https://www.meetup.com/Istanbul-Golang/)
+- [Lagos Gophers](https://www.meetup.com/GolangNigeria/)
+- [Nairobi Gophers](https://www.meetup.com/nairobi-gophers/)
+- [Seattle Go Programmers](https://www.meetup.com/golang/)
+- [Ukrainian Golang User Groups](https://www.meetup.com/uagolang/)
+- [Utah Go User Group](https://www.meetup.com/utahgophers/)
+- [Women Who Go - San Francisco, CA](https://www.meetup.com/Women-Who-Go/)
+- [Zürich Gophers - Zurich, Switzerland](https://www.meetup.com/zurich-gophers/)
+
+_Adicione o grupo de sua cidade/país aqui (envie **PR**)_
+
+**[⬆ voltar ao topo](#contents)**
+
+## Guias de Estilo
+
+- [CockroachDB](https://github.com/cockroachdb/cockroach/blob/master/docs/style.md)
+- [enra/go-styleguide](https://codeberg.org/enra/go-styleguide)
+- [GitLab](https://docs.gitlab.com/ee/development/go_guide/)
+- [Google](https://google.github.io/styleguide/go/)
+- [Hyperledger](https://github.com/hyperledger/fabric/blob/release-1.4/docs/source/style-guides/go-style.rst)
+- [Thanos](https://thanos.io/tip/contributing/coding-style-guide.md/)
+- [Trybe](https://github.com/betrybe/playbook-go/blob/main/README_EN.md)
+- [Uber](https://github.com/uber-go/guide/blob/master/style.md)
+
+**[⬆ voltar ao topo](#contents)**
+
+## Mídias Sociais
+
+### Twitter
+
+- [@GoDiscussions](https://twitter.com/GoDiscussions)
+- [@golang](https://twitter.com/golang)
+- [@golang_news](https://twitter.com/golang_news)
+- [@golangch](https://twitter.com/golangch)
+- [@golangweekly](https://twitter.com/golangweekly)
+
+**[⬆ voltar ao topo](#contents)**
+
+### Reddit
+
+- [r/golang](https://www.reddit.com/r/golang/)
+
+**[⬆ voltar ao topo](#contents)**
+
+## Websites
+
+- [Awesome Go @LibHunt](https://go.libhunt.com) - Seu Go Toolbox de referência.
+- [Awesome Golang Workshops](https://github.com/amit-davidson/awesome-golang-workshops) - Uma lista curada de oficinas awesome golang.
+- [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job) - Lista curada de trabalhos remotos incríveis. Muitos deles procuram hackers Go.
+- [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - Lista de outras listas incrivelmente incríveis.
+- [awesome-go-extra](https://github.com/xwjdsh/awesome-go-extra) - Analise o arquivo README awesome-go e gere um novo arquivo README com informações do repositório.
+- [Code with Mukesh](https://codewithmukesh.com/categories/golang) - Engenheiro de Software e Blogs @ codewithmukesh.com.
+- [Coding Mystery](https://codingmystery.com) - Resolva desafios de programação inspirados em salas de fuga usando Go.
+- [CodinGame](https://www.codingame.com/) - Aprenda Go resolvendo tarefas interativas usando pequenos jogos como exemplos práticos.
+- [Go Blog](https://blog.golang.org) - O blog oficial do Go.
+- [Go Code Club](https://www.youtube.com/watch?v=nvoIPQYdx9g&list=PLEcwzBXTPUE_YQR7R0BRtHBYJ0LN3Y0i3) - Um grupo de Gophers lê e discute um projeto Go diferente a cada semana.
+- [Go Community on Hashnode](https://hashnode.com/n/go) - Comunidade de Gophers no Hashnode.
+- [Go Forum](https://forum.golangbridge.org) - Fórum para discutir Go.
+- [Go Projects](https://github.com/golang/go/wiki/Projects) - Lista de projetos na wiki da comunidade Go.
+- [Go Proverbs](https://go-proverbs.github.io/) - Provérbios Go por Rob Pike.
+- [Go Report Card](https://goreportcard.com) - Um cartão de relatório para seu pacote Go.
+- [go.dev](https://go.dev/) - Um hub para desenvolvedores Go.
+- [gocryforhelp](https://github.com/ninedraft/gocryforhelp) - Coleção de projetos Go que precisam de ajuda. Bom lugar para começar sua jornada de código aberto em Go.
+- [Golang Developer Jobs](https://golangjob.xyz) - Trabalhos de desenvolvedor exclusivamente para funções relacionadas a Golang.
+- [Golang News](https://golangnews.com) - Links e notícias sobre programação em Go.
+- [Golang Nugget](https://golangnugget.com) - Um resumo semanal do melhor conteúdo de Go, entregue na sua caixa de entrada toda segunda-feira.
+- [Golang Weekly](https://discu.eu/weekly/golang/) - Cada segunda-feira projetos, tutoriais e artigos sobre Go.
+- [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Lista de discussão Go.
+- [Gopher Community Chat](https://invite.slack.golangbridge.org) - Junte-se à nossa nova comunidade Slack para Gophers ([Entenda como começou](https://blog.gopheracademy.com/gophers-slack-community/)).
+- [Gophercises](https://gophercises.com/) - Exercícios de codificação gratuitos para gophers em desenvolvimento.
+- [json2go](https://m-zajac.github.io/json2go) - Conversão avançada de JSON para struct Go - ferramenta online.
+- [justforfunc](https://www.youtube.com/c/justforfunc) - Canal do Youtube dedicado a dicas e truques de programação em Go, hospedado por Francesc Campoy [@francesc](https://twitter.com/francesc).
+- [Learn Go Programming](https://blog.learngoprogramming.com) - Aprenda conceitos de Go com ilustrações.
+- [Libs.tech](https://libs.tech/go) – Bibliotecas Go incríveis e gemas ocultas
+- [Made with Golang](https://madewithgolang.com/?ref=awesome-go)
+- [pkg.go.dev](https://pkg.go.dev/) - Documentação para pacotes Go de código aberto.
+- [studygolang](https://studygolang.com) - A comunidade de studygolang na China.
+- [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Bom lugar para encontrar novas bibliotecas Go.
+- [TutorialEdge - Golang](https://tutorialedge.net/course/golang/)
+
+**[⬆ voltar ao topo](#contents)**
+
+### Tutoriais
+
+- [50 Shades of Go](https://golang50shades.github.io/) - Armadilhas, Gotchas e Erros Comuns para Novos Desenvolvedores Golang.
+- [A Comprehensive Guide to Structured Logging in Go](https://betterstack.com/community/guides/logging/logging-in-go/) - Mergulhe profundamente no mundo do logging estruturado em Go com foco específico na proposta slog recentemente aceita, que visa trazer logging estruturado de alto desempenho com níveis para a biblioteca padrão.
+- [A Guide to Golang E-Commerce](https://snipcart.com/blog/golang-ecommerce-ponzu-cms-demo?utm_term=golang-ecommerce-ponzu-cms-demo) - Construindo um site Golang para e-commerce (demonstração incluída).
+- [A Tour of Go](https://tour.golang.org/) - Tour interativo do Go.
+- [Build a Database in 1000 lines of code](https://link.medium.com/O9YQlx89Htb) - Construa um Banco de Dados NoSQL do Zero em 1000 Linhas de Código.
+- [Build web application with Golang](https://github.com/astaxie/build-web-application-with-golang) - Ebook Golang intro como construir uma aplicação web com golang.
+- [Building and Testing a REST API in Go with Gorilla Mux and PostgreSQL](https://semaphoreci.com/community/tutorials/building-and-testing-a-rest-api-in-go-with-gorilla-mux-and-postgresql) - Escreveremos uma API com a ajuda do poderoso Gorilla Mux.
+- [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin) - Familiarize-se com Gin e descubra como isso pode ajudá-lo a reduzir o código boilerplate e construir um pipeline de tratamento de requisições.
+- [Caching Slow Database Queries](https://medium.com/@rocketlaunchr.cloud/caching-slow-database-queries-1085d308a0c9) - Como cachear consultas lentas do banco de dados.
+- [Canceling MySQL](https://medium.com/@rocketlaunchr.cloud/canceling-mysql-in-go-827ed8f83b30) - Como cancelar consultas MySQL.
+- [CodeCrafters Golang Track](https://app.codecrafters.io/tracks/go) - Alcance mestria em Go avançado construindo seu próprio Redis, Docker, Git e SQLite. Apresenta goroutines, programação de sistemas, E/S de arquivos e muito mais.
+- [Design Patterns in Go](https://github.com/shubhamzanwar/design-patterns) - Coleção de padrões de design de programação implementados em Go.
+- [Games With Go](https://www.youtube.com/watch?v=9D4yH7e_ea8&list=PLDZujg-VgQlZUy1iCqBbe5faZLMkA3g2x) - Uma série de vídeos ensinando programação e desenvolvimento de jogos.
+- [Go By Example](https://gobyexample.com/) - Introdução prática a Go usando programas de exemplo anotados.
+- [Go Cheat Sheet](https://github.com/a8m/go-lang-cheat-sheet) - Cartão de referência do Go.
+- [Go database/sql tutorial](http://go-database-sql.org/) - Introdução ao database/sql.
+- [Go in 7 days](https://github.com/harrytran103/7_days_of_go) - Aprenda tudo sobre Go em 7 dias (de um desenvolvedor Nodejs).
+- [Go Language Tutorial](https://www.javatpoint.com/go-tutorial) - Aprenda o Tutorial de Linguagem Go.
+- [Go Tutorial](https://www.tutorialspoint.com/go/index.htm) - Aprenda programação em Go.
+- [Go WebAssembly Tutorial - Building a Simple Calculator](https://tutorialedge.net/golang/go-webassembly-tutorial/)
+- [go-clean-template](https://github.com/evrone/go-clean-template) - Modelo Clean Architecture para serviços Golang.
+- [go-patterns](https://github.com/tmrts/go-patterns) - Lista curada de padrões de design Go, receitas e idiomas.
+- [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers) - Exemplos de Golang comparados a Node.js para aprender.
+- [Golang Tutorial Guide](https://www.freecodecamp.org/news/golang-tutorial-list-free-courses-learn-go-programming-language/) - Uma Lista de Cursos Gratuitos para Aprender a Linguagem de Programação Go.
+- [golang-examples](https://github.com/SimonWaldherr/golang-examples) - Muitos exemplos para aprender Golang.
+- [Golangbot](https://golangbot.com/learn-golang-series/) - Tutoriais para começar com programação em Go.
+- [GopherCoding](https://gophercoding.com/) - Coleção de snippets de código e tutoriais para ajudar a lidar com problemas do dia a dia.
+- [GopherSnippets](https://gophersnippets.com/) - Snippets de código com testes e exemplos testáveis para a linguagem de programação Go.
+- [Gosamples](https://gosamples.dev/) - Coleção de snippets de código que permitem resolver problemas de código do dia a dia.
+- [GraphQL with Go](https://hasura.io/learn/graphql/backend-stack/languages/go/) - Aprenda como criar um servidor e cliente Go GraphQL com geração de código. Também inclui criar endpoints REST.
+- [Hackr.io](https://hackr.io/tutorials/learn-golang) - Aprenda Go dos melhores tutoriais golang online submetidos e votados pela comunidade de programação golang.
+- [Hex Monscape](https://github.com/Haraj-backend/hex-monscape) - Diretrizes para começar a escrever código mantível usando Hexagonal Architecture.
+- [How to Benchmark: dbq vs sqlx vs GORM](https://medium.com/@rocketlaunchr.cloud/how-to-benchmark-dbq-vs-sqlx-vs-gorm-e814caacecb5) - Aprenda como fazer benchmark em Go. Como estudo de caso, vamos fazer benchmark de dbq, sqlx e GORM.
+- [How To Deploy a Go Web Application with Docker](https://semaphoreci.com/community/tutorials/how-to-deploy-a-go-web-application-with-docker) - Aprenda como usar Docker para desenvolvimento em Go e como construir imagens Docker de produção.
+- [How to Implement Role-Based Access Control (RBAC) Authorization in Golang](https://www.permit.io/blog/role-based-access-control-rbac-authorization-in-golang) - Um guia para implementar Role-Based Access Control (RBAC) em Golang, incluindo exemplos de código, cobrindo vários métodos para proteger endpoints de aplicativos com autorização baseada em funções.
+- [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go) - Comece com Godog - um framework de desenvolvimento orientado por comportamento para construir e testar aplicações Go.
+- [Learn Go with 1000+ Exercises](https://github.com/inancgumus/learngo) - Aprenda Go com milhares de exemplos, exercícios e questionários.
+- [Learn Go with TDD](https://github.com/quii/learn-go-with-tests) - Aprenda Go com desenvolvimento orientado a testes.
+- [Learning Go by examples](https://dev.to/aurelievache/learning-go-by-examples-introduction-448n) - Série de artigos para aprender a linguagem Golang através de aplicações concretas como exemplo.
+- [Microservices with Go](https://www.youtube.com/playlist?list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_) - Mergulhe profundamente na construção de microsserviços usando Go, incluindo gRPC.
+- [package main](https://www.youtube.com/packagemain) - Canal do YouTube sobre Programação em Go.
+- [Programming with Google Go](https://www.coursera.org/specializations/google-golang) - Especialização Coursera para aprender sobre Go do zero.
+- [Scaling Go Applications](https://betterstack.com/community/guides/scaling-go/) - Tudo sobre construir, implantar e dimensionar aplicações Go em produção.
+- [The world's easiest introduction to WebAssembly with Golang](https://medium.com/@martinolsansky/webassembly-with-golang-is-fun-b243c0e34f02)
+- [Understanding Go in a visual way](https://dev.to/aurelievache/series/26234) - Aprenda Go visualmente
+- [W3basic Go Tutorials](https://www.w3basic.com/golang/) - W3Basic fornece um tutorial aprofundado e conteúdo bem organizado para aprender programação Golang.
+- [Your basic Go](https://yourbasic.org/golang) - Enorme coleção de tutoriais e howtos.
+
+**[⬆ voltar ao topo](#contents)**
+
+### Aprendizado Guiado
+
+- [The Go Developer Roadmap](https://roadmap.sh/golang) - Um roadmap visual que novos desenvolvedores Go podem seguir para ajudá-los a aprender Go.
+- [The Go Interview Practice](https://github.com/RezaSi/go-interview-practice) - Um repositório GitHub oferecendo desafios de codificação para preparação de entrevista técnica Go.
+- [The Go Learning Path](https://tutorialedge.net/paths/golang/) - Um caminho de aprendizado guiado contendo uma mistura de recursos gratuitos e premium.
+- [The Go Skill Tree](https://labex.io/skilltrees/go) - Um caminho de aprendizado estruturado que combina recursos gratuitos e premium.
+
+**[⬆ voltar ao topo](#contents)**
+
+## Contribuição
+
+Bem-vindo contribuições! Por favor, consulte nosso [CONTRIBUTING.md](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md) para diretrizes.
+
+## Licença
+
+Este projeto é licenciado sob a [Licença MIT](https://github.com/avelino/awesome-go/blob/main/LICENSE) - veja o arquivo LICENSE para detalhes.

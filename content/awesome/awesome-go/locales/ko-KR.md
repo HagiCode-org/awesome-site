@@ -3436,3 +3436,700 @@ _풀스택 웹 프레임워크._
 
 **[⬆ 맨 위로](#contents)**
 
+## 웹훅 서버
+
+- [HookRun](https://github.com/bluvenr/hookrun) - 경량 웹훅 액션 엔진(~3MB 단일 바이너리, 의존성 없음)으로 YAML 규칙에서 토큰/HMAC/IP 인증 및 핫 리로드를 통해 명령과 스크립트를 실행합니다.
+- [webhook](https://github.com/adnanh/webhook) - 사용자가 서버에서 명령을 실행하는 HTTP 엔드포인트(훅)를 생성할 수 있게 해주는 도구입니다.
+- [webhooked](https://github.com/42Atomys/webhooked) - 스테로이드를 맞은 웹훅 수신기: 웹훅 페이로드를 처리, 보안, 형식 지정 및 저장하는 것이 그 어느 때보다 쉬워졌습니다.
+- [WebhookX](https://github.com/webhookx-io/webhookx) - 메시지 수신, 처리 및 안정적인 전달을 위한 웹훅 게이트웨이입니다.
+
+**[⬆ 맨 위로](#contents)**
+
+## Windows
+
+- [d3d9](https://github.com/gonutz/d3d9) - Direct3D9용 Go 바인딩입니다.
+- [go-ole](https://github.com/go-ole/go-ole) - golang을 위한 Win32 OLE 구현입니다.
+- [gosddl](https://github.com/MonaxGT/gosddl) - SDDL 문자열을 사용자 친화적 JSON으로 변환합니다. SDDL은 네 부분으로 구성됩니다: 소유자, 주 그룹, DACL, SACL입니다.
+- [windowsupdate](https://github.com/ceshihao/windowsupdate) - go-ole를 사용하는 Windows Update Agent API용 Golang 바인딩입니다.
+
+**[⬆ 맨 위로](#contents)**
+
+## 워크플로 프레임워크
+
+_워크플로를 생성하기 위한 라이브러리._
+
+- [Cadence-client](https://github.com/uber-go/cadence-client) - Uber에서 만든 Cadence 오케스트레이션 엔진 위에서 실행되는 워크플로와 액티비티를 작성하기 위한 프레임워크입니다.
+- [Dagu](https://github.com/dagu-go/dagu) - 코드 없는 워크플로 실행기입니다. 간단한 YAML 형식으로 정의된 DAG를 실행합니다.
+- [durable-go](https://github.com/agenticenv/durable-go) - 단일 프로세스 Go 앱 및 AI 에이전트를 위한 지속 가능한 실행 엔진으로 의존성이 없습니다.
+- [Flowbaker](https://github.com/flowbaker/flowbaker) - 코드 없는 워크플로를 구축, 연결 및 자동화하기 위한 자체 호스팅 실행 엔진입니다.
+- [go-dag](https://github.com/rhosocial/go-dag) - 방향성 비순환 그래프로 설명된 워크플로의 실행을 관리하는 Go로 개발된 프레임워크입니다.
+- [go-taskflow](https://github.com/noneback/go-taskflow) - 통합 시각화 및 프로파일러를 포함한 작업 흐름과 유사한 범용 작업 병렬 프로그래밍 프레임워크입니다.
+- [GopherFlow](https://github.com/RealZimboGuy/gopherflow) - Postgres, MySQL 또는 SQLite로 지원되는 내장 웹 콘솔이 있는 내구성 있는 워크플로 엔진입니다.
+- [workflow](https://github.com/luno/workflow) - 기술 스택에 구애받지 않는 이벤트 기반 워크플로 프레임워크입니다.
+
+**[⬆ 맨 위로](#contents)**
+
+## XML
+
+_XML을 조작하기 위한 라이브러리 및 도구._
+
+- [XML-Comp](https://github.com/xml-comp/xml-comp) - 폴더, 파일 및 태그의 차이점을 생성하는 간단한 명령줄 XML 비교 도구입니다.
+- [xml2map](https://github.com/sbabiv/xml2map) - Golang으로 작성된 XML을 MAP로 변환합니다.
+- [xmlquery](https://github.com/antchfx/xmlquery) - xmlquery는 XML 쿼리를 위한 Golang XPath 패키지입니다.
+- [xmlwriter](https://github.com/shabbyrobe/xmlwriter) - libxml2의 xmlwriter 모듈을 기반으로 한 절차형 XML 생성 API입니다.
+- [xpath](https://github.com/antchfx/xpath) - Go용 XPath 패키지입니다.
+- [zek](https://github.com/miku/zek) - XML에서 Go 구조체를 생성합니다.
+
+## 제로 트러스트
+
+_제로 트러스트 아키텍처를 구현하기 위한 라이브러리 및 도구._
+
+- [Cosign](https://github.com/sigstore/cosign) - OCI 레지스트리에서 컨테이너 서명, 검증 및 저장입니다.
+- [in-toto](https://github.com/in-toto/in-toto-golang) - in-toto의 Go 구현(소프트웨어 공급망의 무결성을 보호하기 위한 프레임워크를 제공합니다) Python 참조 구현입니다.
+- [OpenZiti](https://github.com/openziti/ziti) - 완전한 오픈 소스 제로 트러스트 오버레이 네트워크입니다. [golang](https://github.com/openziti/sdk-golang)을 포함한 여러 언어를 위한 수많은 SDK를 포함하고 있어 제로 트러스트 원칙을 응용 프로그램에 직접 포함할 수 있습니다. [OpenZiti 테스트 키친](https://github.com/openziti-test-kitchen)에는 [제로 트러스트 ssh 클라이언트 - zssh](https://github.com/openziti-test-kitchen/zssh)를 포함한 영감을 얻을 수 있는 수많은 예시가 있습니다.
+- [Spiffe-Vault](https://github.com/philips-labs/spiffe-vault) - Hashicorp Vault를 사용한 Spiffe JWT 인증을 활용하여 비밀 없는 인증을 제공합니다.
+- [Spire](https://github.com/spiffe/spire) - SPIRE(SPIFFE 런타임 환경)는 다양한 호스팅 플랫폼에 걸쳐 소프트웨어 시스템 간의 신뢰를 설정하기 위한 API의 도구 모음입니다.
+
+## 코드 분석
+
+_소스 코드 분석 도구로 정적 응용 프로그램 보안 테스트(SAST) 도구라고도 합니다._
+
+- [apicompat](https://github.com/bradleyfalzon/apicompat) - Go 프로젝트에 대한 최근 변경 사항을 확인하여 이전 버전과의 호환성이 없는 변경 사항을 확인합니다.
+- [ast-metrics](https://github.com/ast-metrics/ast-metrics) - Go 및 기타 언어를 위한 정적 코드 분석기입니다: HTML, JSON, Markdown 및 SARIF 보고서가 있는 복잡성, 결합, 응집력 및 유지 보수 가능성 메트릭입니다.
+- [asty](https://github.com/asty-org/asty) - golang AST를 JSON으로, JSON을 AST로 변환합니다.
+- [blanket](https://gitlab.com/verygoodsoftwarenotvirus/blanket) - blanket은 Go 패키지에서 직접 단위 테스트가 없는 함수를 포착하는 데 도움이 되는 도구입니다.
+- [ChainJacking](https://github.com/Checkmarx/chainjacking) - Go lang 직접 GitHub 의존성 중 어느 것이 ChainJacking 공격에 취약한지 찾습니다.
+- [Chronos](https://github.com/amit-davidson/Chronos) - 정적으로 경합 조건을 감지합니다.
+- [deadmono](https://github.com/arxeiss/deadmono) - Go monorepo에서 죽은 코드 감지를 위한 deadcode 주위의 래퍼입니다.
+- [dupl](https://github.com/mibk/dupl) - 코드 복제 감지를 위한 도구입니다.
+- [errcheck](https://github.com/kisielk/errcheck) - Errcheck는 Go 프로그램에서 확인되지 않은 오류를 확인하기 위한 프로그램입니다.
+- [fatcontext](https://github.com/Crocmagnon/fatcontext) - Fatcontext는 루프 또는 함수 리터럴의 중첩된 컨텍스트를 감지합니다.
+- [go-checkstyle](https://github.com/qiniu/checkstyle) - checkstyle은 java checkstyle과 유사한 스타일 확인 도구입니다. 이 도구는 java checkstyle, golint에서 영감을 받았습니다. 스타일은 Go Code Review Comments의 일부 요점을 참고합니다.
+- [go-cleanarch](https://github.com/roblaszczak/go-cleanarch) - go-cleanarch는 Clean Architecture 규칙(예: The Dependency Rule 및 Go 프로젝트의 패키지 간 상호 작용)을 검증하기 위해 생성되었습니다.
+- [go-critic](https://github.com/go-critic/go-critic) - 현재 다른 린터에서 구현되지 않은 검사를 제공하는 소스 코드 린터입니다.
+- [go-mod-outdated](https://github.com/psampaz/go-mod-outdated) - Go 프로젝트의 오래된 의존성을 찾는 쉬운 방법입니다.
+- [goast-viewer](https://github.com/yuroyoro/goast-viewer) - 웹 기반 Golang AST 시각화 도구입니다.
+- [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) - Go 가져오기를 자동으로 수정(추가, 제거)하기 위한 도구입니다.
+- [golang-ifood-sdk](https://github.com/arxdsilva/golang-ifood-sdk) - iFood API SDK입니다.
+- [golangci-lint](https://github.com/golangci/golangci-lint) – 빠른 Go 린터 러너입니다. 린터를 병렬로 실행하고 캐싱을 사용하며 `yaml` 구성을 지원하고 모든 주요 IDE와의 통합을 가지며 수십 개의 린터가 포함되어 있습니다.
+- [golines](https://github.com/segmentio/golines) - Go 코드의 긴 줄을 자동으로 단축하는 포매터입니다.
+- [gomarklint](https://github.com/shinagawa-web/gomarklint) - 기본 제공 HTTP 링크 검증, 단일 바이너리, Node.js 필요 없음을 포함한 Markdown 린터입니다.
+- [GoPlantUML](https://github.com/jfeliu007/goplantuml) - 구조 및 인터페이스에 대한 정보와 그들 간의 관계를 포함하는 텍스트 plantump 클래스 다이어그램을 생성하는 라이브러리 및 CLI입니다.
+- [goreturns](https://github.com/sqs/goreturns) - func 반환 타입과 일치하도록 0값 return 문을 추가합니다.
+- [gostatus](https://github.com/shurcooL/gostatus) - 명령줄 도구로 Go 패키지를 포함하는 저장소의 상태를 보여줍니다.
+- [lint](https://github.com/surullabs/lint) - go 테스트의 일부로 린터를 실행합니다.
+- [php-parser](https://github.com/z7zmey/php-parser) - Go로 작성된 PHP용 파서입니다.
+- [revive](https://github.com/mgechev/revive) – ~6배 더 빠르고, 더 엄격하며, 구성 가능하고, 확장 가능하며, `golint`를 위한 아름다운 드롭인 대체입니다.
+- [staticcheck](https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck) - staticcheck는 `go vet`의 스테로이드 버전으로 C#용 ReSharper와 같은 도구에서 사용할 수 있는 수많은 정적 분석 검사를 적용합니다.
+- [structalign](https://github.com/peczenyj/structalign) - 구조체의 필드를 재정렬하여 더 적은 메모리를 사용하는 방법을 보여주고 파일을 다시 쓰는 대신 diff를 인쇄합니다.
+- [stto](https://github.com/mainak55512/stto) - 순수 Go로 작성된 경량의 매우 빠른 코드 줄 카운터입니다.
+- [testifylint](https://github.com/Antonboom/testifylint) – [github.com/stretchr/testify](https://github.com/stretchr/testify) 사용을 확인하는 린터입니다.
+- [tickgit](https://github.com/augmentable-dev/tickgit) - 코드 주석 TODO(모든 언어)를 표시하고 `git blame`을 적용하여 작성자를 식별하기 위한 CLI 및 go 패키지입니다.
+- [todocheck](https://github.com/preslavmihaylov/todocheck) - 코드의 TODO 주석을 이슈 추적기의 이슈와 연결하는 정적 코드 분석기입니다.
+- [unconvert](https://github.com/mdempsky/unconvert) - Go 소스에서 불필요한 타입 변환을 제거합니다.
+- [usestdlibvars](https://github.com/sashamelentyev/usestdlibvars) - Go 표준 라이브러리의 변수/상수를 사용할 수 있는 가능성을 감지하는 린터입니다.
+- [vacuum](https://github.com/daveshanley/vacuum) - 초고속, 경량 OpenAPI 린터 및 품질 검사 도구입니다.
+- [validate](https://github.com/mccoyst/validate) - 태그를 사용하여 자동으로 구조 필드를 검증합니다.
+- [wrapcheck](https://github.com/tomarrell/wrapcheck) - 외부 패키지의 오류를 래핑하는 린터입니다.
+
+**[⬆ 맨 위로](#contents)**
+
+## 에디터 플러그인
+
+_텍스트 편집기 및 IDE용 플러그인._
+
+- [coc-go language server extension for Vim/Neovim](https://github.com/josa42/coc-go) - 이 플러그인은 [gopls](https://github.com/golang/tools/blob/master/gopls/README.md) 기능을 Vim/Neovim에 추가합니다.
+- [Go Doc](https://github.com/msyrus/vscode-go-doc) - 출력에서 정의를 표시하고 go 문서를 생성하기 위한 Visual Studio Code 확장입니다.
+- [Go plugin for JetBrains IDEs](https://plugins.jetbrains.com/plugin/9568-go) - JetBrains IDE용 Go 플러그인입니다.
+- [go-mode](https://github.com/dominikh/go-mode.el) - GNU/Emacs용 Go 모드입니다.
+- [gocode](https://github.com/nsf/gocode) - Go 프로그래밍 언어를 위한 자동 완성 데몬입니다.
+- [goimports-reviser](https://github.com/incu6us/goimports-reviser) - 가져오기 형식 지정 도구입니다.
+- [goprofiling](https://marketplace.visualstudio.com/items?itemName=MaxMedia.go-prof) - 이 확장은 VS Code에 Go 언어를 위한 벤치마크 프로파일링 지원을 추가합니다.
+- [GoSublime](https://github.com/DisposaBoy/GoSublime) - SublimeText 3 텍스트 편집기를 위한 Golang 플러그인 컬렉션으로 코드 완성 및 기타 IDE와 유사한 기능을 제공합니다.
+- [gounit-vim](https://github.com/hexdigest/gounit-vim) - 함수 또는 메서드의 서명을 기반으로 Go 테스트를 생성하기 위한 Vim 플러그인입니다.
+- [vim-compiler-go](https://github.com/rjohnsondev/vim-compiler-go) - 저장 시 구문 오류를 강조하기 위한 Vim 플러그인입니다.
+- [vim-go](https://github.com/fatih/vim-go) - Vim용 Go 개발 플러그인입니다.
+- [vscode-go](https://github.com/golang/vscode-go) - Go 언어에 대한 지원을 제공하는 Visual Studio Code(VS Code)의 확장입니다.
+- [Watch](https://github.com/eaburns/Watch) - 파일 변경 시 acme 승리에서 명령을 실행합니다.
+
+**[⬆ 맨 위로](#contents)**
+
+## Go Generate 도구
+
+- [envdoc](https://github.com/g4s8/envdoc) - Go 소스 파일에서 환경 변수에 대한 문서를 생성합니다.
+- [generic](https://github.com/usk81/generic) - Go를 위한 유연한 데이터 타입입니다.
+- [gocontracts](https://github.com/Parquery/gocontracts) - 계약 설계를 Go에 제공하고 코드를 문서와 동기화합니다.
+- [godal](https://github.com/mafulong/godal) - SQL DDL 파일을 지정하여 golang에 해당하는 ORM 모델을 생성하고 gorm에서 사용할 수 있습니다.
+- [gonerics](https://github.com/bouk/gonerics) - Go의 관용적 제네릭입니다.
+- [gotests](https://github.com/cweill/gotests) - 소스 코드에서 Go 테스트를 생성합니다.
+- [gounit](https://github.com/hexdigest/gounit) - 자신의 템플릿을 사용하여 Go 테스트를 생성합니다.
+- [hasgo](https://github.com/DylanMeeus/hasgo) - 슬라이스에 대해 Haskell 영감 함수를 생성합니다.
+- [oapixconstgen](https://github.com/psyb0t/oapixconstgen) - OpenAPI 사양의 x-constants 확장에서 입력한 Go 상수를 생성합니다.
+- [options-gen](https://github.com/kazhuravlev/options-gen) - Dave Cheney의 게시물 "친화적인 API를 위한 기능 옵션"으로 설명된 함수 옵션입니다.
+- [re2dfa](https://gitlab.com/opennota/re2dfa) - 정규식을 유한 상태 머신으로 변환하고 Go 소스 코드를 출력합니다.
+- [sqlgen](https://github.com/anqiansong/sqlgen) - SQL 파일 또는 DSN에서 gorm, xorm, sqlx, bun, sql 코드를 생성합니다.
+- [TOML-to-Go](https://xuri.me/toml-to-go) - TOML을 브라우저에서 즉시 Go 타입으로 변환합니다.
+- [xgen](https://github.com/xuri/xgen) - XSD(XML 스키마 정의) 파서 및 Go/C/Java/Rust/TypeScript 코드 생성기입니다.
+
+**[⬆ 맨 위로](#contents)**
+
+## Go 도구
+
+- [decouple](https://github.com/bobg/decouple) - 인터페이스 타입으로 일반화될 수 있는 "과도하게 지정된" 함수 매개 변수를 찾습니다.
+- [docs](https://github.com/go-oas/docs) - GO 프로젝트에 대해 Open API 사양 표준에 맞춘 RESTful API 문서를 자동으로 생성합니다.
+- [go-callvis](https://github.com/TrueFurby/go-callvis) - dot 형식을 사용하여 Go 프로그램의 호출 그래프를 시각화합니다.
+- [go-size-analyzer](https://github.com/Zxilly/go-size-analyzer) - 컴파일된 Golang 바이너리의 의존성 크기를 분석하고 시각화하여 최종 빌드에 미치는 영향을 파악할 수 있습니다.
+- [go-swagger](https://github.com/go-swagger/go-swagger) - go용 Swagger 2.0 구현입니다. Swagger는 RESTful API를 간단하면서도 강력하게 표현합니다.
+- [go-template-playground](https://bartventer.github.io/go-template-playground/) - Go 템플릿을 생성하고 테스트하기 위한 대화형 환경입니다.
+- [godbg](https://github.com/tylerwince/godbg) - Rust의 `dbg!` 매크로를 개발 중에 빠르고 쉽게 디버깅하기 위해 구현합니다.
+- [gofindimpl](https://github.com/psyb0t/gofindimpl) - 코드베이스 전체에서 특정 Go 인터페이스를 구현하는 모든 구조체를 찾습니다.
+- [gomodrun](https://github.com/dustinblackman/gomodrun/) - go.mod 파일에 포함된 바이너리를 실행하고 캐시하는 Go 도구입니다.
+- [gotemplate.io](https://gotemplate.io/) - `text/template` 템플릿을 실시간으로 미리 보기 위한 온라인 도구입니다.
+- [gotestdox](https://github.com/bitfield/gotestdox) - Go 테스트 결과를 읽을 수 있는 문장으로 보여줍니다.
+- [gothanks](https://github.com/psampaz/gothanks) - GoThanks는 자동으로 go.mod github 의존성에 별을 표시하여 유지 관리자에게 사랑을 보냅니다.
+- [gotutor](https://github.com/ahmedakef/gotutor) - 온라인 Go 디버거 및 시각화 도구입니다.
+- [govisual](https://github.com/doganarif/govisual) - 로컬 Go 웹 개발을 위한 구성 없음, 순수 Go HTTP 요청 시각화 및 디버거입니다.
+- [igo](https://github.com/rocketlaunchr/igo) - Go 언어로의 igo 변환기(Go 언어의 새로운 언어 기능!)
+- [lensm](https://github.com/loov/lensm) - Go 어셈블리 및 소스 뷰어입니다.
+- [modver](https://github.com/bobg/modver) - Go 모듈의 두 버전을 비교하여 [semver](https://semver.org/) 규칙에 따라 필요한 버전 번호 변경(주, 부, 패치 레벨)을 확인합니다.
+- [MoniGO](https://github.com/iyashjayesh/monigo) - Go 응용 프로그램을 위한 성능 모니터링 라이브러리입니다. 응용 프로그램 성능에 대한 실시간 인사이트를 제공합니다! 🚀
+- [OctoLinker](https://github.com/OctoLinker/browser-extension) - GitHub를 위한 OctoLinker 브라우저 확장을 통해 효율적으로 go 파일을 탐색합니다.
+- [richgo](https://github.com/kyoh86/richgo) - 텍스트 장식으로 `go test` 출력을 풍부하게 합니다.
+- [roumon](https://github.com/becheran/roumon) - 명령줄 인터페이스를 통해 현재 상태의 모든 활성 고루틴을 모니터합니다.
+- [rts](https://github.com/galeone/rts) - RTS: 구조로의 응답입니다. 서버 응답에서 Go 구조체를 생성합니다.
+- [textra](https://github.com/ravsii/textra) - 필터링 및 내보내기를 위해 Go 구조체 필드 이름, 타입 및 태그를 추출합니다.
+- [typex](https://github.com/dtgorski/typex) - Go 타입 및 이들의 추이 종속성을 검토하고 선택적으로 결과를 TypeScript 값 객체(또는 타입) 선언으로 내보냅니다.
+
+**[⬆ 맨 위로](#contents)**
+
+## 소프트웨어 패키지
+
+_Go로 작성된 소프트웨어._
+
+**[⬆ 맨 위로](#contents)**
+
+### DevOps 도구
+
+- [abbreviate](https://github.com/dnnrly/abbreviate) - abbreviate는 긴 문자열을 설정 가능한 구분 기호를 사용하여 더 짧은 것으로 변환하는 도구입니다. 예를 들어 브랜치 이름을 배포 스택 ID에 임베드하는 경우에 사용합니다.
+- [alaz](https://github.com/ddosify/alaz) - 손쉬운 저오버헤드 eBPF 기반 Kubernetes 모니터링.
+- [aptly](https://github.com/aptly-dev/aptly) - aptly는 Debian 저장소 관리 도구입니다.
+- [aurora](https://github.com/xuri/aurora) - 크로스 플랫폼 웹 기반 Beanstalkd 큐 서버 콘솔.
+- [aws-doctor](https://github.com/elC0mpa/aws-doctor) - AWS 비용을 진단하고 유휴 리소스를 감지하며 터미널에서 바로 클라우드 비용을 최적화합니다 🩺 ☁️.
+- [awsenv](https://github.com/soniah/awsenv) - Amazon(AWS) 환경 변수를 프로필에 대해 로드하는 작은 바이너리입니다.
+- [Balerter](https://github.com/balerter/balerter) - 셀프 호스팅 스크립트 기반 경고 관리자입니다.
+- [Blast](https://github.com/dave/blast) - API 로드 테스트 및 배치 작업을 위한 간단한 도구입니다.
+- [bombardier](https://github.com/codesenberg/bombardier) - 빠른 크로스 플랫폼 HTTP 벤치마킹 도구입니다.
+- [cassowary](https://github.com/rogerwelin/cassowary) - Go로 작성된 현대적 크로스 플랫폼 HTTP 로드 테스트 도구입니다.
+- [chaosmonkey](https://github.com/Netflix/chaosmonkey) - 애플리케이션이 임의의 인스턴스 장애를 허용할 수 있도록 도와주는 복원력 도구입니다.
+- [colima](https://github.com/abiosoft/colima) - macOS(및 Linux)에서 최소한의 설정으로 컨테이너 런타임을 실행합니다.
+- [Ddosify](https://github.com/ddosify/ddosify) - Golang으로 작성된 고성능 로드 테스트 도구입니다.
+- [decompose](https://github.com/s0rg/decompose) - Docker 컨테이너 연결 그래프를 생성하고 처리하는 도구입니다.
+- [Den](https://github.com/us/den) - AI 에이전트용 셀프 호스팅 샌드박스 런타임. 오픈 소스 E2B 대안입니다.
+- [DepCharge](https://github.com/centerorbit/depcharge) - 더 큰 프로젝트의 많은 종속성에 걸쳐 명령 실행을 오케스트레이션하는 것을 지원합니다.
+- [dish](https://github.com/thevxn/dish) - 경량의 원격 구성 가능한 모니터링 서비스입니다.
+- [Docker](https://www.docker.com/) - 개발자 및 sysadmin을 위한 분산 애플리케이션용 오픈 플랫폼입니다.
+- [docker-go-mingw](https://github.com/x1unix/docker-go-mingw) - MinGW 도구 체인을 사용하여 Windows용 Go 바이너리를 빌드하기 위한 Docker 이미지입니다.
+- [docker-volume-backup](https://github.com/offen/docker-volume-backup) - Docker 볼륨을 로컬로 또는 S3, WebDAV, Azure Blob Storage, Dropbox 또는 SSH 호환 저장소로 백업합니다.
+- [Dockerfile-Generator](https://github.com/ozankasikci/dockerfile-generator) - 다양한 입력 채널을 사용하여 유효한 Dockerfile을 생성하는 go 라이브러리 및 실행 파일입니다.
+- [docklite](https://github.com/benzjeremy/docklite) - 실시간 SSE 메트릭을 사용한 Docker 컨테이너 관리용 경량 Portainer 대안입니다.
+- [dogo](https://github.com/liudng/dogo) - 소스 파일의 변경 사항을 모니터링하고 자동으로 컴파일 및 실행(다시 시작)합니다.
+- [drone-jenkins](https://github.com/appleboy/drone-jenkins) - 바이너리, docker 또는 Drone CI를 사용하여 다운스트림 Jenkins 작업을 트리거합니다.
+- [drone-scp](https://github.com/appleboy/drone-scp) - 바이너리, docker 또는 Drone CI를 사용하여 SSH를 통해 파일 및 아티팩트를 복사합니다.
+- [Dropship](https://github.com/chrismckenzie/dropship) - CDN을 통해 코드를 배포하기 위한 도구입니다.
+- [easyssh-proxy](https://github.com/appleboy/easyssh-proxy) - `ProxyCommand`를 통해 SSH 및 SCP를 통한 쉬운 원격 실행을 위한 Golang 패키지입니다.
+- [fac](https://github.com/mkchoi212/fac) - git 병합 충돌을 해결하기 위한 명령줄 사용자 인터페이스입니다.
+- [Flannel](https://github.com/flannel-io/flannel) - Flannel은 Kubernetes를 위해 설계된 컨테이너용 네트워크 패브릭입니다.
+- [Fleet device management](https://github.com/fleetdm/fleet) - 서버 및 워크스테이션용 경량의 프로그래밍 가능한 원격 측정입니다.
+- [gaia](https://github.com/gaia-pipeline/gaia) - 모든 프로그래밍 언어로 강력한 파이프라인을 구축합니다.
+- [ghorg](https://github.com/gabrie30/ghorg) - 전체 org/사용자 저장소를 한 디렉토리로 빠르게 복제합니다 - GitHub, GitLab, Gitea, Bitbucket을 지원합니다.
+- [Gitea](https://github.com/go-gitea/gitea) - Gogs의 포크이며 완전히 커뮤니티 주도입니다.
+- [gitea-github-migrator](https://git.jonasfranz.software/JonasFranzDEV/gitea-github-migrator) - 모든 GitHub 저장소, 문제, 마일스톤 및 레이블을 Gitea 인스턴스로 마이그레이션합니다.
+- [gitl](https://github.com/akomyagin/gitl) - 위험 점수(낮음/중간/높음), 변경 로그 생성, 다중 저장소 활동 요약을 포함한 git 커밋 범위의 AI 검토. GitHub Action이 포함되어 있습니다.
+- [go-furnace](https://github.com/go-furnace/go-furnace) - Go로 작성된 호스팅 솔루션입니다. AWS, GCP 또는 DigitalOcean에서 쉽게 애플리케이션을 배포합니다.
+- [go-rocket-update](https://github.com/mouuff/go-rocket-update) - Go 애플리케이션을 자동 업데이트하는 간단한 방법입니다 - Github 및 Gitlab을 지원합니다.
+- [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Go 애플리케이션이 자동 업데이트되도록 설정합니다.
+- [gobrew](https://github.com/cryptojuice/gobrew) - gobrew를 사용하면 Go의 여러 버전 간에 쉽게 전환할 수 있습니다.
+- [gobrew](https://github.com/kevincobain2000/gobrew) - Go 버전 관리자입니다. Go 버전을 설치하고 관리하는 매우 간단한 도구입니다. root 없이 Go를 설치합니다. Gobrew는 셸 재해시(shell rehash)를 요구하지 않습니다.
+- [godbg](https://github.com/sirnewton01/godbg) - 웹 기반 gdb 프런트엔드 애플리케이션입니다.
+- [Gogs](https://gogs.io/) - Go 프로그래밍 언어로 작성된 셀프 호스팅 Git 서비스입니다.
+- [goma-gateway](https://github.com/jkaninda/goma-gateway) - 선언적 설정, 강력한 미들웨어, REST, GraphQL, TCP, UDP 및 gRPC를 지원하는 경량 API 게이트웨이 및 역 프록시입니다.
+- [gonative](https://github.com/inconshreveable/gonative) - 모든 플랫폼으로 크로스 컴파일할 수 있는 Go 빌드를 생성하는 도구이면서도 여전히 Cgo 활성화 버전의 stdlib 패키지를 사용합니다.
+- [govvv](https://github.com/ahmetalpbalkan/govvv) - 버전 정보를 Go 바이너리에 쉽게 추가하는 "go build" 래퍼입니다.
+- [grapes](https://github.com/yaronsumel/grapes) - ssh를 통해 명령을 배포하기 위해 설계된 경량 도구입니다.
+- [GVM](https://github.com/moovweb/gvm) - GVM은 Go 버전을 관리하기 위한 인터페이스를 제공합니다.
+- [Hey](https://github.com/rakyll/hey) - Hey는 웹 애플리케이션에 로드를 보내는 작은 프로그램입니다.
+- [httpref](https://github.com/dnnrly/httpref) - httpref는 HTTP 메서드, 상태 코드, 헤더 및 TCP 및 UDP 포트에 대한 편리한 CLI 참조입니다.
+- [jcli](https://github.com/jenkins-zh/jenkins-cli) - Jenkins CLI를 사용하면 Jenkins를 쉽게 관리할 수 있습니다.
+- [k0s](https://github.com/k0sproject/k0s) - Zero Friction Kubernetes 배포판입니다.
+- [k3d](https://github.com/k3d-io/k3d) - CNCF의 k3s를 Docker에서 실행하기 위한 작은 헬퍼입니다.
+- [k3s](https://github.com/k3s-io/k3s) - 경량 Kubernetes입니다.
+- [k6](https://github.com/grafana/k6) - Go 및 JavaScript를 사용한 현대적 로드 테스트 도구입니다.
+- [k9s](https://github.com/derailed/k9s) - 스타일 있게 클러스터를 관리하기 위한 Kubernetes CLI입니다.
+- [kala](https://github.com/ajvb/kala) - 단순하고 현대적이며 성능이 우수한 작업 스케줄러입니다.
+- [kcli](https://github.com/cswank/kcli) - kafka 토픽/파티션/메시지를 검사하기 위한 명령줄 도구입니다.
+- [kind](https://github.com/kubernetes-sigs/kind) - Kubernetes IN Docker - Kubernetes를 테스트하기 위한 로컬 클러스터입니다.
+- [ko](https://github.com/google/ko) - Kubernetes에서 Go 애플리케이션을 빌드하고 배포하기 위한 명령줄 도구
+- [kool](https://github.com/kool-dev/kool) - Docker 환경을 쉽게 관리하기 위한 명령줄 도구입니다.
+- [kubeblocks](https://github.com/apecloud/kubeblocks) - KubeBlocks는 K8s에서 데이터베이스, 메시지 큐 및 기타 데이터 인프라를 실행하고 관리하는 오픈 소스 제어 평면입니다.
+- [kubefwd](https://github.com/txn2/kubefwd) - 로컬 개발을 위해 서비스당 고유한 IP를 사용한 대량 Kubernetes 포트 포워딩입니다.
+- [kubernetes](https://github.com/kubernetes/kubernetes) - Google의 컨테이너 클러스터 관리자입니다.
+- [kubeshark](https://github.com/kubeshark/kubeshark) - Wireshark에서 영감을 받았으며 Kubernetes를 위해 특별히 구축된 Kubernetes용 API 트래픽 분석기입니다.
+- [KubeVela](https://github.com/kubevela/kubevela) - 클라우드 네이티브 애플리케이션 전달입니다.
+- [KubeVPN](https://github.com/kubenetworks/kubevpn) - KubeVPN은 Kubernetes 클러스터 네트워크에 원활하게 연결되는 클라우드 네이티브 개발 환경을 제공합니다.
+- [KusionStack](https://github.com/KusionStack/kusion) - '플랫폼 코드형' 및 '인프라 코드형' 접근 방식으로 현대적 앱을 제공하기 위한 통합 프로그래밍 가능 설정 기술 스택입니다.
+- [kwatch](https://github.com/abahmed/kwatch) - Kubernetes(K8s) 클러스터에서 충돌을 모니터링하고 즉시 감지합니다.
+- [lstags](https://github.com/ivanilves/lstags) - 다양한 저장소 간에 Docker 이미지를 동기화하기 위한 도구 및 API입니다.
+- [lwc](https://github.com/timdp/lwc) - UNIX wc 명령의 라이브 업데이트 버전입니다.
+- [manssh](https://github.com/xwjdsh/manssh) - manssh는 ssh 별칭 설정을 쉽게 관리하기 위한 명령줄 도구입니다.
+- [Mantil](https://github.com/mantil-io/mantil) - AWS에서 서버리스 애플리케이션을 구축할 수 있도록 하는 Go 특정 프레임워크이며, Mantil이 인프라를 담당하는 동안 순수 Go 코드에 집중할 수 있습니다.
+- [minikube](https://github.com/kubernetes/minikube) - Kubernetes를 로컬로 실행합니다.
+- [Moby](https://github.com/moby/moby) - 컨테이너 기반 시스템을 조립하기 위한 컨테이너 에코시스템 협력 프로젝트입니다.
+- [Mora](https://github.com/emicklei/mora) - MongoDB 문서 및 메타 데이터에 액세스하기 위한 REST 서버입니다.
+- [mq-studio](https://github.com/amigoer/mq-studio) - RocketMQ, RabbitMQ, Kafka, Pulsar, Redis Stream, MQTT, NATS 및 ActiveMQ 클러스터를 관리하고 모니터링하기 위한 크로스 플랫폼 데스크톱 클라이언트입니다.
+- [ostent](https://github.com/ostrost/ostent) - 시스템 메트릭을 수집하고 표시하며 선택적으로 Graphite 및/또는 InfluxDB로 릴레이합니다.
+- [Packer](https://github.com/mitchellh/packer) - Packer는 단일 원본 설정에서 여러 플랫폼을 위한 동일한 머신 이미지를 만드는 도구입니다.
+- [Pewpew](https://github.com/bengadbois/pewpew) - 유연한 HTTP 명령줄 스트레스 테스터입니다.
+- [pingtower](https://github.com/crleonard/pingtower) - 웹사이트 및 API에 대한 경량 셀프 호스팅 가동 시간 모니터입니다.
+- [PipeCD](https://github.com/pipe-cd/pipecd) - 모든 애플리케이션에 일관된 배포 및 운영 환경을 제공하는 GitOps 스타일 지속적 전달 플랫폼입니다.
+- [podinfo](https://github.com/stefanprodan/podinfo) - Podinfo는 Kubernetes에서 마이크로서비스를 실행하는 모범 사례를 보여주는 Go로 만든 작은 웹 애플리케이션입니다. Podinfo는 Flux 및 Flagger와 같은 CNCF 프로젝트에서 엔드투엔드 테스트 및 워크숍에 사용됩니다.
+- [podman-tui](https://github.com/containers/podman-tui) - Podman 관리를 위한 터미널 UI입니다.
+- [Pomerium](https://github.com/pomerium/pomerium) - Pomerium은 ID 인식 액세스 프록시입니다.
+- [Rodent](https://github.com/alouche/rodent) - Rodent는 Go 버전, 프로젝트 및 종속성을 관리하고 추적하도록 도와줍니다.
+- [s3-proxy](https://github.com/oxyno-zeta/s3-proxy) - GET, PUT 및 DELETE 메서드와 인증(OpenID Connect 및 기본 인증)을 지원하는 S3 프록시입니다.
+- [s3gof3r](https://github.com/rlmcpherson/s3gof3r) - Amazon S3로 대용량 객체를 고속 전송하기 위해 최적화된 작은 유틸리티/라이브러리입니다.
+- [s5cmd](https://github.com/peak/s5cmd) - 번개 같이 빠른 S3 및 로컬 파일 시스템 실행 도구입니다.
+- [Scaleway-cli](https://github.com/scaleway/scaleway-cli) - 명령줄에서 BareMetal 서버 관리(Docker처럼 쉽게).
+- [script](https://github.com/bitfield/script) - DevOps 및 시스템 관리 작업을 위해 Go에서 셸과 유사한 스크립트를 쉽게 작성할 수 있습니다.
+- [sg](https://github.com/ChristopherRabotin/sg) - HTTP 엔드포인트 집합을 벤치마킹합니다(ab처럼), 각 호출 간에 응답 코드와 데이터를 사용하여 이전 응답을 기반으로 특정 서버 스트레스를 사용할 수 있습니다.
+- [sigma](https://github.com/go-sigma/sigma) - OCI 네이티브 컨테이너 이미지 레지스트리로, OCI 네이티브 아티팩트, 스캔 아티팩트, 이미지 빌드 등을 지원합니다.
+- [skm](https://github.com/TimothyYe/skm) - SKM은 단순하고 강력한 SSH 키 관리자이며, 여러 SSH 키를 쉽게 관리할 수 있도록 도와줍니다!
+- [sortie](https://github.com/sortie-ai/sortie) - 추적 프로젝트 티켓을 자율적 코딩 에이전트 세션으로 변환합니다.
+- [StatusOK](https://github.com/sanathp/statusok) - 웹사이트 및 REST API를 모니터링합니다. 서버가 다운되거나 응답 시간이 예상보다 길면 Slack, 이메일로 알림을 받습니다.
+- [tau](https://github.com/taubyte/tau) - 서버리스 WebAssembly 함수, 프런트엔드 호스팅, CI/CD, 객체 저장소, K/V 데이터베이스 및 Pub-Sub 메시징과 같은 기능으로 클라우드 컴퓨팅 플랫폼을 쉽게 구축할 수 있습니다.
+- [terraform-provider-openapi](https://github.com/dikhan/terraform-provider-openapi) - 노출된 API의 정의를 포함하는 OpenAPI 문서(이전의 swagger 파일)를 기반으로 런타임에 자동으로 설정되는 Terraform 공급자 플러그인입니다.
+- [tf-profile](https://github.com/datarootsio/tf-profile) - Terraform 실행용 프로파일러입니다. 전역 통계, 리소스 수준 통계 또는 시각화를 생성합니다.
+- [tickstem/uptime](https://github.com/tickstem/uptime) - SSL 만료 경고 및 구성 가능한 응답 어설션을 포함한 HTTP 가동 시간 모니터링을 위한 Go 클라이언트입니다.
+- [tlm](https://github.com/yusufcanb/tlm) - CodeLLaMa로 구동되는 로컬 cli 코파일럿
+- [traefik](https://github.com/containous/traefik) - 여러 백엔드를 지원하는 역 프록시 및 로드 밸런서입니다.
+- [trubka](https://github.com/xitonix/trubka) - Apache Kafka 클러스터를 관리하고 문제를 해결하기 위한 CLI 도구로, 프로토콜 버퍼 및 일반 텍스트 이벤트를 Kafka로/로부터 일반적으로 게시/소비할 수 있는 기능이 있습니다.
+- [Updatecli](https://github.com/updatecli/updatecli) - 범용 선언적 업데이트 정책 엔진입니다.
+- [uTask](https://github.com/ovh/utask) - yaml에서 선언된 비즈니스 프로세스를 모델링하고 실행하는 자동화 엔진입니다.
+- [Vegeta](https://github.com/tsenart/vegeta) - HTTP 로드 테스트 도구 및 라이브러리입니다. 9000을 넘습니다!
+- [wait-for](https://github.com/dnnrly/wait-for) - 무언가가 발생할 때까지 대기합니다(명령줄에서) 계속 진행합니다. Docker 서비스 및 기타 것들의 쉬운 오케스트레이션입니다.
+- [Wide](https://wide.b3log.org/login) - Golang을 사용한 팀용 웹 기반 IDE입니다.
+- [winrm-cli](https://github.com/masterzen/winrm-cli) - Windows 시스템에서 원격으로 명령을 실행하기 위한 CLI 도구입니다.
+- [zerohand](https://github.com/nilpoona/zerohand) - 웹 API를 위한 간단하고 효율적인 로드 테스트 도구입니다.
+
+**[⬆ 맨 위로](#contents)**
+
+### 기타 소프트웨어
+
+- [Backrest](https://github.com/garethgeorge/backrest) - restic 백업을 위한 웹 기반 UI 및 오케스트레이터입니다.
+- [Better Go Playground](https://goplay.tools) - 구문 강조, 코드 완성 및 기타 기능이 있는 Go 재생장입니다.
+- [blocky](https://github.com/0xERR0R/blocky) - 많은 기능이 있는 로컬 네트워크용 빠르고 경량의 DNS 프록시(광고 차단기)입니다.
+- [bluetuith](https://github.com/bluetuith-org/bluetuith) - Linux를 위한 TUI Bluetooth 관리자입니다.
+- [borg](https://github.com/crufter/borg) - bash 스니펫을 위한 터미널 기반 검색 엔진입니다.
+- [boxed](https://github.com/tejo/boxed) - Dropbox 기반 블로그 엔진입니다.
+- [Chapar](https://github.com/chapar-rest/chapar) - Chapar는 Go로 구축된 크로스 플랫폼 Postman 대안으로, 개발자가 API 엔드포인트를 테스트할 수 있도록 지원합니다. HTTP 및 gRPC 프로토콜을 지원합니다.
+- [Cherry](https://github.com/rafael-santiago/cherry) - Go로 작성된 작은 웹채팅 서버입니다.
+- [chicha-isotope-map](https://github.com/matveynator/chicha-isotope-map) - 측정 트랙을 가져오고, 분석하고, 시각화하기 위한 셀프 호스팅 공개 방사능 지도입니다.
+- [Circuit](https://github.com/gocircuit/circuit) - Circuit은 클라우드 애플리케이션을 구성하는 서비스 및 호스트의 관리, 발견, 동기화 및 오케스트레이션을 위한 프로그래밍 가능한 플랫폼 서비스(PaaS) 및/또는 인프라 서비스(IaaS)입니다.
+- [claude-grep](https://github.com/evoleinik/claude-grep) - 정규 표현식 및 의미(벡터) 검색을 사용하여 Claude Code 세션 기록을 검색합니다.
+- [Comcast](https://github.com/tylertreat/Comcast) - 네트워크 연결을 시뮬레이션합니다.
+- [confd](https://github.com/kelseyhightower/confd) - 템플릿 및 etcd 또는 consul의 데이터를 사용하여 로컬 애플리케이션 설정 파일을 관리합니다.
+- [crawley](https://github.com/s0rg/crawley) - cli를 위한 웹 스크래퍼/크롤러입니다.
+- [croc](https://github.com/schollz/croc) - 한 컴퓨터에서 다른 컴퓨터로 쉽고 안전하게 파일 또는 폴더를 보냅니다.
+- [CrunchyCleaner](https://github.com/Knuspii/CrunchyCleaner) - Windows 및 Linux용 경량의 소프트웨어 캐시 정리 도구입니다.
+- [dispositio](https://github.com/tsraveling/dispositio) - 간단한 마크다운에서 대규모 프로젝트를 계획하기 위한 터미널 도구입니다.
+- [Documize](https://github.com/documize/community) - SaaS 도구에서 데이터를 통합하는 현대적 위키 소프트웨어입니다.
+- [dp](https://github.com/scryinfo/dp) - SDK를 통해 블록체인과의 데이터 교환으로 개발자는 DAPP 개발에 쉽게 접근할 수 있습니다.
+- [drive](https://github.com/odeke-em/drive) - 명령줄용 Google 드라이브 클라이언트입니다.
+- [Duplicacy](https://github.com/gilbertchen/duplicacy) - 잠금 없는 중복 제거 아이디어를 기반으로 한 크로스 플랫폼 네트워크 및 클라우드 백업 도구입니다.
+- [fjira](https://github.com/mk-5/fjira) - Atlassian Jira용 퍼지 검색 기반 터미널 UI 애플리케이션입니다.
+- [Gebug](https://github.com/moshebe/gebug) - 디버거 및 핫 리로드 기능을 원활하게 활성화하여 Dockerized Go 애플리케이션의 디버깅을 매우 쉽게 만드는 도구입니다.
+- [gfile](https://github.com/Antonito/gfile) - 서드파티 없이 WebRTC를 통해 두 컴퓨터 간에 안전하게 파일을 전송합니다.
+- [Go Package Store](https://github.com/shurcooL/Go-Package-Store) - GOPATH의 Go 패키지 업데이트를 표시하는 앱입니다.
+- [go-peerflix](https://github.com/Sioro-Neoku/go-peerflix) - 비디오 스트리밍 토렌트 클라이언트입니다.
+- [goblin](https://goblin.run) - Go lang으로 작성된 CLI용 클라우드 빌더
+- [GoBoy](https://github.com/Humpheh/goboy) - Go로 작성된 Nintendo Game Boy Color 에뮬레이터입니다.
+- [gocc](https://github.com/goccmack/gocc) - Gocc는 Go로 작성된 Go용 컴파일러 키트입니다.
+- [GoDocTooltip](https://github.com/diankong/GoDocTooltip) - Go Doc 사이트용 Chrome 확장 프로그램으로, 함수 목록에서 함수 설명을 도구 설명으로 표시합니다.
+- [Gokapi](https://github.com/Forceu/gokapi) - 지정된 다운로드 수 또는 일수 후에 만료되는 파일을 공유하기 위한 경량 서버입니다. Firefox Send와 유사하지만 공개 업로드는 없습니다.
+- [GoLand](https://jetbrains.com/go) - 완벽한 기능의 크로스 플랫폼 Go IDE입니다.
+- [GoNB](https://github.com/janpfeifer/gonb) - Jupyter Notebooks를 사용한 대화형 Go 프로그래밍(VSCode, Binder 및 Google의 Colab에서도 작동).
+- [GooseForum](https://github.com/leancodebox/GooseForum) - Go, Vue 및 Tailwind CSS로 구축된 셀프 호스팅 포럼 플랫폼입니다.
+- [Gor](https://github.com/buger/gor) - Http 트래픽 복제 도구로, 실시간으로 프로덕션에서 stage/dev 환경으로 트래픽을 재생합니다.
+- [Guora](https://github.com/meloalright/guora) - Go로 작성된 셀프 호스팅 Quora 같은 웹 애플리케이션입니다.
+- [GURL](https://github.com/matveynator/gurl) - CURL이 SSL 라이브러리가 너무 오래되었다고 할 때 - GURL을 사용하세요. 한 파일. 제로 SSL 종속성.
+- [hoofli](https://github.com/dnnrly/hoofli) - Chrome 또는 Firefox 네트워크 검사에서 PlantUML 다이어그램을 생성합니다.
+- [hotswap](https://github.com/edwingeng/hotswap) - 서버를 다시 시작하거나 진행 중인 절차를 중단하거나 차단하지 않고 Go 코드를 다시 로드하는 완전한 솔루션입니다.
+- [hugo](https://gohugo.io/) - 빠르고 현대적인 정적 웹사이트 엔진입니다.
+- [ide](https://github.com/thestrukture/ide) - 브라우저에 접근 가능한 IDE입니다. Go로 Go 사용을 위해 설계되었습니다.
+- [joincap](https://github.com/assafmo/joincap) - 여러 pcap 파일을 함께 병합하기 위한 명령줄 유틸리티입니다.
+- [JuiceFS](https://github.com/juicedata/juicefs) - Redis 및 AWS S3 위에 구축된 분산 POSIX 파일 시스템입니다.
+- [Juju](https://jujucharms.com/) - 클라우드에 구애받지 않는 서비스 배포 및 오케스트레이션 - EC2, Azure, Openstack, MAAS 등을 지원합니다.
+- [KeibiDrop](https://github.com/KeibiSoft/KeibiDrop) - 주문형 피어 투 피어 파일 시스템으로 원격 폴더를 마운트하고 read-ahead로 링크 지연을 숨기며 하이브리드 X25519 및 ML-KEM-1024로 엔드 투 엔드 암호화합니다.
+- [Layli](https://layli.app) - 아름다운 레이아웃 다이어그램을 코드로 그립니다.
+- [Leaps](https://github.com/jeffail/leaps) - 운영 변환을 사용한 쌍 프로그래밍 서비스입니다.
+- [lgo](https://github.com/yunabe/lgo) - Jupyter를 사용한 대화형 Go 프로그래밍입니다. 코드 완성, 코드 검사 및 100% Go 호환성을 지원합니다.
+- [LightCMS](https://github.com/jonradoff/lightcms) - 정적 페이지 생성, 역할 기반 액세스 제어 및 에이전트 기반 콘텐츠 작업을 위한 MCP 서버를 포함한 셀프 호스팅 콘텐츠 관리 시스템입니다.
+- [limetext](https://limetext.github.io) - Lime Text는 Sublime Text의 자유 및 오픈 소스 후속자를 목표로 하는 주로 Go에서 개발된 강력하고 우아한 텍스트 편집기입니다.
+- [LiteIDE](https://github.com/visualfc/liteide) - LiteIDE는 단순하고 오픈 소스이며 크로스 플랫폼 Go IDE입니다.
+- [mac-cleanup-go](https://github.com/2ykwang/mac-cleanup-go) - macOS 캐시, 로그 및 임시 파일을 정리하기 위한 미리보기 우선 TUI입니다.
+- [mdv](https://github.com/Allra-Fintech/mdv) - 라이브 재로드, GFM, 구문 강조, Mermaid 다이어그램 및 PDF 내보내기를 사용하여 브라우저에서 Markdown 파일을 렌더링하는 CLI 도구입니다.
+- [mockingjay](https://github.com/quii/mockingjay-server) - 하나의 설정 파일에서 가짜 HTTP 서버 및 소비자 기반 계약입니다. 또한 서버가 무작위로 작동 불량이 되도록 할 수 있어 더 현실적인 성능 테스트에 도움이 됩니다.
+- [myLG](https://github.com/mehrdadrad/mylg) - Go로 작성된 명령줄 네트워크 진단 도구입니다.
+- [naclpipe](https://github.com/unix4fun/naclpipe) - Go로 작성된 간단한 NaCL EC25519 기반 암호 파이프 도구입니다.
+- [Neo-cowsay](https://github.com/Code-Hex/Neo-cowsay) - 🐮 cowsay가 다시 태어났습니다. 새로운 시대를 위해.
+- [nes](https://github.com/fogleman/nes) - Go로 작성된 Nintendo Entertainment System(NES) 에뮬레이터입니다.
+- [onWatch](https://github.com/onllm-dev/onWatch) - 역사적 추적, 경고 및 웹 대시보드를 사용하여 제공자 전체의 AI API 할당량을 로컬로 모니터링하여 갑작스러운 스로틀링 및 예산 초과를 피합니다.
+- [Orbit](https://github.com/gulien/orbit) - 명령 실행 및 템플릿에서 파일을 생성하기 위한 간단한 도구입니다.
+- [peg](https://github.com/pointlander/peg) - Peg는 Packrat 파서 생성기의 구현인 Parsing Expression Grammar입니다.
+- [Plakar](https://github.com/PlakarKorp/plakar) - 벤더 잠금이 없는 암호화, 중복 제거, 확인 가능 및 확장 가능한 백업 엔진입니다.
+- [Plik](https://github.com/root-gg/plik) - Plik은 Go로 작성된 임시 파일 업로드 시스템(Wetransfer 같음)입니다.
+- [portal](https://github.com/SpatiumPortae/portal) - Portal은 한 컴퓨터에서 다른 컴퓨터로의 빠르고 쉬운 명령줄 파일 전송 유틸리티입니다.
+- [restic](https://github.com/restic/restic) - 중복 제거 백업 프로그램입니다.
+- [sake](https://github.com/alajmo/sake) - sake는 로컬 및 원격 호스트를 위한 명령 실행기입니다.
+- [scc](https://github.com/boyter/scc) - Sloc Cloc and Code로, 복잡도 계산 및 COCOMO 추정을 포함한 매우 빠르고 정확한 코드 카운터입니다.
+- [ScheduleGate](https://github.com/gjunqueira-sys/ScheduleGate) - MS Project Excel/CSV 내보내기를 위한 DCMA 14포인트 일정 평가 CLI입니다.
+- [Seaweed File System](https://github.com/chrislusf/seaweedfs) - 빠르고 간단하고 확장 가능한 분산 파일 시스템으로 O(1) 디스크 검색입니다.
+- [shell2http](https://github.com/msoap/shell2http) - http 서버를 통해 셸 명령을 실행합니다(프로토타입 또는 원격 제어용).
+- [Snitch](https://github.com/lucasgomide/snitch) - 누군가 Tsuru를 통해 애플리케이션을 배포할 때 팀과 많은 도구에 알리는 간단한 방법입니다.
+- [sonic](https://github.com/go-sonic/sonic) - Sonic은 Go 블로깅 플랫폼입니다. 간단하고 강력합니다.
+- [spotify-screensaver](https://github.com/benzjeremy/spotify-screensaver) - Spotify용 데스크톱 스크린세이버로 디지털 OLED 시계, 캔버스 오디오 시각화 및 MPRIS 제어를 갖춘입니다.
+- [Stack Up](https://github.com/pressly/sup) - Stack Up으로, 매우 간단한 배포 도구입니다 - Unix만 - 서버 네트워크의 'make'라고 생각하면 됩니다.
+- [stew](https://github.com/marwanhawari/stew) - 컴파일된 바이너리를 위한 독립적 패키지 관리자입니다.
+- [syncthing](https://syncthing.net/) - 오픈이고 분산된 파일 동기화 도구 및 프로토콜입니다.
+- [tcpdog](https://github.com/mehrdadrad/tcpdog) - eBPF 기반 TCP 관찰 가능성입니다.
+- [tinycare-tui](https://github.com/DMcP89/tinycare-tui) - 지난 24시간과 주간의 git 커밋, 현재 날씨, 자기 관리 조언, 농담, 현재 할 일 목록 작업을 표시하는 작은 터미널 앱입니다.
+- [tldx](https://github.com/brandonyoungdev/tldx) - RDAP, DNS 및 WHOIS 폴백을 사용한 대량 도메인 가용성 검사기로 키워드 순열 생성입니다.
+- [toxiproxy](https://github.com/shopify/toxiproxy) - 자동화된 테스트를 위해 네트워크 및 시스템 조건을 시뮬레이션하는 프록시입니다.
+- [tsuru](https://tsuru.io/) - 확장 가능하고 오픈 소스 플랫폼 서비스(PaaS) 소프트웨어입니다.
+- [untis-go](https://github.com/benzjeremy/untis-go) - 학생 및 교사를 위한 빠르고 네이티브 WebUntis 데스크톱 클라이언트입니다. 사이드바 네비게이션, 시간표, 숙제, 부재 및 메시지입니다. AES-256-GCM 암호화 자격 증명, SQLite 캐시 우선, 무작위 포트 보안입니다.
+- [vaku](https://github.com/lingrino/vaku) - Vault에서 복사, 이동 및 검색과 같은 폴더 기반 함수를 위한 CLI 및 API입니다.
+- [vFlow](https://github.com/VerizonDigital/vflow) - 고성능의 확장 가능하고 안정적인 IPFIX, sFlow 및 Netflow 수집기입니다.
+- [Wave Terminal](https://waveterm.dev) - Wave는 인라인 렌더링, 현대적 UI 및 영속적 세션을 갖춘 원활한 개발자 워크플로우를 위해 구축된 오픈 소스 AI 네이티브 터미널입니다.
+- [wellington](https://github.com/wellington/wellington) - Sass 프로젝트 관리 도구로 스프라이트 함수를 사용하여 언어를 확장합니다(Compass처럼).
+- [woke](https://github.com/get-woke/woke) - 소스 코드에서 비포괄적 언어를 감지합니다.
+- [yai](https://github.com/ekkinox/yai) - AI 기반 터미널 어시스턴트입니다.
+- [zs](https://git.mills.io/prologic/zs) - 매우 미니멀한 정적 사이트 생성기입니다.
+
+**[⬆ 맨 위로](#contents)**
+
+# 리소스
+
+_Go 라이브러리를 발견할 수 있는 곳._
+
+**[⬆ 맨 위로](#contents)**
+
+## 벤치마크
+
+- [autobench](https://github.com/davecheney/autobench) - Go 버전 간 성능 비교 프레임워크입니다.
+- [go-benchmark-app](https://github.com/mrLSD/go-benchmark-app) - Ab, Wrk, Siege 도구를 혼합한 강력한 HTTP 벤치마크 도구입니다. 벤치마크 및 비교 결과를 위한 통계 및 다양한 매개변수를 수집합니다.
+- [go-benchmarks](https://github.com/tylertreat/go-benchmarks) - 다양한 Go 마이크로벤치마크입니다. 일부 언어 기능을 대체 접근 방식과 비교합니다.
+- [go-http-routing-benchmark](https://github.com/julienschmidt/go-http-routing-benchmark) - Go HTTP 요청 라우터 벤치마크 및 비교입니다.
+- [go-json-benchmark](https://github.com/zerosnake0/go-json-benchmark) - Go JSON 벤치마크입니다.
+- [go-ml-benchmarks](https://github.com/nikolaydubina/go-ml-benchmarks) - Go의 머신러닝 추론 벤치마크입니다.
+- [go-web-framework-benchmark](https://github.com/smallnest/go-web-framework-benchmark) - Go 웹 프레임워크 벤치마크입니다.
+- [go_serialization_benchmarks](https://github.com/alecthomas/go_serialization_benchmarks) - Go 직렬화 방법의 벤치마크입니다.
+- [gocostmodel](https://github.com/PuerkitoBio/gocostmodel) - Go 언어의 일반적인 기본 작업 벤치마크입니다.
+- [golang-benchmarks](https://github.com/SimonWaldherr/golang-benchmarks) - golang 벤치마크 모음입니다.
+- [gospeed](https://github.com/feyeleanor/GoSpeed) - 언어 구성의 속도를 계산하기 위한 Go 마이크로벤치마크입니다.
+- [kvbench](https://github.com/jimrobinson/kvbench) - 키/값 데이터베이스 벤치마크입니다.
+- [skynet](https://github.com/atemerev/skynet) - Skynet 1M 스레드 마이크로벤치마크입니다.
+- [speedtest-resize](https://github.com/fawick/speedtest-resize) - Go 언어의 다양한 이미지 크기 조정 알고리즘을 비교합니다.
+- [vizb](https://github.com/goptics/vizb) - Go 벤치마크 데이터를 4D로 시각화하는 CLI 도구입니다.
+
+**[⬆ 맨 위로](#contents)**
+
+## 컨퍼런스
+
+- [GoCon](https://gocon.connpass.com/) - 도쿄, 일본.
+- [GoDays](https://www.godays.io/) - 베를린, 독일.
+- [GoLab](https://golab.io/) - 피렌체, 이탈리아.
+- [GopherCon](https://www.gophercon.com/) - 매년 다양한 장소, 미국.
+- [GopherCon Africa](https://gophercon.africa/) - 나이로비, 케냐.
+- [GopherCon Australia](https://gophercon.com.au/) - 시드니, 호주.
+- [GopherCon Brazil](https://gopherconbr.org) - 플로리아노폴리스, 브라질.
+- [GopherCon China](https://gophercon.com.cn) - 상하이, 중국.
+- [GopherCon Europe](https://gophercon.eu/) - 베를린, 독일.
+- [GopherCon India](https://gopherconindia.org/) - 푸네, 인도.
+- [GopherCon Israel](https://www.gophercon.org.il/) - 텔아비브, 이스라엘.
+- [GopherCon Russia](https://www.gophercon-russia.ru) - 모스크바, 러시아.
+- [GopherCon Singapore](https://gophercon.sg) - 메이플트리 비즈니스 시티, 싱가포르.
+- [GopherCon UK](https://www.gophercon.co.uk/) - 런던, 영국.
+- [GopherCon Vietnam](https://gophercon.vn/) - 호찌민시, 베트남.
+- [GoWest Conference](https://www.gowestconf.com/) - 레히, 미국.
+
+**[⬆ 맨 위로](#contents)**
+
+## 전자책
+
+### 구매 가능한 전자책
+
+- [100 Go Mistakes: How to Avoid Them](https://www.manning.com/books/100-go-mistakes-how-to-avoid-them)
+- [Black Hat Go](https://nostarch.com/blackhatgo) - 해커와 펜테스터를 위한 Go 프로그래밍입니다.
+- [Build an Orchestrator in Go](https://www.manning.com/books/build-an-orchestrator-in-go)
+- [Continuous Delivery in Go](https://www.manning.com/books/continuous-delivery-in-go) - Go의 지속적 배포에 대한 실용적인 가이드로 테스트, 코드 품질 및 최종 제품을 개선하는 자동화된 파이프라인을 빠르게 구축하는 방법을 보여줍니다.
+- [Creative DIY Microcontroller Project With TinyGo and WebAssembly](https://www.packtpub.com/product/creative-diy-microcontroller-projects-with-tinygo-and-webassembly/9781800560208) - Arduino와 WebAssembly를 포함한 프로젝트를 통한 TinyGo 컴파일러 소개입니다.
+- [Effective Go: Elegant, efficient, and testable code](https://www.manning.com/books/effective-go) - Go의 독특한 프로그램 설계 관점을 열어보고 간단하고 유지 관리 가능하며 테스트 가능한 Go 코드를 작성하기 시작합니다.
+- [For the Love of Go](https://bitfieldconsulting.com/books/love) - Go 초보자를 위한 입문 책입니다.
+- [Go in Practice, Second Edition](https://www.manning.com/books/go-in-practice-second-edition) - Go 개발의 내부와 외부에 관한 실용적인 가이드로, 표준 라이브러리와 Go의 강력한 생태계에서 가장 중요한 도구를 다룹니다.
+- [Know Go: Generics](https://bitfieldconsulting.com/books/generics) - Go의 제네릭을 이해하고 사용하기 위한 가이드입니다.
+- [Lets-Go](https://lets-go.alexedwards.net) - Go를 사용하여 빠르고 안전하며 유지 관리할 수 있는 웹 애플리케이션을 만드는 단계별 가이드입니다.
+- [Lets-Go-Further](https://lets-go-further.alexedwards.net) - Go로 API 및 웹 애플리케이션을 구축하기 위한 고급 패턴입니다.
+- [The Power of Go: Tests](https://bitfieldconsulting.com/books/tests) - Go의 테스트에 대한 가이드입니다.
+- [The Power of Go: Tools](https://bitfieldconsulting.com/books/tools) - Go로 명령줄 도구를 작성하기 위한 가이드입니다.
+- [Writing A Compiler In Go](https://compilerbook.com)
+- [Writing An Interpreter In Go](https://interpreterbook.com) - 일반적인 함정을 피하면서 관용적이고 표현력 있으며 효율적인 Go 코드를 작성하기 위한 수십 가지 기법을 소개하는 책입니다.
+
+### 무료 전자책
+
+- [A Go Developer's Notebook](https://leanpub.com/GoNotebook/read)
+- [An Introduction to Programming in Go](http://www.golang-book.com/)
+- [Build a blockchain from scratch in Go with gRPC](https://github.com/volodymyrprokopyuk/go-blockchain) - Go에서 gRPC를 사용하여 처음부터 블록체인을 효과적으로 학습하고 점진적으로 구축하기 위한 기초적이고 실용적인 가이드입니다.
+- [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/)
+- [Building Web Apps With Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/)
+- [Go 101](https://go101.org) - Go 구문/의미론 및 모든 종류의 세부 사항에 중점을 두는 책입니다.
+- [Go AST Book (Chinese)](https://github.com/chai2010/go-ast-book) - Go `go/*` 패키지에 중점을 두는 책입니다.
+- [Go Faster](https://leanpub.com/gofaster) - 이 책은 학습 곡선을 단축하고 더 빨리 능숙한 Go 프로그래머가 되도록 도움을 주려고 합니다.
+- [Go Succinctly](https://github.com/thedevsir/gosuccinctly) - 페르시아어로입니다.
+- [Go with the domain](https://threedots.tech/go-with-the-domain/) - 실제적인 리팩토링을 통해 DDD, 클린 아키텍처 및 CQRS를 적용하는 방법을 보여주는 책입니다.
+- [GoBooks](https://github.com/dariubs/GoBooks) - Go 책의 엄선된 목록입니다.
+- [How To Code in Go eBook](https://www.digitalocean.com/community/books/how-to-code-in-go-ebook) - 처음으로 개발하는 사람을 위한 600 페이지의 Go 소개입니다.
+- [Learning Go](https://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
+- [Network Programming With Go](https://jan.newmarch.name/golang/)
+- [Practical Go Lessons](https://www.practical-go-lessons.com/)
+- [Spaceship Go A Journey to the Standard Library](https://blasrodri.github.io/spaceship-go-gh-pages/)
+- [The Go Programming Language](https://www.gopl.io/)
+- [The Golang Standard Library by Example (Chinese)](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
+- [The Little Go Book](https://github.com/karlseguin/the-little-go-book)
+- [Web Application with Go the Anti-Textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)
+
+**[⬆ 맨 위로](#contents)**
+
+## 고퍼
+
+- [Free Gophers Pack](https://github.com/MariaLetta/free-gophers-pack) - Maria Letta의 벡터 및 래스터 삽화 및 감정적 캐릭터가 있는 고퍼 그래픽 팩입니다.
+- [Go-gopher-Vector](https://github.com/keygx/Go-gopher-Vector) - Go 고퍼 벡터 데이터 [.ai, .svg]입니다.
+- [gopher-logos](https://github.com/GolangUA/gopher-logos) - 귀여운 고퍼 로고들입니다.
+- [gopher-stickers](https://github.com/tenntenn/gopher-stickers)
+- [gophericons](https://github.com/shalakhin/gophericons)
+- [gopherize.me](https://github.com/matryer/gopherize.me) - 자신을 고퍼로 만드세요.
+- [gophers](https://github.com/ashleymcnamara/gophers) - Ashley McNamara의 고퍼 artwork입니다.
+- [gophers](https://github.com/egonelbre/gophers) - 무료 고퍼들입니다.
+- [gophers](https://github.com/rogeralsing/gophers) - 무작위 고퍼 그래픽입니다.
+- [gophers](https://github.com/sillecelik/go-gopher) - 고퍼 아미구루미 장난감 패턴입니다.
+- [gophers](https://github.com/scraly/gophers) - Aurélie Vache의 고퍼들입니다.
+
+**[⬆ 맨 위로](#contents)**
+
+## 밋업
+
+- [Basel Go Meetup](https://www.meetup.com/Basel-Go-Meetup/)
+- [Belfast Gophers](https://www.meetup.com/Belfast-Gophers/)
+- [Belgrade Golang Meetup](https://www.meetup.com/golang-serbia/)
+- [Berlin Golang](https://www.meetup.com/golang-users-berlin/)
+- [Brisbane Gophers](https://www.meetup.com/Brisbane-Golang-Meetup/)
+- [Bärner Go Meetup - Berne, Switzerland](https://www.meetup.com/berner-go-meetup/)
+- [Go Ireland - Dublin](https://www.meetup.com/goireland/)
+- [Go Language NYC](https://www.meetup.com/golanguagenewyork/)
+- [Go London User Group](https://www.meetup.com/Go-London-User-Group/)
+- [Go Remote Meetup](https://www.meetup.com/Go-Remote-Meetup/)
+- [Go Toronto](https://www.meetup.com/go-toronto/)
+- [Go User Group Atlanta](https://www.meetup.com/Go-Users-Group-Atlanta/)
+- [GoBandung](https://www.meetup.com/GoBandung/)
+- [GoBridge, San Francisco, CA](https://www.meetup.com/gobridge/)
+- [GoCracow - Krakow, Poland](https://www.meetup.com/GoCracow/)
+- [GoJakarta](https://www.meetup.com/GoJakarta/)
+- [Golang Amsterdam](https://www.meetup.com/golang-amsterdam/)
+- [Golang Argentina](https://www.meetup.com/Golang-Argentina/)
+- [Golang Athens](https://www.meetup.com/Athens-Gophers/)
+- [Golang Baltimore, MD](https://www.meetup.com/BaltimoreGolang/)
+- [Golang Bangalore](https://www.meetup.com/Golang-Bangalore/)
+- [Golang Belo Horizonte - Brazil](https://www.meetup.com/go-belo-horizonte/)
+- [Golang Boston](https://www.meetup.com/bostongo/)
+- [Golang Bulgaria](https://www.meetup.com/Golang-Bulgaria/)
+- [Golang Cardiff, UK](https://www.meetup.com/Cardiff-Go-Meetup/)
+- [Golang Copenhagen](https://www.meetup.com/Go-Cph/)
+- [Golang Curitiba - Brazil](https://www.meetup.com/GolangCWB/)
+- [Golang DC, Arlington, VA](https://www.meetup.com/Golang-DC/)
+- [Golang Dorset, UK](https://www.meetup.com/golang-dorset/)
+- [Golang Estonia](https://www.meetup.com/Golang-Estonia/)
+- [Golang Gurgaon, India](https://www.meetup.com/Gurgaon-Go-Meetup/)
+- [Golang Hamburg - Germany](https://www.meetup.com/Go-User-Group-Hamburg/)
+- [Golang Israel](https://www.meetup.com/Go-Israel/)
+- [Golang Kathmandu](https://www.meetup.com/Golang-Kathmandu/)
+- [Golang Lima - Peru](https://www.meetup.com/Golang-Peru/)
+- [Golang Lyon](https://www.meetup.com/Golang-Lyon/)
+- [Golang Marseille](https://www.meetup.com/fr-FR/Golang-Marseille/)
+- [Golang Melbourne](https://www.meetup.com/golang-mel/)
+- [Golang Milano](https://www.meetup.com/golang-milano/)
+- [Golang North East](https://www.meetup.com/en-AU/Golang-North-East/)
+- [Golang Paris](https://www.meetup.com/Golang-Paris/)
+- [Golang Poland](https://www.meetup.com/Golang-Poland/)
+- [Golang Pune](https://www.meetup.com/Golang-Pune/)
+- [Golang Roma](https://www.meetup.com/golangroma/)
+- [Golang Rotterdam](https://www.meetup.com/golang-rotterdam/)
+- [Golang Singapore](https://www.meetup.com/golangsg/)
+- [Golang Stockholm](https://www.meetup.com/Go-Stockholm/)
+- [Golang Sydney, AU](https://www.meetup.com/golang-syd/)
+- [Golang São Paulo - Brazil](https://www.meetup.com/golangbr/)
+- [Golang Taipei](https://www.meetup.com/golang-taipei-meetup/)
+- [Golang Thessaloniki](https://www.meetup.com/thessaloniki-golang-meetup/)
+- [Golang Torino](https://www.meetup.com/golang-torino/)
+- [Golang Turkey](https://kommunity.com/goturkiye)
+- [Golang Vancouver, BC](https://www.meetup.com/golangvan/)
+- [Golang Vienna, Austria](https://www.meetup.com/viennago/)
+- [Golang Москва](https://www.meetup.com/Golang-Moscow/)
+- [GoSF - San Francisco, CA](https://www.meetup.com/golangsf)
+- [Istanbul Golang](https://www.meetup.com/Istanbul-Golang/)
+- [Lagos Gophers](https://www.meetup.com/GolangNigeria/)
+- [Nairobi Gophers](https://www.meetup.com/nairobi-gophers/)
+- [Seattle Go Programmers](https://www.meetup.com/golang/)
+- [Ukrainian Golang User Groups](https://www.meetup.com/uagolang/)
+- [Utah Go User Group](https://www.meetup.com/utahgophers/)
+- [Women Who Go - San Francisco, CA](https://www.meetup.com/Women-Who-Go/)
+- [Zürich Gophers - Zurich, Switzerland](https://www.meetup.com/zurich-gophers/)
+
+_당신의 도시/국가 그룹을 여기에 추가하세요 (풀 요청 보내세요)_
+
+**[⬆ 맨 위로](#contents)**
+
+## 스타일 가이드
+
+- [CockroachDB](https://github.com/cockroachdb/cockroach/blob/master/docs/style.md)
+- [enra/go-styleguide](https://codeberg.org/enra/go-styleguide)
+- [GitLab](https://docs.gitlab.com/ee/development/go_guide/)
+- [Google](https://google.github.io/styleguide/go/)
+- [Hyperledger](https://github.com/hyperledger/fabric/blob/release-1.4/docs/source/style-guides/go-style.rst)
+- [Thanos](https://thanos.io/tip/contributing/coding-style-guide.md/)
+- [Trybe](https://github.com/betrybe/playbook-go/blob/main/README_EN.md)
+- [Uber](https://github.com/uber-go/guide/blob/master/style.md)
+
+**[⬆ 맨 위로](#contents)**
+
+## 소셜 미디어
+
+### 트위터
+
+- [@GoDiscussions](https://twitter.com/GoDiscussions)
+- [@golang](https://twitter.com/golang)
+- [@golang_news](https://twitter.com/golang_news)
+- [@golangch](https://twitter.com/golangch)
+- [@golangweekly](https://twitter.com/golangweekly)
+
+**[⬆ 맨 위로](#contents)**
+
+### 레딧
+
+- [r/golang](https://www.reddit.com/r/golang/)
+
+**[⬆ 맨 위로](#contents)**
+
+## 웹사이트
+
+- [Awesome Go @LibHunt](https://go.libhunt.com) - Go 도구 상자로 가세요.
+- [Awesome Golang Workshops](https://github.com/amit-davidson/awesome-golang-workshops) - 멋진 golang 워크샵의 엄선된 목록입니다.
+- [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job) - 멋진 원격 직업의 엄선된 목록입니다. 많은 사람들이 Go 해커를 찾고 있습니다.
+- [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - 다른 멋진 목록들의 목록입니다.
+- [awesome-go-extra](https://github.com/xwjdsh/awesome-go-extra) - awesome-go README 파일을 파싱하고 저장소 정보와 함께 새로운 README 파일을 생성합니다.
+- [Code with Mukesh](https://codewithmukesh.com/categories/golang) - 소프트웨어 엔지니어 및 codewithmukesh.com의 블로그입니다.
+- [Coding Mystery](https://codingmystery.com) - Go를 사용하여 흥미로운 탈출실 느낌의 프로그래밍 챌린지를 해결하세요.
+- [CodinGame](https://www.codingame.com/) - 작은 게임을 실용적인 예제로 사용하여 대화형 작업을 풀어서 Go를 배웁니다.
+- [Go Blog](https://blog.golang.org) - 공식 Go 블로그입니다.
+- [Go Code Club](https://www.youtube.com/watch?v=nvoIPQYdx9g&list=PLEcwzBXTPUE_YQR7R0BRtHBYJ0LN3Y0i3) - Go 프로젝트를 매주 읽고 논의하는 고퍼 그룹입니다.
+- [Go Community on Hashnode](https://hashnode.com/n/go) - Hashnode의 고퍼 커뮤니티입니다.
+- [Go Forum](https://forum.golangbridge.org) - Go를 논의할 포럼입니다.
+- [Go Projects](https://github.com/golang/go/wiki/Projects) - Go 커뮤니티 wiki의 프로젝트 목록입니다.
+- [Go Proverbs](https://go-proverbs.github.io/) - Rob Pike의 Go 속담입니다.
+- [Go Report Card](https://goreportcard.com) - Go 패키지의 보고서 카드입니다.
+- [go.dev](https://go.dev/) - Go 개발자를 위한 허브입니다.
+- [gocryforhelp](https://github.com/ninedraft/gocryforhelp) - 도움이 필요한 Go 프로젝트의 모음입니다. Go에서 오픈소스를 시작하기 좋은 장소입니다.
+- [Golang Developer Jobs](https://golangjob.xyz) - Go 관련 역할만을 위한 개발자 직업입니다.
+- [Golang News](https://golangnews.com) - Go 프로그래밍에 관한 링크 및 뉴스입니다.
+- [Golang Nugget](https://golangnugget.com) - 매주 최고의 Go 콘텐츠를 모아서 매주 월요일 받은편지함으로 전송합니다.
+- [Golang Weekly](https://discu.eu/weekly/golang/) - 매주 월요일 Go에 대한 프로젝트, 튜토리얼 및 기사입니다.
+- [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Go 메일링 목록입니다.
+- [Gopher Community Chat](https://invite.slack.golangbridge.org) - 고퍼들을 위한 새로운 Slack 커뮤니티에 참여하세요 ([어떻게 시작했는지 알아보기](https://blog.gopheracademy.com/gophers-slack-community/)).
+- [Gophercises](https://gophercises.com/) - 신진 고퍼를 위한 무료 코딩 연습입니다.
+- [json2go](https://m-zajac.github.io/json2go) - 고급 JSON에서 Go 구조체 변환 - 온라인 도구입니다.
+- [justforfunc](https://www.youtube.com/c/justforfunc) - Go 프로그래밍 언어 팁과 트릭에 전용된 Youtube 채널로 Francesc Campoy [@francesc](https://twitter.com/francesc)에 의해 호스팅됩니다.
+- [Learn Go Programming](https://blog.learngoprogramming.com) - 삽화로 Go 개념을 배우세요.
+- [Libs.tech](https://libs.tech/go) – 멋진 Go 라이브러리 및 숨겨진 보석들
+- [Made with Golang](https://madewithgolang.com/?ref=awesome-go)
+- [pkg.go.dev](https://pkg.go.dev/) - 오픈소스 Go 패키지의 문서입니다.
+- [studygolang](https://studygolang.com) - 중국의 studygolang 커뮤니티입니다.
+- [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - 새로운 Go 라이브러리를 찾기 위한 좋은 장소입니다.
+- [TutorialEdge - Golang](https://tutorialedge.net/course/golang/)
+
+**[⬆ 맨 위로](#contents)**
+
+### 튜토리얼
+
+- [50 Shades of Go](https://golang50shades.github.io/) - 새로운 Golang 개발자를 위한 함정, 예상 밖의 상황 및 일반적인 실수입니다.
+- [A Comprehensive Guide to Structured Logging in Go](https://betterstack.com/community/guides/logging/logging-in-go/) - 최근 승인된 slog 제안에 특별히 중점을 두고 Go의 구조화된 로깅의 세계로 깊이 파고들어 표준 라이브러리에 높은 성능의 구조화된 로깅 및 레벨을 가져오는 것을 목표로 합니다.
+- [A Guide to Golang E-Commerce](https://snipcart.com/blog/golang-ecommerce-ponzu-cms-demo?utm_term=golang-ecommerce-ponzu-cms-demo) - Golang 전자 상거래 사이트 구축 (데모 포함).
+- [A Tour of Go](https://tour.golang.org/) - Go의 대화형 투어입니다.
+- [Build a Database in 1000 lines of code](https://link.medium.com/O9YQlx89Htb) - 1000 줄의 코드로 처음부터 NoSQL 데이터베이스를 구축합니다.
+- [Build web application with Golang](https://github.com/astaxie/build-web-application-with-golang) - Golang 웹 앱을 빌드하는 방법에 대한 Golang 전자책 소개입니다.
+- [Building and Testing a REST API in Go with Gorilla Mux and PostgreSQL](https://semaphoreci.com/community/tutorials/building-and-testing-a-rest-api-in-go-with-gorilla-mux-and-postgresql) - 강력한 Gorilla Mux의 도움으로 API를 작성할 것입니다.
+- [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin) - Gin에 익숙해지고 보일러플레이트 코드를 줄이고 요청 처리 파이프라인을 구축하는 데 도움이 될 수 있는 방법을 알아보세요.
+- [Caching Slow Database Queries](https://medium.com/@rocketlaunchr.cloud/caching-slow-database-queries-1085d308a0c9) - 느린 데이터베이스 쿼리를 캐시하는 방법입니다.
+- [Canceling MySQL](https://medium.com/@rocketlaunchr.cloud/canceling-mysql-in-go-827ed8f83b30) - MySQL 쿼리를 취소하는 방법입니다.
+- [CodeCrafters Golang Track](https://app.codecrafters.io/tracks/go) - 자신의 Redis, Docker, Git 및 SQLite를 구축하여 Go의 숙달을 달성하세요. 고루틴, 시스템 프로그래밍, 파일 I/O 등을 특징으로 합니다.
+- [Design Patterns in Go](https://github.com/shubhamzanwar/design-patterns) - Go로 구현된 프로그래밍 디자인 패턴 모음입니다.
+- [Games With Go](https://www.youtube.com/watch?v=9D4yH7e_ea8&list=PLDZujg-VgQlZUy1iCqBbe5faZLMkA3g2x) - 프로그래밍 및 게임 개발을 가르치는 비디오 시리즈입니다.
+- [Go By Example](https://gobyexample.com/) - 주석이 있는 예제 프로그램을 사용한 Go에 대한 실습 소개입니다.
+- [Go Cheat Sheet](https://github.com/a8m/go-lang-cheat-sheet) - Go의 참조 카드입니다.
+- [Go database/sql tutorial](http://go-database-sql.org/) - database/sql 소개입니다.
+- [Go in 7 days](https://github.com/harrytran103/7_days_of_go) - 7 일 안에 Go의 모든 것을 배우세요 (Nodejs 개발자로부터).
+- [Go Language Tutorial](https://www.javatpoint.com/go-tutorial) - Go 언어 튜토리얼을 배우세요.
+- [Go Tutorial](https://www.tutorialspoint.com/go/index.htm) - Go 프로그래밍을 배우세요.
+- [Go WebAssembly Tutorial - Building a Simple Calculator](https://tutorialedge.net/golang/go-webassembly-tutorial/)
+- [go-clean-template](https://github.com/evrone/go-clean-template) - Golang 서비스를 위한 클린 아키텍처 템플릿입니다.
+- [go-patterns](https://github.com/tmrts/go-patterns) - Go 디자인 패턴, 레시피 및 관용구의 엄선된 목록입니다.
+- [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers) - Node.js와 비교하여 배우기 위한 Golang의 예입니다.
+- [Golang Tutorial Guide](https://www.freecodecamp.org/news/golang-tutorial-list-free-courses-learn-go-programming-language/) - Go 프로그래밍 언어를 배우기 위한 무료 과정 목록입니다.
+- [golang-examples](https://github.com/SimonWaldherr/golang-examples) - Golang을 배우기 위한 많은 예제들입니다.
+- [Golangbot](https://golangbot.com/learn-golang-series/) - Go 프로그래밍을 시작하기 위한 튜토리얼입니다.
+- [GopherCoding](https://gophercoding.com/) - 매일의 문제를 해결하는 데 도움이 되는 코드 스니펫 및 튜토리얼 모음입니다.
+- [GopherSnippets](https://gophersnippets.com/) - Go 프로그래밍 언어에 대한 테스트 및 테스트 가능한 예제가 있는 코드 스니펫입니다.
+- [Gosamples](https://gosamples.dev/) - 매일의 코드 문제를 해결할 수 있는 코드 스니펫 모음입니다.
+- [GraphQL with Go](https://hasura.io/learn/graphql/backend-stack/languages/go/) - 코드 생성을 사용하여 Go GraphQL 서버 및 클라이언트를 만드는 방법을 배우세요. REST 끝점 생성도 포함합니다.
+- [Hackr.io](https://hackr.io/tutorials/learn-golang) - golang 프로그래밍 커뮤니티에 의해 제출되고 투표된 최고의 온라인 golang 튜토리얼에서 Go를 배우세요.
+- [Hex Monscape](https://github.com/Haraj-backend/hex-monscape) - 육각형 아키텍처를 사용하여 유지 보수 가능한 코드를 작성하기 위한 시작 지침입니다.
+- [How to Benchmark: dbq vs sqlx vs GORM](https://medium.com/@rocketlaunchr.cloud/how-to-benchmark-dbq-vs-sqlx-vs-gorm-e814caacecb5) - Go에서 벤치마크하는 방법을 배웁니다. 사례 연구로서 dbq, sqlx 및 GORM을 벤치마크할 것입니다.
+- [How To Deploy a Go Web Application with Docker](https://semaphoreci.com/community/tutorials/how-to-deploy-a-go-web-application-with-docker) - Go 개발을 위해 Docker를 사용하는 방법과 프로덕션 Docker 이미지를 구축하는 방법을 배우세요.
+- [How to Implement Role-Based Access Control (RBAC) Authorization in Golang](https://www.permit.io/blog/role-based-access-control-rbac-authorization-in-golang) - 코드 예제를 포함한 Golang에서 역할 기반 액세스 제어 (RBAC)를 구현하는 방법에 대한 가이드로 앱 끝점을 역할 기반 권한 부여로 보호하는 다양한 방법을 다룹니다.
+- [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go) - Godog를 사용하여 시작하기 - Go 애플리케이션을 구축하고 테스트하기 위한 행동 기반 개발 프레임워크입니다.
+- [Learn Go with 1000+ Exercises](https://github.com/inancgumus/learngo) - 수천 가지의 예제, 연습 및 퀴즈로 Go를 배우세요.
+- [Learn Go with TDD](https://github.com/quii/learn-go-with-tests) - 테스트 주도 개발로 Go를 배우세요.
+- [Learning Go by examples](https://dev.to/aurelievache/learning-go-by-examples-introduction-448n) - 구체적인 응용 프로그램을 예제로 하여 Golang 언어를 배우기 위한 기사 시리즈입니다.
+- [Microservices with Go](https://www.youtube.com/playlist?list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_) - gRPC를 포함한 Go를 사용하여 마이크로서비스를 구축하는 방법을 깊이 있게 파고들어봅니다.
+- [package main](https://www.youtube.com/packagemain) - Go 프로그래밍에 대한 Youtube 채널입니다.
+- [Programming with Google Go](https://www.coursera.org/specializations/google-golang) - 처음부터 Go에 대해 배우기 위한 Coursera 특수성입니다.
+- [Scaling Go Applications](https://betterstack.com/community/guides/scaling-go/) - 프로덕션에서 Go 애플리케이션을 구축, 배포 및 스케일링하는 방법에 대한 모든 것입니다.
+- [The world's easiest introduction to WebAssembly with Golang](https://medium.com/@martinolsansky/webassembly-with-golang-is-fun-b243c0e34f02)
+- [Understanding Go in a visual way](https://dev.to/aurelievache/series/26234) - Go를 시각적으로 배우세요.
+- [W3basic Go Tutorials](https://www.w3basic.com/golang/) - W3Basic은 Go 프로그래밍을 배우기 위한 깊이 있는 튜토리얼과 잘 구성된 콘텐츠를 제공합니다.
+- [Your basic Go](https://yourbasic.org/golang) - 튜토리얼 및 방법에 대한 거대한 모음입니다.
+
+**[⬆ 맨 위로](#contents)**
+
+### 가이드 학습
+
+- [The Go Developer Roadmap](https://roadmap.sh/golang) - 새로운 Go 개발자가 따를 수 있도록 돕는 시각적 로드맵입니다.
+- [The Go Interview Practice](https://github.com/RezaSi/go-interview-practice) - Go 기술 인터뷰 준비를 위한 코딩 챌린지를 제공하는 GitHub 저장소입니다.
+- [The Go Learning Path](https://tutorialedge.net/paths/golang/) - 무료 및 프리미엄 리소스가 혼합된 가이드 학습 경로입니다.
+- [The Go Skill Tree](https://labex.io/skilltrees/go) - 무료 및 프리미엄 리소스를 모두 결합한 구조화된 학습 경로입니다.
+
+**[⬆ 맨 위로](#contents)**
+
+## 기여
+
+기여를 환영합니다! 자세한 내용은 [CONTRIBUTING.md](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md)를 참조하세요.
+
+## 라이선스
+
+이 프로젝트는 [MIT 라이선스](https://github.com/avelino/awesome-go/blob/main/LICENSE)로 허가되어 있습니다 - 자세한 내용은 LICENSE 파일을 참조하세요.

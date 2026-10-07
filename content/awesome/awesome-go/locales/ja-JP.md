@@ -3844,3 +3844,292 @@ _新しい Go ライブラリを見つけるための場所。_
 
 ## カンファレンス
 
+- [GoCon](https://gocon.connpass.com/) - 東京、日本。
+- [GoDays](https://www.godays.io/) - ベルリン、ドイツ。
+- [GoLab](https://golab.io/) - フローレンス、イタリア。
+- [GopherCon](https://www.gophercon.com/) - USA の毎年異なる場所。
+- [GopherCon Africa](https://gophercon.africa/) - ナイロビ、ケニア。
+- [GopherCon Australia](https://gophercon.com.au/) - シドニー、オーストラリア。
+- [GopherCon Brazil](https://gopherconbr.org) - フロリアノポリス、ブラジル。
+- [GopherCon China](https://gophercon.com.cn) - 上海、中国。
+- [GopherCon Europe](https://gophercon.eu/) - ベルリン、ドイツ。
+- [GopherCon India](https://gopherconindia.org/) - プネー、インド。
+- [GopherCon Israel](https://www.gophercon.org.il/) - テルアビブ、イスラエル。
+- [GopherCon Russia](https://www.gophercon-russia.ru) - モスクワ、ロシア。
+- [GopherCon Singapore](https://gophercon.sg) - メープルツリービジネスシティ、シンガポール。
+- [GopherCon UK](https://www.gophercon.co.uk/) - ロンドン、イギリス。
+- [GopherCon Vietnam](https://gophercon.vn/) - ホーチミン市、ベトナム。
+- [GoWest Conference](https://www.gowestconf.com/) - Lehi、USA。
+
+**[⬆ トップに戻る](#contents)**
+
+## 電子書籍
+
+### 購入可能な電子書籍
+
+- [100 Go Mistakes: How to Avoid Them](https://www.manning.com/books/100-go-mistakes-how-to-avoid-them)
+- [Black Hat Go](https://nostarch.com/blackhatgo) - ハッカーとペンテスター向けの Go プログラミング。
+- [Build an Orchestrator in Go](https://www.manning.com/books/build-an-orchestrator-in-go)
+- [Continuous Delivery in Go](https://www.manning.com/books/continuous-delivery-in-go) - 継続的デリバリーの実践ガイド。テスト、コード品質、最終製品を改善する自動化パイプラインを迅速に確立する方法を紹介します。
+- [Creative DIY Microcontroller Project With TinyGo and WebAssembly](https://www.packtpub.com/product/creative-diy-microcontroller-projects-with-tinygo-and-webassembly/9781800560208) - TinyGo コンパイラーの紹介。Arduino と WebAssembly を含むプロジェクト。
+- [Effective Go: Elegant, efficient, and testable code](https://www.manning.com/books/effective-go) - Go のユニークなプログラム設計アプローチを理解し、シンプルで保守性が高く、テスト可能な Go コードを書き始める。
+- [For the Love of Go](https://bitfieldconsulting.com/books/love) - Go 初心者向けの入門書。
+- [Go in Practice, Second Edition](https://www.manning.com/books/go-in-practice-second-edition) - Go 開発の詳細な実践ガイド。標準ライブラリと Go の強力なエコシステムから最も重要なツールをカバーしています。
+- [Know Go: Generics](https://bitfieldconsulting.com/books/generics) - Go のジェネリクスの理解と使用に関するガイド。
+- [Lets-Go](https://lets-go.alexedwards.net) - Go でファスト、セキュア、メインテナンス可能な Web アプリケーションを作成するためのステップバイステップガイド。
+- [Lets-Go-Further](https://lets-go-further.alexedwards.net) - Go で API と Web アプリケーションを構築するための高度なパターン。
+- [The Power of Go: Tests](https://bitfieldconsulting.com/books/tests) - Go テストのガイド。
+- [The Power of Go: Tools](https://bitfieldconsulting.com/books/tools) - Go でのコマンドラインツール記述ガイド。
+- [Writing A Compiler In Go](https://compilerbook.com)
+- [Writing An Interpreter In Go](https://interpreterbook.com) - 慣用的で表現力豊かで効率的な Go コードを書くための数多くの技法を紹介する本。一般的な落とし穴を回避します。
+
+### 無料の電子書籍
+
+- [A Go Developer's Notebook](https://leanpub.com/GoNotebook/read)
+- [An Introduction to Programming in Go](http://www.golang-book.com/)
+- [Build a blockchain from scratch in Go with gRPC](https://github.com/volodymyrprokopyuk/go-blockchain) - Go で gRPC を使ったブロックチェーンをゼロから効果的に学習し、段階的に構築するための基礎および実践的なガイド。
+- [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/)
+- [Building Web Apps With Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/)
+- [Go 101](https://go101.org) - Go の構文、セマンティクス、およびあらゆる種類の詳細に焦点を当てた本。
+- [Go AST Book (Chinese)](https://github.com/chai2010/go-ast-book) - Go `go/*` パッケージに焦点を当てた本。
+- [Go Faster](https://leanpub.com/gofaster) - この本は学習曲線を短縮し、より速く熟練した Go プログラマーになるのを支援します。
+- [Go Succinctly](https://github.com/thedevsir/gosuccinctly) - ペルシア語。
+- [Go with the domain](https://threedots.tech/go-with-the-domain/) - DDD、Clean Architecture、CQRS を実践的なリファクタリングで適用する方法を示す本。
+- [GoBooks](https://github.com/dariubs/GoBooks) - Go 本の厳選リスト。
+- [How To Code in Go eBook](https://www.digitalocean.com/community/books/how-to-code-in-go-ebook) - 初心者向けの Go への 600 ページの紹介。
+- [Learning Go](https://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
+- [Network Programming With Go](https://jan.newmarch.name/golang/)
+- [Practical Go Lessons](https://www.practical-go-lessons.com/)
+- [Spaceship Go A Journey to the Standard Library](https://blasrodri.github.io/spaceship-go-gh-pages/)
+- [The Go Programming Language](https://www.gopl.io/)
+- [The Golang Standard Library by Example (Chinese)](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
+- [The Little Go Book](https://github.com/karlseguin/the-little-go-book)
+- [Web Application with Go the Anti-Textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)
+
+**[⬆ トップに戻る](#contents)**
+
+## ゴファー
+
+- [Free Gophers Pack](https://github.com/MariaLetta/free-gophers-pack) - Maria Letta によるゴファーグラフィックスパック。ベクターおよびラスター形式のイラストと感情的なキャラクター。
+- [Go-gopher-Vector](https://github.com/keygx/Go-gopher-Vector) - Go ゴファーベクターデータ [.ai, .svg]。
+- [gopher-logos](https://github.com/GolangUA/gopher-logos) - 愛らしいゴファーロゴ。
+- [gopher-stickers](https://github.com/tenntenn/gopher-stickers)
+- [gophericons](https://github.com/shalakhin/gophericons)
+- [gopherize.me](https://github.com/matryer/gopherize.me) - ゴファーになろう。
+- [gophers](https://github.com/ashleymcnamara/gophers) - Ashley McNamara によるゴファーアートワーク。
+- [gophers](https://github.com/egonelbre/gophers) - 無料のゴファー。
+- [gophers](https://github.com/rogeralsing/gophers) - ランダムなゴファーグラフィックス。
+- [gophers](https://github.com/sillecelik/go-gopher) - ゴファーあみぐるみのおもちゃパターン。
+- [gophers](https://github.com/scraly/gophers) - Aurélie Vache によるゴファー。
+
+**[⬆ トップに戻る](#contents)**
+
+## ミートアップ
+
+- [Basel Go Meetup](https://www.meetup.com/Basel-Go-Meetup/)
+- [Belfast Gophers](https://www.meetup.com/Belfast-Gophers/)
+- [Belgrade Golang Meetup](https://www.meetup.com/golang-serbia/)
+- [Berlin Golang](https://www.meetup.com/golang-users-berlin/)
+- [Brisbane Gophers](https://www.meetup.com/Brisbane-Golang-Meetup/)
+- [Bärner Go Meetup - Berne, Switzerland](https://www.meetup.com/berner-go-meetup/)
+- [Go Ireland - Dublin](https://www.meetup.com/goireland/)
+- [Go Language NYC](https://www.meetup.com/golanguagenewyork/)
+- [Go London User Group](https://www.meetup.com/Go-London-User-Group/)
+- [Go Remote Meetup](https://www.meetup.com/Go-Remote-Meetup/)
+- [Go Toronto](https://www.meetup.com/go-toronto/)
+- [Go User Group Atlanta](https://www.meetup.com/Go-Users-Group-Atlanta/)
+- [GoBandung](https://www.meetup.com/GoBandung/)
+- [GoBridge, San Francisco, CA](https://www.meetup.com/gobridge/)
+- [GoCracow - Krakow, Poland](https://www.meetup.com/GoCracow/)
+- [GoJakarta](https://www.meetup.com/GoJakarta/)
+- [Golang Amsterdam](https://www.meetup.com/golang-amsterdam/)
+- [Golang Argentina](https://www.meetup.com/Golang-Argentina/)
+- [Golang Athens](https://www.meetup.com/Athens-Gophers/)
+- [Golang Baltimore, MD](https://www.meetup.com/BaltimoreGolang/)
+- [Golang Bangalore](https://www.meetup.com/Golang-Bangalore/)
+- [Golang Belo Horizonte - Brazil](https://www.meetup.com/go-belo-horizonte/)
+- [Golang Boston](https://www.meetup.com/bostongo/)
+- [Golang Bulgaria](https://www.meetup.com/Golang-Bulgaria/)
+- [Golang Cardiff, UK](https://www.meetup.com/Cardiff-Go-Meetup/)
+- [Golang Copenhagen](https://www.meetup.com/Go-Cph/)
+- [Golang Curitiba - Brazil](https://www.meetup.com/GolangCWB/)
+- [Golang DC, Arlington, VA](https://www.meetup.com/Golang-DC/)
+- [Golang Dorset, UK](https://www.meetup.com/golang-dorset/)
+- [Golang Estonia](https://www.meetup.com/Golang-Estonia/)
+- [Golang Gurgaon, India](https://www.meetup.com/Gurgaon-Go-Meetup/)
+- [Golang Hamburg - Germany](https://www.meetup.com/Go-User-Group-Hamburg/)
+- [Golang Israel](https://www.meetup.com/Go-Israel/)
+- [Golang Kathmandu](https://www.meetup.com/Golang-Kathmandu/)
+- [Golang Lima - Peru](https://www.meetup.com/Golang-Peru/)
+- [Golang Lyon](https://www.meetup.com/Golang-Lyon/)
+- [Golang Marseille](https://www.meetup.com/fr-FR/Golang-Marseille/)
+- [Golang Melbourne](https://www.meetup.com/golang-mel/)
+- [Golang Milano](https://www.meetup.com/golang-milano/)
+- [Golang North East](https://www.meetup.com/en-AU/Golang-North-East/)
+- [Golang Paris](https://www.meetup.com/Golang-Paris/)
+- [Golang Poland](https://www.meetup.com/Golang-Poland/)
+- [Golang Pune](https://www.meetup.com/Golang-Pune/)
+- [Golang Roma](https://www.meetup.com/golangroma/)
+- [Golang Rotterdam](https://www.meetup.com/golang-rotterdam/)
+- [Golang Singapore](https://www.meetup.com/golangsg/)
+- [Golang Stockholm](https://www.meetup.com/Go-Stockholm/)
+- [Golang Sydney, AU](https://www.meetup.com/golang-syd/)
+- [Golang São Paulo - Brazil](https://www.meetup.com/golangbr/)
+- [Golang Taipei](https://www.meetup.com/golang-taipei-meetup/)
+- [Golang Thessaloniki](https://www.meetup.com/thessaloniki-golang-meetup/)
+- [Golang Torino](https://www.meetup.com/golang-torino/)
+- [Golang Turkey](https://kommunity.com/goturkiye)
+- [Golang Vancouver, BC](https://www.meetup.com/golangvan/)
+- [Golang Vienna, Austria](https://www.meetup.com/viennago/)
+- [Golang Москва](https://www.meetup.com/Golang-Moscow/)
+- [GoSF - San Francisco, CA](https://www.meetup.com/golangsf)
+- [Istanbul Golang](https://www.meetup.com/Istanbul-Golang/)
+- [Lagos Gophers](https://www.meetup.com/GolangNigeria/)
+- [Nairobi Gophers](https://www.meetup.com/nairobi-gophers/)
+- [Seattle Go Programmers](https://www.meetup.com/golang/)
+- [Ukrainian Golang User Groups](https://www.meetup.com/uagolang/)
+- [Utah Go User Group](https://www.meetup.com/utahgophers/)
+- [Women Who Go - San Francisco, CA](https://www.meetup.com/Women-Who-Go/)
+- [Zürich Gophers - Zurich, Switzerland](https://www.meetup.com/zurich-gophers/)
+
+_あなたの都市/国のグループをここに追加してください（**PR** を送信）_
+
+**[⬆ トップに戻る](#contents)**
+
+## スタイルガイド
+
+- [CockroachDB](https://github.com/cockroachdb/cockroach/blob/master/docs/style.md)
+- [enra/go-styleguide](https://codeberg.org/enra/go-styleguide)
+- [GitLab](https://docs.gitlab.com/ee/development/go_guide/)
+- [Google](https://google.github.io/styleguide/go/)
+- [Hyperledger](https://github.com/hyperledger/fabric/blob/release-1.4/docs/source/style-guides/go-style.rst)
+- [Thanos](https://thanos.io/tip/contributing/coding-style-guide.md/)
+- [Trybe](https://github.com/betrybe/playbook-go/blob/main/README_EN.md)
+- [Uber](https://github.com/uber-go/guide/blob/master/style.md)
+
+**[⬆ トップに戻る](#contents)**
+
+## ソーシャルメディア
+
+### Twitter
+
+- [@GoDiscussions](https://twitter.com/GoDiscussions)
+- [@golang](https://twitter.com/golang)
+- [@golang_news](https://twitter.com/golang_news)
+- [@golangch](https://twitter.com/golangch)
+- [@golangweekly](https://twitter.com/golangweekly)
+
+**[⬆ トップに戻る](#contents)**
+
+### Reddit
+
+- [r/golang](https://www.reddit.com/r/golang/)
+
+**[⬆ トップに戻る](#contents)**
+
+## ウェブサイト
+
+- [Awesome Go @LibHunt](https://go.libhunt.com) - Go のツールボックス。
+- [Awesome Golang Workshops](https://github.com/amit-davidson/awesome-golang-workshops) - 素晴らしい golang ワークショップの厳選リスト。
+- [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job) - 素晴らしいリモートジョブの厳選リスト。その多くは Go ハッカーを探しています。
+- [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - その他の素晴らしいリストのリスト。
+- [awesome-go-extra](https://github.com/xwjdsh/awesome-go-extra) - awesome-go README ファイルを解析し、リポジトリ情報を含む新しい README ファイルを生成します。
+- [Code with Mukesh](https://codewithmukesh.com/categories/golang) - ソフトウェアエンジニア @ codewithmukesh.com のブログ。
+- [Coding Mystery](https://codingmystery.com) - Go を使用して刺激的なエスケープルーム風のプログラミングチャレンジを解く。
+- [CodinGame](https://www.codingame.com/) - 実践的な例として小さなゲームを使用してインタラクティブなタスクを解くことで Go を学ぶ。
+- [Go Blog](https://blog.golang.org) - 公式 Go ブログ。
+- [Go Code Club](https://www.youtube.com/watch?v=nvoIPQYdx9g&list=PLEcwzBXTPUE_YQR7R0BRtHBYJ0LN3Y0i3) - ゴファーのグループが毎週異なる Go プロジェクトを読んで討論します。
+- [Go Community on Hashnode](https://hashnode.com/n/go) - Hashnode 上のゴファーコミュニティ。
+- [Go Forum](https://forum.golangbridge.org) - Go を議論するためのフォーラム。
+- [Go Projects](https://github.com/golang/go/wiki/Projects) - Go コミュニティ wiki のプロジェクトリスト。
+- [Go Proverbs](https://go-proverbs.github.io/) - Rob Pike による Go の格言。
+- [Go Report Card](https://goreportcard.com) - Go パッケージのレポートカード。
+- [go.dev](https://go.dev/) - Go 開発者向けのハブ。
+- [gocryforhelp](https://github.com/ninedraft/gocryforhelp) - ヘルプが必要な Go プロジェクトのコレクション。Go でオープンソースを始めるための良い場所。
+- [Golang Developer Jobs](https://golangjob.xyz) - Golang 関連の職務専用の開発者ジョブ。
+- [Golang News](https://golangnews.com) - Go プログラミングに関するリンクとニュース。
+- [Golang Nugget](https://golangnugget.com) - 毎週月曜日にあなたのインボックスに配信される Go コンテンツの最高の週間ラウンドアップ。
+- [Golang Weekly](https://discu.eu/weekly/golang/) - 毎週月曜日に Go に関するプロジェクト、チュートリアル、記事。
+- [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Go メーリングリスト。
+- [Gopher Community Chat](https://invite.slack.golangbridge.org) - ゴファーのための新しい Slack コミュニティに参加してください（[それがどのように来たかを理解する](https://blog.gopheracademy.com/gophers-slack-community/)）。
+- [Gophercises](https://gophercises.com/) - 新しいゴファーのための無料のコーディング演習。
+- [json2go](https://m-zajac.github.io/json2go) - 高度な JSON から Go 構造体への変換 - オンラインツール。
+- [justforfunc](https://www.youtube.com/c/justforfunc) - Go プログラミング言語のヒントとコツに専念した YouTube チャンネル。Francesc Campoy [@francesc](https://twitter.com/francesc) がホストしています。
+- [Learn Go Programming](https://blog.learngoprogramming.com) - イラストを使用して Go の概念を学ぶ。
+- [Libs.tech](https://libs.tech/go) - 素晴らしい Go ライブラリとその隠れた宝石
+- [Made with Golang](https://madewithgolang.com/?ref=awesome-go)
+- [pkg.go.dev](https://pkg.go.dev/) - オープンソース Go パッケージのドキュメント。
+- [studygolang](https://studygolang.com) - 中国の studygolang コミュニティ。
+- [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - 新しい Go ライブラリを見つけるための良い場所。
+- [TutorialEdge - Golang](https://tutorialedge.net/course/golang/)
+
+**[⬆ トップに戻る](#contents)**
+
+### チュートリアル
+
+- [50 Shades of Go](https://golang50shades.github.io/) - 新しい Golang 開発者のためのトラップ、落とし穴、一般的な間違い。
+- [A Comprehensive Guide to Structured Logging in Go](https://betterstack.com/community/guides/logging/logging-in-go/) - Go での構造化ログの世界に深く潜る。最近受け入れられた slog 提案に特に焦点を当てています。この提案は、高性能な構造化ログをレベルと共に標準ライブラリにもたらすことを目的としています。
+- [A Guide to Golang E-Commerce](https://snipcart.com/blog/golang-ecommerce-ponzu-cms-demo?utm_term=golang-ecommerce-ponzu-cms-demo) - Golang サイトを e コマース用に構築（デモ付き）。
+- [A Tour of Go](https://tour.golang.org/) - Go のインタラクティブツアー。
+- [Build a Database in 1000 lines of code](https://link.medium.com/O9YQlx89Htb) - 1000 行のコードでゼロから NoSQL データベースを構築します。
+- [Build web application with Golang](https://github.com/astaxie/build-web-application-with-golang) - Golang ebook は Go で Web アプリを構築する方法を紹介します。
+- [Building and Testing a REST API in Go with Gorilla Mux and PostgreSQL](https://semaphoreci.com/community/tutorials/building-and-testing-a-rest-api-in-go-with-gorilla-mux-and-postgresql) - 強力な Gorilla Mux の助けを借りて API を記述します。
+- [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin) - Gin に精通し、ボイラープレートコードを削減し、リクエスト処理パイプラインを構築するのにどのように役立つかを発見してください。
+- [Caching Slow Database Queries](https://medium.com/@rocketlaunchr.cloud/caching-slow-database-queries-1085d308a0c9) - 低速なデータベースクエリをキャッシュする方法。
+- [Canceling MySQL](https://medium.com/@rocketlaunchr.cloud/canceling-mysql-in-go-827ed8f83b30) - MySQL クエリをキャンセルする方法。
+- [CodeCrafters Golang Track](https://app.codecrafters.io/tracks/go) - 独自の Redis、Docker、Git、SQLite を構築することで Go での習得を達成します。ゴルーチン、システムプログラミング、ファイル I/O など。
+- [Design Patterns in Go](https://github.com/shubhamzanwar/design-patterns) - Go で実装されたプログラミング設計パターンのコレクション。
+- [Games With Go](https://www.youtube.com/watch?v=9D4yH7e_ea8&list=PLDZujg-VgQlZUy1iCqBbe5faZLMkA3g2x) - プログラミングおよびゲーム開発を教える動画シリーズ。
+- [Go By Example](https://gobyexample.com/) - 注釈付きの例プログラムを使用した Go への実践的な紹介。
+- [Go Cheat Sheet](https://github.com/a8m/go-lang-cheat-sheet) - Go のリファレンスカード。
+- [Go database/sql tutorial](http://go-database-sql.org/) - database/sql への紹介。
+- [Go in 7 days](https://github.com/harrytran103/7_days_of_go) - 7 日で Go のすべてを学ぶ（Node.js 開発者から）。
+- [Go Language Tutorial](https://www.javatpoint.com/go-tutorial) - Go 言語チュートリアルを学ぶ。
+- [Go Tutorial](https://www.tutorialspoint.com/go/index.htm) - Go プログラミングを学ぶ。
+- [Go WebAssembly Tutorial - Building a Simple Calculator](https://tutorialedge.net/golang/go-webassembly-tutorial/)
+- [go-clean-template](https://github.com/evrone/go-clean-template) - Golang サービス用のクリーンアーキテクチャテンプレート。
+- [go-patterns](https://github.com/tmrts/go-patterns) - Go 設計パターン、レシピ、およびイディオムの厳選リスト。
+- [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers) - Go と Node.js の比較例。学習用。
+- [Golang Tutorial Guide](https://www.freecodecamp.org/news/golang-tutorial-list-free-courses-learn-go-programming-language/) - Go プログラミング言語を学ぶための無料コースのリスト。
+- [golang-examples](https://github.com/SimonWaldherr/golang-examples) - Golang を学ぶための多くの例。
+- [Golangbot](https://golangbot.com/learn-golang-series/) - Go でのプログラミングを始めるためのチュートリアル。
+- [GopherCoding](https://gophercoding.com/) - 毎日の問題に取り組むのに役立つコードスニペットとチュートリアルのコレクション。
+- [GopherSnippets](https://gophersnippets.com/) - Go プログラミング言語のテストとテスト可能な例を含むコードスニペット。
+- [Gosamples](https://gosamples.dev/) - 日常のコード問題を解くためのコードスニペットのコレクション。
+- [GraphQL with Go](https://hasura.io/learn/graphql/backend-stack/languages/go/) - Go GraphQL サーバーおよびクライアントを作成する方法を学びます。コード生成も含まれています。REST エンドポイントの作成も含まれています。
+- [Hackr.io](https://hackr.io/tutorials/learn-golang) - golang プログラミングコミュニティから送信および投票された最高のオンライン golang チュートリアルから Go を学びます。
+- [Hex Monscape](https://github.com/Haraj-backend/hex-monscape) - 六角形アーキテクチャを使用して保守可能なコードを記述するための入門ガイドライン。
+- [How to Benchmark: dbq vs sqlx vs GORM](https://medium.com/@rocketlaunchr.cloud/how-to-benchmark-dbq-vs-sqlx-vs-gorm-e814caacecb5) - Go でベンチマークする方法を学びます。ケーススタディとして、dbq、sqlx、GORM をベンチマークします。
+- [How To Deploy a Go Web Application with Docker](https://semaphoreci.com/community/tutorials/how-to-deploy-a-go-web-application-with-docker) - Go 開発に Docker を使用する方法と、本番用 Docker イメージを構築する方法を学びます。
+- [How to Implement Role-Based Access Control (RBAC) Authorization in Golang](https://www.permit.io/blog/role-based-access-control-rbac-authorization-in-golang) - Go での役割ベースアクセス制御（RBAC）の実装ガイド。コード例を含み、役割ベースの認可でアプリケーションエンドポイントをセキュアにするための様々な方法をカバーしています。
+- [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go) - Godog の使い方を始める。Go アプリケーションを構築およびテストするための動作駆動開発フレームワーク。
+- [Learn Go with 1000+ Exercises](https://github.com/inancgumus/learngo) - 数千の例、演習、クイズで Go を学ぶ。
+- [Learn Go with TDD](https://github.com/quii/learn-go-with-tests) - テスト駆動開発で Go を学ぶ。
+- [Learning Go by examples](https://dev.to/aurelievache/learning-go-by-examples-introduction-448n) - 具体的なアプリケーションを例として Go 言語を学ぶための記事シリーズ。
+- [Microservices with Go](https://www.youtube.com/playlist?list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_) - gRPC を含む Go を使用したマイクロサービスの構築に深く潜る。
+- [package main](https://www.youtube.com/packagemain) - Go でのプログラミングに関する YouTube チャンネル。
+- [Programming with Google Go](https://www.coursera.org/specializations/google-golang) - Go 言語を学ぶための Coursera スペシャライゼーション。
+- [Scaling Go Applications](https://betterstack.com/community/guides/scaling-go/) - 本番環境で Go アプリケーションを構築、デプロイ、スケーリングすることに関するすべてのこと。
+- [The world's easiest introduction to WebAssembly with Golang](https://medium.com/@martinolsansky/webassembly-with-golang-is-fun-b243c0e34f02)
+- [Understanding Go in a visual way](https://dev.to/aurelievache/series/26234) - 視覚的に Go を学ぶ
+- [W3basic Go Tutorials](https://www.w3basic.com/golang/) - W3Basic は、Go プログラミングを学ぶための詳細なチュートリアルと整理されたコンテンツを提供します。
+- [Your basic Go](https://yourbasic.org/golang) - チュートリアルと方法の巨大なコレクション。
+
+**[⬆ トップに戻る](#contents)**
+
+### ガイド付き学習
+
+- [The Go Developer Roadmap](https://roadmap.sh/golang) - Go 開発者が Go を学ぶのに役立つビジュアルロードマップ。
+- [The Go Interview Practice](https://github.com/RezaSi/go-interview-practice) - Go 技術面接準備のためのコーディングチャレンジを提供する GitHub リポジトリ。
+- [The Go Learning Path](https://tutorialedge.net/paths/golang/) - 無料および有料リソースの組み合わせを含むガイド付き学習パス。
+- [The Go Skill Tree](https://labex.io/skilltrees/go) - 無料および有料リソースの両方を組み合わせた構造化された学習パス。
+
+**[⬆ トップに戻る](#contents)**
+
+## 貢献
+
+貢献を歓迎します。詳細については、[CONTRIBUTING.md](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md) をご覧ください。
+
+## ライセンス
+
+このプロジェクトは [MIT ライセンス](https://github.com/avelino/awesome-go/blob/main/LICENSE) の下でライセンスされています。詳細は LICENSE ファイルを参照してください。
