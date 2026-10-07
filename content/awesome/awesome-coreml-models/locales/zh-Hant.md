@@ -1,4 +1,8 @@
-# Core ML Models
+<!--
+Title: Awesome Core ML Models
+Description: A curated list of machine learning models in Core ML format.
+Author: Kedan Li
+-->
 
 <p align="center">
 <img src="images/coreml.png" width="329" height="295"/>
