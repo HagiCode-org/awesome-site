@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "React Hooks",
+      "description": "精选的 React Hooks 资源列表：文档、教程、视频、播客、工具和软件包。",
+      "sourceDigest": "0ecb7e38c53d977a7f024c9824c1ffed507256945969949c17b46bc0c2d4456b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "React Hooks",
+      "description": "精選的 React Hooks 資源清單：文件、教學、影片、播客、工具與套件。",
+      "sourceDigest": "0ecb7e38c53d977a7f024c9824c1ffed507256945969949c17b46bc0c2d4456b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "React Hooks",
+      "description": "Une liste sélectionnée de ressources React Hooks : documentation, tutoriels, vidéos, podcasts, outils et paquets.",
+      "sourceDigest": "0ecb7e38c53d977a7f024c9824c1ffed507256945969949c17b46bc0c2d4456b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "React Hooks",
+      "description": "Eine kuratierte Liste von React-Hooks-Ressourcen: Dokumentation, Tutorials, Videos, Podcasts, Werkzeuge und Pakete.",
+      "sourceDigest": "0ecb7e38c53d977a7f024c9824c1ffed507256945969949c17b46bc0c2d4456b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "React Hooks",
+      "description": "Una lista seleccionada de recursos de React Hooks: documentación, tutoriales, vídeos, pódcasts, herramientas y paquetes.",
+      "sourceDigest": "0ecb7e38c53d977a7f024c9824c1ffed507256945969949c17b46bc0c2d4456b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "React Hooks",
+      "description": "React Hooks に関するドキュメント、チュートリアル、動画、ポッドキャスト、ツール、パッケージを集めた厳選リスト。",
+      "sourceDigest": "0ecb7e38c53d977a7f024c9824c1ffed507256945969949c17b46bc0c2d4456b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "React Hooks",
+      "description": "문서, 튜토리얼, 동영상, 팟캐스트, 도구, 패키지 등 React Hooks 리소스를 엄선한 목록입니다.",
+      "sourceDigest": "0ecb7e38c53d977a7f024c9824c1ffed507256945969949c17b46bc0c2d4456b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "React Hooks",
+      "description": "Uma lista selecionada de recursos de React Hooks: documentação, tutoriais, vídeos, podcasts, ferramentas e pacotes.",
+      "sourceDigest": "0ecb7e38c53d977a7f024c9824c1ffed507256945969949c17b46bc0c2d4456b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "React Hooks",
+      "description": "Подборка ресурсов по React Hooks: документация, руководства, видео, подкасты, инструменты и пакеты.",
+      "sourceDigest": "0ecb7e38c53d977a7f024c9824c1ffed507256945969949c17b46bc0c2d4456b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}

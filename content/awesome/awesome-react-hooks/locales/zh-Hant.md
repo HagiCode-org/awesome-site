@@ -1,0 +1,290 @@
+# awesome-react-hooks [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> 令人讚嘆的 React Hooks 資源
+
+## 文檔
+
+- [React Hooks 文檔](https://reactjs.org/docs/hooks-intro.html)
+
+## 討論
+
+- [React Hooks RFC](https://github.com/reactjs/rfcs/pull/68)
+
+## 教程
+
+- ["Making Sense of React Hooks" by Dan Abramov](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889)
+- ["From React.Component to hooks" by Octave Raimbault](https://medium.com/@dispix/from-react-component-to-hooks-b50241334365)
+- ["React Hooks: What's going to happen to my tests?" by Kent C. Dodds](https://blog.kentcdodds.com/react-hooks-whats-going-to-happen-to-my-tests-df4c2b4d67b7)
+- ["State Management with React Hooks - No Redux or Context API" by André Gardi](https://medium.com/javascript-in-plain-english/state-management-with-react-hooks-no-redux-or-context-api-8b3035ceecf8)
+- ["How to Fetch Data with React Hooks?" by Robin Wieruch](https://www.robinwieruch.de/react-hooks-fetch-data/)
+- [React Hooks 入門](https://testdriven.io/blog/react-hooks-primer/)
+- [React Hooks - 更深層的探討，展示 useContext 和 useReducer](https://testdriven.io/blog/react-hooks-advanced/)
+- ["Using Custom React Hooks to Simplify Forms" by James King](https://upmostly.com/tutorials/using-custom-react-hooks-simplify-forms)
+- [Testing of a Custom React Hook for Fetching Data with Axios](https://dev.to/doppelmutzi/testing-of-a-custom-react-hook-for-fetching-data-with-axios-4gf1)
+- [React Hooks 學習指南（示例與教程）by Eric Bishard](https://www.telerik.com/kendo-react-ui/react-hooks-guide/)
+- ["Sanely Testing React Hooks" by Dave Cooper](https://dev.to/grug/sanely-testing-react-hooks-2l1j)
+- [React by Example: Hooks](https://reactbyexample.github.io/hooks)
+
+## 影片
+
+- [🎬 ReactConf 2018: React Today and Tomorrow by Sophie Alpert and Dan Abramov](https://youtu.be/V-QO-KO90iQ) 官方宣布及首次演示。
+- [🎬 ReactConf 2018: 90% Cleaner React by Ryan Florence](https://youtu.be/wXLf18DsV-I)
+- [🎬 React Hooks: A Complete Introduction by Harry Wolff](https://youtu.be/jd8R0a2Ur8Q)
+- [🎬 React Hooks 播放清單 by Ben Awad](https://www.youtube.com/playlist?list=PLN3n1USn4xllL1OrVr-A4oq7SG-cS9MOQ)
+- [🎬 React Hooks 播放清單 by Josh Ribakoff](https://www.youtube.com/playlist?list=PLj2oFNVaxfJ-AcPo191jz09g-v9CLRfCg)
+- [🎬 React Hooks 播放清單 by Michael Chan](https://www.youtube.com/playlist?list=PLnc_NxpmOxaNf_mTUx1BgoP5POXwSAu-g)
+- [🎬 Custom Hooks in React by Tanner Linsley](https://www.youtube.com/watch?v=J-g9ZJha8FE)
+
+## 播客
+
+- [React Hooks - Syntax (Nov 14th, 2018)](https://syntax.fm/show/092/react-hooks)
+- [React Hooks 1 Year Later - Syntax (Mar 18, 2020)](https://syntax.fm/show/232/react-hooks-1-year-later)
+- [Why should I use React Hooks? - Syntax (Dec 7th, 2020)](https://syntax.fm/show/307/hasty-treat-why-should-i-use-react-hooks)
+
+## 工具
+
+- [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+- [`hooks.macro`](https://www.npmjs.com/package/hooks.macro) 用於自動記憶化失效的 Babel 巨集
+- [CodeSandbox 啟動套件](https://codesandbox.io/s/7y6o4282lq)
+- [VS Code 的 React Hooks 程式碼片段](https://marketplace.visualstudio.com/items?itemName=antmdvs.vscode-react-hooks-snippets)
+- [`hook-into-props`](https://github.com/juliettepretot/hook-into-props/tree/1e069a6c01c2a783100f2fea7709f56d8166a97e) 使用 hook 建立 HOC 的輔助工具。適用於在 class 元件中使用 hook。
+- [`react-universal-hooks`](https://github.com/salvoravida/react-universal-hooks) React Universal Hooks：只需在任何地方使用 hooks，無論是函數式或 class 元件
+- [Jooks](https://github.com/antoinejaussoin/jooks) 透過模擬 React 的 Hooks API（useState 等）來單元測試您的自訂 hook。
+- [`react-hooks-testing-library`](https://react-hooks-testing-library.com/) 用於為自訂 React hook 建立單元測試的程式庫。
+
+## 目錄
+
+- [@react-hookz/web](https://github.com/react-hookz/web) - 一個精心建構的通用 React hooks 程式庫，並考慮 SSR 相容性。
+- [ahooks](https://github.com/alibaba/hooks) 專門針對企業應用程式的 React Hooks 集合。
+- [beautiful-react-hooks(🔥)](https://beautifulinteractions.github.io/beautiful-react-hooks/) 加快元件和自訂 hook 開發的 hooks 集合。
+- [Captain hook](https://github.com/stevenpersia/captain-hook) 適度的 hook 清單。
+- [crooks](https://github.com/chrisjpatty/crooks) 獨特的 React Hooks 集合。
+- [hooks-by-example](https://github.com/latviancoder/hooks-by-example) 適合初學者的真實世界 hook 用法示例集合。
+- [Hooks.guide](https://hooks-guide.netlify.app/) 由社群策選的 React hooks 集合。
+- [react-recipes](https://github.com/craig1123/react-recipes) 👩‍🍳 基本 hook 配方的集合 🥘
+- [可搜尋的 React Hooks 集合](https://nikgraf.github.io/react-hooks/)
+- [Sunflower(🌻)](https://github.com/ant-design/sunflower) 傳回 antd 元件的 React Hooks 集合。
+- [useHooks(🐠)](https://usehooks.com/) 每天一個新的 React Hook 配方。
+- [Use Hooks](https://use-hooks.org/) 可重複使用的 React Hooks 集合。
+
+## 套件
+
+- [`@21kb/react-hooks`](https://github.com/21kb/react-hooks) 一組讓您著迷的 React Hooks。
+- [`@d2k/react-devto`](https://github.com/bdbch/react-devto) Dev.to API 要求的 React hook
+- [`@d2k/react-github`](https://github.com/bdbch/react-github) Github API 要求的 React hook
+- [`@d2k/react-localstorage`](https://github.com/bdbch/react-localstorage) React hook 用於處理本地儲存值的更新和清除，同時將它們與您的元件保持同步。
+- [`@elgorditosalsero/react-gtm-hook`](https://github.com/elgorditosalsero/react-gtm-hook) 輕鬆處理 Google Tag Manager 的 React hook。
+- [`@hookstate/core`](https://github.com/avkonst/hookstate) 適用於 React 的現代、非常快速且可擴展的狀態管理。
+- [`@jzone/react-request-hook`](https://github.com/zhixiaoqiang/react-request-hook) 🐶 自訂要求的 React hook，相容各種程式庫，支援 redux
+- [`@kevinwolf/formal`](https://github.com/kevinwolfcr/formal) React hooks 時代優雅的表單管理基元。
+- [`@koale/useworker`](https://github.com/alewin/useWorker) ⚙️ 使用 Web Workers 在背景執行繁重任務，不阻擋 UI
+- [`@marvelsq/use-properties-hook`](https://github.com/MarvelSQ/use-properties-hook) 在 FunctionComponent 中像 `class-properties` 一樣的執行個體函數，以及在 `ShallowCompare` 中相等
+- [`@rehooks/component-size`](https://github.com/rehooks/component-size) 用於確定元件大小的 React hook。
+- [`@rehooks/document-title`](https://github.com/rehooks/document-title) 用於更新文件標題的 React hook。
+- [`@rehooks/document-visibility`](https://github.com/rehooks/document-visibility) 用於訂閱文件可見性的 React hook。
+- [`@rehooks/input-value`](https://github.com/rehooks/input-value) 用於建立輸入值的 React hook。
+- [`@rehooks/local-storage`](https://github.com/rehooks/local-storage) React hook 可將 `localStorage[key]` 與元件同步。
+- [`@rehooks/network-status`](https://github.com/rehooks/network-status) 用於取得網路狀態的 React hook。
+- [`@rehooks/online-status`](https://github.com/rehooks/online-status) 線上狀態的 React Hook。
+- [`@rehooks/window-scroll-position`](https://github.com/rehooks/window-scroll-position) 用於取得視窗 `x` 和 `y` 位置的 React hook。
+- [`@rehooks/window-size`](https://github.com/rehooks/window-size) 用於訂閱視窗大小的 React hook。
+- [`@rekindle/use-request`](https://github.com/react-rekindle/use-request) 🤖 用於發出要求的 React hook。
+- [`@rkrupinski/use-state-machine`](https://github.com/rkrupinski/use-state-machine) 有限狀態機 hook。
+- [`@staltz/use-profunctor-state`](https://github.com/staltz/use-profunctor-state) 使用 Profunctor Optics 進行狀態管理的 React Hook
+- [`@webscopeio/react-health-check`](https://github.com/webscopeio/react-health-check) 🏥 用於檢查 API 服務健況的輕量級 React hook。
+- [`@wellyshen/use-web-animations`](https://github.com/wellyshen/use-web-animations) 🍿 使用 Web Animations API 進行高效能且可操作的動畫的 React hook。
+- [`@withvoid/melting-pot`](https://github.com/withvoid/melting-pot) React hook 實用程式程式庫。
+- [`ahooks/usetable`](https://github.com/ahooksjs/useTable) 查詢表格場景的漸進式解決方案。
+- [`concent`](https://github.com/concentjs/concent) 為 React 量身訂製的狀態管理，簡單、可預測、漸進式和高效。
+- [`constate`](https://github.com/diegohaz/constate) 使用 `useContextState` 和 `useContextReducer` 將本地狀態轉變為全域狀態。
+- [`conuse`](https://github.com/fodau/conuse) 透過 Context 共享 Hook
+- [`easy-peasy`](https://github.com/ctrlplusb/easy-peasy) React 的簡單全域狀態。
+- [`fetch-suspense`](https://github.com/CharlesStover/fetch-suspense) 支援 Suspense 的 Fetch API 的 React hook。
+- [`graphql-hooks`](https://github.com/nearform/graphql-hooks) 最小的 hooks 優先的 GraphQL 用戶端。
+- [`mobx-react-lite`](https://github.com/mobxjs/mobx-react-lite) 基於實驗 React hooks 的 MobX 輕量級 React 繫結。
+- [`modali`](https://github.com/upmostly/modali) 一個令人愉悅的 React 模態對話框元件，從一開始就設計用於支援 React Hooks。
+- [`moment-hooks`](https://github.com/momentechnologies/moment-hooks) 包含通用 react hooks 的程式庫
+- [`nice-hooks`](https://github.com/daniel-dx/nice-hooks) 🍹 許多好用的 hooks，讓 react hooks 更易於使用（useState 回呼 / 生命週期 / 執行個體變數）
+- [`promise-hook`](https://github.com/aiven715/promise-hook) 用於簡化基於 Promise 的資料擷取的 React hook。
+- [`reactive-react-redux`](https://github.com/dai-shi/reactive-react-redux) 具有 React Hooks 和 Proxy 的 React Redux 繫結
+- [`react-async-hook`](https://github.com/slorber/react-async-hook) 用於將臨時資料擷取到 React 元件中的 React hook。
+- [`react-cached-callback`](https://github.com/megazazik/react-cached-callback) 用於按鍵快取許多回呼的 React hooks，例如在迴圈中。
+- [`react-context-refs`](https://github.com/megazazik/react-context-refs) 用於透過 context 取得元素 ref 的 React hooks。
+- [`react-cookie`](https://github.com/reactivestack/cookies) 通用 cookies 的 React hooks。
+- [`react-cool-dimensions`](https://github.com/wellyshen/react-cool-dimensions) 📏 用於測量元素大小和處理回應式元件的 React hook。
+- [`react-cool-form`](https://github.com/wellyshen/react-cool-form) 📋 用於表單狀態和驗證的 React hooks，更少代碼更高性能。
+- [`react-cool-inview`](https://github.com/wellyshen/react-cool-onclickoutside) 🖥️ 用於監視元素進入或離開視窗（或另一個元素）的 React hook。
+- [`react-cool-onclickoutside`](https://github.com/wellyshen/react-cool-onclickoutside) 🖱 用於監聽元件外部點擊的 React hook。
+- [`react-cool-portal`](https://github.com/wellyshen/react-cool-portal) 🍒 用於 Portals 的 React hook，將模態、下拉式清單、工具提示等轉譯到 <body> 或其他地方。
+- [`react-cool-virtual`](https://github.com/wellyshen/react-cool-virtual) ♻️ 輕鬆呈現大型資料集的微型 React hook。
+- [`react-countdown-hook`](https://github.com/alexkhismatulin/react-use-count-down) 簡單但功能強大的 React 倒計時 hook。由 `requestAnimationFrame` 提供支援。
+- [`react-darkreader`](https://github.com/Turkyden/react-darkreader) 🌓 為您的網站新增深色/夜間模式的 React Hook，靈感來自 darkreader。
+- [`react-declare-form`](https://github.com/andy9775/react-declare-form) 基於 React hook 的聲明式表單程式庫。
+- [`react-deep-hooks`](https://github.com/codeshake/react-deep-hooks) 用於非基元依賴的 React hooks。
+- [`react-dom-status-hook`](https://github.com/yeskunall/react-dom-status-hook) 用於訂閱 `DOMContentLoaded` 事件的 React hook。
+- [`react-enhanced-reducer-hook`](https://github.com/shiningjason/react-enhanced-reducer-hook) 接受中間件的 `useReducer` 替代方案。
+- [`react-fetch-hook`](https://github.com/ilyalesik/react-fetch-hook) 用於方便地使用 Fetch API 的 React hook。
+- [`react-firebase-hooks`](https://github.com/csfrequency/react-firebase-hooks) 與 [Firebase](https://firebase.google.com) 搭配使用的 hooks 集合。
+- [`react-form-stateful`](https://github.com/ckedwards/react-form-stateful) 表單程式庫。公開 dispatch 以允許透過副作用擴展程式庫。
+- [`react-hanger`](https://github.com/kitze/react-hanger) 一小組實用 hooks。
+- [`react-hook-mighty-mouse`](https://github.com/mkosir/react-hook-mighty-mouse) 在選定元素上追蹤滑鼠事件的 React hook 🐭
+- [`react-hook-mousetrap`](https://www.npmjs.com/package/react-hook-mousetrap) 用於在按鍵或按鍵組合上觸發回呼的 hook，由 mousetrap 提供支援。
+- [`react-hookedup`](https://github.com/zakariaharti/react-hookedup) 有用的 React hooks 集合。
+- [`react-hook-form`](https://github.com/bluebill1049/react-hook-form) 無煩惱的表單驗證。
+- [`react-hook-layout`](https://github.com/ytiurin/react-hook-layout) React 中的版面配置管理。
+- [`react-hooks-async`](https://github.com/dai-shi/react-hooks-async) 具有中止性和可組成性的非同步函數的 React 自訂 hooks
+- [`react-hooks-global-state`](https://github.com/dai-shi/react-hooks-global-state) 簡單的全域狀態管理。
+- [`react-hooks-image-size`](https://github.com/use-hooks/react-hooks-image-size) 用於從 url 取得自然影像大小的 Hook。
+- [`react-hooks-lib`](https://github.com/beizhedenglong/react-hooks-lib) 一組可重複使用的 react hooks。
+- [`react-hooks-svgdrawing`](https://github.com/kmkzt/react-hooks-svgdrawing) 用於 svg 繪圖的 hooks。
+- [`react-hooks-use-modal`](https://github.com/shibe97/react-hooks-use-modal) 輕鬆開啟模態的 hook。
+- [`react-hooks-visible`](https://github.com/kmkzt/react-hooks-visible) 用於元素可見性的 hook。使用 Intersection Observer API。
+- [`react-hooks-worker`](https://github.com/dai-shi/react-hooks-worker) 用於 Web Workers 的 React 自訂 hooks
+- [`react-hotkey-hook`](https://github.com/JohannesKlauss/react-hotkeys-hook) 用於熱鍵的 React hook。
+- [`react-i18next`](https://react.i18next.com/latest/usetranslation-hook) React 的國際化，如應為之。
+- [`react-immer-hooks`](https://github.com/sin/react-immer-hooks) 使用 Immer 來更新狀態的 useState 和 useReducer。
+- [`react-indicative-hooks`](https://github.com/marceloadsj/react-indicative-hooks) 包裝名為 [Indicative](http://indicative.adonisjs.com) 的資料驗證程式庫的 Hooks
+- [`react-intersection-visible-hook`](https://github.com/AvraamMavridis/react-intersection-visible-hook) 用於追蹤函數式元件可見性的 React hook。
+- [`react-media-hook`](https://github.com/lessmess-agency/react-media-hook) 用於媒體查詢的 React hook。
+- [`react-metatags-hook`](https://github.com/lordgiotto/react-metatags-hook) 用於管理 html meta 標籤的 React Hook。
+- [`react-native-react-bridge`](https://github.com/inokawa/react-native-react-bridge) 用於執行 React 並處理它們之間通訊的 React Native 外掛。
+- [`react-optimistic-ui-hook`](https://github.com/mamal72/react-optimistic-ui-hook) ⚛️ 具有 React hook 的最小「樂觀 UI」模式實現
+- [`react-page-name`](https://github.com/RyanFitzgerald/react-page-name) 用於管理頁面標題的 React Hook。
+- [`react-peer-data`](https://github.com/vardius/react-peer-data) PeerData 程式庫的 React 包裝，用於使用 WebRTC 進行檔案、媒體串流/共享。
+- [`react-pirate`](https://github.com/dispix/react-pirate) React 生命週期和實用程式 hooks。
+- [`react-powerhooks`](https://github.com/kalcifer/react-powerhooks) 用於 react-powerplug 元件的 Hooks API。
+- [`react-promiseful`](https://github.com/moxystudio/react-promiseful) 用於根據 promise 狀態有條件地轉譯子項的 React 元件和 hook。
+- [`react-query`](https://github.com/tannerlinsley/react-query) 用於在 React 中擷取、快取和更新非同步資料的 Hooks。
+- [`react-recaptcha-hook`](https://github.com/hupe1980/react-recaptcha-hook) 用於 google-recaptcha v3 的 React hook
+- [`react-recipes`](https://github.com/craig1123/react-recipes) 👩‍🍳 基本 hook 配方的集合 🥘
+- [`react-request-hook`](https://github.com/schettino/react-request-hook) 託管、可取消和安全導向的 API 要求。
+- [`react-responsive`](https://github.com/contra/react-responsive) React 媒體查詢模組。
+- [`react-rocketjump`](https://github.com/inmagik/react-rocketjump) 輕鬆管理狀態和副作用。
+- [`react-screen-wake-lock`](https://github.com/jorisre/react-screen-wake-lock) Screen Wake Lock API 的 React 實現。它提供了一種方式來防止設備在應用程式需要繼續執行時調暗或鎖定螢幕
+- [`react-script-hook`](https://github.com/hupe1980/react-script-hook) 用於動態載入外部指令碼並知道其何時載入的 React hook
+- [`react-selector-hooks`](https://github.com/Andarist/react-selector-hooks) 基於 hooks 的記憶選擇器工廠集合，用於在轉譯外部進行聲明。
+- [`react-speech-kit`](https://github.com/MikeyParton/react-speech-kit) 用於瀏覽器語音辨識和語音合成的 Hooks。
+- [`react-state-patterns`](https://github.com/mcclayton/react-state-patterns) 用於從 hooks 建立可重複使用的 React 狀態提供者模式實現的實用程式套件。
+- [`react-swipeable`](https://github.com/dogfessional/react-swipeable) React 滑動事件處理 hook。
+- [`react-tracked`](https://github.com/dai-shi/react-tracked) 使用 React Context 的簡單快速全域狀態。輕鬆消除不必要的重新轉譯。
+- [`react-uniformed`](https://github.com/j-a-y-h/react-uniformed) 🚀 使用 hooks 的聲明式 React 表單。
+- [`react-use-api`](https://github.com/RyanRoll/react-use-api) 用於 axios 的非同步 HTTP 要求資料。設計適用於各種 UI 狀態、SSR 和資料預快取。
+- [`react-use-browser`](https://github.com/crossroads-loyalty-solutions/react-use-browser) 一個 hook，用於在伺服器產生的標記需要與最終用戶端應用程式標記不同時進行伺服器端轉譯元件的用戶端水合。
+- [`react-use-calendar`](https://github.com/gregnb/react-use-calendar) 用於使用事件實現日曆的 hook。
+- [`react-use-clipboard`](https://github.com/danoc/react-use-clipboard) 將文字複製到使用者剪貼簿的 hook。
+- [`react-use-d3`](https://github.com/inokawa/react-use-d3) 用於使用 D3 的 React hook。
+- [`react-use-data-loader`](https://github.com/smmoosavi/react-use-data-loader) 用於載入資料的 React hook
+- [`react-use-fetch-factory`](https://github.com/JohannesKlauss/react-use-fetch-factory) 使用 redux 處理擷取和選擇資料的 React hook。
+- [`react-use-fetch-with-redux`](https://github.com/grug/react-use-fetch-with-redux/) 快取 API 要求且與 redux 搭配運作的 React hook。
+- [`react-use-form-state`](https://github.com/wsmd/react-use-form-state) 用於管理表單和輸入狀態的 React hook。
+- [`react-use-id-hook`](https://github.com/Yaska/react-use-id-hook) 用於產生 SSR 安全的唯一 ID 字串的 React hook。
+- [`react-use-idb`](https://github.com/kigiri/react-use-idb) 用於使用 `indexDB` 在瀏覽器中儲存值的 React hook。
+- [`react-use-infinite-loader`](https://github.com/CurationCorp/react-use-infinite-loader) :infinity: :page_with_curl: :hourglass_flowing_sand: 適用於 React 應用程式的超輕量級無限載入（滾動）hook
+- [`react-use-input`](https://github.com/robcalcroft/react-use-input) 🎣 一個 hook，其 setter 可直接傳遞到 HTML 輸入
+- [`react-use-lazy-load-image`](https://github.com/robcalcroft/react-use-lazy-load-image) :sunrise: :zap: 輕鬆將影像延遲載入新增到 React 應用程式
+- [`react-use-message-bar`](https://github.com/intercaetera/react-use-message-bar) 用於訊息欄的簡單 React hook。
+- [`react-use-modal`](https://github.com/wowlusitong/react-use-modal) 用於管理模態的 React hook。
+- [`react-use-path`](https://github.com/zhangkaiyulw/react-use-path) 最小的 hook 風格 react 路由器。
+- [`react-use-scroll-position`](https://github.com/neo/react-use-scroll-position) 用於使用滾動位置的 React hook。
+- [`react-use-trigger`](https://github.com/ilyalesik/react-use-trigger) 用於從代碼任何地方觸發效果的 React hook
+- [`react-use-watch`](https://github.com/iam-frankqiu/react-use-watch) 當依賴項變更時觸發一次的 React hook。
+- [`react-use-wavelet`](https://github.com/perlin-network/react-use-wavelet) 用於連接到 Wavelet 智慧合約平台的 React hooks
+- [`react-use`](https://github.com/streamich/react-use) 基本 hooks 的集合。
+- [`react-useFormless`](https://github.com/GeDiez/react-use-formless) 用於處理表單狀態的 React hook。
+- [`react-usemiddleware`](https://github.com/venil7/react-usemiddleware) 用於透過 `useReducer` 使用現有 Redux 中間件（例如 thunk 或 saga）的 React hook。
+- [`react-useportal`](https://github.com/alex-cory/react-useportal) 🌀 usePortal，用於 Portals 的 React hook
+- [`react-user-media`](https://github.com/vardius/react-user-media) `navigator.getUserMedia` 的 React 包裝。
+- [`react-wait`](https://github.com/f/react-wait) 適用於 React 應用程式的複雜載入器管理 Hook。
+- [`react-window-communication-hook`](https://github.com/AvraamMavridis/react-window-communication-hook) 用於在瀏覽器內容（標籤、視窗、iframe）之間通訊的 React hook。
+- [`react-with-hooks`](https://github.com/yesmeck/react-with-hooks) 提議的 React Hooks API 的 Ponyfill。
+- [`reaktion`](https://github.com/mfrachet/reaktion) 用於全域狀態管理的類似 useState 的 hook。
+- [`redhooks`](https://github.com/iusehooks/redhooks) 使用 React Hooks 進行全域狀態管理。它也支援使用 redux-thunk 或 redux-saga 之類的中間件或您自己的自訂中間件。
+- [`redux-react-hook`](https://github.com/ianobermiller/redux-react-hook) 用於從 Redux 存放區存取對應狀態的 React hook。
+- [`region-core`](https://github.com/regionjs/region-core) 具有 `useProps` hook 的全域狀態管理架構。
+- [`rehooks-visibility-sensor`](https://github.com/imbhargav5/rehooks-visibility-sensor) 檢查元素是否已滾動到檢視中。
+- [`resynced`](https://github.com/pedronasser/resynced) 使用 React Hooks API 的多重狀態管理。
+- [`reto`](https://awmleer.github.io/reto) 具有 hooks 的靈活高效的 React 存放區。
+- [`rrh`](https://github.com/brn/rrh) 適用於 react-redux 的超簡單 React Hooks。
+- [`rxjs-hooks`](https://github.com/LeetCode-OpenSource/rxjs-hooks) 簡單的方式在 react hooks 中使用 RxJS v6+。
+- [`scroll-data-hook`](https://github.com/dejorrit/scroll-data-hook) 傳回有關滾動速度、距離、方向等的資訊。
+- [`style-hook`](https://github.com/style-hook/style-hook) 🎨 使用 react hooks 在 js 中編寫 css。
+- [`swr`](https://github.com/zeit/swr) 用於遠端資料擷取的 React Hooks 程式庫。
+- [`the-platform`](https://github.com/palmerhq/the-platform) 瀏覽器 API 轉變為 React Hooks 和 Suspense 友善的 React 元素，適用於常見情況。
+- [`trousers`](https://github.com/danieldelcore/trousers) 👖 一個 hooks 優先的 CSS-in-JS 程式庫，專注於語義和執行時效能
+- [`use-abortable-fetch`](https://github.com/mauricedb/use-abortable-fetch) 執行 fetch 並在元件卸載或提出不同要求時中止的 React hook。
+- [`use-action`](https://github.com/awmleer/use-action) 幾乎與 useEffect 相同，但不延遲。
+- [`use-as-bind`](https://github.com/tylervipond/use-as-bind) 用於在 WASM 來源中使用 as-bind 的 React hook。
+- [`use-async-memo`](https://github.com/awmleer/use-async-memo) 用於產生非同步記憶資料的 React hook。
+- [`use-autocomplete`](https://github.com/lowewenzel/use-autocomplete) 用於為陣列內的搜尋字串傳回自動完成值的 React hook。
+- [`use-axios-react`](https://github.com/sergey-s/use-axios-react) 用於 axios 的 React CRUD hooks，包括全面的範例清單
+- [`use-boolean`](https://github.com/mykolaharmash/use-boolean) 處理布林狀態的便利幫助程式。
+- [`use-browser-history`](https://github.com/zcallan/use-browser-history) 用於處理瀏覽器歷程記錄事件的 React hook。
+- [`use-cart`](https://github.com/samjbmason/use-cart) 為您提供購物車功能的 React hook。
+- [`use-click-away`](https://github.com/geobde/use-click-away) 當 DOM 元素未被點擊時要呼叫回呼的 React hook。
+- [`use-clippy`](https://github.com/CharlesStover/use-clippy) 用於讀寫使用者剪貼簿的 React hook。
+- [`use-context-selector`](https://github.com/dai-shi/use-context-selector) 使用者層級的 React useContextSelector hook。
+- [`use-controlled-input-number`](https://github.com/d-asensio/use-controlled-input-number) 用於將數值輸入行為變成幾乎符合預期的 React hook。
+- [`use-countries`](https://github.com/oktaysenkan/use-countries) 列出國家和語言的自訂 React hook。
+- [`use-debounce`](https://github.com/xnimorz/use-debounce) React 的防抖（和節流）hook。
+- [`use-deep-compare`](https://github.com/sandiiarov/use-deep-compare) 它是 React 的 useEffect/useMemo/useCallback hooks，除了對輸入進行深層比較。
+- [`use-deep-compare-effect`](https://github.com/kentcdodds/use-deep-compare-effect) 🐋 這是 React 的 useEffect hook，但對輸入進行深層比較，而不是引用相等性。
+- [`use-detect-print`](https://github.com/gregnb/use-detect-print) 用於偵測頁面何時被列印的 React hook。
+- [`use-dimensions`](https://github.com/CharlesStover/use-dimensions) 用於取得螢幕和視窗尺寸的 React Native hook。
+- [`use-double-click`](https://github.com/zattoo/use-double-click) 用於連續雙擊和結合點擊與雙擊事件的 React hook
+- [`use-eazy-auth`](https://github.com/gffuma/use-eazy-auth) 用於處理驗證的 React hooks。
+- [`use-events`](https://github.com/sandiiarov/use-events) 用於處理滑鼠事件的一組 React Hooks。
+- [`use-force-update`](https://github.com/CharlesStover/use-force-update) 用於強制函數式元件重新轉譯的 React hook。
+- [`use-hotkeys`](https://github.com/sandiiarov/use-hotkeys) HotKeys.js React Hook，監聽 keydown 和 keyup 鍵盤事件，定義和分配鍵盤快速鍵。
+- [`use-hovering`](https://github.com/therealparmesh/use-hovering) 用於追蹤懸停狀態的簡單、無障礙 React hook。
+- [`use-http`](https://github.com/alex-cory/use-http) 🐶 useFetch，用於發出同構 http 要求的 React hook。
+- [`use-immer`](https://github.com/mweststrate/use-immer) 用於使用 [immer](https://github.com/mweststrate/immer) 操作狀態的 hook。
+- [`use-input-file`](https://github.com/neighborhood999/use-input-file) 用於建立輸入檔案的 React hook。
+- [`use-is-mounted-ref`](https://github.com/helderburato/use-is-mounted-ref) `useIsMountedRef` 是用於檢查元件何時掛載的 React Hook。
+- [`use-lang-direction`](https://github.com/davidicus/use-lang-direction) 一個 hook，讀取 HTML 元素的 `dir` 屬性值及其任何更新，允許您相應地更新 UI。
+- [`use-last-fm`](https://github.com/webmail/use-last-fm) 一個 hook，以即時顯示來自 **Spotify** 或 [last.fm](https://last.fm) 支援的任何其他網站的目前播放歌曲。♪
+- [`use-lilius`](https://github.com/its-danny/use-lilius) 適用於 React 的無頭日曆 hook。
+- [`use-media`](https://github.com/streamich/use-media) 使用 React hook 的 CSS 媒體查詢。
+- [`use-mouse-action`](https://github.com/dimitrinicolas/use-mouse-action) 用於監聽滑鼠按下/放開和點擊事件並使用一次呼叫函數的 React Hooks。
+- [`use-multiselect`](https://github.com/jschloer/use-multiselect) 管理多重選擇狀態。
+- [`use-overflow`](https://github.com/amorriscode/use-overflow) 允許您偵測 X 和 Y 溢出的 React Hook
+- [`use-places-autocomplete`](https://github.com/wellyshen/use-places-autocomplete) 📍 用於 Google Maps Places 自動完成的 React hook。
+- [`use-popper`](https://github.com/sandiiarov/use-popper) 圍繞 Popper.js 的 React hook 包裝。
+- [`use-query-params`](https://github.com/pbeshai/use-query-params) 用於在 URL 查詢參數中管理狀態且易於序列化的 React Hook。
+- [`use-react-modal`](https://github.com/alex-cory/use-react-modal) 🖼 useModal，用於模態/對話框/燈箱的 React hook
+- [`use-react-router`](https://github.com/CharlesStover/use-react-router) 用於 React Router 的發佈-訂閱行為的 React Hook。
+- [`use-reactive-state`](https://github.com/tedstoychev/use-reactive-state) `useReactiveState()` - React 的 `useState()` 的回應替代方案。
+- [`use-reducer-async`](https://github.com/dai-shi/use-reducer-async) 具有非同步動作的 React useReducer
+- [`use-redux`](https://github.com/flepretre/use-redux) 用於繫結 [redux](https://redux.js.org) 的 hook。
+- [`use-scroller`](https://github.com/geobde/use-scroller) 自動新增下一頁的 React hook，為使用者節省完整頁面載入。
+- [`use-scroll-to-bottom`](https://github.com/tudorgergely/use-scroll-to-bottom) 用於偵測元素何時被滾動到底部的 React hook。
+- [`use-simple-undo`](https://github.com/sandiiarov/use-simple-undo) 簡單的復原/重做功能實現。
+- [`server-push-hooks`](https://github.com/mfrachet/server-push-hooks) 🔥 用於 [socket.io](https://socket.io)、[SEE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events) 及更多的 React hooks
+- [`use-socket.io-client`](https://github.com/iamgyz/use-socket.io-client) 用於 socket.io-client 的 React hook，無副作用地操作 [socket.io](https://socket.io) 用戶端。
+- [`use-sse`](https://github.com/kmoskwiak/useSSE) ✨useSSE - 使用伺服器端效果。用戶端和伺服器端上的 `useEffect`。
+- [`use-ssr`](https://github.com/alex-cory/use-ssr) ☯️ 用於確定您是否在伺服器、瀏覽器或 react native 上的 React hook。
+- [`use-state-snapshots`](https://github.com/haydn/use-state-snapshots) 用於追蹤狀態變更以取得復原/重做功能的 React hook。
+- [`use-substate`](https://github.com/philipp-spiess/use-substate) 用於訂閱單一應用程式狀態的 React hook（與您目前的 [Redux](https://redux.js.org/) 應用程式搭配運作）。
+- [`use-suspender`](https://github.com/octet-stream/use-suspender) 使用 [`React.Suspense`](https://reactjs.org/docs/react-api.html#reactsuspense) 執行非同步動作
+- [`use-t`](https://github.com/streamich/use-t) 使用 hooks 的多語言。
+- [`use-undo`](https://github.com/xxhomey19/use-undo) 用於實現復原和重做功能的 React hook。
+- [`use-videocard`](https://github.com/BRA1L0R/use-videocard) 用於使用 canvas 擷取用戶端圖形卡資訊的 React hook
+- [`use-window-blur-change-title`](https://github.com/cyntler/use-window-blur-change-title) 當使用者將焦點移離目前視窗時設定頁面標題的 React Hook。
+- [`useDarkMode`](https://github.com/donavon/use-dark-mode) 自訂 React Hook，可協助您實現「深色模式」元件。
+- [`useDeferredState`](https://github.com/phytonmk/useDeferredState) 用於延遲狀態變更的 React hook。當 UI 需要等待消失動畫完成以卸載元件時，這至關重要。
+- [`useDropZone`](https://github.com/sbaidon/useDropZone) 允許您設定簡單拖放功能的 React hook。
+- [`useEmailAutocomplete`](https://github.com/alex-cory/use-email-autocomplete) 📬 用於電子郵件自動完成輸入的 React hook。
+- [`useFileDialog`](https://github.com/omidnikrah/use-file-dialog) 使用 useFileDialog React hook 無需與檔案輸入進行鬥爭即可開啟檔案對話框
+- [`useInView`](https://github.com/thebuilder/react-intersection-observer) Intersection Observer API 的 React 實現，告訴您何時元素進入或離開視窗。
+- [`useIsTyping`](https://github.com/KATT/use-is-typing) 用於查看使用者是否在 textarea 或輸入中鍵入的 Hook
+- [`useKeyCapture`](https://github.com/pranesh239/use-key-capture) ⌨️ 簡單的 hook 可使 keyDown 事件監聽變得更容易。
+- [`usePosition`](https://github.com/tranbathanhtung/usePosition) 用於取得元素頂部左邊位置的 React hook。
+- [`useReducerWithEffects`](https://github.com/frankiesardo/use-reducer-with-effects) 將 reducer 和副作用併置的 React Hook
+- [`useReducerWithLocalStorage`](https://github.com/Tweries/useReducerWithLocalStorage) 為 `useReducer` hook 新增本地儲存支援的 React hook
+- [`useScreenType`](https://github.com/pankod/react-hooks-screen-type) 決定 Bootstrap 4 網格的螢幕大小類型。
+- [`useScreenType`](https://github.com/wednesday-solutions/react-screentype-hook) 用於動態取得目前螢幕類型（行動裝置、平板電腦、桌面）且具有可設定的中斷點支援的 React hook。
+- [`useScrollSpy`](https://github.com/Purii/react-use-scrollspy) 根據滾動位置自動更新導覽的 React hook。
+- [`useServiceWorker`](https://github.com/JCofman/react-hook-use-service-worker) 可以註冊服務工作者的 React hook
+- [`useValueAfter`](https://github.com/bboydflo/use-value-after) 非常簡單的 React hook，可輕鬆為元件提供不同的 props（適用於測試邊界情況）
+- [`useWaitForElements`](https://github.com/renansoares/useWaitForElements) 使用 MutationObserver 等待元素呈現的簡單 hook。
+- [`useWindowOrientation`](https://github.com/tywmick/use-window-orientation) 根據目前視窗尺寸傳回視窗方向（縱向與橫向）的 hook
+- [`useWindowWidthBreakpoints`](https://github.com/tywmick/use-window-width-breakpoints) 用於使用（Bootstrap 啟發）視窗寬度中斷點的 hook

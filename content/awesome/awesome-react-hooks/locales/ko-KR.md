@@ -1,0 +1,290 @@
+# awesome-react-hooks [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> 훌륭한 React Hooks 자료모음
+
+## 문서
+
+- [React Hooks 문서](https://reactjs.org/docs/hooks-intro.html)
+
+## 토론
+
+- [React Hooks RFC](https://github.com/reactjs/rfcs/pull/68)
+
+## 튜토리얼
+
+- ["Making Sense of React Hooks" by Dan Abramov](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889)
+- ["From React.Component to hooks" by Octave Raimbault](https://medium.com/@dispix/from-react-component-to-hooks-b50241334365)
+- ["React Hooks: What's going to happen to my tests?" by Kent C. Dodds](https://blog.kentcdodds.com/react-hooks-whats-going-to-happen-to-my-tests-df4c2b4d67b7)
+- ["State Management with React Hooks - No Redux or Context API" by André Gardi](https://medium.com/javascript-in-plain-english/state-management-with-react-hooks-no-redux-or-context-api-8b3035ceecf8)
+- ["How to Fetch Data with React Hooks?" by Robin Wieruch](https://www.robinwieruch.de/react-hooks-fetch-data/)
+- [React Hooks 입문서](https://testdriven.io/blog/react-hooks-primer/)
+- [React Hooks - useContext와 useReducer를 활용한 심화 내용](https://testdriven.io/blog/react-hooks-advanced/)
+- ["Using Custom React Hooks to Simplify Forms" by James King](https://upmostly.com/tutorials/using-custom-react-hooks-simplify-forms)
+- [Axios를 활용한 데이터 가져오기 Custom React Hook 테스트](https://dev.to/doppelmutzi/testing-of-a-custom-react-hook-for-fetching-data-with-axios-4gf1)
+- [React Hooks 학습 가이드 (예제 & 튜토리얼) by Eric Bishard](https://www.telerik.com/kendo-react-ui/react-hooks-guide/)
+- ["Sanely Testing React Hooks" by Dave Cooper](https://dev.to/grug/sanely-testing-react-hooks-2l1j)
+- [React by Example: Hooks](https://reactbyexample.github.io/hooks)
+
+## 영상
+
+- [🎬 ReactConf 2018: React Today and Tomorrow by Sophie Alpert and Dan Abramov](https://youtu.be/V-QO-KO90iQ) 공식 발표 및 첫 데모.
+- [🎬 ReactConf 2018: 90% Cleaner React by Ryan Florence](https://youtu.be/wXLf18DsV-I)
+- [🎬 React Hooks: A Complete Introduction by Harry Wolff](https://youtu.be/jd8R0a2Ur8Q)
+- [🎬 React Hooks 재생목록 by Ben Awad](https://www.youtube.com/playlist?list=PLN3n1USn4xllL1OrVr-A4oq7SG-cS9MOQ)
+- [🎬 React Hooks 재생목록 by Josh Ribakoff](https://www.youtube.com/playlist?list=PLj2oFNVaxfJ-AcPo191jz09g-v9CLRfCg)
+- [🎬 React Hooks 재생목록 by Michael Chan](https://www.youtube.com/playlist?list=PLnc_NxpmOxaNf_mTUx1BgoP5POXwSAu-g)
+- [🎬 Custom Hooks in React by Tanner Linsley](https://www.youtube.com/watch?v=J-g9ZJha8FE)
+
+## 팟캐스트
+
+- [React Hooks - Syntax (Nov 14th, 2018)](https://syntax.fm/show/092/react-hooks)
+- [React Hooks 1 Year Later - Syntax (Mar 18, 2020)](https://syntax.fm/show/232/react-hooks-1-year-later)
+- [Why should I use React Hooks? - Syntax (Dec 7th, 2020)](https://syntax.fm/show/307/hasty-treat-why-should-i-use-react-hooks)
+
+## 도구
+
+- [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+- [`hooks.macro`](https://www.npmjs.com/package/hooks.macro) 메모이제이션 무효화 자동화를 위한 Babel 매크로
+- [CodeSandbox 스타터 킷](https://codesandbox.io/s/7y6o4282lq)
+- [VS Code용 React Hooks 코드 조각](https://marketplace.visualstudio.com/items?itemName=antmdvs.vscode-react-hooks-snippets)
+- [`hook-into-props`](https://github.com/juliettepretot/hook-into-props/tree/1e069a6c01c2a783100f2fea7709f56d8166a97e) Hooks를 사용하여 HOC를 빌드하는 데 도움이 됩니다. 클래스 컴포넌트에서 Hooks를 사용하는 데 유용합니다.
+- [`react-universal-hooks`](https://github.com/salvoravida/react-universal-hooks) React Universal Hooks: 함수형 또는 클래스 컴포넌트 어디서나 사용하기
+- [Jooks](https://github.com/antoinejaussoin/jooks) React의 Hooks API (useState 등)를 모의하여 사용자 정의 Hooks를 단위 테스트합니다.
+- [`react-hooks-testing-library`](https://react-hooks-testing-library.com/) 사용자 정의 React Hooks에 대한 단위 테스트를 작성하는 라이브러리입니다.
+
+## 카탈로그
+
+- [@react-hookz/web](https://github.com/react-hookz/web) - SSR 호환성을 고려하여 신중하게 구축한 범용 React Hooks 라이브러리입니다.
+- [ahooks](https://github.com/alibaba/hooks) 엔터프라이즈 애플리케이션을 목표로 하는 React Hooks 모음입니다.
+- [beautiful-react-hooks(🔥)](https://beautifulinteractions.github.io/beautiful-react-hooks/) 컴포넌트 및 사용자 정의 Hooks 개발 속도를 높이는 Hooks 모음입니다.
+- [Captain hook](https://github.com/stevenpersia/captain-hook) 소박한 Hooks 목록입니다.
+- [crooks](https://github.com/chrisjpatty/crooks) 고유한 React Hooks 모음입니다.
+- [hooks-by-example](https://github.com/latviancoder/hooks-by-example) 초보자 친화적인 Hooks 실제 사용 예제 모음입니다.
+- [Hooks.guide](https://hooks-guide.netlify.app/) 커뮤니티에서 선별한 React Hooks 모음입니다.
+- [react-recipes](https://github.com/craig1123/react-recipes) 👩‍🍳 필수 Hooks 레시피 모음 🥘
+- [React Hooks 검색 가능 모음](https://nikgraf.github.io/react-hooks/)
+- [Sunflower(🌻)](https://github.com/ant-design/sunflower) antd 컴포넌트를 반환하는 React Hooks 모음입니다.
+- [useHooks(🐠)](https://usehooks.com/) 매일 새로운 React Hook 레시피.
+- [Use Hooks](https://use-hooks.org/) 재사용 가능한 React Hooks 모음입니다.
+
+## 패키지
+
+- [`@21kb/react-hooks`](https://github.com/21kb/react-hooks) 빠져나올 수 없는 React Hooks 세트입니다.
+- [`@d2k/react-devto`](https://github.com/bdbch/react-devto) Dev.to API 요청을 위한 React Hook
+- [`@d2k/react-github`](https://github.com/bdbch/react-github) Github API 요청을 위한 React Hook
+- [`@d2k/react-localstorage`](https://github.com/bdbch/react-localstorage) localstorage 값을 업데이트하고 초기화하며 컴포넌트와 동기화된 상태로 유지하는 React Hook입니다.
+- [`@elgorditosalsero/react-gtm-hook`](https://github.com/elgorditosalsero/react-gtm-hook) Google Tag Manager를 쉽게 처리하기 위한 React Hook입니다.
+- [`@hookstate/core`](https://github.com/avkonst/hookstate) React를 위한 현대적이고 매우 빠르고 확장 가능한 상태 관리입니다.
+- [`@jzone/react-request-hook`](https://github.com/zhixiaoqiang/react-request-hook) 🐶 커스텀 요청을 위한 React Hook, 다양한 라이브러리와 호환, Redux 지원
+- [`@kevinwolf/formal`](https://github.com/kevinwolfcr/formal) React Hooks 시대를 위한 우아한 폼 관리 원시 타입입니다.
+- [`@koale/useworker`](https://github.com/alewin/useWorker) ⚙️ UI를 차단하지 않고 웹 워커를 사용하여 백그라운드에서 무거운 작업 실행하기
+- [`@marvelsq/use-properties-hook`](https://github.com/MarvelSQ/use-properties-hook) FunctionComponent 내부의 인스턴스 함수(`class-properties`처럼 그리고 `ShallowCompare`와 동일)
+- [`@rehooks/component-size`](https://github.com/rehooks/component-size) 컴포넌트의 크기를 결정하는 React Hook입니다.
+- [`@rehooks/document-title`](https://github.com/rehooks/document-title) 문서 제목을 업데이트하는 React Hook입니다.
+- [`@rehooks/document-visibility`](https://github.com/rehooks/document-visibility) 문서 가시성을 구독하는 React Hook입니다.
+- [`@rehooks/input-value`](https://github.com/rehooks/input-value) 입력 값을 만드는 React Hook입니다.
+- [`@rehooks/local-storage`](https://github.com/rehooks/local-storage) `localStorage[key]`를 컴포넌트와 동기화하는 React Hook입니다.
+- [`@rehooks/network-status`](https://github.com/rehooks/network-status) 네트워크 상태를 가져오는 React Hook입니다.
+- [`@rehooks/online-status`](https://github.com/rehooks/online-status) 온라인 상태를 위한 React Hook입니다.
+- [`@rehooks/window-scroll-position`](https://github.com/rehooks/window-scroll-position) 윈도우 `x`와 `y` 위치를 가져오는 React Hook입니다.
+- [`@rehooks/window-size`](https://github.com/rehooks/window-size) 윈도우 크기를 구독하는 React Hook입니다.
+- [`@rekindle/use-request`](https://github.com/react-rekindle/use-request) 🤖 요청을 하기 위한 React Hook입니다.
+- [`@rkrupinski/use-state-machine`](https://github.com/rkrupinski/use-state-machine) 유한 상태 머신 Hook입니다.
+- [`@staltz/use-profunctor-state`](https://github.com/staltz/use-profunctor-state) Profunctor Optics를 사용한 상태 관리를 위한 React Hook
+- [`@webscopeio/react-health-check`](https://github.com/webscopeio/react-health-check) 🏥 API 서비스의 상태를 확인하기 위한 가벼운 React Hook입니다.
+- [`@wellyshen/use-web-animations`](https://github.com/wellyshen/use-web-animations) 🍿 Web Animations API를 사용한 고성능이고 조작 가능한 애니메이션을 위한 React Hook입니다.
+- [`@withvoid/melting-pot`](https://github.com/withvoid/melting-pot) React Hook 유틸리티 라이브러리입니다.
+- [`ahooks/usetable`](https://github.com/ahooksjs/useTable) 쿼리 테이블 시나리오를 위한 점진적 솔루션입니다.
+- [`concent`](https://github.com/concentjs/concent) React를 위해 맞춤화된 상태 관리, 간단하고 예측 가능하며 점진적이고 효율적입니다.
+- [`constate`](https://github.com/diegohaz/constate) `useContextState`와 `useContextReducer`를 사용하여 로컬 상태를 글로벌 상태로 변환합니다.
+- [`conuse`](https://github.com/fodau/conuse) Context를 통해 Hook을 공유하기
+- [`easy-peasy`](https://github.com/ctrlplusb/easy-peasy) React를 위한 쉽고 간단한 글로벌 상태입니다.
+- [`fetch-suspense`](https://github.com/CharlesStover/fetch-suspense) Suspense 지원이 있는 Fetch API를 위한 React Hook입니다.
+- [`graphql-hooks`](https://github.com/nearform/graphql-hooks) Hook 우선 미니멀 GraphQL 클라이언트입니다.
+- [`mobx-react-lite`](https://github.com/mobxjs/mobx-react-lite) 실험적 React Hooks를 기반으로 하는 MobX를 위한 가벼운 React 바인딩입니다.
+- [`modali`](https://github.com/upmostly/modali) React를 위한 즐거운 모달 대화 컴포넌트로, React Hooks를 지원하도록 처음부터 만들어졌습니다.
+- [`moment-hooks`](https://github.com/momentechnologies/moment-hooks) 일반 React Hooks를 포함하는 라이브러리입니다.
+- [`nice-hooks`](https://github.com/daniel-dx/nice-hooks) 🍹 React Hooks를 더 쉽게 사용하기 위한 많은 좋은 Hooks입니다 (useState 콜백 / 라이프사이클 / 인스턴스 변수)
+- [`promise-hook`](https://github.com/aiven715/promise-hook) Promise 기반 데이터 가져오기를 간단히 하는 React Hook입니다.
+- [`reactive-react-redux`](https://github.com/dai-shi/reactive-react-redux) React Hooks와 Proxy를 통한 React Redux 바인딩
+- [`react-async-hook`](https://github.com/slorber/react-async-hook) React 컴포넌트에 ad-hoc 데이터를 가져오는 React Hook입니다.
+- [`react-cached-callback`](https://github.com/megazazik/react-cached-callback) 루프에서와 같이 키별로 여러 콜백을 캐시하는 React Hook입니다.
+- [`react-context-refs`](https://github.com/megazazik/react-context-refs) Context를 통해 요소의 ref를 얻는 React Hook입니다.
+- [`react-cookie`](https://github.com/reactivestack/cookies) 범용 쿠키를 위한 React Hook입니다.
+- [`react-cool-dimensions`](https://github.com/wellyshen/react-cool-dimensions) 📏 요소의 크기를 측정하고 반응형 컴포넌트를 처리하는 React Hook입니다.
+- [`react-cool-form`](https://github.com/wellyshen/react-cool-form) 📋 폼 상태 및 유효성 검사를 위한 React Hook, 적은 코드 더 많은 성능입니다.
+- [`react-cool-inview`](https://github.com/wellyshen/react-cool-onclickoutside) 🖥️ 요소가 뷰포트에 들어가거나 나가는 것을 모니터링하는 React Hook (또는 다른 요소)입니다.
+- [`react-cool-onclickoutside`](https://github.com/wellyshen/react-cool-onclickoutside) 🖱 컴포넌트 외부의 클릭을 수신하는 React Hook입니다.
+- [`react-cool-portal`](https://github.com/wellyshen/react-cool-portal) 🍒 모달, 드롭다운, 도구 설명 등을 <body>나 다른 곳에 렌더링하는 Portals를 위한 React Hook입니다.
+- [`react-cool-virtual`](https://github.com/wellyshen/react-cool-virtual) ♻️ 큰 데이터 세트를 쉽게 렌더링하기 위한 작은 React Hook입니다.
+- [`react-countdown-hook`](https://github.com/alexkhismatulin/react-use-count-down) React를 위한 간단하지만 강력한 카운트다운 Hook입니다. `requestAnimationFrame`으로 구동됩니다.
+- [`react-darkreader`](https://github.com/Turkyden/react-darkreader) 🌓 darkreader에서 영감받은 사이트에 다크/야간 모드를 추가하기 위한 React Hook입니다.
+- [`react-declare-form`](https://github.com/andy9775/react-declare-form) React Hook 기반 선언형 폼 라이브러리입니다.
+- [`react-deep-hooks`](https://github.com/codeshake/react-deep-hooks) 비원시 의존성을 위한 React Hook입니다.
+- [`react-dom-status-hook`](https://github.com/yeskunall/react-dom-status-hook) `DOMContentLoaded` 이벤트를 구독하는 React Hook입니다.
+- [`react-enhanced-reducer-hook`](https://github.com/shiningjason/react-enhanced-reducer-hook) 미들웨어를 허용하는 `useReducer`의 대안입니다.
+- [`react-fetch-hook`](https://github.com/ilyalesik/react-fetch-hook) Fetch API를 편리하게 사용하는 React Hook입니다.
+- [`react-firebase-hooks`](https://github.com/csfrequency/react-firebase-hooks) [Firebase](https://firebase.google.com)에서 사용할 Hooks 모음입니다.
+- [`react-form-stateful`](https://github.com/ckedwards/react-form-stateful) 폼 라이브러리입니다. dispatch를 노출하여 부작용을 통해 라이브러리를 확장할 수 있습니다.
+- [`react-hanger`](https://github.com/kitze/react-hanger) 작은 유틸리티 Hooks 모음입니다.
+- [`react-hook-mighty-mouse`](https://github.com/mkosir/react-hook-mighty-mouse) 선택된 요소에서 마우스 이벤트를 추적하는 React Hook 🐭
+- [`react-hook-mousetrap`](https://www.npmjs.com/package/react-hook-mousetrap) mousetrap으로 구동되는 키 또는 키 조합에서 콜백을 트리거하는 Hook입니다.
+- [`react-hookedup`](https://github.com/zakariaharti/react-hookedup) 유용한 React Hook 모음입니다.
+- [`react-hook-form`](https://github.com/bluebill1049/react-hook-form) 번거로움 없이 폼 유효성 검사합니다.
+- [`react-hook-layout`](https://github.com/ytiurin/react-hook-layout) React의 레이아웃 관리입니다.
+- [`react-hooks-async`](https://github.com/dai-shi/react-hooks-async) 취소 가능성과 합성성이 있는 비동기 함수를 위한 React 커스텀 Hook입니다.
+- [`react-hooks-global-state`](https://github.com/dai-shi/react-hooks-global-state) 간단한 글로벌 상태 관리입니다.
+- [`react-hooks-image-size`](https://github.com/use-hooks/react-hooks-image-size) URL에서 자연 이미지 크기를 얻는 Hook입니다.
+- [`react-hooks-lib`](https://github.com/beizhedenglong/react-hooks-lib) 재사용 가능한 React Hook 세트입니다.
+- [`react-hooks-svgdrawing`](https://github.com/kmkzt/react-hooks-svgdrawing) SVG 그리기를 위한 Hook입니다.
+- [`react-hooks-use-modal`](https://github.com/shibe97/react-hooks-use-modal) 모달을 쉽게 열기 위한 Hook입니다.
+- [`react-hooks-visible`](https://github.com/kmkzt/react-hooks-visible) 요소 가시성을 위한 Hook입니다. Intersection Observer API를 사용합니다.
+- [`react-hooks-worker`](https://github.com/dai-shi/react-hooks-worker) 웹 워커를 위한 React 커스텀 Hook입니다.
+- [`react-hotkey-hook`](https://github.com/JohannesKlauss/react-hotkeys-hook) 핫키를 위한 React Hook입니다.
+- [`react-i18next`](https://react.i18next.com/latest/usetranslation-hook) React를 위한 올바른 국제화입니다.
+- [`react-immer-hooks`](https://github.com/sin/react-immer-hooks) Immer를 사용하여 상태를 업데이트하는 useState와 useReducer입니다.
+- [`react-indicative-hooks`](https://github.com/marceloadsj/react-indicative-hooks) [Indicative](http://indicative.adonisjs.com)라는 데이터 유효성 검사 라이브러리를 감싸는 Hook입니다.
+- [`react-intersection-visible-hook`](https://github.com/AvraamMavridis/react-intersection-visible-hook) 함수형 컴포넌트의 가시성을 추적하는 React Hook입니다.
+- [`react-media-hook`](https://github.com/lessmess-agency/react-media-hook) 미디어 쿼리를 위한 React Hook입니다.
+- [`react-metatags-hook`](https://github.com/lordgiotto/react-metatags-hook) HTML 메타 태그를 관리하는 React Hook입니다.
+- [`react-native-react-bridge`](https://github.com/inokawa/react-native-react-bridge) React를 실행하고 그들 사이의 통신을 처리하는 React Native 플러그인입니다.
+- [`react-optimistic-ui-hook`](https://github.com/mamal72/react-optimistic-ui-hook) ⚛️ React Hook으로 최소한의 "optimistic UI" 패턴 구현
+- [`react-page-name`](https://github.com/RyanFitzgerald/react-page-name) 페이지 제목을 관리하는 React Hook입니다.
+- [`react-peer-data`](https://github.com/vardius/react-peer-data) WebRTC를 사용한 파일, 미디어 스트리밍/공유를 위한 PeerData 라이브러리 React 래퍼입니다.
+- [`react-pirate`](https://github.com/dispix/react-pirate) React 라이프사이클 및 유틸리티 Hook입니다.
+- [`react-powerhooks`](https://github.com/kalcifer/react-powerhooks) react-powerplug 컴포넌트를 위한 Hook API입니다.
+- [`react-promiseful`](https://github.com/moxystudio/react-promiseful) Promise 상태를 기반으로 조건부로 자식을 렌더링하는 React 컴포넌트 및 Hook입니다.
+- [`react-query`](https://github.com/tannerlinsley/react-query) React에서 비동기 데이터를 가져오고, 캐시하고, 업데이트하기 위한 Hook입니다.
+- [`react-recaptcha-hook`](https://github.com/hupe1980/react-recaptcha-hook) google-recaptcha v3를 위한 React Hook
+- [`react-recipes`](https://github.com/craig1123/react-recipes) 👩‍🍳 필수 Hook 레시피 모음 🥘
+- [`react-request-hook`](https://github.com/schettino/react-request-hook) 관리되고 취소 가능하며 안전 지향의 API 요청입니다.
+- [`react-responsive`](https://github.com/contra/react-responsive) React 미디어 쿼리 모듈입니다.
+- [`react-rocketjump`](https://github.com/inmagik/react-rocketjump) 상태와 부작용을 쉽게 관리합니다.
+- [`react-screen-wake-lock`](https://github.com/jorisre/react-screen-wake-lock) Screen Wake Lock API의 React 구현입니다. 애플리케이션이 계속 실행되어야 할 때 장치가 화면을 어둡게 하거나 잠그는 것을 방지하는 방법을 제공합니다.
+- [`react-script-hook`](https://github.com/hupe1980/react-script-hook) 외부 스크립트를 동적으로 로드하고 언제 로드되는지 알기 위한 React Hook입니다.
+- [`react-selector-hooks`](https://github.com/Andarist/react-selector-hooks) 렌더 외부의 선언을 위한 Hook 기반 메모이제이션된 선택기 팩토리 모음입니다.
+- [`react-speech-kit`](https://github.com/MikeyParton/react-speech-kit) 브라우저 음성 인식 및 음성 합성을 위한 Hook입니다.
+- [`react-state-patterns`](https://github.com/mcclayton/react-state-patterns) Hook에서 React 상태 제공자 패턴의 재사용 가능한 구현을 만드는 유틸리티 패키지입니다.
+- [`react-swipeable`](https://github.com/dogfessional/react-swipeable) React 스와이프 이벤트 핸들러 Hook입니다.
+- [`react-tracked`](https://github.com/dai-shi/react-tracked) React Context를 사용한 간단하고 빠른 글로벌 상태입니다. 번거로움 없이 불필요한 재렌더링을 제거합니다.
+- [`react-uniformed`](https://github.com/j-a-y-h/react-uniformed) 🚀 Hook을 사용한 선언형 React 폼입니다.
+- [`react-use-api`](https://github.com/RyanRoll/react-use-api) Axios에 대한 비동기 HTTP 요청 데이터입니다. 다양한 UI 상태, SSR 및 데이터 사전 캐싱을 위해 설계되었습니다.
+- [`react-use-browser`](https://github.com/crossroads-loyalty-solutions/react-use-browser) 서버가 생성한 마크업이 최종 클라이언트 애플리케이션 마크업과 달라야 할 때 서버 사이드 렌더링된 컴포넌트의 클라이언트 쪽 수화를 가능하게 하는 Hook입니다.
+- [`react-use-calendar`](https://github.com/gregnb/react-use-calendar) 이벤트가 있는 달력을 구현하기 위한 Hook입니다.
+- [`react-use-clipboard`](https://github.com/danoc/react-use-clipboard) 사용자의 클립보드에 텍스트를 복사하는 Hook입니다.
+- [`react-use-d3`](https://github.com/inokawa/react-use-d3) D3를 사용하는 React Hook입니다.
+- [`react-use-data-loader`](https://github.com/smmoosavi/react-use-data-loader) 데이터를 로드하는 React Hook
+- [`react-use-fetch-factory`](https://github.com/JohannesKlauss/react-use-fetch-factory) Redux로 데이터를 가져오고 선택하는 React Hook입니다.
+- [`react-use-fetch-with-redux`](https://github.com/grug/react-use-fetch-with-redux/) Redux와 함께 작동하는 API 요청을 캐시하는 React Hook입니다.
+- [`react-use-form-state`](https://github.com/wsmd/react-use-form-state) 폼 및 입력 상태를 관리하는 React Hook입니다.
+- [`react-use-id-hook`](https://github.com/Yaska/react-use-id-hook) SSR 안전 고유 ID 문자열을 생성하는 React Hook입니다.
+- [`react-use-idb`](https://github.com/kigiri/react-use-idb) `indexDB`를 사용하여 브라우저에 값을 저장하는 React Hook입니다.
+- [`react-use-infinite-loader`](https://github.com/CurationCorp/react-use-infinite-loader) :infinity: :page_with_curl: :hourglass_flowing_sand: React 앱을 위한 초경량 무한 로딩(스크롤) Hook
+- [`react-use-input`](https://github.com/robcalcroft/react-use-input) 🎣 setter를 HTML 입력에 직접 제공할 수 있는 Hook입니다.
+- [`react-use-lazy-load-image`](https://github.com/robcalcroft/react-use-lazy-load-image) :sunrise: :zap: React 앱에 이미지 게으른 로딩을 쉽게 추가하세요.
+- [`react-use-message-bar`](https://github.com/intercaetera/react-use-message-bar) 메시지 바를 위한 간단한 React Hook입니다.
+- [`react-use-modal`](https://github.com/wowlusitong/react-use-modal) 모달을 관리하는 React Hook입니다.
+- [`react-use-path`](https://github.com/zhangkaiyulw/react-use-path) 가장 작은 Hook 스타일 React 라우터입니다.
+- [`react-use-scroll-position`](https://github.com/neo/react-use-scroll-position) 스크롤 위치를 사용하는 React Hook입니다.
+- [`react-use-trigger`](https://github.com/ilyalesik/react-use-trigger) 코드의 어느 곳에서나 효과를 트리거하는 React Hook입니다.
+- [`react-use-watch`](https://github.com/iam-frankqiu/react-use-watch) 의존성이 변경되었을 때 한 번만 트리거되는 React Hook입니다.
+- [`react-use-wavelet`](https://github.com/perlin-network/react-use-wavelet) Wavelet 스마트 컨트랙트 플랫폼에 연결하기 위한 React Hook입니다.
+- [`react-use`](https://github.com/streamich/react-use) 필수 Hook 모음입니다.
+- [`react-useFormless`](https://github.com/GeDiez/react-use-formless) 폼 상태를 관리하는 React Hook입니다.
+- [`react-usemiddleware`](https://github.com/venil7/react-usemiddleware) `useReducer`와 함께 기존 Redux 미들웨어(예: thunk 또는 saga)를 사용하는 React Hook입니다.
+- [`react-useportal`](https://github.com/alex-cory/react-useportal) 🌀 usePortal, Portal을 위한 React Hook
+- [`react-user-media`](https://github.com/vardius/react-user-media) `navigator.getUserMedia`를 위한 React 래퍼입니다.
+- [`react-wait`](https://github.com/f/react-wait) React 애플리케이션을 위한 복잡한 로더 관리 Hook입니다.
+- [`react-window-communication-hook`](https://github.com/AvraamMavridis/react-window-communication-hook) 브라우저 컨텍스트(탭, 창, iframe) 간 통신을 위한 React Hook입니다.
+- [`react-with-hooks`](https://github.com/yesmeck/react-with-hooks) 제안된 React Hooks API를 위한 Ponyfill입니다.
+- [`reaktion`](https://github.com/mfrachet/reaktion) 글로벌 상태 관리를 위한 useState와 같은 Hook입니다.
+- [`redhooks`](https://github.com/iusehooks/redhooks) React Hook을 사용한 글로벌 상태 관리입니다. Redux-thunk 또는 redux-saga와 같은 미들웨어 또는 자신의 커스텀 미들웨어 사용도 지원합니다.
+- [`redux-react-hook`](https://github.com/ianobermiller/redux-react-hook) Redux 스토어에서 매핑된 상태에 접근하는 React Hook입니다.
+- [`region-core`](https://github.com/regionjs/region-core) `useProps` Hook을 사용하는 글로벌 상태 관리 프레임워크입니다.
+- [`rehooks-visibility-sensor`](https://github.com/imbhargav5/rehooks-visibility-sensor) 요소가 뷰에 스크롤되었는지 확인합니다.
+- [`resynced`](https://github.com/pedronasser/resynced) React Hooks API를 사용한 다중 상태 관리입니다.
+- [`reto`](https://awmleer.github.io/reto) Hook을 사용한 유연하고 효율적인 React 저장소입니다.
+- [`rrh`](https://github.com/brn/rrh) react-redux를 위한 슈퍼 심플 React Hook입니다.
+- [`rxjs-hooks`](https://github.com/LeetCode-OpenSource/rxjs-hooks) React Hook과 함께 RxJS v6+를 사용하는 쉬운 방법입니다.
+- [`scroll-data-hook`](https://github.com/dejorrit/scroll-data-hook) 스크롤 속도, 거리, 방향 등에 대한 정보를 반환합니다.
+- [`style-hook`](https://github.com/style-hook/style-hook) 🎨 React Hook으로 js에서 css를 작성하세요.
+- [`swr`](https://github.com/zeit/swr) 원격 데이터 가져오기를 위한 React Hooks 라이브러리입니다.
+- [`the-platform`](https://github.com/palmerhq/the-platform) 일반적인 상황을 위해 React Hook과 Suspense 친화적 React 요소로 변환된 브라우저 API입니다.
+- [`trousers`](https://github.com/danieldelcore/trousers) 👖 Hook 우선 CSS-in-JS 라이브러리, 의미론과 런타임 성능에 중점을 둡니다.
+- [`use-abortable-fetch`](https://github.com/mauricedb/use-abortable-fetch) 컴포넌트가 언마운트되거나 다른 요청이 이루어질 때 fetch를 수행하고 취소하는 React Hook입니다.
+- [`use-action`](https://github.com/awmleer/use-action) useEffect와 거의 동일하지만 지연되지 않습니다.
+- [`use-as-bind`](https://github.com/tylervipond/use-as-bind) WASM 소스와 함께 as-bind를 사용하는 React Hook입니다.
+- [`use-async-memo`](https://github.com/awmleer/use-async-memo) 비동기 메모이제이션된 데이터를 생성하는 React Hook입니다.
+- [`use-autocomplete`](https://github.com/lowewenzel/use-autocomplete) 배열 내에서 검색 문자열에 대한 자동 완성 값을 반환하는 React Hook입니다.
+- [`use-axios-react`](https://github.com/sergey-s/use-axios-react) axios를 위한 React CRUD Hook, 광범위한 예제 목록
+- [`use-boolean`](https://github.com/mykolaharmash/use-boolean) 부울 상태를 처리하기 위한 편리한 도우미입니다.
+- [`use-browser-history`](https://github.com/zcallan/use-browser-history) 브라우저 히스토리 이벤트를 처리하는 React Hook입니다.
+- [`use-cart`](https://github.com/samjbmason/use-cart) 쇼핑 카트 기능을 제공하는 React Hook입니다.
+- [`use-click-away`](https://github.com/geobde/use-click-away) DOM 요소를 클릭하지 않을 때 콜백을 호출하려는 경우 사용하는 React Hook입니다.
+- [`use-clippy`](https://github.com/CharlesStover/use-clippy) 사용자의 클립보드에서 읽고 쓰는 React Hook입니다.
+- [`use-context-selector`](https://github.com/dai-shi/use-context-selector) 사용자 영역의 React useContextSelector Hook입니다.
+- [`use-controlled-input-number`](https://github.com/d-asensio/use-controlled-input-number) 숫자 입력 동작을 거의 예상대로 만드는 React Hook입니다.
+- [`use-countries`](https://github.com/oktaysenkan/use-countries) 국가 및 언어를 나열하는 커스텀 React Hook입니다.
+- [`use-debounce`](https://github.com/xnimorz/use-debounce) React를 위한 디바운스(및 스로틀) Hook입니다.
+- [`use-deep-compare`](https://github.com/sandiiarov/use-deep-compare) 입력에 대한 깊은 비교를 사용하는 React의 useEffect/useMemo/useCallback Hook입니다.
+- [`use-deep-compare-effect`](https://github.com/kentcdodds/use-deep-compare-effect) 🐋 참조 동등성이 아닌 입력에 대한 깊은 비교를 사용하는 React의 useEffect Hook입니다.
+- [`use-detect-print`](https://github.com/gregnb/use-detect-print) 페이지가 인쇄 중일 때를 감지하는 React Hook입니다.
+- [`use-dimensions`](https://github.com/CharlesStover/use-dimensions) 화면 및 윈도우 크기를 얻기 위한 React Native Hook입니다.
+- [`use-double-click`](https://github.com/zattoo/use-double-click) 연속 더블 클릭 및 클릭과 더블 클릭 이벤트를 결합하는 React Hook입니다.
+- [`use-eazy-auth`](https://github.com/gffuma/use-eazy-auth) 인증을 처리하는 React Hook입니다.
+- [`use-events`](https://github.com/sandiiarov/use-events) 마우스 이벤트를 처리하는 React Hook 세트입니다.
+- [`use-force-update`](https://github.com/CharlesStover/use-force-update) 함수형 컴포넌트의 재렌더를 강제하는 React Hook입니다.
+- [`use-hotkeys`](https://github.com/sandiiarov/use-hotkeys) keydown 및 keyup 키보드 이벤트를 수신하고 키보드 단축키를 정의하고 분배하는 HotKeys.js React Hook입니다.
+- [`use-hovering`](https://github.com/therealparmesh/use-hovering) 호버 상태를 추적하는 간단하고 접근 가능한 React Hook입니다.
+- [`use-http`](https://github.com/alex-cory/use-http) 🐶 useFetch, 동형 HTTP 요청을 만드는 React Hook입니다.
+- [`use-immer`](https://github.com/mweststrate/use-immer) 상태를 조작하기 위해 [immer](https://github.com/mweststrate/immer)를 사용하는 Hook입니다.
+- [`use-input-file`](https://github.com/neighborhood999/use-input-file) 입력 파일을 만드는 React Hook입니다.
+- [`use-is-mounted-ref`](https://github.com/helderburato/use-is-mounted-ref) `useIsMountedRef`는 컴포넌트가 마운트될 때를 확인하는 React Hook입니다.
+- [`use-lang-direction`](https://github.com/davidicus/use-lang-direction) HTML 요소의 `dir` 속성 값을 읽고 해당 업데이트를 읽어 UI를 적절하게 업데이트할 수 있는 Hook입니다.
+- [`use-last-fm`](https://github.com/webmail/use-last-fm) **Spotify** 또는 [last.fm](https://last.fm)이 지원하는 다른 사이트의 현재 재생 중인 곡을 실시간으로 표시하는 Hook입니다. ♪
+- [`use-lilius`](https://github.com/its-danny/use-lilius) React를 위한 헤드리스 달력 Hook입니다.
+- [`use-media`](https://github.com/streamich/use-media) React Hook이 있는 CSS 미디어 쿼리입니다.
+- [`use-mouse-action`](https://github.com/dimitrinicolas/use-mouse-action) 마우스 다운/업 및 클릭 이벤트를 모두 수신하는 React Hook이며 한 번 호출된 함수입니다.
+- [`use-multiselect`](https://github.com/jschloer/use-multiselect) 다중 선택 상태를 관리합니다.
+- [`use-overflow`](https://github.com/amorriscode/use-overflow) X 및 Y 오버플로우를 감지할 수 있는 React Hook입니다.
+- [`use-places-autocomplete`](https://github.com/wellyshen/use-places-autocomplete) 📍 Google Maps Places 자동완성을 위한 React Hook입니다.
+- [`use-popper`](https://github.com/sandiiarov/use-popper) Popper.js 주변의 React Hook 래퍼입니다.
+- [`use-query-params`](https://github.com/pbeshai/use-query-params) 쉬운 직렬화로 URL 쿼리 매개변수의 상태를 관리하는 React Hook입니다.
+- [`use-react-modal`](https://github.com/alex-cory/use-react-modal) 🖼 useModal, 모달/대화 상자/라이트박스를 위한 React Hook
+- [`use-react-router`](https://github.com/CharlesStover/use-react-router) React Router를 사용한 pub-sub 동작을 위한 React Hook입니다.
+- [`use-reactive-state`](https://github.com/tedstoychev/use-reactive-state) `useReactiveState()` - React의 `useState()`에 대한 반응형 대체입니다.
+- [`use-reducer-async`](https://github.com/dai-shi/use-reducer-async) 비동기 작업이 있는 React useReducer입니다.
+- [`use-redux`](https://github.com/flepretre/use-redux) [redux](https://redux.js.org)를 바인드하는 Hook입니다.
+- [`use-scroller`](https://github.com/geobde/use-scroller) 다음 페이지를 자동으로 추가하는 React Hook으로 사용자가 전체 페이지 로드를 피할 수 있습니다.
+- [`use-scroll-to-bottom`](https://github.com/tudorgergely/use-scroll-to-bottom) 요소가 아래로 스크롤되었을 때를 감지하는 React Hook입니다.
+- [`use-simple-undo`](https://github.com/sandiiarov/use-simple-undo) 실행 취소/재실행 기능의 간단한 구현입니다.
+- [`server-push-hooks`](https://github.com/mfrachet/server-push-hooks) 🔥 [socket.io](https://socket.io), [SEE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events) 등을 위한 React Hook
+- [`use-socket.io-client`](https://github.com/iamgyz/use-socket.io-client) socket.io-client를 위한 React Hook이며 부작용 없이 [socket.io](https://socket.io) 클라이언트를 조작합니다.
+- [`use-sse`](https://github.com/kmoskwiak/useSSE) ✨useSSE - Server-Side Effect 사용. 클라이언트와 서버 쪽 모두에서 `useEffect`.
+- [`use-ssr`](https://github.com/alex-cory/use-ssr) ☯️ 서버, 브라우저 또는 React Native에 있는지 결정하는 React Hook입니다.
+- [`use-state-snapshots`](https://github.com/haydn/use-state-snapshots) 실행 취소/재실행 기능에 대한 상태 변경을 추적하는 React Hook입니다.
+- [`use-substate`](https://github.com/philipp-spiess/use-substate) 단일 앱 상태를 구독하는 React Hook (현재 [Redux](https://redux.js.org/) 앱에서 작동합니다).
+- [`use-suspender`](https://github.com/octet-stream/use-suspender) [`React.Suspense`](https://reactjs.org/docs/react-api.html#reactsuspense)로 비동기 작업을 실행합니다.
+- [`use-t`](https://github.com/streamich/use-t) Hook을 사용하는 다중 언어입니다.
+- [`use-undo`](https://github.com/xxhomey19/use-undo) 실행 취소 및 재실행 기능을 구현하는 React Hook입니다.
+- [`use-videocard`](https://github.com/BRA1L0R/use-videocard) 캔버스를 사용하여 클라이언트의 그래픽 카드 정보를 가져오는 React Hook
+- [`use-window-blur-change-title`](https://github.com/cyntler/use-window-blur-change-title) 사용자가 현재 윈도우에서 포커스를 이동할 때 페이지 제목을 설정하는 React Hook입니다.
+- [`useDarkMode`](https://github.com/donavon/use-dark-mode) "다크 모드" 컴포넌트를 구현하는 데 도움이 되도록 하는 커스텀 React Hook입니다.
+- [`useDeferredState`](https://github.com/phytonmk/useDeferredState) 상태 변경을 지연시키는 React Hook입니다. UI가 애니메이션 사라지기를 완료할 때까지 기다렸다가 컴포넌트를 언마운트할 때 필수입니다.
+- [`useDropZone`](https://github.com/sbaidon/useDropZone) 간단한 드래그 앤 드롭 기능을 설정할 수 있게 해주는 React Hook입니다.
+- [`useEmailAutocomplete`](https://github.com/alex-cory/use-email-autocomplete) 📬 이메일 자동완성 입력을 위한 React Hook입니다.
+- [`useFileDialog`](https://github.com/omidnikrah/use-file-dialog) useFileDialog React Hook을 사용하여 파일 입력으로 투쟁하지 않고 파일 대화 상자를 엽니다.
+- [`useInView`](https://github.com/thebuilder/react-intersection-observer) 요소가 뷰포트에 들어오거나 나갈 때를 알려주는 Intersection Observer API의 React 구현입니다.
+- [`useIsTyping`](https://github.com/KATT/use-is-typing) 사용자가 textarea 또는 input 내에서 입력 중인지 확인하는 Hook입니다.
+- [`useKeyCapture`](https://github.com/pranesh239/use-key-capture) ⌨️ keyDown 이벤트 수신을 더 쉽게 해주는 간단한 Hook입니다.
+- [`usePosition`](https://github.com/tranbathanhtung/usePosition) 요소의 왼쪽 위 위치를 얻는 React Hook입니다.
+- [`useReducerWithEffects`](https://github.com/frankiesardo/use-reducer-with-effects) Reducer 및 부작용을 함께 배치하는 React Hook입니다.
+- [`useReducerWithLocalStorage`](https://github.com/Tweries/useReducerWithLocalStorage) `useReducer` Hook에 로컬 스토리지 지원을 추가하는 React Hook
+- [`useScreenType`](https://github.com/pankod/react-hooks-screen-type) Bootstrap 4 그리드에 대한 화면 크기 유형 결정입니다.
+- [`useScreenType`](https://github.com/wednesday-solutions/react-screentype-hook) 구성 가능한 중단점 지원으로 현재 화면 유형(모바일, 태블릿, 데스크톱)을 동적으로 가져오는 React Hook입니다.
+- [`useScrollSpy`](https://github.com/Purii/react-use-scrollspy) 스크롤 위치를 기반으로 네비게이션을 자동으로 업데이트하는 React Hook입니다.
+- [`useServiceWorker`](https://github.com/JCofman/react-hook-use-service-worker) Service Worker를 등록할 수 있는 React Hook입니다.
+- [`useValueAfter`](https://github.com/bboydflo/use-value-after) 컴포넌트에 다양한 props를 쉽게 제공하는 매우 간단한 React Hook (엣지 케이스 테스트에 편리함)
+- [`useWaitForElements`](https://github.com/renansoares/useWaitForElements) MutationObserver로 렌더링할 요소를 기다리는 간단한 Hook입니다.
+- [`useWindowOrientation`](https://github.com/tywmick/use-window-orientation) 현재 윈도우 크기를 기반으로 윈도우 방향(세로 vs 가로)을 반환하는 Hook입니다.
+- [`useWindowWidthBreakpoints`](https://github.com/tywmick/use-window-width-breakpoints) 윈도우 너비 중단점을 사용하는 Hook (Bootstrap에서 영감)

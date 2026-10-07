@@ -1,0 +1,290 @@
+# awesome-react-hooks [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> Recursos de React Hooks Impresionantes
+
+## Documentación
+
+- [Documentación de React Hooks](https://reactjs.org/docs/hooks-intro.html)
+
+## Discusiones
+
+- [React Hooks RFC](https://github.com/reactjs/rfcs/pull/68)
+
+## Tutoriales
+
+- ["Making Sense of React Hooks" por Dan Abramov](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889)
+- ["From React.Component to hooks" por Octave Raimbault](https://medium.com/@dispix/from-react-component-to-hooks-b50241334365)
+- ["React Hooks: What's going to happen to my tests?" por Kent C. Dodds](https://blog.kentcdodds.com/react-hooks-whats-going-to-happen-to-my-tests-df4c2b4d67b7)
+- ["State Management with React Hooks - No Redux or Context API" por André Gardi](https://medium.com/javascript-in-plain-english/state-management-with-react-hooks-no-redux-or-context-api-8b3035ceecf8)
+- ["How to Fetch Data with React Hooks?" por Robin Wieruch](https://www.robinwieruch.de/react-hooks-fetch-data/)
+- [Primer on React Hooks](https://testdriven.io/blog/react-hooks-primer/)
+- [React Hooks - A deeper dive featuring useContext and useReducer](https://testdriven.io/blog/react-hooks-advanced/)
+- ["Using Custom React Hooks to Simplify Forms" por James King](https://upmostly.com/tutorials/using-custom-react-hooks-simplify-forms)
+- [Testing of a Custom React Hook for Fetching Data with Axios](https://dev.to/doppelmutzi/testing-of-a-custom-react-hook-for-fetching-data-with-axios-4gf1)
+- [The Guide to Learning React Hooks (Examples & Tutorials) por Eric Bishard](https://www.telerik.com/kendo-react-ui/react-hooks-guide/)
+- ["Sanely Testing React Hooks" por Dave Cooper](https://dev.to/grug/sanely-testing-react-hooks-2l1j)
+- [React by Example: Hooks](https://reactbyexample.github.io/hooks)
+
+## Videos
+
+- [🎬 ReactConf 2018: React Today and Tomorrow por Sophie Alpert y Dan Abramov](https://youtu.be/V-QO-KO90iQ) Anuncio oficial y primera demostración.
+- [🎬 ReactConf 2018: 90% Cleaner React por Ryan Florence](https://youtu.be/wXLf18DsV-I)
+- [🎬 React Hooks: A Complete Introduction por Harry Wolff](https://youtu.be/jd8R0a2Ur8Q)
+- [🎬 Playlist de React Hooks por Ben Awad](https://www.youtube.com/playlist?list=PLN3n1USn4xllL1OrVr-A4oq7SG-cS9MOQ)
+- [🎬 Playlist de React Hooks por Josh Ribakoff](https://www.youtube.com/playlist?list=PLj2oFNVaxfJ-AcPo191jz09g-v9CLRfCg)
+- [🎬 Playlist de React Hooks por Michael Chan](https://www.youtube.com/playlist?list=PLnc_NxpmOxaNf_mTUx1BgoP5POXwSAu-g)
+- [🎬 Custom Hooks in React por Tanner Linsley](https://www.youtube.com/watch?v=J-g9ZJha8FE)
+
+## Podcasts
+
+- [React Hooks - Syntax (Nov 14th, 2018)](https://syntax.fm/show/092/react-hooks)
+- [React Hooks 1 Year Later - Syntax (Mar 18, 2020)](https://syntax.fm/show/232/react-hooks-1-year-later)
+- [Why should I use React Hooks? - Syntax (Dec 7th, 2020)](https://syntax.fm/show/307/hasty-treat-why-should-i-use-react-hooks)
+
+## Herramientas
+
+- [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+- [`hooks.macro`](https://www.npmjs.com/package/hooks.macro) Macros de Babel para invalidación automática de memoización
+- [Kit de Inicio de CodeSandbox](https://codesandbox.io/s/7y6o4282lq)
+- [Fragmentos de React Hooks para VS Code](https://marketplace.visualstudio.com/items?itemName=antmdvs.vscode-react-hooks-snippets)
+- [`hook-into-props`](https://github.com/juliettepretot/hook-into-props/tree/1e069a6c01c2a783100f2fea7709f56d8166a97e) Ayuda para construir HOCs usando hooks. Útil para usar hooks con componentes de clase.
+- [`react-universal-hooks`](https://github.com/salvoravida/react-universal-hooks) React Universal Hooks: simplemente use****** en todas partes, Componentes Funcionales o de Clase
+- [Jooks](https://github.com/antoinejaussoin/jooks) Realiza pruebas unitarias de tus hooks personalizados burlándote de la API de Hooks de React (useState, etc.)
+- [`react-hooks-testing-library`](https://react-hooks-testing-library.com/) Biblioteca para crear pruebas unitarias para hooks personalizados de React.
+
+## Catálogos
+
+- [@react-hookz/web](https://github.com/react-hookz/web) - Una biblioteca de hooks React de propósito general desarrollada con cuidado y compatibilidad SSR en mente.
+- [ahooks](https://github.com/alibaba/hooks) Una colección de React Hooks específicamente dirigidos a aplicaciones empresariales.
+- [beautiful-react-hooks(🔥)](https://beautifulinteractions.github.io/beautiful-react-hooks/) Una colección de hooks para acelerar el desarrollo de tus componentes y hooks personalizados.
+- [Captain hook](https://github.com/stevenpersia/captain-hook) Lista modesta de hooks.
+- [crooks](https://github.com/chrisjpatty/crooks) Una colección de hooks React únicos.
+- [hooks-by-example](https://github.com/latviancoder/hooks-by-example) Colección de ejemplos del mundo real de uso de hooks, amigables para principiantes.
+- [Hooks.guide](https://hooks-guide.netlify.app/) Colección de hooks React curada por la comunidad.
+- [react-recipes](https://github.com/craig1123/react-recipes) 👩‍🍳 Colección de recetas de hooks esenciales 🥘
+- [Colección Buscable de React Hooks](https://nikgraf.github.io/react-hooks/)
+- [Sunflower(🌻)](https://github.com/ant-design/sunflower) Colección de React Hooks que devuelven componentes de antd.
+- [useHooks(🐠)](https://usehooks.com/) Una nueva receta de React Hook cada día.
+- [Use Hooks](https://use-hooks.org/) Una colección de hooks React reutilizables.
+
+## Paquetes
+
+- [`@21kb/react-hooks`](https://github.com/21kb/react-hooks) Un conjunto de React Hooks para quedarte _enganchado_.
+- [`@d2k/react-devto`](https://github.com/bdbch/react-devto) Hook de React para solicitudes de API de Dev.to
+- [`@d2k/react-github`](https://github.com/bdbch/react-github) Hook de React para solicitudes de API de Github
+- [`@d2k/react-localstorage`](https://github.com/bdbch/react-localstorage) Hook de React que maneja la actualización y limpieza de valores de almacenamiento local manteniéndolos sincronizados con tus componentes.
+- [`@elgorditosalsero/react-gtm-hook`](https://github.com/elgorditosalsero/react-gtm-hook) Hook de React para manejar fácilmente Google Tag Manager.
+- [`@hookstate/core`](https://github.com/avkonst/hookstate) Gestión de estado moderna, muy rápida y extensible para React.
+- [`@jzone/react-request-hook`](https://github.com/zhixiaoqiang/react-request-hook) 🐶Hook de React para solicitudes personalizadas, compatible con varias lib, admite redux
+- [`@kevinwolf/formal`](https://github.com/kevinwolfcr/formal) Primitivos elegantes de gestión de formularios para la era de react hooks.
+- [`@koale/useworker`](https://github.com/alewin/useWorker) ⚙️ Ejecutar tareas pesadas en segundo plano usando web workers, sin bloquear la interfaz de usuario
+- [`@marvelsq/use-properties-hook`](https://github.com/MarvelSQ/use-properties-hook) Funciones de instancia dentro de FunctionComponent como `class-properties` e igual en `ShallowCompare`
+- [`@rehooks/component-size`](https://github.com/rehooks/component-size) Hook de React para determinar el tamaño de un componente.
+- [`@rehooks/document-title`](https://github.com/rehooks/document-title) Hook de React para actualizar el título del documento.
+- [`@rehooks/document-visibility`](https://github.com/rehooks/document-visibility) Hook de React para suscribirse a la visibilidad del documento.
+- [`@rehooks/input-value`](https://github.com/rehooks/input-value) Hook de React para crear valores de entrada.
+- [`@rehooks/local-storage`](https://github.com/rehooks/local-storage) Hook de React que sincroniza `localStorage[key]` con el componente.
+- [`@rehooks/network-status`](https://github.com/rehooks/network-status) Hook de React para obtener el estado de la red.
+- [`@rehooks/online-status`](https://github.com/rehooks/online-status) Hook de React para el estado en línea.
+- [`@rehooks/window-scroll-position`](https://github.com/rehooks/window-scroll-position) Hook de React para obtener la posición `x` e `y` de la ventana.
+- [`@rehooks/window-size`](https://github.com/rehooks/window-size) Hook de React para suscribirse al tamaño de la ventana.
+- [`@rekindle/use-request`](https://github.com/react-rekindle/use-request) 🤖 Hook de React para hacer solicitudes.
+- [`@rkrupinski/use-state-machine`](https://github.com/rkrupinski/use-state-machine) Un hook de máquina de estados finitos.
+- [`@staltz/use-profunctor-state`](https://github.com/staltz/use-profunctor-state) Hook de React para gestión de estado con Profunctor Optics
+- [`@webscopeio/react-health-check`](https://github.com/webscopeio/react-health-check) 🏥 Hook de React ligero para verificar la salud de servicios API.
+- [`@wellyshen/use-web-animations`](https://github.com/wellyshen/use-web-animations) 🍿 Hook de React para animaciones altamente eficientes y manipulables usando Web Animations API.
+- [`@withvoid/melting-pot`](https://github.com/withvoid/melting-pot) Biblioteca de utilidades de hooks React.
+- [`ahooks/usetable`](https://github.com/ahooksjs/useTable) Una solución progresiva para el escenario de tabla de consultas.
+- [`concent`](https://github.com/concentjs/concent) Gestión de estado adaptada a React, es simple, predecible, progresivo y eficiente.
+- [`constate`](https://github.com/diegohaz/constate) Transforma tu estado local en estado global usando `useContextState` y `useContextReducer`.
+- [`conuse`](https://github.com/fodau/conuse) Compartir Hook con Contexto
+- [`easy-peasy`](https://github.com/ctrlplusb/easy-peasy) Estado global fácil peasy para React.
+- [`fetch-suspense`](https://github.com/CharlesStover/fetch-suspense) Hook de React para la API de Fetch con soporte para Suspense.
+- [`graphql-hooks`](https://github.com/nearform/graphql-hooks) Cliente GraphQL minimalista con hooks primero.
+- [`mobx-react-lite`](https://github.com/mobxjs/mobx-react-lite) Vinculaciones React ligeras para MobX basadas en hooks React experimentales.
+- [`modali`](https://github.com/upmostly/modali) Un componente de diálogo modal delicioso para React, construido desde cero para soportar React Hooks.
+- [`moment-hooks`](https://github.com/momentechnologies/moment-hooks) Una biblioteca que contiene hooks react genéricos
+- [`nice-hooks`](https://github.com/daniel-dx/nice-hooks) 🍹 Muchos hooks bonitos para facilitar el uso de react hooks (callback de useState / ciclo de vida / variable de instancia)
+- [`promise-hook`](https://github.com/aiven715/promise-hook) Hook de React para simplificar la obtención de datos basada en Promise.
+- [`reactive-react-redux`](https://github.com/dai-shi/reactive-react-redux) Vinculación React Redux con React Hooks y Proxy
+- [`react-async-hook`](https://github.com/slorber/react-async-hook) Hook de React para obtener datos ad-hoc en tus componentes React.
+- [`react-cached-callback`](https://github.com/megazazik/react-cached-callback) Hooks de React para almacenar en caché muchas devoluciones de llamada por clave, por ejemplo, en bucles.
+- [`react-context-refs`](https://github.com/megazazik/react-context-refs) Hooks de React para obtener referencias de elementos a través del contexto.
+- [`react-cookie`](https://github.com/reactivestack/cookies) Hooks de React para cookies universales.
+- [`react-cool-dimensions`](https://github.com/wellyshen/react-cool-dimensions) 📏 Hook de React para medir el tamaño de un elemento y manejar componentes responsivos.
+- [`react-cool-form`](https://github.com/wellyshen/react-cool-form) 📋 Hooks de React para estado y validación de formularios, menos código más rendimiento.
+- [`react-cool-inview`](https://github.com/wellyshen/react-cool-onclickoutside) 🖥️ Hook de React para monitorear cuando un elemento entra o sale de la ventana gráfica (u otro elemento).
+- [`react-cool-onclickoutside`](https://github.com/wellyshen/react-cool-onclickoutside) 🖱 Hook de React para escuchar clics fuera del componente(s).
+- [`react-cool-portal`](https://github.com/wellyshen/react-cool-portal) 🍒 Hook de React para Portales, que renderiza modales, menús desplegables, información sobre herramientas, etc. a <body> o similar.
+- [`react-cool-virtual`](https://github.com/wellyshen/react-cool-virtual) ♻️ Un pequeño hook de React para renderizar grandes conjuntos de datos sin esfuerzo.
+- [`react-countdown-hook`](https://github.com/alexkhismatulin/react-use-count-down) Hook de cuenta atrás muerto simple pero poderoso para React. Impulsado por `requestAnimationFrame`.
+- [`react-darkreader`](https://github.com/Turkyden/react-darkreader) 🌓 Un hook de React para agregar un modo oscuro / noche a tu sitio inspirado en darkreader.
+- [`react-declare-form`](https://github.com/andy9775/react-declare-form) Biblioteca de formularios declarativos basada en hooks de React.
+- [`react-deep-hooks`](https://github.com/codeshake/react-deep-hooks) Hooks de React para dependencias no primitivas.
+- [`react-dom-status-hook`](https://github.com/yeskunall/react-dom-status-hook) Hook de React para suscribirse al evento `DOMContentLoaded`.
+- [`react-enhanced-reducer-hook`](https://github.com/shiningjason/react-enhanced-reducer-hook) Una alternativa a `useReducer` que acepta middlewares.
+- [`react-fetch-hook`](https://github.com/ilyalesik/react-fetch-hook) Hook de React para usar convenientemente la API de Fetch.
+- [`react-firebase-hooks`](https://github.com/csfrequency/react-firebase-hooks) Una colección de hooks para usar con [Firebase](https://firebase.google.com).
+- [`react-form-stateful`](https://github.com/ckedwards/react-form-stateful) Biblioteca de formularios. Expone dispatch para permitir que la biblioteca se extienda a través de efectos secundarios.
+- [`react-hanger`](https://github.com/kitze/react-hanger) Una pequeña colección de hooks de utilidad.
+- [`react-hook-mighty-mouse`](https://github.com/mkosir/react-hook-mighty-mouse) Hook de React que rastrea eventos del ratón en el elemento seleccionado 🐭
+- [`react-hook-mousetrap`](https://www.npmjs.com/package/react-hook-mousetrap) Un hook para desencadenar devoluciones de llamada en teclas o combinaciones de teclas, impulsado por mousetrap.
+- [`react-hookedup`](https://github.com/zakariaharti/react-hookedup) Una colección de hooks React útiles.
+- [`react-hook-form`](https://github.com/bluebill1049/react-hook-form) Validación de formularios sin molestias.
+- [`react-hook-layout`](https://github.com/ytiurin/react-hook-layout) Gestión de diseño en React.
+- [`react-hooks-async`](https://github.com/dai-shi/react-hooks-async) Hooks personalizados de React para funciones asincrónicas con capacidad de cancelación y composición
+- [`react-hooks-global-state`](https://github.com/dai-shi/react-hooks-global-state) Una gestión de estado global simple.
+- [`react-hooks-image-size`](https://github.com/use-hooks/react-hooks-image-size) Hook para obtener el tamaño natural de la imagen desde url.
+- [`react-hooks-lib`](https://github.com/beizhedenglong/react-hooks-lib) Un conjunto de hooks react reutilizables.
+- [`react-hooks-svgdrawing`](https://github.com/kmkzt/react-hooks-svgdrawing) Un hook para dibujo SVG.
+- [`react-hooks-use-modal`](https://github.com/shibe97/react-hooks-use-modal) Un hook para abrir el modal fácilmente.
+- [`react-hooks-visible`](https://github.com/kmkzt/react-hooks-visible) Un hook para la visibilidad del elemento. Utiliza la API del Observador de Intersección.
+- [`react-hooks-worker`](https://github.com/dai-shi/react-hooks-worker) Hooks personalizados de React para web workers
+- [`react-hotkey-hook`](https://github.com/JohannesKlauss/react-hotkeys-hook) Hook de React para teclas de acceso rápido.
+- [`react-i18next`](https://react.i18next.com/latest/usetranslation-hook) Internacionalización para React como es debido.
+- [`react-immer-hooks`](https://github.com/sin/react-immer-hooks) useState y useReducer usando Immer para actualizar el estado.
+- [`react-indicative-hooks`](https://github.com/marceloadsj/react-indicative-hooks) Hooks envolviendo una biblioteca de validación de datos llamada [Indicative](http://indicative.adonisjs.com)
+- [`react-intersection-visible-hook`](https://github.com/AvraamMavridis/react-intersection-visible-hook) Hook de React para rastrear la visibilidad de un componente funcional.
+- [`react-media-hook`](https://github.com/lessmess-agency/react-media-hook) Hook de React para Consultas de Medios.
+- [`react-metatags-hook`](https://github.com/lordgiotto/react-metatags-hook) Hook de React para administrar etiquetas meta html.
+- [`react-native-react-bridge`](https://github.com/inokawa/react-native-react-bridge) Un complemento de React Native para ejecutar React y manejar la comunicación entre ellos.
+- [`react-optimistic-ui-hook`](https://github.com/mamal72/react-optimistic-ui-hook) ⚛️ Implementación minimalista del patrón "optimistic UI" con un hook de React
+- [`react-page-name`](https://github.com/RyanFitzgerald/react-page-name) Hook de React para administrar el título de la página.
+- [`react-peer-data`](https://github.com/vardius/react-peer-data) Envoltorio de React para la biblioteca PeerData para transmisión/compartición de archivos y medios mediante WebRTC.
+- [`react-pirate`](https://github.com/dispix/react-pirate) Hooks de ciclo de vida y utilidades para React.
+- [`react-powerhooks`](https://github.com/kalcifer/react-powerhooks) API de hooks para componentes react-powerplug.
+- [`react-promiseful`](https://github.com/moxystudio/react-promiseful) Un componente y hook de React para renderizar hijos condicionalmente en función del estado de una promesa.
+- [`react-query`](https://github.com/tannerlinsley/react-query) Hooks para obtener, almacenar en caché y actualizar datos asincronos en React.
+- [`react-recaptcha-hook`](https://github.com/hupe1980/react-recaptcha-hook) Hook de React para google-recaptcha v3
+- [`react-recipes`](https://github.com/craig1123/react-recipes) 👩‍🍳 Colección de recetas de hooks esenciales 🥘
+- [`react-request-hook`](https://github.com/schettino/react-request-hook) Solicitudes de API gestionadas, cancelables y orientadas a la seguridad.
+- [`react-responsive`](https://github.com/contra/react-responsive) Módulo de consulta de medios para React.
+- [`react-rocketjump`](https://github.com/inmagik/react-rocketjump) Administra el estado y los efectos secundarios sin esfuerzo.
+- [`react-screen-wake-lock`](https://github.com/jorisre/react-screen-wake-lock) Implementación de React de la API Screen Wake Lock. Proporciona una forma de evitar que los dispositivos atenúen o bloqueen la pantalla cuando una aplicación necesita seguir ejecutándose
+- [`react-script-hook`](https://github.com/hupe1980/react-script-hook) Hook de React para cargar dinámicamente un script externo y saber cuándo se carga
+- [`react-selector-hooks`](https://github.com/Andarist/react-selector-hooks) Colección de fábricas de selectores memoizados basadas en hooks para declaraciones fuera del renderizado.
+- [`react-speech-kit`](https://github.com/MikeyParton/react-speech-kit) Hooks para reconocimiento de voz y síntesis de voz del navegador.
+- [`react-state-patterns`](https://github.com/mcclayton/react-state-patterns) Paquete de utilidad para crear implementaciones reutilizables de patrones de proveedor de estado de React a partir de hooks.
+- [`react-swipeable`](https://github.com/dogfessional/react-swipeable) Hook de React para manejar eventos de deslizamiento.
+- [`react-tracked`](https://github.com/dai-shi/react-tracked) Un estado global simple y rápido con React Context. Elimina re-renders innecesarios sin esfuerzo.
+- [`react-uniformed`](https://github.com/j-a-y-h/react-uniformed) 🚀 Formularios de React declarativos usando hooks.
+- [`react-use-api`](https://github.com/RyanRoll/react-use-api) Datos de solicitud HTTP asincrónica para axios. Diseñado para estados de interfaz diversos, SSR y pre-almacenamiento en caché de datos.
+- [`react-use-browser`](https://github.com/crossroads-loyalty-solutions/react-use-browser) Un hook que permite la hidratación del lado del cliente de componentes renderizados del lado del servidor cuando el marcado producido por el servidor necesita diferir del marcado final de la aplicación del cliente.
+- [`react-use-calendar`](https://github.com/gregnb/react-use-calendar) Un hook para implementar un calendario con eventos.
+- [`react-use-clipboard`](https://github.com/danoc/react-use-clipboard) Un hook que copia texto al portapapeles del usuario.
+- [`react-use-d3`](https://github.com/inokawa/react-use-d3) Un hook de React para usar D3.
+- [`react-use-data-loader`](https://github.com/smmoosavi/react-use-data-loader) Hook de React para cargar datos
+- [`react-use-fetch-factory`](https://github.com/JohannesKlauss/react-use-fetch-factory) Hook de React que se encarga de obtener y seleccionar datos con redux.
+- [`react-use-fetch-with-redux`](https://github.com/grug/react-use-fetch-with-redux/) Hook de React que almacena en caché solicitudes de API que funcionan con redux.
+- [`react-use-form-state`](https://github.com/wsmd/react-use-form-state) Hook de React para administrar el estado del formulario e de las entradas.
+- [`react-use-id-hook`](https://github.com/Yaska/react-use-id-hook) Hook de React para generar cadenas de identificación únicas compatibles con SSR.
+- [`react-use-idb`](https://github.com/kigiri/react-use-idb) Hook de React para almacenar valor en el navegador usando `indexDB`.
+- [`react-use-infinite-loader`](https://github.com/CurationCorp/react-use-infinite-loader) :infinity: :page_with_curl: :hourglass_flowing_sand: Hook de carga infinita (desplazamiento) ultra ligero para aplicaciones React
+- [`react-use-input`](https://github.com/robcalcroft/react-use-input) 🎣 Un hook cuyo setter puede pasarse directamente a las entradas HTML
+- [`react-use-lazy-load-image`](https://github.com/robcalcroft/react-use-lazy-load-image) :sunrise: :zap: Agrega carga perezosa de imágenes a tu aplicación React con facilidad
+- [`react-use-message-bar`](https://github.com/intercaetera/react-use-message-bar) Un hook de React simple para barras de mensajes.
+- [`react-use-modal`](https://github.com/wowlusitong/react-use-modal) Hook de React para administrar modal.
+- [`react-use-path`](https://github.com/zhangkaiyulw/react-use-path) El router de React de estilo hook más pequeño.
+- [`react-use-scroll-position`](https://github.com/neo/react-use-scroll-position) Hook de React para usar la posición de desplazamiento.
+- [`react-use-trigger`](https://github.com/ilyalesik/react-use-trigger) Hook de React para desencadenar efecto desde cualquier lugar del código
+- [`react-use-watch`](https://github.com/iam-frankqiu/react-use-watch) Un hook de React que se activa una sola vez cuando las dependencias han cambiado.
+- [`react-use-wavelet`](https://github.com/perlin-network/react-use-wavelet) Hooks de React para conectarse a la plataforma de contratos inteligentes Wavelet
+- [`react-use`](https://github.com/streamich/react-use) Colección de hooks esenciales.
+- [`react-useFormless`](https://github.com/GeDiez/react-use-formless) Hook de React para administrar el estado de los formularios.
+- [`react-usemiddleware`](https://github.com/venil7/react-usemiddleware) Hook de React para usar middlewares Redux existentes (como thunk o saga) con `useReducer`.
+- [`react-useportal`](https://github.com/alex-cory/react-useportal) 🌀 usePortal, hook de React para Portales
+- [`react-user-media`](https://github.com/vardius/react-user-media) Envoltorio de React para `navigator.getUserMedia`.
+- [`react-wait`](https://github.com/f/react-wait) Hook de Gestión de Cargadores Complejos para Aplicaciones React.
+- [`react-window-communication-hook`](https://github.com/AvraamMavridis/react-window-communication-hook) Hook de React para comunicarse entre contextos del navegador (pestañas, ventanas, iframes).
+- [`react-with-hooks`](https://github.com/yesmeck/react-with-hooks) Ponyfill para la API de React Hooks propuesta.
+- [`reaktion`](https://github.com/mfrachet/reaktion) Hook similar a useState para gestión de estado global.
+- [`redhooks`](https://github.com/iusehooks/redhooks) Gestión de estado global con React Hooks. También admite el uso de middlewares como redux-thunk o redux-saga, o tu propio middleware personalizado.
+- [`redux-react-hook`](https://github.com/ianobermiller/redux-react-hook) Hook de React para acceder al estado mapeado de una tienda Redux.
+- [`region-core`](https://github.com/regionjs/region-core) Un framework de gestión de estado global con un hook `useProps`.
+- [`rehooks-visibility-sensor`](https://github.com/imbhargav5/rehooks-visibility-sensor) Verifica si un elemento se ha desplazado hacia la vista o no.
+- [`resynced`](https://github.com/pedronasser/resynced) Gestión de múltiples estados usando la API React Hooks.
+- [`reto`](https://awmleer.github.io/reto) Una tienda de React flexible y eficiente con hooks.
+- [`rrh`](https://github.com/brn/rrh) Hooks de React súper simples para react-redux.
+- [`rxjs-hooks`](https://github.com/LeetCode-OpenSource/rxjs-hooks) Una forma fácil de usar RxJS v6+ con react hooks.
+- [`scroll-data-hook`](https://github.com/dejorrit/scroll-data-hook) Devuelve información sobre la velocidad de desplazamiento, distancia, dirección y más.
+- [`style-hook`](https://github.com/style-hook/style-hook) 🎨 escribe css en js con react hooks.
+- [`swr`](https://github.com/zeit/swr) Biblioteca de hooks de React para obtención de datos remotos.
+- [`the-platform`](https://github.com/palmerhq/the-platform) Las API del navegador convertidas en hooks de React y elementos React amigables con Suspense para situaciones comunes.
+- [`trousers`](https://github.com/danieldelcore/trousers) 👖 Una biblioteca CSS-in-JS centrada en hooks, enfocada en semántica y rendimiento en tiempo de ejecución
+- [`use-abortable-fetch`](https://github.com/mauricedb/use-abortable-fetch) Hook de React que realiza un fetch y lo cancela cuando el componente se desmonta o se realiza una solicitud diferente.
+- [`use-action`](https://github.com/awmleer/use-action) Casi lo mismo que useEffect, pero sin aplazamiento.
+- [`use-as-bind`](https://github.com/tylervipond/use-as-bind) Hook de React para usar as-bind con una fuente WASM.
+- [`use-async-memo`](https://github.com/awmleer/use-async-memo) Hook de React para generar datos asincronos memoizados.
+- [`use-autocomplete`](https://github.com/lowewenzel/use-autocomplete) Un hook de React que devuelve valores de autocompletado para una cadena de búsqueda dentro de un array.
+- [`use-axios-react`](https://github.com/sergey-s/use-axios-react) Hooks CRUD de React para axios, lista completa de ejemplos
+- [`use-boolean`](https://github.com/mykolaharmash/use-boolean) Ayudantes convenientes para manejar estado booleano.
+- [`use-browser-history`](https://github.com/zcallan/use-browser-history) Un hook de React para manejar eventos del historial del navegador.
+- [`use-cart`](https://github.com/samjbmason/use-cart) Un hook de React que te proporciona funcionalidad de carrito de compras.
+- [`use-click-away`](https://github.com/geobde/use-click-away) Hook de React para cuando quieres que se invoque un callback cuando no se hace clic en un elemento del DOM.
+- [`use-clippy`](https://github.com/CharlesStover/use-clippy) Un hook de React para leer y escribir en el portapapeles del usuario.
+- [`use-context-selector`](https://github.com/dai-shi/use-context-selector) Hook useContextSelector de React en userland.
+- [`use-controlled-input-number`](https://github.com/d-asensio/use-controlled-input-number) Hook de React para convertir el comportamiento de entrada numérica en más o menos lo que esperas.
+- [`use-countries`](https://github.com/oktaysenkan/use-countries) Hook de React personalizado para listar países e idiomas.
+- [`use-debounce`](https://github.com/xnimorz/use-debounce) Un hook de debounce (y throttle) para React.
+- [`use-deep-compare`](https://github.com/sandiiarov/use-deep-compare) Son los hooks useEffect/useMemo/useCallback de React, excepto usando comparación profunda en las entradas.
+- [`use-deep-compare-effect`](https://github.com/kentcdodds/use-deep-compare-effect) 🐋 Es el hook useEffect de React, excepto usando comparación profunda en las entradas, no igualdad de referencia.
+- [`use-detect-print`](https://github.com/gregnb/use-detect-print) Hook de React para detectar cuando una página se está imprimiendo.
+- [`use-dimensions`](https://github.com/CharlesStover/use-dimensions) Hook de React Native para obtener dimensiones de pantalla y ventana.
+- [`use-double-click`](https://github.com/zattoo/use-double-click) Hook de React para dobles clics continuos y combinación de eventos de clic y doble clic
+- [`use-eazy-auth`](https://github.com/gffuma/use-eazy-auth) Hooks de React para manejar autenticación.
+- [`use-events`](https://github.com/sandiiarov/use-events) Un conjunto de Hooks de React para manejar eventos del ratón.
+- [`use-force-update`](https://github.com/CharlesStover/use-force-update) Hook de React para forzar el re-render de un Componente Funcional.
+- [`use-hotkeys`](https://github.com/sandiiarov/use-hotkeys) Hook de React de HotKeys.js que escucha eventos de teclado keydown y keyup, definiendo y distribuyendo accesos directos de teclado.
+- [`use-hovering`](https://github.com/therealparmesh/use-hovering) Hook de React simple y accesible para rastrear el estado de desplazamiento.
+- [`use-http`](https://github.com/alex-cory/use-http) 🐶 useFetch, hook de React para realizar solicitudes http isomórficas.
+- [`use-immer`](https://github.com/mweststrate/use-immer) Un hook para usar [immer](https://github.com/mweststrate/immer) para manipular el estado.
+- [`use-input-file`](https://github.com/neighborhood999/use-input-file) Hook de React para crear entrada de archivo.
+- [`use-is-mounted-ref`](https://github.com/helderburato/use-is-mounted-ref) `useIsMountedRef` es un Hook de React para verificar cuándo está montado el componente.
+- [`use-lang-direction`](https://github.com/davidicus/use-lang-direction) Un hook que lee el valor del atributo `dir` del elemento HTML y cualquier actualización a ese valor, permitiéndote actualizar tu interfaz en consecuencia.
+- [`use-last-fm`](https://github.com/webmail/use-last-fm) Un hook para mostrar tu canción actualmente reproducida desde **Spotify** o cualquier otro sitio que [last.fm](https://last.fm) admita en tiempo real. ♪
+- [`use-lilius`](https://github.com/its-danny/use-lilius) Un hook de calendario sin cabeza para React.
+- [`use-media`](https://github.com/streamich/use-media) Consultas de medios CSS con un hook de React.
+- [`use-mouse-action`](https://github.com/dimitrinicolas/use-mouse-action) Hooks de React para escuchar tanto eventos de presión/liberación del ratón como eventos de clic con una función llamada una sola vez.
+- [`use-multiselect`](https://github.com/jschloer/use-multiselect) Administra el estado de selección múltiple.
+- [`use-overflow`](https://github.com/amorriscode/use-overflow) Un Hook de React que te permite detectar desbordamiento X e Y
+- [`use-places-autocomplete`](https://github.com/wellyshen/use-places-autocomplete) 📍 Hook de React para autocompletado de lugares de Google Maps.
+- [`use-popper`](https://github.com/sandiiarov/use-popper) Hook de React envolviendo Popper.js.
+- [`use-query-params`](https://github.com/pbeshai/use-query-params) Un Hook de React para administrar el estado en parámetros de consulta de URL con serialización fácil.
+- [`use-react-modal`](https://github.com/alex-cory/use-react-modal) 🖼 useModal, hook de React para Modales/Diálogos/Lightboxes
+- [`use-react-router`](https://github.com/CharlesStover/use-react-router) Hook de React para comportamiento pub-sub usando React Router.
+- [`use-reactive-state`](https://github.com/tedstoychev/use-reactive-state) `useReactiveState()` - una alternativa reactiva al `useState()` de React.
+- [`use-reducer-async`](https://github.com/dai-shi/use-reducer-async) React useReducer con acciones asincrónicas
+- [`use-redux`](https://github.com/flepretre/use-redux) Un hook para enlazar [redux](https://redux.js.org).
+- [`use-scroller`](https://github.com/geobde/use-scroller) Hook de React que agrega automáticamente la siguiente página, ahorrando a los usuarios una carga completa de página.
+- [`use-scroll-to-bottom`](https://github.com/tudorgergely/use-scroll-to-bottom) Hook de React para detectar cuándo se ha desplazado un elemento hacia la parte inferior.
+- [`use-simple-undo`](https://github.com/sandiiarov/use-simple-undo) Implementación simple de la funcionalidad deshacer/rehacer.
+- [`server-push-hooks`](https://github.com/mfrachet/server-push-hooks) 🔥 Hooks de React para [socket.io](https://socket.io), [SEE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events) y más por venir
+- [`use-socket.io-client`](https://github.com/iamgyz/use-socket.io-client) Hook de React para socket.io-client, manipula el cliente [socket.io](https://socket.io) sin ningún efecto secundario.
+- [`use-sse`](https://github.com/kmoskwiak/useSSE) ✨useSSE - use Server-Side Effect. `useEffect` tanto en el lado del cliente como del servidor.
+- [`use-ssr`](https://github.com/alex-cory/use-ssr) ☯️ Hook de React para determinar si estás en el servidor, navegador o react native.
+- [`use-state-snapshots`](https://github.com/haydn/use-state-snapshots) Un hook de React para rastrear cambios de estado para la funcionalidad deshacer/rehacer.
+- [`use-substate`](https://github.com/philipp-spiess/use-substate) Hook de React para suscribirse a tu estado de aplicación único (funciona con tu aplicación [Redux](https://redux.js.org/) actual).
+- [`use-suspender`](https://github.com/octet-stream/use-suspender) Ejecuta acciones asincrónicas con [`React.Suspense`](https://reactjs.org/docs/react-api.html#reactsuspense)
+- [`use-t`](https://github.com/streamich/use-t) Multiidioma usando hooks.
+- [`use-undo`](https://github.com/xxhomey19/use-undo) Hook de React para implementar la funcionalidad Deshacer y Rehacer.
+- [`use-videocard`](https://github.com/BRA1L0R/use-videocard) Hook de React para obtener la información de la tarjeta gráfica del cliente usando canvas
+- [`use-window-blur-change-title`](https://github.com/cyntler/use-window-blur-change-title) Hook de React para establecer el título de la página cuando el usuario cambia el enfoque fuera de la ventana actual.
+- [`useDarkMode`](https://github.com/donavon/use-dark-mode) Un Hook de React personalizado para ayudarte a implementar un componente de "modo oscuro".
+- [`useDeferredState`](https://github.com/phytonmk/useDeferredState) Un hook de React para diferir un cambio de estado. Esto es esencial cuando tu interfaz necesita esperar a que la animación de desaparición se complete para desmontar el componente.
+- [`useDropZone`](https://github.com/sbaidon/useDropZone) Hook de React que te permite establecer una funcionalidad simple de arrastrar y soltar.
+- [`useEmailAutocomplete`](https://github.com/alex-cory/use-email-autocomplete) 📬 Hook de React para campos de correo electrónico con autocompletado.
+- [`useFileDialog`](https://github.com/omidnikrah/use-file-dialog) Abre el diálogo de archivo sin luchar con la entrada de archivo usando el hook de React useFileDialog
+- [`useInView`](https://github.com/thebuilder/react-intersection-observer) Implementación de React de la API del Observador de Intersección para indicarte cuándo un elemento entra o sale de la ventana gráfica.
+- [`useIsTyping`](https://github.com/KATT/use-is-typing) Hook para saber si el usuario está escribiendo dentro de un textarea o input
+- [`useKeyCapture`](https://github.com/pranesh239/use-key-capture) ⌨️ Un hook simple para facilitar la escucha de eventos keyDown.
+- [`usePosition`](https://github.com/tranbathanhtung/usePosition) Hook de React para obtener la posición arriba a la izquierda de un elemento.
+- [`useReducerWithEffects`](https://github.com/frankiesardo/use-reducer-with-effects) Hook de React que coloca reducer y efectos secundarios
+- [`useReducerWithLocalStorage`](https://github.com/Tweries/useReducerWithLocalStorage) Hook de React que agrega compatibilidad con almacenamiento local al hook `useReducer`
+- [`useScreenType`](https://github.com/pankod/react-hooks-screen-type) Determinación del tipo de tamaño de pantalla para la grilla Bootstrap 4.
+- [`useScreenType`](https://github.com/wednesday-solutions/react-screentype-hook) Hook de React para obtener dinámicamente el tipo de pantalla actual (móvil, tableta, escritorio) con soporte de breakpoints configurables.
+- [`useScrollSpy`](https://github.com/Purii/react-use-scrollspy) Hook de React para actualizar automáticamente la navegación basada en la posición de desplazamiento.
+- [`useServiceWorker`](https://github.com/JCofman/react-hook-use-service-worker) Un hook de React que puede registrar un service worker
+- [`useValueAfter`](https://github.com/bboydflo/use-value-after) Hook de React muy simple para proporcionar fácilmente props diferentes a un componente (útil para probar casos límite)
+- [`useWaitForElements`](https://github.com/renansoares/useWaitForElements) Un hook simple para esperar a que los elementos se rendericen con MutationObserver.
+- [`useWindowOrientation`](https://github.com/tywmick/use-window-orientation) Un hook que devuelve la orientación de la ventana (retrato vs. paisaje) basada en las dimensiones actuales de la ventana
+- [`useWindowWidthBreakpoints`](https://github.com/tywmick/use-window-width-breakpoints) Un hook para usar breakpoints de ancho de ventana (inspirados en Bootstrap)

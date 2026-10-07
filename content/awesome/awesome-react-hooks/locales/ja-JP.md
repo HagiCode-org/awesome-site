@@ -1,0 +1,290 @@
+# awesome-react-hooks [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> 素晴らしいReact Hooksリソース
+
+## ドキュメント
+
+- [React Hooksドキュメント](https://reactjs.org/docs/hooks-intro.html)
+
+## ディスカッション
+
+- [React Hooks RFC](https://github.com/reactjs/rfcs/pull/68)
+
+## チュートリアル
+
+- ["Making Sense of React Hooks" by Dan Abramov](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889)
+- ["From React.Component to hooks" by Octave Raimbault](https://medium.com/@dispix/from-react-component-to-hooks-b50241334365)
+- ["React Hooks: What's going to happen to my tests?" by Kent C. Dodds](https://blog.kentcdodds.com/react-hooks-whats-going-to-happen-to-my-tests-df4c2b4d67b7)
+- ["State Management with React Hooks - No Redux or Context API" by André Gardi](https://medium.com/javascript-in-plain-english/state-management-with-react-hooks-no-redux-or-context-api-8b3035ceecf8)
+- ["How to Fetch Data with React Hooks?" by Robin Wieruch](https://www.robinwieruch.de/react-hooks-fetch-data/)
+- [React Hooksの入門](https://testdriven.io/blog/react-hooks-primer/)
+- [React Hooks - useContextとuseReducerを特徴とした詳細な掘り下げ](https://testdriven.io/blog/react-hooks-advanced/)
+- ["Using Custom React Hooks to Simplify Forms" by James King](https://upmostly.com/tutorials/using-custom-react-hooks-simplify-forms)
+- [Axiosでデータを取得するカスタムReact Hookのテスト](https://dev.to/doppelmutzi/testing-of-a-custom-react-hook-for-fetching-data-with-axios-4gf1)
+- [React Hooks学習ガイド（例とチュートリアル）by Eric Bishard](https://www.telerik.com/kendo-react-ui/react-hooks-guide/)
+- ["React Hooksをまともにテストする" by Dave Cooper](https://dev.to/grug/sanely-testing-react-hooks-2l1j)
+- [React by Example: Hooks](https://reactbyexample.github.io/hooks)
+
+## ビデオ
+
+- [🎬 ReactConf 2018: React Today and Tomorrow by Sophie Alpert and Dan Abramov](https://youtu.be/V-QO-KO90iQ) 公式発表と最初のデモ。
+- [🎬 ReactConf 2018: 90% Cleaner React by Ryan Florence](https://youtu.be/wXLf18DsV-I)
+- [🎬 React Hooks: A Complete Introduction by Harry Wolff](https://youtu.be/jd8R0a2Ur8Q)
+- [🎬 React Hooksプレイリスト by Ben Awad](https://www.youtube.com/playlist?list=PLN3n1USn4xllL1OrVr-A4oq7SG-cS9MOQ)
+- [🎬 React Hooksプレイリスト by Josh Ribakoff](https://www.youtube.com/playlist?list=PLj2oFNVaxfJ-AcPo191jz09g-v9CLRfCg)
+- [🎬 React Hooksプレイリスト by Michael Chan](https://www.youtube.com/playlist?list=PLnc_NxpmOxaNf_mTUx1BgoP5POXwSAu-g)
+- [🎬 Custom Hooks in React by Tanner Linsley](https://www.youtube.com/watch?v=J-g9ZJha8FE)
+
+## ポッドキャスト
+
+- [React Hooks - Syntax (Nov 14th, 2018)](https://syntax.fm/show/092/react-hooks)
+- [React Hooks 1 Year Later - Syntax (Mar 18, 2020)](https://syntax.fm/show/232/react-hooks-1-year-later)
+- [Why should I use React Hooks? - Syntax (Dec 7th, 2020)](https://syntax.fm/show/307/hasty-treat-why-should-i-use-react-hooks)
+
+## ツール
+
+- [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+- [`hooks.macro`](https://www.npmjs.com/package/hooks.macro) 自動メモ化無効化のためのBabelマクロ
+- [CodeSandboxスターターキット](https://codesandbox.io/s/7y6o4282lq)
+- [VS Code用React Hooksスニペット](https://marketplace.visualstudio.com/items?itemName=antmdvs.vscode-react-hooks-snippets)
+- [`hook-into-props`](https://github.com/juliettepretot/hook-into-props/tree/1e069a6c01c2a783100f2fea7709f56d8166a97e) hooksを使ってHOCsを構築するヘルパー。クラスコンポーネントでhooksを使うのに便利。
+- [`react-universal-hooks`](https://github.com/salvoravida/react-universal-hooks) React Universal Hooks：関数型またはクラスコンポーネントならどこでもuse**を使う
+- [Jooks](https://github.com/antoinejaussoin/jooks) Reactのhooks API (useState など) をモックしてカスタムhooksをユニットテストする
+- [`react-hooks-testing-library`](https://react-hooks-testing-library.com/) カスタムReact hooksのユニットテストを作成するためのライブラリ。
+
+## カタログ
+
+- [@react-hookz/web](https://github.com/react-hookz/web) - 細心の注意と SSR 互換性を念頭に構築された、汎用 React hooks のライブラリ。
+- [ahooks](https://github.com/alibaba/hooks) エンタープライズアプリケーションを対象とした React Hooks のコレクション。
+- [beautiful-react-hooks(🔥)](https://beautifulinteractions.github.io/beautiful-react-hooks/) コンポーネントとカスタムhooksの開発を高速化するためのhooksのコレクション。
+- [Captain hook](https://github.com/stevenpersia/captain-hook) hooksの控えめなリスト。
+- [crooks](https://github.com/chrisjpatty/crooks) ユニークなReact Hooksのコレクション。
+- [hooks-by-example](https://github.com/latviancoder/hooks-by-example) hook使用法の初心者向けの実世界の例のコレクション。
+- [Hooks.guide](https://hooks-guide.netlify.app/) コミュニティによってキュレートされたReact hooksのコレクション。
+- [react-recipes](https://github.com/craig1123/react-recipes) 👩‍🍳 必須hookレシピのコレクション 🥘
+- [Searchable Collection of React Hooks](https://nikgraf.github.io/react-hooks/)
+- [Sunflower(🌻)](https://github.com/ant-design/sunflower) antdコンポーネントを返すReact Hooksのコレクション。
+- [useHooks(🐠)](https://usehooks.com/) 毎日新しいReact Hookレシピ。
+- [Use Hooks](https://use-hooks.org/) 再利用可能なReact Hooksのコレクション。
+
+## パッケージ
+
+- [`@21kb/react-hooks`](https://github.com/21kb/react-hooks) hooksに_夢中になる_ための React Hooks のセット。
+- [`@d2k/react-devto`](https://github.com/bdbch/react-devto) Dev.to API リクエスト用の React hook
+- [`@d2k/react-github`](https://github.com/bdbch/react-github) Github API リクエスト用の React hook
+- [`@d2k/react-localstorage`](https://github.com/bdbch/react-localstorage) localstorage 値の更新とクリアを処理し、コンポーネントとの同期を保つ React hook。
+- [`@elgorditosalsero/react-gtm-hook`](https://github.com/elgorditosalsero/react-gtm-hook) Google Tag Manager を簡単に処理するための React hook。
+- [`@hookstate/core`](https://github.com/avkonst/hookstate) React 用の最新で非常に高速で拡張可能な状態管理。
+- [`@jzone/react-request-hook`](https://github.com/zhixiaoqiang/react-request-hook) 🐶 カスタムリクエスト用の React hook、様々なライブラリと互換性があり、redux をサポート
+- [`@kevinwolf/formal`](https://github.com/kevinwolfcr/formal) react hooks時代のための優雅なフォーム管理プリミティブ。
+- [`@koale/useworker`](https://github.com/alewin/useWorker) ⚙️ Web worker を使用してバックグラウンドで重い処理を実行し、UI をブロックしない
+- [`@marvelsq/use-properties-hook`](https://github.com/MarvelSQ/use-properties-hook) FunctionComponent 内のインスタンス関数（`class-properties`のような、`ShallowCompare`での比較も可能）
+- [`@rehooks/component-size`](https://github.com/rehooks/component-size) コンポーネントのサイズを決定するための React hook。
+- [`@rehooks/document-title`](https://github.com/rehooks/document-title) ドキュメントタイトルを更新するための React hook。
+- [`@rehooks/document-visibility`](https://github.com/rehooks/document-visibility) ドキュメント表示に購読するための React hook。
+- [`@rehooks/input-value`](https://github.com/rehooks/input-value) 入力値を作成するための React hook。
+- [`@rehooks/local-storage`](https://github.com/rehooks/local-storage) `localStorage[key]` をコンポーネントと同期する React hook。
+- [`@rehooks/network-status`](https://github.com/rehooks/network-status) ネットワークステータスを取得するための React hook。
+- [`@rehooks/online-status`](https://github.com/rehooks/online-status) オンラインステータスを取得するための React Hook。
+- [`@rehooks/window-scroll-position`](https://github.com/rehooks/window-scroll-position) ウィンドウの `x` および `y` 位置を取得するための React hook。
+- [`@rehooks/window-size`](https://github.com/rehooks/window-size) ウィンドウサイズの購読をするための React hook。
+- [`@rekindle/use-request`](https://github.com/react-rekindle/use-request) 🤖 リクエスト作成用の React hook。
+- [`@rkrupinski/use-state-machine`](https://github.com/rkrupinski/use-state-machine) 有限状態マシンhook。
+- [`@staltz/use-profunctor-state`](https://github.com/staltz/use-profunctor-state) Profunctor Optics を使った状態管理用の React Hook
+- [`@webscopeio/react-health-check`](https://github.com/webscopeio/react-health-check) 🏥 API サービスの健全性をチェックするための軽量 React hook。
+- [`@wellyshen/use-web-animations`](https://github.com/wellyshen/use-web-animations) 🍿 Web Animations API を使用した高性能で操作可能なアニメーション用の React hook。
+- [`@withvoid/melting-pot`](https://github.com/withvoid/melting-pot) React hook ユーティリティライブラリ。
+- [`ahooks/usetable`](https://github.com/ahooksjs/useTable) クエリテーブルシーン用のプログレッシブソリューション。
+- [`concent`](https://github.com/concentjs/concent) React に特化した状態管理。シンプルで予測可能、プログレッシブで効率的。
+- [`constate`](https://github.com/diegohaz/constate) `useContextState` と `useContextReducer` を使ってローカル状態をグローバル状態に変換。
+- [`conuse`](https://github.com/fodau/conuse) Context を使って Hook を共有
+- [`easy-peasy`](https://github.com/ctrlplusb/easy-peasy) React 用のシンプルなグローバル状態。
+- [`fetch-suspense`](https://github.com/CharlesStover/fetch-suspense) Suspense サポート付き Fetch API 用の React hook。
+- [`graphql-hooks`](https://github.com/nearform/graphql-hooks) ミニマルな hooks ファーストの GraphQL クライアント。
+- [`mobx-react-lite`](https://github.com/mobxjs/mobx-react-lite) 実験的 React hooks に基づいた MobX 用の軽量 React バインディング。
+- [`modali`](https://github.com/upmostly/modali) React Hooks をサポートするために最初から構築された、楽しいモーダルダイアログコンポーネント。
+- [`moment-hooks`](https://github.com/momentechnologies/moment-hooks) 汎用 react hooks を含むライブラリ
+- [`nice-hooks`](https://github.com/daniel-dx/nice-hooks) 🍹 react hooks をより簡単に使用できるようにするたくさんのいい hooks (useState コールバック / ライフサイクル / インスタンス変数)
+- [`promise-hook`](https://github.com/aiven715/promise-hook) Promise ベースのデータ取得を簡単にするための React hook。
+- [`reactive-react-redux`](https://github.com/dai-shi/reactive-react-redux) React Hooks と Proxy を使った React Redux バインディング
+- [`react-async-hook`](https://github.com/slorber/react-async-hook) React コンポーネントにアドホックなデータを取得するための React hook。
+- [`react-cached-callback`](https://github.com/megazazik/react-cached-callback) キーで複数のコールバックをキャッシュするための React hooks。例えば、ループ内で。
+- [`react-context-refs`](https://github.com/megazazik/react-context-refs) コンテキスト経由で要素の ref を取得するための React hooks。
+- [`react-cookie`](https://github.com/reactivestack/cookies) ユニバーサルクッキー用の React hooks。
+- [`react-cool-dimensions`](https://github.com/wellyshen/react-cool-dimensions) 📏 要素のサイズを測定してレスポンシブコンポーネントを処理するための React hook。
+- [`react-cool-form`](https://github.com/wellyshen/react-cool-form) 📋 フォームの状態と検証用の React hooks。より少ないコード、より高いパフォーマンス。
+- [`react-cool-inview`](https://github.com/wellyshen/react-cool-onclickoutside) 🖥️ 要素が viewport に入るまたは出るのを監視するための React hook（または別の要素）。
+- [`react-cool-onclickoutside`](https://github.com/wellyshen/react-cool-onclickoutside) 🖱 コンポーネント外のクリックをリッスンするための React hook。
+- [`react-cool-portal`](https://github.com/wellyshen/react-cool-portal) 🍒 モーダル、ドロップダウン、ツールチップなどを <body> または他の場所にレンダリングする Portals 用の React hook。
+- [`react-cool-virtual`](https://github.com/wellyshen/react-cool-virtual) ♻️ 大きなデータセットを簡単にレンダリングするための小さな React hook。
+- [`react-countdown-hook`](https://github.com/alexkhismatulin/react-use-count-down) React 用のシンプルながら強力なカウントダウンhook。`requestAnimationFrame` で動作。
+- [`react-darkreader`](https://github.com/Turkyden/react-darkreader) 🌓 darkreader にインスパイアされた、サイトにダーク/ナイトモードを追加するための React Hook。
+- [`react-declare-form`](https://github.com/andy9775/react-declare-form) React hook ベースの宣言型フォームライブラリ。
+- [`react-deep-hooks`](https://github.com/codeshake/react-deep-hooks) 非プリミティブ依存関係用の React hooks。
+- [`react-dom-status-hook`](https://github.com/yeskunall/react-dom-status-hook) `DOMContentLoaded` イベントに購読するための React hook。
+- [`react-enhanced-reducer-hook`](https://github.com/shiningjason/react-enhanced-reducer-hook) ミドルウェアを受け入れる `useReducer` の代替。
+- [`react-fetch-hook`](https://github.com/ilyalesik/react-fetch-hook) Fetch API を使いやすくするための React hook。
+- [`react-firebase-hooks`](https://github.com/csfrequency/react-firebase-hooks) [Firebase](https://firebase.google.com) で使用するための hooks のコレクション。
+- [`react-form-stateful`](https://github.com/ckedwards/react-form-stateful) フォームライブラリ。副作用を通じてライブラリを拡張できるようにディスパッチを公開。
+- [`react-hanger`](https://github.com/kitze/react-hanger) ユーティリティ hooks の小さなコレクション。
+- [`react-hook-mighty-mouse`](https://github.com/mkosir/react-hook-mighty-mouse) 選択された要素のマウスイベントを追跡する React hook 🐭
+- [`react-hook-mousetrap`](https://www.npmjs.com/package/react-hook-mousetrap) mousetrap で動作するキーまたはキーの組み合わせでコールバックをトリガーするための hook。
+- [`react-hookedup`](https://github.com/zakariaharti/react-hookedup) 有用な React hooks のコレクション。
+- [`react-hook-form`](https://github.com/bluebill1049/react-hook-form) 面倒なフォーム検証なし。
+- [`react-hook-layout`](https://github.com/ytiurin/react-hook-layout) React でのレイアウト管理。
+- [`react-hooks-async`](https://github.com/dai-shi/react-hooks-async) 中止可能で合成可能な非同期関数用の React カスタム hooks
+- [`react-hooks-global-state`](https://github.com/dai-shi/react-hooks-global-state) シンプルなグローバル状態管理。
+- [`react-hooks-image-size`](https://github.com/use-hooks/react-hooks-image-size) URL から画像の自然なサイズを取得するための hook。
+- [`react-hooks-lib`](https://github.com/beizhedenglong/react-hooks-lib) 再利用可能な react hooks のセット。
+- [`react-hooks-svgdrawing`](https://github.com/kmkzt/react-hooks-svgdrawing) SVG 描画用の hook。
+- [`react-hooks-use-modal`](https://github.com/shibe97/react-hooks-use-modal) モーダルを簡単に開くための hook。
+- [`react-hooks-visible`](https://github.com/kmkzt/react-hooks-visible) 要素の可視性用の hook。Intersection Observer API を使用。
+- [`react-hooks-worker`](https://github.com/dai-shi/react-hooks-worker) Web worker 用の React カスタム hooks
+- [`react-hotkey-hook`](https://github.com/JohannesKlauss/react-hotkeys-hook) ホットキー用の React hook。
+- [`react-i18next`](https://react.i18next.com/latest/usetranslation-hook) React の国際化。ちゃんとやる。
+- [`react-immer-hooks`](https://github.com/sin/react-immer-hooks) Immer を使用した状態更新用の useState と useReducer。
+- [`react-indicative-hooks`](https://github.com/marceloadsj/react-indicative-hooks) [Indicative](http://indicative.adonisjs.com) というデータ検証ライブラリをラップする Hooks
+- [`react-intersection-visible-hook`](https://github.com/AvraamMavridis/react-intersection-visible-hook) 関数型コンポーネントの可視性を追跡するための React hook。
+- [`react-media-hook`](https://github.com/lessmess-agency/react-media-hook) メディアクエリ用の React hook。
+- [`react-metatags-hook`](https://github.com/lordgiotto/react-metatags-hook) HTML メタタグを管理する React Hook。
+- [`react-native-react-bridge`](https://github.com/inokawa/react-native-react-bridge) React を実行して、それらの間の通信を処理するための React Native プラグイン。
+- [`react-optimistic-ui-hook`](https://github.com/mamal72/react-optimistic-ui-hook) ⚛️ React hook を使った最小限の「optimistic UI」パターン実装
+- [`react-page-name`](https://github.com/RyanFitzgerald/react-page-name) ページタイトルを管理するための React Hook。
+- [`react-peer-data`](https://github.com/vardius/react-peer-data) WebRTC を使ったファイルとメディアのストリーミング/共有用の PeerData ライブラリ用 React ラッパー。
+- [`react-pirate`](https://github.com/dispix/react-pirate) React ライフサイクルとユーティリティ hooks。
+- [`react-powerhooks`](https://github.com/kalcifer/react-powerhooks) react-powerplug コンポーネント用の Hooks API。
+- [`react-promiseful`](https://github.com/moxystudio/react-promiseful) Promise のステータスに基づいて子を条件付きでレンダリングするための React コンポーネントと hook。
+- [`react-query`](https://github.com/tannerlinsley/react-query) React でのデータの非同期取得、キャッシング、更新用の hooks。
+- [`react-recaptcha-hook`](https://github.com/hupe1980/react-recaptcha-hook) google-recaptcha v3 用の React hook
+- [`react-recipes`](https://github.com/craig1123/react-recipes) 👩‍🍳 必須 hook レシピのコレクション 🥘
+- [`react-request-hook`](https://github.com/schettino/react-request-hook) 管理可能でキャンセル可能で安全志向の API リクエスト。
+- [`react-responsive`](https://github.com/contra/react-responsive) React メディアクエリモジュール。
+- [`react-rocketjump`](https://github.com/inmagik/react-rocketjump) 状態と副作用を簡単に管理。
+- [`react-screen-wake-lock`](https://github.com/jorisre/react-screen-wake-lock) Screen Wake Lock API の React 実装。アプリケーションが実行を続ける必要がある場合、デバイスが暗くなったり画面がロックされたりするのを防ぐ方法を提供
+- [`react-script-hook`](https://github.com/hupe1980/react-script-hook) 外部スクリプトを動的に読み込み、それが読み込まれたときを知るための React hook
+- [`react-selector-hooks`](https://github.com/Andarist/react-selector-hooks) レンダリング外の宣言用の hook ベースのメモ化セレクタファクトリのコレクション。
+- [`react-speech-kit`](https://github.com/MikeyParton/react-speech-kit) ブラウザ音声認識と音声合成用の hooks。
+- [`react-state-patterns`](https://github.com/mcclayton/react-state-patterns) hooks から React state provider パターンの再利用可能な実装を作成するためのユーティリティパッケージ。
+- [`react-swipeable`](https://github.com/dogfessional/react-swipeable) React スワイプイベントハンドラー hook。
+- [`react-tracked`](https://github.com/dai-shi/react-tracked) React Context を使った シンプルで高速なグローバル状態。不要な再レンダリングを手間なく排除。
+- [`react-uniformed`](https://github.com/j-a-y-h/react-uniformed) 🚀 hooks を使った宣言的な React フォーム。
+- [`react-use-api`](https://github.com/RyanRoll/react-use-api) axios 用の非同期 HTTP リクエストデータ。多様な UI 状態、SSR、データ事前キャッシング用に設計。
+- [`react-use-browser`](https://github.com/crossroads-loyalty-solutions/react-use-browser) サーバーが生成したマークアップが最終的なクライアントアプリケーションマークアップと異なる場合、サーバー側でレンダリングされたコンポーネントのクライアント側ハイドレーションを有効にするための hook。
+- [`react-use-calendar`](https://github.com/gregnb/react-use-calendar) イベント付きカレンダーを実装するための hook。
+- [`react-use-clipboard`](https://github.com/danoc/react-use-clipboard) ユーザーのクリップボードにテキストをコピーする hook。
+- [`react-use-d3`](https://github.com/inokawa/react-use-d3) D3 を使用するための React hook。
+- [`react-use-data-loader`](https://github.com/smmoosavi/react-use-data-loader) データ読み込み用の React hook
+- [`react-use-fetch-factory`](https://github.com/JohannesKlauss/react-use-fetch-factory) redux でデータの取得と選択を処理する React hook。
+- [`react-use-fetch-with-redux`](https://github.com/grug/react-use-fetch-with-redux/) API リクエストをキャッシュして redux で機能する React hook。
+- [`react-use-form-state`](https://github.com/wsmd/react-use-form-state) フォームと入力状態を管理するための React hook。
+- [`react-use-id-hook`](https://github.com/Yaska/react-use-id-hook) SSR セーフな一意の ID 文字列を生成するための React hook。
+- [`react-use-idb`](https://github.com/kigiri/react-use-idb) ブラウザで `indexDB` を使用して値を保存するための React hook。
+- [`react-use-infinite-loader`](https://github.com/CurationCorp/react-use-infinite-loader) :infinity: :page_with_curl: :hourglass_flowing_sand: React アプリ用の超軽量無限ローディング (スクロール) hook
+- [`react-use-input`](https://github.com/robcalcroft/react-use-input) 🎣 setter を HTML 入力に直接渡すことができる hook
+- [`react-use-lazy-load-image`](https://github.com/robcalcroft/react-use-lazy-load-image) :sunrise: :zap: React アプリに画像遅延読み込みを簡単に追加
+- [`react-use-message-bar`](https://github.com/intercaetera/react-use-message-bar) メッセージバー用のシンプルな React hook。
+- [`react-use-modal`](https://github.com/wowlusitong/react-use-modal) モーダルを管理するための React hook。
+- [`react-use-path`](https://github.com/zhangkaiyulw/react-use-path) 最小サイズの hook スタイル React ルーター。
+- [`react-use-scroll-position`](https://github.com/neo/react-use-scroll-position) スクロール位置を使用するための React hook。
+- [`react-use-trigger`](https://github.com/ilyalesik/react-use-trigger) コードの任意の場所からエフェクトをトリガーするための React hook
+- [`react-use-watch`](https://github.com/iam-frankqiu/react-use-watch) 依存関係が変更されたときに 1 回だけトリガーされる React hook。
+- [`react-use-wavelet`](https://github.com/perlin-network/react-use-wavelet) Wavelet スマートコントラクトプラットフォームに接続するための React hooks
+- [`react-use`](https://github.com/streamich/react-use) 必須 hooks のコレクション。
+- [`react-useFormless`](https://github.com/GeDiez/react-use-formless) フォーム状態を処理するための React hook。
+- [`react-usemiddleware`](https://github.com/venil7/react-usemiddleware) 既存の Redux ミドルウェア (thunk や saga など) を `useReducer` で使用するための React hook。
+- [`react-useportal`](https://github.com/alex-cory/react-useportal) 🌀 usePortal、Portals 用の React hook
+- [`react-user-media`](https://github.com/vardius/react-user-media) `navigator.getUserMedia` 用の React ラッパー。
+- [`react-wait`](https://github.com/f/react-wait) React アプリケーション用の複雑なローダー管理 Hook。
+- [`react-window-communication-hook`](https://github.com/AvraamMavridis/react-window-communication-hook) ブラウザコンテキスト (タブ、ウィンドウ、iframe) 間で通信するための React hook。
+- [`react-with-hooks`](https://github.com/yesmeck/react-with-hooks) 提案された React Hooks API 用の Ponyfill。
+- [`reaktion`](https://github.com/mfrachet/reaktion) グローバル状態管理用の useState ライク hook。
+- [`redhooks`](https://github.com/iusehooks/redhooks) React Hooks を使ったグローバル状態管理。redux-thunk や redux-saga などのミドルウェアの使用、またはカスタムミドルウェアの使用もサポート。
+- [`redux-react-hook`](https://github.com/ianobermiller/redux-react-hook) Redux ストアからマップされた状態にアクセスするための React hook。
+- [`region-core`](https://github.com/regionjs/region-core) `useProps` hook を使ったグローバル状態管理フレームワーク。
+- [`rehooks-visibility-sensor`](https://github.com/imbhargav5/rehooks-visibility-sensor) 要素がビューにスクロールしたかどうかをチェック。
+- [`resynced`](https://github.com/pedronasser/resynced) React Hooks API を使った複数状態管理。
+- [`reto`](https://awmleer.github.io/reto) hooks を備えた柔軟で効率的な React ストア。
+- [`rrh`](https://github.com/brn/rrh) react-redux 用の超シンプルな React Hooks。
+- [`rxjs-hooks`](https://github.com/LeetCode-OpenSource/rxjs-hooks) react hooks で RxJS v6+ を使用する簡単な方法。
+- [`scroll-data-hook`](https://github.com/dejorrit/scroll-data-hook) スクロール速度、距離、方向などに関する情報を返す。
+- [`style-hook`](https://github.com/style-hook/style-hook) 🎨 react hooks で js に css を書く。
+- [`swr`](https://github.com/zeit/swr) リモートデータ取得用の React Hooks ライブラリ。
+- [`the-platform`](https://github.com/palmerhq/the-platform) ブラウザ API を React Hooks と一般的な状況のための Suspense フレンドリーな React 要素に変換。
+- [`trousers`](https://github.com/danieldelcore/trousers) 👖 hooks ファーストの CSS-in-JS ライブラリ。セマンティクスと実行時パフォーマンスに焦点を当てた
+- [`use-abortable-fetch`](https://github.com/mauricedb/use-abortable-fetch) fetch を実行して、コンポーネントがアンマウントされたか別のリクエストが行われたときにアボートする React hook。
+- [`use-action`](https://github.com/awmleer/use-action) useEffect とほぼ同じですが、遅延しません。
+- [`use-as-bind`](https://github.com/tylervipond/use-as-bind) WASM ソースで as-bind を使用するための React hook。
+- [`use-async-memo`](https://github.com/awmleer/use-async-memo) 非同期メモ化データを生成するための React hook。
+- [`use-autocomplete`](https://github.com/lowewenzel/use-autocomplete) 配列内の検索文字列のオートコンプリート値を返す React hook。
+- [`use-axios-react`](https://github.com/sergey-s/use-axios-react) axios 用の React CRUD hooks。豊富な例のリスト
+- [`use-boolean`](https://github.com/mykolaharmash/use-boolean) ブール状態を処理するための便利なヘルパー。
+- [`use-browser-history`](https://github.com/zcallan/use-browser-history) ブラウザ履歴イベントを処理するための React hook。
+- [`use-cart`](https://github.com/samjbmason/use-cart) ショッピングカート機能を提供する React hook。
+- [`use-click-away`](https://github.com/geobde/use-click-away) DOM 要素がクリックされなかったときにコールバックを呼び出す React hook。
+- [`use-clippy`](https://github.com/CharlesStover/use-clippy) ユーザーのクリップボードの読み取りと書き込みを行うための React hook。
+- [`use-context-selector`](https://github.com/dai-shi/use-context-selector) ユーザーランドでの React useContextSelector hook。
+- [`use-controlled-input-number`](https://github.com/d-asensio/use-controlled-input-number) 数値入力の動作をほぼ期待通りにするための React hook。
+- [`use-countries`](https://github.com/oktaysenkan/use-countries) 国と言語をリストするためのカスタム React hook。
+- [`use-debounce`](https://github.com/xnimorz/use-debounce) React 用の debounce (と throttle) hook。
+- [`use-deep-compare`](https://github.com/sandiiarov/use-deep-compare) React の useEffect/useMemo/useCallback hooks と同じですが、入力の深い比較を使用。
+- [`use-deep-compare-effect`](https://github.com/kentcdodds/use-deep-compare-effect) 🐋 React の useEffect hook と同じですが、参照の等価性ではなく入力の深い比較を使用。
+- [`use-detect-print`](https://github.com/gregnb/use-detect-print) ページが印刷中かどうかを検出するための React hook。
+- [`use-dimensions`](https://github.com/CharlesStover/use-dimensions) 画面とウィンドウの寸法を取得するための React Native hook。
+- [`use-double-click`](https://github.com/zattoo/use-double-click) 継続的なダブルクリックとクリックおよびダブルクリックイベントの組み合わせ用の React hook
+- [`use-eazy-auth`](https://github.com/gffuma/use-eazy-auth) 認証を処理するための React hooks。
+- [`use-events`](https://github.com/sandiiarov/use-events) マウスイベントを処理するための React Hooks のセット。
+- [`use-force-update`](https://github.com/CharlesStover/use-force-update) 関数型コンポーネントの再レンダリングを強制するための React hook。
+- [`use-hotkeys`](https://github.com/sandiiarov/use-hotkeys) keydown と keyup キーボードイベントをリッスンし、キーボードショートカットを定義および配分する HotKeys.js React Hook。
+- [`use-hovering`](https://github.com/therealparmesh/use-hovering) ホバー状態を追跡するためのシンプルでアクセシブルな React hook。
+- [`use-http`](https://github.com/alex-cory/use-http) 🐶 useFetch、アイソモーフィック http リクエスト用の React hook。
+- [`use-immer`](https://github.com/mweststrate/use-immer) [immer](https://github.com/mweststrate/immer) を使用して状態を操作するための hook。
+- [`use-input-file`](https://github.com/neighborhood999/use-input-file) ファイル入力を作成するための React hook。
+- [`use-is-mounted-ref`](https://github.com/helderburato/use-is-mounted-ref) `useIsMountedRef` はコンポーネントがマウントされたときをチェックするための React Hook。
+- [`use-lang-direction`](https://github.com/davidicus/use-lang-direction) HTML 要素の `dir` 属性値を読み取り、その更新を監視するため、UI をそれに応じて更新できる hook。
+- [`use-last-fm`](https://github.com/webmail/use-last-fm) **Spotify** または [last.fm](https://last.fm) がサポートする他のサイトからの現在再生中の曲をリアルタイムで表示する hook。 ♪
+- [`use-lilius`](https://github.com/its-danny/use-lilius) React 用のヘッドレスカレンダー hook。
+- [`use-media`](https://github.com/streamich/use-media) React hook を使用した CSS メディアクエリ。
+- [`use-mouse-action`](https://github.com/dimitrinicolas/use-mouse-action) マウスダウンまたはアップとクリックイベントの両方を監視し、1 回呼び出される関数を持つ React Hooks。
+- [`use-multiselect`](https://github.com/jschloer/use-multiselect) 複数選択状態を管理。
+- [`use-overflow`](https://github.com/amorriscode/use-overflow) X と Y のオーバーフローを検出できる React Hook
+- [`use-places-autocomplete`](https://github.com/wellyshen/use-places-autocomplete) 📍 Google Maps Places オートコンプリート用の React hook。
+- [`use-popper`](https://github.com/sandiiarov/use-popper) Popper.js 周辺の React hook ラッパー。
+- [`use-query-params`](https://github.com/pbeshai/use-query-params) URL クエリパラメータで状態を管理するための React Hook。簡単なシリアル化付き。
+- [`use-react-modal`](https://github.com/alex-cory/use-react-modal) 🖼 useModal、モーダル/ダイアログ/ライトボックス用の React hook
+- [`use-react-router`](https://github.com/CharlesStover/use-react-router) React Router を使用した pub-sub 動作用の React Hook。
+- [`use-reactive-state`](https://github.com/tedstoychev/use-reactive-state) `useReactiveState()` - React の `useState()` への反応的な代替案。
+- [`use-reducer-async`](https://github.com/dai-shi/use-reducer-async) 非同期アクション付き React useReducer
+- [`use-redux`](https://github.com/flepretre/use-redux) [redux](https://redux.js.org) にバインドするための hook。
+- [`use-scroller`](https://github.com/geobde/use-scroller) 自動的に次のページを追加して、ユーザーをフルページの読み込みから救う React hook。
+- [`use-scroll-to-bottom`](https://github.com/tudorgergely/use-scroll-to-bottom) 要素がスクロールして一番下に到達した場合を検出するための React hook。
+- [`use-simple-undo`](https://github.com/sandiiarov/use-simple-undo) 簡単な取り消し/やり直し機能の実装。
+- [`server-push-hooks`](https://github.com/mfrachet/server-push-hooks) 🔥 [socket.io](https://socket.io)、[SEE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events) などへの React hooks
+- [`use-socket.io-client`](https://github.com/iamgyz/use-socket.io-client) socket.io-client 用の React hook。副作用なく [socket.io](https://socket.io) クライアントを操作。
+- [`use-sse`](https://github.com/kmoskwiak/useSSE) ✨useSSE - use Server-Side Effect。クライアントとサーバーの両側で `useEffect`。
+- [`use-ssr`](https://github.com/alex-cory/use-ssr) ☯️ サーバー、ブラウザ、または react native 上にいるかどうかを判断するための React hook。
+- [`use-state-snapshots`](https://github.com/haydn/use-state-snapshots) 取り消し/やり直し機能のための状態変更を追跡するための React hook。
+- [`use-substate`](https://github.com/philipp-spiess/use-substate) 単一アプリ状態に購読するための React hook（現在の [Redux](https://redux.js.org/) アプリで機能）。
+- [`use-suspender`](https://github.com/octet-stream/use-suspender) [`React.Suspense`](https://reactjs.org/docs/react-api.html#reactsuspense) で非同期アクションを実行
+- [`use-t`](https://github.com/streamich/use-t) hooks を使った多言語。
+- [`use-undo`](https://github.com/xxhomey19/use-undo) 取り消しと やり直し機能を実装するための React hook。
+- [`use-videocard`](https://github.com/BRA1L0R/use-videocard) キャンバスを使用してクライアントのグラフィックスカード情報を取得するための React hook
+- [`use-window-blur-change-title`](https://github.com/cyntler/use-window-blur-change-title) ユーザーが現在のウィンドウからフォーカスを移すときにページタイトルを設定するための React Hook。
+- [`useDarkMode`](https://github.com/donavon/use-dark-mode) 「ダークモード」コンポーネントの実装を支援するカスタム React Hook。
+- [`useDeferredState`](https://github.com/phytonmk/useDeferredState) 状態変更を遅延させるための React hook。これは、UI がコンポーネントをアンマウントする前に消失アニメーションが完了するのを待つ必要がある場合に重要。
+- [`useDropZone`](https://github.com/sbaidon/useDropZone) シンプルなドラッグアンドドロップ機能を設定できる React hook。
+- [`useEmailAutocomplete`](https://github.com/alex-cory/use-email-autocomplete) 📬 メールオートコンプリート入力用の React hook。
+- [`useFileDialog`](https://github.com/omidnikrah/use-file-dialog) useFileDialog React hook を使用してファイル入力に悩まされることなくファイルダイアログを開く
+- [`useInView`](https://github.com/thebuilder/react-intersection-observer) 要素が viewport に入るか出るかを通知する Intersection Observer API の React 実装。
+- [`useIsTyping`](https://github.com/KATT/use-is-typing) ユーザーが textarea または input 内で入力中かどうかを確認するための hook
+- [`useKeyCapture`](https://github.com/pranesh239/use-key-capture) ⌨️ keyDown リスニングイベントを簡単にするシンプルな hook。
+- [`usePosition`](https://github.com/tranbathanhtung/usePosition) 要素の左上の位置を取得するための React hook。
+- [`useReducerWithEffects`](https://github.com/frankiesardo/use-reducer-with-effects) reducer と副作用を共存させる React Hook
+- [`useReducerWithLocalStorage`](https://github.com/Tweries/useReducerWithLocalStorage) `useReducer` hook にローカルストレージサポートを追加する React hook
+- [`useScreenType`](https://github.com/pankod/react-hooks-screen-type) Bootstrap 4 グリッドのスクリーンサイズタイプを決定。
+- [`useScreenType`](https://github.com/wednesday-solutions/react-screentype-hook) 設定可能なブレークポイントサポート付きの現在のスクリーンタイプ（モバイル、タブレット、デスクトップ）を動的に取得する React hook。
+- [`useScrollSpy`](https://github.com/Purii/react-use-scrollspy) スクロール位置に基づいてナビゲーションを自動的に更新するための React hook。
+- [`useServiceWorker`](https://github.com/JCofman/react-hook-use-service-worker) サービスワーカーを登録できる React hook
+- [`useValueAfter`](https://github.com/bboydflo/use-value-after) コンポーネントに異なるプロップを簡単に提供するためのシンプルな React hook（エッジケースのテストに便利）
+- [`useWaitForElements`](https://github.com/renansoares/useWaitForElements) MutationObserver で要素がレンダリングされるのを待つためのシンプルな hook。
+- [`useWindowOrientation`](https://github.com/tywmick/use-window-orientation) 現在のウィンドウ寸法に基づいて、ウィンドウの向き（縦向き vs 横向き）を返す hook
+- [`useWindowWidthBreakpoints`](https://github.com/tywmick/use-window-width-breakpoints) （Bootstrap にインスパイアされた）ウィンドウ幅ブレークポイントを使用するための hook
