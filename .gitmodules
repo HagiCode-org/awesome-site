@@ -256,3 +256,48 @@
 [submodule "sources/awesome-waf"]
 	path = sources/awesome-waf
 	url = https://github.com/0xInfection/Awesome-WAF.git
+[submodule "sources/awesome-console-services"]
+	path = sources/awesome-console-services
+	url = https://github.com/chubin/awesome-console-services.git
+[submodule "sources/awesome-shodan-queries"]
+	path = sources/awesome-shodan-queries
+	url = https://github.com/jakejarvis/awesome-shodan-queries.git
+[submodule "sources/awesome-web-hacking"]
+	path = sources/awesome-web-hacking
+	url = https://github.com/infoslack/awesome-web-hacking.git
+[submodule "sources/awesome-chaos-engineering"]
+	path = sources/awesome-chaos-engineering
+	url = https://github.com/dastergon/awesome-chaos-engineering.git
+[submodule "sources/awesome-codex-subagents"]
+	path = sources/awesome-codex-subagents
+	url = https://github.com/VoltAgent/awesome-codex-subagents.git
+[submodule "sources/android-security-awesome"]
+	path = sources/android-security-awesome
+	url = https://github.com/ashishb/android-security-awesome.git
+[submodule "sources/awesome-3d-gaussian-splatting"]
+	path = sources/awesome-3d-gaussian-splatting
+	url = https://github.com/MrNeRF/awesome-3D-gaussian-splatting.git
+[submodule "sources/awesome-agentic-ai-zh"]
+	path = sources/awesome-agentic-ai-zh
+	url = https://github.com/WenyuChiou/awesome-agentic-ai-zh.git
+[submodule "sources/awesome-ai-apps"]
+	path = sources/awesome-ai-apps
+	url = https://github.com/Arindam200/awesome-ai-apps.git
+[submodule "sources/awesome-chinese-nlp"]
+	path = sources/awesome-chinese-nlp
+	url = https://github.com/crownpku/Awesome-Chinese-NLP.git
+[submodule "sources/awesome-chrome-devtools"]
+	path = sources/awesome-chrome-devtools
+	url = https://github.com/ChromeDevTools/awesome-chrome-devtools.git
+[submodule "sources/awesome-coreml-models"]
+	path = sources/awesome-coreml-models
+	url = https://github.com/likedan/Awesome-CoreML-Models.git
+[submodule "sources/awesome-jellyfin"]
+	path = sources/awesome-jellyfin
+	url = https://github.com/awesome-jellyfin/awesome-jellyfin.git
+[submodule "sources/awesome-react-hooks"]
+	path = sources/awesome-react-hooks
+	url = https://github.com/rehooks/awesome-react-hooks.git
+[submodule "sources/awesome-red-teaming"]
+	path = sources/awesome-red-teaming
+	url = https://github.com/yeyintminthuhtut/Awesome-Red-Teaming.git
