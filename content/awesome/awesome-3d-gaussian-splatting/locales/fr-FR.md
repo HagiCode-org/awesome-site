@@ -9,12 +9,12 @@
 
 ## Sommaire
 
-- [Publications et documentation](#publications-et-documentation)
-- [Implémentations](#implémentations)
-- [Visionneuses et prise en charge des moteurs de jeu](#visionneuses-et-prise-en-charge-des-moteurs-de-jeu)
-- [Outils et utilitaires](#outils-et-utilitaires)
-- [Ressources d'apprentissage](#ressources-dapprentissage)
-- [Crédits](#crédits)
+- [Publications et documentation](#papers--documentation)
+- [Implémentations](#implementations)
+- [Visionneuses et prise en charge des moteurs de jeu](#viewers--game-engine-support)
+- [Outils et utilitaires](#tools--utilities)
+- [Ressources d'apprentissage](#learning-resources)
+- [Crédits](#credits)
 
 ## Publications et documentation
 

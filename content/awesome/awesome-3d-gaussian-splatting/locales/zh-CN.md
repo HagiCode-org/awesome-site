@@ -9,12 +9,12 @@
 
 ## 目录
 
-- [论文与文档](#论文与文档)
-- [实现](#实现)
-- [查看器与游戏引擎支持](#查看器与游戏引擎支持)
-- [工具与实用程序](#工具与实用程序)
-- [学习资源](#学习资源)
-- [致谢](#致谢)
+- [论文与文档](#papers--documentation)
+- [实现](#implementations)
+- [查看器与游戏引擎支持](#viewers--game-engine-support)
+- [工具与实用程序](#tools--utilities)
+- [学习资源](#learning-resources)
+- [致谢](#credits)
 
 ## 论文与文档
 

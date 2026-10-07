@@ -9,12 +9,12 @@
 
 ## 目錄
 
-- [論文與文件](#論文與文件)
-- [實作](#實作)
-- [檢視器與遊戲引擎支援](#檢視器與遊戲引擎支援)
-- [工具與實用程式](#工具與實用程式)
-- [學習資源](#學習資源)
-- [致謝](#致謝)
+- [論文與文件](#papers--documentation)
+- [實作](#implementations)
+- [檢視器與遊戲引擎支援](#viewers--game-engine-support)
+- [工具與實用程式](#tools--utilities)
+- [學習資源](#learning-resources)
+- [致謝](#credits)
 
 ## 論文與文件
 

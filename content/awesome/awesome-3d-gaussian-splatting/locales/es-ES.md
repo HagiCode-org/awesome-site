@@ -9,12 +9,12 @@
 
 ## Contenido
 
-- [Artículos y documentación](#artículos-y-documentación)
-- [Implementaciones](#implementaciones)
-- [Visores y soporte para motores de juego](#visores-y-soporte-para-motores-de-juego)
-- [Herramientas y utilidades](#herramientas-y-utilidades)
-- [Recursos de aprendizaje](#recursos-de-aprendizaje)
-- [Créditos](#créditos)
+- [Artículos y documentación](#papers--documentation)
+- [Implementaciones](#implementations)
+- [Visores y soporte para motores de juego](#viewers--game-engine-support)
+- [Herramientas y utilidades](#tools--utilities)
+- [Recursos de aprendizaje](#learning-resources)
+- [Créditos](#credits)
 
 ## Artículos y documentación
 

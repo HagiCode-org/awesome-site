@@ -9,12 +9,12 @@
 
 ## Inhalt
 
-- [Papers & Dokumentation](#papers--dokumentation)
-- [Implementierungen](#implementierungen)
-- [Viewer & Game-Engine-Unterstützung](#viewer--game-engine-unterstützung)
-- [Werkzeuge & Utilities](#werkzeuge--utilities)
-- [Lernressourcen](#lernressourcen)
-- [Danksagungen](#danksagungen)
+- [Papers & Dokumentation](#papers--documentation)
+- [Implementierungen](#implementations)
+- [Viewer & Game-Engine-Unterstützung](#viewers--game-engine-support)
+- [Werkzeuge & Utilities](#tools--utilities)
+- [Lernressourcen](#learning-resources)
+- [Danksagungen](#credits)
 
 ## Papers & Dokumentation
 
