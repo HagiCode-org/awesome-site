@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "Go",
+      "description": "精选的 Go 框架、库和软件列表。",
+      "sourceDigest": "f60d76ebce689a58b4bd5cb7da6a27ccf5c8cc4032f384065aa2d50fa6f8cb89",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "Go",
+      "description": "精選的 Go 框架、函式庫與軟體清單。",
+      "sourceDigest": "f60d76ebce689a58b4bd5cb7da6a27ccf5c8cc4032f384065aa2d50fa6f8cb89",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "Go",
+      "description": "Une liste sélectionnée de frameworks, bibliothèques et logiciels Go.",
+      "sourceDigest": "f60d76ebce689a58b4bd5cb7da6a27ccf5c8cc4032f384065aa2d50fa6f8cb89",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "Go",
+      "description": "Eine kuratierte Liste von Go-Frameworks, -Bibliotheken und -Software.",
+      "sourceDigest": "f60d76ebce689a58b4bd5cb7da6a27ccf5c8cc4032f384065aa2d50fa6f8cb89",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "Go",
+      "description": "Una lista seleccionada de frameworks, bibliotecas y software de Go.",
+      "sourceDigest": "f60d76ebce689a58b4bd5cb7da6a27ccf5c8cc4032f384065aa2d50fa6f8cb89",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "Go",
+      "description": "Go のフレームワーク、ライブラリ、ソフトウェアを集めた厳選リスト。",
+      "sourceDigest": "f60d76ebce689a58b4bd5cb7da6a27ccf5c8cc4032f384065aa2d50fa6f8cb89",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "Go",
+      "description": "Go 프레임워크, 라이브러리, 소프트웨어를 엄선한 목록입니다.",
+      "sourceDigest": "f60d76ebce689a58b4bd5cb7da6a27ccf5c8cc4032f384065aa2d50fa6f8cb89",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "Go",
+      "description": "Uma lista selecionada de frameworks, bibliotecas e softwares de Go.",
+      "sourceDigest": "f60d76ebce689a58b4bd5cb7da6a27ccf5c8cc4032f384065aa2d50fa6f8cb89",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "Go",
+      "description": "Подборка фреймворков, библиотек и ПО для Go.",
+      "sourceDigest": "f60d76ebce689a58b4bd5cb7da6a27ccf5c8cc4032f384065aa2d50fa6f8cb89",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}
