@@ -1,0 +1,1922 @@
+[
+{
+"line": 0,
+"translated": "@@L0@@](README-th.md)"
+},
+{
+"line": 1,
+"translated": "@@L0@@](README.md)"
+},
+{
+"line": 2,
+"translated": "@@L0@@](README-zh_TW.md)"
+},
+{
+"line": 3,
+"translated": "@@L0@@](README-zh.md)"
+},
+{
+"line": 4,
+"translated": "@@L0@@](README-ja.md)"
+},
+{
+"line": 5,
+"translated": "@@L0@@](README-ko.md)"
+},
+{
+"line": 6,
+"translated": "@@L0@@](README-pt_BR.md)"
+},
+{
+"line": 7,
+"translated": "@@L0@@](https://glama.ai/mcp/discord)"
+},
+{
+"line": 8,
+"translated": "@@L0@@](https://www.reddit.com/r/mcp/)"
+},
+{
+"line": 10,
+"translated": "> [!IMPORTANT]"
+},
+{
+"line": 11,
+"translated": "> @@L0@@ – 아이디어에서 프로덕션급 MCP 서버까지 단 1분 만에 완성됩니다! 🦜"
+},
+{
+"line": 15,
+"translated": "훌륭한 MCP(Model Context Protocol) 서버의 선별된 목록입니다."
+},
+{
+"line": 17,
+"translated": "* @@L0@@"
+},
+{
+"line": 18,
+"translated": "* @@L0@@"
+},
+{
+"line": 19,
+"translated": "* @@L0@@"
+},
+{
+"line": 20,
+"translated": "* @@L0@@"
+},
+{
+"line": 21,
+"translated": "* @@L0@@"
+},
+{
+"line": 22,
+"translated": "* @@L0@@"
+},
+{
+"line": 23,
+"translated": "* @@L0@@ "
+},
+{
+"line": 24,
+"translated": "* @@L0@@"
+},
+{
+"line": 25,
+"translated": "* @@L0@@"
+},
+{
+"line": 27,
+"translated": "## MCP란 무엇입니까?"
+},
+{
+"line": 29,
+"translated": "@@L0@@ AI 모델이 표준화된 서버 구현을 통해 로컬 및 원격 리소스와 안전하게 상호 작용할 수 있도록 하는 개방형 프로토콜입니다. 이 목록은 파일 액세스, 데이터베이스 연결, API 통합 및 기타 상황별 서비스를 통해 AI 기능을 확장하는 프로덕션 준비 및 실험적인 MCP 서버에 중점을 둡니다."
+},
+{
+"line": 31,
+"translated": "## 클라이언트"
+},
+{
+"line": 33,
+"translated": "점검 @@L0@@ 그리고 @@L1@@."
+},
+{
+"line": 35,
+"translated": "## 원격 서버"
+},
+{
+"line": 37,
+"translated": "이 목록은 사용자가 직접 설치하고 실행하는 GitHub 저장소가 있는 서버용입니다. URL을 통해 연결하는 호스팅 서버를 찾고 계십니까? 보다 @@L0@@."
+},
+{
+"line": 39,
+"translated": "## 튜토리얼"
+},
+{
+"line": 41,
+"translated": "* @@L0@@"
+},
+{
+"line": 42,
+"translated": "* @@L0@@"
+},
+{
+"line": 43,
+"translated": "* @@L0@@"
+},
+{
+"line": 45,
+"translated": "## 지역 사회"
+},
+{
+"line": 47,
+"translated": "* @@L0@@"
+},
+{
+"line": 48,
+"translated": "* @@L0@@"
+},
+{
+"line": 50,
+"translated": "## 전설"
+},
+{
+"line": 52,
+"translated": "* 🎖️ – 공식 시행"
+},
+{
+"line": 53,
+"translated": "* 프로그래밍 언어"
+},
+{
+"line": 54,
+"translated": "  * 🐍 – Python 코드베이스"
+},
+{
+"line": 55,
+"translated": "  * 📇 – TypeScript(또는 JavaScript) 코드베이스"
+},
+{
+"line": 56,
+"translated": "  * 🏎️ – 코드베이스로 이동"
+},
+{
+"line": 57,
+"translated": "  * 🦀 – 러스트 코드베이스"
+},
+{
+"line": 58,
+"translated": "  * #️⃣ - C# 코드베이스"
+},
+{
+"line": 59,
+"translated": "  * ☕ - 자바 코드베이스"
+},
+{
+"line": 60,
+"translated": "  * 🌊 – C/C++ 코드베이스"
+},
+{
+"line": 61,
+"translated": "  * 💎 - 루비 코드베이스"
+},
+{
+"line": 63,
+"translated": "* 범위"
+},
+{
+"line": 64,
+"translated": "  * ☁️ - 클라우드 서비스"
+},
+{
+"line": 65,
+"translated": "  * 🏠 - 현지 서비스"
+},
+{
+"line": 66,
+"translated": "  * 📟 - 임베디드 시스템"
+},
+{
+"line": 67,
+"translated": "* 운영 체제"
+},
+{
+"line": 68,
+"translated": "  * 🍎 – macOS의 경우"
+},
+{
+"line": 69,
+"translated": "  * 🪟 – 윈도우의 경우"
+},
+{
+"line": 70,
+"translated": "  * 🐧 - 리눅스의 경우"
+},
+{
+"line": 72,
+"translated": "> [!NOTE]"
+},
+{
+"line": 73,
+"translated": "> 지역에 대해 혼란스러워함 🏠 vs 클라우드 ☁️?"
+},
+{
+"line": 74,
+"translated": "> * MCP 서버가 로컬에 설치된 소프트웨어와 통신할 때 로컬을 사용하십시오. Chrome 브라우저를 제어합니다."
+},
+{
+"line": 75,
+"translated": "> * MCP 서버가 원격 API와 통신할 때 클라우드를 사용합니다. 날씨 API."
+},
+{
+"line": 77,
+"translated": "## 서버 구현"
+},
+{
+"line": 79,
+"translated": "> [!NOTE]"
+},
+{
+"line": 80,
+"translated": "> 우리는 이제 @@L0@@ 저장소와 동기화됩니다."
+},
+{
+"line": 82,
+"translated": "* 🔗 - @@L0@@"
+},
+{
+"line": 83,
+"translated": "* 🤝 - @@L0@@"
+},
+{
+"line": 84,
+"translated": "* 🎨 - @@L0@@"
+},
+{
+"line": 85,
+"translated": "* 📐 - @@L0@@"
+},
+{
+"line": 86,
+"translated": "* 📂 - @@L0@@"
+},
+{
+"line": 87,
+"translated": "* 🧬 - @@L0@@"
+},
+{
+"line": 88,
+"translated": "* ☁️ - @@L0@@"
+},
+{
+"line": 89,
+"translated": "* 👨‍💻 - @@L0@@"
+},
+{
+"line": 90,
+"translated": "* 🤖 - @@L0@@"
+},
+{
+"line": 91,
+"translated": "* 🖥️ - @@L0@@"
+},
+{
+"line": 92,
+"translated": "* 💬 - @@L0@@"
+},
+{
+"line": 93,
+"translated": "* 🗣️ - @@L0@@"
+},
+{
+"line": 94,
+"translated": "* 🔑 - @@L0@@"
+},
+{
+"line": 95,
+"translated": "* 👤 - @@L0@@"
+},
+{
+"line": 96,
+"translated": "* 🗄️ - @@L0@@"
+},
+{
+"line": 97,
+"translated": "* 📊 - @@L0@@"
+},
+{
+"line": 98,
+"translated": "* 🚚 - @@L0@@"
+},
+{
+"line": 99,
+"translated": "* 🛠️ - @@L0@@"
+},
+{
+"line": 100,
+"translated": "* 🧮 - @@L0@@"
+},
+{
+"line": 101,
+"translated": "* 📊 - @@L0@@"
+},
+{
+"line": 102,
+"translated": "* 📟 - @@L0@@"
+},
+{
+"line": 103,
+"translated": "* 🎓 - @@L0@@"
+},
+{
+"line": 104,
+"translated": "* 🛒 - @@L0@@"
+},
+{
+"line": 105,
+"translated": "* 🌳 - @@L0@@"
+},
+{
+"line": 106,
+"translated": "* 📂 - @@L0@@"
+},
+{
+"line": 107,
+"translated": "* 💰 - @@L0@@"
+},
+{
+"line": 108,
+"translated": "* 🎮 - @@L0@@"
+},
+{
+"line": 109,
+"translated": "* 🏠 - @@L0@@"
+},
+{
+"line": 110,
+"translated": "* 🪪 - @@L0@@"
+},
+{
+"line": 111,
+"translated": "* 🏭 - @@L0@@"
+},
+{
+"line": 112,
+"translated": "* 🧠 - @@L0@@"
+},
+{
+"line": 113,
+"translated": "* ⚖️ - @@L0@@"
+},
+{
+"line": 114,
+"translated": "* 🗺️ - @@L0@@"
+},
+{
+"line": 115,
+"translated": "* 🎯 - @@L0@@"
+},
+{
+"line": 116,
+"translated": "* 📊 - @@L0@@"
+},
+{
+"line": 117,
+"translated": "* 🎥 - @@L0@@"
+},
+{
+"line": 118,
+"translated": "* 🖥️ - @@L0@@"
+},
+{
+"line": 119,
+"translated": "* 🎙️ - @@L0@@"
+},
+{
+"line": 120,
+"translated": "* 📋 - @@L0@@"
+},
+{
+"line": 121,
+"translated": "* 🏠 - @@L0@@"
+},
+{
+"line": 122,
+"translated": "* 🔬 - @@L0@@"
+},
+{
+"line": 123,
+"translated": "* 🔎 - @@L0@@"
+},
+{
+"line": 124,
+"translated": "* 🔒 - @@L0@@"
+},
+{
+"line": 125,
+"translated": "* 🌐 - @@L0@@"
+},
+{
+"line": 126,
+"translated": "* 🔮 - @@L0@@"
+},
+{
+"line": 127,
+"translated": "* 🏃 - @@L0@@"
+},
+{
+"line": 128,
+"translated": "* 🎧 - @@L0@@"
+},
+{
+"line": 129,
+"translated": "* 🌎 - @@L0@@"
+},
+{
+"line": 130,
+"translated": "* 🎧 - @@L0@@"
+},
+{
+"line": 131,
+"translated": "* 🎙️ - @@L0@@"
+},
+{
+"line": 132,
+"translated": "* 🚆 - @@L0@@"
+},
+{
+"line": 133,
+"translated": "* 🔄 - @@L0@@"
+},
+{
+"line": 134,
+"translated": "* 🏢 - @@L0@@"
+},
+{
+"line": 135,
+"translated": "* 🛠️ - @@L0@@"
+},
+{
+"line": 137,
+"translated": "### 🔗 <a name=\"aggregators\"></a>애그리게이터"
+},
+{
+"line": 139,
+"translated": "단일 MCP 서버를 통해 많은 앱과 도구에 액세스하기 위한 서버입니다."
+},
+{
+"line": 140,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/402signalhq/402signal) 🐍 ☁️ - Base, Solana 및 Algorand 전반에 걸쳐 실시간 x402 결제 경로를 확인하고 검증합니다."
+},
+{
+"line": 141,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/GarphenGate/moltline-mcp) 🐍 ☁️ 🍎 🪟 🐧 - Moltline Studio의 호스팅 MCP 서버에 대한 브리지: 코드 검토, 에이전트 거버넌스, 비즈니스 수학, 규제 기한, 암호화폐 세금 제비, 라우팅 및 최적화."
+},
+{
+"line": 142,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/team886/findagent-mcp) 📇 ☁️ - 자동화된 보안 스캔과 인적 검토, 자격 증명-호스트 바인딩 및 기본 송신 거부 기능을 갖춘 샌드박스 호스팅 코드를 갖춘 검증된 에이전트의 마켓플레이스입니다."
+},
+{
+"line": 143,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BotHireAgent/BotHireMCPServer) 📇 🏠 - BotHire 에이전트 간 채용 시장: 능력 및 신뢰 점수별로 에이전트 및 기술을 검색하고, 실시간 수요를 읽고, 체인 전체에서 USDT 또는 USDC로 결제합니다."
+},
+{
+"line": 144,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/neoninnovationlab/neon-mcp-gateway) 📇 ☁️ 🏠 - 엄격한 검증을 통해 내부 PostgreSQL 데이터베이스 및 API를 AI 에이전트에 노출하기 위한 엣지 방화벽입니다."
+},
+{
+"line": 145,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/daedalusdevelopmentgroup/ddg-agent-payable-services) 🐍 ☁️ - 통화당 지불 x402 도구(유틸리티, DNS/WHOIS, 블록체인 RPC, 시장 및 DEX 데이터, 예측 시장, 보안 감사) 및 OpenAI 호환 LLM 게이트웨이."
+},
+{
+"line": 146,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/coinopai-mcp) 📇 - x402 on Base를 통한 유료 암호화 인텔리전스: 비행 전 확인, 실제 가격에 대한 감사 거래 결정, 위험 상태, 신호 기록 및 자동화 검색."
+},
+{
+"line": 147,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/anomaly-mcp) 📇 ☁️ - Base의 x402를 통해 지불되는 블록체인, mempool, stablecoin depeg, 항공 및 GitHub 신호 전반에 걸쳐 NASA에서 파생된 시퀀스 마이닝을 통해 실시간 이상 징후를 탐지합니다."
+},
+{
+"line": 148,
+"translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 여러 MCP 서버를 하나의 통합 서버로 통합합니다."
+},
+{
+"line": 149,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/2s-io/sdk) 📇 ☁️ 🍎 🪟 🐧 - 통화당 지불 x402 API: 지오코딩, 날씨, 지진, 특허, 미국 판례법, 연방 관보, 과학 논문, DNS/WHOIS, OFAC 검사 및 인구 조사 데이터."
+},
+{
+"line": 150,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/8randonpickart5/alderpost-mcp) 📇 ☁️ - Base의 x402 소액 결제를 통해 지불되는 보안, 회사, 위협, 규정 준수, 판매, 스포츠, 재산 및 건강 데이터에 대한 인텔리전스 엔드포인트입니다."
+},
+{
+"line": 151,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/utility-grid-mcp) 📇 ☁️ - OCR, 이미지, 오디오, 웹, 수학, 변환 및 지리 데이터에 대한 검색 및 호출 유틸리티 API는 x402 USDC on Base를 사용하여 호출당 지불됩니다."
+},
+{
+"line": 152,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/GTCC777/pulsenetwork-mcp) 📇 - Base 및 Solana의 통화당 지불 x402 인텔리전스 API: 금융, 암호화폐, 법률, 이민, 의료 비용, 부동산, 세금, 기후, 스포츠 및 과학."
+},
+{
+"line": 153,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mcpqueen/mcpqueen) 🎖️ 📇 ☁️ - 등급이 매겨진 MCP 레지스트리: MCP 레지스트리(초기화, 도구 목록, 스키마 품질, 대기 시간, 출처)에서 원격 서버를 실시간으로 조사하고 등급을 게시합니다."
+},
+{
+"line": 154,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/minia2auk/minia2a-mcp) 📇 ☁️ - 에이전트 도구를 위한 통화당 지불 x402 게이트웨이: 암호화 및 DeFi 데이터, 웹 스크래핑, AI 추론, CAPTCHA 해결, 토큰 보안, DNS/WHOIS 및 가스 모니터링."
+},
+{
+"line": 155,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/szp2005/llm-prices-cn) 🐍 ☁️ - 실시간 가격 쿼리 및 토큰 비용 추정을 통해 중국 및 글로벌 모델에 대한 LLM API 가격의 일일 검증 데이터 세트입니다."
+},
+{
+"line": 156,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tadas-github/a2asearch-mcp) 📇 ☁️ - MCP 서버, AI 에이전트, CLI 도구 및 에이전트 기술의 디렉터리를 검색합니다."
+},
+{
+"line": 157,
+"translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - 다른 에이전트가 DNS와 유사한 ID, mTLS, 신뢰 점수 및 기능 검색을 통해 도구를 검색하고 호출할 수 있도록 MCP 서버를 Agent:// 네트워크에 연결합니다."
+},
+{
+"line": 158,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/agentbodegastore/agentbodega) 📇 ☁️ - AgentBodega의 x402 지불 가능 HTTP 도구 라이브 카탈로그: 검색, 공개 데이터, 소셜 미디어, 상태 확인, 미디어 변환 및 에이전트 준비 확인."
+},
+{
+"line": 159,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/elisymlabs/elisym) 📇 ☁️ 🍎 🪟 🐧 - Solana 결제(SOL, USDC)를 사용하는 Nostr의 AI 에이전트 검색 및 마켓플레이스: NIP-89 검색, NIP-90 작업, NIP-44 암호화 및 온체인 소액 결제."
+},
+{
+"line": 160,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PHONGUIT22/nostrpulse-full) 📇 🏠 🍎 🪟 🐧 - Nostr NIP-90 및 Cashu eCash 소액 결제를 사용하는 에이전트 간(A2A) 상거래 프레임워크."
+},
+{
+"line": 161,
+"translated": "- @@L0@@ 📇 ☁️ - x402, RentAHuman 및 Virtuals와 같은 플랫폼 전반에 걸쳐 AI 에이전트를 위한 작업 수집기입니다."
+},
+{
+"line": 162,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gzchenhao/openhire) 🐍 🏠 🍎 🪟 🐧 - 신선도 확인, 유령 직업 채점 및 지원 링크를 갖춘 고용주 ATS API(Greenhouse, Lever, Ashby, Beisen)를 통한 직업 검색 일치는 클라이언트 측에서 실행됩니다."
+},
+{
+"line": 163,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/doggychip/agentforge) 📇 ☁️ - 하나의 API 키, REST 및 스트리밍 액세스, 상태 모니터링을 갖춘 AI 에이전트를 위한 자체 호스팅 가능한 API 게이트웨이 및 마켓플레이스입니다."
+},
+{
+"line": 164,
+"translated": "- @@L0@@ 🐍 ☁️ 🏠 🍎 🪟 🐧 - AgentHotspot 마켓플레이스에서 MCP 커넥터를 검색, 통합 및 수익화합니다."
+},
+{
+"line": 165,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aidevelopers2/remoteopenclaw-mcp) 📇 🏠 - 이름, 링크 및 설치 명령에 대한 MCP 서버, 에이전트 기술 및 플러그인의 원격 OpenClaw 디렉토리를 검색합니다. CLI로도 사용 가능합니다."
+},
+{
+"line": 166,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/garasegae/aiskillstore) ☁️ - AI 에이전트가 스킬을 발견, 구매, 통합하는 스킬 마켓플레이스입니다."
+},
+{
+"line": 167,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/getanyapi-com/mcp) 🎖️ 📇 ☁️ 🏠 - AnyAPI: 소셜 미디어, 검색 결과, Google 지도, 전자상거래 및 웹 데이터를 위한 스크래핑 및 데이터 API(정규화된 JSON 및 자동 공급자 장애 조치 포함)"
+},
+{
+"line": 168,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - 코딩 에이전트를 위한 CLIRank API 인텔리전스: 에이전트 친화성에 점수가 매겨진 API에 대한 추천을 검색, 비교 및 ​​가져옵니다."
+},
+{
+"line": 169,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Work90210/APIFold) 📇 ☁️ - GitHub, Stripe, Slack, OpenAI, Notion 등을 위한 기성 공용 서버를 통해 REST API를 호스팅된 MCP 서버로 전환하세요."
+},
+{
+"line": 170,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexar76/aimarket-plugins) 📇 ☁️ 🏠 🍎 🪟 🐧 - Docker 이미지, 매니페스트 및 클라이언트 구성을 사용하여 AIMarket 기능을 자체 호스팅 MCP 서버로 패키지하는 AIMarket Hub 플러그인입니다."
+},
+{
+"line": 171,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Alepha188838884/context-firewall) 📇 🏠 🍎 🪟 🐧 - 점진적인 검색을 통해 몇 가지 메타 도구 뒤에 다운스트림 서버를 병합하고 필요에 따라 전체 출력으로 대규모 도구 출력을 압축하는 로컬 MCP 프록시입니다."
+},
+{
+"line": 172,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIsa-public/AIsa-mcp-server) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - 지출 한도가 있는 몇 가지 메타 도구를 통해 SEO 및 AI 가시성, 금융, 소셜, 웹 검색, 판매 및 에이전트 메일에 대한 데이터 API를 검색, 검사 및 실행합니다."
+},
+{
+"line": 173,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/api7/aisix) 🦀 🏠 - 도구별 액세스 제어, 가드레일, 속도 제한 및 사용 로그를 갖춘 업스트림 서버 앞에 있는 자체 호스팅 MCP 게이트웨이 또한 LLM 및 A2A 에이전트 트래픽을 프록시합니다."
+},
+{
+"line": 174,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/reefapi/reefapi-mcp) 🐍 ☁️ - 깔끔한 JSON 형태의 라이브 웹 데이터: 검색 엔진, 소셜 미디어, 전자 상거래(Amazon, eBay, Etsy), 부동산, 일자리, 여행, 뉴스, 금융 및 회사 정보."
+},
+{
+"line": 175,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/RightOnPar-LLC/mesh-connector) 📇 ☁️ - MeshMarket 에이전트 간 기능 교환: 에이전트 검색, 셀프 온보딩, 메모리 임대, 호출당 추론 및 안전, 자체 도구 게시."
+},
+{
+"line": 176,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@rhein1/agoragentic-integrations) 📇 ☁️ - AI 에이전트가 Base의 USDC를 사용하여 다른 에이전트의 서비스를 검색, 호출 및 비용을 지불하는 에이전트 간 마켓플레이스입니다."
+},
+{
+"line": 177,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/arikusi/deepseek-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - 다중 턴 세션, 함수 호출, 사고 모드 및 비용 추적을 통한 DeepSeek AI 채팅 및 추론."
+},
+{
+"line": 178,
+"translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - ADAS 플랫폼에서 다중 에이전트 AI 솔루션을 구축, 검증 및 배포합니다. 도구를 사용하여 기술을 설계하고 솔루션 수명주기를 관리합니다."
+},
+{
+"line": 179,
+"translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 자동 검색 및 제로 구성 기능을 갖춘 하나의 인터페이스 뒤에 AI 코딩 도우미(Codex, Claude Code, Cursor, Gemini)를 통합하는 Meta-MCP 서버입니다."
+},
+{
+"line": 180,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/adw0rd/awesome-mcp-tools-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - MCP 클라이언트 또는 터미널에서 MCP 서버의 awesome-mcp.tools 카탈로그를 검색합니다."
+},
+{
+"line": 181,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/avotsai/avots-mcp) 📇 ☁️ - 다중 모델 AI 미디어 생성(이미지, 비디오, 오디오, 얼굴 교환, 말하는 아바타) 및 Claude, GPT, Gemini 및 DeepSeek과 같은 모델과의 채팅."
+},
+{
+"line": 182,
+"translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - Base의 USDC에서 x402 소액 결제를 통해 사용량에 따라 지불되는 GPT-5, Claude, Gemini, Grok 및 DeepSeek와 같은 AI 모델에 액세스하세요."
+},
+{
+"line": 183,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bridgenode-ai/bridgenode-mcp) 📇 ☁️ - x402를 통해 지원되는 모델 전반에 걸쳐 자동 Solana USDC 결제 및 실패 시 종료되는 지출 한도를 갖춘 요청당 결제 AI 채팅 완료."
+},
+{
+"line": 184,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cgrtml/reasongate) 🐍 🏠 🍎 🪟 🐧 - 스키마 파생 정책을 사용하여 신뢰할 수 없는 도구 결과에서 대상 또는 콘텐츠가 나온 도구 호출을 차단하는 stdio MCP 서버용 출처 게이트웨이입니다."
+},
+{
+"line": 185,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cinderwright-ai/cinderwright-api) 📇 ☁️ - x402 검색 허브: x402를 통해 Base에서 USDC로 지불되는 에이전트 서비스 검색 엔진입니다."
+},
+{
+"line": 186,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Continuum-AI-Corp/orcarouter-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - OpenAI, Anthropic, Google, Qwen, DeepSeek 등의 LLM을 실시간 가격으로 찾아보고 대체 기능이 있는 OrcaRouter 게이트웨이를 통해 채팅 완료를 라우팅하세요."
+},
+{
+"line": 187,
+"translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 하나의 인터페이스 뒤에 많은 앱, 도구 및 서비스를 연결하는 통합 MCP 플랫폼입니다."
+},
+{
+"line": 188,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/depwire/depwire) 📇 🐍 🏎️ 🦀 🌊 🏠 - 호 다이어그램 시각화, 상태 점수 매기기, 데드 코드 감지 및 시간 그래프가 포함된 TypeScript, JavaScript, Python, Go, Rust 및 C에 대한 종속성 그래프."
+},
+{
+"line": 189,
+"translated": "- @@L0@@ 🏎️ 🏠 - 엔터프라이즈 AI 에이전트를 위한 자체 호스팅 MCP 서버 레지스트리."
+},
+{
+"line": 190,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Proofpane/releases) 🎖️ 🏠 🍎 🪟 🐧 - MCP 거버넌스 프록시: 해시 체인으로 연결된 서명된 감사 로그에 기록된 도구 호출을 통해 정책 게이트, DLP 수정 및 비용 상한을 허용, 거부 또는 사람이 승인합니다."
+},
+{
+"line": 191,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/entire-vc/evc-spark-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - AI 에이전트, 기술, 프롬프트, 번들 및 MCP 커넥터의 선별된 카탈로그를 검색합니다."
+},
+{
+"line": 192,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gamaze-labs/hicortex) 📇 🏠 - AI 에이전트를 위한 공유 메모리: 야간 자체 수정을 통해 오래된 사실을 다시 작성하고 중복 항목을 병합하며 코딩 에이전트의 프롬프트에 회상이 주입됩니다."
+},
+{
+"line": 193,
+"translated": "- @@L0@@ ☁️ 📇 🍎 🪟 🐧 - MCP 서버를 나열하여 클라이언트에게 일상적인 작업 흐름을 개선할 수 있는 서버가 무엇인지 물어볼 수 있습니다."
+},
+{
+"line": 194,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Gliana-Labs/gliana-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 통화당 지불 AI 모델(채팅, 이미지, 비디오, 음악, 음성)과 웹 스크래핑, 스크린샷, OCR, 얼굴 일치 및 암호화폐/FX 환율이 USDC의 HTTP 402를 통해 지불됩니다."
+},
+{
+"line": 195,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gpu-bridge/mcp-server) 📇 ☁️ 🍎 🪟 🐧 - x402 또는 API 키를 통해 사용량에 따라 지불되는 LLM, 이미지 및 비디오 생성, TTS, 속삭임, 임베딩, 순위 재지정 및 OCR을 위한 GPU 추론 API입니다."
+},
+{
+"line": 196,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@gzoonet/gzoo-cortex) 📇 🏠 - 로컬 우선 개발자 지식 그래프: 프로젝트 파일을 감시하고, LLM과의 엔터티 및 관계를 추출하고, 쿼리, 웹 대시보드 및 CLI를 제공합니다."
+},
+{
+"line": 197,
+"translated": "- @@L0@@ 📇 🏠 🪟 🍎 🐧 - Google의 Imagen 3 API를 사용하여 사진, 예술적, 사실적 컨트롤을 사용하여 텍스트 프롬프트에서 이미지를 생성합니다."
+},
+{
+"line": 198,
+"translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - 레지스트리 브로커를 통해 해시그래프 네트워크의 AI 에이전트를 발견하고, 등록하고, 채팅하세요."
+},
+{
+"line": 199,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hedging8563/tokenlab-mcp-server) 📇 ☁️ - TokenLab AI 게이트웨이: 모델 및 가격 검색과 OpenAI 호환 채팅 완료, 응답, 인류 메시지 및 Gemini 추론."
+},
+{
+"line": 200,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HelpCode-ai/anythingmcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - 사양 가져오기, 사전 구축된 어댑터 및 RBAC를 통해 REST, SOAP 및 GraphQL API와 SQL/NoSQL 데이터베이스를 코드 없이 MCP 도구로 전환하는 자체 호스팅 MCP 게이트웨이입니다."
+},
+{
+"line": 201,
+"translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 자체 개선 도구 검색: 레지스트리를 검색하고, 다시 시작하지 않고 MCP 서버를 하위 프로세스로 설치하고, 세션 전반에 걸쳐 도구 지식을 유지합니다."
+},
+{
+"line": 202,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jabbawocky/proposalcraft) 📇 🏠 🍎 🪟 🐧 - 로컬 저장소에만 저장된 과거 제안을 기반으로 새로운 브리핑에서 자신의 목소리로 고객 제안 초안을 작성합니다."
+},
+{
+"line": 203,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Jackalope-Dev/allmcps-server) 📇 ☁️ 🍎 🪟 🐧 - MCP 서버의 AllMCPs.com 레지스트리를 검색 및 탐색하고, 설치 구성을 얻고, 목록을 제출하거나 청구합니다."
+},
+{
+"line": 204,
+"translated": "- @@L0@@ 🐍 ☁️ - Gemini Pro 및 Flash 모델에 액세스하기 위해 Google Gemini API에 연결됩니다."
+},
+{
+"line": 205,
+"translated": "- @@L0@@ 🐍 🏠 - Llama, Mistral, Qwen 및 기타 로컬 모델을 실행하기 위해 로컬 Ollama 서버에 연결됩니다."
+},
+{
+"line": 206,
+"translated": "- @@L0@@ 🐍 ☁️ - GPT-4, GPT-4o 및 기타 OpenAI 모델에 액세스하기 위한 OpenAI API에 대한 브리지입니다."
+},
+{
+"line": 207,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Jovancoding/network-ai) 📇 🏠 🍎 🪟 🐧 - 경쟁 조건에 안전한 공유 블랙보드, 에이전트 생성, FSM 전환, 예산 및 토큰 추적, 감사 로그를 통한 다중 에이전트 오케스트레이션."
+},
+{
+"line": 208,
+"translated": "- @@L0@@ 🏎️ 🏠 ☁️ - 단일 로컬 우선 바이너리의 SQL로 앱을 쿼리합니다. PostgreSQL, MySQL 및 SQLite 호환 데이터베이스에도 연결됩니다."
+},
+{
+"line": 209,
+"translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 다중 에이전트 오케스트레이션, 인간 참여형 워크플로우, 가드레일 및 컨텍스트 요약을 통해 많은 제공업체와 모델을 통합하는 엣지 우선 AI 플랫폼입니다."
+},
+{
+"line": 210,
+"translated": "- @@L0@@ 🐍 ☁️ 🏠 🍎 🪟 🐧 - 마치 기본적으로 지원되는 것처럼 모든 모델이나 클라이언트에서 Claude Agent Skills를 검색하고 사용하세요."
+},
+{
+"line": 211,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kansei-link/kansei-mcp-server) 📇 🏠 🍎 🪟 🐧 - SaaS 서비스 및 워크플로우 레시피에 대한 검증된 데이터를 갖춘 로컬 최초의 네비게이터입니다."
+},
+{
+"line": 212,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kevmoz/macaroonnetwork-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 예측 기반 과학 및 데이터 시장에서 검색하고 구매하세요. 카탈로그와 메타데이터를 찾아본 다음 x402(USDC on Base) 또는 Lightning L402를 통해 결제하세요."
+},
+{
+"line": 213,
+"translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - MapRag: 구조화된 제약 조건과 설명 가능한 순위를 사용하여 검색 가능한 MCP 서버를 검색하고 라우팅하기 위한 RAG 중심 MCP 하위 레지스트리입니다."
+},
+{
+"line": 214,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-gtm-suite) 📇 ☁️ - Apify 행위자를 통한 시장 진출 신호: 채용 신호, 기술 스택 감지, 채용 게시판 검색, LinkedIn URL 확인, ICP 채점 및 신호 집계."
+},
+{
+"line": 215,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Markgatcha/universal-mcp-toolkit) 📇 ☁️ 🏠 🍎 🪟 🐧 - 기성 템플릿 및 교차 저장소 프롬프트 워크플로를 사용하여 하나의 구성을 통해 에이전트를 여러 MCP 서버에 연결하는 MCP 수집기입니다."
+},
+{
+"line": 216,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MastadoonPrime/sylex-search) 🐍 📇 ☁️ 🍎 🪟 🐧 - LLM 호출 없이 카테고리 전반에 걸쳐 제품, 서비스 및 비즈니스를 검색할 수 있는 AI 에이전트용 검색 엔진입니다."
+},
+{
+"line": 217,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mediiiiium/mcp-jp) 🐍 ☁️ - KING OF TIME, SmartHR, kaonavi, Smaregi, LINE Lstep 및 CloudSign과 같은 자체 MCP 지원이 없는 일본 SMB SaaS용 MCP 서버입니다."
+},
+{
+"line": 218,
+"translated": "- @@L0@@ 🐍 ☁️ 🍎 🪟 🐧 - 에이전트 도구 호출, 이미지 생성, 비전 및 파일 지원을 통해 xAI의 Grok API에 액세스하세요."
+},
+{
+"line": 219,
+"translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - MetaMCP: GUI를 통해 MCP 연결을 관리하는 통합 미들웨어 MCP 서버입니다."
+},
+{
+"line": 220,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MikeyPetrillo/Agent402) 📇 ☁️ 🏠 - 통화당 지불 x402 도구 및 기술 팩(헤드리스 브라우저, 웹 검색, OCR, 지갑 키 메모리)과 가장 저렴한 건강한 도구를 찾는 라우터."
+},
+{
+"line": 221,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MikkoParkkola/mcp-gateway) 🏎️ 🏠 🍎 🪟 🐧 - 개별 도구 등록을 대체하는 단일 포트 멀티플렉싱 및 메타 도구와 핫 다시 로드 가능 기능 및 OpenAPI 가져오기 기능을 갖춘 MCP 게이트웨이입니다."
+},
+{
+"line": 222,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mirastacklabs-ai/mirastack-redfish-mcp) 🎖️ 🐍 ☁️ 📟 - 전원, 열, 펌웨어 및 BIOS 관리를 위해 DMTF Redfish BMC(iDRAC, iLO, XCC, OpenBMC)에 대한 통제된 액세스 계층화된 쓰기 모드에서는 기본적으로 읽기 전용입니다."
+},
+{
+"line": 223,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mroops0111/openapi-mcp-gateway) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 여러 OpenAPI 사양 또는 FastAPI 앱을 하나의 프로세스에서 MCP 서버로 마운트하여 메타 도구를 통해 GET 엔드포인트를 리소스 및 대규모 사양으로 노출합니다."
+},
+{
+"line": 224,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nimbus-agent/Nimbus) 🎖️ 📇 🏠 🍎 🪟 🐧 - 엔지니어링 스택(GitHub, Jira, Slack, PagerDuty, Datadog 등)의 로컬 인덱스(사고, PR, 배포 및 DORA 지표)에 대한 읽기 전용 검색입니다."
+},
+{
+"line": 225,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/mcp-hub) 📇 🏠 🍎 🪟 🐧 - 경로 기반 라우팅, 메타 도구를 사용한 집계 엔드포인트, 내장 OAuth 2.1 및 핫 리로드를 통해 HTTPS를 통해 하나의 컨테이너에서 많은 stdio MCP 서버를 제공합니다."
+},
+{
+"line": 226,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Octodamus/octodamus-core) 🐍 - 암호화폐 시장 오라클: RSI, MACD, 자금 요율 및 온체인 흐름의 합의를 구매/판매/보유하고 EV 점수 및 X 군중 감정을 갖춘 Polymarket 우위를 제공합니다."
+},
+{
+"line": 227,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/opentabs-dev/opentabs) 📇 🏠 🍎 🪟 🐧 - AI 에이전트가 플러그인 SDK를 사용하여 인증된 브라우저 세션을 통해 웹 앱에 액세스할 수 있도록 하는 플러그인 기반 서버 및 Chrome 확장 프로그램입니다."
+},
+{
+"line": 228,
+"translated": "- @@L0@@ 🐍 ☁️ 🍎 🪟 🐧 - AI 에이전트가 양방향 신뢰 모델 및 추천 추적을 통해 사용자를 서로 발견, 추천 및 추천하는 에이전트 간 추천 네트워크입니다."
+},
+{
+"line": 229,
+"translated": "- @@L0@@ 🐍 ☁️ 🏠 🍎 🪟 - 로컬 컴퓨터에서 MCP 서버를 자동으로 검색하고 구성합니다."
+},
+{
+"line": 230,
+"translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 도구 검색을 통해 모든 MCP 서버를 조정하여 토큰 오버헤드를 줄입니다."
+},
+{
+"line": 231,
+"translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 개발자 유틸리티: SEO 최적화, 문서 변환, 도메인 조회, 이메일 유효성 검사, QR 코드, 날씨 데이터, 소셜 미디어 게시 및 보안 검색."
+},
+{
+"line": 232,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/robhunter/agentdeals) 📇 ☁️ - 개발자 인프라 거래, 무료 계층 및 스타트업 프로그램을 검색하고, 공급업체를 비교하고, 스택을 계획하고, 가격 변동을 추적합니다."
+},
+{
+"line": 233,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/doteyeso-ops/mcp-server-vibes-coded) 🐍 ☁️ - 에이전트 공급망 보안, 스캐너 합의 및 x402 신뢰성을 위한 도구와 Vibes-Coded의 상거래 카탈로그에 대한 액세스가 포함됩니다."
+},
+{
+"line": 234,
+"translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 통합 BM25 및 정규식 검색 및 지연 로딩을 통해 여러 MCP 서버의 도구를 집계하는 허브입니다."
+},
+{
+"line": 235,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Rendeverance/toolfunnel) 📇 🏠 🍎 🪟 🐧 - 실시간 연결 및 분리, 도구 필터링 및 숨기기, 핫 구성 다시 로드 및 선택적 OAuth를 통해 하나의 엔드포인트를 통해 여러 MCP 서버를 연결하는 게이트웨이입니다."
+},
+{
+"line": 236,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@sF1nX/x402station-mcp) 📇 ☁️ - x402 지불에 대한 실행 전 검사: 에이전트가 지불하기 전에 미끼, 좀비 엔드포인트, 죽은 서비스 및 가격 트랩을 감지하고 법의학 및 대안을 제공합니다."
+},
+{
+"line": 237,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/supertrained/rhumb) 📇 ☁️ 🍎 🪟 🐧 - 점수가 매겨진 서비스에 대한 인텔리전스 도구: 공급자 검색 및 비교, AN 점수 확인, 관리형 또는 자체 자격 증명으로 실행, 비용 및 실패 추적."
+},
+{
+"line": 238,
+"translated": "- @@L0@@ 🍎 🪟 🐧 ☁️ 🏠 🐍 - LLM이 여러 MCP 서버를 검색, 설치 및 오케스트레이션하여 필요에 따라 자체 기능을 확장할 수 있게 해주는 Meta-MCP 서버입니다."
+},
+{
+"line": 239,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smart-mcp-proxy/mcpproxy-go) 🏎️ 🏠 🍎 🪟 🐧 - BM25 도구 필터링, 격리 보안, 활동 로깅 및 웹 UI를 사용하여 하나의 엔드포인트를 통해 여러 서버를 라우팅하는 로컬 MCP 프록시입니다."
+},
+{
+"line": 240,
+"translated": "- @@L0@@ 📇 ☁️ - AI 전화번호 디렉토리: Voxie AI 페르소나 및 ChatGPT와 같은 타사 AI 서비스를 쿼리하고 웹챗 링크를 가져옵니다."
+},
+{
+"line": 241,
+"translated": "- @@L0@@ 📇 ☁️ - OpenAI의 GPT 이미지 모델을 사용한 이미지 생성 및 편집."
+},
+{
+"line": 242,
+"translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 코드 변경 없이 웹 서비스를 MCP 서버로 전환합니다."
+},
+{
+"line": 243,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/thebrierfox/the-stall) 📇 ☁️ - 통화당 지불 x402 데이터: 주식, 암호화폐/DeFi 분석, 옵션 체인, 딜러 GEX, 매크로 데이터, 의회 거래, 예측 시장 및 SEC 서류."
+},
+{
+"line": 244,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/swaltersjrtest/microtap-mcp) 📇 ☁️ - 통화당 지불 x402 API: Polymarket 및 Kalshi 예측 시장, DeFi 및 암호화폐 데이터, EVM 체인 전체의 온체인 읽기, 실시간 날씨 및 웹 검색."
+},
+{
+"line": 245,
+"translated": "- @@L0@@ 📇 🏠 ☁️ 🍎 🪟 🐧 - MCPX: 규모에 맞게 MCP 서버를 관리하고 도구 검색 중앙 집중화, 액세스 제어, 통화 우선 순위 지정 및 사용량 추적을 위한 오픈 소스 게이트웨이입니다."
+},
+{
+"line": 246,
+"translated": "- @@L0@@ - 사용자 정의 도구 번들을 생성하고, OAuth 또는 API 키로 공급자를 연결하고, 번들 및 자격 증명용 UI를 통해 여러 통합에서 하나의 MCP 서버를 사용합니다."
+},
+{
+"line": 247,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mrfelfel/taghvim) 📇 ☁️ - 결정론적 날짜 및 시간 추론: 산술, DST 인식 시간대, 영업일, 공휴일, RFC 5545 반복 및 그레고리오력/페르시아어 변환."
+},
+{
+"line": 248,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/toadlyBroodle/satrin) 🐍 ☁️ 🍎 🪟 🐧 - 엄선된 Lightning 및 USDC API 디렉터리인 satring.com에서 L402 및 x402 유료 API 서비스를 검색하고 비교해 보세요."
+},
+{
+"line": 249,
+"translated": "- @@L0@@ 📇 🏠 - 도구, 프롬프트, 리소스 및 템플릿과 디버깅 플레이그라운드의 검색 및 관리를 통해 여러 MCP 서버를 하나의 인터페이스로 결합하는 프록시입니다."
+},
+{
+"line": 250,
+"translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 점진적인 공개, Playwright 및 Context7 자동 시작, 요청 시 MCP 서버 프로비저닝을 통해 Claude Code 도구 팽창을 줄이는 메타 서버입니다."
+},
+{
+"line": 251,
+"translated": "- @@L0@@ ☁️ 🍎 🪟 - MCP 호스트를 Notion, Slack, Monday 및 Airtable과 같은 앱에 연결하세요."
+},
+{
+"line": 252,
+"translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 웹 API를 MCP 서버로 전환하고 오픈 소스 open-mcp.org 레지스트리에 추가합니다."
+},
+{
+"line": 253,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/whiteknightonhorse/APIbase) 📇 ☁️ - 여행(Amadeus, Sabre), Polymarket 예측 시장, 암호화폐 및 날씨를 다루는 API 허브(USDC의 x402를 통해 통화당 지불)"
+},
+{
+"line": 254,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/withoneai/mcp) 🎖️ 📇 ☁️ - 일정한 컨텍스트 크기를 갖춘 몇 가지 도구를 통해 Gmail, Slack, Stripe, Notion 및 GitHub와 같은 앱에서 인증된 API 호출을 검색, 문서화 및 실행합니다."
+},
+{
+"line": 255,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Wolido/OpenAaaS) 🐍 🏠 ☁️ 🍎 🪟 🐧 - OpenAaaS 과학 에이전트 네트워크에 대한 어댑터: 문헌 분석 또는 재료 데이터베이스 쿼리와 같은 작업을 원격 연구 에이전트에 제출합니다."
+},
+{
+"line": 256,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@rplryan/x402-discovery-mcp) 🐍 ☁️ - x402 지불 가능 API에 대한 런타임 검색: 품질 및 신뢰 점수에 따라 순위가 매겨진 기능별 호출별 지불 엔드포인트와 Python SDK 및 CLI를 찾아 라우팅합니다."
+},
+{
+"line": 257,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/x402-index/x402search-mcp) 📇 ☁️ 🍎 🪟 🐧 - 키워드로 x402 지원 HTTP API를 검색하고 Base에서 x402 소액 결제를 통해 검색당 지불됩니다."
+},
+{
+"line": 258,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ikoskela/wisepanel-mcp) 📇 ☁️ 🍎 🪟 🐧 - 다양한 각도에서 질문을 탐색하는 동적으로 생성된 역할을 통해 ChatGPT, Claude, Gemini 및 Perplexity에 대한 다중 에이전트 심의."
+},
+{
+"line": 259,
+"translated": "- @@L0@@ 🐍 ☁️ 🏠 🍎 🪟 🐧 - OAuth2 및 토큰 관리를 통해 Steam, YouTube, Bilibili, Spotify, Reddit 및 기타 게임, 음악, 비디오 및 소셜 플랫폼의 개인 데이터를 집계합니다."
+},
+{
+"line": 260,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Swarmwage/swarmwage) 🎖️ 📇 ☁️ - x402의 에이전트 채용 프로토콜: 전문 에이전트를 찾아 한 번의 통화로 고용하고 평판과 온체인 EIP-3009 영수증을 통해 Base의 USDC에 정착합니다."
+},
+{
+"line": 261,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ertad-family/liquid) 🐍 ☁️ 🏠 - 즉시 에이전트를 REST API에 연결합니다. API를 한 번 매핑한 다음 호출별 LLM 사용 없이 결정적으로 유형이 지정된 데이터를 가져옵니다. 자체 호스팅."
+},
+{
+"line": 262,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tsouth89/toolport) 🦀 🏠 🍎 🪟 🐧 - AI 코딩 도구 전반에 걸쳐 공유되는 MCP 서버용 로컬 게이트웨이 및 관리자: 지연 검색 및 OS 키체인 저장소를 사용하여 각 서버를 한 번 설정하고 인증합니다."
+},
+{
+"line": 263,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/skillselion/skillselion-mcp) 📇 ☁️ - 커뮤니티가 검증한 Claude Code 기술, MCP 서버 및 마켓플레이스의 Skillselion 카탈로그를 설치 수와 GitHub 스타별로 순위를 매겨 검색합니다. 작업 도중에 스킬을 로드합니다."
+},
+{
+"line": 264,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/singhpratech/crimson-crab-mcp-template) 🦀 🏠 🍎 🪟 🐧 - crimson-crab SDK를 통해 Anthropic의 Claude API를 쿼리하는 MCP 서버용 Rust 템플릿입니다."
+},
+{
+"line": 265,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forcedreamai/forcedream-mcp) 🎖️ 📇 ☁️ - 유료 마켓플레이스에서 에이전트 검색, 호출 및 확인: 코드 생성, 보안 스캐닝(OSV.dev, GitGuardian) 및 리드 스코어링(서명된 결과 포함)"
+},
+{
+"line": 266,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mcccsm/x402-list-mcp) 📇 ☁️ - x402-list 디렉토리에서 x402 지불 API를 찾고 조사합니다: 서비스 검색 및 순위 지정, 가동 시간 확인, 상태, 엔드포인트별 가격 및 온체인 결제량."
+},
+{
+"line": 268,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/activeing123/mcptoon) 🐍 🏠 🍎 🪟 🐧 - 코딩 도구 간에 동기화된 하나의 구성에서 AI 에이전트를 MCP 서버에 연결하고, 컴팩트 도구 검색 및 사양 검증을 통해 하나의 프로세스를 통해 제공됩니다."
+},
+{
+"line": 269,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kaxiyu/aiagentmarket) 📇 ☁️ - 원자 에스크로 및 가중 반 시빌 평판을 갖춘 AI 에이전트를 위한 노동 시장 프로토콜."
+},
+{
+"line": 271,
+"translated": "### 🚀 <a name=\"aerospace-and-astrodynamics\"></a>항공우주 및 천체역학"
+},
+{
+"line": 273,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/astronomy-oracle) 📇 🏠 🍎 🪟 🐧 - 천문 카탈로그 데이터 및 관측 세션 계획: 가시성, 상승/통과/일몰 및 Alt/az 계산 기능을 갖춘 OpenNGC 깊은 하늘 개체."
+},
+{
+"line": 274,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Viventine-Space/orbit-sentinel-mcp) 🎖️ 🏎️ ☁️ 🍎 🪟 🐧 - Orbit Sentinel을 통해 FCC, ITU, UNOOSA 및 FAA 우주 규제 서류 검색: 의미 검색, 엔터티 서류, 스펙트럼 보유, 발사 라이센스 및 경고."
+},
+{
+"line": 276,
+"translated": "### 🤝 <a name=\"agreements--coordination\"></a>계약 및 조정"
+},
+{
+"line": 278,
+"translated": "계약 생성, 조정 및 실행을 위한 MCP 서버: 인간, 대리인 및 조직 전반에 걸친 약정, 에스크로 및 다자간 의사 결정 워크플로우."
+},
+{
+"line": 279,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BrightbeamAI/chap) 🎖️ 📇 🏠 🍎 🪟 🐧 - 감사 가능한 인간-에이전트 협업을 위한 CHAP 코디네이터: 승인, 재정의, 전달, 에스컬레이션 및 해시 연결 증거."
+},
+{
+"line": 280,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/CNSLabs/agreements-api-sdk) 📇 ☁️ 🏠 - EIP-712 허가 준비, 서명된 참가자 입력, 상태 읽기 및 입력 기록을 통해 기계 판독 가능한 계약을 정의, 검증, 배포 및 운영합니다."
+},
+{
+"line": 281,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cogdepot/mcp-server) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - 에이전트가 기능 목록을 게시하고, 조건을 협상하고, 양면 평판을 갖춘 에스크로 지원 거래를 형성하는 익명 브로커인 cogDepot에 액세스하세요."
+},
+{
+"line": 282,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/decision-anchor/mcp-server) 📇 ☁️ - 콘텐츠를 검사하거나 판단을 통과하지 않고 AI 에이전트 책임 경계를 양쪽에 기록하는 외부 앵커링 레이어입니다."
+},
+{
+"line": 283,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/elicitly/elicitly) 🎖️ 📇 🏠 🍎 🪟 🐧 - MCP 추출을 통한 인간 참여형: 호스트의 JSON 스키마에서 기본 확인 대화 상자 및 입력된 양식과 지원되는 기능 확인이 가능합니다."
+},
+{
+"line": 284,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ianewsfr-a11y/ergonia) 🎖️ 📇 ☁️ - AI 에이전트를 위한 검증 가능한 작업 마켓플레이스: 해시 체인 레지스터의 작업을 통해 독립적으로 확인 가능한 작업을 게시하고, 작업을 제출하고, 평판을 구축합니다."
+},
+{
+"line": 285,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Vladimir-Human/humanizer-ru) 🏠 🪟 🍎 🐧 - 저자 판정 없이 러시아어 텍스트에서 기계 생성의 흔적을 감지하고 정규화합니다."
+},
+{
+"line": 286,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/humanforai/humanforai-mcp) 🎖️ 📇 ☁️ - 실제 존재감, 인식 또는 판단이 필요한 작업(실제 검증, 제품 테스트, AI 출력 검토 및 심부름)을 위해 인간 운영자를 고용합니다."
+},
+{
+"line": 287,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gofrantic/frantic-mcp) 📇 ☁️ - AI 에이전트가 자금 지원 포상금을 청구하고, 작업을 제공하고, 공개 영수증 원장을 통해 승인에 따라 USDC로 지급받는 공공 포상금 위원회입니다."
+},
+{
+"line": 289,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lanekingsbery/open-task-relay-public) 📇 ☁️ - 개방형 작업 릴레이: AI 에이전트가 발견, 완료, 제출 및 독립적으로 확인할 수 있는 제한된 공익 작업입니다."
+},
+{
+"line": 290,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TheRealDalaiLama/glyphdna-mcp) 🐍 🏠 - 자체 보유 Ed25519 키를 사용한 에이전트 신원, 공동 서명된 성적표 영수증이 있는 검증 가능한 다자간 회의실 및 스크립트 출처 체인."
+},
+{
+"line": 291,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tribeunal/mcp-server) 📇 ☁️ 🏠 - 중재 모드, 평결 대기 및 서명된 웹후크를 통해 인간과 AI 에이전트가 사건을 개시하고, 증거를 평가하고, 함께 투표하는 커뮤니티 배심원 플랫폼입니다."
+},
+{
+"line": 292,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sttruji/mundane-mcp) 🎖️ 🐍 ☁️ - 에스크로 지원 제안, 채팅 및 완료 증명 검토를 통해 심부름, 현장 사진 촬영, 줄 서기 및 직접 예약을 위해 ID가 확인된 인력을 고용합니다."
+},
+{
+"line": 294,
+"translated": "### ♿ <a name=\"accessibility\"></a>접근성"
+},
+{
+"line": 296,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kinti/a11y-toolkit) 🐍 🏠 - WCAG 2.2 접근성 도구: 이미지 위의 텍스트를 포함한 색상 대비 검사, EU 접근성 선언 생성 및 아리아 라이브 알림 모니터."
+},
+{
+"line": 297,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vince-gonzalez/opticquiz-mcp) 📇 🏠 🍎 🪟 🐧 - 색각 접근성: 색맹 안전을 위해 팔레트와 이미지를 확인하고, 안전한 팔레트를 생성하고, 색맹을 시뮬레이션하고, 이시하라 스타일 플레이트를 만듭니다."
+},
+{
+"line": 299,
+"translated": "### 🎨 <a name=\"art-and-culture\"></a>예술과 문화"
+},
+{
+"line": 301,
+"translated": "미술 컬렉션, 문화유산, 박물관 데이터베이스에 액세스하고 탐색해 보세요. AI 모델을 통해 예술 및 문화 콘텐츠를 검색하고 분석할 수 있습니다."
+},
+{
+"line": 302,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AceDataCloud/MCPFlux) 🐍 ☁️ - Ace Data Cloud API를 통해 Black Forest Labs에서 Flux 이미지 생성 및 편집."
+},
+{
+"line": 303,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/musajala/musajala-mcp) 📇 ☁️ - AI 에이전트와 인간 시인을 연결하는 협력적인 아랍 시 분야 및 시적 평등 프로토콜."
+},
+{
+"line": 305,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AceDataCloud/MCPNanoBanana) 🐍 ☁️ - 가상 체험 및 실제 장면에서의 제품 배치를 포함한 나노 바나나 이미지 생성 및 편집."
+},
+{
+"line": 306,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AceDataCloud/MCPSeedream) 🐍 ☁️ - Ace Data Cloud API를 통한 ByteDance Seedream 이미지 생성 및 편집."
+},
+{
+"line": 307,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIDataNordic/alexandria-mcp) 🐍 ☁️ - 고전철학과 인문학에 대한 의미 탐색이 가능합니다."
+},
+{
+"line": 308,
+"translated": "- @@L0@@ 📇 ☁️ - Open Library API를 통해 도서정보를 검색해 보세요."
+},
+{
+"line": 309,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fgbytes/sansfiction-mcp) 📇 ☁️ - 제목, 저자, 시리즈 또는 ISBN별로 SansFiction 도서 카탈로그를 검색하고 개인 독서 라이브러리(상태, 진행률, 평가, 리뷰 및 컬렉션)를 관리합니다."
+},
+{
+"line": 310,
+"translated": "- @@L0@@ 🐍 🏠 🪟 🐧 - Manim을 사용하여 로컬에서 애니메이션을 생성합니다."
+},
+{
+"line": 311,
+"translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - myinstants.com의 밈 사운드가 포함된 사운드보드: 카테고리 검색, 재생 및 탐색."
+},
+{
+"line": 312,
+"translated": "- @@L0@@ 🐍 - AI 보조자를 블렌더에 연결하세요."
+},
+{
+"line": 313,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@albertnahas/icogenie-mcp) 📇 ☁️ - 사용자 정의 가능한 스타일로 텍스트 설명에서 SVG 아이콘을 생성합니다."
+},
+{
+"line": 314,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexzavialov/travel-art-mcp) 📇 ☁️ - 예술관광 데이터 : 비엔날레(베니스, 휘트니), 아트페어(아트바젤, 프리즈), 주요 미술관 관람객 가이드, 예술여행 추천."
+},
+{
+"line": 315,
+"translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 섹션, 구절 및 설명이 포함된 Ferdowsi의 페르시아 서사시인 Shahnameh(왕서)에 액세스하세요."
+},
+{
+"line": 316,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/arikusi/nakkas) 📇 🏠 🍎 🪟 🐧 - JSON 구성을 통해 제어되는 SVG 아트 엔진: CSS 키프레임 및 SMIL 애니메이션, 파라메트릭 곡선, 필터, 그라디언트 및 PNG 미리 보기."
+},
+{
+"line": 317,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ArturLys/ao3-mcp) 🐍 🏠 - AO3(Archive of Our Own)를 검색하고 전체 소설 읽기를 Gemini에게 위임하여 추천 내용이 광고문이 아닌 실제 텍스트를 기반으로 하도록 합니다."
+},
+{
+"line": 318,
+"translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 자연어를 사용하여 JupyterCAD를 제어합니다."
+},
+{
+"line": 319,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/attalla1/photopea-mcp-server) 📇 🏠 🍎 🪟 🐧 - Photopea를 통한 이미지 편집: 문서, 레이어, 텍스트, 모양, 필터, 효과 및 내보내기."
+},
+{
+"line": 320,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/krupalghori44-dev/infyicon-mcp) 📇 ☁️ - 네 가지 일치하는 스타일로 손으로 그린 ​​Infyicon 아이콘을 검색하고 SVG 마크업 또는 PNG URL을 가져옵니다."
+},
+{
+"line": 321,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/quokkapix/quokkapix-mcp) 📇 🏠 🍎 🪟 🐧 - 소스 이미지를 업로드하지 않고도 QuokkaPix를 통해 크기 조정, 압축, 변환, 배경 제거, 메타데이터 제거, 워터마크 및 이미지 내보내기가 가능합니다."
+},
+{
+"line": 322,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BluesPrince/thiri-mcp) 📇 ☁️ 🏠 - 결정론적 음악 이론: 코드 및 로마 숫자 분석, 보이싱 및 재하모니제이션."
+},
+{
+"line": 323,
+"translated": "- @@L0@@ 🐍 - Video Jungle 컬렉션에서 비디오 편집물을 추가, 분석, 검색 및 생성합니다."
+},
+{
+"line": 324,
+"translated": "- @@L0@@ 📇 🏠 ☁️ 🍎 🪟 - Bazi(중국 점성술) 차트 작성 및 분석."
+},
+{
+"line": 325,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cfpramod/open-museum-mcp) 📇 ☁️ 🍎 🪟 🐧 - The Met, Cleveland, AIC, Wikimedia Commons 및 Europeana에서 라이선스 검증 검색(인용 포함)은 CC0 및 공개 도메인 저작물로 제한됩니다."
+},
+{
+"line": 326,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/imagegen-mcp) 📇 ☁️ - 이미지 생성, 배경 제거 및 4배 업스케일링은 Base의 USDC에서 x402를 통해 이미지당 지불됩니다."
+},
+{
+"line": 327,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Cifero74/mcp-apple-music) 🐍 🏠 🍎 - Apple Music 통합: 카탈로그 검색, 라이브러리 탐색, 재생 목록 관리 및 맞춤 추천 받기."
+},
+{
+"line": 328,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@codex-curator/studio-mcp-hub) 🐍 ☁️ - 창의적인 AI 도구: 이미지 생성, 업스케일링, 배경 제거, 제품 모형, CMYK 변환, 인쇄용 PDF, SVG 벡터화 및 워터마킹."
+},
+{
+"line": 329,
+"translated": "- @@L0@@ 🐍 🏠 - 내장된 터미널을 사용하여 ComfyUI 노드 기반 이미지 생성 워크플로우를 보고 편집하고 실행합니다."
+},
+{
+"line": 330,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/CreativeClawCo/creative-claw-marketplace) ☁️ - 이미지, 비디오, 음성, 3D 및 브랜드 그래픽을 위해 Flux 2 Pro, Nano Banana Pro, GPT Image 2, Veo 3.1, Sora 2, Kling 및 ElevenLabs와 같은 미디어 모델에 액세스하세요."
+},
+{
+"line": 331,
+"translated": "- @@L0@@ 📇 ☁️ - Discogs API와 상호 작용합니다."
+},
+{
+"line": 332,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/clanker-records/crompton-network) 📇 ☁️ 🍎 🪟 🐧 - C.W.A.의 앨범 Straight Outta Crompton에 대한 기계 기반 청취 플랫폼으로 AI 에이전트가 이를 들을 수 있습니다."
+},
+{
+"line": 333,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DataCraftsmanAU/vineverse-mcp) 📇 ☁️ 🍎 🪟 🐧 - 구절, 사람, 장소, 주제 및 히브리어 어휘에 대한 지식 그래프로서의 성경: 성경 검색, 행간 조회, 상호 참조 및 계보."
+},
+{
+"line": 334,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/delmas41/gradusnotation) 📇 ☁️ 🍎 🪟 🐧 - JSON 악보에서 악보를 SVG, MusicXML 및 MIDI로 렌더링하고, MusicXML을 조화롭게 분석하고, 음악 이론 지식 기반을 검색합니다."
+},
+{
+"line": 335,
+"translated": "- @@L0@@ 🐍 🏠 - Aseprite API를 사용하여 픽셀 아트를 만듭니다."
+},
+{
+"line": 336,
+"translated": "- @@L0@@ 📇 ☁️ - REST API를 통해 Quran.com 코퍼스와 상호 작용합니다."
+},
+{
+"line": 337,
+"translated": "- @@L0@@ 📇 ☁️ - 영화 데이터베이스(TMDB) API에서 영화, TV 프로그램 및 인물 정보를 검색하고 가져옵니다."
+},
+{
+"line": 338,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fatenava/fatenava-mcp) 🎖️ 📇 🏠 ☁️ 🍎 🪟 🐧 - 운명 차트: BaZi, Zi Wei Dou Shu 및 서양 점성술 출생 차트(진태양시 수정 및 중국어, 영어, 일본어 및 한국어 입력 포함)."
+},
+{
+"line": 339,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/flamexnreal/davinci-resolve-ai-bridge-mcp) 🐍 🏠 🍎 - DaVinci Resolve용 로컬 브리지(무료 및 Studio): 타임라인 검사, 확대/축소 애니메이션, 색상 조정 및 타임라인 중복 검토."
+},
+{
+"line": 341,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gavxm/ani-mcp) 📇 🏠 - 취향 인식 추천, 시계 분석, 소셜 도구 및 목록 관리와 AniList 통합."
+},
+{
+"line": 342,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gchen19/AnkusDrive) 🐍 🏠 🍎 🪟 🐧 - 에이전트에서 로컬 FreeCAD 구동: 파라메트릭 CAD, GD&T를 사용한 TechDraw 도면, CalculiX FEM 및 CFD, 열, EM 및 다중물리 시뮬레이션."
+},
+{
+"line": 343,
+"translated": "- @@L0@@ 📇 ☁️ - 실시간 업데이트 및 안전한 파일 처리 기능을 통해 자연어를 통해 SVG를 생성하고 편집합니다."
+},
+{
+"line": 344,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gokimedia/tarot-mcp-server) 📇 🏠 🍎 🪟 🐧 - 전체 78장의 카드에 대한 타로 의미, 정방향 및 역방향 해석, 사랑과 직업 읽기, 예 또는 아니오 답변, 무작위 추첨 및 3장의 카드 스프레드."
+},
+{
+"line": 345,
+"translated": "- @@L0@@ 🐍 ☁️ 🍎 🪟 🐧 - Spotify 도구: 스마트 셔플, 자연어 노래 검색, 분위기 분석, 아티스트 네트워크 매핑, 취향 진화 및 재생 목록 관리."
+},
+{
+"line": 346,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@hanshs474/kavel-mcp) 📇 🏠 🍎 🪟 🐧 - Kavel의 AI 사진 및 비디오 생성기(헤어스타일, 인형, 애완동물 초상화, 앨범 사진, 댄스 비디오, HD 복원)를 발견하고 조정된 프롬프트를 받으세요."
+},
+{
+"line": 347,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@jau123/mei-gen-ai-design-mcp) 📇 ☁️ 🏠 - 큐레이트된 프롬프트 라이브러리를 사용한 이미지 생성 및 편집, 프롬프트 개선 및 로컬 ComfyUI, MeiGen Cloud 및 OpenAI 호환 API 전반에 걸친 라우팅."
+},
+{
+"line": 348,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/j-east/pixel-surgeon-mcp) 📇 🏠 🍎 🪟 🐧 - 스타일 사전 설정이 포함된 Gemini 3.1 Flash Image, GPT Image 2, Grok Imagine 및 Veo 3을 통한 이미지 및 비디오 생성, 편집 및 영역 복구."
+},
+{
+"line": 349,
+"translated": "- @@L0@@ 🐍 ☁️ - 대량 Spotify 작업: 신뢰도에 따른 노래 일치, CSV 또는 팟캐스트 목록에서 일괄 재생 목록 생성, 가장 많이 저장된 아티스트 및 앨범 내보내기."
+},
+{
+"line": 350,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@labelgrid/labelgrid-mcp) 🎖️ 📇 ☁️ - LabelGrid 음악 배포 카탈로그, 릴리스, 분석 및 로열티를 관리합니다."
+},
+{
+"line": 351,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/leonardoca1/aesthetics-wiki-mcp) 🐍 🏠 🍎 🪟 🐧 - 미학 위키에서 코티지코어, 다크 아카데미아, Y2K, 고블린코어 등의 시각적 미학을 검색하고 읽고 발견하세요."
+},
+{
+"line": 352,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - memebo.at 템플릿에서 밈 만들기: 카탈로그를 검색하고 템플릿에 캡션을 추가하고 공유 가능한 밈 링크를 받으세요."
+},
+{
+"line": 353,
+"translated": "- @@L0@@ 📇 ☁️ - 메트로폴리탄 미술관 컬렉션 API를 통해 작품을 검색하고 표시합니다."
+},
+{
+"line": 354,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mikan-atomoki/text-to-model) 🐍 🏠 🪟 🍎 - 스케치, 돌출, 필렛 및 JIS 표준 부품용 ​​CAD 도구를 사용하여 Fusion 360에서 자연어를 3D 모델로 변환합니다."
+},
+{
+"line": 355,
+"translated": "- @@L0@@ 🐍 ☁️ - 스미소니언 협회의 오픈 액세스 컬렉션에 액세스하세요."
+},
+{
+"line": 356,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Noteboxd/mcp) 📇 ☁️ 🏠 - Noteboxd 향수 백과사전에서 향수, 노트, 협정, 브랜드, 조향사, 리뷰 및 차트를 검색하세요."
+},
+{
+"line": 357,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/joshseane/-nmlp-mcp) 📇 ☁️ - 발행 지점, 번호줄 해독, 출판사 규칙, 뉴멕시코 도서 기증 물류를 활용한 초판 도서 식별."
+},
+{
+"line": 358,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/calibreweb-mcp) 📇 🏠 - OPDS를 통해 자체 호스팅된 Calibre-Web 또는 Calibre-Web Automated 전자책 라이브러리에 대한 읽기 전용 액세스: 검색, 서가, 표지 및 형식별 다운로드 링크."
+},
+{
+"line": 359,
+"translated": "- @@L0@@ #️⃣ ☁️ - 3D 프린터 액세스: 실시간 프린터 상태, 웹캠 스냅샷 및 프린터 제어."
+},
+{
+"line": 360,
+"translated": "- @@L0@@ 📇 ☁️ - 서버 및 확장 프로그램을 통해 NVIDIA Isaac Sim, Isaac Lab, OpenUSD 등을 자연 언어로 제어합니다."
+},
+{
+"line": 361,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Pantani/ableton-mind) 📇 🏠 🍎 🪟 - 로컬 원격 스크립트 브리지를 통해 Ableton Live 제어: 세트 검사, 트랙, 장면 및 클립 생성, 장치 로드, 음악 레시피 적용 및 변경 사항 확인."
+},
+{
+"line": 362,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Pantani/tdmcp) 📇 🏠 🍎 🪟 - 재생 가능한 TouchDesigner 네트워크를 구축하기 위한 시각적 설명: 오디오 반응형, 생성형, 파티클, 3D 및 라이브 노브와 MIDI/OSC/DMX가 포함된 피드백 시스템."
+},
+{
+"line": 363,
+"translated": "- @@L0@@ 🐍 🏠 - AI 도우미를 Autodesk Maya에 연결합니다."
+},
+{
+"line": 364,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pzfreo/build123d-mcp) 🐍 🏠 🍎 🪟 🐧 - build123d 파라메트릭 CAD를 사용하여 3D 형상을 생성, 검사 및 반복합니다. PNG/SVG 보기를 렌더링하고 형상을 측정하고 STEP/STL을 내보냅니다."
+},
+{
+"line": 365,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Psalmustrack/lambdacad-mcp) 🐍 🏠 🐧 - AutoLISP 브리지를 통해 Linux에서 BricsCAD를 구동합니다: 치수 및 해치가 포함된 2D 제도, 부울이 포함된 3D 솔리드, 생성된 도면 뷰 및 PDF 내보내기."
+},
+{
+"line": 366,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/doctorm333/promptpilot-mcp-server) 📇 ☁️ - 신속한 사전 설정 및 일괄 생성을 통해 Flux, GPT-Image-1, Imagen 4, Grok, Seedance 및 ElevenLabs와 같은 모델을 사용하여 이미지, 비디오 및 오디오를 생성합니다."
+},
+{
+"line": 367,
+"translated": "- @@L0@@ 📇 ☁️ - Oorlogsbronnen(War Sources) API를 통해 네덜란드(1940-1945)의 역사적인 2차 세계 대전 기록, 사진 및 문서에 액세스하세요."
+},
+{
+"line": 368,
+"translated": "- @@L0@@ 📇 ☁️ - Rijksmuseum API를 통해 작품을 검색하고 세부정보와 컬렉션을 확인하세요."
+},
+{
+"line": 369,
+"translated": "- @@L0@@ 🐍 ☁️ - FLUX, Stable Diffusion 및 MusicGen과 같은 Fal.ai 모델을 사용하여 이미지, 비디오 및 음악을 생성합니다."
+},
+{
+"line": 370,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rekordcloud/sonovault-mcp) 📇 ☁️ 🍎 🪟 🐧 - 트랙, 아티스트, 레이블 및 릴리스에 대한 음악 메타데이터 검색: 장르, 릴리스 날짜, ISRC/ISWC 코드 및 Spotify, Apple Music, Discogs 등에 대한 ID."
+},
+{
+"line": 371,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rosasynthesiz/flstudio-mcp) 🐍 🏠 🪟 - FL Studio 제어: DAW 내 믹싱(게인 스테이징, EQ, 압축, 리버브, 레퍼런스 매칭), 라우팅 및 구성."
+},
+{
+"line": 372,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/runcomfy-com/runcomfy-mcp) 🎖️ 🐍 ☁️ - RunComfy ComfyUI 서버리스 배포, 호스팅 모델 추론 및 LoRA 교육 작업을 관리합니다."
+},
+{
+"line": 373,
+"translated": "- @@L0@@ 🐍 - 비디오 편집, 컬러 그레이딩, 미디어 관리 및 프로젝트 제어를 위한 DaVinci Resolve 통합."
+},
+{
+"line": 374,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sharafutdinovdi/revit-model-mcp) 🐍 #️⃣ 🏠 🪟 - 실시간 Autodesk Revit 모델 읽기(요소, 매개변수, 뷰, 경고, PNG 내보내기) 모델 변경은 사전 실행 및 커밋 후 검증을 통해 선택적으로 이루어집니다."
+},
+{
+"line": 375,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/shunshi-ai/bazi-reader-mcp) 📇 🏠 🍎 🪟 🐧 - 실제 태양시 보정 기능을 갖춘 Bazi(네 기둥) 차트 작성 및 중국어, 영어, 일본어, 한국어 출력."
+},
+{
+"line": 376,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-lrclib) 📇 ☁️ 🍎 🪟 🐧 - LRCLIB에서 트랙을 검색하고 시간 동기화된 LRC 라인을 포함한 가사를 간략한 검색 결과와 함께 읽어보세요."
+},
+{
+"line": 377,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-imslp) 📇 ☁️ - Petrucci Music Library인 IMSLP를 읽어 보세요. 작품과 작곡가를 검색하고, 카탈로그 번호, 키와 악기를 보고, 저작권 상태가 있는 에디션을 찾아보세요."
+},
+{
+"line": 378,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/slshults/shakespeare-monologues-mcp) 📇 ☁️ - 셰익스피어 독백을 등장인물, 희곡 또는 첫 줄로 검색하고 전문, 현대 영어 의역 및 장면이나 희곡 요약을 가져옵니다."
+},
+{
+"line": 379,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-books) 📇 ☁️ - 인터넷 아카이브, 국회 도서관, 프랑스 국립도서관을 카탈로그 전체와 스캔한 텍스트 내부에서 한 번에 검색하세요."
+},
+{
+"line": 380,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/speedwarnsf/scenef-mcp) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - 레퍼토리 하우스와 35mm/70mm 상영부터 체인까지 캘리포니아 및 하와이 극장의 읽기 전용 상영 시간표가 각 극장의 일정에 따라 확인됩니다."
+},
+{
+"line": 381,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@tasopen/mcp-alphabanana) 📇 🏠 🍎 🪟 🐧 - Google Gemini(Nano Banana 2 및 Pro)를 사용하여 이미지 자산 생성: 투명 PNG/WebP, 정확한 크기 조정 및 자르기, 참조 이미지 및 검색 기반."
+},
+{
+"line": 382,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TOBYCAI/image-mcp) 🐍 🏠 🍎 🪟 🐧 - 오프라인 이미지 처리: 크기 조정, 자르기, 변환, 압축, 회전, 뒤집기, 썸네일, 워터마크, 효과, 자리 표시자 및 오버레이."
+},
+{
+"line": 383,
+"translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 믹싱, 마스터링, MIDI 작곡 및 음악 제작을 위해 REAPER DAW를 제어하세요."
+},
+{
+"line": 384,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/UModeler/picoberry-mcp) 🎖️ 📇 ☁️ - 텍스트 또는 참조 이미지에서 3D 모델 및 이미지를 생성한 다음 PicoBerry API를 통해 GLB/FBX/OBJ를 다시 메시하고, 텍스처링하고, 자동으로 조작하고, 애니메이션하고 내보냅니다."
+},
+{
+"line": 385,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vicseeai/vicsee-mcp-server) 📇 ☁️ - VicSee를 통해 AI 비디오 및 이미지(Seedance, Veo, Kling, FLUX, Nano Banana)를 생성, 편집 및 확장합니다."
+},
+{
+"line": 386,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wretcher207/reaper-daemon) 🐍 🏠 🍎 🪟 🐧 - 로컬 파일 브리지를 통해 REAPER DAW를 구동합니다. 플러그인 및 매개변수 읽기, FX 값 설정, 자동화 작성, 믹스 변경 측정 등 모든 작업이 실행 취소 블록 내에서 이루어집니다."
+},
+{
+"line": 387,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/XavierFabregat/spotify-mcp) 📇 🏠 🍎 🪟 🐧 - 대화식 Spotify 제어: 설명에 따라 재생하고 안내 설정 마법사를 통해 대기열, 장치, 재생 목록 및 라이브러리를 관리합니다."
+},
+{
+"line": 388,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yonlandwu/chinese-almanac-mcp) 📇 🏠 🍎 🪟 🐧 - 중국 연감(Tung Shing): 일일 판독값, 시간 기둥 행운 등급, NASA JPL 기반 절기, 길조 날짜, 황도대 운세 및 행운의 시간."
+},
+{
+"line": 389,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yuluo688/gen-image-mcp) 📇 🏠 🍎 🪟 🐧 - 자신만의 OpenAI 호환 또는 Gemini 이미지 API를 통해 이미지를 생성 및 편집하고 선택적 모델 폴백을 사용하여 프로젝트 디렉터리에 저장합니다."
+},
+{
+"line": 390,
+"translated": "- @@L0@@ 📇 ☁️ - AniList API의 애니메이션 및 만화 정보."
+},
+{
+"line": 391,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-bideetmusique) 📇 ☁️ 🍎 🪟 🐧 - Bide & Musique가 직접 정리한 잊혀진 프랑스 노래 컬렉션을 연주자, 제목, 작가, 가사, 레이블 또는 연도별로 검색하고 전체 음반을 읽어보세요."
+},
+{
+"line": 393,
+"translated": "### 📐 <a name=\"architecture-and-design\"></a>건축 및 디자인"
+},
+{
+"line": 395,
+"translated": "소프트웨어 아키텍처, 시스템 다이어그램, 기술 문서를 설계하고 시각화합니다. AI 모델을 사용하여 전문적인 다이어그램과 아키텍처 문서를 생성할 수 있습니다."
+},
+{
+"line": 397,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aidc2026ai-melon/aidc-ai-mcp) 🎖️ 📇 ☁️ - 한국의 결정론적 AI 데이터 센터 설계(NVIDIA Rubin 시대, 22.9kV 흡입): 랙 수, PUE, 총 MVA, 냉각 분할, CDU 계획, 비용 및 일정."
+},
+{
+"line": 398,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ant-dev-lab/nightmarquee-mcp) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - 아트 방향의 웹 사이트는 히어로 섹션, 랜딩 페이지, SaaS, 포트폴리오, 전자 상거래 및 3D/WebGL 장면에 대한 슬래시 명령을 각각 라이브 데모와 함께 표시합니다."
+},
+{
+"line": 399,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/awdr74100/figwright) 📇 🏠 🍎 🪟 🐧 - 양방향 Figma 브리지: 구성 요소 및 토큰을 재사용하여 선택 항목을 프레임워크 인식 코드로 전환하거나 프레임, 텍스트, 스타일, 변수 및 화면을 생성합니다."
+},
+{
+"line": 400,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bobaba99/motionlint) 📇 🏠 🍎 🪟 🐧 - 라이브 페이지에 대한 결정론적 검사(지속 시간, 여유, 스태거, 종료, 모션 감소, 호버)와 선택적인 비전-LLM UX 검토가 포함된 린트 웹 애니메이션."
+},
+{
+"line": 401,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/builditwithgk/repo-cartographer) 📇 🏠 🍎 🪟 🐧 - 저장소를 파일 트리에서 Mermaid 또는 Graphviz 아키텍처 다이어그램으로 변환하고 그래프 및 진입점을 가져옵니다. 또한 CI에 아키텍처 규칙을 적용합니다."
+},
+{
+"line": 402,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@BV-Venky/excalidraw-architect-mcp) 🐍 🏠 🍎 🪟 🐧 - 자동 레이아웃, 기술 인식 구성 요소 스타일(데이터베이스, 큐, 캐시) 및 상태 저장 편집을 통해 Excalidraw 아키텍처 다이어그램을 생성합니다."
+},
+{
+"line": 403,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cisco-open/network-sketcher) 🐍 🏠 🍎 🪟 🐧 - 로컬 우선 네트워크 설계: Cisco 스타일 네트워크 마스터 파일, L1/L2/L3 토폴로지 다이어그램, HTML 뷰어, 장치 테이블 및 AI 컨텍스트 파일을 생성합니다."
+},
+{
+"line": 404,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Daksh-create349/Contradiction-MCP) 📇 🏠 ☁️ 🍎 🪟 🐧 - 결정론적 채점 및 해결 조언을 통해 Kubernetes 매니페스트, README, OpenAPI 사양 및 Word 문서에서 모순과 아키텍처 드리프트를 감지합니다."
+},
+{
+"line": 405,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ejwhite7/brandkit-mcp) 📇 🏠 🍎 🪟 🐧 - CSS, Markdown, PDF, SVG 및 글꼴에서 구문 분석된 회사의 디자인 시스템(색상, 타이포그래피, 로고, 구성 요소, 지침, CSS 토큰)을 AI 도구에 노출합니다."
+},
+{
+"line": 406,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/erajasekar/ai-diagram-maker-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - AI 다이어그램 메이커: 인라인으로 렌더링된 텍스트, 코드, ASCII, 이미지 또는 인어로부터 순서도, 시퀀스 다이어그램, ERD, 아키텍처, UML 및 마인드 맵을 생성합니다."
+},
+{
+"line": 407,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/flowzap-xyz/flowzap-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 유효성 검사, 플레이그라운드 링크, 구문 문서, 내보내기, 비교 및 ​​패치 기능을 갖춘 FlowZap Code DSL을 사용하여 워크플로, 시퀀스 및 아키텍처 다이어그램을 만듭니다."
+},
+{
+"line": 408,
+"translated": "- @@L0@@ 🐍 ☁️ - 로컬 프로젝트 또는 GitHub 저장소를 Kroki를 통해 렌더링된 인어 다이어그램으로 전환합니다."
+},
+{
+"line": 409,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HalidSaglam/saglitzdesign-mcp) 📇 🏠 🍎 🪟 🐧 - 웹, iOS, Android 및 macOS를 위한 오프라인 UI/UX 디자인 및 마케팅 지침과 디자인 토큰, 색상 시스템, 유형 스케일 및 WCAG 검사용 생성기를 제공합니다."
+},
+{
+"line": 410,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/imgly/codesign) 📇 🏠 🍎 🐧 - 로컬 디자인 엔진: 인쇄 가능한 PDF와 InDesign, PSD 및 PDF 가져오기 기능을 사용하여 브랜드 소셜 게시물, 전단지, 자료 및 명함을 생성, 편집 및 내보낼 수 있습니다."
+},
+{
+"line": 411,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jgsystemsconsulting/jgs-magic-sysmlv1-mcp) 🐍 🏠 🍎 🪟 🐧 - CATIA Magic의 실시간 SysML v1 모델에 연결: 로컬, 에어갭 연결을 통한 쿼리, 감사, 추적 및 편집 블록, 요구 사항, 할당 및 다이어그램."
+},
+{
+"line": 412,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/karyaboyraz/mockit-mcp) 📇 🏠 🍎 🪟 🐧 - Claude 및 헤드리스 Playwright 렌더러를 사용하여 텍스트 프롬프트에서 iOS UI 모형을 PNG 및 HTML로 생성합니다."
+},
+{
+"line": 413,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/KasayoDotCom/identityforge-mcp) 📇 🏠 🍎 🪟 🐧 - 디자인 키트 및 브랜드 워크플로: 디자인 시스템을 검색 및 적용하고, 공유 가능한 브랜드 프로젝트를 만들고, 연구 이름, 도메인 및 EUIPO 상표를 만듭니다."
+},
+{
+"line": 414,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Kentucky-ai/opentakeoff) 📇 🏠 🍎 🪟 🐧 - 건설 계획 수립: 계획 PDF 로드, 제목 블록 읽기, 도면 축척 설정, 룸 추적 및 평방 피트 및 선형 피트와 같은 수량 내보내기."
+},
+{
+"line": 415,
+"translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - 템플릿, 레이아웃 엔진 및 SVG/PNG/PDF 내보내기를 사용한 인어 다이어그램 생성(흐름도, 시퀀스, 클래스, ER, 아키텍처 및 상태 다이어그램)."
+},
+{
+"line": 416,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ng-galien/maket) 📇 🏠 🍎 🪟 🐧 - 로컬 우선 디자인 작업 공간: 실시간 미리 보기, 브랜드 및 자산 라이브러리, 검증 및 PDF 내보내기를 통해 와이어프레임과 브랜드 다중 페이지 HTML/CSS 문서를 작성합니다."
+},
+{
+"line": 417,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/odd-Innocent/den_archi_mcp) 🎖️ 🐍 ☁️ - 한국의 건축, 엔지니어링 및 건설 지식: KDS, KCS 및 KS 표준, 법령 및 전문 지식을 하나의 그래프로, 인용문을 인용하여 답변합니다."
+},
+{
+"line": 418,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/posecode-dev/posecode) 📇 🏠 🍎 🪟 🐧 - LLM이 작성할 수 있는 인간 움직임에 대한 텍스트 언어로, 브라우저에서 해부학적으로 제한된 3D 인간 형상으로 렌더링됩니다."
+},
+{
+"line": 419,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rdanieli/tentra-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 자연어로 시스템을 설명하여 대화형 아키텍처 다이어그램을 얻고, Spring Boot, FastAPI 및 Terraform과 같은 프레임워크로 내보내고, 드리프트를 감지합니다."
+},
+{
+"line": 420,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/RedHold/diagrams-mcp-app-core) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - 프롬프트, Terraform 또는 Kubernetes 매니페스트에서 draw.io 클라우드 아키텍처 다이어그램을 생성 및 편집하고 Well-Architected 경고를 수정하고 SVG로 내보냅니다."
+},
+{
+"line": 421,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/RNVizion/rnv-color-mcp) 🐍 ☁️ - 색상 혼합(Kubelka-Munk 페인트 물리학 포함), 형식 변환, 하모니 생성, 명명된 팔레트 저장, 16진수, CSS 및 브랜드 색상 이름 확인."
+},
+{
+"line": 422,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Roberton003/mcp-server-decisions) 🐍 🏠 🍎 🪟 🐧 - 추가 전용 JSONL에 저장된 테스트 가능한 예측 및 결과 게이트를 통한 아키텍처 의사결정 추적."
+},
+{
+"line": 423,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tomyangod/architecture_viewer) 📇 🏠 🍎 🪟 🐧 - 새로운 레이어 간 종속성 및 구조적 변경 사항을 감지하기 위해 AI 편집 내용을 git HEAD와 비교하는 로컬 아키텍처 게이트 및 CLI."
+},
+{
+"line": 424,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/uxloom-dev/uxloom) 📇 🏠 🍎 🪟 🐧 - UI/UX 검증: 사용자 여정을 상태 머신으로 모델링하고, 누락된 상태, 대비 및 터치 대상 문제를 찾고, 디자인 계약에 따라 코드를 확인합니다."
+},
+{
+"line": 425,
+"translated": "- @@L0@@ 📇 ☁️ - 공유 작업 공간에서 버전 기록, 설명, 포함, 프레젠테이션 데크 및 다이어그램 린팅 기능을 갖춘 인어 다이어그램을 만듭니다."
+},
+{
+"line": 427,
+"translated": "### <a name=\"bio\"></a>생물학, 의학 및 생물정보학"
+},
+{
+"line": 428,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ajibadedapo/flowproof-mcp) 🐍 🏠 ☁️ - 검증 가능한 워크플로우 실행 RO-Crate 출처(컨테이너 다이제스트, 도구 버전 및 체크섬)를 사용하여 재현 가능한 Nextflow 생물정보학 파이프라인을 실행합니다."
+},
+{
+"line": 429,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ammawla/encode-toolkit) 🐧 - ENCODE 프로젝트에서 기능 유전체학 실험을 검색, 다운로드, 추적 및 분석합니다."
+},
+{
+"line": 430,
+"translated": "- @@L0@@ 🐍 🏠 - 공간 전사체학 분석: 세포 주석, 디콘볼루션, 공간 통계 및 시각화."
+},
+{
+"line": 431,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Crindo2/gph-mcp-server) 📇 ☁️ - 청구, 자격 증명, EHR, 규정 준수 및 법적 측면에서 미국 의료 관행을 의료 서비스 공급업체와 연결합니다."
+},
+{
+"line": 432,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidmosiah/google-health-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - Fitbit 및 Pixel Watch 활동, 수면, 심장, 영양 및 조정된 건강 데이터를 위한 Google Health API에 대한 로컬 우선 액세스."
+},
+{
+"line": 433,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidmosiah/wellness-cgm-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - LibreLink Up을 통해 Dexcom Developer API 및 FreeStyle Libre의 로컬 최초 연속 혈당 모니터링 데이터입니다."
+},
+{
+"line": 434,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidmosiah/wellness-nourish) 📇 🏠 🍎 🪟 🐧 - 영양 및 수분 섭취 추적: 음식 검색, 바코드 조회, 식사 추정, 섭취 기록 및 일일 요약."
+},
+{
+"line": 435,
+"translated": "- @@L0@@ ☕ ☁️ 🍎 🪟 🐧 - 1000 Genomes Project 데이터 세트에 실시간으로 액세스합니다."
+},
+{
+"line": 436,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ericblair1903/nutrients-mcp) 📇 ☁️ 🍎 🪟 🐧 - 음식 사진이나 텍스트 설명을 통한 영양 분석: 칼로리, 매크로, 비타민, 미네랄, 알레르기 유발 물질 및 식이 플래그."
+},
+{
+"line": 437,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forever-healthy/evipedia-mcp) 📇 ☁️ 🍎 🪟 🐧 - 건강 및 장수 중재에 대한 Evipedia의 증거 기반 리뷰를 검색하고, PMID를 사용하여 결론과 메타데이터를 가져오고, 새로운 중재를 제안합니다."
+},
+{
+"line": 438,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fulcradynamics/fulcra-context-mcp) 🐍 ☁️ - Fulcra Life API를 통해 개인 건강 및 생체 인식 데이터(수면 단계, 심박수, HRV, 혈당, 운동), 달력 및 위치에 액세스하세요."
+},
+{
+"line": 439,
+"translated": "- @@L0@@ 🐍 ☁️ - PubMed, ClinicalTrials.gov 및 MyVariant.info에서 생물의학 연구 데이터에 액세스하세요."
+},
+{
+"line": 440,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/healthchainai/HealthChain) 🐍 🏠 - 형식화된 FHIR 도구: 용어 조회 및 기계 판독 가능 검증 보고서를 사용하여 환자 번들에서 FHIR 리소스를 구축, 읽기, 검증 및 코딩합니다."
+},
+{
+"line": 441,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/helena-bioinformatics/noodle-mcp) 🐍 ☁️ - 인용 및 의미 그래프 순회를 통해 자연어 또는 PMID/DOI/PMCID를 통해 PubMed 파생 코퍼스에 대한 읽기 전용 생의학 문헌을 검색합니다."
+},
+{
+"line": 442,
+"translated": "- @@L0@@ 🐍 ☁️ - UCSC Genome Browser API와 상호 작용하여 게놈, 염색체 등을 찾습니다."
+},
+{
+"line": 443,
+"translated": "- @@L0@@ 📇 🏠 - 의료 정보, 약물 데이터베이스, 약물 상호 작용 및 임상 지침을 쿼리합니다."
+},
+{
+"line": 444,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JaviMaligno/vitamind-mcp) 📇 ☁️ - 태양광 비타민 D 합성 추정: Open-Meteo UV 데이터를 사용하여 현재 발생 여부, Fitzpatrick 피부 유형에 따라 필요한 시간(분) 및 위도에 따른 생존 가능 개월수를 추정합니다."
+},
+{
+"line": 445,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kushaim/practice-fusion-mcp) 📇 🏠 - Practice Fusion EHR에 대한 읽기 전용 FHIR 액세스: 환자를 검색하고 약속, 조건, 약물 및 실험실 결과를 검토합니다."
+},
+{
+"line": 446,
+"translated": "- @@L0@@ 📇 ☁️ - 지구력 운동선수를 위한 경주 영양 계획: 탄수화물, 나트륨 및 수분 목표와 경주 유형, 조건 및 체중에 따른 Lecka 제품 권장 사항."
+},
+{
+"line": 447,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/OFODevelopment/mymedi-ai-mcp-server) 📇 ☁️ - 의료 청구: ICD-10, CPT 및 HCPCS 코드 조회, 사전 승인 예측, 청구 확인, 거부 위험 점수 및 HIPAA 준수 감사."
+},
+{
+"line": 448,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SEOSiri-Official/biorobotics) 🐍 🏠 🍎 🪟 🐧 - UniProt API의 생물학적 데이터를 데카르트 G 코드 좌표로 변환하는 바이오 로봇 엔진."
+},
+{
+"line": 449,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/salwks/mcp-techTrend) 🐍 🏠 - 신문 스타일 브리핑을 통해 arXiv, PubMed, GitHub, Hugging Face 및 openFDA 전반에 걸쳐 학술, 코드 및 의료 규제 동향을 모니터링합니다."
+},
+{
+"line": 450,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NyxToolsDev/dicom-hl7-mcp-server) 🐍 🏠 - 브리지 DICOM, HL7v2 및 FHIR: 교차 표준 매핑, Mirth Connect 채널 생성, 공급업체 개인 태그 디코딩 및 통합 패턴."
+},
+{
+"line": 451,
+"translated": "- @@L0@@ 🐍 🏠 ☁️ - BioThings API에서 유전자, 유전적 변이체, 약물 및 분류학적 정보를 쿼리합니다."
+},
+{
+"line": 452,
+"translated": "- @@L0@@ 🐍 🏠 ☁️ - gget 라이브러리를 래핑하는 게놈 쿼리 및 분석을 위한 생물정보학 툴킷입니다."
+},
+{
+"line": 453,
+"translated": "- @@L0@@ 🎖️ 🐍 🏠 ☁️ - 노화 및 장수 연구를 위해 OpenGenes 데이터베이스를 쿼리합니다."
+},
+{
+"line": 454,
+"translated": "- @@L0@@ 🎖️ 🐍 🏠 ☁️ - 장수에 있어서 상승적 및 적대적 유전적 상호작용에 대한 SynergyAge 데이터베이스를 쿼리합니다."
+},
+{
+"line": 455,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/musharna/plant-genomics-mcp) 🐍 🏠 🍎 🪟 🐧 - Ensembl Plants, Phytozome, UniProtKB, KEGG, STRING-DB, NCBI BLAST 등에서 일괄 및 소스 간 쿼리를 통해 식물 유전체학 위치를 조회합니다."
+},
+{
+"line": 456,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/neptun2000/heor-agent-mcp) 📇 ☁️ - 건강 경제학 및 결과 연구: PubMed, NICE, CADTH, ICER 등의 문헌 검색, 비용 효율성 모델링 및 HTA 서류 준비."
+},
+{
+"line": 457,
+"translated": "- @@L0@@ 🐍 🏠 ☁️ - 의료 데이터 표준화 및 상호 운용성을 위해 LLM을 사용하여 임상 용어를 OMOP 개념에 매핑합니다."
+},
+{
+"line": 458,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PantelisGeorgiadis/dicomweb-mcp-server) 📇 ☁️ 🏠 - DICOMweb 아카이브에 액세스: 연구, 시리즈 및 인스턴스 검색, 메타데이터 검사, 구조화된 보고서 읽기, PDF 텍스트 추출 및 프레임 렌더링."
+},
+{
+"line": 459,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tatsuju/opdstar-nhi-mcp) 📇 ☁️ - 대만 국민건강보험(NHI) 데이터: 거부 코드, 절차 매핑에 대한 ICD-10, NHI 문서에 대한 감사 지표 및 의미 검색."
+},
+{
+"line": 460,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pkotecha-eng/aria-mcp-server) 🐍 - 시험 코디네이터 및 생명 과학 팀을 위한 임상 연구 도구: PubMed 및 ClinicalTrials.gov에 실시간으로 액세스합니다."
+},
+{
+"line": 461,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pubspro/pubmed-search) 📇 ☁️ - PubMed를 검색하고 생물의학 문헌을 요약합니다."
+},
+{
+"line": 462,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Rajskij/oura-mcp) 📇 ☁️ 🏠 - Oura Ring 수면, 준비 상태, 활동, 스트레스 및 심박수 데이터에 대한 읽기 전용, 자체 호스팅 액세스입니다."
+},
+{
+"line": 463,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SidneyBissoli/medical-terminologies-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 의료 용어를 찾아보세요: ICD-11, LOINC, RxNorm, MeSH, ATC, 브라질의 CID-10(DataSUS) 및 선택적으로 SNOMED CT."
+},
+{
+"line": 464,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sikcapri/superglookoquery) 📇 🏠 ☁️ 🍎 🪟 - 모든 펌프 또는 CGM의 Glooko 당뇨병 데이터에 대한 임상 감사: 범위 내 시간, GMI, 추세 및 볼루스/기저 분석, 장치가 보고하는 데이터에 적용."
+},
+{
+"line": 465,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smaniches/alphafold-sovereign-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 구조 신뢰도, 변종, 질병, 약물 표적 및 정형학에 대한 로컬 SQLite 지식 그래프의 AlphaFold DB 및 기타 공공 생물 의학 소스."
+},
+{
+"line": 466,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smaniches/uniprot-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 쿼리별 SHA-256 출처 및 오프라인 재생을 통해 UniProt 지식 베이스(항목, 기능, 변형, PTM, GO 용어, 상호 참조)를 쿼리합니다."
+},
+{
+"line": 467,
+"translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 내보낸 Apple 건강 데이터에 액세스하고 분석합니다."
+},
+{
+"line": 468,
+"translated": "- @@L0@@ 🐍 🏠 ☁️ - FHIR 서버에 연결합니다. 예를 들어 환자 기록을 자연어로 쿼리합니다."
+},
+{
+"line": 469,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/thehealthai/clarity-mcp) 📇 ☁️ - 인용된 증거 평결, 주장 사실 확인 및 FDA 리콜 조회를 통해 성분, 제품 및 보충제에 대한 상태 인식 안전 검사."
+},
+{
+"line": 470,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/thehealthai/fda-risk-radar-mcp) 📇 ☁️ - FDA 및 NHTSA 규제 위험 데이터: 기기 규정 준수 위험, 510(k) 증거, 조건 체인, 시판 후 신호, 상환 경로 및 차량 안전."
+},
+{
+"line": 471,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/thelongevityvault/decoder-3am-mcp) 📇 ☁️ - The Longevity Vault의 5가지 원인 프레임워크를 사용하여 증상 설명에서 오전 3시에 기상할 가능성이 있는 생물학적 원인을 분류합니다."
+},
+{
+"line": 472,
+"translated": "- @@L0@@ 🐍 🏠 ☁️ - SMART-on-FHIR 인증을 통해 FHIR API를 통해 임상 데이터를 검색, 검색, 생성, 업데이트 및 분석합니다."
+},
+{
+"line": 473,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wjgoarxiv/pymol-mcp) 🐍 🏠 🍎 🪟 🐧 - H 결합 네트워크 및 차수 매개변수를 포함한 분자 시각화, GROMACS/LAMMPS 궤적 및 포접-수화물 케이지 분석을 위한 헤드리스 PyMOL입니다."
+},
+{
+"line": 475,
+"translated": "### 📂 <a name=\"browser-automation\"></a>브라우저 자동화"
+},
+{
+"line": 477,
+"translated": "웹 콘텐츠 액세스 및 자동화 기능. AI 친화적인 형식으로 웹 콘텐츠를 검색, 스크랩 및 처리할 수 있습니다."
+},
+{
+"line": 479,
+"translated": "- @@L0@@ 📇 🏠 - LangChain 통합 예시를 통해 Bilibili 콘텐츠를 검색하세요."
+},
+{
+"line": 480,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/achiya-automation/safari-mcp) 📇 🏠 🍎 - Chrome 종속성이 없는 기본 Safari 브라우저 자동화."
+},
+{
+"line": 481,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/acunningham-ship-it/veilbrowser) 📇 🐍 🏠 - 접근성 트리 요소 참조를 사용하여 원시 CDP를 통해 수정되지 않은 Chrome의 스텔스 자동화 실행 중인 Chrome에 연결하여 로그인된 세션을 재사용할 수 있습니다."
+},
+{
+"line": 482,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aethynio/aethyn-browser-mcp) 📇 🏠 - 선택한 출구 국가 또는 도시와 작업별 고정 ID를 사용하여 주거용 프록시를 통해 로컬 극작가 브라우저를 구동합니다."
+},
+{
+"line": 483,
+"translated": "- @@L0@@ 📇 🏠 - 로컬 및 원격 브라우저 연결을 지원하는 Puppeteer를 사용한 브라우저 자동화."
+},
+{
+"line": 484,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Agent360dk/browser-mcp) 📇 🏠 - 여러 개의 동시 색상 구분 세션을 사용하여 확장 프로그램을 통해 실제 로그인된 Chrome 브라우저를 제어하세요."
+},
+{
+"line": 485,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AishwaryShrivastav/vibe-testing) 📇 🏠 🍎 🪟 🐧 - 경로, 양식 및 기존 테스트를 읽고 Playwright 시나리오를 실행하며 회귀 기록 및 스크린샷 보고서를 유지하는 코드 인식 브라우저 테스트입니다."
+},
+{
+"line": 486,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alex-on-ai/WebReaper) #️⃣ 🏠 🍎 🪟 🐧 - 단일 바이너리로 배포되는 깨끗한 마크다운을 반환하는 웹 스크레이퍼입니다."
+},
+{
+"line": 487,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/parastejpal987-cmyk/opticparse-public) 🐍 🏠 ☁️ 🍎 🪟 🐧 - CSS 선택기가 없는 시각적 다중 모드 웹 스크래핑과 피싱 및 암호화폐 드레이너 감지."
+},
+{
+"line": 488,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ami-guru/x402-scraper-engine) 📇 ☁️ - 웹 스크래핑, Llama 3 다이제스트 및 Twitter 인텔리전스는 Base의 x402를 통해 USDC로 통화당 지불됩니다."
+},
+{
+"line": 489,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/andresolbach/nodriver-mcp-server) 🐍 🏠 🍎 🪟 🐧 - 안티 봇 보호 사이트용 nodriver를 통해 감지되지 않은 Chrome 자동화: 접근성 스냅샷, 입력 자동화, 네트워크 검사 및 영구 세션."
+},
+{
+"line": 490,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@aparajithn/agent-scraper-mcp) 🐍 ☁️ - 웹 스크래핑: 깨끗한 콘텐츠 추출, CSS 선택기 스크래핑, 극작가 스크린샷, 링크 및 메타데이터 추출, Google 검색."
+},
+{
+"line": 491,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@apireno/domshell) 📇 🏠 - 확장 프로그램을 통해 Chrome의 접근성 트리를 가상 파일 시스템에 매핑하여 파일 시스템 명령(ls, cd, grep, click)으로 웹을 탐색합니다."
+},
+{
+"line": 492,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/auspy/supasidebar-mcp) 📇 🏠 🍎 - SupaSidebar 앱을 통해 macOS 브라우저에서 열린 탭, 북마크 및 최근 링크에 액세스하고 구성합니다."
+},
+{
+"line": 493,
+"translated": "- @@L0@@ 🐍 - Playwright를 이용한 브라우저 자동화."
+},
+{
+"line": 494,
+"translated": "- @@L0@@ 🦀 - 종속성이 전혀 없는 경량 브라우저 자동화."
+},
+{
+"line": 495,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 토큰 추정, 캐싱 및 잘림을 사용하여 Trafilatura, Jina Reader, Firecrawl 및 pypdf 사이를 URL로 라우팅하는 토큰 예산 웹 가져오기입니다."
+},
+{
+"line": 496,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bgaze/snapstack-server) 📇 🏠 🍎 🪟 🐧 - 컴패니언 확장으로 캡처하고 요청 시 모델에 로컬로 제공되는 원클릭 브라우저 탭 스크린샷입니다."
+},
+{
+"line": 497,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bighippoman/intercept-mcp) 📇 🏠 - 트윗, YouTube, arXiv, PDF 및 일반 페이지를 처리하는 다계층 폴백 체인을 통해 웹 콘텐츠를 깨끗한 마크다운으로 가져옵니다."
+},
+{
+"line": 498,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@autokeren/ghostfox) 🦀 🏠 🍎 🪟 🐧 - 지문 스푸핑, Shadow-DOM 인식 페이지 읽기, 로그인 상태 감지 및 증거 기록 기능을 갖춘 Firefox 포크를 기반으로 구축된 자체 호스팅 스텔스 브라우저입니다."
+},
+{
+"line": 499,
+"translated": "- @@L0@@ 🐍 - LLM에 맞춰진 Playwright를 사용한 브라우저 자동화."
+},
+{
+"line": 500,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/browserless/browserless-mcp) 🎖️ ☁️ - 브라우저리스 스마트 스크레이퍼 API를 통한 헤드리스 브라우저 자동화 및 웹 스크래핑."
+},
+{
+"line": 501,
+"translated": "- @@L0@@ 📇 🏠 - 로컬 Chrome 브라우저를 자동화하세요."
+},
+{
+"line": 502,
+"translated": "- @@L0@@ 📇 🏠 - 테스트, 자동화 및 다중 사용자 시나리오를 위해 자연어를 사용하여 Selenium으로 브라우저를 제어합니다."
+},
+{
+"line": 503,
+"translated": "- @@L0@@ 🐍 - VNC 서버를 사용하여 Docker에서 Chromium을 실행하기 위한 Dockerfile을 포함하여 브라우저 사용을 통한 브라우저 자동화."
+},
+{
+"line": 504,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/corbinvachal48/agentrender-mcp) 🐍 ☁️ - URL을 스크린샷, PDF 또는 구조화된 추출로 변환합니다."
+},
+{
+"line": 505,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/corralimited/snapdiff-mcp) 📇 ☁️ 🏠 - 의도 인식 시각적 검증: UI 변경이 영향을 미치는 것을 선언한 다음 페이지를 기준선과 비교하고 해당 범위 밖의 변경 사항을 표시합니다."
+},
+{
+"line": 506,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Ceki-me/mcp-server) 📇 ☁️ - 실제 지문과 주거용 IP를 사용하여 실제 사람이 운영하는 주거용 Chrome 브라우저를 대여하세요."
+},
+{
+"line": 507,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Cubenest/rrweb-stack) 📇 🏠 - 인증된 브라우저 세션(rrweb DOM, 콘솔, 네트워크)을 PII 마스킹을 사용하여 로컬 SQLite에 기록하면 코딩 에이전트가 이를 쿼리하거나 브라우저를 구동할 수 있습니다."
+},
+{
+"line": 508,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Custodia-Admin/pagebolt-mcp) 📇 ☁️ - 스크린샷, PDF, OG 이미지 및 내레이션이 포함된 비디오 녹화물을 생성합니다."
+},
+{
+"line": 509,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@dashi96/chromium-bridge) 📇 🏠 🍎 🪟 🐧 - 확장 기능을 통해 Arc, Vivaldi, Brave 등 Chromium 기반 브라우저를 제어하세요. 탐색, 클릭, 페이지 읽기, JavaScript 실행, GIF 녹화 등이 가능합니다."
+},
+{
+"line": 510,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dmytrome/groundhog) 🐍 🏠 🍎 🪟 🐧 - 스텔스 패치가 적용된 Chrome을 통한 웹 검색, 읽기 및 연구: 숨겨진 텍스트를 제거하고 소스 전체에서 구절의 순위를 매기고 SHA-256 출처 영수증을 반환합니다."
+},
+{
+"line": 511,
+"translated": "- @@L0@@ 🏎️ 🏠 🍎 🐧 🪟 - CLI로도 사용 가능한 YouTube 작업을 자동화합니다."
+},
+{
+"line": 512,
+"translated": "- @@L0@@ 📇 - Playwright를 사용한 브라우저 자동화 및 웹 스크래핑."
+},
+{
+"line": 513,
+"translated": "- @@L0@@ 📇 🏠 - 동반 확장을 통해 사용자의 Firefox 브라우저를 제어합니다."
+},
+{
+"line": 514,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/feedthrough/feedthrough) 📇 🏠 🍎 🪟 🐧 - 웹 앱용 인페이지 디버그 브리지: 모든 브라우저 또는 Cypress/Playwright 실행에서 DOM, 콘솔 로그 및 네트워크 요청을 읽고 페이지와 상호 작용합니다."
+},
+{
+"line": 515,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/firecrawl/firecrawl-mcp-server) 🎖️ 📇 ☁️ 🏠 - Firecrawl 웹 스크래핑: 실시간 브라우저 상호 작용 및 웹 사이트 변경 모니터링을 통해 구조화된 데이터를 검색, 스크랩, 크롤링, 매핑 및 추출합니다."
+},
+{
+"line": 516,
+"translated": "- @@L0@@ 📇 🏠 🍎 - macOS에서 Apple 미리 알림과 상호 작용합니다."
+},
+{
+"line": 517,
+"translated": "- @@L0@@ 📇 🏠 - WebDriver BiDi를 통한 Firefox 자동화: 스냅샷 기반 상호 작용, 네트워크 모니터링, 콘솔 캡처, 테스트 및 스크래핑을 위한 스크린샷."
+},
+{
+"line": 518,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/frsorrentino/chrome-bridge) 📇 🏠 🍎 🪟 🐧 - 컴팩트 요소 참조, 시각적 회귀, 접근성, SEO 및 보안 감사, 네트워크 모의 등 확장 프로그램을 통해 로그인한 Chrome을 구동하세요."
+},
+{
+"line": 519,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mi60dev/visionaire-engine) 📇 🏠 🍎 🪟 🐧 - Chrome의 디자인 디버깅: 어떤 CSS 규칙이 승리하는지(파일 및 줄 포함), 폭발 반경, 범위가 지정된 수정 선택기, 실시간 수정 시험 및 WCAG 대비 감사."
+},
+{
+"line": 520,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SanggonBoy/PyreCrawl) 🐍 🏠 🍎 🪟 🐧 - 자체 호스팅 웹 스크래핑: Cloudflare 우회를 포함한 계층형 폴백을 통해 스크레이핑, 추출, 크롤링, 매핑, 검색, 학술 논문, 연구 및 모니터링."
+},
+{
+"line": 521,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/segentic-lab/periscope-mcp) 🐍 🏠 - Playwright를 사용한 웹사이트 테스트: 어설션, 자동 양식 채우기, 지속적인 로그인, 네트워크 모의 및 접근성, SEO, GEO 및 Lighthouse 감사."
+},
+{
+"line": 522,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sh6drack/zen-mcp) 📇 🏠 - WebDriver BiDi를 통한 Zen 브라우저 자동화: 탐색, 양식 작성, 스크린샷 및 JavaScript 평가."
+}
+]

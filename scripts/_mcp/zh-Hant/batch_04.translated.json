@@ -1,0 +1,1922 @@
+[
+  {
+    "line": 2036,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/traql/mcp-server) 📇 ☁️ - 針對以太坊、BNB Chain、TRON、TON 和比特幣上的加密地址與交易進行反洗錢與制裁篩查，並提供 0-100 的分項風險評分。"
+  },
+  {
+    "line": 2037,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Zenidp/solinkify-mcp) 📇 🏠 - Solana 上的智慧體支付：發現 x402 計價端點、以 USDC 支付 HTTP 402 付費牆、管理餘額與訂閱，支援消費上限與託管。"
+  },
+  {
+    "line": 2038,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pich/ai-economics-mcp) 📇 ☁️ - AI 經濟學計算器：跨供應商的代幣成本、上下文視窗規模、智慧體工時成本、LLM 能耗與二氧化碳排放，以及驗證指標，均附帶公式。"
+  },
+  {
+    "line": 2039,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-fns-calc) 🐍 ☁️ - 俄羅斯 FNS 稅務與會計計算器，以及公共財政狀態查詢：個體經營者、個體工商戶/OKVED、禁業與凍結賬戶。"
+  },
+  {
+    "line": 2040,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Zydanny/x402-intel-engine) 🐍 ☁️ - 實時 DEX 代幣動量、訂單簿深度與巨鯨資金流，按次付費，透過 Base 上的無 Gas x402 微支付結算。"
+  },
+  {
+    "line": 2041,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Luminc/peil-mcp) 🎖️ 🐍 ☁️ - Peil 面向荷蘭自由職業者（ZZP'ers）：記錄工時、根據未結算工時起草發票，並跟蹤未結與逾期發票及實際時薪。"
+  },
+  {
+    "line": 2042,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/toomasgutman-blip/facturolia-mcp) 🎖️ 🐍 ☁️ - 讀取並校驗歐洲電子發票（Factur-X、ZUGFeRD、XRechnung、UBL、CII）是否符合 EN 16931，並標記 Factur-X PDF 與內嵌 XML 的不一致。"
+  },
+  {
+    "line": 2043,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SimonTarara62/capitalcom-mcp-server) 🐍 🏠 ☁️ - 非官方的 Capital.com Open API 整合：市場資料與受控交易，支援預覽並確認交易、白名單與預設先用模擬盤。"
+  },
+  {
+    "line": 2044,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SmartyJohnway/tw-market-live-data-intelligence) 🐍 🏠 🪟 - 本地優先的臺灣市場證據，帶持久化自選列表與可審計、僅執行一次的檢索。"
+  },
+  {
+    "line": 2045,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forum-labs/payfetch) 📇 🏠 🍎 🪟 🐧 - 面向 x402 API（Base 上的 USDC）的非託管代付，具備運營方設定的消費上限、審批閾值、允許/拒絕列表，以及每次嘗試的回執。"
+  },
+  {
+    "line": 2046,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/polsolbridge/solana-swap-api) 📇 ☁️ - 透過 Jupiter（Solana）和 KyberSwap（EVM）進行非託管兌換，跨鏈路由、Solana 優先費以及 Hyperliquid 永續合約，均為未簽名交易。"
+  },
+  {
+    "line": 2047,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mohsinmshabbir/datasaudi-mcp) 🐍 🏠 - 從 GASTAT 與 DataSaudi 查詢沙特經濟與社會統計資料（GDP、通脹、貿易、人口、房地產價格指數），支援英文或阿拉伯文。"
+  },
+  {
+    "line": 2048,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 讀取餘額與價格、檢視投資組合、準備轉賬並在 Stacks、Celo 與 Base 上部署代幣。"
+  },
+  {
+    "line": 2049,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Nodeflare-app/nodeflare-mcp) 📇 ☁️ - 來自裸金屬節點的 EVM 鏈（以太坊、Base、Arbitrum、Robinhood Chain、Plasma、Ink 等）的 JSON-RPC，包含 trace 與 debug 方法。"
+  },
+  {
+    "line": 2050,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/InnarM/blank-invoice-maker-mcp) 📇 🏠 🍎 🪟 🐧 - 透過深度連結建立發票，開啟預填好的 Blank Invoice Maker，然後審閱並下載 PDF；發票資料保留在瀏覽器中。"
+  },
+  {
+    "line": 2051,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/qinisolabs/bizdays) 📇 🏠 ☁️ - 200 多個國家的營業日與公共假日計算：增加或統計工作日、查詢下一個營業日，並應用各國週末規則。"
+  },
+  {
+    "line": 2052,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/george-kozlitin/borme-mcp) 🐍 ☁️ - 西班牙公司註冊處（BORME）：自 2009 年以來的型別化公司事件，包括設立、董事變更、破產與資本變更。"
+  },
+  {
+    "line": 2053,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/0rkz/byte-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - Arbitrum（PayPerByte）上按位元組計費的資料市場：發現釋出者、檢視鏈上質量評分、訂閱並按次以 USDC 透過 x402 付費。"
+  },
+  {
+    "line": 2054,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Savvly/savvly-mcp) 🎖️ 📇 ☁️ 🏠 - Savvly 長壽福利基金：退休預測（一次性、月度、完整軌跡）、產品對比、資格檢查與常見問題搜尋。"
+  },
+  {
+    "line": 2055,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ShieldZCash/shieldz-mcp) 📇 ☁️ 🏠 - 非託管加密貨幣支付：從錢包地址建立支付連結與小費罐，資金直接結算到商家的錢包。"
+  },
+  {
+    "line": 2056,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/eliasfire617/crypto-market-data-mcp) 🐍 ☁️ - 來自 Bybit、幣安、OKX、Hyperliquid、Gate 與 KuCoin 的加密市場資料：價格、資金費率、未平倉量、訂單簿、K 線與資金套利。"
+  },
+  {
+    "line": 2057,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/seancrecord/scvd-general-store-repo) 📇 ☁️ - 面向 AI 智慧體的綜合商店：簽名證書、人力與數字商品，透過 Base 上的 x402 以 USDC 結算。"
+  },
+  {
+    "line": 2058,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Scottcjn/rustchain-mcp) 🐍 ☁️ - RustChain 區塊鏈、BoTTube 影片平臺與 Beacon 智慧體訊息：錢包管理、挖礦查詢、賞金、影片搜尋與上傳，以及訊息。"
+  },
+  {
+    "line": 2059,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ocbenji/bitcoinbenji-mcp) 📇 ☁️ 🍎 🪟 🐧 - 閃電網路付費（L402）的比特幣記憶體池資料（手續費、巨鯨警報、手續費預測、交易狀態），外加自託管的 AI 推理（文字、程式碼、視覺與 OCR）。"
+  },
+  {
+    "line": 2060,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Kali123411/k402-mcp) 🐍 ☁️ 🍎 🪟 🐧 - 在 Kaspa L1 上結算的按次付費 API：文字工具、網頁閱讀、嵌入與語義搜尋、Kaspa 鏈資料、LLM 推理與 RISC Zero zk 證明。"
+  },
+  {
+    "line": 2061,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/teodorofodocrispin-cmyk/intelica-mcp) 🐍 ☁️ - 競爭情報：分析 URL 或公司描述，得到結構化的市場定位、競爭對手、痛點與市場評分。"
+  },
+  {
+    "line": 2062,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Logitale/toreador-mcp-server) 📇 🏠 🍎 🪟 🐧 - 生成非託管加密貨幣支付二維碼（BTC、ETH、SOL、USDC、USDT、EURC）並管理支付會話。"
+  },
+  {
+    "line": 2063,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/infaton/MCP35) 📇 🏠 - 1C:Enterprise ERP 整合：後設資料檢查、單據增刪改查、暫存器查詢與 BSP 整合。"
+  },
+  {
+    "line": 2064,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mrslbt/xendit-mcp) 📇 ☁️ - 面向東南亞的 Xendit 支付閘道器：發票、付款、餘額查詢與銀行轉賬。"
+  },
+  {
+    "line": 2065,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jiayuanliang0716-max/Arbitova) 📇 ☁️ - 基於 Base 的非託管鏈上託管，配合 AI 爭議仲裁，用於智慧體之間的 USDC 支付。"
+  },
+  {
+    "line": 2066,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/martinhavel/cz-agents-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 捷克國家銀行（ČNB）每日匯率：當前與歷史 CZK 匯率及貨幣換算。"
+  },
+  {
+    "line": 2067,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Sofiia7/ARC) 📇 🏠 ☁️ - 在 ArcBounty（Arc Network、ERC-8183 託管與 ERC-8004 聲譽）上瀏覽、領取與提交 USDC 賞金，並支援免憑證的只讀模式。"
+  },
+  {
+    "line": 2068,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Frihet-io/frihet-mcp) 📇 ☁️ - Frihet 業務管理：發票、費用、客戶、產品與報價。"
+  },
+  {
+    "line": 2069,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 - 讀取並可選擇寫入本地 hledger 賬本，用於複式記賬純文字會計。"
+  },
+  {
+    "line": 2070,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Fabio662/yieldagentx402-sdks) 📇 ☁️ - 面向 EVM 鏈、比特幣、Solana、NEAR 等上 AI 智慧體的非託管、策略閘道器執行層，支援 MPC 簽名、TEE 證明與 x402 結算。"
+  },
+  {
+    "line": 2071,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/openpulsechain/public) 📇 ☁️ - PulseChain 鏈上分析：代幣安全評分、蜜罐檢測、巨鯨與聰明錢跟蹤、詐騙警報、DEX 成交量與橋統計。"
+  },
+  {
+    "line": 2072,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sukrutkrdg/x402-bazaar-mcp) 📇 🏠 🍎 🪟 🐧 - Base 上透過 x402 付費的代幣安全工具：B20 凍結/沒收/拉 rug 檢查、交易前閘門、蜜罐檢測、錢包與授權審計、價格與 AI 報告。"
+  },
+  {
+    "line": 2073,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 在 Lighter zk-rollup DEX 上交易加密與 RWA 永續合約，具備分級憑證、鏈上止損止盈，以及服務端安全上限。"
+  },
+  {
+    "line": 2074,
+    "translated": "- @@L0@@ 📇 ☁️ - 面向加密貨幣的深度研究，完全本地執行。"
+  },
+  {
+    "line": 2075,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AEGISGOVDAO/aegisgov-sec-mcp) 📇 ☁️ - SEC EDGAR 資料：搜尋上市公司、獲取 10-K、10-Q 與 8-K 申報檔案，並訪問 XBRL 財務資料。"
+  },
+  {
+    "line": 2076,
+    "translated": "- @@L0@@ 🎖️ 🐍 ☁️ 🏠 - 來自 FinBrain 的另類金融資料。"
+  },
+  {
+    "line": 2077,
+    "translated": "- @@L0@@ 🎖️ 🐍 ☁️ - 針對 EVM 地址（EOA、CA、ENS）與域名的 BICScan 風險評分與資產持倉。"
+  },
+  {
+    "line": 2078,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AletaIndex/aletaindex-fin-narratives) 🐍 ☁️ 🍎 🪟 🐧 - 跟蹤財經新聞敘事在各程式碼間的演變：新聞聚類、情緒動量與跨投資組合的敘事風險對映。"
+  },
+  {
+    "line": 2079,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AlexanderLawson17/revettr-python) 🐍 ☁️ - 面向智慧體商務的交易對手風險評分：對錢包、域名、IP 與公司評分，透過 x402 微支付付費。"
+  },
+  {
+    "line": 2080,
+    "translated": "- @@L0@@ 🐍 ☁️ - 比特幣市場狀態檢測：結果機率、歷史模式匹配、綜合指標與實時宏觀、機構與鏈上資料。"
+  },
+  {
+    "line": 2081,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/unixlamadev-spec/aiprox-mcp) 📇 ☁️ - 開放的智慧體登錄檔，按能力發現並僱傭 AI 智慧體，支援閃電網路、Solana USDC 與 x402 支付，以及用於串聯智慧體的工作流引擎。"
+  },
+  {
+    "line": 2082,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - 與 Alchemy 的區塊鏈 API 互動。"
+  },
+  {
+    "line": 2083,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alforge-labs/alpha-forge-mcp) 🐍 🏠 🍎 🪟 🐧 - 使用 AlphaForge 量化 CLI 在本地回測、最佳化（Optuna TPE）與步進測試交易策略。"
+  },
+  {
+    "line": 2084,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AlvisoOculus/optionsahoy-mcp) 📇 ☁️ - 美國股票薪酬規劃：ISO/AMT 行權時間表、NSO 賣持、RSU 歸屬、集中減持、領口與 QSBS 檢查。"
+  },
+  {
+    "line": 2085,
+    "translated": "- @@L0@@ 🐍 ☁️ - 透過 Coinmarket API 獲取加密貨幣列表與報價。"
+  },
+  {
+    "line": 2086,
+    "translated": "- @@L0@@ 🐍 ☁️ - Jupiter API 訪問：交易 Solana 代幣、查詢餘額、搜尋代幣與建立限價單。"
+  },
+  {
+    "line": 2087,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jorkal-crypto/jorkal-nft-mcp) 📇 ☁️ - 來自 Magic Eden 的 Solana NFT 市場資料：地板價、最便宜掛單、合集統計與錢包持倉，按次透過 x402 付費。"
+  },
+  {
+    "line": 2088,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/arcadia-finance/arcadia-finance-mcp-server) 🎖️ 📇 ☁️ 🏠 - 在 Base、Unichain 與 Optimism 上以槓桿管理 Uniswap 與 Aerodrome 流動性頭寸，自動再平衡與收益最佳化。"
+  },
+  {
+    "line": 2089,
+    "translated": "- @@L0@@ 🐍 🏠 🪟 - 在 MetaTrader 5 平臺執行交易。"
+  },
+  {
+    "line": 2090,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aranjan/kite-mcp) 🐍 🏠 - 在 Zerodha Kite 上交易印度股票：持倉、訂單、行情與 GTT 觸發，支援自動 TOTP 登入。"
+  },
+  {
+    "line": 2091,
+    "translated": "- @@L0@@ 🐍 ☁️ - 與多條區塊鏈互動：質押、DeFi、兌換、跨鏈橋、錢包管理、定投、限價單、幣種查詢與跟蹤。"
+  },
+  {
+    "line": 2092,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-cbr-rates) 🐍 ☁️ - 俄羅斯央行資料：每日與歷史匯率、關鍵利率、通脹與彙總宏觀統計。"
+  },
+  {
+    "line": 2093,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-egrul) 🐍 🏠 - 來自聯邦稅務局開放資料的俄羅斯國家註冊簿 EGRUL（法人）與 EGRIP（個體經營者），自託管於本地 SQLite。"
+  },
+  {
+    "line": 2094,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-fns-check) 🐍 ☁️ - 俄羅斯交易對手盡職調查：跨 EGRUL/EGRIP 的 INN/OGRN 查詢，破產、欠稅、強制執行與仲裁記錄，並給出風險裁定。"
+  },
+  {
+    "line": 2095,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jackrain19743/hou-tea-mcp-server) 📇 ☁️ - 透過 Hou Tea 店鋪瀏覽、獲取推薦併購買中國茶，使用 USDC 透過 x402 結算，將支付委託給錢包 MCP 伺服器。"
+  },
+  {
+    "line": 2096,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/autonsol/sol-mcp) 📇 ☁️ - 按鑄造地址的 Solana 代幣風險評分、pump.fun 畢業動量訊號與信任證明查詢。"
+  },
+  {
+    "line": 2097,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vatnode/vatnode-mcp) 📇 ☁️ - 透過歐盟委員會的 VIES 服務校驗歐盟增值稅號，外加歐洲國家的離線增值稅率與格式檢查。"
+  },
+  {
+    "line": 2098,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vdalhambra/axiom-calculator-mcp) 🐍 🏠 🍎 🪟 🐧 - 個人理財計算器：房貸月供、複利、FIRE 退休目標、貸款對比、真實借款成本與債務清償。"
+  },
+  {
+    "line": 2099,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@azeth-protocol/mcp-azeth) 📇 ☁️ - 非託管 ERC-4337 智慧賬戶、x402 支付、ERC-8004 鏈上聲譽，以及面向 AI 智慧體的服務發現。"
+  },
+  {
+    "line": 2100,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Claynsn/agent-discovery-mcp) 📇 🏠 🍎 🪟 🐧 - ERC-8004 智慧體發現與 x402 支付：透過 8004scan 按技能查詢智慧體、獲取智慧體名片，並使用直接 EOA 簽名以 USDC 支付呼叫智慧體。"
+  },
+  {
+    "line": 2101,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bakyang2/kr-crypto-intelligence) 🐍 ☁️ - 韓國加密市場資料與 AI 分析：泡菜溢價、穩定幣溢價、Upbit 與 Bithumb 價格及 USD/KRW 匯率，按次透過 x402 付費。"
+  },
+  {
+    "line": 2102,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/whdrnr2583-cmd/koreanpulse) 🐍 ☁️ 🏠 - 英文的韓國股票資料：實時 DART 申報、外資 5% 規則資金流、維權申報與 KRX 行業新聞。可自託管。"
+  },
+  {
+    "line": 2103,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cuthongthai-vn/vimo-mcp-server) 📇 ☁️ - 越南股票市場資料：實時 SSI 行情、技術分析、財務報表、股票篩選器、AI 推薦、外資流向與宏觀指標。"
+  },
+  {
+    "line": 2104,
+    "translated": "- @@L0@@ 📇 ☁️ - 透過 Bankless Onchain API 與智慧合約互動並查詢交易與代幣資訊。"
+  },
+  {
+    "line": 2105,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/belegante-byte/aetherx-mcp) 🐍 ☁️ - 全球港口的預測性擁堵訊號：擁堵評分、ETA 延誤、等待船舶與貨運波動指數。"
+  },
+  {
+    "line": 2106,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bguillow-rgb/itin-finance-mcp) 📇 ☁️ - 僅讀取的接受 ITIN（無 SSN）申請人的美國貸款方與髮卡行目錄，外加英文/西班牙文的免信用分指南與常見問題。"
+  },
+  {
+    "line": 2107,
+    "translated": "- @@L0@@ 📇 ☁️ - Baozi.bet 上的 Solana 預測市場：瀏覽市場、下注、領取獎金與建立市場。"
+  },
+  {
+    "line": 2108,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cloudQuant/backtrader-mcp) 🐍 🏠 🍎 🪟 🐧 - 從本地 CSV 資料構建並執行可復現的 Backtrader 回測，具備人工把關的執行、日誌與 JSON/Markdown 報告。離線且僅回測。"
+  },
+  {
+    "line": 2109,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/clicks-protocol/clicks-protocol) 📇 ☁️ - 面向 Base 上 AI 智慧體的非託管 USDC 收益：在流動與收益餘額間分配支付，隨時提取，模擬分配並查詢 APY。"
+  },
+  {
+    "line": 2110,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@up2itnow0822/clawpay-mcp) 📇 ☁️ - 面向 Base 上 AI 智慧體的非託管 x402 支付：智慧體以自己的錢包簽名交易，設有鏈上消費上限。"
+  },
+  {
+    "line": 2111,
+    "translated": "- @@L0@@ 🐍 ☁️ - 從 Alpha Vantage API 獲取股票與加密資料。"
+  },
+  {
+    "line": 2112,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bitcompare/mcp-server) 🎖️ 📇 ☁️ - 來自 Bitcompare 的加密借貸、質押與借款利率、幣種後設資料、聚合價格、市場統計、穩定幣錨定穩定性與程式碼解析。"
+  },
+  {
+    "line": 2113,
+    "translated": "- @@L0@@ 📇 - 透過 Bitte Protocol 在多條區塊鏈上執行 AI 智慧體。"
+  },
+  {
+    "line": 2114,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jf-cmyk/blocksize-agentic-payments-mcp) 🐍 ☁️ - 只讀的 Blocksize 市場資料發現：搜尋工具、閱讀文件併為 Solana 與 Base 上以 USDC 結算的付費實時資料構建 x402 URL。"
+  },
+  {
+    "line": 2115,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/signaltech-org/bolthub-sdk) 📇 ☁️ - 在 bolthub API 市場上透過比特幣閃電網路（L402）按次發現與付費呼叫工具，具備預算、範圍化委派與可驗證回執。"
+  },
+  {
+    "line": 2116,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Cyberweasel777/botindex-mcp-server) 📇 ☁️ - BotIndex AI 訊號情報 API 與 Agorion 智慧體服務發現網路，高階端點支援 x402 支付。"
+  },
+  {
+    "line": 2117,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Bortlesboat/bitcoin-mcp) 🐍 🏠 🍎 🪟 🐧 - 自託管的 Bitcoin Core 工具：手續費估算、記憶體池分析、礦池排名、市場情緒、區塊與交易檢查，以及 BTC 價格。"
+  },
+  {
+    "line": 2118,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/botwallet-co/mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 面向 AI 智慧體的錢包：透過發票賺錢、支付其他智慧體與 API，並在 Solana 上以人工設定的消費上限與 FROST 2-of-2 簽名管理 USDC。"
+  },
+  {
+    "line": 2119,
+    "translated": "- @@L0@@ 📇 ☁️ - 韓國與全球加密交易所路由與套利訊號，支援 x402 USDC 微支付。"
+  },
+  {
+    "line": 2120,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ferinator/bullrun-mcp) 📇 ☁️ - 股票篩選、公司財務與個人投資組合分析。"
+  },
+  {
+    "line": 2121,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cahthuranag/mcp-server) 📇 ☁️ - AllRatesToday 貨幣匯率：來自銀行間資料的實時中間價、歷史匯率、貨幣列表與多幣種查詢。"
+  },
+  {
+    "line": 2122,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AllRates-Today/central-bank-mcp) 📇 ☁️ - 央行與稅務機關匯率（ECB、美聯儲、英格蘭銀行、RBI、HMRC、美國財政部）：最新與歷史表格、對比與日曆。"
+  },
+  {
+    "line": 2123,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cammac-creator/ibanforge) 🎖️ 📇 ☁️ - 支付前交易對手篩查：IBAN 校驗、OFAC/歐盟/聯合國制裁篩查、瑞士 BC-Nummer 清算、SEPA/VoP 可達性與風險評分。"
+  },
+  {
+    "line": 2124,
+    "translated": "- @@L0@@ 🐍 ☁️ - 對 Monarch Money 資料的只讀訪問：分析交易、預算、賬戶與現金流，支援 MFA。"
+  },
+  {
+    "line": 2125,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/calintzy/evmscope) 📇 ☁️ - 以太坊、Polygon、Arbitrum、Base 與 Optimism 上的代幣價格、Gas 對比、兌換報價、收益率、蜜罐檢測與交易模擬。"
+  },
+  {
+    "line": 2126,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/chopmob-cloud/AlgoVoi-Platform-Adapters) 📇 🐍 🏠 🍎 🪟 🐧 - AlgoVoi 加密支付閘道器：在 Algorand、VOI、Hedera 與 Stellar 上建立結賬連結、驗證鏈上支付並生成 MPP/x402/AP2 挑戰。"
+  },
+  {
+    "line": 2127,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/chrisbusbin-pixel/propfirmdealfinder-mcp-server) 📇 ☁️ - 自營交易公司折扣、評價與優惠：查詢折扣碼、按國家對比公司並檢查精選優惠。"
+  },
+  {
+    "line": 2128,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cliwant/mcp-sam-gov) 📇 ☁️ 🍎 🪟 🐧 - 美國政府承包、支出與監管資料：SAM.gov、USAspending、Grants.gov、Federal Register、eCFR、OFAC 制裁與各州/地方招標門戶。"
+  },
+  {
+    "line": 2129,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/grahammccain/chart-library-mcp) 🐍 ☁️ - 按程式碼與日期或截圖查詢相似的歷史股票圖表形態，包含前向收益、狀態分析與交易模擬。"
+  },
+  {
+    "line": 2130,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@CryptoRugMunch/rug-munch-intelligence) 🐍 ☁️ - 加密代幣風險情報：拉 rug 檢測、蜜罐評分、部署者追蹤、持有人分析、KOL 喊單檢測、社交 OSINT 與 LLM 取證。"
+  },
+  {
+    "line": 2131,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/4dmrkey/cryptopolitan-mcp) ☁️ - Cryptopolitan 加密貨幣新聞、分析與價格預測：按類別或程式碼搜尋文章，並附內建來源標註。"
+  },
+  {
+    "line": 2132,
+    "translated": "- @@L0@@ 🐍 ☁️ - 每日地緣政治風險機率（升級、停火、政權更迭），涵蓋俄烏、臺海等衝突，外加 chokepoint 船舶資料。"
+  },
+  {
+    "line": 2133,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - 透過 Codex API 跨眾多網路提供實時豐富的區塊鏈與市場資料。"
+  },
+  {
+    "line": 2134,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/CoinRithm/coinrithm-agent-trading) 📇 ☁️ - 在 CoinRithm 上以模擬資金與公開的 Agent Arena 進行加密現貨、期貨與預測市場模擬交易。"
+  },
+  {
+    "line": 2135,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/coinpaprika/coinpaprika-mcp) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - CoinPaprika API 訪問：加密貨幣與交易所的實時價格、行情、OHLCV、市值與幣種後設資料。"
+  },
+  {
+    "line": 2136,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ 🍎 🪟 🐧 - DexPaprika API 訪問：跨眾多鏈的實時 DEX 代幣價格、流動性池資料與歷史 OHLCV。"
+  },
+  {
+    "line": 2137,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/abcxz/conviction-fm) 📇 ☁️ - AI 智慧體在每日同注池（parimutuel）中競爭的競技場：用自然語言描述策略，獲得一個獲得資金、自主執行的智慧體。"
+  },
+  {
+    "line": 2138,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Cubiczan/chp-mcp) 📇 🏠 🍎 🪟 🐧 - CHP Profile B 的支出、人在迴路與工具審批迴執。"
+  },
+  {
+    "line": 2139,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dan1d/cobroya) 📇 ☁️ 🍎 🪟 🐧 - 面向 LATAM 商家的 Mercado Pago 支付：建立支付連結、搜尋支付與發起退款。"
+  },
+  {
+    "line": 2140,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/debitura/Debitura.MCP) 🎖️ 📇 ☁️ - 透過 Debitura 進行跨境債務催收：向本地合作伙伴提交案件、檢查案件狀態、閱讀合作伙伴訊息並獲取報價。"
+  },
+  {
+    "line": 2141,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@debridge-finance/de-bridge) 📇 🏠 ☁️ - 跨 EVM 鏈與 Solana 透過 deBridge 進行跨鏈兌換與橋接：查詢路由、評估費用併發起非託管交易。"
+  },
+  {
+    "line": 2142,
+    "translated": "- @@L0@@ 📇 ☁️ - 針對訂閱（Adobe、Spotify 等）的確定性退款資格檢查，從無狀態規則引擎返回 ALLOWED、DENIED 或 UNKNOWN。"
+  },
+  {
+    "line": 2143,
+    "translated": "- @@L0@@ 🐍 ☁️ - 企業債務結構資料：搜尋發行人與債券，含槓桿比率、優先順序、契約、擔保人鏈與 FINRA TRACE 價格。"
+  },
+  {
+    "line": 2144,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/decksaga/market-pulse-mcp) 📇 ☁️ - 來自 CoinGecko、Yahoo Finance 與 ExchangeRate API 的實時市場資料：加密與股票價格、主要指數、外匯、熱門幣種與恐懼貪婪指數。"
+  },
+  {
+    "line": 2145,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Declan142/calcnook-mcp-server) 🐍 🏠 🍎 🪟 🐧 - 七個國家外加伊斯蘭金融的個人理財計算器：所得稅、貸款、退休、增值稅、天課（Zakat）、Murabaha、Ijarah 與清真股票篩選。"
+  },
+  {
+    "line": 2146,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/deficlow/zipp-mcp) 🐍 ☁️ - 多語言加密新聞摘要，帶情緒標籤與重要度評分，並註明原始釋出者。"
+  },
+  {
+    "line": 2147,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/demwick/polymarket-agent-mcp) 📇 🏠 - Polymarket 交易工具：直接與跟單交易、聰明錢檢測、回測、套利掃描、投資組合最佳化與實時價格流。"
+  },
+  {
+    "line": 2148,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DevDizzle/gammarips-mcp) 🐍 ☁️ - 期權資金流資料：基於流動性篩選的隔夜精選池、逐合約流動性檢查、已實現的結局歷史與退出規則回放。"
+  },
+  {
+    "line": 2149,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dizpers/polystrike-examples) 🎖️ ☁️ - 面向 Polymarket 推文計數市場的實時 Elon Musk 與 Ted Cruz 推文推送與計數器，對比真實、XTracker 預言機與 UI 計數。"
+  },
+  {
+    "line": 2150,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/OSOJDJD/deeplook) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 跨多個資料來源的公司研究：帶多空裁定的結構化報告，覆蓋股票、加密與私營公司。"
+  },
+  {
+    "line": 2151,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dan1d/dolar-mcp) 📇 ☁️ - 透過 DolarAPI 的阿根廷匯率（藍市、官方、MEP、CCL、加密、信用卡），外加貨幣換算與價差計算器。"
+  },
+  {
+    "line": 2152,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dinggi5/kura) 🦀 🏠 🍎 - 面向 macOS 上 AI 智慧體的本地以太坊錢包：讀取餘額與歷史、請求人工批准的支付，並用以 Base 上 USDC 支付 x402 資源。"
+  },
+  {
+    "line": 2153,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/disin7c9/asset-management) 🐍 🏠 🪟 🐧 - 對你股票與 ETF 交易記錄的只讀、離線分析：以回撤為核心的風險，含自助法置信區間與步進裁定。"
+  },
+  {
+    "line": 2154,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dkaleganov/mercury-multiorg-mcp) 🐍 ☁️ - 非官方的、只讀的 Mercury 銀行多組織訪問：餘額、交易、對賬單、卡片、發票、資金管理與 1099 預繳檢查。"
+  },
+  {
+    "line": 2155,
+    "translated": "- @@L0@@ 📇 ☁️ - 透過 CCXT 跨眾多交易所的實時加密市場資料與交易：現貨、期貨、OHLCV、餘額與訂單。"
+  },
+  {
+    "line": 2156,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dodopayments/dodo-agent-plugin) 🎖️ 📇 ☁️ - Dodo Payments：管理支付、訂閱、客戶、產品、退款、授權金鑰與用量計費，外加文件的語義搜尋。"
+  },
+  {
+    "line": 2157,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/donnywin85/arb-dex-mcp) 📇 ☁️ - 來自 BSC、Polygon、Arbitrum、Base、Avalanche 與 Optimism 上鍊狀態的實時跨 DEX 池價格、流動性與價差，外加測量歸檔。"
+  },
+  {
+    "line": 2158,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@douglasborthwick-crypto/mcp-server-insumer) 📇 ☁️ - 跨眾多區塊鏈的鏈上證明：ECDSA 簽名的驗證、錢包信任檔案、合規模板、商戶入駐，以及 ACP/UCP 支援。"
+  },
+  {
+    "line": 2159,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dqj1998/japan-company-info-mcp-bridge) 📇 🏠 🍎 🪟 🐧 - 離線的日本公司盡職調查：EDINET XBRL 財務、NTA 法人編號、主要股東、gBizINFO 認證與行業基準。"
+  },
+  {
+    "line": 2160,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@edge-claw/mood-booster-agent) 📇 ☁️ - 已註冊 ERC-8004 的智慧體，提供振奮人心的訊息，支援鏈上 USDC 打賞、聲譽反饋與跨多鏈的發現。"
+  },
+  {
+    "line": 2161,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/EmblemCompany/Agent-skills) 🎖️ 📇 ☁️ - 面向 Solana、以太坊、Base、BSC、Polygon、Hedera 與比特幣的加密工具：兌換、DeFi 收益、條件單、NFT、跨鏈橋與市場資料。"
+  },
+  {
+    "line": 2162,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/equivault/equivault-mcp) 🎖️ 📇 ☁️ - EquiVault 股票研究：基本面、財務報表、比率、行情、篩選、同業對比、內部人交易與投資組合分析。"
+  },
+  {
+    "line": 2163,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AiAgentKarl/solana-mcp-server) 🐍 🏠 - Solana 區塊鏈資料：錢包餘額、代幣價格、Raydium 與 Orca DeFi 收益，以及代幣安全檢查（RugCheck、持有人集中度、內部人）。"
+  },
+  {
+    "line": 2164,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ExpertVagabond/solana-mcp-server) 📇 ☁️ - Solana 錢包管理、SOL 與 SPL 代幣轉賬、SPL 代幣建立與鑄造、賬戶操作，以及主網/開發網/測試網切換。"
+  },
+  {
+    "line": 2165,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/haiiibin/acb-tax-mcp) 🐍 🏠 🍎 🪟 🐧 - 從交易歷史計算加拿大調整後成本基礎（ACB）與資本利得：平均成本法跟蹤、每筆處置的已實現收益與淺損（superficial-loss）檢測。"
+  },
+  {
+    "line": 2166,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Haiku-Trading/haiku-mcp-server) 📇 ☁️ - 跨多條鏈的 DeFi 執行：兌換、提供流動性、借貸、跨鏈橋與執行收益策略，外加代幣發現、投資組合分析與報價。"
+  },
+  {
+    "line": 2167,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Hashlock-Tech/hashlock-mcp) 📇 ☁️ - 透過密封競價 RFQ 與 HTLC 原子結算進行 ETH、BTC 與 SUI 的跨鏈 OTC 交易，無需橋與託管方。"
+  },
+  {
+    "line": 2168,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hifriendbot/agentwallet-mcp) 📇 ☁️ - 面向 EVM 鏈與 Solana 上 AI 智慧體的無許可錢包：錢包建立、交易簽名、代幣轉賬與 x402 支付（USDC）。"
+  },
+  {
+    "line": 2169,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hernaninverso/eleata-einvoice-mcp) 📇 ☁️ - 校驗歐盟電子發票（Peppol BIS、XRechnung、Factur-X/ZUGFeRD、UBL、CII）並解釋拒絕程式碼。"
+  },
+  {
+    "line": 2170,
+    "translated": "- @@L0@@ 🐍 ☁️ - 交易機器人平臺：透過 Alpaca 券商以自然語言建立自動化交易策略。"
+  },
+  {
+    "line": 2171,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/everstake/mcp) 🎖️ ☁️ - Everstake 跨眾多網路的非託管質押資料：實時 APY、正常執行時間指標、收益計算器、整合、安全與合規資訊。"
+  },
+  {
+    "line": 2172,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/FalsifyLab/falsifylab-alpha-mcp) 🐍 ☁️ - FalsifyLab 市場研究資料：DeFi 收益、Hyperliquid 金庫、SEC Form 4 內部人買入、8-K 申報、加密 ETF 資金流與 Polymarket 巨鯨持倉。"
+  },
+  {
+    "line": 2173,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp) 📇 ☁️ 🏠 - 英國房地產金融計算器：過橋貸款成本、開發評估、買房出租壓力測試與印花稅（SDLT、LBTT、LTT）。"
+  },
+  {
+    "line": 2174,
+    "translated": "- @@L0@@ 🐍 ☁️ - 從 Yahoo Finance 獲取股票市場資料，含期權推薦。"
+  },
+  {
+    "line": 2175,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@sh-patterson/fec-mcp-server) 📇 ☁️ - 透過 OpenFEC API 查詢 FEC 競選財務資料：搜尋候選人、跟蹤捐款、分析支出並監控 Super PAC 活動。"
+  },
+  {
+    "line": 2176,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/stillmarcus24/stillos-notary-mcp) 📇 ☁️ - 已簽名、x402 付費的驗證工具：宣告公證、帶保證金爭議的評分裁定、OFAC SDN 篩查與 Altman Z 分數困境評分。"
+  },
+  {
+    "line": 2177,
+    "translated": "- @@L0@@ 🐍 ☁️ - 透過 Tastyworks API 在 Tastytrade 交易。"
+  },
+  {
+    "line": 2178,
+    "translated": "- @@L0@@ 🐍 ☁️ - 分析 Reddit 的 WallStreetBets 社群內容。"
+  },
+  {
+    "line": 2179,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/callbk/finlight-mcp) 🎖️ ☁️ - 實時財經新聞：按程式碼、來源與語言搜尋，含情緒評分與標註的公司實體。"
+  },
+  {
+    "line": 2180,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/finlynq/finlynq) 📇 ☁️ 🏠 🍎 🪟 🐧 - 可自託管的個人理財應用：跟蹤並查詢收入、支出、預算、投資、貸款、訂閱與目標，具備靜態資料按使用者加密。"
+  },
+  {
+    "line": 2181,
+    "translated": "- @@L0@@ - 來自 finmap 的美國、英國、俄羅斯與土耳其歷史股票交易所資料：行業、程式碼、公司簡介、市值、成交量與樹狀圖視覺化。"
+  },
+  {
+    "line": 2182,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/FLOX-Foundation/flox) 🐍 🏠 - FLOX 交易系統框架：執行回測、搭建策略、檢查前視偏差、下單並查詢盈虧。"
+  },
+  {
+    "line": 2183,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/foretak/registry-mcp) 🐍 ☁️ 🏠 - 來自英國 Companies House 與挪威 Brønnøysund 登記處的公司資料：查詢、名稱搜尋、申報截止日期與挪威增值稅註冊檢查。"
+  },
+  {
+    "line": 2184,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Fund-z/fundzwatch-mcp) 📇 ☁️ - 實時商業事件：融資輪次、收購、高管招聘、AI 評分線索與市場情報。"
+  },
+  {
+    "line": 2185,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gabrielmahia/mpesa-mcp) 🐍 ☁️ - 透過 Safaricom Daraja API 的 M-PESA：STK 推送、B2C 支付、餘額查詢、交易狀態、SIM 換卡檢測與 Bill Manager。"
+  },
+  {
+    "line": 2186,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gblinproject/GBLIN-MCP) 📇 ☁️ - 面向 Base 上 AI 智慧體的資金庫：將閒置 USDC 存入 cbBTC/WETH 指數並帶 Crash Shield 保護，在 x402 支付前及時換回 USDC。"
+  },
+  {
+    "line": 2187,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ 🏠 - 連線任意比特幣閃電錢包以傳送與接收即時支付。"
+  },
+  {
+    "line": 2188,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/GeiserX/cashpilot-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - 監控 CashPilot 頻寬共享儀表盤：被動收入、DePIN 收益與跨共享服務的容器狀態。"
+  },
+  {
+    "line": 2189,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/giskard09/argentum-core) 🐍 🏠 - 面向 AI 智慧體與人類的 Karma：提交善行、獲得社群證明並在 Arbitrum 上賺取鏈上聲譽，採用 Kleros 爭議解決。"
+  },
+  {
+    "line": 2190,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - 面向股票、期權、加密與外匯的實時金融資料。"
+  },
+  {
+    "line": 2191,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cryptobriefing/gloria-mcp) 🎖️ 🐍 ☁️ - AI 精選加密新聞：帶情緒分析的實時頭條、AI 生成的摘要、關鍵詞搜尋與程式碼彙總。"
+  },
+  {
+    "line": 2192,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gpartin/CryptoGuardClient) 🐍 ☁️ - 針對交易智慧體的確定性逐筆加密交易驗證（PROCEED/CAUTION/BLOCK）、代幣掃描與拉 rug 檢測。"
+  },
+  {
+    "line": 2193,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@gosodax/sodax-builders-mcp) 📇 ☁️ - SODAX 跨鏈 DeFi 資料與 SDK 文件：查詢兌換、借貸、求解器成交量與意圖歷史。"
+  },
+  {
+    "line": 2194,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/goodmeta/intelligence-mcp) 📇 ☁️ - 智慧體支付生態跟蹤：掃描 GitHub、Hacker News 與 npm 上 AP2、ACP、x402、MPP 與 UCP 活動，並返回評分後的機會。"
+  },
+  {
+    "line": 2195,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Helm-Protocol/openttt-mcp) 📇 ☁️ - 基於多個 HTTPS 來源的 AI 智慧體時間證明（Proof-of-Time）時間證明。"
+  },
+  {
+    "line": 2196,
+    "translated": "- @@L0@@ 🎖️ ☁️ 🏠 🐍 - 訪問 Heurist Mesh Web3 AI 智慧體，用於區塊鏈分析、智慧合約審計、代幣指標、DeFi 分析、NFT 估值與交易監控。"
+  },
+  {
+    "line": 2197,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - Hive Intelligence：統一訪問加密、DeFi 與 Web3 分析。"
+  },
+  {
+    "line": 2198,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hypeprinter007-stack/signalfuse-mcp) 📇 ☁️ - 面向交易智慧體的按次付費 x402 工具：融合加密訊號、情緒、宏觀狀態、策略競技場、Brave/Tavily 網頁搜尋與 E2B 程式碼執行。"
+  },
+  {
+    "line": 2199,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hypurrquant/perp-cli) 📇 ☁️ 🏠 🍎 🪟 🐧 - 在 Pacifica、Hyperliquid 與 Lighter 上的永續期貨交易：市場資料、帶試執行的執行、資金費率套利掃描與投資組合分析。"
+  },
+  {
+    "line": 2200,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sentien-labs/verdictswarm-mcp) 📇 🏠 - 面向 Solana、Base 與以太坊的多 AI 加密代幣風險掃描器：智慧體辯論風險以檢測拉 rug、蜜罐、持有人集中度與洗盤。"
+  },
+  {
+    "line": 2201,
+    "translated": "- @@L0@@ 🦀 ☁️ - 從 Stooq 獲取全球市場（含美國、日本、英國、德國）的實時股票價格。"
+  },
+  {
+    "line": 2202,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/horustechltd/horus-flow-mcp) 🐍 ☁️ - 面向實時流動性分析的加密與美國股票訂單流引擎。"
+  },
+  {
+    "line": 2203,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Hovsteder/powersun-tron-mcp) 📇 ☁️ - TRON 能量與頻寬市場以及 DEX 兌換聚合器：購買能量、出售資源並透過 SunSwap 兌換 TRC-20 代幣。"
+  },
+  {
+    "line": 2204,
+    "translated": "- @@L0@@ 🐍 ☁️ - 透過 baostock 訪問並分析中國股票市場資料。"
+  },
+  {
+    "line": 2205,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/human-beyond/mainbook-mcp) 🎖️ 🐍 🏠 ☁️ 🍎 🐧 - 透過 MainBook API 將 PDF 銀行對賬單轉換為 JSON、Excel 或 CSV 並校驗餘額。不連線銀行賬戶。"
+  },
+  {
+    "line": 2206,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hypeprinter007-stack/anchor-x402-mcp) 📇 ☁️ - Base 與 Solana 上的 x402 按次付費錢包工具：OFAC 篩查、錢包情報、雜湊錨定、簽名證明、交易解碼與 ENS/SNS 解析。"
+  },
+  {
+    "line": 2207,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/icyberdeveloper/tbank-mcp) 🐍 ☁️ - T-Bank 手機銀行：賬戶、卡片、轉賬、賬單支付、雜貨下單、票務與旅行搜尋。"
+  },
+  {
+    "line": 2208,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ignaciohermosillacornejo/copilot-money-mcp) 📇 🏠 ☁️ 🍎 - 讀取並管理 Copilot Money 資料：交易、預算、賬戶、迴圈扣費、投資與目標，支援本地讀取與可選寫入。"
+  },
+  {
+    "line": 2209,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/IMBAwallet/agent-mcp) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - 面向智慧體的 IMBA Wallet：文件，外加 USDT TRC-20 充值，以及在預付 Visa 卡、旅行 eSIM 與禮品卡上的消費。不支援提現。"
+  },
+  {
+    "line": 2210,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/IndigoProtocol/indigo-mcp) 📇 ☁️ 🏠 - Cardano 上的 Indigo Protocol：iAsset 價格、CDP 與貸款分析、穩定池、INDY 質押、治理與 DEX 資料。"
+  },
+  {
+    "line": 2211,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/IndigoProtocol/cardano-mcp) 📇 ☁️ 🏠 - Cardano 錢包互動：提交交易、獲取地址、讀取 UTxO、檢查餘額、解析 ADAHandle 並檢查質押委託。"
+  },
+  {
+    "line": 2212,
+    "translated": "- @@L0@@ 🐍 - BSC 交易：餘額與代幣轉賬、PancakeSwap 代幣兌換與 Beeper 獎勵領取。"
+  },
+  {
+    "line": 2213,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/babyblueviper1/invinoveritas) 📇 ☁️ - AI 推理、決策、持久記憶與智慧體市場，透過比特幣閃電網路按次付費，智慧體在其中出售服務並相互通訊。"
+  },
+  {
+    "line": 2214,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JacobiusMakes/parlay-api-mcp) 🐍 ☁️ - 體育賠率、球員 prop 與預測市場資料，帶實時預覽以及來源質量與覆蓋工具。"
+  },
+  {
+    "line": 2215,
+    "translated": "- @@L0@@ 📇 🏠 - 查詢比特幣區塊鏈。"
+  },
+  {
+    "line": 2216,
+    "translated": "- @@L0@@ 📇 ☁️ - 透過任意 EVM 相容節點提供商（如 Infura、Alchemy、QuickNode 或本地節點）訪問 EVM JSON-RPC 方法。"
+  },
+  {
+    "line": 2217,
+    "translated": "- @@L0@@ 📇 ☁️ - 來自 Polymarket、PredictIt 與 Kalshi 的實時預測市場賠率、價格與市場資訊。"
+  },
+  {
+    "line": 2218,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Jeric1223/tossinvest-mcp) 📇 🏠 🍎 🪟 🐧 - 面向韓國與美國股票的 Toss Securities Open API：置於一次性確認令牌之後的訂單、行情、訂單簿、K 線、投資者資金流、持倉與外匯。"
+  },
+  {
+    "line": 2219,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jakzaizzat/cukaimax-agent) 🎖️ ☁️ - 只讀、帶來源連結的馬來西亞個人與個體工商戶稅務參考：YA2025 Form BE 草稿、Form B 準備就緒度與 YA2026 規劃。"
+  },
+  {
+    "line": 2220,
+    "translated": "- @@L0@@ 📇 ☁️ - 來自 Dexscreener API 的實時鏈上市場價格。"
+  },
+  {
+    "line": 2221,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jblaz6335/mcp-server-aidatamarketplace) 📇 🏠 - 發現、預覽併購買實時智慧體資料 API（交易對手風險、公司情報、交易預檢、EVM 讀取），透過 Base 上 x402 以 USDC 付費。"
+  },
+  {
+    "line": 2222,
+    "translated": "- @@L0@@ 📇 ☁️ - 使用 OpenDART 與 KRX API 進行韓國股票分析。"
+  },
+  {
+    "line": 2223,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JosueM1109/personal-finance-mcp) 🐍 ☁️ 🏠 - 透過 Plaid 自託管、只讀地訪問銀行、信用卡、貸款與券商賬戶：餘額、交易、迴圈扣費、負債與持倉。"
+  },
+  {
+    "line": 2224,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@jacobsd32-cpu/djd-agent-score-mcp) 📇 ☁️ - 面向 Base 上 AI 智慧體錢包的聲譽評分：信任分、欺詐報告、黑名單檢查、排行榜、徽章與智慧體註冊。"
+  },
+  {
+    "line": 2225,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JayOfemi/shikamaru) 📇 🏠 - 使用 ISDA 與 ICMA 約定的確定性日計數與應計利息計算。"
+  },
+  {
+    "line": 2226,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/keel-trade/keel-trade) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 構建、回測並自動化 Hyperliquid 交易策略：型別化策略組合、基於歷史資料的確定性回測與可選實盤執行。"
+  },
+  {
+    "line": 2227,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kevin2003050666-coder/x402-micro-tollgate) 📇 ☁️ 🏠 🍎 🪟 🐧 - 面向任意 API 的 HTTP 402 與 MCP 付費牆：未付費請求返回 402，智慧體在 Base 上支付 USDC，然後請求被代理。還提供付費 MCP 工具。"
+  },
+  {
+    "line": 2228,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kinance/circle-agent-stack-mcp) 📇 ☁️ - 透過 Circle CLI 的 Circle Agent Stack：建立 USDC 錢包、設定消費策略、傳送穩定幣並支付 x402 閘道器端點。"
+  },
+  {
+    "line": 2229,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/krystiangw/agenticpay) 📇 ☁️ 🏠 - 面向 MCP 的 x402 微支付技術棧：透過可自託管的 facilitator 在 Solana 上以 USDC 按工具呼叫付費，含 SDK、CLI 與付費牆中介軟體。"
+  },
+  {
+    "line": 2230,
+    "translated": "- @@L0@@ 🐍 ☁️ - 跟蹤 Binance Alpha 交易以幫助最佳化 Alpha 積點積累。"
+  },
+  {
+    "line": 2231,
+    "translated": "- @@L0@@ 🐍 ☁️ - 跟蹤比特幣未花費交易輸出（UTXO）與區塊統計。"
+  },
+  {
+    "line": 2232,
+    "translated": "- @@L0@@ 🐍 ☁️ - 來自 BlockBeats 的區塊鏈新聞與深度文章。"
+  },
+  {
+    "line": 2233,
+    "translated": "- @@L0@@ 🐍 ☁️ - 來自 Blocknative 的跨多條區塊鏈的實時 Gas 價格預測。"
+  },
+  {
+    "line": 2234,
+    "translated": "- @@L0@@ 📇 ☁️ - 實時跨鏈橋指標。"
+  },
+  {
+    "line": 2235,
+    "translated": "- @@L0@@ 📇 ☁️ - 實時跨鏈橋匯率與最優轉賬路由。"
+  },
+  {
+    "line": 2236,
+    "translated": "- @@L0@@ 📇 ☁️ - 實時訪問 Chainlink 的去中心化鏈上價格饋送。"
+  },
+  {
+    "line": 2237,
+    "translated": "- @@L0@@ 📇 ☁️ - 已驗證的 EVM 鏈資訊：RPC URL、鏈 ID、瀏覽器與原生代幣。"
+  },
+  {
+    "line": 2238,
+    "translated": "- @@L0@@ 🐍 ☁️ - 實時訪問最新的 Cointelegraph 新聞。"
+  },
+  {
+    "line": 2239,
+    "translated": "- @@L0@@ 🐍 ☁️ - 實時與歷史的加密恐懼貪婪指數資料。"
+  },
+  {
+    "line": 2240,
+    "translated": "- @@L0@@ 🐍 ☁️ - 關於加密貨幣投資基金的結構化實時資料。"
+  },
+  {
+    "line": 2241,
+    "translated": "- @@L0@@ 🐍 ☁️ - 加密貨幣技術指標與策略。"
+  },
+  {
+    "line": 2242,
+    "translated": "- @@L0@@ 🐍 ☁️ - 流式傳輸來自幣安的實時加密貨幣清算事件。"
+  },
+  {
+    "line": 2243,
+    "translated": "- @@L0@@ 🐍 ☁️ - 來自 NewsData 的實時加密貨幣新聞。"
+  },
+  {
+    "line": 2244,
+    "translated": "- @@L0@@ 🐍 ☁️ - 分析主要加密貨幣交易所的訂單簿深度與不平衡。"
+  },
+  {
+    "line": 2245,
+    "translated": "- @@L0@@ 🐍 ☁️ - 跟蹤跨多條區塊鏈的穩定幣錨定完整性。"
+  },
+  {
+    "line": 2246,
+    "translated": "- @@L0@@ 🐍 ☁️ - 跟蹤並管理加密貨幣投資組合配置。"
+  },
+  {
+    "line": 2247,
+    "translated": "- @@L0@@ 🐍 ☁️ - 來自 Mobula 的加密貨幣專案資料。"
+  },
+  {
+    "line": 2248,
+    "translated": "- @@L0@@ 🐍 ☁️ - 聚合來自多個 RSS 源的實時加密貨幣新聞。"
+  },
+  {
+    "line": 2249,
+    "translated": "- @@L0@@ 🐍 ☁️ - 加密貨幣情緒分析。"
+  },
+  {
+    "line": 2250,
+    "translated": "- @@L0@@ 🐍 ☁️ - 跟蹤與加密相關的主要股票的實時資料。"
+  },
+  {
+    "line": 2251,
+    "translated": "- @@L0@@ 🐍 ☁️ - 跟蹤 CoinGecko 上最新的熱門代幣。"
+  },
+  {
+    "line": 2252,
+    "translated": "- @@L0@@ 🐍 ☁️ - 加密白皮書的結結構化知識庫。"
+  },
+  {
+    "line": 2253,
+    "translated": "- @@L0@@ 🐍 ☁️ - 來自 CryptoPanic 的最新加密貨幣新聞。"
+  },
+  {
+    "line": 2254,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LamboPoewert/mcp-server-madeonsol) 📇 ☁️ - 實時 Solana memecoin 資料：KOL 錢包跟蹤與協同訊號、Pump.fun 部署者評分、Alpha 錢包情報、跟單交易規則與 DEX 交易。"
+  },
+  {
+    "line": 2255,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/praveendias1180/easypaydirect-mcp) 📇 🏠 🍎 🪟 🐧 - 對 Easy Pay Direct 與 NMI 系列支付閘道器的只讀訪問：搜尋交易、訂閱、迴圈計劃與客戶保險庫。"
+  },
+  {
+    "line": 2256,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LightSpeedPlusOne/invovate-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - 以多種語言與文字（含從右向左的阿拉伯文、日文、印地文與西里爾文）生成 PDF、JSON 與 UBL 發票。"
+  },
+  {
+    "line": 2257,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mobymedia/polymarket-news-mcp) 🐍 🏠 - 將新聞標題匹配到其可能影響的 Polymarket 預測市場，帶實時賠率、深層連結與可解釋的匹配。只讀。"
+  },
+  {
+    "line": 2258,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/27dream/mcp-eastmoney) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 透過 Eastmoney 的中國 A 股資料：實時行情、主力資金流排行、行業資金流與歷史 K 線。"
+  },
+  {
+    "line": 2259,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/make-software/cspr-trade-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 透過 CSPR.trade 在 Casper 網路上的非託管 DEX 交易：市場資料、兌換、流動性與賬戶查詢，交易在本地簽名。"
+  },
+  {
+    "line": 2260,
+    "translated": "- @@L0@@ 🐍 ☁️ - 聚合來自主要 DAO 的實時治理提案。"
+  },
+  {
+    "line": 2261,
+    "translated": "- @@L0@@ 🐍 ☁️ - 探索 DeFi 收益機會。"
+  },
+  {
+    "line": 2262,
+    "translated": "- @@L0@@ 🐍 ☁️ - 實時訪問 DEX 流動性池資料。"
+  },
+  {
+    "line": 2263,
+    "translated": "- @@L0@@ 📇 ☁️ - 來自 DexScreener 的實時熱門代幣。"
+  },
+  {
+    "line": 2264,
+    "translated": "- @@L0@@ 🐍 ☁️ - 訪問 Dune Analytics 資料。"
+  },
+  {
+    "line": 2265,
+    "translated": "- @@L0@@ 🐍 ☁️ - 加密 ETF 資金流資料。"
+  },
+  {
+    "line": 2266,
+    "translated": "- @@L0@@ 🐍 ☁️ - 實時跟蹤以太坊驗證者啟用與退出佇列。"
+  },
+  {
+    "line": 2267,
+    "translated": "- @@L0@@ 🐍 ☁️ - 與 Freqtrade 加密貨幣交易機器人整合。"
+  },
+  {
+    "line": 2268,
+    "translated": "- @@L0@@ 🐍 ☁️ - 跨主要加密貨幣交易所的實時資金費率資料。"
+  },
+  {
+    "line": 2269,
+    "translated": "- @@L0@@ 🐍 ☁️ - 來自 Hyperliquid 永續 DEX 的實時資料與洞察，用於機器人、儀表盤與分析。"
+  },
+  {
+    "line": 2270,
+    "translated": "- @@L0@@ 🐍 ☁️ - 針對名義價值超過 100 萬美元頭寸的實時 Hyperliquid 巨鯨警報。"
+  },
+  {
+    "line": 2271,
+    "translated": "- @@L0@@ 🐍 ☁️ - 使用 Jupiter 的 Ultra API 在 Solana 上執行代幣兌換。"
+  },
+  {
+    "line": 2272,
+    "translated": "- @@L0@@ 🐍 ☁️ - 跟蹤 PancakeSwap 上新建立的池。"
+  },
+  {
+    "line": 2273,
+    "translated": "- @@L0@@ 🐍 ☁️ - 來自 Polymarket 的實時市場賠率。"
+  },
+  {
+    "line": 2274,
+    "translated": "- @@L0@@ 🐍 ☁️ - 在 PumpSwap 上的實時代幣兌換與自動化鏈上交易。"
+  },
+  {
+    "line": 2275,
+    "translated": "- @@L0@@ 🐍 ☁️ - 在 Raydium LaunchLab（Raydium 發射臺）上發射、買入與賣出代幣。"
+  },
+  {
+    "line": 2276,
+    "translated": "- @@L0@@ 🐍 ☁️ - 檢測 Solana meme 代幣中的潛在風險。"
+  },
+  {
+    "line": 2277,
+    "translated": "- @@L0@@ 📇 ☁️ - 透過 Stargate 協議進行跨鏈代幣轉賬。"
+  },
+  {
+    "line": 2278,
+    "translated": "- @@L0@@ 📇 ☁️ - 在 Sui 區塊鏈上的最優代幣兌換。"
+  },
+  {
+    "line": 2279,
+    "translated": "- @@L0@@ 🐍 ☁️ - 來自 The Graph 的索引化區塊鏈資料。"
+  },
+  {
+    "line": 2280,
+    "translated": "- @@L0@@ 🐍 ☁️ - 跨多條區塊鏈鑄造 ERC-20 代幣。"
+  },
+  {
+    "line": 2281,
+    "translated": "- @@L0@@ 🐍 ☁️ - 跨多條區塊鏈檢查並撤銷 ERC-20 代幣授權。"
+  },
+  {
+    "line": 2282,
+    "translated": "- @@L0@@ 🐍 ☁️ - 跟蹤歷史 Twitter 使用者名稱變更。"
+  },
+  {
+    "line": 2283,
+    "translated": "- @@L0@@ 🐍 ☁️ - 跟蹤跨多條區塊鏈新建立的 Uniswap 流動性池。"
+  },
+  {
+    "line": 2284,
+    "translated": "- @@L0@@ 📇 ☁️ - 來自 Uniswap V3 跨多條鏈的實時代幣價格。"
+  },
+  {
+    "line": 2285,
+    "translated": "- @@L0@@ 🐍 ☁️ - 跨多條區塊鏈在 Uniswap 上自動化代幣兌換。"
+  },
+  {
+    "line": 2286,
+    "translated": "- @@L0@@ 🐍 ☁️ - 檢查任意錢包在主要 EVM 鏈與 Solana 上的餘額與鏈上活動。"
+  },
+  {
+    "line": 2287,
+    "translated": "- @@L0@@ 🐍 ☁️ - 實時訪問精選的 Web3 招聘資訊。"
+  },
+  {
+    "line": 2288,
+    "translated": "- @@L0@@ 🐍 ☁️ - 跟蹤加密貨幣巨鯨交易。"
+  },
+  {
+    "line": 2289,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Liquidiction/liquidiction-mcp) 📇 ☁️ - 實時 Hyperliquid HIP-4 預測市場資料：賠率、訂單簿、K 線、交易與投資組合頭寸。"
+  },
+  {
+    "line": 2290,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Frontier-Compute/zcash-mcp) 📇 ☁️ - Zcash 遮蔽操作：鏈查詢、備註解碼、鏈上證明與證明驗證。"
+  },
+  {
+    "line": 2291,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@KyuRish/trading212-mcp-server) 🐍 ☁️ - Trading 212 API 整合：投資組合管理、市價/限價/止損單、pies、分紅、市場資料與分析。"
+  },
+  {
+    "line": 2292,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - Klever 區塊鏈智慧合約開發、鏈上資料探索、賬戶與資產查詢、交易分析與合約部署。"
+  },
+  {
+    "line": 2293,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kindrat86/agentmail) 🐍 ☁️ 🏠 - 在支付前透過 MCP、HTTP 或 CLI 對姓名、錢包與國家的 OFAC 制裁篩查。"
+  },
+  {
+    "line": 2294,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kindrat86/mcp-deal-flow-signal) 📇 ☁️ - 來自 GitHub 活動的 VC 交易流訊號：初創公司的提交速度、貢獻者增長與跨行業的倉庫擴張，面向種子輪與 A 輪投資者。"
+  },
+  {
+    "line": 2295,
+    "translated": "- @@L0@@ 🐍 ☁️ - 透過 Alpaca 交易 API 管理股票與加密投資組合、下單並訪問市場資料。"
+  },
+  {
+    "line": 2296,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lightningfaucet/lightning-wallet-mcp) 📇 ☁️ - 面向 AI 智慧體的比特幣閃電錢包，支援 L402/x402 付費 API、運營方/智慧體層級、預算控制與 CLI。"
+  },
+  {
+    "line": 2297,
+    "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - 面向 BTC 與 ETH 交易智慧體的確定性風險治理：五級策略引擎，含倉位規模、槓桿限制與交易阻斷。"
+  },
+  {
+    "line": 2298,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/unixlamadev-spec/lightningprox-mcp) 📇 🏎️ - 透過 LightningProx 經比特幣閃電網路按請求付費訪問 AI，支援視覺與多模態。"
+  },
+  {
+    "line": 2299,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/unixlamadev-spec/lpxpoly-mcp) 📇 ☁️ - 透過 LightningProx 的 Polymarket 分析：發現錯誤定價市場、分析特定市場並按成交量列出頂級市場，按請求經閃電網路付費。"
+  },
+  {
+    "line": 2300,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/untitledfinancial/dpx-mcp) 📇 ☁️ - 在 Base 上的跨境 USDC 結算：穩定性預言機（宏觀、外匯、ESG、氣候）、ESG 評分、外匯報價、收款人驗證與結算執行。"
+  },
+  {
+    "line": 2301,
+    "translated": "- @@L0@@ - LNbits 閃電網路錢包整合。"
+  },
+  {
+    "line": 2302,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/longbridge/longbridge-mcp) 🎖️ 🦀 ☁️ - Longbridge 券商：美國與香港實時行情、期權、交易、基本面、分析師評級、日曆、價格提醒、定投計劃與投資組合分析。"
+  },
+  {
+    "line": 2303,
+    "translated": "- @@L0@@ 🦀 ☁️ - 透過 LongPort OpenAPI 的實時股票市場資料、分析與交易。"
+  },
+  {
+    "line": 2304,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/makeev/alphai-mcp) 🎖️ 🐍 ☁️ - AI 增強的財經新聞：全文與程式碼搜尋、趨勢推送、SEC Form 4 內部人交易，以及帶相關度評分的逐程式碼分析。"
+  },
+  {
+    "line": 2305,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@MarcinDudekDev/crypto-signals-mcp) 🐍 ☁️ - 實時加密成交量異常檢測：異常交易活動、巨鯨動向與拉盤訊號。"
+  },
+  {
+    "line": 2306,
+    "translated": "- @@L0@@ 🐍 ☁️ - 來自 Reddit、SEC 申報、FDA 批准、國會交易與其他來源的 AI 評分交易訊號。"
+  },
+  {
+    "line": 2307,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tersignhq/tersign-js) 📇 ☁️ - 面向智慧體間商務的簽名回執、驗證與爭議證據。"
+  },
+  {
+    "line": 2308,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tresor4k/macalc-mcp) ☁️ 📇 - 面向金融、稅務（八國）、健康、數學、科學、建築、換算、教育、體育、烹飪與旅行的日常計算器。"
+  },
+  {
+    "line": 2309,
+    "translated": "- @@L0@@ 📇 ☁️ - 面向眾多 EVM 網路的區塊鏈服務：原生代幣、ERC-20、NFT、智慧合約、交易與 ENS 解析。"
+  },
+  {
+    "line": 2310,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MeshLedger/MeshLedger) 📇 ☁️ - 帶鏈上託管的 AI 對 AI 市場。"
+  },
+  {
+    "line": 2311,
+    "translated": "- @@L0@@ 📇 ☁️ - Starknet 區塊鏈整合：原生代幣（ETH、STRK）、智慧合約、StarknetID 解析與代幣轉賬。"
+  },
+  {
+    "line": 2312,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jacksun911/megalaunch-mcp) 📇 ☁️ - 透過 pump.fun 在 Solana 上的 meme 代幣發射：以 AI 生成的美術建立代幣、捆綁買入與 Jito MEV 保護。"
+  },
+  {
+    "line": 2313,
+    "translated": "- @@L0@@ 🐍 🏠 - 使用 ledger-cli 管理金融交易並生成報告。"
+  },
+  {
+    "line": 2314,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mission69b/t2000) 📇 ☁️ - 面向 Sui 上 AI 智慧體的非託管 DeFi 銀行：儲蓄、借貸、投資、兌換、傳送與支付，跨 NAVI、Suilend 與 Cetus 的收益最佳化。"
+  },
+  {
+    "line": 2315,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mmxrealQQ/bobai-buyburn) 🎖️ 📇 ☁️ - BNB Chain 上 $BOBAI 代幣的鏈上資料：來自配對儲備與 Chainlink 的價格、流動性深度、LP 銷燬證明與回購銷燬審計軌跡。"
+  },
+  {
+    "line": 2316,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/moxiespirit/oath-score) 🐍 ☁️ - 面向交易智慧體的實時市場狀態（交易所狀態、VIX/VVIX/SKEW、經濟事件），外加金融資料 API 的質量評級。"
+  },
+  {
+    "line": 2317,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Muvon/mcp-binance-futures) 🐍 ☁️ - Binance USDT-M 期貨交易：市場資料、賬戶狀態、訂單管理與倉位與保證金控制。"
+  },
+  {
+    "line": 2318,
+    "translated": "- @@L0@@ 🐍 ☁️ - 使用 yfinance 獲取 Yahoo Finance 資料。"
+  },
+  {
+    "line": 2319,
+    "translated": "- @@L0@@ 🐍 ☁️ 🏠 - 與 Gmail 和 MySQL 整合的訂閱管理。"
+  },
+  {
+    "line": 2320,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/netanelavr/trading-mcp) 📇 🏠 - 本地股票研究：篩選、基本面、內部人交易、期權與 Reddit 情緒，以及 AI 新聞分析。"
+  },
+  {
+    "line": 2321,
+    "translated": "- @@L0@@ 📇 🏠 ☁️ - 歐洲金融資料：ECB 利率，外加按歐盟國家的 Eurostat 通脹、GDP 與失業率。"
+  },
+  {
+    "line": 2322,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nhantour/inferenceview-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - 在支付前對 x402 與 MCP 資源進行預檢並對智慧體行動前的宣告進行事實核查，使用本地錢包金鑰並在 Base 上以 USDC 結算。"
+  },
+  {
+    "line": 2323,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nicholasbester/clickup-cli) 🦀 🏠 ☁️ 🍎 🪟 🐧 - ClickUp API 整合，覆蓋所有端點，提供緊湊、令牌高效的響應。也可作為獨立 CLI 使用。"
+  },
+  {
+    "line": 2324,
+    "translated": "- @@L0@@ 📇 🏠 - 將交易路由到 MetaMask 等瀏覽器錢包進行簽名的非託管 EVM 錢包，透過 EIP-6963 對每項操作進行顯式使用者批准。"
+  },
+  {
+    "line": 2325,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/0x-devc/novai-mcp-server) 📇 ☁️ - 對 NOVAI 一層區塊鏈的只讀查詢：區塊、交易、AI 實體、鏈上訊號、預言機錨點與記憶物件。"
+  },
+  {
+    "line": 2326,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/noblabs/lit-forge-mcp) 📇 🏠 🍎 🪟 🐧 - 面向日本 Tsumitate NISA 與 iDeCo 的個人資產規劃：NISA 模擬、退休缺口分析、所需月儲蓄與複利。"
+  },
+  {
+    "line": 2327,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nonameuserd/paybond-kit) 📇 🐍 ☁️ 🏠 🍎 🪟 🐧 - 租戶繫結的智慧體消費授權：策略護欄、消費意圖、證據、託管結算、完成驗證與可移植回執。"
+  },
+  {
+    "line": 2328,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/none298-dotcom/mylinedchart-mcp-chart-context) 📇 🏠 🍎 - 對實時 MyLinedChart 桌面圖表上下文的本地、只讀訪問：程式碼、K 線、繪圖、指標與 IBKR 狀態。"
+  },
+  {
+    "line": 2329,
+    "translated": "- @@L0@@ 🐍 ☁️ - 透過 Octagon AI 智慧體整合私募與公開市場資料。"
+  },
+  {
+    "line": 2330,
+    "translated": "- @@L0@@ 📇 ☁️ - 面向 AI 智慧體的經濟結算：回執驗證、計量、淨額結算、信用額度與資產負債表。"
+  },
+  {
+    "line": 2331,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/OilpriceAPI/mcp-server) 🎖️ 📇 ☁️ - 實時石油、天然氣與大宗商品價格：現貨、歷史、期貨曲線、價格提醒與針對 Brent、WTI、柴油、航空燃油等的市場簡報。"
+  },
+  {
+    "line": 2332,
+    "translated": "- @@L0@@ 🏎️ ☁️ - 透過 GLEIF 的公開 API 訪問全球法人識別編碼（LEI）資料庫，用於公司驗證、KYC 與企業所有權研究。"
+  },
+  {
+    "line": 2333,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/0xzcov/omni-fun-mcp-server) 📇 ☁️ - 多鏈 memecoin 發射臺，智慧體可在此將自己的代幣化：熱門代幣、搜尋、報價、聯合曲線與交易模擬。"
+  },
+  {
+    "line": 2334,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/omniologynow-rgb/profitspot-mcp) 🐍 ☁️ - 跨鏈 DeFi 分析：收益發現、池分析、利潤模擬、風險評分、巨鯨跟蹤與無常損失計算。"
+  },
+  {
+    "line": 2335,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/openaccountants/openaccountants) 📇 ☁️ - 經執業會計師審閱的開源會計技能，按國家、美國各州與加拿大各省覆蓋所得稅、增值稅與薪酬。"
+  },
+  {
+    "line": 2336,
+    "translated": "- @@L0@@ 🐍 ☁️ - Apache Fineract 自助服務整合：使用者註冊、認證、賬戶管理、交易與第三方轉賬。"
+  },
+  {
+    "line": 2337,
+    "translated": "- @@L0@@ ☁️ 🏠 - 用於管理客戶、貸款、儲蓄、股份與交易並生成財務報表的核心銀行整合。"
+  },
+  {
+    "line": 2338,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/opsloft/tariff-resolver) 📇 🏠 - 來自 USITC 資料的美國進口關稅研究：HTS 程式碼候選、第 99 章關稅（301 條款/IEEPA）、MPF/HMF 費用、落地成本與關稅變更跟蹤。"
+  },
+  {
+    "line": 2339,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/orcalayer/orcalayer-mcp) 🐍 ☁️ - Polymarket 巨鯨跟蹤與聰明錢分析：篩選後的排行榜、對沖檢測，以及帶 ISW 前線疊加的烏克蘭領土市場。"
+  },
+  {
+    "line": 2340,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/partymola/monzo-mcp) 🐍 ☁️ 🏠 - 對英國 Monzo 銀行 API 的只讀訪問，帶本地 SQLite 交易快取、全文搜尋與按類別的支出分析。"
+  },
+  {
+    "line": 2341,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/paulf280-ui/solana-safe-sniper-mcp-template) 📇 ☁️ - 面向 Solana 代幣的交易前風險檢查：追蹤持有人資金來源、標記捆綁買入、協同拋售與連環發射者，並篩查單個錢包。"
+  },
+  {
+    "line": 2342,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@payclaw/payclaw-mcp) 📇 ☁️ - 面向 AI 智慧體的虛擬 Visa 卡：每筆交易即時髮卡，需人工批准的消費授權。"
+  },
+  {
+    "line": 2343,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mikusnuz/pexbot-mcp) 📇 ☁️ - 使用實時 Upbit 價格與虛擬 KRW 餘額的模擬加密交易：註冊、交易與自主 AI 投資。"
+  },
+  {
+    "line": 2344,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@PaulieB14/graph-aave-mcp) 📇 ☁️ - 透過 The Graph 的多鏈 Aave V2/V3 借貸資料：儲備、使用者頭寸、健康因子、清算、閃電貸與治理。"
+  },
+  {
+    "line": 2345,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@PaulieB14/graph-polymarket-mcp) 📇 ☁️ - 透過 The Graph 的 Polymarket 預測市場資料：市場、頭寸、訂單、使用者活動與實時賠率。"
+  },
+  {
+    "line": 2346,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@plagtech/spraay-x402-mcp) 📇 ☁️ - 在 Base 上透過 x402 的鏈上資料、AI 模型與批次 USDC 支付：兌換報價、代幣價格、錢包餘額、ENS 解析與多接收方轉賬。"
+  },
+  {
+    "line": 2347,
+    "translated": "- @@L0@@ 🐍 ☁️ - 訪問 Polygon.io 金融市場資料 API，涵蓋股票、指數、外匯、期權等。"
+  },
+  {
+    "line": 2348,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@PostOakLabs/ainumbers-mcp-apps) 📇 ☁️ - 確定性的、只讀的金融科技工具：智慧體支付（AP2、x402、Visa TAP、A2A）、AML/KYC 風險評級、BaaS 提供商對比與 MCP 開發工具。"
+  },
+  {
+    "line": 2349,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/predictionmarketspicks/mcp) 🎖️ 📇 ☁️ - 面向 Kalshi 與 Polymarket 的量化工具（期望值、Kelly 配置、貝葉斯更新、賠率轉換），外加 NFL 夢幻選秀助手。"
+  },
+  {
+    "line": 2350,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PreReason/mcp) 📇 ☁️ - 比特幣與宏觀市場簡報（美聯儲資產負債表、M2、國債收益率、相關性），帶趨勢訊號、置信評分與狀態分類。"
+  },
+  {
+    "line": 2351,
+    "translated": "- @@L0@@ 🐍 ☁️ - 從 Bitget API 獲取加密貨幣價格。"
+  },
+  {
+    "line": 2352,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pythia-the-oracle/pythia-oracle-mcp) 🐍 ☁️ - 跨多個時間週期的、經 Chainlink 預言機分發的鏈上計算加密指標（EMA、RSI、布林帶、波動率）。"
+  },
+  {
+    "line": 2353,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/QBT-Labs/openmm-mcp) 📇 ☁️ - 面向 DeFi 分析、CEX/DEX 交易與流動性管理的加密貨幣做市工具包。"
+  },
+  {
+    "line": 2354,
+    "translated": "- @@L0@@ 🐍 ☁️ - QuantConnect API 訪問：建立專案、回測策略、管理協作者並部署實盤交易。"
+  },
+  {
+    "line": 2355,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/QuantOracledev/quantoracle) 📇 ☁️ - 確定性的量化金融工具：期權定價、風險指標、投資組合最佳化、蒙特卡洛、技術指標、加密/DeFi 與外匯/宏觀。"
+  },
+  {
+    "line": 2356,
+    "translated": "- @@L0@@ 📇 ☁️ - 來自 CoinCap 公開 API 的實時加密貨幣價格與市場資訊。"
+  },
+  {
+    "line": 2357,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@QuantToGo/quanttogo-mcp) 📇 ☁️ - 面向美國與 A 股市場的宏觀因子量化交易訊號：策略發現、實時訊號獲取與前瞻跟蹤表現。"
+  },
+  {
+    "line": 2358,
+    "translated": "- @@L0@@ 🐍 - 非官方的 PayPal Braintree 整合：處理支付、管理客戶與處理交易。"
+  },
+  {
+    "line": 2359,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@refined-element/lightning-enable-mcp) 🐍 ☁️ 🏠 - 面向 AI 智慧體的比特幣閃電支付：支付與建立發票、查詢餘額並訪問 L402 付費牆 API，支援 Strike、OpenNode 與 NWC 錢包。"
+  },
+  {
+    "line": 2360,
+    "translated": "- @@L0@@ 📇 ☁️ - 跨多個提供商（Efí、Cielo 等）生成 Pix 二維碼與複製貼上字串，並帶回退，用於巴西即時支付。"
+  },
+  {
+    "line": 2361,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rascal-3/chainanalyzer-mcp) 📇 ☁️ - 跨比特幣、以太坊、Polygon、Avalanche 與 Solana 的多鏈 AML 風險評分與制裁篩查，含 ML 異常評分與圖分析。"
+  },
+  {
+    "line": 2362,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/romanshumy/llm-prices-data) 📇 ☁️ 🏠 - 實時 LLM API 令牌價格、模型對比、最便宜模型查詢與 LLM 價格指數，每日對照提供商頁面重新校驗。"
+  },
+  {
+    "line": 2363,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vdmeu/registrum-mcp) 📇 ☁️ - 透過 Registrum API 的英國 Companies House 資料：公司搜尋、簡介、iXBRL 解析的財務、董事歷史與企業關係圖譜。"
+  },
+  {
+    "line": 2364,
+    "translated": "- @@L0@@ 📇 ☁️ - XRP 賬本訪問：賬戶資訊、交易歷史、賬本物件、交易提交與網路監控。"
+  },
+  {
+    "line": 2365,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ryansilk/apexvol-mcp) 🐍 ☁️ 🏠 - ApexVol 期權分析：期權鏈、IV 排名、波動率風險溢價、希臘字母、Gamma 暴露（GEX）、預期波動與市場篩選器。"
+  },
+  {
+    "line": 2366,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sachinuppal/modelcostsaver) 📇 🏠 🍎 🪟 🐧 - 離線 LLM 成本預測：估算請求成本、挑選最便宜的可用模型、對比模型、列出價格並最佳化請求。"
+  },
+  {
+    "line": 2367,
+    "translated": "- @@L0@@ 🐍 ☁️ - 來自 CoinGecko API 的加密貨幣市場資料。"
+  },
+  {
+    "line": 2368,
+    "translated": "- @@L0@@ 🐍 ☁️ - 來自 Yahoo Finance API 的股票市場資料與分析。"
+  },
+  {
+    "line": 2369,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sapph1re/findata-mcp) 🐍 ☁️ - 實時股票資料、公司基本面、FRED 經濟指標、SEC 申報與加密價格，透過 Base 上 x402 按次付費。"
+  },
+  {
+    "line": 2370,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sailorpepe/litvm-tcg-oracle-mcp) 🐍 ☁️ 🏠 - 面向 LitecoinVM 的鏈上 TCG 價格預言機：卡片搜尋、價格歷史、Merkle 證明驗證、蒙特卡洛模擬與 AI 卡片評級。"
+  },
+  {
+    "line": 2371,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sailorpepe/undesirables-mcp-server) 🐍 🏠 ☁️ 🍎 🪟 🐧 - TCG 收藏品與智慧體工具：AI 卡片評級、蒙特卡洛價格模擬、音樂與影象生成、TTS、RAG 記憶與 SAST 審計。"
+  },
+  {
+    "line": 2372,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/scjang01/tossinvest-mcp) 📇 ☁️ - Toss Securities Open API：實時行情、訂單簿、K 線、持倉、購買力與訂單管理（建立、修改、取消）。"
+  },
+  {
+    "line": 2373,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/seaworthy-io/seaworthy-mcp) 📇 ☁️ - 殘疾保險經紀：代為提交報價請求、對比保險公司並研究保障範圍。"
+  },
+  {
+    "line": 2374,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Setell-AI/setell-mcp) 📇 🏠 - 面向服務型企業（機械加工店、承包商、暖通空調）的報價到收款：工單、報價、客戶記憶、價格訊號、跟進與確認傳送。"
+  },
+  {
+    "line": 2375,
+    "translated": "- @@L0@@ 🏎️ ☁️ - 透過 ShareSeer 的實時 SEC 申報、財務與內部人交易資料。"
+  },
+  {
+    "line": 2376,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ShipItAndPray/mcp-market-data) 📇 🏠 ☁️ 🍎 🪟 🐧 - 實時加密貨幣市場資料：實時價格、OHLCV、訂單簿與市場摘要。"
+  },
+  {
+    "line": 2377,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ShinyDapps/l402-kit) 📇 ☁️ 🍎 🪟 🐧 - 面向 TypeScript、Python、Go 與 Rust 的 L402 SDK：服務端中介軟體、自動付費的智慧體客戶端、一個 MCP 伺服器、LangChain 整合與預算控制。"
+  },
+  {
+    "line": 2378,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lmwharton/sieve-mcp) 🐍 ☁️ - 初創公司盡職調查：跨 IMPACT-X 維度篩查初創公司並返回 Sieve 評分、證據型別化的發現與會議建議。"
+  },
+  {
+    "line": 2379,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SiftingIO/siftingio-mcp) 🎖️ 📇 🏠 - 面向股票、外匯、加密、大宗商品與 DEX 的實時與歷史資料，外加基本面、申報與市場日曆。"
+  },
+  {
+    "line": 2380,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SidneyBissoli/bcb-br-mcp) 📇 ☁️ 🍎 🪟 🐧 - 透過 SGS 公開 API 的巴西央行（BCB）經濟時間序列：Selic、IPCA、匯率、GDP 與精選指標。"
+  },
+  {
+    "line": 2381,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/signal8ai/signal8-mcp) 📇 ☁️ - 來自 Signal8 的 SEC 申報資料：內部人與 13F 所有權、稀釋風險評分、STOCK Act 交易、FEC 競選財務、申報搜尋與股票篩選器。"
+  },
+  {
+    "line": 2382,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smythmyke/govtoolspro-mcp-server) 📇 ☁️ - 面向美國聯邦承包商的工具：投標可行性評分、incumbent 研究、合作方搜尋、重新競爭預測與 SAM.gov 招標。"
+  },
+  {
+    "line": 2383,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/subsquid-labs/portal-mcp-server) 🎖️ 📇 ☁️ 🏠 - 透過 SQD Portal API 跨 EVM、Solana、比特幣、Substrate 與 Hyperliquid 查詢鏈上資料。"
+  },
+  {
+    "line": 2384,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/summerstateofmind/cityparity) 📇 ☁️ - 城市間生活成本與生活質量對比：到手工資、稅收、等值薪資、育兒、醫療、假期與育兒假。"
+  },
+  {
+    "line": 2385,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SupplyMaven-SCR/supplymaven-mcp-server) 📇 ☁️ - 實時供應鏈風險資料：中斷指數、大宗商品價格、港口擁堵、邊境延誤、瓶頸、貨運與貿易政策。"
+  },
+  {
+    "line": 2386,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/swiftnodes/swiftnodes-mcp) 📇 🏠 🍎 🪟 🐧 - 多鏈區塊鏈 RPC 參考：端點 URL 模板、各鏈的 JSON-RPC 方法支援與實時端點探測。"
+  },
+  {
+    "line": 2387,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/supra126/taiwan-payroll) 📇 ☁️ 🏠 - 臺灣 statutory 薪資計算：勞保與健保、勞工退休金、NHI 補充保費、所得稅預扣與老年福利。"
+  },
+  {
+    "line": 2388,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/szhygulin/recon-crypto-mcp) 📇 🏠 - 自託管的加密投資組合：EVM 餘額與 DeFi 頭寸帶風險警報，外加透過 WalletConnect 在 Ledger 上簽名的未簽名交易。"
+  },
+  {
+    "line": 2389,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tamasPetki/HeadlessTracker) 📇 🏠 ☁️ 🍎 🪟 🐧 - 跨 Bybit、幣安、EVM 與 Solana 錢包以及 Polymarket 的本地優先加密投資組合聚合，只讀憑證存於作業系統鑰匙串。"
+  },
+  {
+    "line": 2390,
+    "translated": "- @@L0@@ ☁️ - 跨眾多網路訪問 Tatum 的區塊鏈 API，含 RPC 閘道器與區塊鏈資料洞察。"
+  },
+  {
+    "line": 2391,
+    "translated": "- @@L0@@ 🦀 🏠 - 與基於 Substrate 的區塊鏈互動。"
+  },
+  {
+    "line": 2392,
+    "translated": "- @@L0@@ 🐍 🏠 - 連線任意 OpenTelemetry 後端，如 Datadog、Grafana、Dynatrace 或 Traceloop。"
+  },
+  {
+    "line": 2393,
+    "translated": "- @@L0@@ 🎖️ ☁️ - 透過 Trade Agent 在 Robinhood、E*Trade、Coinbase 與 Kraken 等券商交易股票與加密。"
+  },
+  {
+    "line": 2394,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TradeRouter/trade-router-mcp) 📇 ☁️ 🏠 - 非託管 Solana 交易引擎：跨 Raydium、PumpSwap、Orca 與 Meteora 的兌換、限價、跟蹤、TWAP 與 DCA 訂單，帶 Jito MEV 保護。"
+  },
+  {
+    "line": 2395,
+    "translated": "- @@L0@@ 🐍 ☁️ - 在 Robinhood 交易：投資組合分析、實時行情與訂單執行。"
+  },
+  {
+    "line": 2396,
+    "translated": "- @@L0@@ 🐍 ☁️ - 來自 Twelve Data API 的實時與歷史金融市場資料。"
+  },
+  {
+    "line": 2397,
+    "translated": "- @@L0@@ 📇 ☁️ - 透過 CryptoDataAPI 的實時加密市場資料：市場健康評分、衍生品、資金費率、ETF 資金流與週期指標。"
+  },
+  {
+    "line": 2398,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Veroq-ai/veroq-mcp) 📇 ☁️ - 帶證據鏈的宣告驗證，外加市場資料、交易訊號、SEC 申報、內部人交易與技術分析。"
+  },
+  {
+    "line": 2399,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/szhygulin/vaultpilot-mcp) 📇 🏠 🍎 🪟 🐧 - 硬體驗證的 DeFi：讀取餘額與頭寸並在 EVM 鏈、TRON、Solana 與比特幣上準備交易，在 Ledger 上審批。"
+  },
+  {
+    "line": 2400,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/minhoyoo-iotrust/WAIaaS) 📇 🏠 🍎 🪟 🐧 - 面向 Solana 與 EVM 上 AI 智慧體的自託管錢包即服務：轉賬、DeFi、NFT、智慧合約、簽名與 x402 支付，帶消費策略。"
+  },
+  {
+    "line": 2401,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wildsurfer/cnn-fear-and-greed-parse) 🏎️ 🏠 - 美國股市的 CNN 恐懼貪婪指數：評分、評級、成分指標與約一年的每日曆史。"
+  },
+  {
+    "line": 2402,
+    "translated": "- @@L0@@ 🦀 🏠 - 透過 Solscan API 查詢 Solana 交易。"
+  },
+  {
+    "line": 2403,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@baskcart/w3ledger-mcp-server) 📇 ☁️ - 採用雙簽名交易、禮品與贊助卡及忠誠等級的自驗證賬本，使用 EVM 或後量子（ML-DSA-65、SLH-DSA）簽名。"
+  },
+  {
+    "line": 2404,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vdalhambra/financekit-mcp) 🐍 ☁️ 🏠 - 市場資料與分析：股票行情、技術指標、CoinGecko 加密價格、風險指標、期權鏈與投資組合分析。"
+  },
+  {
+    "line": 2405,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - 訪問 CRIC Wuye AI 平臺，一個面向物業管理行業的助手。"
+  },
+  {
+    "line": 2406,
+    "translated": "- @@L0@@ 📇 ☁️ - 透過其 API 訪問 Xero 的會計與業務功能。"
+  },
+  {
+    "line": 2407,
+    "translated": "- @@L0@@ 🐍 ☁️ - 透過政府 API（gBizINFO、EDINET、e-Stat）的日本企業資料：公司、財務、專利、補貼、採購與政府統計。"
+  },
+  {
+    "line": 2408,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/YBSbarker/barker-stablecoin-skills) 🎖️ 📇 ☁️ - 跨 DeFi 協議與 CEX earn 計劃的實時穩定幣收益指數，帶收益顧問、風險訊號與非託管存贖報價。"
+  },
+  {
+    "line": 2409,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yli769227-jpg/ashare-mcp) 🐍 🏠 - 中國 A 股財務報表：拉取年報、執行行業感知的會計交叉核對，並以平均權益 ROE 對比同業。"
+  },
+  {
+    "line": 2410,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yolfinance/yolfi-agent) 📇 ☁️ - Yolfi Payments 整合：註冊工作區、建立加密結賬連結、配置並驗證 Webhook 以及檢查支付狀態。"
+  },
+  {
+    "line": 2411,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ypratap11/dokimo-mcp) 🐍 🏠 - 透過重新計算 Merkle 證明並對照鏈上錨點（x402、智慧體支付）校驗，驗證 AI 智慧體的收入宣告。"
+  },
+  {
+    "line": 2412,
+    "translated": "- @@L0@@ 🐍 ☁️ - 從多個提供商（如 Tushare）訪問金融資料。"
+  },
+  {
+    "line": 2413,
+    "translated": "- @@L0@@ 📇 ☁️ - 按程式碼、行業、國家與日期範圍篩選的市場與財經新聞搜尋。"
+  },
+  {
+    "line": 2414,
+    "translated": "- @@L0@@ @@L1@@ 🐍 🏠 - 面向 AI 交易智慧體的分層記憶（交易、模式、策略），支援 MT5、幣安與 Alpaca。"
+  },
+  {
+    "line": 2415,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ThoughtProof/thoughtproof-mcp) 📇 ☁️ - 對抗式交易前驗證：Claude、Grok 與 DeepSeek 對每項智慧體決策發起挑戰，返回 ALLOW 或 HOLD 並附簽名證明。"
+  },
+  {
+    "line": 2416,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tickerdb/tickerdb-mcp) 📇 ☁️ - 美國股票、ETF 與加密的預計算指標（趨勢、動量、波動率、基本面），帶用於篩選與回測的狀態轉移歷史。"
+  },
+  {
+    "line": 2417,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tunedforai/x402-mcp) 📇 ☁️ - 實時加密市場結構：跨交易所訂單流、價格、資金與未平倉量快照，含巨鯨活動的 CVD 與 OHLCV 歷史。"
+  },
+  {
+    "line": 2418,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@toolstem/toolstem-mcp-server) 📇 ☁️ 🏠 - 來自多個來源的聚合金融資料：股票快照、公司指標與對比，帶衍生訊號、CAGR、利潤率趨勢與 DCF 上行。"
+  },
+  {
+    "line": 2419,
+    "translated": "- @@L0@@ 📇 ☁️ - SEC EDGAR 訊號：內部人交易（Form 4）、13F 機構持倉、10-K/8-K 申報速度、維權風險標誌與披露對比。"
+  },
+  {
+    "line": 2420,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pickelfintech/the13f-mcp) 🐍 ☁️ - 來自 SEC EDGAR 的機構 13F 資料：管理人搜尋、持倉查詢、投資組合相似度、共識組合、市場狀態與行業資金流。"
+  },
+  {
+    "line": 2421,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tradallo/reputation) 📇 ☁️ - Tradallo 已驗證記錄協議：查詢已驗證的人類與 AI 智慧體交易聲譽、歷史記錄、交易回執與 Solana 備忘錄公證。"
+  },
+  {
+    "line": 2422,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pineforge-4pass/pineforge-codegen-mcp) 📇 🏠 - 透過將 Pine Script v6 策略轉譯為 C++ 並在確定性的 PineForge 引擎上執行，在本地回測。"
+  },
+  {
+    "line": 2423,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/michalperni11-gif/secfinapi-mcp) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - 面向美國上市公司的標準化 SEC EDGAR 財務資料：利潤表、資產負債表、現金流量與比率，從 XBRL 歸一化而來。"
+  },
+  {
+    "line": 2424,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/namixai/funding-mcp) 📇 ☁️ - 跨眾多場所（含 HIP-3 子 DEX）的永續資金費率資料與跨交易所資金套利，帶 x402 付費訊號。"
+  },
+  {
+    "line": 2425,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/namixai/signer-mcp) 📇 ☁️ - 面向交易智慧體的無金鑰 CEX/DEX 簽名：金鑰保留在 AWS Nitro Enclave 中，智慧體獲得針對幣安、OKX、Bybit 等的策略受限簽名。"
+  },
+  {
+    "line": 2426,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JeongSeongMok/tossinvest-openapi-mcp) 📇 🏠 🍎 🪟 🐧 - 只讀的 Toss Securities Open API 文件：瀏覽端點與模式、遵循整合指南並生成 curl、TypeScript 與 Python 示例。"
+  },
+  {
+    "line": 2427,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ophis-fi/ophis) 🎖️ 📇 ☁️ - 基於意圖的 DEX 聚合器（自託管 CoW Protocol）：解析兌換意圖、獲取報價、構建並提交 EIP-712 訂單，並在 EVM 鏈上檢查餘額。"
+  },
+  {
+    "line": 2428,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/phuocdu/agentpay-vn) 🐍 ☁️ - 越南的非託管 VietQR 支付：為使用者生成 VietQR 碼，並從商戶銀行反饋自動確認結算。"
+  },
+  {
+    "line": 2429,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Gainium/gainium-mcp) 🎖️ 📇 ☁️ 🏠 - 管理 Gainium DCA、Combo 與 Grid 交易機器人：機器人、交易、餘額、回測、加密篩選器與策略預設。"
+  },
+  {
+    "line": 2431,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wuzenghai616-lang/goldbean) 📇 ☁️ 🍎 🪟 🐧 - 按次付費的 x402 工具：加密價格、網頁搜尋、天氣、影象生成、LLM 聊天、程式碼執行、翻譯、情緒分析與二維碼。"
+  },
+  {
+    "line": 2432,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Faouzi122/Arsenal-Quant-Project) 🐍 ☁️ - 面向 DeFAI 智慧體的確定性 MEV 與滑點風險預言機。"
+  },
+  {
+    "line": 2433,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/true402/mcp-server) 🎖️ 📇 ☁️ - x402 按次付費工具：代幣拉 rug 與蜜罐檢查、新交易對與巨鯨兌換訊號、SEO/GEO 審計、網頁提取、連結預覽與 LLM 推理。"
+  },
+  {
+    "line": 2434,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bevanding/signaldaemon) 🐍 ☁️ - 面向加密、AI 與宏觀的敘事與訊號跟蹤：跨來源敘事收斂與資本對敘事的分歧。"
+  },
+  {
+    "line": 2435,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ENTIA-IA/entia-mcp-server) 🎖️ 🐍 ☁️ - 企業身份資料：公司驗證、增值稅、BORME、GLEIF、所有權與跨多國風險訊號。"
+  },
+  {
+    "line": 2436,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Nikolife2016/pulsefeed-x402) 📇 ☁️ - 在支付 x402 端點前的安全檢查：存活、詐騙掃描（payTo 劫持、蜜罐）、鏈上接收方驗證與信任評分。"
+  },
+  {
+    "line": 2437,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ninetails-io/gnucash-mcp) 🐍 🏠 🍎 🪟 🐧 - 在本地 GnuCash 賬簿上的多幣種複式記賬：交易、發票、賬單、預算、投資批次、對賬與報告。"
+  },
+  {
+    "line": 2438,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/viniciuslazzari/bolsai-mcp) 🐍 🏠 🍎 🪟 🐧 - 來自 B3、CVM 與 BCB 的巴西股票市場資料：股票價格、基本面、分紅、FII 與宏觀指標（Selic、IPCA、CDI）。"
+  },
+  {
+    "line": 2439,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/agentIgris/agentfund) 📇 ☁️ - 面向 Solana 上 AI 智慧體的融資：註冊智慧體、建立活動、透過 x402 捐贈並跟蹤鏈上聲譽。"
+  },
+  {
+    "line": 2441,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sebastienrousseau/camt053-mcp) 🐍 🏠 🍎 🪟 🐧 - ISO 20022 camt.053 銀行對賬單解析與 XSD 驗證、IBAN/BIC/LEI 檢查、Xero 與 QuickBooks 日記賬匯出，以及反向分錄生成。"
+  },
+  {
+    "line": 2442,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sebastienrousseau/pacs008-mcp) 🐍 🏠 🍎 🪟 🐧 - 生成、驗證並解析 ISO 20022 pacs.008、pacs.004 與 pacs.002 報文，修復結構化地址並將 SWIFT MT103 轉換為 pacs.008。"
+  },
+  {
+    "line": 2443,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/manganate006/openlmnp) 🏠 ☁️ - 法國 LMNP 帶傢俱出租稅狀態的會計：日記賬分錄、折舊、2031/2033 稅表、FEC 匯出與 Airbnb/Booking.com 匯入。"
+  },
+  {
+    "line": 2444,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tonnode/mcp) 📇 🏠 ☁️ - 透過 ADNL 對 The Open Network（TON）的直接 liteserver 訪問：GRAM 餘額、賬戶狀態、交易歷史與合約 get 方法。"
+  },
+  {
+    "line": 2445,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/slenderongithub/fix-protocol-mcp) 🐍 🏠 - 離線解析、驗證、構建並解釋 FIX 協議交易報文，使用自帶的 FIX 4.4 欄位字典。"
+  },
+  {
+    "line": 2446,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/andresdefi/zerodust) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - 透過 EIP-7702 贊助執行將原生 Gas 餘額精確掃至零，同鏈或跨鏈，至白名單目的地。"
+  },
+  {
+    "line": 2447,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/amitesh-m/wealthville-integrations) 🎖️ 📇 🏠 - 只讀的 Solana 與 EVM 流動性池評分：進場/持有/退出裁定、綜合 Wealthville 評分、頂級池、訊號與公開跟蹤記錄。"
+  },
+  {
+    "line": 2448,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SynderAccounting/gl-importer-plugin) 🎖️ 📇 ☁️ - 透過 Synder Importer API 將 CSV/XLSX 會計資料匯入 QuickBooks Online 或 Xero，含欄位對映與匯入後規則。"
+  },
+  {
+    "line": 2449,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sturs49/cryptotaxedge-mcp) 🎖️ ☁️ - 鏈上交易的美國稅務分類：提交交易雜湊以獲取其類別、稅務處理、置信評分與複核標誌。"
+  },
+  {
+    "line": 2450,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sand0vvv/hyperevm-mcp) 📇 ☁️ 🍎 🪟 🐧 - 只讀的 Hyperliquid/HyperEVM 資料：HYPE 收益（質押、借貸、LP、HLP 金庫）、協議 TVL 與費用、市場、資金歷史與訂單簿深度。"
+  },
+  {
+    "line": 2451,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/asokore/statcite) 📇 ☁️ - 來自世界銀行、IMF、BIS、ECB 與加勒比央行的帶引用經濟統計，外加對宣告數字對照源序列的檢查。"
+  },
+  {
+    "line": 2452,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ravndex/ravn-mcp-glama) 📇 ☁️ - 跨多個場所與鏈的跨鏈兌換執行，包括以原生比特幣作為來源或目的地。"
+  },
+  {
+    "line": 2453,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/parkyucheol-del/alphapipeline) 🐍 ☁️ 🏠 - x402 按次付費的市場與鏈上資料：代幣解鎖風險、泡菜溢價警報、蜜罐與 LP 鎖審計、DEX 滑點與資金費率套利。"
+  },
+  {
+    "line": 2454,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/henfrydls/actual-budget-mcp) 📇 🏠 🍎 🪟 🐧 - 自託管的 Actual Budget 分析：支出明細、類別趨勢、預測與預算對比，帶受控寫入與可選只讀模式。"
+  },
+  {
+    "line": 2455,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yourmatematt/agent-billboard-mcp) 📇 🏠 🍎 🪟 🐧 - 讀取併發布到 The Agent Billboard——一個透過出價超過上一發布者贏得的單鏈上 Solana 訊息槽，帶運營方消費上限。"
+  },
+  {
+    "line": 2456,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tillbooks/tillbooks) 📇 🏠 🍎 🐧 - 本地優先的瑞士會計：複式日記賬分錄、發票分類與跟進，以及瑞士增值稅（MWST）申報，儲存於本地 SQLite。"
+  },
+  {
+    "line": 2457,
+    "translated": "### 🎮 <a name=\"gaming\"></a>遊戲"
+  },
+  {
+    "line": 2459,
+    "translated": "與遊戲相關資料、遊戲引擎及服務的整合"
+  },
+  {
+    "line": 2461,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/26048608982lp-ai/gamenumerics) 📇 🏠 🍎 🪟 🐧 - 遊戲平衡設計與審計：匯入 xlsx 配置表、審計成長曲線、模擬戰鬥與抽卡系統，並逆向工程表格公式。"
+  },
+  {
+    "line": 2462,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/3aKHP/prts-mcp) 🐍 📇 ☁️ 🏠 - 透過 PRTS Wiki API 的明日方舟遊戲資料，帶自動同步的幹員檔案與語音，用於同人創作。"
+  },
+  {
+    "line": 2463,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/antics-gg/antics-mcp) 📇 ☁️ - 將單檔案 HTML 遊戲部署到可分享的多人 URL，帶房間、狀態同步與排行榜，無需後端或玩家賬號。"
+  },
+  {
+    "line": 2464,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/beckettlab/beckett-godot-mcp) 🏠 🍎 🪟 🐧 - 無需 sidecar 即可執行的 Godot 4 編輯器外掛：類反射、經過校驗的 GDScript 寫入、場景/指令碼/資源編寫與執行時試玩迴圈。"
+  },
+  {
+    "line": 2465,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/butterlatte-zhang/unity-ai-bridge) #️⃣ 🐍 🏠 🍎 🪟 - 透過基於檔案的 IPC 從 AI 編碼工具控制 Unity 編輯器。"
+  },
+  {
+    "line": 2466,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/buildepicshit/Wick) #️⃣ 🏠 🍎 🪟 🐧 - Godot 引擎工具：Roslyn 增強的異常遙測、場景樹檢查、C# 符號導航、MSBuild 編排與 GDScript 分析。"
+  },
+  {
+    "line": 2467,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/chaoz23/srdcheck) 🐍 🏠 - 確定性的 D&D 5e（SRD 5.2.1）規則裁定：帶引用的回合合法性檢查、合法動作列舉、優勢計算與雜湊標記的遊戲狀態譜系。"
+  },
+  {
+    "line": 2468,
+    "translated": "- @@L0@@ #️⃣ 🏠 - Unity 遊戲引擎整合，用於遊戲開發。"
+  },
+  {
+    "line": 2469,
+    "translated": "- @@L0@@ 📇 🏠 - 與 Godot 遊戲引擎互動：編輯、執行與除錯專案並管理場景。"
+  },
+  {
+    "line": 2470,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/danielenricocahall/lorcana-mcp) 🐍 🏠 🍎 🪟 🐧 - 迪士尼 Lorcana 集換式卡牌：卡牌搜尋、按格式規則校驗牌組、牌組統計，以及 Dreamborn/Pixelborn 牌組列表匯入匯出。"
+  },
+  {
+    "line": 2471,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dirtcubeinteractive/specter-skills) 📇 🏠 - 配置 Specter 遊戲後端：玩家、經濟、進度、排行榜、錦標賽、戰鬥通行與實時多人。"
+  },
+  {
+    "line": 2472,
+    "translated": "- @@L0@@ ☁️ - 透過 GameBrain API 在任何平臺上搜尋與發現電子遊戲。"
+  },
+  {
+    "line": 2473,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DiegoLopez0208/RpgMakerMVUltimate-MCP) 📇 🏠 - 離線 RPG Maker MV 助手：生成地圖、編輯資料庫與事件、校驗損壞引用、除錯事件並語義搜尋專案。"
+  },
+  {
+    "line": 2474,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dmang-dev/mcp-bizhawk) 📇 🏠 🍎 🪟 🐧 - 控制 BizHawk 多系統模擬器：記憶體讀寫、手柄輸入、幀推進、截圖與存檔。"
+  },
+  {
+    "line": 2475,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dmang-dev/mcp-dolphin) 📇 🏠 🍎 🪟 🐧 - 控制 Dolphin GameCube/Wii 模擬器：記憶體讀寫、GameCube 與 Wii 手柄輸入、重置、存檔與幀推進，透過 Felk 的指令碼分支。"
+  },
+  {
+    "line": 2476,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dmang-dev/mcp-mgba) 📇 🏠 🍎 🪟 🐧 - 控制 mGBA Game Boy Advance 模擬器：記憶體讀寫、按鍵輸入、截圖、存檔與步進。"
+  },
+  {
+    "line": 2477,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Dreiev/l2calendar-mcp) 📇 ☁️ 🏠 - 透過公開 L2 Calendar API 按編年史查詢即將開啟的 Lineage 2 私服。"
+  },
+  {
+    "line": 2478,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/drknowhow/fluxdots-mcp) 📇 ☁️ - 玩 FluxDots——一款人類與 AI 智慧體共享同一 Elo 天梯的排名策略棋盤遊戲：主持或加入實時對局，帶檔案、評分與回放。"
+  },
+  {
+    "line": 2479,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dmang-dev/mcp-pine) 📇 🏠 🍎 🪟 🐧 - 面向支援 PINE 協議的 PCSX2 等模擬器的記憶體讀寫、存檔槽與遊戲後設資料。"
+  },
+  {
+    "line": 2480,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dmang-dev/mcp-ppsspp) 📇 🏠 🍎 🪟 🐧 - 透過 PPSSPP 內建的 WebSocket 偵錯程式控制 PSP 遊戲：記憶體讀寫、輸入、暫停與步進、截圖、CPU 暫存器與斷點。"
+  },
+  {
+    "line": 2481,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dmang-dev/mcp-retroarch) 📇 🏠 🍎 🪟 🐧 - 透過 RetroArch 的網路控制介面控制 libretro 核心：記憶體讀寫、存檔、截圖、暫停、幀推進與螢幕訊息。"
+  },
+  {
+    "line": 2482,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gripforgeai/mcp) 📇 ☁️ - 將武器與道具附加到繫結好的 3D 角色上：找到手部骨骼、縮放道具、握拳並匯出 three.js、Unity 或 Godot 繫結與 GLB。"
+  },
+  {
+    "line": 2483,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/dnd-oracle) 📇 🏠 - D&D 5e SRD 參考：怪物搜尋、法術查詢、遭遇構建與配裝分析。"
+  },
+  {
+    "line": 2484,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/godot-forge) 📇 🏠 🍎 🪟 🐧 - Godot 4 開發伴侶：GUT/GdUnit4 測試執行、帶 3 到 4 遷移對映的 API 文件、指令碼分析、場景解析、截圖與 LSP 診斷。"
+  },
+  {
+    "line": 2485,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/lorcana-oracle) 📇 🏠 - 迪士尼 Lorcana 集換式卡牌搜尋、牌組分析、墨色曲線、傳說生成與系列瀏覽。"
+  },
+  {
+    "line": 2486,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/hearthstone-oracle) 📇 🏠 - 爐石傳說卡牌搜尋、牌組解碼與分析、原型分類與策略指導，使用 HearthstoneJSON 資料。"
+  },
+  {
+    "line": 2487,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/mtg-oracle) 📇 🏠 - 萬智牌卡牌搜尋、規則查詢、牌組分析、價格與指揮官資料，來自 Scryfall、Academy Ruins 與 Commander Spellbook。"
+  },
+  {
+    "line": 2488,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/onepiece-oracle) 📇 🏠 - 海賊王集換式卡牌搜尋、牌組分析、費用曲線、領袖瀏覽與反制策略。"
+  },
+  {
+    "line": 2489,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/tft-oracle) 📇 🏠 - 使用 CommunityDragon 資料的雲頂之弈（Teamfight Tactics）參考：羈絆查詢、裝備配方與抽卡機率。"
+  },
+  {
+    "line": 2490,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/warhammer-oracle) 📇 🏠 - 戰錘 40K、戰鬥巡邏與殺戮小隊規則參考：單位資料表、關鍵字定義、階段順序與遊戲流程。"
+  },
+  {
+    "line": 2491,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Erodenn/godot-runtime-mcp) 📇 🏠 🍎 🪟 🐧 - 透過注入的橋接控制執行中的 Godot 4 遊戲：輸入模擬、截圖、UI 發現與實時 GDScript 執行。"
+  },
+  {
+    "line": 2492,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/german-krasnikov/unity-biome-mcp) 🐍 #️⃣ 🏠 🍎 🪟 🐧 - 控制 Unity 編輯器，包括在 Unity 內從聊天控制：場景、GameObject、元件、Shader Graph、材質、動畫、UI 與確定性試玩。"
+  },
+  {
+    "line": 2493,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/haoyifan/Silicon-Pantheon) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 回合制策略遊戲，AI 智慧體在戰術網格上指揮軍隊，而人類擔任教練，含賽後覆盤與跨局學習。"
+  },
+  {
+    "line": 2494,
+    "translated": "- @@L0@@ 🐍 🏠 ☁️ - 透過 OpenDota API 的 Dota 2 統計：玩家資料、英雄資料與比賽分析。"
+  },
+  {
+    "line": 2495,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hope1026/roblox-mcp) 📇 🏠 🍎 🪟 - 透過外掛控制實時 Roblox Studio 會話：建立指令碼、例項、地形、光照與資產，帶雙向同步與自動化試玩。"
+  },
+  {
+    "line": 2496,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/isco-tec/scorezilla-mcp) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - 配置與檢查 Scorezilla 排行榜，包括一鍵式建立遊戲、看板與金鑰，並附即用 SDK 程式碼。"
+  },
+  {
+    "line": 2497,
+    "translated": "- @@L0@@ #️⃣ 🏠 🍎 🪟 🐧 - 面向 Unity 編輯器與基於 Unity 構建的遊戲的整合。"
+  },
+  {
+    "line": 2498,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/taygunsavas/patina-unity-mcp) 🦀 #️⃣ 🏠 🍎 🪟 🐧 - 透過本地伺服器與 C# 橋接控制 Unity 編輯器：場景、GameObject、預製體、資產、指令碼、控制檯、測試與構建設定。"
+  },
+  {
+    "line": 2499,
+    "translated": "- @@L0@@ 🐍 🏠 - 與 LLM 對弈的象棋對手。"
+  },
+  {
+    "line": 2500,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jkiley129/steam-mcp) 📇 🏠 🍎 🪟 🐧 - 查詢你的 Steam 庫：遊戲、遊玩時長、最近遊玩的標題與商店後設資料。"
+  },
+  {
+    "line": 2501,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/justinscott12/modrinth-mcp) 📇 ☁️ 🍎 🪟 🐧 - 透過 Modrinth API 搜尋 Modrinth 併發布 Minecraft 模組：建立專案、上傳新版本並讀取專案與版本後設資料。"
+  },
+  {
+    "line": 2502,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Grinv/steam-games-mcp) 📇 🏠 🍎 🪟 🐧 - 搜尋 Steam 商店（優惠、評價、Steam Deck 相容性），外加透過 Steam Web API 的玩家檔案、庫、成就與好友。"
+  },
+  {
+    "line": 2503,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@kitao/pyxel-mcp) 🐍 🏠 - Pyxel 復古遊戲引擎整合：執行遊戲、捕獲截圖、檢查精靈與分析音訊。"
+  },
+  {
+    "line": 2504,
+    "translated": "- @@L0@@ 🏎️ ☁️ - 透過 BoardGameGeek XML API2 的桌遊資料。"
+  },
+  {
+    "line": 2505,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lodordev/mcp-romm) 🐍 🏠 - 對 RomM 復古遊戲庫管理器的只讀訪問：平臺、ROM 搜尋、後設資料、合集、存檔、韌體、裝置與任務。"
+  },
+  {
+    "line": 2506,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/miracle1814/ue5-automation) 🐍 🌊 🏠 🪟 - Unreal Engine 5 Blueprint 自動化：建立、連線並編譯 Blueprint，編寫材質與 UMG 控制元件，並驗證 PIE 執行時狀態。"
+  },
+  {
+    "line": 2507,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/murzin-ml/mcp-ps-store) 🐍 🏠 🍎 🪟 🐧 - PlayStation Network 遊戲歷史（遊玩時長、獎盃、已購庫），用於基於你遊玩內容的遊戲推薦。"
+  },
+  {
+    "line": 2508,
+    "translated": "- @@L0@@ 📇 ☁️ - 管理 TrueTick Minecraft 伺服器：建立、啟動與停止伺服器，實時 TPS/MSPT 指標、RCON 控制檯、檔案、備份與 Modrinth/CurseForge 模組。"
+  },
+  {
+    "line": 2509,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NAJEMWEHBE/unreal-ai-connection) 🌊 🐍 🏠 🪟 - 透過原生外掛與本地 TCP 橋接的 Unreal Engine 5.7 編輯器自動化。"
+  },
+  {
+    "line": 2510,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/omniologynow-rgb/mcp-server) 📇 ☁️ - 基於 Solana 的 AI 智慧體競賽平臺：技能錦標賽（美術、故事、笑話），透過鏈上智慧合約以 USDC 支付。"
+  },
+  {
+    "line": 2511,
+    "translated": "- @@L0@@ 📇 ☁️ - 面向英雄聯盟、雲頂之弈與無畏契約的實時遊戲資料：英雄分析、電競賽程、版本陣容與角色統計。"
+  },
+  {
+    "line": 2512,
+    "translated": "- @@L0@@ 🐍 ☁️ - 訪問 Chess.com 玩家資料、對局記錄與其他公開資訊。"
+  },
+  {
+    "line": 2513,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/EnioAguiar/llmpvp-plugin) 📇 ☁️ 🍎 🪟 🐧 - 面向 AI 智慧體的排名、自帶 LLM 的象棋與圍棋競技場：註冊、加入匹配或按名挑戰，並玩 Glicko-2 評級的對局。"
+  },
+  {
+    "line": 2514,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/razz-games/razz-mcp) 📇 ☁️ - 帶可證明公平的骰子、拋幣、崩潰、彈珠、極限、掃雷、塔與 HexWar 遊戲，以真實 SOL 下注。"
+  },
+  {
+    "line": 2515,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rkocosmergon/cosmergon-agent) 🐍 ☁️ - 基於康威生命遊戲、面向 AI 智慧體的經濟模擬，帶能量貨幣、市場與基準報告。"
+  },
+  {
+    "line": 2516,
+    "translated": "- @@L0@@ 🐍 ☁️ - 實時 Fantasy Premier League 資料與分析。"
+  },
+  {
+    "line": 2517,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SerifeusStudio/rpgmaker-xp-mcp) 📇 🏠 🪟 - 編寫 RPG Maker XP 遊戲：直接讀寫專案資料（角色、技能、道具、地圖、事件、指令碼）並將地圖預覽渲染為 PNG。"
+  },
+  {
+    "line": 2518,
+    "translated": "- @@L0@@ 🏎️ 🏠 🍎 🪟 🐧️ - 訪問 Stockfish 象棋引擎。"
+  },
+  {
+    "line": 2519,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/stagproject/sec-filings-mcp) 📇 ☁️ - 搜尋 SEC EDGAR 10-K 與 10-Q 申報檔案，帶樣本預覽與透過 Polygon 上 x402 付費的完整申報 JSON。"
+  }
+]

@@ -1,0 +1,1922 @@
+[
+  {
+    "line": 2520,
+    "translated": "- @@L0@@ 📇 - RuneScape 与 Old School RuneScape 数据：物品价格、玩家排行榜分数等。"
+  },
+  {
+    "line": 2521,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Tanshaydar/Quartermaster) 🐍 🏠 🪟 🐧 - 本地搜索来自 Unity、Fab、Quixel Megascans、Gumroad 和 Leartes Cosmos 的游戏素材，结合全文与视觉 CLIP 搜索。"
+  },
+  {
+    "line": 2522,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alex-gon/thegamecrafter-mcp-server) 📇 ☁️ - 在 The Game Crafter 上设计、管理和定价桌游：浏览目录、创建项目、上传美术作品并获取价格。"
+  },
+  {
+    "line": 2523,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@jhomen368/steam-reviews-mcp) 📇 ☁️ - 搜索 Steam 游戏、获取用户评测并通过主题下钻分析情感倾向。"
+  },
+  {
+    "line": 2524,
+    "translated": "- @@L0@@ 🏎️ 🏠 - 与 AI 对手对弈井字棋。"
+  },
+  {
+    "line": 2525,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - Godot 游戏引擎集成：场景编辑、脚本编写、动画、瓦片地图、着色器、输入模拟与运行时调试。"
+  },
+  {
+    "line": 2526,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HadiCherkaoui/crafty-mcp) 📇 🏠 🍎 🪟 🐧 - 通过 Crafty Controller 4 API 管理 Minecraft 服务器：启动、停止、备份、发送命令，并管理文件、计划任务、Webhook 与用户。"
+  },
+  {
+    "line": 2527,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yanjingzhaisun/cozyvtt-mcp) 🐍 🏠 🍎 🪟 🐧 - 在自托管的虚拟桌游 CozyVTT 中以游戏主持人身份运行战役：骰子、聊天叙述、棋子与地图、先攻值、角色卡与规则书。"
+  },
+  {
+    "line": 2529,
+    "translated": "### 🏥 <a name=\"health-and-wellness\"></a>健康与养生"
+  },
+  {
+    "line": 2531,
+    "translated": "通过各类健康平台访问健康指标、养生数据与医疗信息。"
+  },
+  {
+    "line": 2533,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/findsaunaplunge/mcp) 🎖️ 📇 ☁️ - 覆盖美国各大都市的冷浴、桑拿与冷热交替疗法场所，提供各场所自有页面上的实时温度与价格，以及城市统计信息。"
+  },
+  {
+    "line": 2534,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PhilipAD/health-export-mcp) 🍎 🏠 - 以只读、本地优先方式查询 Apple Health 健康指标。"
+  },
+  {
+    "line": 2535,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/proscar87/oura-mcp) 🐍 📇 🏠 ☁️ 🍎 🪟 🐧 - 原始访问 Oura Ring API v2 全部数据集合，支持完整分页与页数统计，不含服务端分析。"
+  },
+  {
+    "line": 2536,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Thecimal/quantified-self-mcp) 🐍 🏠 - 查询存储在本地 SQLite 文件中的个人健康与财务数据，无需任何云服务。"
+  },
+  {
+    "line": 2538,
+    "translated": "### 🏠 <a name=\"home-automation\"></a>家庭自动化"
+  },
+  {
+    "line": 2540,
+    "translated": "控制智能家居设备、家庭网络设备与自动化系统。"
+  },
+  {
+    "line": 2542,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/handsomejustin/mijia-control) 🐍 ☁️ - 控制小米/米家智能家居设备（灯具、空调、取暖器、扫地机器人、摄像头），提供 Web 仪表盘、REST API、CLI、能耗监测与自动化规则。"
+  },
+  {
+    "line": 2543,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@apiarya/wemo-mcp-server) 🐍 🏠 🍎 🪟 🐧 - 无需云端本地控制 WeMo 智能家居设备：设备发现、调光器亮度、设备重命名与 HomeKit 码。"
+  },
+  {
+    "line": 2544,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Hybirdss/smartest-tv) 🐍 🏠 🍎 🪟 🐧 - 控制 LG、三星、Android TV 与 Roku 智能电视：按名称播放 Netflix、YouTube 与 Spotify 内容、投放 URL、场景预设与多电视同步。"
+  },
+  {
+    "line": 2545,
+    "translated": "- @@L0@@ 🏎️ 🏠 - 控制 AVM FRITZ!Box 路由器：管理设备、Wi-Fi、网络设置与家长控制，并可安排延时操作。"
+  },
+  {
+    "line": 2546,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ober37/ac-infinity-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 监测并自动化 AC Infinity 种植控制器：实时传感器数据与历史、VPD/温度/湿度自动化、端口控制与定时任务。"
+  },
+  {
+    "line": 2547,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/laszlopere/mcp-kodi) 🌊 🏠 🐧 - 通过 JSON-RPC 控制 Kodi 媒体播放器：播放、音量、媒体库搜索、队列管理与多实例播放历史。"
+  },
+  {
+    "line": 2548,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/claymore666/debmatic-mcp) 📇 🏠 🍎 🪟 🐧 - 控制 HomeMatic/debmatic CCU：开关与调光执行器、读取传感器与系统变量、运行程序并管理房间、链接与设备。"
+  },
+  {
+    "line": 2549,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NickoScope/nickol-knx-mcp) 🐍 🏠 - 设计期 KNX/ETS6 助手：只读解析 .knxproj 文件，进行 DPT、命名与命令/状态校验，并导出 Home Assistant YAML 与 ETS。"
+  },
+  {
+    "line": 2550,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexpfau/zigbee2mqtt-mcp) 📇 🏠 🍎 🪟 🐧 - 通过其 MQTT 桥接 API 管理 Zigbee2MQTT：网络健康报告、网格拓扑、配对、绑定、上报间隔与设备选项。"
+  },
+  {
+    "line": 2552,
+    "translated": "### 🪪 <a name=\"identity\"></a>身份"
+  },
+  {
+    "line": 2554,
+    "translated": "用于确定某人或某智能体身份，以及可获知其相关信息的服务器。"
+  },
+  {
+    "line": 2556,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIops-tools/Identity-AIops) 🐍 🏠 - Keycloak 与 Authentik 的 SSO/IAM 操作：针对登录、权限、客户端与 MFA 问题的根因分析，以及带审计日志与回滚的安全写入。"
+  },
+  {
+    "line": 2557,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/true-alter/cli) 🎖️ 📇 ☁️ - 以 ~name 句柄标识的个人身份档案，付费查询并与被找到者分享收入，包含技能证明任务与社群。"
+  },
+  {
+    "line": 2559,
+    "translated": "### 🏭 <a name=\"industrial--iot\"></a>工业与物联网"
+  },
+  {
+    "line": 2561,
+    "translated": "将 AI 智能体连接到工业设备、机械与运营技术（OT）——涵盖制造与车间协议的遥测采集、监测与控制。"
+  },
+  {
+    "line": 2563,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ahmed-khalil-hafsi/P2Predict) 🐍 🏠 🍎 🪟 🐧 - 基于你的采购历史训练的本地价格基准分析：预测零件成本、将其归因于规格与供应商因素，并给出可能的价格区间。"
+  },
+  {
+    "line": 2564,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Extelligence-ai/bagel) 🐍 🏠 - 用自然语言通过 DuckDB SQL 查询机器人、无人机与物联网数据（ROS bags、MCAP、飞行日志、CAN、MQTT），并导出至 Rerun、PlotJuggler 与 LeRobot。"
+  },
+  {
+    "line": 2565,
+    "translated": "- @@L0@@ 🐍 ☁️ - 将 AI 智能体跨协议、跨厂商连接到工业设备：跨 OEM 遥测归一化、健康指数与故障预测。"
+  },
+  {
+    "line": 2566,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LGDiMaggio/predictive-maintenance-mcp) 🐍 🏠 - 工业预测性维护：振动分析、轴承故障诊断（ISO 20816-3）与诊断报告。"
+  },
+  {
+    "line": 2567,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/purinzan/gx3-cli-mcp) 🐍 🏠 🪟 - 非官方、只读地分析三菱 MELSEC GX Works3 PLC 项目：追踪梯形图逻辑、查找设备读写并搜索设备注释。"
+  },
+  {
+    "line": 2569,
+    "translated": "### 🧠 <a name=\"knowledge--memory\"></a>知识与记忆"
+  },
+  {
+    "line": 2571,
+    "translated": "使用知识图谱结构进行持久化记忆存储。使 AI 模型能够在多次会话间维护并查询结构化信息。"
+  },
+  {
+    "line": 2573,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dockndevai/ossian-mcp) 📇 🏠 🍎 🪟 🐧 - 基于自有文档的 RAG，附引用段落，外加按相关性、重要性与时效性排序的持久智能体记忆；默认只读。"
+  },
+  {
+    "line": 2574,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/anuragsync78/subctx-connector) 📇 ☁️ - 自主人工智能体的支持中心。"
+  },
+  {
+    "line": 2575,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Octonove/crbro-memory) 📇 🏠 🍎 🪟 🐧 - 本地 JSON 文件中的持久智能体记忆：带热度评分的神经元/突触图、事实级搜索、纠错、密钥脱敏，以及通过 Git 的团队共享。"
+  },
+  {
+    "line": 2576,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bborota/cairn-mcp) 📇 ☁️ - 其他智能体习得的一句话经验教训、必做与禁忌事项的共享库，按技术栈与场景归类。"
+  },
+  {
+    "line": 2577,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Magnemo-AI/magnemo) 🐍 🏠 🍎 🪟 🐧 - 纯文本文件中的受治理本地智能体记忆：每条记录记录撰写者、时间与经由的关口，未经用户批准不保存任何内容。"
+  },
+  {
+    "line": 2578,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fish827-08/rag-kb) 🐍 🏠 🪟 - 本地优先的智能体记忆与知识库：稠密与 BM25 混合检索、文档与网页摄取，以及通过本地 Ollama 的可选 RAG 回答。"
+  },
+  {
+    "line": 2579,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dahshanlabs/klypix-mcp) 📇 🏠 🍎 🪟 🐧 - 提交到仓库中的带版本项目大脑，供编程智能体使用：决策、纠错、标记代码漂移的证据锚点以及文件重叠警告。"
+  },
+  {
+    "line": 2580,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AkashGoenka/coldstart) 📇 🏠 🍎 🪟 🐧 - 编程智能体的代码库记忆：确定性 AST 索引定位与任务相关的文件，仓库内 Markdown 笔记在代码变更时自动标记为过期。"
+  },
+  {
+    "line": 2581,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/library-mcp) 📇 ☁️ - 通过 x402 付费的公共领域图书知识库：全文搜索、元数据、章节、引文、问书问答与精选主题书架。"
+  },
+  {
+    "line": 2582,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jayasukuv11-beep/agenthelm) 📇 🐍 ☁️ 🏠 🍎 🪟 🐧 - 供 AI 编程智能体使用的共享、带版本记忆与治理，解决跨智能体的架构决策冲突。"
+  },
+  {
+    "line": 2583,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIStorageDepot/aistoragedepot-mcp) 📇 ☁️ 🍎 🪟 🐧 - 共享、带版本的团队提示词、规则、技能与文档库，智能体可搜索，条目可作为斜杠命令调用。"
+  },
+  {
+    "line": 2584,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@jmpdsevilla/BovedIA) 📇 🏠 🍎 🪟 🐧 - Claude Code 的纯 Markdown 笔记个人记忆，包含决定加载哪些上下文的路由笔记，以及记录想法与感受的层级。"
+  },
+  {
+    "line": 2585,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lbailey94/whitemagic) 🦀 🏠 🍎 🪟 🐧 - 本地优先的 AI 智能体持久记忆与会话连续性，带哈希链审计账本，以及跨设备的备份、导出与导入。"
+  },
+  {
+    "line": 2586,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LiLara-AI/shadowgraph) 📇 🏠 🍎 🪟 🐧 - 本地优先的 AI 智能体决策记忆：存储选择、被拒方案及理由、失败尝试、结果、来源与复核条件。"
+  },
+  {
+    "line": 2587,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lockstep-team-agent/lockstep) 📇 ☁️ - 使用 AI 编程智能体的团队共享决策记忆：记录工程决策、按影响范围排序，并在智能体行动前向其简报。"
+  },
+  {
+    "line": 2588,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lumayapartners/memini) 📇 🏠 🍎 🪟 🐧 - 本地优先的编程智能体项目记忆与护栏：按仓库记录失败尝试、脆弱文件与决策，并在重复犯错前发出警告。"
+  },
+  {
+    "line": 2589,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nazar256/memheaven) 📇 ☁️ - 自托管、可远程访问的 AI 智能体共享长期记忆。"
+  },
+  {
+    "line": 2590,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jessedu29260-netizen/booboo) 📇 🏠 🍎 🪟 🐧 - 以三维知识图谱查看并查询你的 AI 系统（智能体、记忆、知识、自动化）：统计、搜索、节点详情、邻居与路径查找。"
+  },
+  {
+    "line": 2591,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JinyangWang27/people-context) 🐍 🏠 🍎 🪟 🐧 - 本地优先的关于你生活中人物的记忆：身份解析、关系、事实、互动、提醒与沟通建议。"
+  },
+  {
+    "line": 2592,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gpitrella/memxus-remote-mcp) 📇 ☁️ - 开发团队的共享上下文：将 GitHub、Notion 与已保存决策同步为可复用的项目上下文，智能体在每次会话开始时加载。"
+  },
+  {
+    "line": 2593,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/seanmeverett/shared-memory-mcp) 🐍 ☁️ - 供 AI 智能体使用的公开、带来源链接的笔记本：搜索并阅读条目，发布发现、问题与纠错，附永久 ID 与关联回复。"
+  },
+  {
+    "line": 2594,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/soluai-spa/solucortex-mcp) 🎖️ 🐍 🏠 ☁️ - AI 智能体的技术记忆：在任务开始时回顾项目已批准的决策、约定与风险，并在结束时记录经验教训。"
+  },
+  {
+    "line": 2595,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/basemouse/basemouse-core) 📇 ☁️ 🏠 - 共享、带版本的智能体记忆，含来源答案与完整历史：搜索、上下文包与文档 upsert。"
+  },
+  {
+    "line": 2596,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/caix84476-netizen/personal-understanding) 🏠 🐍 📇 - 以逐字记录为优先的个人记忆：哈希化的逐字消息、关联到来源引用的记录、防编造校验器与审计仪表盘。"
+  },
+  {
+    "line": 2597,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Fisher521/burn-mcp-server) 📇 ☁️ 🍎 - 将 Burn 451 稍后读应用中保存的书签作为知识库进行搜索、分流与整理。"
+  },
+  {
+    "line": 2598,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/soolaugust/0CompactMem) 🐍 🏠 🍎 🪟 🐧 - 持久多智能体记忆，具操作系统式按需分页、淘汰与固定、BM25 检索、重要性评分与容量感知回收。"
+  },
+  {
+    "line": 2599,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/0spoon/seamless) 🏎️ 🏠 🍎 🪟 🐧 - 本地优先的 AI 编程智能体共享记忆与任务协调，以 Markdown 文件存储。"
+  },
+  {
+    "line": 2600,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/adelinamart/robrain) 📇 🏠 🍎 🪟 🐧 - 自托管的编程智能体决策记忆：记录架构决策与被拒方案，并在被拒方案被重新提出前发出警告。"
+  },
+  {
+    "line": 2601,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/a2cr/a2cr) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 通过客户端加密的 WorkBaton 检查点与 WorkStash 笔记进行智能体交接，从而无需完整聊天历史即可在另一客户端恢复工作。"
+  },
+  {
+    "line": 2602,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/afairai/afair) 🐍 🏠 🍎 🪟 🐧 - 自组织、可自托管、加密的 AI 工具记忆，具后台实体抽取、冲突解决、整合与衰减。"
+  },
+  {
+    "line": 2603,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ahmetakyurt/zipmem-mcp) 📇 🏠 - 终端编程智能体的本地长期记忆：蓝图、代码锚点与提炼经验集中于一个 JSON 文件，跨会话恢复项目上下文。"
+  },
+  {
+    "line": 2604,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ihorponom/agentpack) 📇 🏠 🍎 🪟 🐧 - 仓库原生的编程智能体任务连续性：经审核的任务状态账本，记录决策、死胡同、证据与检查点，供后续会话恢复。"
+  },
+  {
+    "line": 2605,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/thomasjumper/agentbay) 📇 ☁️ 🏠 - StremAI 跨会话、跨机器、跨工具的编程智能体共享记忆，含逐智能体归属、来源、验证状态与导出。"
+  },
+  {
+    "line": 2606,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/uniskela/adhd-hub) 🐍 🏠 🐧 - 自托管的编程智能体项目连续性中枢：跨客户端追踪未完成工作、进度、重叠与提醒。"
+  },
+  {
+    "line": 2607,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Vasilispapg/claude-handoff) 🐍 🏠 🍎 🪟 🐧 - Claude Code 会话交接：将任意（即使崩溃的）记录转为交接文件，并将项目历史提炼为带引用的记忆简报。"
+  },
+  {
+    "line": 2608,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aidesignblueprint/integrations) 🐍 ☁️ - 只读访问 Agentic AI Blueprint（智能体用户体验参考）：浏览并搜索原则、实现示例与应用指南。"
+  },
+  {
+    "line": 2609,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aliasunder/vault-cortex) 📇 🏠 ☁️ - 独立的 Obsidian 库服务器：混合搜索、笔记与文件、记忆与任务；可本地运行或自托管以远程访问。"
+  },
+  {
+    "line": 2610,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/andreas-roennestad/openhive-mcp) 📇 ☁️ - AI 智能体搜索并发布问题-解决方案对的共享知识库，具语义搜索、重复检测与自动评分。"
+  },
+  {
+    "line": 2611,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AndreLYL/memkin) 📇 🏠 🍎 🪟 🐧 - 本地优先的个人记忆，将飞书/Lark 聊天与 Claude Code/Codex 会话提炼为人、项目与任务的私有知识图谱。"
+  },
+  {
+    "line": 2612,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NORTHTEKDevs/genome) 🐍 🏠 🍎 🪟 🐧 - 无需 LLM 调用的本地持久智能体记忆：基于 SQLite 的语义回忆，具双时态事实追踪。"
+  },
+  {
+    "line": 2613,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Shweta-Mishra-ai/tokenmizer) 🐍 🏠 🍎 🪟 🐧 - 通过本地 OpenAI 兼容代理的会话记忆，将任务、决策与文件提取为知识图谱，并在上下文溢出前建立检查点。"
+  },
+  {
+    "line": 2614,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ashlesh-t/cognirepo) 🐍 🏠 🍎 🪟 🐧 - 编程智能体的持久记忆与代码库上下文：FAISS 向量库、AST 符号索引、知识图谱、情景日志与跨智能体交接。"
+  },
+  {
+    "line": 2615,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AshutoshRaj97/agentready-mcp) 📇 ☁️ 🍎 🪟 🐧 - 索引任意网站并就其内容提问，通过 RAG 给出基于其内容、附引用的回答。"
+  },
+  {
+    "line": 2616,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Auctalis/nocturnusai) 🐍 🏠 - 用于智能体上下文压缩的确定性推理引擎：通过逻辑推理、证明链与真值维护抽取结构化事实。"
+  },
+  {
+    "line": 2617,
+    "translated": "- @@L0@@ ☁️ - 总结纯文本、网页、PDF 文档、EPUB 电子书与 HTML 内容。"
+  },
+  {
+    "line": 2618,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/20alexl/claude-engram) 🐍 🏠 - Claude Code 的本地持久记忆：通过钩子追踪错误与决策、搜索会话历史、检测循环并在编辑前警告。"
+  },
+  {
+    "line": 2619,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/timmx7/acheron-mcp-server) 📇 🏠 - 在 Claude Chat、Code 与 Cowork 间共享的持久记忆，存于本地 SQLite 并支持全文搜索。"
+  },
+  {
+    "line": 2620,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Terobyte/librarian-cli) 🐍 🏠 🍎 🪟 🐧 - 电子书转 Markdown 流水线（FB2、EPUB、DOCX、HTML、PDF），含全文搜索，以及离线浏览、阅读章节与核对引文的只读工具。"
+  },
+  {
+    "line": 2621,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TeleAI-UAGI/telemem) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 兼容 Mem0 的长期、多模态智能体记忆：角色隔离档案、语义去重、可选本地栈，以及带问答的视频记忆。"
+  },
+  {
+    "line": 2622,
+    "translated": "- @@L0@@ 🐍 🏠 ☁️ - 带知识图谱可视化、语义/混合搜索、云同步（S3/R2）与跨会话上下文管理的持久记忆。"
+  },
+  {
+    "line": 2623,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Thezenmonster/agentmem) 🐍 🏠 🍎 🪟 🐧 - 带信任生命周期（假设、活跃、已验证、已废弃）的受治理编程智能体记忆，具冲突检测、陈旧追踪与健康评分。"
+  },
+  {
+    "line": 2624,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AliceLJY/recallnest) 📇 🏠 🍎 🪟 🐧 - 本地优先的编程智能体记忆：带重排序的混合向量/BM25 检索、知识图谱、会话检查点/恢复与多范围隔离。"
+  },
+  {
+    "line": 2625,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/robotel-limited/robo-cortex) 🐍 🏠 - 感知 Git 的编程智能体记忆存储：锚定到 git blob 哈希的记忆在关联代码变更时被标记复核。"
+  },
+  {
+    "line": 2626,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ailenshen/apple-notes-mcp) 📇 🏠 🍎 - 读写 Apple Notes 并双向转换 Markdown：用 SQLite 查询进行列举与搜索，用 AppleScript 实现完整 CRUD。"
+  },
+  {
+    "line": 2627,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AgentModule/mcp) 📇 ☁️ - 面向自主智能体的确定性、垂直领域知识库，含映射到欧盟《人工智能法案》的伦理模块。"
+  },
+  {
+    "line": 2628,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/juyterman1000/entroly) 🐍 🦀 🏠 🍎 🪟 🐧 - 编程智能体的上下文控制层：压缩、缓存用的提示前缀稳定化、更廉价模型路由、本地幻觉检查与记忆。"
+  },
+  {
+    "line": 2629,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Goldentrii/AgentRecall-MCP) 📇 ☁️ 🏠 🍎 🪟 🐧 - 使用智能距离协议呈现最相关过往记忆的持久跨会话智能体记忆。"
+  },
+  {
+    "line": 2630,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gordonkjlee/facthouse) 📇 🏠 🍎 🪟 🐧 - 归你所有的 SQLite 文件中存储的 AI 工具本地记忆引擎。"
+  },
+  {
+    "line": 2631,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AlekseiMarchenko/central-intelligence) 📇 ☁️ - 可记忆、回忆、遗忘与共享的持久智能体记忆，具语义向量搜索，以及智能体、用户与组织范围限定。"
+  },
+  {
+    "line": 2632,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kskurtveit/echocache) 📇 🏠 🍎 🪟 🐧 - 以 HTTP 式新鲜度（TTL、stale-while-revalidate）缓存昂贵的 LLM 结果，并语义回忆相关的过往回答。"
+  },
+  {
+    "line": 2633,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/epicsagas/alcove) 🦀 🏠 🍎 🪟 🐧 - 为编程智能体按需对私有项目文档进行 BM25 搜索，使文档不进入公开仓库。"
+  },
+  {
+    "line": 2634,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@alibaizhanov/mengram) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 具语义、情景与程序三类记忆的智能体记忆，含知识图谱、Claude Code 自动保存/回忆钩子、智能触发器与多用户隔离。"
+  },
+  {
+    "line": 2635,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AntonioTF5/soul-mcp-server) 📇 🏠 🍎 🪟 🐧 - 校验并生成 SOUL.md 智能体身份文件，这是一种描述智能体个性、语气、价值观与行为约束的 YAML 格式。"
+  },
+  {
+    "line": 2636,
+    "translated": "- @@L0@@ 🐍 ☁️ 🏠 - 结合图 RAG、向量搜索与全文搜索的 RAG 平台，用于构建知识图谱与上下文工程。"
+  },
+  {
+    "line": 2637,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ayushagrawal288/memex) 🐍 🏠 - 具语义搜索与时效性衰减的持久智能体记忆，含本地 ONNX 嵌入、后台摘要与 Prometheus/Grafana 可观测性。"
+  },
+  {
+    "line": 2638,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/baodq06/memocall) 📇 🏠 🍎 🪟 🐧 - 只读搜索与回忆过往 Claude Code 会话，按需将任意会话加载为含大纲、回合范围与会话内搜索的紧凑 Markdown。"
+  },
+  {
+    "line": 2639,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@basicmachines-co/basic-memory) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 本地优先的 AI 记忆：一个人类与 LLM 都可读写的 Markdown 文件语义知识图谱，含可选云同步与团队工作区。"
+  },
+  {
+    "line": 2640,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Battam1111/Myco) 🐍 🏠 🍎 🪟 🐧 - 基于源自 AST 与 Markdown 链接（而非嵌入）的自验证文件系统图的跨会话、跨项目智能体记忆。"
+  },
+  {
+    "line": 2641,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Beever-AI/beever-atlas) 🐍 🏠 🍎 🪟 🐧 - 将 Slack、Discord、Teams 与 Mattermost 聊天转为知识图谱与 Wiki 的团队知识库，含引用回答、语义搜索与专家查找。"
+  },
+  {
+    "line": 2642,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bitatlas-group/bitatlas) 📇 ☁️ - 具客户端 AES-256-GCM 加密的零知识云盘：上传、下载、搜索与整理文件，服务器永不以明文看到内容。"
+  },
+  {
+    "line": 2643,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@besslframework-stack/project-tessera) 🐍 🏠 🍎 🪟 🐧 - 本地工作区记忆：将 Markdown、CSV 与会话日志索引到向量库，具混合搜索、跨会话记忆与知识图谱可视化。"
+  },
+  {
+    "line": 2644,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BetaBots-LLC/callimachus) 🦀 🏠 🍎 🪟 🐧 - 对来自多工具的编程智能体对话历史进行本地混合搜索（SQLite FTS5 与设备端向量），使智能体能回忆过往工作。"
+  },
+  {
+    "line": 2645,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/billy12151/memory-arbiter-mcp) 🐍 🏠 🍎 🪟 🐧 - 本地记忆中间件：定向检索而非全量加载记忆、基于规则的冲突仲裁，以及跨编程智能体共享的一个 SQLite 存储。"
+  },
+  {
+    "line": 2646,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - 搜索精选的 awesome 列表，并为你的智能体获取最相关资源。"
+  },
+  {
+    "line": 2647,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 对 Obsidian 库的安全读写访问：搜索、批量操作、标签管理与 frontmatter 处理。"
+  },
+  {
+    "line": 2648,
+    "translated": "- @@L0@@ 📇 🏠 - 搜索带 YouTube 时间戳的 Lenny's Podcast 转录稿，获取关于 PRD、战略与产品经理职业的产品管理洞见。"
+  },
+  {
+    "line": 2649,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lildaddyo/braintube-mcp) 📇 ☁️ - 将已保存的 YouTube 视频、播客、文章、PDF 与 Notion/Obsidian 笔记编译为持久、可语义搜索的知识库。"
+  },
+  {
+    "line": 2650,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/linklore/linklore-mcp) 🐍 🏠 - 编程智能体的结构化记忆：带状态与链接、由智能体读写的类型化 lore 与文档条目。"
+  },
+  {
+    "line": 2651,
+    "translated": "- @@L0@@ 🐍 🏠 - 离线搜索并浏览 Wikipedia 及其他 ZIM 格式知识存档，具智能检索与缓存。"
+  },
+  {
+    "line": 2652,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/carrasquelalex1/hipocampo) 🐍 🏠 🍎 🪟 🐧 - 基于 PostgreSQL、pgvector 与 NVIDIA NIM 的双语（英/西）双记忆系统，具渐进式检索、去重、检查点与自动修复。"
+  },
+  {
+    "line": 2653,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/catfish-1234/sessionmem) 📇 🏠 - 编程助手的本地记忆：监视会话并在每个新会话开始时注入紧凑摘要，存于 SQLite 文件。"
+  },
+  {
+    "line": 2654,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 编程助手的持久记忆：关于经验与未完成任务的分会话简报、共享团队记忆、BM25 搜索与托管的 Valkey/Redis。"
+  },
+  {
+    "line": 2655,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ccf/agentcairn) 🐍 🏠 🍎 🪟 🐧 - 本地优先的智能体记忆：以 Markdown Obsidian 库为真相源，外加可重建的 DuckDB 索引，实现 BM25、向量与图混合回忆。"
+  },
+  {
+    "line": 2656,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cdeust/Cortex) 🐍 🏠 🍎 - 受神经科学启发的 Claude Code 记忆，基于 PostgreSQL/pgvector：衰减、巩固、预测编码写入门控与生命周期钩子。"
+  },
+  {
+    "line": 2657,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/contradictory-body/cc-sensei) 📇 🏠 🍎 🪟 🐧 - 将 Claude Code 源码作为可查询的架构模块进行探索：追踪横切关注点、搜索模式并本地阅读源码。"
+  },
+  {
+    "line": 2658,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/terrizoaguimor/celiums-memory) 📇 🏠 ☁️ 🍎 🪟 🐧 - 具知识模块、昼夜节律感知、情绪状态追踪、PostgreSQL/Qdrant 混合搜索与逐用户隔离的认知记忆引擎。"
+  },
+  {
+    "line": 2659,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cg3-llc/prior_mcp) 📇 ☁️ - 智能体交换已验证方案与失败尝试的共享知识库，从而跳过已知的死胡同。"
+  },
+  {
+    "line": 2660,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Cavinooo/claude-find) 📇 🏠 🍎 - 按需从你所有 Claude Code 会话中检索记忆。"
+  },
+  {
+    "line": 2661,
+    "translated": "- @@L0@@ - 用 AI 提示词查询并总结你的聊天消息。"
+  },
+  {
+    "line": 2662,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vshulcz/deja-vu) 🏎️ 🏠 🍎 🪟 🐧 - 覆盖 Claude Code、Codex CLI 与 opencode 会话历史的本地记忆：词法搜索、会话开始自动回忆、密钥脱敏与 SSH 同步。"
+  },
+  {
+    "line": 2663,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ZengLiangYi/ChatCrystal) 📇 🏠 🍎 🪟 🐧 - 本地优先的 AI 编程对话记忆：将编程助手聊天导入笔记，具语义搜索、标签图与 Markdown 导出。"
+  },
+  {
+    "line": 2664,
+    "translated": "- @@L0@@ 📇 🏠 - 聚焦于 AI 角色扮演与故事生成的图谱式记忆。"
+  },
+  {
+    "line": 2665,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ChevalGrand520/local-gpu-imagegen) 🐍 🏠 🍎 🪟 🐧 - 需确认门控的本地 GPU 图像生成（基于 ComfyUI）：SHA-256 模型身份、显式许可批准、证据留存与人机协同运行。"
+  },
+  {
+    "line": 2666,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ChrisGVE/workspace-qdrant-mcp) 🦀 📇 🏠 🍎 🪟 🐧 - 编程助手的项目级记忆：用 tree-sitter 分块、LSP 集成与混合搜索将项目代码与文档索引到 Qdrant。"
+  },
+  {
+    "line": 2667,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cipherfoxie/sovereign-mcp) 🐍 ☁️ 🐧 - 搜索并阅读关于 NVIDIA DGX Spark 上自托管 AI 的 Sovereign AI Blog，并校验 GB10 硬件的 SGLang 配置。"
+  },
+  {
+    "line": 2668,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/CodeAbra/iai-mcp) 🐍 🏠 🍎 🪟 🐧 - 具情景、语义与程序三层的本地记忆守护进程，使用 SQLite 与 hnswlib 存储、睡眠周期式巩固，以及静态 AES-256-GCM 加密。"
+  },
+  {
+    "line": 2669,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 具分层存储、上下文健康监控、推理质量检查与真实性验证的会话记忆。"
+  },
+  {
+    "line": 2670,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alfredoizdev/contextforge-mcp) 📇 ☁️ - 具语义搜索、Git 提交/PR 同步、基于项目的组织与团队协作的编程助手持久记忆。"
+  },
+  {
+    "line": 2671,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/contextium-io/contextium-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - AI 工具的共享团队上下文：提供带版本、有权限的知识、编码规范、技能与智能体，一次调用加载完整工作流。"
+  },
+  {
+    "line": 2672,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yonro/memory-os-cli) 📇 ☁️ - XMemo：用户自有的智能体记忆，用于跨 AI 工具保存、搜索、回忆与管理限定范围的记忆。"
+  },
+  {
+    "line": 2673,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/contextstream/mcp-server) 📇 ☁️ 🍎 🪟 🐧 - 具语义代码搜索、知识图谱、影响分析与决策追踪的 AI 编程工具持久记忆。"
+  },
+  {
+    "line": 2674,
+    "translated": "- @@L0@@ 📇 🏠 - 在 Claude Desktop 各项目之间及跨 MCP 客户端交接对话上下文，存于记忆而非文件。"
+  },
+  {
+    "line": 2675,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 基于著名创始人与投资人（如埃隆·马斯克、沃伦·巴菲特、史蒂夫·乔布斯）的口吻、框架与原则，与其 AI 人格聊天。"
+  },
+  {
+    "line": 2676,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dcostenco/BCBA) 📇 🏠 🍎 🪟 🐧 - 本地 SQLite 智能体记忆，含 Web 仪表盘、会话回放/重演、跨客户端记忆共享、晨间简报与渐进式上下文加载。"
+  },
+  {
+    "line": 2677,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/darktw/usecortex-mcp) ☁️ - 智能体的持久知识记忆：将上下文读入项目并写回发现，按主题组织并以 AES-256 加密。"
+  },
+  {
+    "line": 2678,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidgut1982/lore-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 智能体的持久知识层：知识库、调查线程与带多智能体归属的日志，运行于 SQLite、PostgreSQL 或 Supabase。"
+  },
+  {
+    "line": 2679,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dbwls99706/deadends.dev) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 代码错误与国家特定规则（签证、银行、法律）的已知死胡同：看似正确却会失败的补丁，以及带成功率的变通方案。"
+  },
+  {
+    "line": 2680,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/decisionnode/DecisionNode) 📇 🏠 🍎 🪟 🐧 - 以结构化 JSON 记录开发决策，用 Gemini 嵌入并在跨 AI 工具共享的本地存储中语义搜索。"
+  },
+  {
+    "line": 2681,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/giuliohome-org/doc-manager) 🦀 ☁️ - 基于 Azure Blob Storage 的个人文档库：读写并搜索纯文本文档，而客户端 AES-256-GCM 加密文档保持不透明。"
+  },
+  {
+    "line": 2682,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Destrayon/Connapse) #️⃣ 🏠 🍎 🪟 🐧 - 自托管的智能体知识后端，具向量与关键词混合搜索以及容器隔离的索引。"
+  },
+  {
+    "line": 2683,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dengls24/annota) 🐍 🏠 - 在 Zotero 中批注论文：用语义色彩编码高亮关键发现、解释公式并撰写结构化阅读笔记。"
+  },
+  {
+    "line": 2684,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 - 捕获屏幕活动、本地存储 AI 摘要与 OCR 文本，并通过语义搜索与时间线公开历史的桌面应用。"
+  },
+  {
+    "line": 2685,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dnotitia/akb) 🐍 📇 🏠 🍎 🪟 🐧 - 组织级知识库：由 URI 图关联的 Markdown 文档、PostgreSQL 表与文件，具混合搜索、Git 历史与多租户 ACL。"
+  },
+  {
+    "line": 2686,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - 自托管的文档索引器，以语义搜索向智能体提供来自多种来源的文档。"
+  },
+  {
+    "line": 2687,
+    "translated": "- @@L0@@ 📇 🏠 - 向 AI 模型提供持久、特定于工具的上下文与规则的静态服务器。"
+  },
+  {
+    "line": 2688,
+    "translated": "- @@L0@@ 📇 🏠 - 具语义搜索、持久存储与自主记忆巩固的记忆服务。"
+  },
+  {
+    "line": 2689,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dot-RealityTest/obsidian-codex-mcp) 🐍 🏠 🍎 🪟 🐧 - 直接基于 Markdown 文件、无需 Obsidian 应用或插件的本地 Obsidian 库访问，含只读模式、写时备份与路径隔离。"
+  },
+  {
+    "line": 2690,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server) 📇 🏠 🍎 🪟 🐧 - 供 AI 客户端复用的角色、技能、模板、智能体与记忆，具动态权限、版本化与可分享内容的公共集合。"
+  },
+  {
+    "line": 2691,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DomDemetz/claude-soul) 📇 🏠 🍎 🐧 - Claude Code 的学习引擎：从会话抽取信号、运行周期性反思，并基于证据提升或淘汰行为框架。"
+  },
+  {
+    "line": 2692,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dshakes/distil) 🐍 🏠 - 将大型工具输出可逆压缩为可恢复句柄，按需展开，并在本地追踪 token 与成本节省。"
+  },
+  {
+    "line": 2693,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/edobusy/agenthold) 🐍 🏠 🍎 🪟 🐧 - 带乐观并发控制、用于协调并发智能体的共享带版本状态存储，外加 SQLite 支撑的占用/释放锁与审计日志。"
+  },
+  {
+    "line": 2694,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/elvismdev/mem0-mcp-selfhosted) 🐍 🏠 🍎 🪟 🐧 - 自托管的 Claude Code 版 mem0：Qdrant 向量搜索、Neo4j 知识图谱、Ollama 嵌入，以及自动跨会话记忆的会话钩子。"
+  },
+  {
+    "line": 2695,
+    "translated": "- @@L0@@ 🐍 🏠 - 卡片盒（Zettelkasten）知识管理：创建、关联并搜索原子笔记。"
+  },
+  {
+    "line": 2696,
+    "translated": "- @@L0@@ 🐍 🏠 - 三层智能体记忆（身份、活跃、归档），具语义搜索、图关系与冲突检测。"
+  },
+  {
+    "line": 2697,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/giskard09/giskard-oasis) 🐍 🏠 - 通过提炼原始目标让迷失线程的智能体重新聚焦，按次付费，通过 Lightning 或 Arbitrum 结算。"
+  },
+  {
+    "line": 2698,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 使用 SQLite FTS5 的跨 Claude Code 会话持久、可搜索上下文存储，含 AI 会话摘要、检查点恢复与 Web 仪表盘。"
+  },
+  {
+    "line": 2699,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/majiayu000/remem) 🦀 🏠 🍎 🐧 - Claude Code 与 Codex 的本地优先记忆：钩子捕获会话，LLM 将其提炼到 SQLite，具可审计的全文与嵌入回忆。"
+  },
+  {
+    "line": 2700,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MakeaMouse/fish-bridge-mcp) 🐍 🏠 🍎 🪟 🐧 - 将 AI 聊天会话压缩为紧凑的类型化知识图谱，可选通过 Ollama 离线提取。"
+  },
+  {
+    "line": 2701,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@entire-vc/evc-team-relay-mcp) - 在你的 Obsidian 库中读写笔记。"
+  },
+  {
+    "line": 2702,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dl4rce/flaiwheel) 🐍 🏠 🍎 🪟 🐧 - 编程智能体的自托管记忆与治理：结构化知识捕获、带重排序的混合搜索、代码库分析与 git 原生存储。"
+  },
+  {
+    "line": 2703,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fabio-rovai/open-ontologies) 🦀 🏠 - 面向 OWL、RDF 与 SPARQL 的本体工程：在 Oxigraph 三元组库上校验、查询、diff、lint、版本化与治理知识图谱。"
+  },
+  {
+    "line": 2704,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/grooverLab/fable) 🐍 🏠 🍎 🐧 - 对 Claude Code 转录历史的全文与语义搜索，具精确线程回忆与本地 SQLite 中的持久记忆事实。"
+  },
+  {
+    "line": 2705,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fenghaochang/LoreRoom) 📇 🏠 🍎 - 面向 Claude Code Telegram 机器人的加密本地记忆：捕获对话双方，具 SQLCipher 加密与对中日韩友好的全文搜索。"
+  },
+  {
+    "line": 2706,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/FilippoPilo/cortex-connector) 📇 ☁️ - 具质量门控写入、类型化声明、冲突追踪与一致性评分的持久语义智能体记忆。"
+  },
+  {
+    "line": 2707,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gamosoft/NoteDiscovery) 🐍 🏠 🍎 🪟 🐧 - 带 Web UI 的自托管 Markdown 知识库：搜索、阅读、创建、编辑、打标签与模板化笔记。"
+  },
+  {
+    "line": 2708,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/geondongkim/geond-agent-protocol) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 基于 PostgreSQL/pgvector 的编程智能体本地优先共享记忆与协调：仓库证据、预留、交接与代码图上下文。"
+  },
+  {
+    "line": 2709,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gingugu/gingugu) 🐍 🏠 🍎 🪟 🐧 - 编程助手的本地 SQLite 记忆：带置信度生命周期、命名空间、知识图谱、混合搜索与钥匙串凭据库的类型化记忆。"
+  },
+  {
+    "line": 2710,
+    "translated": "- @@L0@@ 📇 🏠 - 在 GitHub Gist 中管理个人知识、每日笔记与可复用提示词，作为 GistPad 的配套工具。"
+  },
+  {
+    "line": 2711,
+    "translated": "- @@L0@@ 📇 ☁️ - 智能体搜索、发布并解锁已解决问题、为共享方案赚取令牌的知识市场。"
+  },
+  {
+    "line": 2712,
+    "translated": "- @@L0@@ 📇 ☁️ - 将来自 Slack、Discord、网站、Google Drive、Linear 或 GitHub 的内容摄取到 Graphlit 项目，然后搜索并检索相关知识。"
+  },
+  {
+    "line": 2713,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/lego-oracle) 📇 🏠 - 来自 Rebrickable 的乐高套装、零件、人仔与清单：搜索并比较套装、按颜色查找零件、浏览主题并发现替代拼搭。"
+  },
+  {
+    "line": 2714,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/brewers-almanack) 📇 🏠 - 酿造知识：BJCP 2021 啤酒风格、啤酒花品种、麦芽、酵母、水质剖面、异味诊断、配方建议与食物搭配。"
+  },
+  {
+    "line": 2715,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/3dprint-oracle) 📇 🏠 🍎 🪟 🐧 - 来自 SpoolmanDB 的 3D 打印耗材知识库：搜索耗材、比较材料特性与打印设置，并诊断打印问题。"
+  },
+  {
+    "line": 2716,
+    "translated": "- @@L0@@ 🐍 🏠 - 通过向量搜索检索并处理文档，以相关文档上下文增强回答。"
+  },
+  {
+    "line": 2717,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HBarefoot/engram) 📇 🏠 🍎 🪟 🐧 - 基于 SQLite 的离线持久智能体记忆，具本地嵌入、语义与全文混合回忆、密钥检测与矛盾处理。"
+  },
+  {
+    "line": 2718,
+    "translated": "- @@L0@@ 🐍 ☁️ 🍎 🪟 🐧 - 访问 AWS 上的 RAGStack 无服务器知识库：搜索、与 AI 回答聊天、上传文档与媒体、抓取网站并分析元数据。"
+  },
+  {
+    "line": 2719,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hermes-labs-ai/fidelis) 🐍 🏠 🍎 🐧 - 本地优先的记忆，具逐字回忆、查询、健康检查与上下文敏感定位，默认使用无 LLM 检索。"
+  },
+  {
+    "line": 2720,
+    "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - 基于云的 Claude Code 持久记忆，具语义搜索、AI 抽取与项目范围限定。"
+  },
+  {
+    "line": 2721,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hjqcan/GoodMemory) 📇 🏠 - 本地优先、可审计的记忆，在 SQLite 或 Postgres 中按用户/项目范围存储，默认只读回忆，以及可选择审核的写回。"
+  },
+  {
+    "line": 2722,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hoornet/agentdocs-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 阅读、创建、更新、评论并分享 AgentDocs 的 Markdown 文档，具全文与语义搜索。"
+  },
+  {
+    "line": 2723,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hubinoretros/deep-thinker) 📇 🏠 🍎 🪟 🐧 - 通过 DAG 思维图进行推理，支持多种策略（辩证、类比、溯因等）、卡住检测、置信度评分与自我批评。"
+  },
+  {
+    "line": 2724,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hyunjae-labs/lore) 📇 🏠 🍎 🪟 🐧 - 跨 Claude Code 对话的本地语义搜索，具向量与关键词混合搜索、后台索引与按项目选择。"
+  },
+  {
+    "line": 2725,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DanceNitra/inspeximus) 🐍 🏠 🍎 🪟 🐧 - 带纠错通道的智能体记忆：取代或回滚过时事实、阻止重申的旧值，并以签名墓碑证明删除。"
+  },
+  {
+    "line": 2726,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/idapixl-algora-mcp-server) 📇 ☁️ - 浏览并搜索 Algora 上的开源赏金，按组织、技术或金额筛选，获取热门赏金与汇总统计。"
+  },
+  {
+    "line": 2727,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/IgorGanapolsky/mcp-memory-gateway) 📇 🏠 - 动作前门控，通过将捕获的反馈与失败转为经钩子强制执行的规则，防止编程智能体重复已知错误。"
+  },
+  {
+    "line": 2728,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Ikalus1988/MisakaNet) 🐍 🏠 🍎 🪟 🐧 - 智能体失败记忆：搜索来自真实工程会话、已验证的调试经验。"
+  },
+  {
+    "line": 2729,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/irisxc4/memoryguard) 🐍 🏠 🍎 🪟 🐧 - 带 CLI 与桌面控制台的本地优先受治理共享记忆，供编程智能体使用：分类、去重、取代、隔离与回滚记忆。"
+  },
+  {
+    "line": 2730,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zsxh1990/pr-genius) 🐍 🏠 - 基于真实仓库案例研究的拉取请求贡献顾问：合并概率分析、模式匹配与贡献策略。"
+  },
+  {
+    "line": 2731,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jaimenbell/rag-mcp) 🐍 🏠 - 对文档语料进行向量搜索并返回带引用段落的极简本地 RAG。"
+  },
+  {
+    "line": 2732,
+    "translated": "- @@L0@@ 📇 🏠 - 跨 LLM 通信与记忆共享，使不同 AI 模型能跨对话协作并共享上下文。"
+  },
+  {
+    "line": 2733,
+    "translated": "- @@L0@@ 📇 🏠 - 在 MongoDB 中存储并检索来自多个 LLM 的对话记忆，带时间戳与 LLM 标识。"
+  },
+  {
+    "line": 2734,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/japlete/md-vision-mcp) 📇 🏠 🍎 🪟 🐧 - 读取内联图片与标题索引的 Markdown，用于本地文档或白名单 URL 上的智能体 RAG。"
+  },
+  {
+    "line": 2735,
+    "translated": "- @@L0@@ 🏎️ ☁️ 🐧 - 使用 DuckDB 与 VoyageAI 的简易编程智能体记忆。"
+  },
+  {
+    "line": 2736,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jagoff/memo) 🐍 🏠 🍎 🐧 - 本地优先的语义记忆：混合搜索、Markdown 存储、MLX 或 CPU 嵌入、矛盾检测、时间旅行历史与跨机器 git 同步。"
+  },
+  {
+    "line": 2737,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JinNing6/Noosphere) 🐍 ☁️ - 具语义搜索、三维交互地球与自动内容审核的洞见、决策、警告与模式共享社区仓库。"
+  },
+  {
+    "line": 2738,
+    "translated": "- @@L0@@ 📇 🏠 - 将 Markdown 转换为交互式 markmap 思维导图，支持 PNG/JPG/SVG 导出与实时浏览器预览。"
+  },
+  {
+    "line": 2739,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/junnnnnw00/obsidian-everywhere) 📇 🏠 🍎 🪟 🐧 - 图谱原生的 Obsidian 库访问：搜索、反向链接、N 跳邻域、分页读取，以及带 dry-run 与回滚的安全局部与批量编辑。"
+  },
+  {
+    "line": 2740,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@kael-bit/engram-rs) 📇 🏠 🍎 🪟 🐧 - 具自动衰减、提升、语义去重与自组织主题树的层级智能体记忆引擎。"
+  },
+  {
+    "line": 2741,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kage-core/Kage) 📇 🏠 🍎 🪟 🐧 - 编程智能体的 git 原生记忆：仓库中的 JSON 条目，对照引用的代码验证，从而拒绝幻觉引用并 withholding 过时记忆。"
+  },
+  {
+    "line": 2742,
+    "translated": "- @@L0@@ 📇 ☁️ - 使用你 Zotero 云图书馆中的收藏与来源。"
+  },
+  {
+    "line": 2743,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/khwanlabs/khwan-mcp) 🐍 ☁️ 🍎 🪟 🐧 - 围绕纠错构建的编程智能体记忆：将你的纠错提炼为后续会话的常驻规则，每个项目隔离记忆。"
+  },
+  {
+    "line": 2744,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/krimto-labs/krimto) 📇 🏠 - 以 Markdown 存于 git 的编程智能体团队记忆，具用户、团队与组织访问级别，以及 SQLite/sqlite-vec 混合检索。"
+  },
+  {
+    "line": 2745,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Krzysztof318/MailFathom) #️⃣ 🏠 🐧 - 自托管电子邮件搜索：将 IMAP 邮箱同步到 PostgreSQL，以列举、搜索、阅读邮件并就归档内容提出带引用的提问。"
+  },
+  {
+    "line": 2746,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kunickiaj/codemem) 📇 🏠 - 跨会话、跨机器、跨队友的持久编程记忆，具记忆搜索、可选同步、项目共享与自动捕获。"
+  },
+  {
+    "line": 2747,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kunwar-shah/claudex) 📇 🏠 🍎 🪟 🐧 - 对索引到 SQLite 的 Claude Code 对话历史的持久记忆与全文搜索，含会话摘要与用于探索的 Web UI。"
+  },
+  {
+    "line": 2748,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/renezander030/agentic-task-system) 📇 🏠 - 将你的任务管理器转为智能体记忆，对 TickTick 或 Obsidian 库进行混合检索，无需独立向量数据库。"
+  },
+  {
+    "line": 2749,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/KVANTRA-dev/NOUZ-MCP) 🐍 🏠 🍎 🪟 🐧 - 面向 Obsidian 的语义知识图谱，具图、分类与层级模式，本地嵌入、语义桥发现与漂移检测。"
+  },
+  {
+    "line": 2750,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/leesgit/passbaton) 📇 🏠 🍎 🪟 🐧 - 跨 Claude Code、Codex CLI 与 Gemini CLI 的本地会话连续性：启动时上下文注入、压缩交接、记忆、任务与多语言搜索。"
+  },
+  {
+    "line": 2751,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lfrmonteiro99/memento-mcp) 📇 🏠 🍎 🪟 🐧 - 本地优先的编程智能体记忆：在 SQLite 中存储事实、决策、模式与架构笔记，以减少跨会话的重复上下文。"
+  },
+  {
+    "line": 2752,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Lians-ai/Lians) 🐍 🏠 🍎 🪟 🐧 - 双时态智能体记忆，具确定性事实更替、时间点回忆、记忆谱系、冲突追踪与防篡改审计轨迹。"
+  },
+  {
+    "line": 2753,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/liftkkkk/owl-mcp) 🐍 🏠 - 处理 OWL/TTL/RDF 本体：SPARQL 查询、HermiT/Pellet 推理，以及对知识图谱的 CRUD 操作。"
+  },
+  {
+    "line": 2754,
+    "translated": "- @@L0@@ 📇 🏠 ☁️ - 使用《法华经》框架的沉思式问题解决：多视角推理、善巧方便、非二元认知与冥想停顿。"
+  },
+  {
+    "line": 2755,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/knaisoma/data-olympus) 🐍 🏠 🍎 🪟 🐧 - 编程智能体的 git 原生 Markdown 知识库，区分提议与已接受指南、具有效期窗口、更替链与状态感知检索。"
+  },
+  {
+    "line": 2756,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lithtrix/lithtrix-mcp) 📇 ☁️ 🍎 🪟 🐧 - 持久跨厂商智能体记忆，具可信度评分的网页搜索、浏览器抓取，以及在单一稳定密钥下的共享 Commons 池。"
+  },
+  {
+    "line": 2757,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 通过文件系统访问在本地 Obsidian 库中创建、读取、更新与搜索笔记。"
+  },
+  {
+    "line": 2758,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LuizEduPP/Rememb) 🐍 🏠 🍎 🪟 🐧 - 本地 JSON 中的持久智能体记忆，含分节条目（项目、用户、上下文）、语义搜索、CLI 与按项目范围。"
+  },
+  {
+    "line": 2759,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lyonzin/knowledge-rag) 🐍 🏠 🍎 🪟 🐧 - 面向 Claude Code 的离线 RAG，具 BM25 与语义混合搜索、交叉编码器重排序、Markdown 感知分块与查询扩展。"
+  },
+  {
+    "line": 2760,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/markmhendrickson/neotoma) 📇 🏠 🍎 🪟 🐧 - 智能体的确定性状态层：本地 SQLite 中带不可变观察与来源的版本化实体（联系人、任务、决策）。"
+  },
+  {
+    "line": 2761,
+    "translated": "- @@L0@@ 🐍 🏠 - 用于面试准备、个人反思与辅导的结构化、以人格为驱动的会话，带计时器与表现评估。"
+  },
+  {
+    "line": 2762,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/max-ramas/rms-memory-mcp) 🦀 🏠 🍎 🐧 🪟 - 本地优先的编程智能体记忆：LanceDB/Tantivy 混合搜索、Markdown 与代码索引、按项目保险库，以及低置信度时 abstain 的回忆。"
+  },
+  {
+    "line": 2763,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/maxkuminov/obsidian-mcp) 🐍 🏠 🍎 🪟 🐧 - 自托管 Obsidian 服务器：PostgreSQL/pgvector 上的语义与全文搜索、维基链接图遍历、原子笔记 CRUD 与自描述库指南。"
+  },
+  {
+    "line": 2764,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 编程智能体的持久分形图记忆：语义搜索、热/冷/归档上下文分层与 Qdrant 上的决策追踪。"
+  },
+  {
+    "line": 2765,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/udjin-labs/mnemostack) 🐍 🏠 🍎 🪟 🐧 - 自托管的 Qdrant 混合智能体记忆，结合向量搜索、BM25、时间检索，以及通过排序融合的可选 Memgraph 知识图谱。"
+  },
+  {
+    "line": 2766,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tverney/mcp-agent-memory) 📇 🏠 🍎 - 基于文件系统的持久智能体记忆：智能体读写并搜索记忆，后台守护进程负责巩固与抽取。"
+  },
+  {
+    "line": 2767,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/memstate-ai/memstate-mcp) 📇 ☁️ - 带版本的、结构化的智能体记忆，以 keypath 存储事实，具完整版本历史与自动冲突检测。"
+  },
+  {
+    "line": 2768,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 两层记忆（热缓存与冷语义搜索），提升常用模式、从 Claude 输出抽取知识并将其关联为图。"
+  },
+  {
+    "line": 2769,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/michielinksee/linksee-memory) 📇 🏠 🍎 🪟 🐧 - 单个 SQLite 文件中的本地优先跨智能体记忆，具分层结构、艾宾浩斯式遗忘，以及检测代码偏离过往决策。"
+  },
+  {
+    "line": 2770,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 通过 Counsel API 进行战略推理、多视角辩论分析与交互式顾问会话。"
+  },
+  {
+    "line": 2771,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mlorentedev/hive) 🐍 🏠 🍎 🪟 🐧 - 按需 Obsidian 库访问：自适应上下文加载、全文与排名搜索、健康检查、自动 git 提交与委派到更廉价模型。"
+  },
+  {
+    "line": 2772,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TheGoatPsy/mneme) 🐍 🏠 🍎 🪟 🐧 - 库原生的、可问责的 Claude Code 记忆：Markdown 为真相源，Stop 路径上无 LLM，且任何派生存储前先脱敏。"
+  },
+  {
+    "line": 2773,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mnlt/wellread) 📇 ☁️ - 跨智能体的共享研究缓存：复用来自已验证来源的答案，或为下一位开发者保存新研究。"
+  },
+  {
+    "line": 2774,
+    "translated": "- @@L0@@ 📇 🏠 - 用于维持上下文的、基于知识图谱的持久记忆。"
+  },
+  {
+    "line": 2775,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DuhoKim/NebulaMind) 🐍 ☁️ - 由 AI 智能体协作编写的 astronomy 天文 Wiki，智能体可通过开放 API 注册、阅读、编辑、投票与评论。"
+  },
+  {
+    "line": 2776,
+    "translated": "- @@L0@@ 📇 ☁️ - 由多个开发者共享、落地于工作区的知识图谱，托管于 Azure Functions 并使用 Table 存储。"
+  },
+  {
+    "line": 2777,
+    "translated": "- @@L0@@ 🏎️ 🏠 🍎 🪟 🐧 - 以单一二进制分发的本地、无依赖记忆服务器。"
+  },
+  {
+    "line": 2778,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@n24q02m/mnemo-mcp) 🐍 🏠 🍎 🪟 🐧 - 具 SQLite 混合搜索（FTS5 与语义）、内置 Qwen3 嵌入与跨机器 rclone 同步的持久记忆。"
+  },
+  {
+    "line": 2779,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ndjordjevic/pinrag) 🐍 🏠 - 对 PDF、YouTube 视频、GitHub 仓库与 Discord 导出的 RAG：索引文档并带引用查询。"
+  },
+  {
+    "line": 2780,
+    "translated": "- @@L0@@ 📇 🏠 ☁️ 🍎 🪟 🐧 - 编程智能体的持久共享记忆：事实以实体/键/值三元组存储，具混合语义搜索、任务检查点与冲突解决。"
+  },
+  {
+    "line": 2781,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NicolasPrimeau/artel) 🐍 🏠 🍎 🪟 🐧 - 代理群的自我托管协调：共享语义记忆、任务、智能体间消息、会话交接与跨智能体知识综合。"
+  },
+  {
+    "line": 2782,
+    "translated": "- @@L0@@ 🐍 🏠 - 使 Markdown 文档可搜索：将其载入 SQLite 或 PostgreSQL，提供关键词搜索与可选的 pgvector 混合语义搜索。"
+  },
+  {
+    "line": 2783,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🐧 - 用于 RAG 的本地 FAISS 向量数据库，具文档摄取（PDF、TXT、MD、DOCX）、语义搜索、重排序，以及用于索引与查询的 CLI 工具。"
+  },
+  {
+    "line": 2784,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nworks3d/THOR-memory-bible-for-AI) 🦀 🏠 🪟 🐧 - 编程智能体的本地记忆，其中带机器可验证证明的规则会阻断匹配命令，外加仅追加事件日志与按项目范围。"
+  },
+  {
+    "line": 2785,
+    "translated": "- @@L0@@ 🏎️ ☁️ 🏠 🍎 🪟 🐧 - 连接到任意 MediaWiki Wiki（Wikipedia、Fandom、企业 Wiki），搜索、阅读与编辑页面、分析链接、查看修订历史并转换为 Markdown。"
+  },
+  {
+    "line": 2786,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 具语义搜索、自动捕获、跨会话学习与智能遗忘的本地优先持久编程智能体记忆。"
+  },
+  {
+    "line": 2787,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ontorata/ratary) 📇 🏠 ☁️ 🍎 🪟 🐧 - 具混合搜索、知识图谱与 token 高效上下文的 AI 助手持久编程记忆，可自托管于 D1、Postgres、MariaDB 或 Docker。"
+  },
+  {
+    "line": 2788,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/oomkapwn/enquire-mcp) 📇 🏠 🍎 🪟 🐧 - 由本地 Obsidian 库支撑的长期智能体记忆：带重排序的混合检索、智能体 RAG、维基链接社区检测、Obsidian Bases 与 PDF OCR。"
+  },
+  {
+    "line": 2789,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AgentBase1/mcp-server) 📇 ☁️ - AgentBase：开放的智能体指令文件注册表。搜索并检索系统提示词、技能、工作流、领域包与安全过滤器。"
+  },
+  {
+    "line": 2790,
+    "translated": "- @@L0@@ 🐍 ☁️ - 搜索你的 Mendeley 图书馆、浏览文件夹、获取文档元数据、搜索全球目录并将论文添加到收藏。"
+  },
+  {
+    "line": 2791,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/paladini/mcp-me) 📇 🏠 🍎 🪟 🐧 - AI 工具的数字身份：你的简介、职业、技能与项目存于本地 YAML 档案，由 GitHub、Medium、Strava 等公开 API 自动生成。"
+  },
+  {
+    "line": 2792,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Patdolitse/piia-engram) 🐍 🏠 🍎 🪟 🐧 - 跨 AI 工具的持久用户身份：偏好、经验与决策存于本地 JSON，具分阶段验证、AES-256-GCM 加密与跨工具同步。"
+  },
+  {
+    "line": 2793,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pavelpilyak/devrecall) 🏎️ 🏠 🍎 🐧 - 本地优先地索引你的提交、PR、Jira/Linear 工单、Confluence 文档、Slack 讨论与日历事件，以搜索并引用过往工作。"
+  },
+  {
+    "line": 2794,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 安全加固的 Google NotebookLM 访问：基于会话的对话、笔记本库管理与来源依据回答，具后量子加密。"
+  },
+  {
+    "line": 2795,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pathrule/mcp) 📇 ☁️ - 来自 Pathrule 工作区的、按路径范围的团队记忆、规则与技能，供编程智能体使用。"
+  },
+  {
+    "line": 2796,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/paultaki/ailooplibrary-mcp) 🐍 🏠 ☁️ - 只读的 AI Loop Library 目录，收录有界的智能体工作循环：为目标选取一个并渲染含验证、停止条件与预算的运行协议。"
+  },
+  {
+    "line": 2797,
+    "translated": "- @@L0@@ 📇 🦀 🏠 🍎 🐧 🪟 - 编程助手的累积记忆与模式学习，具用于语义代码库分析的本地 SQLite/SurrealDB 存储。"
+  },
+  {
+    "line": 2798,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/penfieldlabs/penfield-mcp) 🐍 ☁️ 🐍 ☁️ - Penfield：具 BM25/向量/图混合搜索、类型化图关系、上下文检查点、产物存储与人格系统的持久记忆。"
+  },
+  {
+    "line": 2799,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Piccolo123/url-manager-mcp) 📇 🐍 🏠 🍎 🪟 🐧 - 书签与知识管理器，智能体可保存网页并自动归类到集合，具搜索、标签与共享文件夹。"
+  },
+  {
+    "line": 2800,
+    "translated": "- @@L0@@ 🎖️ 🦀 ☁️ - 连接到你的 Pinecone Assistant，并从其知识引擎检索上下文。"
+  },
+  {
+    "line": 2801,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pipeshub-ai/mcp-server) 📇 🏠 ☁️ - 面向 Google Workspace、Microsoft 365、Slack 与 Jira 等业务应用的、感知权限的企业搜索与 RAG。"
+  },
+  {
+    "line": 2802,
+    "translated": "- @@L0@@ 🦀 🏠 🍎 🪟 🐧 - 单个自包含二进制中的持久语义与基于图的智能体记忆，含嵌入式数据库与模型。"
+  },
+  {
+    "line": 2803,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ProfessionalWiki/MediaWiki-MCP-Server) 📇 ☁️ 🏠 🍎 🪟 🐧 - 阅读、搜索并编辑任意 MediaWiki Wiki（含 Wikipedia 与 Fandom），支持多 Wiki，以及 Semantic MediaWiki、Cargo、Wikibase 与 NeoWiki 查询。"
+  },
+  {
+    "line": 2804,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Rarefied-Earth/groundwork) 📇 ☁️ - 运营小企业所需的公司状态：品牌、语调、章程、优先级、模块与技能。"
+  },
+  {
+    "line": 2805,
+    "translated": "- @@L0@@ 📇 ☁️ - 从你的 Ragie 知识库检索上下文，该库已连接 Google Drive、Notion、Jira 等来源。"
+  },
+  {
+    "line": 2806,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ravi-labs/mindmap-mcp-server) 📇 🏠 - 跨 AI 工具的本地优先记忆与上下文交接，具优雅衰减、人格层与可移植记忆护照。"
+  },
+  {
+    "line": 2807,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/remembra-ai/remembra) 🐍 📇 🏠 ☁️ 🍎 🪟 🐧 - 自托管的持久智能体记忆，具实体解析、PII 检测、静态 AES-256-GCM 加密与混合搜索。"
+  },
+  {
+    "line": 2808,
+    "translated": "- @@L0@@ 🏎️ 🏠 ☁️ 🍎 🪟 🐧 - LLM 驱动的上下文与记忆管理：短长期记忆，具向量、时间线与知识图谱检索，外加重排序。"
+  },
+  {
+    "line": 2809,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/riponcm/projectmem) 🐍 🏠 🍎 🪟 🐧 - 本地优先的编程智能体记忆：记录问题、失败尝试、修复与决策，重新注入，并在 git 提交前于重复犯错时警告。"
+  },
+  {
+    "line": 2810,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Skitchy/rekindle) 📇 🏠 🍎 🪟 🐧 - 会话连续性：含缺口检测与评分的会话开始报告、结构化的会话结束捕获，以及 BM25 记忆搜索，存于本地 SQLite。"
+  },
+  {
+    "line": 2811,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/roampal-ai/roampal-core) 🐍 🏠 - Claude Code 与 OpenCode 的基于结果的持久记忆：有助晋升的记忆被提升，误导性的被降级。"
+  },
+  {
+    "line": 2812,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@roomi-fields/notebooklm-mcp) 📇 🏠 🍎 🪟 🐧 - 自动化 Google NotebookLM：带引用的问答、音频播客、视频、内容生成、来源管理与笔记本库。"
+  },
+  {
+    "line": 2813,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@rushikeshmore/codecortex) 📇 🏠 🍎 🪟 🐧 - 编程智能体的持久代码库知识：用 tree-sitter 提取的符号、依赖图、共变更模式与架构决策。"
+  },
+  {
+    "line": 2814,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rwnalds/engram) 📇 🏠 - 面向智能体的、有 git 支撑且与 Obsidian 兼容的 Markdown 第二大脑：搜索将活跃笔记排在被取代者之上，具逐智能体令牌与 git 审计轨迹。"
+  },
+  {
+    "line": 2815,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/s60yucca/mnemos) 🏎️ 🏠 🍎 🪟 🐧 - 编程智能体的持久记忆，存储架构决策、缺陷根因与约定，具全文搜索与 token 预算化上下文组装。"
+  },
+  {
+    "line": 2816,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/seanmarkwei/agentram-mcp) 📇 ☁️ - 通过 HTTP API 的键值式智能体记忆，无需嵌入：在共享命名空间与 TTL 下跨智能体存储、检索、搜索与共享记忆。"
+  },
+  {
+    "line": 2817,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SagaPeak/artifacta-mcp) 🎖️ 📇 🐍 ☁️ 🍎 🪟 🐧 - 智能体输出的产物存储：跨运行与会话持久化、检索并共享，具内容哈希去重与过期共享链接。"
+  },
+  {
+    "line": 2818,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SAIHM-Admin/saihm-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 锚定在 COTI V2 主网的加密持久智能体记忆：记住、回忆、共享与遗忘，并支持 GDPR 第 17 条删除权。"
+  },
+  {
+    "line": 2819,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SAIHM-Admin/saihm-mcp-server-pro) 📇 ☁️ 🏠 🍎 🪟 🐧 - 客户端加密的智能体记忆，服务器仅见密文，具后量子身份与共享，以及用于 GDPR 删除的加密粉碎。"
+  },
+  {
+    "line": 2820,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SaravananJaichandar/world-model-mcp) 🐍 🏠 🍎 🪟 🐧 - 时序代码库知识图谱，将测试失败关联到代码变更、学习共编辑模式、预测回归风险并实施编辑约束。"
+  },
+  {
+    "line": 2821,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sachitrafa/YourMemory) 🐍 🏠 🍎 🪟 🐧 - 具艾宾浩斯式衰减、BM25/向量混合检索、用于多跳推理的实体图、自动剪枝与浏览器仪表盘的持久智能体记忆。"
+  },
+  {
+    "line": 2822,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Schubeler-Consulting/knowmind) 📇 ☁️ - 托管于德国的智能体记忆与知识图谱：BM25、向量与 Neo4j 图混合回忆并带重排序、类型化关系与双时态存储。"
+  },
+  {
+    "line": 2823,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SecurityRonin/alaya) 🦀 🏠 🍎 🪟 🐧 - 受神经科学启发的本地智能体记忆，存储情景、随时间巩固知识，并构建具语义回忆的个人知识图谱。"
+  },
+  {
+    "line": 2824,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SecurityRonin/docx-mcp) 🐍 🏠 🍎 🪟 🐧 - 读取并编辑 Word（.docx）文档，具修订跟踪、threaded 评论、脚注、OOXML 级校验与文档审计。"
+  },
+  {
+    "line": 2825,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/setheerwagen/local-ai-mcp-servers) 🐍 🏠 - 管理本地模型机：拉取与移除 Ollama 模型、在模型间切换推理服务并运行 LoRA 微调任务。"
+  },
+  {
+    "line": 2826,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sheawinkler/context-lattice) 🏠 🍎 🪟 🐧 🦀 🏎️ - 默认私有的智能体记忆与上下文层，具跨融合数据后端的阶段性检索与长程上下文连续性。"
+  },
+  {
+    "line": 2827,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/writerslogic/scrivener-mcp) 📇 🏠 🍎 🪟 🐧 - 处理 Scrivener 3 写作项目：文档管理、写作分析、语义搜索、角色与情节记忆，以及内容增强。"
+  },
+  {
+    "line": 2828,
+    "translated": "- @@L0@@ 📇 🏠 - 本地文档搜索：对 PDF、DOCX、TXT 与 Markdown 文件进行语义搜索，使用 LanceDB 向量存储与本地嵌入。"
+  },
+  {
+    "line": 2829,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ShipItAndPray/mcp-memory) 📇 🏠 🍎 🪟 🐧 - 基于 SQLite 的记忆，具指数衰减：记忆在被访问时强化、闲置时消退，从而限制无界上下文增长。"
+  },
+  {
+    "line": 2830,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sgx-labs/statelessagent) 🏎️ 🏠 🍎 🪟 🐧 - 具来源追踪的本地智能体记忆，可检测来源何时变更，外加会话交接、决策记录、语义搜索与知识图谱。"
+  },
+  {
+    "line": 2831,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/l33tdawg/s-age) 🏎️ 🏠 🍎 🪟 🐧 - 智能体的本地机构记忆，其中验证者间的 BFT 共识在每条记忆提交前予以批准。"
+  },
+  {
+    "line": 2832,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/laradji/deadzone) 🏎️ 🏠 🍎 🐧 - 使用首次启动时获取并验证的预构建、版本固定向量索引，对库文档进行离线语义搜索。"
+  },
+  {
+    "line": 2833,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/leonardsellem/hypermnesic) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 以 git 为先的智能体记忆：Markdown 文件为真相源，索引可丢弃，写入为可审查的提交，具混合搜索与 CLI。"
+  },
+  {
+    "line": 2834,
+    "translated": "- @@L0@@ 🐍 🏠 - 五级 AI 协作系统，通过 MemDocs 实现持久本地优先记忆与预见能力。"
+  },
+  {
+    "line": 2835,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rps321321/obsidian-mcp-pro) 📇 🏠 🍎 🪟 🐧 - Obsidian 库访问：全文搜索、笔记 CRUD、frontmatter 查询、标签、反向链接、图遍历、孤立与断链检测，以及画布支持。"
+  },
+  {
+    "line": 2836,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Semiotronika/LINZA-MCP) 🐍 🏠 🍎 🪟 🐧 - 面向 Markdown 工作区的、需审查门控的 sidecar：将笔记索引到 SQLite，并在审查后才编辑文件，提出带证据的链接、领域与记忆。"
+  },
+  {
+    "line": 2837,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 通过 SSE 的远程 Obsidian 库管理：笔记、目录、frontmatter、标签、搜索与链接操作，可使用 Docker 部署。"
+  },
+  {
+    "line": 2838,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yusufkaraaslan/Skill_Seekers) 🐍 🏠 🍎 🪟 🐧 - 将文档、GitHub 仓库、PDF、视频、Confluence、Notion 与 Slack/Discord 转为 AI 技能与 RAG 知识，可导出到 Qdrant 等向量数据库。"
+  },
+  {
+    "line": 2839,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/stevepridemore/graph-memory) 📇 🏠 ☁️ 🍎 🪟 🐧 - 面向 Claude 的 Neo4j 个人知识图谱，具类型化实体、双时态边、加权衰减、矛盾检测与本地嵌入。"
+  },
+  {
+    "line": 2840,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SubDownload/subdownload-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - YouTube 知识库：总结视频、获取转录稿（即使无字幕）、搜索频道与播放列表，并保存结果以跨会话回忆。"
+  },
+  {
+    "line": 2841,
+    "translated": "- @@L0@@ 📇 ☁️ - 使用 Biel.ai 的 RAG 系统从你的产品文档中回答问题。"
+  },
+  {
+    "line": 2842,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/The-40-Thieves/obsidian-tc) 📇 🦀 🏠 🍎 🪟 🐧 - 具基于角色的访问控制、原生搜索、多库支持、可插拔嵌入与 SLSA 来源的 Obsidian 库访问。"
+  },
+  {
+    "line": 2843,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/threadctx-dev/threadctx-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - 本地优先的编程智能体共享团队记忆：决策、修复与坑点按仓库持久化，并在队友的智能体间共享。"
+  },
+  {
+    "line": 2844,
+    "translated": "- @@L0@@ 🏎️ 🏠 🍎 🪟 🐧 - 本地 RAG，对 Markdown 文档进行语义向量搜索，使用 sqlite-vec 与 multilingual-e5-small 嵌入，可按目录与文件名过滤。"
+  },
+  {
+    "line": 2845,
+    "translated": "- @@L0@@ 📇 🏠 - 使用图与向量存储的 AI 应用及智能体记忆管理器，可从多种数据源摄取。"
+  },
+  {
+    "line": 2846,
+    "translated": "- @@L0@@ 📇 ☁️ - 七层递归智能体记忆，具上下文分支、全息回忆、梦境巩固与链上持久化。"
+  },
+  {
+    "line": 2847,
+    "translated": "- @@L0@@ 🐍 🏠 - 可移植、隐私优先的 AI 身份：你的智能体的主目录，具档案管理、技能、简历导入与团队同步。"
+  },
+  {
+    "line": 2848,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@tstockham96/engram) 📇 🏠 🍎 🪟 🐧 - 具语义回忆、自动巩固、矛盾检测与双时态知识图谱的智能体记忆。"
+  },
+  {
+    "line": 2849,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@teampolarity/cosmos-mcp) 📇 ☁️ 🏠 🍎 - 跨 AI 客户端共享的可移植个人知识图谱，来源包括 iMessage、浏览器历史、日历、shell 历史、Notion 与 Obsidian。"
+  },
+  {
+    "line": 2850,
+    "translated": "- @@L0@@ 🐍 🏠 - AI 智能体的持久身份：用于驱动器、关系、带衰减的语义记忆、工作线程、习得模式、日志记录与预测的服务器。"
+  },
+  {
+    "line": 2851,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TT-Wang/cortex-plugin) 🐍 🏠 🍎 🐧 - Claude Code 记忆插件，从过往会话挖掘决策、约定与缺陷修复，存入 Obsidian 库，并向新会话简报。"
+  },
+  {
+    "line": 2852,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TyKolt/kremis) 🦀 🏠 🍎 🪟 🐧 - 基于 redb 的本地确定性知识图谱，无 LLM 或嵌入调用，具 BLAKE3 状态哈希与用于字节一致审计的规范导出。"
+  },
+  {
+    "line": 2853,
+    "translated": "- @@L0@@ 📇 ☁️ - 通过 Membase 以分布式方式保存并查询智能体记忆。"
+  },
+  {
+    "line": 2854,
+    "translated": "- @@L0@@ 📇 ☁️ - 面向 LLM 与 AI 代码编辑器的、最新的代码文档。"
+  },
+  {
+    "line": 2855,
+    "translated": "- @@L0@@ 🦀 🏠 - 具 Hebbian 学习、三层架构与知识图谱的认知智能体记忆，在边缘设备离线运行。"
+  },
+  {
+    "line": 2856,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vbcherepanov/total-agent-memory) 🐍 🏠 🍎 🪟 🐧 - 编程智能体的本地记忆：具事实失效的时间知识图谱、程序与情景记忆、AST 代码库摄取与跨项目类比。"
+  },
+  {
+    "line": 2857,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/samvallad33/vestige) 🦀 🏠 🍎 🪟 🐧 - 本地优先的认知智能体记忆，具 FSRS-6 排程、智能摄取、SQLite 存储、可移植同步、嵌入式仪表盘与可选钩子。"
+  },
+  {
+    "line": 2858,
+    "translated": "- @@L0@@ 🐍 ☁️ 🏠 - Hindsight：以人类记忆为模型的 AI 智能体长期记忆。"
+  },
+  {
+    "line": 2859,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vishnu-77/openreflex) 🐍 🏠 🍎 🪟 🐧 - 编程智能体的本地执行记忆：在类似任务前注入有效方案与已知修复，并建议继续、转向还是停止。"
+  },
+  {
+    "line": 2860,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vornicx/Midas) 🐍 📇 🏠 🍎 🪟 🐧 - 本地优先的长程智能体记忆：来源可追溯的回忆、信念修正、选择性遗忘，以及防止记忆驱动破坏行动的护栏。"
+  },
+  {
+    "line": 2861,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Abhigyan-Shekhar/Waggle-mcp) 🐍 🏠 🍎 🪟 🐧 - 持久图记忆，将对话中的事实提取为带本地嵌入的类型化节点，支持时间查询与冲突检测。"
+  },
+  {
+    "line": 2862,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/whynowlab/jarvis-orb) 🐍 🏠 - 四层记忆（情景、语义、项目、程序），具时间评分、矛盾检测、实体追踪与桌面可视化 orb。"
+  },
+  {
+    "line": 2863,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wnbhr/being) 📇 ☁️ - 智能体的个性运行时：跨 AI 客户端保留的持久记忆、身份（SOUL）与关系。"
+  },
+  {
+    "line": 2864,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Wuesteon/lean-memory) 🐍 🏠 🍎 🪟 🐧 - 每个命名空间一个 SQLite 文件的嵌入式本地智能体记忆：混合检索、可在任意过去时间查询的仅追加历史，以及人工复核的维护。"
+  },
+  {
+    "line": 2865,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TheStack-ai/waypath) 📇 🏠 - 本地优先的编程智能体记忆 CLI：SQLite 支撑的上下文、通过 FTS5 与 RRF 的图感知回忆，以及带提升与审查门控的受治理记忆。"
+  },
+  {
+    "line": 2866,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zzhang82/Agent-Memory-Bridge) 🐍 🏠 - 本地优先的编程智能体记忆，将编码会话转为可复用的工程记忆：决策、坑点与领域知识。"
+  },
+  {
+    "line": 2867,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/teolex2020-aurasdk) 🐍 🏠 - 离线工作的持久、加密认知记忆。"
+  },
+  {
+    "line": 2868,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@arthurpanhku/arthor-agent) 🐍 🏠 ☁️ - 对文档、问卷与报告的网络安全评估：多格式解析、RAG 知识库、风险、合规缺口与补救措施。"
+  },
+  {
+    "line": 2869,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Wynelson94/longhand) 🐍 🏠 🍎 🪟 🐧 - Claude Code 的持久本地记忆：将所有会话逐字索引到 SQLite 与 ChromaDB，以跨历史语义回忆，且无需 API 调用。"
+  },
+  {
+    "line": 2870,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yubinkim444/repo-memory) 🐍 🏠 🍎 🪟 🐧 - 同一代码库上 AI 智能体的、由 git 跟踪的共享记忆：事实、决策与坑点存于已提交的仓库目录，并通过 git 同步。"
+  },
+  {
+    "line": 2871,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/agentcivics/agentcivics) 📇 ☁️ 🏠 🍎 🪟 🐧 - 基于 Sui 的、去中心化的 AI 智能体民事登记：灵魂绑定身份、链上记忆、声誉与拒绝记录。"
+  },
+  {
+    "line": 2872,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/STiFLeR7/memex) 🐍 🏠 🍎 🪟 🐧 - 监视 git 仓库，通过 Graphiti 与 Neo4j 构建模块、符号、决策与未决问题的时序知识图谱，供 AI 编程智能体使用。"
+  },
+  {
+    "line": 2873,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/xChuCx/agent-memory) 🏎️ 🏠 🍎 🪟 🐧 - 编程智能体的 git 原生项目记忆：仓库中的 Markdown、可审查的暂存更新、对密钥/PII 安全且感知分支，无需云或向量库。"
+  },
+  {
+    "line": 2874,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/XuebinMa/AIWiki) 📇 ☁️ 🍎 🪟 🐧 - 搜索并阅读 AiWiki——一部关于 AI 编码陷阱与 LLM 隐私保护的英中双语百科，附引用证据。"
+  },
+  {
+    "line": 2875,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zzallirog/weighted-compact) 🐍 🏠 - Claude Code 的可检视记忆：对其项目日志的本地、信号评分解析进行只读搜索与会话压缩，无出站调用。"
+  },
+  {
+    "line": 2876,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tribal-memory/tribal) 🦀 🏠 - 面向工程团队隐性知识的自托管语义记忆：代码背后的决策与推理，可由团队及其智能体查询。"
+  },
+  {
+    "line": 2877,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SVerITG/Metis) 🐍 🏠 🍎 🪟 🐧 - 私人本地研究第二大脑：项目感知记忆、来自你资料库的带引用回答、关联笔记与会议、每日简报与会议助手。"
+  },
+  {
+    "line": 2878,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/syndicalt/zaxy) 🐍 🏠 🍎 🪟 🐧 - 基于哈希链日志的事件溯源智能体记忆，内嵌 Kuzu 时序知识图谱，具基于显著性的遗忘与需审查门控的巩固。"
+  },
+  {
+    "line": 2879,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mnemoverse/mcp-memory-server) 📇 ☁️ - 会学习也会遗忘的托管记忆：反馈对有用记忆重新排序，回忆随近因衰减，相似记忆相互巩固。"
+  },
+  {
+    "line": 2880,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zcag/tela) 🏎️ 🏠 ☁️ - 可自托管的 Markdown 团队 Wiki，智能体可搜索、阅读与写入，外加 Atlas——从 git 仓库与 Jira 生成带引用的 Wiki。"
+  },
+  {
+    "line": 2881,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zuneracodes/localkeep) 🐍 🏠 🍎 🪟 🐧 - 本地优先的按时间顺序记忆：在本地 UI 中写入带日期、可编辑的记忆库，Claude 通过 SQLite FTS5 按需回忆。"
+  },
+  {
+    "line": 2882,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/VonderVuflya/Yggdrasil) 🐍 🏠 🍎 🪟 🐧 - 基于 SQLite/FTS5 的本地优先 AI 编程智能体记忆，经整理与语义去重，数据以你拥有的纯行存储。"
+  },
+  {
+    "line": 2883,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/teflon07/memkeeper) 🦀 🏠 🍎 🐧 - 单个 SQLite 文件中的本地优先 AI 智能体记忆：BM25 与设备端嵌入混合搜索并带重排序，宁可 abstain 也不返回错误记忆。"
+  },
+  {
+    "line": 2884,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yamantaka520/Agent-Memory-OS) 🐍 🏠 🍎 🪟 🐧 - 本地优先的 AI 智能体团队记忆：私有、团队与项目访问控制、联想回忆，以及带撤销的联邦同步，外加 Web 控制台。"
+  },
+  {
+    "line": 2885,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ohad6k/emulo) 🐍 🏠 - 加载从你本地 Claude Code、Codex 与 OpenCode 日志中挖掘出的个人档案，使智能体以你的方式工作。"
+  },
+  {
+    "line": 2886,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ctxfile/ctxfile) 📇 🏠 🍎 🪟 🐧 - 将项目的工作状态（文件、git、计划、决策）快照为一个上下文对象，使会话可在智能体间流转。本地且只读。"
+  },
+  {
+    "line": 2887,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atakanelik34/Bilinc) 🐍 ☁️ 🍎 🪟 🐧 - 带审计轨迹的托管智能体记忆：写入携带来源，矛盾作为可检视变更浮现，错误运行可从快照恢复。"
+  },
+  {
+    "line": 2888,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yaminbkk/NexusMem) 📇 🏠 🪟 🐧 - 将失败的 shell 命令及其退出码与后续修复手段相关联，连同 git diff 与文档，本地存储于 SQLite。"
+  },
+  {
+    "line": 2889,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tenequm/pond) 🦀 🏠 🍎 🐧 - 跨客户端的 AI 智能体会话无损归档与搜索。"
+  },
+  {
+    "line": 2890,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kaaustubh/project-memory-mcp) 📇 🏠 - 以纯仓库文件（AGENTS.md、issues.jsonl）实现的编程智能体持久记忆：捕获缺陷、修复、决策与纠错，并在之后回忆。"
+  },
+  {
+    "line": 2891,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/drexthealpha/Knos) 🐍 🏠 🍎 🪟 🐧 - 机器上所有编程智能体共享的本地记忆，由会话、提交、CLAUDE.md/AGENTS.md 与 ADR 构建，具锁定进行中工作的 claim。"
+  },
+  {
+    "line": 2893,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yuelinghuashu/story-cli) 📇 🏠 🍎 🪟 🐧 - git 原生的 Markdown 内容 CLI：搜索、读取、写入与治理故事、论文与笔记仓库，生成 README、导出 EPUB 并准备训练数据。"
+  },
+  {
+    "line": 2894,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/wikijs-mcp) 📇 🏠 🍎 🪟 🐧 - 搜索、读取并编辑自托管的 Wiki.js 2.x，含资源、评论、用户与组，具全文 grep、覆盖保护模式与只读模式。"
+  },
+  {
+    "line": 2895,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dfrancislyondflabc-tech/agentic-recall) 📇 🏠 🍎 🪟 🐧 - 基于 Markdown 文件夹的长期记忆：本地混合检索（BM25F、稠密向量、短语邻近），并在答案缺失时如实报告。"
+  },
+  {
+    "line": 2897,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vishalbanwari26/mnemos) 🐍 🏠 - 具可切换 Postgres/pgvector、Qdrant 或 Neo4j 后端的持久记忆，具自适应检索加权、重复合并与过时事实归档。"
+  },
+  {
+    "line": 2898,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pjpoulose/PIL) 📇 🏠 🐍 🍎 🪟 🐧 - 将你 Instagram 的收藏帖子转为本地、可搜索的知识库，含 AI 提取的摘要、要点、操作指南、链接与标签，存于 SQLite。"
+  },
+  {
+    "line": 2899,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Mnemosyne-OS/Mnemosyne-Neural-OS) 🎖️ 📇 🏠 🍎 🪟 🐧 - 本地、按领域隔离的保险库中以人类治理的记忆，具混合检索；也可读取其他编程智能体的输出。需要 Mnemosyne OS 桌面应用。"
+  },
+  {
+    "line": 2900,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/liza-studio/skillmem) 🐍 🏠 🍎 🪟 🐧 - 自我提升的编程智能体技能记忆：有用的技能被强化、无用的消退；本地英俄混合搜索、防篡改历史。"
+  },
+  {
+    "line": 2901,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zensation-ai/zenbrain) 📇 🏠 🍎 🪟 🐧 - 七层本地智能体记忆，将输入路由到事实、情景或程序，搜索所有层级，并将重复情景巩固为事实。"
+  },
+  {
+    "line": 2902,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dat999zx/knowl) 📇 🏠 🍎 🪟 🐧 - 编程智能体的持久本地记忆，在写入时废止被替换的事实，使智能体读到当前答案；事实带类型与来源。"
+  },
+  {
+    "line": 2904,
+    "translated": "### ⚖️ <a name=\"legal\"></a>法律"
+  },
+  {
+    "line": 2905,
+    "translated": "访问法律信息、法规与法律数据库。使 AI 模型能够搜索并分析法律文档与监管信息。"
+  },
+  {
+    "line": 2906,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ad0750/regintel-mcp) 🐍 ☁️ - 来自 RegIntel API（GDPR、MiCA、DORA、SEC、FINRA、FCA 等）的结构化监管数据：搜索、查询、近期更新与合规检查。"
+  },
+  {
+    "line": 2907,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Angelthebestone/Normativa-colombiana-MCP) 📇 🏠 - 来自 Gestor Normativo、SUIN-Juriscol、宪法与最高法院、国务委员会与 DIAN Normograma 的哥伦比亚法律与判例。"
+  },
+  {
+    "line": 2908,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@ark-forge/mcp-eu-ai-act) 📇 ☁️ - 欧盟《人工智能法案》合规扫描器，检测 AI 代码库中的违规，提供风险分类与整改指引。"
+  },
+  {
+    "line": 2909,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-sudact) 🐍 ☁️ - 来自 Sudact 的俄罗斯司法实践：按法条、法院、审级与日期搜索案件，并阅读完整裁决文本。"
+  },
+  {
+    "line": 2910,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-fssp) 🐍 ☁️ - 面向俄罗斯债务人的 FSSP 执行程序查询与合规检查。"
+  },
+  {
+    "line": 2911,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-zakupki) 🐍 ☁️ - 在 zakupki.gov.ru 上搜索俄罗斯公共采购招标与合同。"
+  },
+  {
+    "line": 2912,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aydincan/turk-hukuku-mevzuat-mcp) 🐍 ☁️ - 来自 mevzuat.gov.tr 的土耳其法律实时数据：按法律与条款号提供现行条文，附核验链接。"
+  },
+  {
+    "line": 2913,
+    "translated": "- @@L0@@ 🐍 ☁️ - 针对《人工智能法案》、GDPR 与 DORA 的合规，提供条款级引用。"
+  },
+  {
+    "line": 2914,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ChangkeunJ/australian-law-mcp) 📇 ☁️ - 来自联邦立法登记的澳大利亚联邦法律：查阅自 1901 年以来任一日期生效的法案、比较日期并核验成文法引用。"
+  },
+  {
+    "line": 2915,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cm2489/oravan) 📇 ☁️ - 无党派美国国会数据：英西双语的平实语言法案摘要、按邮编查询议员，以及推进中法案的紧急度排序。"
+  },
+  {
+    "line": 2916,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/djtellado/nexus-legal-mcp) 📇 ☁️ - 面向西班牙、拉美与欧洲法律的法律分析（ISO 31000）：起草、审计、判例、税法教义与跨境比较。"
+  },
+  {
+    "line": 2917,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/edithatogo/fyi-cli) 🦀 🏠 🪟 - 面向 Alaveteli 站点（FYI.org.nz、WhatDoTheyKnow、RightToKnow）的信息公开请求跟踪器：请求、主管机关、往来信函、离线同步。"
+  },
+  {
+    "line": 2918,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/gov-transparency-mcp) 📇 ☁️ - 来自美国政府数据的国会股票交易、联邦合同、竞选财务、游说与新规，按次付费，通过 Base 上的 x402 USDC 结算。"
+  },
+  {
+    "line": 2919,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gavelin-ai/mcp) 📇 ☁️ - 美国州立法数据：标注发言人的听证记录、法案、投票与 AI 生成的报告。"
+  },
+  {
+    "line": 2920,
+    "translated": "- @@L0@@ 📇 ☁️ - 访问美国立法数据。"
+  },
+  {
+    "line": 2921,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Lex-API/lexapi-mcp) 📇 ☁️ - 基于 EUR-Lex 的欧盟法律研究：结构化搜索、按 CELEX 号获取文档、近期《官方公报》出版物、引用图与语义搜索。"
+  },
+  {
+    "line": 2922,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/librejustice/librejustice) 🎖️ 🦀 🐍 🏠 ☁️ - 法国与欧洲判例（国务委员会、最高法院、欧洲人权法院、欧盟法院等），关联到特定时间点的 consolidated 法律文本，具混合搜索。"
+  },
+  {
+    "line": 2923,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lmaniraruta/license-verify-mcp) 📇 ☁️ - 从州数据（华盛顿 L&I、加州 CSLB）核验美国承包商的执照、担保债券与保险。"
+  },
+  {
+    "line": 2924,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-legal-entity-resolver) 📇 ☁️ - 将公司域名解析为其注册法律实体：法律名称、公司编号、司法管辖区、状态、LEI 与增值税号。"
+  },
+  {
+    "line": 2925,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/meridian-silkdev/meridian-mcp) 📇 ☁️ 🍎 🪟 🐧 - 创业创始人服务，如公司注册与签证：浏览服务、创建并跟踪请求、核验付款并安排会议。"
+  },
+  {
+    "line": 2926,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NexusFeed/nexusfeed-mcp) 🐍 ☁️ - 美国酒类执照查询（CA、TX、NY、FL）：按商号、所有者或执照号搜索，并对照州门户核验状态、有效期与地址。"
+  },
+  {
+    "line": 2927,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/open-agreements/open-agreements) 📇 🏠 ☁️ 🍎 🐧 🪟 - 填写标准法律协议模板（NDA、SAFE、NVCA 文件、雇佣、云条款）并生成可签署的 DOCX 文件。"
+  },
+  {
+    "line": 2928,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Pactlio-ai/pactlio-mcp) 📇 ☁️ - 合同工具：按合同类型与司法管辖区提供引用法条的需求、美国竞业禁止的可执行性、合同起草与风险分析。"
+  },
+  {
+    "line": 2929,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Patent-PreCheck/patent-precheck-mcp) 📇 ☁️ - 代码的专利性预检：USPTO 对可专利性、新颖性、非显而易见性与文档的评分，外加申请就绪度与现有技术信号。"
+  },
+  {
+    "line": 2930,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/philrox/ris-mcp-ts) 📇 ☁️ - 通过 RIS（Rechtsinformationssystem）API 访问奥地利联邦与各州法律、法院判决与法律文档。"
+  },
+  {
+    "line": 2931,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PolicyForge/mcp) 📇 ☁️ - 从代码库生成、审计与维护法律政策（隐私、条款、Cookie、EULA、退款），标记代码与政策间的缺口与漂移。"
+  },
+  {
+    "line": 2932,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ptrinh/finalnotice-mcp) 📇 ☁️ - 为多种司法管辖区与语言生成本地化的债务催收催告函 PDF，并附配套信封。"
+  },
+  {
+    "line": 2933,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sebastianfoerste/eu-reg-mcp) 🐍 🏠 - ESMA MiCAR 注册搜索、摘要与变更跟踪（通过每周快照），外加 MiCAR 白皮书 lint 检查与欧盟《人工智能法案》风险层级分类。"
+  },
+  {
+    "line": 2934,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SFHAJJI/lex) ☁️ - 来自 Legilux 与 EUR-Lex 的特定时间点卢森堡与欧盟法律：只读搜索、截至某时检索、条文历史、diff、时间线与引用。"
+  },
+  {
+    "line": 2935,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smilemin07/korean-rnd-regs-mcp) 🐍 🏠 - 搜索并审阅韩国国家研发法规，从国家法律数据库返回带引用的现行条款。"
+  },
+  {
+    "line": 2936,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smythmyke/patent-search-mcp-server) 📇 ☁️ - 专利研究与现有技术搜索：档案、USPTO 审查历史、审查意见分析、布尔查询、引用图与 CPC 查询。"
+  },
+  {
+    "line": 2937,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Vaquill-AI/canlii-mcp) 📇 ☁️ - 通过 CanLII 获取加拿大判例与立法元数据。"
+  },
+  {
+    "line": 2938,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ilyautov/sbis-mcp-ru) 🐍 🏠 🍎 🪟 🐧 - SBIS（Saby）API：文档与工作流阶段、电子签名、证书、员工与组织，具读/写/破坏性操作安全门控。"
+  },
+  {
+    "line": 2939,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ilyautov/diadoc-mcp-ru) 🐍 🏠 🍎 🪟 🐧 - Kontur Diadoc API：具法律效力的文档交换、签署、交易对手、机器可读授权委托书与文档流状态，具安全门控。"
+  },
+  {
+    "line": 2940,
+    "translated": "### 🗺️ <a name=\"location-services\"></a>位置服务"
+  },
+  {
+    "line": 2942,
+    "translated": "基于位置的服务与地图工具。使 AI 模型能够处理地理数据、天气信息与基于位置的分析。"
+  },
+  {
+    "line": 2944,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HasData/yellowpages-mcp) 📇 ☁️ - 按类别与位置搜索黄页本地商家，含完整列表，包括服务、品牌与支付方式。"
+  },
+  {
+    "line": 2945,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HasData/yelp-mcp) 📇 ☁️ - 按类别与位置搜索 Yelp 商家、获取地点详情，以及带排序与星级筛选的完整评价。"
+  },
+  {
+    "line": 2946,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/qinisolabs/floodwise) 📇 🏠 - 来自环境署开放数据的、按邮编划分的英格兰长期洪水风险带。"
+  },
+  {
+    "line": 2947,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/APOGEOAPI/apogeoapi-mcp) 📇 ☁️ - 地理数据与实时汇率：国家、州、城市、IP 地理定位与货币汇率。"
+  },
+  {
+    "line": 2948,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atlasfetch-dev/atlasfetch-mcp) 📇 ☁️ - 将坐标反地理编码为国家、地区与市镇，并附 ISO 3166 代码，再与你的 GeoJSON 地理围栏匹配。"
+  },
+  {
+    "line": 2949,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bamwor-dev/bamwor-mcp-server) 📇 ☁️ - 来自 Bamwor API 的世界地理数据：国家统计与城市（含人口、坐标与时区）。"
+  },
+  {
+    "line": 2950,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/baphometnxg/aloha-fyi-mcp) 📇 ☁️ - 夏威夷旅游：来自 Viator、GetYourGuide、Klook 与 Groupon 的可预订行程，以及瓦胡、毛伊、大岛与考艾各场馆的活动。"
+  },
+  {
+    "line": 2951,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/geovicco-dev/bhoonidhi-mcp) 🐍 ☁️ - 用自然语言从 ISRO 的 Bhoonidhi（NRSC）地球观测门户搜索、保存并下载卫星影像。"
+  },
+  {
+    "line": 2952,
+    "translated": "- @@L0@@ 🐍 ☁️ - 使用 IPinfo API 进行 IP 地址地理定位与网络信息获取。"
+  },
+  {
+    "line": 2953,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/chuofringer/placeroot) 🐍 🏠 🍎 🪟 🐧 - Overture Maps 开放数据：地点、地理编码、行政区查询、建筑、路由与等时线，通过 DuckDB 从公开 GeoParquet 版本查询。"
+  },
+  {
+    "line": 2954,
+    "translated": "- @@L0@@ 📇 ☁️ - 按名称与面积探索法国市镇与地籍地块。"
+  },
+  {
+    "line": 2955,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cturkieh/france-data-mcp) 📇 ☁️ 🏠 - 交叉引用法国公共登记：FINESS 医疗机构、RPPS 卫生专业人员、INSEE 企业与 IGN 地理编码。"
+  },
+  {
+    "line": 2956,
+    "translated": "- @@L0@@ 🐍 ☁️ - 通过 WeatherAPI.com 获取任意地点的实时天气预报与当前状况。"
+  },
+  {
+    "line": 2957,
+    "translated": "- @@L0@@ 📇 ☁️ - 搜索全球本地商家，提供置信度评分与智能体信任排名。"
+  },
+  {
+    "line": 2958,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Flightmussy/castlemap-mcp) 📇 ☁️ 🏠 - 从开放的、基于 Wikidata 的 Castlemap 数据集查询全球城堡、要塞与宫殿（坐标、始建日期、知名度、Wikipedia 摘要）。"
+  },
+  {
+    "line": 2959,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Flightmussy/filmmap-mcp) 📇 ☁️ 🏠 - 电影、剧集、游戏与动画的取景地：某作品在何处拍摄、某地点拍摄了什么，以及附近有什么，数据来自开放的基于 Wikidata 的来源。"
+  },
+  {
+    "line": 2960,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Vortx-AI/emem) 🦀 ☁️ - 带可引用凭证的签名地理空间事实，用于基于地点的问题：海拔、土地覆盖、地表水、植被与建成区。"
+  },
+  {
+    "line": 2961,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/markpdxt/dronelytics-mcp) 📇 ☁️ - 美国无人机空域检查与任务规划：FAA 空域限制、测绘飞行计划、Part 107 合规、飞行前简报与 KML/GPX 导出。"
+  },
+  {
+    "line": 2962,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gaopengbin/cesium-mcp) 📇 🏠 🍎 🪟 🐧 - 控制 CesiumJS 三维地球：相机飞行、GeoJSON 与 3D Tiles 图层、标记、空间分析与热力图。"
+  },
+  {
+    "line": 2963,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/GeiserX/pumperly-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - Pumperly 油价比较：查询加油站价格、规划省油路线并查找附近电动车充电站。"
+  },
+  {
+    "line": 2964,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/geolens-io/geolens) 🎖️ 🐍 🏠 - 对自托管 GeoLens 地理空间目录的只读访问：数据集搜索、模式、GeoJSON 要素、已保存地图，以及 PostGIS 上的沙箱 SQL。"
+  },
+  {
+    "line": 2965,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/geowire/geowire) 📇 🏠 🍎 🪟 🐧 - 多供应商位置网关（OpenStreetMap、Google、Yelp、Foursquare、Naver 等）：地点搜索、地理编码、路线、等时线与区域分析。"
+  },
+  {
+    "line": 2966,
+    "translated": "- @@L0@@ 🐍 ☁️ - 通过 IP2Location.io API 获取 IP 地址的地理定位、代理与网络信息。"
+  },
+  {
+    "line": 2967,
+    "translated": "- @@L0@@ 🐍 ☁️ - 使用 IP Find API 进行 IP 地址地理定位。"
+  },
+  {
+    "line": 2968,
+    "translated": "- @@L0@@ 🐍 📇 ☁️ - 通过 Aiwen 进行 IP 地理定位：IP 地址的国家、地区、城市、坐标、ISP 与所有者。"
+  },
+  {
+    "line": 2969,
+    "translated": "- @@L0@@ 🎖️ 📇 🏠 - 使用 IPLocate.io 查询 IP 地理定位与网络信息、检测代理与 VPN，并查找滥用联系人。"
+  },
+  {
+    "line": 2970,
+    "translated": "- @@L0@@ 🐍 ☁️ - 从 Open-Meteo API 获取天气信息。"
+  },
+  {
+    "line": 2971,
+    "translated": "- @@L0@@ 🐍 🏠 - OpenStreetMap 基于位置的服务与地理空间数据。"
+  },
+  {
+    "line": 2972,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Knight60/ArcGIS-Pro-MCP) #️⃣ 🏠 🪟 - ArcGIS Pro 插件，使助手可驱动打开的项目：图层、属性、选择、符号系统、布局、栅格、地理处理工具与 arcpy。"
+  },
+  {
+    "line": 2973,
+    "translated": "- @@L0@@ 🐍 ☁️ - 基于 IP 的位置检测进行附近地点搜索。"
+  },
+  {
+    "line": 2974,
+    "translated": "- @@L0@@ 🏠 - 通过 GeoServer REST API 与地理空间数据和服务交互。"
+  },
+  {
+    "line": 2975,
+    "translated": "- @@L0@@ 🏠 - 使用 GIS 库进行地理空间操作与转换。"
+  },
+  {
+    "line": 2976,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mapsmith-ai/mapsmith) 🐍 🏠 - 确定性 GIS 地理处理（缓冲、叠加、重投影、分区统计、地形、水文），每个输出附来源清单。"
+  },
+  {
+    "line": 2977,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 地理空间工具：地理编码、路由、高程、空间分析，以及 Shapefile、GeoJSON 与 GeoPackage 的文件 I/O。"
+  },
+  {
+    "line": 2978,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/muend/arcgis-mcp-bridge) 🐍 🏠 🪟 - 通往 ArcGIS Pro 的 ArcPy 地理处理引擎的本地桥接，具工作进程隔离与文件系统边界。"
+  },
+  {
+    "line": 2979,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cablate/mcp-google-map) 📇 ☁️ 🏠 - Google Maps 地理编码、地点搜索、路线与高程，具独立 CLI 模式。"
+  },
+  {
+    "line": 2980,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/osm-mcp) 📇 ☁️ 🍎 🪟 🐧 - OpenStreetMap 旅行规划：地理编码、步行、驾车与骑行路线、出行时间矩阵、路线优化、等时线与 POI 搜索。"
+  },
+  {
+    "line": 2981,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Off-Nadir-Lab/offnadir-delta-mcp) 🎖️ 📇 ☁️ - 实时地理定位的世界事件情报与每日世界简报：事件信号、热点、Sentinel 卫星影像，以及 OSINT/GEOINT 分析师。"
+  },
+  {
+    "line": 2982,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PostalDataPI/postaldatapi-mcp) 🐍 ☁️ - 全球邮政编码查询、校验与城市搜索，附时区、行政区与海拔元数据。"
+  },
+  {
+    "line": 2983,
+    "translated": "- @@L0@@ - 将 QGIS Desktop 连接到 Claude，以支持提示辅助的项目创建、图层加载与代码执行。"
+  },
+  {
+    "line": 2984,
+    "translated": "- @@L0@@ 🐍 ☁️ - 全球任意地点的详细七天天气预报。"
+  },
+  {
+    "line": 2985,
+    "translated": "- @@L0@@ 🐍 ☁️ - 来自 OpenWeatherMap API 的实时天气、预报与历史天气数据。"
+  },
+  {
+    "line": 2986,
+    "translated": "- @@L0@@ 🐍 🏠 - 获取任意时区的时间与当前本地时间。"
+  },
+  {
+    "line": 2987,
+    "translated": "- @@L0@@ 📇 ☁️ - Stadia Maps 位置 API：对地址与地点地理编码、查找时区，并创建路线与静态地图。"
+  },
+  {
+    "line": 2988,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sthan-io/mcp-server) 📇 ☁️ - 美国地址核验、解析、自动补全、正向与反向地理编码，以及通过 sthan.io API 的 IP 地理定位。"
+  },
+  {
+    "line": 2989,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@vibecodebeast/swath-mcp) 🎖️ 📇 ☁️ - 美国本土经雷达验证的冰雹与风灾检测：NOAA MRMS 扫描带、逐地址风暴历史、区域警报、报告与地图。"
+  },
+  {
+    "line": 2990,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ThinAirTelematics/thinair-geo) 📇 ☁️ - 全球定位与路由：地理编码、带危险品与尺寸约束的货车路由、交通、天气、等时线与地点搜索。"
+  },
+  {
+    "line": 2991,
+    "translated": "- @@L0@@ 📇 ☁️ - 通过 AccuWeather API 获取天气预报。"
+  },
+  {
+    "line": 2992,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tools-mcp/vessel-traffic-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 只读船舶查询：AIS 式位置、航迹、靠港、承运人与船舶班期，以及带来源归属的延误启发式。"
+  },
+  {
+    "line": 2993,
+    "translated": "- @@L0@@ 📇 - 通过 TrackMage API 进行货运追踪与物流管理。"
+  },
+  {
+    "line": 2994,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/geolabel/geolabel-mcp) 🐍 ☁️ - 将 GPS 坐标转为位置上下文：地点名称、稳定类别与通过 OpenStreetMap 获取的实时营业时间。"
+  },
+  {
+    "line": 2995,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/xyver/daedal-map) 🐍 ☁️ - 面向灾害、外汇汇率与全球指标的地理数据包，每周新增。"
+  },
+  {
+    "line": 2996,
+    "translated": "- @@L0@@ 🐍 🏠 - 通过 Nominatim、ArcGIS 与 Bing 进行地理编码。"
+  },
+  {
+    "line": 2997,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/930m310n/geomelon-mcp) 🎖️ 📇 ☁️ - 城市、国家、地区与语言（含多语言名称），以及地点自动补全。"
+  },
+  {
+    "line": 2998,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ArtBreguez/greeks-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 实时期权分析：希腊字母、GEX/DEX 与 gamma 翻转、最大痛点、异常资金流、隐含波动率曲面、预期波动、期限结构、筛选器与 GEX 热力图。"
+  },
+  {
+    "line": 3000,
+    "translated": "### 🎯 <a name=\"marketing\"></a>营销"
+  },
+  {
+    "line": 3002,
+    "translated": "用于创建与编辑营销内容、处理网页元数据、产品定位与编辑指南的工具。"
+  },
+  {
+    "line": 3004,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/A1-x-Tech/mcp-yandex-audience) 📇 ☁️ - Yandex Audience API：构建并管理广告定向细分（CRM 上传、相似人群、基于像素），以及访问授权。"
+  },
+  {
+    "line": 3005,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIOProductOS/studio-mcp) 🎖️ 📇 🏠 🍎 🪟 🐧 - 本地、脚本化的 Web 应用录屏，含移动指针、缩放、标注、字幕与转场，外加截图与 MP4/GIF 导出。"
+  },
+  {
+    "line": 3006,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/D4umak/linkedin-outreach-mcp) 🎖️ 🐍 ☁️ 🍎 🪟 🐧 - 用于拓客、招聘与求职的 LinkedIn 触达：寻找人选、以你的口吻发消息、跟进并处理回复。"
+  },
+  {
+    "line": 3007,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/InstantStudioAI/instantclips-mcp) 📇 ☁️ - 用 InstantClips 将电商商品转为面向 TikTok、Instagram Reels 与 Stories 的竖版短视频广告，并管理品牌与商品。"
+  },
+  {
+    "line": 3008,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/acamolese/google-search-console-mcp) 🐍 ☁️ - Google Search Console：查询性能数据、检查 URL、核验索引，并生成含 30/60/90 天路线图的 HTML SEO 审计报告。"
+  },
+  {
+    "line": 3009,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AKzar1el/mcp-gsc) 📇 ☁️ - 运行于 Cloudflare Workers 的 Google Search Console：自然搜索分析、URL 检查、站点地图管理、索引与 SEO 洞察。"
+  },
+  {
+    "line": 3010,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AKzar1el/mcp-geo) 📇 ☁️ 🏠 🍎 🪟 🐧 - DigestSEO GEO 追踪器：衡量品牌在 ChatGPT、Claude、Perplexity、Gemini 与 Google AI Overviews 中的引用与可见度。"
+  },
+  {
+    "line": 3011,
+    "translated": "- @@L0@@ 🐍 ☁️ - TikTok 广告 API 集成：管理广告活动、分析绩效指标，并处理受众与创意。"
+  },
+  {
+    "line": 3012,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/adsagents/adsagent-ai-skills) 📇 ☁️ - 面向 Meta、Google 与 TikTok 广告的 AdsAgent 插件与托管 MCP 服务器。"
+  },
+  {
+    "line": 3013,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hardeyhemy/revnuvo-dev) 🎖️ ☁️ - Revnuvo 公司情报：某家公司发生了什么变化，并附证据。"
+  },
+  {
+    "line": 3014,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aitit-inc/leadace) 📇 🏠 - Claude Code 的外呼销售：逐潜在客户的网站调研、用你自己的 Gmail 给每位潜在客户发一封邮件、回复追踪与结构化拒绝反馈。"
+  },
+  {
+    "line": 3015,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alttextai/alttext-mcp) 🎖️ 📇 🏠 - 生成并翻译图片替代文本，并管理 AltText.ai 图片库。"
+  },
+  {
+    "line": 3016,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-erid) 🐍 ☁️ - 检查俄罗斯在线广告标注（erid/ERIR）：校验 erid 令牌，并审计页面是否符合第 38-FZ 号广告法。"
+  },
+  {
+    "line": 3017,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AutomateLab-tech/seo-performance-mcp) 📇 ☁️ - 发布后 SEO 表现：将每个 URL 的 Search Console、Matomo、GA4、Clarity 与 AI 引用信号结合，给出每篇文章的判定与原因码。"
+  },
+  {
+    "line": 3018,
+    "translated": "- @@L0@@ 📇 🏠 - LinkedHelper 自动化 CLI：通过 Chrome DevTools 协议进行活动管理、消息发送与档案查询。"
+  },
+  {
+    "line": 3019,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/artgas1/yandex-metrika-mcp) 📇 ☁️ - Yandex Metrika 统计、管理与日志 API，每种方法一个工具，由 Yandex 文档生成。默认禁用写入。"
+  },
+  {
+    "line": 3020,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/askads/mcp-vk-ads) 📇 ☁️ - VK 广告 API：管理广告计划、广告组与横幅，并拉取统计。"
+  },
+  {
+    "line": 3021,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/askads/mcp-yandex-direct) 📇 ☁️ - Yandex Direct API：管理 PPC 广告活动、广告组、广告、关键词、出价修正、站点链接、附加信息与 vCard，并拉取统计。"
+  },
+  {
+    "line": 3022,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/askads/mcp-yandex-metrica) 📇 ☁️ - 只读 Yandex Metrica 网站分析：列举计数器与目标，并拉取流量与转化统计。"
+  }
+]

@@ -1,0 +1,1922 @@
+[
+  {
+    "line": 3527,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ip2whois/mcp-ip2whois) 🐍 📇 🏠 - 透過 IP2WHOIS API 進行 WHOIS 查詢：包含到期日期、註冊商和註冊人資料的域名註冊詳情。"
+  },
+  {
+    "line": 3528,
+    "translated": "- @@L0@@ 📇 ☁️ - Naver 搜尋 API 整合：部落格、新聞和購物搜尋，以及 DataLab 分析。"
+  },
+  {
+    "line": 3529,
+    "translated": "- @@L0@@ 📇 🏠 - 使用 Playwright 無頭瀏覽器獲取網頁內容，支援 JavaScript 渲染、內容提取以及 Markdown 或 HTML 輸出。"
+  },
+  {
+    "line": 3530,
+    "translated": "- @@L0@@ 📇 🏠 - 支援多關鍵詞並行查詢的 Google 搜尋。"
+  },
+  {
+    "line": 3531,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JessieJanie/skim402) 📇 ☁️ - 將任意 URL 轉換為帶結構化後設資料（標題、署名行、釋出日期、語言）的乾淨 Markdown，按次使用並透過 x402 付費。"
+  },
+  {
+    "line": 3532,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@jhomen368/overseerr-mcp) 📇 ☁️ 🏠 - 透過 Overseerr 和 Seerr 為 Plex、Jellyfin 和 Emby 提供媒體發現、請求與管理。"
+  },
+  {
+    "line": 3533,
+    "translated": "- @@L0@@ 🐍 ☁️ 🏠 - 從 Pexels 和 Unsplash 搜尋並下載免版稅相簿照片，附帶豐富的後設資料和分頁。"
+  },
+  {
+    "line": 3534,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/johnsmalls22-rgb/domain-search-king-mcp) ☁️ - 域名搜尋，僅返回透過實時 Verisign RDAP 檢查確認為可用的 .com 域名。"
+  },
+  {
+    "line": 3535,
+    "translated": "- @@L0@@ 📇 🏠 - 使用 Mozilla Readability、快取、遵循 robots.txt 的爬取以及併發獲取，將網站轉換為保留連結的乾淨 Markdown。"
+  },
+  {
+    "line": 3536,
+    "translated": "- @@L0@@ 📇 🏠 - 擷取網站截圖，將整頁切分為 1072x1072 的塊以適配 Claude Vision，支援可配置視口和針對動態內容的等待策略。"
+  },
+  {
+    "line": 3537,
+    "translated": "- @@L0@@ ☁️ 📇 - 使用 Kagi Search 搜尋網路。"
+  },
+  {
+    "line": 3538,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kc23go/anybrowse) 📇 ☁️ - 抓取、爬取和搜尋網路，透過真實 Chrome 瀏覽器將任意 URL 轉換為適合 LLM 的 Markdown。"
+  },
+  {
+    "line": 3539,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/keenableai/keenable-mcp) 🎖️ 📇 ☁️ - 基於 Keenable 網路索引的實時網路搜尋與乾淨 Markdown 頁面獲取。"
+  },
+  {
+    "line": 3540,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/konippi/servo-fetch) 🦀 🏠 🍎 🪟 🐧 - 單檔案、無 Chromium 的網頁內容提取：使用 Servo 瀏覽器引擎獲取、渲染、爬取頁面並截圖。"
+  },
+  {
+    "line": 3541,
+    "translated": "- @@L0@@ 🏠 📇 - 查詢並僅提取 JSON 檔案中需要的部分，以保持 LLM 上下文精簡。"
+  },
+  {
+    "line": 3542,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 提取乾淨的網頁內容用於 RAG，並回答有關網頁的問題。"
+  },
+  {
+    "line": 3543,
+    "translated": "- @@L0@@ ☁️ 📇 - 透過 Tavily AI 搜尋 API 進行搜尋。"
+  },
+  {
+    "line": 3544,
+    "translated": "- @@L0@@ 📇 ☁️ - 使用 Microsoft Bing 搜尋 API 進行網路搜尋。"
+  },
+  {
+    "line": 3545,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lennney/agent-search-mcp) 📇 🏠 🍎 🪟 🐧 - 跨 DuckDuckGo、搜狗、Bing、百度、維基百科、Startpage、Yandex 和 Mojeek 進行瀑布式搜尋、多源驗證與新聞搜尋。"
+  },
+  {
+    "line": 3546,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/leadbrain/korean-data-mcp) 🐍 ☁️ - 透過 Apify 獲取實時韓國網路資料：Naver 地點評論與新聞、Melon 音樂榜單、Daangn 與 Bunjang 商品列表，以及 Musinsa 時尚排名。"
+  },
+  {
+    "line": 3547,
+    "translated": "- @@L0@@ 🐍 🏠 - 從網頁、PDF、Word 文件、YouTube 字幕、音訊和影片中提取內容，支援自動引擎選擇與結構化 JSON 輸出。"
+  },
+  {
+    "line": 3548,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tobocop2/lilbee) 🐍 🏠 🍎 🪟 🐧 - 索引檔案、程式碼和已爬取的網站，並使用自身本地模型或現有 Ollama、LM Studio 配置，附帶來源引用地回答問題。"
+  },
+  {
+    "line": 3549,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - 控制 LinkedIn 賬號並獲取實時 LinkedIn 資料。"
+  },
+  {
+    "line": 3550,
+    "translated": "- @@L0@@ 📇 ☁️ - 透過 MinerU 文件解析 API 解析 PDF、圖片、DOCX 和 PPTX，支援多語言 OCR、批次處理、頁碼範圍與本地檔案上傳。"
+  },
+  {
+    "line": 3551,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/litescrape/litescrape-mcp-server) 🎖️ 📇 ☁️ 🏠 - 將 Google 搜尋、Bing、DuckDuckGo、Google 地圖、Google AI 模式、AI 概覽與購物結果以 JSON 形式返回。"
+  },
+  {
+    "line": 3552,
+    "translated": "- @@L0@@ 📇 ☁️ - 透過 Bright Data 發現、提取並與網路互動，一個用於自動化訪問公共網際網路的介面。"
+  },
+  {
+    "line": 3553,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lulzasaur9192/marketplace-search-mcp) 📇 ☁️ - 搜尋 TCGPlayer、Reverb 和 Thumbtack，驗證美國承包商與護士執照，並查詢 PSA 卡片評級數量資料。"
+  },
+  {
+    "line": 3554,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-ai-tooling-detector) 📇 ☁️ - 檢測一家公司僅是宣稱 AI、在其網站上部署了 AI 工具還是對 AI 收費，並返回帶有佐證材料的 AI 成熟度等級。"
+  },
+  {
+    "line": 3555,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-company-contact-details-extractor) 📇 ☁️ - 查詢公司的聯絡頁面，並提取對應角色的郵箱、電話號碼和郵政地址。"
+  },
+  {
+    "line": 3556,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-company-firmographic-enricher) 📇 ☁️ - 用企業特徵資料豐富公司域名：員工規模區間、行業、總部、成立年份、收入估算、Logo 與簡介，並附來源出處。"
+  },
+  {
+    "line": 3557,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-company-social-presence-mapper) 📇 ☁️ - 透過 Apify actor 將公司域名對映為其 LinkedIn、X、Instagram、Facebook 和 YouTube 主頁及關注數，輸出為扁平的 Clay 可用 JSON。"
+  },
+  {
+    "line": 3558,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-domain-to-linkedin-url-resolver) 📇 ☁️ - 將公司域名或名稱解析為其 LinkedIn 公司 URL，附帶置信度評分和企業特徵後設資料。"
+  },
+  {
+    "line": 3559,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-event-presence-index) 📇 ☁️ - 列出一家公司公開表示參加的第三方會議與貿易展會，並註明各自年份。"
+  },
+  {
+    "line": 3560,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-funding-press-signal-scanner) 📇 ☁️ - 掃描 Google 新聞與公關專線，獲取公司的融資輪次、高管變動、釋出與收購，以去重、帶日期的事件形式輸出為 Clay 可用 JSON。"
+  },
+  {
+    "line": 3561,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-github-organization-signal-scanner) 📇 ☁️ - 將公司域名解析為其 GitHub 組織，附帶倉庫、語言與活躍度訊號。"
+  },
+  {
+    "line": 3562,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-gtm-hiring-signal-scraper) 📇 ☁️ - 在 Greenhouse、Lever 和 Ashby 招聘頁面上檢測 GTM 招聘訊號，返回包含職位數量、訊號強度與 ATS 檢測的 Clay 可用 JSON。"
+  },
+  {
+    "line": 3563,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-gtm-tech-stack-signal-scraper) 📇 ☁️ - 從公司域名中檢測 CRM、序列郵件與營銷自動化工具，作為用於 Clay 豐富資料的布林型 GTM 工具訊號。"
+  },
+  {
+    "line": 3564,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-review-platform-reputation-enricher) 📇 ☁️ - 將公司域名解析為其 Trustpilot 評分、評論數量與認領狀態。"
+  },
+  {
+    "line": 3565,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Marvy101/pod-mcp) 🎖️ 📇 ☁️ - 搜尋代理記錄的關於產品、API、服務或地點的第一手觀察（而非文件宣稱），並可回寫新的觀察。"
+  },
+  {
+    "line": 3566,
+    "translated": "- @@L0@@ 📇 ☁️ - 使用 Brave 搜尋 API 進行網頁、圖片、新聞、影片與本地興趣點搜尋。"
+  },
+  {
+    "line": 3567,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/maxylev/searchfetch) 📇 🐍 - 具備容錯與反檢測能力的網路搜尋與內容獲取。"
+  },
+  {
+    "line": 3568,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MikkoParkkola/nab) 🏎️ 🏠 🍎 🪟 🐧 - 將任意 URL 獲取為乾淨的 Markdown，支援 HTTP/3、JS 渲染、反指紋、瀏覽器 Cookie 認證與 1Password 整合。"
+  },
+  {
+    "line": 3569,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MKirovBG/scribefy-mcp) 🎖️ 📇 ☁️ - 提取帶時間戳的 YouTube 字幕，並提供影片搜尋、後設資料與相關影片。"
+  },
+  {
+    "line": 3570,
+    "translated": "- @@L0@@ 🐍 🏠 ☁️ - 為 AI 消費而進行的網頁內容獲取與處理。"
+  },
+  {
+    "line": 3571,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Pexafy/pexafy-mcp) 🐍 ☁️ - 按場景描述、示例圖片或相似度，對來自 Unsplash、Pexels、Pixabay 等的免授權相簿照片進行語義搜尋，並附署名。"
+  },
+  {
+    "line": 3572,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@pranciskus/news-mcp-world-news-for-ai-agents) 📇 ☁️ - 實時世界新聞：從大量來源聚類的事件，按主題與地理分類，並按重要性排序。"
+  },
+  {
+    "line": 3573,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Opedd/opedd-mcp) 📇 ☁️ - 發現、購買、驗證並獲取有授權的專家分析，附帶按文章的授權金鑰、鏈上證明與歐盟《AI 法案》第 53 條證明。"
+  },
+  {
+    "line": 3574,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@n24q02m/wet-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 透過內建的 SearXNG 進行網路搜尋、內容提取與庫文件索引，使用內建 Qwen3 嵌入實現 FTS5 與語義混合搜尋。"
+  },
+  {
+    "line": 3575,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/freshrss-mcp) 📇 🏠 🍎 🪟 🐧 - 讀取並管理自託管的 FreshRSS 例項：訂閱源、分類、標籤、文章、已讀與星標狀態，以及 OPML 匯入匯出。"
+  },
+  {
+    "line": 3576,
+    "translated": "- @@L0@@ 🐍 ☁️ - 使用 DuckDuckGo 進行網路搜尋，並支援內容獲取與解析。"
+  },
+  {
+    "line": 3577,
+    "translated": "- @@L0@@ 🏠 🐍 - 在本地執行、無需外部 API 的簡易類 RAG 網路搜尋。"
+  },
+  {
+    "line": 3578,
+    "translated": "- @@L0@@ 🐍 ☁️ 🏠 - 管理涵蓋以太坊、BSC、Polygon 和 Solana 的加密專案文件。"
+  },
+  {
+    "line": 3579,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ 🏠 - 來自 Octagon 的深度研究代理。"
+  },
+  {
+    "line": 3580,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/omniologynow-rgb/scout-intel-mcp) 🐍 ☁️ - 網路情報：SERP 分析、競品研究、市場趨勢、內容缺口分析、關鍵詞洞察、受眾發現與引用追蹤。"
+  },
+  {
+    "line": 3581,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/opendatalab/MinerU-Ecosystem) 🎖️ 🐍 🏠 ☁️ - 透過 MinerU 文件解析 API 將 PDF、Word、PowerPoint 檔案、圖片與電子表格轉換為 Markdown。"
+  },
+  {
+    "line": 3582,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NameetP/pdfmux) 🐍 🏠 - PDF 提取路由器，對每頁分類並路由到 PyMuPDF、Docling、OCR 或 LLM 兜底，對置信度低的頁面重新提取。"
+  },
+  {
+    "line": 3583,
+    "translated": "- @@L0@@ ☁️ - 透過 Parallel 為 AI 提供的網路搜尋。"
+  },
+  {
+    "line": 3584,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/FayAndXan/spectrawl) 📇 🏠 - 面向代理的統一網路層：多引擎搜尋（含 Gemini Grounded Search）、隱蔽瀏覽、Cookie 認證，以及跨多平臺的操作。"
+  },
+  {
+    "line": 3585,
+    "translated": "- @@L0@@ ☁️ - 透過 Parallel 進行深度研究與批次任務執行。"
+  },
+  {
+    "line": 3586,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/paulieb89/govuk-mcp) 🐍 ☁️ - 搜尋 GOV.UK 內容、獲取完整政府頁面、查詢機構，並將英國郵編解析到地方當局。只讀。"
+  },
+  {
+    "line": 3587,
+    "translated": "- @@L0@@ 🎖️ 🐍 ☁️ - 用於人才發現的個人搜尋引擎。"
+  },
+  {
+    "line": 3588,
+    "translated": "- @@L0@@ 🐍 ☁️ - 自然語言 API 發現：搜尋 API 能力，獲取端點、認證設定與程式碼片段，並自動發現新 API。"
+  },
+  {
+    "line": 3589,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/phpcip/opensolr-mcp) 🐍 ☁️ - 託管的 Apache Solr：BM25 與 kNN 混合檢索加語義搜尋、帶服務端嵌入的文件攝入、有據可依的 RAG 答案與索引管理。"
+  },
+  {
+    "line": 3590,
+    "translated": "- @@L0@@ 🐍 🏠 - 搜尋並檢索來自 WARC、wget、Katana、SiteOne 和 InterroBot 爬取的網路爬蟲資料。"
+  },
+  {
+    "line": 3591,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Prototypr/feedbagel-mcp) 📇 ☁️ - 搜尋 Feedbagel RSS 目錄、訂閱資訊流，並將新條目路由到 Webhook。"
+  },
+  {
+    "line": 3592,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/quantumproxies/quanticdata-mcp-server) 🎖️ 📇 ☁️ - 透過住宅代理獲取網路資料：頁面抓取為 Markdown、SERP 搜尋、站點爬取與地圖、由自然語言提示生成的現成採集器與資料集。"
+  },
+  {
+    "line": 3593,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/qune-tech/ocds-mcp) 🦀 🏠 🐧 🍎 🪟 - 德國公共採購資料（OCDS）：語義搜尋、根據公司畫像進行招標匹配，以及結構化篩選。"
+  },
+  {
+    "line": 3594,
+    "translated": "- @@L0@@ 🐍 - 非官方訪問 Catalysis Hub 資料庫：搜尋與檢索計算催化研究及表面反應資料。"
+  },
+  {
+    "line": 3595,
+    "translated": "- @@L0@@ 📇 ☁️ - 基於 OpenTK 專案，搜尋荷蘭議會（Tweede Kamer）的文件、辯論、活動與立法案例。"
+  },
+  {
+    "line": 3596,
+    "translated": "- @@L0@@ 📇 ☁️ - 具備結構化查詢展開與簡明報告的自主深度研究。"
+  },
+  {
+    "line": 3597,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/reflex-search/reflex) 🦀 🏠 🍎 🪟 🐧 - 面向編碼代理的本地離線全文程式碼搜尋，基於大型程式碼庫上的三元組索引。"
+  },
+  {
+    "line": 3598,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Rererr/amenbo) 📇 🏠 - 面向日本網站的省 token 網頁獲取：先概要後展開、Shift_JIS 與 EUC-JP 解碼、PDF 與 CSV 提取，以及禮貌爬取。"
+  },
+  {
+    "line": 3599,
+    "translated": "- @@L0@@ 🐍 🏠 ☁️ - 透過 Wolfram Alpha API 訪問計算知識與資料。"
+  },
+  {
+    "line": 3600,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Role1776/mcp-retrieval) 🏎️ 🏠 🍎 🪟 🐧 - 透過 DuckDuckGo Lite 進行只讀網路搜尋、透過 Bing Images 進行圖片搜尋，以及使用可讀性提取器的頁面轉 Markdown 抓取。"
+  },
+  {
+    "line": 3601,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@rubenayla/partle) 🐍 ☁️ - 搜尋商品與附近的實體店，以便本地購買而非等待配送。"
+  },
+  {
+    "line": 3602,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bartonguestier1725-collab/scout-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - 跨 GitHub、npm、PyPI、arXiv、Semantic Scholar、Hacker News、Reddit、X、Dev.to、Hashnode、Qiita 與 Zenn 的並行搜尋，輸出結構化 JSON。"
+  },
+  {
+    "line": 3603,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/chefcohen/corroborate-mcp) 📇 🏠 - 衡量某一說法被獨立報道的程度，具備感知轉載的源計數與 0-1 置信度評分。衡量的是佐證程度，而非事實真偽。"
+  },
+  {
+    "line": 3604,
+    "translated": "- @@L0@@ 🐍 ☁️ - 透過 Scrapeless Google SERP API 進行網路搜尋。"
+  },
+  {
+    "line": 3605,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/scraperapi/scraperapi-mcp) 🐍 ☁️ - 透過 ScraperAPI 進行網頁抓取，支援 JavaScript 渲染、地理定向、優質代理與自動解析。"
+  },
+  {
+    "line": 3606,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/scrapercity/scrapercity-cli) 📇 ☁️ - B2B 獲客：Apollo 與 Google 地圖資料、郵箱查詢與驗證、手機號查詢、失聯追蹤與電商店鋪資料。"
+  },
+  {
+    "line": 3607,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - 管理 Searchcraft 叢集、建立搜尋索引、從資料檔案生成索引，並從資訊流或本地 JSON 檔案匯入資料。"
+  },
+  {
+    "line": 3608,
+    "translated": "- @@L0@@ 🐍 🏠 - 連線到 SearXNG 例項。"
+  },
+  {
+    "line": 3609,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@securecoders/opengraph-io-mcp) 📇 ☁️ - OpenGraph.io API：提取 OG 後設資料、截圖、抓取網頁內容、用 AI 查詢站點，並生成品牌圖片與社交分享卡片。"
+  },
+  {
+    "line": 3610,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/seomarlboro/digmyname) 📇 🏠 - 跨多種 TLD 進行域名可用性檢查、註冊商價格比較與域名年齡查詢。"
+  },
+  {
+    "line": 3611,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ 🏠 - 透過 Driflyte 從遞迴爬取並索引的網頁中查詢與檢索特定主題的知識。"
+  },
+  {
+    "line": 3612,
+    "translated": "- @@L0@@ 🐍 ☁️ 🏠 🍎 🪟 🐧 - 透過 SerpApi 獲取來自 Google、Bing、Yahoo、DuckDuckGo、YouTube、eBay 等的搜尋結果，以及實時天氣與股票市場資料。"
+  },
+  {
+    "line": 3613,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/serpdive/serpdive-mcp) 🎖️ 📇 ☁️ 🏠 - 網路搜尋返回提取的頁面內容（URL、標題、日期、文字）而非連結，支援自動本地化與可選的綜合性回答。"
+  },
+  {
+    "line": 3614,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/shariqriazz/google-ai-search-mcp) 📇 ☁️ - 由 Google Vertex AI 或 Gemini API 驅動的搜尋、文件檢索、程式碼分析與架構研究。"
+  },
+  {
+    "line": 3615,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - ShopSavvy 商品與價格資料：按條形碼、ASIN 或 URL 搜尋，獲取商品詳情、比較零售商價格並追蹤價格歷史。"
+  },
+  {
+    "line": 3616,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sifter-ai/sifter) 🐍 🏠 ☁️ - 從任意文件中提取帶型別、由模式定義的記錄，並像資料庫一樣用自然語言查詢它們。"
+  },
+  {
+    "line": 3617,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-ashby) 📇 ☁️ - 搜尋公司公開的 Ashby 招聘板：將公司解析到其招聘板、篩選職位、閱讀完整招聘資訊並比較公佈的薪酬區間。"
+  },
+  {
+    "line": 3618,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-animenewsnetwork) 📇 ☁️ 🍎 🪟 🐧 - 在 Anime News Network 百科中搜尋動畫與漫畫，以緊湊行形式讀取聲優、製作人員、劇集與工作室，並關注新聞專線。"
+  },
+  {
+    "line": 3619,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-marmiton) 📇 ☁️ 🍎 🪟 🐧 - 搜尋 Marmiton 食譜，閱讀食材與步驟，並將用量縮放到任意份數。"
+  },
+  {
+    "line": 3620,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-pequerecetas) 📇 ☁️ 🍎 🪟 🐧 - 從 Pequerecetas 閱讀西班牙家庭食譜，縮放份數，並按飲食、主要食材、廚具或年齡段（六個月以上）瀏覽。"
+  },
+  {
+    "line": 3621,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/srezai-team/srezai-mcp) 🎖️ 📇 ☁️ - 網路與圖片搜尋、頁面以 Markdown 讀取、瀏覽器渲染截圖、基於模式的提取與深度研究，對俄羅斯網路覆蓋良好。"
+  },
+  {
+    "line": 3622,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Sriram-PR/doc-scraper) 🏎️ 🏠 - 將文件站點爬取為本地 Markdown 或 JSONL 語料庫，並提供離線 BM25 搜尋、頁面讀取、新鮮度檢查與爬取差異比對。"
+  },
+  {
+    "line": 3623,
+    "translated": "- @@L0@@ 📇 ☁️ - 搜尋來自歐洲與英國組織的待領養犬，附帶詳細檔案與性格匹配。"
+  },
+  {
+    "line": 3624,
+    "translated": "- @@L0@@ 🐍 ☁️ - 獲取 arXiv 論文的 LaTeX 原始碼，以處理數學內容與公式。"
+  },
+  {
+    "line": 3625,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/talonicdev/talonic-mcp) 📇 ☁️ - 從 PDF、掃描件、圖片與表單中進行經模式校驗的結構化欄位提取，並具備可搜尋的歷史提取記憶。"
+  },
+  {
+    "line": 3626,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/telly6/searchpin) 🐍 🏠 - 多引擎並行網路搜尋並帶重排序，可在中國網路環境下無需代理或 VPN 工作。"
+  },
+  {
+    "line": 3627,
+    "translated": "- @@L0@@ 🐍 ☁️ - 檢索並處理來自 GeekNews 的新聞。"
+  },
+  {
+    "line": 3628,
+    "translated": "- @@L0@@ 🐍 ☁️ - 從報道代理經濟的報紙 The Agent Times 查詢文章、統計資料、新聞專線、評論、引用與代理排行榜。"
+  },
+  {
+    "line": 3629,
+    "translated": "- @@L0@@ 📇 ☁️ - 使用 Enrichr API 進行基因集富集分析。"
+  },
+  {
+    "line": 3630,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - 使用 AgentQL 進行資料提取。"
+  },
+  {
+    "line": 3631,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AI-Directory-Partners/tooldirectory-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 搜尋 AI 工具目錄、比較它們、查詢替代品，並檢查某工具是否活躍、已停運或被收購。"
+  },
+  {
+    "line": 3632,
+    "translated": "- @@L0@@ ☁️ 🐍 - 透過 Tavily AI 搜尋 API 進行搜尋。"
+  },
+  {
+    "line": 3633,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/trendsmcp-ai/Trends-MCP) 🐍 🏠 ☁️ - 來自 Google、TikTok、YouTube、Amazon、Reddit、npm、Steam 等來源的實時趨勢資料。"
+  },
+  {
+    "line": 3634,
+    "translated": "- @@L0@@ 📇 🏠 - 透過 Urlbox API 生成與管理截圖、PDF 和影片，用 AI 分析截圖，並以 Markdown、後設資料或 HTML 形式提取網頁內容。"
+  },
+  {
+    "line": 3635,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/us/crw) 🎖️ 🦀 🏠 ☁️ 🍎 🪟 🐧 - 可自託管的網路爬蟲與搜尋 API（fastCRW）：抓取、爬取、站點地圖，以及由 SearXNG 支撐的搜尋。"
+  },
+  {
+    "line": 3636,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Savirinc/unfragile-mcp-server) 📇 🏠 - 將代理的意圖解析到各登錄檔中合適的 MCP 伺服器，附帶可呼叫片段與 Ed25519 簽名的信任護照。"
+  },
+  {
+    "line": 3637,
+    "translated": "- @@L0@@ ☁️ 📇 - 透過 Vectorize 進行檢索、私有深度研究、檔案轉 Markdown 提取與文字分塊。"
+  },
+  {
+    "line": 3638,
+    "translated": "- @@L0@@ 🐍 ☁️ 🏠 - NCBI 與 PubMed 文獻搜尋，支援分析、快取、MeSH 整合、相關文章發現與批處理，用於生命科學研究。"
+  },
+  {
+    "line": 3639,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Gaoshan0971/digeguigui) 🐍 📇 ☁️ 🏠 - 爬行動物與小眾寵物知識庫：物種識別、遺傳學計算器、飼養資訊、健康診斷、價格與區塊鏈溯源。"
+  },
+  {
+    "line": 3640,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/robbyczgw-cla/web-search-plus-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 多 provider 網路搜尋，在 Serper、Tavily 與 Exa 之間自動路由。"
+  },
+  {
+    "line": 3641,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Vincentwei1021/agent-toolbox) 📇 ☁️ 🍎 🪟 🐧 - 網路搜尋、內容提取、截圖、天氣、金融、郵箱驗證、翻譯、新聞、GeoIP、WHOIS、DNS、PDF 提取與二維碼。"
+  },
+  {
+    "line": 3642,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - 透過 WebScraping.ai 進行網頁資料提取與抓取。"
+  },
+  {
+    "line": 3643,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ashlrai/webfetch) 📇 ☁️ 🏠 🍎 🪟 🐧 - 跨多 provider 的版權感知聯合圖片搜尋，返回授權標籤、署名字串、尺寸與下載 URL。"
+  },
+  {
+    "line": 3644,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/WhaleCupl/ai-daily-insights-mcp) 📇 ☁️ - 列出、獲取並全文搜尋來自中文 AI 行業簡報「AI Daily Insights」的結構化每日 AI 新聞。"
+  },
+  {
+    "line": 3645,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/whw23/searxng_http_mcp) 🐍 ☁️ 🏠 - Docker 中自包含 SearXNG：跨多引擎與分類的元搜尋，支援多頁展開、自動補全、引擎發現與 Web UI 代理。"
+  },
+  {
+    "line": 3646,
+    "translated": "- @@L0@@ 📇 🏠 - 使用 Web Platform API 搜尋 Baseline 狀態。"
+  },
+  {
+    "line": 3647,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yubinkim444/ai-first-scraper-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 無廣告的網頁抓取與搜尋並轉為乾淨 Markdown：可單頁或並行批次獲取頁面，並搜尋網路獲取前 k 個頁面。"
+  },
+  {
+    "line": 3648,
+    "translated": "- @@L0@@ 📇 🏠 ☁️ - 透過 DuckDuckGo 進行網路搜尋。"
+  },
+  {
+    "line": 3649,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zoharbabin/web-researcher-mcp) 📇 ☁️ 🏠 - 透過 Google、Brave、Serper、SearXNG 與 SearchAPI.io 進行網路搜尋、多層內容提取、學術與專利搜尋，以及多源研究。"
+  },
+  {
+    "line": 3650,
+    "translated": "- @@L0@@ 🐍 ☁️ - 以文字、JSON、SRT 或 WebVTT 格式、多種語言獲取 YouTube 字幕，並可選擇性地總結它們。"
+  },
+  {
+    "line": 3651,
+    "translated": "- @@L0@@ 📇 ☁️ - 從 ZoomEye 查詢網路資產資訊。"
+  },
+  {
+    "line": 3652,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/juergenkoller-software/pdf-content-search-mcp) 🏠 🍎 - 透過 PDF Content Search 應用進行全文 PDF 搜尋（Apple Vision OCR），支援日期、分類、發件人與金額篩選、萬用字元與布林運算子。"
+  },
+  {
+    "line": 3653,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rejifald/StitchAPI) 📇 ☁️ - 對 StitchAPI 文件進行語義搜尋，返回帶深層連結與完整頁面的相關章節。"
+  },
+  {
+    "line": 3654,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MarcellM01/TinySearch) 🐍 🏠 - 自託管網路研究：SearXNG 搜尋（DuckDuckGo 兜底）、爬取、稠密與 BM25 重排序，以及去重後生成帶引用、有來源的提示。"
+  },
+  {
+    "line": 3655,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-ptitchef) 📇 ☁️ 🍎 🪟 🐧 - 搜尋 Ptitchef 食譜、瀏覽食材分類、閱讀食材、做法、成本與營養，根據冰箱內容找菜，並縮放份數。"
+  },
+  {
+    "line": 3656,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-bbc-goodfood) 📇 ☁️ 🍎 🪟 🐧 - 搜尋 BBC Good Food 食譜，閱讀原版或美版，檢視可接受的搜尋面取值，並縮放到任意人數。"
+  },
+  {
+    "line": 3657,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-supertoinette) 📇 ☁️ 🍎 🪟 🐧 - 閱讀 Supertoinette 的法式食譜：食材、步驟、難度、成本、靜置時間與配酒，並縮放到任意人數。"
+  },
+  {
+    "line": 3658,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AG-Bureau/mcp-search) 🐍 🏠 - 在你自己的 SearXNG 上進行搜尋、頁面讀取、圖片、截圖與多源回答，並報告查詢了哪些引擎以及哪些不可信。"
+  },
+  {
+    "line": 3660,
+    "translated": "### 🔒 <a name=\"security\"></a>安全"
+  },
+  {
+    "line": 3662,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fredyee/hallucc-mcp) 📇 ☁️ - 帶來源的宣告級幻覺檢測、代理軌跡驗證、計算機使用操作的風險門控，以及提示注入防禦。"
+  },
+  {
+    "line": 3663,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ucsandman/DashClaw) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - 無人值守代理執行的失敗關閉審批層：依據組織策略檢查操作、請求人工審批，並將每個決策記錄到因果賬本。"
+  },
+  {
+    "line": 3664,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/26zl/cybersec-toolkit) 🐍 🏠 🐧 - 安裝大型安全工具集，並透過授權門控的伺服器發現與執行它，用於 CTF、滲透測試、漏洞賞金與 DFIR。"
+  },
+  {
+    "line": 3665,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIops-tools/Compliance-AIops) 🐍 🏠 - 將其他 AIops 工具的審計軌跡轉化為防篡改、雜湊鏈式證據包，並對映到 HIPAA、PCI-DSS、SOC 2 與 GDPR。離線且確定性。"
+  },
+  {
+    "line": 3666,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dtkmn/mcp-zap-server) ☕ 🏠 - 自託管的 OWASP ZAP 整合，帶引導式安全掃描、發現項摘要與報告生成。"
+  },
+  {
+    "line": 3667,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/felixpg13-glitch/spendshield) 🐍 🏠 - AI 代理的支付護欄：支出上限、預算與審批門、提示注入防禦、加密金鑰庫與審計軌跡。"
+  },
+  {
+    "line": 3668,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rudimentall1/agentic-wallet-guardian-v3) 🐍 🏠 - 自託管安全層，評估 AI 代理提議的區塊鏈交易，並返回可解釋的允許、警告或阻斷決策。"
+  },
+  {
+    "line": 3669,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/M2M-Sentinel/m2m-sentinel-sdk) 📇 ☁️ 🍎 🪟 🐧 - 面向 Base 上代理的 EVM 位元組碼能力分析、EIP-1967 代理解析、Gas 建議與起飛前安全檢查。"
+  },
+  {
+    "line": 3670,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nagameTW/mcp-server-malcolm) 🐍 🏠 🍎 🪟 🐧 - Malcolm 威脅狩獵：搜尋與聚合網路流量、查詢 Suricata 告警、瀏覽 Arkime 會話並解析 NetBox 資產。預設只讀。"
+  },
+  {
+    "line": 3671,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/chasdaddy/basescope) 📇 ☁️ - 面向 Base 與 EVM 的只讀安全檢查：蜜罐與拉 rug 檢測、風險授權、已驗證原始碼、餘額、ENS 與 Basenames、Gas 與價格。"
+  },
+  {
+    "line": 3672,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/elang2/mcp-audit-gateway) 📇 🏠 🍎 🪟 🐧 - 透明的 MCP 代理，保留代理工具呼叫的簽名、雜湊鏈式審計軌跡，支援 YAML 策略執行與 OpenTelemetry 匯出。"
+  },
+  {
+    "line": 3673,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sachio222/54ch10-mcp) 📇 ☁️ - 針對錢包地址、代幣與 URL 的 JSON 風險摘要：來自釣魚、詐騙與 URL 信譽啟發式（含 OpenPhish）的評分、標記與來源。"
+  },
+  {
+    "line": 3674,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/moxno/privacyscrubber-mcp) 📇 🏠 - 本地、零信任的 PII 與金鑰脫敏。"
+  },
+  {
+    "line": 3675,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/askalf/truecopy) 📇 🏠 🍎 🪟 🐧 - 面向代理技能與 MCP 伺服器的供應鏈閘道器：檢測被投毒的工具定義、按雜湊固定伺服器、在 CI 中檢查漂移，且僅代理已固定的工具。"
+  },
+  {
+    "line": 3676,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jamesdfinance-dev/lazaretto-mcp) 📇 ☁️ 🏠 - 對照惡意包公告檢查鎖檔案，並掃描產物中的憑據竊取、資料外洩、混淆、提示注入與投放器。"
+  },
+  {
+    "line": 3677,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/RoscoNL/intodns-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - 透過 IntoDNS.ai 進行 DNS 與郵件安全掃描：SPF、DKIM、DMARC、DNSSEC、MTA-STS、BIMI、TLS、黑名單與送達性檢查，外加安全頭部分析。"
+  },
+  {
+    "line": 3678,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/meloliva14/verity-mcp) 🐍 ☁️ - 面向代理的失敗關閉信任閘道器：事實核查、提示注入檢測、內容稽核、PII 與金鑰檢測，以及行動前護欄。"
+  },
+  {
+    "line": 3679,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/astafford8488/agentaegis-mcp) 📇 ☁️ - 在安裝前掃描 MCP 伺服器與技能，在呼叫前審查端點，並執行漏洞掃描、威脅情報與合規檢查。"
+  },
+  {
+    "line": 3680,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Fronesis-Labs/dcl-webhook) 🐍 ☁️ - 確定性審計層，將 LLM 與代理輸出對照越獄、安全與交易合規策略檢查，並將判定記錄到雜湊鏈。"
+  },
+  {
+    "line": 3681,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hernaninverso/eleion-scanner-mcp) 📇 ☁️ - 註冊並驗證域名、排隊安全掃描（頭部、TLS、DNS、埠、CVE 與 AI 專項檢查），並讀取發現項。"
+  },
+  {
+    "line": 3682,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/qinisolabs/qiniso) 📇 🏠 ☁️ - 根據校驗和與精選資料驗證 IBAN、VAT、VIN、條形碼、國籍與稅務 ID、加密地址、電話號碼、日期與節假日。"
+  },
+  {
+    "line": 3683,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/node-man/dechonet-mcp) 📇 ☁️ - 域名安全檢查：DNS、DNSSEC、TLS 評級、HTTP 安全頭部、SPF、DKIM 與 DMARC、埠掃描、ASN、RDAP 與 WHOIS，外加整體健康評分。"
+  },
+  {
+    "line": 3684,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nqzai/kakunin-mcp) 🎖️ 📇 ☁️ 🏠 - 代理合規與身份：驗證代理的 X.509 證書範圍、讀取其行為風險評分，並追加到不可變審計軌跡。"
+  },
+  {
+    "line": 3685,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/honeylabshq/honeylabs-mcp) 🐍 ☁️ - 來自感測器網路的蜜罐威脅情報：IP 信譽、掃描器分類、CVE 探測趨勢，以及 JA4、JA4H 與 HASSH 指紋。"
+  },
+  {
+    "line": 3686,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kent-tokyo/shohei) 🦀 ☁️ 🏠 🍎 🪟 🐧 - 基礎設施診斷：DNS 檢查、TLS 證書鏈檢查、郵件安全、全球 DNS 傳播與 DNS 延遲基準測試。"
+  },
+  {
+    "line": 3687,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/srinivasan-sundaresan95/orihime) 🐍 🏠 🍎 🪟 🐧 - 面向 Java、Kotlin、JavaScript 與 TypeScript 的跨倉庫程式碼知識圖譜：呼叫流追蹤、汙點分析、可達性與許可證合規。"
+  },
+  {
+    "line": 3688,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/suhui-organization/pod) 📇 🏠 🍎 🐧 - 面向代理的最小許可權編譯器：記錄真實工具呼叫、編譯最小策略、在 MCP 閘道器強制執行，並保留雜湊鏈式審計。"
+  },
+  {
+    "line": 3689,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexar76/aimarket-mcp) 🎖️ 🐍 🏠 ☁️ - 經過 SSRF 加固的網路閘道器，帶網頁獲取、網路搜尋與 Metis 驗證，與 Metis 和 ARGUS 共享經過審計的安全核心。"
+  },
+  {
+    "line": 3690,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexar76/aimarket-oracle-gateway) 📇 ☁️ 🏠 🍎 🪟 🐧 - 透過 AIMarket Hub 提供的可驗證預言機工具：Platon VRF 隨機性、Chronos VDF 計算與驗證，以及 LUMEN 信譽評分。"
+  },
+  {
+    "line": 3691,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexar76/argus) 🎖️ 📇 🏠 ☁️ 🍎 🪟 🐧 - 查詢 ARGUS-3 並檢查其狀態；WARDEN 透過評分防火牆、工具定義固定與漂移檢測來審查第三方 MCP 伺服器。"
+  },
+  {
+    "line": 3692,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexfleetcommander/agent-trust-stack-mcp) 🐍 📇 ☁️ 🏠 🍎 🪟 🐧 - 面向代理互動的密碼學溯源、盲信譽評分與防篡改日誌，支援爭議解決與基於信任的撮合。"
+  },
+  {
+    "line": 3693,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/teodorofodocrispin-cmyk/trustboost-api) 🐍 ☁️ - 在文字送達 LLM 前，對電子郵件、電話號碼、國籍 ID、私鑰與金融資料進行脫敏，支援英語、西班牙語、葡萄牙語、德語與日語。"
+  },
+  {
+    "line": 3694,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/123Ergo/unphurl-mcp) 📇 ☁️ - URL 安全訊號：重定向、品牌冒充、域名年齡、SSL 驗證、停放域名檢測、結構分析與 DNS 豐富。"
+  },
+  {
+    "line": 3695,
+    "translated": "- @@L0@@ 🐍 ☕ 🏠 - 用於二進位制分析的 Ghidra 外掛：函式檢查、反編譯、記憶體探索與匯入/匯出分析。"
+  },
+  {
+    "line": 3696,
+    "translated": "- @@L0@@ 🐍 📇 🏠 🍎 🪟 🐧 - 面向 MCP 伺服器的實時安全框架，透過分析工具呼叫模式與意圖來檢測並阻斷惡意代理行為。"
+  },
+  {
+    "line": 3697,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MARUCIE/authbox) 📇 🏎️ 🏠 🍎 🪟 🐧 - 零知識密碼管理器與 MCP 憑據閘道器：策略門控的代理訪問、確定性密碼、BIP-39 恢復與雜湊鏈式審計軌跡。"
+  },
+  {
+    "line": 3698,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Acacian/aegis) 🐍 🏠 🍎 🪟 🐧 - 跨 LangChain、OpenAI、Anthropic 與 MCP 的基於策略的代理工具呼叫治理：YAML 策略、審批門、風險評估與審計日誌。"
+  },
+  {
+    "line": 3699,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ajipurn/fida) 🦀 🏠 - 面向編碼代理的本地優先 MCP 閘道器，在檢測到的金鑰到達模型上下文前，對檔案讀取與命令輸出進行脫敏。"
+  },
+  {
+    "line": 3700,
+    "translated": "- @@L0@@ 🦀 🏠 - 來自 Solvitor 的逆向工程工具：從閉源 Solana 智慧合約提取 IDL 檔案並反編譯。"
+  },
+  {
+    "line": 3701,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aeoess/agent-passport-mcp) 🎖️ 📇 ☁️ 🏠 - 代理身份、範圍限定委託與治理：簽發護照、驗證僅收窄型委託鏈、強制執行閘道器策略併發出簽名記錄。"
+  },
+  {
+    "line": 3702,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/beeswaxpat/chronoverify-mcp) 📇 ☁️ 🍎 🪟 🐧 - 驗證照片的拍攝時間與來源：C2PA 內容憑證驗證、EXIF/XMP 一致性檢查與畫素取證，綜合為一個判定。"
+  },
+  {
+    "line": 3703,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/KOVY/agentforge-trust-mcp) 📇 ☁️ - 在連線前查詢 MCP 伺服器的 AgentForge 信任評分，涵蓋安全、程式碼健康、行為審計、社群信任與歐盟合規。"
+  },
+  {
+    "line": 3704,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/agentgraph-co/agentgraph) 🐍 ☁️ 🍎 🪟 🐧 - 面向 MCP 伺服器、包與工具的簽名、可重算安全評分，帶可離線驗證的證明與用於門控 CI 合併的 GitHub Action。"
+  },
+  {
+    "line": 3705,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AgentValet/AgentValet) 📇 ☁️ 🏠 - MCP 伺服器的身份與憑據代理：為每個代理簽發範圍限定、短時效的憑據，帶審計日誌與人工審批門。"
+  },
+  {
+    "line": 3706,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AperionAI/shield) 🦀 🏠 🍎 🪟 🐧 - 面向 MCP 伺服器的本地護欄代理：阻斷破壞性工具呼叫、固定工具目錄以防拉 rug，並掃描工具投毒與提示注入。"
+  },
+  {
+    "line": 3707,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/arian-gogani/nobulex) 📇 🏠 🍎 🪟 🐧 - 面向 AI 代理的行為證明強制執行：定義允許/禁止/要求規則，在執行時強制執行，並保留雜湊鏈式、防篡改的審計日誌。"
+  },
+  {
+    "line": 3708,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/9hannahnine-jpg/arc-gate-mcp) 🐍 - MCP 工具呼叫的執行時治理，在工具結果送達代理前阻斷提示注入與能力濫用。"
+  },
+  {
+    "line": 3709,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/agentward-ai/agent-ward) 🐍 🏠 🍎 🪟 🐧 - MCP 代理，對工具呼叫強制執行最小許可權 YAML 策略，分類 PII/PHI，檢測危險技能鏈，並生成合規審計軌跡。"
+  },
+  {
+    "line": 3710,
+    "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - 帶信任與支付通道的代理發現與認證：身份驗證、託管、結算與信譽管理。"
+  },
+  {
+    "line": 3711,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/maxfain/basedagents) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - 代理身份登錄檔（信譽、能力搜尋、任務市場、訊息），外加一個向代理租借 provider 金鑰的本地加密保險庫。"
+  },
+  {
+    "line": 3712,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gaoharimran29-glitch/Cybersecurity-MCP-Server) 🐍 🏠 🪟 🍎 🐧 - 本地安全偵察：WHOIS、DNS 與子域列舉、Nmap 掃描、TLS 檢查、技術指紋識別、CVE 與 IP 信譽查詢。"
+  },
+  {
+    "line": 3713,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vinaybhosle/agentstamp) 📇 ☁️ - 面向 AI 代理的信任情報：身份印章、信譽評分、登錄檔、取證審計軌跡，以及透過 x402 微支付的 A2A 護照。"
+  },
+  {
+    "line": 3714,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/runtimeguard/runtime-guard) 🐍 🏠 🍎 🪟 - 面向 AI 代理的執行時策略強制執行，防止意外系統破壞與未授權訪問，並在檔案寫入前自動備份。"
+  },
+  {
+    "line": 3715,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@airblackbox/air-blackbox-mcp) 🐍 🏠 🍎 🪟 🐧 - 面向 Python AI 代理（LangChain、CrewAI、AutoGen、OpenAI）的歐盟《AI 法案》合規掃描器，帶提示注入檢測、風險分類與修復生成。"
+  },
+  {
+    "line": 3716,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 面向 AI 代理、以安全為重點的安全準則與內容分析。"
+  },
+  {
+    "line": 3717,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@alberthild/shield-api-mcp) 📇 ☁️ 🍎 🪟 🐧 - 安全情報：HIBP 密碼洩露檢查、郵箱/域名/IP/URL 信譽、提示注入檢測與技能供應鏈掃描。"
+  },
+  {
+    "line": 3718,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rudraneel93/mcp-guardian) 📇 🏠 🍎 🪟 🐧 - 面向 MCP 的安全與治理代理，帶 YAML 策略（黑名單、速率限制、token 預算）、token 成本追蹤、健康監控與 RBAC。"
+  },
+  {
+    "line": 3719,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jamjet-labs/jamjet-policy) 📇 🏠 🍎 🪟 🐧 - MCP 攔截器，對工具呼叫應用單一 YAML 策略（阻斷、要求審批、審計、預算上限），也可用於 Claude Code hooks 與代理 SDK。"
+  },
+  {
+    "line": 3720,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kastelldev/kastell) 📇 ☁️ 🏠 🍎 🪟 🐧 - 伺服器安全審計與加固（SSH、防火牆、Docker、TLS），帶 CIS/PCI-DSS/HIPAA 對映、機群管理與取證證據收集。"
+  },
+  {
+    "line": 3721,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ze6ad36390) 🐍 ☁️ 🍎 🪟 🐧 - 第三方認證代理，用獨立的 Ed25519 簽名、RFC 3161 時間戳與 Sigstore Rekor 錨點為任意 HTTP 呼叫簽名。"
+  },
+  {
+    "line": 3722,
+    "translated": "- @@L0@@ 🐍 🪟 🏠 - 分析來自 Azure 租戶列舉的 ROADrecon 收集結果。"
+  },
+  {
+    "line": 3723,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mirajmahmudul/agentdevx-sdk) 📇 ☁️ - 面向代理的身份與憑據閘道器：Ed25519 身份、加密憑據庫、帶審計日誌的 OPA 策略、每代理記憶與網頁抓取。"
+  },
+  {
+    "line": 3724,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 面向 MCP 的確定性安全代理，攔截工具呼叫、強制執行 YAML 策略、掃描金鑰洩露並記錄一切。"
+  },
+  {
+    "line": 3725,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Gowthaman90/mcp-bastion) 📇 🏠 🍎 🪟 🐧 - 面向 MCP 伺服器的安全代理：工具定義固定、工具投毒與資料外洩檢測、注入阻斷、金鑰脫敏與審計軌跡。"
+  },
+  {
+    "line": 3726,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bluetieroperations-create/blackwall-mcp) 📇 ☁️ - 代理在不可逆操作前呼叫的風險閘道器，返回風險評分、可逆性類別、紅旗，以及繼續/確認/需人工的決策。"
+  },
+  {
+    "line": 3727,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Perufitlife/web-exposure-mcp) 📇 🏠 🍎 🪟 🐧 - 對實時 URL 的只讀檢查，查詢公開暴露的金鑰檔案：.git、.env、JS 源對映、備份/SQL 轉儲、目錄列表與隱藏檔案。"
+  },
+  {
+    "line": 3728,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Bichev/agentradar-mcp) 📇 ☁️ 🍎 🪟 🐧 - 面向 ERC-8004 與 x402 代理的鏈上信任預言機：複合信任評分、詐騙錢包資料庫、ERC-8004 身份查詢與 Base 上的 EAS 證明。"
+  },
+  {
+    "line": 3729,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Buggy1111/anonymize-mcp) 🐍 🏠 🍎 🪟 🐧 - 使用 ÚFAL/LINDAT NLP（MasKIT、NameTag）以捷克語及多種語言對 PII 進行 GDPR 匿名化，外加詞形、翻譯與拼寫檢查。"
+  },
+  {
+    "line": 3730,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/FoundryNet/mint-mcp) 🐍 ☁️ 🎖️ - 面向代理的 MINT 協議工作證明：以密碼學方式證明、驗證、評分與發現代理工作，構建可移植的鏈上信譽。"
+  },
+  {
+    "line": 3731,
+    "translated": "- @@L0@@ 📇 🪟 ☁️ - 執行 DNS 模糊測試工具 dnstwist，以檢測錯別字搶注、釣魚與企業間諜活動。"
+  },
+  {
+    "line": 3732,
+    "translated": "- @@L0@@ 📇 🪟 ☁️ - 使用 OSINT 工具 maigret 跨社交網路搜尋使用者名稱並分析 URL，該工具從公開來源收集賬戶資訊。"
+  },
+  {
+    "line": 3733,
+    "translated": "- @@L0@@ 📇 🪟 ☁️ - 查詢 Shodan API 與 Shodan CVEDB：IP 查詢、裝置搜尋、DNS 查詢、漏洞查詢與 CPE 查詢。"
+  },
+  {
+    "line": 3734,
+    "translated": "- @@L0@@ 📇 🪟 ☁️ - 查詢 VirusTotal API：掃描 URL、分析檔案雜湊並獲取 IP 地址報告。"
+  },
+  {
+    "line": 3735,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mcp-hangar/mcp-hangar) 🐍 🏠 - 面向 MCP 伺服器機群的自託管策略強制執行：確定性准入與出口策略、可歸因審計日誌與 SIEM 匯出。"
+  },
+  {
+    "line": 3736,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Declade/lucairn-sdks) 📇 ☁️ 🍎 🪟 🐧 - 隱私閘道器，在提示送達 LLM 前清洗德語與英語 PII，併為每次呼叫簽發帶簽名、時間戳的證書。"
+  },
+  {
+    "line": 3737,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/chrbailey/promptspeak-mcp-server) 📇 🏠 🍎 🪟 🐧 - 代理工具呼叫的執行前治理：風險分類、行為漂移檢測、危險操作的暫掛佇列與審計軌跡。"
+  },
+  {
+    "line": 3738,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bx33661/Wireshark-MCP) 🐍 🏠 - Wireshark 資料包分析：抓包、協議統計、欄位提取與安全分析。"
+  },
+  {
+    "line": 3739,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 帶 Z3 形式化驗證的確定性 AI 安全策略引擎：為 AI 代理編寫、驗證並強制執行機器可驗證約束。"
+  },
+  {
+    "line": 3740,
+    "translated": "- @@L0@@ 🐍 🏠 ☁️ 🐧 - 演示透過 RA-TLS 對執行在 Gramine TEE 中的 MCP 伺服器進行遠端證明，使客戶端能在連線前驗證伺服器。"
+  },
+  {
+    "line": 3741,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/corewebvitals/state-of-cwv-mcp) ☁️ - 按 CMS、CDN 與框架劃分的核心 Web Vitals 指標，基於 Chrome 現場資料與多站點爬取。"
+  },
+  {
+    "line": 3742,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/coreyhines/opnsense-mcp) 🐍 📇 ☁️ 🏠 - 透過 API 進行 OPNsense 防火牆操作：查詢 ARP、DHCP、防火牆規則、日誌、介面、系統狀態與資料包捕獲。"
+  },
+  {
+    "line": 3743,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/creatorrmode-lead/avp-sdk) 📇 ☁️ - 面向 AI 代理的信任、W3C DID 身份與 EigenTrust 信譽，帶證明、爭議、女巫檢測與 IPFS 審計錨定。"
+  },
+  {
+    "line": 3744,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Cubiczan/governed-mcp-gateway) 📇 🏠 🍎 🪟 🐧 - HTTP MCP 閘道器，將主體附加到工具呼叫與 SSE 流，帶允許列表與保險庫輪換。"
+  },
+  {
+    "line": 3745,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Cubiczan/trust-ledger-os) 📇 🏠 🍎 🪟 🐧 - 面向 AI 團隊的信任與風險控制平面，帶階段、路由與包目錄。"
+  },
+  {
+    "line": 3746,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gebalamariusz/cloud-audit) 🐍 🏠 🍎 🪟 🐧 - AWS 安全掃描器，帶攻擊鏈檢測、洩露成本估算，以及面向 CLI 與 Terraform 的修復片段。"
+  },
+  {
+    "line": 3747,
+    "translated": "- @@L0@@ 🐍 🏠 - 本地優先的 AWS 安全分析器，使用圖論發現攻擊路徑並生成修復方案。"
+  },
+  {
+    "line": 3748,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dambuchs/redact-pdf-mcp) 📇 ☁️ 🍎 🪟 🐧 - 從 PDF、掃描件與截圖永久脫敏 PII（姓名、郵箱、電話號碼、地址、IBAN、卡號），支援多語言 OCR。"
+  },
+  {
+    "line": 3749,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/datanexusmcp/mcp-server) 🏠 ☁️ - 公開資料查詢：CVE/SBOM 安全審計、許可證合規、專利、聯邦合同、NPI 提供者、非營利 990 申報與域名情報。"
+  },
+  {
+    "line": 3750,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dnsdoctor/claude-plugin) 🎖️ 🐍 ☁️ - 掃描並修復域名的郵件認證（SPF、DMARC、DKIM、MX）、黑名單狀態與域名/SSL 到期，提供確定性、經過驗證的修復記錄。"
+  },
+  {
+    "line": 3751,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/doublegate/CyberChef-MCP) 📇 🏠 - GCHQ CyberChef 的加密、編碼、壓縮與取證操作，外加雜湊識別、密碼破解與 RSA 攻擊等分析工具。"
+  },
+  {
+    "line": 3752,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@duriantaco/mcp-skylos) 🐍 🏠 🍎 🪟 🐧 - 面向 Python、TypeScript 與 Go 的死程式碼檢測、安全掃描與程式碼質量分析，帶 AI 輔助修復。"
+  },
+  {
+    "line": 3753,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/elberacasa/umbra) 📇 🏠 🍎 🪟 🐧 - 面向 AI 生成程式碼的信任評分與護欄：靜態安全規則、Docker 驗證的構建/啟動檢查，以及能識破代理謊報測試的收據。"
+  },
+  {
+    "line": 3754,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/eliottreich/taskbounty-check) 📇 🏠 🍎 🪟 🐧 - 面向 AI 構建應用中的 GitHub Actions 與 CI 維護問題的本地只讀掃描器，帶發現項說明與修復計劃。"
+  },
+  {
+    "line": 3755,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/emiliaprotocol/emilia-protocol) 📇 🏠 - 在支付或部署等不可逆代理操作前要求具名人工審批，隨後簽發可離線驗證的 Ed25519 信任收據。"
+  },
+  {
+    "line": 3756,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Erodenn/fetch-guard) 🐍 🏠 🍎 🪟 🐧 - URL 獲取與 HTML 轉 Markdown 轉換器，帶分層提示注入防禦：隱藏元素清洗、風險掃描與內容邊界包裹。"
+  },
+  {
+    "line": 3757,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 安全地與 Authenticator 應用互動。"
+  },
+  {
+    "line": 3758,
+    "translated": "- @@L0@@ 🏎️ 🏠 🍎 🪟 🐧 - 金鑰管理器，將憑據作為環境變數注入命令，使代理永遠不會看到明文金鑰，並清洗命令輸出。"
+  },
+  {
+    "line": 3759,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/x402-notary-mcp) 📇 ☁️ - 用簽名 Ed25519 證明、SHA-256 內容雜湊與在 Base 或 Solana 上的 Merkle 錨點為 AI 模型輸出公證，透過 x402 付費。"
+  },
+  {
+    "line": 3760,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 用於自動化二進位制分析與逆向工程的 Binary Ninja 外掛與橋接器。"
+  },
+  {
+    "line": 3761,
+    "translated": "- @@L0@@ 📇 ☁️ - 查詢 ORKL API 以獲取威脅報告、分析威脅行為者並檢索情報來源。"
+  },
+  {
+    "line": 3762,
+    "translated": "- @@L0@@ - 使用 Volatility 3 進行記憶體取證，透過 REST API 暴露 pslist 與 netscan 等外掛。"
+  },
+  {
+    "line": 3763,
+    "translated": "- @@L0@@ 🦀 🏠 🍎 🪟 🐧 - Cortex 整合，用於可觀測分析與自動化安全響應。"
+  },
+  {
+    "line": 3764,
+    "translated": "- @@L0@@ 🦀 🏠 🍎 🪟 🐧 - TheHive 整合，用於協作式安全事件響應與案件管理。"
+  },
+  {
+    "line": 3765,
+    "translated": "- @@L0@@ 🦀 🏠 🍎 🪟 🐧 - 從 Wazuh SIEM 訪問實時安全告警與事件資料。"
+  },
+  {
+    "line": 3766,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/getaegis/aegis) 📇 🏠 🍎 🪟 🐧 - 憑據隔離代理，在網路邊界注入金鑰，帶域名限制、代理認證與審計日誌。"
+  },
+  {
+    "line": 3767,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Kjopstad-IT/rqwstr-mcp) 🏎️ 🏠 - HTTP 安全測試工具包（send、intruder、race、chain、帶外），帶底層 HTTP/1.1 與 HTTP/2 控制：原始幀與連線固定。"
+  },
+  {
+    "line": 3768,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Kzino/vorim-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - 代理身份、信任與審計軌跡：Ed25519 代理註冊、許可權檢查、防篡改審計事件、信任評分與憑據委託。"
+  },
+  {
+    "line": 3769,
+    "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - 使用 GridinSoft Inspector 進行域名與 URL 安全分析，以驗證網站與連結安全性。"
+  },
+  {
+    "line": 3770,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/goklab/guardvibe) 📇 🏠 🍎 🪟 🐧 - 面向 vibe 編碼應用（Next.js、Supabase、Stripe、Prisma 等）的安全掃描器：汙點分析、自動修復、SARIF 匯出、預提交鉤子與 CVE 檢測。"
+  },
+  {
+    "line": 3771,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ARKALDA/hejdar-mcp) 🐍 ☁️ - 面向 AI 代理的執行時策略強制執行：在執行前依據組織策略評估操作，支援觀察或強制模式。"
+  },
+  {
+    "line": 3772,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/goldmembrane/cleaner-code) 📇 🏠 🍎 🪟 🐧 - 在本地使用靜態分析與 CodeBERT 掃描 AI 生成的程式碼，檢測不可見 Unicode、Trojan Source、同形字、規則檔案後門與錯別字搶注。"
+  },
+  {
+    "line": 3773,
+    "translated": "- @@L0@@ 🐍 ☁️️ 🍎 🪟 🐧 - 查詢 NIST 國家漏洞資料庫（NVD）API。"
+  },
+  {
+    "line": 3774,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/haruodev/tamperlens-mcp) 📇 ☁️ 🍎 🪟 🐧 - 透過 Tamperlens API 進行文件取證：檢測 PDF、Office 檔案與影象中建立後的篡改、失敗的脫敏與嵌入的提示注入。"
+  },
+  {
+    "line": 3775,
+    "translated": "- @@L0@@ 🐍 ☁️ - 透過 Microsoft Graph 進行 Microsoft Entra ID（Azure AD）目錄、使用者、組、裝置、登入與安全操作。"
+  },
+  {
+    "line": 3776,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/I4cTime/quantum_ring) 📇 🏠 🍎 🪟 🐧 - 面向 AI 編碼代理的量子啟發金鑰環，利用疊加、糾纏、隧穿與隱形傳態保護金鑰。"
+  },
+  {
+    "line": 3777,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/icoretech/warden-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 透過 bw CLI 管理 Bitwarden 與 Vaultwarden 保險庫：搜尋、建立、編輯與整理登入、筆記、卡片、身份、SSH 金鑰、資料夾與 Sends。"
+  },
+  {
+    "line": 3778,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/infai-tech/vulnfeed-mcp) 🐍 🏠 🍎 🪟 🐧 - 掃描依賴鎖檔案中的漏洞，按 EPSS 利用機率排序，並推薦修復版本，帶監控與告警。"
+  },
+  {
+    "line": 3779,
+    "translated": "- @@L0@@ 🐍 ☁️ - 訪問 Intruder，以識別、理解並修復基礎設施中的安全漏洞。"
+  },
+  {
+    "line": 3780,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/itsalissonsilva/ModelSafetyMCP) 🐍 🏠 - 使用 ModelScan、PickleScan 與啟發式方法，掃描 ML 模型產物、URL 與目錄中的不安全序列化、惡意模式與風險打包。"
+  },
+  {
+    "line": 3781,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/inkog-io/inkog) 📇 ☁️ - 審計代理與 MCP 伺服器是否存在提示注入、無限迴圈、token 轟炸與缺失人工監督，並對映到歐盟《AI 法案》與 OWASP。"
+  },
+  {
+    "line": 3782,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jaimenbell/rails-mcp) 🐍 🏠 - 自託管的預設拒絕操作登錄檔、僅追加的支出意圖賬本，以及用於門控不可逆代理操作的人工籤核審計軌跡。"
+  },
+  {
+    "line": 3783,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/joergmichno/clawguard-mcp) 🐍 🏠 - 使用正則模式檢測提示注入的、面向 AI 代理的安全掃描器。"
+  },
+  {
+    "line": 3784,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jnMetaCode/shellward) 📇 🏠 🍎 🪟 🐧 - 代理安全中介軟體，帶分層防禦：提示注入檢測、DLP 資料流追蹤、命令阻斷與 PII 檢測。"
+  },
+  {
+    "line": 3785,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JoeyBrar/agentseal-mcp) 📇 🏠 - 面向 AI 代理的操作日誌：將每個操作記錄到 SHA-256 雜湊鏈作為審計軌跡。"
+  },
+  {
+    "line": 3786,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jonnybottles/patch-tuesday-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 來自 MSRC 安全更新指南的微軟補丁星期二分診：月度彙總、CVE/KB 查詢、替代鏈與 EPSS/CISA KEV 緊急度排名。"
+  },
+  {
+    "line": 3787,
+    "translated": "- @@L0@@ ☕ 🏠 - 原生 Ghidra 整合，帶 GUI 配置、日誌且無外部依賴。"
+  },
+  {
+    "line": 3788,
+    "translated": "- @@L0@@ 🐍 🏠 🪟 - 從 CCTV 錄影程式（VMS）檢索實時與已錄影片並控制它，例如開啟特定通道與時間的實時或回放對話方塊。"
+  },
+  {
+    "line": 3789,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/juanisidoro/securecode-mcp) 📇 ☁️ 🍎 🪟 🐧 - 面向 Claude Code 的加密金鑰保險庫，將金鑰注入本地檔案使 AI 永遠看不到原始值，帶審計日誌與按模型訪問控制。"
+  },
+  {
+    "line": 3790,
+    "translated": "- @@L0@@ ☕ 🏠 - 使用 Ghidra 的自主逆向工程：反編譯二進位制、重新命名方法與資料，並列出方法、類、匯入與匯出。"
+  },
+  {
+    "line": 3791,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/luiacuaniello/perspectivegraph) 🎖️ 🏎️ 🏠 🍎 🪟 🐧 - 面向雲與 Kubernetes 的攻擊路徑引擎：列出從網際網路暴露到敏感資產的路由、解釋每一跳、找到瓶頸點並模擬修復。"
+  },
+  {
+    "line": 3792,
+    "translated": "- @@L0@@ ☁️ - 蜜罐框架，用於構建代理在正常工作中絕不會使用的誘餌 MCP 工具，以檢測提示注入與惡意代理行為。"
+  },
+  {
+    "line": 3793,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Mobb Vibe Shield 識別並修復人工與 AI 編寫程式碼中的漏洞。"
+  },
+  {
+    "line": 3794,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@MoltyCel/moltrust-mcp-server) 🐍 ☁️ 🍎 🪟 🐧 - 面向 AI 代理的信任基礎設施：註冊 DID、驗證身份、查詢信譽評分、對代理評分並管理 W3C 可驗證憑證。"
+  },
+  {
+    "line": 3795,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@msaad00/agent-bom) 🐍 🏠 ☁️ 🍎 🪟 🐧 - AI 供應鏈安全掃描器：發現 MCP 客戶端、掃描依賴中的 CVE、將影響半徑對映到憑據與工具，並生成 SBOM。"
+  },
+  {
+    "line": 3796,
+    "translated": "- @@L0@@ 🐍 🏠 - 用於二進位制分析的 IDA Pro 外掛：反編譯、反彙編與自動惡意軟體分析報告。"
+  },
+  {
+    "line": 3797,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mrz1880/mcp-keycloak-admin) 📇 🏠 - 透過 Keycloak 的 Admin REST API 進行管理：使用者、角色、客戶端、組、身份提供者、聯邦與事件，帶只讀模式。"
+  },
+  {
+    "line": 3798,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/muhannad-hash/mcp-shield) 📇 🏠 🍎 🪟 🐧 - MCP 伺服器的安裝前安全掃描器：檢測後門、資料外洩程式碼、混淆、危險執行、提示注入與供應鏈風險。"
+  },
+  {
+    "line": 3799,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nh4ttruong/secobserve-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - SecObserve 漏洞與許可證管理：分診觀察項、管理產品與規則、匯入掃描報告與 SBOM、執行掃描並生成 VEX。"
+  },
+  {
+    "line": 3800,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rob925/mcp-shield) 🐍 🏠 🍎 🪟 🐧 - 面向 MCP 伺服器與代理工具的靜態安全掃描器：檢測金鑰、shell 執行、風險工具描述、環境訪問與提示注入。"
+  },
+  {
+    "line": 3801,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nickgeorgeseo/mcp-gatehouse) 🐍 🏠 - 在 MCP 伺服器內部、於工具邊界強制執行的許可權層級、審批門與金鑰脫敏審計日誌，附帶演示訂單臺伺服器。"
+  },
+  {
+    "line": 3802,
+    "translated": "- @@L0@@ 🏎️ 🏠 - 使用 httpx 與 asnmap 的對話式偵察：域名分析、安全頭部檢查、證書分析與多級別 ASN 查詢。"
+  },
+  {
+    "line": 3803,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/operantlabs/operant-mcp) 📇 ☁️ 🏠 - 用於滲透測試、網路取證、記憶體分析與漏洞評估的安全測試工具。"
+  },
+  {
+    "line": 3804,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/OrygnsCode/opa-mcp-server) 📇 🏠 ☁️ 🍎 🪟 🐧 - 封裝 OPA CLI 與 Regal 的 OPA 與 Rego 策略工具包：格式化、lint、評估、測試與基準測試策略，管理 OPA REST API 並解釋決策。"
+  },
+  {
+    "line": 3805,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Pentagonal-ai/pentagonal) 📇 ☁️ - 在以太坊、Solana、Base 等鏈上生成、審計、修復並編譯智慧合約，帶對抗式多代理滲透測試與蜜罐檢測。"
+  },
+  {
+    "line": 3806,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/P4ST4S/mcp-audit) 🏎️ 🏠 - 透明的代理，在不修改客戶端或服務端的情況下攔截、簽名、限流、脫敏並審計 MCP 工具呼叫。"
+  },
+  {
+    "line": 3807,
+    "translated": "- @@L0@@ 🎖️ 🐍 ☁️ 🍎 - 用自然語言使用 Panther 的 SIEM 平臺編寫檢測規則、查詢日誌並管理告警。"
+  },
+  {
+    "line": 3808,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/piiiico/proof-of-commitment) 📇 ☁️ 🏠 🍎 🪟 🐧 - 基於行為訊號（釋出者深度、釋出一致性、維護模式）對 npm、PyPI、Cargo 與 Go 包進行供應鏈風險評分。"
+  },
+  {
+    "line": 3809,
+    "translated": "- @@L0@@ 🦀 🏠 🍎 🪟 🐧 - 使用 MobSF 對 Android 與 iOS 應用進行靜態與動態分析。"
+  },
+  {
+    "line": 3810,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ppcvote/misp-mcp-server) 📇 🏠 🍎 🪟 🐧 - 只讀的 MISP 威脅情報（事件、屬性、搜尋、標籤、訂閱源、星系），並對每個響應進行提示注入掃描。"
+  },
+  {
+    "line": 3811,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/project-feldspar-resources/feldspar-scan) 🐍 ☁️ 🏠 🐧 - 對公開 git 倉庫的確定性安全掃描：透過 OSV 檢測漏洞依賴、硬編碼金鑰與風險配置 lint，以 file:line 形式呈現發現項。"
+  },
+  {
+    "line": 3812,
+    "translated": "- @@L0@@ 📇 ☁️ - 對照 npm 登錄檔實時檢查，審計 npm 包依賴中的安全漏洞。"
+  },
+  {
+    "line": 3813,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rafapra3008/cervellaswarm) 🐍 🏠 🍎 🪟 🐧 - 使用會話型別與 Lean 4 證明驗證代理通訊協議以捕獲死鎖與角色違規；包含 linter、格式化器與 LSP。"
+  },
+  {
+    "line": 3814,
+    "translated": "- @@L0@@ 📇 ☁️ - 查詢 RAD Security API 以獲取 Kubernetes 與雲安全發現項、報告與執行時資料。"
+  },
+  {
+    "line": 3815,
+    "translated": "- @@L0@@ 🍎 🪟 🐧 🏠 🌊 - 使用 Radare2 反彙編器對二進位制進行反彙編與檢查，用於逆向工程。"
+  },
+  {
+    "line": 3816,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rev2ret/SecureAudit-MCP) 📇 🏠 🍎 🪟 🐧 - 靜態 C/C++ 記憶體安全掃描與 PE/ELF 二進位制保護審計（ASLR、DEP/NX、SafeSEH、PIE），透過安全模板進行修復。"
+  },
+  {
+    "line": 3817,
+    "translated": "- @@L0@@ 🐍 🏠 - 查詢 CVE-Search API：瀏覽廠商與產品、按 ID 獲取 CVE 並列出最近更新的 CVE。"
+  },
+  {
+    "line": 3818,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Rul1an/assay) 🦀 🏠 🍎 🪟 🐧 - 面向 MCP 的失敗關閉策略即程式碼代理，拒絕風險工具呼叫、生成可離線驗證的證據包，並透過 eBPF 與 Landlock 強制執行出口控制。"
+  },
+  {
+    "line": 3819,
+    "translated": "- @@L0@@ 🎖️ 🏎️ ☁️ 🍎 🪟 🐧 - 在本地檢查 npm 與 PyPI 包（例如 AI 編碼工具建議的包）是否存在漏洞與惡意程式碼。"
+  },
+  {
+    "line": 3820,
+    "translated": "- @@L0@@ ☁️ 🏠 - 基於 dAWShund 列舉 AWS IAM 資料、分析有效許可權，並視覺化跨使用者、角色與資源的訪問關係。"
+  },
+  {
+    "line": 3821,
+    "translated": "- @@L0@@ 🐍 ☁️ 🏠 🐧 🪟 - Thales CipherTrust Manager 整合，用於金鑰管理、加密操作與合規監控。"
+  },
+  {
+    "line": 3822,
+    "translated": "- @@L0@@ 🐍 ☁️ 🏠 🐧 🪟 - Thales CDSP CAKM 整合，用於 Microsoft SQL Server 與 Oracle 資料庫的金鑰管理、加密操作與合規監控。"
+  },
+  {
+    "line": 3823,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 🐧 🪟 - 與 Thales CipherTrust Manager RESTful 資料保護服務的整合。"
+  },
+  {
+    "line": 3824,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SaravananJaichandar/etch-mcp) 🐍 ☁️ 🍎 🪟 🐧 - 面向 AI 代理決策的簽名審計鏈：事件被簽名、按專案 Merkle 鏈式連線、錨定到公共透明度日誌並可離線驗證。"
+  },
+  {
+    "line": 3825,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/scamverifyai/scamverify-mcp) 📇 ☁️ - 使用 FTC/FCC 投訴、URLhaus 與 ThreatFox 對電話號碼、URL、文字、郵箱、文件與二維碼進行詐騙與威脅檢查，並給出風險評分。"
+  },
+  {
+    "line": 3826,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/scalekit-inc/scalekit-mcp-server) 🎖️ 📇 ☁️ - 管理 Scalekit 的組織、使用者與 SSO。"
+  },
+  {
+    "line": 3827,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Thezenmonster/agentscore-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - 安全信任層，監控 npm 上的 MCP 包是否存在安裝指令碼、命令注入、硬編碼金鑰、能力漂移與釋出者姿態。"
+  },
+  {
+    "line": 3828,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/thyn-ai/algenta-sdk) 🎖️ 🐍 ☁️ 🏠 🍎 🪟 🐧 - Algenta 決策引擎：資料集發現、精確查詢、效用模型、決策記憶，以及帶審批與執行收據的受治理代理執行。"
+  },
+  {
+    "line": 3829,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tomjwxf/scopeblind-gateway) 📇 🏠 - 安全閘道器，用每工具策略、審批門與可選的簽名收據包裝 MCP 伺服器，支援影子（僅日誌）或強制模式。"
+  },
+  {
+    "line": 3830,
+    "translated": "- @@L0@@ 🐍 🏠 - 安全測試工具箱，在單一介面後整合開源工具，用於滲透測試、漏洞賞金狩獵與威脅狩獵。"
+  },
+  {
+    "line": 3831,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sekera-radim/impri) 🎖️ 📇 ☁️ 🏠 - 可自託管的「人在迴路」審批收件箱：人工透過 Web、移動端、Slack、Discord 或 Telegram 批准、拒絕或編輯提議的代理操作。"
+  },
+  {
+    "line": 3832,
+    "translated": "- @@L0@@ 🎖️ 🐍 ☁️ - 使用 Semgrep 掃描程式碼中的安全漏洞。"
+  },
+  {
+    "line": 3833,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sgateway/s-gw) 📇 🏠 🍎 🪟 🐧 - 面向編碼代理的本地憑據閘道器：代理獲取控制代碼而非原始金鑰，一次性審批僅將憑據注入已批准的命令。"
+  },
+  {
+    "line": 3834,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dneiil7zph) 📇 ☁️ - 掃描 SKILL.md 檔案、MCP 配置與系統提示，檢測憑據竊取、提示注入、零寬字元攻擊與 ClawHavoc 指標。"
+  },
+  {
+    "line": 3835,
+    "translated": "- @@L0@@ 🐍 ☁️ - 透過 CyberChef 伺服器 API 使用 CyberChef 操作。"
+  },
+  {
+    "line": 3836,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sidclawhq/platform) 📇 🏠 ☁️ 🍎 🪟 🐧 - 治理代理，用策略評估、人工審批工作流與雜湊鏈式審計軌跡包裝 MCP 伺服器。"
+  },
+  {
+    "line": 3837,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Chronolapse411/sicarius-guard) 📇 ☁️ - Solana 代幣安全預言機：位元組級 SPL mint 分析、蜜罐檢測、凍結/mint 許可權檢查、Birdeye 市場資料與複合風險評分。"
+  },
+  {
+    "line": 3838,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sint-ai/sint-protocol) 📇 🏠 🍎 🪟 🐧 - MCP 治理代理，帶能力令牌、分級審批、失敗關閉執行與防篡改審計收據，外加起飛前工具風險評估。"
+  },
+  {
+    "line": 3839,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Skyrxin/sast-mcp-server) 🐍 🏠 🍎 🪟 🐧 - SAST/DAST 掃描器（Bandit、Semgrep、Trivy、CodeQL、OWASP ZAP 等），帶閉環修復、SARIF/SBOM/VEX 匯出與合規報告。"
+  },
+  {
+    "line": 3840,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ 🍎 🪟 🐧 - 將 Snyk 的安全引擎嵌入代理工作流，實時保護 AI 生成的程式碼，並更快地處理漏洞積壓。"
+  },
+  {
+    "line": 3841,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sp3ak/safenode-mcp-gateway) 📇 🏠 ☁️ 🍎 🪟 🐧 - 面向 MCP 工具呼叫的失敗關閉策略代理，在轉發前對每個呼叫予以拒絕、警告或暫掛以待人工審批，並帶客戶端脫敏。"
+  },
+  {
+    "line": 3842,
+    "translated": "- @@L0@@ 🏎️ ☁️ - 按包版本或提交查詢 OSV（開源漏洞）資料庫、批次查詢多個包，並按 ID 獲取漏洞詳情。"
+  },
+  {
+    "line": 3843,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/swnotmetal/Project-Koma) 🎖️ 📇 🏠 🍎 🪟 🐧 - 使用 Koma Gate 基於 LLM 的分類器，對提示注入與越界內容進行分類。"
+  },
+  {
+    "line": 3844,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Synvoya/codeinspectus) 📇 🏠 🍎 - 面向 AI 生成的 JS/TS 的本地安全掃描器，結合 Opengrep、Gitleaks 與 Trivy，檢查暴露的金鑰、Supabase RLS 與提示注入。"
+  },
+  {
+    "line": 3845,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/velvetway/minreestr-mcp) 🐍 ☁️ 🍎 🪟 🐧 - 在俄羅斯軟體登錄檔中搜尋進口替代與 FSTEC/FSB 認證產品，支援全文搜尋與製造商列表。"
+  },
+  {
+    "line": 3846,
+    "translated": "- @@L0@@ 📇 🏠 - 用自然語言管理與互動 OPNsense 開源防火牆。"
+  },
+  {
+    "line": 3847,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vikasny30/aletheia-mcp) 📇 🏠 🍎 🪟 🐧 - 面向代理工具呼叫的確定性執行前過濾器，阻斷範圍蔓延（憑據讀取、SSRF、破壞性 shell/SQL）與提示注入。"
+  },
+  {
+    "line": 3848,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wei9072/aegis) 🦀 🏠 🍎 🪟 🐧 - 代理檔案編輯的准入控制：檢查語法、結構成本回歸與 workspace 邊界，返回 BLOCK、WARN 或 PASS 判定。"
+  },
+  {
+    "line": 3849,
+    "translated": "- @@L0@@ 🏎️ 🐍 🏠 🍎 🪟 🐧 - 無頭 IDA Pro 二進位制分析，支援併發會話，並匯入 Il2CppDumper 與 Blutter 後設資料，用於 Unity 與 Flutter 逆向工程。"
+  },
+  {
+    "line": 3850,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zekebuilds-lab/captcha-mcp) 📇 🏠 🍎 🪟 🐧 - 中介軟體，將 MCP 工具呼叫置於 Hashcash 工作量證明挑戰或經由自託管 LNbits 的 L402 Lightning 支付之後。"
+  },
+  {
+    "line": 3851,
+    "translated": "- @@L0@@ 🐍 🏠 - 使用 Apktool 自動化 Android APK 的逆向工程。"
+  },
+  {
+    "line": 3852,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - Zitadel 身份管理：用自然語言管理使用者、專案、OIDC 應用、角色與服務賬號。"
+  },
+  {
+    "line": 3853,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/taniwhaai/arai) 🦀 🏠 🍎 🪟 🐧 - 透過阻斷被禁止的工具呼叫並記錄每條規則的合規判定，強制執行現有代理指令檔案（CLAUDE.md、.cursorrules）中的規則。"
+  },
+  {
+    "line": 3854,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/toan203/osv-ui) 📇 🏠 🍎 🪟 🐧 - 使用 OSV 資料、面向 npm、Python、Go 與 Rust 的視覺化 CVE 審計儀表盤，帶基於瀏覽器的人工審查，且修復僅在確認後應用。"
+  },
+  {
+    "line": 3855,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ScopeBlind/verify-mcp) 📇 🏠 🍎 🪟 🐧 - 對收據、清單與審計包等 Ed25519/JCS 簽名產物的離線驗證。"
+  },
+  {
+    "line": 3856,
+    "translated": "- @@L0@@ ☕ 🏠 - 提供實時、LLM 輔助逆向工程的 JADX 反編譯外掛。"
+  },
+  {
+    "line": 3857,
+    "translated": "- @@L0@@ @@L1@@ 🐍 ☁️ 🏠 🍎 🪟 🐧 - MCP 伺服器的認證代理：帶 DCR 的 OAuth2、JWT、RBAC、速率限制、多伺服器聚合與監控儀表盤。"
+  },
+  {
+    "line": 3858,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jstibal/openterms-mcp) 🐍 ☁️ - Ed25519 簽名的同意收據與面向代理的策略引擎：支出上限、操作允許列表、升級閾值，以及 JWKS 支撐的 provider 驗證。"
+  },
+  {
+    "line": 3859,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/arthurpanhku/DocSentinel) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 使用 RAG 知識庫，自動化文件、問卷與報告的網路安全評估，以暴露風險、合規缺口與修復措施。"
+  },
+  {
+    "line": 3860,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/urldna/mcp) 🐍 ☁️ 🍎 🪟 🐧 - URL 掃描與釣魚分診：捕獲 DOM 快照、網路請求與截圖，並使用自定義查詢語言檢索歷史掃描。"
+  },
+  {
+    "line": 3861,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/uchit/mcp-regulated-ai-compliance) 📇 🏠 🍎 🪟 🐧 - 受監管行業的 AI 合規知識：控制項查詢、用例分類，以及歐盟《AI 法案》、NIST AI RMF、ISO 42001、APRA、GDPR 等的對照表。"
+  },
+  {
+    "line": 3862,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/iamredmh/volta-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - 面向代理的閱後即焚加密 Volta 筆記：在使用者與代理之間交接憑據，且金鑰不出現在聊天曆史中。"
+  },
+  {
+    "line": 3863,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zkproofport/proofport-ai) 📇 ☁️ - 生成身份宣告（Coinbase KYC、國家、Google OIDC、Microsoft 365）的零知識證明，且不洩露個人資訊。"
+  },
+  {
+    "line": 3864,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zyx77550/sparda) 📇 🏠 🍎 🪟 🐧 - 將實時、可逆的 MCP 伺服器注入正在執行的 Express、FastAPI 或 Next.js 應用，預設安全讀取，寫入需人工確認。"
+  },
+  {
+    "line": 3865,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cuttalo/depscope) 📇 ☁️ 🏠 - 跨多種生態系統的包情報：健康度、漏洞（OSV、CISA KEV、EPSS）、錯別字搶注、惡意包、替代品與破壞性變更。"
+  },
+  {
+    "line": 3866,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/UnboundCompute/lachesis) 🐍 🏠 🍎 🐧 - 面向 C、Python 與 TypeScript 的程式碼屬性圖：呼叫者/被呼叫者、資料與汙點流（含源到匯證據）、指向分析，以及守衛/匯結構。"
+  },
+  {
+    "line": 3867,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/UPinar/contrastapi) 🐍 ☁️ - 安全情報：CVE/EPSS/KEV 查詢、域名偵察（DNS、WHOIS、SSL、子域）、IOC 威脅情報、OSINT，以及針對金鑰與注入的程式碼掃描。"
+  },
+  {
+    "line": 3869,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vaulted-fyi/vaulted-mcp-server) 📇 🏠 🍎 🪟 🐧 - 從代理分享端到端加密、自銷燬的金鑰，從環境變數或檔案讀取，使其不進入 LLM 上下文。"
+  },
+  {
+    "line": 3871,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mopanc/depguard) 📇 🏠 🍎 🪟 🐧 - npm 包安裝前檢查：靜態分析、供應鏈攻擊檢測、漏洞審計、AI 幻覺防護與 CycloneDX SBOM 生成。"
+  },
+  {
+    "line": 3873,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/shyshlakov/pci-dss-mcp) 🏎️ 🏠 🍎 🪟 🐧 - 面向 Go 支付程式碼的 PCI DSS 靜態分析：發現 PAN/CVV 暴露、弱加密、缺失審計日誌與漏洞依賴，每項對映到一條 PCI 要求。"
+  },
+  {
+    "line": 3874,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/layervai/qurl-mcp) 📇 ☁️ 🍎 🪟 🐧 - 透過 qURL API 生成、解析、審計與輪換會過期、範圍受限的訪問連結（qURL）。"
+  },
+  {
+    "line": 3875,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zw008/vmware-harden) 🐍 ☁️ - 只讀的 VMware vSphere 合規掃描與漂移檢測，對照 CIS、vSphere SCG、中國 DJCP 2.0 與 PCI-DSS，並給出修復建議。"
+  },
+  {
+    "line": 3876,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/WRG-11/wrg-sigma-rules) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 為 Splunk、Elastic、Kibana 與 Wazuh 編寫、驗證並轉換 Sigma 檢測規則，背後有覆蓋 MITRE ATT&CK 戰術的規則語料庫。"
+  },
+  {
+    "line": 3877,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BeBraveBeKind/mcpskills-server) 📇 🏠 🍎 🪟 🐧 - 在安裝前對 MCP 伺服器、AI 技能與 npm 包評分，掃描提示注入、憑據竊取與供應鏈風險，並給出放行/拒絕門。"
+  },
+  {
+    "line": 3878,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gautam-u/sieve-mcp) 🏠 🍎 - 本地 macOS 掃描器，檢測洩露到 AI 工具聊天記錄中的金鑰，帶脫敏發現項、僅佔位符脫敏與 Keychain 支撐的命令執行。"
+  },
+  {
+    "line": 3879,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yessGlory17/job-verify) 🐍 ☁️ 🍎 🪟 🐧 - 檢查招聘者與職位 Offer 是否為詐騙：交叉核對公司註冊、域名年齡、仿冒域名、黑名單與加密貨幣詐騙資料庫。"
+  },
+  {
+    "line": 3880,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/shieldly-io/mcp) 🎖️ 📇 ☁️ - 使用 Shieldly 分析 AWS IAM 策略與 CloudFormation 模板，標記許可權提升路徑、萬用字元與過度授權訪問。"
+  },
+  {
+    "line": 3881,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/OksigeniaSL/checker-mcp) 📇 🏠 - 本地優先的域名安全與隱私檢查器：實時 SPF、DMARC、DKIM、DNSSEC、TLS、CAA 與安全頭部檢查，評分並給出修復建議。"
+  },
+  {
+    "line": 3882,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mcpindex-ai/mcp-server-mcpindex) 📇 ☁️ 🍎 🪟 🐧 - 透過描述任務查詢 MCP 伺服器，並在連線前獲取諮詢性信任篩查，使用 mcpindex 目錄。"
+  },
+  {
+    "line": 3883,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/calllint/calllint) 📇 🏠 - 面向 MCP 伺服器、代理工具與技能的離線起飛前安全 linter，在不執行的情況下返回 SAFE、REVIEW、BLOCK 或 UNKNOWN 判定。"
+  },
+  {
+    "line": 3884,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/quantakrypto/pqc-tools) 📇 🏠 ☁️ - 後量子就緒：掃描程式碼中的量子脆弱密碼（RSA、ECDH、ECDSA、DH），獲取 ML-KEM/ML-DSA/SLH-DSA 遷移指引並驗證修復。"
+  },
+  {
+    "line": 3885,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/williamblakecunningham-max/screenverity-mcp) 📇 ☁️ - 美國排除、禁用與執照篩查（OIG LEIE、SAM.gov、州委員會），並附已檢查的確切列表快照的 Ed25519 簽名收據。"
+  },
+  {
+    "line": 3887,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/trustscoreagent/trustscoreagent) 🎖️ 📇 ☁️ - 在呼叫前檢查 AI 微服務與公共 API 的信譽，並在之後提交評分，透過一個開放的信任登錄檔。"
+  },
+  {
+    "line": 3889,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mastyf-ai/mastyf.ai) 📇 🏠 🍎 🪟 🐧 - 面向 MCP 的執行時安全代理，阻斷提示注入、SSRF、shell/SQL 注入與憑據外洩，並給出 npm MCP 包的信任評分。"
+  },
+  {
+    "line": 3890,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/timescale/rsigma) 🎖️ 🦀 🏠 🍎 🪟 🐧 - 使用 RSigma 編寫、lint、驗證並轉換 Sigma 檢測規則，針對日誌事件評估並解釋檢測，並檢查關聯狀態。"
+  },
+  {
+    "line": 3891,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dengyier/OpenWorkProof) 🐍 🏠 ☁️ - 面向代理工具呼叫的可驗證執行協議：簽名策略決策、因果證據鏈，以及來自 SQLite 賬本的離線驗證。"
+  },
+  {
+    "line": 3892,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Aggrete/aggrete) 🐍 🏠 ☁️ - 策略代理，拒絕被禁止的工具呼叫，阻止跨 Slack、Drive、GitHub 等的提示注入外洩與禁止的資料組合。"
+  },
+  {
+    "line": 3893,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aurumflux20/seal) 🐍 🏠 - 面向代理的精確一次支付：防止跨程序與重試的雙重結算，向 provider 確認扣款並對賬帶外支出。"
+  },
+  {
+    "line": 3894,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Jiangw2718i/frisk) 📇 🏠 ☁️ - 在支付前篩查 x402 支付對手方：地址合理性、payTo 交換、傳輸安全與支出策略檢查，給出允許、審查或阻斷判定。"
+  },
+  {
+    "line": 3896,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/epistemedeus/skillguard) 📇 🏠 - 靜態掃描器，在你安裝前檢查 Claude Code 技能、外掛與 MCP 伺服器是否存在資料外洩、安裝鉤子與提示注入。"
+  },
+  {
+    "line": 3897,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/CTRLRun/ctrlrun) 🐍 🏠 - 代理操作的執行安全：YAML 策略閘道器，允許、暫掛或拒絕工具呼叫，外加審批佇列與雜湊鏈式收據。"
+  },
+  {
+    "line": 3899,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Drumworks/ssid-mcp) 📇 ☁️ - MAC 地址（OUI）廠商查詢，帶隨機地址檢測，外加路由器預設登入 IP 與管理員憑據（引用廠商文件）。"
+  },
+  {
+    "line": 3900,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/oleg-vdv/kepil) 🐍 🏠 - 面向 AI 代理的責任層：每版本護照、帶支出限制的每作業授權、失敗關閉操作門與雜湊鏈式日誌。"
+  },
+  {
+    "line": 3902,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/boy-offi9-inc/hexforge-gateway) 📇 🏠 ☁️ 🐧 - APK 逆向工程工作區，透過工作流引擎編排 jadx、apktool、adb 與 Frida，執行於 Termux（Android）或 PC。"
+  },
+  {
+    "line": 3904,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gostanos/smallprint-action) 📇 ☁️ - 查詢 Small Print 記錄：MCP 伺服器、技能與外掛的版本化、帶差異的工具描述與模式，含分級變更與公共公告。"
+  },
+  {
+    "line": 3906,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aurelio-nakamura/cmdxray) 📇 🏠 🍎 🪟 🐧 - 面向代理 shell 命令的離線安全門：將每條命令評為危險、謹慎或無，並解釋每個標誌、管道、重定向與子 shell。"
+  },
+  {
+    "line": 3907,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Top-Celestial-Company-Ltd/DROS-VajraClaw-Hacker) 🐍 🏠 🐧 🪟 🍎 - 面向 AI 代理 MCP 工具呼叫的確定性執行治理閘道器與 W3C DID 安全護欄。"
+  },
+  {
+    "line": 3909,
+    "translated": "### 🌐 <a name=\"social-media\"></a>社交媒體"
+  },
+  {
+    "line": 3911,
+    "translated": "與社交媒體平臺整合，支援釋出、分析與互動管理。支援由 AI 驅動的社交存在自動化。"
+  },
+  {
+    "line": 3913,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HasData/instagram-mcp) 📇 ☁️ - 公開 Instagram 資料：按使用者名稱獲取個人資料與帖子資訊流，關注數、文案、標籤與提及解析為 JSON。"
+  },
+  {
+    "line": 3914,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HasData/facebook-mcp) 📇 ☁️ - 公開 Facebook 主頁與個人資料以 JSON 形式提供：點贊、粉絲、討論數、聯絡方式與帶反應的帖子資訊流。"
+  },
+  {
+    "line": 3915,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HasData/youtube-mcp) 📇 ☁️ - YouTube 搜尋、影片與頻道資料及字幕，以 JSON 形式提供。"
+  },
+  {
+    "line": 3916,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HasData/tiktok-mcp) 📇 ☁️ - 公開 TikTok 資料以 JSON 形式提供：資料查詢、賬號影片、評論與回覆串，以及針對影片或創作者的關鍵詞搜尋。"
+  },
+  {
+    "line": 3917,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/06ketan/substack-ops) 🐍 🏠 - 管理 Substack 帖子、筆記、評論、回覆、反應與轉發，帶「先提議後確認」的回覆流程、審計日誌，預設 dry-run。"
+  },
+  {
+    "line": 3918,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AdesiaHQ/bangermap-integrations) 📇 🏠 🍎 🪟 🐧 - YouTube 異常值研究：將某頻道的上傳對照其自身基線排名（Shorts 與長影片分開），比較頻道並發現小眾表現突出者。"
+  },
+  {
+    "line": 3919,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AstaBlackClove/posthive) 📇 🏠 - 在 Bluesky、Threads、Instagram、LinkedIn、Mastodon、YouTube、X、Discord 等平臺上排程與管理社交媒體帖子，採用先草稿後釋出的工作流。"
+  },
+  {
+    "line": 3920,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/abhineet34/linkedin-mcp-server) 📇 🏠 - 建立、編輯與刪除 LinkedIn 帖子（文字、圖片、文章），上傳圖片，獲取個人資料，查詢公司主頁並檢查關注數。"
+  },
+  {
+    "line": 3921,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/adaptlypost/agent) 🎖️ 📇 ☁️ - 排程並跨平臺釋出到 Instagram、TikTok、YouTube、X、LinkedIn 等，帶每平臺文案、批次排程、草稿審批與媒體上傳。"
+  },
+  {
+    "line": 3922,
+    "translated": "- @@L0@@ 🏎️ ☁️ - 直接從 AI 助手將影片上傳到 YouTube。"
+  },
+  {
+    "line": 3923,
+    "translated": "- @@L0@@ 📇 🏠 - Instagram 分析：賬戶概覽、帖子、粉絲與關注列表、帖子洞察，以及搜尋使用者、標籤或地點。"
+  },
+  {
+    "line": 3924,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/arslan2012/qpost-mcp) 🎖️ 📇 ☁️ 🏠 - 以影片為先的釋出：在 YouTube、TikTok 與 Instagram 上排程、釋出、更新、刪除與重試影片與圖片帖子。"
+  },
+  {
+    "line": 3925,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BelleKou/mcp-viral-transformer) 🐍 🏠 - 透過 remake 命令將 URL 轉化為爆款帖子。"
+  },
+  {
+    "line": 3926,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 使用瀏覽器 Cookie 在 Twitter/X 上發推、搜尋、閱讀時間線、管理互動並上傳媒體。"
+  },
+  {
+    "line": 3927,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/conorbronsdon/postlint-mcp) 📇 🏠 - 在 X、Bluesky、LinkedIn、Threads、Mastodon 與 Discord 上釋出前，按真實字元限制檢查帖子，含 URL 與 emoji 權重。"
+  },
+  {
+    "line": 3928,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/conorbronsdon/substack-mcp) 📇 ☁️ - 閱讀 Substack 帖子、管理草稿、釋出 Notes、獲取評論並上傳圖片；它不能釋出或刪除帖子。"
+  },
+  {
+    "line": 3929,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidmosiah/tiktok-agent-publisher) 📇 🏠 ☁️ 🍎 🪟 🐧 - 本地優先的 TikTok 內容釋出 API 伺服器與 CLI，帶 OAuth 就緒檢查、dry-run 釋出，且僅在顯式啟用時才實時上傳。"
+  },
+  {
+    "line": 3930,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/devag7/linkedin-mcp) 📇 🏠 - 透過已認證的瀏覽器會話使用 LinkedIn：個人資料、人員/職位/公司搜尋、資訊流、訊息，以及受控寫入（連線、發帖、點贊、評論）。"
+  },
+  {
+    "line": 3931,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/farukkolip/tiktapdown-mcp) 📇 🏠 🍎 🪟 🐧 - TikTok 創作者工具包：無 watermark 影片下載、按細分領域的標籤集、按國家推薦的釋出時間，以及爆款鉤子公式。"
+  },
+  {
+    "line": 3932,
+    "translated": "- @@L0@@ 🐍 🏠 - 透過 atproto 客戶端與 Bluesky 互動。"
+  },
+  {
+    "line": 3933,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/helbertparanhos/postforme-mcp-pro) 📇 🏠 ☁️ 🍎 🪟 🐧 - 透過 Post for Me 在 Instagram、TikTok、YouTube、X、LinkedIn 等平臺釋出、排程、編輯、刪除並分析社交帖子，帶只讀模式。"
+  },
+  {
+    "line": 3934,
+    "translated": "- @@L0@@ 🐍 ☁️ - 透過 Graph API 管理 Facebook 主頁的帖子、評論與互動指標。"
+  },
+  {
+    "line": 3935,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/drashrafsaiyed-cyber/instagram-mcp) 🐍 ☁️ - 透過 Instagram Login API 控制 Instagram：釋出照片、reels 與輪播，閱讀賬戶洞察，管理評論並回復私信。"
+  },
+  {
+    "line": 3936,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ihuzaifashoukat/x-use) 🐍 🏠 🍎 🪟 🐧 - 透過真實 Chrome 會話進行多賬號 X（Twitter）自動化：發帖、回覆、搜尋、互動與定時操作，預設需草稿審批。"
+  },
+  {
+    "line": 3937,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jj-cheng25/weixin-articles-mcp) 🐍 ☁️ 🍎 🪟 🐧 - 以多模態內容閱讀微信公眾號文章：正文、圖片與影片關鍵幀，含騰訊影片、原生與影片號嵌入。"
+  },
+  {
+    "line": 3938,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jorgenclaw/nostr-mcp-server) 📇 ☁️ - 簽名併發布 Nostr 事件，按次透過 Lightning 以 sats 付費。"
+  },
+  {
+    "line": 3939,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Kadenzo/kadenzo-mcp) 📇 ☁️ - 在 Instagram、TikTok、X、LinkedIn 等平臺排程並分析帖子：媒體上傳、AI 文案、推薦釋出時間、分析、聆聽與評論。"
+  },
+  {
+    "line": 3940,
+    "translated": "- @@L0@@ 📇 🏠 - 瀏覽 Reddit 帖子、搜尋內容並分析使用者活動。"
+  },
+  {
+    "line": 3941,
+    "translated": "- @@L0@@ 🐍 ☁️ - Reddit 市場與競品研究：透過語義搜尋查詢 subreddit，獲取帶完整引用的帖子與評論，並管理研究資訊流。"
+  },
+  {
+    "line": 3942,
+    "translated": "- @@L0@@ 🐍 🏠 - Twitter 管理：時間線、使用者推文、標籤監控、對話與情感分析、私信，以及完整的帖子生命週期控制。"
+  },
+  {
+    "line": 3943,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/llmops-pro/marketplace-mcp) 📇 🏠 - 運營 Shopstr 或 Nostr 市場店鋪：以 NIP-15 與 Shopstr 基於 NIP-99 的列表格式建立並更新攤位與商品。"
+  },
+  {
+    "line": 3944,
+    "translated": "- @@L0@@ 🎖️ 🐍 ☁️ - 實時 X、Reddit 與 YouTube 資料，支援按搜尋短語、使用者與日期過濾。"
+  },
+  {
+    "line": 3945,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-bluesky-brand-presence-mapper) 📇 ☁️ - 將公司域名解析為其 Bluesky 賬戶，含精確的關注、被關注與帖子數。"
+  },
+  {
+    "line": 3946,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-linkedin-post-engager-capture) 📇 ☁️ - 獲取 LinkedIn 個人資料與公司主頁的近期帖子，含互動數與公開可見評論者。"
+  },
+  {
+    "line": 3947,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-pinterest-brand-presence-mapper) 📇 ☁️ - 將公司域名解析為其 Pinterest 企業賬戶，含精確的粉絲、圖釘與畫板數。"
+  },
+  {
+    "line": 3948,
+    "translated": "- @@L0@@ 🐍 🏠 ☁️ - 面向健身內容創作者的工作流自動化：跳剪影片編輯、收入分析與品牌內容創作。"
+  },
+  {
+    "line": 3949,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mikusnuz/meta-mcp) 📇 ☁️ - Instagram Graph API、Threads API 與 Meta 平臺工具，用於釋出、評論、洞察、標籤、私信與 token 管理。"
+  },
+  {
+    "line": 3950,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/milcho0604/velog-mcp) 📇 🏠 🍎 🪟 🐧 - Velog 部落格整合：閱讀與搜尋帖子、統計、標籤與系列；寫入預設存為草稿或私密帖，公開發布需選擇開啟。"
+  },
+  {
+    "line": 3951,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@mobileshop9991-star/clipwise-mcp) 📇 ☁️ - 短影片創作者工具：按國家搜尋 TikTok 趨勢，外加影片分析、競品研究與內容策略的用例場景。"
+  },
+  {
+    "line": 3952,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pendpost/pendpost) 📇 🏠 - 本地優先的社交媒體草稿與排程，面向 Instagram、LinkedIn、X、Nostr、WordPress、Ghost 等，置於人工審批門之後。"
+  },
+  {
+    "line": 3953,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Perufitlife/postwire-mcp) 📇 ☁️ - 透過單一工具釋出到 TikTok、Instagram、YouTube、X、LinkedIn、Bluesky、Telegram、Mastodon 與 Discord。"
+  },
+  {
+    "line": 3954,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/peturgeorgievv-factory/postfast-mcp) 📇 ☁️ - 在 Instagram、Facebook、TikTok、X、LinkedIn、YouTube、Threads、Pinterest、Bluesky 與 Telegram 上排程並管理社交媒體帖子。"
+  },
+  {
+    "line": 3955,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/posteverywhere/mcp) 📇 ☁️ 🏠 - 跨 Instagram、LinkedIn、TikTok、X、YouTube 等排程與釋出，帶活動、批次操作、媒體、分析、Webhook 與 AI 文案。"
+  },
+  {
+    "line": 3956,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/postmcp/postmcp-mcp-server) 🎖️ 📇 🏠 ☁️ 🍎 🪟 🐧 - 釋出並排程帖子到 LinkedIn、X、Facebook、Instagram、Threads、Bluesky 與 YouTube Shorts，帶起飛前檢查、品牌套件與影象生成。"
+  },
+  {
+    "line": 3957,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/publora/mcp-server) 🎖️ 📇 ☁️ - 透過 Publora 排程併發布帖子到 X、LinkedIn、Instagram、Threads、TikTok、YouTube 等，帶媒體上傳與 LinkedIn 分析。"
+  },
+  {
+    "line": 3958,
+    "translated": "- @@L0@@ 🐍 ☁️ - 透過 ScrapeBadger API 訪問 Twitter/X 資料，含使用者資料、推文、粉絲、趨勢、列表與社群。"
+  },
+  {
+    "line": 3959,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/signal-found/sf-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 透過 Signal Found 進行 Reddit 外聯：找到正在釋出你的產品所解決問題的人，傳送個性化私信並管理外聯 CRM。"
+  },
+  {
+    "line": 3960,
+    "translated": "- @@L0@@ 🐍 🏠 ☁️ - 從帖子與評論中總結使用者的 Reddit 主頁或任意 subreddit。"
+  },
+  {
+    "line": 3961,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/socialintel/social-intel-mcp) 🐍 ☁️ - 按細分領域、國家、人口統計或粉絲數搜尋 Instagram 網紅，獲取使用者名稱、簡介、粉絲數、分類與公開商業郵箱。"
+  },
+  {
+    "line": 3962,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sofya-co/sofya-mcp) 🎖️ 📇 ☁️ - 透過 Sofya API 的 Web 工具：全內容網路搜尋、URL 與 PDF 以 Markdown 獲取、基於提示的資料提取，以及帶引用的多源深度研究。"
+  },
+  {
+    "line": 3963,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/glennprime/synthnet-mcp) 🎖️ 📇 ☁️ - SynthNet，一個面向 AI 代理的社交網路：用金鑰對加入、繪製每日自畫像、回覆人類與代理，並維持持久信譽。"
+  },
+  {
+    "line": 3964,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/taisly/agent) 📇 ☁️ - 透過 Taisly 釋出或排程社交影片到 TikTok、Instagram Reels、YouTube Shorts、X 與 Facebook，帶賬戶發現與影片驗證。"
+  },
+  {
+    "line": 3965,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bulatko/vk-mcp-server) 📇 ☁️ - 訪問 VK（VKontakte）社交網路 API：使用者、動態、群組、好友、新聞流、照片與社群統計。"
+  },
+  {
+    "line": 3966,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/solnk-dev/solnk-mcp) 🎖️ 📇 ☁️ - 透過 Solnk 釋出並排程內容到 X、Instagram、TikTok、YouTube、LinkedIn 等，帶草稿、媒體上傳與帖子分析。"
+  },
+  {
+    "line": 3967,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/timkulbaev/mcp-linkedin) 📇 ☁️ - 透過 Unipile API 在 LinkedIn 上釋出、評論與互動，預設 dry-run。"
+  },
+  {
+    "line": 3968,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tokportal/tokportal-mcp) 🎖️ 📇 ☁️ - 由 TokPortal 人工賬戶經理管理的 TikTok、Instagram 與 YouTube 賬戶，帶影片上傳、排程、分析與 Webhook。"
+  },
+  {
+    "line": 3969,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/realMNohgee/hermtica) 📇 ☁️ - 瀏覽並搜尋 Hermtica（一個面向 AI 代理的社交網路與 marketplace）：資訊流、熱門條目、代理資料與 marketplace 統計。"
+  },
+  {
+    "line": 3970,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Upload-Post/upload-post-mcp) 🎖️ 📇 ☁️ 🏠 - 透過 Upload-Post 在 TikTok、Instagram、YouTube、LinkedIn、Facebook、X、Reddit 等平臺釋出、排程並分析帖子，含評論與私信。"
+  },
+  {
+    "line": 3971,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/veezeehq/veezee-mcp) 🎖️ ☁️ - 實時 LinkedIn、X（Twitter）與 Reddit 資料：資料、公司、帖子、搜尋與情感。"
+  },
+  {
+    "line": 3972,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Vovala14/vynly-mcp) 📇 ☁️ - 將 AI 生成的圖片釋出到 Vynly（一個僅 AI 的社交資訊流），並閱讀與搜尋該資訊流，支援來源證明（C2PA、SynthID、XMP）。"
+  },
+  {
+    "line": 3973,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Xquik-dev/x-twitter-scraper) 📇 ☁️ - X（Twitter）自動化：發推、回覆、點贊、轉推、關注、私信、搜尋、提取資料、執行抽獎並監控賬號。"
+  },
+  {
+    "line": 3974,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ilyautov/vk-mcp-ru) 🐍 🏠 🍎 🪟 🐧 - VK API 訪問：動態帖子、社群、訊息、市場商品、廣告與統計，帶自然語言方法搜尋，以及讀/寫/破壞性安全門。"
+  },
+  {
+    "line": 3976,
+    "translated": "### 🔮 <a name=\"spirituality-and-esoterica\"></a>靈性與神秘學"
+  },
+  {
+    "line": 3978,
+    "translated": "占星、塔羅、數字命理、吠陀體系、Human Design 及其他占卜或神秘學工具——適用於計算星盤、抽牌、執行 dasha 週期或生成星座運勢的 AI 代理。"
+  },
+  {
+    "line": 3980,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/adityarya24/astro-skill) 🐍 🏠 🍎 🪟 🐧 - 吠陀占星：kundali、Vimshottari dasha、panchang、gochar 與 Sade Sati、ashtakavarga、guna milan、分盤，以及印地語 janma patrika PDF。"
+  },
+  {
+    "line": 3981,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexsu1212/freebazi-mcp) 📇 🏠 🍎 🪟 🐧 - 離線八字（四柱）排盤，含真太陽時：日主、十神、藏幹、納音、神煞、支關係與大運。"
+  },
+  {
+    "line": 3982,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/arthiqlabs/vedaksha) 🦀 🏠 🍎 🪟 🐧 - 自託管吠陀占星：本命盤、dasha、varga、shadbala、ashtakavarga、panchang、行運、muhurta 搜尋、合盤與屬性圖匯出。"
+  },
+  {
+    "line": 3983,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/asterwise/asterwise-mcp) 🐍 ☁️ - 吠陀與西方占星：本命盤與分盤、Vimshottari dasha、panchang、muhurta、合婚、KP、Lal Kitab、數字命理與塔羅。"
+  },
+  {
+    "line": 3984,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/astroway/astroway-mcp) 📇 ☁️ 🍎 🪟 🐧 - AstroWay 計算 API：本命盤、合盤、行運、吠陀 dasha 與 varga、塔羅、數字命理、Human Design 與 AI 星座運勢。"
+  },
+  {
+    "line": 3985,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidmosiah/astral-mcp) 📇 🏠 🍎 🪟 🐧 - 占星工具，用於本命盤、當前行運、合盤、月相與出生地查詢，帶用於精簡負載的隱私模式。"
+  },
+  {
+    "line": 3986,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mihnin/stellara-mcp) 📇 ☁️ 🍎 🪟 🐧 - 透過 Swiss Ephemeris 的確定性西方占星：本命盤、行運、合盤，以及帶座標與歷史 UTC 偏移的出生地解析器。"
+  },
+  {
+    "line": 3987,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nmhaaa3218/TuViMCP) 🐍 🏠 🍎 🪟 🐧 - 越南 Tử Vi 命盤計算：傳統格局評估、行運盤、吉日檢查與命盤渲染。"
+  },
+  {
+    "line": 3988,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/openephemeris/openephemeris-MCP) 🎖️ 📇 🏠 🍎 🪟 🐧 - 基於 NASA JPL DE440 星曆的占星：本命、合盤、推進、行運搜尋、Human Design、吠陀、八字與占星製圖。"
+  },
+  {
+    "line": 3989,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/openfate-ai/bazi-mcp) 📇 🏠 🍎 🪟 🐧 - 確定性八字（四柱）計算，含真太陽時、陰陽曆轉換、大運、支互動與反查八字。"
+  },
+  {
+    "line": 3990,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/socraticsurge/telugu-calendar-utilities) 🐍 🏠 - 泰盧固 Panchangam（印度歷）：tithi、nakshatra、muhurta 時段、節日、吉日查詢、gochara 行運與每日 rasi phalalu。"
+  },
+  {
+    "line": 3992,
+    "translated": "### 🏃 <a name=\"sports\"></a>體育"
+  },
+  {
+    "line": 3994,
+    "translated": "用於訪問體育相關資料、結果與統計的工具。"
+  },
+  {
+    "line": 3996,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/persistmcp/aim) 🐍 ☁️ - 訓練記憶：記錄組數、重量、估算 1RM、每肌肉容量與恢復情況，從而下一節課基於你的訓練歷史規劃。"
+  },
+  {
+    "line": 3997,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/anup-shesh/garmin-local-mcp) 🐍 🏠 🍎 🪟 🐧 - 本地優先的 Garmin 資料倉儲：增量 SQLite 同步，帶趨勢、滯後感知相關性、個人基線、異常檢測與 FIT 檔案匯入。"
+  },
+  {
+    "line": 3998,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/arturogarrido/claudinho) 📇 🏠 🍎 🪟 🐧 - 2026 年世界盃的實時比分、賽程、積分榜與只讀預測市場訊號。"
+  },
+  {
+    "line": 3999,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Backspace-me/sportscore-mcp) 📇 ☁️ 🍎 🪟 🐧 - 足球、籃球、板球與網球的實時比分、積分榜、射手榜、球員統計與淘汰賽對陣。"
+  },
+  {
+    "line": 4000,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bartokulus/openfoot-mcp) 📇 ☁️ 🍎 🪟 🐧 - 足球賽程、結果、積分榜、陣容、實時時間線、射門級 xG 與比賽上下文（狀態、Elo、休整、交鋒），透過 OpenFoot API。"
+  },
+  {
+    "line": 4001,
+    "translated": "- @@L0@@ 🏎️ ☁️ - 透過 Cloudbet API 的體育資料：即將到來的賽事、實時賠率、限額與覆蓋足球、籃球、網球、電競等的市場資訊。"
+  },
+  {
+    "line": 4002,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DanielTomaro13/sportsdata-mcp) 🐍 🏠 🍎 🪟 🐧 - 來自 Betfair、Pinnacle 與 FanDuel 等博彩公司的實時體育資料與跨 book 賠率、聯賽訂閱、賽馬，以及 Kalshi 與 Polymarket 預測市場。"
+  },
+  {
+    "line": 4003,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidmosiah/whoop-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - 本地優先訪問 WHOOP 的恢復、HRV、睡眠、負荷與表現資料，token 本地儲存。"
+  },
+  {
+    "line": 4004,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dohyung1/x402-fpl-api) 🐍 🏠 - 個性化 Fantasy Premier League 洞察：隊長選擇、轉會建議、差異化、賽程展望、價格預測與實時積分。"
+  },
+  {
+    "line": 4005,
+    "translated": "- @@L0@@ 📇 ☁️ - 動作到肌肉的對映：查詢動作鍛鍊的肌肉、分析訓練中的缺口，並查詢按肌肉重疊度排序的替代動作。"
+  },
+  {
+    "line": 4006,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/evanatpizzarobot/draftcall-mcp) 📇 ☁️ 🍎 🪟 🐧 - NFL 夢幻橄欖球：球員一對一比較、PPR、半 PPR 與標準排名、位置稀缺性與輪空周衝突，並附引用來源。"
+  },
+  {
+    "line": 4007,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/googlarz/suunto-mcp) 📇 ☁️ 🍎 🪟 🐧 - 透過 Suunto API 的 Suunto 手錶資料：訓練、時序取樣、FIT 解碼、GPX 匯出、全天候活動、睡眠與恢復/HRV。"
+  },
+  {
+    "line": 4008,
+    "translated": "- @@L0@@ 🐍 🏠 - 公共 MLB API 的代理，用於球員資訊、統計與比賽資訊。"
+  },
+  {
+    "line": 4009,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/iFan6oy/flash-props-mcp) 📇 ☁️ - NBA、MLB、NFL、NHL、NCAA 與足球的實時體育投注球員道具盤，統一自各博彩公司，採用美國賠率，含賽前與實時。"
+  },
+  {
+    "line": 4010,
+    "translated": "- @@L0@@ 🐍 🏠 - 查詢 TrainingPeaks 訓練、分析 CTL/ATL/TSB 體能指標，並比較功率與配速 PR。"
+  },
+  {
+    "line": 4011,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@jordanlyall/wc26-mcp) 📇 🏠 🍎 🪟 🐧 - 2026 年 FIFA 世界盃資料：比賽、球隊、場館、城市指南、球迷區、簽證要求、傷病、賠率與積分榜。"
+  },
+  {
+    "line": 4012,
+    "translated": "- @@L0@@ 📇 ☁️ - Arvo AI 訓練教練：訪問訓練資料、訓練歷史、個人紀錄與身體進展。"
+  },
+  {
+    "line": 4013,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/krmisystems/fantasy-football-manager) 🐍 🏠 🪟 🐧 - ESPN 夢幻橄欖球工具：選秀模擬、陣容推薦，以及在可配置使用者限制內的瀏覽器操作。"
+  },
+  {
+    "line": 4014,
+    "translated": "- @@L0@@ 🐍 🏠 - 實時與歷史 NBA 統計：球員統計、比賽得分、球隊資料與高階分析。"
+  },
+  {
+    "line": 4015,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lacausecrypto/mcp-sports-hub) 📇 🏠 🍎 🪟 🐧 - 聚合體育資料：NFL、NBA、MLB、NHL、足球、網球、板球、高爾夫、MMA、F1 與電競的實時比分、積分榜、球員統計與投注賠率。"
+  },
+  {
+    "line": 4016,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/livetennisapi/livetennisapi-mcp) 📇 ☁️ 🍎 🪟 🐧 - 實時 ATP、WTA、Challenger 與 ITF 網球資料：實時比分、球員、賽程、模型勝率與勝者市場價。"
+  },
+  {
+    "line": 4017,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lumifyai/lumify) 📇 ☁️ - 體育情報：賽程、實時比分、賠率、投注 split 與可解釋的投注置信度。"
+  },
+  {
+    "line": 4018,
+    "translated": "- @@L0@@ 📇 - 透過 balldontlie API 獲取 NBA、NFL 與 MLB 的球員、球隊與比賽資訊。"
+  },
+  {
+    "line": 4019,
+    "translated": "- @@L0@@ 📇 ☁️ - XERT 騎行分析：體能特徵（FTP、HIE、PP）、訓練狀態、訓練、帶 XSS 指標的活動與 MPA 分析。"
+  },
+  {
+    "line": 4020,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NasserAlbusaidi/macrofactor-mcp) 🐍 🏠 🍎 🐧 - 將 MacroFactor 營養資料與 Garmin 訓練資料結合，用於恢復檢查、每日簡報、週報，以及營養—表現相關性。"
+  },
+  {
+    "line": 4021,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/partymola/bosch-flow-mcp) 🐍 ☁️ 🏠 - 只讀的 Bosch eBike Flow（Smart System）資料：電池健康與充電迴圈、元件與韌體、實時電量與每次騎行活動。"
+  },
+  {
+    "line": 4022,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/partymola/fitbit-mcp) 🐍 ☁️ 🏠 - Fitbit Web API 訪問，帶本地 SQLite 快取與針對心率、活動、運動、睡眠、體重、SpO2 與 HRV 的趨勢分析。"
+  },
+  {
+    "line": 4023,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/partymola/google-health-mcp) 🐍 ☁️ 🏠 - Google Health API，帶本地 SQLite 快取、離線模式，以及針對心率、活動、睡眠、體重、SpO2、HRV、ECG 與不規則心律的趨勢分析。"
+  },
+  {
+    "line": 4024,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/partymola/withings-mcp) 🐍 ☁️ 🏠 - Withings Health API，帶本地 SQLite 快取與針對身體成分、睡眠、活動、訓練與 ECG 的趨勢分析。"
+  },
+  {
+    "line": 4025,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/proplineapi/propline-mcp) 📇 ☁️ - 實時體育投注賠率、跨 book +EV，以及對照計分板的 MLB、NBA、NHL、NFL、足球與 UFC 道具盤判定。"
+  },
+  {
+    "line": 4026,
+    "translated": "- @@L0@@ 📇 ☁️ - 來自 FirstCycling 的腳踏車賽事資料：起跑名單、比賽結果、車手資訊與統計。"
+  },
+  {
+    "line": 4027,
+    "translated": "- @@L0@@ 📇 ☁️ - 透過 Strava API 訪問 Strava 資料。"
+  }
+]

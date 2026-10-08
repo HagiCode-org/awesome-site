@@ -1,0 +1,1922 @@
+[
+  {
+    "line": 1016,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wildsurfer/your-mail-mcp) 🏎️ 🏠 🍎 🪟 🐧 - 只讀、自託管的跨多個 IMAP 賬戶的郵件搜尋，透過 mbsync 映象到本地 notmuch 索引。無法傳送、刪除或移動郵件。"
+  },
+  {
+    "line": 1017,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/windborne/zulipmcp) 🐍 ☁️ - 在 Zulip 中作為可 @ 提及的機器人執行 AI 代理，或將 Zulip 連線到任何 MCP 客戶端，支援實時監聽、會話管理和檔案處理。"
+  },
+  {
+    "line": 1018,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yjcho9317/nworks) 📇 🏠 🍎 🪟 🐧 - 管理 NAVER WORKS 的訊息、日曆、雲盤、郵件、任務和看板，亦可作為 CLI 使用。"
+  },
+  {
+    "line": 1019,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/YS-projectcalc/agent-cold-email) 🎖️ 📇 ☁️ - 由你的代理執行的 Coldrig 冷郵件基礎設施：購買域名、配置郵箱、預熱、執行序列並處理回覆。"
+  },
+  {
+    "line": 1020,
+    "translated": "- @@L0@@ 📇 ☁️ - 管理 Google Tasks。"
+  },
+  {
+    "line": 1021,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - 飛書文件管理，內建飛書 OAuth：建立塊、更新內容等。"
+  },
+  {
+    "line": 1022,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@loglux/whatsapp-mcp-stream) 📇 🏠 🍎 🪟 🐧 - WhatsApp 整合，帶 Web 管理介面（二維碼登入、狀態、設定）、雙向媒體上傳下載以及 SQLite 持久化。"
+  },
+  {
+    "line": 1023,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Zacccck/Claude-MCP-Read-Email-Attachments) 📇 ☁️ 🏠 🪟 - 透過 Microsoft Graph 讀取 Outlook 郵件附件，將 PDF、Word（含嵌入圖片）、Excel 和文字檔案解析為結構化內容。"
+  },
+  {
+    "line": 1024,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zerodrop-dev/zerodrop-mcp) 📇 ☁️ - 為 AI 代理提供一次性郵箱，自動提取 OTP 和魔法連結，用於測試註冊和認證流程。"
+  },
+  {
+    "line": 1025,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/starnikovoleg/tgatlas-mcp) 📇 🏠 - 無需使用者會話即可訪問公共 Telegram 頻道：頻道資料、帶檢視與轉發數的帖子、討論串以及推薦頻道。"
+  },
+  {
+    "line": 1027,
+    "translated": "### 🗣️ <a name=\"conversational-ai\"></a>對話式 AI"
+  },
+  {
+    "line": 1029,
+    "translated": "用於構建和執行與終端使用者進行結構化對話的 AI 對話代理的工具。"
+  },
+  {
+    "line": 1031,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TsvetanG2/cognigy-ai-mcp-management-server) 📇 - 管理和自動化 Cognigy.AI 對話式 AI 平臺：流程、代理、快照、NLU、函式和部署。"
+  },
+  {
+    "line": 1032,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bodyegypt/lobbyvoices-mcp) 🎖️ ☁️ - 來自 Lobby（面向小企業的 AI 前臺）的工具：編寫電話指令碼和 IVR 選單、生成 ElevenLabs 代理提示並進行呼叫角色扮演。"
+  },
+  {
+    "line": 1033,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/puspoaditya/cloudflare-workers-ai-mcp) 📇 ☁️ 🍎 🪟 🐧 - Cloudflare Workers AI 推理：LLM 聊天補全（Llama、Qwen、DeepSeek）、BGE 文字嵌入和 Flux 影象生成。"
+  },
+  {
+    "line": 1034,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Perspective-AI/mcp) 🎖️ 📇 ☁️ - 設計 Perspective AI 對話代理以替代靜態表單，分析對話、部署嵌入並自動跟進。"
+  },
+  {
+    "line": 1035,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/guillaumehussong/standard-vocal-mcp) 📇 🏠 - 構建並測試 Vapi 電話代理：垂直模板、自測試代理、音訊取證、提示版本管理和 CI 迴歸門禁。"
+  },
+  {
+    "line": 1037,
+    "translated": "### 🔑 <a name=\"cryptography\"></a>密碼學"
+  },
+  {
+    "line": 1039,
+    "translated": "用於加密和解密資料的工具。"
+  },
+  {
+    "line": 1041,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/degenlegion-com/waxseal-sdk) 📇 ☁️ 🏠 - 面向 AI 代理的鏈上 Ed25519 身份：按指紋驗證印章、校驗文件簽名，並將不可逆操作置於人工簽名的審批之後。"
+  },
+  {
+    "line": 1042,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/denismaggior8/enigma-python-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 使用 enigmapython 庫中歷史精確的 Enigma 機器模擬器對訊息進行加密和解密。"
+  },
+  {
+    "line": 1043,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ogasurfproject-jpg/horizon-shield) 📇 ☁️ - 在比特幣錨定的 JIDEC 賬本上驗證 AI 代理的證據記錄：獲取記錄位元組、重新計算 SHA-256 並檢查 OpenTimestamps 時間戳。"
+  },
+  {
+    "line": 1044,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/laszlopere/mcp-bytesmith) 🐍 🏠 - 離線位元組工具箱：hex/Base64/Base58 編碼、加密與 CRC 雜湊、進位制轉換、安全令牌，以及可選的 Ethereum/EVM 工具。"
+  },
+  {
+    "line": 1045,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Fulcrum-Enterprises/verify-proof) 🐍 🏠 🍎 🪟 🐧 - 在本地驗證區塊鏈錨定的時間戳證明：重新計算檔案的 SHA-256、遍歷 Merkle 路徑並檢查 Polygon 或 Bitcoin 上的錨點。"
+  },
+  {
+    "line": 1047,
+    "translated": "### 👤 <a name=\"customer-data-platforms\"></a>客戶資料平臺"
+  },
+  {
+    "line": 1049,
+    "translated": "提供對客戶資料平臺內客戶檔案的訪問。"
+  },
+  {
+    "line": 1051,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Aleksey-Panf/b2b-enrichment-mcp) 🐍 ☁️ - 透過 Hunter.io 和 Apollo 進行 B2B 線索 enrichment：郵箱發現、域名搜尋、公司資料和聯絡人驗證。"
+  },
+  {
+    "line": 1052,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/azmartone67/dchub-mcp-server) 📇 ☁️ - 來自 DC Hub 的資料中心、電力與天然氣情報：設施、美國電力市場評分、併購交易、ISO 電網遙測、光纖路由和能源價格。"
+  },
+  {
+    "line": 1053,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - 使用 AntV 生成視覺化圖表。"
+  },
+  {
+    "line": 1054,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bouncewatch/mcp) 🎖️ ☁️ - 追蹤公司事件，如融資、高管招聘、合作與擴張，提供帶日期的加權訊號、自然語言查詢和關注提醒。"
+  },
+  {
+    "line": 1055,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server) 📇 ☁️ - 管理 Pipedrive CRM 的交易、聯絡人、組織、活動、產品、專案、任務、線索、備註和郵件，含可選刪除工具。"
+  },
+  {
+    "line": 1056,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/echoloc-ai/echoloc-mcp) 🎖️ 🐍 ☁️ - 從招聘資料中獲取公司技術圖譜：發現正在採用、替換或評估技術的公司，並用企業特徵與招聘訊號豐富域名。"
+  },
+  {
+    "line": 1057,
+    "translated": "- @@L0@@ 📇 🏠 - 使用 Apache ECharts 動態生成視覺化圖表。"
+  },
+  {
+    "line": 1058,
+    "translated": "- @@L0@@ 📇 🏠 - 動態生成 Mermaid 圖表與圖形。"
+  },
+  {
+    "line": 1059,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ictinnovations/ictcrm-mcp) 📇 🏠 🍎 🪟 🐧 - ICTCRM，一個帶內建電話功能的開源 CRM：讀取聯絡人群組，並提供可選工具來建立和刪除聯絡人並加入呼叫活動。"
+  },
+  {
+    "line": 1060,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - 向 iaptic 詢問客戶購買、交易資料和應用收入統計。"
+  },
+  {
+    "line": 1061,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/embeddedlayers/mcp-analytics) 🐍 ☁️ - 對 CSV 檔案或來自 Shopify、Stripe、GA4 等的實時資料進行統計分析、預測和機器學習，並生成互動式 HTML 報告。"
+  },
+  {
+    "line": 1062,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-icp-fit-scorer) 📇 ☁️ - 根據加權理想客戶畫像為公司打分，返回 0-100 的分數、A/B/C 等級以及逐訊號明細。"
+  },
+  {
+    "line": 1063,
+    "translated": "- @@L0@@ 🐍 ☁️ - 將任何開放資料來源連線到 LLM。"
+  },
+  {
+    "line": 1064,
+    "translated": "- @@L0@@ 📇 ☁️ - 開源客戶反饋平臺：搜尋和分診帖子、更新狀態、評論、投票、管理路線圖、合併重複項併發布更新日誌。"
+  },
+  {
+    "line": 1065,
+    "translated": "- @@L0@@ 📇 ☁️ - 訪問並更新 Apache Unomi CDP 伺服器上的檔案。"
+  },
+  {
+    "line": 1066,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/skippedaga/yanifend-mcp) ☕ ☁️ - 管理 YaniFend（一個 WordPress 反饋元件）的問題和選項，並讀取收集到的答案。"
+  },
+  {
+    "line": 1067,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lionkiii/google-searchconsole-mcp) 📇 🏠 - Google Search Console SEO 工具：搜尋分析、URL 檢查、站點地圖管理、關鍵詞機會、品牌分析和表現對比。"
+  },
+  {
+    "line": 1068,
+    "translated": "- @@L0@@ - 與 Google Search Console 和 Bing Webmaster Tools 互動。"
+  },
+  {
+    "line": 1070,
+    "translated": "### 🗄️ <a name=\"databases\"></a>資料庫"
+  },
+  {
+    "line": 1072,
+    "translated": "安全的資料庫訪問，具備模式檢查能力。支援在包含只讀訪問等可配置安全控制下進行查詢和分析。"
+  },
+  {
+    "line": 1074,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dockndevai/mcp-percona-pg) 📇 🏠 🍎 🪟 🐧 - 管理 Percona Operator for PostgreSQL 叢集：PgBouncer 連線池、調優、備份與 PITR、災備與重大升級，破壞性操作設有門禁。"
+  },
+  {
+    "line": 1075,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dockndevai/mcp-clickhouse) 📇 🏠 🍎 🪟 🐧 - ClickHouse 模式探索、分析查詢與管理，語句受訪問模式、行數上限和審計約束。"
+  },
+  {
+    "line": 1076,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/agenticfabriq/mnemiq) 🐍 🏠 🍎 🪟 🐧 - 對 Postgres、Oracle、Snowflake、Databricks、DuckDB 和 SQLite 的自然語言提問；生成的 SQL 在執行前經過確定性校驗。"
+  },
+  {
+    "line": 1077,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIops-tools/Postgres-AIops) 🐍 🏠 - 受治理的 PostgreSQL DBA 操作：慢查詢、膨脹與鎖分析、索引管理、vacuum 與複製延遲，含審計日誌與回滾。"
+  },
+  {
+    "line": 1078,
+    "translated": "- @@L0@@ 🐍 ☁️ 🎖️ - 瀏覽 Aiven 專案並與 PostgreSQL、Apache Kafka、ClickHouse 和 OpenSearch 服務互動。"
+  },
+  {
+    "line": 1079,
+    "translated": "- @@L0@@ - 執行 SQL 查詢並瀏覽 Supabase 資料庫。"
+  },
+  {
+    "line": 1080,
+    "translated": "- @@L0@@ ☕ 🐍 ☁️ - 阿里雲 Tablestore：新增文件並透過向量和標量進行語義搜尋，適合無伺服器 RAG。"
+  },
+  {
+    "line": 1081,
+    "translated": "- @@L0@@ 🐍 ☁️ - 管理、監控和查詢 CockroachDB 中的資料。"
+  },
+  {
+    "line": 1082,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/andyWang1688/sql-query-mcp) 🐍 🏠 - 在清晰邊界內使用 PostgreSQL 和 MySQL：模式發現、取樣、只讀查詢和查詢計劃檢查。"
+  },
+  {
+    "line": 1083,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/antonorlov/mcp-postgres-server) 📇 🏠 ☁️ 🍎 🪟 🐧 - 訪問 PostgreSQL 資料庫，包括位於 SSH 堡壘機之後的資料庫。"
+  },
+  {
+    "line": 1084,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/appwrite/mcp) 🎖️ 🐍 ☁️ - 管理 Appwrite 的資料庫、認證、使用者、函式、儲存、訊息等。"
+  },
+  {
+    "line": 1085,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@ArcadeData/arcade-db-multi-model-dbms) 🎖️ ☕ 🏠 - 內建於 ArcadeDB（一個支援圖、文件、鍵值、時序、向量的多模型資料庫），支援 SQL、Cypher、Gremlin 和 MongoDB QL。"
+  },
+  {
+    "line": 1086,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Arun-kc/schemabrain) 🐍 🏠 🍎 🪟 🐧 - 只讀 Postgres 訪問，SQL 由你自己的定義編譯而成，拒絕 PII 並具備防篡改審計鏈。"
+  },
+  {
+    "line": 1087,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/astandrik/local-ydb-toolkit) 📇 🏠 - 在本地或透過 SSH 操作基於 Docker 的 local-ydb 部署：引導、診斷、認證加固、儲存工作流、轉儲/恢復和升級。"
+  },
+  {
+    "line": 1088,
+    "translated": "- @@L0@@ ☁️ 🏠 - MySQL 資料庫整合，具備可配置的訪問控制和模式檢查。"
+  },
+  {
+    "line": 1089,
+    "translated": "- @@L0@@ - Baserow 資料庫整合：搜尋和列出表格，並建立、讀取、更新和刪除行。"
+  },
+  {
+    "line": 1090,
+    "translated": "- @@L0@@ 🐍 ☁️ - TiDB 資料庫整合，具備模式檢查和查詢能力。"
+  },
+  {
+    "line": 1091,
+    "translated": "- @@L0@@ 🏎️ 🏠 🍎 🪟 - 根據資料庫模式和資料為 PostgreSQL、ClickHouse、MySQL、Snowflake、BigQuery 和 Supabase 自動生成 API。"
+  },
+  {
+    "line": 1092,
+    "translated": "- @@L0@@ 🐍 ☁️ 🏠 - DICOM 整合，用於從 PACS 和其他符合 DICOM 的系統查詢、讀取和移動醫學影像與報告。"
+  },
+  {
+    "line": 1093,
+    "translated": "- @@L0@@ 🎖️ 🐍 ☁️ 🏠 - 訪問本地和雲端的 Chroma 例項以進行檢索。"
+  },
+  {
+    "line": 1094,
+    "translated": "- @@L0@@ 🐍 ☁️ - ClickHouse 資料庫整合，具備模式檢查和查詢能力。"
+  },
+  {
+    "line": 1095,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@codeurali/mcp-dataverse) 📇 🏠 ☁️ - Microsoft Dataverse：實體 CRUD、FetchXML 和 OData 查詢、後設資料檢查、工作流執行、審計日誌和 Power Platform 整合。"
+  },
+  {
+    "line": 1096,
+    "translated": "- @@L0@@ 🐍 ☁️ - Confluent 整合，用於與 Confluent Kafka 和 Confluent Cloud REST API 互動。"
+  },
+  {
+    "line": 1097,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/CoreBaseHQ/coremcp) 🏎️ ☁️ 🏠 - 基於隧道的橋接，將本地和本地部署的資料庫（如 MSSQL）連線到 LLM，具備基於 AST 的查詢安全和 PII 掩碼。"
+  },
+  {
+    "line": 1098,
+    "translated": "- @@L0@@ 🎖️ 🐍 ☁️ 🏠 - 統一訪問 Couchbase Capella 和自建叢集，用於文件操作、SQL++ 查詢和自然語言資料分析。"
+  },
+  {
+    "line": 1099,
+    "translated": "- @@L0@@ 🐍 🏠 - 與 Elasticsearch 互動。"
+  },
+  {
+    "line": 1100,
+    "translated": "- @@L0@@ 🐍 🏠 - Postgres 開發運維：效能分析、調優和健康檢查。"
+  },
+  {
+    "line": 1101,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cvelasquez/mcp-sqlserver) 📇 🏠 ☁️ - 從一個配置管理多個 SQL Server 例項，按客戶或環境分組，支援執行計劃、索引審計和儲存過程分析。"
+  },
+  {
+    "line": 1102,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/datacharter/datacharter) 🐍 🏠 - 本地、受契約治理的跨檔案與資料庫（Postgres、Snowflake、BigQuery、DuckDB、Excel）聯邦，帶只讀保護和 PII 掩碼。"
+  },
+  {
+    "line": 1103,
+    "translated": "- @@L0@@ 🐍 ☁️ - 查詢並訪問 Trino 叢集中的資料。"
+  },
+  {
+    "line": 1104,
+    "translated": "- @@L0@@ 🏎️ 🏠 - 只讀 MySQL 資料庫訪問。"
+  },
+  {
+    "line": 1105,
+    "translated": "- @@L0@@ 🐍 🏠 - MySQL 資料庫整合，具備可配置的訪問控制、模式檢查和安全指南。"
+  },
+  {
+    "line": 1106,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/devopam/MCPg) 🐍 🏠 ☁️ 🍎 🪟 🐧 - PostgreSQL 目錄自省、AST 校驗的查詢執行、索引調優、自然語言 SQL，以及 pgvector、TimescaleDB 和 AGE 整合。"
+  },
+  {
+    "line": 1107,
+    "translated": "- @@L0@@ 📇 🏠 - Airtable 資料庫整合，具備模式檢查、讀取和寫入能力。"
+  },
+  {
+    "line": 1108,
+    "translated": "- @@L0@@ 📇 ☁️ - NocoDB 資料庫整合，具備讀取和寫入能力。"
+  },
+  {
+    "line": 1109,
+    "translated": "- @@L0@@ 📇 ☁️ - 訪問並查詢 Google BigQuery 資料庫。"
+  },
+  {
+    "line": 1110,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Eszetael/postgres-mcp-hardened) 🦀 🏠 ☁️ 🍎 🪟 🐧 - 只讀 PostgreSQL 訪問：只讀事務中的 AST 校驗查詢、模式檢查、列脫敏、EXPLAIN 成本門禁和審計日誌。"
+  },
+  {
+    "line": 1111,
+    "translated": "- @@L0@@ 📇 🏠 - MySQL 資料庫整合，用於安全的資料庫操作。"
+  },
+  {
+    "line": 1112,
+    "translated": "- @@L0@@ 🐍 🏠 - 用於 memvid 儲存和語義搜尋的本地伺服器。"
+  },
+  {
+    "line": 1113,
+    "translated": "- @@L0@@ 📇 ☁️ - 帶多使用者同步的 Fireproof 賬本資料庫。"
+  },
+  {
+    "line": 1114,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server) #️⃣ 🏠 🪟 - 訪問在 FlameRobin 中註冊的 Firebird 資料庫：模式自省、DDL/DML 執行、執行計劃和缺失索引分析。"
+  },
+  {
+    "line": 1115,
+    "translated": "- @@L0@@ 📇 ☁️ - Google Sheets API 整合，用於讀取、寫入、格式化和表格管理。"
+  },
+  {
+    "line": 1116,
+    "translated": "- @@L0@@ 🏎️ 🏠 - MySQL 和 PostgreSQL 訪問：查詢執行、事務管理、模式探索、查詢構建和效能分析。"
+  },
+  {
+    "line": 1117,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/FROWNINGdev/django-orm-lens) 🐍 🏠 🍎 🪟 🐧 - 無需資料庫即可對 Django ORM 模式進行靜態分析：模型、關係、遷移依賴、缺失索引、ER 圖和訊號圖。"
+  },
+  {
+    "line": 1118,
+    "translated": "- @@L0@@ 📇 🏠 - 功能完備的 MongoDB 資料庫整合。"
+  },
+  {
+    "line": 1119,
+    "translated": "- @@L0@@ ☁️ - Firebase 服務，包括 Auth、Firestore 和 Storage。"
+  },
+  {
+    "line": 1120,
+    "translated": "- @@L0@@ 📇 ☁️ - Convex 資料庫整合，用於自省表和函式並執行一次性查詢。"
+  },
+  {
+    "line": 1121,
+    "translated": "- @@L0@@ 🐍 ☁️ 🏠 🍎 🪟 🐧 - 透過 ConnectorX 執行 SQL 並將結果流式寫入 CSV 或 Parquet 檔案，支援 PostgreSQL、MariaDB、BigQuery、Redshift、SQL Server 等。"
+  },
+  {
+    "line": 1122,
+    "translated": "- @@L0@@ 🏎️ ☁️ - 開源伺服器，提供簡單、快速且安全的資料庫工具。"
+  },
+  {
+    "line": 1123,
+    "translated": "- @@L0@@ 🐍 🏠 - 查詢 GreptimeDB。"
+  },
+  {
+    "line": 1124,
+    "translated": "- @@L0@@ 🐍 🏠 - 安全的只讀訪問，用於探索和查詢 SQLite 資料庫，帶查詢校驗。"
+  },
+  {
+    "line": 1125,
+    "translated": "- @@L0@@ 🐍 🏠 - Google Sheets 自動化工具。"
+  },
+  {
+    "line": 1126,
+    "translated": "- @@L0@@ 🎖️ 🐍 ☁️ - Hydrolix 時序資料湖整合，具備模式探索和查詢能力。"
+  },
+  {
+    "line": 1127,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - 針對 InfluxDB OSS API v2 執行查詢。"
+  },
+  {
+    "line": 1128,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/infino-ai/infino-mcp) 🎖️ 📇 🏠 - 基於 Infino（BM25 全文、向量、混合與 SQL）對你自己的資料進行檢索，該引擎內嵌於物件儲存上的 Apache Parquet。"
+  },
+  {
+    "line": 1129,
+    "translated": "- @@L0@@ 🎖️ 📇 🏠 ☁️ - 與 InfluxDB 3 Core、Enterprise 和 Cloud Dedicated 互動。"
+  },
+  {
+    "line": 1130,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/igorolv/jdbc-mcp-server) ☕ 🏠 🍎 🪟 🐧 - 透過 JDBC 只讀訪問 PostgreSQL、Oracle 和 SQL Server：模式發現、查詢校驗、執行計劃、基準測試和索引分析。"
+  },
+  {
+    "line": 1131,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/izzzzzi/iz-tolk-mcp) 📇 🏠 - 使用 Tolk 編譯器編譯、語法檢查 TON 智慧合約並生成部署深鏈。"
+  },
+  {
+    "line": 1132,
+    "translated": "- @@L0@@ 🐍 ☁️ - Snowflake 整合，支援讀取和可選寫入操作，外加洞察追蹤。"
+  },
+  {
+    "line": 1133,
+    "translated": "- @@L0@@ ☕ ☁️ 🏠 - 使用工具、資源和提示管理和分析 Apache Druid 叢集。"
+  },
+  {
+    "line": 1134,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Janadasroor/pg-mnemosyne-mcp) 🐍 🏠 - 由 PostgreSQL 支撐的持久記憶、任務追蹤器和多代理協調中心，面向 AI 助手。"
+  },
+  {
+    "line": 1135,
+    "translated": "- @@L0@@ 🐍 🏠 - PostgreSQL 查詢、模式探索和表分析，預設只讀並防止 SQL 注入。"
+  },
+  {
+    "line": 1136,
+    "translated": "- @@L0@@ - 建立和管理 Supabase 專案和組織。"
+  },
+  {
+    "line": 1137,
+    "translated": "- @@L0@@ 🐍 ☁️ - Apache Kafka 與 Timeplus：列出主題、輪詢訊息、將 Kafka 資料儲存到本地，並透過 Timeplus 用 SQL 查詢流式資料。"
+  },
+  {
+    "line": 1138,
+    "translated": "- @@L0@@ 📇 🏠 - 與 SQLite 資料庫互動。"
+  },
+  {
+    "line": 1139,
+    "translated": "- @@L0@@ 🐍 ☁️ - VikingDB 整合：集合與索引資訊、向量儲存和搜尋。"
+  },
+  {
+    "line": 1140,
+    "translated": "- @@L0@@ 📇 🏠 - MongoDB 資料庫整合。"
+  },
+  {
+    "line": 1141,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kosminus/querywise-mcp) 🐍 🏠 - 透過業務語義層（術語表、指標和資料字典）用自然語言查詢 SQLite、PostgreSQL、BigQuery 和 Databricks。"
+  },
+  {
+    "line": 1142,
+    "translated": "- @@L0@@ 🐍 🏠 - DuckDB 資料庫整合，具備模式檢查和查詢能力。"
+  },
+  {
+    "line": 1143,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lintbase/lintbase) 📇 🏠 - 為編碼代理提供 Firestore 模式上下文：掃描實時集合並返回真實欄位名、型別和存在率，以防止產生幻覺的查詢。"
+  },
+  {
+    "line": 1144,
+    "translated": "- @@L0@@ 🐍 ☁️ - BigQuery 資料庫整合，具備模式檢查和查詢能力。"
+  },
+  {
+    "line": 1145,
+    "translated": "- @@L0@@ 🐍 🏠 - 對 Memgraph 執行查詢並訪問其模式。"
+  },
+  {
+    "line": 1146,
+    "translated": "- @@L0@@ #️⃣ 🏠 🪟 🐧 - 只讀 SQL Server 訪問，具備基於 AST 的查詢校驗、模式探索、ER 圖以及 First Responder Kit 和 sp_WhoIsActive 等 DBA 工具包。"
+  },
+  {
+    "line": 1147,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mickelsamuel/migrationpilot) 📇 🏠 - 在代理應用前按鎖安全規則檢查 PostgreSQL 遷移，離線且無需資料庫。"
+  },
+  {
+    "line": 1148,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mahAnuj/mcp-multi-db) 📇 🏠 - 面向 PostgreSQL、MySQL 和 SQLite 的統一隻讀工具：列出資料庫和表、描述表並執行查詢，在 SQL 和資料庫層面強制執行。"
+  },
+  {
+    "line": 1149,
+    "translated": "- @@L0@@ 📇 ☁️ 🪟 🍎 🐧 - 訪問 MongoDB Atlas API。"
+  },
+  {
+    "line": 1150,
+    "translated": "- @@L0@@ 🐍 🏠 - Neo4j 整合：執行查詢、將 Neo4j 用作知識圖譜記憶並管理 Neo4j Aura 例項。"
+  },
+  {
+    "line": 1151,
+    "translated": "- @@L0@@ 📇 ☁️ - 使用 Neon Serverless Postgres 建立和管理 Postgres 資料庫。"
+  },
+  {
+    "line": 1152,
+    "translated": "- @@L0@@ - 管理和查詢 Nile Postgres 資料庫、租戶、使用者和認證。"
+  },
+  {
+    "line": 1153,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nlqueries/nlqueries) 🐍 🏠 - 自託管的自然語言轉 SQL 引擎，支援 PostgreSQL、MySQL、Snowflake、BigQuery 和 DuckDB 的校驗，外加文件問答和語義快取。"
+  },
+  {
+    "line": 1154,
+    "translated": "- @@L0@@ 🐍 🏠 - 透過 JDBC 的通用資料庫（DBMS）連線。"
+  },
+  {
+    "line": 1155,
+    "translated": "- @@L0@@ 🐍 🏠 - 透過 ODBC 的通用資料庫（DBMS）連線。"
+  },
+  {
+    "line": 1156,
+    "translated": "- @@L0@@ 🐍 🏠 - 透過 SQLAlchemy 使用 pyodbc 的通用資料庫（DBMS）連線。"
+  },
+  {
+    "line": 1157,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ofershap/mcp-server-sqlite) 📇 🏠 - SQLite 操作：查詢資料庫、檢查模式、解釋查詢並匯出資料。"
+  },
+  {
+    "line": 1158,
+    "translated": "- @@L0@@ 🐍 ☁️ - 查詢和分析 Azure Data Explorer 資料庫。"
+  },
+  {
+    "line": 1159,
+    "translated": "- @@L0@@ 🐍 ☁️ - 查詢和分析 Prometheus（開源監控系統）。"
+  },
+  {
+    "line": 1160,
+    "translated": "- @@L0@@ 🐍 - PostgreSQL 效能調優。"
+  },
+  {
+    "line": 1161,
+    "translated": "- @@L0@@ 📇 🏠 - 透過引數化查詢和模式檢查安全訪問 PostgreSQL、MySQL 和 SQLite 資料庫。"
+  },
+  {
+    "line": 1162,
+    "translated": "- @@L0@@ - 內建於 PlanetScale CLI：直接訪問你的 PlanetScale 資料庫。"
+  },
+  {
+    "line": 1163,
+    "translated": "- @@L0@@ 🐍 🏠 - Qdrant 整合。"
+  },
+  {
+    "line": 1164,
+    "translated": "- @@L0@@ 📇 🏠 - MongoDB 整合，用於直接與資料庫互動。"
+  },
+  {
+    "line": 1165,
+    "translated": "- @@L0@@ ☕ 🏠 - 連線到任何相容 JDBC 的資料庫以進行查詢、插入、更新、刪除等操作。"
+  },
+  {
+    "line": 1166,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/questdb/mcp-server-questdb) 🎖️ 📇 🏠 - 驅動 QuestDB Web 控制檯：筆記本單元、實時時序資料的 SQL 查詢和圖表。"
+  },
+  {
+    "line": 1167,
+    "translated": "- @@L0@@ 🐍 ☁️ - Airtable 整合：查詢、建立、更新和刪除記錄，管理基礎、表和模式，篩選記錄並遷移資料。"
+  },
+  {
+    "line": 1168,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Yusufihsangorgel/queue-inspector-mcp) 📇 🏠 - 檢查和操作 Redis 支撐的 Asynq 與 BullMQ 任務佇列：各狀態計數、解碼的任務負載和錯誤、重試與刪除，支援只讀模式。"
+  },
+  {
+    "line": 1169,
+    "translated": "- @@L0@@ 🐍 🏠 - 在 Redis 中管理和搜尋資料。"
+  },
+  {
+    "line": 1170,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Rheopyrin/db-access-mcp) 📇 🏠 🍎 🪟 🐧 - 透過 SSH 或 AWS SSM 隧道查詢 PostgreSQL、MySQL、Redshift 和 SQL Server，具備只讀強制、受限匯出和可插拔金鑰提供方。"
+  },
+  {
+    "line": 1171,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Rufflet/mysql-legacy-mcp) 📇 🏠 🍎 🪟 🐧 - 訪問遺留的 MySQL 5.0 至 5.6 資料庫：預設進行模式檢查和 SELECT，可選開啟 INSERT、UPDATE、DELETE 和 DDL。"
+  },
+  {
+    "line": 1172,
+    "translated": "- @@L0@@ 🐍 🏠 - 透過 SQLAlchemy 訪問 PostgreSQL、MySQL、MariaDB、SQLite、Oracle、SQL Server 等，具備模式和關係檢查以及大資料集分析。"
+  },
+  {
+    "line": 1173,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/narekmalk/safedb-mcp) ☁️ 🏠 - 安全的只讀資料庫訪問，具備 SQL 護欄、表白名單、PII 掩碼和審計日誌。"
+  },
+  {
+    "line": 1174,
+    "translated": "- @@L0@@ 🎖️ 🐍 ☁️ - 與 S2 無伺服器流平臺互動。"
+  },
+  {
+    "line": 1175,
+    "translated": "- @@L0@@ 🎖️ ☕ - 連線到任何關係型資料庫以獲取有效 SQL 並就模式提問，例如某列字首的含義。"
+  },
+  {
+    "line": 1176,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/seedfast-ai/seedfast-mcp) 🎖️ 🏠 - 用根據其實時模式生成的合成測試資料填充 PostgreSQL 資料庫：規劃、執行和追蹤種子資料，無需生產資料。"
+  },
+  {
+    "line": 1177,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/seob717/redash-mcp) 📇 🏠 - Redash 整合：帶安全護欄和 PII 檢測的自然語言 SQL、表選擇、已儲存查詢、儀表板、小元件和提醒。"
+  },
+  {
+    "line": 1178,
+    "translated": "- @@L0@@ 📇 ☁️ - 巴西 IBGE 資料：人口、地理和經濟，包括 localities、SIDRA 表格、人口普查資料、人口預測和地理網格。"
+  },
+  {
+    "line": 1179,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/slotix/dbconvert-streams-public) 🎖️ 🏎️ 🏠 🍎 🪟 🐧 - 跨 PostgreSQL、MySQL、S3 相容儲存以及 Parquet/CSV/JSON 檔案的只讀 SQL，由 DuckDB 聯邦實現跨源連線。"
+  },
+  {
+    "line": 1180,
+    "translated": "- @@L0@@ 🎖️ ☁️ - 啟動和刪除無伺服器 MariaDB Cloud 資料庫，執行 SQL 並使用資料庫級 AI 代理進行文字轉 SQL 和對話。"
+  },
+  {
+    "line": 1181,
+    "translated": "- @@L0@@ 🐍 ☁️ - Snowflake：呼叫 Cortex Agents、查詢結構化和非結構化資料、管理物件、執行 SQL 並查詢語義檢視，具備 RBAC 和 CRUD 控制。"
+  },
+  {
+    "line": 1182,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sqemo/sqemo-mcp) 📇 🏠 ☁️ - 按命名標準設計 ERD：編輯實體和關係、匯入/匯出 SQL 和 DBML，並將模型與實時資料庫進行差異比較。"
+  },
+  {
+    "line": 1183,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/srmadscience/mcpdbwizard-open) ☕ 🏠 🍎 🪟 🐧 - 生成一個 Java MCP 伺服器，僅將選定的 Oracle PL/SQL 包、表、序列和 SQL 語句作為型別化工具暴露，不包含通用 SQL 工具。"
+  },
+  {
+    "line": 1184,
+    "translated": "- @@L0@@ 🏎️ 🏠 - 對任意 PostgreSQL 資料庫的自然語言查詢，具備自動流式傳輸和只讀安全性。"
+  },
+  {
+    "line": 1185,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - 連線到你的 Supabase 專案以管理表、獲取配置並查詢資料。"
+  },
+  {
+    "line": 1186,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SurajKGoyal/amnesic) 🐍 🏠 🍎 🪟 🐧 - 面向 PostgreSQL、MySQL、MSSQL 和 SQLite 的持久模式記憶：表和列註釋、外來鍵圖和可搜尋筆記。只讀。"
+  },
+  {
+    "line": 1187,
+    "translated": "- @@L0@@ 🐍 🏠 - 對 PostgreSQL、Redshift、CockroachDB、MySQL、RDS MySQL、SQL Server、BigQuery、Oracle 和 SQLite 的多資料庫訪問。"
+  },
+  {
+    "line": 1188,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ThinAirTelematics/thinair-data) 📇 ☁️ - 面向 PostgreSQL、MySQL 和 SQL Server 的方言感知工具：查詢、模式自省、最佳化、遷移和 PII 掃描。"
+  },
+  {
+    "line": 1189,
+    "translated": "- @@L0@@ 🐍 ☁️ - DolphinDB 資料庫整合，具備模式檢查和查詢能力。"
+  },
+  {
+    "line": 1190,
+    "translated": "- @@L0@@ 🏎️ ☁️ - Trino 整合。"
+  },
+  {
+    "line": 1191,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ugurcl/dbridge-mcp) 📇 🏠 🍎 🪟 🐧 - 用自然語言查詢 SQLite、PostgreSQL 和 MySQL，只讀，具備列隱藏與掩碼、行數上限、超時、基於成本的拒絕和速率限制。"
+  },
+  {
+    "line": 1192,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/GetMystAdmin/urdb-mcp) 📇 🏠 - 在 URDB 的產品誠信資料庫中搜尋誠信評分、劣化（enshittification）事件以及消費產品的變更追蹤。"
+  },
+  {
+    "line": 1193,
+    "translated": "- @@L0@@ 🎖️ 🏎️ 🏠 - 與 VictoriaLogs API 和文件整合，用於使用日誌和除錯 VictoriaLogs 例項。"
+  },
+  {
+    "line": 1194,
+    "translated": "- @@L0@@ 🐍 📇 ☁️ - 將 Weaviate 集合用作知識庫和聊天記憶儲存。"
+  },
+  {
+    "line": 1195,
+    "translated": "- @@L0@@ 🐍 🏠 - MySQL 增刪改查加上資料庫異常分析和基於角色的許可權控制，可輕鬆擴充套件自定義工具。"
+  },
+  {
+    "line": 1196,
+    "translated": "- @@L0@@ 🐍 🏠 - 同時連線多個資料庫（MySQL、PostgreSQL、SQL Server、MariaDB、達夢、Oracle）以進行操作、健康分析和 SQL 最佳化。"
+  },
+  {
+    "line": 1197,
+    "translated": "- @@L0@@ 📇 🏠 - MSSQL 資料庫整合，具備模式檢查和查詢能力。"
+  },
+  {
+    "line": 1198,
+    "translated": "- @@L0@@ 📇 🏠 ☁️ - libSQL 資料庫的安全與管理工具。"
+  },
+  {
+    "line": 1199,
+    "translated": "- @@L0@@ 📇 ☁️ - 使用自然語言查詢從資料庫獲取資料，採用 XiyanSQL 作為文字轉 SQL 模型。"
+  },
+  {
+    "line": 1200,
+    "translated": "- @@L0@@ 🐍 ☁️ - 透過 Google Sheets API 建立、讀取、更新和管理電子表格。"
+  },
+  {
+    "line": 1201,
+    "translated": "- @@L0@@ 🐍 ☁️ - 可在企業代理後工作的 Snowflake 訪問，支援讀取和可選寫入操作。"
+  },
+  {
+    "line": 1202,
+    "translated": "- @@L0@@ 🎖️ 🐍 ☁️ - 與 YDB 資料庫互動。"
+  },
+  {
+    "line": 1203,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yimindev/dati) ☕ ☁️ - 將常見資料庫轉化為 MCP 服務的語義閘道器，並輔以業務後設資料和引數化 SQL 工具。"
+  },
+  {
+    "line": 1204,
+    "translated": "- @@L0@@ 🐍 🏠 - 與 VictoriaMetrics 資料庫互動。"
+  },
+  {
+    "line": 1205,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rafim-dev/schema-bridge-mcp) 📇 🏠 🍎 🪟 🐧 - 將 SQL 和 Prisma 模式編譯為 Zod、TypeScript 和 Pydantic，並生成真實的合成模擬 API 資料。"
+  },
+  {
+    "line": 1206,
+    "translated": "- @@L0@@ 🏎️ 🏠 - MySQL 訪問，具備可配置的只讀模式和模式檢查。"
+  },
+  {
+    "line": 1207,
+    "translated": "- @@L0@@ 🐍 🏠 ☁️ - 與 Milvus 和 Zilliz 資料庫互動。"
+  },
+  {
+    "line": 1208,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wklee610/kafka-mcp) 🐍 🏠 ☁️ - 檢查 Apache Kafka 主題和消費組，並安全管理偏移量（重置、回退）。"
+  },
+  {
+    "line": 1209,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/croc100/Litescope) 🏎️ 🏠 ☁️ - 面向 SQLite、Cloudflare D1 和 Turso 的操作工具鏈：檢查、差異比較、遷移、監控、備份和修復資料庫。預設只讀。"
+  },
+  {
+    "line": 1211,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gulmezeren2-byte/erp-report-engine) 🐍 🏠 - 透過訂單等規範實體對 ERP SQL 資料庫（Logo Tiger、Netsis、Mikro）只讀訪問，並帶有阻止副作用語句的護欄。"
+  },
+  {
+    "line": 1212,
+    "translated": "### 📊 <a name=\"data-platforms\"></a>資料平臺"
+  },
+  {
+    "line": 1214,
+    "translated": "用於資料整合、轉換和流水線編排的資料平臺。"
+  },
+  {
+    "line": 1216,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dockndevai/mcp-debezium) 📇 🏠 🍎 🪟 🐧 - 監控和管理 Debezium 與 Kafka Connect CDC 聯結器，具備訪問模式、聯結器白名單、刪除門禁和憑據脫敏。"
+  },
+  {
+    "line": 1217,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dockndevai/mcp-kafka) 📇 🏠 🍎 🪟 🐧 - 監控和管理 Apache Kafka 叢集、主題和消費組（含滯後），具備訪問模式、主題白名單和刪除門禁。"
+  },
+  {
+    "line": 1218,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/1luvc0d3/metabase-mcp) 📇 🏠 - Metabase 整合：自然語言資料分析、儀表板管理、SQL 查詢和自動化洞察，帶 SQL 護欄和審計日誌。"
+  },
+  {
+    "line": 1219,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alanpcf/brasil-data-mcp) 📇 🏠 🍎 🪟 🐧 - 透過 BrasilAPI 獲取巴西公共資料：公司（CNPJ）、地址（CEP）、銀行（BACEN）和全國性節假日。"
+  },
+  {
+    "line": 1220,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Alessandro114/scala-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - 搜尋和豐富公司資料：按名稱、VAT 或 ID 查詢，NACE 行業搜尋，以及來自歐盟官方商業登記處的財務資料。"
+  },
+  {
+    "line": 1221,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/antonio-mello-ai/mcp-airflow) 🐍 🏠 - 透過 REST API 管理 Apache Airflow：列出 DAG、檢查執行和任務例項、觸發執行，並檢視失敗的 DAG 和排程器健康狀態。"
+  },
+  {
+    "line": 1222,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sam1siam/astrofabric-mcp) 🎖️ ☁️ - 商業智慧：公司和聯絡人發現、驗證、豐富、業務訊號、列表和受治理的交付。"
+  },
+  {
+    "line": 1223,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/carrierone/verilexdata-mcp) 📇 ☁️ - 按查詢付費的 x402 資料集：NPI 醫療、SEC 備案、OFAC 制裁、加密巨鯨、Polymarket 訊號、專利和經濟指標。"
+  },
+  {
+    "line": 1224,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/equinoxaifinance-rgb/civicdataforge-mcp) 🎖️ 📇 ☁️ - 美國政府記錄（短期租賃許可、住宿執照、房產違規、醫療排除、EPA ECHO）和挪威公司資料。"
+  },
+  {
+    "line": 1225,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aegis-dq/aegis-dq) 🐍 🏠 🍎 🪟 🐧 - 對 DuckDB、BigQuery、Athena、Databricks 和 Postgres 進行資料質量檢查，並對失敗進行 LLM 根因分析和建議的 SQL 修復。"
+  },
+  {
+    "line": 1226,
+    "translated": "- @@L0@@ 📇 ☁️ - 透過 Alkemi 用自然語言查詢 Snowflake、Google BigQuery 和 Databricks 資料產品。"
+  },
+  {
+    "line": 1227,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Autario/autario-mcp) ☁️ - 搜尋和查詢來自世界銀行、IMF、Eurostat、OECD 和 WHO 的公共資料集，併發布圖表。"
+  },
+  {
+    "line": 1228,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vinvuk/apiverket-mcp) 📇 ☁️ 🍎 🪟 🐧 - 透過 Apiverket 查詢瑞典公共資料，包括公司資料、SCB 統計、天氣、交通等。"
+  },
+  {
+    "line": 1229,
+    "translated": "- @@L0@@ 🐍 ☁️ 🏠 🍎 🪟 🐧 - Method CRM API 整合：管理表、檔案、使用者、事件和 API 金鑰，具備速率限制和重試。"
+  },
+  {
+    "line": 1230,
+    "translated": "- @@L0@@ 🐍 ☁️ 🏠 🍎 🪟 🐧 - 跨多個註冊中心管理 Kafka Schema Registry，包括模式遷移。"
+  },
+  {
+    "line": 1231,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bintocher/mcp-superset) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Apache Superset：儀表板、圖表、資料集、SQL Lab、安全（使用者、角色、RLS、組）和許可權審計，內建安全校驗。"
+  },
+  {
+    "line": 1232,
+    "translated": "- @@L0@@ 🐍 ☁️ - 巴西農業資料：來自 CEPEA、CONAB、IBGE、INPE 和 B3 等公共來源的價格、作物估計、氣候和森林砍伐。"
+  },
+  {
+    "line": 1233,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Castaldo-Solutions/mcp-vtenext) 📇 🏠 🍎 🪟 🐧 - 透過其 WebService API 在 VTENext（一個基於開源 vtiger 的 CRM）中查詢、建立和更新商機和聯絡人。"
+  },
+  {
+    "line": 1234,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dan1d/mercadolibre-mcp) 📇 ☁️ - 搜尋 MercadoLibre 商品、獲取商品詳情、瀏覽分類、追蹤趨勢並跨拉美進行貨幣換算。"
+  },
+  {
+    "line": 1235,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/datanika-io/datanika-core) 🎖️ 🐍 ☁️ 🏠 - Datanika，開源的 ELT 和 dbt 平臺：瀏覽連線、預覽資料、執行 dbt 轉換、監控執行並管理流水線。預設只讀。"
+  },
+  {
+    "line": 1236,
+    "translated": "- @@L0@@ 🎖️ 🐍 🏠 ☁️ - dbt 整合：dbt Core 和 Cloud CLI、專案後設資料發現、模型資訊和語義層查詢。"
+  },
+  {
+    "line": 1237,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Evan-Crx/permisapi-mcp) 🐍 🏠 🍎 🪟 🐧 - 搜尋法國建築許可（Sitadel 開放資料），並與 DVF 交易、PLU 分割槽和 BRGM 自然及技術風險交叉比對。"
+  },
+  {
+    "line": 1238,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/flexorch/flexorch-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 將業務文件（PDF、發票、合同、工資單）轉化為結構化資料集，具備分類、欄位提取、PII 掩碼和質量評分。"
+  },
+  {
+    "line": 1239,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ 🏠 - 與 Flowcore 互動以執行操作、攝取資料，並在你自己的或公共資料核心中分析和交叉引用資料。"
+  },
+  {
+    "line": 1240,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/FreelexHo/power-bi-mcp) 🐍 ☁️ 🪟 🍎 🐧 - Power BI 重新整理，帶表級輪詢和重試、重新整理診斷、帶 RLS 模擬的 DAX 查詢、PBIP 源定位與重新整理報告。"
+  },
+  {
+    "line": 1241,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gura105/operational-ontology) 📇 🏠 🍎 🪟 🐧 - 運營本體參考實現：從型別化業務領域模型生成的工具，帶規則檢查、審計過的寫入到記錄系統。"
+  },
+  {
+    "line": 1242,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Hug0x0/mcp-reunion) 📇 ☁️ 🍎 🪟 🐧 - 來自 data.gouv.fr 和地區門戶的留尼汪島（法國海外省）開放資料：經濟、人口、交通、衛生、教育等。"
+  },
+  {
+    "line": 1243,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/greencalculus/greencalculus-mcp) 🎖️ 📇 ☁️ - 溫室氣體排放因子和碳計算（活動、隱含 EN 15978、PCAF 融資排放），帶來源參考和資料版本。"
+  },
+  {
+    "line": 1244,
+    "translated": "- @@L0@@ 🐍 ☁️ - 透過 Databricks API 執行 SQL 查詢、列出作業並獲取作業狀態。"
+  },
+  {
+    "line": 1245,
+    "translated": "- @@L0@@ 📇 ☁️ - 查詢 Qlik Cloud 應用和工作表，並從視覺化中提取資料，支援認證和速率限制。"
+  },
+  {
+    "line": 1246,
+    "translated": "- @@L0@@ 🐍 - 與 Keboola Connection 資料平臺互動：從 Keboola Storage API 列出和訪問資料。"
+  },
+  {
+    "line": 1247,
+    "translated": "- @@L0@@ 🐍 🏠 - dbt-core（OSS）專案後設資料、模型和列級血緣，以及 dbt 文件。"
+  },
+  {
+    "line": 1248,
+    "translated": "- @@L0@@ 📇 ☁️ - 中國服裝供應鏈資料：經過驗證的供應商、實驗室測試的面料和產業叢集，帶 AATCC、ISO 和 GB 實驗室測試驗證。"
+  },
+  {
+    "line": 1249,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mbrummerstedt/powerbi-analyst-mcp) 🐍 ☁️ - 查詢 Power BI 語義模型：瀏覽工作區、表和度量，執行 DAX 查詢並透過本地 CSV 分頁大量結果。"
+  },
+  {
+    "line": 1250,
+    "translated": "- @@L0@@ 🐍 🏠 - 細粒度情感分析、關鍵詞提取和批次處理。"
+  },
+  {
+    "line": 1251,
+    "translated": "- @@L0@@ 🐍 🏠 - 確定性的、基於詞典的語義詞編碼和效價分析：詞到編碼對映、語義相似度和同義/反義詞查詢。"
+  },
+  {
+    "line": 1252,
+    "translated": "- @@L0@@ 🏠 🐧 🍎 ☁️ - 自動化或監控業務運營：銷售記錄、POS 軟體和 CRM。"
+  },
+  {
+    "line": 1253,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/r3dz4r/datapulse-my) 🐍 ☁️ - 馬來西亞公共資料集的信任檢查：新鮮度、許可、來源和漂移，帶簽名證據和可離線驗證的鑑證鏈。"
+  },
+  {
+    "line": 1254,
+    "translated": "- @@L0@@ 📇 ☁️ - 面向 AirREGI、Smaregi 和 BASE 電商的 POS 和銷售分析：門店管理、銷售資料查詢、AI 聊天分析和天氣關聯。"
+  },
+  {
+    "line": 1255,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Kemetra/Seshat-BI) 🐍 🏠 🍎 🪟 🐧 - 只讀 BI 流水線治理：每個表從源到 Power BI 的階段、阻塞下一階段的因素、靜態 SQL/TMDL/PBIR 檢查以及證據包。"
+  },
+  {
+    "line": 1256,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/us-all/airflow-mcp-server) 📇 🏠 🍎 🪟 🐧 - Airflow REST API：列出 DAG、執行和任務例項，追蹤日誌並彙總 DAG 健康。預設只讀；觸發和清除受寫入門禁限制。"
+  },
+  {
+    "line": 1257,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/soil-dev/capsulemcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Capsule CRM：聯絡人、商機、專案、任務、時間線活動、篩選器、工作流軌道和檔案附件，支援可選只讀模式。"
+  },
+  {
+    "line": 1258,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Sugra-Systems/sugra-api-mcp) 🎖️ 🐍 ☁️ - 透過 Sugra API 獲取來自一手來源的全球資料：市場、宏觀經濟、公司基本面、政府、新聞、氣候、海事和實體篩查。"
+  },
+  {
+    "line": 1259,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vikramgorla/mcp-swiss) 📇 ☁️ - 瑞士開放資料：交通、天氣、地理資料、公司、議會等。"
+  },
+  {
+    "line": 1260,
+    "translated": "- @@L0@@ 🐍 ☁️ - Databricks Genie API：提出自然語言問題、執行 SQL 查詢並與 Databricks 對話代理互動。"
+  },
+  {
+    "line": 1261,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Younghef/nutriref-api) 🐍 ☁️ 🍎 🪟 🐧 - USDA FoodData Central 營養資料，按次呼叫付費（透過 x402，Base 上的 USDC）：食物搜尋、詳情、比較和食譜。"
+  },
+  {
+    "line": 1262,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Leekangbum/networklytics-mcp) 🐍 - YouTube 評論的社交網路分析：意見領袖中心度排名、Louvain 社群發現和情感分析。"
+  },
+  {
+    "line": 1264,
+    "translated": "### 💻 <a name=\"developer-tools\"></a>開發者工具"
+  },
+  {
+    "line": 1265,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ieranama/discomcp) 🦀 🏠 🍎 🪟 🐧 - 將你對任意 MCP 伺服器的使用方式剖析為可複用的只讀技能：工作流、呼叫鏈和每個工具的安全等級。"
+  },
+  {
+    "line": 1266,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Karzone/TestAtlas) #️⃣ 🏠 🍎 🪟 🐧 - 將 .NET Reqnroll/SpecFlow 測試自動化解決方案對映為可查詢的 SQLite 檔案，以搜尋步驟定義、檢查變更影響並避免重複程式碼。"
+  },
+  {
+    "line": 1267,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ARADIA-systems/aradia-mcp-server) 🎖️ 📇 ☁️ 🏠 🐧 - 來自 ARADIA 在 NVIDIA DGX 硬體上的本地私有 AI 系統：硬體選型、ROI 建模、合作伙伴接入、採購和訂單跟蹤。"
+  },
+  {
+    "line": 1268,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/iyashjayesh/tokenchit) 📇 🏠 🍎 🪟 🐧 - 讀取本地 Claude Code、Codex 和 OpenCode 的使用日誌：令牌總量、每日和每小時活動、按代理和按模型的明細，以及年度回顧。"
+  },
+  {
+    "line": 1269,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kyle641320/true-memory-fragments) 🐍 🏠 - 根據 Git 工作樹檢查源上下文新鮮度，並檢索源連結的程式碼關係，以暴露過時知識和跨檔案影響。"
+  },
+  {
+    "line": 1270,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rafim-dev/mcp-context-condenser) 📇 🏠 🍎 🪟 🐧 - 基於 AST 的程式碼大綱、日誌壓縮和上下文預算分析，以降低 LLM 令牌使用。"
+  },
+  {
+    "line": 1271,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rafim-dev/mcp-doctor) 📇 🏠 🍎 🪟 🐧 - 針對 MCP 客戶端配置檔案的執行狀況檢查、二進位制驗證和 JSON 自動修復。"
+  },
+  {
+    "line": 1272,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/om-tajne/pkgdiet) 📇 🏠 🍎 🪟 🐧 - 基於 AST 的依賴分析器：標記未使用的包、計算實際安裝大小並檢測無人維護的依賴。"
+  },
+  {
+    "line": 1273,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aicanvas-me/aicanvas) 📇 🏠 🍎 🪟 🐧 - 從 aicanvas 登錄檔搜尋和獲取相容 shadcn 的動畫 React 元件、設計系統和模板，含安裝命令。"
+  },
+  {
+    "line": 1274,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Hyperiux-Immersion-Labs/hyperiux-components) 🎖️ 📇 🏠 🍎 🪟 🐧 - 瀏覽和搜尋 Hyperiux Vault 的 React/Next.js 動畫與互動效果，含依賴、更新日誌、安裝命令和原始碼。"
+  },
+  {
+    "line": 1275,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/2ools/mcp-server) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - 來自助手構建工作的版本化專案：可分享的 HTML 預覽、版本對比、委派審批、構件、工作分配和原始碼匯出。"
+  },
+  {
+    "line": 1276,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aurumflux20/effectfence) 🦀 🏠 🍎 🪟 🐧 - 防止代理工具呼叫造成的重複扣費和重複副作用：併發競態選出一個勝者，遲到的重複回放已封存的回執。"
+  },
+  {
+    "line": 1277,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/baobabcat/demandscope) 🐍 🏠 🍎 🪟 🐧 - 需求訊號掃描器，用於透過 GitHub 倉庫訊號、Hacker News 關注度和 npm/PyPI 下載量驗證產品和開發工具創意。"
+  },
+  {
+    "line": 1278,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BoxBoxmari/my-pi) 📇 🏠 🍎 🪟 🐧 - 面向編碼代理的本地優先執行時：受限工作區訪問、受保護寫入、AST 搜尋、LSP 導航與診斷，以及 Git 工具。"
+  },
+  {
+    "line": 1279,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Bristlecone2026/bristlecone-logic) 🐍 ☁️ - 確定性執行護欄、隔離的基於 AST 的數學求值、SSRF 安全的 DNS 路由和畸形 JSON 修復。"
+  },
+  {
+    "line": 1280,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bricelancasterwcp-sudo/sensorium) 🐍 🦀 📇 🏠 🐧 - 將 Python、Rust 和 TypeScript 程式執行記錄到本地 SQLite，使編碼代理能夠查詢呼叫樹、異常和值流。"
+  },
+  {
+    "line": 1281,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hivemindunit/llmintel-mcp) 📇 ☁️ - 檢查某個 LLM 模型 ID 是否已棄用、即將棄用或已棄用，以及應遷移到哪個，覆蓋 OpenAI、Anthropic、Azure、Bedrock、Google 和 Cohere。"
+  },
+  {
+    "line": 1282,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Jubstaaa/hono-telescope) 📇 🏠 - 面向 Hono 應用的只讀除錯：帶有其請求、日誌和查詢的最近異常，按狀態或時長篩選的請求，以及最慢的查詢。"
+  },
+  {
+    "line": 1283,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Jarroslav/agentic-os) 📇 🏠 🍎 🪟 🐧 - 對 agentic-os 治理、SDLC 和 QE 方法論的只讀訪問，含安裝規劃和驗證。"
+  },
+  {
+    "line": 1284,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rm-rf-prod/GroundTruth-MCP) 📇 🏠 🍎 🪟 🐧 - 自託管的實時庫文件、帶有 file:line 發現的程式碼審計、BM25 排序的程式碼片段和感知鎖檔案的版本固定。"
+  },
+  {
+    "line": 1285,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/scarletkc/vexor) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 按描述進行語義檔案和程式碼搜尋，具備本地索引、AST 感知分塊、可選重排序，以及基於 API 或完全離線的嵌入模型。"
+  },
+  {
+    "line": 1286,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/apatureai/bastion) 📇 🏠 - 為編碼代理對渲染 UI 進行設計評審：提交預覽 URL，獲得帶元素引用的發現，並在修復後重新檢查。只讀。"
+  },
+  {
+    "line": 1287,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aradar46/reuse-before-generate) 📇 🏠 🍎 🪟 🐧 - 檢查某個專案創意是否已存在於 GitHub、npm 或 Python 倉庫中，並建議維護良好的可擴充套件替代方案，而非重新搭建腳手架。"
+  },
+  {
+    "line": 1288,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hernaninverso/eleata-verify-mcp) 📇 ☁️ - 幻覺防護：針對證據驗證某條宣告（支援、反駁或證據不足），帶置信度評分和棄權標誌。"
+  },
+  {
+    "line": 1289,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/appcreationsca/bumpguard-mcp) 🐍 🏠 🍎 🪟 🐧 - 針對 Python 和 .NET 的依賴升級影響分析：哪些 API 用法會中斷，附帶行號和修復提示，還能檢測產生幻覺的 API 呼叫。"
+  },
+  {
+    "line": 1290,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MasterPlayspots/motionspec) 📇 ☁️ 🏠 - 網頁動畫的減弱動效與 WCAG 2.2.2/2.3.3 驗證：驗證動畫規範並將其編譯為減弱動效安全的 CSS。"
+  },
+  {
+    "line": 1291,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SLP-DEV1/qwen-dap-mcp) 📇 🏠 🪟 - 透過 CodeLLDB 進行原生除錯的 DAP 到 MCP 橋接：棧幀、暫存器、區域性變數、反彙編、記憶體、崩潰轉儲以及崩潰修復/驗證工作流。"
+  },
+  {
+    "line": 1292,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TomD4vs/prumo) 📇 🏠 🍎 🪟 🐧 - 對照 git 索引檢查編碼代理的上下文檔案（CLAUDE.md、AGENTS.md、SKILL.md）：失效連結、缺失路徑、未定義命令和漂移。"
+  },
+  {
+    "line": 1293,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/VerificateAI/verificate-mcp-quickstart) 🎖️ 📇 ☁️ - AI 編寫程式碼的合併門禁：捕獲佔位符程式碼、永不失敗測試、未經證實的完成宣告和不存在的 API 呼叫，然後返回修復方案。"
+  },
+  {
+    "line": 1294,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Vivekpatil200320/cyberrescue) 🐍 🏠 - 主機級遙測閘道器，讓沙箱化代理獲取容器日誌並追蹤核心資源指標。"
+  },
+  {
+    "line": 1295,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidmosiah/delx-mcp-server) 📇 🏠 ☁️ 🍎 🪟 🐧 - 到託管 Delx Protocol MCP 端點的本地 stdio 橋接，含客戶端安裝、doctor 檢查和實時工具發現。"
+  },
+  {
+    "line": 1296,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/deed-lang/deed) 🦀 🏠 🍎 🪟 🐧 - 契約優先的程式語言：檢查代理編寫模組中的型別、效果、能力和契約，並審查新增許可權的變更。"
+  },
+  {
+    "line": 1297,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DeusData/codebase-memory-mcp) 🌊 🏠 🍎 🪟 🐧 - 使用 tree-sitter 和 LSP 將倉庫索引為持久化的本地知識圖譜，涵蓋函式、類、呼叫鏈、HTTP 路由和跨服務連結。"
+  },
+  {
+    "line": 1298,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NicolasMartalog/docweave-mcp) 📇 🏠 ☁️ - 根據 HTML、URL 或帶 JSON 資料的模板生成 PDF，並從 PDF 中提取文字或 Markdown。"
+  },
+  {
+    "line": 1299,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dynatrace-oss/dynatrace-managed-mcp) 🎖️ 📇 🏠 ☁️ 🍎 🪟 🐧 - 從自託管的 Dynatrace Managed 環境查詢問題、日誌、事件、SLO、安全洞察和效能指標。"
+  },
+  {
+    "line": 1300,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/emailens/mcp) 🎖️ 📇 ☁️ - 使用 Emailens 對 HTML 郵件進行 lint：Gmail、Outlook、Apple Mail 等中的渲染問題，各客戶端 CSS 相容性評分、暗黑模式模擬和修復。"
+  },
+  {
+    "line": 1301,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/embedded-society/altium-designer-mcp) 🦀 🏠 🍎 🪟 🐧 - 構建和維護 Altium Designer 元件庫：讀寫 .PcbLib 封裝和 .SchLib 符號，含 IPC-7351B 封裝和 STEP 模型。"
+  },
+  {
+    "line": 1302,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/aso-audit-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - 審計網站和 API 的代理就緒度：robots.txt AI 規則、llms.txt、代理卡片、MCP 伺服器卡片和 OAuth 後設資料，帶成熟度評分和修復方案。"
+  },
+  {
+    "line": 1303,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JoeGlenn1213/ActionD) 🏎️ 🏠 🍎 🐧 - 面向代理的本地 CI/CD：在隔離的檢出中基於 LGH git 事件執行作業，帶故障診斷、審批門禁、自動回滾和 Web 控制檯。"
+  },
+  {
+    "line": 1304,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kucherenko/jscpd) 🎖️ 🦀 🏠 🍎 🪟 🐧 - 使用 jscpd 進行重複程式碼檢測：在提交前對照已掃描的專案檢查程式碼片段和檔案的複製貼上重複。"
+  },
+  {
+    "line": 1305,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/KyaniteLabs/checkyourself) 🐍 🏠 - 面向 AI 構建應用的本地釋出就緒審計：只讀檢查、基於證據的 0-100 評分和有引導的修復。"
+  },
+  {
+    "line": 1306,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/m00nreport/mcp-server) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - 測試管理：編寫手動測試用例、執行執行、釋出版本並關聯自動化測試，帶不穩定測試分診和釋出就緒的提示。"
+  },
+  {
+    "line": 1307,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mcurmi05/vdiff) 📇 ☁️ - npm 包的破壞性變更差異，使編碼代理避免針對過時 API 編寫程式碼。"
+  },
+  {
+    "line": 1308,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/minipuft/claude-prompts-mcp) 📇 🏠 🍎 🪟 🐧 - 可複用的提示模板，帶多步鏈、質量門禁和推理框架，可匯出為編碼代理的原生技能。"
+  },
+  {
+    "line": 1309,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/modus-agendi/managed-agent-control-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 控制 Claude Managed Agents：啟動代理、觀察其事件、回覆、審批工具呼叫並停止它們。"
+  },
+  {
+    "line": 1310,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/getnahook/nahook-mcp) 🎖️ 🏎️ ☁️ - Nahook Webhook 平臺：觸發 Webhook、檢查投遞、重試失敗並管理端點。"
+  },
+  {
+    "line": 1311,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/naveenayalla1-CS50/mcp-server-toolkit) 📇 🏠 ☁️ 🍎 🪟 🐧 - 開發者工具包：語義程式碼搜尋、自然語言資料庫查詢、文件索引和 OpenAPI 自省。"
+  },
+  {
+    "line": 1312,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Nishant-Chaudhary5338/mcp-code-indexer) 📇 🏠 - 將 TypeScript/React 倉庫索引為程式碼圖：誰渲染、誰呼叫查詢、爆炸半徑、依賴迴圈、死程式碼和符號簽名。"
+  },
+  {
+    "line": 1313,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/noisy/noisy-coding) 🐍 🏠 🍎 🪟 🐧 - Claude Code 的語音介面：帶話輪轉換的實時語音轉文字、用 xAI Grok 聲音的語音回覆、每個子代理的語音人設和實時 HUD。"
+  },
+  {
+    "line": 1314,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nomadop/session-watcher) 📇 🏠 🍎 🪟 🐧 - 使用庫存理論（EOQ）監控編碼代理的令牌快取，並透過實時儀表板和終端狀態行提示最佳會話重啟時機。"
+  },
+  {
+    "line": 1315,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/oddunits/pntr-cli) 🎖️ 📇 ☁️ - 註冊 PNTR 開發子域、管理 DNS 記錄、在一次性收件箱中接收郵件，並捕獲入站 HTTP 請求以進行 Webhook 除錯。"
+  },
+  {
+    "line": 1316,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/raccioly/docguard) 📇 🏠 🍎 🪟 🐧 - 確定性的文件漂移檢測：根據程式碼驗證專案的文件，帶穩定的發現程式碼和建議修復。只讀。"
+  },
+  {
+    "line": 1317,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tatavarthitarun/nowsecure-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - NowSecure Platform 移動安全測試：列出應用、拉取修復發現並在本地生成 PDF 報告。"
+  },
+  {
+    "line": 1318,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/adrianczuczka/mason) 📇 🏠 🍎 🪟 🐧 - 從 git 歷史和檔案取樣生成 CLAUDE.md，並維護一個將特性和流程連結到檔案的概念圖，使代理跳過重複搜尋。"
+  },
+  {
+    "line": 1319,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Avazbek22/DevProjex) #️⃣ 🏠 🍎 🪟 🐧 - 在本地構建令牌高效的程式碼庫上下文，具備實時預覽、Git 作用域、金鑰脫敏和語法感知壓縮。"
+  },
+  {
+    "line": 1320,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/masondelan/selvedge) 🐍 🏠 - 程式碼庫的變更追蹤：代理記錄帶差異和推理的結構化變更事件，然後透過差異、blame、歷史和搜尋查詢它們。"
+  },
+  {
+    "line": 1321,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/saiffmirza/kiyas) 📇 🏠 ☁️ 🍎 🪟 🐧 - 設計保真度檢查：將 Figma 框架或設計截圖與渲染的 UI 比較，獲得帶 CSS 屬性和嚴重程度的結構化差異。"
+  },
+  {
+    "line": 1322,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sapph1re/mcp-billing-gateway-sdk) 📇 ☁️ - 面向 MCP 伺服器運營方的計費：Stripe 訂閱、按次呼叫積分、分層定價和 x402 微支付，無需編寫計費程式碼。"
+  },
+  {
+    "line": 1323,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/agenticempire/axint) 📇 🏠 - 將 TypeScript 編譯為經過驗證的 Swift，用於 Apple 平臺：App Intents、SwiftUI 檢視、WidgetKit 小元件和完整應用。"
+  },
+  {
+    "line": 1324,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIStoryHub/etincel) 🎖️ 📇 🏠 ☁️ 🍎 🪟 🐧 - 針對 AI 寫作痕跡（統一段落、套路化過渡）的確定性本地審計，外加可訓練的語調層，使草稿更貼近真實聲音。"
+  },
+  {
+    "line": 1325,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/callstackincubator/agent-device) 📇 🏠 🍎 🐧 - agent-device CLI 的發現路由器：iOS、Android、tvOS、macOS 和 Linux 自動化的狀態、安裝指引、版本匹配的幫助和提示。"
+  },
+  {
+    "line": 1326,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cq27-dev/rag-rat) 🦀 🏠 🍎 🪟 🐧 - 本地倉庫智慧：混合 BM25/向量搜尋、tree-sitter 程式碼圖、可查詢的 git 和 GitHub 歷史，以及持久的源錨定記憶。"
+  },
+  {
+    "line": 1327,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/drhalto/agentmako) 📇 🏠 🍎 🪟 🐧 - 由 SQLite 支撐的原生代碼庫智慧：上下文包、索引後的程式碼和模式事實、診斷以及可選的 Postgres/Supabase 感知。"
+  },
+  {
+    "line": 1328,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Dusheh/myclaw-toolkit) 📇 ☁️ 🍎 🪟 🐧 - 開發者實用工具：網頁搜尋、匯率、加密價格、二維碼、JSON 格式化、UUID、URL 工具、域名檢查和 RSS 源，部分透過 x402 付費。"
+  },
+  {
+    "line": 1329,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/paramount-engineering/roku-dev-studio) 📇 🏠 🍎 🪟 🐧 - Roku 開發：ECP 裝置控制、自動頻道側載、BrightScript 除錯和實時日誌監控。"
+  },
+  {
+    "line": 1330,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ILoveMyJay/repocontext) 📇 🏠 🍎 🪟 🐧 - 面向 AI 編碼代理和 IDE 的基於 AST 的程式碼庫地圖、令牌壓縮和上下文打包。"
+  },
+  {
+    "line": 1331,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/machinegrade/validate) 📇 ☁️ 🏠 🍎 🪟 🐧 - 對 AI 生成產物的確定性驗證：JSON Schema 和 OpenAPI 響應一致性，以及按方言的 SQL 語法，帶型別化判定和修復提示。"
+  },
+  {
+    "line": 1332,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AKzar1el/mcp-web-validator) 📇 ☁️ 🏠 🍎 🪟 🐧 - 驗證 HTML 和 CSS、審計技術 SEO 和無障礙、檢查 JSON-LD 和公共連結，並捕獲響應式截圖。"
+  },
+  {
+    "line": 1333,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/halloffame12/CTX) 🦀 🏠 🍎 🪟 🐧 - 將倉庫索引為本地、確定性的程式碼圖（符號、引用、依賴），帶語義差異和影響分析。"
+  },
+  {
+    "line": 1334,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/trakshan-mishra/Diffcontext) 🐍 🏠 🍎 🪟 🐧 - 針對 Python 倉庫的靜態分析上下文編譯器：為某次變更選擇呼叫方、被呼叫方和相關函式，並將其打包進令牌預算。"
+  },
+  {
+    "line": 1335,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexbypa/github-projectpulse-mcp) 📇 ☁️ - GitHub 倉庫健康監控：A-F 健康等級、OpenSSF 安全檢查、DORA 指標、程式碼掃描告警和 CI/CD 狀態。"
+  },
+  {
+    "line": 1336,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TimurRakhmatullin86/mcp-drill) 🐍 🏠 🍎 🪟 🐧 - 針對 MCP 伺服器的故障注入（超時、畸形 JSON-RPC、損壞輸出），並帶用於輸出模式和行為一致性的可靠性記分卡。"
+  },
+  {
+    "line": 1338,
+    "translated": "增強開發工作流和環境管理的工具和整合。"
+  },
+  {
+    "line": 1339,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/infino-ai/code-context) 🎖️ 📇 🏠 - 面向編碼代理的原生代碼搜尋：基於純檔案索引的帶 SQL 相關性排序的混合關鍵詞和語義搜尋。"
+  },
+  {
+    "line": 1340,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kestiny18/spring-nacos-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 面向 Spring Cloud 倉庫的只讀 Nacos 配置和服務發現：從 application/bootstrap 檔案發現環境，並跨環境對比配置鍵。"
+  },
+  {
+    "line": 1341,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mithun4elp/briefkit-mcp-server) 📇 🏠 - 為 AI 構建工具生成 SaaS 規範：設計系統、資料庫模式和 RLS 策略。"
+  },
+  {
+    "line": 1343,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/magna-nz/aspnetcore-debugger-mcp) #️⃣ 🏠 🍎 🪟 🐧 - 透過 netcoredbg 進行互動式 .NET/ASP.NET Core 除錯：斷點、單步執行、執行緒檢查、異常與死鎖分析，以及請求追蹤。"
+  },
+  {
+    "line": 1344,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/marin1321/mcp-devtools) 📇 🏠 🍎 🪟 🐧 - 對本地開發環境（檔案系統、資料庫、程序、OpenAPI）的作用域訪問，帶命令白名單和只讀資料庫模式。"
+  },
+  {
+    "line": 1345,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/EtienneChollet/ontomics) 🦀 🏠 🍎 🐧 - 從程式碼庫中提取領域概念、命名約定和行為相似度的語義程式碼索引。"
+  },
+  {
+    "line": 1346,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ozgurcd/gograph) 🏎️ 🏠 🍎 🪟 🐧 - 面向 Go 程式碼庫的 AST 感知倉庫圖：結構體嵌入、公共 API 面、SQL 查詢和錯誤對映，使代理無需 grep 即可獲得上下文。"
+  },
+  {
+    "line": 1347,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LWTlong/ai-dev-analytics) 📇 🏠 - AI 編碼的可觀測性：追蹤令牌使用和時間，並將 AI 偏離轉化為持久的專案規則。"
+  },
+  {
+    "line": 1348,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/3KniGHtcZ/codebeamer-mcp) 📇 ☁️ 🍎 🪟 🐧 - Codebeamer ALM：透過 REST API 讀寫工作項、跟蹤器、專案、關聯、引用、評論和風險管理資料。"
+  },
+  {
+    "line": 1349,
+    "translated": "- @@L0@@ - 建立受 21st.dev 設計工程師啟發的 UI 元件。"
+  },
+  {
+    "line": 1350,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/runyourempire/4DA) 📇 🏠 🍎 🪟 🐧 - 面向編碼代理的依賴智慧：實時 CVE 掃描、依賴健康、升級規劃、生態新聞和決策記憶。"
+  },
+  {
+    "line": 1351,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mvtandas/wp-cli-mcp) 📇 🏠 - 透過 WP-CLI 管理 WordPress，本地或經 SSH：主題、外掛、文章、選單、使用者、資料庫、腳手架和快取。"
+  },
+  {
+    "line": 1352,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Mogacode-ma/elementor-mcp-agent) 📇 ☁️/🏠 - 多站點 WordPress Elementor 管理：帶備份和自動回滾的安全編輯、模板匯出/匯入、批次查詢/替換、CSS 重新整理和截圖。"
+  },
+  {
+    "line": 1353,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nipun-arora/wordpress-mcp-agent-bridge) 🏠 - 將 Rank Math SEO 欄位、JSON-LD 模式和可恢復的內容快照作為 MCP 工具暴露的 WordPress 外掛，外加僅追加的寫入門禁和審計日誌。"
+  },
+  {
+    "line": 1354,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tcgunel/mobius-mcp) 📇 🏠 - 在 Sweipe 或 FlatMobile 主題上構建 WordPress 站點：匯入演示、根據簡介建站、審查、重寫頁面文案並更改設定。"
+  },
+  {
+    "line": 1355,
+    "translated": "- @@L0@@ 📇 🏠 🍎 - iOS 程式碼質量和測試自動化：Xcode 測試執行、SwiftLint 整合和失敗分析。也可作為 CLI 執行。"
+  },
+  {
+    "line": 1356,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/FI-Mihej/codebase-agent-mcp) 🐍 🏠 🍎 🪟 🐧 - 將文件和程式碼分析（包括呼叫其他 MCP 伺服器）委派給本地或低成本的 OpenAI 相容 LLM，以節省頂級模型令牌。"
+  },
+  {
+    "line": 1357,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/raye-deng/open-code-review) 🏠 📇 ☁️ - 針對 AI 生成程式碼的程式碼質量門禁，檢測產生幻覺的包、幽靈依賴、過時 API 和 AI 特有的缺陷。"
+  },
+  {
+    "line": 1358,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/repowise-dev/repowise) 🐍 🏠 ☁️ - 程式碼庫智慧：將倉庫索引為依賴圖、git 歷史、缺陷風險程式碼健康、生成的文件和架構決策。本地執行。"
+  },
+  {
+    "line": 1359,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AgiMaulana/HuaweiAppGalleryMcp) 🐍 ☁️ 🍎 🪟 🐧 - 華為 AppGallery Connect 釋出：上傳 APK/AAB、更新後設資料和本地化、提交稽核，並管理分階段釋出。"
+  },
+  {
+    "line": 1360,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Jott2121/agent-gate) 🐍 🏠 🍎 🪟 🐧 - 讓代理對其自身工作進行門禁：失敗即關閉的釋出檢查清單、獨立的先反駁後審查，以及防篡改、雜湊鏈式回執賬本。"
+  },
+  {
+    "line": 1361,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aos-standard/mcp-blast-radius) 🐍 🏠 - 靜態爆炸半徑提取，以及 AOS manifest.json 偏差檢查（Oracle、Permitted、Prohibited），也可用作阻塞式 CI 門禁。"
+  },
+  {
+    "line": 1362,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aos-standard/mcp-agent-health) 🐍 🏠 - 代理健康報告器：在 AOS 規範下覆蓋 manifest、服務、免疫迴圈和證據的諮詢性健康掃描。"
+  },
+  {
+    "line": 1363,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@aparajithn/agent-utils-mcp) 🐍 ☁️ - 帶 x402 微實用的工具：JSON 驗證、base64、雜湊、UUID、正則測試、Markdown 和 datetime 轉換、cron 解析和 JWT 解碼。"
+  },
+  {
+    "line": 1364,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AI-by-design/primitiv) 📇 🏠 🍎 🪟 🐧 - 本地優先的設計契約層：掃描 Figma、程式碼、Storybook 和令牌檔案，調和衝突並作為設計規則的唯一事實來源。"
+  },
+  {
+    "line": 1365,
+    "translated": "- @@L0@@ 📇 ☁️ - Atlassian Bitbucket Cloud：處理倉庫、拉取請求、工作區和程式碼。"
+  },
+  {
+    "line": 1366,
+    "translated": "- @@L0@@ 📇 ☁️ - Atlassian Confluence Cloud：處理空間、頁面和內容，帶自動的 ADF 到 Markdown 轉換。"
+  },
+  {
+    "line": 1367,
+    "translated": "- @@L0@@ 📇 ☁️ - Atlassian Jira Cloud：處理專案、問題、評論和相關的開發資訊。"
+  },
+  {
+    "line": 1368,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/GeiserX/atlassian-browser-mcp) 🐍 ☁️ - 用 Playwright SSO 登入包裝 mcp-atlassian，以訪問無法使用 API 令牌的企業 SSO（Okta、SAML、ADFS）背後的 Atlassian Server/Data Center。"
+  },
+  {
+    "line": 1369,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HarperZ9/telos) 🐍 📇 🏠 🍎 🪟 🐧 - Project Telos 本地工具，用於可審查的 AI 工作：源接入、工作區上下文、路由賬本、操作回執和驗證包。"
+  },
+  {
+    "line": 1370,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rust-works/omni-dev) 🦀 ☁️ 🏠 - 帶模式驗證的 Markdown/ADF 轉換的 Atlassian Jira 和 Confluence，在內容模型違規時給出標誌而非靜默丟棄節點。"
+  },
+  {
+    "line": 1371,
+    "translated": "- @@L0@@ 📇 🏠 - 在本地託管的 Web 應用中將程式碼、架構和其他概念視覺化為 Mermaid 圖。"
+  },
+  {
+    "line": 1372,
+    "translated": "- @@L0@@ 🐍 📇 🦀 - 根據依賴關係識別程式碼庫中的重要檔案，帶圖和重要度評分。"
+  },
+  {
+    "line": 1373,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mikusnuz/app-publish-mcp) 📇 ☁️ - App Store Connect 和 Google Play Console：iOS 和 Android 應用管理、TestFlight、構建、提交、價格和銷售報告。"
+  },
+  {
+    "line": 1374,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mikusnuz/cws-mcp) 📇 ☁️ - Chrome Web Store 擴充套件管理：上傳、釋出、檢查狀態、分階段釋出和後設資料更新。"
+  },
+  {
+    "line": 1375,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mikusnuz/npm-mcp) 📇 🏠 - npm 包管理：釋出、版本、搜尋、審計、安裝等。"
+  },
+  {
+    "line": 1376,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Wopee-io/wopee-mcp) 📇 ☁️ - 自主 Web 應用測試：在真實瀏覽器中執行測試用例並給出透過/失敗結果和截圖，還能生成使用者故事、測試用例和 Playwright 程式碼。"
+  },
+  {
+    "line": 1377,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wooxogh/adr-mcp-setup) 📇 🏠 - 從 Claude Code 對話生成架構決策記錄（ADR），帶質量審查、重複檢測、依賴圖和過時 ADR 提醒。"
+  },
+  {
+    "line": 1378,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/agent-easy-use/mobile-easy-use) 🏠 - 透過 Frida 對 Android 和 iOS 執行時進行檢查和控制：方法鉤子、狀態檢查、臨時覆蓋、UI 操作和截圖。"
+  },
+  {
+    "line": 1379,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 持久的 Tree-sitter 程式碼索引，用於包含 C#、TypeScript、Python、Rust 和 Go 等語言的精確、緊湊程式碼搜尋。"
+  },
+  {
+    "line": 1380,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ahmedak/defluff) 🐍 🏠 🍎 🪟 🐧 - 確定性的離線檢測器，用於檢測 AI 生成散文中的填充短語和陳詞濫調，使用精選短語列表並返回精確跨度和 0-1 評分。"
+  },
+  {
+    "line": 1381,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ahmedxuhri/bigindexer) 🐍 🏠 🍎 🪟 🐧 - 分層程式碼智慧：掃描本地原始碼，按行為角色對檔案聚類，對映耦合接縫，併為複雜任務找到倉庫內相似程式碼。"
+  },
+  {
+    "line": 1382,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aidemd-mcp/server) 📇 🏠 - 結構化的 .aide 規範檔案，為代理提供程式碼庫架構的漸進式披露。"
+  },
+  {
+    "line": 1383,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aiulms/codelattice) 🦀 🏠 🍎 🐧 - 面向 Rust、Cangjie、ArkTS、TS/JS、C/C++、Python 和 Shell 的只讀原生代碼圖：呼叫圖、質量門禁、變更審查和影響分析。"
+  },
+  {
+    "line": 1384,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ellmos-ai/ellmos-codecommander-mcp) 📇 🏠 🍎 🪟 🐧 - 針對本地專案的程式碼分析、JSON 修復、編碼修復和匯入整理。"
+  },
+  {
+    "line": 1385,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ethbak/icon-composer-mcp) 📇 🏠 🍎 - Apple Icon Composer：建立帶 Liquid Glass 效果的 .icon 包（iOS 26+），調整玻璃效果、設定暗黑模式外觀並匯出供 App Store 使用。"
+  },
+  {
+    "line": 1386,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Explorer-64/imagcon-mcp) 🐍 ☁️ 🍎 🪟 🐧 - 用 Google Imagen 4 根據文字描述生成 PWA、iOS 和 Android 應用圖示集：所有必需尺寸、可遮罩圖示、啟動畫面和 manifest.json。"
+  },
+  {
+    "line": 1387,
+    "translated": "- @@L0@@ 🐍 ☁️ 📇 - 面向 Text2SQL AI 代理的動態 SOC 安全威脅分析。"
+  },
+  {
+    "line": 1388,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 從 GitHub 倉庫搜尋、安裝和管理代理技能（SKILL.md 檔案），並基於工作區分析提供個性化推薦。"
+  },
+  {
+    "line": 1389,
+    "translated": "- @@L0@@ 🐍 ☁️ - 在 webhook-test.com 上建立、檢索和刪除 Webhook。"
+  },
+  {
+    "line": 1390,
+    "translated": "- @@L0@@ 📇 🏠 🍎 - 控制 iOS 模擬器。"
+  },
+  {
+    "line": 1391,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/andrewschreiber/desktopinsights-mcp) 📇 ☁️ 🍎 🪟 🐧 - 查詢 macOS 和 Windows 桌面應用使用的 SDK、框架和依賴，按技術採用搜尋並透過 Desktop Insights 比較技術棧。"
+  },
+  {
+    "line": 1392,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/andypgray/resharper-cli-mcp) #️⃣ 🏠 🍎 🪟 🐧 - 透過 JetBrains 命令列工具對 C# 解決方案進行 ReSharper 全解決方案檢查和程式碼清理，無需 IDE。非官方。"
+  },
+  {
+    "line": 1393,
+    "translated": "- @@L0@@ 🎖️ 📇 🏠 - 查詢和管理 Apache APISIX 中的所有資源。"
+  },
+  {
+    "line": 1394,
+    "translated": "- @@L0@@ 🐍 🏠 🪟 🐧 🍎 - 獲取 SonarQube 專案資訊：當前和歷史指標、問題與健康狀態。"
+  },
+  {
+    "line": 1395,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PhpCodeArcheology/PhpCodeArcheology) 🏠 🍎 🪟 🐧 - PHP 靜態分析：程式碼質量指標、問題檢測、重構優先順序、依賴圖、git 熱點、測試覆蓋率和影響分析。"
+  },
+  {
+    "line": 1396,
+    "translated": "- @@L0@@ 🏠 📇 🍎 🪟 🐧 - 搜尋並獲取有關 npm、Cargo、PyPI 和 NuGet 包的最新資訊。"
+  },
+  {
+    "line": 1397,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/astandrik/codex-pets) 📇 ☁️ - 面向 Codex 的動畫伴侶包（pets）只讀登錄檔：搜尋、預覽並安裝社群 pets，並生成徽章和嵌入卡片。"
+  },
+  {
+    "line": 1398,
+    "translated": "- @@L0@@ ☕ ☁️ 🏠 🍎 🪟 🐧 - Maven Central 依賴智慧：批次版本比較、穩定性過濾、依賴年齡分析、釋出模式和 Context7 升級指引。"
+  },
+  {
+    "line": 1399,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - 針對 React、Next.js、Laravel、FastAPI、Tailwind CSS 等的最新框架文件。"
+  },
+  {
+    "line": 1400,
+    "translated": "- @@L0@@ 🏎️ 🏠 - 使用其 OpenAPI 模式將任意 API 整合到 AI 代理。"
+  },
+  {
+    "line": 1401,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - Jenkins CI/CD：作業管理、構建狀態追蹤、流水線監控、構件和佇列管理，以及批次操作。"
+  },
+  {
+    "line": 1402,
+    "translated": "- @@L0@@ 📇 🏠 - 透過 Docker 在本地用多種程式語言執行程式碼。"
+  },
+  {
+    "line": 1403,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ayhammouda/python-docs-mcp-server) 🐍 🏠 🍎 🪟 🐧 - 對 Python 標準庫文件的本地只讀搜尋，帶精確符號查詢、章節級結果和版本感知上下文。"
+  },
+  {
+    "line": 1404,
+    "translated": "- @@L0@@ 📇 🏠 - 在本地分析 React 程式碼併為整個專案一次性生成文件或 llm.txt。"
+  },
+  {
+    "line": 1405,
+    "translated": "- @@L0@@ 📇 🏠 - 在不復制檔案的情況下將 Claude Code 技能載入到代理中：按需發現、讀取和安裝技能。"
+  },
+  {
+    "line": 1406,
+    "translated": "- @@L0@@ ☕ 🏠 🍎 🪟 🐧 - 自動將任意 OpenAPI/Swagger 規範轉換為 MCP 工具。"
+  },
+  {
+    "line": 1407,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/beardfaceguy/daimonos) 🦀 🏠 🍎 🐧 - 內建檔案、搜尋、exec 和 git 工具的緊湊結構化 JSON 替代方案，帶 git、cargo、gh 和 docker 外掛、輸出過濾和批處理。"
+  },
+  {
+    "line": 1408,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BetterDB-inc/monitor) 📇 ☁️ 🏠 - Valkey 和 Redis 可觀測性：查詢實時指標、分析慢命令、檢測熱鍵並調查效能問題。"
+  },
+  {
+    "line": 1409,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Muvon/) 🦀 🏠 🍎 🪟 🐧 - 帶 GraphRAG 知識圖譜的語義程式碼索引器：對程式碼庫建立索引並用自然語言搜尋以理解其架構。"
+  },
+  {
+    "line": 1410,
+    "translated": "- @@L0@@ ☁️ 📇 🍎 🪟 🐧 - 跨 GitHub 和 npm 實時研究、分析和發現。"
+  },
+  {
+    "line": 1411,
+    "translated": "- @@L0@@ 🎖️ 🐍 ☁️ 🍎 🪟 🐧 - Bitrise API：應用管理、構建操作、構件管理等。"
+  },
+  {
+    "line": 1412,
+    "translated": "- @@L0@@ 🏎️ ☁️ 📟 🪟 🐧 🍎 - 零配置的 Go 庫，將現有的 Echo Web 框架 API 暴露為 MCP 工具。"
+  },
+  {
+    "line": 1413,
+    "translated": "- @@L0@@ 🎖️ 🏎️ 🏠 ☁️ 🍎 🪟 🐧 - Buildkite：建立流水線、診斷和修復失敗、觸發構建、監控作業佇列等。"
+  },
+  {
+    "line": 1414,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/canopy-labs/featureflip-mcp) 🎖️ 📇 ☁️ - 管理 Featureflip 功能開關：建立和切換開關、編輯定向規則並查詢陳舊開關。"
+  },
+  {
+    "line": 1415,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/carldaws/squiggles) 📇 🏠 - 從一個 YAML 配置執行任意數量的 LSP 伺服器，用於診斷、轉到定義和重新命名，以及特定於伺服器的功能如 Rust 宏展開。"
+  },
+  {
+    "line": 1416,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/carloshpdoc/memorydetective) 📇 🏠 🍎 - iOS 記憶體洩漏和效能調查：讀取 .memgraph 和 .trace 檔案，對照已知模式對保留環分類，並建議 Swift 修復。"
+  },
+  {
+    "line": 1417,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cerebrixos-org/tuning-engines-cli) 📇 ☁️ 🍎 🪟 🐧 - 用 LoRA、QLoRA 或全量微調在你的資料上微調開源 LLM（Qwen、Llama、DeepSeek、Mistral、Gemma），外加成本估算和 S3 匯出。"
+  },
+  {
+    "line": 1418,
+    "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - 可構建的開發平臺：管理任務、追蹤進度、獲取專案上下文並與人類協作進行軟體專案。"
+  },
+  {
+    "line": 1419,
+    "translated": "- @@L0@@ 📇 ☁️ - 修復 CircleCI 構建失敗。"
+  },
+  {
+    "line": 1420,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - 面向編碼代理的任務管理，具備任務記憶、自我反思和依賴管理。"
+  },
+  {
+    "line": 1421,
+    "translated": "- @@L0@@ 🏎️ ☁️ 📟 🪟 🐧 🍎 - 零配置的 Go 庫，將現有的 Gin Web 框架 API 暴露為 MCP 工具。"
+  },
+  {
+    "line": 1422,
+    "translated": "- @@L0@@ 🐍 🏠 - 管理 Docker 容器、映象、卷和網路。"
+  },
+  {
+    "line": 1423,
+    "translated": "- @@L0@@ 📇 ☁️ - 搜尋並分享來自 ClaudeCodeNavi 社群的 Claude Code 片段、提示、問答解決方案、錯誤修復和 MCP 伺服器配置。"
+  },
+  {
+    "line": 1424,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cocaxcode/api-testing-mcp) 📇 🏠 🍎 🪟 🐧 - API 測試：帶變數插值的每專案環境、已儲存集合、多步流程、斷言、負載測試和 OpenAPI mock 生成。"
+  },
+  {
+    "line": 1425,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/patchloom/patchloom) 🦀 🏠 🍎 🪟 🐧 - 面向代理的結構化檔案編輯：按選擇器編輯 JSON、YAML 和 TOML，Markdown 和 AST 編輯，幹跑和多檔案事務性批次。"
+  },
+  {
+    "line": 1426,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@PatrickSys/codebase-context) 📇 🏠 🍎 🪟 🐧 - 向代理展示程式碼庫實際使用的模式、某次變更會影響哪些檔案，以及何時上下文過少而不值得信任。本地執行。"
+  },
+  {
+    "line": 1427,
+    "translated": "- @@L0@@ 🎖️ 🐍 ☁️ 🍎 🪟 🐧 - CodeLogic 程式碼依賴分析、架構風險分析和影響評估。"
+  },
+  {
+    "line": 1428,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ 🏠 - 用自然語言探索由 Opik 捕獲的 LLM 可觀測性、trace 和監控資料。"
+  },
+  {
+    "line": 1429,
+    "translated": "- @@L0@@ 🎖️ 🐍 🏠 🍎 🪟 🐧 - Conan C/C++ 包管理器：建立專案、管理依賴、檢查許可證並掃描安全漏洞。"
+  },
+  {
+    "line": 1430,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - ConfigCat 功能開關平臺：管理功能開關、配置、環境、產品和組織。"
+  },
+  {
+    "line": 1431,
+    "translated": "- @@L0@@ 📇 🏠 - 監控代理上下文健康：令牌利用率、上下文質量退化和會話疲勞，帶 0-100 健康評分和恢復建議。"
+  },
+  {
+    "line": 1432,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Contentrain/ai) 📇 🏠 - 本地優先的內容治理：跨任意框架的模型和內容的 CRUD、驗證、規範化和國際化。"
+  },
+  {
+    "line": 1433,
+    "translated": "- @@L0@@ ☕ - 識別重構熱點以幫助代理改進程式碼。"
+  },
+  {
+    "line": 1434,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rafsilva85/credit-optimizer-v5) 🐍 🏠 - 透過模型路由、智慧測試和上下文衛生降低 Manus AI 使用成本。"
+  },
+  {
+    "line": 1435,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - 修復報告給 Currents 的 Playwright 測試失敗。"
+  },
+  {
+    "line": 1436,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ofershap/cursor-usage) 📇 🏠 - AI 編碼使用分析：追蹤 Cursor 和 Claude Code 會話中的支出、模型使用量和成本。"
+  },
+  {
+    "line": 1437,
+    "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - JetBrains TeamCity：構建、測試、構建代理和 CI/CD 流水線管理，可在執行時切換 dev 和 full 模式。"
+  },
+  {
+    "line": 1438,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/darktw/chatpipe-mcp) ☁️ - 將 HTML 釋出為實時、可分享的網頁，支援公開、密碼保護或郵件受限訪問。"
+  },
+  {
+    "line": 1439,
+    "translated": "- @@L0@@ 📇 🏠 - Figma 控制：建立形狀、文字和元件，並設定樣式、自動佈局、變數和匯出。"
+  },
+  {
+    "line": 1440,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/musepy/genable) 📇 🏠 🍎 🪟 🐧 - 構建和編輯 Figma 設計：類 JSX 的樹建立、變數和令牌、元件、跨頁導航和基於截圖的視覺驗證。"
+  },
+  {
+    "line": 1441,
+    "translated": "- @@L0@@ 📇 🏠 - 時區感知的日期和時間操作：IANA 時區、時區轉換和夏令時處理。"
+  },
+  {
+    "line": 1442,
+    "translated": "- @@L0@@ 🐍 🏠 - 透過 POX SDN 控制器進行網路控制和管理。"
+  },
+  {
+    "line": 1443,
+    "translated": "- @@L0@@ 📇 ☁️ - 與 Postman API 互動。"
+  },
+  {
+    "line": 1444,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/delimit-ai/delimit) 🐍 🏠 🍎 🪟 🐧 - API 治理：使用可配置策略規則檢測 OpenAPI/Swagger 規範版本之間的破壞性變更，帶結構化透過/失敗判定。"
+  },
+  {
+    "line": 1445,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - 部署追蹤和監控，帶實時狀態徽章。"
+  },
+  {
+    "line": 1446,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ 🏠 - 與 Docker Hub 互動：倉庫、搜尋和 Docker 加固映象。"
+  },
+  {
+    "line": 1447,
+    "translated": "- @@L0@@ 📇 🏠 - 對 TwitterAPI.io 文件的離線訪問：端點參考、指南和認證文件。"
+  },
+  {
+    "line": 1448,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 來自 Swift by Sundell 和 SwiftLee 等來源的精選 Swift 和 SwiftUI 模式以及真實程式碼示例。"
+  },
+  {
+    "line": 1449,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 🪟 🐧 🍎 - Endor：在隔離沙箱中以預配置應用執行 MariaDB、Postgres、Redis、Memcached、Alpine 或 Valkey 等服務。"
+  },
+  {
+    "line": 1450,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dushyant30suthar/endiagram-mcp) 📇 ☁️ - 對 EN 語法描述的系統進行確定性結構分析：拓撲、瓶頸、爆炸半徑、追蹤、差異和中心度。"
+  },
+  {
+    "line": 1451,
+    "translated": "- @@L0@@ 🐍 🏠 - 將 .context/ 資料夾檔案作為 MCP 資源暴露，使 Claude Code 可透過 @ 提及引用專案文件。"
+  },
+  {
+    "line": 1452,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 面向編碼代理的可視 DOM 元素選擇器：一個 Chrome 擴充套件和伺服器橋接，透過 Option+Click 捕獲頁面元素。"
+  },
+  {
+    "line": 1453,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/extentos/mcp-server) 🎖️ 📇 🏠 🍎 🪟 🐧 - 構建智慧眼鏡應用：在 Android 和 iOS 應用中腳手架、驗證和模擬 Meta 智慧眼鏡整合（相機捕獲、語音、音訊）。"
+  },
+  {
+    "line": 1454,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - 面向 AI 驅動開發的任務管理：PRD 解析、任務展開、多提供方支援和選擇性工具載入以節省上下文。"
+  },
+  {
+    "line": 1455,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/eyaushev/swagger-testcase-mcp) 📇 🏠 - 從 Swagger/OpenAPI 規範生成 API 測試用例（認證、驗證、邊界、安全等），並匯出到 Gherkin、Postman、k6、pytest 或 TestRail。"
+  },
+  {
+    "line": 1456,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fantasieleven-code/callout-dev) 📇 🏠 - 來自 CTO、安全、產品和 DevOps 等視角的多視角架構評審，外加 AI 協作輔導和創意評分。"
+  },
+  {
+    "line": 1457,
+    "translated": "- @@L0@@ 📇 🏠 - 與 Flipt 中的功能開關互動。"
+  },
+  {
+    "line": 1458,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@flytohub/flyto-core) 🐍 🏠 - 確定性的代理執行引擎（瀏覽器、檔案、Docker、資料、加密、排程模組），帶執行 trace、證據快照和步驟重放。"
+  },
+  {
+    "line": 1459,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ForeverTools/kiprio-mcp) 🐍 ☁️ - 實用 API：郵箱驗證、DNS 查詢、WHOIS、SSL 證書檢查、IBAN 驗證、工作日計算、雜湊和 GPU 價格。"
+  },
+  {
+    "line": 1460,
+    "translated": "- @@L0@@ 📇 🏠 - 從 Storybook 設計系統提取元件資訊：HTML、樣式、屬性、依賴、主題令牌和後設資料。"
+  },
+  {
+    "line": 1461,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gavelcode/gavel) 🏎️ 🏠 - Bazel monorepo 的程式碼質量門禁：從構建圖執行 lint、覆蓋率和架構檢查，並返回透過/失敗判定。"
+  },
+  {
+    "line": 1462,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/GeiserX/lynxprompt-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - LynxPrompt 提示管理：建立、搜尋和組織 AI 提示以及 AGENTS.md/CLAUDE.md 配置檔案。"
+  },
+  {
+    "line": 1463,
+    "translated": "- @@L0@@ 🎖️ 🏎️ 🏠 ☁️ 🍎 🪟 🐧 - GitKraken CLI，其 MCP 伺服器將 GitKraken API 以及 Jira、GitHub、GitLab 等包裝為工具。"
+  },
+  {
+    "line": 1464,
+    "translated": "- @@L0@@ 📇 🏠 - 讓編碼代理直接訪問 Figma 資料，以一次性實現設計。"
+  },
+  {
+    "line": 1465,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - 用 Firefly 發現、管理和編纂雲資源。"
+  },
+  {
+    "line": 1466,
+    "translated": "- @@L0@@ 📇 🏠 - 將統一差異生成為 HTML 或 PNG 並視覺化，帶並排和逐行檢視，用於檔案系統幹跑。"
+  },
+  {
+    "line": 1467,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ajitpratap0/GoSQLX) 🏎️ ☁️ 🏠 - 跨多種 SQL 方言的 SQL 驗證、格式化、解析、lint、安全掃描和後設資料提取。"
+  },
+  {
+    "line": 1468,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gridhra/port-keeper-mcp) 🏎️ 🏠 🍎 🪟 🐧 - 將開發埠塊租給每個克隆或 git 工作樹，寫入 .env 檔案並將服務名解析為 URL，使並行代理獲得各自的埠。"
+  },
+  {
+    "line": 1469,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gridproof/gridproof) 📇 🏠 - 用 Playwright 渲染前端，並對照設計標尺審計間距、間隙和元素尺寸，返回修復提示。Tailwind 優先。"
+  },
+  {
+    "line": 1470,
+    "translated": "- @@L0@@ 🦀 🏠 - 透過語義搜尋和 LLM 摘要獲取特定 Rust crate 的最新文件。"
+  },
+  {
+    "line": 1471,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/h-kazuki-pixel/layout-doctor-mcp) 📇 🏠 🍎 🪟 🐧 - 在無頭瀏覽器中渲染 HTML 並檢測佈局缺陷（文字重疊、元素溢位、殘留佔位符），無需基準影象。"
+  },
+  {
+    "line": 1472,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - GitLab 和 Jira：管理專案、合併請求、檔案、釋出和工單。"
+  },
+  {
+    "line": 1473,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HakashiKatake/docorbit) 📇 🏠 🍎 🪟 🐧 - 面向編碼代理的版本感知文件：查詢 llms.txt、OpenAPI 和技能規範，解析依賴版本，檢測陷阱並驗證程式碼。"
+  },
+  {
+    "line": 1474,
+    "translated": "- @@L0@@ 🐍 🏠 - Excel 工作簿建立、資料操作、格式化、圖表、資料透視表和公式。"
+  },
+  {
+    "line": 1475,
+    "translated": "- @@L0@@ ☕ 🏠 - 讓編碼代理以程式設計方式控制偵錯程式的 JetBrains IDE 外掛。"
+  },
+  {
+    "line": 1476,
+    "translated": "- @@L0@@ ☕ 🏠 - 暴露索引和重構功能的 JetBrains IDE 外掛：重新命名、安全刪除、查詢引用、呼叫和型別層級、診斷等。"
+  },
+  {
+    "line": 1477,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hidai25/eval-view) 🐍 🏠 🍎 🪟 🐧 - 面向 AI 代理的迴歸測試：儲存黃金基線、檢測行為漂移並在 CI 中阻止迴歸。"
+  },
+  {
+    "line": 1478,
+    "translated": "- @@L0@@ 🐍 🏠 - 管理 Higress 閘道器配置和操作。"
+  },
+  {
+    "line": 1479,
+    "translated": "- @@L0@@ 📇 🏠 - 維護和使用 API 集合，替代 Postman 或 Insomnia 等 REST 客戶端。"
+  },
+  {
+    "line": 1480,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Muhammed-AbdelGhany/rest_api_mcp) 📇 🏠 🍎 🪟 🐧 - 對任意 REST API 的認證呼叫：自動登入、令牌快取、2FA/OTP 支援、Swagger 規範獲取和模糊端點搜尋。"
+  },
+  {
+    "line": 1481,
+    "translated": "- @@L0@@ 🏎️ 🏠 - 透過 Go 語言伺服器 gopls 進行 Go 程式碼分析。"
+  },
+  {
+    "line": 1482,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 在六個維度上評分的確定性技術棧推薦：分析和比較技術，併為任何專案型別獲取技術棧建議。"
+  },
+  {
+    "line": 1483,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/homespunapps/homespun) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - 部署和運營多使用者 Web 應用：魔法連結登入、共享實時資料庫、按角色許可權、郵件通知和檔案上傳。"
+  },
+  {
+    "line": 1484,
+    "translated": "- @@L0@@ 📇 🏠 - 與 Bruno API 客戶端互動。"
+  },
+  {
+    "line": 1485,
+    "translated": "- @@L0@@ 🐍 🏠 - Android 裝置控制、除錯、系統分析和 UI 自動化，帶安全框架。"
+  },
+  {
+    "line": 1486,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/icohangar-ops/codesentinel) 📇 🏠 🍎 🪟 🐧 - 檢測死程式碼、迴圈依賴、耦合和架構漂移。"
+  },
+  {
+    "line": 1487,
+    "translated": "- @@L0@@ 📇 ☁️ - 為任意 GitHub 倉庫或專案提供文件的通用遠端伺服器。"
+  },
+  {
+    "line": 1488,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/igorolv/sonar-mcp-server) ☕ 🏠 🍎 🪟 🐧 - 對自託管的 SonarQube Community Build 的只讀訪問：問題、安全熱點、規則和程式碼片段，使代理能在本地修復發現。"
+  },
+  {
+    "line": 1489,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/IgorGanapolsky/ThumbGate) 📇 🏠 - 透過 PreToolUse 鉤子將點贊/點踩反饋轉化為強制的預操作門禁，阻止編碼代理重複犯錯。"
+  },
+  {
+    "line": 1490,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/iksnerd/adb-mcp) 🏎️ 🏠 🍎 🪟 🐧 - 透過 adb 驅動 Android 模擬器和裝置：截圖、UI 檢查、點選/滑動/輸入、應用生命週期、logcat、螢幕錄製以及 Gradle 構建和測試。"
+  },
+  {
+    "line": 1491,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/imatza-rh/mcp-zuul) 🐍 ☁️ - Zuul CI：構建失敗分析、日誌搜尋、流水線狀態和作業配置。"
+  },
+  {
+    "line": 1492,
+    "translated": "- @@L0@@ 📇 🏠 🍎 - 透過自然語言命令與 iOS 模擬器（iPhone、iPad 等）互動。"
+  },
+  {
+    "line": 1493,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Ivy-Innovation/cubelife) 📇 🏠 - 持久化的畫素藝術角色，實時反映代理狀態：報告工作狀態、標記任務完成、發出錯誤訊號並檢查狀態。"
+  },
+  {
+    "line": 1494,
+    "translated": "- @@L0@@ 🐍 🏠 - 多種影象格式的本地壓縮。"
+  },
+  {
+    "line": 1495,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 本地影象和影片處理：縮放、轉換、壓縮、裁剪、縮圖、後設資料提取、旋轉、翻轉、濾鏡以及基於 ffmpeg 的影片操作。"
+  },
+  {
+    "line": 1496,
+    "translated": "- @@L0@@ 📇 ☁️ - 面向構建全棧應用的代理的後端即服務：認證、PostgreSQL 資料庫、儲存和函式。"
+  },
+  {
+    "line": 1497,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hoainho/podium-mcp) 📇 🏠 🍎 - macOS 上的移動端端到端測試：iOS 模擬器控制、原生 UI 自動化、Maestro 流程、React Native 除錯和 WebView DOM 檢查。"
+  },
+  {
+    "line": 1498,
+    "translated": "- @@L0@@ 📇 🏠 🍎 - 與 iOS 模擬器互動：獲取模擬器資訊、控制 UI 互動並檢查 UI 元素。"
+  },
+  {
+    "line": 1499,
+    "translated": "- @@L0@@ 🏎️ 🏠 - 使用語言伺服器工具瀏覽程式碼庫：轉到定義、查詢引用、重新命名和診斷。"
+  },
+  {
+    "line": 1500,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/blackwell-systems/agent-lsp) 🏎️ 🏠 🍎 🪟 🐧 - 在真實語言伺服器之上的有狀態層：持久會話保持索引溫熱，推測性執行在寫入磁碟前於記憶體中模擬編輯。"
+  },
+  {
+    "line": 1501,
+    "translated": "- @@L0@@ 📇 🏠 - 對 Vercel AI SDK 文件的 AI 驅動搜尋和查詢。"
+  },
+  {
+    "line": 1502,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/izzzzzi/codewiki-mcp) 📇 ☁️ - 搜尋倉庫、獲取 AI 生成的 wiki 文件，並透過 codewiki.google 就任意開源倉庫提問。"
+  },
+  {
+    "line": 1503,
+    "translated": "- @@L0@@ 🐍 - 使用 SQLGlot 進行 SQL 分析、lint 和方言轉換。"
+  },
+  {
+    "line": 1504,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jaggernaut007/Nexus-MCP) 🐍 🏠 🍎 🪟 🐧 - 本地混合程式碼搜尋（向量、BM25 和程式碼圖），帶結構化程式碼圖分析和持久語義記憶。"
+  },
+  {
+    "line": 1505,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jaimenbell/mcp-factory) 🐍 🏠 - 清單驅動的 MCP 伺服器腳手架：從 YAML 清單生成 MCP 伺服器，帶批次註冊和實時路由中心。"
+  },
+  {
+    "line": 1506,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Jambozx/onlinecybertools-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - 透過 onlinecybertools.com API 的開發者和安全實用工具：編碼、雜湊、JWT 解碼、正則測試、格式化器、網路診斷和 OSINT。"
+  },
+  {
+    "line": 1507,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 將編碼助手系統提示的目錄作為工具暴露，帶模型感知的建議和人格啟用，以模擬 Cursor 或 Devin 等代理。"
+  },
+  {
+    "line": 1508,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/James-Chahwan/repo-graph) 🐍 🏠 - 結構化程式碼庫圖：跨語言掃描實體、關係和特性流程，使 LLM 按結構而非 grep 導航。"
+  },
+  {
+    "line": 1509,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/janaraj/tnl) 📇 🏠 🍎 🪟 🐧 - TNL（Typed Natural Language）：編碼代理可查詢、提議編輯並據此驗證實現的每特性英語契約。"
+  },
+  {
+    "line": 1510,
+    "translated": "- @@L0@@ 🏎️ 🏠 - 從大型程式碼庫中提取核心程式碼結構為 AI 可消化格式，使代理編寫能正確使用現有 API 的程式碼。"
+  },
+  {
+    "line": 1511,
+    "translated": "- @@L0@@ 📇 🏠 - 用於透過斷點和表示式求值進行語言無關自動除錯的 VS Code 擴充套件和 MCP 伺服器。"
+  },
+  {
+    "line": 1512,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jawdat6/fixgraph-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 搜尋並貢獻社群驗證的工程問題和修復知識庫，帶信任評分和修復驗證。"
+  },
+  {
+    "line": 1513,
+    "translated": "- @@L0@@ 🎖️ 📇 🏠 - 使用 JetBrains IDE（如 IntelliJ、PyCharm、WebStorm 和 Android Studio）。"
+  }
+]

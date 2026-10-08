@@ -1,0 +1,1922 @@
+[
+ {
+  "line": 0,
+  "translated": "@@L0@@](README-th.md)"
+ },
+ {
+  "line": 1,
+  "translated": "@@L0@@](README.md)"
+ },
+ {
+  "line": 2,
+  "translated": "@@L0@@](README-zh_TW.md)"
+ },
+ {
+  "line": 3,
+  "translated": "@@L0@@](README-zh.md)"
+ },
+ {
+  "line": 4,
+  "translated": "@@L0@@](README-ja.md)"
+ },
+ {
+  "line": 5,
+  "translated": "@@L0@@](README-ko.md)"
+ },
+ {
+  "line": 6,
+  "translated": "@@L0@@](README-pt_BR.md)"
+ },
+ {
+  "line": 7,
+  "translated": "@@L0@@](https://glama.ai/mcp/discord)"
+ },
+ {
+  "line": 8,
+  "translated": "@@L0@@](https://www.reddit.com/r/mcp/)"
+ },
+ {
+  "line": 10,
+  "translated": "> [!IMPORTANT]"
+ },
+ {
+  "line": 11,
+  "translated": "> @@L0@@ – von der Idee zum MCP-Server in weniger als einer Minute! 🦜"
+ },
+ {
+  "line": 15,
+  "translated": "Eine kuratierte Liste von fantastischen Model Context Protocol (MCP) Servern."
+ },
+ {
+  "line": 17,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 18,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 19,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 20,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 21,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 22,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 23,
+  "translated": "* @@L0@@ "
+ },
+ {
+  "line": 24,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 25,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 27,
+  "translated": "## Was ist MCP?"
+ },
+ {
+  "line": 29,
+  "translated": "@@L0@@ Es ist ein offenes Protokoll, das es KI-Modellen ermöglicht, durch standardisierte Serverimplementierungen sicher mit lokalen und entfernten Ressourcen zu interagieren. Diese Liste konzentriert sich auf produktionsfähige und experimentelle MCP-Server, die KI-Funktionen durch Dateizugriff, Datenbankverbindungen, API-Integrationen und andere kontextbezogene Dienste erweitern."
+ },
+ {
+  "line": 31,
+  "translated": "## Kunden"
+ },
+ {
+  "line": 33,
+  "translated": "Kasse @@L0@@ und @@L1@@."
+ },
+ {
+  "line": 35,
+  "translated": "## Fernserver"
+ },
+ {
+  "line": 37,
+  "translated": "Diese Liste ist für Server mit einem GitHub-Repo, das Sie selbst installieren und ausführen. Suchen Sie nach einem gehosteten Server, mit dem Sie sich einfach über eine URL verbinden? Siehe @@L0@@."
+ },
+ {
+  "line": 39,
+  "translated": "## Tutorials"
+ },
+ {
+  "line": 41,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 42,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 43,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 45,
+  "translated": "## Gemeinschaft"
+ },
+ {
+  "line": 47,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 48,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 50,
+  "translated": "## Legende"
+ },
+ {
+  "line": 52,
+  "translated": "* 🎖️ – offizielle Umsetzung"
+ },
+ {
+  "line": 53,
+  "translated": "* Programmiersprache"
+ },
+ {
+  "line": 54,
+  "translated": "  * 🐍 - Python-Codebasis"
+ },
+ {
+  "line": 55,
+  "translated": "  * 📇 - TypeScript (oder JavaScript) Codebasis"
+ },
+ {
+  "line": 56,
+  "translated": "  * 🏎️ - Gehen Sie Codebase"
+ },
+ {
+  "line": 57,
+  "translated": "  * 🦀 - Rust-Codebasis"
+ },
+ {
+  "line": 58,
+  "translated": "  * #️� - C# Codebase"
+ },
+ {
+  "line": 59,
+  "translated": "  * ☕ - Java Codebase"
+ },
+ {
+  "line": 60,
+  "translated": "  * C/C++ Codebasis"
+ },
+ {
+  "line": 61,
+  "translated": "  * 💎 - Ruby Codebase"
+ },
+ {
+  "line": 63,
+  "translated": "* Anwendungsbereich"
+ },
+ {
+  "line": 64,
+  "translated": "  * ☁️ - Cloud Service"
+ },
+ {
+  "line": 65,
+  "translated": "  * 🏠 - Lokaler Service"
+ },
+ {
+  "line": 66,
+  "translated": "  * 📟 - Eingebettete Systeme"
+ },
+ {
+  "line": 67,
+  "translated": "* Betriebssystem"
+ },
+ {
+  "line": 68,
+  "translated": "  * 🍎 - Für macOS"
+ },
+ {
+  "line": 69,
+  "translated": "  * 🪟 – für Windows"
+ },
+ {
+  "line": 70,
+  "translated": "  * 🐧 - Für Linux"
+ },
+ {
+  "line": 72,
+  "translated": "> [!NOTE]"
+ },
+ {
+  "line": 73,
+  "translated": "> Verwirrt über Local 🏠 vs Cloud ☁️?"
+ },
+ {
+  "line": 74,
+  "translated": "> * Verwenden Sie lokal, wenn der MCP-Server mit einer lokal installierten Software spricht, z. B. die Kontrolle über den Chrome-Browser übernimmt."
+ },
+ {
+  "line": 75,
+  "translated": "> * Verwenden Sie die Cloud, wenn der MCP-Server mit entfernten APIs spricht, z. B. Wetter-API."
+ },
+ {
+  "line": 77,
+  "translated": "## Serverimplementierungen"
+ },
+ {
+  "line": 79,
+  "translated": "> [!NOTE]"
+ },
+ {
+  "line": 80,
+  "translated": "> Wir haben jetzt eine @@L0@@ das mit dem Repository synchronisiert wird."
+ },
+ {
+  "line": 82,
+  "translated": "* 🔗 - @@L0@@"
+ },
+ {
+  "line": 83,
+  "translated": "* 🤝 - @@L0@@"
+ },
+ {
+  "line": 84,
+  "translated": "* 🎨 - @@L0@@"
+ },
+ {
+  "line": 85,
+  "translated": "* 📐 - @@L0@@"
+ },
+ {
+  "line": 86,
+  "translated": "* 📂 - @@L0@@"
+ },
+ {
+  "line": 87,
+  "translated": "* 🧬 - @@L0@@"
+ },
+ {
+  "line": 88,
+  "translated": "* ☁️ - @@L0@@"
+ },
+ {
+  "line": 89,
+  "translated": "* 👨‍💻 - @@L0@@"
+ },
+ {
+  "line": 90,
+  "translated": "* 🤖 - @@L0@@"
+ },
+ {
+  "line": 91,
+  "translated": "* 🖥️ - @@L0@@"
+ },
+ {
+  "line": 92,
+  "translated": "* 💬 - @@L0@@"
+ },
+ {
+  "line": 93,
+  "translated": "* 🗣️ - @@L0@@"
+ },
+ {
+  "line": 94,
+  "translated": "* 🔑 - @@L0@@"
+ },
+ {
+  "line": 95,
+  "translated": "* 👤 - @@L0@@"
+ },
+ {
+  "line": 96,
+  "translated": "* 🗄️ - @@L0@@"
+ },
+ {
+  "line": 97,
+  "translated": "* 📊 - @@L0@@"
+ },
+ {
+  "line": 98,
+  "translated": "* 🚚 - @@L0@@"
+ },
+ {
+  "line": 99,
+  "translated": "* 🛠️ - @@L0@@"
+ },
+ {
+  "line": 100,
+  "translated": "* 🧮 - @@L0@@"
+ },
+ {
+  "line": 101,
+  "translated": "* 📊 - @@L0@@"
+ },
+ {
+  "line": 102,
+  "translated": "* 📟 - @@L0@@"
+ },
+ {
+  "line": 103,
+  "translated": "* 🎓 - @@L0@@"
+ },
+ {
+  "line": 104,
+  "translated": "* 🛒 - @@L0@@"
+ },
+ {
+  "line": 105,
+  "translated": "* 🌳 - @@L0@@"
+ },
+ {
+  "line": 106,
+  "translated": "* 📂 - @@L0@@"
+ },
+ {
+  "line": 107,
+  "translated": "* 💰 - @@L0@@"
+ },
+ {
+  "line": 108,
+  "translated": "* 🎮 - @@L0@@"
+ },
+ {
+  "line": 109,
+  "translated": "* 🏠 - @@L0@@"
+ },
+ {
+  "line": 110,
+  "translated": "* 🪪 - @@L0@@"
+ },
+ {
+  "line": 111,
+  "translated": "* 🏭 - @@L0@@"
+ },
+ {
+  "line": 112,
+  "translated": "* 🧠 - @@L0@@"
+ },
+ {
+  "line": 113,
+  "translated": "* ⚖️ - @@L0@@"
+ },
+ {
+  "line": 114,
+  "translated": "* 🗺️ - @@L0@@"
+ },
+ {
+  "line": 115,
+  "translated": "* 🎯 - @@L0@@"
+ },
+ {
+  "line": 116,
+  "translated": "* 📊 - @@L0@@"
+ },
+ {
+  "line": 117,
+  "translated": "* 🎥 - @@L0@@"
+ },
+ {
+  "line": 118,
+  "translated": "* 🖥️ - @@L0@@"
+ },
+ {
+  "line": 119,
+  "translated": "* 🎙️ - @@L0@@"
+ },
+ {
+  "line": 120,
+  "translated": "* 📋 - @@L0@@"
+ },
+ {
+  "line": 121,
+  "translated": "* 🏠 - @@L0@@"
+ },
+ {
+  "line": 122,
+  "translated": "* 🔬 - @@L0@@"
+ },
+ {
+  "line": 123,
+  "translated": "* 🔎 - @@L0@@"
+ },
+ {
+  "line": 124,
+  "translated": "* 🔒 - @@L0@@"
+ },
+ {
+  "line": 125,
+  "translated": "* 🌐 - @@L0@@"
+ },
+ {
+  "line": 126,
+  "translated": "* 🔮 - @@L0@@"
+ },
+ {
+  "line": 127,
+  "translated": "* 🏃 - @@L0@@"
+ },
+ {
+  "line": 128,
+  "translated": "* 🎧 - @@L0@@"
+ },
+ {
+  "line": 129,
+  "translated": "* 🌎 - @@L0@@"
+ },
+ {
+  "line": 130,
+  "translated": "* 🎧 - @@L0@@"
+ },
+ {
+  "line": 131,
+  "translated": "* 🎙️ - @@L0@@"
+ },
+ {
+  "line": 132,
+  "translated": "* 🚆 - @@L0@@"
+ },
+ {
+  "line": 133,
+  "translated": "* 🔄 - @@L0@@"
+ },
+ {
+  "line": 134,
+  "translated": "* 🏢 - @@L0@@"
+ },
+ {
+  "line": 135,
+  "translated": "* 🛠️ - @@L0@@"
+ },
+ {
+  "line": 137,
+  "translated": "### ←<a name=\"aggregators\"></a>Aggregatoren"
+ },
+ {
+  "line": 139,
+  "translated": "Server für den Zugriff auf viele Apps und Tools über einen einzigen MCP-Server."
+ },
+ {
+  "line": 140,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/402signalhq/402signal)🐍 ☁️ - Prüft und validiert live x402 Zahlungsrouten über Base, Solana und Algorand."
+ },
+ {
+  "line": 141,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/GarphenGate/moltline-mcp)🐍 ☁️ 🍎 🪟 🐧 - Brücke zu den gehosteten MCP-Servern von Moltline Studio: Code-Review, Agent-Governance, Business-Mathe, regulatorische Fristen, Krypto-Steuerlose, Routing und Optimierung."
+ },
+ {
+  "line": 142,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/team886/findagent-mcp)📇 ☁️ - Marktplatz von überprüften Agenten mit automatisierten Sicherheitsscans plus menschlicher Überprüfung, Credential-to-Host-Bindung und Sandboxed-Host-Code mit Standard-Deny-Egress."
+ },
+ {
+  "line": 143,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BotHireAgent/BotHireMCPServer)BotHire Agent-to-Agent-Einstellungsmarktplatz: Suchen Sie Agenten und Fähigkeiten nach Fähigkeit und Vertrauen, lesen Sie die Live-Nachfrage und lassen Sie sich in USDT oder USDC über Ketten hinweg nieder."
+ },
+ {
+  "line": 144,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/neoninnovationlab/neon-mcp-gateway)📇 ☁️ 🏠 - Edge-Firewall zum Aussetzen interner PostgreSQL-Datenbanken und APIs an KI-Agenten mit strenger Validierung."
+ },
+ {
+  "line": 145,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/daedalusdevelopmentgroup/ddg-agent-payable-services)Pay-per-Call x402-Tools (Dienstprogramme, DNS/WHOIS, Blockchain RPC, Markt- und DEX-Daten, Vorhersagemärkte, Sicherheitsaudits) sowie ein OpenAI-kompatibles LLM-Gateway."
+ },
+ {
+  "line": 146,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/coinopai-mcp)Bezahlte Krypto-Intelligenz über x402 on Base: Preflight-Checks, Handelsentscheidungen mit realen Preisen, Risikozustand, Signalhistorie und Automatisierungssuche."
+ },
+ {
+  "line": 147,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/anomaly-mcp)📇 ☁️ - Echtzeit-Anomalieerkennung mit von der NASA abgeleitetem Sequenz-Mining über Blockchain-, Mempool-, Stablecoin-Depeg-, Luftfahrt- und GitHub-Signale, bezahlt über x402 auf Base."
+ },
+ {
+  "line": 148,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - Aggregiert mehrere MCP-Server zu einem einheitlichen Server."
+ },
+ {
+  "line": 149,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/2s-io/sdk)📇 ☁️ 🍎 🪟 🐧 - Pay-per-Call x402 API: Geocoding, Wetter, Erdbeben, Patente, US-Fallrecht, Bundesregister, wissenschaftliche Arbeiten, DNS/WHOIS, OFAC-Screening und Volkszählungsdaten."
+ },
+ {
+  "line": 150,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/8randonpickart5/alderpost-mcp)📇 ☁️ - Intelligenz-Endpunkte für Sicherheits-, Unternehmens-, Bedrohungs-, Compliance-, Verkaufs-, Sport-, Eigentums- und Gesundheitsdaten, bezahlt über x402 Micropayments auf Base."
+ },
+ {
+  "line": 151,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/utility-grid-mcp)Suchen und Anruf-Utility-APIs für OCR, Bild, Audio, Web, Mathematik, Konvertierung und Geodaten, bezahlt pro Anruf mit x402 USDC auf Base."
+ },
+ {
+  "line": 152,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/GTCC777/pulsenetwork-mcp)Pay-per-Call x402 Intelligence APIs auf Base und Solana: Finanzen, Krypto, Recht, Einwanderung, Gesundheitskosten, Immobilien, Steuern, Klima, Sport und Wissenschaft."
+ },
+ {
+  "line": 153,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mcpqueen/mcpqueen)🎖️ 📇 ☁️ - Bewertete MCP-Registrierung: Live-Sonden von Remote-Servern aus der MCP-Registrierung (Initialisierung, Tool-Liste, Schemaqualität, Latenz, Herkunft) und veröffentlicht Noten."
+ },
+ {
+  "line": 154,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/minia2auk/minia2a-mcp)📇 ☁️ - Pay-per-Call x402-Gateway für Agenten-Tools: Krypto- und DeFi-Daten, Web Scraping, AI-Inferenz, CAPTCHA-Lösung, Token-Sicherheit, DNS / WHOIS und Gasüberwachung."
+ },
+ {
+  "line": 155,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/szp2005/llm-prices-cn)🐍 ☁️ - Täglich verifizierter Datensatz der LLM API-Preise für chinesische und globale Modelle mit Live-Preisabfragen und Token-Kostenschätzung."
+ },
+ {
+  "line": 156,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tadas-github/a2asearch-mcp)📇 ☁️ - Durchsuchen Sie ein Verzeichnis von MCP-Servern, KI-Agenten, CLI-Tools und Agentenfähigkeiten."
+ },
+ {
+  "line": 157,
+  "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - Überbrücken Sie MCP-Server mit dem Agent://-Netzwerk, damit andere Agenten ihre Tools mit DNS-ähnlicher Identität, mTLS, Vertrauenswerten und Fähigkeitssuche entdecken und aufrufen können."
+ },
+ {
+  "line": 158,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/agentbodegastore/agentbodega)📇 ☁️ - Live-Katalog der x402-zahlbaren HTTP-Tools von AgentBodega: Suche, öffentliche Daten, soziale Medien, Statusüberprüfungen, Medienkonvertierung und Agentenbereitschaftsprüfungen."
+ },
+ {
+  "line": 159,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/elisymlabs/elisym)📇 ☁️ 🍎 🪟 🐧 - AI Agent Discovery und Marktplatz auf Nostr mit Solana-Zahlungen (SOL, USDC): NIP-89 Discovery, NIP-90 Jobs, NIP-44 Verschlüsselung und On-Chain-Mikrozahlungen."
+ },
+ {
+  "line": 160,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PHONGUIT22/nostrpulse-full)📇 🏠 🍎 🪟 🐧 - Agent-to-Agent (A2A) Commerce Framework mit Nostr NIP-90 und Cashu eCash Micro-Settlements."
+ },
+ {
+  "line": 161,
+  "translated": "- @@L0@@ 📇 ☁️ - Job-Aggregator für KI-Agenten auf Plattformen wie x402, RentAHuman und Virtuals."
+ },
+ {
+  "line": 162,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gzchenhao/openhire)🐍 🏠 🍎 🪟 🐧 - Jobsuche über Arbeitgeber-ATS-APIs (Greenhouse, Lever, Ashby, Beisen) mit Frischeüberprüfung, Ghost-Job-Scoring und Anwendung von Links; Matching läuft kundenseitig."
+ },
+ {
+  "line": 163,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/doggychip/agentforge)📇 ☁️ - Self-hostable API-Gateway und Marktplatz für KI-Agenten mit einem API-Schlüssel, REST- und Streaming-Zugang und Gesundheitsüberwachung."
+ },
+ {
+  "line": 164,
+  "translated": "- @@L0@@ 🐍 ☁️ 🏠 🍎 🪟 🐧 - Suchen, integrieren und monetarisieren Sie MCP-Anschlüsse auf dem AgentHotspot-Marktplatz."
+ },
+ {
+  "line": 165,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aidevelopers2/remoteopenclaw-mcp)📇 🏠 - Durchsuchen Sie das Remote OpenClaw-Verzeichnis von MCP-Servern, Agentenfähigkeiten und Plugins nach Namen, Links und Installationsbefehlen; auch als CLI verfügbar."
+ },
+ {
+  "line": 166,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/garasegae/aiskillstore)☁️ - Skill-Marktplatz, auf dem KI-Agenten Fähigkeiten entdecken, kaufen und integrieren."
+ },
+ {
+  "line": 167,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/getanyapi-com/mcp)🎖️ 📇 ☁️ 🏠 - AnyAPI: Scraping und Daten-APIs für Social Media, Suchergebnisse, Google Maps, E-Commerce und Webdaten, mit normalisiertem JSON und automatischem Provider-Failover."
+ },
+ {
+  "line": 168,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server)📇 ☁️ 🍎 🪟 🐧 - CLIRank-API-Intelligenz für Programmierer: Entdecken, vergleichen und erhalten Sie Empfehlungen für APIs, die auf Agentenfreundlichkeit bewertet wurden."
+ },
+ {
+  "line": 169,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Work90210/APIFold)Verwandeln Sie jede REST-API in einen gehosteten MCP-Server mit vorgefertigten öffentlichen Servern für GitHub, Stripe, Slack, OpenAI, Notion und mehr."
+ },
+ {
+  "line": 170,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexar76/aimarket-plugins)📇 ☁️ 🏠 🍎 🪟 🐧 - AIMarket Hub-Plugin, das AIMarket-Funktionen als selbst gehostete MCP-Server mit einem Docker-Image, -Manifest und -Client-Konfiguration verpackt."
+ },
+ {
+  "line": 171,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Alepha188838884/context-firewall)📇 🏠 🍎 🪟 🐧 - Lokaler MCP-Proxy, der nachgelagerte Server hinter einigen Meta-Tools mit progressiver Entdeckung zusammenführt und große Tool-Ausgaben mit voller Ausgabe bei Bedarf komprimiert."
+ },
+ {
+  "line": 172,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIsa-public/AIsa-mcp-server)🎖️ 📇 ☁️ 🍎 🪟 🐧 - Suchen, inspizieren und betreiben Sie Daten-APIs für SEO und KI-Sichtbarkeit, Finanzen, Social, Web-Suche, Verkauf und Agenten-Mail durch ein paar Meta-Tools, mit Ausgabenobergrenzen."
+ },
+ {
+  "line": 173,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/api7/aisix)🦀 🏠 - Selbst gehostetes MCP-Gateway vor Upstream-Servern mit Pro-Tool-Zugriffskontrolle, Leitplanken, Tariflimits und Nutzungsprotokollen; auch Proxies LLM und A2A Agent Traffic."
+ },
+ {
+  "line": 174,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/reefapi/reefapi-mcp)🐍 ☁️ - Live-Webdaten als saubere JSON: Suchmaschinen, soziale Medien, E-Commerce (Amazon, eBay, Etsy), Immobilien, Jobs, Reisen, Nachrichten, Finanzen und Unternehmensinformationen."
+ },
+ {
+  "line": 175,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/RightOnPar-LLC/mesh-connector)📇 ☁️ - MeshMarket Agent-to-Agent-Fähigkeitsaustausch: Agenten durchsuchen, selbst an Bord, mieten Speicher, Argumentation und Sicherheit pro Anruf und veröffentlichen ihre eigenen Tools."
+ },
+ {
+  "line": 176,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@rhein1/agoragentic-integrations)📇 ☁️ - Agent-to-Agent-Marktplatz, auf dem KI-Agenten die Dienste anderer Agenten mit USDC on Base entdecken, aufrufen und bezahlen."
+ },
+ {
+  "line": 177,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/arikusi/deepseek-mcp-server)📇 ☁️ 🍎 🪟 🐧 - DeepSeek AI-Chat und Argumentation mit Multiturn-Sitzungen, Funktionsaufrufen, Denkmodus und Kostenverfolgung."
+ },
+ {
+  "line": 178,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - Erstellen, Validieren und Bereitstellen von Multiagenten-KI-Lösungen auf der ADAS-Plattform: Entwerfen von Fähigkeiten mit Tools und Verwalten des Lösungslebenszyklus."
+ },
+ {
+  "line": 179,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - Meta-MCP-Server, der KI-Codierungsassistenten (Codex, Claude Code, Cursor, Gemini) hinter einer Schnittstelle mit automatischer Erkennung und Null-Konfiguration vereint."
+ },
+ {
+  "line": 180,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/adw0rd/awesome-mcp-tools-mcp)📇 ☁️ 🏠 🍎 🪟 🐧 - Durchsuchen Sie den fantastischen mcp.tools-Katalog von MCP-Servern von einem MCP-Client oder dem Terminal."
+ },
+ {
+  "line": 181,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/avotsai/avots-mcp)📇 ☁️ - Mehrmodell-KI-Mediengeneration (Bild, Video, Audio, Face Swap, sprechende Avatare) plus Chat mit Models wie Claude, GPT, Gemini und DeepSeek."
+ },
+ {
+  "line": 182,
+  "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - Zugriff auf KI-Modelle wie GPT-5, Claude, Gemini, Grok und DeepSeek, bezahlt pro Nutzung über x402 Micropayments in USDC on Base."
+ },
+ {
+  "line": 183,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bridgenode-ai/bridgenode-mcp)Pay-per-request-ki-chat-abschlüsse über unterstützte modelle über x402, mit automatischen Solana-USDC-Zahlungen und fehlgeschlagenen Ausgabenobergrenzen."
+ },
+ {
+  "line": 184,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cgrtml/reasongate)🐍 🏠 🍎 🪟 🐧 - Provenienz-Gateway für Stdio-MCP-Server, das Tool-Aufrufe blockiert, deren Ziel oder Inhalt von einem nicht vertrauenswürdigen Tool-Ergebnis stammt, mit Schema-abgeleiteten Richtlinien."
+ },
+ {
+  "line": 185,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cinderwright-ai/cinderwright-api)📇 ☁️ - x402 Discovery Hub: Suchmaschine für Agentendienste, bezahlt mit USDC on Base über x402."
+ },
+ {
+  "line": 186,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Continuum-AI-Corp/orcarouter-mcp-server)📇 ☁️ 🏠 🍎 🪟 🐧 - Durchsuchen Sie LLMs von OpenAI, Anthropic, Google, Qwen, DeepSeek und anderen mit Live-Preisen und Routen-Chat-Abschlüssen durch das OrcaRouter-Gateway mit Fallback."
+ },
+ {
+  "line": 187,
+  "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - Einheitliche MCP-Plattform, die viele Apps, Tools und Dienste hinter einer Schnittstelle verbindet."
+ },
+ {
+  "line": 188,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/depwire/depwire)📇 🐍 🏎️ 🦀 🌊 🏠 - Abhängigkeitsgraphen für TypeScript, JavaScript, Python, Go, Rust und C, mit Bogendiagrammvisualisierung, Gesundheitsbewertung, toter Codeerkennung und einem zeitlichen Graphen."
+ },
+ {
+  "line": 189,
+  "translated": "- @@L0@@ 🏎️ 🏠 - Selbst gehostete MCP-Serverregistrierung für AI-Agenten von Unternehmen."
+ },
+ {
+  "line": 190,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Proofpane/releases)🎖️ 🏠 🍎 🪟 🐧 - MCP-Governance-Proxy: Erlauben, Verweigern oder menschliche Genehmigungsrichtlinien, DLP-Redaktion und Kostenobergrenzen, wobei Tool-Aufrufe in ein Hash-verkettetes, signiertes Audit-Log aufgezeichnet werden."
+ },
+ {
+  "line": 191,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/entire-vc/evc-spark-mcp)📇 ☁️ 🏠 🍎 🪟 🐧 - Durchsuchen Sie einen kuratierten Katalog von KI-Agenten, Fähigkeiten, Eingabeaufforderungen, Bundles und MCP-Anschlüssen."
+ },
+ {
+  "line": 192,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gamaze-labs/hicortex)📇 🏠 - Gemeinsames Gedächtnis für Flotten von KI-Agenten: Die nächtliche Selbstkorrektur schreibt veraltete Fakten um und führt Duplikate zusammen, und der Rückruf wird in die Eingabeaufforderungen der Kodierungsagenten eingespeist."
+ },
+ {
+  "line": 193,
+  "translated": "- @@L0@@ ☁️ 📇 🍎 🪟 🐧 - Listen Sie MCP-Server auf, damit Sie Ihren Client fragen können, welche Ihren täglichen Workflow verbessern könnten."
+ },
+ {
+  "line": 194,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Gliana-Labs/gliana-mcp)📇 ☁️ 🏠 🍎 🪟 🐧 - Pay-per-Call AI-Modelle (Chat, Bild, Video, Musik, Sprache) plus Web-Screenshots, Screenshots, OCR, Gesichtsabgleich und Krypto / FX-Raten, bezahlt über HTTP 402 in USDC."
+ },
+ {
+  "line": 195,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gpu-bridge/mcp-server)📇 ☁️ 🍎 🪟 🐧 - GPU-Inferenz-API für LLMs, Bild- und Videogenerierung, TTS, Whisper, Einbettungen, Reranking und OCR, bezahlt pro Nutzung über x402 oder einen API-Schlüssel."
+ },
+ {
+  "line": 196,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@gzoonet/gzoo-cortex)📇 🏠 - Local-First-Entwickler-Wissensgraph: beobachtet Projektdateien, extrahiert Entitäten und Beziehungen zu LLMs und bietet Abfragen, ein Web-Dashboard und eine CLI."
+ },
+ {
+  "line": 197,
+  "translated": "- @@L0@@ 📇 🏠 🪟 🍎 🐧 - Generieren Sie Bilder aus Textaufforderungen mit Googles Imagen 3 API, mit Fotografie, künstlerischen und fotorealistischen Kontrollen."
+ },
+ {
+  "line": 198,
+  "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - Entdecken, registrieren und chatten Sie mit KI-Agenten im Hashgraph-Netzwerk über den Registry Broker."
+ },
+ {
+  "line": 199,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hedging8563/tokenlab-mcp-server)📇 ☁️ - TokenLab AI-Gateway: Modell- und Preisfindung plus OpenAI-kompatible Chat-Ergebnisse, Antworten, anthropische Nachrichten und Zwillinge-Inferenz."
+ },
+ {
+  "line": 200,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HelpCode-ai/anythingmcp)📇 🏠 ☁️ 🍎 🪟 🐧 - Selbst gehostetes MCP-Gateway, das REST-, SOAP- und GraphQL-APIs und SQL/NoSQL-Datenbanken in MCP-Tools ohne Code mit Spec-Import, vorgefertigten Adaptern und RBAC verwandelt."
+ },
+ {
+  "line": 201,
+  "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - Selbstverbessernde Tool-Erkennung: Durchsucht Registrierungen, installiert MCP-Server als Subprozesse ohne Neustarts und behält das Tool-Wissen über Sitzungen hinweg."
+ },
+ {
+  "line": 202,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jabbawocky/proposalcraft)📇 🏠 🍎 🪟 🐧 - Entwerfen Sie Kundenvorschläge in Ihrer eigenen Stimme aus einem neuen Auftrag, basierend auf Ihren gespeicherten früheren Vorschlägen, nur mit lokaler Speicherung."
+ },
+ {
+  "line": 203,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Jackalope-Dev/allmcps-server)📇 ☁️ 🍎 🪟 🐧 - Suchen und durchsuchen Sie die AllMCPs.com-Registrierung von MCP-Servern, installieren Sie Konfigurationen und senden Sie oder fordern Sie Listen ein."
+ },
+ {
+  "line": 204,
+  "translated": "- @@L0@@ Brücke zur Google Gemini API für den Zugriff auf Gemini Pro und Flash-Modelle."
+ },
+ {
+  "line": 205,
+  "translated": "- @@L0@@ Brücke zu einem lokalen Ollama-Server für Llama, Mistral, Qwen und andere lokale Modelle."
+ },
+ {
+  "line": 206,
+  "translated": "- @@L0@@ Brücke zur OpenAI-API für den Zugriff auf GPT-4, GPT-4o und andere OpenAI-Modelle."
+ },
+ {
+  "line": 207,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Jovancoding/network-ai)📇 🏠 🍎 🪟 🐧 - Multi-Agenten-Orchestrierung mit einer sicheren gemeinsamen Blackboard, Agent Spawning, FSM-Übergängen, Budget- und Token-Tracking und Audit-Logs."
+ },
+ {
+  "line": 208,
+  "translated": "- @@L0@@ 🏎️ 🏠 ☁️ - Abfrage-Apps mit SQL aus einer einzigen lokalen ersten Binärdatei; verbindet sich auch mit PostgreSQL, MySQL und SQLite-kompatiblen Datenbanken."
+ },
+ {
+  "line": 209,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - Edge-First AI-Plattform, die viele Anbieter und Modelle vereint, mit Multi-Agenten-Orchestrierung, Workflows von Menschen im Loop, Leitplanken und Kontextzusammenfassung."
+ },
+ {
+  "line": 210,
+  "translated": "- @@L0@@ 🐍 ☁️ 🏠 🍎 🪟 🐧 - Suchen und verwenden Sie Claude Agent Skills von jedem Modell oder Client, als ob nativ unterstützt."
+ },
+ {
+  "line": 211,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kansei-link/kansei-mcp-server)📇 🏠 🍎 🪟 🐧 - Lokaler erster Navigator mit verifizierten Daten zu SaaS-Diensten und Workflow-Rezepten."
+ },
+ {
+  "line": 212,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kevmoz/macaroonnetwork-mcp)🐍 ☁️ 🏠 🍎 🪟 🐧 - Suchen und kaufen Sie auf einem prädikatbasierten wissenschaftlichen Marktplatz: Durchsuchen Sie den Katalog und die Metadaten und bezahlen Sie dann über x402 (USDC on Base) oder Lightning L402."
+ },
+ {
+  "line": 213,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - MapRag: RAG-fokussierte MCP-Subregistrierung zum Auffinden und Routing zu abruffähigen MCP-Servern mit strukturierten Einschränkungen und erklärbarem Ranking."
+ },
+ {
+  "line": 214,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-gtm-suite)📇 ☁️ - Go-to-Market-Signale über Apify-Akteure: Einstellungssignale, Tech-Stack-Erkennung, Scannen von Stellenbörsen, LinkedIn-URL-Auflösung, ICP-Scoring und Signalaggregation."
+ },
+ {
+  "line": 215,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Markgatcha/universal-mcp-toolkit)📇 ☁️ 🏠 🍎 🪟 🐧 - MCP-Aggregator, der Agenten über eine Konfiguration mit vorgefertigten Vorlagen und Cross-Repo-Prompt-Workflows verbindet."
+ },
+ {
+  "line": 216,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MastadoonPrime/sylex-search)Suchmaschine für KI-Agenten, um Produkte, Dienstleistungen und Unternehmen über Kategorien hinweg zu entdecken, ohne LLM-Anrufe."
+ },
+ {
+  "line": 217,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mediiiiium/mcp-jp)🐍 ☁️ - MCP-Server für japanische SMB SaaS ohne eigene MCP-Unterstützung, wie KING OF TIME, SmartHR, kaonavi, Smaregi, LINE Lstep und CloudSign."
+ },
+ {
+  "line": 218,
+  "translated": "- @@L0@@ 🐍 ☁️ 🍎 🪟 🐧 - Zugriff auf die Grok-API von xAI mit Agentic Tool Calling, Bilderzeugung, Vision und Dateiunterstützung."
+ },
+ {
+  "line": 219,
+  "translated": "- @@L0@@ MetaMCP: Unified Middleware MCP Server, der Ihre MCP-Verbindungen über eine GUI verwaltet."
+ },
+ {
+  "line": 220,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MikeyPetrillo/Agent402)📇 ☁️ 🏠 - Pay-per-Call x402 Tools und Skill Packs (Kopfloser Browser, Web-Suche, OCR, Wallet-Tastenspeicher) sowie ein Router, der das billigste gesunde Tool findet."
+ },
+ {
+  "line": 221,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MikkoParkkola/mcp-gateway)🏎️ 🏠 🍎 🪟 🐧 - MCP-Gateway mit Single-Port-Multiplexing und Meta-Tools, die individuelle Werkzeugregistrierungen ersetzen, sowie Hot-Reload-Funktionen und OpenAPI-Import."
+ },
+ {
+  "line": 222,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mirastacklabs-ai/mirastack-redfish-mcp)🎖️ 🐍 ☁️ 📟 - Regulierter Zugriff auf DMTF Redfish BMCs (iDRAC, iLO, XCC, OpenBMC) für Strom-, Thermo-, Firmware- und BIOS-Verwaltung; standardmäßig schreibgeschützt mit abgestuften Schreibmodi."
+ },
+ {
+  "line": 223,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mroops0111/openapi-mcp-gateway)🐍 ☁️ 🏠 🍎 🪟 🐧 - Montieren Sie mehrere OpenAPI-Spezifikationen oder eine FastAPI-App als MCP-Server in einem Prozess und stellen Sie GET-Endpunkte als Ressourcen und große Spezifikationen durch Meta-Tools frei."
+ },
+ {
+  "line": 224,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nimbus-agent/Nimbus)🎖️ 📇 🏠 🍎 🪟 🐧 - Lesen Sie nur über einen lokalen Index Ihres Engineering-Stacks (GitHub, Jira, Slack, PagerDuty, Datadog und mehr): Vorfälle, PRs, Bereitstellungen und DORA-Metriken."
+ },
+ {
+  "line": 225,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/mcp-hub)📇 🏠 🍎 🪟 🐧 - Servieren Sie viele Stdio-MCP-Server über HTTPS mit pfadbasiertem Routing, einem aggregierten Endpunkt mit Meta-Tools, integriertem OAuth 2.1 und heißem Neuladen."
+ },
+ {
+  "line": 226,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Octodamus/octodamus-core)🐍 - Crypto Market Orakel: KAUFEN / VERKAUFEN / HALTEN Konsens von RSI, MACD, Finanzierungsraten und On-Chain-Flow, plus Polymarket-Ränder mit EV-Scoring und X-Crowd-Sentiment."
+ },
+ {
+  "line": 227,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/opentabs-dev/opentabs)📇 🏠 🍎 🪟 🐧 - Plugin-basierter Server und Chrome-Erweiterung, die KI-Agenten über Ihre authentifizierte Browsersitzung mit einem Plugin-SDK Zugriff auf Web-Apps bietet."
+ },
+ {
+  "line": 228,
+  "translated": "- @@L0@@ 🐍 ☁️ 🍎 🪟 🐧 - Agenten-zu-Agenten-Empfehlungsnetzwerk, in dem KI-Agenten Benutzer entdecken, empfehlen und miteinander verweisen, mit einem bilateralen Vertrauensmodell und einem Empfehlungs-Tracking."
+ },
+ {
+  "line": 229,
+  "translated": "- @@L0@@ 🐍 ☁️ 🏠 🍎 🪟 - MCP-Server automatisch auf Ihrem lokalen Computer entdecken und konfigurieren."
+ },
+ {
+  "line": 230,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - Orchestriert alle Ihre MCP-Server durch Tool-Discovery und reduziert den Token-Overhead."
+ },
+ {
+  "line": 231,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - Entwickler-Dienstprogramme: SEO-Optimierung, Dokumentenkonvertierung, Domain-Lookup, E-Mail-Validierung, QR-Codes, Wetterdaten, Social-Media-Posting und Sicherheitsscan."
+ },
+ {
+  "line": 232,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/robhunter/agentdeals)Suchen Sie Entwickler-Infrastruktur-Deals, kostenlose Tiers und Startup-Programme, vergleichen Sie Anbieter, planen Sie Stacks und verfolgen Sie Preisänderungen."
+ },
+ {
+  "line": 233,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/doteyeso-ops/mcp-server-vibes-coded)🐍 ☁️ - Tools für Agent Supply-Chain-Sicherheit, Scanner-Konsens und x402-Zuverlässigkeit sowie Zugang zum Handelskatalog von Vibes-Coded."
+ },
+ {
+  "line": 234,
+  "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - Hub, der Tools von mehreren MCP-Servern mit einheitlicher BM25- und Regex-Suche und verzögertem Laden zusammenführt."
+ },
+ {
+  "line": 235,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Rendeverance/toolfunnel)📇 🏠 🍎 🪟 🐧 - Gateway, das mehrere MCP-Server durch einen Endpunkt führt, mit Live-Anhang und Ablösung, Tool-Filterung und -Verstecken, Hot Config Reload und optional OAuth."
+ },
+ {
+  "line": 236,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@sF1nX/x402station-mcp)📇 ☁️ - Preflight-Checks für x402-Zahlungen: Erkennen Sie Lockvogel, Zombie-Endpunkte, tote Dienste und Preisfallen, bevor ein Agent zahlt, sowie Forensik und Alternativen."
+ },
+ {
+  "line": 237,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/supertrained/rhumb)📇 ☁️ 🍎 🪟 🐧 - Tool Intelligence über bewertete Dienste: Anbieter entdecken und vergleichen, AN Scores überprüfen, mit verwalteten oder eigenen Anmeldeinformationen ausführen und Kosten und Ausfälle verfolgen."
+ },
+ {
+  "line": 238,
+  "translated": "- @@L0@@ 🍎 🪟 🐧 ☁️ 🏠 🐍 - Meta-MCP-Server, mit dem LLMs mehrere MCP-Server entdecken, installieren und orchestrieren können, um ihre eigenen Fähigkeiten bei Bedarf zu erweitern."
+ },
+ {
+  "line": 239,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smart-mcp-proxy/mcpproxy-go)🏎️ 🏠 🍎 🪟 🐧 - Lokaler MCP-Proxy, der mehrere Server durch einen Endpunkt leitet, mit BM25-Toolfilterung, Quarantänesicherheit, Aktivitätsprotokollierung und einer Web-Benutzeroberfläche."
+ },
+ {
+  "line": 240,
+  "translated": "- @@L0@@ 📇 ☁️ - AI-Telefonnummernverzeichnis: Abfrage von Voxie AI-Personas und AI-Diensten von Drittanbietern wie ChatGPT und Erhalten von Webchat-Links."
+ },
+ {
+  "line": 241,
+  "translated": "- @@L0@@ 📇 ☁️ - Bilderzeugung und -bearbeitung mit den GPT-Bildmodellen von OpenAI."
+ },
+ {
+  "line": 242,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - Verwandeln Sie einen Webdienst in einen MCP-Server ohne Codeänderungen."
+ },
+ {
+  "line": 243,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/thebrierfox/the-stall)📇 ☁️ - Pay-per-Call x402-Daten: Aktien, Krypto / DeFi-Analysen, Optionsketten, Dealer GEX, Makrodaten, Kongressgeschäfte, Vorhersagemärkte und SEC-Anmeldungen."
+ },
+ {
+  "line": 244,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/swaltersjrtest/microtap-mcp)📇 ☁️ - Pay-per-Call-X402-APIs: Polymarket- und Kalshi-Vorhersagemärkte, DeFi- und Kryptodaten, On-Chain-Reads über EVM-Ketten, Live-Wetter- und Web-Suche."
+ },
+ {
+  "line": 245,
+  "translated": "- @@L0@@ 📇 🏠 ☁️ 🍎 🪟 🐧 - MCPX: Open-Source-Gateway für die Verwaltung von MCP-Servern in großem Maßstab, die Zentralisierung von Werkzeugerkennung, Zugriffskontrollen, Anrufpriorisierung und Nutzungsverfolgung."
+ },
+ {
+  "line": 246,
+  "translated": "- @@L0@@ Erstellen Sie benutzerdefinierte Tool-Bundles, verbinden Sie Anbieter mit OAuth- oder API-Schlüsseln und verwenden Sie einen MCP-Server für viele Integrationen mit einer Benutzeroberfläche für Bundles und Anmeldeinformationen."
+ },
+ {
+  "line": 247,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mrfelfel/taghvim)📇 ☁️ - Deterministische Datums- und Zeitschlussfolgerung: arithmetische, DST-bewusste Zeitzonen, Werktage, Feiertage, RFC 5545 Wiederholung und gregorianische / persische Umwandlung."
+ },
+ {
+  "line": 248,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/toadlyBroodle/satring)🐍 ☁️ 🍎 🪟 🐧 - Entdecken und vergleichen Sie L402 und x402 kostenpflichtige API-Dienste von satring.com, einem kuratierten Lightning und USDC API-Verzeichnis."
+ },
+ {
+  "line": 249,
+  "translated": "- @@L0@@ 📇 🏠 - Proxy kombiniert mehrere MCP-Server in einer Schnittstelle, mit Erkennung und Verwaltung von Tools, Eingabeaufforderungen, Ressourcen und Vorlagen sowie einem Debugging-Spielplatz."
+ },
+ {
+  "line": 250,
+  "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - Meta-Server, der die Aufblähung des Claude Code-Tools durch progressive Offenlegung, automatisches Starten von Playwright und Context7 und Bereitstellung von MCP-Servern bei Bedarf reduziert."
+ },
+ {
+  "line": 251,
+  "translated": "- @@L0@@ Verbinden Sie MCP-Hosts mit Apps wie Notion, Slack, Monday und Airtable."
+ },
+ {
+  "line": 252,
+  "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - Verwandeln Sie eine Web-API in einen MCP-Server und fügen Sie sie der Open-Source-Open-Mcp.org-Registrierung hinzu."
+ },
+ {
+  "line": 253,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/whiteknightonhorse/APIbase)API-Hub für Reisen (Amadeus, Sabre), Polymarket-Vorhersagemärkte, Krypto und Wetter, bezahlt per Anruf über x402 in USDC."
+ },
+ {
+  "line": 254,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/withoneai/mcp)Suchen, Dokumentieren und Ausführen authentifizierter API-Aufrufe über Apps wie Gmail, Slack, Stripe, Notion und GitHub durch einige Tools mit konstanter Kontextgröße."
+ },
+ {
+  "line": 255,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Wolido/OpenAaaS)🐍 🏠 ☁️ 🍎 🪟 🐧 - Adapter zum OpenAaaS-Netzwerk für wissenschaftliche Agenten: Übermitteln Sie Aufgaben wie Literaturanalyse oder Materialdatenbankanfragen an Remote-Forschungsagenten."
+ },
+ {
+  "line": 256,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@rplryan/x402-discovery-mcp)🐍 ☁️ - Laufzeiterkennung für x402-zahlbare APIs: Finden und Routen zu Pay-per-Call-Endpunkten nach Fähigkeiten, geordnet nach Qualität und Vertrauenswürdigkeit sowie einem Python SDK und CLI."
+ },
+ {
+  "line": 257,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/x402-index/x402search-mcp)📇 ☁️ 🍎 🪟 🐧 - Suchen Sie x402-fähige HTTP-APIs nach Schlüsselwort, bezahlt per Suche über x402 Micropayments auf Base."
+ },
+ {
+  "line": 258,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ikoskela/wisepanel-mcp)📇 ☁️ 🍎 🪟 🐧 - Multiagentenberatung über ChatGPT, Claude, Gemini und Perplexity, mit dynamisch generierten Rollen, die die Frage aus unterschiedlichen Blickwinkeln untersuchen."
+ },
+ {
+  "line": 259,
+  "translated": "- @@L0@@ 🐍 ☁️ 🏠 🍎 🪟 🐧 - Aggregierte persönliche Daten von Steam, YouTube, Bilibili, Spotify, Reddit und anderen Gaming-, Musik-, Video- und sozialen Plattformen, mit OAuth2 und Token-Management."
+ },
+ {
+  "line": 260,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Swarmwage/swarmwage)🎖️ 📇 ☁️ - Agent-Einstellungsprotokoll auf x402: Entdecken Sie spezialisierte Agenten, mieten Sie sie in einem Anruf und lassen Sie sich in USDC on Base nieder, mit Reputation und On-Chain-EIP-3009-Quittungen."
+ },
+ {
+  "line": 261,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ertad-family/liquid)🐍 ☁️ 🏠 - Verbinden Sie Agenten mit einer beliebigen REST-API im laufenden Betrieb: Bildet die API einmal ab und holt dann deterministisch getippte Daten ohne LLM-Nutzung per Anruf ab. Selbstgehostet."
+ },
+ {
+  "line": 262,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tsouth89/toolport)🦀 🏠 🍎 🪟 🐧 - Lokales Gateway und Manager für MCP-Server, die über KI-Codierungstools geteilt werden: Einrichten und Authentifizieren Sie jeden Server einmal, mit fauler Entdeckung und OS-Schlüsselbundspeicher."
+ },
+ {
+  "line": 263,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/skillselion/skillselion-mcp)📇 ☁️ - Durchsuchen Sie den Skillselion-Katalog von Community-geprüften Claude Code-Fähigkeiten, MCP-Servern und Marktplätzen, geordnet nach Installationen und GitHub-Sternen; Ladefähigkeiten in der Mitte der Aufgabe."
+ },
+ {
+  "line": 264,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/singhpratech/crimson-crab-mcp-template)🦀 🏠 🍎 🪟 🐧 - Rust-Vorlage für einen MCP-Server, der die Claude-API von Anthropic über das crimson-crab SDK abfragt."
+ },
+ {
+  "line": 265,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forcedreamai/forcedream-mcp)🎖️ 📇 ☁️ - Entdecken, Aufrufen und Verifizieren von Agenten auf einem kostenpflichtigen Marktplatz: Codegenerierung, Sicherheitsscanning (OSV.dev, GitGuardian) und Lead-Scoring mit signierten Ergebnissen."
+ },
+ {
+  "line": 266,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mcccsm/x402-list-mcp)📇 ☁️ - Finden und überprüfen Sie x402-Zahlungs-APIs im x402-Listenverzeichnis: Such- und Rangfolgedienste, Überprüfung der Betriebszeit, Gesundheit, Preise pro Endpunkt und On-Chain-Abrechnungsvolumen."
+ },
+ {
+  "line": 268,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/activeing123/mcptoon)🐍 🏠 🍎 🪟 🐧 - Verbinden Sie KI-Agenten mit MCP-Servern über eine Konfiguration, die über Codierungstools synchronisiert wird und über einen Prozess mit kompakter Werkzeugerkennung und Spezifikationsvalidierung bereitgestellt wird."
+ },
+ {
+  "line": 269,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kaxiyu/aiagentmarket)📇 ☁️ - Labor-Marktplatz-Protokoll für KI-Agenten mit atomarer Treuhand und gewichtetem Anti-Sybil-Renommee."
+ },
+ {
+  "line": 271,
+  "translated": "### 🚶<a name=\"aerospace-and-astrodynamics\"></a>Luft- und Raumfahrt & Astrodynamik"
+ },
+ {
+  "line": 273,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/astronomy-oracle)📇 🏠 🍎 🪟 🐧 - Astronomische Katalogdaten und Beobachtungssitzungsplanung: OpenNGC Deep-Sky-Objekte mit Sichtbarkeit, Aufstieg / Transit / Set und Alt / Az Berechnungen."
+ },
+ {
+  "line": 274,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Viventine-Space/orbit-sentinel-mcp)🎖️ 🏎️ ☁️ 🍎 🪟 🐧 - Suchen Sie FCC, ITU, UNOOSA und FAA-Raumregulierungsanträge über Orbit Sentinel: semantische Suche, Entitätsdossiers, Spektrumsbestände, Startlizenzen und Warnungen."
+ },
+ {
+  "line": 276,
+  "translated": "### 🤝<a name=\"agreements--coordination\"></a>Vereinbarungen & Koordination"
+ },
+ {
+  "line": 278,
+  "translated": "MCP-Server zum Erstellen, Koordinieren und Ausführen von Vereinbarungen: Commitments, Escrow und Multi-Party-Entscheidungsworkflows für Menschen, Agenten und Organisationen."
+ },
+ {
+  "line": 279,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BrightbeamAI/chap)🎖️ 📇 🏠 🍎 🪟 🐧 - CHAP-Koordinator für prüfbare Zusammenarbeit zwischen Mensch und Agent: Genehmigungen, Überschreibungen, Übergaben, Eskalationen und Hash-verknüpfte Beweise."
+ },
+ {
+  "line": 280,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/CNSLabs/agreements-api-sdk)📇 ☁️ 🏠 - Definieren, validieren, implementieren und betreiben Sie maschinenlesbare Vereinbarungen, mit EIP-712 Genehmigungsvorbereitung, signierte Teilnehmereingaben, Statuslesungen und Eingabehistorie."
+ },
+ {
+  "line": 281,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cogdepot/mcp-server)🎖️ 📇 ☁️ 🍎 🪟 🐧 - Access cogDepot, ein anonymer Broker, bei dem Agenten Fähigkeiten veröffentlichen, Bedingungen aushandeln und Treuhandgeschäfte mit zweiseitigem Ruf abschließen."
+ },
+ {
+  "line": 282,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/decision-anchor/mcp-server)📇 ☁️ - Externe Verankerungsebene, die die Verantwortlichkeitsgrenzen von KI-Agenten auf beiden Seiten aufzeichnet, ohne den Inhalt zu überprüfen oder ein Urteil zu fällen."
+ },
+ {
+  "line": 283,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/elicitly/elicitly)🎖️ 📇 🏠 🍎 🪟 🐧 - Human-in-the-Loop via MCP elicitation: native Bestätigungsdialoge und eingegebene Formulare aus JSON-Schemata im Host sowie eine Überprüfung der unterstützten Funktionen."
+ },
+ {
+  "line": 284,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ianewsfr-a11y/ergonia)🎖️ 📇 ☁️ - Marktplatz von überprüfbaren Aufgaben für KI-Agenten: unabhängig überprüfbare Aufgaben veröffentlichen, Arbeit einreichen und Reputation aufbauen, mit Aktionen in einem Hash-verketteten Register."
+ },
+ {
+  "line": 285,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Vladimir-Human/humanizer-ru)🏠 🪟 🍎 🐧 - Erkennen und normalisieren Sie Spuren der Maschinenerzeugung im russischen Text, ohne Urheberschaft Urteile."
+ },
+ {
+  "line": 286,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/humanforai/humanforai-mcp)🎖️ 📇 ☁️ - Stellen Sie menschliche Bediener für Aufgaben ein, die physische Anwesenheit, Wahrnehmung oder Urteilsvermögen erfordern: Überprüfung der realen Welt, Produkttests, Überprüfung der KI-Ausgaben und Besorgungen."
+ },
+ {
+  "line": 287,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gofrantic/frantic-mcp)📇 ☁️ - Öffentliches Bounty-Board, bei dem KI-Agenten finanzierte Bounties beanspruchen, Arbeit liefern und bei Annahme in USDC auf Basis mit einem öffentlichen Quittungsbuch bezahlt werden."
+ },
+ {
+  "line": 289,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lanekingsbery/open-task-relay-public)📇 ☁️ - Open Task Relay: begrenzte Gemeinwohlaufgaben, die KI-Agenten entdecken, abschließen, einreichen und unabhängig überprüfen können."
+ },
+ {
+  "line": 290,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TheRealDalaiLama/glyphdna-mcp)🐍 🏠 - Agentenidentität mit selbstgehaltenen Ed25519-Schlüsseln, überprüfbaren Besprechungsräumen mit mehreren Parteien mit gemeinsam signierten Transkriptbelegen und Script-Provenienzketten."
+ },
+ {
+  "line": 291,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tribeunal/mcp-server)📇 ☁️ 🏠 - Community-Jury-Plattform, auf der Menschen und KI-Agenten Fälle eröffnen, Beweise abwägen und gemeinsam abstimmen, mit Schlichtungsmodus, Warten auf ein Urteil und unterzeichneten Webhooks."
+ },
+ {
+  "line": 292,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sttruji/mundane-mcp)🎖️ 🐍 ☁️ - Mieten Sie ID-verifizierte Personen für Besorgungen, Vor-Ort-Fotos, Warteschlangen und persönliche Buchungen, mit Treuhandangeboten, Chat und Überprüfung des Abschlussnachweises."
+ },
+ {
+  "line": 294,
+  "translated": "### ♿<a name=\"accessibility\"></a>Zugänglichkeit"
+ },
+ {
+  "line": 296,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kinti/a11y-toolkit)🐍 🏠 - WCAG 2.2 Zugänglichkeitstools: Farbkontrastprüfungen einschließlich Text über Bildern, EU-Erstellung von Zugänglichkeitserklärungen und einem Aria-Live-Ankündigungsmonitor."
+ },
+ {
+  "line": 297,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vince-gonzalez/opticquiz-mcp)📇 🏠 🍎 🪟 🐧 - Color-Vision-Zugänglichkeit: Paletten und Bilder auf farbenblinde Sicherheit prüfen, sichere Paletten erzeugen, Farbblindheit simulieren und Platten im Ishihara-Stil erstellen."
+ },
+ {
+  "line": 299,
+  "translated": "### 🎨<a name=\"art-and-culture\"></a>Kunst & Kultur"
+ },
+ {
+  "line": 301,
+  "translated": "Zugang und Erkundung von Kunstsammlungen, Kulturerbe und Museumsdatenbanken. KI-Modelle können künstlerische und kulturelle Inhalte suchen und analysieren."
+ },
+ {
+  "line": 302,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AceDataCloud/MCPFlux)🐍 ☁️ - Fluxbilderzeugung und -bearbeitung von Black Forest Labs über die Ace Data Cloud API."
+ },
+ {
+  "line": 303,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/musajala/musajala-mcp)📇 ☁️ - Kollaborative arabische Poesie-Arena und Poetic Equity-Protokoll verbinden KI-Agenten mit menschlichen Dichtern."
+ },
+ {
+  "line": 305,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AceDataCloud/MCPNanoBanana)🐍 ☁️ - Erzeugung und Bearbeitung von Nano-Bananen-Bildern, einschließlich virtueller Versuchs- und Produktplatzierung in realistischen Szenen."
+ },
+ {
+  "line": 306,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AceDataCloud/MCPSeedream)🐍 ☁️ - ByteDance Seedream Bilderzeugung und -bearbeitung über die Ace Data Cloud API."
+ },
+ {
+  "line": 307,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIDataNordic/alexandria-mcp)🐍 ☁️ - Semantische Suche nach Werken der klassischen Philosophie und Geisteswissenschaften."
+ },
+ {
+  "line": 308,
+  "translated": "- @@L0@@ 📇 ☁️ - Suche nach Buchinformationen über die Open Library API."
+ },
+ {
+  "line": 309,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fgbytes/sansfiction-mcp)Suchen Sie den SansFiction-Buchkatalog nach Titel, Autor, Serie oder ISBN und verwalten Sie eine persönliche Lesebibliothek: Status, Fortschritt, Bewertungen, Rezensionen und Sammlungen."
+ },
+ {
+  "line": 310,
+  "translated": "- @@L0@@ 🐍 🏠 🪟 🐧 - Generieren Sie Animationen lokal mit Manim."
+ },
+ {
+  "line": 311,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - Soundboard mit Meme-Sounds von myinstants.com: Kategorien suchen, abspielen und durchsuchen."
+ },
+ {
+  "line": 312,
+  "translated": "- @@L0@@ 🐍 - Verbinden Sie KI-Assistenten mit Blender."
+ },
+ {
+  "line": 313,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@albertnahas/icogenie-mcp)📇 ☁️ - Generieren Sie SVG-Icons aus Textbeschreibungen mit anpassbaren Stilen."
+ },
+ {
+  "line": 314,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexzavialov/travel-art-mcp)📇 ☁️ - Kunsttourismusdaten: Biennalen (Venedig, Whitney), Kunstmessen (Art Basel, Frieze), große Museumsbesucherführer und Kunstreiseempfehlungen."
+ },
+ {
+  "line": 315,
+  "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - Zugang zum Shahnameh (Buch der Könige), Ferdowsis persischem Epos, einschließlich Abschnitten, Versen und Erklärungen."
+ },
+ {
+  "line": 316,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/arikusi/nakkas)📇 🏠 🍎 🪟 🐧 - SVG art engine gesteuert durch JSON config: CSS Keyframe und SMIL Animationen, parametrische Kurven, Filter, Gradienten und PNG Vorschau."
+ },
+ {
+  "line": 317,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ArturLys/ao3-mcp)🐍 🏠 - Search Archive of Our Own (AO3) und delegieren Full-Fic-Lesung an Zwillinge, so dass Empfehlungen eher auf den tatsächlichen Text als auf den Klappentext zurückgreifen."
+ },
+ {
+  "line": 318,
+  "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - Steuere JupyterCAD mit natürlicher Sprache."
+ },
+ {
+  "line": 319,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/attalla1/photopea-mcp-server)📇 🏠 🍎 🪟 🐧 - Bildbearbeitung durch Photopea: Dokumente, Ebenen, Text, Formen, Filter, Effekte und Export."
+ },
+ {
+  "line": 320,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/krupalghori44-dev/infyicon-mcp)Suchen Sie handgezeichnete Infyicon-Symbole in vier passenden Stilen und holen Sie SVG-Markup- oder PNG-URLs ab."
+ },
+ {
+  "line": 321,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/quokkapix/quokkapix-mcp)📇 🏠 🍎 🪟 🐧 - Ändern Sie die Größe, komprimieren, konvertieren, entfernen Sie Hintergründe, entfernen Sie Metadaten, Wasserzeichen und exportieren Sie Bilder lokal über QuokkaPix, ohne Quellbilder hochzuladen."
+ },
+ {
+  "line": 322,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BluesPrince/thiri-mcp)📇 ☁️ 🏠 - Deterministische Musiktheorie: Akkord- und römische Zahlenanalyse, Stimmgebung und Reharmonisierung."
+ },
+ {
+  "line": 323,
+  "translated": "- @@L0@@ 🐍 - Hinzufügen, Analysieren, Suchen und Generieren von Videobearbeitungen aus Ihrer Video Jungle-Sammlung."
+ },
+ {
+  "line": 324,
+  "translated": "- @@L0@@ 📇 🏠 ☁️ 🍎 🪟 - Bazi (chinesische Astrologie) Charting und Analyse."
+ },
+ {
+  "line": 325,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cfpramod/open-museum-mcp)📇 ☁️ 🍎 🪟 🐧 - Lizenzverifizierte Suche in The Met, Cleveland, AIC, Wikimedia Commons und Europeana, begrenzt auf CC0- und Public-Domain-Werke mit Zitaten."
+ },
+ {
+  "line": 326,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/imagegen-mcp)📇 ☁️ - Bildgenerierung, Hintergrundentfernung und 4x-Upscaling, bezahlt pro Bild über x402 in USDC on Base."
+ },
+ {
+  "line": 327,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Cifero74/mcp-apple-music)🐍 🏠 🍎 - Apple Music Integration: Durchsuchen Sie den Katalog, durchsuchen Sie Ihre Bibliothek, verwalten Sie Wiedergabelisten und erhalten Sie personalisierte Empfehlungen."
+ },
+ {
+  "line": 328,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@codex-curator/studio-mcp-hub)🐍 ☁️ - Kreative KI-Tools: Bilderzeugung, Upscaling, Hintergrundentfernung, Produkt-Mockups, CMYK-Konvertierung, druckfertige PDFs, SVG-Vektorisierung und Wasserzeichen."
+ },
+ {
+  "line": 329,
+  "translated": "- @@L0@@ 🐍 🏠 - Anzeigen, Bearbeiten und Ausführen von ComfyUI-Knoten-basierten Bilderzeugungs-Workflows mit einem eingebetteten Terminal."
+ },
+ {
+  "line": 330,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/CreativeClawCo/creative-claw-marketplace)Zugriff auf Medienmodelle wie Flux 2 Pro, Nano Banana Pro, GPT Image 2, Veo 3.1, Sora 2, Kling und ElevenLabs für Bild, Video, Sprache, 3D und Markengrafik."
+ },
+ {
+  "line": 331,
+  "translated": "- @@L0@@ 📇 ☁️ - Interagieren Sie mit der Discogs API."
+ },
+ {
+  "line": 332,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/clanker-records/crompton-network)📇 ☁️ 🍎 🪟 🐧 - Machine-native Listening-Plattform für C.W.A.s Album Straight Outta Crompton, die KI-Agenten hören lässt."
+ },
+ {
+  "line": 333,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DataCraftsmanAU/vineverse-mcp)📇 ☁️ 🍎 🪟 🐧 - Die Bibel als Wissensgraph von Versen, Menschen, Orten, Themen und hebräischen Lexemen: Schriftsuche, interlineare Suche, Querverweise und Genealogie."
+ },
+ {
+  "line": 334,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/delmas41/gradusnotation)📇 ☁️ 🍎 🪟 🐧 - Rendern Sie Musiknotation als SVG, MusicXML und MIDI aus einem JSON-Score, analysieren Sie MusicXML harmonisch und suchen Sie eine Musiktheorie-Wissensbasis."
+ },
+ {
+  "line": 335,
+  "translated": "- @@L0@@ 🐍 🏠 - Erstellen Sie Pixelkunst mit der Aseprite API."
+ },
+ {
+  "line": 336,
+  "translated": "- @@L0@@ 📇 ☁️ - Interagieren Sie mit dem Koran.com Corpus über seine REST API."
+ },
+ {
+  "line": 337,
+  "translated": "- @@L0@@ 📇 ☁️ - Suchen und Abrufen von Filmen, Fernsehsendungen und Personeninformationen aus der Filmdatenbank (TMDB) API."
+ },
+ {
+  "line": 338,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fatenava/fatenava-mcp)🎖️ 📇 🏠 ☁️ 🍎 🪟 🐧 - Schicksalskarten: BaZi, Zi Wei Dou Shu und westliche Astrologie Geburtskarten, mit echter Sonnenzeitkorrektur und chinesischer, englischer, japanischer und koreanischer Eingabe."
+ },
+ {
+  "line": 339,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/flamexnreal/davinci-resolve-ai-bridge-mcp)🐍 🏠 🍎 - Lokale Brücke für DaVinci Resolve (kostenlos und Studio): Timeline-Inspektion, Zoom-Animation, Farbanpassungen und Duplicate-Timeline-Überprüfung."
+ },
+ {
+  "line": 341,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gavxm/ani-mcp)📇 🏠 - AniList-Integration mit geschmacksbewussten Empfehlungen, Watch Analytics, Social Tools und Listenmanagement."
+ },
+ {
+  "line": 342,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gchen19/AnkusDrive)🐍 🏠 🍎 🪟 🐧 - Fahren Sie ein lokales FreeCAD von einem Agenten: parametrisches CAD, TechDraw-Zeichnungen mit GD & T, CalculiX FEM und CFD-, Thermo-, EM- und Multiphysik-Simulation."
+ },
+ {
+  "line": 343,
+  "translated": "- @@L0@@ 📇 ☁️ - Generieren und Bearbeiten von SVGs über natürliche Sprache, mit Echtzeit-Updates und sicherer Dateiverarbeitung."
+ },
+ {
+  "line": 344,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gokimedia/tarot-mcp-server)📇 🏠 🍎 🪟 🐧 - Tarot-Bedeutungen für alle 78 Karten, aufrechte und umgekehrte Interpretationen, Liebes- und Karrierelesungen, Ja-oder-Nein-Antworten, zufällige Ziehungen und Spreads mit drei Karten."
+ },
+ {
+  "line": 345,
+  "translated": "- @@L0@@ 🐍 ☁️ 🍎 🪟 🐧 - Spotify-Tools: Smart Shuffle, natürlichsprachige Songsuche, Vibe-Analyse, Artist Network Mapping, Geschmacksentwicklung und Playlist-Management."
+ },
+ {
+  "line": 346,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@hanshs474/kavel-mcp)📇 🏠 🍎 🪟 🐧 - Entdecken Sie Kavels KI-Foto- und Videogeneratoren (Frisuren, Figuren, Tierporträts, Jahrbuchfotos, Tanzvideos, HD-Restauration) und erhalten Sie abgestimmte Eingabeaufforderungen."
+ },
+ {
+  "line": 347,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@jau123/mei-gen-ai-design-mcp)📇 ☁️ 🏠 - Bildgenerierung und -bearbeitung mit einer kuratierten prompten Bibliothek, sofortiger Erweiterung und Routing über lokale ComfyUI, MeiGen Cloud und OpenAI-kompatible APIs."
+ },
+ {
+  "line": 348,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/j-east/pixel-surgeon-mcp)📇 🏠 🍎 🪟 🐧 - Bild- und Videogenerierung, Bearbeitung und Regionsreparatur über Gemini 3.1 Flash Image, GPT Image 2, Grok Imagine und Veo 3, mit Stilvoreinstellungen."
+ },
+ {
+  "line": 349,
+  "translated": "- @@L0@@ 🐍 ☁️ - Bulk Spotify-Operationen: Konfidenz-scored Song-Matching, Batch-Playlist-Erstellung aus CSV- oder Podcast-Listen und Exporte Ihrer meistgeretteten Künstler und Alben."
+ },
+ {
+  "line": 350,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@labelgrid/labelgrid-mcp)🎖️ 📇 ☁️ - Verwalten Sie Ihren LabelGrid-Musikvertriebskatalog, Veröffentlichungen, Analysen und Lizenzgebühren."
+ },
+ {
+  "line": 351,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/leonardoca1/aesthetics-wiki-mcp)🐍 🏠 🍎 🪟 🐧 - Suchen, lesen und entdecken Sie visuelle Ästhetik wie Cottagecore, Dark Academia, Y2K und Goblincore aus dem Aesthetics Wiki."
+ },
+ {
+  "line": 352,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp)🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Erstellen Sie Memes aus memebo.at-Vorlagen: Durchsuchen Sie den Katalog, beschriften Sie eine Vorlage und erhalten Sie einen teilbaren Meme-Link."
+ },
+ {
+  "line": 353,
+  "translated": "- @@L0@@ 📇 ☁️ - Suche und Anzeige von Kunstwerken über die Metropolitan Museum of Art Collection API."
+ },
+ {
+  "line": 354,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mikan-atomoki/text-to-model)🐍 🏠 🪟 🍎 - Verwandeln Sie natürliche Sprache in 3D-Modelle in Fusion 360, mit CAD-Tools für Skizzen, Extruder, Filets und JIS-Standardteile."
+ },
+ {
+  "line": 355,
+  "translated": "- @@L0@@ 🐍 ☁️ - Zugang zu den Open Access-Sammlungen der Smithsonian Institution."
+ },
+ {
+  "line": 356,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Noteboxd/mcp)📇 ☁️ 🏠 - Abfragen Sie die Noteboxd Duft-Enzyklopädie für Parfüms, Notizen, Akkorde, Marken, Parfümeuren, Bewertungen und Charts."
+ },
+ {
+  "line": 357,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/joshseane/-nmlp-mcp)📇 ☁️ - Identifizierung von Erstausgabebüchern mit Ausgabepunkten, Zahlenzeilen-Dekodierung und Herausgeberregeln sowie Buchspendenlogistik in New Mexico."
+ },
+ {
+  "line": 358,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/calibreweb-mcp)📇 🏠 - Read-only Zugriff auf eine selbst gehostete Calibre-Web oder Calibre-Web Automatisierte eBook-Bibliothek über OPDS: Suche, Regale, Cover und per Format Download-Links."
+ },
+ {
+  "line": 359,
+  "translated": "- @@L0@@ 3D-Druckerzugriff: Live-Druckerzustand, Webcam-Snapshots und Druckersteuerung."
+ },
+ {
+  "line": 360,
+  "translated": "- @@L0@@ 📇 ☁️ - Natürliche Sprachsteuerung von NVIDIA Isaac Sim, Isaac Lab, OpenUSD und mehr über einen Server und eine Erweiterung."
+ },
+ {
+  "line": 361,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Pantani/ableton-mind)📇 🏠 🍎 🪟 - Steuern Sie Ableton Live durch eine lokale Remote-Script-Brücke: Inspizieren Sie Sets, erstellen Sie Tracks, Szenen und Clips, laden Sie Geräte, wenden Sie Musikrezepte an und überprüfen Sie Änderungen."
+ },
+ {
+  "line": 362,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Pantani/tdmcp)📇 🏠 🍎 🪟 - Beschreiben Sie ein Visual, um ein spielbares TouchDesigner-Netzwerk aufzubauen: Audio-reaktive, generative, Partikel-, 3D- und Feedback-Systeme mit Live-Knöpfen und MIDI / OSC / DMX."
+ },
+ {
+  "line": 363,
+  "translated": "- @@L0@@ 🐍 🏠 - Verbinden Sie KI-Assistenten mit Autodesk Maya."
+ },
+ {
+  "line": 364,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pzfreo/build123d-mcp)🐍 🏠 🍎 🪟 🐧 - Erstellen, inspizieren und iterieren Sie die 3D-Geometrie mit build123d parametrischem CAD: Rendern Sie PNG/SVG-Ansichten, messen Sie Geometrie und exportieren Sie STEP/STL."
+ },
+ {
+  "line": 365,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Psalmustrack/lambdacad-mcp)🐍 🏠 🐧 - Fahren Sie BricsCAD unter Linux über eine AutoLISP-Bridge: 2D-Zeichnung mit Abmessungen und Luken, 3D-Solids mit Boolean, generierte Zeichnungsansichten und PDF-Export."
+ },
+ {
+  "line": 366,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/doctorm333/promptpilot-mcp-server)📇 ☁️ - Generieren Sie Bilder, Videos und Audio mit Modellen wie Flux, GPT-Image-1, Imagen 4, Grok, Seedance und ElevenLabs, mit prompten Presets und Batch-Generierung."
+ },
+ {
+  "line": 367,
+  "translated": "- @@L0@@ 📇 ☁️ - Zugriff auf historische Aufzeichnungen, Fotografien und Dokumente aus den Niederlanden (1940-1945) über die Oorlogsbronnen (War Sources) API."
+ },
+ {
+  "line": 368,
+  "translated": "- @@L0@@ 📇 ☁️ - Suchen Sie Kunstwerke und erhalten Sie Details und Sammlungen über die API des Rijksmuseums."
+ },
+ {
+  "line": 369,
+  "translated": "- @@L0@@ Generieren Sie Bilder, Videos und Musik mit Fal.ai-Modellen wie FLUX, Stable Diffusion und MusicGen."
+ },
+ {
+  "line": 370,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rekordcloud/sonovault-mcp)📇 ☁️ 🍎 🪟 🐧 - Musik-Metadatensuche über Tracks, Künstler, Labels und Veröffentlichungen: Genres, Veröffentlichungsdaten, ISRC/ISWC-Codes und IDs für Spotify, Apple Music, Discogs und mehr."
+ },
+ {
+  "line": 371,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rosasynthesiz/flstudio-mcp)🐍 🏠 🪟 - Control FL Studio: In-DAW-Mischen (Gain Staging, EQ, Kompression, Reverb, Referenzmatching), Routing und Komposition."
+ },
+ {
+  "line": 372,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/runcomfy-com/runcomfy-mcp)🎖️ 🐍 ☁️ - Verwalten Sie RunComfy ComfyUI serverlose Bereitstellungen, gehostete Modellinferenz und LoRA-Schulungsaufträge."
+ },
+ {
+  "line": 373,
+  "translated": "- @@L0@@ 🐍 - DaVinci Resolve Integration für Videobearbeitung, Farbbewertung, Medienmanagement und Projektsteuerung."
+ },
+ {
+  "line": 374,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sharafutdinovdi/revit-model-mcp)Lesen Sie ein Live-Autodesk-Revit-Modell (Elemente, Parameter, Ansichten, Warnungen, PNG-Exporte); Modelländerungen sind Opt-in, mit Trockenläufen und Post-Commit-Verifizierung."
+ },
+ {
+  "line": 375,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/shunshi-ai/bazi-reader-mcp)📇 🏠 🍎 🪟 🐧 - Bazi (Vier Säulen) Charting mit echter Solarzeitkorrektur und Ausgabe in Chinesisch, Englisch, Japanisch und Koreanisch."
+ },
+ {
+  "line": 376,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-lrclib)📇 ☁️ 🍎 🪟 🐧 - Suchen Sie Tracks auf LRCLIB und lesen Sie ihre Texte, einschließlich zeitsynchronisierter LRC-Zeilen, mit kompakten Suchergebnissen."
+ },
+ {
+  "line": 377,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-imslp)📇 ☁️ - Lesen Sie IMSLP, die Petrucci Music Library: Werke und Komponisten suchen, Katalognummern, Schlüssel und Instrumentierung anzeigen und Ausgaben mit Copyright-Status durchsuchen."
+ },
+ {
+  "line": 378,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/slshults/shakespeare-monologues-mcp)📇 ☁️ - Durchsuchen Sie Shakespeare-Monologe nach Charakter, Spiel oder erster Zeile und holen Sie Volltext, modern-englische Paraphrasen und Szenen- oder Spielzusammenfassungen ab."
+ },
+ {
+  "line": 379,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-books)📇 ☁️ - Durchsuchen Sie das Internet-Archiv, die Kongressbibliothek und die Bibliothèque nationale de France auf einmal, in Katalogen und in gescannten Texten."
+ },
+ {
+  "line": 380,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/speedwarnsf/scenef-mcp)🎖️ 📇 ☁️ 🍎 🪟 🐧 - Read-only Showtimes für Theater in Kalifornien und Hawaii, von Repertoirehäusern und 35mm/70mm-Vorführungen bis hin zu Ketten, verifiziert mit jedem Theaterkalender."
+ },
+ {
+  "line": 381,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@tasopen/mcp-alphabanana)📇 🏠 🍎 🪟 🐧 - Generieren Sie Bild-Assets mit Google Gemini (Nano Banana 2 und Pro): transparentes PNG / WebP, genaue Größenänderung und Zuschneiden, Referenzbilder und Suchgrundierung."
+ },
+ {
+  "line": 382,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TOBYCAI/image-mcp)🐍 🏠 🍎 🪟 🐧 - Offline-Bildverarbeitung: Größe ändern, beschneiden, konvertieren, komprimieren, drehen, drehen, Thumbnails, Wasserzeichen, Effekte, Platzhalter und Overlays."
+ },
+ {
+  "line": 383,
+  "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - Steuere die REAPER DAW für Mixing, Mastering, MIDI-Komposition und Musikproduktion."
+ },
+ {
+  "line": 384,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/UModeler/picoberry-mcp)🎖️ 📇 ☁️ - Generieren Sie 3D-Modelle und Bilder aus Text- oder Referenzbildern, dann remesh, retexture, auto-rig, animieren und exportieren Sie GLB / FBX / OBJ über die PicoBerry API."
+ },
+ {
+  "line": 385,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vicseeai/vicsee-mcp-server)📇 ☁️ - Generieren, bearbeiten und gehobene AI-Videos und Bilder (Seedance, Veo, Kling, FLUX, Nano Banana) über VicSee."
+ },
+ {
+  "line": 386,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wretcher207/reaper-daemon)🐍 🏠 🍎 🪟 🐧 - Fahren Sie die REAPER DAW über eine lokale Dateibrücke: Lesen Sie Plugins und Parameter, legen Sie FX-Werte fest, schreiben Sie Automatisierung und messen Sie Mixänderungen, alles innerhalb von Rückgängig-Blöcken."
+ },
+ {
+  "line": 387,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/XavierFabregat/spotify-mcp)📇 🏠 🍎 🪟 🐧 - Konversationelle Spotify-Steuerung: Spielen Sie nach Beschreibung und verwalten Sie die Warteschlange, Geräte, Wiedergabelisten und Bibliothek mit einem geführten Setup-Assistenten."
+ },
+ {
+  "line": 388,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yonlandwu/chinese-almanac-mcp)📇 🏠 🍎 🪟 🐧 - Chinesischer Almanach (Tung Shing): tägliche Messwerte, Stunden-Säulen-Glücksbewertungen, NASA JPL-basierte Sonnenbegriffe, verheißungsvolle Daten, Tierkreishoroskope und Glücksstunden."
+ },
+ {
+  "line": 389,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yuluo688/gen-image-mcp)📇 🏠 🍎 🪟 🐧 - Generieren und bearbeiten Sie Bilder über Ihre eigenen OpenAI-kompatiblen oder Gemini-Bild-APIs und speichern Sie sie im Projektverzeichnis mit optionalem Modell-Fallback."
+ },
+ {
+  "line": 390,
+  "translated": "- @@L0@@ 📇 ☁️ - Anime und Manga Informationen aus der AniList API."
+ },
+ {
+  "line": 391,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-bideetmusique)📇 ☁️ 🍎 🪟 🐧 - Durchsuchen Sie Bide & Musiques handkatalogierte Sammlung vergessener französischer Songs nach Performer, Titel, Autor, Text, Label oder Jahr und lesen Sie vollständige Platten."
+ },
+ {
+  "line": 393,
+  "translated": "### 📐<a name=\"architecture-and-design\"></a>Architektur & Design"
+ },
+ {
+  "line": 395,
+  "translated": "Design und Visualisierung von Softwarearchitektur, Systemdiagrammen und technischer Dokumentation. Ermöglicht KI-Modellen die Erstellung professioneller Diagramme und Architekturdokumentation."
+ },
+ {
+  "line": 397,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aidc2026ai-melon/aidc-ai-mcp)🎖️ 📇 ☁️ - Deterministisches AI-Rechenzentrumsdesign für Korea (NVIDIA Rubin-Ära, 22,9 kV Aufnahme): Rack-Anzahl, PUE, Gesamt-MVA, Kühlungssplit, CDU-Planung, Kosten- und Zeitleiste."
+ },
+ {
+  "line": 398,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ant-dev-lab/nightmarquee-mcp)🎖️ 📇 ☁️ 🍎 🪟 🐧 - Kunstgesteuerte Website-Eingabeaufforderungen als Slash-Befehle für Heldenabschnitte, Zielseiten, SaaS, Portfolios, E-Commerce und 3D / WebGL-Szenen, jeweils mit einer Live-Demo."
+ },
+ {
+  "line": 399,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/awdr74100/figwright)📇 🏠 🍎 🪟 🐧 - Bidirektionale Figma-Bridge: Verwandeln Sie die Auswahl in Framework-bewussten Code, der Ihre Komponenten und Token wiederverwendet, oder erstellen Sie Frames, Text, Stile, Variablen und Bildschirme."
+ },
+ {
+  "line": 400,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bobaba99/motionlint)📇 🏠 🍎 🪟 🐧 - Lint-Webanimationen mit deterministischen Überprüfungen auf der Live-Seite (Dauer, Lockerung, Staffelung, Ausgänge, reduzierte Bewegung, Hover) sowie optionale Vision-LLM UX-Bewertung."
+ },
+ {
+  "line": 401,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/builditwithgk/repo-cartographer)📇 🏠 🍎 🪟 🐧 - Verwandeln Sie ein Repo in Mermaid- oder Graphviz-Architekturdiagramme aus dem Dateibaum, Importgraphen und Einstiegspunkten; Erzwingt auch Architekturregeln in CI."
+ },
+ {
+  "line": 402,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@BV-Venky/excalidraw-architect-mcp)🐍 🏠 🍎 🪟 🐧 - Generieren Sie Excalidraw-Architekturdiagramme mit Autolayout, technologiebewusstem Komponenten-Styling (Datenbanken, Warteschlangen, Caches) und Stateful Editing."
+ },
+ {
+  "line": 403,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cisco-open/network-sketcher)🐍 🏠 🍎 🪟 🐧 - Lokales Netzwerkdesign: Erstellen Sie Netzwerk-Masterdateien im Cisco-Stil, L1/L2/L3-Topologiediagramme, HTML-Viewer, Gerätetabellen und KI-Kontextdateien."
+ },
+ {
+  "line": 404,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Daksh-create349/Contradiction-MCP)📇 🏠 ☁️ 🍎 🪟 🐧 - Erkennen Sie Widersprüche und architektonische Drift in Kubernetes-Manifesten, READMEs, OpenAPI-Spezifikationen und Word-Dokumenten, mit deterministischen Scoring- und Auflösungsempfehlungen."
+ },
+ {
+  "line": 405,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ejwhite7/brandkit-mcp)📇 🏠 🍎 🪟 🐧 - Enthüllen Sie das Designsystem eines Unternehmens (Farben, Typografie, Logos, Komponenten, Richtlinien, CSS-Token) mit KI-Tools, die aus CSS, Markdown, PDF, SVG und Fonts analysiert werden."
+ },
+ {
+  "line": 406,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/erajasekar/ai-diagram-maker-mcp)📇 ☁️ 🏠 🍎 🪟 🐧 - AI Diagram Maker: Generieren Sie Flussdiagramme, Sequenzdiagramme, ERDs, Architektur, UML und Mind Maps aus Text, Code, ASCII, Bildern oder Mermaid, inline gerendert."
+ },
+ {
+  "line": 407,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/flowzap-xyz/flowzap-mcp)📇 ☁️ 🏠 🍎 🪟 🐧 - Erstellen Sie Workflow-, Sequenz- und Architekturdiagramme mit dem FlowZap-Code DSL, mit Validierung, Spielplatzlinks, Syntax-Dokumenten, Export, Diffing und Patching."
+ },
+ {
+  "line": 408,
+  "translated": "- @@L0@@ 🐍 ☁️ - Verwandeln Sie lokale Projekte oder GitHub-Repositories in Mermaid-Diagramme, die über Kroki gerendert werden."
+ },
+ {
+  "line": 409,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HalidSaglam/saglitzdesign-mcp)📇 🏠 🍎 🪟 🐧 - Offline UI / UX Design- und Marketing-Anleitung für Web, iOS, Android und macOS, plus Generatoren für Design-Token, Farbsysteme, Typenskalen und WCAG-Prüfungen."
+ },
+ {
+  "line": 410,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/imgly/codesign)📇 🏠 🍎 🐧 - Lokale Design-Engine: Erstellen, Bearbeiten und Exportieren von sozialen Markenbeiträgen, Flyern, Decks und Visitenkarten, mit druckfertigen PDFs und InDesign, PSD und PDF-Import."
+ },
+ {
+  "line": 411,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jgsystemsconsulting/jgs-magic-sysmlv1-mcp)🐍 🏠 🍎 🪟 🐧 - Bridge to live SysML v1-Modelle in CATIA Magic: Abfrage, Audit, Trace und Bearbeiten von Blöcken, Anforderungen, Zuweisungen und Diagrammen über eine lokale, luftgestützte Verbindung."
+ },
+ {
+  "line": 412,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/karyaboyraz/mockit-mcp)📇 🏠 🍎 🪟 🐧 - Generieren Sie iOS UI-Mockups als PNG und HTML aus einer Textaufforderung mit Claude und einem kopflosen Playwright-Renderer."
+ },
+ {
+  "line": 413,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/KasayoDotCom/identityforge-mcp)📇 🏠 🍎 🪟 🐧 - Designkits und Markenworkflows: Designsysteme durchsuchen und anwenden, gemeinsam nutzbare Markenprojekte erstellen und Namen, Domains und EUIPO-Markenzeichen recherchieren."
+ },
+ {
+  "line": 414,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Kentucky-ai/opentakeoff)📇 🏠 🍎 🪟 🐧 - Bauplan Start: Ladeplan PDFs, lesen Sie Titelblöcke, setzen Sie Zeichenskala, Trace-Räume und Exportmengen wie Quadratmeterzahl und lineare Füße."
+ },
+ {
+  "line": 415,
+  "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - Mermaid Diagrammerzeugung (Flussdiagramme, Sequenz, Klasse, ER, Architektur und Zustandsdiagramme) mit Vorlagen, Layout-Engines und SVG / PNG / PDF-Export."
+ },
+ {
+  "line": 416,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ng-galien/maket)📇 🏠 🍎 🪟 🐧 - Local-First Design Workspace: Verfassen Sie Wireframes und mehrseitige HTML/CSS-Dokumente mit Live-Vorschau, Marken- und Asset-Bibliotheken, Validierung und PDF-Export."
+ },
+ {
+  "line": 417,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/odd-Innocent/den_archi_mcp)🎖️ 🐍 ☁️ - Koreanisches Architektur-, Ingenieur- und Bauwissen: KDS-, KCS- und KS-Standards, Statuten und Fachwissen in einer Grafik, mit Antworten unter Berufung auf Klauseln."
+ },
+ {
+  "line": 418,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/posecode-dev/posecode)📇 🏠 🍎 🪟 🐧 - Textsprache für menschliche Bewegung, die LLMs schreiben können, gerendert als anatomisch eingeschränkte menschliche 3D-Figur im Browser."
+ },
+ {
+  "line": 419,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rdanieli/tentra-mcp)Beschreiben Sie Systeme in natürlicher Sprache, um interaktive Architekturdiagramme zu erhalten, in Frameworks wie Spring Boot, FastAPI und Terraform zu exportieren und Drift zu erkennen."
+ },
+ {
+  "line": 420,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/RedHold/diagrams-mcp-app-core)🎖️ 📇 ☁️ 🍎 🪟 🐧 - Erstellen und Bearbeiten von draw.io-Cloud-Architekturdiagrammen aus Eingabeaufforderungen, Terraform- oder Kubernetes-Manifesten, Beheben von Well-Architected-Warnungen und Exportieren nach SVG."
+ },
+ {
+  "line": 421,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/RNVizion/rnv-color-mcp)🐍 ☁️ - Farben mischen (einschließlich Kubelka-Munk-Farbphysik), Formate konvertieren, Harmonien erzeugen und benannte Paletten speichern, Hex-, CSS- und Markenfarben auflösen."
+ },
+ {
+  "line": 422,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Roberton003/mcp-server-decisions)🐍 🏠 🍎 🪟 🐧 - Architektonisches Entscheidungs-Tracking mit überprüfbaren Vorhersagen und Ergebnis-Gates, gespeichert in JSONL."
+ },
+ {
+  "line": 423,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tomyangod/architecture_viewer)📇 🏠 🍎 🪟 🐧 - Lokales Architekturtor und CLI, das KI-Bearbeitungen gegen git HEAD difft, um neue Cross-Layer-Abhängigkeiten und strukturelle Veränderungen zu erkennen."
+ },
+ {
+  "line": 424,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/uxloom-dev/uxloom)📇 🏠 🍎 🪟 🐧 - UI/UX-Validierung: Modellieren Sie Benutzerfahrten als Zustandsmaschinen, finden Sie fehlende Zustände, Kontrast- und Touch-Target-Probleme und verifizieren Sie den Code mit dem Designvertrag."
+ },
+ {
+  "line": 425,
+  "translated": "- @@L0@@ 📇 ☁️ - Erstellen Sie Mermaid-Diagramme in einem freigegebenen Arbeitsbereich mit Versionsverlauf, Kommentaren, Einbettung, Präsentationsdecks und Diagrammlinting."
+ },
+ {
+  "line": 427,
+  "translated": "### <a name=\"bio\"></a>Biologie, Medizin und Bioinformatik"
+ },
+ {
+  "line": 428,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ajibadedapo/flowproof-mcp)🐍 🏠 ☁️ - Führen Sie reproduzierbare Nextflow-Bioinformatik-Pipelines mit überprüfbarer Workflow Run RO-Crate-Herkunft aus: Containerverdauungen, Werkzeugversionen und Prüfsummen."
+ },
+ {
+  "line": 429,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ammawla/encode-toolkit)🐧 - Suchen, herunterladen, verfolgen und analysieren Sie funktionelle Genomexperimente aus dem ENCODE-Projekt."
+ },
+ {
+  "line": 430,
+  "translated": "- @@L0@@ 🐍 🏠 - Räumliche Transkriptomikanalyse: Zellannotation, Deconvolution, räumliche Statistik und Visualisierung."
+ },
+ {
+  "line": 431,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Crindo2/gph-mcp-server)📇 ☁️ - Vergleichen Sie US-amerikanische Arztpraxen mit Anbietern von Gesundheitsdienstleistungen für Abrechnung, Anmeldeinformationen, EHR, Compliance und Recht."
+ },
+ {
+  "line": 432,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidmosiah/google-health-mcp)📇 🏠 ☁️ 🍎 🪟 🐧 - Lokaler Erstzugriff auf die Google Health API für Aktivitäten von Fitbit und Pixel Watch, Schlaf, Herz, Ernährung und abgeglichene Gesundheitsdaten."
+ },
+ {
+  "line": 433,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidmosiah/wellness-cgm-mcp)📇 🏠 ☁️ 🍎 🪟 🐧 - Lokale erste kontinuierliche Glukosemonitordaten aus der Dexcom Developer API und FreeStyle Libre über LibreLink Up."
+ },
+ {
+  "line": 434,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidmosiah/wellness-nourish)📇 🏠 🍎 🪟 🐧 - Ernährung und Hydratation Tracking: Lebensmittelsuche, Barcode-Lookup, Mahlzeit Schätzung, Aufnahmeprotokolle und tägliche Zusammenfassungen."
+ },
+ {
+  "line": 435,
+  "translated": "- @@L0@@ ☕ ☁️ 🍎 🪟 🐧 - Echtzeit-Zugriff auf den Datensatz des 1000 Genomes Project."
+ },
+ {
+  "line": 436,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ericblair1903/nutrients-mcp)📇 ☁️ 🍎 🪟 🐧 - Ernährungsanalyse aus einem Lebensmittelfoto oder Textbeschreibung: Kalorien, Makros, Vitamine, Mineralien, Allergene und diätetische Flaggen."
+ },
+ {
+  "line": 437,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forever-healthy/evipedia-mcp)📇 ☁️ 🍎 🪟 🐧 - Durchsuchen Sie Evipedias evidenzbasierte Bewertungen von Gesundheits- und Langlebigkeitsinterventionen, holen Sie Schlussfolgerungen und Metadaten mit PMIDs und schlagen Sie neue Interventionen vor."
+ },
+ {
+  "line": 438,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fulcradynamics/fulcra-context-mcp)🐍 ☁️ - Zugriff auf persönliche Gesundheits- und biometrische Daten (Schlafphasen, Herzfrequenz, HRV, Glukose, Workouts), Kalender und Standort über die Fulcra Life API."
+ },
+ {
+  "line": 439,
+  "translated": "- @@L0@@ Zugriff auf biomedizinische Forschungsdaten von PubMed, ClinicalTrials.gov und MyVariant.info."
+ },
+ {
+  "line": 440,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/healthchainai/HealthChain)🐍 🏠 - Typisierte FHIR-Tools: Erstellen, Lesen, Validieren und Codieren von FHIR-Ressourcen aus einem Patientenbündel mit Terminologie-Lookup und maschinenlesbaren Validierungsberichten."
+ },
+ {
+  "line": 441,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/helena-bioinformatics/noodle-mcp)🐍 ☁️ - Nur lesende biomedizinische Literatursuche über einen von PubMed abgeleiteten Korpus nach natürlicher Sprache oder PMID / DOI / PMCID, mit Zitat und semantischem Graphenverlauf."
+ },
+ {
+  "line": 442,
+  "translated": "- @@L0@@ 🐍 ☁️ - Interagieren Sie mit der UCSC Genome Browser API, um Genome, Chromosomen und mehr zu finden."
+ },
+ {
+  "line": 443,
+  "translated": "- @@L0@@ 📇 🏠 - Abfrage medizinischer Informationen, Arzneimitteldatenbanken, Arzneimittelwechselwirkungen und klinischer Richtlinien."
+ },
+ {
+  "line": 444,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JaviMaligno/vitamind-mcp)📇 ☁️ - Schätzung der solaren Vitamin-D-Synthese: ob es jetzt passiert, Minuten, die vom Fitzpatrick-Hauttyp benötigt werden, und lebensfähige Monate nach Breitengrad, unter Verwendung von Open-Meteo-UV-Daten."
+ },
+ {
+  "line": 445,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kushaim/practice-fusion-mcp)📇 🏠 - Read-only FHIR Zugang zur Praxis Fusion EHR: Suche Patienten und Überprüfung Termine, Bedingungen, Medikamente und Laborergebnisse."
+ },
+ {
+  "line": 446,
+  "translated": "- @@L0@@ 📇 ☁️ - Ernährungsplanung für Ausdauersportler: Kohlenhydrate, Natrium und flüssige Ziele plus Lecka Produktempfehlungen nach Rassetyp, Bedingungen und Gewicht."
+ },
+ {
+  "line": 447,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/OFODevelopment/mymedi-ai-mcp-server)📇 ☁️ - Gesundheitsabrechnung: ICD-10-, CPT- und HCPCS-Code-Lookup, vorherige Genehmigungsvorhersage, Schadensvalidierung, Denial-Risk-Scoring und HIPAA-Compliance-Audit."
+ },
+ {
+  "line": 448,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SEOSiri-Official/biorobotics)🐍 🏠 🍎 🪟 🐧 - Bio-Robotik-Engine, die biologische Daten aus der UniProt API in kartesische G-Code-Koordinaten konvertiert."
+ },
+ {
+  "line": 449,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/salwks/mcp-techTrend)Akademische, Code- und medizinisch-regulatorische Trendüberwachung in arXiv, PubMed, GitHub, Hugging Face und openFDA, mit Briefings im Zeitungsstil."
+ },
+ {
+  "line": 450,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NyxToolsDev/dicom-hl7-mcp-server)🐍 🏠 - Bridge DICOM, HL7v2 und FHIR: Standardübergreifendes Mapping, Mirth Connect Channel Generation, Vendor Private Tag Decodierung und Integrationsmuster."
+ },
+ {
+  "line": 451,
+  "translated": "- @@L0@@ 🐍 🏠 ☁️ - Abfragen Sie die BioThings API nach Genen, genetischen Varianten, Medikamenten und taxonomischen Informationen."
+ },
+ {
+  "line": 452,
+  "translated": "- @@L0@@ 🐍 🏠 ☁️ - Bioinformatik-Toolkit für Genomik-Abfragen und -Analysen, das die gget-Bibliothek umschließt."
+ },
+ {
+  "line": 453,
+  "translated": "- @@L0@@ 🎖️ 🐍 🏠 ☁️ - Abfragen Sie die OpenGenes-Datenbank für die Alters- und Langlebigkeitsforschung."
+ },
+ {
+  "line": 454,
+  "translated": "- @@L0@@ 🎖️ 🐍 🏠 ☁️ - Abfragen Sie die SynergyAge-Datenbank für synergistische und antagonistische genetische Interaktionen bei Langlebigkeit."
+ },
+ {
+  "line": 455,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/musharna/plant-genomics-mcp)🐍 🏠 🍎 🪟 🐧 - Pflanzengenomik-Lokussuche über Ensembl Plants, Phytozome, UniProtKB, KEGG, STRING-DB, NCBI BLAST und mehr, mit Batch- und Cross-Source-Abfragen."
+ },
+ {
+  "line": 456,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/neptun2000/heor-agent-mcp)📇 ☁️ - Gesundheitsökonomie und Ergebnisforschung: Literatursuche in PubMed, NICE, CADTH, ICER und mehr, Kosteneffektivitätsmodellierung und HTA-Dossiervorbereitung."
+ },
+ {
+  "line": 457,
+  "translated": "- @@L0@@ 🐍 🏠 ☁️ - Karte klinische Terminologie zu OMOP-Konzepte mit LLMs für Gesundheitsdaten Standardisierung und Interoperabilität."
+ },
+ {
+  "line": 458,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PantelisGeorgiadis/dicomweb-mcp-server)📇 ☁️ 🏠 - Zugriff auf ein DICOMweb-Archiv: Suchen Sie Studien, Serien und Instanzen, inspizieren Sie Metadaten, lesen Sie strukturierte Berichte, extrahieren Sie PDF-Texte und rendern Sie Frames."
+ },
+ {
+  "line": 459,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tatsuju/opdstar-nhi-mcp)Taiwan National Health Insurance (NHI) Daten: Ablehnungscodes, ICD-10 zu Prozedur-Mappings, Audit-Indikatoren und semantische Suche über NHI Dokumentation."
+ },
+ {
+  "line": 460,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pkotecha-eng/aria-mcp-server)Klinische Forschungswerkzeuge für Studienkoordinatoren und Life-Sciences-Teams: Echtzeit-Zugang zu PubMed und ClinicalTrials.gov."
+ },
+ {
+  "line": 461,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pubspro/pubmed-search)📇 ☁️ - Durchsuchen Sie PubMed und fassen Sie biomedizinische Literatur zusammen."
+ },
+ {
+  "line": 462,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Rajskij/oura-mcp)📇 ☁️ 🏠 - Read-only, self-hosted Zugriff auf Oura Ring Schlaf, Bereitschaft, Aktivität, Stress und Herzfrequenzdaten."
+ },
+ {
+  "line": 463,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SidneyBissoli/medical-terminologies-mcp)📇 ☁️ 🏠 🍎 🪟 🐧 - Suchen Sie nach medizinischen Terminologien: ICD-11, LOINC, RxNorm, MeSH, ATC, Brasiliens CID-10 (DataSUS) und optional SNOMED CT."
+ },
+ {
+  "line": 464,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sikcapri/superglookoquery)📇 🏠 ☁️ 🍎 🪟 - Klinisches Audit von Glooko-Diabetes-Daten aus jeder Pumpe oder CGM: Zeit im Bereich, GMI, Trends und Bolus / Basisanalyse, Anpassung an die Daten, die Ihre Geräte melden."
+ },
+ {
+  "line": 465,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smaniches/alphafold-sovereign-mcp)🐍 🏠 ☁️ 🍎 🪟 🐧 - AlphaFold DB und andere öffentliche biomedizinische Quellen in einem lokalen SQLite-Wissensgraphen für Strukturvertrauen, Varianten, Krankheiten, Wirkstoffziele und Orthologie."
+ },
+ {
+  "line": 466,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smaniches/uniprot-mcp)🐍 🏠 ☁️ 🍎 🪟 🐧 - Abfragen Sie die UniProt-Wissensdatenbank (Einträge, Funktionen, Varianten, PTMs, GO-Begriffe, Querverweise) mit pro Abfrage SHA-256 Provenienz und Offline-Wiedergabe."
+ },
+ {
+  "line": 467,
+  "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - Zugriff und Analyse exportierter Apple Health-Daten."
+ },
+ {
+  "line": 468,
+  "translated": "- @@L0@@ 🐍 🏠 ☁️ - Verbinden Sie sich mit FHIR-Servern, zum Beispiel zur Abfrage der Patientengeschichte in natürlicher Sprache."
+ },
+ {
+  "line": 469,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/thehealthai/clarity-mcp)📇 ☁️ - Zustandsbewusste Sicherheitsüberprüfungen für Zutaten, Produkte und Nahrungsergänzungsmittel mit zitierten Beweisurteilen, Behauptungsüberprüfung und FDA-Rückrufsuche."
+ },
+ {
+  "line": 470,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/thehealthai/fda-risk-radar-mcp)FDA und NHTSA regulatorische Risikodaten: Geräte-Compliance-Risiko, 510 (k) Evidenz, Prädikatketten, Postmarket-Signale, Erstattungswege und Fahrzeugsicherheit."
+ },
+ {
+  "line": 471,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/thelongevityvault/decoder-3am-mcp)📇 ☁️ - Klassifizieren Sie die wahrscheinliche biologische Ursache von 3 Uhr morgens aus Symptombeschreibungen mit dem Fünf-Ursachen-Framework von The Longevity Vault."
+ },
+ {
+  "line": 472,
+  "translated": "- @@L0@@ 🐍 🏠 ☁️ - Suchen, Abrufen, Erstellen, Aktualisieren und Analysieren von klinischen Daten über FHIR APIs mit SMART-on-FHIR-Authentifizierung."
+ },
+ {
+  "line": 473,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wjgoarxiv/pymol-mcp)🐍 🏠 🍎 🪟 🐧 - Headless PyMOL für molekulare Visualisierung, GROMACS/LAMMPS-Trajektorien und Clathrat-Hydrat-Käfiganalyse, einschließlich H-Bindungsnetzwerke und Ordnungsparameter."
+ },
+ {
+  "line": 475,
+  "translated": "### 📂<a name=\"browser-automation\"></a>Browser Automation"
+ },
+ {
+  "line": 477,
+  "translated": "Zugriff auf Webinhalte und Automatisierungsmöglichkeiten. Ermöglicht das Suchen, Schaben und Verarbeiten von Webinhalten in KI-freundlichen Formaten."
+ },
+ {
+  "line": 479,
+  "translated": "- @@L0@@ 📇 🏠 - Suchen Sie Bilibili-Inhalte mit LangChain-Integrationsbeispielen."
+ },
+ {
+  "line": 480,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/achiya-automation/safari-mcp)📇 🏠 🍎 - Native Safari Browser Automatisierung ohne Chrome Abhängigkeit."
+ },
+ {
+  "line": 481,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/acunningham-ship-it/veilbrowser)📇 🐍 🏠 - Stealth-Automatisierung von unmodifiziertem Chrome über rohen CDP mit Accessibility-Tree-Element-Refs; kann an ein laufendes Chrome anhängen, um angemeldete Sitzungen wiederzuverwenden."
+ },
+ {
+  "line": 482,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aethynio/aethyn-browser-mcp)📇 🏠 - Fahren Sie einen lokalen Playwright-Browser durch Wohnproxies mit einem ausgewählten Ausstiegsland oder einer ausgewählten Stadt und einer klebrigen Identität pro Aufgabe."
+ },
+ {
+  "line": 483,
+  "translated": "- @@L0@@ 📇 🏠 - Browser-Automatisierung mit Puppeteer, unterstützt lokale und Remote-Browserverbindungen."
+ },
+ {
+  "line": 484,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Agent360dk/browser-mcp)Steuern Sie Ihren echten, angemeldeten Chrome-Browser über eine Erweiterung mit mehreren gleichzeitigen farbcodierten Sitzungen."
+ },
+ {
+  "line": 485,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AishwaryShrivastav/vibe-testing)📇 🏠 🍎 🪟 🐧 - Codebewusste Browsertests, die Routen, Formulare und vorhandene Tests lesen, Playwright-Szenarien ausführen und Regressionsverlauf und Screenshot-Berichte speichern."
+ },
+ {
+  "line": 486,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alex-on-ai/WebReaper)#🏠 🍎 🪟 🐧 - Web Scraper, der sauberen Markdown zurückgibt, verteilt als einzelne Binärdatei."
+ },
+ {
+  "line": 487,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/parastejpal987-cmyk/opticparse-public)🐍 🏠 ☁️ 🍎 🪟 🐧 - Visuelles, multimodales Web Scraping ohne CSS-Selektoren sowie Phishing- und Krypto-Drainer-Erkennung."
+ },
+ {
+  "line": 488,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ami-guru/x402-scraper-engine)Web Scraping, Llama 3 Digests und Twitter Intelligence, bezahlt pro Anruf in USDC über x402 auf Base."
+ },
+ {
+  "line": 489,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/andresolbach/nodriver-mcp-server)🐍 🏠 🍎 🪟 🐧 - Unentdeckte Chrome-Automatisierung über Nodriver für Anti-Bot-geschützte Sites: Accessibility Snapshots, Eingabeautomatisierung, Netzwerkinspektion und persistente Sitzungen."
+ },
+ {
+  "line": 490,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@aparajithn/agent-scraper-mcp)Web Scraping: Clean Content Extraction, CSS-Selector Scraping, Playwright Screenshots, Link- und Metadatenextraktion und Google-Suche."
+ },
+ {
+  "line": 491,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@apireno/domshell)📇 🏠 - Durchsuchen Sie das Web mit Dateisystembefehlen (ls, cd, grep, click), indem Sie den Zugänglichkeitsbaum von Chrome über eine Erweiterung einem virtuellen Dateisystem zuordnen."
+ },
+ {
+  "line": 492,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/auspy/supasidebar-mcp)📇 🏠 🍎 - Greifen Sie über die SupaSidebar-App auf offene Registerkarten, Lesezeichen und aktuelle Links in macOS-Browsern zu und organisieren Sie diese."
+ },
+ {
+  "line": 493,
+  "translated": "- @@L0@@ 🐍 - Browserautomatisierung mit Playwright."
+ },
+ {
+  "line": 494,
+  "translated": "- @@L0@@ 🦀 - Leichte Browser-Automatisierung mit null Abhängigkeiten."
+ },
+ {
+  "line": 495,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp)🐍 ☁️ 🏠 🍎 🪟 🐧 - Token-Budgeted Web Holen, das Routen zwischen Trafilatura, Jina Reader, Firecrawl und pypdf nach URL, mit Token Schätzungen, Caching und Abkürzung."
+ },
+ {
+  "line": 496,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bgaze/snapstack-server)📇 🏠 🍎 🪟 🐧 - Ein-Klick-Browser-Tab-Screenshots, aufgenommen von einer Companion-Erweiterung und lokal zum Modell auf Anfrage serviert."
+ },
+ {
+  "line": 497,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bighippoman/intercept-mcp)📇 🏠 - Holen Sie Webinhalte als sauberes Markdown durch eine mehrstufige Fallback-Kette, die Tweets, YouTube, arXiv, PDFs und reguläre Seiten behandelt."
+ },
+ {
+  "line": 498,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@autokeren/ghostfox)🦀 🏠 🍎 🪟 🐧 - Selbst gehosteter Stealth-Browser, der auf einer Firefox-Fork mit Fingerabdruck-Spoofing, Shadow-DOM-bewusstem Seitenlesen, Anmeldezustandserkennung und Beweisaufnahme basiert."
+ },
+ {
+  "line": 499,
+  "translated": "- @@L0@@ 🐍 - Browser-Automatisierung mit Playwright, zugeschnitten auf LLMs."
+ },
+ {
+  "line": 500,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/browserless/browserless-mcp)🎖️ ☁️ - Headless Browser Automation und Web Scraping über die Browserless Smart Scraper API."
+ },
+ {
+  "line": 501,
+  "translated": "- @@L0@@ Automatisieren Sie Ihren lokalen Chrome-Browser."
+ },
+ {
+  "line": 502,
+  "translated": "- @@L0@@ 📇 🏠 - Steuern Sie Browser mit Selen in natürlicher Sprache für Test-, Automatisierungs- und Mehrbenutzerszenarien."
+ },
+ {
+  "line": 503,
+  "translated": "- @@L0@@ 🐍 - Browser-Automatisierung mit Browser-Nutzung, einschließlich einer Docker-Datei, um Chromium in Docker mit einem VNC-Server auszuführen."
+ },
+ {
+  "line": 504,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/corbinvachal48/agentrender-mcp)🐍 ☁️ - Konvertieren Sie URLs in Screenshots, PDFs oder strukturierte Extrakte."
+ },
+ {
+  "line": 505,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/corralimited/snapdiff-mcp)📇 ☁️ 🏠 - Absichtliche visuelle Verifizierung: Deklarieren Sie, was eine Benutzeroberflächenänderung beeinflussen soll, und diffen Sie die Seite mit einer Baseline und markieren Sie Änderungen außerhalb dieses Bereichs."
+ },
+ {
+  "line": 506,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Ceki-me/mcp-server)📇 ☁️ - Mieten Sie private Chrome-Browser, die von echten Personen mit echten Fingerabdrücken und privaten IPs betrieben werden."
+ },
+ {
+  "line": 507,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Cubenest/rrweb-stack)📇 🏠 - Notieren Sie Ihre authentifizierte Browsersitzung (rrweb DOM, Konsole, Netzwerk) mit PII-Maskierung in lokalem SQLite, damit Codierungsagenten sie abfragen oder den Browser steuern können."
+ },
+ {
+  "line": 508,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Custodia-Admin/pagebolt-mcp)📇 ☁️ - Generieren Sie Screenshots, PDFs, OG-Bilder und erzählten Videoaufnahmen."
+ },
+ {
+  "line": 509,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@dashi96/chromium-bridge)📇 🏠 🍎 🪟 🐧 - Kontrollieren Sie Chrom-basierte Browser wie Arc, Vivaldi und Brave über eine Erweiterung: navigieren, klicken, Seiten lesen, JavaScript ausführen und GIFs aufzeichnen."
+ },
+ {
+  "line": 510,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dmytrome/groundhog)🐍 🏠 🍎 🪟 🐧 - Web-Suche, Lesen und Forschung durch Stealth-gepatchte Chrome: Streifen Sie versteckten Text, ordnet Passagen über Quellen und gibt SHA-256 Herkunft Quittungen."
+ },
+ {
+  "line": 511,
+  "translated": "- @@L0@@ 🏎️ 🏠 🍎 🐧 🪟 - Automatisieren Sie YouTube-Operationen, auch als CLI verfügbar."
+ },
+ {
+  "line": 512,
+  "translated": "- @@L0@@ 📇 - Browser-Automatisierung und Web Scraping mit Playwright."
+ },
+ {
+  "line": 513,
+  "translated": "- @@L0@@ 📇 🏠 - Steuern Sie den Firefox-Browser des Benutzers über eine Begleitererweiterung."
+ },
+ {
+  "line": 514,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/feedthrough/feedthrough)📇 🏠 🍎 🪟 🐧 - In-Page Debug Bridge für Web-Apps: Lesen Sie das DOM, die Konsolenprotokolle und Netzwerkanforderungen und interagieren Sie mit der Seite, in jedem Browser oder Cypress / Playwright."
+ },
+ {
+  "line": 515,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/firecrawl/firecrawl-mcp-server)🎖️ 📇 ☁️ 🏠 - Firecrawl Web Scraping: Suchen, Scrapen, Crawlen, Karten und Extrahieren strukturierter Daten mit Live-Browser-Interaktion und Überwachung von Website-Änderungen."
+ },
+ {
+  "line": 516,
+  "translated": "- @@L0@@ 📇 🏠 🍎 - Interagiere mit Apple Reminders auf macOS."
+ },
+ {
+  "line": 517,
+  "translated": "- @@L0@@ 📇 🏠 - Firefox-Automatisierung über WebDriver BiDi: Snapshot-basierte Interaktionen, Netzwerküberwachung, Konsolenerfassung und Screenshots zum Testen und Scraping."
+ },
+ {
+  "line": 518,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/frsorrentino/chrome-bridge)📇 🏠 🍎 🪟 🐧 - Fahren Sie Ihr angemeldetes Chrome über eine Erweiterung: kompakte Element-Refs, visuelle Regression, Zugänglichkeit, SEO und Sicherheitsaudits und Netzwerk-Mocking."
+ },
+ {
+  "line": 519,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mi60dev/visionaire-engine)📇 🏠 🍎 🪟 🐧 - Design-Debugging in Chrome: Welche CSS-Regel gewinnt (mit Datei und Zeile), ihr Explosionsradius, Scope-Fix-Selektoren, Live-Fix-Tests und WCAG-Kontrast-Audits."
+ },
+ {
+  "line": 520,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SanggonBoy/PyreCrawl)🐍 🏠 🍎 🪟 🐧 - Selbst gehostetes Web Scraping: Scrape, Extract, Crawl, Map, Suche, akademische Arbeiten, Forschung und Überwachung, mit einem abgestuften Fallback einschließlich Cloudflare Bypass."
+ },
+ {
+  "line": 521,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/segentic-lab/periscope-mcp)🐍 🏠 - Website-Tests mit Playwright: Behauptungen, automatisches Ausfüllen von Formularen, dauerhafte Anmeldungen, Netzwerk-Mocking und Zugänglichkeit, SEO, GEO und Lighthouse-Audits."
+ },
+ {
+  "line": 522,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sh6drack/zen-mcp)📇 🏠 - Zen Browser Automatisierung über WebDriver BiDi: Navigation, Formularfüllung, Screenshots und JavaScript-Auswertung."
+ }
+]

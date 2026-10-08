@@ -1,0 +1,1922 @@
+[
+ {
+  "line": 0,
+  "translated": "@@L0@@](README-th.md)"
+ },
+ {
+  "line": 1,
+  "translated": "@@L0@@](README.md)"
+ },
+ {
+  "line": 2,
+  "translated": "@@L0@@](README-zh_TW.md)"
+ },
+ {
+  "line": 3,
+  "translated": "@@L0@@](README-zh.md)"
+ },
+ {
+  "line": 4,
+  "translated": "@@L0@@](README-ja.md)"
+ },
+ {
+  "line": 5,
+  "translated": "@@L0@@](README-ko.md)"
+ },
+ {
+  "line": 6,
+  "translated": "@@L0@@](README-pt_BR.md)"
+ },
+ {
+  "line": 7,
+  "translated": "@@L0@@](https://glama.ai/mcp/discord)"
+ },
+ {
+  "line": 8,
+  "translated": "@@L0@@](https://www.reddit.com/r/mcp/)"
+ },
+ {
+  "line": 10,
+  "translated": "> [!IMPORTANT]"
+ },
+ {
+  "line": 11,
+  "translated": "> @@L0@@ – 在一分钟内从想法到生产级 MCP 服务器！🦜"
+ },
+ {
+  "line": 15,
+  "translated": "一份精心整理的精彩模型上下文协议（MCP）服务器列表。"
+ },
+ {
+  "line": 17,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 18,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 19,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 20,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 21,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 22,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 23,
+  "translated": "* @@L0@@ "
+ },
+ {
+  "line": 24,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 25,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 27,
+  "translated": "## 什么是 MCP？"
+ },
+ {
+  "line": 29,
+  "translated": "@@L0@@ 是一个开放协议，使 AI 模型能够通过标准化的服务器实现安全地与本地和远程资源交互。本列表聚焦于生产可用和实验性的 MCP 服务器，它们通过文件访问、数据库连接、API 集成以及其他上下文服务来扩展 AI 能力。"
+ },
+ {
+  "line": 31,
+  "translated": "## 客户端"
+ },
+ {
+  "line": 33,
+  "translated": "查看 @@L0@@ 和 @@L1@@。"
+ },
+ {
+  "line": 35,
+  "translated": "## 远程服务器"
+ },
+ {
+  "line": 37,
+  "translated": "本列表适用于你有 GitHub 仓库并自行安装运行的服务器。想要一个只需通过 URL 连接的托管服务器？参见 @@L0@@。"
+ },
+ {
+  "line": 39,
+  "translated": "## 教程"
+ },
+ {
+  "line": 41,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 42,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 43,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 45,
+  "translated": "## 社区"
+ },
+ {
+  "line": 47,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 48,
+  "translated": "* @@L0@@"
+ },
+ {
+  "line": 50,
+  "translated": "## 图例"
+ },
+ {
+  "line": 52,
+  "translated": "* 🎖️ – 官方实现"
+ },
+ {
+  "line": 53,
+  "translated": "* 编程语言"
+ },
+ {
+  "line": 54,
+  "translated": "  * 🐍 – Python 代码库"
+ },
+ {
+  "line": 55,
+  "translated": "  * 📇 – TypeScript（或 JavaScript）代码库"
+ },
+ {
+  "line": 56,
+  "translated": "  * 🏎️ – Go 代码库"
+ },
+ {
+  "line": 57,
+  "translated": "  * 🦀 – Rust 代码库"
+ },
+ {
+  "line": 58,
+  "translated": "  * #️⃣ – C# 代码库"
+ },
+ {
+  "line": 59,
+  "translated": "  * ☕ – Java 代码库"
+ },
+ {
+  "line": 60,
+  "translated": "  * 🌊 – C/C++ 代码库"
+ },
+ {
+  "line": 61,
+  "translated": "  * 💎 – Ruby 代码库"
+ },
+ {
+  "line": 63,
+  "translated": "* 范围"
+ },
+ {
+  "line": 64,
+  "translated": "  * ☁️ – 云服务"
+ },
+ {
+  "line": 65,
+  "translated": "  * 🏠 – 本地服务"
+ },
+ {
+  "line": 66,
+  "translated": "  * 📟 – 嵌入式系统"
+ },
+ {
+  "line": 67,
+  "translated": "* 操作系统"
+ },
+ {
+  "line": 68,
+  "translated": "  * 🍎 – 适用于 macOS"
+ },
+ {
+  "line": 69,
+  "translated": "  * 🪟 – 适用于 Windows"
+ },
+ {
+  "line": 70,
+  "translated": "  * 🐧 – 适用于 Linux"
+ },
+ {
+  "line": 72,
+  "translated": "> [!NOTE]"
+ },
+ {
+  "line": 73,
+  "translated": "> 对本地 🏠 与云端 ☁️ 感到困惑？"
+ },
+ {
+  "line": 74,
+  "translated": "> * 当 MCP 服务器与本地安装的软件通信时使用本地，例如控制 Chrome 浏览器。"
+ },
+ {
+  "line": 75,
+  "translated": "> * 当 MCP 服务器与远程 API 通信时使用云端，例如天气 API。"
+ },
+ {
+  "line": 77,
+  "translated": "## 服务器实现"
+ },
+ {
+  "line": 79,
+  "translated": "> [!NOTE]"
+ },
+ {
+  "line": 80,
+  "translated": "> 我们现在有一个与仓库同步的 @@L0@@。"
+ },
+ {
+  "line": 82,
+  "translated": "* 🔗 - @@L0@@"
+ },
+ {
+  "line": 83,
+  "translated": "* 🤝 - @@L0@@"
+ },
+ {
+  "line": 84,
+  "translated": "* 🎨 - @@L0@@"
+ },
+ {
+  "line": 85,
+  "translated": "* 📐 - @@L0@@"
+ },
+ {
+  "line": 86,
+  "translated": "* 📂 - @@L0@@"
+ },
+ {
+  "line": 87,
+  "translated": "* 🧬 - @@L0@@"
+ },
+ {
+  "line": 88,
+  "translated": "* ☁️ - @@L0@@"
+ },
+ {
+  "line": 89,
+  "translated": "* 👨‍💻 - @@L0@@"
+ },
+ {
+  "line": 90,
+  "translated": "* 🤖 - @@L0@@"
+ },
+ {
+  "line": 91,
+  "translated": "* 🖥️ - @@L0@@"
+ },
+ {
+  "line": 92,
+  "translated": "* 💬 - @@L0@@"
+ },
+ {
+  "line": 93,
+  "translated": "* 🗣️ - @@L0@@"
+ },
+ {
+  "line": 94,
+  "translated": "* 🔑 - @@L0@@"
+ },
+ {
+  "line": 95,
+  "translated": "* 👤 - @@L0@@"
+ },
+ {
+  "line": 96,
+  "translated": "* 🗄️ - @@L0@@"
+ },
+ {
+  "line": 97,
+  "translated": "* 📊 - @@L0@@"
+ },
+ {
+  "line": 98,
+  "translated": "* 🚚 - @@L0@@"
+ },
+ {
+  "line": 99,
+  "translated": "* 🛠️ - @@L0@@"
+ },
+ {
+  "line": 100,
+  "translated": "* 🧮 - @@L0@@"
+ },
+ {
+  "line": 101,
+  "translated": "* 📊 - @@L0@@"
+ },
+ {
+  "line": 102,
+  "translated": "* 📟 - @@L0@@"
+ },
+ {
+  "line": 103,
+  "translated": "* 🎓 - @@L0@@"
+ },
+ {
+  "line": 104,
+  "translated": "* 🛒 - @@L0@@"
+ },
+ {
+  "line": 105,
+  "translated": "* 🌳 - @@L0@@"
+ },
+ {
+  "line": 106,
+  "translated": "* 📂 - @@L0@@"
+ },
+ {
+  "line": 107,
+  "translated": "* 💰 - @@L0@@"
+ },
+ {
+  "line": 108,
+  "translated": "* 🎮 - @@L0@@"
+ },
+ {
+  "line": 109,
+  "translated": "* 🏠 - @@L0@@"
+ },
+ {
+  "line": 110,
+  "translated": "* 🪪 - @@L0@@"
+ },
+ {
+  "line": 111,
+  "translated": "* 🏭 - @@L0@@"
+ },
+ {
+  "line": 112,
+  "translated": "* 🧠 - @@L0@@"
+ },
+ {
+  "line": 113,
+  "translated": "* ⚖️ - @@L0@@"
+ },
+ {
+  "line": 114,
+  "translated": "* 🗺️ - @@L0@@"
+ },
+ {
+  "line": 115,
+  "translated": "* 🎯 - @@L0@@"
+ },
+ {
+  "line": 116,
+  "translated": "* 📊 - @@L0@@"
+ },
+ {
+  "line": 117,
+  "translated": "* 🎥 - @@L0@@"
+ },
+ {
+  "line": 118,
+  "translated": "* 🖥️ - @@L0@@"
+ },
+ {
+  "line": 119,
+  "translated": "* 🎙️ - @@L0@@"
+ },
+ {
+  "line": 120,
+  "translated": "* 📋 - @@L0@@"
+ },
+ {
+  "line": 121,
+  "translated": "* 🏠 - @@L0@@"
+ },
+ {
+  "line": 122,
+  "translated": "* 🔬 - @@L0@@"
+ },
+ {
+  "line": 123,
+  "translated": "* 🔎 - @@L0@@"
+ },
+ {
+  "line": 124,
+  "translated": "* 🔒 - @@L0@@"
+ },
+ {
+  "line": 125,
+  "translated": "* 🌐 - @@L0@@"
+ },
+ {
+  "line": 126,
+  "translated": "* 🔮 - @@L0@@"
+ },
+ {
+  "line": 127,
+  "translated": "* 🏃 - @@L0@@"
+ },
+ {
+  "line": 128,
+  "translated": "* 🎧 - @@L0@@"
+ },
+ {
+  "line": 129,
+  "translated": "* 🌎 - @@L0@@"
+ },
+ {
+  "line": 130,
+  "translated": "* 🎧 - @@L0@@"
+ },
+ {
+  "line": 131,
+  "translated": "* 🎙️ - @@L0@@"
+ },
+ {
+  "line": 132,
+  "translated": "* 🚆 - @@L0@@"
+ },
+ {
+  "line": 133,
+  "translated": "* 🔄 - @@L0@@"
+ },
+ {
+  "line": 134,
+  "translated": "* 🏢 - @@L0@@"
+ },
+ {
+  "line": 135,
+  "translated": "* 🛠️ - @@L0@@"
+ },
+ {
+  "line": 137,
+  "translated": "### 🔗 <a name=\"aggregators\"></a>聚合器"
+ },
+ {
+  "line": 139,
+  "translated": "通过单个 MCP 服务器访问众多应用和工具的服务器。"
+ },
+ {
+  "line": 140,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/402signalhq/402signal) 🐍 ☁️ - 检查并验证 Base、Solana 和 Algorand 上实时运行的 x402 支付路由。"
+ },
+ {
+  "line": 141,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/GarphenGate/moltline-mcp) 🐍 ☁️ 🍎 🪟 🐧 - 桥接到 Moltline Studio 的托管 MCP 服务器：代码审查、智能体治理、商业数学、监管截止日期、加密税务批次、路由与优化。"
+ },
+ {
+  "line": 142,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/team886/findagent-mcp) 📇 ☁️ - 经过审核的智能体市场，带自动安全扫描加人工审查、凭据到主机的绑定，以及默认拒绝出站的沙箱托管代码。"
+ },
+ {
+  "line": 143,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BotHireAgent/BotHireMCPServer) 📇 🏠 - BotHire 智能体对智能体招聘市场：按能力和信任评分搜索智能体与技能，读取实时需求，并跨链以 USDT 或 USDC 结算。"
+ },
+ {
+  "line": 144,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/neoninnovationlab/neon-mcp-gateway) 📇 ☁️ 🏠 - 用于向 AI 智能体暴露内部 PostgreSQL 数据库和 API 的边缘防火墙，具备严格校验。"
+ },
+ {
+  "line": 145,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/daedalusdevelopmentgroup/ddg-agent-payable-services) 🐍 ☁️ - 按调用付费的 x402 工具（实用工具、DNS/WHOIS、区块链 RPC、市场与 DEX 数据、预测市场、安全审计），外加一个兼容 OpenAI 的 LLM 网关。"
+ },
+ {
+  "line": 146,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/coinopai-mcp) 📇 - 通过 Base 上的 x402 提供付费加密情报：飞行前检查、依据真实价格审计的交易决策、风险状态、信号历史与自动化搜索。"
+ },
+ {
+  "line": 147,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/anomaly-mcp) 📇 ☁️ - 借助源自 NASA 的序列挖掘，在区块链、内存池、稳定币脱锚、航空与 GitHub 信号上进行实时异常检测，通过 Base 上的 x402 付费。"
+ },
+ {
+  "line": 148,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 将多个 MCP 服务器聚合为统一的服务器。"
+ },
+ {
+  "line": 149,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/2s-io/sdk) 📇 ☁️ 🍎 🪟 🐧 - 按调用付费的 x402 API：地理编码、天气、地震、专利、美国判例法、联邦公报、科学论文、DNS/WHOIS、OFAC 筛查与人口普查数据。"
+ },
+ {
+  "line": 150,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/8randonpickart5/alderpost-mcp) 📇 ☁️ - 安全、公司、戚胁、合规、销售、体育、房产与健康数据的情报端点，通过 Base 上的 x402 微支付付费。"
+ },
+ {
+  "line": 151,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/utility-grid-mcp) 📇 ☁️ - 搜索并调用用于 OCR、图像、音频、网页、数学、转换与地理数据的实用 API，按调用以 Base 上的 x402 USDC 付费。"
+ },
+ {
+  "line": 152,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/GTCC777/pulsenetwork-mcp) 📇 - Base 与 Solana 上按调用付费的 x402 情报 API：金融、加密、法律、移民、医疗成本、房地产、税务、气候、体育与科学。"
+ },
+ {
+  "line": 153,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mcpqueen/mcpqueen) 🎖️ 📇 ☁️ - 带评级的 MCP 注册表：对 MCP 注册表中的远程服务器进行实时探测（初始化、工具列表、模式质量、延迟、来源），并发布评级。"
+ },
+ {
+  "line": 154,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/minia2auk/minia2a-mcp) 📇 ☁️ - 面向智能体工具的按调用付费 x402 网关：加密与 DeFi 数据、网页抓取、AI 推理、验证码破解、代币安全、DNS/WHOIS 与 Gas 监控。"
+ },
+ {
+  "line": 155,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/szp2005/llm-prices-cn) 🐍 ☁️ - 经每日核验的中外模型 LLM API 价格数据集，支持实时价格查询与令牌成本估算。"
+ },
+ {
+  "line": 156,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tadas-github/a2asearch-mcp) 📇 ☁️ - 搜索 MCP 服务器、AI 智能体、CLI 工具与智能体技能的目录。"
+ },
+ {
+  "line": 157,
+  "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - 将 MCP 服务器桥接到 agent:// 网络，使其他智能体能够发现并调用其工具，具备类 DNS 身份、mTLS、信任评分与能力搜索。"
+ },
+ {
+  "line": 158,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/agentbodegastore/agentbodega) 📇 ☁️ - AgentBodega 提供的 x402 可支付 HTTP 工具实时目录：搜索、公共数据、社交媒体、状态检查、媒体转换与智能体就绪度检查。"
+ },
+ {
+  "line": 159,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/elisymlabs/elisym) 📇 ☁️ 🍎 🪟 🐧 - 基于 Nostr 的 AI 智能体发现与市场，支持 Solana 支付（SOL、USDC）：NIP-89 发现、NIP-90 任务、NIP-44 加密与链上微支付。"
+ },
+ {
+  "line": 160,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PHONGUIT22/nostrpulse-full) 📇 🏠 🍎 🪟 🐧 - 使用 Nostr NIP-90 与 Cashu eCash 微结算的智能体对智能体（A2A）商务框架。"
+ },
+ {
+  "line": 161,
+  "translated": "- @@L0@@ 📇 ☁️ - 面向 AI 智能体的跨平台职位聚合器，如 x402、RentAHuman 与 Virtuals。"
+ },
+ {
+  "line": 162,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gzchenhao/openhire) 🐍 🏠 🍎 🪟 🐧 - 基于雇主 ATS API（Greenhouse、Lever、Ashby、北森）的职位搜索，具备新鲜度验证、虚假职位评分与申请链接；匹配在客户端运行。"
+ },
+ {
+  "line": 163,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/doggychip/agentforge) 📇 ☁️ - 可自托管的 AI 智能体 API 网关与市场，单一 API 密钥、REST 与流式访问，以及健康监控。"
+ },
+ {
+  "line": 164,
+  "translated": "- @@L0@@ 🐍 ☁️ 🏠 🍎 🪟 🐧 - 在 AgentHotspot 市场上搜索、集成并变现 MCP 连接器。"
+ },
+ {
+  "line": 165,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aidevelopers2/remoteopenclaw-mcp) 📇 🏠 - 搜索 Remote OpenClaw 的 MCP 服务器、智能体技能与插件目录，获取名称、链接与安装命令；也提供 CLI。"
+ },
+ {
+  "line": 166,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/garasegae/aiskillstore) ☁️ - AI 智能体发现、购买并集成技能的技能市场。"
+ },
+ {
+  "line": 167,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/getanyapi-com/mcp) 🎖️ 📇 ☁️ 🏠 - AnyAPI：面向社交媒体、搜索结果、Google 地图、电商与网页数据的抓取与数据 API，输出归一化 JSON 并自动进行提供商故障转移。"
+ },
+ {
+  "line": 168,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - 面向编码智能体的 CLIRank API 情报：发现、比较并获取按智能体友好度评分的 API 推荐。"
+ },
+ {
+  "line": 169,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Work90210/APIFold) 📇 ☁️ - 将任意 REST API 转变为托管 MCP 服务器，并提供 GitHub、Stripe、Slack、OpenAI、Notion 等的现成公共服务器。"
+ },
+ {
+  "line": 170,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexar76/aimarket-plugins) 📇 ☁️ 🏠 🍎 🪟 🐧 - AIMarket Hub 插件，将 AIMarket 能力打包为自托管 MCP 服务器，附带 Docker 镜像、清单与客户端配置。"
+ },
+ {
+  "line": 171,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Alepha188838884/context-firewall) 📇 🏠 🍎 🪟 🐧 - 本地 MCP 代理，将下游服务器合并到少量元工具之后，支持渐进式发现并压缩大型工具输出，按需提供完整输出。"
+ },
+ {
+  "line": 172,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIsa-public/AIsa-mcp-server) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - 通过少量元工具搜索、检查并运行用于 SEO 与 AI 可见性、金融、社交、网页搜索、销售与智能体邮件的数据 API，并设支出上限。"
+ },
+ {
+  "line": 173,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/api7/aisix) 🦀 🏠 - 自托管 MCP 网关，前置上游服务器，提供逐工具访问控制、护栏、速率限制与使用日志；也可代理 LLM 与 A2A 智能体流量。"
+ },
+ {
+  "line": 174,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/reefapi/reefapi-mcp) 🐍 ☁️ - 以干净的 JSON 形式提供实时网页数据：搜索引擎、社交媒体、电商（Amazon、eBay、Etsy）、房地产、职位、旅行、新闻、金融与公司情报。"
+ },
+ {
+  "line": 175,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/RightOnPar-LLC/mesh-connector) 📇 ☁️ - MeshMarket 智能体对智能体能力交换：智能体浏览、自助接入、按调用租用记忆、推理与安全，并发布自己的工具。"
+ },
+ {
+  "line": 176,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@rhein1/agoragentic-integrations) 📇 ☁️ - 智能体对智能体市场，AI 智能体使用 Base 上的 USDC 发现、调用并支付其他智能体的服务。"
+ },
+ {
+  "line": 177,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/arikusi/deepseek-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - DeepSeek AI 聊天与推理，支持多轮会话、函数调用、思考模式与成本追踪。"
+ },
+ {
+  "line": 178,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 在 ADAS 平台上构建、验证并部署多智能体 AI 解决方案：使用工具设计技能并管理解决方案生命周期。"
+ },
+ {
+  "line": 179,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - Meta-MCP 服务器，通过单一接口统一 AI 编码助手（Codex、Claude Code、Cursor、Gemini），支持自动发现与零配置。"
+ },
+ {
+  "line": 180,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/adw0rd/awesome-mcp-tools-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 从 MCP 客户端或终端搜索 awesome-mcp.tools 的 MCP 服务器目录。"
+ },
+ {
+  "line": 181,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/avotsai/avots-mcp) 📇 ☁️ - 多模型 AI 媒体生成（图像、视频、音频、人脸替换、会说话的头像），外加与 Claude、GPT、Gemini、DeepSeek 等模型的聊天。"
+ },
+ {
+  "line": 182,
+  "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - 访问 GPT-5、Claude、Gemini、Grok、DeepSeek 等 AI 模型，按使用通过 Base 上的 x402 USDC 微支付付费。"
+ },
+ {
+  "line": 183,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bridgenode-ai/bridgenode-mcp) 📇 ☁️ - 通过 x402 按请求付费的 AI 聊天补全，跨受支持模型，支持 Solana USDC 自动支付与失败即关闭的支出上限。"
+ },
+ {
+  "line": 184,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cgrtml/reasongate) 🐍 🏠 🍎 🪟 🐧 - 面向 stdio MCP 服务器的来源网关，阻止目标或内容来自不可信工具结果的工具调用，依据模式派生策略。"
+ },
+ {
+  "line": 185,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cinderwright-ai/cinderwright-api) 📇 ☁️ - x402 发现中心：面向智能体服务的搜索引擎，通过 x402 以 Base 上的 USDC 付费。"
+ },
+ {
+  "line": 186,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Continuum-AI-Corp/orcarouter-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - 浏览来自 OpenAI、Anthropic、Google、Qwen、DeepSeek 等的 LLM 及其实时价格，并通过 OrcaRouter 网关进行聊天补全路由，支持回退。"
+ },
+ {
+  "line": 187,
+  "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 在单一接口后连接众多应用、工具与服务的统一 MCP 平台。"
+ },
+ {
+  "line": 188,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/depwire/depwire) 📇 🐍 🏎️ 🦀 🌊 🏠 - TypeScript、JavaScript、Python、Go、Rust 与 C 的依赖图，支持弧线图可视化、健康评分、死代码检测与时间图。"
+ },
+ {
+  "line": 189,
+  "translated": "- @@L0@@ 🏎️ 🏠 - 面向企业 AI 智能体的自托管 MCP 服务器注册表。"
+ },
+ {
+  "line": 190,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Proofpane/releases) 🎖️ 🏠 🍎 🪟 🐧 - MCP 治理代理：允许、拒绝或人工审批策略门控、DLP 脱敏与成本上限，工具调用记录到哈希链式的签名审计日志。"
+ },
+ {
+  "line": 191,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/entire-vc/evc-spark-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 搜索精选的 AI 智能体、技能、提示词、绷绑包与 MCP 连接器目录。"
+ },
+ {
+  "line": 192,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gamaze-labs/hicortex) 📇 🏠 - 面向 AI 智能体集群的共享记忆：夜间自校正重写过时事实并合并重复项，回忆被注入编码智能体的提示词中。"
+ },
+ {
+  "line": 193,
+  "translated": "- @@L0@@ ☁️ 📇 🍎 🪟 🐧 - 列出 MCP 服务器，以便你询问客户端哪些可以改进你的日常工作流。"
+ },
+ {
+  "line": 194,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Gliana-Labs/gliana-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 按调用付费的 AI 模型（聊天、图像、视频、音乐、语音），外加网页抓取、截图、OCR、人脸匹配与加密/外汇汇率，通过 HTTP 402 以 USDC 付费。"
+ },
+ {
+  "line": 195,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gpu-bridge/mcp-server) 📇 ☁️ 🍎 🪟 🐧 - 用于 LLM、图像与视频生成、TTS、Whisper、嵌入、重排序与 OCR 的 GPU 推理 API，按使用通过 x402 或 API 密鐁付费。"
+ },
+ {
+  "line": 196,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@gzoonet/gzoo-cortex) 📇 🏠 - 本地优先的开发者知识图谱：监视项目文件，用 LLM 提取实体与关系，并提供查询、Web 仪表盘与 CLI。"
+ },
+ {
+  "line": 197,
+  "translated": "- @@L0@@ 📇 🏠 🪟 🍎 🐧 - 使用 Google 的 Imagen 3 API 从文本提示生成图像，支持摄影、艺术与照片级真实感控制。"
+ },
+ {
+  "line": 198,
+  "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - 通过 Registry Broker 在 Hashgraph 网络上发现、注册并与 AI 智能体聊天。"
+ },
+ {
+  "line": 199,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hedging8563/tokenlab-mcp-server) 📇 ☁️ - TokenLab AI 网关：模型与价格发现，外加兼容 OpenAI 的 Chat Completions、Responses、Anthropic Messages 与 Gemini 推理。"
+ },
+ {
+  "line": 200,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HelpCode-ai/anythingmcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - 自托管 MCP 网关，无需代码即可将 REST、SOAP、GraphQL API 与 SQL/NoSQL 数据库转变为 MCP 工具，支持规范导入、预构建适配器与 RBAC。"
+ },
+ {
+  "line": 201,
+  "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 自我改进的工具发现：搜索注册表，无需重启即将 MCP 服务器作为子进程安装，并在会话间持久化工具知识。"
+ },
+ {
+  "line": 202,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jabbawocky/proposalcraft) 📇 🏠 🍎 🪟 🐧 - 基于你保存的过往提案，从新简报中以你自己的口嚏起草客户提案，仅使用本地存储。"
+ },
+ {
+  "line": 203,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Jackalope-Dev/allmcps-server) 📇 ☁️ 🍎 🪟 🐧 - 搜索并浏览 AllMCPs.com 的 MCP 服务器注册表，获取安装配置，并提交或认领条目。"
+ },
+ {
+  "line": 204,
+  "translated": "- @@L0@@ 🐍 ☁️ - 桥接到 Google Gemini API 以访问 Gemini Pro 与 Flash 模型。"
+ },
+ {
+  "line": 205,
+  "translated": "- @@L0@@ 🐍 🏠 - 桥接到本地 Ollama 服务器以运行 Llama、Mistral、Qwen 等本地模型。"
+ },
+ {
+  "line": 206,
+  "translated": "- @@L0@@ 🐍 ☁️ - 桥接到 OpenAI API 以访问 GPT-4、GPT-4o 及其他 OpenAI 模型。"
+ },
+ {
+  "line": 207,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Jovancoding/network-ai) 📇 🏠 🍎 🪟 🐧 - 多智能体编排，具备竞态条件安全的共享黑板、智能体生成、有限状态机转换、预算与令牌追踪，以及审计日志。"
+ },
+ {
+  "line": 208,
+  "translated": "- @@L0@@ 🏎️ 🏠 ☁️ - 通过单一本地优先二进制文件使用 SQL 查询应用；也可连接 PostgreSQL、MySQL 与兼容 SQLite 的数据库。"
+ },
+ {
+  "line": 209,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 边缘优先的 AI 平台，统一众多提供商与模型，支持多智能体编排、人在回路工作流、护栏与上下文摘要。"
+ },
+ {
+  "line": 210,
+  "translated": "- @@L0@@ 🐍 ☁️ 🏠 🍎 🪟 🐧 - 从任意模型或客户端搜索并使用 Claude Agent Skills，如同原生支持一般。"
+ },
+ {
+  "line": 211,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kansei-link/kansei-mcp-server) 📇 🏠 🍎 🪟 🐧 - 本地优先的导航器，提供经核实的 SaaS 服务与工作流配方数据。"
+ },
+ {
+  "line": 212,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kevmoz/macaroonnetwork-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 从谓词门控的科学与数据市场搜索并购买：浏览目录与元数据，然后通过 x402（Base 上的 USDC）或 Lightning L402 支付。"
+ },
+ {
+  "line": 213,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - MapRag：聚焦 RAG 的 MCP 子注册表，用于发现并路由到具备检索能力的 MCP 服务器，支持结构化约束与可解释排序。"
+ },
+ {
+  "line": 214,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-gtm-suite) 📇 ☁️ - 通过 Apify 执行器的市场进入信号：招聘信号、技术栈检测、招聘板扫描、LinkedIn URL 解析、ICP 评分与信号聚合。"
+ },
+ {
+  "line": 215,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Markgatcha/universal-mcp-toolkit) 📇 ☁️ 🏠 🍎 🪟 🐧 - MCP 聚合器，通过单一配置将智能体连接到多个 MCP 服务器，提供现成模板与跨仓库提示词工作流。"
+ },
+ {
+  "line": 216,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MastadoonPrime/sylex-search) 🐍 📇 ☁️ 🍎 🪟 🐧 - 供 AI 智能体跨品类发现产品、服务与企业的搜索引擎，无需 LLM 调用。"
+ },
+ {
+  "line": 217,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mediiiiium/mcp-jp) 🐍 ☁️ - 面向没有自身 MCP 支持的日本中小企业 SaaS 的 MCP 服务器，如 KING OF TIME、SmartHR、kaonavi、Smaregi、LINE Lstep 与 CloudSign。"
+ },
+ {
+  "line": 218,
+  "translated": "- @@L0@@ 🐍 ☁️ 🍎 🪟 🐧 - 访问 xAI 的 Grok API，支持智能体工具调用、图像生成、视觉与文件支持。"
+ },
+ {
+  "line": 219,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - MetaMCP：通过 GUI 管理你的 MCP 连接的统一中间件 MCP 服务器。"
+ },
+ {
+  "line": 220,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MikeyPetrillo/Agent402) 📇 ☁️ 🏠 - 按调用付费的 x402 工具与技能包（无头浏览器、网页搜索、OCR、钱包密钥记忆），外加寻找最便宜健康工具的路由器。"
+ },
+ {
+  "line": 221,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MikkoParkkola/mcp-gateway) 🏎️ 🏠 🍎 🪟 🐧 - MCP 网关，支持单端口多路复用与替代单个工具注册的元工具，外加热重载能力与 OpenAPI 导入。"
+ },
+ {
+  "line": 222,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mirastacklabs-ai/mirastack-redfish-mcp) 🎖️ 🐍 ☁️ 📟 - 受治理地访问 DMTF Redfish BMC（iDRAC、iLO、XCC、OpenBMC），用于电源、散热、固件与 BIOS 管理；默认只读，支持分级写入模式。"
+ },
+ {
+  "line": 223,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mroops0111/openapi-mcp-gateway) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 在单一进程中将多个 OpenAPI 规范或 FastAPI 应用挂载为 MCP 服务器，将 GET 端点作为资源暴露，大型规范通过元工具提供。"
+ },
+ {
+  "line": 224,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nimbus-agent/Nimbus) 🎖️ 📇 🏠 🍎 🪟 🐧 - 对本地工程栈索引（GitHub、Jira、Slack、PagerDuty、Datadog 等）的只读搜索：事件、PR、部署与 DORA 指标。"
+ },
+ {
+  "line": 225,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/mcp-hub) 📇 🏠 🍎 🪟 🐧 - 通过 HTTPS 从一个容器提供多个 stdio MCP 服务器，支持基于路径的路由、使用元工具的聚合端点、内置 OAuth 2.1 与热重载。"
+ },
+ {
+  "line": 226,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Octodamus/octodamus-core) 🐍 - 加密市场预言机：基于 RSI、MACD、资金费率与链上流向的买入/卖出/持有共识，外加带 EV 评分的 Polymarket 优势与 X 群体情绪。"
+ },
+ {
+  "line": 227,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/opentabs-dev/opentabs) 📇 🏠 🍎 🪟 🐧 - 基于插件的服务器与 Chrome 扩展，通过你已认证的浏览器会话让 AI 智能体访问 Web 应用，附带插件 SDK。"
+ },
+ {
+  "line": 228,
+  "translated": "- @@L0@@ 🐍 ☁️ 🍎 🪟 🐧 - 智能体对智能体的推荐网络，AI 智能体相互发现、推荐并引荐用户，具备双边信任模型与推荐追踪。"
+ },
+ {
+  "line": 229,
+  "translated": "- @@L0@@ 🐍 ☁️ 🏠 🍎 🪟 - 在你的本地机器上自动发现并配置 MCP 服务器。"
+ },
+ {
+  "line": 230,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 通过工具发现编排你所有的 MCP 服务器，减少令牌开销。"
+ },
+ {
+  "line": 231,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 开发者实用工具：SEO 优化、文档转换、域名查询、邮箱校验、二维码、天气数据、社交媒体发布与安全扫描。"
+ },
+ {
+  "line": 232,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/robhunter/agentdeals) 📇 ☁️ - 搜索开发者基础设施优惠、免费额度与创业计划，比较供应商、规划技术栈并追踪价格变动。"
+ },
+ {
+  "line": 233,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/doteyeso-ops/mcp-server-vibes-coded) 🐍 ☁️ - 面向智能体供应链安全、扫描器共识与 x402 可靠性的工具，外加访问 Vibes-Coded 的商业目录。"
+ },
+ {
+  "line": 234,
+  "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 从多个 MCP 服务器聚合工具的枢纽，支持统一 BM25 与正则搜索，以及延迟加载。"
+ },
+ {
+  "line": 235,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Rendeverance/toolfunnel) 📇 🏠 🍎 🪟 🐧 - 通过单一端点汇聚多个 MCP 服务器的网关，支持实时挂载与卸载、工具过滤与隐藏、热配置重载与可选 OAuth。"
+ },
+ {
+  "line": 236,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@sF1nX/x402station-mcp) 📇 ☁️ - x402 支付的飞行前检查：在智能体付费前检测诱饵、僵尸端点、失效服务与价格陷阱，外加取证与替代方案。"
+ },
+ {
+  "line": 237,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/supertrained/rhumb) 📇 ☁️ 🍎 🪟 🐧 - 针对已评分服务的工具情报：发现并比较提供商、查看 AN 评分、使用托管或自有凭据执行，并追踪成本与失败。"
+ },
+ {
+  "line": 238,
+  "translated": "- @@L0@@ 🍎 🪟 🐧 ☁️ 🏠 🐍 - Meta-MCP 服务器，让 LLM 发现、安装并编排多个 MCP 服务器，按需扩展自身能力。"
+ },
+ {
+  "line": 239,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smart-mcp-proxy/mcpproxy-go) 🏎️ 🏠 🍎 🪟 🐧 - 本地 MCP 代理，通过单一端点路由多个服务器，支持 BM25 工具过滤、隔离安全、活动日志与 Web UI。"
+ },
+ {
+  "line": 240,
+  "translated": "- @@L0@@ 📇 ☁️ - AI 电话号码目录：查询 Voxie AI 角色与 ChatGPT 等第三方 AI 服务，并获取网页聊天链接。"
+ },
+ {
+  "line": 241,
+  "translated": "- @@L0@@ 📇 ☁️ - 使用 OpenAI 的 GPT 图像模型进行图像生成与编辑。"
+ },
+ {
+  "line": 242,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 无需更改代码即可将 Web 服务转变为 MCP 服务器。"
+ },
+ {
+  "line": 243,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/thebrierfox/the-stall) 📇 ☁️ - 按调用付费的 x402 数据：股票、加密/DeFi 分析、期权链、做市商 GEX、宏观数据、国会交易、预测市场与 SEC 文件。"
+ },
+ {
+  "line": 244,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/swaltersjrtest/microtap-mcp) 📇 ☁️ - 按调用付费的 x402 API：Polymarket 与 Kalshi 预测市场、DeFi 与加密数据、跨 EVM 链的链上读取、实时天气与网页搜索。"
+ },
+ {
+  "line": 245,
+  "translated": "- @@L0@@ 📇 🏠 ☁️ 🍎 🪟 🐧 - MCPX：用于大规模管理 MCP 服务器的开源网关，集中工具发现、访问控制、调用优先级与用量追踪。"
+ },
+ {
+  "line": 246,
+  "translated": "- @@L0@@ - 创建自定义工具捆绑包，使用 OAuth 或 API 密钥连接提供商，并在众多集成中复用同一个 MCP 服务器，附带用于捆绑包与凭据的 UI。"
+ },
+ {
+  "line": 247,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mrfelfel/taghvim) 📇 ☁️ - 确定性的日期与时间推理：算术、感知夏令时的时区、工作日、公共假日、RFC 5545 重复规则与公历/波斯历转换。"
+ },
+ {
+  "line": 248,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/toadlyBroodle/satring) 🐍 ☁️ 🍎 🪟 🐧 - 从 satring.com（精选的 Lightning 与 USDC API 目录）发现并比较 L402 与 x402 付费 API 服务。"
+ },
+ {
+  "line": 249,
+  "translated": "- @@L0@@ 📇 🏠 - 将多个 MCP 服务器合并为单一接口的代理，支持工具、提示词、资源与模板的发现与管理，外加调试沙盒。"
+ },
+ {
+  "line": 250,
+  "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 通过渐进式披露减少 Claude Code 工具膨胀的元服务器，自动启动 Playwright 与 Context7，并按需配置 MCP 服务器。"
+ },
+ {
+  "line": 251,
+  "translated": "- @@L0@@ ☁️ 🍎 🪟 - 将 MCP 主机连接到 Notion、Slack、Monday 与 Airtable 等应用。"
+ },
+ {
+  "line": 252,
+  "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 将 Web API 转变为 MCP 服务器，并加入开源的 open-mcp.org 注册表。"
+ },
+ {
+  "line": 253,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/whiteknightonhorse/APIbase) 📇 ☁️ - 覆盖旅行（Amadeus、Sabre）、Polymarket 预测市场、加密与天气的 API 枢纽，通过 x402 以 USDC 按调用付费。"
+ },
+ {
+  "line": 254,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/withoneai/mcp) 🎖️ 📇 ☁️ - 通过少量工具（上下文大小恒定）在 Gmail、Slack、Stripe、Notion、GitHub 等应用中搜索、记录并执行已认证的 API 调用。"
+ },
+ {
+  "line": 255,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Wolido/OpenAaaS) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 连接到 OpenAaaS 科学智能体网络的适配器：将文献分析或材料数据库查询等任务提交给远程研究智能体。"
+ },
+ {
+  "line": 256,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@rplryan/x402-discovery-mcp) 🐍 ☁️ - 面向 x402 可支付 API 的运行时发现：按能力查找并路由到按调用付费的端点，按质量与信任评分排序，附带 Python SDK 与 CLI。"
+ },
+ {
+  "line": 257,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/x402-index/x402search-mcp) 📇 ☁️ 🍎 🪟 🐧 - 按关键词搜索支持 x402 的 HTTP API，通过 Base 上的 x402 微支付按搜索付费。"
+ },
+ {
+  "line": 258,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ikoskela/wisepanel-mcp) 📇 ☁️ 🍎 🪟 🐧 - 跨 ChatGPT、Claude、Gemini 与 Perplexity 的多智能体审议，动态生成从不同角度探讨问题的角色。"
+ },
+ {
+  "line": 259,
+  "translated": "- @@L0@@ 🐍 ☁️ 🏠 🍎 🪟 🐧 - 从 Steam、YouTube、Bilibili、Spotify、Reddit 及其他游戏、音乐、视频与社交平台聚合个人数据，支持 OAuth2 与令牌管理。"
+ },
+ {
+  "line": 260,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Swarmwage/swarmwage) 🎖️ 📇 ☁️ - 基于 x402 的智能体招聘协议：发现专业智能体，一次调用雇用，并在 Base 上以 USDC 结算，附带声誉与链上 EIP-3009 收据。"
+ },
+ {
+  "line": 261,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ertad-family/liquid) 🐍 ☁️ 🏠 - 即时将智能体连接到任意 REST API：一次性映射 API，随后确定性地获取类型化数据，无需逐调用使用 LLM。自托管。"
+ },
+ {
+  "line": 262,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tsouth89/toolport) 🦀 🏠 🍎 🪟 🐧 - 跨 AI 编码工具共享的 MCP 服务器的本地网关与管理器：一次性设置并认证每个服务器，支持惰性发现与操作系统钥匙串存储。"
+ },
+ {
+  "line": 263,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/skillselion/skillselion-mcp) 📇 ☁️ - 搜索 Skillselion 的社区审核 Claude Code 技能、MCP 服务器与市场目录，按安装量与 GitHub Star 排序；可在任务中途加载技能。"
+ },
+ {
+  "line": 264,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/singhpratech/crimson-crab-mcp-template) 🦀 🏠 🍎 🪟 🐧 - 用于查询 Anthropic Claude API（通过 crimson-crab SDK）的 MCP 服务器 Rust 模板。"
+ },
+ {
+  "line": 265,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forcedreamai/forcedream-mcp) 🎖️ 📇 ☁️ - 在付费市场发现、调用并验证智能体：代码生成、安全扫描（OSV.dev、GitGuardian）与线索评分，结果带签名。"
+ },
+ {
+  "line": 266,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mcccsm/x402-list-mcp) 📇 ☁️ - 在 x402-list 目录中查找并审查 x402 支付 API：搜索并排序服务，检查正常运行时间、健康度、逐端点价格与链上结算量。"
+ },
+ {
+  "line": 268,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/activeing123/mcptoon) 🐍 🏠 🍎 🪟 🐧 - 从一个跨编码工具同步的配置将 AI 智能体连接到 MCP 服务器，通过单一进程提供服务，支持紧凑工具发现与规范校验。"
+ },
+ {
+  "line": 269,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kaxiyu/aiagentmarket) 📇 ☁️ - 面向 AI 智能体的带原子托管与加权抗女巫声誉的劳动力市场协议。"
+ },
+ {
+  "line": 271,
+  "translated": "### 🚀 <a name=\"aerospace-and-astrodynamics\"></a>航空航天与天体动力学"
+ },
+ {
+  "line": 273,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/astronomy-oracle) 📇 🏠 🍎 🪟 🐧 - 天文目录数据与观测时段规划：OpenNGC 深空天体，含可见性、升/中天/落与高度角/方位角计算。"
+ },
+ {
+  "line": 274,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Viventine-Space/orbit-sentinel-mcp) 🎖️ 🏎️ ☁️ 🍎 🪟 🐧 - 通过 Orbit Sentinel 搜索 FCC、ITU、UNOOSA 与 FAA 的航天监管备案：语义搜索、实体档案、频谱持有、发射许可与警报。"
+ },
+ {
+  "line": 276,
+  "translated": "### 🤝 <a name=\"agreements--coordination\"></a>协议与协调"
+ },
+ {
+  "line": 278,
+  "translated": "用于创建、协调与执行协议的 MCP 服务器：承诺、托管，以及跨人类、智能体与组织的多方决策工作流。"
+ },
+ {
+  "line": 279,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BrightbeamAI/chap) 🎖️ 📇 🏠 🍎 🪟 🐧 - 用于可审计的人机协作的 CHAP 协调器：审批、覆盖、交接、升级与哈希链接证据。"
+ },
+ {
+  "line": 280,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/CNSLabs/agreements-api-sdk) 📇 ☁️ 🏠 - 定义、验证、部署并运行机器可读协议，支持 EIP-712 许可准备、已签名参与者输入、状态读取与输入历史。"
+ },
+ {
+  "line": 281,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cogdepot/mcp-server) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - 访问 cogDepot——一个匿名经纪平台，智能体在其中发布能力清单、协商条款，并以双向声誉形成托管支持的合约。"
+ },
+ {
+  "line": 282,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/decision-anchor/mcp-server) 📇 ☁️ - 外部锚定层，记录 AI 智能体两侧的问责边界，不检查内容也不做评判。"
+ },
+ {
+  "line": 283,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/elicitly/elicitly) 🎖️ 📇 🏠 🍎 🪟 🐧 - 通过 MCP 引导实现人在回路：来自主机中 JSON 模式的原生确认对话框与类型化表单，外加对支持功能的检查。"
+ },
+ {
+  "line": 284,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ianewsfr-a11y/ergonia) 🎖️ 📇 ☁️ - 面向 AI 智能体的可验证任务市场：发布可独立核查的任务、提交工作并建立声誉，操作记录于哈希链寄存器。"
+ },
+ {
+  "line": 285,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Vladimir-Human/humanizer-ru) 🏠 🪟 🍎 🐧 - 检测并规范化俄语文本中的机器生成痕迹，不做出作者判定。"
+ },
+ {
+  "line": 286,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/humanforai/humanforai-mcp) 🎖️ 📇 ☁️ - 雇用人类操作员完成需要到场、感知或判断的任务：现实世界验证、产品测试、AI 输出审查与跑腿。"
+ },
+ {
+  "line": 287,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gofrantic/frantic-mcp) 📇 ☁️ - 公共赏金板，AI 智能体认领有资金的赏金、交付工作并在被接受后以 Base 上的 USDC 付款，附带公共收据账本。"
+ },
+ {
+  "line": 289,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lanekingsbery/open-task-relay-public) 📇 ☁️ - Open Task Relay：AI 智能体可发现、完成、提交并独立验证的有界公共任务。"
+ },
+ {
+  "line": 290,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TheRealDalaiLama/glyphdna-mcp) 🐍 🏠 - 带自持 Ed25519 密钥的智能体身份、可验证的多方会议室（含共同签名的转录收据）以及脚本来源链。"
+ },
+ {
+  "line": 291,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tribeunal/mcp-server) 📇 ☁️ 🏠 - 社区陪审平台，人类与 AI 智能体共同开启案件、权衡证据并投票，支持仲裁模式、裁决等待与签名 Webhook。"
+ },
+ {
+  "line": 292,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sttruji/mundane-mcp) 🎖️ 🐍 ☁️ - 雇用经身份核验的人员完成跑腿、现场拍照、排队占位与线下预约，支持托管支持的报价、聊天与完成证明审查。"
+ },
+ {
+  "line": 294,
+  "translated": "### ♿ <a name=\"accessibility\"></a>无障碍"
+ },
+ {
+  "line": 296,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kinti/a11y-toolkit) 🐍 🏠 - WCAG 2.2 无障碍工具：颜色对比度检查（含图像上的文字）、欧盟无障碍声明生成，以及 aria-live 播报监视器。"
+ },
+ {
+  "line": 297,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vince-gonzalez/opticquiz-mcp) 📇 🏠 🍎 🪟 🐧 - 色觉无障碍：检查调色板与图像对色盲的安全性、生成安全调色板、模拟色盲并创建石原氏风格色板。"
+ },
+ {
+  "line": 299,
+  "translated": "### 🎨 <a name=\"art-and-culture\"></a>艺术与文化"
+ },
+ {
+  "line": 301,
+  "translated": "访问并探索艺术收藏、文化遗产与博物馆数据库。使 AI 模型能够搜索并分析艺术与文化内容。"
+ },
+ {
+  "line": 302,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AceDataCloud/MCPFlux) 🐍 ☁️ - 通过 Ace Data Cloud API 进行来自 Black Forest Labs 的 Flux 图像生成与编辑。"
+ },
+ {
+  "line": 303,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/musajala/musajala-mcp) 📇 ☁️ - 连接 AI 智能体与人类诗人的协作式阿拉伯语诗歌竞技场与诗意公平协议。"
+ },
+ {
+  "line": 305,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AceDataCloud/MCPNanoBanana) 🐍 ☁️ - Nano Banana 图像生成与编辑，包括在写实场景中的虚拟试穿与产品植入。"
+ },
+ {
+  "line": 306,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AceDataCloud/MCPSeedream) 🐍 ☁️ - 通过 Ace Data Cloud API 进行字节跳动 Seedream 图像生成与编辑。"
+ },
+ {
+  "line": 307,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIDataNordic/alexandria-mcp) 🐍 ☁️ - 对古典哲学与人文著作的语义搜索。"
+ },
+ {
+  "line": 308,
+  "translated": "- @@L0@@ 📇 ☁️ - 通过 Open Library API 搜索图书信息。"
+ },
+ {
+  "line": 309,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fgbytes/sansfiction-mcp) 📇 ☁️ - 按书名、作者、丛书或 ISBN 搜索 SansFiction 图书目录，并管理个人阅读库：状态、进度、评分、评论与收藏。"
+ },
+ {
+  "line": 310,
+  "translated": "- @@L0@@ 🐍 🏠 🪟 🐧 - 使用 Manim 在本地生成动画。"
+ },
+ {
+  "line": 311,
+  "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 来自 myinstants.com 的梗声音效板：搜索、播放并浏览分类。"
+ },
+ {
+  "line": 312,
+  "translated": "- @@L0@@ 🐍 - 将 AI 助手连接到 Blender。"
+ },
+ {
+  "line": 313,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@albertnahas/icogenie-mcp) 📇 ☁️ - 从文本描述生成可自定义样式的 SVG 图标。"
+ },
+ {
+  "line": 314,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexzavialov/travel-art-mcp) 📇 ☁️ - 艺术旅游数据：双年展（威尼斯、惠特尼）、艺术博览会（巴塞尔艺术展、Frieze）、主要博物馆参观指南与艺术之旅推荐。"
+ },
+ {
+  "line": 315,
+  "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 访问《列王纪》（Shahnameh，菲尔多西的波斯史诗），含章节、诗句与解读。"
+ },
+ {
+  "line": 316,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/arikusi/nakkas) 📇 🏠 🍎 🪟 🐧 - 通过 JSON 配置控制的 SVG 艺术引擎：CSS 关键帧与 SMIL 动画、参数化曲线、滤镜、渐变与 PNG 预览。"
+ },
+ {
+  "line": 317,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ArturLys/ao3-mcp) 🐍 🏠 - 搜索 Archive of Our Own（AO3），并将整篇阅读委托给 Gemini，使推荐基于实际文本而非简介。"
+ },
+ {
+  "line": 318,
+  "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 使用自然语言控制 JupyterCAD。"
+ },
+ {
+  "line": 319,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/attalla1/photopea-mcp-server) 📇 🏠 🍎 🪟 🐧 - 通过 Photopea 进行图像编辑：文档、图层、文字、形状、滤镜、效果与导出。"
+ },
+ {
+  "line": 320,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/krupalghori44-dev/infyicon-mcp) 📇 ☁️ - 以四种匹配风格搜索手绘 Infyicon 图标，并获取 SVG 标记或 PNG URL。"
+ },
+ {
+  "line": 321,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/quokkapix/quokkapix-mcp) 📇 🏠 🍎 🪟 🐧 - 通过 QuokkaPix 在本地调整大小、压缩、转换、去除背景、剥离元数据、添加水印并导出图像，无需上传源图像。"
+ },
+ {
+  "line": 322,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BluesPrince/thiri-mcp) 📇 ☁️ 🏠 - 确定性音乐理论：和弦与罗马数字分析、声部排列与重新和声。"
+ },
+ {
+  "line": 323,
+  "translated": "- @@L0@@ 🐍 - 从你的 Video Jungle 收藏中添加、分析、搜索并生成视频剪辑。"
+ },
+ {
+  "line": 324,
+  "translated": "- @@L0@@ 📇 🏠 ☁️ 🍎 🪟 - 八字（中国占星）排盘与分析。"
+ },
+ {
+  "line": 325,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cfpramod/open-museum-mcp) 📇 ☁️ 🍎 🪟 🐧 - 跨大都会博物馆、克利夫兰、AIC、Wikimedia Commons 与 Europeana 的许可核验搜索，仅限 CC0 与公共领域作品，并附引用。"
+ },
+ {
+  "line": 326,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/imagegen-mcp) 📇 ☁️ - 图像生成、背景去除与 4 倍放大，通过 Base 上的 x402 USDC 按图像付费。"
+ },
+ {
+  "line": 327,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Cifero74/mcp-apple-music) 🐍 🏠 🍎 - Apple Music 集成：搜索目录、浏览你的资料库、管理播放列表并获取个性化推荐。"
+ },
+ {
+  "line": 328,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@codex-curator/studio-mcp-hub) 🐍 ☁️ - 创意 AI 工具：图像生成、放大、背景去除、产品样机、CMYK 转换、可印刷 PDF、SVG 矢量化与水印。"
+ },
+ {
+  "line": 329,
+  "translated": "- @@L0@@ 🐍 🏠 - 查看、编辑并运行 ComfyUI 基于节点的图像生成工作流，附带嵌入式终端。"
+ },
+ {
+  "line": 330,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/CreativeClawCo/creative-claw-marketplace) ☁️ - 访问 Flux 2 Pro、Nano Banana Pro、GPT Image 2、Veo 3.1、Sora 2、Kling 与 ElevenLabs 等媒体模型，用于图像、视频、语音、3D 与品牌图形。"
+ },
+ {
+  "line": 331,
+  "translated": "- @@L0@@ 📇 ☁️ - 与 Discogs API 交互。"
+ },
+ {
+  "line": 332,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/clanker-records/crompton-network) 📇 ☁️ 🍎 🪟 🐧 - 面向 C.W.A. 专辑《Straight Outta Crompton》的机器原生聆听平台，让 AI 智能体聆听它。"
+ },
+ {
+  "line": 333,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DataCraftsmanAU/vineverse-mcp) 📇 ☁️ 🍎 🪟 🐧 - 将《圣经》作为经文、人物、地点、主题与希伯来词元的知图谱：经文搜索、行间对照查询、交叉引用与家谱。"
+ },
+ {
+  "line": 334,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/delmas41/gradusnotation) 📇 ☁️ 🍎 🪟 🐧 - 从 JSON 乐谱将音乐记谱渲染为 SVG、MusicXML 与 MIDI，对 MusicXML 进行和声分析，并搜索音乐理论知识库。"
+ },
+ {
+  "line": 335,
+  "translated": "- @@L0@@ 🐍 🏠 - 使用 Aseprite API 创建像素艺术。"
+ },
+ {
+  "line": 336,
+  "translated": "- @@L0@@ 📇 ☁️ - 通过其 REST API 与 Quran.com 语料库交互。"
+ },
+ {
+  "line": 337,
+  "translated": "- @@L0@@ 📇 ☁️ - 从 The Movie Database（TMDB）API 搜索并获取电影、电视节目与人物信息。"
+ },
+ {
+  "line": 338,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fatenava/fatenava-mcp) 🎖️ 📇 🏠 ☁️ 🍎 🪟 🐧 - 命盘绘制：八字、紫微斗数与西方占星本命盘，支持真太阳时校正，以及中文、英文、日文与韩文输入。"
+ },
+ {
+  "line": 339,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/flamexnreal/davinci-resolve-ai-bridge-mcp) 🐍 🏠 🍎 - DaVinci Resolve（免费版与 Studio 版）的本地桥接：时间线检查、缩放动画、色彩调整与复制时间线审阅。"
+ },
+ {
+  "line": 341,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gavxm/ani-mcp) 📇 🏠 - AniList 集成，含品味感知推荐、观看分析、社交工具与列表管理。"
+ },
+ {
+  "line": 342,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gchen19/AnkusDrive) 🐍 🏠 🍎 🪟 🐧 - 从智能体驱动本地 FreeCAD：参数化 CAD、带 GD&T 的 TechDraw 工程图、CalculiX 有限元，以及 CFD、热、电磁与多物理场仿真。"
+ },
+ {
+  "line": 343,
+  "translated": "- @@L0@@ 📇 ☁️ - 通过自然语言生成并编辑 SVG，支持实时更新与安全的文件处理。"
+ },
+ {
+  "line": 344,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gokimedia/tarot-mcp-server) 📇 🏠 🍎 🪟 🐧 - 全部 78 张牌的塔罗含义、正位与逆位解读、爱情与事业占卜、是否问答、随机抽牌与三牌阵。"
+ },
+ {
+  "line": 345,
+  "translated": "- @@L0@@ 🐍 ☁️ 🍎 🪟 🐧 - Spotify 工具：智能随机播放、自然语言歌曲搜索、氛围分析、艺人关系图谱、品味演化与播放列表管理。"
+ },
+ {
+  "line": 346,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@hanshs474/kavel-mcp) 📇 🏠 🍎 🪟 🐧 - 发现 Kavel 的 AI 照片与视频生成器（发型、手办、宠物肖像、年鉴照片、舞蹈视频、高清修复），并获取调优提示词。"
+ },
+ {
+  "line": 347,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@jau123/mei-gen-ai-design-mcp) 📇 ☁️ 🏠 - 借助精选提示词库、提示词增强，以及在本地 ComfyUI、MeiGen Cloud 与兼容 OpenAI 的 API 间路由，进行图像生成与编辑。"
+ },
+ {
+  "line": 348,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/j-east/pixel-surgeon-mcp) 📇 🏠 🍎 🪟 🐧 - 通过 Gemini 3.1 Flash Image、GPT Image 2、Grok Imagine 与 Veo 3 进行图像与视频生成、编辑与区域修复，含风格预设。"
+ },
+ {
+  "line": 349,
+  "translated": "- @@L0@@ 🐍 ☁️ - 批量 Spotify 操作：带置信度评分的歌曲匹配、从 CSV 或播客列表批量创建播放列表，以及导出你最常保存的艺人与专辑。"
+ },
+ {
+  "line": 350,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@labelgrid/labelgrid-mcp) 🎖️ 📇 ☁️ - 管理你的 LabelGrid 音乐发行目录、发行作品、分析与版税。"
+ },
+ {
+  "line": 351,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/leonardoca1/aesthetics-wiki-mcp) 🐍 🏠 🍎 🪟 🐧 - 从 Aesthetics Wiki 搜索、阅读并发现田园风、暗黑学院风、Y2K 与哥布林风等视觉美学。"
+ },
+ {
+  "line": 352,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - 从 memebo.at 模板创建表情包：搜索目录、为模板添加文字，并获取可分享的表情包链接。"
+ },
+ {
+  "line": 353,
+  "translated": "- @@L0@@ 📇 ☁️ - 通过大都会艺术博物馆藏品 API 搜索并展示艺术品。"
+ },
+ {
+  "line": 354,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mikan-atomoki/text-to-model) 🐍 🏠 🪟 🍎 - 在 Fusion 360 中将自然语言转化为 3D 模型，提供草图、拉伸、圆角与 JIS 标准零件的 CAD 工具。"
+ },
+ {
+  "line": 355,
+  "translated": "- @@L0@@ 🐍 ☁️ - 访问史密森尼学会的开放获取收藏。"
+ },
+ {
+  "line": 356,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Noteboxd/mcp) 📇 ☁️ 🏠 - 查询 Noteboxd 香水百科，获取香水、香调、和弦、品牌、调香师、评论与排行榜。"
+ },
+ {
+  "line": 357,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/joshseane/-nmlp-mcp) 📇 ☁️ - 使用发行要点、编号行解码与出版商规则进行初版图书鉴定，外加新墨西哥州图书捐赠物流。"
+ },
+ {
+  "line": 358,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/calibreweb-mcp) 📇 🏠 - 通过 OPDS 对自托管 Calibre-Web 或 Calibre-Web Automated 电子书库的只读访问：搜索、书架、封面与按格式下载链接。"
+ },
+ {
+  "line": 359,
+  "translated": "- @@L0@@ #️⃣ ☁️ - 3D 打印机访问：实时打印机状态、摄像头快照与打印机控制。"
+ },
+ {
+  "line": 360,
+  "translated": "- @@L0@@ 📇 ☁️ - 通过服务器与扩展以自然语言控制 NVIDIA Isaac Sim、Isaac Lab、OpenUSD 等。"
+ },
+ {
+  "line": 361,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Pantani/ableton-mind) 📇 🏠 🍎 🪟 - 通过本地 Remote Script 桥接控制 Ableton Live：检查工程集、创建音轨、场景与片段、加载设备、应用音乐配方并验证更改。"
+ },
+ {
+  "line": 362,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Pantani/tdmcp) 📇 🏠 🍎 🪟 - 描述一个视觉来构建可玩的 TouchDesigner 网络：音频响应、生成式、粒子、3D 与反馈系统，带实时旋钮与 MIDI/OSC/DMX。"
+ },
+ {
+  "line": 363,
+  "translated": "- @@L0@@ 🐍 🏠 - 将 AI 助手连接到 Autodesk Maya。"
+ },
+ {
+  "line": 364,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pzfreo/build123d-mcp) 🐍 🏠 🍎 🪟 🐧 - 使用 build123d 参数化 CAD 创建、检查并迭代 3D 几何：渲染 PNG/SVG 视图、测量几何并导出 STEP/STL。"
+ },
+ {
+  "line": 365,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Psalmustrack/lambdacad-mcp) 🐍 🏠 🐧 - 通过 AutoLISP 桥接在 Linux 上驱动 BricsCAD：带尺寸与填充的 2D 制图、带布尔运算的 3D 实体、生成的工程图视图与 PDF 导出。"
+ },
+ {
+  "line": 366,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/doctorm333/promptpilot-mcp-server) 📇 ☁️ - 使用 Flux、GPT-Image-1、Imagen 4、Grok、Seedance 与 ElevenLabs 等模型生成图像、视频与音频，含提示词预设与批量生成。"
+ },
+ {
+  "line": 367,
+  "translated": "- @@L0@@ 📇 ☁️ - 通过 Oorlogsbronnen（战争来源）API 访问荷兰（1940-1945）的二战历史记录、照片与文件。"
+ },
+ {
+  "line": 368,
+  "translated": "- @@L0@@ 📇 ☁️ - 通过 Rijksmuseum API 搜索艺术品并获取详情与收藏信息。"
+ },
+ {
+  "line": 369,
+  "translated": "- @@L0@@ 🐍 ☁️ - 使用 Fal.ai 的 FLUX、Stable Diffusion、MusicGen 等模型生成图像、视频与音乐。"
+ },
+ {
+  "line": 370,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rekordcloud/sonovault-mcp) 📇 ☁️ 🍎 🪟 🐧 - 跨曲目、艺人、厂牌与发行作品的音乐元数据搜索：流派、发行日期、ISRC/ISWC 代码，以及 Spotify、Apple Music、Discogs 等的 ID。"
+ },
+ {
+  "line": 371,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rosasynthesiz/flstudio-mcp) 🐍 🏠 🪟 - 控制 FL Studio：DAW 内混音（增益分级、EQ、压缩、混响、参考匹配）、路由与作曲。"
+ },
+ {
+  "line": 372,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/runcomfy-com/runcomfy-mcp) 🎖️ 🐍 ☁️ - 管理 RunComfy ComfyUI 无服务器部署、托管模型推理与 LoRA 训练任务。"
+ },
+ {
+  "line": 373,
+  "translated": "- @@L0@@ 🐍 - DaVinci Resolve 集成，用于视频编辑、色彩分级、媒体管理与项目控制。"
+ },
+ {
+  "line": 374,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sharafutdinovdi/revit-model-mcp) 🐍 #️⃣ 🏠 🪟 - 读取实时的 Autodesk Revit 模型（图元、参数、视图、警告、PNG 导出）；模型更改需显式选择，支持试运行与提交后验证。"
+ },
+ {
+  "line": 375,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/shunshi-ai/bazi-reader-mcp) 📇 🏠 🍎 🪟 🐧 - 八字（四柱）排盘，支持真太阳时校正，输出中文、英文、日文与韩文。"
+ },
+ {
+  "line": 376,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-lrclib) 📇 ☁️ 🍎 🪟 🐧 - 在 LRCLIB 搜索曲目并读取其歌词，含时间同步的 LRC 行，搜索结果紧凑。"
+ },
+ {
+  "line": 377,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-imslp) 📇 ☁️ - 阅读 IMSLP（Petrucci 音乐图书馆）：搜索作品与作曲家，查看目录编号、调性与配器，并浏览含版权状态的版本。"
+ },
+ {
+  "line": 378,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/slshults/shakespeare-monologues-mcp) 📇 ☁️ - 按角色、剧目或首句搜索莎士比亚独白，并获取全文、现代英语释义与场景或剧目摘要。"
+ },
+ {
+  "line": 379,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-books) 📇 ☁️ - 同时搜索 Internet Archive、美国国会图书馆与法国国家图书馆，跨目录并在扫描文本内部检索。"
+ },
+ {
+  "line": 380,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/speedwarnsf/scenef-mcp) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - 加州与夏威夷影院的只读放映时间，从轮演影院与 35mm/70mm 放映到连锁影院，均对照各影院日历核验。"
+ },
+ {
+  "line": 381,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@tasopen/mcp-alphabanana) 📇 🏠 🍎 🪟 🐧 - 使用 Google Gemini（Nano Banana 2 与 Pro）生成图像素材：透明 PNG/WebP、精确缩放与裁剪、参考图像与搜索接地。"
+ },
+ {
+  "line": 382,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TOBYCAI/image-mcp) 🐍 🏠 🍎 🪟 🐧 - 离线图像处理：缩放、裁剪、转换、压缩、旋转、翻转、缩略图、水印、特效、占位图与叠加。"
+ },
+ {
+  "line": 383,
+  "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 控制 REAPER DAW 进行混音、母带处理、MIDI 作曲与音乐制作。"
+ },
+ {
+  "line": 384,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/UModeler/picoberry-mcp) 🎖️ 📇 ☁️ - 从文本或参考图像生成 3D 模型与图像，随后通过 PicoBerry API 重新网格化、重新贴图、自动绑定、动画并导出 GLB/FBX/OBJ。"
+ },
+ {
+  "line": 385,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vicseeai/vicsee-mcp-server) 📇 ☁️ - 通过 VicSee 生成、编辑并放大 AI 视频与图像（Seedance、Veo、Kling、FLUX、Nano Banana）。"
+ },
+ {
+  "line": 386,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wretcher207/reaper-daemon) 🐍 🏠 🍎 🪟 🐧 - 通过本地文件桥接驱动 REAPER DAW：读取插件与参数、设置 FX 值、写入自动化并测量混音变化，全部在撤销块内。"
+ },
+ {
+  "line": 387,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/XavierFabregat/spotify-mcp) 📇 🏠 🍎 🪟 🐧 - 对话式 Spotify 控制：按描述播放并管理队列、设备、播放列表与资料库，附带引导式设置向导。"
+ },
+ {
+  "line": 388,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yonlandwu/chinese-almanac-mcp) 📇 🏠 🍎 🪟 🐧 - 中国黄历（通胜）：每日宜忌、时柱吉凶评级、基于 NASA JPL 的节气、吉日、生肖运程与吉时。"
+ },
+ {
+  "line": 389,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yuluo688/gen-image-mcp) 📇 🏠 🍎 🪟 🐧 - 通过你自己的兼容 OpenAI 或 Gemini 的图像 API 生成并编辑图像，保存到项目目录，支持可选的模型回退。"
+ },
+ {
+  "line": 390,
+  "translated": "- @@L0@@ 📇 ☁️ - 来自 AniList API 的动漫与漫画信息。"
+ },
+ {
+  "line": 391,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smeet666/mcp-bideetmusique) 📇 ☁️ 🍎 🪟 🐧 - 按表演者、标题、作者、歌词、厂牌或年份搜索 Bide & Musique 手工编录的被遗忘法国歌曲收藏，并阅读完整记录。"
+ },
+ {
+  "line": 393,
+  "translated": "### 📐 <a name=\"architecture-and-design\"></a>架构与设计"
+ },
+ {
+  "line": 395,
+  "translated": "设计并可视化软件架构、系统图与技术文档。使 AI 模型能够生成专业的图表与架构文档。"
+ },
+ {
+  "line": 397,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aidc2026ai-melon/aidc-ai-mcp) 🎖️ 📇 ☁️ - 面向韩国的确定性 AI 数据中心设计（NVIDIA Rubin 时代，22.9 kV 进线）：机柜数量、PUE、总 MVA、制冷分配、CDU 规划、成本与时间表。"
+ },
+ {
+  "line": 398,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ant-dev-lab/nightmarquee-mcp) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - 以斜杠命令形式提供美术指导的网站提示词，用于首屏、落地页、SaaS、作品集、电商与 3D/WebGL 场景，每个都带实时演示。"
+ },
+ {
+  "line": 399,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/awdr74100/figwright) 📇 🏠 🍎 🪟 🐧 - 双向 Figma 桥接：将选区转化为复用你的组件与令牌的框架感知代码，或创建画框、文字、样式、变量与屏幕。"
+ },
+ {
+  "line": 400,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bobaba99/motionlint) 📇 🏠 🍎 🪟 🐧 - 对 Web 动画进行 lint，在实时页面上做确定性检查（时长、缓动、错峰、退出、减少动效、悬停），另加可选的视觉 LLM UX 审查。"
+ },
+ {
+  "line": 401,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/builditwithgk/repo-cartographer) 📇 🏠 🍎 🪟 🐧 - 从仓库的文件树、导入图与入口点将其转化为 Mermaid 或 Graphviz 架构图；也可在 CI 中强制执行架构规则。"
+ },
+ {
+  "line": 402,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@BV-Venky/excalidraw-architect-mcp) 🐍 🏠 🍎 🪟 🐧 - 生成带自动布局、技术感知组件样式（数据库、队列、缓存）与有状态编辑的 Excalidraw 架构图。"
+ },
+ {
+  "line": 403,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cisco-open/network-sketcher) 🐍 🏠 🍎 🪟 🐧 - 本地优先的网络设计：创建 Cisco 风格的网络主文件、L1/L2/L3 拓扑图、HTML 查看器、设备表与 AI 上下文文件。"
+ },
+ {
+  "line": 404,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Daksh-create349/Contradiction-MCP) 📇 🏠 ☁️ 🍎 🪟 🐧 - 检测 Kubernetes 清单、README、OpenAPI 规范与 Word 文档中的矛盾与架构漂移，提供确定性评分与解决建议。"
+ },
+ {
+  "line": 405,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ejwhite7/brandkit-mcp) 📇 🏠 🍎 🪟 🐧 - 向 AI 工具暴露公司的设计系统（颜色、排版、徽标、组件、指南、CSS 令牌），从 CSS、Markdown、PDF、SVG 与字体解析。"
+ },
+ {
+  "line": 406,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/erajasekar/ai-diagram-maker-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - AI 图表生成器：从文本、代码、ASCII、图像或 Mermaid 生成流程图、时序图、ERD、架构图、UML 与思维导图，内联渲染。"
+ },
+ {
+  "line": 407,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/flowzap-xyz/flowzap-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 使用 FlowZap Code DSL 创建工作流、时序与架构图，支持校验、沙盒链接、语法文档、导出、差异与补丁。"
+ },
+ {
+  "line": 408,
+  "translated": "- @@L0@@ 🐍 ☁️ - 将本地项目或 GitHub 仓库转化为通过 Kroki 渲染的 Mermaid 图。"
+ },
+ {
+  "line": 409,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HalidSaglam/saglitzdesign-mcp) 📇 🏠 🍎 🪟 🐧 - 面向 Web、iOS、Android 与 macOS 的离线 UI/UX 设计与营销指导，外加设计令牌、色彩系统、字号梯度与 WCAG 检查的生成器。"
+ },
+ {
+  "line": 410,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/imgly/codesign) 📇 🏠 🍎 🐧 - 本地设计引擎：创建、编辑并导出品牌社媒帖子、传单、演示文稿与名片，支持可印刷 PDF，以及 InDesign、PSD 与 PDF 导入。"
+ },
+ {
+  "line": 411,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jgsystemsconsulting/jgs-magic-sysmlv1-mcp) 🐍 🏠 🍎 🪟 🐧 - 桥接到 CATIA Magic 中的实时 SysML v1 模型：通过本地、气隙连接查询、审计、追踪并编辑模块、需求、分配与图表。"
+ },
+ {
+  "line": 412,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/karyaboyraz/mockit-mcp) 📇 🏠 🍎 🪟 🐧 - 使用 Claude 与无头 Playwright 渲染器从文本提示生成 PNG 与 HTML 格式的 iOS UI 样机。"
+ },
+ {
+  "line": 413,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/KasayoDotCom/identityforge-mcp) 📇 🏠 🍎 🪟 🐧 - 设计套件与品牌工作流：浏览并应用设计系统、创建可分享的品牌项目，并研究名称、域名与 EUIPO 商标。"
+ },
+ {
+  "line": 414,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Kentucky-ai/opentakeoff) 📇 🏠 🍎 🪟 🐧 - 施工图算量：加载图纸 PDF、读取标题栏、设置绘图比例、描摹房间，并导出面积与延英尺等工程量。"
+ },
+ {
+  "line": 415,
+  "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - Mermaid 图生成（流程图、时序图、类图、ER 图、架构图与状态图），含模板、布局引擎与 SVG/PNG/PDF 导出。"
+ },
+ {
+  "line": 416,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ng-galien/maket) 📇 🏠 🍎 🪟 🐧 - 本地优先的设计工作区：组合线框图与品牌化多页 HTML/CSS 文档，带实时预览、品牌与素材库、校验与 PDF 导出。"
+ },
+ {
+  "line": 417,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/odd-Innocent/den_archi_mcp) 🎖️ 🐍 ☁️ - 韩国建筑、工程与施工知识：KDS、KCS 与 KS 标准、法规与专业知识汇于一图，回答引用条款。"
+ },
+ {
+  "line": 418,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/posecode-dev/posecode) 📇 🏠 🍎 🪟 🐧 - LLM 可书写的人类动作文本语言，渲染为浏览器中受解剖学约束的 3D 人体模型。"
+ },
+ {
+  "line": 419,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rdanieli/tentra-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 用自然语言描述系统以获取交互式架构图，导出到 Spring Boot、FastAPI、Terraform 等框架，并检测漂移。"
+ },
+ {
+  "line": 420,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/RedHold/diagrams-mcp-app-core) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - 从提示词、Terraform 或 Kubernetes 清单生成并编辑 draw.io 云架构图，修复 Well-Architected 警告并导出为 SVG。"
+ },
+ {
+  "line": 421,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/RNVizion/rnv-color-mcp) 🐍 ☁️ - 混合颜色（含 Kubelka-Munk 颜料物理），转换格式，生成配色方案并保存命名调色板，解析十六进制、CSS 与品牌色名称。"
+ },
+ {
+  "line": 422,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Roberton003/mcp-server-decisions) 🐍 🏠 🍎 🪟 🐧 - 架构决策追踪，含可测试预测与结果门控，存储于仅追加的 JSONL。"
+ },
+ {
+  "line": 423,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tomyangod/architecture_viewer) 📇 🏠 🍎 🪟 🐧 - 本地架构门控与 CLI，将 AI 编辑与 git HEAD 进行 diff，以检测新的跨层依赖与结构变化。"
+ },
+ {
+  "line": 424,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/uxloom-dev/uxloom) 📇 🏠 🍎 🪟 🐧 - UI/UX 验证：将用户旅程建模为状态机，发现缺失状态、对比度与触控目标问题，并对照设计契约验证代码。"
+ },
+ {
+  "line": 425,
+  "translated": "- @@L0@@ 📇 ☁️ - 在共享工作区中创建 Mermaid 图，支持版本历史、评论、嵌入、演示文稿与图表 lint。"
+ },
+ {
+  "line": 427,
+  "translated": "### <a name=\"bio\"></a>生物学、医学与生物信息学"
+ },
+ {
+  "line": 428,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ajibadedapo/flowproof-mcp) 🐍 🏠 ☁️ - 运行可复现的 Nextflow 生物信息学流水线，具备可验证的 Workflow Run RO-Crate 来源：容器摘要、工具版本与校验和。"
+ },
+ {
+  "line": 429,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ammawla/encode-toolkit) 🐧 - 搜索、下载、追踪并分析来自 ENCODE 项目的功能性基因组学实验。"
+ },
+ {
+  "line": 430,
+  "translated": "- @@L0@@ 🐍 🏠 - 空间转录组分析：细胞注释、反卷积、空间统计与可视化。"
+ },
+ {
+  "line": 431,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Crindo2/gph-mcp-server) 📇 ☁️ - 将美国医疗机构与医疗服务供应商匹配，用于计费、资质认证、EHR、合规与法律。"
+ },
+ {
+  "line": 432,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidmosiah/google-health-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - 本地优先访问 Google Health API，获取 Fitbit 与 Pixel Watch 的活动、睡眠、心率、营养与已调和健康数据。"
+ },
+ {
+  "line": 433,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidmosiah/wellness-cgm-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - 本地优先的连续血糖监测数据，来自 Dexcom Developer API 与通过 LibreLink Up 的 FreeStyle Libre。"
+ },
+ {
+  "line": 434,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidmosiah/wellness-nourish) 📇 🏠 🍎 🪟 🐧 - 营养与水分追踪：食物搜索、条形码查询、膳食估算、摄入日志与每日摘要。"
+ },
+ {
+  "line": 435,
+  "translated": "- @@L0@@ ☕ ☁️ 🍎 🪟 🐧 - 实时访问 1000 Genomes Project 数据集。"
+ },
+ {
+  "line": 436,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ericblair1903/nutrients-mcp) 📇 ☁️ 🍎 🪟 🐧 - 从食物照片或文字描述进行营养分析：热量、宏量营养素、维生素、矿物质、过敏原与饮食标记。"
+ },
+ {
+  "line": 437,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forever-healthy/evipedia-mcp) 📇 ☁️ 🍎 🪟 🐧 - 搜索 Evipedia 对健康与长寿干预的循证综述，获取带 PMID 的结论与元数据，并建议新干预。"
+ },
+ {
+  "line": 438,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fulcradynamics/fulcra-context-mcp) 🐍 ☁️ - 通过 Fulcra Life API 访问个人健康与生物特征数据（睡眠阶段、心率、HRV、血糖、锻炼）、日历与位置。"
+ },
+ {
+  "line": 439,
+  "translated": "- @@L0@@ 🐍 ☁️ - 从 PubMed、ClinicalTrials.gov 与 MyVariant.info 访问生物医学研究数据。"
+ },
+ {
+  "line": 440,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/healthchainai/HealthChain) 🐍 🏠 - 类型化 FHIR 工具：从患者包构建、读取、验证并编码 FHIR 资源，含术语查找与机器可读的验证报告。"
+ },
+ {
+  "line": 441,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/helena-bioinformatics/noodle-mcp) 🐍 ☁️ - 对源自 PubMed 的语料库进行只读生物医学文献搜索，支持自然语言或 PMID/DOI/PMCID，含引用与语义图遍历。"
+ },
+ {
+  "line": 442,
+  "translated": "- @@L0@@ 🐍 ☁️ - 与 UCSC 基因组浏览器 API 交互以查找基因组、染色体等。"
+ },
+ {
+  "line": 443,
+  "translated": "- @@L0@@ 📇 🏠 - 查询医疗信息、药物数据库、药物相互作用与临床指南。"
+ },
+ {
+  "line": 444,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JaviMaligno/vitamind-mcp) 📇 ☁️ - 估算日光维生素 D 合成：当前是否发生、按 Fitzpatrick 皮肤类型的所需分钟数，以及按纬度的可行月份，使用 Open-Meteo 紫外数据。"
+ },
+ {
+  "line": 445,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kushaim/practice-fusion-mcp) 📇 🏠 - 对 Practice Fusion EHR 的只读 FHIR 访问：搜索患者并查看预约、病情、用药与实验室结果。"
+ },
+ {
+  "line": 446,
+  "translated": "- @@L0@@ 📇 ☁️ - 耐力运动员的赛事营养规划：碳水、钠与液体目标，外加按赛事类型、条件与体重的 Lecka 产品推荐。"
+ },
+ {
+  "line": 447,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/OFODevelopment/mymedi-ai-mcp-server) 📇 ☁️ - 医疗计费：ICD-10、CPT 与 HCPCS 代码查询、事前授权预测、索赔校验、拒付风险评分与 HIPAA 合规审计。"
+ },
+ {
+  "line": 448,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SEOSiri-Official/biorobotics) 🐍 🏠 🍎 🪟 🐧 - 将 UniProt API 的生物数据转化为笛卡尔 G 代码坐标的生物机器人引擎。"
+ },
+ {
+  "line": 449,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/salwks/mcp-techTrend) 🐍 🏠 - 跨 arXiv、PubMed、GitHub、Hugging Face 与 openFDA 的学术、代码与医疗监管趋势监测，提供报纸式简报。"
+ },
+ {
+  "line": 450,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NyxToolsDev/dicom-hl7-mcp-server) 🐍 🏠 - 桥接 DICOM、HL7v2 与 FHIR：跨标准映射、Mirth Connect 通道生成、厂商私有标签解码与集成模式。"
+ },
+ {
+  "line": 451,
+  "translated": "- @@L0@@ 🐍 🏠 ☁️ - 查询 BioThings API 以获取基因、遗传变异、药物与分类信息。"
+ },
+ {
+  "line": 452,
+  "translated": "- @@L0@@ 🐍 🏠 ☁️ - 封装 gget 库的基因组学查询与分析生物信息学工具包。"
+ },
+ {
+  "line": 453,
+  "translated": "- @@L0@@ 🎖️ 🐍 🏠 ☁️ - 查询 OpenGenes 数据库以进行衰老与长寿研究。"
+ },
+ {
+  "line": 454,
+  "translated": "- @@L0@@ 🎖️ 🐍 🏠 ☁️ - 查询 SynergyAge 数据库，了解长寿中协同与拮抗的遗传相互作用。"
+ },
+ {
+  "line": 455,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/musharna/plant-genomics-mcp) 🐍 🏠 🍎 🪟 🐧 - 跨 Ensembl Plants、Phytozome、UniProtKB、KEGG、STRING-DB、NCBI BLAST 等进行植物基因组位点查询，支持批量与跨源查询。"
+ },
+ {
+  "line": 456,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/neptun2000/heor-agent-mcp) 📇 ☁️ - 卫生经济学与结果研究：跨 PubMed、NICE、CADTH、ICER 等的文献搜索、成本效果建模与 HTA 档案准备。"
+ },
+ {
+  "line": 457,
+  "translated": "- @@L0@@ 🐍 🏠 ☁️ - 使用 LLM 将临床术语映射到 OMOP 概念，用于医疗数据标准化与互操作。"
+ },
+ {
+  "line": 458,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PantelisGeorgiadis/dicomweb-mcp-server) 📇 ☁️ 🏠 - 访问 DICOMweb 存档：搜索检查、序列与实例，检查元数据，读取结构化报告，提取 PDF 文本并渲染帧。"
+ },
+ {
+  "line": 459,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tatsuju/opdstar-nhi-mcp) 📇 ☁️ - 台湾全民健康保险（NHI）数据：拒付代码、ICD-10 到处置的映射、稽核指标，以及对 NHI 文件的语义搜索。"
+ },
+ {
+  "line": 460,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pkotecha-eng/aria-mcp-server) 🐍 - 面向试验协调员与生命科学团队的临床研究工具：实时访问 PubMed 与 ClinicalTrials.gov。"
+ },
+ {
+  "line": 461,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pubspro/pubmed-search) 📇 ☁️ - 搜索 PubMed 并总结生物医学文献。"
+ },
+ {
+  "line": 462,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Rajskij/oura-mcp) 📇 ☁️ 🏠 - 对 Oura Ring 睡眠、就绪度、活动、压力与心率数据的只读、自托管访问。"
+ },
+ {
+  "line": 463,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SidneyBissoli/medical-terminologies-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 查询医学术语：ICD-11、LOINC、RxNorm、MeSH、ATC、巴西的 CID-10（DataSUS），以及可选的 SNOMED CT。"
+ },
+ {
+  "line": 464,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sikcapri/superglookoquery) 📇 🏠 ☁️ 🍎 🪟 - 对任意泵或 CGM 的 Glooko 糖尿病数据进行临床审计：目标范围内时间、GMI、趋势与餐前/基础分析，适配你的设备所报告的数据。"
+ },
+ {
+  "line": 465,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smaniches/alphafold-sovereign-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 将 AlphaFold DB 与其他公共生物医学来源存入本地 SQLite 知识图谱，用于结构置信度、变异、疾病、药物靶点与直系同源。"
+ },
+ {
+  "line": 466,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smaniches/uniprot-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 查询 UniProt 知识库（条目、特征、变异、PTM、GO 术语、交叉引用），每次查询带 SHA-256 来源并支持离线回放。"
+ },
+ {
+  "line": 467,
+  "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 访问并分析导出的 Apple Health 数据。"
+ },
+ {
+  "line": 468,
+  "translated": "- @@L0@@ 🐍 🏠 ☁️ - 连接到 FHIR 服务器，例如以自然语言查询患者病史。"
+ },
+ {
+  "line": 469,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/thehealthai/clarity-mcp) 📇 ☁️ - 针对成分、产品与补充剂的状态感知安全检查，含引用证据的判定、声明事实核查与 FDA 召回查询。"
+ },
+ {
+  "line": 470,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/thehealthai/fda-risk-radar-mcp) 📇 ☁️ - FDA 与 NHTSA 监管风险数据：器械合规风险、510(k) 证据、predicate 链、上市后信号、报销路径与车辆安全。"
+ },
+ {
+  "line": 471,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/thelongevityvault/decoder-3am-mcp) 📇 ☁️ - 使用 The Longevity Vault 的五因框架，根据症状描述对凌晨 3 点醒来的可能生物学原因进行分类。"
+ },
+ {
+  "line": 472,
+  "translated": "- @@L0@@ 🐍 🏠 ☁️ - 通过 FHIR API 搜索、检索、创建、更新并分析临床数据，支持 SMART-on-FHIR 认证。"
+ },
+ {
+  "line": 473,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wjgoarxiv/pymol-mcp) 🐍 🏠 🍎 🪟 🐧 - 无头 PyMOL，用于分子可视化、GROMACS/LAMMPS 轨迹与笼形水合物笼分析，含氢键网络与序参量。"
+ },
+ {
+  "line": 475,
+  "translated": "### 📂 <a name=\"browser-automation\"></a>浏览器自动化"
+ },
+ {
+  "line": 477,
+  "translated": "网页内容访问与自动化能力。使 AI 能够以友好格式搜索、抓取并处理网页内容。"
+ },
+ {
+  "line": 479,
+  "translated": "- @@L0@@ 📇 🏠 - 搜索 Bilibili 内容，含 LangChain 集成示例。"
+ },
+ {
+  "line": 480,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/achiya-automation/safari-mcp) 📇 🏠 🍎 - 不依赖 Chrome 的原生 Safari 浏览器自动化。"
+ },
+ {
+  "line": 481,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/acunningham-ship-it/veilbrowser) 📇 🐍 🏠 - 通过原始 CDP 对未修改的 Chrome 进行隐蔽自动化，使用可访问性树元素引用；可附加到运行中的 Chrome 以复用已登录会话。"
+ },
+ {
+  "line": 482,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aethynio/aethyn-browser-mcp) 📇 🏠 - 通过住宅代理驱动本地 Playwright 浏览器，可选择出口国家或城市，并为每个任务分配粘性身份。"
+ },
+ {
+  "line": 483,
+  "translated": "- @@L0@@ 📇 🏠 - 使用 Puppeteer 进行浏览器自动化，支持本地与远程浏览器连接。"
+ },
+ {
+  "line": 484,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Agent360dk/browser-mcp) 📇 🏠 - 通过扩展控制你真实的已登录 Chrome 浏览器，支持多个并发的彩色编码会话。"
+ },
+ {
+  "line": 485,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AishwaryShrivastav/vibe-testing) 📇 🏠 🍎 🪟 🐧 - 代码感知的浏览器测试，读取路由、表单与现有测试，运行 Playwright 场景，并保留回归历史与截图报告。"
+ },
+ {
+  "line": 486,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alex-on-ai/WebReaper) #️⃣ 🏠 🍎 🪟 🐧 - 返回干净 Markdown 的网页抓取器，以单一二进制文件分发。"
+ },
+ {
+  "line": 487,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/parastejpal987-cmyk/opticparse-public) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 无需 CSS 选择器的视觉、多模态网页抓取，外加钓鱼与加密 drainer 检测。"
+ },
+ {
+  "line": 488,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ami-guru/x402-scraper-engine) 📇 ☁️ - 网页抓取、Llama 3 摘要与 Twitter 情报，通过 Base 上的 x402 以 USDC 按调用付费。"
+ },
+ {
+  "line": 489,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/andresolbach/nodriver-mcp-server) 🐍 🏠 🍎 🪟 🐧 - 通过 nodriver 进行绕过检测的 Chrome 自动化，适用于反爬保护的站点：可访问性快照、输入自动化、网络检查与持久会话。"
+ },
+ {
+  "line": 490,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@aparajithn/agent-scraper-mcp) 🐍 ☁️ - 网页抓取：干净内容提取、CSS 选择器抓取、Playwright 截图、链接与元数据提取，以及 Google 搜索。"
+ },
+ {
+  "line": 491,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@apireno/domshell) 📇 🏠 - 通过扩展将 Chrome 的可访问性树映射为虚拟文件系统，使用文件系统命令（ls、cd、grep、click）浏览网页。"
+ },
+ {
+  "line": 492,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/auspy/supasidebar-mcp) 📇 🏠 🍎 - 通过 SupaSidebar 应用访问并整理 macOS 浏览器中的打开标签页、书签与最近链接。"
+ },
+ {
+  "line": 493,
+  "translated": "- @@L0@@ 🐍 - 使用 Playwright 进行浏览器自动化。"
+ },
+ {
+  "line": 494,
+  "translated": "- @@L0@@ 🦀 - 零依赖的轻量级浏览器自动化。"
+ },
+ {
+  "line": 495,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 带令牌预算的网页获取，按 URL 在 Trafilatura、Jina Reader、Firecrawl 与 pypdf 间路由，含令牌估算、缓存与截断。"
+ },
+ {
+  "line": 496,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bgaze/snapstack-server) 📇 🏠 🍎 🪟 🐧 - 一键浏览器标签页截图，由配套扩展捕获并按需本地提供给模型。"
+ },
+ {
+  "line": 497,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bighippoman/intercept-mcp) 📇 🏠 - 通过多层回退链以干净 Markdown 获取网页内容，处理推文、YouTube、arXiv、PDF 与普通页面。"
+ },
+ {
+  "line": 498,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@autokeren/ghostfox) 🦀 🏠 🍎 🪟 🐧 - 基于 Firefox 分支构建的自托管隐蔽浏览器，具备指纹伪造、感知 shadow-DOM 的页面读取、登录状态检测与证据记录。"
+ },
+ {
+  "line": 499,
+  "translated": "- @@L0@@ 🐍 - 使用 Playwright 进行浏览器自动化，专为 LLM 定制。"
+ },
+ {
+  "line": 500,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/browserless/browserless-mcp) 🎖️ ☁️ - 通过 Browserless 智能抓取 API 进行无头浏览器自动化与网页抓取。"
+ },
+ {
+  "line": 501,
+  "translated": "- @@L0@@ 📇 🏠 - 自动化你的本地 Chrome 浏览器。"
+ },
+ {
+  "line": 502,
+  "translated": "- @@L0@@ 📇 🏠 - 使用自然语言通过 Selenium 控制浏览器，用于测试、自动化与多用户场景。"
+ },
+ {
+  "line": 503,
+  "translated": "- @@L0@@ 🐍 - 使用 browser-use 进行浏览器自动化，含在 Docker 中以 VNC 服务器运行 Chromium 的 Dockerfile。"
+ },
+ {
+  "line": 504,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/corbinvachal48/agentrender-mcp) 🐍 ☁️ - 将 URL 转换为截图、PDF 或结构化提取。"
+ },
+ {
+  "line": 505,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/corralimited/snapdiff-mcp) 📇 ☁️ 🏠 - 意图感知的视觉验证：声明 UI 变更应影响的范围，然后将页面与基线对比，并标记该范围之外的变更。"
+ },
+ {
+  "line": 506,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Ceki-me/mcp-server) 📇 ☁️ - 租用由真实人员运行的住宅 Chrome 浏览器，具备真实指纹与住宅 IP。"
+ },
+ {
+  "line": 507,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Cubenest/rrweb-stack) 📇 🏠 - 将你已认证的浏览器会话（rrweb DOM、控制台、网络）记录到本地 SQLite（含 PII 脱敏），以便编码智能体查询或驱动浏览器。"
+ },
+ {
+  "line": 508,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Custodia-Admin/pagebolt-mcp) 📇 ☁️ - 生成截图、PDF、OG 图像与带解说的视频录制。"
+ },
+ {
+  "line": 509,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@dashi96/chromium-bridge) 📇 🏠 🍎 🪟 🐧 - 通过扩展控制 Arc、Vivaldi、Brave 等基于 Chromium 的浏览器：导航、点击、读取页面、运行 JavaScript 并录制 GIF。"
+ },
+ {
+  "line": 510,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dmytrome/groundhog) 🐍 🏠 🍎 🪟 🐧 - 通过隐蔽补丁的 Chrome 进行网页搜索、阅读与研究：剥离隐藏文本、跨来源对段落排序，并返回 SHA-256 来源收据。"
+ },
+ {
+  "line": 511,
+  "translated": "- @@L0@@ 🏎️ 🏠 🍎 🐧 🪟 - 自动化 YouTube 操作，也提供 CLI。"
+ },
+ {
+  "line": 512,
+  "translated": "- @@L0@@ 📇 - 使用 Playwright 进行浏览器自动化与网页抓取。"
+ },
+ {
+  "line": 513,
+  "translated": "- @@L0@@ 📇 🏠 - 通过配套扩展控制用户的 Firefox 浏览器。"
+ },
+ {
+  "line": 514,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/feedthrough/feedthrough) 📇 🏠 🍎 🪟 🐧 - 面向 Web 应用的页内调试桥：读取 DOM、控制台日志与网络请求并与页面交互，适用于任意浏览器或 Cypress/Playwright 运行。"
+ },
+ {
+  "line": 515,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/firecrawl/firecrawl-mcp-server) 🎖️ 📇 ☁️ 🏠 - Firecrawl 网页抓取：搜索、抓取、爬取、映射并提取结构化数据，支持实时浏览器交互与网站变更监控。"
+ },
+ {
+  "line": 516,
+  "translated": "- @@L0@@ 📇 🏠 🍎 - 在 macOS 上与 Apple 提醒事项交互。"
+ },
+ {
+  "line": 517,
+  "translated": "- @@L0@@ 📇 🏠 - 通过 WebDriver BiDi 进行 Firefox 自动化：基于快照的交互、网络监控、控制台捕获与用于测试与抓取的截图。"
+ },
+ {
+  "line": 518,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/frsorrentino/chrome-bridge) 📇 🏠 🍎 🪟 🐧 - 通过扩展驱动你已登录的 Chrome：紧凑元素引用、视觉回归、可访问性、SEO 与安全审计，以及网络模拟。"
+ },
+ {
+  "line": 519,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mi60dev/visionaire-engine) 📇 🏠 🍎 🪟 🐧 - Chrome 中的设计调试：哪条 CSS 规则生效（含文件与行号）、其影响范围、作用域修复选择器、实时修复尝试与 WCAG 对比度审计。"
+ },
+ {
+  "line": 520,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SanggonBoy/PyreCrawl) 🐍 🏠 🍎 🪟 🐧 - 自托管网页抓取：抓取、提取、爬取、映射、搜索、学术论文、研究与监控，含包括绕过 Cloudflare 的分层回退。"
+ },
+ {
+  "line": 521,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/segentic-lab/periscope-mcp) 🐍 🏠 - 使用 Playwright 进行网站测试：断言、自动填表、持久登录、网络模拟，以及可访问性、SEO、GEO 与 Lighthouse 审计。"
+ },
+ {
+  "line": 522,
+  "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sh6drack/zen-mcp) 📇 🏠 - 通过 WebDriver BiDi 进行 Zen Browser 自动化：导航、表单填写、截图与 JavaScript 求值。"
+ }
+]

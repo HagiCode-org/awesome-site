@@ -1,0 +1,1922 @@
+[
+{
+"line": 2520,
+"translated": "- @@L0@@ 📇 - RuneScape y Old School RuneScape Datos: precios del artículo, hiscores del jugador y más."
+},
+{
+"line": 2521,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/Tanshaydar/Quartermaster) 🐍 🏠 🏠 - Búsqueda local de activos de juego de Unity, Fab, Quixel Megascans, Gumroad y Leartes Cosmos, combinando búsqueda de CLIP de texto completo y visual."
+},
+{
+"line": 2522,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/alex-gon/thegamecrafter-mcp-server) 📇 ☁ ️ Cambio - Diseño, gestión y precio de mesa juegos en The Game Crafter: navegar por catálogos, crear proyectos, subir obras de arte y obtener precios."
+},
+{
+"line": 2523,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@jhomen368/steam-reviews-mcp) 📇 ☁ - Búsqueda Juegos de vapor, buscar reseñas de los usuarios y analizar sentimientos con el tema de la perforación."
+},
+{
+"line": 2524,
+"translated": "- @@L0@@ - Jugar Tic Tac Dedo contra un oponente de AI."
+},
+{
+"line": 2525,
+"translated": "- @@L0@@ 📇 🏠 🏠 🐧 🐧 - integración del motor Godot: edición de escenas, scripting, animación, tilemaps, sombreadores, simulación de entrada y depuración de tiempo de ejecución."
+},
+{
+"line": 2526,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/HadiCherkaoui/crafty-mcp) 📇 🏠 🪟 🐧 - Gestionar servidores Minecraft a través de la API Crafty Controller 4: start, stop, back up, send commands and manage files, schedules, webhooks and users."
+},
+{
+"line": 2527,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/yanjingzhaisun/cozyvt-mcp) 🐍 🏠 🪟 🐧 - Ejecutar campañas como maestro de juegos en CozyVTT, una mesa virtual auto-anfitriona: dados, chat narración, fichas y mapas, iniciativa, fichas de carácter y libro de reglas."
+},
+{
+"line": 2529,
+"translated": "### 🏥 < un nombre= \"salud-y-wellness\""
+},
+{
+"line": 2531,
+"translated": "Acceso a métricas de salud, datos de bienestar e información médica a través de varias plataformas de salud."
+},
+{
+"line": 2533,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/findsaunaplunge/mcp) 🎖י ☁ ️ ف - Cold plunge, sauna y espacios de terapia de contraste a través de los metros estadounidenses, con temperaturas de fecha y precios de las propias páginas de cada lugar, más estadísticas de la ciudad."
+},
+{
+"line": 2534,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/PhilipAD/health-export-mcp) 🍎 √ - Sólo lectura, primeras consultas locales de las métricas de Apple Health."
+},
+{
+"line": 2535,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/proscar87/oura-mcp) 🐍 📇 🏠 ️ 🪟 🐧 - Acceso bruto a todas las colecciones Oura Ring API v2 con paginación completa y recuentos de página, sin análisis del lado servidor."
+},
+{
+"line": 2536,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/Thecimal/quantified-self-mcp) 🐍 - Query personal health and finance data stored in local SQLite files, without any cloud service."
+},
+{
+"line": 2538,
+"translated": "### Гента name=\"home-automation\""
+},
+{
+"line": 2540,
+"translated": "Controle dispositivos hogareños inteligentes, equipos de red doméstica y sistemas de automatización."
+},
+{
+"line": 2542,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/handsomejustin/mijia-control) ☁ ☁ ️ - Control Xiaomi/Mijia smart home devices (lights, AC, heaters, robots, cameras), con un panel web, REST API, CLI, monitoreo de energía y reglas de automatización."
+},
+{
+"line": 2543,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/@apiarya/wemo-mcp-servidor) 🐍 🏠 🪟 🐧 - Control local de dispositivos hogar inteligentes WeMo sin la nube: descubrimiento, brillo de martillo, renaming de dispositivo y códigos HomeKit."
+},
+{
+"line": 2544,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Hybirdss/smartest-tv) 🐍 🏠 🏠 🐧 🐧 - Control LG, Samsung, Android TV y Roku smart TVs: reproducir Netflix, YouTube y contenido de Spotify por nombre, lanzar URLs, presets de escena y sincronización multi-TV."
+},
+{
+"line": 2545,
+"translated": "- @@L0@@ ¡Control AVM FRITZ! Enrutadores de caja: gestionar dispositivos, Wi-Fi, configuración de red y controles parentales, y programar acciones retardadas por el tiempo."
+},
+{
+"line": 2546,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/ober37/ac-infinity-mcp) ☁ ☁ ️ ️ 🐧 - Monitor y automatizar controladores de crecimiento AC Infinity: datos de sensores en vivo e historia, automatizaciones VPD/temperatura/humidity, control de puertos y programación."
+},
+{
+"line": 2547,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/laszlopere/mcp-kodi) 🌊 🏠 - Control Kodi media players via JSON-RPC: reproducción, volumen, búsqueda de bibliotecas, gestión de colas y historial de reproducción en múltiples casos."
+},
+{
+"line": 2548,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/claymore666/debmatic-mcp) 📇 🏠 🐧 🐧 - Control a HomeMatic/debmatic CCU: switch and dim actuators, read sensors and system variables, run programs and manage rooms, links and devices."
+},
+{
+"line": 2549,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/NickoScope/nickol-knx-mcp) 🐍 Г - Design-time KNX/ETS6 Assistant: read-only .knxproj parsing, DPT, naming and command/status validation, and Home Assistant YAML and ETS exports."
+},
+{
+"line": 2550,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/alexpfau/zigbee2mqtt-mcp) 📇 🏠 🏠 🐧 - Administer Zigbee2MQTT a través de su API de puente MQTT: informes de salud de red, topología de malla, emparejamiento, fijación, intervalos de presentación de informes y opciones de dispositivos."
+},
+{
+"line": 2552,
+"translated": "### 🪪 < un nombre= \"identidad\""
+},
+{
+"line": 2554,
+"translated": "Servidores que establecen quién es una persona o un agente y qué puede ser conocido sobre ellos."
+},
+{
+"line": 2556,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/AIops-tools/Identity-AIops) 🐍 - Keycloak y Authentik SSO/IAM operations: root-Cause analysis for login, permission, client and MFA issues, plus guarded writes with audit logs and rollback."
+},
+{
+"line": 2557,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/true-alter/cli) 📇 ☁ ☁ ☁ Cambios de identidad personal bajo un mango de ~nombre, chequeos pagados que comparten ingresos con la persona encontrada, búsquedas de habilidad y colectivos."
+},
+{
+"line": 2559,
+"translated": "### 🏭 < un nombre= \"industrial--iot\""
+},
+{
+"line": 2561,
+"translated": "Conectar agentes de IA a equipos industriales, maquinaria y tecnología operativa (OT) — ingestión, monitoreo y control de telemetría a través de protocolos de fabricación y fábrica."
+},
+{
+"line": 2563,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/ahmed-khalil-hafsi/P2Predict) 🐍 🏠 🪟 🐧 🐧 - Puntos de referencia de precios locales capacitados en su historial de compras: predecir los costos de parte, atribuírselos a los controladores de espectro y proveedor y obtener un rango de precios probable."
+},
+{
+"line": 2564,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/Extelligence-ai/bagel) 🐍 - Datos de robótica Query, drone e IoT (Rocos, MCAP, troncos de vuelo, CAN, MQTT) en inglés claro a través de DuckDB SQL, con las exportaciones de Rerun, PlotJuggler y LeRobot."
+},
+{
+"line": 2565,
+"translated": "- @@L0@@ ☁ ☁ - Conectar agentes de IA a equipos industriales a través de protocolos y fabricantes: normalización de telemetría cruzada OEM, índice de salud y predicción de fallos."
+},
+{
+"line": 2566,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/LGDiMaggio/predictive-maintenance-mcp) 🐍  Mantenimiento predictivo industrial: análisis de vibraciones, diagnóstico de fallas (ISO 20816-3) e informes de diagnóstico."
+},
+{
+"line": 2567,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/purinzan/gx3-cli-mcp) 🐍 🏠 - Análisis no oficial y sólo leído de los proyectos Mitsubishi MELSEC GX Works3 PLC: lógica de traza, encontrar el dispositivo lee y escribe y los comentarios del dispositivo de búsqueda."
+},
+{
+"line": 2569,
+"translated": "### 🧠 יa name=\"knowledge--memory\""
+},
+{
+"line": 2571,
+"translated": "Almacenamiento de memoria persistente utilizando estructuras gráficas de conocimiento. Permite a los modelos AI mantener y consultar información estructurada en todas las sesiones."
+},
+{
+"line": 2573,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dockndevai/ossian-mcp) 📇 🏠 🐧 🐧 - RAG sobre sus propios documentos con pasajes citados, más memoria de agente duradero clasificada por relevancia, importancia y rectitud; sólo lectura por defecto."
+},
+{
+"line": 2574,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/anuragsync78/subctx-connector) 📇 ️ ️ - Centro de soporte para mentes artificiales autónomas."
+},
+{
+"line": 2575,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/Octonove/crbro-memory) 📇 🏠 🏠 🐧 - Memoria del agente persistente en archivos JSON locales: gráfico neuron/synapse con puntuación de calor, búsqueda de datos, correcciones, redes secretas y participación de equipo a través de Git."
+},
+{
+"line": 2576,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/bborota/cairn-mcp) 📇 ☁ - Base compartida de lecciones de un solo sentido, bigotes y no debe aprender por otros agentes, organizados por pila y situación."
+},
+{
+"line": 2577,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Magnemo-AI/magnemo) 🐍 🏠 🪟 🐧 🐧 - Memoria del agente local en archivos simples: cada registro de entrada que lo escribió, cuando y a través de qué puerta, y nada se mantiene sin aprobación del usuario."
+},
+{
+"line": 2578,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/fish827-08/rag-kb) 🐍 🏠 - Base de memoria y conocimiento de primer agente local: densa híbrida y recuperación BM25, ingestión de documentos y páginas web y respuestas RAG opcionales a través de Ollama local."
+},
+{
+"line": 2579,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/dahshanlabs/klypix-mcp) 📇 🏠 🪟 🐧 🐧 - cerebro del proyecto versionado para agentes de codificación, comprometido con el repo: decisiones, correcciones, elementos de evidencia que marcan código deriva y advertencias de superposición de archivos."
+},
+{
+"line": 2580,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/AkashGoenka/coldstart) 📇 🏠 🪟 🐧 - Memoria de Codebase para agentes de codificación: un índice AST determinista encuentra archivos relevantes para tareas, y las notas de Markdown in-repo se marcan fijamente cuando cambia el código."
+},
+{
+"line": 2581,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/forgemeshlabs/library-mcp) 📇 ️ П - Public-domain book knowledge base paid via x402: full-text search, metadata, chapters, quotes, ask-a-book Q ChaletA and curated subject shelves."
+},
+{
+"line": 2582,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jayasukuv11-beep/agenthelm) 🐍 🐍 ️ ️ ️ ️ - Memoria y gobernanza compartidas y versionadas para agentes de codificación AI, resolviendo conflictos de decisión arquitectónica entre agentes."
+},
+{
+"line": 2583,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/AIStorageDepot/aistoragedepot-mcp) 📇 ☁ ️ 🐧 🐧 🐧 - Biblioteca de equipo compartida, versionada de los avisos, reglas, habilidades y docs, buscado por agentes, con artículos expuestas como comandos de barras."
+},
+{
+"line": 2584,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@jmpdsevilla/BovedIA) 📇 🏠 🍎 🐧 🐧 - Memoria personal para Claude Code en notas simples Markdown, con una nota de router que decide qué contexto cargar y una capa para pensamientos y sentimientos."
+},
+{
+"line": 2585,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/lbailey94/whitemagic) 🦀 🏠 🪟 🐧 🐧 - Continuación de la memoria y la sesión duraderas para los agentes de inteligencia artificial, con un libro mayor de auditoría y copia de seguridad, exportación e importación a través de dispositivos."
+},
+{
+"line": 2586,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/LiLara-AI/shadowgraph) 📇 🏠 🪟 🐧 🐧 - Memoria de decisión local para agentes de AI: almacena opciones, alternativas rechazadas y razones, intentos fallidos, resultados, condiciones de procedencia y revisión."
+},
+{
+"line": 2587,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lockstep-team-agent/lockstep) 📇 ☁ ☁ - Memoria de decisión compartida para equipos que utilizan agentes de codificación AI: captura las decisiones de ingeniería, las clasifica por radio de explosión y agentes breves antes de actuar."
+},
+{
+"line": 2588,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/lumayapartners/memini) 📇 🏠 🏠 🐧 🐧 - Memoria de proyecto local-primer y salvaguardas para agentes de codificación: registros fallidos, archivos frágiles y decisiones por repo y advierte antes de errores repetidos."
+},
+{
+"line": 2589,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/nazar256/memheaven) ☁ ☁ ️ف - La memoria compartida compartida a largo plazo, de fácil acceso, para los agentes de inteligencia artificial."
+},
+{
+"line": 2590,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jessedu29260-netizen/boobooboo) 📇 🏠 🏠 🐧 - Ver y consultar su sistema AI (agentes, memoria, conocimiento, automatización) como un gráfico de conocimiento 3D: estadísticas, búsqueda, datos de nodos, vecinos y patinaje."
+},
+{
+"line": 2591,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/JinyangWang27/person-context) 🐍 🏠 🏠 🐧 - Memoria local-primera sobre la gente en su vida: resolución de identidad, relaciones, hechos, interacciones, recordatorios y guía de comunicación."
+},
+{
+"line": 2592,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/gpitrella/memxus-remote-mcp) 📇 ☁ ️ - Contexto compartido para equipos dev: sincroniza GitHub, Noción y decisiones guardadas en contexto de proyecto reutilizable que los agentes cargan al comienzo de cada sesión."
+},
+{
+"line": 2593,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/seanmeverett/shared-memory-mcp) 🐍 ☁ ️ - Public, source-linked notebook for AI agents: search and read entries, and publish findings, questions and corrections with permanent IDs and linked replies."
+},
+{
+"line": 2594,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/soluai-spa/solucortex-mcp) 🎖 🐍 🏠 🏠 🏠י - Memoria técnica para los agentes de AI: recordar las decisiones aprobadas de un proyecto, convenciones y riesgos al inicio de la tarea y registrar las lecciones al final."
+},
+{
+"line": 2595,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/basemouse/basemouse-core) 📇 ☁י Гена - Memoria de agentes compartidos y versionados con respuestas fuente e historia completa: búsqueda, paquetes de contexto y documentos upserts."
+},
+{
+"line": 2596,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/caix84476-netizen/personal-understanding) 🏠 📇 - Memoria personal literal-first: hashed word-for-word messages, records linked to their source quotes, anti-fabrication validators and an audit dashboard."
+},
+{
+"line": 2597,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/Fisher521/burn-mcp-servidor) 📇 ️ ️ - Búsqueda, triage y organizar marcadores guardados en la aplicación Burn 451 read-later como base de conocimientos."
+},
+{
+"line": 2598,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/soolaugust/0CompactMem) 🐍 🏠 🪟 🐧 - Persistent multi-agent Memory with OS-style demand paging, eviction and pinning, BM25 retrieval, importance scoring and capacity-aware reclaim."
+},
+{
+"line": 2599,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/0spoon/seamless) 🏎 🏠 🏠 🪟 🐧 - Coordinación de la memoria compartida local-primera y la tarea de los agentes de codificación de AI, almacenados como archivos Markdown."
+},
+{
+"line": 2600,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/adelinamart/robrain) 📇 🏠 🪟 🐧 - Memoria de decisión autoanfitriona para los agentes de codificación: captura decisiones arquitectónicas y alternativas rechazadas, y advierte que antes de que se replantee un enfoque rechazado."
+},
+{
+"line": 2601,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/a2cr/a2cr) ☁ ☁ ️ 🏠 🐧 - Manuales de agentes a través de puntos de control de WorkBaton cifrados por el cliente y notas de WorkStash, por lo que el trabajo puede reanudarse en otro cliente sin el historial completo de chat."
+},
+{
+"line": 2602,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/afairai/afair) 🐍 🏠 🏠 🐧 - Memoria autoorganizada, auto-hostable, encriptada para herramientas de IA, con extracción de entidad de antecedentes, resolución de conflictos, consolidación y decadencia."
+},
+{
+"line": 2603,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ahmetakyurt/zipmem-mcp) 📇  Memoria local a largo plazo para agentes de codificación terminales: planos, anclas de código y lecciones destiladas en un archivo JSON, restaurando el contexto del proyecto en todas las sesiones."
+},
+{
+"line": 2604,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/ihorponom/agentpack) 📇 🏠 🪟 🐧 - Continuación de tareas recíproca para los agentes de codificación: un libro mayor revisado de decisiones, extremos muertos, pruebas y puestos de control que posteriormente se reanudarán las sesiones."
+},
+{
+"line": 2605,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/thomasjumper/agentbay) 📇 ☁י Г - StremAI memoria compartida para agentes de codificación en todas las sesiones, máquinas e instrumentos, con atribución, procedencia, estado de verificación y exportación por agente."
+},
+{
+"line": 2606,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/uniskela/adhd-hub) 🐍 🏠 - Centro de continuidad de proyectos auto hospedados para agentes de codificación: pistas de trabajo inacabado, progreso, solapamiento y recordatorios a través de clientes."
+},
+{
+"line": 2607,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Vasilispapg/claude-handoff) 🐍 🏠 🐧 🐧 - Claude Code session handoffs: turn any transcript, even crashed ones, into a handoff file and destills project history into a cited Memory brief."
+},
+{
+"line": 2608,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aidesignblueprint/integrations) 🐍 ☁ ☁ - Acceso sólo lectura al proyecto AI Agentic, una referencia para el agente UX: Principios de búsqueda y búsqueda, ejemplos de implementación y guías de aplicación."
+},
+{
+"line": 2609,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/aliasunder/vault-cortex) 📇 √ - Servidor de bóveda obsidiana de Standalone: búsqueda híbrida, notas y archivos, memoria y tareas; se ejecuta localmente o auto-host para el acceso remoto."
+},
+{
+"line": 2610,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/andreas-roennestad/openhive-mcp) 📇 ☁ ️ ️ - Base de conocimiento compartida donde los agentes de IA buscan y post parejas de solución de problemas, con búsqueda semántica, detección duplicada y autoscopiado."
+},
+{
+"line": 2611,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AndreLYL/memkin) 📇 🏠 🪟 🪟 - Memoria personal local-primer que destila las charlas Feishu/Lark y las sesiones Claude Code/Codex en un gráfico de conocimiento privado de personas, proyectos y tareas."
+},
+{
+"line": 2612,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NORTHTEKDevs/genome) 🐍 🏠 🐧 🐧 - Memoria de agente persistente local sin llamadas LLM: recuerdo semántico sobre SQLite con seguimiento bitemporal de los hechos."
+},
+{
+"line": 2613,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/Shweta-Mishra-ai/tokenmizer) 🐍 🏠 🏠 🐧 🐧 - Memoria de sesión a través de un proxy compatible de OpenAI local que extrae tareas, decisiones y archivos en un gráfico de conocimiento y puntos de control antes de la sobrefluencia de contexto."
+},
+{
+"line": 2614,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ashlesh-t/cognirepo) 🐍 🏠 🪟 🐧 - Persistent Memory and codebase context for coding agents: FAISS vector store, AST symbol index, knowledge graph, episodic journal and cross-agent handoff."
+},
+{
+"line": 2615,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/AshutoshRaj97/agentready-mcp) 📇 ☁ 🪟 🐧 🐧 🐧 - Indique cualquier sitio web y haga preguntas al respecto, con respuestas citadas basadas en su contenido a través de RAG."
+},
+{
+"line": 2616,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Auctalis/nocturnusai) 🐍 🏠 - Motor de razonamiento definitorio para la compresión del contexto de agente: Extrae hechos estructurados con inferencia lógica, cadenas de pruebas y mantenimiento de la verdad."
+},
+{
+"line": 2617,
+"translated": "- @@L0@@ Summarize plain text, web pages, PDF documents, EPUB books and HTML content."
+},
+{
+"line": 2618,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/20alexl/claude-engram) 🐍  Memoria persistente local para Claude Code: rastrea errores y decisiones a través de ganchos, registros de la historia de la sesión, detecta bucles y advertencias antes de las ediciones."
+},
+{
+"line": 2619,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/timmx7/acheron-mcp-servidor) 📇 - Memoria permanente compartida a través de Claude Chat, Code and Cowork, almacenada en SQLite local con búsqueda de texto completo."
+},
+{
+"line": 2620,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/Terobyte/librarian-cli) 🐍 🏠 🪟 🐧 🐧 - Ebook-to-Markdown pipeline (FB2, EPUB, DOCX, HTML, PDF) con búsqueda de texto completo y herramientas de sólo lectura para navegar, leer capítulos y verificar citas offline."
+},
+{
+"line": 2621,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TeleAI-UAGI/telemem) 🐍 🏠 🏠 🪟 🐧 🐧 - Mem0-compatible long-term y multimodal agent memory: caracter-isolated profiles, semantic deduplication, opcional local stack and video Memory with QA."
+},
+{
+"line": 2622,
+"translated": "- @@L0@@ 🐍 ненный - Memoria persistente con visualización de gráficos de conocimiento, búsqueda semántica/hibrida, sincronización en la nube (S3/R2) y gestión de contextos entre sesiones."
+},
+{
+"line": 2623,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/Thezenmonster/agentmem) 🐍 🏠 🪟 🐧 - Memoria tomada para agentes de codificación con ciclo de vida fideicomiso (hipotesis, activa, validada, deprecatada), detección de conflictos, seguimiento de la estabilidad y puntuación de la salud."
+},
+{
+"line": 2624,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/AliceLJY/recallnest) 📇 🏠 🪟 🐧 - Memoria local-primera para agentes de codificación: retroceso híbrido vectorial/BM25 con reenvase, gráfico de conocimiento, punto de control de sesión y aislamiento multi-scopio."
+},
+{
+"line": 2625,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/robotel-limited/robo-cortex) 🐍 Г - Tienda de memoria Git-aware para agentes de codificación: recuerdos anclados a los hashes git blob son marcados para su revisión cuando el código vinculado cambia."
+},
+{
+"line": 2626,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/ailenshen/apple-notes-mcp) 📇 Га 🍎 - Lea y escriba Apple Notes con conversión de marcación bidireccional: consultas SQLite para listar y buscar, AppleScript para CRUD completo."
+},
+{
+"line": 2627,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/AgentModule/mcp) ☁ ☁ - Bases de conocimiento definidas y verticales para agentes autónomos, incluyendo un módulo de ética mapeado a la Ley de AI de la UE."
+},
+{
+"line": 2628,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/juyterman1000/entroly) 🦀 🦀 🏠 🪟 🐧 - capa de control de contexto para agentes de codificación: compresión, estabilización de prefijo rápido para caché, routing de modelo más barato, cheques de alucinación local y memoria."
+},
+{
+"line": 2629,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/Goldentrii/AgentRecall-MCP) ☁ ️ ️ 🏠 🐧 - Persistent cross-session agent Memory that surfaces the most relevant past memories using the Intelligent Distance Protocol."
+},
+{
+"line": 2630,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gordonkjlee/facthouse) 📇 🏠 🏠 🐧 - Motor de memoria local para herramientas AI, almacenado en un archivo SQLite que posee."
+},
+{
+"line": 2631,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/AlekseiMarchenko/central-intelligence) 📇 ️ ️ ️ - Memoria de agente persistente para recordar, recordar, olvidar y compartir, con búsqueda y agente vectorial semántico, usuario y org scoping."
+},
+{
+"line": 2632,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/kskurtveit/echocache) 📇 🏠 🪟 🐧 - Cache resultados de LLM caros con frescura de estilo HTTP (TTL, revalidato de tiempo fijo) y recuerdo semántico de respuestas anteriores relacionadas."
+},
+{
+"line": 2633,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/epicsagas/alcove) 🦀 🏠 🍎 🪟 🐧 - Indemand BM25 search over private project docs for coding agents, keeping docs out of public repos."
+},
+{
+"line": 2634,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@alibaizhanov/mengram) 🐍 ☁ ️ 🏠 🐧 - Memoria del agente con tipos semánticos, episódicos y procedimentales, un gráfico de conocimiento, Claude Code auto-salvar/recall ganchos, disparadores inteligentes y aislamiento multiusuario."
+},
+{
+"line": 2635,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/AntonioTF5/soul-mcp-server) 📇 🏠 🪟 🐧 - Validar y generar archivos de identidad de agente SOUL.md, un formato YAML para la personalidad, voz, valores y limitaciones conductuales de un agente."
+},
+{
+"line": 2636,
+"translated": "- @@L0@@ ☁ ☁の - Plataforma RAG que combina Graph RAG, búsqueda de vectores y búsqueda de texto completo para construir gráficos de conocimiento e ingeniería de contexto."
+},
+{
+"line": 2637,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ayushagrawal288/memex) 🐍 Ге - Persistent agent memory with semantic search and recency decay, local ONNX embeddings, background summarization and Prometheus/Grafana observability."
+},
+{
+"line": 2638,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/baodq06/memocall) 📇 🏠 🏠 🐧 🐧 - Búsqueda de sólo lectura y memoria de las sesiones pasadas del Código de Claude, cargando cualquier sesión bajo demanda como marcación compacta con esquema, cambio y búsqueda dentro del período de sesiones."
+},
+{
+"line": 2639,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@basicmachines-co/basic-memory) 🐍 🏠 🏠 🍎 🐧 🐧 🐧 - Memoria local-primera AI: un gráfico de conocimiento semántico de los archivos Markdown que los humanos y LLMs leen y escriben, con sincronización de nube opcional y espacios de trabajo de equipo."
+},
+{
+"line": 2640,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/Battam1111/Myco) 🐍 🏠 🪟 🐧 🐧 - La memoria cruzada del agente del proyecto, construida sobre un gráfico autovalidante del sistema de archivos derivado de los enlaces AST y Markdown, no las incrustaciones."
+},
+{
+"line": 2641,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Beever-AI/beever-atlas) 🐍 🏠 🏠 🐧 - Base de conocimiento del equipo convirtiendo Slack, Discord, Teams y Mattermost chats en un gráfico de conocimiento y wiki con respuestas citadas, búsqueda semántica y búsqueda experta."
+},
+{
+"line": 2642,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bitatlas-group/bitatlas) 📇 ☁ ☁ - Unidad de nube de conocimiento cero con cifrado AES-256-GCM lado cliente: subir, descargar, buscar y organizar archivos que el servidor nunca ve en texto claro."
+},
+{
+"line": 2643,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@besslframework-stack/project-tessera) 🐍 🏠 🪟 🐧 🐧 - Memoria local del espacio de trabajo: índices Markdown, CSV y sesión se registran en una tienda vectorial con búsqueda híbrida, memoria cruzada y visualización de gráficos de conocimiento."
+},
+{
+"line": 2644,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/BetaBots-LLC/callimachus) 🦀 🏠 🪟 🐧 - Búsqueda híbrida local (SQLite FTS5 y vectores en dispositivos) sobre la historia de la conversación de codificación de múltiples herramientas, por lo que los agentes pueden recordar su trabajo pasado."
+},
+{
+"line": 2645,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/billy12151/memory-arbiter-mcp) 🐍 🏠 🍎 🪟 🐧 - Medio de memoria local: recuperación dirigida en lugar de carga completa, arbitraje de conflictos basado en reglas y una tienda SQLite compartida entre agentes de codificación."
+},
+{
+"line": 2646,
+"translated": "- @@L0@@ Buscar listas asombrosas curadas y buscar los recursos más relevantes para tu agente."
+},
+{
+"line": 2647,
+"translated": "- @@L0@@ 📇 🏠 🏠 🐧 🐧 - Acceso seguro de lectura/escritura a bóvedas obsidianas: búsqueda, operaciones por lotes, gestión de etiquetas y manejo de portada."
+},
+{
+"line": 2648,
+"translated": "- @@L0@@ Las transcripciones Podcast de Lenny con los horarios de YouTube para obtener información sobre la gestión de productos en PRDs, estrategia y carreras de PM."
+},
+{
+"line": 2649,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lildaddyo/braintube-mcp) 📇 ️ ️ - Compiles save YouTube videos, podcasts, articles, PDFs and Notion/Obsidian notes into a persistent, semantically searchable knowledge base."
+},
+{
+"line": 2650,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/linklore/linklore-mcp) 🐍 - Memoria estructurada para agentes de codificación: entradas de lore y doc escritas con estado y enlaces que los agentes leen y escriben."
+},
+{
+"line": 2651,
+"translated": "- @@L0@@ 🐍 🏠 - Buscar y navegar Wikipedia y otros archivos de conocimiento de formato ZIM offline, con recuperación inteligente y caching."
+},
+{
+"line": 2652,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/carrasquelalex1/hipocampo) 🐍 IM IM IM - Sistema bilingüe (inglés/español) de doble memoria en PostgreSQL, pgvector y NVIDIA NIM con retroceso progresivo, deduplicación, puestos de control y auto-repair."
+},
+{
+"line": 2653,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/catfish-1234/sessionmem) 📇  Memoria local para asistentes de codificación: sesiones de relojes e inyecta un resumen compacto al comienzo de cada nuevo, almacenado en un archivo SQLite."
+},
+{
+"line": 2654,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp) 📇 ️ ️ 🏠 🪟 - Memoria persistente para auxiliares de codificación: sesiones informativas sobre lecciones y tareas abiertas, memoria de equipo compartida, búsqueda de BM25 y gestión Valkey/Redis."
+},
+{
+"line": 2655,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ccf/agentcairn) 🐍 🏠 🪟 🐧 - Memoria del primer agente local: una bóveda obsidiana de Markdown como fuente de verdad más un índice de DuckDB reconstruible para la memoria híbrida BM25, vector y gráfico."
+},
+{
+"line": 2656,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cdeust/Cortex) 🐍 🏠 - Memoria inspirada en neurociencia para Claude Code on PostgreSQL/pgvector: decaimiento, consolidación, una puerta de escritura de codificación predictiva y ganchos de ciclo de vida."
+},
+{
+"line": 2657,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/contradictory-body/cc-sensei) 📇 🏠 🪟 🐧 🐧 - Explore la fuente del Código de Claude como módulos de arquitectura cuestionables: traza de preocupaciones transversales, patrones de búsqueda y leer código fuente localmente."
+},
+{
+"line": 2658,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/terrizoaguimor/celiums-memory) 📇 🏠 🏠 🪟 🪟 - Motor de memoria cognitivo con módulos de conocimiento, conciencia del ritmo circadiano, seguimiento emocional del estado, búsqueda híbrida PostgreSQL/Qdrant y aislamiento por usuario."
+},
+{
+"line": 2659,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cg3-llc/prior mcp) 📇 ️ ️ П - Base de conocimiento compartido donde los agentes intercambian soluciones comprobadas y enfoques fallidos, para que puedan saltarse los extremos muertos conocidos."
+},
+{
+"line": 2660,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/Cavinooo/claude-find) 📇 🏠 - Recuperar la memoria de todas las sesiones del Código de Claude bajo demanda."
+},
+{
+"line": 2661,
+"translated": "- @@L0@@ - Consultar y resumir tus mensajes de chat con los avisos de AI."
+},
+{
+"line": 2662,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/vshulcz/deja-vu) 🏎の 🍎 🐧 🐧 - Memoria local sobre historias de sesión de Claude Code, Codex CLI y código abierto: búsqueda lexical, sesión-start auto-recall, redaction secreto y SSH sync."
+},
+{
+"line": 2663,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/ZengLiangYi/ChatCrystal) 📇 🏠 🐧 🐧 - Memoria local para conversaciones de codificación AI: importa chats de ayudantes de codificación en notas con búsqueda semántica, gráficos de etiquetas y exportación de Markdown."
+},
+{
+"line": 2664,
+"translated": "- @@L0@@ 📇 🏠 - Memoria basada en Graph centrada en el juego de roles y la generación de historias de AI."
+},
+{
+"line": 2665,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/ChevalGrand520/local-gpu-imagegen) 🐍 🏠 🍎 🐧 🐧 - Generación de imagen GPU local obtenida por confirmación con ComfyUI: SHA-256 modelo de identidad, aprobación de licencia explícita, retención de evidencias y funcionamientos humanos en el bucle."
+},
+{
+"line": 2666,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/ChrisGVE/workspace-qdrant-mcp) 🦀 📇 📇 🪟 🐧 - Memoria de proyecto-scopio para auxiliares de codificación: índices código de proyecto y docs en Qdrant con hundimiento de ranura de árbol, integración LSP y búsqueda híbrida."
+},
+{
+"line": 2667,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/cipherfoxie/sovereign-mcp) 🐍 ️ ️ - Buscar y leer el Soberano AI Blog sobre AI autoanfitriona en NVIDIA DGX Spark, y validar los configs de SGLang para el hardware GB10."
+},
+{
+"line": 2668,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/CodeAbra/iai-mcp) 🐍 🏠 🪟 🐧 - Demonio de memoria local con nivel episódico, semántico y procesal, almacenamiento SQLite y hnswlib, consolidación del ciclo del sueño y encriptación AES-256-GCM en reposo."
+},
+{
+"line": 2669,
+"translated": "- @@L0@@ ☁ ☁の️ 🪟 🐧 - Memoria de sesión con almacenamiento empatado, monitoreo de salud contextual, control de calidad de razonamiento y verificación de veracidad."
+},
+{
+"line": 2670,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/alfredoizdev/contextforge-mcp) 📇 ️ ️ - Memoria persistente para auxiliares de codificación con búsqueda semántica, Git commit/PR sync, organización basada en proyectos y colaboración en equipo."
+},
+{
+"line": 2671,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/contextium-io/contextium-mcp-server) 📇 ☁ 🪟 🐧 🐧 🐧 - Contexto de equipo compartido para herramientas AI: sirve conocimientos versionados, autorizados, estándares de codificación, habilidades y agentes, cargando flujos de trabajo enteros en una sola llamada."
+},
+{
+"line": 2672,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/yonro/memory-os-cli) 📇 ☁ - XMemo: user-owned agent Memory to save, search, recall and manage scoped memories across AI tools."
+},
+{
+"line": 2673,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/contextstream/mcp-server) 📇 ☁ 🍎 🐧 🐧 - Memoria persistente para herramientas de codificación AI con búsqueda de código semántico, gráficos de conocimiento, análisis de impacto y seguimiento de decisiones."
+},
+{
+"line": 2674,
+"translated": "- @@L0@@ 📇 🏠 - Desactivar el contexto de conversación entre proyectos Claude Desktop y clientes de MCP, almacenados en memoria en lugar de archivos."
+},
+{
+"line": 2675,
+"translated": "- @@L0@@ 📇 🏠 🏠 🐧 🐧 - Chat con personas de famosos fundadores e inversores como Elon Musk, Warren Buffett y Steve Jobs, basados en sus voces, marcos y principios."
+},
+{
+"line": 2676,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/dcostenco/BCBA) 📇 🏠 🪟 🐧 - Memoria local del agente SQLite con un panel web, rebobinación de sesión/replay, intercambio de memoria entre clientes, reuniones informativas para la mañana y carga progresiva del contexto."
+},
+{
+"line": 2677,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/darktw/usecortex-mcp) ☁ف - Persistent knowledge Memory for agents: read context into projects and write discoveries back, organized by topic with AES-256 encryption."
+},
+{
+"line": 2678,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/davidgut1982/lore-mcp) 🐍 🏠 🏠 🪟 🐧 - capa de conocimiento persistente para agentes: base de conocimientos, hilos de investigación y una revista con atribución multiagente, en SQLite, PostgreSQL o Supabase."
+},
+{
+"line": 2679,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/dbwls99706/deadends.dev) 🐍 ️ ️ 🪟 🐧 - Conocidos extremos muertos para errores de código y reglas específicas para cada país (visa, banca, legal): fija que parecen correctas pero fallan, y funciona con tasas de éxito."
+},
+{
+"line": 2680,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/decisionnode/DecisionNode) 📇 🏠 🪟 🐧 - Record development decisions as structured JSON with Gemini embeddings and search them semantically from a local store shared across AI tools."
+},
+{
+"line": 2681,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/giuliohome-org/doc-manager) 🦀 ☁ ☁י - Bóveda de documentos personales en Azure Blob Almacenamiento: read, write and search plaintext docs, while client-side AES-256-GCM encrypted docs stay opaque."
+},
+{
+"line": 2682,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Destrayon/Connapse) #⃣ 🏠 🏠 🪟 🐧 🐧 - Respaldo de conocimiento auto hospedado para agentes con vector híbrido y búsqueda de palabras clave y índices aislados de contenedores."
+},
+{
+"line": 2683,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/dengls24/annota) 🐍  Documentos anotados en Zotero: resaltar las principales conclusiones con codificación de color semántico, explicar fórmulas y escribir notas de lectura estructuradas."
+},
+{
+"line": 2684,
+"translated": "- @@L0@@ ☁ ☁ר️ - Aplicación de escritorio que captura la actividad de pantalla, almacena los resúmenes AI y el texto OCR localmente, y expone la historia a través de búsqueda semántica y una línea de tiempo."
+},
+{
+"line": 2685,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/dnotitia/akb) 📇 📇 🏠 🪟 🐧 - Base de conocimiento organizacional: Docs de Markdown, tablas de PostgreSQL y archivos vinculados por un gráfico URI, con búsqueda híbrida, historia de Git y ACLs multitenant."
+},
+{
+"line": 2686,
+"translated": "- @@L0@@ ☁ ☁の - indexador de documentación auto hospedado que sirve docs de diversas fuentes a agentes con búsqueda semántica."
+},
+{
+"line": 2687,
+"translated": "- @@L0@@ 📇 √ - Servidor estatico que proporciona contexto y reglas persistentes para herramientas específicas a los modelos AI."
+},
+{
+"line": 2688,
+"translated": "- @@L0@@ Servicio de memoria con búsqueda semántica, almacenamiento persistente y consolidación de memoria autónoma."
+},
+{
+"line": 2689,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/dot-RealityTest/obsidian-codex-mcp) 🐍 🏠 🏠 🐧 🐧 - Acceso a la bóveda obsidiana local que trabaja directamente en archivos Markdown sin la aplicación obsidiana o plugins, con modo sólo lectura, copia de seguridad y aislamiento de ruta."
+},
+{
+"line": 2690,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/DollhouseMCP/mcp-servidor) 📇 🏠 🏠 🐧 - Personas reutilizables, habilidades, plantillas, agentes y memoria para clientes de AI, con permisos dinámicos, versión y una colección pública de contenido compartido."
+},
+{
+"line": 2691,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DomDemetz/claude-soul) 📇 🏠 🏠 - Motor de aprendizaje para Claude Code: extrae señales de sesiones, realiza reflexiones periódicas y promueve o retira marcos conductuales basados en evidencia."
+},
+{
+"line": 2692,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/dshakes/distil) 🐍 Г - Comprime de forma reversible los grandes productos de herramientas en mangos recuperables, los expande en demanda y pista token y los ahorros de costos localmente."
+},
+{
+"line": 2693,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/edobusy/agenthold) 🐍 🏠 🪟 🐧 🐧 - Tienda estatal de versión compartida con control de concurrencia optimista para coordinar agentes concurrentes, más cerraduras de reclamación/release respaldadas por SQLite y un registro de auditoría."
+},
+{
+"line": 2694,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/elvismdev/mem0-mcp-selfhosted) 🐍 🏠 🏠 🐧 - Mem0 autoanfitriona para Claude Code: Qdrant vector search, Neo4j knowledge graph, Ollama embeddings and session hooks for automatic cross-session Memory."
+},
+{
+"line": 2695,
+"translated": "- @@L0@@ 🐍 🏠 - Gestión del conocimiento Zettelkasten: crear, vincular y buscar notas atómicas."
+},
+{
+"line": 2696,
+"translated": "- @@L0@@ 🐍 🏠 - Memoria del agente de tres capas (identidad, activo, archivo) con búsqueda semántica, relaciones gráficas y detección de conflictos."
+},
+{
+"line": 2697,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/giskard09/giskard-oasis) 🐍 🏠 - Refocuses un agente que ha perdido su hilo destilando su propósito original, pagado por uso vía Lightning o Arbitrum."
+},
+{
+"line": 2698,
+"translated": "- @@L0@@ 🐍 🏠 🏠 🐧 🐧 - Almacenamiento de contexto persistente y verificable en las sesiones del Código de Claude usando SQLite FTS5, con resúmenes de sesión de AI, recuperación de puntos de control y un panel web."
+},
+{
+"line": 2699,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/majiayu000/remem) 🦀 🏠 🏠 - Memoria local-primer para Claude Code y Codex: sesiones de captura de ganchos y un LLM los destila en SQLite, con memoria auditable de texto completo e incrustación."
+},
+{
+"line": 2700,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/MakeaMouse/fish-bridge-mcp) 🐍 🏠 🐧 🐧 - Compresses sesiones de chat AI en un gráfico de conocimiento tipo compacto, con extracción opcional offline vía Ollama."
+},
+{
+"line": 2701,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@entire-vc/evc-team-relay-mcp) - Lea y escriba notas en su bóveda obsidiana."
+},
+{
+"line": 2702,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/dl4rce/flaiwheel) 🐍 🏠 🪟 🐧 🐧 - Memoria y gobernanza auto hospedados para los agentes de codificación: captura de conocimientos estructurados, búsqueda híbrida con relancamiento, análisis de bases de datos y almacenamiento git-native."
+},
+{
+"line": 2703,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fabio-rovai/open-ontologies) 🦀 - Ingeniería ontológica para OWL, RDF y SPARQL: validar, consulta, diff, lint, versión y gobernar gráficos de conocimiento en una tienda triple de Oxigraph."
+},
+{
+"line": 2704,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/grooverLab/fable) 🐍 🏠 🍎 - Búsqueda completa y semántica sobre la historia de las transcripciones del Código de Claude, con exacta memoria de hilo y hechos recordados duraderos en SQLite local."
+},
+{
+"line": 2705,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/fenghaochang/LoreRoom) 📇 🏠 - Encrypted local Memory for Claude Code Telegram bots: captura ambos lados de conversaciones, con SQLCipher encryption y CJK-friendly búsqueda de texto completo."
+},
+{
+"line": 2706,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/FilippoPilo/cortex-connector) 📇 ☁ ️ - Persistent semantic Memory for agents with quality-gated writes, typed claims, conflict tracking and coherence scoring."
+},
+{
+"line": 2707,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/gamosoft/NoteDiscovery) 🐍 🏠 🏠 🐧 🐧 - Base de conocimientos de marcación autoanfitriona con una interfaz de usuario web: búsqueda, lectura, creación, edición, etiqueta y notas de plantilla."
+},
+{
+"line": 2708,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/geondongkim/geond-agent-protocol) 🐍 🏠 🏠 🪟 🪟 🪟  Local - Memoria y coordinación compartida local-primer lugar para los agentes de codificación en PostgreSQL/pgvector: evidencia de repositorio, reservas, entregas y contexto de gráficos de código."
+},
+{
+"line": 2709,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gingugu/gingugu) 🐍 🏠 🏠 🐧 - Memoria SQLita local para asistentes de codificación: memorias escritas con ciclo de vida de confianza, espacios de nombre, gráfico de conocimiento, búsqueda híbrida y bóveda credencial de llavero."
+},
+{
+"line": 2710,
+"translated": "- @@L0@@ 📇 - Gestionar el conocimiento personal, las notas diarias y las indicaciones reutilizables en GitHub Gists, como compañero de GistPad."
+},
+{
+"line": 2711,
+"translated": "- @@L0@@ 📇 ☁י - Mercado de conocimientos donde los agentes buscan, publican y desbloquean problemas previamente resueltos, ganando fichas para soluciones compartidas."
+},
+{
+"line": 2712,
+"translated": "- @@L0@@ ☁ ☁י - Contenido ingerido de Slack, Discord, sitios web, Google Drive, Linear o GitHub en un proyecto de Graphlit, luego buscar y recuperar conocimiento relevante."
+},
+{
+"line": 2713,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/lego-oracle) 📇 🏠 - LEGO sets, partes, minifigs e inventarios de Rebrickable: búsqueda y comparación conjuntos, encontrar partes por color, navegar temas y descubrir obras alternas."
+},
+{
+"line": 2714,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/gregario/brewers-almanack) 📇 🏠 - Conocimientos de crianza: BJCP 2021 estilos de cerveza, variedades de hop, maltes, levaduras, perfiles de agua, diagnóstico de sabor libre, sugerencias de recetas y emparejamientos de alimentos."
+},
+{
+"line": 2715,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/3dprint-oracle) 📇 🏠 🏠 🐧 🐧 - Base de conocimiento de filamentos de impresión 3D de SpoolmanDB: filamentos de búsqueda, comparar propiedades materiales y ajustes de impresión, y diagnosticar problemas de impresión."
+},
+{
+"line": 2716,
+"translated": "- @@L0@@ 🐍 🏠 - Recuperar y procesar la documentación mediante la búsqueda de vectores para aumentar las respuestas con el contexto de la documentación pertinente."
+},
+{
+"line": 2717,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HBarefoot/engram) 📇 🏠 🪟 🐧 - Sin conexión de la memoria del agente persistente en SQLite con embeddings locales, memoria semántica híbrida y de texto completo, detección secreta y manejo de contradicciones."
+},
+{
+"line": 2718,
+"translated": "- @@L0@@ ☁ ☁ ️ 🐧 🐧 - Access RAGStack serverless knowledge bases on AWS: search, chat with AI responses, upload documents and media, scrape websites and analyse metadata."
+},
+{
+"line": 2719,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hermes-labs-ai/fidelis) 🐍 🏠 🏠 🐧 - Memoria local-primera con memoria literal, consulta, cheques de salud y orientación sensible al contexto, utilizando la recuperación libre de LLM por defecto."
+},
+{
+"line": 2720,
+"translated": "- @@L0@@ ☁ ☁ ️ 🪟 🐧 - Memoria persistente basada en la nube para Claude Code con búsqueda semántica, extracción de IA y análisis de proyectos."
+},
+{
+"line": 2721,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hjqcan/GoodMemory) 📇 Г - Memoria local-primer, auditable con el almacenamiento de usuarios/proyectos en SQLite o Postgres, sólo lectura por defecto y opción-en repaso revisado."
+},
+{
+"line": 2722,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/hoornet/agentdocs-mcp) 📇 ☁ ️ ️ 🐧 🐧 - Leer, crear, actualizar, comentar y compartir los documentos de marcación de AgentDocs, con búsqueda de texto completo y semántico."
+},
+{
+"line": 2723,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hubinoretros/deep-thinker) 📇 🏠 🏠 🐧 - Reasoning via a DAG thought graph with multiple strategies (dialectic, analogical, abductive and more), caught, confidence scoring and self-critique."
+},
+{
+"line": 2724,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/hyunjae-labs/lore) 📇 🏠 🪟 🐧 - Búsqueda semántica local en todas las conversaciones del Código de Claude con búsqueda híbrida de vectores y palabras clave, indexación de antecedentes y selección de proyectos."
+},
+{
+"line": 2725,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/DanceNitra/inspeximus) 🐍 🏠 🏠 🐧 🐧 - Memoria del agente con un canal de corrección: supersede o revertir los hechos estancos, bloque restableció los valores antiguos, y probar eliminaciones con lápidas firmadas."
+},
+{
+"line": 2726,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/idapixl-algora-mcp-servidor) 📇 ️ ️י - Examinar y buscar recompensas de código abierto en Algora, filtrar por org, tecnología o cantidad, y obtener mejores recompensas y estadísticas agregadas."
+},
+{
+"line": 2727,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/IgorGanapolsky/mcp-memory-gateway) 📇 🏠 - Puertas de acción previa que impiden que los agentes de codificación repitan errores conocidos convirtiendo la retroalimentación capturada y los fracasos en reglas aplicadas a través de ganchos."
+},
+{
+"line": 2728,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Ikalus1988/MisakaNet) 🐍 🏠 🍎 🪟 🐧 - Memoria del fallo del agente: búsqueda de lecciones verificadas de depuración de las sesiones de ingeniería reales."
+},
+{
+"line": 2729,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/irisxc4/memoryguard) 🐍 🏠 🏠 🐧 - Memoria compartida gobernada localmente para los agentes de codificación con CLI y consola de escritorio: clasificar, dedupe, supersede, cuarentena y volver a rodar recuerdos."
+},
+{
+"line": 2730,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zsxh1990/pr-genius) 🐍 Г - Pull request contribution advisor based on case studies from real repos: merge probability analysis, pattern matching and contribution strategy."
+},
+{
+"line": 2731,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jaimenbell/rag-mcp) 🐍 Г - Minimal local RAG that vector-searches a document corpus and returns cited passages."
+},
+{
+"line": 2732,
+"translated": "- @@L0@@ 📇 √ - Comunicación cruzada-LLM y compartimiento de memoria para que diferentes modelos AI puedan colaborar y compartir contexto en conversaciones."
+},
+{
+"line": 2733,
+"translated": "- @@L0@@ 📇 🏠 - Almacenar y recuperar memorias de conversación de múltiples LLMs en MongoDB, con timetamps e identificación LLM."
+},
+{
+"line": 2734,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/japlete/md-vision-mcp) 📇 🏠 🏠 🐧 - Read Markdown with inlined images and heading indexes for agentic RAG over local docs or allowed URLs."
+},
+{
+"line": 2735,
+"translated": "- @@L0@@ - Memoria simple para los agentes de codificación usando DuckDB y VoyageAI."
+},
+{
+"line": 2736,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/jagoff/memo) 🐍 🏠 🏠 🐧 - Memoria semántica local-primer: búsqueda híbrida, almacenamiento de marcación, MLX o incrustaciones de CPU, detección de contradicciones, historia de la ruta del tiempo y sincronización de git cross-machine."
+},
+{
+"line": 2737,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/JinNing6/Noosphere) 🐍 ️ - Repositorio comunitario compartido de ideas, decisiones, advertencias y patrones con búsqueda semántica, un globo interactivo 3D y moderación de contenidos automatizada."
+},
+{
+"line": 2738,
+"translated": "- @@L0@@ 📇 🏠 - Convertir Markdown en mapas interactivos de la mente con PNG/JPG/SVG exportación y vista previa del navegador en vivo."
+},
+{
+"line": 2739,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/junnnnw00/obsidian-everywhere) 📇 🏠 🍎 🪟 🐧 - Acceso a bóveda obsidiana de graf-native: búsqueda, backlinks, barrios n-hop, lecturas paginadas y ediciones parciales y masivas seguras con funcionamiento seco y retroceso."
+},
+{
+"line": 2740,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@kael-bit/engram-rs) 📇 🏠 🏠 🐧 - Motor de memoria de agente jerárquico con decaimiento automático, promoción, deduplicación semántica y un árbol de tema autoorganizado."
+},
+{
+"line": 2741,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/kage-core/Kage) 📇 🏠 🏠 🐧 - Memoria Git-native para agentes de codificación: JSON entradas en el repo, verificadas contra código citado por lo que las citas alucinadas son rechazadas y se mantiene la memoria estanca."
+},
+{
+"line": 2742,
+"translated": "- @@L0@@ Trabajar con colecciones y fuentes en tu biblioteca Zotero Cloud."
+},
+{
+"line": 2743,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/khwanlabs/khwan-mcp) 🐍 ☁ ☁ 🐧 🐧 - Memoria para agentes de codificación construidos alrededor de las correcciones: destila sus correcciones en reglas permanentes para sesiones posteriores, con memoria aislada por proyecto."
+},
+{
+"line": 2744,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/krimto-labs/krimto) 📇 🏠 - Memoria del equipo para agentes de codificación almacenados como Markdown en git, con niveles de acceso de usuario, equipo y org y recuperación de SQLite/sqlite-vec híbrido."
+},
+{
+"line": 2745,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Krzysztof318/MailFathom) #⃣ Г🏠 - Búsqueda de correo electrónico auto hospedado: sincroniza los buzones IMAP en PostgreSQL para listar, buscar y leer correo y hacer preguntas citadas a través del archivo."
+},
+{
+"line": 2746,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kunickiaj/codemem) 📇  Memoria de codificación persistente en sesiones, máquinas y compañeros de equipo, con búsqueda de memoria, sincronización opcional, intercambio de proyectos y captura automática."
+},
+{
+"line": 2747,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kunwar-shah/claudex) 📇 🏠 🪟 🐧 - Memoria persistente y búsqueda de texto completo sobre la historia de la conversación de Claude Code indexado en SQLite, con resúmenes de sesión y una interfaz de usuario para la exploración."
+},
+{
+"line": 2748,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/renezander030/agentic-task-system) 📇 Г; convierte a su administrador de tareas en memoria de agente con recuperación híbrida sobre TickTick o una bóveda obsidiana, sin una base de datos vectorial separada."
+},
+{
+"line": 2749,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/KVANTRA-dev/NOUZ-MCP) 🐍 🏠 🏠 🐧 - Gráfico de conocimiento semántico para Obsidian con modos de gráfica, clasificación y jerarquía, incrustaciones locales, descubrimiento de puentes semánticos y detección de deriva."
+},
+{
+"line": 2750,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/leesgit/passbaton) 📇 🏠 🪟 🐧 🐧 - Continuación de sesión local a través del Código de Claude, Codex CLI y Gemini CLI: inyección de contexto al principio, entrega de compactación, memoria, tareas y búsqueda multilingüe."
+},
+{
+"line": 2751,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/lfrmonteiro99/memento-mcp) 📇 🏠 🐧 🐧 - Memoria local-primera para los agentes de codificación: almacena hechos, decisiones, patrones y notas de arquitectura en SQLite para reducir el contexto repetido en las sesiones."
+},
+{
+"line": 2752,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Lians-ai/Lians) 🐍 🏠 🏠 🐧 🐧 - Memoria del agente Bitemporal con supersesión de hecho determinista, memoria de punto a tiempo, linaje de memoria, seguimiento de conflictos y rutas de auditoría de incidentes."
+},
+{
+"line": 2753,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/liftkkkkkk/owl-mcp) 🐍 - Trabajar con ontologías OWL/TTL/RDF: consultas SPARQL, razonamiento HermiT/Pellet y operaciones CRUD sobre gráficos de conocimiento."
+},
+{
+"line": 2754,
+"translated": "- @@L0@@ 📇 ненный - Resolución de problemas contemporáneos utilizando el marco de Lotus Sutra: razonamiento multiperspectivo, medios hábiles, reconocimiento no-dual y pausas de meditación."
+},
+{
+"line": 2755,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/knaisoma/data-olympus) 🐍 🏠 🏠 🐧 - Git-native Markdown knowledge base for coding agents with proposed vs. accepted guidance, validity windows, supersession chains and status-aware retrieval."
+},
+{
+"line": 2756,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/lithtrix/lithtrix-mcp) 📇 ️ ️ 🐧 🐧 - Persistent cross-vendor agent Memory with credibility-scored web search, browser fetch and a shared Commons pool under one stable key."
+},
+{
+"line": 2757,
+"translated": "- @@L0@@ 📇 🏠 🏠 🐧 - Crear, leer, actualizar y buscar notas en las bóvedas obsidianas locales a través del acceso al sistema de archivos."
+},
+{
+"line": 2758,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/LuizEduPP/Rememb) 🐍 🏠 🪟 🪟 🐧 - Memoria de agente persistente en JSON local con entradas de sección (proyecto, usuario, contexto), búsqueda semántica, un ámbito CLI y per-proyecto."
+},
+{
+"line": 2759,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/lyonzin/knowledge-rag) 🐍 🏠 🪟 🐧 - Sin conexión RAG para Claude Code con BM25 híbrido y búsqueda semántica, reencoder cross-encoder, reencoder Markdown-aware chunking y expansión de query."
+},
+{
+"line": 2760,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/markmhendrickson/neotoma) 📇 🏠 🪟 🐧 🐧 - capa estatal determinista para agentes: entidades versionadas como contactos, tareas y decisiones con observaciones inmutables y procedencia, en SQLite local."
+},
+{
+"line": 2761,
+"translated": "- @@L0@@ 🐍 🏠 - Sesiones estructuradas, dirigidas por personas para la preparación de entrevistas, reflexión personal y coaching, con temporizadores y evaluación del desempeño."
+},
+{
+"line": 2762,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/max-ramas/rms-memory-mcp) 🦀 🏠 🐧 🪟 - Memoria local-primera para agentes de codificación: búsqueda híbrida LanceDB/Tantivy, índices de marcado y código, bóvedas por proyecto y recuerda que se abstiene de baja confianza."
+},
+{
+"line": 2763,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/maxkuminov/obsidian-mcp) 🐍 🏠 🐧 🐧 - Servidor obsidiano auto hospedado: búsqueda semántica y de texto completo en PostgreSQL/pgvector, wikilink graph traversal, atomic note CRUD y una guía de bóveda autodescripción."
+},
+{
+"line": 2764,
+"translated": "- @@L0@@ 🐍 🏠 🏠 🐧 🐧 - Persistent fractal graph Memory for coding agents: semantic search, hot/cold/archive context tiers and decision tracking on Qdrant."
+},
+{
+"line": 2765,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/udjin-labs/mnemostack) 🐍 🏠 🐧 🐧 - Memoria de agente híbrido auto-anfitriona en Qdrant combinando búsqueda de vectores, BM25, recuperación temporal y un gráfico de conocimiento Memgraph opcional mediante fusión de rango."
+},
+{
+"line": 2766,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tverney/mcp-agent-memory) 📇 🏠 - Filesystem-based persistent agent memory: agents read, write and search memory while a background daemon handles consolidation and extraction."
+},
+{
+"line": 2767,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/memstate-ai/memstate-mcp) 📇 ️ ️ Пели - La memoria de agente estructurado y versionado almacenando hechos como claves con la historia de la versión completa y la detección automática de conflictos."
+},
+{
+"line": 2768,
+"translated": "- @@L0@@ 🐍 🏠 🏠 🐧 🐧 - Memoria de dos niveles (caché caliente y búsqueda semántica fría) que promueve patrones de uso frecuente, extrae conocimiento de salidas de Claude y lo vincula en un gráfico."
+},
+{
+"line": 2769,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/michielinksee/linksee-memory) 📇 🏠 🐧 🐧 🐧 - Memoria cross-agent local-first en un archivo SQLite con una estructura en capa, olvidando el estilo Ebbinghaus y detección del código derivando de decisiones pasadas."
+},
+{
+"line": 2770,
+"translated": "- @@L0@@ ☁ ☁ר️ 🏠 🪟 🐧 - Razonamiento estratégico, análisis de debate multi-perspectivo y sesiones de asesoramiento interactivo a través de la API de abogado."
+},
+{
+"line": 2771,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mlorentedev/hive) 🐍 🏠 🪟 🐧 - Acceso a la bóveda obsidiana en demanda: carga de contexto adaptativo, búsqueda de texto completo y clasificada, cheques de salud, compromisos de auto Git y delegación a modelos más baratos."
+},
+{
+"line": 2772,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TheGoatPsy/mneme) 🐍 LM 🏠 🐧 🐧 - Memoria Vault-native, responsable del Código Claude: Markdown es la fuente de la verdad, sin LLM en el camino Stop y la redaction ante cualquier tienda derivada."
+},
+{
+"line": 2773,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mnlt/wellread) 📇 ️ ️ - Caché de investigación compartida entre agentes: reutilizar respuestas de fuentes verificadas, o guardar nuevas investigaciones para el próximo desarrollador."
+},
+{
+"line": 2774,
+"translated": "- @@L0@@ 📇 - Memoria persistente basada en gráficos para mantener el contexto."
+},
+{
+"line": 2775,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/DuhoKim/NebulaMind) 🐍 ☁ ☁י - Collaborative astronomy wiki written by AI agents, who can register, read, edit, vote and comment via an open API."
+},
+{
+"line": 2776,
+"translated": "- @@L0@@ ☁ ☁י - Gráfico de conocimiento basado en el espacio de trabajo compartido por múltiples desarrolladores, alojado en Funciones Azure con almacenamiento de mesa."
+},
+{
+"line": 2777,
+"translated": "- @@L0@@ 🏎Ω 🏠 🪟 🐧 - Local, servidor de memoria sin dependencia enviado como un único binario."
+},
+{
+"line": 2778,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@n24q02m/mnemo-mcp) 🐍 🏠 🪟 🐧 - Memoria persistente con búsqueda híbrida SQLite (FTS5 y semántica), incrustaciones Qwen3 incorporadas y sincronización de rclone a través de máquinas."
+},
+{
+"line": 2779,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/ndjordjevic/pinrag) 🐍 Г - RAG over PDFs, YouTube videos, GitHub repos and Discord exports: index documents and query them with citations."
+},
+{
+"line": 2780,
+"translated": "- @@L0@@ 📇 🏠 🏠 ️ 🐧 - Memoria compartida persistente para los agentes de codificación: hechos almacenados como triplicaciones de entidad/key/valor con búsqueda semántica híbrida, puestos de control de tareas y resolución de conflictos."
+},
+{
+"line": 2781,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/NicolasPrimeau/artel) 🐍 🏠 🪟 🐧 🐧 - Coordinación autoanfitriona para flotas de agentes: memoria semántica compartida, tareas, mensajería de agente a agente, entregas de sesión y síntesis de conocimientos entre agentes."
+},
+{
+"line": 2782,
+"translated": "- @@L0@@ 🐍 🏠 - Hacer la documentación de marcado buscar: la carga en SQLite o PostgreSQL con búsqueda de palabras clave y búsqueda semántica opcional pgvector híbrido."
+},
+{
+"line": 2783,
+"translated": "- @@L0@@ 🐍 🏠 🏠 🐧 - Base de datos de vectores de FAISS local para RAG con ingestión de documentos (PDF, TXT, MD, DOCX), búsqueda semántica, re-ranking y herramientas CLI para indexación y búsqueda."
+},
+{
+"line": 2784,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/nworks3d/THOR-memory-bible-for-AI) 🦀 🏠 🏠 - Memoria local para los agentes de codificación donde reglas con pruebas verificables de máquina bloquean los comandos de emparejamiento, más un registro de eventos solo de apéndice y el análisis por proyecto."
+},
+{
+"line": 2785,
+"translated": "- @@L0@@ 🏎 ️י ☁ ️ 🐧 🐧 - Conéctate a cualquier wiki de MediaWiki (Wikipedia, Fandom, wikis corporativos) para buscar, leer y editar páginas, analizar enlaces, ver historial de revisión y convertir a Markdown."
+},
+{
+"line": 2786,
+"translated": "- @@L0@@ 🐍 🏠 🏠 🐧 🐧 - La primera memoria persistente local para los agentes de codificación con búsqueda semántica, autocaptura, aprendizaje cruzado y olvido inteligente."
+},
+{
+"line": 2787,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/ontorata/ratary) 📇 🏠 ️ ️ 🐧 🐧 - Memoria de codificación persistente para asistentes de IA con búsqueda híbrida, un gráfico de conocimiento y un contexto de token-eficiente, autoanfitriona en D1, Postgres, MariaDB o Docker."
+},
+{
+"line": 2788,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/oomkapwn/enquire-mcp) 📇 🏠 🐧 🐧 - La memoria de agente a largo plazo respaldada por una bóveda obsidiana local: recuperación híbrida con la recuperación, RAG agente, detección de comunidades wikilink, Bases obsidianas y OCR PDF."
+},
+{
+"line": 2789,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/AgentBase1/mcp-servidor) 📇 ☁ ️ - AgentBase: an open registry of agent instruction files. Busque y recupere los impulsos, habilidades, flujos de trabajo, paquetes de dominio y filtros de seguridad."
+},
+{
+"line": 2790,
+"translated": "- @@L0@@ Buscar en su biblioteca Mendeley, buscar carpetas, obtener metadatos de documentos, buscar en el catálogo global y añadir documentos a su colección."
+},
+{
+"line": 2791,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/paladini/mcp-me) 📇 🏠 🪟 🐧 - Identidad digital para herramientas AI: su bio, carrera, habilidades y proyectos en perfiles locales de YAML, autogenerados de API públicas como GitHub, Medium y Strava."
+},
+{
+"line": 2792,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/Patdolitse/piia-engram) 🐍 🏠 🪟 🐧 🐧 - Identidad de usuario persistente en herramientas AI: preferencias, lecciones y decisiones en JSON local con verificación escenificada, cifrado AES-256-GCM y sincronización de herramientas cruzadas."
+},
+{
+"line": 2793,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/pavelpilyak/devrecall) 🏎の 🍎 🐧 - Índice local-primer de sus compromisos, PRs, Jira/Linear tickets, Confluence docs, Slack threads and agenda events to search and cite past work."
+},
+{
+"line": 2794,
+"translated": "- @@L0@@ 📇 🏠 🏠 🐧 - Acceso a Google NotebookLM endurecido por seguridad: conversaciones basadas en sesión, gestión de bibliotecas portátiles y respuestas basadas en fuentes, con cifrado post-quantum."
+},
+{
+"line": 2795,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pathrule/mcp) 📇 ☁ - Recuerdos, reglas y habilidades del equipo de Pathrule para los agentes de codificación de los espacios de trabajo de Pathrule."
+},
+{
+"line": 2796,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/paultaki/ailooplibrary-mcp) 🐍 Гели - Leer-only AI Loop Library catalog of bounded agent work loops: pick one for a goal and render a run protocol with verification, stop conditions and budgets."
+},
+{
+"line": 2797,
+"translated": "- @@L0@@ 📇 🦀 🦀 🏠 🐧 🪟 - Memoria acumulativa y aprendizaje de patrones para auxiliares de codificación, con almacenamiento local SQLite/SurrealDB para análisis de base de código semántica."
+},
+{
+"line": 2798,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/penfieldlabs/penfield-mcp) 🐍 ☁ 🐍 ️י - Penfield: persistente memoria con BM25 híbrido/vector/graph search, tipod graph relations, context checkpoints, artifact storage and a personality system."
+},
+{
+"line": 2799,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/Piccolo123/url-manager-mcp) 📇 🐍 🐍 🪟 🐧 - Marcador y gestor de conocimientos donde los agentes guardan las páginas web y auto-categorizan en colecciones con búsqueda, etiquetas y carpetas compartidas."
+},
+{
+"line": 2800,
+"translated": "- @@L0@@ Conéctate a tu asistente de Pinecone y recupera el contexto de su motor de conocimiento."
+},
+{
+"line": 2801,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/pipeshub-ai/mcp-servidor) 📇 Г ☁י - Búsqueda de empresas permission-aware y RAG sobre aplicaciones empresariales como Google Workspace, Microsoft 365, Slack y Jira."
+},
+{
+"line": 2802,
+"translated": "- @@L0@@ 🦀 🏠 🏠 🐧 🐧 - Persistent semantic and graph-based agent memory in a single self-contained binario with embedded database and models."
+},
+{
+"line": 2803,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/ProfessionalWiki/MediaWiki-MCP-Server) 📇 ☁ ☁ 🏠 🏠 🪟 🪟  Read - Leer, buscar y editar cualquier wiki de MediaWiki, incluyendo Wikipedia y Fandom, con soporte multi-wiki y MediaWiki Semántica, Cargo, Wikibase y NeoWiki consultas."
+},
+{
+"line": 2804,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Rarefied-Earth/groundwork) 📇 ☁ ️ - Estado de la empresa para operar pequeñas empresas: marca, voz, carta, prioridades, módulos y habilidades."
+},
+{
+"line": 2805,
+"translated": "- @@L0@@ ☁ ☁י - Retrieve context from your Ragie knowledge base, connected to sources like Google Drive, Notion and Jira."
+},
+{
+"line": 2806,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/ravi-labs/mindmap-mcp-servidor) 📇 י - La memoria local y el contexto se entregan a través de herramientas AI, con decaimiento grata, una capa de persona y un pasaporte de memoria portátil."
+},
+{
+"line": 2807,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/remembra-ai/remembra) 📇 📇 🏠 🏠 🪟 🐧 🐧 - Memoria de agentes persistentes con resolución de entidad, detección de PII, cifrado AES-256-GCM en reposo y búsqueda híbrida."
+},
+{
+"line": 2808,
+"translated": "- @@L0@@ 🏎い 🏠 🍎 🪟 🐧 🐧 - Contexto impulsado por LLM y gestión de memoria: memoria a corto y largo plazo con retrieval de gráficos vectorial, timeline y conocimiento más reanudamiento."
+},
+{
+"line": 2809,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/riponcm/projectmem) 🐍 🏠 🪟 🐧 - Memoria local-primera para agentes de codificación: problemas de registro, intentos fallidos, correcciones y decisiones, los vuelve a inyectar y advierte a git cometer antes de un error repetido."
+},
+{
+"line": 2810,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Skitchy/rekindle) 📇 🏠 🪟 🐧 - Continuidad de la sesión: informes de inicio de sesión con detección y puntuación de brechas, captura estructurada final de sesión y búsqueda de memoria BM25, almacenada en SQLite local."
+},
+{
+"line": 2811,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/roampal-ai/roampal-core) 🐍 √ - Memoria persistente basada en resultados para Claude Code y OpenCode: recuerdos que ayudan a promoverse, se demolen los engañosos."
+},
+{
+"line": 2812,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@roomi-fields/notebooklm-mcp) 📇 🏠 🪟 🐧 🐧 - Automate Google NotebookLM: Q Junto con citas, podcasts de audio, vídeo, generación de contenidos, gestión de fuentes y biblioteca de cuadernos."
+},
+{
+"line": 2813,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@rushikeshmore/codecortex) 📇 🏠 🏠 🪟 🐧 - Conocimiento persistente de la base de código para los agentes de codificación: símbolos, gráficos de dependencia, patrones de cambio y decisiones arquitectónicas extraídas con niñera de árboles."
+},
+{
+"line": 2814,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/rwnalds/engram) 📇 Г - Git-backed, Obsidian-compatible Markdown second brain for agents: search ranks live notes above supersed ones, with per-agent tokens and a git audit trail."
+},
+{
+"line": 2815,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/s60yucca/mnemos) 🏎י 🍎 🪟 🪟 - Memoria persistente para agentes de codificación que almacenan decisiones de arquitectura, causas profundas de fallos y convenciones, con búsqueda de texto completo y montaje de contextos presupuestados por token."
+},
+{
+"line": 2816,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/seanmarkwei/agentram-mcp) 📇 ️ П - Memoria de agente de valor clave sobre una API HTTP sin incrustaciones: almacenar, recuperar, buscar y compartir la memoria entre agentes con espacios de nombres compartidos y TTLs."
+},
+{
+"line": 2817,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/SagaPeak/artifacta-mcp) 🎖 🐍 ☁ ☁ 🐧 🐧 🐧  Arti - Tienda de artefactos para los productos de los agentes: persistir, recuperar y compartirlos a través de las carreras y sesiones, con dedup de contenido-hash y enlaces de compartir expiración."
+},
+{
+"line": 2818,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SAIHM-Admin/saihm-mcp) 📇 ☁ 🏠 🏠 🐧 - Memoria de agente persistente cifrada anclada en COTI V2 mainnet: recuerde, recuerde, comparta y olvide con el GDPR Artículo 17 borrado."
+},
+{
+"line": 2819,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/SAIHM-Admin/saihm-mcp-server-pro) 📇 ☁ ☁ 🏠 🏠 🐧 - Memoria de agente cifrado en el lado del cliente donde el servidor sólo ve cifertexto, con identidad post-quantum y compartir y cripto-shredding para el borrado del GDPR."
+},
+{
+"line": 2820,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/SaravananJaichandar/world-model-mcp) 🐍 🏠 🏠 🐧 🐧 - Gráfico de conocimiento de base de código temporal que vincula fallos de prueba a cambios de código, aprende patrones de coedito, predice el riesgo de regresión y impone restricciones de edición."
+},
+{
+"line": 2821,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/sachitrafa/YourMemory) 🐍 🏠 🪟 🪟 🐧 - Memoria de agente persistente con decaimiento de estilo Ebbinghaus, recuperación híbrida BM25/vector, gráfico de entidad para razonamiento multihop, auto-pruning y un panel del navegador."
+},
+{
+"line": 2822,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Schubeler-Consulting/knowmind) 📇 ☁ ️י - El gráfico de memoria y conocimiento del agente hospedado en Alemania: híbrido BM25, vector y el gráfico Neo4j recuerdan con relancamiento, relaciones tipodas y una tienda bitemporal."
+},
+{
+"line": 2823,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SecurityRonin/alaya) 🦀 🏠 🪟 🐧 🐧 - Memoria de agentes locales inspirados en la neurociencia que almacena episodios, consolida el conocimiento con el tiempo y construye un gráfico de conocimiento personal con memoria semántica."
+},
+{
+"line": 2824,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/SecurityRonin/docx-mcp) 🐍 🏠 🪟 🐧 - Leer y editar documentos Word (.docx) con cambios rastreados, comentarios en rosca, notas de pie, validación de nivel OOXML y auditoría de documentos."
+},
+{
+"line": 2825,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/setheerwagen/local-ai-mcp-servers) 🐍 🏠 - Manage a local model machine: pull and remove Ollama models, switch the inference service between models and run LoRA fine-tuning jobs."
+},
+{
+"line": 2826,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/sheawinkler/context-lattice) 🏠 🐧 🦀 🏎 ️ ️ ️ ف - La memoria privada por defecto y la capa de contexto para los agentes con recuperación escenificada a través de backends de datos fusionados y continuidad de contexto a largo plazo."
+},
+{
+"line": 2827,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/writerslogic/scrivener-mcp) 📇 🏠 🏠 🐧 - Trabajar con Scrivener 3 proyectos de escritura: gestión de documentos, análisis de escritura, búsqueda semántica, memoria de carácter y trama, y mejora de contenido."
+},
+{
+"line": 2828,
+"translated": "- @@L0@@ 📇 י - Búsqueda local de documentos: búsqueda semántica sobre archivos PDF, DOCX, TXT y Markdown con almacenamiento vectorial LanceDB y embeddings locales."
+},
+{
+"line": 2829,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/ShipItAndPray/mcp-memory) 📇 🏠 🪟 🐧 🐧 - Memoria basada en SQLite con decaimiento exponencial: los recuerdos fortalecen el acceso y la desvanecimiento cuando no se utiliza, limitando el crecimiento de contexto sin límites."
+},
+{
+"line": 2830,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/sgx-labs/statelessagent) 🏎ר 🍎 🐧 - Memoria de agente local con seguimiento de procedencia que detecta cuando las fuentes cambian, más entregas de sesión, registros de decisiones, búsqueda semántica y un gráfico de conocimiento."
+},
+{
+"line": 2831,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/l33tdawg/s-age) 🏎ר 🍎 🐧 - Memoria institucional local para agentes donde el consenso de BFT entre validadores aprueba cada memoria antes de que se cometa."
+},
+{
+"line": 2832,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/laradji/deadzone) 🏎 🏠 🏠 🐧 - Búsqueda semántica en línea sobre la documentación de la biblioteca utilizando un índice vectorial pre-construido, basado en la versión y verificado en el primer lanzamiento."
+},
+{
+"line": 2833,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/leonardsellem/hypermnesic) 🐍 ☁ ️ 🪟 🐧 🐧 - Memoria del primer agente: Los archivos marcados son la fuente de la verdad, el índice es desechable y los escritos son compromisibles revisores, con búsqueda híbrida y un CLI."
+},
+{
+"line": 2834,
+"translated": "- @@L0@@ 🐍 √ - Sistema de colaboración de cinco niveles con memoria local-primera persistente a través de MemDocs y capacidades anticipadas."
+},
+{
+"line": 2835,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/rps321321/obsidian-mcp-pro) 📇 🏠 🍎 🪟 🐧 - Acceso obsidiano a bóveda: búsqueda de texto completo, nota CRUD, consultas de primera necesidad, etiquetas, backlinks, traversal de gráficos, huérfano y detección de enlaces rotos, y soporte de lienzo."
+},
+{
+"line": 2836,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Semiotronika/LINZA-MCP) 🐍 🏠 🪟 🐧 🐧 - El sidecar revisado para espacios de trabajo Markdown: indexes notas en SQLite y propone enlaces, dominios y memoria con evidencia, editando archivos sólo después de su revisión."
+},
+{
+"line": 2837,
+"translated": "- @@L0@@ 📇 🏠 🏠 🐧 🐧 - Gestión remota de bóveda obsidiana sobre SSE: notas, directorios, frontmatter, etiquetas, operaciones de búsqueda y enlace, implementables con Docker."
+},
+{
+"line": 2838,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yusufkaraaslan/Skill Seekers) 🐍 🏠 🏠 🐧 - Convertir docs, GitHub repos, PDFs, videos, Confluencia, Noción y Slack/Discord en habilidades AI y conocimientos RAG, exportables a bases de datos vectoriales como Qdrant."
+},
+{
+"line": 2839,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/stevepridemore/graph-memory) 📇 🏠 🏠 🪟 🐧 - Gráfico de conocimiento personal para Claude en Neo4j con entidades de tipo, bordes bitemporales, decaimiento ponderado, detección de contradicciones y embeddings locales."
+},
+{
+"line": 2840,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/SubDownload/subdownload-mcp) 🏎 ☁ 🪟 🐧 🐧 🐧 - Base de conocimientos de YouTube: resumen vídeos, transcripciones (incluso sin subtítulos), canales de búsqueda y listas de reproducción, y guardar resultados para el recuerdo de la sesión."
+},
+{
+"line": 2841,
+"translated": "- @@L0@@ Respuesta de la documentación de su producto utilizando el sistema RAG de Biel.ai."
+},
+{
+"line": 2842,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/The-40-Thieves/obsidian-tc) 🦀 🦀 🏠 🏠 🏠 - Acceso obsidiano a la bóveda con control de acceso basado en el papel, búsqueda nativa, soporte multi-vault, embeddings pluggable y procedencia SLSA."
+},
+{
+"line": 2843,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/threadctx-dev/threadctx-mcp) 📇 🏠 ️ 🐧 🐧 🐧 - Memoria de equipo compartida local-primer para agentes de codificación: las decisiones, correcciones y gotchas persisten por repo y se comparten entre los agentes de equipo."
+},
+{
+"line": 2844,
+"translated": "- @@L0@@ - RAG local para la búsqueda semántica de vectores sobre documentos de marcación con incrustaciones sqlite-vec y multilingual-e5-small, filtrable por directorio y nombre de archivo."
+},
+{
+"line": 2845,
+"translated": "- @@L0@@ 📇 🏠 - Administrador de memoria para aplicaciones y agentes de AI utilizando gráficos y vectores, con la ingestión de muchas fuentes de datos."
+},
+{
+"line": 2846,
+"translated": "- @@L0@@ ☁ ☁י - Memoria de agente recursivo de siete capas con ramificación contextual, memoria holográfica, consolidación de sueños y persistencia en cadena."
+},
+{
+"line": 2847,
+"translated": "- @@L0@@ 🐍 √ - Identidad portable, privacidad-primera AI: un directorio hogareño para sus agentes con gestión de perfiles, habilidades, reanudar la importación y sincronización de equipo."
+},
+{
+"line": 2848,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@tstockham96/engram) 📇 🏠 🏠 🪟 - Memoria del agente con memoria semántica, consolidación automática, detección de contradicciones y un gráfico bitemporal de conocimiento."
+},
+{
+"line": 2849,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@teampolarity/cosmos-mcp) 📇 ☁ ️ ️ - Gráfico de conocimiento personal portátil compartido entre clientes de AI, con fuentes como iMessage, historia del navegador, calendario, historia de shell, Noción y Obsidian."
+},
+{
+"line": 2850,
+"translated": "- @@L0@@ 🐍 🏠 - Identidad persistente para agentes de IA: servidores para unidades, relaciones, memoria semántica con decaimiento, hilos de trabajo, patrones aprendidos, periodismo y pronóstico."
+},
+{
+"line": 2851,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TT-Wang/cortex-plugin) 🐍 🏠 🏠 - El plugin de memoria del Código de Claude que extrae sesiones pasadas para decisiones, convenciones y correcciones de errores, las almacena en una bóveda obsidiana y abre nuevas sesiones."
+},
+{
+"line": 2852,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TyKolt/kremis) 🦀 🏠 🏠 🐧 🐧 - Gráfico local de conocimiento determinista en redb sin LLM o llamadas de incrustación, la piratería del estado BLAKE3 y la exportación canónica para auditorías byte-identical."
+},
+{
+"line": 2853,
+"translated": "- @@L0@@ 📇 ☁י - Guardar y consultar la memoria del agente de forma distribuida con Membase."
+},
+{
+"line": 2854,
+"translated": "- @@L0@@ - Documentación de código actualizada para LLMs y editores de códigos AI."
+},
+{
+"line": 2855,
+"translated": "- @@L0@@ 🦀 🏠 - Memoria de agente cognitivo con aprendizaje Hebbian, una arquitectura de tres niveles y gráficos de conocimiento, funcionando fuera de línea en dispositivos de borde."
+},
+{
+"line": 2856,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vbcherepanov/total-agent-memory) 🐍 ST ST 🐧 - Memoria local para agentes de codificación: gráfico de conocimiento temporal con invalidación de hecho, memoria procesal y episódica, AST codebase ingest and cross-project analogy."
+},
+{
+"line": 2857,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/samvallad33/vestige) 🦀 🏠 🪟 🐧 - Memoria de agente cognitivo local-primera con programación FSRS-6, ingest inteligente, almacenamiento SQLite, sincronización portátil, un panel de control integrado y ganchos opcionales."
+},
+{
+"line": 2858,
+"translated": "- @@L0@@ ☁ ☁の - Hindsight: memoria a largo plazo para los agentes de IA modelados en la memoria humana."
+},
+{
+"line": 2859,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vishnu-77/openreflex) 🐍 🏠 🪟 🐧 - Memoria de ejecución local para los agentes de codificación: inyecta lo que funcionó y conocido arregla antes de tareas similares y aconseja si continuar, pivotar o detener."
+},
+{
+"line": 2860,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/vornicx/Midas) 📇 📇 🏠 🪟 🐧 🐧 - Memoria de agente de larga duración local-primer largo-horizon: memoria de origen, revisión de creencias, olvido selectivo y guardia contra acciones destructivas impulsadas por la memoria."
+},
+{
+"line": 2861,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/Abhigyan-Shekhar/Waggle-mcp) 🐍 🏠 🪟 🐧 - Persistent graph Memory that extracts facts from conversations into typed nodes with local embeddings, supporting temporal queries and conflict detection."
+},
+{
+"line": 2862,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/whynowlab/jarvis-orb) 🐍  Memoria de cuatro niveles (episodico, semántico, proyecto, procedimiento) con puntuación temporal, detección de contradicciones, seguimiento de entidades y un orbe de visualización de escritorio."
+},
+{
+"line": 2863,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wnbhr/being) ☁ ️ ️ - Tiempo de ejecución de la personalidad para los agentes: memoria persistente, identidad (SOUL) y relaciones que llevan a través de clientes de AI."
+},
+{
+"line": 2864,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/Wuesteon/lean-memory) 🐍 🏠 🐧 🐧 - La memoria de un agente local embedida en un archivo SQLite por espacio de nombres: recuperación híbrida, historia de sólo apéndice que se puede consultar en cualquier momento anterior y mantenimiento humano."
+},
+{
+"line": 2865,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TheStack-ai/waypath) 📇 י - Memoria local-primera CLI para agentes de codificación: contexto respaldado por SQLite, memoria gráfica a través de FTS5 y RRF, y memoria gobernada con puertas de promoción y revisión."
+},
+{
+"line": 2866,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/zzhang82/Agent-Memory-Bridge) 🐍 Г - Memoria local-first para agentes de codificación que convierten las sesiones de codificación en memoria de ingeniería reutilizable: decisiones, gotchas y conocimiento de dominio."
+},
+{
+"line": 2867,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/teolex2020-aurasdk) 🐍 🏠 - Memoria cognitiva persistente y encriptada que funciona fuera de línea."
+},
+{
+"line": 2868,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@arthurpanhku/arthor-agent) 🐍 Г ☁י - Evaluación de la seguridad cibernética de documentos, cuestionarios e informes: parsing multiformato, base de conocimientos RAG, riesgos, lagunas de cumplimiento y remediaciones."
+},
+{
+"line": 2869,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/Wynelson94/longhand) 🐍 🏠 🪟 🐧 - Memoria local persistente para Claude Code: indexa todas las sesiones verbatim en SQLite y ChromaDB para el recuerdo semántico a través de su historia, sin llamadas de API."
+},
+{
+"line": 2870,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/yubinkim444/repo-memory) 🐍 🏠 🪟 🐧 - Memoria compartida, git-tracked para agentes de AI en la misma base de código: hechos, decisiones y se almacenan en un directorio de repo comprometido y se sincronizan a través de git."
+},
+{
+"line": 2871,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/agentcivics/agentcivics) 📇 ☁ ☁ 🪟 🐧 - Registro civil descentralizado para agentes de AI en Sui: identidades con alma, memorias en cadena, reputación y registros de rechazo."
+},
+{
+"line": 2872,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/STiFLeR7/memex) 🐍 🏠 🪟 🪟 - Watches git repos y construye un gráfico de conocimiento temporal de módulos, símbolos, decisiones y problemas abiertos a través de Graphiti y Neo4j, servido a agentes de codificación AI."
+},
+{
+"line": 2873,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/xChuCx/agent-memory) 🏎ר safe 🐧 - Memoria del proyecto nativa para agentes de codificación: Markdown en su repo, actualizaciones escalonadas revisables, secreto/PII-safe y software de rama, sin nube o vector DB."
+},
+{
+"line": 2874,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/XuebinMa/AIWiki) ☁ ️ ️ 🪟 🐧 🐧 - Buscar y leer AiWiki, una enciclopedia bilingüe en inglés/chino de trampas de codificación AI y protección de privacidad LLM, con pruebas citadas."
+},
+{
+"line": 2875,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zzallirog/weighted-compact) 🐍  Memoria inspeccionable para Claude Code: búsqueda de sólo lectura y compactación de sesión sobre un parse local, señalizado de sus registros de proyectos, sin llamadas outbound."
+},
+{
+"line": 2876,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/tribal-memory/tribal) 🦀 - Memoria semántica autoanfitriona para los conocimientos tribales de un equipo de ingeniería: las decisiones y el razonamiento detrás del código, consultable por el equipo y sus agentes."
+},
+{
+"line": 2877,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SVerITG/Metis) 🐍 🏠 🪟 🐧 🐧 - Investigación privada local segundo cerebro: memoria de proyecto, respuestas citadas de su biblioteca, notas vinculadas y reuniones, informes diarios y asistente de reunión."
+},
+{
+"line": 2878,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/syndicalt/zaxy) 🐍 🏠 🪟 🐧 🐧 - Memoria de agente con fuente de eventos en un registro con cadena de precipitación con un gráfico de conocimiento temporal incrustado de Kuzu, olvido de salience y consolidación de revisión."
+},
+{
+"line": 2879,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/mnemoverse/mcp-memory-servidor) 📇 ️ ️ ️ - Memoria anfitriona que aprende y olvida: la retroalimentación re-ranca recuerdos útiles, recordar modas por recreo y recuerdos similares consolidan."
+},
+{
+"line": 2880,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/zcag/tela) 🏎Пеле ☁Пли  wi - Equipo de marcado auto-hostable wiki que los agentes pueden buscar, leer y escribir, más Atlas, que genera un wiki citado de git repos y Jira."
+},
+{
+"line": 2881,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zuneracodes/localkeep) 🐍 🏠 🪟 🪟 🐧 - Memoria cronológica local-primera: escribir bancos de memoria editables en una interfaz de usuario local, y Claude los recuerda bajo demanda a través de SQLite FTS5."
+},
+{
+"line": 2882,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/VonderVuflya/Yggdrasil) 🐍 🏠 🪟 🐧 - Memoria local-primera para los agentes de codificación AI en SQLite/FTS5, curado y semánticamente de-duplicado, con datos almacenados como filas simples que posee."
+},
+{
+"line": 2883,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/teflon07/memkeeper) 🦀 🏠 🏠 - Memoria local-primera para agentes de AI en un archivo SQLite: híbrido BM25 y en el dispositivo incrustando búsqueda con relancamiento, absteniéndose en lugar de devolver recuerdos incorrectos."
+},
+{
+"line": 2884,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/yamantaka520/Agent-Memory-OS) 🐍 🏠 🏠 🐧 🐧 - Memoria local para equipos de agentes AI: control privado, equipo y acceso a proyectos, retiro asociativo y sincronización federada con revocación, más una consola web."
+},
+{
+"line": 2885,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ohad6k/emulo) - Carga un perfil personal extraído de sus registros locales de Claude Code, Codex y OpenCode para que los agentes trabajen de la manera que usted hace."
+},
+{
+"line": 2886,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ctxfile/ctxfile) 📇 🏠 🏠 🐧 🐧 - Snapshots a project's working state (files, git, plan, decisions) into one context object so a session can move between agents. Local y solo lectura."
+},
+{
+"line": 2887,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atakanelik34/Bilinc) 🐍 ☁ 🪟 🐧 🐧 - Memoria del agente hospedado con una pista de auditoría: escribe por probada, contradicciones superficiales como cambios inspectables, y se recuperan las malas tiradas de instantáneas."
+},
+{
+"line": 2888,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yaminbk/NexusMem) 📇 🏠 🏠 - Correlates falló los comandos de shell y sus códigos de salida con lo que más tarde los arregló, junto con git diffs y docs, almacenados localmente en SQLite."
+},
+{
+"line": 2889,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tenequm/pond) 🦀 🏠 🏠 - Archivo sin pérdidas y búsqueda de sesiones de agentes de AI a través de clientes."
+},
+{
+"line": 2890,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/kaaustubh/project-memory-mcp) 📇 🏠 - Memoria persistente para agentes de codificación en archivos de reposo simple (AGENTS.md, issues.jsonl): captura fallos, correcciones, decisiones y correcciones y los recuerda más adelante."
+},
+{
+"line": 2891,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/drexthealpha/Knos) 🐍 🏠 🏠 🐧 - Memoria local compartida por todos los agentes de codificación en una máquina, construida a partir de sesiones, commits, CLAUDE.md/AGENTS.md y ADRs, con afirmaciones que bloquean el trabajo en marcha."
+},
+{
+"line": 2893,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/yuelinghuashu/story-cli) 📇 🏠 🏠 🐧 🐧 - Contenido de marcación nativa CLI: búsqueda, leer, escribir y gobernar historia, papel y repos nota, generar READMEs, exportar EPUB y preparar datos de capacitación."
+},
+{
+"line": 2894,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/wikijs-mcp) 📇 🏠 🏠 🐧 - Buscar, leer y editar un Wiki.js 2.x auto hospedado, incluyendo activos, comentarios, usuarios y grupos, con grep de texto completo, protección de sobreescritura y un modo de solo lectura."
+},
+{
+"line": 2895,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/dfrancislyondflabc-tech/agentic-recall) 📇 🏠 🏠 🏠 🐧 - Memoria a largo plazo sobre una carpeta de archivos Markdown: la recuperación híbrida local (BM25F, vectores densos, frase proximidad) que informa cuando una respuesta está ausente."
+},
+{
+"line": 2897,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vishalbanwari26/mnemos) 🐍 🏠 - Memoria persistente con Postgres/pgvector swappable, backends Qdrant o Neo4j, ponderación de retrieval adaptativa, fusión duplicada y archivo de objetos de papel."
+},
+{
+"line": 2898,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/pjpoulose/PIL) 📇 🏠 🍎 🪟 🐧 - Convierte tus mensajes guardados en Instagram en una base de conocimientos local, verificable, con resúmenes extraídos por AI, puntos clave, cómo-tos, enlaces y etiquetas en SQLite."
+},
+{
+"line": 2899,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/Mnemosyne-OS/Mnemosyne-Neural-OS) 🎖 📇 📇 🏠 🏠 🪟 🪟  Human - Memoria humana en bóvedas separadas de dominio local con recuperación híbrida; también lee la salida de otros agentes de codificación. Requiere la aplicación de escritorio Mnemosyne OS."
+},
+{
+"line": 2900,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/liza-studio/skillmem) 🐍 🏠 🪟 🐧 🐧 - Memoria de habilidad auto-improving para los agentes de codificación: habilidades útiles se refuerzan, se desvanecen los no utilizados; búsqueda híbrida en inglés/rusa local, historia del tamper-evident."
+},
+{
+"line": 2901,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/zensation-ai/zenbrain) 📇 🏠 🪟 🪟 🐧 - Memoria de agente local de siete capas que recorre la entrada en hechos, episodios o procedimientos, busca todas las capas y consolida episodios repetidos en hechos."
+},
+{
+"line": 2902,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dat999zx/knowl) 📇 🏠 🪟 🐧 - Memoria local persistente para agentes de codificación que jubilan hechos reemplazados en el tiempo de escritura, por lo que los agentes leen la respuesta actual; los hechos se escriben con procedencia."
+},
+{
+"line": 2904,
+"translated": "### \"Nombre\" legal\""
+},
+{
+"line": 2905,
+"translated": "Acceso a información legal, legislación y bases de datos legales. Permite a los modelos AI buscar y analizar documentos legales e información regulatoria."
+},
+{
+"line": 2906,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ad0750/regintel-mcp) 🐍 ☁ ☁ - Datos regulatorios estructurados de la API RegIntel (GDPR, MiCA, DORA, SEC, FINRA, FCA y más): búsqueda, búsqueda, actualizaciones recientes y controles de cumplimiento."
+},
+{
+"line": 2907,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Angelthebestone/Normativa-colombiana-MCP) 📇 √ - Derecho y jurisprudencia colombiana de Gestor Normativo, SUIN-Juriscol, Tribunales Constitucionales y Supremos, Consejo de Estado y DIAN Normograma."
+},
+{
+"line": 2908,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@ark-forge/mcp-eu-ai-act) 📇 ☁ - EU AI Act compliance scanner that detects regulatory violations in AI codebases, with risk classification and remediation guidance."
+},
+{
+"line": 2909,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-sudact) 🐍 ️ ️ - Russian court practice from Sudact: search cases by article, court, instance and date, and read full decision texts."
+},
+{
+"line": 2910,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/atomno-mcp/mcp-fsp) 🐍 ☁ - El procedimiento de ejecución del FSSP busca deudores rusos y controles de cumplimiento."
+},
+{
+"line": 2911,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/atomno-mcp/mcp-zakupki) 🐍 ☁ ️ - Búsqueda de licitaciones y contratos públicos rusos en zakupki.gov.ru."
+},
+{
+"line": 2912,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/aydincan/turk-hukuku-mevzuat-mcp) 🐍 ☁ - La legislación turca vive de mevzuat.gov.tr: texto actual del artículo por ley y número de artículo, con enlaces de verificación."
+},
+{
+"line": 2913,
+"translated": "- @@L0@@ - Cumplimiento normativo de la Ley de IA, el RGPD y el DORA, con citas a nivel de artículo."
+},
+{
+"line": 2914,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/ChangkeunJ/australian-law-mcp) 📇 ️ ف - Australian Commonwealth law from the Federal Register of Legislation: read acts as at any date since 1901, compare dates and verify statute citations."
+},
+{
+"line": 2915,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cm2489/oravan) 📇 ️ ️ - Datos del Congreso de Estados Unidos no partidistas: resumen de proyectos de ley en inglés y español, búsqueda representativa por código ZIP y clasificación urgente de facturas móviles."
+},
+{
+"line": 2916,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/djtellado/nexus-legal-mcp) 📇 ️ Пе - Análisis jurídico (ISO 31000) para el derecho español, latinoamericano y europeo: redacción, auditorías, jurisprudencia, doctrina fiscal y comparación transfronteriza."
+},
+{
+"line": 2917,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/edithatogo/fyi-cli) 🦀 🏠 - Seguimiento de solicitudes de libertad de información para los sitios de Alaveteli (FYI.org.nz, WhatDoWeKnow, RightToKnow): peticiones, autoridades, correspondencia, sincronización offline."
+},
+{
+"line": 2918,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/forgemeshlabs/gov-transparency-mcp) 📇 ️ - Comercios de acciones del Congreso, contratos federales, financiación de campañas, cabildeo y nuevas regulaciones de datos del gobierno estadounidense, pagado por llamada con x402 USDC en Base."
+},
+{
+"line": 2919,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/gavelin-ai/mcp) ☁ ☁ ☁ - Datos legislativos estatales de los Estados Unidos: transcripciones auditivas, facturas, votos e informes generados por AI."
+},
+{
+"line": 2920,
+"translated": "- @@L0@@ - Acceso a la legislación estadounidense."
+},
+{
+"line": 2921,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Lex-API/lexapi-mcp) ☁ ☁ ️ П - Investigación legal de la UE sobre EUR-Lex: búsqueda estructurada, captura de documentos por número CELEX, publicaciones oficiales recientes, gráficos de citación y búsqueda semántica."
+},
+{
+"line": 2922,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/librejustice/librejustice) 🎖 🐍 🐍 Г☁י - Francés and European case law (Conseil d'État, Cour de cassation, ECHR, CJEU and more) linked to point-in-time consolidated legal texts, with Hybrid search."
+},
+{
+"line": 2923,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/lmaniraruta/license-verify-mcp) 📇 ️ ️ - Verify a US contractor's license, surety bond and insurance from state data (Washington L implicaI, California CSLB)."
+},
+{
+"line": 2924,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/mambalabsdev/mcp-legal-entity-resolver) 📇 ☁ ☁ - Resolves a company domain to its registered legal entity: legal name, company number, jurisdiction, status, LEI and VAT number."
+},
+{
+"line": 2925,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/meridian-silkdev/meridian-mcp) 📇 ☁ 🪟 🐧 🐧 🐧 - Servicios fundadores de startups como la incorporación de la empresa y visados: navegar por los servicios, crear y seguir solicitudes, verificar pagos y programar reuniones."
+},
+{
+"line": 2926,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/NexusFeed/nexusfeed-mcp) ☁ ️ ف - US liquor license lookup (CA, TX, NY, FL): search by trade name, owner or license number and verify status, expiration and address against state portals."
+},
+{
+"line": 2927,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/open-agreements/open-agreements) - Llenar plantillas de acuerdo legal estándar (NDAs, SAFEs, docs NVCA, empleo, términos de nube) y producir archivos DOCX de firma."
+},
+{
+"line": 2928,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/Pactlio-ai/pactlio-mcp) 📇 ☁ ️ - Herramientas contractuales: requisitos consagrados por tipo de contrato y jurisdicción, aplicabilidad no competencia de los Estados Unidos, redacción de contratos y análisis de riesgos."
+},
+{
+"line": 2929,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/Patent-PreCheck/patent-precheck-mcp) 📇 ️ ️ فار - Pre-checkability pre-check for code: USPTO scores for eligibility, novelty, non-obviousness and documentation, plus filing preparedness and prior-art signals."
+},
+{
+"line": 2930,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/philrox/ris-mcp-ts) 📇 ☁ ️י - Access Austrian federal and state laws, court decisions and legal documents via the RIS (Rechtsinformationssystem) API."
+},
+{
+"line": 2931,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/PolicyForge/mcp) ☁ ☁ ☁ - Generar, auditar y mantener políticas legales (privacy, términos, cookies, EULAs, reembolsos) desde una base de código, marcando brechas y deriva entre código y política."
+},
+{
+"line": 2932,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/ptrinh/finalnotice-mcp) 📇 ☁ À Generate localized debt-collection demand letters as PDFs, with matching sobres, for many jurisdictions and languages."
+},
+{
+"line": 2933,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/sebastianfoerste/eu-reg-mcp) 🐍 √ - ESMA MiCAR register search, summaries and change tracking via weekly snapshots, plus MiCAR white paper linting and EU AI Act risk-tier classification."
+},
+{
+"line": 2934,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SFHAJJI/lex) ️י - Derecho de Luxemburgo y UE puntual de Legilux y EUR-Lex: búsqueda de sólo lectura, recuperación, historia del artículo, diffs, timelines y citas."
+},
+{
+"line": 2935,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smilemin07/korean-rnd-regs-mcp) 🐍  Buscar y revisar las regulaciones nacionales de la República Popular Democrática de Corea, devolviendo las actuales disposiciones con citas de la base de datos de derecho nacional."
+},
+{
+"line": 2936,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/smythmyke/patent-search-mcp-servidor) 📇 ☁ - Investigación de patentes y búsqueda de arte previo: dossiers, USPTO análisis de acciones de oficina, consultas booleanas, gráficos de citación y búsqueda de CPC."
+},
+{
+"line": 2937,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/Vaquill-AI/canlii-mcp) 📇 ️ ف - Canadian case law and legislation metadata via CanLII."
+},
+{
+"line": 2938,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ilyautov/sbis-mcp-ru) 🐍 🏠 🪟 🐧 - SBIS (Saby) API: documentos y etapas de flujo de trabajo, firmas electrónicas, certificados, empleados y organizaciones, con una puerta de seguridad de lectura/escritura/destructiva."
+},
+{
+"line": 2939,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ilyautov/diadoc-mcp-ru) 🐍 🏠 🏠 🐧 - Kontur Diadoc API: legal significant document exchange, signing, counterparties, machine-readable powers of attorney and docflow status, with a safety gate."
+},
+{
+"line": 2940,
+"translated": "### 🗺中文 = \"localización-servicios\""
+},
+{
+"line": 2942,
+"translated": "Servicios basados en la ubicación y herramientas de mapeo. Permite a los modelos AI trabajar con datos geográficos, información meteorológica y análisis basados en la ubicación."
+},
+{
+"line": 2944,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HasData/yellowpages-mcp) 📇 ☁ ☁ - Yellow Pages local business search by category and location, with full listings including services, brand and payment methods."
+},
+{
+"line": 2945,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HasData/yelp-mcp) 📇 ☁ - Búsqueda de negocios de Yelp por categoría y ubicación, detalles del lugar y exámenes completos con clasificación y filtros de estrella."
+},
+{
+"line": 2946,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/qinisolabs/floodwise) 📇 Г - Long-term flood-risk bands for England by postcode from Environment Agency open data."
+},
+{
+"line": 2947,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/APOGEOAPI/apogeoapi-mcp) 📇 ️ ️ - Datos geográficos y tipos de cambio en vivo: países, estados, ciudades, geolocalización IP y tipos de divisas."
+},
+{
+"line": 2948,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/atlasfetch-dev/atlasfetch-mcp) 📇 ️ ️ - Coordenadas de geocode inversas a país, región y municipio con códigos ISO 3166, y emparejarlas contra sus propias geodefensas GeoJSON."
+},
+{
+"line": 2949,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/bamwor-dev/bamwor-mcp-servidor) 📇 ☁ - Datos geográficos mundiales de la API de Bamwor: estadísticas de los países y ciudades con población, coordenadas y zona horaria."
+},
+{
+"line": 2950,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/baphometnxg/aloha-fyi-mcp) 📇 ☁ - Turismo de Hawai: tours reservables desde Viator, GetYourGuide, Klook y Groupon, más eventos en los lugares de Oahu, Maui, la Gran Isla y Kauai."
+},
+{
+"line": 2951,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/geovicco-dev/bhoonidhi-mcp) 🐍 ☁ ️ Cómo buscar, guardar y descargar escenas satelitales del portal de observación de la Tierra Bhoonidhi (NRSC) de ISRO en lenguaje natural."
+},
+{
+"line": 2952,
+"translated": "- @@L0@@ ☁ ☁Ω - geolocalización de direcciones IP e información de red usando la API de IPinfo."
+},
+{
+"line": 2953,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/chuofringer/placeroot) 🐍 🏠 🪟 🐧 - Mapas de Overture open data: places, geocoding, admin lookup, buildings, routing and isochrones, queried from the public GeoParquet release via DuckDB."
+},
+{
+"line": 2954,
+"translated": "- @@L0@@ ☁ ️י - Explore las comunas francesas y las parcelas catastrales por nombre y superficie."
+},
+{
+"line": 2955,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/cturkieh/france-data-mcp) ☁ ️ Пели но - Cross-references Registros públicos franceses: FINESS Health facilities, RPPS health professionals, INSEE companies and IGN geocoding."
+},
+{
+"line": 2956,
+"translated": "- @@L0@@ - Pronóstico del tiempo real y las condiciones actuales para cualquier ubicación a través de WeatherAPI.com."
+},
+{
+"line": 2957,
+"translated": "- @@L0@@ Buscar negocios locales en todo el mundo, con puntajes de confianza y rankings de fideicomiso de agente."
+},
+{
+"line": 2958,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/Flightmussy/castlemap-mcp) ☁ ️ Пели занте castillos, fortalezas y palacios en todo el mundo (coordinados, fechas de fundación, fama, Wikipedia resúmenes) del conjunto de datos de Castlemap abierto, basado en Wikidata."
+},
+{
+"line": 2959,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/Flightmussy/filmmap-mcp) ☁ ☁ gradualmente - Filming locations of films, series, juegos and anime: where a title was shot, what was shot at a place and what is nearby, from open Wikidata-based data."
+},
+{
+"line": 2960,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/Vortx-AI/emem) ☁ ☁ ☁ - Datos geoespaciales firmados con recibos citables para preguntas basadas en el lugar: elevación, cubierta terrestre, agua superficial, vegetación y zonas edificadas."
+},
+{
+"line": 2961,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/markpdxt/dronelytics-mcp) ☁ ️ ف - Controles aéreos de aviones no tripulados de los Estados Unidos y planificación de misiones: restricciones del espacio aéreo de la FAA, planes de vuelo de reconocimiento, cumplimiento de la parte 107, reuniones informativas previas a la vuelo y exportación KML/GPX."
+},
+{
+"line": 2962,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/gaopengbin/cesium-mcp) 📇 🏠 🐧 🐧 - Control a CesiumJS globo 3D: vuelos de cámara, capas GeoJSON y azulejos 3D, marcadores, análisis espacial y mapas de calor."
+},
+{
+"line": 2963,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/GeiserX/pumperly-mcp) 🏎י 🍎 🪟 🐧 🐧 - Comparación del precio del combustible: precios de las estaciones de servicio de consulta, planificar rutas de eficiencia del combustible y encontrar estaciones de carga cercanas de EV."
+},
+{
+"line": 2964,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/geolens-io/geolens) 🎖 🐍 🐍 🏠 Г - Acceso sólo lectura a un catálogo geoespacial GeoLens auto hospedado: búsqueda de conjuntos de datos, esquemas, características de GeoJSON, mapas guardados y SQL en caja de arena sobre PostGIS."
+},
+{
+"line": 2965,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/geowire/geowire) 📇 🏠 🪟 🐧 - Puerta de ubicación multiprovidente (OpenStreetMap, Google, Yelp, Foursquare, Naver y más): búsqueda de lugares, geocodificación, direcciones, isochrones y análisis de área."
+},
+{
+"line": 2966,
+"translated": "- @@L0@@ - Geolocalización, proxy e información de red para una dirección IP a través de la API IP2Location.io."
+},
+{
+"line": 2967,
+"translated": "- @@L0@@ ☁ ☁י - Geolocalización de direcciones IP usando la API de búsqueda IP."
+},
+{
+"line": 2968,
+"translated": "- @@L0@@ 📇 ️ י - Geolocalización IP vía Aiwen: país, región, ciudad, coordenadas, ISP y propietario de una dirección IP."
+},
+{
+"line": 2969,
+"translated": "- @@L0@@ 🎖Ω 📇 🏠 - Buscar geolocalización IP e información de red, detectar proxies y VPNs, y encontrar contactos de abuso usando IPLocate.io."
+},
+{
+"line": 2970,
+"translated": "- @@L0@@ Obtener información meteorológica de la API Open-Meteo."
+},
+{
+"line": 2971,
+"translated": "- @@L0@@ 🐍 - OpenStreetMap servicios basados en la ubicación y datos geoespaciales."
+},
+{
+"line": 2972,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Knight60/ArcGIS-Pro-MCP) #ר⃣ √ - ArcGIS Pro add-in que permite a un asistente conducir el proyecto abierto: capas, atributos, selecciones, simbología, diseños, rasters, herramientas de geoprocesamiento y arcpy."
+},
+{
+"line": 2973,
+"translated": "- @@L0@@ 🐍 ☁י - Búsqueda local cercana con detección de ubicación basada en IP."
+},
+{
+"line": 2974,
+"translated": "- @@L0@@ - Interactúa con datos y servicios geoespaciales a través de la API de GeoServer REST."
+},
+{
+"line": 2975,
+"translated": "- @@L0@@ - Operaciones y transformaciones geoespaciales utilizando bibliotecas del SIG."
+},
+{
+"line": 2976,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mapsmith-ai/mapsmith) 🐍 Г - Deterministic GIS geoprocessing (buffers, overlays, reproyección, estadísticas zonales, terreno, hidroology) con un manifiesto de procedencia para cada salida."
+},
+{
+"line": 2977,
+"translated": "- @@L0@@ 🐍 🏠 🏠 🐧 - Herramientas geoespaciales: geocodificación, enrutamiento, elevación, análisis espacial y archivo I/O para Shapefile, GeoJSON y GeoPackage."
+},
+{
+"line": 2978,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/muend/arcgis-mcp-bridge) 🐍 🏠 - Puente local al motor ArcPy de ArcGIS Pro para el geoprocesamiento, con aislamiento de los trabajadores-procesos y límites del sistema de archivos."
+},
+{
+"line": 2979,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/cablate/mcp-google-map) ☁ ️ gradualmente - Google Maps geocoding, place search, directions and height, with a standalone CLI mode."
+},
+{
+"line": 2980,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/ni-c/osm-mcp) 📇 ☁ 🍎 🐧 🐧 - OpenStreetPlanificación de viaje: geocodificación, rutas de senderismo, conducción y ciclismo, matrices de viaje, optimización de rutas, isochrones y búsqueda de POI."
+},
+{
+"line": 2981,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/Off-Nadir-Lab/offnadir-delta-mcp) 🎖י 📇 ☁ ️י - Inteligencia geolocalizada en vivo y un resumen mundial diario: señales de eventos, hotspots, imágenes de satélite Sentinel y un analista OSINT/GEOINT."
+},
+{
+"line": 2982,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/PostalDataPI/postaldatapi-mcp) 🐍 ️ ️ Cambio - Búsqueda de código postal global, validación y búsqueda de ciudad, con zona horaria, región administrativa y metadatos de elevación."
+},
+{
+"line": 2983,
+"translated": "- @@L0@@ - Conecta QGIS Desktop a Claude para la creación de proyectos con asistencia rápida, carga de capas y ejecución de códigos."
+},
+{
+"line": 2984,
+"translated": "- @@L0@@ - Pronóstico de siete días detallado para cualquier lugar del mundo."
+},
+{
+"line": 2985,
+"translated": "- @@L0@@ ☁ ☁י - Tiempo real, pronósticos y datos meteorológicos históricos de la API OpenWeatherMap."
+},
+{
+"line": 2986,
+"translated": "- @@L0@@ 🐍 🏠 - Obtenga el tiempo en cualquier zona horaria y la hora local actual."
+},
+{
+"line": 2987,
+"translated": "- @@L0@@ 📇 ☁י - Stadia Maps location APIs: geocode addresses and places, find time zones, and create routes and static maps."
+},
+{
+"line": 2988,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/sthan-io/mcp-servidor) 📇 ☁ - Verificación de direcciones de los Estados Unidos, parsing, autocomplete, forward and reverse geocoding, and IP geolocation via sthan.io APIs."
+},
+{
+"line": 2989,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/@vibecodebeast/swath-mcp) 🎖י ☁ ☁ Cambio - Detección de vela y tormenta de viento por radar para los Estados Unidos continentales: Swaths de NOAA MRMS, historia de tormentas por dirección, alertas de zona, informes y mapas."
+},
+{
+"line": 2990,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ThinAirTelematics/thinair-geo) 📇 ️ ️ ️ - Localización mundial y enrutamiento: geocodificación, enrutamiento de camiones con nomat y limitaciones de dimensión, tráfico, clima, isochrones y búsqueda de lugares."
+},
+{
+"line": 2991,
+"translated": "- @@L0@@ 📇 ☁י - Previsiones meteorológicas a través de la API AccuWeather."
+},
+{
+"line": 2992,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/tools-mcp/vessel-traffic-mcp) 📇 ☁ ☁ 🏠 🪟 🪟  Read - Examinación de buques sólo lectura: Posiciones de estilo AIS, pistas, llamadas portuarias, horarios de transporte y buques, y retrasar las heurísticas con atribución fuente."
+},
+{
+"line": 2993,
+"translated": "- @@L0@@ 📇 - Seguimiento de envíos y gestión logística a través de la API de TrackMage."
+},
+{
+"line": 2994,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/geolabel/geolabel-mcp) 🐍 ☁ - Convierte las coordenadas GPS en el contexto de ubicación: nombre de lugar, categoría estable y horario de apertura en vivo a través de OpenStreetMap."
+},
+{
+"line": 2995,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/xyver/daedal-map) ☁ ☁ ☁ - Paquetes de datos geográficos para desastres, tasas de FX e indicadores globales, con nuevos paquetes agregados semanalmente."
+},
+{
+"line": 2996,
+"translated": "- @@L0@@ - Geocoding via Nominatim, ArcGIS y Bing."
+},
+{
+"line": 2997,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/930m310n/geomelon-mcp) 🎖 Cambios 📇 - Ciudades, países, regiones e idiomas con nombres multilingües, más lugar autocompleto."
+},
+{
+"line": 2998,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/ArtBreguez/greeks-mcp) 🐍 ☁ ️ ️ 🪟 🐧 - Análisis de opciones en vivo: Griegos, GEX/DEX y gamma flip, max dolor, flujo inusual, superficie IV, movimiento esperado, estructura de plazo, un screener y mapa de calor GEX."
+},
+{
+"line": 3000,
+"translated": "### 🎯 < un nombre= \"marketing\""
+},
+{
+"line": 3002,
+"translated": "Herramientas para crear y editar contenidos de marketing, trabajando con datos de meta web, posicionamiento de productos y guías de edición."
+},
+{
+"line": 3004,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/A1-x-Tech/mcp-yandex-audience) 📇 ☁ - Yandex Audience API: build and manage ad-targeting segments (CRM loads, lookalike, pixel-based) and access grants."
+},
+{
+"line": 3005,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIOProductOS/studio-mcp) 🎖 📇 🏠 🪟 🐧 🐧 - Registros locales de pantallas de su aplicación web con un puntero en movimiento, zooms, callouts, capciones y transiciones, más capturas de pantalla y exportación MP4/GIF."
+},
+{
+"line": 3006,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/D4umak/linkedin-outreach-mcp) ️ 🐍 ️ ️ 🪟 🪟 - Linkedin En extensión para la prospección, reclutamiento y búsqueda de empleo: encontrar gente, enviarles mensajes en su voz, seguir y manejar las respuestas."
+},
+{
+"line": 3007,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/InstantStudioAI/instantclips-mcp) 📇 ☁ ️ - Convertir productos de comercio electrónico en anuncios cortos de vídeo vertical para TikTok, Instagram Reels y Stories con InstantClips, y gestionar marcas y productos."
+},
+{
+"line": 3008,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/acamolese/google-search-console-mcp) 🐍 ☁ ️ ️ - Google Search Console: datos de desempeño de consultas, inspeccionar URLs, marcar índices y generar informes de auditoría HTML SEO con una hoja de ruta de 30/60/90 días."
+},
+{
+"line": 3009,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/AKzar1el/mcp-gsc) 📇 ️ ️ - Google Search Console on Cloudflare Workers: organic search analytics, URL inspection, sitemap management, indexing and SEO insights."
+},
+{
+"line": 3010,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AKzar1el/mcp-geo) 📇 ☁ ️ 🏠 🐧 - DigestSEO GEO tracker: mide citas de marca y visibilidad en ChatGPT, Claude, Perplexity, Gemini y Google AI Overviews."
+},
+{
+"line": 3011,
+"translated": "- @@L0@@ ☁ ☁י - TikTok Ads Integración de API: gestionar campañas, analizar métricas de rendimiento y manejar audiencias y creativos."
+},
+{
+"line": 3012,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/adsagents/adsagent-ai-skills) ☁ ☁י - AdsAgent plugin y hospedado servidores MCP para Meta, Google y anuncios TikTok."
+},
+{
+"line": 3013,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hardeyhemy/revnuvo-dev) 🎖ح - Revnuvo company intelligence: what changed at a company, with evidence."
+},
+{
+"line": 3014,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aitit-inc/leadace) 📇  Ventas avanzadas para Claude Code: investigación por página web, un correo electrónico por perspectiva de su propio Gmail, respuesta seguimiento y respuesta de rechazo estructurado."
+},
+{
+"line": 3015,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alttextai/alttext-mcp) 🎖י 📇 🏠 י - Generar y traducir texto de imagen alt y gestionar una biblioteca de imágenes AltText.ai."
+},
+{
+"line": 3016,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/atomno-mcp/mcp-erid) 🐍 ️ ف - Checks Russian online ad labeling (erid/ERIR): validates erid tokens and audits pages for compliance with advertising law 38-FZ."
+},
+{
+"line": 3017,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AutomateLab-tech/seo-performance-mcp) 📇 ☁ Cambios - Post-publish SEO performance: combine Search Console, Matomo, GA4, Clarity and AI-citation signals per URL into a verdict for each post, with reason codes."
+},
+{
+"line": 3018,
+"translated": "- @@L0@@ 📇 Г - LinkedHelper automatización CLI: gestión de campañas, mensajería y consultas de perfil a través del Protocolo Chrome DevTools."
+},
+{
+"line": 3019,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/artgas1/yandex-metrika-mcp) 📇 ️ ف - Yandex Metrika Stat, Management and Logs APIs, una herramienta por método, generada de la documentación de Yandex. Los escritos están deshabilitados por defecto."
+},
+{
+"line": 3020,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/askads/mcp-vk-ads) 📇 ️ ف - VK Ads API: gestionar planes de anuncios, grupos de anuncios y banners, y extraer estadísticas."
+},
+{
+"line": 3021,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servadores/askads/mcp-yandex-direct) 📇 ️ ️ - Yandex API directa: gestionar campañas PPC, grupos de anuncios, anuncios, palabras clave, modificadores de ofertas, enlaces de sitios, callouts y vCards, y extraer estadísticas."
+},
+{
+"line": 3022,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servidores/askads/mcp-yandex-metrica) 📇 ️ ️ - Análisis web sólo de Yandex Metrica: contadores de listas y objetivos, y estadísticas de tráfico y conversión."
+}
+]

@@ -1,0 +1,1922 @@
+[
+  {
+    "line": 2520,
+    "translated": "- @@L0@@ 📇 - RuneScape 與 Old School RuneScape 資料：物品價格、玩家排行榜分數等。"
+  },
+  {
+    "line": 2521,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Tanshaydar/Quartermaster) 🐍 🏠 🪟 🐧 - 本地搜尋來自 Unity、Fab、Quixel Megascans、Gumroad 和 Leartes Cosmos 的遊戲素材，結合全文與視覺 CLIP 搜尋。"
+  },
+  {
+    "line": 2522,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alex-gon/thegamecrafter-mcp-server) 📇 ☁️ - 在 The Game Crafter 上設計、管理和定價桌遊：瀏覽目錄、建立專案、上傳美術作品並獲取價格。"
+  },
+  {
+    "line": 2523,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@jhomen368/steam-reviews-mcp) 📇 ☁️ - 搜尋 Steam 遊戲、獲取使用者評測並透過主題下鑽分析情感傾向。"
+  },
+  {
+    "line": 2524,
+    "translated": "- @@L0@@ 🏎️ 🏠 - 與 AI 對手對弈井字棋。"
+  },
+  {
+    "line": 2525,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - Godot 遊戲引擎整合：場景編輯、指令碼編寫、動畫、瓦片地圖、著色器、輸入模擬與執行時除錯。"
+  },
+  {
+    "line": 2526,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HadiCherkaoui/crafty-mcp) 📇 🏠 🍎 🪟 🐧 - 透過 Crafty Controller 4 API 管理 Minecraft 伺服器：啟動、停止、備份、傳送命令，並管理檔案、計劃任務、Webhook 與使用者。"
+  },
+  {
+    "line": 2527,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yanjingzhaisun/cozyvtt-mcp) 🐍 🏠 🍎 🪟 🐧 - 在自託管的虛擬桌遊 CozyVTT 中以遊戲主持人身份執行戰役：骰子、聊天敘述、棋子與地圖、先攻值、角色卡與規則書。"
+  },
+  {
+    "line": 2529,
+    "translated": "### 🏥 <a name=\"health-and-wellness\"></a>健康與養生"
+  },
+  {
+    "line": 2531,
+    "translated": "透過各類健康平臺訪問健康指標、養生資料與醫療資訊。"
+  },
+  {
+    "line": 2533,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/findsaunaplunge/mcp) 🎖️ 📇 ☁️ - 覆蓋美國各大都市的冷浴、桑拿與冷熱交替療法場所，提供各場所自有頁面上的實時溫度與價格，以及城市統計資訊。"
+  },
+  {
+    "line": 2534,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PhilipAD/health-export-mcp) 🍎 🏠 - 以只讀、本地優先方式查詢 Apple Health 健康指標。"
+  },
+  {
+    "line": 2535,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/proscar87/oura-mcp) 🐍 📇 🏠 ☁️ 🍎 🪟 🐧 - 原始訪問 Oura Ring API v2 全部資料集合，支援完整分頁與頁數統計，不含服務端分析。"
+  },
+  {
+    "line": 2536,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Thecimal/quantified-self-mcp) 🐍 🏠 - 查詢儲存在本地 SQLite 檔案中的個人健康與財務資料，無需任何雲服務。"
+  },
+  {
+    "line": 2538,
+    "translated": "### 🏠 <a name=\"home-automation\"></a>家庭自動化"
+  },
+  {
+    "line": 2540,
+    "translated": "控制智慧家居裝置、家庭網路裝置與自動化系統。"
+  },
+  {
+    "line": 2542,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/handsomejustin/mijia-control) 🐍 ☁️ - 控制小米/米家智慧家居裝置（燈具、空調、取暖器、掃地機器人、攝像頭），提供 Web 儀表盤、REST API、CLI、能耗監測與自動化規則。"
+  },
+  {
+    "line": 2543,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@apiarya/wemo-mcp-server) 🐍 🏠 🍎 🪟 🐧 - 無需雲端本地控制 WeMo 智慧家居裝置：裝置發現、調光器亮度、裝置重新命名與 HomeKit 碼。"
+  },
+  {
+    "line": 2544,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Hybirdss/smartest-tv) 🐍 🏠 🍎 🪟 🐧 - 控制 LG、三星、Android TV 與 Roku 智慧電視：按名稱播放 Netflix、YouTube 與 Spotify 內容、投放 URL、場景預設與多電視同步。"
+  },
+  {
+    "line": 2545,
+    "translated": "- @@L0@@ 🏎️ 🏠 - 控制 AVM FRITZ!Box 路由器：管理裝置、Wi-Fi、網路設定與家長控制，並可安排延時操作。"
+  },
+  {
+    "line": 2546,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ober37/ac-infinity-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 監測並自動化 AC Infinity 種植控制器：實時感測器資料與歷史、VPD/溫度/溼度自動化、埠控制與定時任務。"
+  },
+  {
+    "line": 2547,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/laszlopere/mcp-kodi) 🌊 🏠 🐧 - 透過 JSON-RPC 控制 Kodi 媒體播放器：播放、音量、媒體庫搜尋、佇列管理與多例項播放歷史。"
+  },
+  {
+    "line": 2548,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/claymore666/debmatic-mcp) 📇 🏠 🍎 🪟 🐧 - 控制 HomeMatic/debmatic CCU：開關與調光執行器、讀取感測器與系統變數、執行程式並管理房間、連結與裝置。"
+  },
+  {
+    "line": 2549,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NickoScope/nickol-knx-mcp) 🐍 🏠 - 設計期 KNX/ETS6 助手：只讀解析 .knxproj 檔案，進行 DPT、命名與命令/狀態校驗，並匯出 Home Assistant YAML 與 ETS。"
+  },
+  {
+    "line": 2550,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexpfau/zigbee2mqtt-mcp) 📇 🏠 🍎 🪟 🐧 - 透過其 MQTT 橋接 API 管理 Zigbee2MQTT：網路健康報告、網格拓撲、配對、繫結、上報間隔與裝置選項。"
+  },
+  {
+    "line": 2552,
+    "translated": "### 🪪 <a name=\"identity\"></a>身份"
+  },
+  {
+    "line": 2554,
+    "translated": "用於確定某人或某智慧體身份，以及可獲知其相關資訊的伺服器。"
+  },
+  {
+    "line": 2556,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIops-tools/Identity-AIops) 🐍 🏠 - Keycloak 與 Authentik 的 SSO/IAM 操作：針對登入、許可權、客戶端與 MFA 問題的根因分析，以及帶審計日誌與回滾的安全寫入。"
+  },
+  {
+    "line": 2557,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/true-alter/cli) 🎖️ 📇 ☁️ - 以 ~name 控制代碼標識的個人身份檔案，付費查詢並與被找到者分享收入，包含技能證明任務與社群。"
+  },
+  {
+    "line": 2559,
+    "translated": "### 🏭 <a name=\"industrial--iot\"></a>工業與物聯網"
+  },
+  {
+    "line": 2561,
+    "translated": "將 AI 智慧體連線到工業裝置、機械與運營技術（OT）——涵蓋製造與車間協議的遙測採集、監測與控制。"
+  },
+  {
+    "line": 2563,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ahmed-khalil-hafsi/P2Predict) 🐍 🏠 🍎 🪟 🐧 - 基於你的採購歷史訓練的本地價格基準分析：預測零件成本、將其歸因於規格與供應商因素，並給出可能的價格區間。"
+  },
+  {
+    "line": 2564,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Extelligence-ai/bagel) 🐍 🏠 - 用自然語言透過 DuckDB SQL 查詢機器人、無人機與物聯網資料（ROS bags、MCAP、飛行日誌、CAN、MQTT），並匯出至 Rerun、PlotJuggler 與 LeRobot。"
+  },
+  {
+    "line": 2565,
+    "translated": "- @@L0@@ 🐍 ☁️ - 將 AI 智慧體跨協議、跨廠商連線到工業裝置：跨 OEM 遙測歸一化、健康指數與故障預測。"
+  },
+  {
+    "line": 2566,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LGDiMaggio/predictive-maintenance-mcp) 🐍 🏠 - 工業預測性維護：振動分析、軸承故障診斷（ISO 20816-3）與診斷報告。"
+  },
+  {
+    "line": 2567,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/purinzan/gx3-cli-mcp) 🐍 🏠 🪟 - 非官方、只讀地分析三菱 MELSEC GX Works3 PLC 專案：追蹤梯形圖邏輯、查詢裝置讀寫並搜尋裝置註釋。"
+  },
+  {
+    "line": 2569,
+    "translated": "### 🧠 <a name=\"knowledge--memory\"></a>知識與記憶"
+  },
+  {
+    "line": 2571,
+    "translated": "使用知識圖譜結構進行持久化記憶儲存。使 AI 模型能夠在多次會話間維護並查詢結構化資訊。"
+  },
+  {
+    "line": 2573,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dockndevai/ossian-mcp) 📇 🏠 🍎 🪟 🐧 - 基於自有文件的 RAG，附引用段落，外加按相關性、重要性與時效性排序的持久智慧體記憶；預設只讀。"
+  },
+  {
+    "line": 2574,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/anuragsync78/subctx-connector) 📇 ☁️ - 自主人工智慧體的支援中心。"
+  },
+  {
+    "line": 2575,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Octonove/crbro-memory) 📇 🏠 🍎 🪟 🐧 - 本地 JSON 檔案中的持久智慧體記憶：帶熱度評分的神經元/突觸圖、事實級搜尋、糾錯、金鑰脫敏，以及透過 Git 的團隊共享。"
+  },
+  {
+    "line": 2576,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bborota/cairn-mcp) 📇 ☁️ - 其他智慧體習得的一句話經驗教訓、必做與禁忌事項的共享庫，按技術棧與場景歸類。"
+  },
+  {
+    "line": 2577,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Magnemo-AI/magnemo) 🐍 🏠 🍎 🪟 🐧 - 純文字檔案中的受治理本地智慧體記憶：每條記錄記錄撰寫者、時間與經由的關口，未經使用者批准不儲存任何內容。"
+  },
+  {
+    "line": 2578,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fish827-08/rag-kb) 🐍 🏠 🪟 - 本地優先的智慧體記憶與知識庫：稠密與 BM25 混合檢索、文件與網頁攝取，以及透過本地 Ollama 的可選 RAG 回答。"
+  },
+  {
+    "line": 2579,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dahshanlabs/klypix-mcp) 📇 🏠 🍎 🪟 🐧 - 提交到倉庫中的帶版本專案大腦，供程式設計智慧體使用：決策、糾錯、標記程式碼漂移的證據錨點以及檔案重疊警告。"
+  },
+  {
+    "line": 2580,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AkashGoenka/coldstart) 📇 🏠 🍎 🪟 🐧 - 程式設計智慧體的程式碼庫記憶：確定性 AST 索引定位與任務相關的檔案，倉庫內 Markdown 筆記在程式碼變更時自動標記為過期。"
+  },
+  {
+    "line": 2581,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/library-mcp) 📇 ☁️ - 透過 x402 付費的公共領域圖書知識庫：全文搜尋、後設資料、章節、引文、問書問答與精選主題書架。"
+  },
+  {
+    "line": 2582,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jayasukuv11-beep/agenthelm) 📇 🐍 ☁️ 🏠 🍎 🪟 🐧 - 供 AI 程式設計智慧體使用的共享、帶版本記憶與治理，解決跨智慧體的架構決策衝突。"
+  },
+  {
+    "line": 2583,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIStorageDepot/aistoragedepot-mcp) 📇 ☁️ 🍎 🪟 🐧 - 共享、帶版本的團隊提示詞、規則、技能與文件庫，智慧體可搜尋，條目可作為斜槓命令呼叫。"
+  },
+  {
+    "line": 2584,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@jmpdsevilla/BovedIA) 📇 🏠 🍎 🪟 🐧 - Claude Code 的純 Markdown 筆記個人記憶，包含決定載入哪些上下文的路由筆記，以及記錄想法與感受的層級。"
+  },
+  {
+    "line": 2585,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lbailey94/whitemagic) 🦀 🏠 🍎 🪟 🐧 - 本地優先的 AI 智慧體持久記憶與會話連續性，帶雜湊鏈審計賬本，以及跨裝置的備份、匯出與匯入。"
+  },
+  {
+    "line": 2586,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LiLara-AI/shadowgraph) 📇 🏠 🍎 🪟 🐧 - 本地優先的 AI 智慧體決策記憶：儲存選擇、被拒方案及理由、失敗嘗試、結果、來源與複核條件。"
+  },
+  {
+    "line": 2587,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lockstep-team-agent/lockstep) 📇 ☁️ - 使用 AI 程式設計智慧體的團隊共享決策記憶：記錄工程決策、按影響範圍排序，並在智慧體行動前向其簡報。"
+  },
+  {
+    "line": 2588,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lumayapartners/memini) 📇 🏠 🍎 🪟 🐧 - 本地優先的程式設計智慧體專案記憶與護欄：按倉庫記錄失敗嘗試、脆弱檔案與決策，並在重複犯錯前發出警告。"
+  },
+  {
+    "line": 2589,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nazar256/memheaven) 📇 ☁️ - 自託管、可遠端訪問的 AI 智慧體共享長期記憶。"
+  },
+  {
+    "line": 2590,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jessedu29260-netizen/booboo) 📇 🏠 🍎 🪟 🐧 - 以三維知識圖譜檢視並查詢你的 AI 系統（智慧體、記憶、知識、自動化）：統計、搜尋、節點詳情、鄰居與路徑查詢。"
+  },
+  {
+    "line": 2591,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JinyangWang27/people-context) 🐍 🏠 🍎 🪟 🐧 - 本地優先的關於你生活中人物的記憶：身份解析、關係、事實、互動、提醒與溝通建議。"
+  },
+  {
+    "line": 2592,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gpitrella/memxus-remote-mcp) 📇 ☁️ - 開發團隊的共享上下文：將 GitHub、Notion 與已儲存決策同步為可複用的專案上下文，智慧體在每次會話開始時載入。"
+  },
+  {
+    "line": 2593,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/seanmeverett/shared-memory-mcp) 🐍 ☁️ - 供 AI 智慧體使用的公開、帶來源連結的筆記本：搜尋並閱讀條目，釋出發現、問題與糾錯，附永久 ID 與關聯回覆。"
+  },
+  {
+    "line": 2594,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/soluai-spa/solucortex-mcp) 🎖️ 🐍 🏠 ☁️ - AI 智慧體的技術記憶：在任務開始時回顧專案已批准的決策、約定與風險，並在結束時記錄經驗教訓。"
+  },
+  {
+    "line": 2595,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/basemouse/basemouse-core) 📇 ☁️ 🏠 - 共享、帶版本的智慧體記憶，含來源答案與完整歷史：搜尋、上下文包與文件 upsert。"
+  },
+  {
+    "line": 2596,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/caix84476-netizen/personal-understanding) 🏠 🐍 📇 - 以逐字記錄為優先的個人記憶：雜湊化的逐字訊息、關聯到來源引用的記錄、防編造校驗器與審計儀表盤。"
+  },
+  {
+    "line": 2597,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Fisher521/burn-mcp-server) 📇 ☁️ 🍎 - 將 Burn 451 稍後讀應用中儲存的書籤作為知識庫進行搜尋、分流與整理。"
+  },
+  {
+    "line": 2598,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/soolaugust/0CompactMem) 🐍 🏠 🍎 🪟 🐧 - 持久多智慧體記憶，具作業系統式按需分頁、淘汰與固定、BM25 檢索、重要性評分與容量感知回收。"
+  },
+  {
+    "line": 2599,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/0spoon/seamless) 🏎️ 🏠 🍎 🪟 🐧 - 本地優先的 AI 程式設計智慧體共享記憶與任務協調，以 Markdown 檔案儲存。"
+  },
+  {
+    "line": 2600,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/adelinamart/robrain) 📇 🏠 🍎 🪟 🐧 - 自託管的程式設計智慧體決策記憶：記錄架構決策與被拒方案，並在被拒方案被重新提出前發出警告。"
+  },
+  {
+    "line": 2601,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/a2cr/a2cr) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 透過客戶端加密的 WorkBaton 檢查點與 WorkStash 筆記進行智慧體交接，從而無需完整聊天曆史即可在另一客戶端恢復工作。"
+  },
+  {
+    "line": 2602,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/afairai/afair) 🐍 🏠 🍎 🪟 🐧 - 自組織、可自託管、加密的 AI 工具記憶，具後臺實體抽取、衝突解決、整合與衰減。"
+  },
+  {
+    "line": 2603,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ahmetakyurt/zipmem-mcp) 📇 🏠 - 終端程式設計智慧體的本地長期記憶：藍圖、程式碼錨點與提煉經驗集中於一個 JSON 檔案，跨會話恢復專案上下文。"
+  },
+  {
+    "line": 2604,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ihorponom/agentpack) 📇 🏠 🍎 🪟 🐧 - 倉庫原生的程式設計智慧體任務連續性：經稽核的任務狀態賬本，記錄決策、死衚衕、證據與檢查點，供後續會話恢復。"
+  },
+  {
+    "line": 2605,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/thomasjumper/agentbay) 📇 ☁️ 🏠 - StremAI 跨會話、跨機器、跨工具的程式設計智慧體共享記憶，含逐智慧體歸屬、來源、驗證狀態與匯出。"
+  },
+  {
+    "line": 2606,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/uniskela/adhd-hub) 🐍 🏠 🐧 - 自託管的程式設計智慧體專案連續性中樞：跨客戶端追蹤未完成工作、進度、重疊與提醒。"
+  },
+  {
+    "line": 2607,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Vasilispapg/claude-handoff) 🐍 🏠 🍎 🪟 🐧 - Claude Code 會話交接：將任意（即使崩潰的）記錄轉為交接檔案，並將專案歷史提煉為帶引用的記憶簡報。"
+  },
+  {
+    "line": 2608,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aidesignblueprint/integrations) 🐍 ☁️ - 只讀訪問 Agentic AI Blueprint（智慧體使用者體驗參考）：瀏覽並搜尋原則、實現示例與應用指南。"
+  },
+  {
+    "line": 2609,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aliasunder/vault-cortex) 📇 🏠 ☁️ - 獨立的 Obsidian 庫伺服器：混合搜尋、筆記與檔案、記憶與任務；可本地執行或自託管以遠端訪問。"
+  },
+  {
+    "line": 2610,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/andreas-roennestad/openhive-mcp) 📇 ☁️ - AI 智慧體搜尋併發布問題-解決方案對的共享知識庫，具語義搜尋、重複檢測與自動評分。"
+  },
+  {
+    "line": 2611,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AndreLYL/memkin) 📇 🏠 🍎 🪟 🐧 - 本地優先的個人記憶，將飛書/Lark 聊天與 Claude Code/Codex 會話提煉為人、專案與任務的私有知識圖譜。"
+  },
+  {
+    "line": 2612,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NORTHTEKDevs/genome) 🐍 🏠 🍎 🪟 🐧 - 無需 LLM 呼叫的本地持久智慧體記憶：基於 SQLite 的語義回憶，具雙時態事實追蹤。"
+  },
+  {
+    "line": 2613,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Shweta-Mishra-ai/tokenmizer) 🐍 🏠 🍎 🪟 🐧 - 透過本地 OpenAI 相容代理的會話記憶，將任務、決策與檔案提取為知識圖譜，並在上下文溢位前建立檢查點。"
+  },
+  {
+    "line": 2614,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ashlesh-t/cognirepo) 🐍 🏠 🍎 🪟 🐧 - 程式設計智慧體的持久記憶與程式碼庫上下文：FAISS 向量庫、AST 符號索引、知識圖譜、情景日誌與跨智慧體交接。"
+  },
+  {
+    "line": 2615,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AshutoshRaj97/agentready-mcp) 📇 ☁️ 🍎 🪟 🐧 - 索引任意網站並就其內容提問，透過 RAG 給出基於其內容、附引用的回答。"
+  },
+  {
+    "line": 2616,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Auctalis/nocturnusai) 🐍 🏠 - 用於智慧體上下文壓縮的確定性推理引擎：透過邏輯推理、證明鏈與真值維護抽取結構化事實。"
+  },
+  {
+    "line": 2617,
+    "translated": "- @@L0@@ ☁️ - 總結純文字、網頁、PDF 文件、EPUB 電子書與 HTML 內容。"
+  },
+  {
+    "line": 2618,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/20alexl/claude-engram) 🐍 🏠 - Claude Code 的本地持久記憶：透過鉤子追蹤錯誤與決策、搜尋會話歷史、檢測迴圈並在編輯前警告。"
+  },
+  {
+    "line": 2619,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/timmx7/acheron-mcp-server) 📇 🏠 - 在 Claude Chat、Code 與 Cowork 間共享的持久記憶，存於本地 SQLite 並支援全文搜尋。"
+  },
+  {
+    "line": 2620,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Terobyte/librarian-cli) 🐍 🏠 🍎 🪟 🐧 - 電子書轉 Markdown 流水線（FB2、EPUB、DOCX、HTML、PDF），含全文搜尋，以及離線瀏覽、閱讀章節與核對引文的只讀工具。"
+  },
+  {
+    "line": 2621,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TeleAI-UAGI/telemem) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 相容 Mem0 的長期、多模態智慧體記憶：角色隔離檔案、語義去重、可選本地棧，以及帶問答的影片記憶。"
+  },
+  {
+    "line": 2622,
+    "translated": "- @@L0@@ 🐍 🏠 ☁️ - 帶知識圖譜視覺化、語義/混合搜尋、雲同步（S3/R2）與跨會話上下文管理的持久記憶。"
+  },
+  {
+    "line": 2623,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Thezenmonster/agentmem) 🐍 🏠 🍎 🪟 🐧 - 帶信任生命週期（假設、活躍、已驗證、已廢棄）的受治理程式設計智慧體記憶，具衝突檢測、陳舊追蹤與健康評分。"
+  },
+  {
+    "line": 2624,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AliceLJY/recallnest) 📇 🏠 🍎 🪟 🐧 - 本地優先的程式設計智慧體記憶：帶重排序的混合向量/BM25 檢索、知識圖譜、會話檢查點/恢復與多範圍隔離。"
+  },
+  {
+    "line": 2625,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/robotel-limited/robo-cortex) 🐍 🏠 - 感知 Git 的程式設計智慧體記憶儲存：錨定到 git blob 雜湊的記憶在關聯程式碼變更時被標記複核。"
+  },
+  {
+    "line": 2626,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ailenshen/apple-notes-mcp) 📇 🏠 🍎 - 讀寫 Apple Notes 並雙向轉換 Markdown：用 SQLite 查詢進行列舉與搜尋，用 AppleScript 實現完整 CRUD。"
+  },
+  {
+    "line": 2627,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AgentModule/mcp) 📇 ☁️ - 面向自主智慧體的確定性、垂直領域知識庫，含對映到歐盟《人工智慧法案》的倫理模組。"
+  },
+  {
+    "line": 2628,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/juyterman1000/entroly) 🐍 🦀 🏠 🍎 🪟 🐧 - 程式設計智慧體的上下文控制層：壓縮、快取用的提示字首穩定化、更廉價模型路由、本地幻覺檢查與記憶。"
+  },
+  {
+    "line": 2629,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Goldentrii/AgentRecall-MCP) 📇 ☁️ 🏠 🍎 🪟 🐧 - 使用智慧距離協議呈現最相關過往記憶的持久跨會話智慧體記憶。"
+  },
+  {
+    "line": 2630,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gordonkjlee/facthouse) 📇 🏠 🍎 🪟 🐧 - 歸你所有的 SQLite 檔案中儲存的 AI 工具本地記憶引擎。"
+  },
+  {
+    "line": 2631,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AlekseiMarchenko/central-intelligence) 📇 ☁️ - 可記憶、回憶、遺忘與共享的持久智慧體記憶，具語義向量搜尋，以及智慧體、使用者與組織範圍限定。"
+  },
+  {
+    "line": 2632,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kskurtveit/echocache) 📇 🏠 🍎 🪟 🐧 - 以 HTTP 式新鮮度（TTL、stale-while-revalidate）快取昂貴的 LLM 結果，並語義回憶相關的過往回答。"
+  },
+  {
+    "line": 2633,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/epicsagas/alcove) 🦀 🏠 🍎 🪟 🐧 - 為程式設計智慧體按需對私有專案文件進行 BM25 搜尋，使文件不進入公開倉庫。"
+  },
+  {
+    "line": 2634,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@alibaizhanov/mengram) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 具語義、情景與程式三類記憶的智慧體記憶，含知識圖譜、Claude Code 自動儲存/回憶鉤子、智慧觸發器與多使用者隔離。"
+  },
+  {
+    "line": 2635,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AntonioTF5/soul-mcp-server) 📇 🏠 🍎 🪟 🐧 - 校驗並生成 SOUL.md 智慧體身份檔案，這是一種描述智慧體個性、語氣、價值觀與行為約束的 YAML 格式。"
+  },
+  {
+    "line": 2636,
+    "translated": "- @@L0@@ 🐍 ☁️ 🏠 - 結合圖 RAG、向量搜尋與全文搜尋的 RAG 平臺，用於構建知識圖譜與上下文工程。"
+  },
+  {
+    "line": 2637,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ayushagrawal288/memex) 🐍 🏠 - 具語義搜尋與時效性衰減的持久智慧體記憶，含本地 ONNX 嵌入、後臺摘要與 Prometheus/Grafana 可觀測性。"
+  },
+  {
+    "line": 2638,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/baodq06/memocall) 📇 🏠 🍎 🪟 🐧 - 只讀搜尋與回憶過往 Claude Code 會話，按需將任意會話載入為含大綱、回合範圍與會話內搜尋的緊湊 Markdown。"
+  },
+  {
+    "line": 2639,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@basicmachines-co/basic-memory) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 本地優先的 AI 記憶：一個人類與 LLM 都可讀寫的 Markdown 檔案語義知識圖譜，含可選雲同步與團隊工作區。"
+  },
+  {
+    "line": 2640,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Battam1111/Myco) 🐍 🏠 🍎 🪟 🐧 - 基於源自 AST 與 Markdown 連結（而非嵌入）的自驗證檔案系統圖的跨會話、跨專案智慧體記憶。"
+  },
+  {
+    "line": 2641,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Beever-AI/beever-atlas) 🐍 🏠 🍎 🪟 🐧 - 將 Slack、Discord、Teams 與 Mattermost 聊天轉為知識圖譜與 Wiki 的團隊知識庫，含引用回答、語義搜尋與專家查詢。"
+  },
+  {
+    "line": 2642,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bitatlas-group/bitatlas) 📇 ☁️ - 具客戶端 AES-256-GCM 加密的零知識雲盤：上傳、下載、搜尋與整理檔案，伺服器永不以明文看到內容。"
+  },
+  {
+    "line": 2643,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@besslframework-stack/project-tessera) 🐍 🏠 🍎 🪟 🐧 - 本地工作區記憶：將 Markdown、CSV 與會話日誌索引到向量庫，具混合搜尋、跨會話記憶與知識圖譜視覺化。"
+  },
+  {
+    "line": 2644,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BetaBots-LLC/callimachus) 🦀 🏠 🍎 🪟 🐧 - 對來自多工具的程式設計智慧體對話歷史進行本地混合搜尋（SQLite FTS5 與裝置端向量），使智慧體能回憶過往工作。"
+  },
+  {
+    "line": 2645,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/billy12151/memory-arbiter-mcp) 🐍 🏠 🍎 🪟 🐧 - 本地記憶中介軟體：定向檢索而非全量載入記憶、基於規則的衝突仲裁，以及跨程式設計智慧體共享的一個 SQLite 儲存。"
+  },
+  {
+    "line": 2646,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - 搜尋精選的 awesome 列表，併為你的智慧體獲取最相關資源。"
+  },
+  {
+    "line": 2647,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 對 Obsidian 庫的安全讀寫訪問：搜尋、批次操作、標籤管理與 frontmatter 處理。"
+  },
+  {
+    "line": 2648,
+    "translated": "- @@L0@@ 📇 🏠 - 搜尋帶 YouTube 時間戳的 Lenny's Podcast 轉錄稿，獲取關於 PRD、戰略與產品經理職業的產品管理洞見。"
+  },
+  {
+    "line": 2649,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lildaddyo/braintube-mcp) 📇 ☁️ - 將已儲存的 YouTube 影片、播客、文章、PDF 與 Notion/Obsidian 筆記編譯為持久、可語義搜尋的知識庫。"
+  },
+  {
+    "line": 2650,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/linklore/linklore-mcp) 🐍 🏠 - 程式設計智慧體的結構化記憶：帶狀態與連結、由智慧體讀寫的型別化 lore 與文件條目。"
+  },
+  {
+    "line": 2651,
+    "translated": "- @@L0@@ 🐍 🏠 - 離線搜尋並瀏覽 Wikipedia 及其他 ZIM 格式知識存檔，具智慧檢索與快取。"
+  },
+  {
+    "line": 2652,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/carrasquelalex1/hipocampo) 🐍 🏠 🍎 🪟 🐧 - 基於 PostgreSQL、pgvector 與 NVIDIA NIM 的雙語（英/西）雙記憶系統，具漸進式檢索、去重、檢查點與自動修復。"
+  },
+  {
+    "line": 2653,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/catfish-1234/sessionmem) 📇 🏠 - 程式設計助手的本地記憶：監視會話並在每個新會話開始時注入緊湊摘要，存於 SQLite 檔案。"
+  },
+  {
+    "line": 2654,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 程式設計助手的持久記憶：關於經驗與未完成任務的分會話簡報、共享團隊記憶、BM25 搜尋與託管的 Valkey/Redis。"
+  },
+  {
+    "line": 2655,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ccf/agentcairn) 🐍 🏠 🍎 🪟 🐧 - 本地優先的智慧體記憶：以 Markdown Obsidian 庫為真相源，外加可重建的 DuckDB 索引，實現 BM25、向量與圖混合回憶。"
+  },
+  {
+    "line": 2656,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cdeust/Cortex) 🐍 🏠 🍎 - 受神經科學啟發的 Claude Code 記憶，基於 PostgreSQL/pgvector：衰減、鞏固、預測編碼寫入門控與生命週期鉤子。"
+  },
+  {
+    "line": 2657,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/contradictory-body/cc-sensei) 📇 🏠 🍎 🪟 🐧 - 將 Claude Code 原始碼作為可查詢的架構模組進行探索：追蹤橫切關注點、搜尋模式並本地閱讀原始碼。"
+  },
+  {
+    "line": 2658,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/terrizoaguimor/celiums-memory) 📇 🏠 ☁️ 🍎 🪟 🐧 - 具知識模組、晝夜節律感知、情緒狀態追蹤、PostgreSQL/Qdrant 混合搜尋與逐使用者隔離的認知記憶引擎。"
+  },
+  {
+    "line": 2659,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cg3-llc/prior_mcp) 📇 ☁️ - 智慧體交換已驗證方案與失敗嘗試的共享知識庫，從而跳過已知的死衚衕。"
+  },
+  {
+    "line": 2660,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Cavinooo/claude-find) 📇 🏠 🍎 - 按需從你所有 Claude Code 會話中檢索記憶。"
+  },
+  {
+    "line": 2661,
+    "translated": "- @@L0@@ - 用 AI 提示詞查詢並總結你的聊天訊息。"
+  },
+  {
+    "line": 2662,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vshulcz/deja-vu) 🏎️ 🏠 🍎 🪟 🐧 - 覆蓋 Claude Code、Codex CLI 與 opencode 會話歷史的本地記憶：詞法搜尋、會話開始自動回憶、金鑰脫敏與 SSH 同步。"
+  },
+  {
+    "line": 2663,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ZengLiangYi/ChatCrystal) 📇 🏠 🍎 🪟 🐧 - 本地優先的 AI 程式設計對話記憶：將程式設計助手聊天匯入筆記，具語義搜尋、標籤圖與 Markdown 匯出。"
+  },
+  {
+    "line": 2664,
+    "translated": "- @@L0@@ 📇 🏠 - 聚焦於 AI 角色扮演與故事生成的圖譜式記憶。"
+  },
+  {
+    "line": 2665,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ChevalGrand520/local-gpu-imagegen) 🐍 🏠 🍎 🪟 🐧 - 需確認門控的本地 GPU 影象生成（基於 ComfyUI）：SHA-256 模型身份、顯式許可批准、證據留存與人機協同執行。"
+  },
+  {
+    "line": 2666,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ChrisGVE/workspace-qdrant-mcp) 🦀 📇 🏠 🍎 🪟 🐧 - 程式設計助手的專案級記憶：用 tree-sitter 分塊、LSP 整合與混合搜尋將專案程式碼與文件索引到 Qdrant。"
+  },
+  {
+    "line": 2667,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cipherfoxie/sovereign-mcp) 🐍 ☁️ 🐧 - 搜尋並閱讀關於 NVIDIA DGX Spark 上自託管 AI 的 Sovereign AI Blog，並校驗 GB10 硬體的 SGLang 配置。"
+  },
+  {
+    "line": 2668,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/CodeAbra/iai-mcp) 🐍 🏠 🍎 🪟 🐧 - 具情景、語義與程式三層的本地記憶守護程序，使用 SQLite 與 hnswlib 儲存、睡眠週期式鞏固，以及靜態 AES-256-GCM 加密。"
+  },
+  {
+    "line": 2669,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 具分層儲存、上下文健康監控、推理質量檢查與真實性驗證的會話記憶。"
+  },
+  {
+    "line": 2670,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alfredoizdev/contextforge-mcp) 📇 ☁️ - 具語義搜尋、Git 提交/PR 同步、基於專案的組織與團隊協作的程式設計助手持久記憶。"
+  },
+  {
+    "line": 2671,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/contextium-io/contextium-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - AI 工具的共享團隊上下文：提供帶版本、有許可權的知識、編碼規範、技能與智慧體，一次呼叫載入完整工作流。"
+  },
+  {
+    "line": 2672,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yonro/memory-os-cli) 📇 ☁️ - XMemo：使用者自有的智慧體記憶，用於跨 AI 工具儲存、搜尋、回憶與管理限定範圍的記憶。"
+  },
+  {
+    "line": 2673,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/contextstream/mcp-server) 📇 ☁️ 🍎 🪟 🐧 - 具語義程式碼搜尋、知識圖譜、影響分析與決策追蹤的 AI 程式設計工具持久記憶。"
+  },
+  {
+    "line": 2674,
+    "translated": "- @@L0@@ 📇 🏠 - 在 Claude Desktop 各專案之間及跨 MCP 客戶端交接對話上下文，存於記憶而非檔案。"
+  },
+  {
+    "line": 2675,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 基於著名創始人與投資人（如埃隆·馬斯克、沃倫·巴菲特、史蒂夫·喬布斯）的口吻、框架與原則，與其 AI 人格聊天。"
+  },
+  {
+    "line": 2676,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dcostenco/BCBA) 📇 🏠 🍎 🪟 🐧 - 本地 SQLite 智慧體記憶，含 Web 儀表盤、會話回放/重演、跨客戶端記憶共享、晨間簡報與漸進式上下文載入。"
+  },
+  {
+    "line": 2677,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/darktw/usecortex-mcp) ☁️ - 智慧體的持久知識記憶：將上下文讀入專案並寫回發現，按主題組織並以 AES-256 加密。"
+  },
+  {
+    "line": 2678,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidgut1982/lore-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 智慧體的持久知識層：知識庫、調查執行緒與帶多智慧體歸屬的日誌，執行於 SQLite、PostgreSQL 或 Supabase。"
+  },
+  {
+    "line": 2679,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dbwls99706/deadends.dev) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 程式碼錯誤與國家特定規則（簽證、銀行、法律）的已知死衚衕：看似正確卻會失敗的補丁，以及帶成功率的變通方案。"
+  },
+  {
+    "line": 2680,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/decisionnode/DecisionNode) 📇 🏠 🍎 🪟 🐧 - 以結構化 JSON 記錄開發決策，用 Gemini 嵌入並在跨 AI 工具共享的本地儲存中語義搜尋。"
+  },
+  {
+    "line": 2681,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/giuliohome-org/doc-manager) 🦀 ☁️ - 基於 Azure Blob Storage 的個人文件庫：讀寫並搜尋純文字文件，而客戶端 AES-256-GCM 加密文件保持不透明。"
+  },
+  {
+    "line": 2682,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Destrayon/Connapse) #️⃣ 🏠 🍎 🪟 🐧 - 自託管的智慧體知識後端，具向量與關鍵詞混合搜尋以及容器隔離的索引。"
+  },
+  {
+    "line": 2683,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dengls24/annota) 🐍 🏠 - 在 Zotero 中批註論文：用語義色彩編碼高亮關鍵發現、解釋公式並撰寫結構化閱讀筆記。"
+  },
+  {
+    "line": 2684,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 - 捕獲螢幕活動、本地儲存 AI 摘要與 OCR 文字，並透過語義搜尋與時間線公開歷史的桌面應用。"
+  },
+  {
+    "line": 2685,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dnotitia/akb) 🐍 📇 🏠 🍎 🪟 🐧 - 組織級知識庫：由 URI 圖關聯的 Markdown 文件、PostgreSQL 表與檔案，具混合搜尋、Git 歷史與多租戶 ACL。"
+  },
+  {
+    "line": 2686,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - 自託管的文件索引器，以語義搜尋向智慧體提供來自多種來源的文件。"
+  },
+  {
+    "line": 2687,
+    "translated": "- @@L0@@ 📇 🏠 - 向 AI 模型提供持久、特定於工具的上下文與規則的靜態伺服器。"
+  },
+  {
+    "line": 2688,
+    "translated": "- @@L0@@ 📇 🏠 - 具語義搜尋、持久儲存與自主記憶鞏固的記憶服務。"
+  },
+  {
+    "line": 2689,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dot-RealityTest/obsidian-codex-mcp) 🐍 🏠 🍎 🪟 🐧 - 直接基於 Markdown 檔案、無需 Obsidian 應用或外掛的本地 Obsidian 庫訪問，含只讀模式、寫時備份與路徑隔離。"
+  },
+  {
+    "line": 2690,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server) 📇 🏠 🍎 🪟 🐧 - 供 AI 客戶端複用的角色、技能、模板、智慧體與記憶，具動態許可權、版本化與可分享內容的公共集合。"
+  },
+  {
+    "line": 2691,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DomDemetz/claude-soul) 📇 🏠 🍎 🐧 - Claude Code 的學習引擎：從會話抽取訊號、執行週期性反思，並基於證據提升或淘汰行為框架。"
+  },
+  {
+    "line": 2692,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dshakes/distil) 🐍 🏠 - 將大型工具輸出可逆壓縮為可恢復控制代碼，按需展開，並在本地追蹤 token 與成本節省。"
+  },
+  {
+    "line": 2693,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/edobusy/agenthold) 🐍 🏠 🍎 🪟 🐧 - 帶樂觀併發控制、用於協調併發智慧體的共享帶版本狀態儲存，外加 SQLite 支撐的佔用/釋放鎖與審計日誌。"
+  },
+  {
+    "line": 2694,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/elvismdev/mem0-mcp-selfhosted) 🐍 🏠 🍎 🪟 🐧 - 自託管的 Claude Code 版 mem0：Qdrant 向量搜尋、Neo4j 知識圖譜、Ollama 嵌入，以及自動跨會話記憶的會話鉤子。"
+  },
+  {
+    "line": 2695,
+    "translated": "- @@L0@@ 🐍 🏠 - 卡片盒（Zettelkasten）知識管理：建立、關聯並搜尋原子筆記。"
+  },
+  {
+    "line": 2696,
+    "translated": "- @@L0@@ 🐍 🏠 - 三層智慧體記憶（身份、活躍、歸檔），具語義搜尋、圖關係與衝突檢測。"
+  },
+  {
+    "line": 2697,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/giskard09/giskard-oasis) 🐍 🏠 - 透過提煉原始目標讓迷失執行緒的智慧體重新聚焦，按次付費，透過 Lightning 或 Arbitrum 結算。"
+  },
+  {
+    "line": 2698,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 使用 SQLite FTS5 的跨 Claude Code 會話持久、可搜尋上下文儲存，含 AI 會話摘要、檢查點恢復與 Web 儀表盤。"
+  },
+  {
+    "line": 2699,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/majiayu000/remem) 🦀 🏠 🍎 🐧 - Claude Code 與 Codex 的本地優先記憶：鉤子捕獲會話，LLM 將其提煉到 SQLite，具可審計的全文與嵌入回憶。"
+  },
+  {
+    "line": 2700,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MakeaMouse/fish-bridge-mcp) 🐍 🏠 🍎 🪟 🐧 - 將 AI 聊天會話壓縮為緊湊的型別化知識圖譜，可選透過 Ollama 離線提取。"
+  },
+  {
+    "line": 2701,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@entire-vc/evc-team-relay-mcp) - 在你的 Obsidian 庫中讀寫筆記。"
+  },
+  {
+    "line": 2702,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dl4rce/flaiwheel) 🐍 🏠 🍎 🪟 🐧 - 程式設計智慧體的自託管記憶與治理：結構化知識捕獲、帶重排序的混合搜尋、程式碼庫分析與 git 原生儲存。"
+  },
+  {
+    "line": 2703,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fabio-rovai/open-ontologies) 🦀 🏠 - 面向 OWL、RDF 與 SPARQL 的本體工程：在 Oxigraph 三元組庫上校驗、查詢、diff、lint、版本化與治理知識圖譜。"
+  },
+  {
+    "line": 2704,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/grooverLab/fable) 🐍 🏠 🍎 🐧 - 對 Claude Code 轉錄歷史的全文與語義搜尋，具精確執行緒回憶與本地 SQLite 中的持久記憶事實。"
+  },
+  {
+    "line": 2705,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fenghaochang/LoreRoom) 📇 🏠 🍎 - 面向 Claude Code Telegram 機器人的加密本地記憶：捕獲對話雙方，具 SQLCipher 加密與對中日韓友好的全文搜尋。"
+  },
+  {
+    "line": 2706,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/FilippoPilo/cortex-connector) 📇 ☁️ - 具質量門控寫入、型別化宣告、衝突追蹤與一致性評分的持久語義智慧體記憶。"
+  },
+  {
+    "line": 2707,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gamosoft/NoteDiscovery) 🐍 🏠 🍎 🪟 🐧 - 帶 Web UI 的自託管 Markdown 知識庫：搜尋、閱讀、建立、編輯、打標籤與模板化筆記。"
+  },
+  {
+    "line": 2708,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/geondongkim/geond-agent-protocol) 🐍 🏠 ☁️ 🍎 🪟 🐧 - 基於 PostgreSQL/pgvector 的程式設計智慧體本地優先共享記憶與協調：倉庫證據、預留、交接與程式碼圖上下文。"
+  },
+  {
+    "line": 2709,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gingugu/gingugu) 🐍 🏠 🍎 🪟 🐧 - 程式設計助手的本地 SQLite 記憶：帶置信度生命週期、名稱空間、知識圖譜、混合搜尋與鑰匙串憑據庫的型別化記憶。"
+  },
+  {
+    "line": 2710,
+    "translated": "- @@L0@@ 📇 🏠 - 在 GitHub Gist 中管理個人知識、每日筆記與可複用提示詞，作為 GistPad 的配套工具。"
+  },
+  {
+    "line": 2711,
+    "translated": "- @@L0@@ 📇 ☁️ - 智慧體搜尋、釋出並解鎖已解決問題、為共享方案賺取令牌的知識市場。"
+  },
+  {
+    "line": 2712,
+    "translated": "- @@L0@@ 📇 ☁️ - 將來自 Slack、Discord、網站、Google Drive、Linear 或 GitHub 的內容攝取到 Graphlit 專案，然後搜尋並檢索相關知識。"
+  },
+  {
+    "line": 2713,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/lego-oracle) 📇 🏠 - 來自 Rebrickable 的樂高套裝、零件、人仔與清單：搜尋並比較套裝、按顏色查詢零件、瀏覽主題並發現替代拼搭。"
+  },
+  {
+    "line": 2714,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/brewers-almanack) 📇 🏠 - 釀造知識：BJCP 2021 啤酒風格、啤酒花品種、麥芽、酵母、水質剖面、異味診斷、配方建議與食物搭配。"
+  },
+  {
+    "line": 2715,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/3dprint-oracle) 📇 🏠 🍎 🪟 🐧 - 來自 SpoolmanDB 的 3D 列印耗材知識庫：搜尋耗材、比較材料特性與列印設定，並診斷列印問題。"
+  },
+  {
+    "line": 2716,
+    "translated": "- @@L0@@ 🐍 🏠 - 透過向量搜尋檢索並處理文件，以相關文件上下文增強回答。"
+  },
+  {
+    "line": 2717,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HBarefoot/engram) 📇 🏠 🍎 🪟 🐧 - 基於 SQLite 的離線持久智慧體記憶，具本地嵌入、語義與全文混合回憶、金鑰檢測與矛盾處理。"
+  },
+  {
+    "line": 2718,
+    "translated": "- @@L0@@ 🐍 ☁️ 🍎 🪟 🐧 - 訪問 AWS 上的 RAGStack 無伺服器知識庫：搜尋、與 AI 回答聊天、上傳文件與媒體、抓取網站並分析後設資料。"
+  },
+  {
+    "line": 2719,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hermes-labs-ai/fidelis) 🐍 🏠 🍎 🐧 - 本地優先的記憶，具逐字回憶、查詢、健康檢查與上下文敏感定位，預設使用無 LLM 檢索。"
+  },
+  {
+    "line": 2720,
+    "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - 基於雲的 Claude Code 持久記憶，具語義搜尋、AI 抽取與專案範圍限定。"
+  },
+  {
+    "line": 2721,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hjqcan/GoodMemory) 📇 🏠 - 本地優先、可審計的記憶，在 SQLite 或 Postgres 中按使用者/專案範圍儲存，預設只讀回憶，以及可選擇稽核的寫回。"
+  },
+  {
+    "line": 2722,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hoornet/agentdocs-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 閱讀、建立、更新、評論並分享 AgentDocs 的 Markdown 文件，具全文與語義搜尋。"
+  },
+  {
+    "line": 2723,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hubinoretros/deep-thinker) 📇 🏠 🍎 🪟 🐧 - 透過 DAG 思維圖進行推理，支援多種策略（辯證、類比、溯因等）、卡住檢測、置信度評分與自我批評。"
+  },
+  {
+    "line": 2724,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hyunjae-labs/lore) 📇 🏠 🍎 🪟 🐧 - 跨 Claude Code 對話的本地語義搜尋，具向量與關鍵詞混合搜尋、後臺索引與按專案選擇。"
+  },
+  {
+    "line": 2725,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DanceNitra/inspeximus) 🐍 🏠 🍎 🪟 🐧 - 帶糾錯通道的智慧體記憶：取代或回滾過時事實、阻止重申的舊值，並以簽名墓碑證明刪除。"
+  },
+  {
+    "line": 2726,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/idapixl-algora-mcp-server) 📇 ☁️ - 瀏覽並搜尋 Algora 上的開源賞金，按組織、技術或金額篩選，獲取熱門賞金與彙總統計。"
+  },
+  {
+    "line": 2727,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/IgorGanapolsky/mcp-memory-gateway) 📇 🏠 - 動作前門控，透過將捕獲的反饋與失敗轉為經鉤子強制執行的規則，防止程式設計智慧體重複已知錯誤。"
+  },
+  {
+    "line": 2728,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Ikalus1988/MisakaNet) 🐍 🏠 🍎 🪟 🐧 - 智慧體失敗記憶：搜尋來自真實工程會話、已驗證的除錯經驗。"
+  },
+  {
+    "line": 2729,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/irisxc4/memoryguard) 🐍 🏠 🍎 🪟 🐧 - 帶 CLI 與桌面控制檯的本地優先受治理共享記憶，供程式設計智慧體使用：分類、去重、取代、隔離與回滾記憶。"
+  },
+  {
+    "line": 2730,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zsxh1990/pr-genius) 🐍 🏠 - 基於真實倉庫案例研究的拉取請求貢獻顧問：合併機率分析、模式匹配與貢獻策略。"
+  },
+  {
+    "line": 2731,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jaimenbell/rag-mcp) 🐍 🏠 - 對文件語料進行向量搜尋並返回帶引用段落的極簡本地 RAG。"
+  },
+  {
+    "line": 2732,
+    "translated": "- @@L0@@ 📇 🏠 - 跨 LLM 通訊與記憶共享，使不同 AI 模型能跨對話協作並共享上下文。"
+  },
+  {
+    "line": 2733,
+    "translated": "- @@L0@@ 📇 🏠 - 在 MongoDB 中儲存並檢索來自多個 LLM 的對話記憶，帶時間戳與 LLM 標識。"
+  },
+  {
+    "line": 2734,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/japlete/md-vision-mcp) 📇 🏠 🍎 🪟 🐧 - 讀取內聯圖片與標題索引的 Markdown，用於本地文件或白名單 URL 上的智慧體 RAG。"
+  },
+  {
+    "line": 2735,
+    "translated": "- @@L0@@ 🏎️ ☁️ 🐧 - 使用 DuckDB 與 VoyageAI 的簡易程式設計智慧體記憶。"
+  },
+  {
+    "line": 2736,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jagoff/memo) 🐍 🏠 🍎 🐧 - 本地優先的語義記憶：混合搜尋、Markdown 儲存、MLX 或 CPU 嵌入、矛盾檢測、時間旅行歷史與跨機器 git 同步。"
+  },
+  {
+    "line": 2737,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JinNing6/Noosphere) 🐍 ☁️ - 具語義搜尋、三維互動地球與自動內容稽核的洞見、決策、警告與模式共享社群倉庫。"
+  },
+  {
+    "line": 2738,
+    "translated": "- @@L0@@ 📇 🏠 - 將 Markdown 轉換為互動式 markmap 思維導圖，支援 PNG/JPG/SVG 匯出與實時瀏覽器預覽。"
+  },
+  {
+    "line": 2739,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/junnnnnw00/obsidian-everywhere) 📇 🏠 🍎 🪟 🐧 - 圖譜原生的 Obsidian 庫訪問：搜尋、反向連結、N 跳鄰域、分頁讀取，以及帶 dry-run 與回滾的安全域性部與批次編輯。"
+  },
+  {
+    "line": 2740,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@kael-bit/engram-rs) 📇 🏠 🍎 🪟 🐧 - 具自動衰減、提升、語義去重與自組織主題樹的層級智慧體記憶引擎。"
+  },
+  {
+    "line": 2741,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kage-core/Kage) 📇 🏠 🍎 🪟 🐧 - 程式設計智慧體的 git 原生記憶：倉庫中的 JSON 條目，對照引用的程式碼驗證，從而拒絕幻覺引用並 withholding 過時記憶。"
+  },
+  {
+    "line": 2742,
+    "translated": "- @@L0@@ 📇 ☁️ - 使用你 Zotero 雲圖書館中的收藏與來源。"
+  },
+  {
+    "line": 2743,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/khwanlabs/khwan-mcp) 🐍 ☁️ 🍎 🪟 🐧 - 圍繞糾錯構建的程式設計智慧體記憶：將你的糾錯提煉為後續會話的常駐規則，每個專案隔離記憶。"
+  },
+  {
+    "line": 2744,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/krimto-labs/krimto) 📇 🏠 - 以 Markdown 存於 git 的程式設計智慧體團隊記憶，具使用者、團隊與組織訪問級別，以及 SQLite/sqlite-vec 混合檢索。"
+  },
+  {
+    "line": 2745,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Krzysztof318/MailFathom) #️⃣ 🏠 🐧 - 自託管電子郵件搜尋：將 IMAP 郵箱同步到 PostgreSQL，以列舉、搜尋、閱讀郵件並就歸檔內容提出帶引用的提問。"
+  },
+  {
+    "line": 2746,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kunickiaj/codemem) 📇 🏠 - 跨會話、跨機器、跨隊友的持久程式設計記憶，具記憶搜尋、可選同步、專案共享與自動捕獲。"
+  },
+  {
+    "line": 2747,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kunwar-shah/claudex) 📇 🏠 🍎 🪟 🐧 - 對索引到 SQLite 的 Claude Code 對話歷史的持久記憶與全文搜尋，含會話摘要與用於探索的 Web UI。"
+  },
+  {
+    "line": 2748,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/renezander030/agentic-task-system) 📇 🏠 - 將你的工作管理員轉為智慧體記憶，對 TickTick 或 Obsidian 庫進行混合檢索，無需獨立向量資料庫。"
+  },
+  {
+    "line": 2749,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/KVANTRA-dev/NOUZ-MCP) 🐍 🏠 🍎 🪟 🐧 - 面向 Obsidian 的語義知識圖譜，具圖、分類與層級模式，本地嵌入、語義橋發現與漂移檢測。"
+  },
+  {
+    "line": 2750,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/leesgit/passbaton) 📇 🏠 🍎 🪟 🐧 - 跨 Claude Code、Codex CLI 與 Gemini CLI 的本地會話連續性：啟動時上下文注入、壓縮交接、記憶、任務與多語言搜尋。"
+  },
+  {
+    "line": 2751,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lfrmonteiro99/memento-mcp) 📇 🏠 🍎 🪟 🐧 - 本地優先的程式設計智慧體記憶：在 SQLite 中儲存事實、決策、模式與架構筆記，以減少跨會話的重複上下文。"
+  },
+  {
+    "line": 2752,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Lians-ai/Lians) 🐍 🏠 🍎 🪟 🐧 - 雙時態智慧體記憶，具確定性事實更替、時間點回憶、記憶譜系、衝突追蹤與防篡改審計軌跡。"
+  },
+  {
+    "line": 2753,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/liftkkkk/owl-mcp) 🐍 🏠 - 處理 OWL/TTL/RDF 本體：SPARQL 查詢、HermiT/Pellet 推理，以及對知識圖譜的 CRUD 操作。"
+  },
+  {
+    "line": 2754,
+    "translated": "- @@L0@@ 📇 🏠 ☁️ - 使用《法華經》框架的沉思式問題解決：多視角推理、善巧方便、非二元認知與冥想停頓。"
+  },
+  {
+    "line": 2755,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/knaisoma/data-olympus) 🐍 🏠 🍎 🪟 🐧 - 程式設計智慧體的 git 原生 Markdown 知識庫，區分提議與已接受指南、具有效期視窗、更替鏈與狀態感知檢索。"
+  },
+  {
+    "line": 2756,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lithtrix/lithtrix-mcp) 📇 ☁️ 🍎 🪟 🐧 - 持久跨廠商智慧體記憶，具可信度評分的網頁搜尋、瀏覽器抓取，以及在單一穩定金鑰下的共享 Commons 池。"
+  },
+  {
+    "line": 2757,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 透過檔案系統訪問在本地 Obsidian 庫中建立、讀取、更新與搜尋筆記。"
+  },
+  {
+    "line": 2758,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LuizEduPP/Rememb) 🐍 🏠 🍎 🪟 🐧 - 本地 JSON 中的持久智慧體記憶，含分節條目（專案、使用者、上下文）、語義搜尋、CLI 與按專案範圍。"
+  },
+  {
+    "line": 2759,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lyonzin/knowledge-rag) 🐍 🏠 🍎 🪟 🐧 - 面向 Claude Code 的離線 RAG，具 BM25 與語義混合搜尋、交叉編碼器重排序、Markdown 感知分塊與查詢擴充套件。"
+  },
+  {
+    "line": 2760,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/markmhendrickson/neotoma) 📇 🏠 🍎 🪟 🐧 - 智慧體的確定性狀態層：本地 SQLite 中帶不可變觀察與來源的版本化實體（聯絡人、任務、決策）。"
+  },
+  {
+    "line": 2761,
+    "translated": "- @@L0@@ 🐍 🏠 - 用於面試準備、個人反思與輔導的結構化、以人格為驅動的會話，帶計時器與表現評估。"
+  },
+  {
+    "line": 2762,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/max-ramas/rms-memory-mcp) 🦀 🏠 🍎 🐧 🪟 - 本地優先的程式設計智慧體記憶：LanceDB/Tantivy 混合搜尋、Markdown 與程式碼索引、按專案保險庫，以及低置信度時 abstain 的回憶。"
+  },
+  {
+    "line": 2763,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/maxkuminov/obsidian-mcp) 🐍 🏠 🍎 🪟 🐧 - 自託管 Obsidian 伺服器：PostgreSQL/pgvector 上的語義與全文搜尋、維基連結圖遍歷、原子筆記 CRUD 與自描述庫指南。"
+  },
+  {
+    "line": 2764,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 程式設計智慧體的持久分形圖記憶：語義搜尋、熱/冷/歸檔上下文分層與 Qdrant 上的決策追蹤。"
+  },
+  {
+    "line": 2765,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/udjin-labs/mnemostack) 🐍 🏠 🍎 🪟 🐧 - 自託管的 Qdrant 混合智慧體記憶，結合向量搜尋、BM25、時間檢索，以及透過排序融合的可選 Memgraph 知識圖譜。"
+  },
+  {
+    "line": 2766,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tverney/mcp-agent-memory) 📇 🏠 🍎 - 基於檔案系統的持久智慧體記憶：智慧體讀寫並搜尋記憶，後臺守護程序負責鞏固與抽取。"
+  },
+  {
+    "line": 2767,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/memstate-ai/memstate-mcp) 📇 ☁️ - 帶版本的、結構化的智慧體記憶，以 keypath 儲存事實，具完整版本歷史與自動衝突檢測。"
+  },
+  {
+    "line": 2768,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 兩層記憶（熱快取與冷語義搜尋），提升常用模式、從 Claude 輸出抽取知識並將其關聯為圖。"
+  },
+  {
+    "line": 2769,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/michielinksee/linksee-memory) 📇 🏠 🍎 🪟 🐧 - 單個 SQLite 檔案中的本地優先跨智慧體記憶，具分層結構、艾賓浩斯式遺忘，以及檢測程式碼偏離過往決策。"
+  },
+  {
+    "line": 2770,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 透過 Counsel API 進行戰略推理、多視角辯論分析與互動式顧問會話。"
+  },
+  {
+    "line": 2771,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mlorentedev/hive) 🐍 🏠 🍎 🪟 🐧 - 按需 Obsidian 庫訪問：自適應上下文載入、全文與排名搜尋、健康檢查、自動 git 提交與委派到更廉價模型。"
+  },
+  {
+    "line": 2772,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TheGoatPsy/mneme) 🐍 🏠 🍎 🪟 🐧 - 庫原生的、可問責的 Claude Code 記憶：Markdown 為真相源，Stop 路徑上無 LLM，且任何派生儲存前先脫敏。"
+  },
+  {
+    "line": 2773,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mnlt/wellread) 📇 ☁️ - 跨智慧體的共享研究快取：複用來自已驗證來源的答案，或為下一位開發者儲存新研究。"
+  },
+  {
+    "line": 2774,
+    "translated": "- @@L0@@ 📇 🏠 - 用於維持上下文的、基於知識圖譜的持久記憶。"
+  },
+  {
+    "line": 2775,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DuhoKim/NebulaMind) 🐍 ☁️ - 由 AI 智慧體協作編寫的 astronomy 天文 Wiki，智慧體可透過開放 API 註冊、閱讀、編輯、投票與評論。"
+  },
+  {
+    "line": 2776,
+    "translated": "- @@L0@@ 📇 ☁️ - 由多個開發者共享、落地於工作區的知識圖譜，託管於 Azure Functions 並使用 Table 儲存。"
+  },
+  {
+    "line": 2777,
+    "translated": "- @@L0@@ 🏎️ 🏠 🍎 🪟 🐧 - 以單一二進位制分發的本地、無依賴記憶伺服器。"
+  },
+  {
+    "line": 2778,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@n24q02m/mnemo-mcp) 🐍 🏠 🍎 🪟 🐧 - 具 SQLite 混合搜尋（FTS5 與語義）、內建 Qwen3 嵌入與跨機器 rclone 同步的持久記憶。"
+  },
+  {
+    "line": 2779,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ndjordjevic/pinrag) 🐍 🏠 - 對 PDF、YouTube 影片、GitHub 倉庫與 Discord 匯出的 RAG：索引文件並帶引用查詢。"
+  },
+  {
+    "line": 2780,
+    "translated": "- @@L0@@ 📇 🏠 ☁️ 🍎 🪟 🐧 - 程式設計智慧體的持久共享記憶：事實以實體/鍵/值三元組儲存，具混合語義搜尋、任務檢查點與衝突解決。"
+  },
+  {
+    "line": 2781,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NicolasPrimeau/artel) 🐍 🏠 🍎 🪟 🐧 - 代理群的自我託管協調：共享語義記憶、任務、智慧體間訊息、會話交接與跨智慧體知識綜合。"
+  },
+  {
+    "line": 2782,
+    "translated": "- @@L0@@ 🐍 🏠 - 使 Markdown 文件可搜尋：將其載入 SQLite 或 PostgreSQL，提供關鍵詞搜尋與可選的 pgvector 混合語義搜尋。"
+  },
+  {
+    "line": 2783,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🐧 - 用於 RAG 的本地 FAISS 向量資料庫，具文件攝取（PDF、TXT、MD、DOCX）、語義搜尋、重排序，以及用於索引與查詢的 CLI 工具。"
+  },
+  {
+    "line": 2784,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nworks3d/THOR-memory-bible-for-AI) 🦀 🏠 🪟 🐧 - 程式設計智慧體的本地記憶，其中帶機器可驗證證明的規則會阻斷匹配命令，外加僅追加事件日誌與按專案範圍。"
+  },
+  {
+    "line": 2785,
+    "translated": "- @@L0@@ 🏎️ ☁️ 🏠 🍎 🪟 🐧 - 連線到任意 MediaWiki Wiki（Wikipedia、Fandom、企業 Wiki），搜尋、閱讀與編輯頁面、分析連結、檢視修訂歷史並轉換為 Markdown。"
+  },
+  {
+    "line": 2786,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 具語義搜尋、自動捕獲、跨會話學習與智慧遺忘的本地優先持久程式設計智慧體記憶。"
+  },
+  {
+    "line": 2787,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ontorata/ratary) 📇 🏠 ☁️ 🍎 🪟 🐧 - 具混合搜尋、知識圖譜與 token 高效上下文的 AI 助手持久程式設計記憶，可自託管於 D1、Postgres、MariaDB 或 Docker。"
+  },
+  {
+    "line": 2788,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/oomkapwn/enquire-mcp) 📇 🏠 🍎 🪟 🐧 - 由本地 Obsidian 庫支撐的長期智慧體記憶：帶重排序的混合檢索、智慧體 RAG、維基連結社群檢測、Obsidian Bases 與 PDF OCR。"
+  },
+  {
+    "line": 2789,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AgentBase1/mcp-server) 📇 ☁️ - AgentBase：開放的智慧體指令檔案登錄檔。搜尋並檢索系統提示詞、技能、工作流、領域包與安全過濾器。"
+  },
+  {
+    "line": 2790,
+    "translated": "- @@L0@@ 🐍 ☁️ - 搜尋你的 Mendeley 圖書館、瀏覽資料夾、獲取文件後設資料、搜尋全球目錄並將論文新增到收藏。"
+  },
+  {
+    "line": 2791,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/paladini/mcp-me) 📇 🏠 🍎 🪟 🐧 - AI 工具的數字身份：你的簡介、職業、技能與專案存於本地 YAML 檔案，由 GitHub、Medium、Strava 等公開 API 自動生成。"
+  },
+  {
+    "line": 2792,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Patdolitse/piia-engram) 🐍 🏠 🍎 🪟 🐧 - 跨 AI 工具的持久使用者身份：偏好、經驗與決策存於本地 JSON，具分階段驗證、AES-256-GCM 加密與跨工具同步。"
+  },
+  {
+    "line": 2793,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pavelpilyak/devrecall) 🏎️ 🏠 🍎 🐧 - 本地優先地索引你的提交、PR、Jira/Linear 工單、Confluence 文件、Slack 討論與日曆事件，以搜尋並引用過往工作。"
+  },
+  {
+    "line": 2794,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 安全加固的 Google NotebookLM 訪問：基於會話的對話、筆記本庫管理與來源依據回答，具後量子加密。"
+  },
+  {
+    "line": 2795,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pathrule/mcp) 📇 ☁️ - 來自 Pathrule 工作區的、按路徑範圍的團隊記憶、規則與技能，供程式設計智慧體使用。"
+  },
+  {
+    "line": 2796,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/paultaki/ailooplibrary-mcp) 🐍 🏠 ☁️ - 只讀的 AI Loop Library 目錄，收錄有界的智慧體工作迴圈：為目標選取一個並渲染含驗證、停止條件與預算的執行協議。"
+  },
+  {
+    "line": 2797,
+    "translated": "- @@L0@@ 📇 🦀 🏠 🍎 🐧 🪟 - 程式設計助手的累積記憶與模式學習，具用於語義程式碼庫分析的本地 SQLite/SurrealDB 儲存。"
+  },
+  {
+    "line": 2798,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/penfieldlabs/penfield-mcp) 🐍 ☁️ 🐍 ☁️ - Penfield：具 BM25/向量/圖混合搜尋、型別化圖關係、上下文檢查點、產物儲存與人格系統的持久記憶。"
+  },
+  {
+    "line": 2799,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Piccolo123/url-manager-mcp) 📇 🐍 🏠 🍎 🪟 🐧 - 書籤與知識管理器，智慧體可儲存網頁並自動歸類到集合，具搜尋、標籤與共享資料夾。"
+  },
+  {
+    "line": 2800,
+    "translated": "- @@L0@@ 🎖️ 🦀 ☁️ - 連線到你的 Pinecone Assistant，並從其知識引擎檢索上下文。"
+  },
+  {
+    "line": 2801,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pipeshub-ai/mcp-server) 📇 🏠 ☁️ - 面向 Google Workspace、Microsoft 365、Slack 與 Jira 等業務應用的、感知許可權的企業搜尋與 RAG。"
+  },
+  {
+    "line": 2802,
+    "translated": "- @@L0@@ 🦀 🏠 🍎 🪟 🐧 - 單個自包含二進位制中的持久語義與基於圖的智慧體記憶，含嵌入式資料庫與模型。"
+  },
+  {
+    "line": 2803,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ProfessionalWiki/MediaWiki-MCP-Server) 📇 ☁️ 🏠 🍎 🪟 🐧 - 閱讀、搜尋並編輯任意 MediaWiki Wiki（含 Wikipedia 與 Fandom），支援多 Wiki，以及 Semantic MediaWiki、Cargo、Wikibase 與 NeoWiki 查詢。"
+  },
+  {
+    "line": 2804,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Rarefied-Earth/groundwork) 📇 ☁️ - 運營小企業所需的公司狀態：品牌、語調、章程、優先順序、模組與技能。"
+  },
+  {
+    "line": 2805,
+    "translated": "- @@L0@@ 📇 ☁️ - 從你的 Ragie 知識庫檢索上下文，該庫已連線 Google Drive、Notion、Jira 等來源。"
+  },
+  {
+    "line": 2806,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ravi-labs/mindmap-mcp-server) 📇 🏠 - 跨 AI 工具的本地優先記憶與上下文交接，具優雅衰減、人格層與可移植記憶護照。"
+  },
+  {
+    "line": 2807,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/remembra-ai/remembra) 🐍 📇 🏠 ☁️ 🍎 🪟 🐧 - 自託管的持久智慧體記憶，具實體解析、PII 檢測、靜態 AES-256-GCM 加密與混合搜尋。"
+  },
+  {
+    "line": 2808,
+    "translated": "- @@L0@@ 🏎️ 🏠 ☁️ 🍎 🪟 🐧 - LLM 驅動的上下文與記憶管理：短長期記憶，具向量、時間線與知識圖譜檢索，外加重排序。"
+  },
+  {
+    "line": 2809,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/riponcm/projectmem) 🐍 🏠 🍎 🪟 🐧 - 本地優先的程式設計智慧體記憶：記錄問題、失敗嘗試、修復與決策，重新注入，並在 git 提交前於重複犯錯時警告。"
+  },
+  {
+    "line": 2810,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Skitchy/rekindle) 📇 🏠 🍎 🪟 🐧 - 會話連續性：含缺口檢測與評分的會話開始報告、結構化的會話結束捕獲，以及 BM25 記憶搜尋，存於本地 SQLite。"
+  },
+  {
+    "line": 2811,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/roampal-ai/roampal-core) 🐍 🏠 - Claude Code 與 OpenCode 的基於結果的持久記憶：有助晉升的記憶被提升，誤導性的被降級。"
+  },
+  {
+    "line": 2812,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@roomi-fields/notebooklm-mcp) 📇 🏠 🍎 🪟 🐧 - 自動化 Google NotebookLM：帶引用的問答、音訊播客、影片、內容生成、來源管理與筆記本庫。"
+  },
+  {
+    "line": 2813,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@rushikeshmore/codecortex) 📇 🏠 🍎 🪟 🐧 - 程式設計智慧體的持久程式碼庫知識：用 tree-sitter 提取的符號、依賴圖、共變更模式與架構決策。"
+  },
+  {
+    "line": 2814,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rwnalds/engram) 📇 🏠 - 面向智慧體的、有 git 支撐且與 Obsidian 相容的 Markdown 第二大腦：搜尋將活躍筆記排在被取代者之上，具逐智慧體令牌與 git 審計軌跡。"
+  },
+  {
+    "line": 2815,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/s60yucca/mnemos) 🏎️ 🏠 🍎 🪟 🐧 - 程式設計智慧體的持久記憶，儲存架構決策、缺陷根因與約定，具全文搜尋與 token 預算化上下文組裝。"
+  },
+  {
+    "line": 2816,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/seanmarkwei/agentram-mcp) 📇 ☁️ - 透過 HTTP API 的鍵值式智慧體記憶，無需嵌入：在共享名稱空間與 TTL 下跨智慧體儲存、檢索、搜尋與共享記憶。"
+  },
+  {
+    "line": 2817,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SagaPeak/artifacta-mcp) 🎖️ 📇 🐍 ☁️ 🍎 🪟 🐧 - 智慧體輸出的產物儲存：跨執行與會話持久化、檢索並共享，具內容雜湊去重與過期共享連結。"
+  },
+  {
+    "line": 2818,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SAIHM-Admin/saihm-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 錨定在 COTI V2 主網的加密持久智慧體記憶：記住、回憶、共享與遺忘，並支援 GDPR 第 17 條刪除權。"
+  },
+  {
+    "line": 2819,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SAIHM-Admin/saihm-mcp-server-pro) 📇 ☁️ 🏠 🍎 🪟 🐧 - 客戶端加密的智慧體記憶，伺服器僅見密文，具後量子身份與共享，以及用於 GDPR 刪除的加密粉碎。"
+  },
+  {
+    "line": 2820,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SaravananJaichandar/world-model-mcp) 🐍 🏠 🍎 🪟 🐧 - 時序程式碼庫知識圖譜，將測試失敗關聯到程式碼變更、學習共編輯模式、預測迴歸風險並實施編輯約束。"
+  },
+  {
+    "line": 2821,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sachitrafa/YourMemory) 🐍 🏠 🍎 🪟 🐧 - 具艾賓浩斯式衰減、BM25/向量混合檢索、用於多跳推理的實體圖、自動剪枝與瀏覽器儀表盤的持久智慧體記憶。"
+  },
+  {
+    "line": 2822,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Schubeler-Consulting/knowmind) 📇 ☁️ - 託管於德國的智慧體記憶與知識圖譜：BM25、向量與 Neo4j 圖混合回憶並帶重排序、型別化關係與雙時態儲存。"
+  },
+  {
+    "line": 2823,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SecurityRonin/alaya) 🦀 🏠 🍎 🪟 🐧 - 受神經科學啟發的本地智慧體記憶，儲存情景、隨時間鞏固知識，並構建具語義回憶的個人知識圖譜。"
+  },
+  {
+    "line": 2824,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SecurityRonin/docx-mcp) 🐍 🏠 🍎 🪟 🐧 - 讀取並編輯 Word（.docx）文件，具修訂跟蹤、threaded 評論、腳註、OOXML 級校驗與文件審計。"
+  },
+  {
+    "line": 2825,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/setheerwagen/local-ai-mcp-servers) 🐍 🏠 - 管理本地模型機：拉取與移除 Ollama 模型、在模型間切換推理服務並執行 LoRA 微調任務。"
+  },
+  {
+    "line": 2826,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sheawinkler/context-lattice) 🏠 🍎 🪟 🐧 🦀 🏎️ - 預設私有的智慧體記憶與上下文層，具跨融合資料後端的階段性檢索與長程上下文連續性。"
+  },
+  {
+    "line": 2827,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/writerslogic/scrivener-mcp) 📇 🏠 🍎 🪟 🐧 - 處理 Scrivener 3 寫作專案：文件管理、寫作分析、語義搜尋、角色與情節記憶，以及內容增強。"
+  },
+  {
+    "line": 2828,
+    "translated": "- @@L0@@ 📇 🏠 - 本地文件搜尋：對 PDF、DOCX、TXT 與 Markdown 檔案進行語義搜尋，使用 LanceDB 向量儲存與本地嵌入。"
+  },
+  {
+    "line": 2829,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ShipItAndPray/mcp-memory) 📇 🏠 🍎 🪟 🐧 - 基於 SQLite 的記憶，具指數衰減：記憶在被訪問時強化、閒置時消退，從而限制無界上下文增長。"
+  },
+  {
+    "line": 2830,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sgx-labs/statelessagent) 🏎️ 🏠 🍎 🪟 🐧 - 具來源追蹤的本地智慧體記憶，可檢測來源何時變更，外加會話交接、決策記錄、語義搜尋與知識圖譜。"
+  },
+  {
+    "line": 2831,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/l33tdawg/s-age) 🏎️ 🏠 🍎 🪟 🐧 - 智慧體的本地機構記憶，其中驗證者間的 BFT 共識在每條記憶提交前予以批准。"
+  },
+  {
+    "line": 2832,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/laradji/deadzone) 🏎️ 🏠 🍎 🐧 - 使用首次啟動時獲取並驗證的預構建、版本固定向量索引，對庫文件進行離線語義搜尋。"
+  },
+  {
+    "line": 2833,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/leonardsellem/hypermnesic) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 以 git 為先的智慧體記憶：Markdown 檔案為真相源，索引可丟棄，寫入為可審查的提交，具混合搜尋與 CLI。"
+  },
+  {
+    "line": 2834,
+    "translated": "- @@L0@@ 🐍 🏠 - 五級 AI 協作系統，透過 MemDocs 實現持久本地優先記憶與預見能力。"
+  },
+  {
+    "line": 2835,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rps321321/obsidian-mcp-pro) 📇 🏠 🍎 🪟 🐧 - Obsidian 庫訪問：全文搜尋、筆記 CRUD、frontmatter 查詢、標籤、反向連結、圖遍歷、孤立與斷鏈檢測，以及畫布支援。"
+  },
+  {
+    "line": 2836,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Semiotronika/LINZA-MCP) 🐍 🏠 🍎 🪟 🐧 - 面向 Markdown 工作區的、需審查門控的 sidecar：將筆記索引到 SQLite，並在審查後才編輯檔案，提出帶證據的連結、領域與記憶。"
+  },
+  {
+    "line": 2837,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - 透過 SSE 的遠端 Obsidian 庫管理：筆記、目錄、frontmatter、標籤、搜尋與連結操作，可使用 Docker 部署。"
+  },
+  {
+    "line": 2838,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yusufkaraaslan/Skill_Seekers) 🐍 🏠 🍎 🪟 🐧 - 將文件、GitHub 倉庫、PDF、影片、Confluence、Notion 與 Slack/Discord 轉為 AI 技能與 RAG 知識，可匯出到 Qdrant 等向量資料庫。"
+  },
+  {
+    "line": 2839,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/stevepridemore/graph-memory) 📇 🏠 ☁️ 🍎 🪟 🐧 - 面向 Claude 的 Neo4j 個人知識圖譜，具型別化實體、雙時態邊、加權衰減、矛盾檢測與本地嵌入。"
+  },
+  {
+    "line": 2840,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SubDownload/subdownload-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - YouTube 知識庫：總結影片、獲取轉錄稿（即使無字幕）、搜尋頻道與播放列表，並儲存結果以跨會話回憶。"
+  },
+  {
+    "line": 2841,
+    "translated": "- @@L0@@ 📇 ☁️ - 使用 Biel.ai 的 RAG 系統從你的產品文件中回答問題。"
+  },
+  {
+    "line": 2842,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/The-40-Thieves/obsidian-tc) 📇 🦀 🏠 🍎 🪟 🐧 - 具基於角色的訪問控制、原生搜尋、多庫支援、可插拔嵌入與 SLSA 來源的 Obsidian 庫訪問。"
+  },
+  {
+    "line": 2843,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/threadctx-dev/threadctx-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - 本地優先的程式設計智慧體共享團隊記憶：決策、修復與坑點按倉庫持久化，並在隊友的智慧體間共享。"
+  },
+  {
+    "line": 2844,
+    "translated": "- @@L0@@ 🏎️ 🏠 🍎 🪟 🐧 - 本地 RAG，對 Markdown 文件進行語義向量搜尋，使用 sqlite-vec 與 multilingual-e5-small 嵌入，可按目錄與檔名過濾。"
+  },
+  {
+    "line": 2845,
+    "translated": "- @@L0@@ 📇 🏠 - 使用圖與向量儲存的 AI 應用及智慧體記憶管理器，可從多種資料來源攝取。"
+  },
+  {
+    "line": 2846,
+    "translated": "- @@L0@@ 📇 ☁️ - 七層遞迴智慧體記憶，具上下文分支、全息回憶、夢境鞏固與鏈上持久化。"
+  },
+  {
+    "line": 2847,
+    "translated": "- @@L0@@ 🐍 🏠 - 可移植、隱私優先的 AI 身份：你的智慧體的主目錄，具檔案管理、技能、簡歷匯入與團隊同步。"
+  },
+  {
+    "line": 2848,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@tstockham96/engram) 📇 🏠 🍎 🪟 🐧 - 具語義回憶、自動鞏固、矛盾檢測與雙時態知識圖譜的智慧體記憶。"
+  },
+  {
+    "line": 2849,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@teampolarity/cosmos-mcp) 📇 ☁️ 🏠 🍎 - 跨 AI 客戶端共享的可移植個人知識圖譜，來源包括 iMessage、瀏覽器歷史、日曆、shell 歷史、Notion 與 Obsidian。"
+  },
+  {
+    "line": 2850,
+    "translated": "- @@L0@@ 🐍 🏠 - AI 智慧體的持久身份：用於驅動器、關係、帶衰減的語義記憶、工作執行緒、習得模式、日誌記錄與預測的伺服器。"
+  },
+  {
+    "line": 2851,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TT-Wang/cortex-plugin) 🐍 🏠 🍎 🐧 - Claude Code 記憶外掛，從過往會話挖掘決策、約定與缺陷修復，存入 Obsidian 庫，並向新會話簡報。"
+  },
+  {
+    "line": 2852,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TyKolt/kremis) 🦀 🏠 🍎 🪟 🐧 - 基於 redb 的本地確定性知識圖譜，無 LLM 或嵌入呼叫，具 BLAKE3 狀態雜湊與用於位元組一致審計的規範匯出。"
+  },
+  {
+    "line": 2853,
+    "translated": "- @@L0@@ 📇 ☁️ - 透過 Membase 以分散式方式儲存並查詢智慧體記憶。"
+  },
+  {
+    "line": 2854,
+    "translated": "- @@L0@@ 📇 ☁️ - 面向 LLM 與 AI 程式碼編輯器的、最新的程式碼文件。"
+  },
+  {
+    "line": 2855,
+    "translated": "- @@L0@@ 🦀 🏠 - 具 Hebbian 學習、三層架構與知識圖譜的認知智慧體記憶，在邊緣裝置離線執行。"
+  },
+  {
+    "line": 2856,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vbcherepanov/total-agent-memory) 🐍 🏠 🍎 🪟 🐧 - 程式設計智慧體的本地記憶：具事實失效的時間知識圖譜、程式與情景記憶、AST 程式碼庫攝取與跨專案類比。"
+  },
+  {
+    "line": 2857,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/samvallad33/vestige) 🦀 🏠 🍎 🪟 🐧 - 本地優先的認知智慧體記憶，具 FSRS-6 排程、智慧攝取、SQLite 儲存、可移植同步、嵌入式儀表盤與可選鉤子。"
+  },
+  {
+    "line": 2858,
+    "translated": "- @@L0@@ 🐍 ☁️ 🏠 - Hindsight：以人類記憶為模型的 AI 智慧體長期記憶。"
+  },
+  {
+    "line": 2859,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vishnu-77/openreflex) 🐍 🏠 🍎 🪟 🐧 - 程式設計智慧體的本地執行記憶：在類似任務前注入有效方案與已知修復，並建議繼續、轉向還是停止。"
+  },
+  {
+    "line": 2860,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vornicx/Midas) 🐍 📇 🏠 🍎 🪟 🐧 - 本地優先的長程智慧體記憶：來源可追溯的回憶、信念修正、選擇性遺忘，以及防止記憶驅動破壞行動的護欄。"
+  },
+  {
+    "line": 2861,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Abhigyan-Shekhar/Waggle-mcp) 🐍 🏠 🍎 🪟 🐧 - 持久圖記憶，將對話中的事實提取為帶本地嵌入的型別化節點，支援時間查詢與衝突檢測。"
+  },
+  {
+    "line": 2862,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/whynowlab/jarvis-orb) 🐍 🏠 - 四層記憶（情景、語義、專案、程式），具時間評分、矛盾檢測、實體追蹤與桌面視覺化 orb。"
+  },
+  {
+    "line": 2863,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wnbhr/being) 📇 ☁️ - 智慧體的個性執行時：跨 AI 客戶端保留的持久記憶、身份（SOUL）與關係。"
+  },
+  {
+    "line": 2864,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Wuesteon/lean-memory) 🐍 🏠 🍎 🪟 🐧 - 每個名稱空間一個 SQLite 檔案的嵌入式本地智慧體記憶：混合檢索、可在任意過去時間查詢的僅追加歷史，以及人工複核的維護。"
+  },
+  {
+    "line": 2865,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TheStack-ai/waypath) 📇 🏠 - 本地優先的程式設計智慧體記憶 CLI：SQLite 支撐的上下文、透過 FTS5 與 RRF 的圖感知回憶，以及帶提升與審查門控的受治理記憶。"
+  },
+  {
+    "line": 2866,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zzhang82/Agent-Memory-Bridge) 🐍 🏠 - 本地優先的程式設計智慧體記憶，將編碼會話轉為可複用的工程記憶：決策、坑點與領域知識。"
+  },
+  {
+    "line": 2867,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/teolex2020-aurasdk) 🐍 🏠 - 離線工作的持久、加密認知記憶。"
+  },
+  {
+    "line": 2868,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@arthurpanhku/arthor-agent) 🐍 🏠 ☁️ - 對文件、問卷與報告的網路安全評估：多格式解析、RAG 知識庫、風險、合規缺口與補救措施。"
+  },
+  {
+    "line": 2869,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Wynelson94/longhand) 🐍 🏠 🍎 🪟 🐧 - Claude Code 的持久本地記憶：將所有會話逐字索引到 SQLite 與 ChromaDB，以跨歷史語義回憶，且無需 API 呼叫。"
+  },
+  {
+    "line": 2870,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yubinkim444/repo-memory) 🐍 🏠 🍎 🪟 🐧 - 同一程式碼庫上 AI 智慧體的、由 git 跟蹤的共享記憶：事實、決策與坑點存於已提交的倉庫目錄，並透過 git 同步。"
+  },
+  {
+    "line": 2871,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/agentcivics/agentcivics) 📇 ☁️ 🏠 🍎 🪟 🐧 - 基於 Sui 的、去中心化的 AI 智慧體民事登記：靈魂繫結身份、鏈上記憶、聲譽與拒絕記錄。"
+  },
+  {
+    "line": 2872,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/STiFLeR7/memex) 🐍 🏠 🍎 🪟 🐧 - 監視 git 倉庫，透過 Graphiti 與 Neo4j 構建模組、符號、決策與未決問題的時序知識圖譜，供 AI 程式設計智慧體使用。"
+  },
+  {
+    "line": 2873,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/xChuCx/agent-memory) 🏎️ 🏠 🍎 🪟 🐧 - 程式設計智慧體的 git 原生專案記憶：倉庫中的 Markdown、可審查的暫存更新、對金鑰/PII 安全且感知分支，無需雲或向量庫。"
+  },
+  {
+    "line": 2874,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/XuebinMa/AIWiki) 📇 ☁️ 🍎 🪟 🐧 - 搜尋並閱讀 AiWiki——一部關於 AI 編碼陷阱與 LLM 隱私保護的英中雙語百科，附引用證據。"
+  },
+  {
+    "line": 2875,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zzallirog/weighted-compact) 🐍 🏠 - Claude Code 的可檢視記憶：對其專案日誌的本地、訊號評分解析進行只讀搜尋與會話壓縮，無出站呼叫。"
+  },
+  {
+    "line": 2876,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tribal-memory/tribal) 🦀 🏠 - 面向工程團隊隱性知識的自託管語義記憶：程式碼背後的決策與推理，可由團隊及其智慧體查詢。"
+  },
+  {
+    "line": 2877,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SVerITG/Metis) 🐍 🏠 🍎 🪟 🐧 - 私人本地研究第二大腦：專案感知記憶、來自你資料庫的帶引用回答、關聯筆記與會議、每日簡報與會議助手。"
+  },
+  {
+    "line": 2878,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/syndicalt/zaxy) 🐍 🏠 🍎 🪟 🐧 - 基於雜湊鏈日誌的事件溯源智慧體記憶，內嵌 Kuzu 時序知識圖譜，具基於顯著性的遺忘與需審查門控的鞏固。"
+  },
+  {
+    "line": 2879,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mnemoverse/mcp-memory-server) 📇 ☁️ - 會學習也會遺忘的託管記憶：反饋對有用記憶重新排序，回憶隨近因衰減，相似記憶相互鞏固。"
+  },
+  {
+    "line": 2880,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zcag/tela) 🏎️ 🏠 ☁️ - 可自託管的 Markdown 團隊 Wiki，智慧體可搜尋、閱讀與寫入，外加 Atlas——從 git 倉庫與 Jira 生成帶引用的 Wiki。"
+  },
+  {
+    "line": 2881,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zuneracodes/localkeep) 🐍 🏠 🍎 🪟 🐧 - 本地優先的按時間順序記憶：在本地 UI 中寫入帶日期、可編輯的記憶庫，Claude 透過 SQLite FTS5 按需回憶。"
+  },
+  {
+    "line": 2882,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/VonderVuflya/Yggdrasil) 🐍 🏠 🍎 🪟 🐧 - 基於 SQLite/FTS5 的本地優先 AI 程式設計智慧體記憶，經整理與語義去重，資料以你擁有的純行儲存。"
+  },
+  {
+    "line": 2883,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/teflon07/memkeeper) 🦀 🏠 🍎 🐧 - 單個 SQLite 檔案中的本地優先 AI 智慧體記憶：BM25 與裝置端嵌入混合搜尋並帶重排序，寧可 abstain 也不返回錯誤記憶。"
+  },
+  {
+    "line": 2884,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yamantaka520/Agent-Memory-OS) 🐍 🏠 🍎 🪟 🐧 - 本地優先的 AI 智慧體團隊記憶：私有、團隊與專案訪問控制、聯想回憶，以及帶撤銷的聯邦同步，外加 Web 控制檯。"
+  },
+  {
+    "line": 2885,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ohad6k/emulo) 🐍 🏠 - 載入從你本地 Claude Code、Codex 與 OpenCode 日誌中挖掘出的個人檔案，使智慧體以你的方式工作。"
+  },
+  {
+    "line": 2886,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ctxfile/ctxfile) 📇 🏠 🍎 🪟 🐧 - 將專案的工作狀態（檔案、git、計劃、決策）快照為一個上下文物件，使會話可在智慧體間流轉。本地且只讀。"
+  },
+  {
+    "line": 2887,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atakanelik34/Bilinc) 🐍 ☁️ 🍎 🪟 🐧 - 帶審計軌跡的託管智慧體記憶：寫入攜帶來源，矛盾作為可檢視變更浮現，錯誤執行可從快照恢復。"
+  },
+  {
+    "line": 2888,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yaminbkk/NexusMem) 📇 🏠 🪟 🐧 - 將失敗的 shell 命令及其退出碼與後續修復手段相關聯，連同 git diff 與文件，本地儲存於 SQLite。"
+  },
+  {
+    "line": 2889,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tenequm/pond) 🦀 🏠 🍎 🐧 - 跨客戶端的 AI 智慧體會話無損歸檔與搜尋。"
+  },
+  {
+    "line": 2890,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kaaustubh/project-memory-mcp) 📇 🏠 - 以純倉庫檔案（AGENTS.md、issues.jsonl）實現的程式設計智慧體持久記憶：捕獲缺陷、修復、決策與糾錯，並在之後回憶。"
+  },
+  {
+    "line": 2891,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/drexthealpha/Knos) 🐍 🏠 🍎 🪟 🐧 - 機器上所有程式設計智慧體共享的本地記憶，由會話、提交、CLAUDE.md/AGENTS.md 與 ADR 構建，具鎖定進行中工作的 claim。"
+  },
+  {
+    "line": 2893,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yuelinghuashu/story-cli) 📇 🏠 🍎 🪟 🐧 - git 原生的 Markdown 內容 CLI：搜尋、讀取、寫入與治理故事、論文與筆記倉庫，生成 README、匯出 EPUB 並準備訓練資料。"
+  },
+  {
+    "line": 2894,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/wikijs-mcp) 📇 🏠 🍎 🪟 🐧 - 搜尋、讀取並編輯自託管的 Wiki.js 2.x，含資源、評論、使用者與組，具全文 grep、覆蓋保護模式與只讀模式。"
+  },
+  {
+    "line": 2895,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dfrancislyondflabc-tech/agentic-recall) 📇 🏠 🍎 🪟 🐧 - 基於 Markdown 資料夾的長期記憶：本地混合檢索（BM25F、稠密向量、短語鄰近），並在答案缺失時如實報告。"
+  },
+  {
+    "line": 2897,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vishalbanwari26/mnemos) 🐍 🏠 - 具可切換 Postgres/pgvector、Qdrant 或 Neo4j 後端的持久記憶，具自適應檢索加權、重複合併與過時事實歸檔。"
+  },
+  {
+    "line": 2898,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pjpoulose/PIL) 📇 🏠 🐍 🍎 🪟 🐧 - 將你 Instagram 的收藏帖子轉為本地、可搜尋的知識庫，含 AI 提取的摘要、要點、操作指南、連結與標籤，存於 SQLite。"
+  },
+  {
+    "line": 2899,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Mnemosyne-OS/Mnemosyne-Neural-OS) 🎖️ 📇 🏠 🍎 🪟 🐧 - 本地、按領域隔離的保險庫中以人類治理的記憶，具混合檢索；也可讀取其他程式設計智慧體的輸出。需要 Mnemosyne OS 桌面應用。"
+  },
+  {
+    "line": 2900,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/liza-studio/skillmem) 🐍 🏠 🍎 🪟 🐧 - 自我提升的程式設計智慧體技能記憶：有用的技能被強化、無用的消退；本地英俄混合搜尋、防篡改歷史。"
+  },
+  {
+    "line": 2901,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zensation-ai/zenbrain) 📇 🏠 🍎 🪟 🐧 - 七層本地智慧體記憶，將輸入路由到事實、情景或程式，搜尋所有層級，並將重複情景鞏固為事實。"
+  },
+  {
+    "line": 2902,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dat999zx/knowl) 📇 🏠 🍎 🪟 🐧 - 程式設計智慧體的持久本地記憶，在寫入時廢止被替換的事實，使智慧體讀到當前答案；事實帶型別與來源。"
+  },
+  {
+    "line": 2904,
+    "translated": "### ⚖️ <a name=\"legal\"></a>法律"
+  },
+  {
+    "line": 2905,
+    "translated": "訪問法律資訊、法規與法律資料庫。使 AI 模型能夠搜尋並分析法律文件與監管資訊。"
+  },
+  {
+    "line": 2906,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ad0750/regintel-mcp) 🐍 ☁️ - 來自 RegIntel API（GDPR、MiCA、DORA、SEC、FINRA、FCA 等）的結構化監管資料：搜尋、查詢、近期更新與合規檢查。"
+  },
+  {
+    "line": 2907,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Angelthebestone/Normativa-colombiana-MCP) 📇 🏠 - 來自 Gestor Normativo、SUIN-Juriscol、憲法與最高法院、國務委員會與 DIAN Normograma 的哥倫比亞法律與判例。"
+  },
+  {
+    "line": 2908,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@ark-forge/mcp-eu-ai-act) 📇 ☁️ - 歐盟《人工智慧法案》合規掃描器，檢測 AI 程式碼庫中的違規，提供風險分類與整改指引。"
+  },
+  {
+    "line": 2909,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-sudact) 🐍 ☁️ - 來自 Sudact 的俄羅斯司法實踐：按法條、法院、審級與日期搜尋案件，並閱讀完整裁決文字。"
+  },
+  {
+    "line": 2910,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-fssp) 🐍 ☁️ - 面向俄羅斯債務人的 FSSP 執行程式查詢與合規檢查。"
+  },
+  {
+    "line": 2911,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-zakupki) 🐍 ☁️ - 在 zakupki.gov.ru 上搜尋俄羅斯公共採購招標與合同。"
+  },
+  {
+    "line": 2912,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aydincan/turk-hukuku-mevzuat-mcp) 🐍 ☁️ - 來自 mevzuat.gov.tr 的土耳其法律實時資料：按法律與條款號提供現行條文，附核驗連結。"
+  },
+  {
+    "line": 2913,
+    "translated": "- @@L0@@ 🐍 ☁️ - 針對《人工智慧法案》、GDPR 與 DORA 的合規，提供條款級引用。"
+  },
+  {
+    "line": 2914,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ChangkeunJ/australian-law-mcp) 📇 ☁️ - 來自聯邦立法登記的澳大利亞聯邦法律：查閱自 1901 年以來任一日期生效的法案、比較日期並核驗成文法引用。"
+  },
+  {
+    "line": 2915,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cm2489/oravan) 📇 ☁️ - 無黨派美國國會資料：英西雙語的平實語言法案摘要、按郵編查詢議員，以及推進中法案的緊急度排序。"
+  },
+  {
+    "line": 2916,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/djtellado/nexus-legal-mcp) 📇 ☁️ - 面向西班牙、拉美與歐洲法律的法律分析（ISO 31000）：起草、審計、判例、稅法教義與跨境比較。"
+  },
+  {
+    "line": 2917,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/edithatogo/fyi-cli) 🦀 🏠 🪟 - 面向 Alaveteli 站點（FYI.org.nz、WhatDoTheyKnow、RightToKnow）的資訊公開請求跟蹤器：請求、主管機關、往來信函、離線同步。"
+  },
+  {
+    "line": 2918,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/gov-transparency-mcp) 📇 ☁️ - 來自美國政府資料的國會股票交易、聯邦合同、競選財務、遊說與新規，按次付費，透過 Base 上的 x402 USDC 結算。"
+  },
+  {
+    "line": 2919,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gavelin-ai/mcp) 📇 ☁️ - 美國州立法資料：標註發言人的聽證記錄、法案、投票與 AI 生成的報告。"
+  },
+  {
+    "line": 2920,
+    "translated": "- @@L0@@ 📇 ☁️ - 訪問美國立法資料。"
+  },
+  {
+    "line": 2921,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Lex-API/lexapi-mcp) 📇 ☁️ - 基於 EUR-Lex 的歐盟法律研究：結構化搜尋、按 CELEX 號獲取文件、近期《官方公報》出版物、引用圖與語義搜尋。"
+  },
+  {
+    "line": 2922,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/librejustice/librejustice) 🎖️ 🦀 🐍 🏠 ☁️ - 法國與歐洲判例（國務委員會、最高法院、歐洲人權法院、歐盟法院等），關聯到特定時間點的 consolidated 法律文字，具混合搜尋。"
+  },
+  {
+    "line": 2923,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lmaniraruta/license-verify-mcp) 📇 ☁️ - 從州資料（華盛頓 L&I、加州 CSLB）核驗美國承包商的執照、擔保債券與保險。"
+  },
+  {
+    "line": 2924,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-legal-entity-resolver) 📇 ☁️ - 將公司域名解析為其註冊法律實體：法律名稱、公司編號、司法管轄區、狀態、LEI 與增值稅號。"
+  },
+  {
+    "line": 2925,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/meridian-silkdev/meridian-mcp) 📇 ☁️ 🍎 🪟 🐧 - 創業創始人服務，如公司註冊與簽證：瀏覽服務、建立並跟蹤請求、核驗付款並安排會議。"
+  },
+  {
+    "line": 2926,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NexusFeed/nexusfeed-mcp) 🐍 ☁️ - 美國酒類執照查詢（CA、TX、NY、FL）：按商號、所有者或執照號搜尋，並對照州門戶核驗狀態、有效期與地址。"
+  },
+  {
+    "line": 2927,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/open-agreements/open-agreements) 📇 🏠 ☁️ 🍎 🐧 🪟 - 填寫標準法律協議模板（NDA、SAFE、NVCA 檔案、僱傭、雲條款）並生成可簽署的 DOCX 檔案。"
+  },
+  {
+    "line": 2928,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Pactlio-ai/pactlio-mcp) 📇 ☁️ - 合同工具：按合同型別與司法管轄區提供引用法條的需求、美國競業禁止的可執行性、合同起草與風險分析。"
+  },
+  {
+    "line": 2929,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Patent-PreCheck/patent-precheck-mcp) 📇 ☁️ - 程式碼的專利性預檢：USPTO 對可專利性、新穎性、非顯而易見性與文件的評分，外加申請就緒度與現有技術訊號。"
+  },
+  {
+    "line": 2930,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/philrox/ris-mcp-ts) 📇 ☁️ - 透過 RIS（Rechtsinformationssystem）API 訪問奧地利聯邦與各州法律、法院判決與法律文件。"
+  },
+  {
+    "line": 2931,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PolicyForge/mcp) 📇 ☁️ - 從程式碼庫生成、審計與維護法律政策（隱私、條款、Cookie、EULA、退款），標記程式碼與政策間的缺口與漂移。"
+  },
+  {
+    "line": 2932,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ptrinh/finalnotice-mcp) 📇 ☁️ - 為多種司法管轄區與語言生成本地化的債務催收催告函 PDF，並附配套信封。"
+  },
+  {
+    "line": 2933,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sebastianfoerste/eu-reg-mcp) 🐍 🏠 - ESMA MiCAR 註冊搜尋、摘要與變更跟蹤（透過每週快照），外加 MiCAR 白皮書 lint 檢查與歐盟《人工智慧法案》風險層級分類。"
+  },
+  {
+    "line": 2934,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SFHAJJI/lex) ☁️ - 來自 Legilux 與 EUR-Lex 的特定時間點盧森堡與歐盟法律：只讀搜尋、截至某時檢索、條文歷史、diff、時間線與引用。"
+  },
+  {
+    "line": 2935,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smilemin07/korean-rnd-regs-mcp) 🐍 🏠 - 搜尋並審閱韓國國家研發法規，從國家法律資料庫返回帶引用的現行條款。"
+  },
+  {
+    "line": 2936,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smythmyke/patent-search-mcp-server) 📇 ☁️ - 專利研究與現有技術搜尋：檔案、USPTO 審查歷史、審查意見分析、布林查詢、引用圖與 CPC 查詢。"
+  },
+  {
+    "line": 2937,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Vaquill-AI/canlii-mcp) 📇 ☁️ - 透過 CanLII 獲取加拿大判例與立法後設資料。"
+  },
+  {
+    "line": 2938,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ilyautov/sbis-mcp-ru) 🐍 🏠 🍎 🪟 🐧 - SBIS（Saby）API：文件與工作流階段、電子簽名、證書、員工與組織，具讀/寫/破壞性操作安全門控。"
+  },
+  {
+    "line": 2939,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ilyautov/diadoc-mcp-ru) 🐍 🏠 🍎 🪟 🐧 - Kontur Diadoc API：具法律效力的文件交換、簽署、交易對手、機器可讀授權委託書與文件流狀態，具安全門控。"
+  },
+  {
+    "line": 2940,
+    "translated": "### 🗺️ <a name=\"location-services\"></a>位置服務"
+  },
+  {
+    "line": 2942,
+    "translated": "基於位置的服務與地圖工具。使 AI 模型能夠處理地理資料、天氣資訊與基於位置的分析。"
+  },
+  {
+    "line": 2944,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HasData/yellowpages-mcp) 📇 ☁️ - 按類別與位置搜尋黃頁本地商家，含完整列表，包括服務、品牌與支付方式。"
+  },
+  {
+    "line": 2945,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HasData/yelp-mcp) 📇 ☁️ - 按類別與位置搜尋 Yelp 商家、獲取地點詳情，以及帶排序與星級篩選的完整評價。"
+  },
+  {
+    "line": 2946,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/qinisolabs/floodwise) 📇 🏠 - 來自環境署開放資料的、按郵編劃分的英格蘭長期洪水風險帶。"
+  },
+  {
+    "line": 2947,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/APOGEOAPI/apogeoapi-mcp) 📇 ☁️ - 地理資料與實時匯率：國家、州、城市、IP 地理定位與貨幣匯率。"
+  },
+  {
+    "line": 2948,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atlasfetch-dev/atlasfetch-mcp) 📇 ☁️ - 將座標反地理編碼為國家、地區與市鎮，並附 ISO 3166 程式碼，再與你的 GeoJSON 地理圍欄匹配。"
+  },
+  {
+    "line": 2949,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bamwor-dev/bamwor-mcp-server) 📇 ☁️ - 來自 Bamwor API 的世界地理資料：國家統計與城市（含人口、座標與時區）。"
+  },
+  {
+    "line": 2950,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/baphometnxg/aloha-fyi-mcp) 📇 ☁️ - 夏威夷旅遊：來自 Viator、GetYourGuide、Klook 與 Groupon 的可預訂行程，以及瓦胡、毛伊、大島與考艾各場館的活動。"
+  },
+  {
+    "line": 2951,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/geovicco-dev/bhoonidhi-mcp) 🐍 ☁️ - 用自然語言從 ISRO 的 Bhoonidhi（NRSC）地球觀測門戶搜尋、儲存並下載衛星影像。"
+  },
+  {
+    "line": 2952,
+    "translated": "- @@L0@@ 🐍 ☁️ - 使用 IPinfo API 進行 IP 地址地理定位與網路資訊獲取。"
+  },
+  {
+    "line": 2953,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/chuofringer/placeroot) 🐍 🏠 🍎 🪟 🐧 - Overture Maps 開放資料：地點、地理編碼、行政區查詢、建築、路由與等時線，透過 DuckDB 從公開 GeoParquet 版本查詢。"
+  },
+  {
+    "line": 2954,
+    "translated": "- @@L0@@ 📇 ☁️ - 按名稱與面積探索法國市鎮與地籍地塊。"
+  },
+  {
+    "line": 2955,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cturkieh/france-data-mcp) 📇 ☁️ 🏠 - 交叉引用法國公共登記：FINESS 醫療機構、RPPS 衛生專業人員、INSEE 企業與 IGN 地理編碼。"
+  },
+  {
+    "line": 2956,
+    "translated": "- @@L0@@ 🐍 ☁️ - 透過 WeatherAPI.com 獲取任意地點的實時天氣預報與當前狀況。"
+  },
+  {
+    "line": 2957,
+    "translated": "- @@L0@@ 📇 ☁️ - 搜尋全球本地商家，提供置信度評分與智慧體信任排名。"
+  },
+  {
+    "line": 2958,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Flightmussy/castlemap-mcp) 📇 ☁️ 🏠 - 從開放的、基於 Wikidata 的 Castlemap 資料集查詢全球城堡、要塞與宮殿（座標、始建日期、知名度、Wikipedia 摘要）。"
+  },
+  {
+    "line": 2959,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Flightmussy/filmmap-mcp) 📇 ☁️ 🏠 - 電影、劇集、遊戲與動畫的取景地：某作品在何處拍攝、某地點拍攝了什麼，以及附近有什麼，資料來自開放的基於 Wikidata 的來源。"
+  },
+  {
+    "line": 2960,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Vortx-AI/emem) 🦀 ☁️ - 帶可引用憑證的簽名地理空間事實，用於基於地點的問題：海拔、土地覆蓋、地表水、植被與建成區。"
+  },
+  {
+    "line": 2961,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/markpdxt/dronelytics-mcp) 📇 ☁️ - 美國無人機空域檢查與任務規劃：FAA 空域限制、測繪飛行計劃、Part 107 合規、飛行前簡報與 KML/GPX 匯出。"
+  },
+  {
+    "line": 2962,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gaopengbin/cesium-mcp) 📇 🏠 🍎 🪟 🐧 - 控制 CesiumJS 三維地球：相機飛行、GeoJSON 與 3D Tiles 圖層、標記、空間分析與熱力圖。"
+  },
+  {
+    "line": 2963,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/GeiserX/pumperly-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - Pumperly 油價比較：查詢加油站價格、規劃省油路線並查詢附近電動車充電站。"
+  },
+  {
+    "line": 2964,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/geolens-io/geolens) 🎖️ 🐍 🏠 - 對自託管 GeoLens 地理空間目錄的只讀訪問：資料集搜尋、模式、GeoJSON 要素、已儲存地圖，以及 PostGIS 上的沙箱 SQL。"
+  },
+  {
+    "line": 2965,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/geowire/geowire) 📇 🏠 🍎 🪟 🐧 - 多供應商位置閘道器（OpenStreetMap、Google、Yelp、Foursquare、Naver 等）：地點搜尋、地理編碼、路線、等時線與區域分析。"
+  },
+  {
+    "line": 2966,
+    "translated": "- @@L0@@ 🐍 ☁️ - 透過 IP2Location.io API 獲取 IP 地址的地理定位、代理與網路資訊。"
+  },
+  {
+    "line": 2967,
+    "translated": "- @@L0@@ 🐍 ☁️ - 使用 IP Find API 進行 IP 地址地理定位。"
+  },
+  {
+    "line": 2968,
+    "translated": "- @@L0@@ 🐍 📇 ☁️ - 透過 Aiwen 進行 IP 地理定位：IP 地址的國家、地區、城市、座標、ISP 與所有者。"
+  },
+  {
+    "line": 2969,
+    "translated": "- @@L0@@ 🎖️ 📇 🏠 - 使用 IPLocate.io 查詢 IP 地理定位與網路資訊、檢測代理與 VPN，並查詢濫用聯絡人。"
+  },
+  {
+    "line": 2970,
+    "translated": "- @@L0@@ 🐍 ☁️ - 從 Open-Meteo API 獲取天氣資訊。"
+  },
+  {
+    "line": 2971,
+    "translated": "- @@L0@@ 🐍 🏠 - OpenStreetMap 基於位置的服務與地理空間資料。"
+  },
+  {
+    "line": 2972,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Knight60/ArcGIS-Pro-MCP) #️⃣ 🏠 🪟 - ArcGIS Pro 外掛，使助手可驅動開啟的專案：圖層、屬性、選擇、符號系統、佈局、柵格、地理處理工具與 arcpy。"
+  },
+  {
+    "line": 2973,
+    "translated": "- @@L0@@ 🐍 ☁️ - 基於 IP 的位置檢測進行附近地點搜尋。"
+  },
+  {
+    "line": 2974,
+    "translated": "- @@L0@@ 🏠 - 透過 GeoServer REST API 與地理空間資料和服務互動。"
+  },
+  {
+    "line": 2975,
+    "translated": "- @@L0@@ 🏠 - 使用 GIS 庫進行地理空間操作與轉換。"
+  },
+  {
+    "line": 2976,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mapsmith-ai/mapsmith) 🐍 🏠 - 確定性 GIS 地理處理（緩衝、疊加、重投影、分割槽統計、地形、水文），每個輸出附來源清單。"
+  },
+  {
+    "line": 2977,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 地理空間工具：地理編碼、路由、高程、空間分析，以及 Shapefile、GeoJSON 與 GeoPackage 的檔案 I/O。"
+  },
+  {
+    "line": 2978,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/muend/arcgis-mcp-bridge) 🐍 🏠 🪟 - 通往 ArcGIS Pro 的 ArcPy 地理處理引擎的本地橋接，具工作程序隔離與檔案系統邊界。"
+  },
+  {
+    "line": 2979,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cablate/mcp-google-map) 📇 ☁️ 🏠 - Google Maps 地理編碼、地點搜尋、路線與高程，具獨立 CLI 模式。"
+  },
+  {
+    "line": 2980,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/osm-mcp) 📇 ☁️ 🍎 🪟 🐧 - OpenStreetMap 旅行規劃：地理編碼、步行、駕車與騎行路線、出行時間矩陣、路線最佳化、等時線與 POI 搜尋。"
+  },
+  {
+    "line": 2981,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Off-Nadir-Lab/offnadir-delta-mcp) 🎖️ 📇 ☁️ - 實時地理定位的世界事件情報與每日世界簡報：事件訊號、熱點、Sentinel 衛星影像，以及 OSINT/GEOINT 分析師。"
+  },
+  {
+    "line": 2982,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PostalDataPI/postaldatapi-mcp) 🐍 ☁️ - 全球郵政編碼查詢、校驗與城市搜尋，附時區、行政區與海拔後設資料。"
+  },
+  {
+    "line": 2983,
+    "translated": "- @@L0@@ - 將 QGIS Desktop 連線到 Claude，以支援提示輔助的專案建立、圖層載入與程式碼執行。"
+  },
+  {
+    "line": 2984,
+    "translated": "- @@L0@@ 🐍 ☁️ - 全球任意地點的詳細七天天氣預報。"
+  },
+  {
+    "line": 2985,
+    "translated": "- @@L0@@ 🐍 ☁️ - 來自 OpenWeatherMap API 的實時天氣、預報與歷史天氣資料。"
+  },
+  {
+    "line": 2986,
+    "translated": "- @@L0@@ 🐍 🏠 - 獲取任意時區的時間與當前本地時間。"
+  },
+  {
+    "line": 2987,
+    "translated": "- @@L0@@ 📇 ☁️ - Stadia Maps 位置 API：對地址與地點地理編碼、查詢時區，並建立路線與靜態地圖。"
+  },
+  {
+    "line": 2988,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sthan-io/mcp-server) 📇 ☁️ - 美國地址核驗、解析、自動補全、正向與反向地理編碼，以及透過 sthan.io API 的 IP 地理定位。"
+  },
+  {
+    "line": 2989,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@vibecodebeast/swath-mcp) 🎖️ 📇 ☁️ - 美國本土經雷達驗證的冰雹與風災檢測：NOAA MRMS 掃描帶、逐地址風暴歷史、區域警報、報告與地圖。"
+  },
+  {
+    "line": 2990,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ThinAirTelematics/thinair-geo) 📇 ☁️ - 全球定位與路由：地理編碼、帶危險品與尺寸約束的貨車路由、交通、天氣、等時線與地點搜尋。"
+  },
+  {
+    "line": 2991,
+    "translated": "- @@L0@@ 📇 ☁️ - 透過 AccuWeather API 獲取天氣預報。"
+  },
+  {
+    "line": 2992,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tools-mcp/vessel-traffic-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 只讀船舶查詢：AIS 式位置、航跡、靠港、承運人與船舶班期，以及帶來源歸屬的延誤啟發式。"
+  },
+  {
+    "line": 2993,
+    "translated": "- @@L0@@ 📇 - 透過 TrackMage API 進行貨運追蹤與物流管理。"
+  },
+  {
+    "line": 2994,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/geolabel/geolabel-mcp) 🐍 ☁️ - 將 GPS 座標轉為位置上下文：地點名稱、穩定類別與透過 OpenStreetMap 獲取的實時營業時間。"
+  },
+  {
+    "line": 2995,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/xyver/daedal-map) 🐍 ☁️ - 面向災害、外匯匯率與全球指標的地理資料包，每週新增。"
+  },
+  {
+    "line": 2996,
+    "translated": "- @@L0@@ 🐍 🏠 - 透過 Nominatim、ArcGIS 與 Bing 進行地理編碼。"
+  },
+  {
+    "line": 2997,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/930m310n/geomelon-mcp) 🎖️ 📇 ☁️ - 城市、國家、地區與語言（含多語言名稱），以及地點自動補全。"
+  },
+  {
+    "line": 2998,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ArtBreguez/greeks-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 實時期權分析：希臘字母、GEX/DEX 與 gamma 翻轉、最大痛點、異常資金流、隱含波動率曲面、預期波動、期限結構、篩選器與 GEX 熱力圖。"
+  },
+  {
+    "line": 3000,
+    "translated": "### 🎯 <a name=\"marketing\"></a>營銷"
+  },
+  {
+    "line": 3002,
+    "translated": "用於建立與編輯營銷內容、處理網頁後設資料、產品定位與編輯指南的工具。"
+  },
+  {
+    "line": 3004,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/A1-x-Tech/mcp-yandex-audience) 📇 ☁️ - Yandex Audience API：構建並管理廣告定向細分（CRM 上傳、相似人群、基於畫素），以及訪問授權。"
+  },
+  {
+    "line": 3005,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIOProductOS/studio-mcp) 🎖️ 📇 🏠 🍎 🪟 🐧 - 本地、指令碼化的 Web 應用錄屏，含移動指標、縮放、標註、字幕與轉場，外加截圖與 MP4/GIF 匯出。"
+  },
+  {
+    "line": 3006,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/D4umak/linkedin-outreach-mcp) 🎖️ 🐍 ☁️ 🍎 🪟 🐧 - 用於拓客、招聘與求職的 LinkedIn 觸達：尋找人選、以你的口吻發訊息、跟進並處理回覆。"
+  },
+  {
+    "line": 3007,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/InstantStudioAI/instantclips-mcp) 📇 ☁️ - 用 InstantClips 將電商商品轉為面向 TikTok、Instagram Reels 與 Stories 的豎版短影片廣告，並管理品牌與商品。"
+  },
+  {
+    "line": 3008,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/acamolese/google-search-console-mcp) 🐍 ☁️ - Google Search Console：查詢效能資料、檢查 URL、核驗索引，並生成含 30/60/90 天路線圖的 HTML SEO 審計報告。"
+  },
+  {
+    "line": 3009,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AKzar1el/mcp-gsc) 📇 ☁️ - 執行於 Cloudflare Workers 的 Google Search Console：自然搜尋分析、URL 檢查、站點地圖管理、索引與 SEO 洞察。"
+  },
+  {
+    "line": 3010,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AKzar1el/mcp-geo) 📇 ☁️ 🏠 🍎 🪟 🐧 - DigestSEO GEO 追蹤器：衡量品牌在 ChatGPT、Claude、Perplexity、Gemini 與 Google AI Overviews 中的引用與可見度。"
+  },
+  {
+    "line": 3011,
+    "translated": "- @@L0@@ 🐍 ☁️ - TikTok 廣告 API 整合：管理廣告活動、分析績效指標，並處理受眾與創意。"
+  },
+  {
+    "line": 3012,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/adsagents/adsagent-ai-skills) 📇 ☁️ - 面向 Meta、Google 與 TikTok 廣告的 AdsAgent 外掛與託管 MCP 伺服器。"
+  },
+  {
+    "line": 3013,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hardeyhemy/revnuvo-dev) 🎖️ ☁️ - Revnuvo 公司情報：某家公司發生了什麼變化，並附證據。"
+  },
+  {
+    "line": 3014,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aitit-inc/leadace) 📇 🏠 - Claude Code 的外呼銷售：逐潛在客戶的網站調研、用你自己的 Gmail 給每位潛在客戶發一封郵件、回覆追蹤與結構化拒絕反饋。"
+  },
+  {
+    "line": 3015,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alttextai/alttext-mcp) 🎖️ 📇 🏠 - 生成並翻譯圖片替代文字，並管理 AltText.ai 圖片庫。"
+  },
+  {
+    "line": 3016,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-erid) 🐍 ☁️ - 檢查俄羅斯線上廣告標註（erid/ERIR）：校驗 erid 令牌，並審計頁面是否符合第 38-FZ 號廣告法。"
+  },
+  {
+    "line": 3017,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AutomateLab-tech/seo-performance-mcp) 📇 ☁️ - 釋出後 SEO 表現：將每個 URL 的 Search Console、Matomo、GA4、Clarity 與 AI 引用訊號結合，給出每篇文章的判定與原因碼。"
+  },
+  {
+    "line": 3018,
+    "translated": "- @@L0@@ 📇 🏠 - LinkedHelper 自動化 CLI：透過 Chrome DevTools 協議進行活動管理、訊息傳送與檔案查詢。"
+  },
+  {
+    "line": 3019,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/artgas1/yandex-metrika-mcp) 📇 ☁️ - Yandex Metrika 統計、管理與日誌 API，每種方法一個工具，由 Yandex 文件生成。預設禁用寫入。"
+  },
+  {
+    "line": 3020,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/askads/mcp-vk-ads) 📇 ☁️ - VK 廣告 API：管理廣告計劃、廣告組與橫幅，並拉取統計。"
+  },
+  {
+    "line": 3021,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/askads/mcp-yandex-direct) 📇 ☁️ - Yandex Direct API：管理 PPC 廣告活動、廣告組、廣告、關鍵詞、出價修正、站點連結、附加資訊與 vCard，並拉取統計。"
+  },
+  {
+    "line": 3022,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/askads/mcp-yandex-metrica) 📇 ☁️ - 只讀 Yandex Metrica 網站分析：列舉計數器與目標，並拉取流量與轉化統計。"
+  }
+]
