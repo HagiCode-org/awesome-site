@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "TensorFlow",
+      "description": "精选的 TensorFlow 相关教程、模型、库、工具与资源列表。",
+      "sourceDigest": "3446de04db0e3ffee8a8e1ecadeb3604f81c9bfd3ad1bc1b5c558cf3cc8d1757",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "TensorFlow",
+      "description": "精選的 TensorFlow 相關教程、模型、函式庫、工具與資源清單。",
+      "sourceDigest": "3446de04db0e3ffee8a8e1ecadeb3604f81c9bfd3ad1bc1b5c558cf3cc8d1757",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "TensorFlow",
+      "description": "Une liste sélectionnée de tutoriels, modèles, bibliothèques, outils et ressources liés à TensorFlow.",
+      "sourceDigest": "3446de04db0e3ffee8a8e1ecadeb3604f81c9bfd3ad1bc1b5c558cf3cc8d1757",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "TensorFlow",
+      "description": "Eine kuratierte Liste von Tutorials, Modellen, Bibliotheken, Werkzeugen und Ressourcen rund um TensorFlow.",
+      "sourceDigest": "3446de04db0e3ffee8a8e1ecadeb3604f81c9bfd3ad1bc1b5c558cf3cc8d1757",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "TensorFlow",
+      "description": "Una lista seleccionada de tutoriales, modelos, bibliotecas, herramientas y recursos relacionados con TensorFlow.",
+      "sourceDigest": "3446de04db0e3ffee8a8e1ecadeb3604f81c9bfd3ad1bc1b5c558cf3cc8d1757",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "TensorFlow",
+      "description": "TensorFlow に関連するチュートリアル、モデル、ライブラリ、ツール、リソースを集めた厳選リスト。",
+      "sourceDigest": "3446de04db0e3ffee8a8e1ecadeb3604f81c9bfd3ad1bc1b5c558cf3cc8d1757",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "TensorFlow",
+      "description": "TensorFlow와 관련된 튜토리얼, 모델, 라이브러리, 도구, 리소스를 엄선한 목록입니다.",
+      "sourceDigest": "3446de04db0e3ffee8a8e1ecadeb3604f81c9bfd3ad1bc1b5c558cf3cc8d1757",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "TensorFlow",
+      "description": "Uma lista selecionada de tutoriais, modelos, bibliotecas, ferramentas e recursos relacionados ao TensorFlow.",
+      "sourceDigest": "3446de04db0e3ffee8a8e1ecadeb3604f81c9bfd3ad1bc1b5c558cf3cc8d1757",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "TensorFlow",
+      "description": "Подборка учебных материалов, моделей, библиотек, инструментов и ресурсов по TensorFlow.",
+      "sourceDigest": "3446de04db0e3ffee8a8e1ecadeb3604f81c9bfd3ad1bc1b5c558cf3cc8d1757",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}
