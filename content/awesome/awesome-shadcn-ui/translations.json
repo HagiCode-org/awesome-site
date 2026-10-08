@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "shadcn/ui",
+      "description": "精选的 shadcn/ui 相关库、组件、主题与资源列表。",
+      "sourceDigest": "2399a5aacfc1d97e3ed8729915349ba3ae5c0dbfa03bbe860235454a7af10c9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "shadcn/ui",
+      "description": "精選的 shadcn/ui 相關函式庫、元件、主題與資源清單。",
+      "sourceDigest": "2399a5aacfc1d97e3ed8729915349ba3ae5c0dbfa03bbe860235454a7af10c9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "shadcn/ui",
+      "description": "Une liste sélectionnée de bibliothèques, composants, thèmes et ressources liés à shadcn/ui.",
+      "sourceDigest": "2399a5aacfc1d97e3ed8729915349ba3ae5c0dbfa03bbe860235454a7af10c9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "shadcn/ui",
+      "description": "Eine kuratierte Liste von Bibliotheken, Komponenten, Themes und Ressourcen rund um shadcn/ui.",
+      "sourceDigest": "2399a5aacfc1d97e3ed8729915349ba3ae5c0dbfa03bbe860235454a7af10c9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "shadcn/ui",
+      "description": "Una lista seleccionada de bibliotecas, componentes, temas y recursos relacionados con shadcn/ui.",
+      "sourceDigest": "2399a5aacfc1d97e3ed8729915349ba3ae5c0dbfa03bbe860235454a7af10c9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "shadcn/ui",
+      "description": "shadcn/ui に関連するライブラリ、コンポーネント、テーマ、リソースを集めた厳選リスト。",
+      "sourceDigest": "2399a5aacfc1d97e3ed8729915349ba3ae5c0dbfa03bbe860235454a7af10c9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "shadcn/ui",
+      "description": "shadcn/ui와 관련된 라이브러리, 컴포넌트, 테마, 리소스를 엄선한 목록입니다.",
+      "sourceDigest": "2399a5aacfc1d97e3ed8729915349ba3ae5c0dbfa03bbe860235454a7af10c9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "shadcn/ui",
+      "description": "Uma lista selecionada de bibliotecas, componentes, temas e recursos relacionados ao shadcn/ui.",
+      "sourceDigest": "2399a5aacfc1d97e3ed8729915349ba3ae5c0dbfa03bbe860235454a7af10c9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "shadcn/ui",
+      "description": "Подборка библиотек, компонентов, тем и ресурсов, связанных с shadcn/ui.",
+      "sourceDigest": "2399a5aacfc1d97e3ed8729915349ba3ae5c0dbfa03bbe860235454a7af10c9b",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}
