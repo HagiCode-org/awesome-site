@@ -28,7 +28,10 @@ const items = docs.map(({ id, data }) => {
   return {
     id: data.awesomeSource!.id,
     title: data.title,
-    href: `${prefix}/${id}/`,
+    // `id` is the content doc id, which already includes the locale prefix
+    // (e.g. `zh-CN/awesome/awesome-go`); the URL path is `/${id}/`, so the
+    // locale `prefix` must not be added again.
+    href: `/${id}/`,
     repo: new URL(data.awesomeSource!.repositoryUrl).pathname.slice(1),
     tags,
     primary: catalog ?? tags[0],
