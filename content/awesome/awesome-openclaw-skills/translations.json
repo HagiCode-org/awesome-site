@@ -1,0 +1,67 @@
+{
+  "translations": {
+    "zh-CN": {
+      "title": "OpenClaw Skills",
+      "description": "由社区构建的 OpenClaw 技能精选列表，按分类整理。",
+      "sourceDigest": "b582279c4e6789938b71bdd1899f43f3726b1e704006b6281f37513c9339db1a",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "zh-Hant": {
+      "title": "OpenClaw Skills",
+      "description": "由社群構建的 OpenClaw 技能精選清單，依分類整理。",
+      "sourceDigest": "b582279c4e6789938b71bdd1899f43f3726b1e704006b6281f37513c9339db1a",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "fr-FR": {
+      "title": "OpenClaw Skills",
+      "description": "Une liste sélectionnée de compétences OpenClaw construites par la communauté, organisées par catégorie.",
+      "sourceDigest": "b582279c4e6789938b71bdd1899f43f3726b1e704006b6281f37513c9339db1a",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "de-DE": {
+      "title": "OpenClaw Skills",
+      "description": "Eine kuratierte Liste von von der Community erstellten OpenClaw-Skills, nach Kategorie geordnet.",
+      "sourceDigest": "b582279c4e6789938b71bdd1899f43f3726b1e704006b6281f37513c9339db1a",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "es-ES": {
+      "title": "OpenClaw Skills",
+      "description": "Una lista seleccionada de habilidades de OpenClaw creadas por la comunidad, organizadas por categoría.",
+      "sourceDigest": "b582279c4e6789938b71bdd1899f43f3726b1e704006b6281f37513c9339db1a",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ja-JP": {
+      "title": "OpenClaw Skills",
+      "description": "コミュニティが構築した OpenClaw スキルをカテゴリ別にまとめた厳選リスト。",
+      "sourceDigest": "b582279c4e6789938b71bdd1899f43f3726b1e704006b6281f37513c9339db1a",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ko-KR": {
+      "title": "OpenClaw Skills",
+      "description": "커뮤니티가 만든 OpenClaw 스킬을 카테고리별로 정리한 엄선 목록입니다.",
+      "sourceDigest": "b582279c4e6789938b71bdd1899f43f3726b1e704006b6281f37513c9339db1a",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "pt-BR": {
+      "title": "OpenClaw Skills",
+      "description": "Uma lista selecionada de habilidades OpenClaw criadas pela comunidade, organizadas por categoria.",
+      "sourceDigest": "b582279c4e6789938b71bdd1899f43f3726b1e704006b6281f37513c9339db1a",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    },
+    "ru-RU": {
+      "title": "OpenClaw Skills",
+      "description": "Подборка созданных сообществом навыков OpenClaw, организованная по категориям.",
+      "sourceDigest": "b582279c4e6789938b71bdd1899f43f3726b1e704006b6281f37513c9339db1a",
+      "isAITranslation": true,
+      "reviewStatus": "reviewed"
+    }
+  }
+}
