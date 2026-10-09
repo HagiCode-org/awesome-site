@@ -1,5 +1,7 @@
 ---
+import { gaEventAttributes } from "@hagicode/hagilight-core/analytics-events";
 import HagilightPageTitle from "@hagicode/hagilight-starlight/PageTitle";
+import { TOPIC_NAV } from "../analytics-locations.mjs";
 import HomeWelcome from "./HomeWelcome.astro";
 import catalogs from "../../content/awesome/catalogs.json";
 
@@ -45,7 +47,7 @@ const prefix = locale === undefined ? "" : `/${locale}`;
 {tags.length > 0 && <nav class="awesome-topic-nav" aria-label={topicsLabel}>
     <span>{topicsLabel}</span>
     <ul>
-      {tags.map((tag) => <li><a href={`${prefix}/awesome/tags/${tag}/`}>{localizedTopic(tag)}</a></li>)}
+      {tags.map((tag) => <li><a href={`${prefix}/awesome/tags/${tag}/`} {...gaEventAttributes({ category: "navigation", label: tag, location: TOPIC_NAV })}>{localizedTopic(tag)}</a></li>)}
     </ul>
   </nav>
 }

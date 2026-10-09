@@ -1,6 +1,8 @@
 ---
 import { getCollection } from "astro:content";
+import { gaEventAttributes } from "@hagicode/hagilight-core/analytics-events";
 import { locales } from "@hagicode/hagilight-starlight/locales";
+import { HOME_HERO } from "../analytics-locations.mjs";
 import { getWelcomeCopy } from "../home-copy.mjs";
 import CollectionBrowser from "./CollectionBrowser.astro";
 
@@ -24,10 +26,10 @@ const stats = [
       <h2 id="awesome-welcome-title">{copy.title}</h2>
       <p class="awesome-welcome-intro">{copy.intro}</p>
       <div class="awesome-welcome-actions">
-        <a class="awesome-welcome-primary" href={`${prefix}/awesome/`}>
+        <a class="awesome-welcome-primary" href={`${prefix}/awesome/`} {...gaEventAttributes({ category: "navigation", label: "exploreCollections", location: HOME_HERO })}>
           {copy.explore}<span aria-hidden="true">&#8599;</span>
         </a>
-        <a class="awesome-welcome-secondary" href="#awesome-start">
+        <a class="awesome-welcome-secondary" href="#awesome-start" {...gaEventAttributes({ category: "navigation", label: "startBrowsing", location: HOME_HERO })}>
           {copy.start}<span aria-hidden="true">&#8595;</span>
         </a>
       </div>

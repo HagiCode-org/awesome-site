@@ -1,7 +1,9 @@
 ---
 import { getCollection } from "astro:content";
+import { gaEventAttributes } from "@hagicode/hagilight-core/analytics-events";
 import catalogs from "../../content/awesome/catalogs.json";
 import candidates from "../../content/awesome/candidates.json";
+import { COLLECTION_GROUP, COLLECTION_LIST, TOPIC_RAIL } from "../analytics-locations.mjs";
 import { getBrowserCopy, getWelcomeCopy } from "../home-copy.mjs";
 
 const locale = Astro.locals.starlightRoute.locale ?? "root";
@@ -85,12 +87,12 @@ const more = (candidates as Array<{ id: string; repositoryUrl: string; catalog: 
     <nav class="awesome-browser-rail" aria-label={copy.topicsNav}>
       <ul>
         <li>
-          <a href={`${prefix}/awesome/`} data-topic="" aria-current="true">
+          <a href={`${prefix}/awesome/`} data-topic="" aria-current="true" {...gaEventAttributes({ category: "navigation", label: "allTopics", location: TOPIC_RAIL })}>
             <span>{copy.allTopics}</span><span class="awesome-browser-count">{number.format(items.length)}</span>
           </a>
         </li>
         {topics.map(({ topic, label, count }) => <li>
-          <a href={`${prefix}/awesome/tags/${topic}/`} data-topic={topic}>
+          <a href={`${prefix}/awesome/tags/${topic}/`} data-topic={topic} {...gaEventAttributes({ category: "navigation", label: topic, location: TOPIC_RAIL })}>
             <span>{label}</span><span class="awesome-browser-count">{number.format(count)}</span>
           </a>
         </li>)}
@@ -101,7 +103,7 @@ const more = (candidates as Array<{ id: string; repositoryUrl: string; catalog: 
       <div class="awesome-browser-groups" data-groups>
         {groups.map(({ topic, label, members }) => <section class="awesome-browser-group" data-group aria-labelledby={`awesome-group-${topic}`}>
           <h3 id={`awesome-group-${topic}`} style={`view-transition-name: h-${topic}`}>
-            <a href={`${prefix}/awesome/tags/${topic}/`}>{label}</a>
+            <a href={`${prefix}/awesome/tags/${topic}/`} {...gaEventAttributes({ category: "navigation", label: topic, location: COLLECTION_GROUP })}>{label}</a>
             <span class="awesome-browser-count">{number.format(members.length)}</span>
           </h3>
           <ul>
@@ -111,7 +113,7 @@ const more = (candidates as Array<{ id: string; repositoryUrl: string; catalog: 
               data-search={[item.title, item.repo, ...item.tags.map(topicLabel)].join(" ").toLowerCase()}
               style={`view-transition-name: c-${item.id}`}
             >
-              <a href={item.href}>
+              <a href={item.href} {...gaEventAttributes({ category: "navigation", label: item.id, location: COLLECTION_LIST })}>
                 <strong>{item.title}</strong>
                 <span class="awesome-browser-repo">{item.repo}</span>
                 {item.tags.length > 1 && <span class="awesome-browser-tags">

@@ -9,3 +9,4 @@ import ExternalLinkWarning from "./ExternalLinkWarning.astro";
   {Astro.slots.has("sidebar") && <Fragment slot="sidebar"><slot name="sidebar" /></Fragment>}
 </StarlightPageFrame>
 <ExternalLinkWarning />
+<script>import "../outbound-tracking.mjs";</script>
