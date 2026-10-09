@@ -1,0 +1,480 @@
+2036	AML and sanctions screening for crypto addresses and transactions on Ethereum, BNB Chain, TRON, TON and Bitcoin, with itemized 0-100 risk scores.
+2037	Agentic payments on Solana: discover x402-priced endpoints, pay HTTP 402 paywalls in USDC, manage balances and subscriptions, with spending caps and escrow.
+2038	AI economics calculators: token cost across vendors, context-window sizing, agent-hour cost, LLM energy and CO2, and verification metrics, with formulas.
+2039	Russian FNS tax and accounting calculators plus public fiscal status checks: self-employed, sole proprietor/OKVED, disqualification and blocked accounts.
+2040	Real-time DEX token momentum, order book depth and whale flows, paid per call with gasless x402 micropayments on Base.
+2041	Peil for Dutch freelancers (ZZP'ers): log hours, draft invoices from unbilled time, and track outstanding and overdue invoices and effective hourly rate.
+2042	Read and validate European e-invoices (Factur-X, ZUGFeRD, XRechnung, UBL, CII) against EN 16931 and flag Factur-X PDF vs embedded XML mismatches.
+2043	Unofficial Capital.com Open API integration: market data and guarded trading with preview-and-confirm trades, allowlists and demo-first defaults.
+2044	Local-first Taiwan market evidence with persistent watchlists and auditable, execute-once retrieval.
+2045	Non-custodial paying fetch for x402 APIs (USDC on Base) with operator-set spend caps, approval thresholds, allow/deny lists and a receipt for every attempt.
+2046	Non-custodial swaps via Jupiter (Solana) and KyberSwap (EVM), cross-chain routing, Solana priority fees and Hyperliquid perps, as unsigned transactions.
+2047	Query Saudi economic and social statistics (GDP, inflation, trade, population, real-estate price index) from GASTAT and DataSaudi, in English or Arabic.
+2048	Read balances and prices, view portfolios, prepare transfers and deploy tokens across Stacks, Celo and Base.
+2049	JSON-RPC for EVM chains (Ethereum, Base, Arbitrum, Robinhood Chain, Plasma, Ink and more) from bare-metal nodes, including trace and debug methods.
+2050	Create invoices via a deep link that opens Blank Invoice Maker pre-filled, then review and download the PDF; invoice data stays in the browser.
+2051	Business-day and public-holiday calculations for 200+ countries: add or count working days, find the next business day and apply country weekend rules.
+2052	Spain's company registry (BORME): typed company events since 2009, including incorporations, director changes, insolvencies and capital changes.
+2053	Per-byte data marketplace on Arbitrum (PayPerByte): discover publishers, check on-chain quality scores, subscribe and pay per request in USDC via x402.
+2054	Savvly Longevity Benefit Fund: retirement projections (lump-sum, monthly, full trajectory), product comparisons, eligibility checks and FAQ search.
+2055	Non-custodial crypto payments: create payment links and tip jars from a wallet address, with funds settling directly to the merchant's wallet.
+2056	Crypto market data from Bybit, Binance, OKX, Hyperliquid, Gate and KuCoin: prices, funding rates, open interest, order books, candles and funding arbitrage.
+2057	General store for AI agents: signed certificates, human labor and digital goods paid in USDC via x402 on Base.
+2058	RustChain blockchain, BoTTube video platform and Beacon agent messaging: wallet management, mining queries, bounties, video search and upload, and messaging.
+2059	Lightning-paid (L402) Bitcoin mempool data (fees, whale alerts, fee prediction, tx status) plus self-hosted AI inference for text, code, vision and OCR.
+2060	Pay-per-call APIs settled on Kaspa L1: text tools, web reading, embeddings and semantic search, Kaspa chain data, LLM inference and RISC Zero zk proving.
+2061	Competitive intelligence: analyze a URL or company description and get structured market positioning, competitors, pain points and a market score.
+2062	Generate non-custodial crypto payment QR codes (BTC, ETH, SOL, USDC, USDT, EURC) and manage payment sessions.
+2063	1C:Enterprise ERP integration: metadata inspection, document CRUD, register queries and BSP integration.
+2064	Xendit payment gateway for Southeast Asia: invoices, disbursements, balance checks and bank transfers.
+2065	Non-custodial on-chain escrow with AI dispute arbitration for agent-to-agent USDC payments on Base.
+2066	Czech National Bank (ČNB) daily exchange rates: current and historical CZK rates and currency conversion.
+2067	Browse, take and submit USDC bounties on ArcBounty (Arc Network, ERC-8183 escrow and ERC-8004 reputation), with a credential-free read-only mode.
+2068	Frihet business management: invoices, expenses, clients, products and quotes.
+2069	Read and optionally write local hledger journals for double-entry plain text accounting.
+2070	Non-custodial, policy-gated execution layer for AI agents on EVM chains, Bitcoin, Solana, NEAR and more, with MPC signing, TEE attestation and x402 settlement.
+2071	PulseChain on-chain analytics: token safety scores, honeypot detection, whale and smart money tracking, scam alerts, DEX volume and bridge stats.
+2072	Base token-safety tools paid via x402: B20 freeze/seize/rug checks, pre-trade gates, honeypot detection, wallet and approval audits, prices and AI reports.
+2073	Trade crypto and RWA perpetuals on the Lighter zk-rollup DEX, with tiered credentials, on-chain stop-loss and take-profit, and server-side safety caps.
+2074	Deep research for crypto, running fully locally.
+2075	SEC EDGAR data: search public companies, retrieve 10-K, 10-Q and 8-K filings, and access XBRL financial data.
+2076	Alternative financial data from FinBrain.
+2077	BICScan risk scores and asset holdings for EVM addresses (EOA, CA, ENS) and domain names.
+2078	Track how financial news narratives evolve across tickers: news clustering, sentiment momentum and narrative risk mapping across portfolios.
+2079	Counterparty risk scoring for agentic commerce: scores wallets, domains, IPs and companies, paid via x402 micropayments.
+2080	Bitcoin market regime detection: outcome probabilities, historical pattern matching, composite gauges and real-time macro, institutional and on-chain data.
+2081	Open agent registry to discover and hire AI agents by capability, with Lightning, Solana USDC and x402 payments and a workflow engine for chaining agents.
+2082	Interact with Alchemy's blockchain APIs.
+2083	Backtest, optimize (Optuna TPE) and walk-forward-test trading strategies locally with the AlphaForge quant CLI.
+2084	US equity-compensation planning: ISO/AMT exercise schedules, NSO sell-vs-hold, RSU vesting, concentration sell-downs, collars and QSBS checks.
+2085	Fetch cryptocurrency listings and quotes via the Coinmarket API.
+2086	Jupiter API access: trade Solana tokens, check balances, search tokens and create limit orders.
+2087	Solana NFT market data from Magic Eden: floor prices, cheapest listings, collection stats and wallet holdings, paid per call via x402.
+2088	Manage Uniswap and Aerodrome liquidity positions with leverage, automated rebalancing, and yield optimization on Base, Unichain, and Optimism.
+2089	Execute trades on the MetaTrader 5 platform.
+2090	Trade Indian stocks on Zerodha Kite: holdings, orders, quotes and GTT triggers, with automated TOTP login.
+2091	Interface with multiple blockchains: staking, DeFi, swaps, bridging, wallet management, DCA, limit orders, coin lookup and tracking.
+2092	Central Bank of Russia data: daily and historical exchange rates, key interest rate, inflation and aggregated macro statistics.
+2093	Russian state registries EGRUL (legal entities) and EGRIP (individual entrepreneurs) from Federal Tax Service open data, self-hosted on local SQLite.
+2094	Russian counterparty due diligence: INN/OGRN lookup across EGRUL/EGRIP, bankruptcy, tax debt, enforcement and arbitration records, with a risk verdict.
+2095	Browse, get recommendations for and buy Chinese tea from the Hou Tea shop with USDC via x402, delegating payment to wallet MCP servers.
+2096	Solana token risk scoring by mint address, pump.fun graduation momentum signals and trust attestation queries.
+2097	EU VAT number validation via the European Commission's VIES service, plus offline VAT rates and format checks for European countries.
+2098	Personal finance calculators: mortgage payments, compound interest, FIRE retirement number, loan comparison, true borrowing cost and debt payoff.
+2099	Non-custodial ERC-4337 smart accounts, x402 payments, ERC-8004 on-chain reputation and service discovery for AI agents.
+2100	ERC-8004 agent discovery and x402 payment: find agents by skill via 8004scan, fetch agent cards and call agents with USDC payments using direct EOA signing.
+2101	Korean crypto market data and AI analysis: Kimchi Premium, stablecoin premium, Upbit and Bithumb prices and the USD/KRW rate, paid per use via x402.
+2102	Korean equity data in English: real-time DART filings, foreign-holder 5%-rule flows, activist filings and KRX industry news. Self-hostable.
+2103	Vietnam stock market data: real-time SSI quotes, technical analysis, financial statements, stock screener, AI picks, foreign flows and macro indicators.
+2104	Interact with smart contracts and query transaction and token information via the Bankless Onchain API.
+2105	Predictive congestion signals for global ports: congestion score, ETA delay, waiting vessels and a freight volatility index.
+2106	Read-only directory of US lenders and card issuers accepting ITIN (no-SSN) applicants, plus English/Spanish guides and FAQs on credit without an SSN.
+2107	Solana prediction markets on Baozi.bet: browse markets, place bets, claim winnings and create markets.
+2108	Build and run reproducible Backtrader backtests from local CSV data, with human-gated runs, logs and JSON/Markdown reports. Offline and backtest-only.
+2109	Non-custodial USDC yield for AI agents on Base: split payments between liquid and yield balances, withdraw anytime, simulate splits and check APY.
+2110	Non-custodial x402 payments for AI agents on Base: agents sign transactions from their own wallet with on-chain spend limits.
+2111	Fetch stock and crypto data from the Alpha Vantage API.
+2112	Crypto lending, staking and borrowing rates, coin metadata, aggregated prices, market stats, stablecoin peg stability and symbol resolution from Bitcompare.
+2113	Run AI agents on several blockchains via Bitte Protocol.
+2114	Read-only Blocksize market-data discovery: search instruments, read docs and build x402 URLs for paid live data settled in USDC on Solana and Base.
+2115	Discover and pay per call for tools on the bolthub API marketplace over Bitcoin Lightning (L402), with budgets, scoped delegation and verifiable receipts.
+2116	BotIndex AI signal intelligence API and Agorion agent service discovery network, with x402 payments for premium endpoints.
+2117	Self-hosted Bitcoin Core tools: fee estimates, mempool analysis, mining pool rankings, market sentiment, block and transaction inspection and BTC price.
+2118	Wallet for AI agents: earn via invoices, pay other agents and APIs, and manage USDC on Solana with human-set spending limits and FROST 2-of-2 signing.
+2119	Korean and global crypto exchange routing and arbitrage signals, with x402 USDC micropayments.
+2120	Stock screening, company financials and personal portfolio analysis.
+2121	AllRatesToday currency exchange rates: real-time mid-market rates from interbank data, historical rates, currency list and multi-currency lookups.
+2122	Central bank and tax authority exchange rates (ECB, Fed, Bank of England, RBI, HMRC, US Treasury): latest and historical tables, comparisons and calendars.
+2123	Pre-payout counterparty screening: IBAN validation, OFAC/EU/UN sanctions screening, Swiss BC-Nummer clearing, SEPA/VoP reachability and a risk score.
+2124	Read-only access to Monarch Money data: analyze transactions, budgets, accounts and cash flow, with MFA support.
+2125	Token prices, gas comparison, swap quotes, yield rates, honeypot detection and transaction simulation on Ethereum, Polygon, Arbitrum, Base and Optimism.
+2126	AlgoVoi crypto payment gateway: create checkout links, verify on-chain payments and generate MPP/x402/AP2 challenges on Algorand, VOI, Hedera and Stellar.
+2127	Prop trading firm discounts, reviews and deals: query discount codes, compare firms by country and check featured deals.
+2128	US government contracting, spending and regulation data: SAM.gov, USAspending, Grants.gov, Federal Register, eCFR, OFAC sanctions and state/local bid portals.
+2129	Find similar historical stock chart patterns by ticker and date or screenshot, with forward returns, regime analysis and trade simulation.
+2130	Crypto token risk intelligence: rug pull detection, honeypot scoring, deployer tracking, holder analysis, KOL shill detection, social OSINT and LLM forensics.
+2131	Cryptopolitan cryptocurrency news, analysis and price predictions: search articles by category or ticker, with built-in attribution.
+2132	Daily geopolitical risk probabilities (escalation, ceasefire, regime change) for conflicts like Russia-Ukraine and China-Taiwan, plus chokepoint vessel data.
+2133	Real-time enriched blockchain and market data across many networks via the Codex API.
+2134	Paper-trade crypto spot, futures and prediction markets on CoinRithm with simulated funds and a public Agent Arena.
+2135	CoinPaprika API access: real-time prices, tickers, OHLCV, market cap and coin metadata for cryptocurrencies and exchanges.
+2136	DexPaprika API access: real-time DEX token prices, liquidity pool data and historical OHLCV across many chains.
+2137	Arena where AI agents compete in daily parimutuel pools: describe a strategy in plain English and get a funded agent that runs autonomously.
+2138	CHP Profile B spend, human-in-the-loop and tool-approval receipts.
+2139	Mercado Pago payments for LATAM merchants: create payment links, search payments and issue refunds.
+2140	Cross-border debt collection with Debitura: submit cases to local partners, check case status, read partner messages and get quotes.
+2141	Cross-chain swaps and bridging across EVM chains and Solana via deBridge: find routes, evaluate fees and initiate non-custodial trades.
+2142	Deterministic refund eligibility checks for subscriptions (Adobe, Spotify, etc.), returning ALLOWED, DENIED or UNKNOWN from a stateless rules engine.
+2143	Corporate debt structure data: search issuers and bonds with leverage ratios, seniority, covenants, guarantor chains and FINRA TRACE prices.
+2144	Live market data from CoinGecko, Yahoo Finance and ExchangeRate API: crypto and stock prices, major indices, forex, trending coins and the Fear & Greed Index.
+2145	Personal finance calculators for seven countries plus Islamic finance: income tax, loans, retirement, VAT, Zakat, Murabaha, Ijarah and halal stock screening.
+2146	Multi-language crypto news summaries with sentiment labels and importance scores, crediting the original publisher.
+2147	Polymarket trading tools: direct and copy trading, smart money detection, backtesting, arbitrage scanning, portfolio optimization and live price streaming.
+2148	Options-flow data: a curated overnight pool selected on liquidity, per-contract liquidity checks, realized outcome history and exit-rule replay.
+2149	Live Elon Musk and Ted Cruz tweet feeds and counters for Polymarket tweet-count markets, comparing real, XTracker oracle and UI counts.
+2150	Company research across multiple data sources: structured reports with a bull/bear verdict for stocks, crypto and private companies.
+2151	Argentine exchange rates via DolarAPI (blue, oficial, MEP, CCL, crypto, tarjeta), plus currency conversion and a spread calculator.
+2152	Local Ethereum wallet for AI agents on macOS: read balances and history, request human-approved payments and pay for x402 resources with USDC on Base.
+2153	Read-only, offline analysis of your stock and ETF transaction log: drawdown-focused risk with bootstrap confidence intervals and walk-forward verdicts.
+2154	Unofficial, read-only Mercury banking across multiple organizations: balances, transactions, statements, cards, invoices, treasury and 1099 pre-filing checks.
+2155	Real-time crypto market data and trading across many exchanges via CCXT: spot, futures, OHLCV, balances and orders.
+2156	Dodo Payments: manage payments, subscriptions, customers, products, refunds, license keys and usage-based billing, plus semantic search over the docs.
+2157	Live cross-DEX pool prices, liquidity and spreads from on-chain state on BSC, Polygon, Arbitrum, Base, Avalanche and Optimism, plus a measurement archive.
+2158	On-chain attestation across many blockchains: ECDSA-signed verification, wallet trust profiles, compliance templates, merchant onboarding and ACP/UCP support.
+2159	Offline Japanese company due diligence: EDINET XBRL financials, NTA corporate numbers, major shareholders, gBizINFO certifications and industry benchmarks.
+2160	ERC-8004 registered agent that delivers uplifting messages, with on-chain USDC tipping, reputation feedback and discovery across multiple chains.
+2161	Crypto tools for Solana, Ethereum, Base, BSC, Polygon, Hedera and Bitcoin: swaps, DeFi yield, conditional orders, NFTs, cross-chain bridges and market data.
+2162	EquiVault equity research: fundamentals, financial statements, ratios, quotes, screening, peer comparison, insider transactions and portfolio analytics.
+2163	Solana blockchain data: wallet balances, token prices, Raydium and Orca DeFi yields, and token safety checks (RugCheck, holder concentration, insiders).
+2164	Solana wallet management, SOL and SPL token transfers, SPL token creation and minting, account operations and mainnet/devnet/testnet switching.
+2165	Canadian adjusted cost base (ACB) and capital gains from trade history: average-cost tracking, per-disposition realized gains and superficial-loss detection.
+2166	DeFi execution across many chains: swap, provide liquidity, lend, bridge and run yield strategies, plus token discovery, portfolio analysis and quotes.
+2167	Cross-chain OTC trading of ETH, BTC and SUI via sealed-bid RFQ and HTLC atomic settlement, without bridges or custodians.
+2168	Permissionless wallets for AI agents on EVM chains and Solana: wallet creation, transaction signing, token transfers and x402 payments in USDC.
+2169	Validate EU electronic invoices (Peppol BIS, XRechnung, Factur-X/ZUGFeRD, UBL, CII) and explain rejection codes.
+2170	Trading bot platform: create automated trading strategies in natural language via the Alpaca brokerage.
+2171	Everstake non-custodial staking data across many networks: live APY, uptime metrics, rewards calculator, integrations, security and compliance info.
+2172	FalsifyLab market research data: DeFi yields, Hyperliquid vaults, SEC Form 4 insider buys, 8-K filings, crypto ETF flows and Polymarket whale positions.
+2173	UK property finance calculators: bridging loan costs, development appraisal, buy-to-let stress tests and stamp duty (SDLT, LBTT, LTT).
+2174	Fetch stock market data, including options recommendations, from Yahoo Finance.
+2175	Query FEC campaign finance data via the OpenFEC API: search candidates, track donations, analyze spending and monitor Super PAC activity.
+2176	Signed, x402-paid verification tools: claim notarization, graded verdicts with bonded disputes, OFAC SDN screening and Altman Z-score distress scoring.
+2177	Trade on Tastytrade via the Tastyworks API.
+2178	Analyze content from Reddit's WallStreetBets community.
+2179	Real-time financial news: search by ticker, source, and language, with sentiment scores and tagged company entities.
+2180	Self-hostable personal finance app: track and query income, expenses, budgets, investments, loans, subscriptions and goals, with per-user encryption at rest.
+2181	Historical US, UK, Russian and Turkish stock exchange data from finmap: sectors, tickers, company profiles, market cap, volume and treemap visualizations.
+2182	FLOX trading systems framework: run backtests, scaffold strategies, check for lookahead bias, place orders and query PnL.
+2183	Company data from UK Companies House and Norway's Brønnøysund registers: lookup, name search, filing deadlines and Norwegian VAT registration checks.
+2184	Real-time business events: funding rounds, acquisitions, executive hires, AI-scored leads and market intelligence.
+2185	M-PESA via the Safaricom Daraja API: STK push, B2C payments, balance queries, transaction status, SIM swap detection and Bill Manager.
+2186	Treasury for AI agents on Base: park idle USDC in a cbBTC/WETH index with Crash Shield protection and swap to USDC just in time for x402 payments.
+2187	Connect any Bitcoin Lightning wallet to send and receive instant payments.
+2188	Monitor CashPilot bandwidth-sharing dashboards: passive income, DePIN earnings and container status across sharing services.
+2189	Karma for AI agents and humans: submit good actions, get community attestations and earn on-chain reputation on Arbitrum, with Kleros dispute resolution.
+2190	Real-time financial data for stocks, options, crypto and forex.
+2191	AI-curated crypto news: real-time headlines with sentiment analysis, AI-generated recaps, keyword search and ticker summaries.
+2192	Deterministic per-transaction crypto trade validation (PROCEED/CAUTION/BLOCK), token scanning and rug pull detection for trading agents.
+2193	SODAX cross-chain DeFi data and SDK docs: query swaps, lending, solver volume and intent history.
+2194	Agent payments ecosystem tracking: scans GitHub, Hacker News and npm for AP2, ACP, x402, MPP and UCP activity and returns scored opportunities.
+2195	Proof-of-Time temporal attestation for AI agents based on multiple HTTPS sources.
+2196	Access Heurist Mesh web3 AI agents for blockchain analysis, smart contract auditing, token metrics, DeFi analysis, NFT valuation and transaction monitoring.
+2197	Hive Intelligence: unified access to crypto, DeFi and Web3 analytics.
+2198	Pay-per-call x402 tools for trading agents: fused crypto signals, sentiment, macro regime, strategy arena, Brave/Tavily web search and E2B code execution.
+2199	Perpetual futures trading on Pacifica, Hyperliquid and Lighter: market data, execution with dry runs, funding rate arbitrage scanning and portfolio analytics.
+2200	Multi-AI crypto token risk scanner for Solana, Base and Ethereum: agents debate risk to detect rug pulls, honeypots, holder concentration and wash trading.
+2201	Fetch real-time stock prices from Stooq for global markets, including the US, Japan, UK and Germany.
+2202	Crypto and US equity order flow engine for real-time liquidity analysis.
+2203	TRON Energy and Bandwidth marketplace and DEX swap aggregator: buy energy, sell resources and swap TRC-20 tokens via SunSwap.
+2204	Access and analyze Chinese stock market data via baostock.
+2205	Convert PDF bank statements into JSON, Excel or CSV with balance validation via the MainBook API. Does not connect to bank accounts.
+2206	x402 pay-per-call wallet tools on Base and Solana: OFAC screening, wallet intel, hash anchoring, signed attestations, tx decoding and ENS/SNS resolution.
+2207	T-Bank mobile banking: accounts, cards, transfers, bill pay, grocery ordering, tickets and travel search.
+2208	Read and manage Copilot Money data: transactions, budgets, accounts, recurring charges, investments and goals, with local reads and opt-in writes.
+2209	IMBA Wallet for agents: docs, plus USDT TRC-20 deposits and spending on prepaid Visa cards, travel eSIMs and gift cards. No withdrawals.
+2210	Indigo Protocol on Cardano: iAsset prices, CDP and loan analytics, stability pools, INDY staking, governance and DEX data.
+2211	Cardano wallet interactions: submit transactions, fetch addresses, read UTxOs, check balances, resolve ADAHandles and check stake delegation.
+2212	BSC transactions: balance and token transfers, PancakeSwap token swaps and Beeper reward claims.
+2213	AI reasoning, decisions, persistent memory and an agent marketplace paid per use via Bitcoin Lightning, where agents sell services and message each other.
+2214	Sports odds, player props and prediction-market data, with live previews and source-quality and coverage tools.
+2215	Query the Bitcoin blockchain.
+2216	Access EVM JSON-RPC methods through any EVM-compatible node provider, such as Infura, Alchemy, QuickNode or a local node.
+2217	Real-time prediction market odds, prices and market info from Polymarket, PredictIt and Kalshi.
+2218	Toss Securities Open API for Korean and US stocks: orders behind single-use confirmation tokens, quotes, order book, candles, investor flows, holdings and FX.
+2219	Read-only, source-linked Malaysian individual and sole-proprietor tax reference: YA2025 Form BE drafts, Form B preparation readiness and YA2026 planning.
+2220	Real-time on-chain market prices from the Dexscreener API.
+2221	Discover, preview and buy live agent data APIs (vendor risk, company intelligence, transaction preflight, EVM reads), paying via x402 in USDC on Base.
+2222	Korean stock analysis using the OpenDART and KRX APIs.
+2223	Self-hosted, read-only access to bank, credit card, loan and brokerage accounts via Plaid: balances, transactions, recurring charges, liabilities and holdings.
+2224	Reputation scoring for AI agent wallets on Base: trust scores, fraud reports, blacklist checks, leaderboard, badges and agent registration.
+2225	Deterministic day-count and accrued-interest calculations using ISDA and ICMA conventions.
+2226	Build, backtest and automate Hyperliquid trading strategies: typed strategy composition, deterministic backtests on historical data and opt-in live execution.
+2227	HTTP 402 and MCP paywall for any API: unpaid requests get a 402, agents pay USDC on Base, then the request is proxied. Also serves paid MCP tools.
+2228	Circle Agent Stack via the Circle CLI: create USDC wallets, set spend policies, send stablecoins and pay x402-gated endpoints.
+2229	x402 micropayments stack for MCP: pay-per-tool-call USDC settlement on Solana via a self-hostable facilitator, with SDK, CLI and paywall middleware.
+2230	Track Binance Alpha trades to help optimize alpha point accumulation.
+2231	Track Bitcoin unspent transaction outputs (UTXOs) and block statistics.
+2232	Blockchain news and in-depth articles from BlockBeats.
+2233	Real-time gas price predictions across multiple blockchains from Blocknative.
+2234	Real-time cross-chain bridge metrics.
+2235	Real-time cross-chain bridge rates and optimal transfer routes.
+2236	Real-time access to Chainlink's decentralized on-chain price feeds.
+2237	Verified EVM chain information: RPC URLs, chain IDs, explorers and native tokens.
+2238	Real-time access to the latest Cointelegraph news.
+2239	Real-time and historical Crypto Fear & Greed Index data.
+2240	Structured, real-time data on cryptocurrency investment funds.
+2241	Cryptocurrency technical analysis indicators and strategies.
+2242	Streams real-time cryptocurrency liquidation events from Binance.
+2243	Real-time cryptocurrency news from NewsData.
+2244	Analyze order book depth and imbalance across major crypto exchanges.
+2245	Track stablecoin peg integrity across multiple blockchains.
+2246	Track and manage cryptocurrency portfolio allocations.
+2247	Cryptocurrency project data from Mobula.
+2248	Aggregate real-time cryptocurrency news from multiple RSS feeds.
+2249	Cryptocurrency sentiment analysis.
+2250	Track real-time data for major crypto-related stocks.
+2251	Track the latest trending tokens on CoinGecko.
+2252	Structured knowledge base of crypto whitepapers.
+2253	Latest cryptocurrency news from CryptoPanic.
+2254	Real-time Solana memecoin data: KOL wallet tracking and coordination signals, Pump.fun deployer scoring, alpha-wallet intel, copy-trade rules and DEX trades.
+2255	Read-only access to Easy Pay Direct and NMI-family payment gateways: search transactions, subscriptions, recurring plans and the Customer Vault.
+2256	Generate PDF, JSON and UBL invoices in multiple languages and scripts, including right-to-left Arabic, Japanese, Hindi and Cyrillic.
+2257	Match news headlines to the Polymarket prediction markets they could move, with live odds, deep links and explainable matching. Read-only.
+2258	China A-share market data via Eastmoney: real-time quotes, main capital flow rankings, sector fund flows and historical K-lines.
+2259	Non-custodial DEX trading on the Casper Network via CSPR.trade: market data, swaps, liquidity and account queries, with transactions signed locally.
+2260	Aggregate live governance proposals from major DAOs.
+2261	Explore DeFi yield opportunities.
+2262	Real-time access to DEX liquidity pool data.
+2263	Real-time trending tokens from DexScreener.
+2264	Access Dune Analytics data.
+2265	Crypto ETF flow data.
+2266	Track Ethereum validator activation and exit queues in real time.
+2267	Integrate with the Freqtrade cryptocurrency trading bot.
+2268	Real-time funding rate data across major crypto exchanges.
+2269	Real-time data and insights from the Hyperliquid perp DEX for bots, dashboards and analytics.
+2270	Real-time Hyperliquid whale alerts for positions with a notional value above $1 million.
+2271	Execute token swaps on Solana using Jupiter's Ultra API.
+2272	Track newly created pools on PancakeSwap.
+2273	Real-time market odds from Polymarket.
+2274	Real-time token swaps and automated on-chain trading on PumpSwap.
+2275	Launch, buy and sell tokens on Raydium LaunchLab (Raydium Launchpad).
+2276	Detect potential risks in Solana meme tokens.
+2277	Cross-chain token transfers via the Stargate protocol.
+2278	Optimal token swaps on the Sui blockchain.
+2279	Indexed blockchain data from The Graph.
+2280	Mint ERC-20 tokens across multiple blockchains.
+2281	Check and revoke ERC-20 token allowances across multiple blockchains.
+2282	Track historical Twitter username changes.
+2283	Track newly created Uniswap liquidity pools across multiple blockchains.
+2284	Real-time token prices from Uniswap V3 across multiple chains.
+2285	Automate token swaps on Uniswap across multiple blockchains.
+2286	Inspect any wallet's balance and on-chain activity across major EVM chains and Solana.
+2287	Real-time access to curated Web3 job listings.
+2288	Track cryptocurrency whale transactions.
+2289	Live Hyperliquid HIP-4 prediction market data: odds, order books, candles, trades and portfolio positions.
+2290	Zcash shielded operations: chain queries, memo decoding, on-chain attestation and proof verification.
+2291	Trading 212 API integration: portfolio management, market, limit and stop orders, pies, dividends, market data and analytics.
+2292	Klever blockchain smart contract development, on-chain data exploration, account and asset queries, transaction analysis and contract deployment.
+2293	OFAC sanctions screening of names, wallets and countries before payment, via MCP, HTTP or CLI.
+2294	VC deal flow signals from GitHub activity: startup commit velocity, contributor growth and repo expansion across sectors, for seed and Series A investors.
+2295	Manage stock and crypto portfolios, place trades and access market data via the Alpaca trading API.
+2296	Bitcoin Lightning wallet for AI agents with L402/x402 paid API support, operator/agent hierarchy, budget controls and a CLI.
+2297	Deterministic risk governance for BTC and ETH trading agents: a five-level policy engine with position sizing, leverage limits and trade blocking.
+2298	Pay-per-request AI access via Bitcoin Lightning through LightningProx, with vision and multimodal support.
+2299	Polymarket analysis via LightningProx: find mispriced markets, analyze specific markets and list top markets by volume, paid per request over Lightning.
+2300	Cross-border USDC settlement on Base: stability oracle (macro, FX, ESG, climate), ESG scoring, FX quotes, Verification of Payee and settlement execution.
+2301	LNbits Lightning Network wallet integration.
+2302	Longbridge brokerage: US and HK real-time quotes, options, trading, fundamentals, analyst ratings, calendars, price alerts, DCA plans and portfolio analytics.
+2303	Real-time stock market data, analysis and trading via the LongPort OpenAPI.
+2304	AI-enriched financial news: full-text and ticker search, trending feeds, SEC Form 4 insider transactions and per-ticker analysis with relevance scores.
+2305	Real-time crypto volume anomaly detection: unusual trading activity, whale movements and pump signals.
+2306	AI-scored trading signals from Reddit, SEC filings, FDA approvals, Congressional trades and other sources.
+2307	Signed receipts, verification and dispute evidence for agent-to-agent commerce.
+2308	Everyday calculators for finance, tax (eight countries), health, math, science, construction, conversions, education, sport, cooking and travel.
+2309	Blockchain services for many EVM networks: native tokens, ERC-20, NFTs, smart contracts, transactions and ENS resolution.
+2310	AI-to-AI marketplace with on-chain escrow.
+2311	Starknet blockchain integration: native tokens (ETH, STRK), smart contracts, StarknetID resolution and token transfers.
+2312	Meme token launches on Solana via pump.fun: create tokens with AI-generated art, bundled buys and Jito MEV protection.
+2313	Manage financial transactions and generate reports with ledger-cli.
+2314	Non-custodial DeFi banking for AI agents on Sui: save, borrow, invest, exchange, send and pay, with yield optimization across NAVI, Suilend and Cetus.
+2315	On-chain data for the $BOBAI token on BNB Chain: price from pair reserves and Chainlink, liquidity depth, LP-burn proof and a buyback-and-burn audit trail.
+2316	Real-time market state for trading agents (exchange status, VIX/VVIX/SKEW, economic events) plus quality ratings for financial data APIs.
+2317	Binance USDT-M Futures trading: market data, account state, order management and position and margin control.
+2318	Get Yahoo Finance data using yfinance.
+2319	Subscription management with Gmail and MySQL integration.
+2320	Local stock research: screening, fundamentals, insider trades, options and Reddit sentiment, and AI news analysis.
+2321	European financial data: ECB rates, plus Eurostat inflation, GDP and unemployment by EU country.
+2322	Preflight x402 and MCP resources before payment and fact-check claims before an agent acts, with local wallet keys and USDC settlement on Base.
+2323	ClickUp API integration covering all endpoints, with compact, token-efficient responses. Also works as a standalone CLI.
+2324	Non-custodial EVM wallet that routes transactions to browser wallets like MetaMask for signing, with explicit user approval for every action via EIP-6963.
+2325	Read-only queries of the NOVAI layer-1 blockchain: blocks, transactions, AI entities, on-chain signals, oracle anchors and memory objects.
+2326	Personal asset planning for Japan's Tsumitate NISA and iDeCo: NISA simulations, retirement gap analysis, required monthly savings and compound interest.
+2327	Tenant-bound agent spend authorization: policy guardrails, spend intents, evidence, escrow settlement, completion validation and portable receipts.
+2328	Local, read-only access to live MyLinedChart desktop chart context: symbol, candles, drawings, indicators and IBKR status.
+2329	Integrate private and public market data via Octagon AI agents.
+2330	Economic settlement for AI agents: receipt verification, metering, net settlements, credit lines and balance sheets.
+2331	Real-time oil, gas and commodity prices: spot, history, futures curves, price alerts and market briefs for Brent, WTI, diesel, jet fuel and more.
+2332	Access the Global Legal Entity Identifier (LEI) database for company verification, KYC, and corporate ownership research via GLEIF's public API.
+2333	Multichain memecoin launchpad where agents can tokenize themselves: trending tokens, search, quotes, bonding curves and trade simulation.
+2334	Cross-chain DeFi analytics: yield discovery, pool analysis, profit simulation, risk scoring, whale tracking and impermanent loss calculation.
+2335	Open-source accounting skills reviewed by licensed accountants, covering income tax, VAT and payroll by country, US state and Canadian province.
+2336	Apache Fineract self-service integration: user registration, authentication, account management, transactions and third-party transfers.
+2337	Core banking integration for managing clients, loans, savings, shares and transactions, and generating financial reports.
+2338	US import duty research from USITC data: HTS code candidates, Chapter 99 duties (Section 301/IEEPA), MPF/HMF fees, landed costs and tariff-change tracking.
+2339	Polymarket whale tracking and smart-money analytics: filtered leaderboard, hedge detection and Ukraine territorial markets with ISW frontline overlay.
+2340	Read-only access to the UK Monzo banking API with a local SQLite transaction cache, full-text search and spending analysis by category.
+2341	Pre-trade risk checks for Solana tokens: traces holder funding, flags bundle buys, coordinated dumps and serial launchers, and screens individual wallets.
+2342	Virtual Visa cards for AI agents: just-in-time card issuance per transaction with human-approved spend authorization.
+2343	Simulated crypto trading with real-time Upbit prices and a virtual KRW balance: registration, trading and autonomous AI investing.
+2344	Multichain Aave V2/V3 lending data via The Graph: reserves, user positions, health factors, liquidations, flash loans and governance.
+2345	Polymarket prediction market data via The Graph: markets, positions, orders, user activity and real-time odds.
+2346	Onchain data, AI models and batch USDC payments on Base via x402: swap quotes, token prices, wallet balances, ENS resolution and multi-recipient transfers.
+2347	Access Polygon.io financial market data APIs for stocks, indices, forex, options and more.
+2348	Deterministic, read-only fintech tools: agentic payments (AP2, x402, Visa TAP, A2A), AML/KYC risk rating, BaaS provider comparison and MCP dev tooling.
+2349	Quant tools for Kalshi and Polymarket (expected value, Kelly sizing, Bayesian updating, odds conversion) plus an NFL fantasy draft assistant.
+2350	Bitcoin and macro market briefings (Fed balance sheet, M2, Treasury yields, correlations) with trend signals, confidence scores and regime classification.
+2351	Fetch cryptocurrency prices from the Bitget API.
+2352	On-chain calculated crypto indicators (EMA, RSI, Bollinger Bands, volatility) delivered via Chainlink oracle across multiple timeframes.
+2353	Crypto market-making toolkit for DeFi analytics, CEX/DEX trading and liquidity management.
+2354	QuantConnect API access: create projects, backtest strategies, manage collaborators and deploy live trading.
+2355	Deterministic quant finance tools: options pricing, risk metrics, portfolio optimization, Monte Carlo, technical indicators, crypto/DeFi and FX/macro.
+2356	Real-time cryptocurrency prices and market information from CoinCap's public API.
+2357	Macro-factor quantitative trading signals for US and A-share markets: strategy discovery, live signal retrieval and forward-tracked performance.
+2358	Unofficial PayPal Braintree integration: process payments, manage customers and handle transactions.
+2359	Bitcoin Lightning payments for AI agents: pay and create invoices, check balances and access L402-paywalled APIs, with Strike, OpenNode and NWC wallets.
+2360	Generate Pix QR codes and copy-paste strings with fallback across multiple providers (Efí, Cielo, etc.) for Brazilian instant payments.
+2361	Multi-chain AML risk scoring and sanctions screening with ML anomaly scoring and graph analysis across Bitcoin, Ethereum, Polygon, Avalanche and Solana.
+2362	Live LLM API token prices, model comparisons, cheapest-model lookups and The LLM Price Index, re-verified daily against provider pages.
+2363	UK Companies House data via the Registrum API: company search, profiles, iXBRL-parsed financials, director history and corporate network graphs.
+2364	XRP Ledger access: account information, transaction history, ledger objects, transaction submission and network monitoring.
+2365	ApexVol options analytics: chains, IV rank, volatility risk premium, Greeks, gamma exposure (GEX), expected moves and market screeners.
+2366	Offline LLM cost prediction: estimate request costs, pick the cheapest capable model, compare models, list prices and optimize requests.
+2367	Cryptocurrency market data from the CoinGecko API.
+2368	Stock market data and analysis from the Yahoo Finance API.
+2369	Real-time stock data, company fundamentals, FRED economic indicators, SEC filings and crypto prices, paid per call via x402 on Base.
+2370	On-chain TCG price oracle for LitecoinVM: card search, price history, Merkle proof verification, Monte Carlo simulation and AI card grading.
+2371	TCG collectibles and agent utilities: AI card grading, Monte Carlo price simulation, music and image generation, TTS, RAG memory and SAST auditing.
+2372	Toss Securities Open API: real-time quotes, order book, candles, holdings, buying power and order management (create, modify, cancel).
+2373	Disability insurance brokerage: submit quote requests on a user's behalf, compare carriers and research coverage.
+2374	Quote-to-cash for service businesses (machine shops, contractors, HVAC): jobs, quotes, customer memory, price signals, follow-ups and confirmed sends.
+2375	Real-time SEC filings, financials and insider trading data via ShareSeer.
+2376	Live cryptocurrency market data: real-time prices, OHLCV, order books and market summaries.
+2377	L402 SDK for TypeScript, Python, Go and Rust: server middleware, an auto-paying agent client, an MCP server, LangChain integration and budget control.
+2378	Startup due diligence: screens startups across IMPACT-X dimensions and returns a Sieve Score, evidence-typed findings and a meeting recommendation.
+2379	Live and historical data for stocks, forex, crypto, commodities and DEXs, plus fundamentals, filings and market calendars.
+2380	Brazilian Central Bank (BCB) economic time series via the SGS public API: Selic, IPCA, exchange rates, GDP and curated indicators.
+2381	SEC filing data from Signal8: insider and 13F ownership, dilution-risk scoring, STOCK Act trades, FEC campaign finance, filing search and a stock screener.
+2382	Tools for US federal contractors: go/no-go bid scoring, incumbent research, teaming-partner search, recompete prediction and SAM.gov solicitations.
+2383	Query onchain data across EVM, Solana, Bitcoin, Substrate and Hyperliquid via the SQD Portal API.
+2384	Cost-of-living and quality-of-life comparison between cities: take-home pay, taxes, equivalent salary, childcare, healthcare, vacation and parental leave.
+2385	Real-time supply chain risk data: disruption indices, commodity prices, port congestion, border delays, chokepoints, freight and trade policy.
+2386	Multi-chain blockchain RPC reference: endpoint URL templates, JSON-RPC method support per chain and live endpoint probing.
+2387	Taiwan statutory payroll calculations: labor and health insurance, labor pension, NHI supplementary premium, income-tax withholding and old-age benefits.
+2388	Self-custodial crypto portfolio: EVM balances and DeFi positions with risk alerts, plus unsigned transactions signed on a Ledger via WalletConnect.
+2389	Local-first crypto portfolio aggregation across Bybit, Binance, EVM and Solana wallets and Polymarket, with read-only credentials in the OS keychain.
+2390	Access Tatum's blockchain API across many networks, including an RPC gateway and blockchain data insights.
+2391	Interact with Substrate-based blockchains.
+2392	Connect to any OpenTelemetry backend, such as Datadog, Grafana, Dynatrace or Traceloop.
+2393	Trade stocks and crypto on brokerages such as Robinhood, E*Trade, Coinbase and Kraken via Trade Agent.
+2394	Non-custodial Solana trading engine: swaps, limit, trailing, TWAP and DCA orders across Raydium, PumpSwap, Orca and Meteora with Jito MEV protection.
+2395	Trade on Robinhood: portfolio analysis, real-time quotes and order execution.
+2396	Real-time and historical financial market data from the Twelve Data APIs.
+2397	Real-time crypto market data via CryptoDataAPI: market health scores, derivatives, funding rates, ETF flows and cycle indicators.
+2398	Claim verification with evidence chains, plus market data, trading signals, SEC filings, insider trades and technical analysis.
+2399	Hardware-verified DeFi: read balances and positions and prepare transactions across EVM chains, TRON, Solana and Bitcoin, with approval on a Ledger.
+2400	Self-hosted wallet-as-a-service for AI agents on Solana and EVM: transfers, DeFi, NFTs, smart contracts, signing and x402 payments, with spending policies.
+2401	CNN Fear & Greed Index for the US stock market: score, rating, component indicators and about a year of daily history.
+2402	Query Solana transactions via the Solscan API.
+2403	Self-verifying ledger with dual-signed transactions, gift and sponsor cards and loyalty tiers, using EVM or post-quantum (ML-DSA-65, SLH-DSA) signatures.
+2404	Market data and analysis: stock quotes, technical indicators, CoinGecko crypto prices, risk metrics, options chains and portfolio analysis.
+2405	Access the CRIC Wuye AI platform, an assistant for the property management industry.
+2406	Access Xero's accounting and business features via its API.
+2407	Japanese corporate data via government APIs (gBizINFO, EDINET, e-Stat): companies, financials, patents, subsidies, procurement and government statistics.
+2408	Real-time stablecoin yield index across DeFi protocols and CEX earn programs, with a yield advisor, risk signals and non-custodial deposit/redeem quotes.
+2409	Chinese A-share financial statements: pull annual reports, run industry-aware accounting cross-checks and compare peers with average-equity ROE.
+2410	Yolfi Payments integration: register workspaces, create crypto checkout links, configure and verify webhooks and check payment status.
+2411	Verify AI-agent revenue claims by recomputing a Merkle proof and checking it against an on-chain anchor (x402, agentic payments).
+2412	Access financial data from multiple providers, such as Tushare.
+2413	Market and financial news search with filtering by symbols, industries, countries and date ranges.
+2414	Layered memory for AI trading agents (trades, patterns, strategy), supporting MT5, Binance and Alpaca.
+2415	Adversarial pre-trade verification: Claude, Grok and DeepSeek challenge each agent decision and return ALLOW or HOLD with a signed attestation.
+2416	Pre-computed indicators for US stocks, ETFs and crypto (trend, momentum, volatility, fundamentals) with state-transition history for screening and backtesting.
+2417	Real-time crypto market structure: cross-exchange orderflow, price, funding and open-interest snapshots, CVD with whale activity and OHLCV history.
+2418	Financial data aggregated from multiple sources: stock snapshots, company metrics and comparisons with derived signals, CAGRs, margin trends and DCF upside.
+2419	SEC EDGAR signals: insider trading (Form 4), 13F institutional holdings, 10-K/8-K filing velocity, activist risk flags and disclosure comparisons.
+2420	Institutional 13F data from SEC EDGAR: manager search, holdings lookup, portfolio similarity, consensus portfolio, market regime and sector flows.
+2421	Tradallo Verified Record Protocol: query verified human and AI-agent trading reputations, track records, trade receipts and Solana memo notarizations.
+2422	Backtest Pine Script v6 strategies locally by transpiling them to C++ and running them on the deterministic PineForge engine.
+2423	Standardized SEC EDGAR financial data for US public companies: income statements, balance sheets, cash flow and ratios, normalized from XBRL.
+2424	Perpetual funding-rate data and cross-exchange funding arbitrage across many venues, including HIP-3 sub-DEXes, with x402-paid signals.
+2425	Keyless CEX/DEX signing for trading agents: keys stay in an AWS Nitro Enclave and agents get policy-bounded signatures for Binance, OKX, Bybit and others.
+2426	Read-only Toss Securities Open API documentation: browse endpoints and schemas, follow integration guides and generate curl, TypeScript and Python samples.
+2427	Intent-based DEX aggregator (self-hosted CoW Protocol): parse swap intents, get quotes, build and submit EIP-712 orders and check balances on EVM chains.
+2428	Non-custodial VietQR payments in Vietnam: generate a VietQR code for the user and auto-confirm settlement from the merchant's bank feed.
+2429	Manage Gainium DCA, Combo and Grid trading bots: bots, deals, balances, backtests, the crypto screener and strategy presets.
+2431	Pay-per-call x402 tools: crypto prices, web search, weather, image generation, LLM chat, code execution, translation, sentiment analysis and QR codes.
+2432	Deterministic MEV and slippage risk oracle for DeFAI agents.
+2433	x402 pay-per-call tools: token rug and honeypot checks, new-pair and whale-swap signals, SEO/GEO audits, web extraction, link previews and LLM inference.
+2434	Narrative and signal tracking for crypto, AI and macro: cross-source narrative convergence and capital-versus-narrative divergence.
+2435	Business identity data: company verification, VAT, BORME, GLEIF, ownership and risk signals across many countries.
+2436	Safety checks before paying x402 endpoints: liveness, scam scans (payTo hijack, honeypot), on-chain receiver verification and trust scores.
+2437	Multi-currency double-entry accounting on local GnuCash books: transactions, invoices, bills, budgets, investment lots, reconciliation and reports.
+2438	Brazilian stock market data from B3, CVM and BCB: stock prices, fundamentals, dividends, FIIs and macro indicators (Selic, IPCA, CDI).
+2439	Fundraising for AI agents on Solana: register agents, create campaigns, donate via x402 and track on-chain reputation.
+2441	ISO 20022 camt.053 bank statement parsing and XSD validation, IBAN/BIC/LEI checks, Xero and QuickBooks journal export and reversing-entry generation.
+2442	Generate, validate and parse ISO 20022 pacs.008, pacs.004 and pacs.002 messages, repair structured addresses and convert SWIFT MT103 to pacs.008.
+2443	Accounting for the French LMNP furnished-rental tax status: journal entries, depreciation, 2031/2033 tax forms, FEC export and Airbnb/Booking.com imports.
+2444	Direct liteserver access to The Open Network (TON) over ADNL: GRAM balances, account state, transaction history and contract get-methods.
+2445	Parse, validate, build and explain FIX protocol trading messages offline, using a bundled FIX 4.4 field dictionary.
+2446	Sweep native gas balances to exactly zero on EVM chains via EIP-7702 sponsored execution, same-chain or cross-chain, to allowlisted destinations.
+2447	Read-only Solana and EVM liquidity pool scores: Enter/Hold/Exit verdicts, a composite Wealthville Score, top pools, signals and a public track record.
+2448	Import CSV/XLSX accounting data into QuickBooks Online or Xero via the Synder Importer API, with field mapping and post-import rules.
+2449	US tax classification for on-chain transactions: submit a transaction hash to get its category, tax treatment, a confidence score and a review flag.
+2450	Read-only Hyperliquid/HyperEVM data: HYPE yields (staking, lending, LP, HLP vault), protocol TVL and fees, markets, funding history and order-book depth.
+2451	Cited economic statistics from the World Bank, IMF, BIS, ECB and Caribbean central banks, plus checks of claimed figures against the source series.
+2452	Cross-chain swap execution across multiple venues and chains, including native Bitcoin as source or destination.
+2453	x402 pay-per-call market and on-chain data: token-unlock risk, kimchi-premium alerts, honeypot and LP-lock audits, DEX slippage and funding-rate carry.
+2454	Self-hosted Actual Budget analysis: spending breakdowns, category trends, projections and budget vs. actual, with guarded writes and an optional read-only mode.
+2455	Read and post to The Agent Billboard, a single on-chain Solana message slot won by outbidding the previous poster, with operator spend limits.
+2456	Local-first Swiss accounting: double-entry journal entries, invoice categorization and follow-up, and Swiss VAT (MWST) returns, stored in local SQLite.
+2457	Gaming
+2459	Integration with gaming related data, game engines, and services
+2461	Game balance design and auditing: import xlsx config tables, audit growth curves, simulate battle and gacha systems, and reverse-engineer spreadsheet formulas.
+2462	Arknights game data via the PRTS Wiki API, with auto-synced operator archives and voice lines for fan-work creation.
+2463	Deploy a single-file HTML game to a shareable multiplayer URL with rooms, state sync and leaderboards, without a backend or player accounts.
+2464	Godot 4 editor addon that runs without a sidecar: class reflection, validated GDScript writes, scene/script/resource authoring and a runtime play-test loop.
+2465	Control the Unity Editor from AI coding tools via file-based IPC.
+2466	Godot Engine tooling: Roslyn-enriched exception telemetry, scene tree inspection, C# symbol navigation, MSBuild orchestration and GDScript analysis.
+2467	Deterministic D&D 5e (SRD 5.2.1) rules verdicts: cited turn legality checks, legal-action enumeration, advantage math and hash-stamped game-state lineage.
+2468	Unity game engine integration for game development.
+2469	Interact with the Godot game engine: edit, run and debug projects and manage scenes.
+2470	Disney Lorcana TCG: card search, deck validation against format rules, deck stats and Dreamborn/Pixelborn deck list import and export.
+2471	Configure a Specter game backend: players, economy, progression, leaderboards, tournaments, battle passes and real-time multiplayer.
+2472	Search and discover video games on any platform via the GameBrain API.
+2473	Offline RPG Maker MV assistant: generate maps, edit the database and events, validate broken references, debug events and search a project semantically.
+2474	Control the BizHawk multi-system emulator: memory read/write, joypad input, frame advance, screenshots and save states.
+2475	Control the Dolphin GameCube/Wii emulator: memory read/write, GameCube and Wii Remote input, reset, save states and frame advance, via Felk's scripting fork.
+2476	Control the mGBA Game Boy Advance emulator: memory read/write, button input, screenshots, save states and stepping.
+2477	Query upcoming Lineage 2 private server openings by chronicle via the public L2 Calendar API.
+2478	Play FluxDots, a ranked strategy board game where humans and AI agents share one Elo ladder: host or join live matches, with profiles, ratings and replays.
+2479	Memory read/write, save state slots and game metadata for PCSX2 and other emulators that support the PINE protocol.
+2480	Control PSP games via PPSSPP's built-in WebSocket debugger: memory read/write, input, pause and step, screenshots, CPU registers and breakpoints.
+2481	Control libretro cores via RetroArch's Network Control Interface: memory read/write, save states, screenshots, pause, frame advance and on-screen messages.
+2482	Attach weapons and props to rigged 3D characters: finds the hand bone, scales the prop, closes the fist and exports three.js, Unity or Godot binds and GLBs.
+2483	D&D 5e SRD reference: monster search, spell lookup, encounter building and loadout analysis.
+2484	Godot 4 dev companion: GUT/GdUnit4 test running, API docs with 3-to-4 migration mapping, script analysis, scene parsing, screenshots and LSP diagnostics.
+2485	Disney Lorcana TCG card search, deck analysis, ink curves, lore generation and franchise browsing.
+2486	Hearthstone card search, deck decoding and analysis, archetype classification and strategy coaching using HearthstoneJSON data.
+2487	Magic: The Gathering card search, rules lookup, deck analysis, prices and Commander data from Scryfall, Academy Ruins and Commander Spellbook.
+2488	One Piece TCG card search, deck analysis, cost curves, leader browsing and counter strategies.
+2489	Teamfight Tactics reference for champions, traits, items and augments using CommunityDragon data: synergy lookups, item recipes and rolling odds.
+2490	Warhammer 40K, Combat Patrol and Kill Team rules reference: unit datasheets, keyword definitions, phase sequences and game flow.
+2491	Control running Godot 4 games via an injected bridge: input simulation, screenshots, UI discovery and live GDScript execution.
+2492	Control the Unity Editor, including from chat inside Unity: scenes, GameObjects, components, Shader Graph, materials, animation, UI and deterministic playtests.
+2493	Turn-based strategy game where AI agents command armies on tactical grids while humans coach, with post-match reflections and learning across games.
+2494	Dota 2 statistics via the OpenDota API: player stats, hero data and match analysis.
+2495	Control a live Roblox Studio session via a plugin: create scripts, instances, terrain, lighting and assets, with bidirectional sync and automated playtests.
+2496	Provision and inspect Scorezilla leaderboards, including one-step setup of a game, board and keys with ready-to-use SDK code.
+2497	Integration for the Unity Editor and for games built with Unity.
+2498	Control the Unity Editor via a local server and C# bridge: scenes, GameObjects, prefabs, assets, scripts, console, tests and build settings.
+2499	Chess opponent that plays against LLMs.
+2500	Query your Steam library: games, playtime, recently played titles and store metadata.
+2501	Search Modrinth and publish Minecraft mods via the Modrinth API: create projects, upload new versions and read project and version metadata.
+2502	Search the Steam store (deals, reviews, Steam Deck compatibility) plus player profiles, libraries, achievements and friends via the Steam Web API.
+2503	Pyxel retro game engine integration: run games, capture screenshots, inspect sprites and analyze audio.
+2504	Board game data via the BoardGameGeek XML API2.
+2505	Read-only access to the RomM retro game library manager: platforms, ROM search, metadata, collections, saves, firmware, devices and tasks.
+2506	Unreal Engine 5 Blueprint automation: create, wire and compile Blueprints, author materials and UMG widgets, and verify PIE runtime state.
+2507	PlayStation Network gaming history (playtime, trophies, purchased library) for game recommendations based on what you played.
+2508	Manage TrueTick Minecraft servers: create, start and stop servers, live TPS/MSPT metrics, RCON console, files, backups and Modrinth/CurseForge mods.
+2509	Unreal Engine 5.7 editor automation via a native plugin and local TCP bridge.
+2510	AI agent contest platform on Solana: skill tournaments (art, stories, jokes) with USDC payouts via an on-chain smart contract.
+2511	Real-time gaming data for League of Legends, TFT and Valorant: champion analytics, esports schedules, meta compositions and character statistics.
+2512	Access Chess.com player data, game records and other public information.
+2513	Ranked, bring-your-own-LLM chess and Go arena for AI agents: register, join matchmaking or challenge by name and play Glicko-2 rated games.
+2514	Provably fair dice, flip, crash, plinko, limbo, mines, tower and HexWar games with real SOL wagering.
+2515	Economy simulation for AI agents based on Conway's Game of Life, with an energy currency, a marketplace and benchmark reports.
+2516	Real-time Fantasy Premier League data and analysis.
+2517	Author RPG Maker XP games: read and write project data (actors, skills, items, maps, events, scripts) directly and render map previews to PNG.
+2518	Access the Stockfish chess engine.
+2519	Search SEC EDGAR 10-K and 10-Q filings, with sample previews and full filing JSON paid via x402 on Polygon.

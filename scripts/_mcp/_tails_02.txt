@@ -1,0 +1,480 @@
+1016	Read-only, self-hosted search over multiple IMAP accounts, mirrored by mbsync into a local notmuch index. Cannot send, delete or move mail.
+1017	Run AI agents in Zulip as @mentionable bots or connect Zulip to any MCP client, with real-time listening, session management and file handling.
+1018	Manage NAVER WORKS messages, calendar, drive, mail, tasks and boards, also available as a CLI.
+1019	Coldrig cold-email infrastructure run by your agent: buy domains, provision mailboxes, warm up, run sequences and handle replies.
+1020	Manage Google Tasks.
+1021	Feishu document management with built-in Feishu OAuth: create blocks, update content and more.
+1022	WhatsApp integration with a web admin UI (QR login, status, settings), two-way media upload and download, and SQLite persistence.
+1023	Read Outlook email attachments via Microsoft Graph, parsing PDF, Word (including embedded images), Excel and text files into structured content.
+1024	Disposable email inboxes for AI agents with automatic OTP and magic-link extraction, for testing signups and auth flows.
+1025	Public Telegram channels without a user session: channel profiles, posts with view and forward counts, discussion threads and recommended channels.
+1027	Conversational AI
+1029	Tools for building and operating AI conversation agents that hold structured dialogues with end users.
+1031	Manage and automate the Cognigy.AI conversational AI platform: flows, agents, snapshots, NLU, functions and deployment.
+1032	Tools from Lobby, an AI receptionist for small businesses: write phone scripts and IVR menus, generate ElevenLabs agent prompts and role-play calls.
+1033	Cloudflare Workers AI inference: LLM chat completions (Llama, Qwen, DeepSeek), BGE text embeddings and Flux image generation.
+1034	Design Perspective AI conversation agents that replace static forms, analyze conversations, deploy embeds and automate follow-ups.
+1035	Build and test Vapi phone agents: vertical templates, self-testing agents, audio forensics, prompt versioning and CI regression gates.
+1037	Cryptography
+1039	Tools for encrypting and decrypting data.
+1041	On-chain Ed25519 identity for AI agents: verify seals by fingerprint, validate document signatures and gate irreversible actions behind human-signed approvals.
+1042	Encrypt and decrypt messages with historically accurate Enigma machine emulators from the enigmapython library.
+1043	Verify AI-agent evidence records on the Bitcoin-anchored JIDEC ledger: fetch record bytes, recompute the SHA-256 and check the OpenTimestamps timestamp.
+1044	Offline byte toolbox: hex/Base64/Base58 encoding, cryptographic and CRC hashing, base conversion, secure tokens, plus optional Ethereum/EVM tools.
+1045	Verify blockchain-anchored timestamp proofs locally: recompute a file's SHA-256, walk the Merkle path and check the anchor on Polygon or Bitcoin.
+1047	Customer Data Platforms
+1049	Provides access to customer profiles inside of customer data platforms
+1051	B2B lead enrichment via Hunter.io and Apollo: email discovery, domain search, company data and contact verification.
+1052	Data center, power and gas intelligence from DC Hub: facilities, US power market scores, M&A deals, ISO grid telemetry, fiber routes and energy prices.
+1053	Generate visual charts using AntV.
+1054	Track company events such as funding, senior hires, partnerships and expansion, with dated, weighted signals, natural-language queries and watch alerts.
+1055	Manage Pipedrive CRM deals, persons, organizations, activities, products, projects, tasks, leads, notes and mail, with opt-in delete tools.
+1056	Company technographics from hiring data: find companies adopting, replacing or evaluating technologies and enrich domains with firmographics and hiring signals.
+1057	Generate visual charts dynamically using Apache ECharts.
+1058	Generate Mermaid diagrams and charts dynamically.
+1059	ICTCRM, an open-source CRM with built-in telephony: read contact groups, with opt-in tools to create and delete contacts and add them to calling campaigns.
+1060	Ask iaptic about customer purchases, transaction data and app revenue statistics.
+1061	Statistical analysis, forecasting and ML on CSV files or live data from Shopify, Stripe, GA4 and more, with interactive HTML reports.
+1062	Score a company against a weighted ideal customer profile, returning a 0-100 score, an A/B/C tier and a per-signal breakdown.
+1063	Connect any open data source to LLMs.
+1064	Open-source customer feedback platform: search and triage posts, update statuses, comment, vote, manage roadmaps, merge duplicates and publish changelogs.
+1065	Access and update profiles on an Apache Unomi CDP server.
+1066	Manage questions and options of YaniFend, a WordPress feedback widget, and read collected answers.
+1067	Google Search Console SEO tools: search analytics, URL inspection, sitemap management, keyword opportunities, brand analysis and performance comparison.
+1068	Interact with Google Search Console and Bing Webmaster Tools.
+1070	Databases
+1072	Secure database access with schema inspection capabilities. Enables querying and analyzing data with configurable security controls including read-only access.
+1074	Manage Percona Operator for PostgreSQL clusters: PgBouncer pooling, tuning, backups and PITR, DR and major upgrades, with gated destructive actions.
+1075	ClickHouse schema exploration, analytical queries and management, with statements gated by access mode, row caps and auditing.
+1076	Natural-language questions over Postgres, Oracle, Snowflake, Databricks, DuckDB and SQLite; generated SQL is validated deterministically before running.
+1077	Governed PostgreSQL DBA operations: slow-query, bloat and lock analysis, index management, vacuum and replication lag, with audit logs and rollback.
+1078	Navigate Aiven projects and interact with PostgreSQL, Apache Kafka, ClickHouse and OpenSearch services.
+1079	Execute SQL queries and explore Supabase databases.
+1080	Alibaba Cloud Tablestore: add documents and search them semantically by vectors and scalars, suited to serverless RAG.
+1081	Manage, monitor and query data in CockroachDB.
+1082	Work with PostgreSQL and MySQL within clear boundaries: schema discovery, sampling, read-only queries and query-plan inspection.
+1083	Access PostgreSQL databases, including those behind an SSH bastion.
+1084	Manage Appwrite databases, auth, users, functions, storage, messaging and more.
+1085	Built into ArcadeDB, a multi-model database (graph, document, key-value, time-series, vector) with SQL, Cypher, Gremlin and MongoDB QL support.
+1086	Read-only Postgres access with SQL compiled from your own definitions, PII refusal and a tamper-evident audit chain.
+1087	Operate Docker-based local-ydb deployments locally or over SSH: bootstrap, diagnostics, auth hardening, storage workflows, dump/restore and upgrades.
+1088	MySQL database integration with configurable access controls and schema inspection.
+1089	Baserow database integration: search and list tables, and create, read, update and delete rows.
+1090	TiDB database integration with schema inspection and query capabilities.
+1091	Automatically generate APIs from database schema and data for PostgreSQL, ClickHouse, MySQL, Snowflake, BigQuery and Supabase.
+1092	DICOM integration to query, read and move medical images and reports from PACS and other DICOM-compliant systems.
+1093	Access local and cloud Chroma instances for retrieval.
+1094	ClickHouse database integration with schema inspection and query capabilities.
+1095	Microsoft Dataverse: entity CRUD, FetchXML and OData queries, metadata inspection, workflow execution, audit logs and Power Platform integration.
+1096	Confluent integration to interact with Confluent Kafka and Confluent Cloud REST APIs.
+1097	Tunnel-based bridge connecting local and on-premise databases (such as MSSQL) to LLMs, with AST-based query safety and PII masking.
+1098	Unified access to Couchbase Capella and self-managed clusters for document operations, SQL++ queries and natural-language data analysis.
+1099	Interact with Elasticsearch.
+1100	Postgres development and operations: performance analysis, tuning and health checks.
+1101	Manage many SQL Server instances from one config, grouped by client or environment, with execution plans, index audits and stored-procedure analysis.
+1102	Local, contract-governed federation across files and databases (Postgres, Snowflake, BigQuery, DuckDB, Excel) with read-only guards and PII masking.
+1103	Query and access data in Trino clusters.
+1104	Read-only MySQL database access.
+1105	MySQL database integration with configurable access controls, schema inspection and security guidelines.
+1106	PostgreSQL catalog introspection, AST-validated query execution, index tuning, natural-language SQL, and pgvector, TimescaleDB and AGE integrations.
+1107	Airtable database integration with schema inspection, read and write capabilities.
+1108	NocoDB database integration with read and write capabilities.
+1109	Access and query Google BigQuery databases.
+1110	Read-only PostgreSQL access: AST-validated queries in read-only transactions, schema inspection, column redaction, EXPLAIN cost guard and audit log.
+1111	MySQL database integration for secure database operations.
+1112	Local server for memvid storage and semantic search.
+1113	Fireproof ledger database with multi-user sync.
+1114	Access Firebird databases registered in FlameRobin: schema introspection, DDL/DML execution, execution plans and missing index analysis.
+1115	Google Sheets API integration for reading, writing, formatting and sheet management.
+1116	MySQL and PostgreSQL access: query execution, transaction management, schema exploration, query building and performance analysis.
+1117	Static analysis of Django ORM schemas without a database: models, relationships, migration dependencies, missing indexes, ER diagrams and signal graphs.
+1118	Full-featured MongoDB database integration.
+1119	Firebase services including Auth, Firestore and Storage.
+1120	Convex database integration to introspect tables and functions and run one-off queries.
+1121	Execute SQL via ConnectorX and stream results to CSV or Parquet files, supporting PostgreSQL, MariaDB, BigQuery, Redshift, SQL Server and more.
+1122	Open-source server providing easy, fast and secure database tools.
+1123	Query GreptimeDB.
+1124	Safe, read-only access to explore and query SQLite databases, with query validation.
+1125	Google Sheets automation tools.
+1126	Hydrolix time-series datalake integration with schema exploration and query capabilities.
+1127	Run queries against the InfluxDB OSS API v2.
+1128	Retrieval over your own data with Infino (BM25 full-text, vector, hybrid and SQL), an embedded engine on Apache Parquet over object storage.
+1129	Interact with InfluxDB 3 Core, Enterprise and Cloud Dedicated.
+1130	Read-only access to PostgreSQL, Oracle and SQL Server via JDBC: schema discovery, query validation, execution plans, benchmarking and index analysis.
+1131	Compile, syntax-check and generate deployment deeplinks for TON smart contracts with the Tolk compiler.
+1132	Snowflake integration with read and optional write operations, plus insight tracking.
+1133	Manage and analyze Apache Druid clusters with tools, resources and prompts.
+1134	PostgreSQL-backed persistent memory, task tracker and multi-agent coordination hub for AI assistants.
+1135	PostgreSQL querying, schema exploration and table analysis, read-only by default with SQL injection prevention.
+1136	Create and manage Supabase projects and organizations.
+1137	Apache Kafka and Timeplus: list topics, poll messages, save Kafka data locally and query streaming data with SQL via Timeplus.
+1138	Interact with SQLite databases.
+1139	VikingDB integration: collection and index info, vector storage and search.
+1140	MongoDB database integration.
+1141	Query SQLite, PostgreSQL, BigQuery and Databricks in natural language through a business semantic layer: glossary, metrics and a data dictionary.
+1142	DuckDB database integration with schema inspection and query capabilities.
+1143	Firestore schema context for coding agents: scans live collections and returns real field names, types and presence rates to prevent hallucinated queries.
+1144	BigQuery database integration with schema inspection and query capabilities.
+1145	Run queries against Memgraph and access its schema.
+1146	Read-only SQL Server access with AST-based query validation, schema exploration, ER diagrams and DBA toolkits like First Responder Kit and sp_WhoIsActive.
+1147	Check PostgreSQL migrations against lock-safety rules before an agent applies them, offline and without a database.
+1148	Unified read-only tools for PostgreSQL, MySQL and SQLite: list databases and tables, describe tables and run queries, enforced at SQL and database level.
+1149	Access the MongoDB Atlas API.
+1150	Neo4j integration: run queries, use Neo4j as knowledge graph memory and manage Neo4j Aura instances.
+1151	Create and manage Postgres databases with Neon Serverless Postgres.
+1152	Manage and query Nile Postgres databases, tenants, users and auth.
+1153	Self-hosted natural-language-to-SQL engine with validation for PostgreSQL, MySQL, Snowflake, BigQuery and DuckDB, plus document QA and semantic caching.
+1154	Generic database (DBMS) connectivity via JDBC.
+1155	Generic database (DBMS) connectivity via ODBC.
+1156	Generic database (DBMS) connectivity via SQLAlchemy using pyodbc.
+1157	SQLite operations: query databases, inspect schemas, explain queries and export data.
+1158	Query and analyze Azure Data Explorer databases.
+1159	Query and analyze Prometheus, the open-source monitoring system.
+1160	PostgreSQL performance tuning.
+1161	Secure access to PostgreSQL, MySQL and SQLite databases with parameterized queries and schema inspection.
+1162	Built into the PlanetScale CLI: direct access to your PlanetScale databases.
+1163	Qdrant integration.
+1164	MongoDB integration for interacting directly with databases.
+1165	Connect to any JDBC-compatible database to query, insert, update, delete and more.
+1166	Drive the QuestDB Web Console: notebook cells, SQL queries and charts on live time-series data.
+1167	Airtable integration: query, create, update and delete records, manage bases, tables and schemas, filter records and migrate data.
+1168	Inspect and operate Redis-backed Asynq and BullMQ job queues: per-state counts, decoded job payloads and errors, retry and delete, with a read-only mode.
+1169	Manage and search data in Redis.
+1170	Query PostgreSQL, MySQL, Redshift and SQL Server over SSH or AWS SSM tunnels, with read-only enforcement, confined exports and pluggable secret providers.
+1171	Access legacy MySQL 5.0 to 5.6 databases: schema inspection and SELECT by default, with opt-in INSERT, UPDATE, DELETE and DDL.
+1172	Access PostgreSQL, MySQL, MariaDB, SQLite, Oracle, SQL Server and more via SQLAlchemy, with schema and relationship inspection and large dataset analysis.
+1173	Safe, read-only database access with SQL guardrails, table allowlists, PII masking and audit logs.
+1174	Interact with the S2 serverless stream platform.
+1175	Connect to any relational database to get valid SQL and ask questions about the schema, such as what a column prefix means.
+1176	Fill a PostgreSQL database with synthetic test data generated from its live schema: plan, run and track seeds without production data.
+1177	Redash integration: natural-language SQL with safety guards and PII detection, table selection, saved queries, dashboards, widgets and alerts.
+1178	Brazilian IBGE data: demographics, geography and economics, including localities, SIDRA tables, census data, population projections and geographic meshes.
+1179	Read-only SQL across PostgreSQL, MySQL, S3-compatible storage and Parquet/CSV/JSON files, with cross-source joins federated by DuckDB.
+1180	Launch and delete serverless MariaDB Cloud databases, execute SQL and use database-level AI agents for text-to-SQL and conversations.
+1181	Snowflake: prompt Cortex Agents, query structured and unstructured data, manage objects, run SQL and query semantic views, with RBAC and CRUD controls.
+1182	Design ERDs following naming standards: edit entities and relationships, import/export SQL and DBML, and diff the model against a live database.
+1183	Generate a Java MCP server exposing only selected Oracle PL/SQL packages, tables, sequences and SQL statements as typed tools, with no generic SQL tool.
+1184	Natural-language queries for any PostgreSQL database, with automatic streaming and read-only safety.
+1185	Connect to your Supabase project to manage tables, fetch config and query data.
+1186	Persistent schema memory for PostgreSQL, MySQL, MSSQL and SQLite: table and column annotations, a foreign-key graph and searchable notes. Read-only.
+1187	Multi-database access for PostgreSQL, Redshift, CockroachDB, MySQL, RDS MySQL, SQL Server, BigQuery, Oracle and SQLite.
+1188	Dialect-aware tools for PostgreSQL, MySQL and SQL Server: queries, schema introspection, optimization, migrations and PII scanning.
+1189	DolphinDB database integration with schema inspection and query capabilities.
+1190	Trino integration.
+1191	Query SQLite, PostgreSQL and MySQL in plain language, read-only, with column hiding and masking, row caps, timeouts, cost-based rejection and rate limiting.
+1192	Search URDB's product integrity database for integrity scores, enshittification events and change tracking across consumer products.
+1193	Integration with VictoriaLogs APIs and documentation for working with logs and debugging VictoriaLogs instances.
+1194	Use Weaviate collections as a knowledge base and as a chat memory store.
+1195	MySQL CRUD plus database anomaly analysis and role-based permission control, with easily extensible custom tools.
+1196	Connect to multiple databases at once (MySQL, PostgreSQL, SQL Server, MariaDB, Dameng, Oracle) for operations, health analysis and SQL optimization.
+1197	MSSQL database integration with schema inspection and query capabilities.
+1198	Security and management tools for libSQL databases.
+1199	Fetch data from databases with natural-language queries, using XiyanSQL as the text-to-SQL model.
+1200	Create, read, update and manage spreadsheets through the Google Sheets API.
+1201	Snowflake access that works behind a corporate proxy, with read and optional write operations.
+1202	Interact with YDB databases.
+1203	Semantic gateway that turns common databases into MCP services, enriched with business metadata and parameterized SQL tools.
+1204	Interact with the VictoriaMetrics database.
+1205	Compile SQL and Prisma schemas to Zod, TypeScript and Pydantic, and generate realistic synthetic mock API data.
+1206	MySQL access with a configurable read-only mode and schema inspection.
+1207	Interact with Milvus and Zilliz databases.
+1208	Inspect Apache Kafka topics and consumer groups and safely manage offsets (reset, rewind).
+1209	Operations toolchain for SQLite, Cloudflare D1 and Turso: inspect, diff, migrate, monitor, back up and repair databases. Read-only by default.
+1211	Read-only access to ERP SQL databases (Logo Tiger, Netsis, Mikro) through canonical entities like orders, with a guard that blocks side-effecting statements.
+1212	Data Platforms
+1214	Data Platforms for data integration, transformation and pipeline orchestration.
+1216	Monitor and manage Debezium and Kafka Connect CDC connectors, with access modes, connector allowlists, delete gating and credential redaction.
+1217	Monitor and manage Apache Kafka clusters, topics and consumer groups (including lag), with access modes, topic allowlists and delete gating.
+1218	Metabase integration: natural-language data analysis, dashboard management, SQL queries and automated insights, with SQL guardrails and audit logging.
+1219	Brazilian public data via BrasilAPI: companies (CNPJ), addresses (CEP), banks (BACEN) and national holidays.
+1220	Search and enrich company data: lookup by name, VAT or ID, NACE sector search, and financial data from official EU business registries.
+1221	Manage Apache Airflow via its REST API: list DAGs, inspect runs and task instances, trigger runs, and check failed DAGs and scheduler health.
+1222	Business intelligence: company and contact discovery, verification, enrichment, business signals, lists and governed delivery.
+1223	Pay-per-query x402 datasets: NPI healthcare, SEC filings, OFAC sanctions, crypto whales, Polymarket signals, patents and economic indicators.
+1224	US government records (short-term rental permits, lodging licenses, property violations, healthcare exclusions, EPA ECHO) and Norwegian company data.
+1225	Data quality checks on DuckDB, BigQuery, Athena, Databricks and Postgres, with LLM root-cause analysis of failures and proposed SQL remediations.
+1226	Query Snowflake, Google BigQuery and Databricks data products in natural language through Alkemi.
+1227	Search and query public datasets from the World Bank, IMF, Eurostat, OECD and WHO, and publish charts.
+1228	Query Swedish public data through Apiverket, including company data, SCB statistics, weather, transport and more.
+1229	Method CRM API integration: manage tables, files, users, events and API keys, with rate limiting and retries.
+1230	Kafka Schema Registry management across multiple registries, including schema migration.
+1231	Apache Superset: dashboards, charts, datasets, SQL Lab, security (users, roles, RLS, groups) and permissions audit, with built-in safety validations.
+1232	Brazilian agricultural data: prices, crop estimates, climate and deforestation from public sources including CEPEA, CONAB, IBGE, INPE and B3.
+1233	Query, create and update opportunities and contacts in VTENext, an open-source vtiger-based CRM, via its WebService API.
+1234	Search MercadoLibre products, get item details, browse categories, track trends and convert currencies across Latin America.
+1235	Datanika, the open-source ELT and dbt platform: browse connections, preview data, run dbt transforms, monitor runs and manage pipelines. Read-only by default.
+1236	dbt integration: dbt Core and Cloud CLI, project metadata discovery, model information and semantic layer queries.
+1237	Search French building permits (Sitadel open data), cross-referenced with DVF transactions, PLU zoning and BRGM natural and technological risks.
+1238	Turn business documents (PDFs, invoices, contracts, payroll) into structured datasets with classification, field extraction, PII masking and quality scoring.
+1239	Interact with Flowcore to perform actions, ingest data, and analyze and cross-reference data in your own or public data cores.
+1240	Power BI refresh with table-level polling and retry, refresh diagnostics, DAX queries with RLS simulation, PBIP source locating and refresh reports.
+1241	Operational ontology reference implementation: tools generated from a typed business domain model, with rule-checked, audited writes to systems of record.
+1242	Open data for La Réunion (French overseas region) from data.gouv.fr and the regional portal: economy, demographics, transport, health, education and more.
+1243	Greenhouse-gas emission factors and carbon calculations (activity, embodied EN 15978, PCAF financed emissions) with source references and data versions.
+1244	Run SQL queries, list jobs and get job status via the Databricks API.
+1245	Query Qlik Cloud apps and sheets and extract data from visualizations, with authentication and rate-limiting support.
+1246	Interact with the Keboola Connection data platform: list and access data from the Keboola Storage API.
+1247	dbt-core (OSS) project metadata, model and column-level lineage, and dbt documentation.
+1248	China apparel supply chain data: verified suppliers, lab-tested fabrics and industrial clusters, with AATCC, ISO and GB lab-test verification.
+1249	Query Power BI semantic models: browse workspaces, tables and measures, run DAX queries and page large results via local CSV.
+1250	Fine-grained sentiment analysis, keyword extraction and batch processing.
+1251	Deterministic, lexicon-based semantic word encoding and valence analysis: word-to-code mapping, semantic similarity and synonym/antonym lookup.
+1252	Automate or monitor business operations: sales recording, POS software and CRM.
+1253	Trust checks for Malaysian public datasets: freshness, licence, provenance and drift, with signed evidence and an offline-verifiable attestation chain.
+1254	POS and sales analytics for AirREGI, Smaregi and BASE e-commerce: store management, sales data queries, AI chat analysis and weather correlation.
+1255	Read-only BI pipeline governance: each table's stage from source to Power BI, what blocks the next stage, static SQL/TMDL/PBIR checks and evidence packs.
+1256	Airflow REST API: list DAGs, runs and task instances, tail logs and roll up DAG health. Read-only by default; trigger and clear are write-gated.
+1257	Capsule CRM: contacts, opportunities, projects, tasks, timeline activity, filters, workflow tracks and file attachments, with an optional read-only mode.
+1258	World data from primary sources via the Sugra API: markets, macroeconomics, company fundamentals, government, news, climate, maritime and entity screening.
+1259	Swiss open data: transport, weather, geodata, companies, parliament and more.
+1260	Databricks Genie API: ask natural language questions, run SQL queries and interact with Databricks conversational agents.
+1261	USDA FoodData Central nutrition data, paid per call via x402 (USDC on Base): food search, details, comparisons and recipes.
+1262	Social network analysis of YouTube comments: influencer centrality ranking, Louvain community detection and sentiment analysis.
+1264	Developer Tools
+1265	Profiles how you use any MCP server into a reusable, read-only skill: workflows, call chains and each tool's safety class.
+1266	Maps a .NET Reqnroll/SpecFlow test-automation solution into a queryable SQLite file to search step definitions, check change impact and avoid duplicate code.
+1267	On-premise private AI systems from ARADIA on NVIDIA DGX hardware: hardware sizing, ROI modeling, partner onboarding, procurement and order tracking.
+1268	Reads local Claude Code, Codex and OpenCode usage logs: token totals, daily and hourly activity, per-agent and per-model breakdowns and a year-in-review recap.
+1269	Checks source-context freshness against a Git working tree and retrieves source-linked code relationships to surface stale knowledge and cross-file impact.
+1270	AST-based code outliner, log compressor and context budget analyzer to reduce LLM token usage.
+1271	Health checks, binary validation and JSON auto-repair for MCP client configuration files.
+1272	AST-based dependency analyzer: flags unused packages, calculates actual install sizes and detects unmaintained dependencies.
+1273	Search and fetch animated, shadcn-compatible React components, design systems and templates, with install commands, from the aicanvas registry.
+1274	Browse and search Hyperiux Vault React/Next.js animation and interaction effects, with dependencies, changelogs, install commands and source code.
+1275	Versioned projects from assistant-built work: shareable HTML previews, version comparison, delegated approvals, artifacts, work assignments and source export.
+1276	Prevents double charges and duplicate side effects from agent tool calls: concurrent races elect one winner, late duplicates replay a sealed receipt.
+1277	Demand-signal scanner for validating product and dev-tool ideas using GitHub repo signals, Hacker News attention and npm/PyPI download counts.
+1278	Local-first runtime for coding agents: bounded workspace access, guarded writes, AST search, LSP navigation and diagnostics, and Git tooling.
+1279	Deterministic execution guardrails, isolated AST-based math evaluation, SSRF-safe DNS routing and malformed JSON repair.
+1280	Records Python, Rust and TypeScript program runs to local SQLite so coding agents can query call trees, exceptions and value flow.
+1281	Check whether an LLM model ID is deprecated, retiring or retired, and what to migrate to, across OpenAI, Anthropic, Azure, Bedrock, Google and Cohere.
+1282	Read-only debugging for Hono apps: recent exceptions with their requests, logs and queries, requests filtered by status or duration, and the slowest queries.
+1283	Read-only access to the agentic-os governance, SDLC and QE methodology, with install planning and verification.
+1284	Self-hosted live library docs, code audits with file:line findings, BM25-ranked snippets and lockfile-aware version pinning.
+1285	Semantic file and code search by description, with local indexes, AST-aware chunking, optional reranking and API-based or fully offline embedding models.
+1286	Design review of rendered UI for coding agents: submit a preview URL, get findings with element references and recheck after fixing. Read-only.
+1287	Checks if a project idea already exists on GitHub, npm or Python repositories and suggests maintained alternatives to extend instead of scaffolding anew.
+1288	Hallucination guard: verify a claim against evidence (supported, refuted or not enough evidence) with a confidence score and abstain flag.
+1289	Dependency-upgrade impact analysis for Python and .NET: which API usages break, with line numbers and fix hints, plus detection of hallucinated API calls.
+1290	Reduced-motion and WCAG 2.2.2/2.3.3 verification for web animation: validate animation specs and compile them into reduced-motion-safe CSS.
+1291	DAP-to-MCP bridge for native debugging via CodeLLDB: stack frames, registers, locals, disassembly, memory, crash dumps and crash fix/verify workflows.
+1292	Checks coding-agent context files (CLAUDE.md, AGENTS.md, SKILL.md) against the git index: broken links, missing paths, undefined commands and drift.
+1293	Merge gate for AI-written code: catches placeholder code, unfailable tests, unsupported completion claims and nonexistent API calls, then returns a fix plan.
+1294	Host-level telemetry gateway letting sandboxed agents fetch container logs and track kernel resource metrics.
+1295	Local stdio bridge to the hosted Delx Protocol MCP endpoint, with client install, doctor checks and live tool discovery.
+1296	Contract-first programming language: check types, effects, capabilities and contracts in agent-written modules and review changes for new authority.
+1297	Indexes a repo into a persistent local knowledge graph of functions, classes, call chains, HTTP routes and cross-service links, using tree-sitter and LSP.
+1298	Generate PDFs from HTML, a URL or a template with JSON data, and extract text or Markdown from PDFs.
+1299	Query problems, logs, events, SLOs, security insights and performance metrics from self-hosted Dynatrace Managed environments.
+1300	Lint HTML email with Emailens: rendering issues in Gmail, Outlook, Apple Mail and more, per-client CSS compatibility scores, dark mode simulation and fixes.
+1301	Build and maintain Altium Designer component libraries: read and write .PcbLib footprints and .SchLib symbols, with IPC-7351B footprints and STEP models.
+1302	Audits website and API agent readiness: robots.txt AI rules, llms.txt, agent cards, MCP server cards and OAuth metadata, with maturity scores and fix plans.
+1303	Local CI/CD for agents: runs jobs on LGH git events in isolated checkouts, with failure diagnosis, approval gates, auto-rollback and a web console.
+1304	Duplicate code detection with jscpd: check snippets and files for copy/paste duplication against a scanned project before committing.
+1305	Local launch-readiness audit for AI-built apps: read-only checks, an evidence-based 0-100 score and guided fixes.
+1306	Test management: author manual test cases, run executions, cut releases and link automated tests, with prompts for flaky-test triage and release readiness.
+1307	Breaking-change diffs for npm packages, so coding agents avoid writing code against outdated APIs.
+1308	Reusable prompt templates with multi-step chains, quality gates and reasoning frameworks, exportable as native skills for coding agents.
+1309	Control Claude Managed Agents: launch agents, watch their events, reply, approve tool calls and stop them.
+1310	Nahook webhook platform: trigger webhooks, inspect deliveries, retry failures and manage endpoints.
+1311	Developer toolkit: semantic code search, natural-language database queries, docs indexing and OpenAPI introspection.
+1312	Index TypeScript/React repos into a code graph: who-renders and who-calls queries, blast radius, dependency cycles, dead code and symbol signatures.
+1313	Voice interface for Claude Code: live speech-to-text with turn-taking, spoken replies with xAI Grok voices, per-subagent voice personas and a real-time HUD.
+1314	Monitors coding-agent token cache using inventory theory (EOQ) and signals optimal session restart timing via a live dashboard and terminal status line.
+1315	Register PNTR dev subdomains, manage DNS records, receive email in a disposable inbox and capture inbound HTTP requests for webhook debugging.
+1316	Deterministic documentation-drift detection: validates a project's docs against its code, with stable finding codes and suggested fixes. Read-only.
+1317	NowSecure Platform mobile security testing: list applications, pull remediation findings and generate PDF reports locally.
+1318	Generates CLAUDE.md from git history and file sampling, and keeps a concept map linking features and flows to files so agents skip repeated searches.
+1319	Build token-efficient codebase context locally, with live preview, Git scopes, secret redaction and syntax-aware compression.
+1320	Change tracking for codebases: agents log structured change events with diff and reasoning, then query them via diff, blame, history and search.
+1321	Design-fidelity checks: compare a Figma frame or design screenshot with the rendered UI and get structured discrepancies with CSS properties and severity.
+1322	Billing for MCP server operators: Stripe subscriptions, per-call credits, tiered pricing and x402 micropayments without writing billing code.
+1323	Compiles TypeScript to validated Swift for Apple platforms: App Intents, SwiftUI views, WidgetKit widgets and full apps.
+1324	Deterministic local audit for AI writing tells (uniform paragraphs, stock transitions) plus a trainable voice layer so drafts sound closer to a real voice.
+1325	Discovery router for the agent-device CLI: status, install guidance, version-matched help and prompts for iOS, Android, tvOS, macOS and Linux automation.
+1326	Local repo intelligence: hybrid BM25/vector search, a tree-sitter code graph, queryable git and GitHub history, and persistent source-anchored memories.
+1327	Local codebase intelligence backed by SQLite: context packets, indexed code and schema facts, diagnostics and optional Postgres/Supabase awareness.
+1328	Developer utilities: web search, exchange rates, crypto prices, QR codes, JSON formatting, UUIDs, URL tools, domain checks and RSS feeds, some paid via x402.
+1329	Roku development: ECP device control, automated channel sideloading, BrightScript debugging and real-time log monitoring.
+1330	AST-based codebase map, token compression and context packaging for AI coding agents and IDEs.
+1331	Deterministic validation of AI-generated artifacts: JSON Schema and OpenAPI response conformance and per-dialect SQL syntax, with typed verdicts and fix hints.
+1332	Validate HTML and CSS, audit technical SEO and accessibility, check JSON-LD and public links, and capture responsive screenshots.
+1333	Indexes a repo into a local, deterministic code graph (symbols, references, dependencies) with semantic diffs and impact analysis.
+1334	Static-analysis context compiler for Python repos: selects callers, callees and related functions for a change and packs them into a token budget.
+1335	GitHub repository health monitoring: A-F health grades, OpenSSF security checks, DORA metrics, code scanning alerts and CI/CD status.
+1336	Fault injection for MCP servers (timeouts, malformed JSON-RPC, corrupted outputs) with a reliability scorecard for output schemas and error conformance.
+1338	Tools and integrations that enhance the development workflow and environment management.
+1339	Local code search for coding agents: hybrid keyword and semantic search with SQL relevance ranking over a plain-file index.
+1340	Read-only Nacos config and service discovery for Spring Cloud repos: finds environments from application/bootstrap files and diffs config keys across them.
+1341	Generate SaaS specifications for AI build tools: design systems, database schemas and RLS policies.
+1343	Interactive .NET/ASP.NET Core debugging via netcoredbg: breakpoints, stepping, thread inspection, exception and deadlock analysis, and request tracing.
+1344	Scoped access to local dev environments (filesystem, databases, processes, OpenAPI) with a command allowlist and read-only database mode.
+1345	Semantic code index that extracts domain concepts, naming conventions and behavioral similarity from codebases.
+1346	AST-aware repository graph for Go codebases: struct embeds, public API surfaces, SQL queries and error mapping, giving agents context without grepping.
+1347	Observability for AI coding: tracks token usage and time, and turns AI deviations into persistent project rules.
+1348	Codebeamer ALM: read and write work items, trackers, projects, associations, references, comments and risk management data via the REST API.
+1349	Create UI components inspired by 21st.dev design engineers.
+1350	Dependency intelligence for coding agents: live CVE scanning, dependency health, upgrade planning, ecosystem news and decision memory.
+1351	WordPress management via WP-CLI, locally or over SSH: themes, plugins, posts, menus, users, database, scaffolding and cache.
+1352	Multi-site WordPress Elementor management: safe edits with backup and auto-rollback, template export/import, bulk find/replace, CSS flush and screenshots.
+1353	WordPress plugin exposing Rank Math SEO fields, JSON-LD schema and restorable content snapshots as MCP tools, plus an additive-only write gate and audit log.
+1354	Build WordPress sites on the Sweipe or FlatMobile themes: import demos, build a site from a brief, review it, rewrite page copy and change settings.
+1355	iOS code quality and test automation: Xcode test execution, SwiftLint integration and failure analysis. Also runs as a CLI.
+1356	Delegates documentation and code analysis, including calls to other MCP servers, to a local or low-cost OpenAI-compatible LLM to save top-tier model tokens.
+1357	Code quality gate for AI-generated code, detecting hallucinated packages, phantom dependencies, stale APIs and AI-specific defects.
+1358	Codebase intelligence: indexes a repo into a dependency graph, git history, defect-risk code health, generated docs and architectural decisions. Runs locally.
+1359	Huawei AppGallery Connect publishing: upload APK/AAB, update metadata and localizations, submit for review, and manage phased rollouts.
+1360	Lets agents gate their own work: a fail-closed ship checklist, independent refute-first review and a tamper-evident, hash-chained receipts ledger.
+1361	Static blast-radius extraction and an AOS manifest.json divergence check (Oracle, Permitted, Prohibited), also usable as a blocking CI gate.
+1362	Agent health reporter: advisory health scans under AOS discipline covering manifest, services, immune loop and evidence.
+1363	Utility tools with x402 micropayments: JSON validation, base64, hashing, UUIDs, regex testing, Markdown and datetime conversion, cron parsing and JWT decoding.
+1364	Local-first design contract layer: scans Figma, code, Storybook and token files, reconciles conflicts and serves a single source of truth for design rules.
+1365	Atlassian Bitbucket Cloud: work with repositories, pull requests, workspaces and code.
+1366	Atlassian Confluence Cloud: work with spaces, pages and content, with automatic ADF-to-Markdown conversion.
+1367	Atlassian Jira Cloud: work with projects, issues, comments and related development information.
+1368	Wraps mcp-atlassian with Playwright SSO login to reach Atlassian Server/Data Center behind corporate SSO (Okta, SAML, ADFS) where API tokens are unavailable.
+1369	Project Telos local tools for inspectable AI work: source intake, workspace context, routing ledgers, action receipts and verification packets.
+1370	Atlassian Jira and Confluence with schema-validated Markdown/ADF conversion that flags content-model violations instead of silently dropping nodes.
+1371	Visualize code, architecture and other concepts as Mermaid diagrams in a locally hosted web app.
+1372	Identifies important files in a codebase from dependency relationships, with diagrams and importance scores.
+1373	App Store Connect and Google Play Console: iOS and Android app management, TestFlight, builds, submissions, prices and sales reports.
+1374	Chrome Web Store extension management: upload, publish, check status, staged rollouts and metadata updates.
+1375	npm package management: publish, version, search, audit, install and more.
+1376	Autonomous web app testing: run test cases in real browsers with pass/fail results and screenshots, and generate user stories, test cases and Playwright code.
+1377	Generates Architecture Decision Records from Claude Code conversations, with quality review, duplicate detection, a dependency graph and stale ADR alerts.
+1378	Android and iOS runtime inspection and control via Frida: method hooks, state inspection, temporary overrides, UI actions and screenshots.
+1379	Persistent Tree-sitter code index for precise, compact code search in languages including C#, TypeScript, Python, Rust and Go.
+1380	Deterministic, offline detector for filler phrases and clichés in AI-generated prose, using a curated phrase list and returning exact spans and a 0-1 score.
+1381	Hierarchical code intelligence: scans local source, clusters files by behavioral role, maps coupling seams and finds similar in-repo code for complex tasks.
+1382	Structured .aide spec files that give agents progressive disclosure of codebase architecture.
+1383	Read-only local code graph for Rust, Cangjie, ArkTS, TS/JS, C/C++, Python and Shell: call graphs, quality gates, change review and impact analysis.
+1384	Code analysis, JSON repair, encoding fixes and import organization for local projects.
+1385	Apple Icon Composer: create .icon bundles with Liquid Glass effects (iOS 26+), tune glass effects, set dark mode appearances and export for the App Store.
+1386	Generate PWA, iOS and Android app icon sets from a text description with Google Imagen 4: all required sizes, maskable icons, splash screens and manifest.json.
+1387	Dynamic SOC security threat analysis for a Text2SQL AI agent.
+1388	Search, install and manage agent skills (SKILL.md files) from GitHub repositories, with workspace analysis for personalized recommendations.
+1389	Create, retrieve and delete webhooks on webhook-test.com.
+1390	Control the iOS Simulator.
+1391	Look up SDKs, frameworks and dependencies used by macOS and Windows desktop apps, search by technology adoption and compare stacks via Desktop Insights.
+1392	ReSharper solution-wide inspections and code cleanup for C# solutions via JetBrains' command-line tools, without an IDE. Unofficial.
+1393	Query and manage all resources in Apache APISIX.
+1394	Retrieve SonarQube project information: current and historical metrics, issues and health status.
+1395	PHP static analysis: code quality metrics, problem detection, refactoring priorities, dependency graphs, git hotspots, test coverage and impact analysis.
+1396	Search and get up-to-date information about npm, Cargo, PyPI and NuGet packages.
+1397	Read-only registry of animated companion packs (pets) for Codex: search, preview and install community pets and generate badges and embed cards.
+1398	Maven Central dependency intelligence: bulk version comparison, stability filtering, dependency age analysis, release patterns and Context7 upgrade guidance.
+1399	Up-to-date framework documentation for React, Next.js, Laravel, FastAPI, Tailwind CSS and more.
+1400	Integrate any API with AI agents using its OpenAPI schema.
+1401	Jenkins CI/CD: job management, build status tracking, pipeline monitoring, artifact and queue management, and batch operations.
+1402	Run code in multiple programming languages locally via Docker.
+1403	Local, read-only search of the Python standard library docs with exact symbol lookup, section-level results and version-aware context.
+1404	Analyze React code locally and generate docs or llm.txt for a whole project at once.
+1405	Load Claude Code skills into agents without copying files: discover, read and install skills on demand.
+1406	Converts any OpenAPI/Swagger specification into MCP tools automatically.
+1407	Compact structured-JSON replacements for built-in file, search, exec and git tools, with git, cargo, gh and docker plugins, output filtering and batching.
+1408	Valkey and Redis observability: query real-time metrics, analyze slow commands, detect hot keys and investigate performance issues.
+1409	Semantic code indexer with a GraphRAG knowledge graph: index a codebase and search it in natural language to understand its architecture.
+1410	Research, analysis and discovery across GitHub and npm in real time.
+1411	Bitrise API: app management, build operations, artifact management and more.
+1412	Zero-configuration Go library that exposes existing Echo web framework APIs as MCP tools.
+1413	Buildkite: create pipelines, diagnose and fix failures, trigger builds, monitor job queues and more.
+1414	Manage Featureflip feature flags: create and toggle flags, edit targeting rules and find stale flags.
+1415	Run any number of LSP servers from one YAML config for diagnostics, go-to-definition and rename, plus server-specific features like Rust macro expansion.
+1416	iOS memory leak and performance investigation: reads .memgraph and .trace files, classifies retain cycles against known patterns and suggests Swift fixes.
+1417	Fine-tune open-source LLMs (Qwen, Llama, DeepSeek, Mistral, Gemma) on your data with LoRA, QLoRA or full fine-tuning, plus cost estimation and S3 export.
+1418	Buildable development platform: manage tasks, track progress, get project context and collaborate with humans on software projects.
+1419	Fix CircleCI build failures.
+1420	Task management for coding agents with task memory, self-reflection and dependency management.
+1421	Zero-configuration Go library that exposes existing Gin web framework APIs as MCP tools.
+1422	Manage Docker containers, images, volumes and networks.
+1423	Search and share Claude Code snippets, prompts, Q&A solutions, error fixes and MCP server configurations from the ClaudeCodeNavi community.
+1424	API testing: per-project environments with variable interpolation, saved collections, multi-step flows, assertions, load testing and OpenAPI mock generation.
+1425	Structured file edits for agents: JSON, YAML and TOML by selector, Markdown and AST edits, dry runs and multi-file transactional batches.
+1426	Shows agents which patterns a codebase actually uses, which files a change will affect and when there is too little context to trust an edit. Runs locally.
+1427	CodeLogic code dependency analytics, architectural risk analysis and impact assessment.
+1428	Use natural language to explore LLM observability, traces, and monitoring data captured by Opik.
+1429	Conan C/C++ package manager: create projects, manage dependencies, check licenses and scan for security vulnerabilities.
+1430	ConfigCat feature flag platform: manage feature flags, configs, environments, products and organizations.
+1431	Monitors agent context health: token utilization, context quality degradation and session fatigue, with 0-100 health scores and recovery recommendations.
+1432	Local-first content governance: model and content CRUD, validation, normalization and i18n across any framework.
+1433	Identifies refactoring hotspots to help agents improve code.
+1434	Lowers Manus AI usage costs through model routing, smart testing and context hygiene.
+1435	Fix Playwright test failures reported to Currents.
+1436	AI coding usage analytics: track spend, model usage and costs across Cursor and Claude Code sessions.
+1437	JetBrains TeamCity: builds, tests, build agents and CI/CD pipeline management, with dev and full modes switchable at runtime.
+1438	Publish HTML as live, shareable web pages with public, password-protected or email-restricted access.
+1439	Figma control: create shapes, text and components, and set styles, auto-layout, variables and exports.
+1440	Build and edit Figma designs: JSX-like tree creation, variables and tokens, components, cross-page navigation and screenshot-based visual verification.
+1441	Timezone-aware date and time operations: IANA timezones, timezone conversion and daylight saving time handling.
+1442	Network control and management via the POX SDN controller.
+1443	Interact with the Postman API.
+1444	API governance: detects breaking changes between OpenAPI/Swagger spec versions using configurable policy rules, with structured pass/fail verdicts.
+1445	Deployment tracking and monitoring with live status badges.
+1446	Interact with Docker Hub: repositories, search and Docker Hardened Images.
+1447	Offline access to TwitterAPI.io documentation: endpoint references, guides and authentication docs.
+1448	Curated Swift and SwiftUI patterns and real-world code examples from sources like Swift by Sundell and SwiftLee.
+1449	Endor: run services like MariaDB, Postgres, Redis, Memcached, Alpine or Valkey as pre-configured apps in isolated sandboxes.
+1450	Deterministic structural analysis of systems described in EN syntax: topology, bottlenecks, blast radius, tracing, diffs and centrality.
+1451	Exposes .context/ folder files as MCP resources so Claude Code can reference project documentation via @ mentions.
+1452	Visual DOM element selector for coding agents: a Chrome extension and server bridge to capture page elements with Option+Click.
+1453	Build smart-glasses apps: scaffold, validate and simulate Meta smart glasses integrations (camera capture, voice, audio) in Android and iOS apps.
+1454	Task management for AI-driven development: PRD parsing, task expansion, multi-provider support and selective tool loading to save context.
+1455	Generate API test cases from Swagger/OpenAPI specs (auth, validation, boundary, security and more) and export them to Gherkin, Postman, k6, pytest or TestRail.
+1456	Multi-perspective architecture review from viewpoints like CTO, security, product and DevOps, plus AI collaboration coaching and idea scoring.
+1457	Interact with feature flags in Flipt.
+1458	Deterministic agent execution engine (browser, file, Docker, data, crypto, scheduling modules) with execution traces, evidence snapshots and step replay.
+1459	Utility APIs: email validation, DNS lookup, WHOIS, SSL certificate inspection, IBAN validation, business day calculation, hashing and GPU prices.
+1460	Extract component information from Storybook design systems: HTML, styles, props, dependencies, theme tokens and metadata.
+1461	Code-quality gate for Bazel monorepos: runs lint, coverage and architecture checks from the build graph and returns a pass/fail verdict.
+1462	LynxPrompt prompt management: create, search and organize AI prompts and AGENTS.md/CLAUDE.md configuration files.
+1463	GitKraken CLI with an MCP server wrapping GitKraken APIs as well as Jira, GitHub, GitLab and more.
+1464	Gives coding agents direct access to Figma data to implement designs in one shot.
+1465	Discover, manage and codify cloud resources with Firefly.
+1466	Generate and visualize unified diffs as HTML or PNG, with side-by-side and line-by-line views for filesystem dry runs.
+1467	SQL validation, formatting, parsing, linting, security scanning and metadata extraction across multiple SQL dialects.
+1468	Leases development port blocks to each clone or git worktree, writes .env files and resolves service names to URLs so parallel agents get their own ports.
+1469	Renders a frontend with Playwright and audits spacing, gaps and element sizes against a design scale, returning fix hints. Tailwind-first.
+1470	Up-to-date documentation for a specific Rust crate via semantic search and LLM summarization.
+1471	Renders HTML in a headless browser and detects layout defects (text overlap, element overflow, leftover placeholders) without baseline images.
+1472	GitLab and Jira: manage projects, merge requests, files, releases and tickets.
+1473	Version-aware docs for coding agents: finds llms.txt, OpenAPI and skill specs, resolves dependency versions, detects pitfalls and verifies code.
+1474	Excel workbook creation, data operations, formatting, charts, pivot tables and formulas.
+1475	JetBrains IDE plugin giving coding agents programmatic control of the debugger.
+1476	JetBrains IDE plugin exposing indexing and refactoring features: rename, safe delete, find references, call and type hierarchy, diagnostics and more.
+1477	Regression testing for AI agents: save golden baselines, detect behavioral drift and block regressions in CI.
+1478	Manage Higress gateway configuration and operations.
+1479	Maintain and use API collections, replacing REST clients like Postman or Insomnia.
+1480	Authenticated calls to any REST API: auto-login, token caching, 2FA/OTP support, Swagger spec fetching and fuzzy endpoint search.
+1481	Go code analysis via gopls, the Go language server.
+1482	Deterministic tech stack recommendations scored on six dimensions: analyze and compare technologies and get stack suggestions for any project type.
+1483	Deploy and operate multi-user web apps: magic-link sign-in, a shared realtime database, per-role permissions, email notifications and file uploads.
+1484	Interact with the Bruno API client.
+1485	Android device control, debugging, system analysis and UI automation, with a security framework.
+1486	Detect dead code, circular dependencies, coupling and architectural drift.
+1487	Generic remote server that provides documentation for any GitHub repository or project.
+1488	Read-only access to self-hosted SonarQube Community Build: issues, security hotspots, rules and code snippets so an agent can fix findings locally.
+1489	Turns thumbs-up/down feedback into enforced pre-action gates via PreToolUse hooks, stopping coding agents from repeating mistakes.
+1490	Drive Android emulators and devices over adb: screenshots, UI inspection, tap/swipe/type, app lifecycle, logcat, screen recording and Gradle builds and tests.
+1491	Zuul CI: build failure analysis, log search, pipeline status and job configuration.
+1492	Interact with iOS simulators (iPhone, iPad and more) through natural language commands.
+1493	Persistent pixel-art characters that reflect an agent's state in real time: report work state, mark tasks complete, signal errors and check status.
+1494	Local compression of various image formats.
+1495	Local image and video processing: resize, convert, compress, crop, thumbnails, metadata extraction, rotate, flip, filters and ffmpeg-based video operations.
+1496	Backend-as-a-service for agents building full-stack apps: auth, PostgreSQL database, storage and functions.
+1497	Mobile E2E testing on macOS: iOS Simulator control, native UI automation, Maestro flows, React Native debugging and WebView DOM inspection.
+1498	Interact with iOS simulators: get simulator information, control UI interactions and inspect UI elements.
+1499	Navigate codebases with language server tools: go to definition, find references, rename and diagnostics.
+1500	Stateful layer over real language servers: persistent sessions keep indexes warm, and speculative execution simulates edits in memory before writing to disk.
+1501	AI-powered search and querying of the Vercel AI SDK documentation.
+1502	Search repos, fetch AI-generated wiki docs and ask questions about any open-source repository via codewiki.google.
+1503	SQL analysis, linting and dialect conversion using SQLGlot.
+1504	Local hybrid code search (vector, BM25 and code graph) with structural code graph analysis and persistent semantic memory.
+1505	Manifest-driven MCP server scaffolder: generate MCP servers from YAML manifests, with batch registration and a live routing hub.
+1506	Developer and security utilities via the onlinecybertools.com API: encoding, hashing, JWT decoding, regex testing, formatters, network diagnostics and OSINT.
+1507	Exposes a catalog of coding assistant system prompts as tools, with model-aware suggestions and persona activation to emulate agents like Cursor or Devin.
+1508	Structural codebase graph: scans entities, relationships and feature flows across languages so LLMs navigate by structure instead of grepping.
+1509	TNL (Typed Natural Language): per-feature English contracts that coding agents can look up, propose edits to and verify implementations against.
+1510	Extracts essential code structure from large codebases into an AI-digestible format so agents write code that correctly uses existing APIs.
+1511	VS Code extension and MCP server for language-agnostic automatic debugging via breakpoints and expression evaluation.
+1512	Search and contribute to a community-verified knowledge base of engineering issues and fixes, with trust scores and fix verification.
+1513	Work with JetBrains IDEs such as IntelliJ, PyCharm, WebStorm and Android Studio.

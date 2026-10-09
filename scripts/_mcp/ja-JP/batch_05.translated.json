@@ -1,0 +1,1922 @@
+[
+{
+"line": 2520,
+"translated": "- @@L0@@ 📇 - RuneScape および Old School RuneScape のデータ：アイテム価格、プレイヤーのハイスコアなど。"
+},
+{
+"line": 2521,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Tanshaydar/Quartermaster) 🐍 🏠 🪟 🐧 - Unity、Fab、Quixel Megascans、Gumroad、Leartes Cosmos のゲームアセットをローカル検索。全文検索と視覚的な CLIP 検索を組み合わせる。"
+},
+{
+"line": 2522,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alex-gon/thegamecrafter-mcp-server) 📇 ☁️ - The Game Crafter でボードゲームをデザイン、管理、価格設定：カタログの閲覧、プロジェクト作成、アートワークのアップロード、価格の取得。"
+},
+{
+"line": 2523,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@jhomen368/steam-reviews-mcp) 📇 ☁️ - Steam ゲームの検索、ユーザーレビューの取得、トピック掘り下げによるセンチメント分析。"
+},
+{
+"line": 2524,
+"translated": "- @@L0@@ 🏎️ 🏠 - AI の対戦相手と三目並べで対戦する。"
+},
+{
+"line": 2525,
+"translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - Godot ゲームエンジンとの統合：シーン編集、スクリプティング、アニメーション、タイルマップ、シェーダー、入力シミュレーション、ランタイムデバッグ。"
+},
+{
+"line": 2526,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HadiCherkaoui/crafty-mcp) 📇 🏠 🍎 🪟 🐧 - Crafty Controller 4 API を通じた Minecraft サーバーの管理：起動、停止、バックアップ、コマンド送信、ファイル・スケジュール・Webhook・ユーザーの管理。"
+},
+{
+"line": 2527,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yanjingzhaisun/cozyvtt-mcp) 🐍 🏠 🍎 🪟 🐧 - 自己ホスト型の仮想テーブルトップ CozyVTT でゲームマスターとしてキャンペーンを進行：ダイス、チャットナレーション、トークンとマップ、イニシアチブ、キャラクターシート、ルールブック。"
+},
+{
+"line": 2529,
+"translated": "### 🏥 <a name=\"health-and-wellness\"></a>ヘルス＆ウェルネス"
+},
+{
+"line": 2531,
+"translated": "様々なヘルスプラットフォームを通じて、健康指標、ウェルネスデータ、医療情報にアクセスする。"
+},
+{
+"line": 2533,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/findsaunaplunge/mcp) 🎖️ 📇 ☁️ - 米国各地の都市の冷水浴、サウナ、コントラストセラピーの施設を紹介。各施設の公式ページから取得した日付付きの温度と価格、さらに都市の統計情報を提供。"
+},
+{
+"line": 2534,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PhilipAD/health-export-mcp) 🍎 🏠 - Apple ヘルスの指標に対する読み取り専用のローカル優先クエリ。"
+},
+{
+"line": 2535,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/proscar87/oura-mcp) 🐍 📇 🏠 ☁️ 🍎 🪟 🐧 - Oura Ring API v2 の全コレクションへの生アクセス。完全なページネーションとページ数、サーバー側の分析なし。"
+},
+{
+"line": 2536,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Thecimal/quantified-self-mcp) 🐍 🏠 - ローカルの SQLite ファイルに保存された個人の健康・財務データを、クラウドサービスを介さずにクエリする。"
+},
+{
+"line": 2538,
+"translated": "### 🏠 <a name=\"home-automation\"></a>ホームオートメーション"
+},
+{
+"line": 2540,
+"translated": "スマートホームデバイス、ホームネットワーク機器、オートメーションシステムを制御する。"
+},
+{
+"line": 2542,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/handsomejustin/mijia-control) 🐍 ☁️ - Xiaomi/Mijia のスマートホームデバイス（照明、エアコン、ヒーター、ロボット、カメラ）を制御。Web ダッシュボード、REST API、CLI、エネルギー監視、オートメーションルールを備える。"
+},
+{
+"line": 2543,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@apiarya/wemo-mcp-server) 🐍 🏠 🍎 🪟 🐧 - クラウドを介さない WeMo スマートホームデバイスのローカル制御：検出、調光の明るさ、デバイスの名前変更、HomeKit コード。"
+},
+{
+"line": 2544,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Hybirdss/smartest-tv) 🐍 🏠 🍎 🪟 🐧 - LG、Samsung、Android TV、Roku のスマート TV を制御：Netflix、YouTube、Spotify のコンテンツを名前で再生、URL のキャスト、シーンプリセット、複数 TV の同期。"
+},
+{
+"line": 2545,
+"translated": "- @@L0@@ 🏎️ 🏠 - AVM FRITZ!Box ルーターを制御：デバイス、Wi-Fi、ネットワーク設定、ペアレンタルコントロールの管理、および遅延実行アクションのスケジュール。"
+},
+{
+"line": 2546,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ober37/ac-infinity-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - AC Infinity 栽培コントローラーの監視と自動化：ライブセンサーデータと履歴、VPD/温度/湿度の自動化、ポート制御、スケジューリング。"
+},
+{
+"line": 2547,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/laszlopere/mcp-kodi) 🌊 🏠 🐧 - JSON-RPC 経由で Kodi メディアプレーヤーを制御：再生、音量、ライブラリ検索、キュー管理、複数インスタンス間の再生履歴。"
+},
+{
+"line": 2548,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/claymore666/debmatic-mcp) 📇 🏠 🍎 🪟 🐧 - HomeMatic/debmatic CCU を制御：アクチュエータのオン/オフと調光、センサーとシステム変数の読み取り、プログラムの実行、部屋・リンク・デバイスの管理。"
+},
+{
+"line": 2549,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NickoScope/nickol-knx-mcp) 🐍 🏠 - 設計時の KNX/ETS6 アシスタント：読み取り専用の .knxproj 解析、DPT、命名とコマンド/ステータスの検証、Home Assistant YAML および ETS エクスポート。"
+},
+{
+"line": 2550,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexpfau/zigbee2mqtt-mcp) 📇 🏠 🍎 🪟 🐧 - MQTT ブリッジ API を通じた Zigbee2MQTT の管理：ネットワーク健全性レポート、メッシュトポロジー、ペアリング、バインディング、レポート間隔、デバイスオプション。"
+},
+{
+"line": 2552,
+"translated": "### 🪪 <a name=\"identity\"></a>アイデンティティ"
+},
+{
+"line": 2554,
+"translated": "人物やエージェントが誰であるか、およびそれらについて何が知られているかを確立するサーバー。"
+},
+{
+"line": 2556,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIops-tools/Identity-AIops) 🐍 🏠 - Keycloak および Authentik の SSO/IAM 操作：ログイン、権限、クライアント、MFA の問題の根本原因解析、さらに監査ログとロールバック付きの保護された書き込み。"
+},
+{
+"line": 2557,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/true-alter/cli) 🎖️ 📇 ☁️ - 〜name ハンドルの下の個人アイデンティティプロフィール。見つかった本人と収益を共有する有料検索、スキル証明のクエスト、コレクティブ。"
+},
+{
+"line": 2559,
+"translated": "### 🏭 <a name=\"industrial--iot\"></a>産業＆IoT"
+},
+{
+"line": 2561,
+"translated": "AI エージェントを産業機器、機械、運用技術（OT）に接続。製造および工場フロアのプロトコルを通じたテレメトリの取り込み、監視、制御。"
+},
+{
+"line": 2563,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ahmed-khalil-hafsi/P2Predict) 🐍 🏠 🍎 🪟 🐧 - 購買履歴で学習したローカルの価格ベンチマーク：部品コストの予測、仕様とサプライヤーの要因への帰属付け、想定価格帯の取得。"
+},
+{
+"line": 2564,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Extelligence-ai/bagel) 🐍 🏠 - ROS バッグ、MCAP、フライトログ、CAN、MQTT などのロボティクス・ドローン・IoT データを、DuckDB SQL による平易な英語でクエリ。Rerun、PlotJuggler、LeRobot へのエクスポート付き。"
+},
+{
+"line": 2565,
+"translated": "- @@L0@@ 🐍 ☁️ - プロトコルやメーカーを越えて AI エージェントを産業機器に接続：OEM を越えたテレメトリの正規化、ヘルスインデックス、故障予測。"
+},
+{
+"line": 2566,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LGDiMaggio/predictive-maintenance-mcp) 🐍 🏠 - 産業用の予知保全：振動解析、ベアリング故障診断（ISO 20816-3）、診断レポート。"
+},
+{
+"line": 2567,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/purinzan/gx3-cli-mcp) 🐍 🏠 🪟 - Mitsubishi MELSEC GX Works3 PLC プロジェクトの非公式な読み取り専用解析：ラダー回路の追跡、デバイスの読み書きの検出、デバイスコメントの検索。"
+},
+{
+"line": 2569,
+"translated": "### 🧠 <a name=\"knowledge--memory\"></a>知識＆メモリ"
+},
+{
+"line": 2571,
+"translated": "知識グラフ構造を用いた永続的なメモリストレージ。AI モデルがセッションを越えて構造化情報を維持し、クエリできるようにする。"
+},
+{
+"line": 2573,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dockndevai/ossian-mcp) 📇 🏠 🍎 🪟 🐧 - 引用付きの段落を用いた自分のドキュメントに対する RAG。さらに関連性・重要度・新鮮度でランク付けされる永続的なエージェントメモリ。既定は読み取り専用。"
+},
+{
+"line": 2574,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/anuragsync78/subctx-connector) 📇 ☁️ - 自律的な人工知能のためのサポートセンター。"
+},
+{
+"line": 2575,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Octonove/crbro-memory) 📇 🏠 🍎 🪟 🐧 - ローカルの JSON ファイルに保存される永続的なエージェントメモリ：ヒートスコア付きのニューロン/シナプスグラフ、事実レベルの検索、修正、シークレットの編集、Git を通じたチーム共有。"
+},
+{
+"line": 2576,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bborota/cairn-mcp) 📇 ☁️ - 他のエージェントが学んだ一文の教訓、すべきこと、すべきでないことを、スタックと状況ごとに整理した共有ベース。"
+},
+{
+"line": 2577,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Magnemo-AI/magnemo) 🐍 🏠 🍎 🪟 🐧 - プレーンファイルによる管理されたローカルエージェントメモリ：各エントリは誰が、いつ、どのゲートを通じて書いたかを記録し、ユーザーの承認なしには何も保持されない。"
+},
+{
+"line": 2578,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fish827-08/rag-kb) 🐍 🏠 🪟 - ローカル優先のエージェントメモリと知識ベース：密ベクトルと BM25 のハイブリッド検索、ドキュメントと Web ページの取り込み、ローカルの Ollama による任意の RAG 回答。"
+},
+{
+"line": 2579,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dahshanlabs/klypix-mcp) 📇 🏠 🍎 🪟 🐧 - コーディングエージェントのためのバージョン管理されたプロジェクトブレインをリポジトリと共にコミット：決定、修正、コードの漂移を警告する証拠アンカー、ファイル重複の警告。"
+},
+{
+"line": 2580,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AkashGoenka/coldstart) 📇 🏠 🍎 🪟 🐧 - コーディングエージェントのためのコードベースメモリ：決定論的な AST インデックスがタスクに関連するファイルを見つけ、リポジトリ内の Markdown メモはコードが変更されると自身を陳腐としてマークする。"
+},
+{
+"line": 2581,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/library-mcp) 📇 ☁️ - x402 で支払われるパブリックドメインの書籍知識ベース：全文検索、メタデータ、章、引用、本への質問 Q&A、キュレーションされた主題棚。"
+},
+{
+"line": 2582,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jayasukuv11-beep/agenthelm) 📇 🐍 ☁️ 🏠 🍎 🪟 🐧 - AI コーディングエージェントのための共有・バージョン管理されたメモリとガバナンス。エージェント間のアーキテクチャ決定の競合を解決。"
+},
+{
+"line": 2583,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIStorageDepot/aistoragedepot-mcp) 📇 ☁️ 🍎 🪟 🐧 - プロンプト、ルール、スキル、ドキュメントの共有・バージョン管理されたチームライブラリ。エージェントが検索可能で、項目をスラッシュコマンドとして公開可能。"
+},
+{
+"line": 2584,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@jmpdsevilla/BovedIA) 📇 🏠 🍎 🪟 🐧 - プレーンな Markdown メモによる Claude Code の個人メモリ。読み込むコンテキストを決定するルーター用メモと、思考・感情の層を備える。"
+},
+{
+"line": 2585,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lbailey94/whitemagic) 🦀 🏠 🍎 🪟 🐧 - AI エージェントのためのローカル優先の永続メモリとセッション継続。ハッシュチェーンによる監査台帳、およびデバイス間のバックアップ・エクスポート・インポートを備える。"
+},
+{
+"line": 2586,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LiLara-AI/shadowgraph) 📇 🏠 🍎 🪟 🐧 - AI エージェントのためのローカル優先の決定メモリ：選択、却下された代替案とその理由、失敗した試み、結果、出所、レビュー条件を保存。"
+},
+{
+"line": 2587,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lockstep-team-agent/lockstep) 📇 ☁️ - AI コーディングエージェントを使うチームのための共有決定メモリ：エンジニアリングの決定を捕捉し、影響範囲（blast radius）でランク付けし、エージェントが行動する前にブリーフィングする。"
+},
+{
+"line": 2588,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lumayapartners/memini) 📇 🏠 🍎 🪟 🐧 - コーディングエージェントのためのローカル優先のプロジェクトメモリとガードレール：リポジトリごとに失敗した試み、脆弱なファイル、決定を記録し、繰り返しのミスを前に警告する。"
+},
+{
+"line": 2589,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nazar256/memheaven) 📇 ☁️ - 自己ホスト型でリモートからアクセス可能な、AI エージェントのための共有長期メモリ。"
+},
+{
+"line": 2590,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jessedu29260-netizen/booboo) 📇 🏠 🍎 🪟 🐧 - AI システム（エージェント、メモリ、知識、オートメーション）を 3D 知識グラフとして表示・クエリ：統計、検索、ノード詳細、隣接ノード、経路探索。"
+},
+{
+"line": 2591,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JinyangWang27/people-context) 🐍 🏠 🍎 🪟 🐧 - 身の回りの人々に関するローカル優先のメモリ：アイデンティティ解決、関係性、事実、やり取り、リマインダー、コミュニケーションの指針。"
+},
+{
+"line": 2592,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gpitrella/memxus-remote-mcp) 📇 ☁️ - 開発チームのための共有コンテキスト：GitHub、Notion、保存された決定を同期し、各セッション開始時にエージェントが読み込む再利用可能なプロジェクトコンテキストにする。"
+},
+{
+"line": 2593,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/seanmeverett/shared-memory-mcp) 🐍 ☁️ - AI エージェントのための公開されソースに紐づくノートブック：エントリの検索と読み取り、および恒久的な ID とリンク付き返信を用いた発見・質問・修正の公開。"
+},
+{
+"line": 2594,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/soluai-spa/solucortex-mcp) 🎖️ 🐍 🏠 ☁️ - AI エージェントのための技術メモリ：タスク開始時にプロジェクトの承認済み決定・規約・リスクを思い出し、終了時に教訓を記録する。"
+},
+{
+"line": 2595,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/basemouse/basemouse-core) 📇 ☁️ 🏠 - ソース付きの回答と完全な履歴を持つ共有・バージョン管理されたエージェントメモリ：検索、コンテキストパック、ドキュメントの upsert。"
+},
+{
+"line": 2596,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/caix84476-netizen/personal-understanding) 🏠 🐍 📇 - 逐語優先の個人メモリ：ハッシュ化された一言一句のメッセージ、ソースの引用に紐づく記録、捏造防止バリデータ、監査ダッシュボード。"
+},
+{
+"line": 2597,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Fisher521/burn-mcp-server) 📇 ☁️ 🍎 - Burn 451 後で読むアプリに保存されたブックマークを、知識ベースとして検索・仕分け・整理する。"
+},
+{
+"line": 2598,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/soolaugust/0CompactMem) 🐍 🏠 🍎 🪟 🐧 - OS 風のデマンドページング、追い出し、ピン留め、BM25 検索、重要度スコアリング、容量を考慮した再利用を行う永続的なマルチエージェントメモリ。"
+},
+{
+"line": 2599,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/0spoon/seamless) 🏎️ 🏠 🍎 🪟 🐧 - AI コーディングエージェントのためのローカル優先の共有メモリとタスク調整。Markdown ファイルとして保存。"
+},
+{
+"line": 2600,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/adelinamart/robrain) 📇 🏠 🍎 🪟 🐧 - コーディングエージェントのための自己ホスト型決定メモリ：アーキテクチャ決定と却下された代替案を捕捉し、却下された手法が再提案される前に警告する。"
+},
+{
+"line": 2601,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/a2cr/a2cr) 🐍 ☁️ 🏠 🍎 🪟 🐧 - クライアント側で暗号化された WorkBaton チェックポイントと WorkStash ノートによるエージェントの引き継ぎ。完全なチャット履歴なしに別のクライアントで作業を再開可能。"
+},
+{
+"line": 2602,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/afairai/afair) 🐍 🏠 🍎 🪟 🐧 - 自己組織化し自己ホスト可能な、AI ツールのための暗号化メモリ。バックグラウンドのエンティティ抽出、競合解決、統合、減衰を備える。"
+},
+{
+"line": 2603,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ahmetakyurt/zipmem-mcp) 📇 🏠 - ターミナルのコーディングエージェントのためのローカル長期メモリ：1 つの JSON ファイルに青写真、コードアンカー、抽出された教訓を保存し、セッションを越えてプロジェクトコンテキストを復元。"
+},
+{
+"line": 2604,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ihorponom/agentpack) 📇 🏠 🍎 🪟 🐧 - コーディングエージェントのためのリポジトリネイティブなタスク継続：決定、行き止まり、証拠、チェックポイントのレビュー済みタスク状態台帳。後のセッションがそこから再開。"
+},
+{
+"line": 2605,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/thomasjumper/agentbay) 📇 ☁️ 🏠 - セッション・マシン・ツールを越えたコーディングエージェントのための StremAI 共有メモリ。エージェントごとの帰属、出所、検証ステータス、エクスポートを備える。"
+},
+{
+"line": 2606,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/uniskela/adhd-hub) 🐍 🏠 🐧 - コーディングエージェントのための自己ホスト型プロジェクト継続ハブ：クライアントを越えて未完了の作業、進捗、重複、リマインダーを追跡。"
+},
+{
+"line": 2607,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Vasilispapg/claude-handoff) 🐍 🏠 🍎 🪟 🐧 - Claude Code のセッション引き継ぎ：クラッシュしたものも含めあらゆるトランスクリプトを引き継ぎファイルに変換し、プロジェクト履歴を引用付きのメモリブリーフに抽出。"
+},
+{
+"line": 2608,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aidesignblueprint/integrations) 🐍 ☁️ - エージェント UX のリファレンスである Agentic AI Blueprint への読み取り専用アクセス：原則、実装例、アプリケーションガイドの閲覧と検索。"
+},
+{
+"line": 2609,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aliasunder/vault-cortex) 📇 🏠 ☁️ - スタンドアロンの Obsidian ボルトサーバー：ハイブリッド検索、ノートとファイル、メモリとタスク。ローカル実行またはリモートアクセスのための自己ホスト。"
+},
+{
+"line": 2610,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/andreas-roennestad/openhive-mcp) 📇 ☁️ - AI エージェントが問題と解決策のペアを検索・投稿する共有知識ベース。セマンティック検索、重複検出、自動スコアリングを備える。"
+},
+{
+"line": 2611,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AndreLYL/memkin) 📇 🏠 🍎 🪟 🐧 - Feishu/Lark のチャットと Claude Code/Codex セッションを、人・プロジェクト・タスクのプライベートな知識グラフに抽出するローカル優先の個人メモリ。"
+},
+{
+"line": 2612,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NORTHTEKDevs/genome) 🐍 🏠 🍎 🪟 🐧 - LLM 呼び出しなしのローカル永続エージェントメモリ：SQLite 上での意味的検索と二重時間的事実追跡。"
+},
+{
+"line": 2613,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Shweta-Mishra-ai/tokenmizer) 🐍 🏠 🍎 🪟 🐧 - ローカルの OpenAI 互換プロキシによるセッションメモリ。タスク・決定・ファイルを知識グラフに抽出し、コンテキスト溢れ前にチェックポイントを作成。"
+},
+{
+"line": 2614,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ashlesh-t/cognirepo) 🐍 🏠 🍎 🪟 🐧 - コーディングエージェントのための永続メモリとコードベースコンテキスト：FAISS ベクトルストア、AST シンボルインデックス、知識グラフ、エピソード日誌、エージェント間引き継ぎ。"
+},
+{
+"line": 2615,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AshutoshRaj97/agentready-mcp) 📇 ☁️ 🍎 🪟 🐧 - 任意の Web サイトをインデックスし、その内容について質問。RAG を通じてそのコンテンツに基づく引用付き回答を提供。"
+},
+{
+"line": 2616,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Auctalis/nocturnusai) 🐍 🏠 - エージェントコンテキスト圧縮のための決定論的推論エンジン：論理推論、証明チェーン、真理維持を用いて構造化された事実を抽出。"
+},
+{
+"line": 2617,
+"translated": "- @@L0@@ ☁️ - プレーンテキスト、Web ページ、PDF 文書、EPUB 電子書籍、HTML コンテンツを要約する。"
+},
+{
+"line": 2618,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/20alexl/claude-engram) 🐍 🏠 - Claude Code のためのローカル永続メモリ：フックを通じてミスと決定を追跡し、セッション履歴を検索、ループを検出、編集前に警告。"
+},
+{
+"line": 2619,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/timmx7/acheron-mcp-server) 📇 🏠 - Claude Chat、Code、Cowork 間で共有される永続メモリ。ローカルの SQLite に全文検索付きで保存。"
+},
+{
+"line": 2620,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Terobyte/librarian-cli) 🐍 🏠 🍎 🪟 🐧 - Ebook から Markdown へのパイプライン（FB2、EPUB、DOCX、HTML、PDF）。全文検索と、オフラインで章の閲覧・読み取り・引用検証を行う読み取り専用ツールを備える。"
+},
+{
+"line": 2621,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TeleAI-UAGI/telemem) 🐍 🏠 ☁️ 🍎 🪟 🐧 - Mem0 互換の長期かつマルチモーダルなエージェントメモリ：キャラクター分離プロフィール、セマンティック重複排除、任意のローカルスタック、QA 付きの動画メモリ。"
+},
+{
+"line": 2622,
+"translated": "- @@L0@@ 🐍 🏠 ☁️ - 知識グラフの可視化、セマンティック/ハイブリッド検索、クラウド同期（S3/R2）、セッションを越えたコンテキスト管理を備える永続メモリ。"
+},
+{
+"line": 2623,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Thezenmonster/agentmem) 🐍 🏠 🍎 🪟 🐧 - 信頼ライフサイクル（仮説、有効、検証済み、非推奨）を持つコーディングエージェントのための管理メモリ。競合検出、陳腐化追跡、健全性スコアリングを備える。"
+},
+{
+"line": 2624,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AliceLJY/recallnest) 📇 🏠 🍎 🪟 🐧 - コーディングエージェントのためのローカル優先メモリ：再ランク付きのベクトル/BM25 ハイブリッド検索、知識グラフ、セッションチェックポイント/再開、マルチスコープ分離。"
+},
+{
+"line": 2625,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/robotel-limited/robo-cortex) 🐍 🏠 - Git を認識するコーディングエージェントのためのメモリストア：git blob ハッシュに固定されたメモリは、リンク先のコードが変更されるとレビュー対象としてマークされる。"
+},
+{
+"line": 2626,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ailenshen/apple-notes-mcp) 📇 🏠 🍎 - 双方向の Markdown 変換で Apple Notes を読み書き：一覧と検索は SQLite クエリ、完全な CRUD は AppleScript。"
+},
+{
+"line": 2627,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AgentModule/mcp) 📇 ☁️ - 自律エージェントのための決定論的で業界特化の知識ベース。EU AI 法に準拠した倫理モジュールを含む。"
+},
+{
+"line": 2628,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/juyterman1000/entroly) 🐍 🦀 🏠 🍎 🪟 🐧 - コーディングエージェントのためのコンテキスト制御層：圧縮、キャッシュ用のプロンプトプレフィックス安定化、安価なモデルへのルーティング、ローカルの幻覚チェック、メモリ。"
+},
+{
+"line": 2629,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Goldentrii/AgentRecall-MCP) 📇 ☁️ 🏠 🍎 🪟 🐧 - Intelligent Distance Protocol を用いて最も関連性の高い過去のメモリを表示する、セッションを越えた永続エージェントメモリ。"
+},
+{
+"line": 2630,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gordonkjlee/facthouse) 📇 🏠 🍎 🪟 🐧 - あなたが所有する SQLite ファイルに保存される、AI ツールのためのローカルメモリエンジン。"
+},
+{
+"line": 2631,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AlekseiMarchenko/central-intelligence) 📇 ☁️ - 覚え、思い出し、忘れ、共有するための永続エージェントメモリ。セマンティックベクトル検索と、エージェント・ユーザー・組織のスコーピングを備える。"
+},
+{
+"line": 2632,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kskurtveit/echocache) 📇 🏠 🍎 🪟 🐧 - 高価な LLM の結果を HTTP 風の鮮度（TTL、stale-while-revalidate）でキャッシュし、関連する過去の回答を意味的に検索。"
+},
+{
+"line": 2633,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/epicsagas/alcove) 🦀 🏠 🍎 🪟 🐧 - コーディングエージェントのためのプライベートなプロジェクト文書に対するオンデマンドの BM25 検索。文書を公開リポジトリから排除。"
+},
+{
+"line": 2634,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@alibaizhanov/mengram) 🐍 ☁️ 🏠 🍎 🪟 🐧 - 意味的・エピソード・手続きの各タイプを持つエージェントメモリ。知識グラフ、Claude Code の自動保存/想起フック、スマートトリガー、マルチユーザー分離を備える。"
+},
+{
+"line": 2635,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AntonioTF5/soul-mcp-server) 📇 🏠 🍎 🪟 🐧 - SOUL.md エージェントアイデンティティファイルの検証と生成。エージェントの性格、声、価値観、振る舞いの制約を記述する YAML 形式。"
+},
+{
+"line": 2636,
+"translated": "- @@L0@@ 🐍 ☁️ 🏠 - Graph RAG、ベクトル検索、全文検索を組み合わせ、知識グラフとコンテキストエンジニアリングの構築のための RAG プラットフォーム。"
+},
+{
+"line": 2637,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ayushagrawal288/memex) 🐍 🏠 - セマンティック検索と新鮮度減衰、ローカルの ONNX 埋め込み、バックグラウンド要約、Prometheus/Grafana 可観測性を備える永続エージェントメモリ。"
+},
+{
+"line": 2638,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/baodq06/memocall) 📇 🏠 🍎 🪟 🐧 - 過去の Claude Code セッションの読み取り専用検索と想起。任意のセッションを、アウトライン、ターン範囲、セッション内検索付きのコンパクトな Markdown としてオンデマンドで読み込み。"
+},
+{
+"line": 2639,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@basicmachines-co/basic-memory) 🐍 🏠 ☁️ 🍎 🪟 🐧 - ローカル優先の AI メモリ：人間と LLM の両方が読み書きする Markdown ファイルのセマンティック知識グラフ。任意のクラウド同期とチームワークスペースを備える。"
+},
+{
+"line": 2640,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Battam1111/Myco) 🐍 🏠 🍎 🪟 🐧 - AST と Markdown リンクから導かれる自己検証型のファイルシステムグラフに基づく、セッション・プロジェクトを越えたエージェントメモリ。埋め込みは使用しない。"
+},
+{
+"line": 2641,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Beever-AI/beever-atlas) 🐍 🏠 🍎 🪟 🐧 - Slack、Discord、Teams、Mattermost のチャットを、引用付き回答、セマンティック検索、専門家発見を備えた知識グラフと Wiki に変換するチーム知識ベース。"
+},
+{
+"line": 2642,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bitatlas-group/bitatlas) 📇 ☁️ - クライアント側 AES-256-GCM 暗号化を持つゼロ知識クラウドドライブ：サーバーが平文として決して見ないファイルのアップロード、ダウンロード、検索、整理。"
+},
+{
+"line": 2643,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@besslframework-stack/project-tessera) 🐍 🏠 🍎 🪟 🐧 - ローカルのワークスペースメモリ：Markdown、CSV、セッションログをベクトルストアにインデックス。ハイブリッド検索、セッションを越えたメモリ、知識グラフの可視化を備える。"
+},
+{
+"line": 2644,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BetaBots-LLC/callimachus) 🦀 🏠 🍎 🪟 🐧 - 複数のツールからのコーディングエージェントの会話履歴に対するローカルハイブリッド検索（SQLite FTS5 とオンデバイスベクトル）。エージェントが過去の作業を想起可能。"
+},
+{
+"line": 2645,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/billy12151/memory-arbiter-mcp) 🐍 🏠 🍎 🪟 🐧 - ローカルのメモリミドルウェア：完全なメモリ読み込みの代わりにターゲット検索、ルールベースの競合調停、コーディングエージェント間で共有される 1 つの SQLite ストア。"
+},
+{
+"line": 2646,
+"translated": "- @@L0@@ 📇 ☁️ 🏠 - 厳選された awesome リストを検索し、エージェントに最も関連するリソースを取得する。"
+},
+{
+"line": 2647,
+"translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - Obsidian ボルトへの安全な読み書きアクセス：検索、バッチ操作、タグ管理、フロントマターハンドリング。"
+},
+{
+"line": 2648,
+"translated": "- @@L0@@ 📇 🏠 - Lenny's Podcast の書き起こしを YouTube タイムスタンプ付きで検索。PRD、戦略、PM キャリアに関するプロダクトマネジメントの洞察。"
+},
+{
+"line": 2649,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lildaddyo/braintube-mcp) 📇 ☁️ - 保存された YouTube 動画、ポッドキャスト、記事、PDF、Notion/Obsidian ノートを、永続的でセマンティック検索可能な知識ベースにまとめる。"
+},
+{
+"line": 2650,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/linklore/linklore-mcp) 🐍 🏠 - コーディングエージェントのための構造化メモリ：エージェントが読み書きする、ステータスとリンク付きの型付き lore と doc エントリ。"
+},
+{
+"line": 2651,
+"translated": "- @@L0@@ 🐍 🏠 - Wikipedia その他の ZIM 形式の知識アーカイブをオフラインで検索・閲覧。スマート検索とキャッシュを備える。"
+},
+{
+"line": 2652,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/carrasquelalex1/hipocampo) 🐍 🏠 🍎 🪟 🐧 - PostgreSQL、pgvector、NVIDIA NIM 上のバイリンガル（英語/スペイン語）二重メモリシステム。段階的検索、重複排除、チェックポイント、自動修復を備える。"
+},
+{
+"line": 2653,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/catfish-1234/sessionmem) 📇 🏠 - コーディングアシスタントのためのローカルメモリ：セッションを監視し、各新セッション開始時にコンパクトな要約を注入。SQLite ファイルに保存。"
+},
+{
+"line": 2654,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - コーディングアシスタントのための永続メモリ：教訓と未完了タスクのセッションブリーフィング、共有チームメモリ、BM25 検索、管理された Valkey/Redis。"
+},
+{
+"line": 2655,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ccf/agentcairn) 🐍 🏠 🍎 🪟 🐧 - ローカル優先のエージェントメモリ：真実源となる Markdown の Obsidian ボルトに加え、ハイブリッド BM25・ベクトル・グラフ検索のための再構築可能な DuckDB インデックス。"
+},
+{
+"line": 2656,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cdeust/Cortex) 🐍 🏠 🍎 - PostgreSQL/pgvector 上の Claude Code のための神経科学に着想を得たメモリ：減衰、統合、予測符号化の書き込みゲート、ライフサイクルフック。"
+},
+{
+"line": 2657,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/contradictory-body/cc-sensei) 📇 🏠 🍎 🪟 🐧 - クエリ可能なアーキテクチャモジュールとして Claude Code のソースを探索：横断的関心事の追跡、パターンの検索、ソースコードのローカル読み取り。"
+},
+{
+"line": 2658,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/terrizoaguimor/celiums-memory) 📇 🏠 ☁️ 🍎 🪟 🐧 - 知識モジュール、サーカディアンリズムの認識、感情状態の追跡、PostgreSQL/Qdrant ハイブリッド検索、ユーザーごとの分離を持つ認知メモリエンジン。"
+},
+{
+"line": 2659,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cg3-llc/prior_mcp) 📇 ☁️ - エージェントが実証済みの解決策と失敗した手法を交換する共有知識ベース。これにより既知の行き止まりをスキップ可能。"
+},
+{
+"line": 2660,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Cavinooo/claude-find) 📇 🏠 🍎 - Claude Code のセッション全体からメモリをオンデマンドで取得する。"
+},
+{
+"line": 2661,
+"translated": "- @@L0@@ - AI プロンプトを用いてチャットメッセージをクエリし、要約する。"
+},
+{
+"line": 2662,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vshulcz/deja-vu) 🏎️ 🏠 🍎 🪟 🐧 - Claude Code、Codex CLI、opencode のセッション履歴に対するローカルメモリ：語彙検索、セッション開始時の自動想起、シークレット編集、SSH 同期。"
+},
+{
+"line": 2663,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ZengLiangYi/ChatCrystal) 📇 🏠 🍎 🪟 🐧 - AI コーディング会話のためのローカル優先メモリ：コーディングアシスタントのチャットを、セマンティック検索、タググラフ、Markdown エクスポート付きのノートに取り込む。"
+},
+{
+"line": 2664,
+"translated": "- @@L0@@ 📇 🏠 - AI のロールプレイとストーリー生成に特化したグラフベースのメモリ。"
+},
+{
+"line": 2665,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ChevalGrand520/local-gpu-imagegen) 🐍 🏠 🍎 🪟 🐧 - ComfyUI による確認ゲート付きのローカル GPU 画像生成：SHA-256 モデル識別、明示的なライセンス承認、証拠の保持、人間参加型の実行。"
+},
+{
+"line": 2666,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ChrisGVE/workspace-qdrant-mcp) 🦀 📇 🏠 🍎 🪟 🐧 - コーディングアシスタントのためのプロジェクトスコープのメモリ：tree-sitter チャンク、LSP 統合、ハイブリッド検索を用いてプロジェクトのコードと文書を Qdrant にインデックス。"
+},
+{
+"line": 2667,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cipherfoxie/sovereign-mcp) 🐍 ☁️ 🐧 - NVIDIA DGX Spark 上の自己ホスト AI に関する Sovereign AI Blog を検索・読み取り、GB10 ハードウェア向けの SGLang 設定を検証。"
+},
+{
+"line": 2668,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/CodeAbra/iai-mcp) 🐍 🏠 🍎 🪟 🐧 - エピソード・意味的・手続きの階層を持つローカルメモリデーモン。SQLite と hnswlib ストレージ、睡眠周期の統合、保存時の AES-256-GCM 暗号化。"
+},
+{
+"line": 2669,
+"translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - 階層ストレージ、コンテキスト健全性監視、推論品質チェック、真実性検証を持つセッションメモリ。"
+},
+{
+"line": 2670,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alfredoizdev/contextforge-mcp) 📇 ☁️ - セマンティック検索、Git コミット/PR 同期、プロジェクトベースの整理、チームコラボレーションを持つコーディングアシスタントのための永続メモリ。"
+},
+{
+"line": 2671,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/contextium-io/contextium-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - AI ツールのための共有チームコンテキスト：バージョン管理され権限付きの知識、コーディング標準、スキル、エージェントを提供し、1 回の呼び出しで全体のワークフローを読み込む。"
+},
+{
+"line": 2672,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yonro/memory-os-cli) 📇 ☁️ - XMemo：ユーザー所有のエージェントメモリ。AI ツール全体でスコープ付きメモリを保存・検索・想起・管理。"
+},
+{
+"line": 2673,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/contextstream/mcp-server) 📇 ☁️ 🍎 🪟 🐧 - セマンティックコード検索、知識グラフ、影響分析、決定追跡を持つ AI コーディングツールのための永続メモリ。"
+},
+{
+"line": 2674,
+"translated": "- @@L0@@ 📇 🏠 - Claude Desktop のプロジェクト間や MCP クライアント間で会話コンテキストを引き継ぎ。ファイルではなくメモリに保存。"
+},
+{
+"line": 2675,
+"translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - Elon Musk、Warren Buffett、Steve Jobs などの著名な創業者や投資家の声、フレームワーク、原則に基づく AI ペルソナとチャット。"
+},
+{
+"line": 2676,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dcostenco/BCBA) 📇 🏠 🍎 🪟 🐧 - Web ダッシュボード、セッション巻き戻し/再生、クライアント間メモリ共有、朝のブリーフィング、段階的コンテキスト読み込みを持つローカル SQLite エージェントメモリ。"
+},
+{
+"line": 2677,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/darktw/usecortex-mcp) ☁️ - エージェントのための永続知識メモリ：コンテキストをプロジェクトに読み込み、発見を書き戻す。トピックごとに整理し AES-256 暗号化。"
+},
+{
+"line": 2678,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidgut1982/lore-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - エージェントのための永続知識層：知識ベース、調査スレッド、マルチエージェント帰属を持つジャーナル。SQLite、PostgreSQL、Supabase 上。"
+},
+{
+"line": 2679,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dbwls99706/deadends.dev) 🐍 ☁️ 🏠 🍎 🪟 🐧 - コードエラーと国別のルール（ビザ、銀行、法的）に関する既知の行き止まり：一見正しく見えるが失敗する修正、および成功率付きの回避策。"
+},
+{
+"line": 2680,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/decisionnode/DecisionNode) 📇 🏠 🍎 🪟 🐧 - 開発の決定を構造化 JSON として記録（Gemini 埋め込み付き）、AI ツール間で共有されるローカルストアから意味的に検索。"
+},
+{
+"line": 2681,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/giuliohome-org/doc-manager) 🦀 ☁️ - Azure Blob Storage 上の個人ドキュメントボルト：平文ドキュメントの読み書きと検索。クライアント側 AES-256-GCM 暗号化ドキュメントは不透明のまま。"
+},
+{
+"line": 2682,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Destrayon/Connapse) #️⃣ 🏠 🍎 🪟 🐧 - ハイブリッドなベクトル・キーワード検索とコンテナ隔離インデックスを持つ、エージェントのための自己ホスト型知識バックエンド。"
+},
+{
+"line": 2683,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dengls24/annota) 🐍 🏠 - Zotero で論文に注釈：セマンティックな色分けで重要な発見をハイライト、数式の説明、構造化された読書ノートの作成。"
+},
+{
+"line": 2684,
+"translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 - 画面操作をキャプチャし、AI 要約と OCR テキストをローカルに保存し、セマンティック検索とタイムラインで履歴を公開するデスクトップアプリ。"
+},
+{
+"line": 2685,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dnotitia/akb) 🐍 📇 🏠 🍎 🪟 🐧 - 組織の知識ベース：URI グラフで結びつけられた Markdown 文書、PostgreSQL テーブル、ファイル。ハイブリッド検索、Git 履歴、マルチテナント ACL を備える。"
+},
+{
+"line": 2686,
+"translated": "- @@L0@@ 📇 ☁️ 🏠 - 様々なソースから文書をエージェントにセマンティック検索で提供する、自己ホスト型の文書インデクサー。"
+},
+{
+"line": 2687,
+"translated": "- @@L0@@ 📇 🏠 - AI モデルに永続的なツール固有のコンテキストとルールを提供する静的サーバー。"
+},
+{
+"line": 2688,
+"translated": "- @@L0@@ 📇 🏠 - セマンティック検索、永続ストレージ、自律的なメモリ統合を持つメモリサービス。"
+},
+{
+"line": 2689,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dot-RealityTest/obsidian-codex-mcp) 🐍 🏠 🍎 🪟 🐧 - Obsidian アプリやプラグインなしで Markdown ファイルに直接作用するローカル Obsidian ボルトアクセス。読み取り専用モード、書き込み時バックアップ、パス隔離を備える。"
+},
+{
+"line": 2690,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server) 📇 🏠 🍎 🪟 🐧 - AI クライアントのための再利用可能なペルソナ、スキル、テンプレート、エージェント、メモリ。動的権限、バージョン管理、共有可能なコンテンツの公開コレクションを備える。"
+},
+{
+"line": 2691,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DomDemetz/claude-soul) 📇 🏠 🍎 🐧 - Claude Code のための学習エンジン：セッションからシグナルを抽出し、定期的な振り返りを実行、証拠に基づいて振る舞いのフレームワークを昇格または退職。"
+},
+{
+"line": 2692,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dshakes/distil) 🐍 🏠 - 大きなツール出力を可逆的に復元可能なハンドルに圧縮し、オンデマンドで展開、トークンとコストの削減をローカルで追跡。"
+},
+{
+"line": 2693,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/edobusy/agenthold) 🐍 🏠 🍎 🪟 🐧 - 同時実行エージェントの調整のための楽観的並行制御を持つ共有・バージョン管理された状態ストア。さらに SQLite 支援の claim/release ロックと監査ログ。"
+},
+{
+"line": 2694,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/elvismdev/mem0-mcp-selfhosted) 🐍 🏠 🍎 🪟 🐧 - Claude Code のための自己ホスト型 mem0：Qdrant ベクトル検索、Neo4j 知識グラフ、Ollama 埋め込み、セッションを越えた自動メモリのためのセッションフック。"
+},
+{
+"line": 2695,
+"translated": "- @@L0@@ 🐍 🏠 - Zettelkasten 知識管理：アトミックノートの作成、リンク、検索。"
+},
+{
+"line": 2696,
+"translated": "- @@L0@@ 🐍 🏠 - 意味的検索、グラフ関係、競合検出を持つ 3 層のエージェントメモリ（アイデンティティ、アクティブ、アーカイブ）。"
+},
+{
+"line": 2697,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/giskard09/giskard-oasis) 🐍 🏠 - 元の目的を抽出して糸を失ったエージェントを再焦点化。Lightning または Arbitrum による従量課金。"
+},
+{
+"line": 2698,
+"translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - SQLite FTS5 を用いた Claude Code セッションを越えた永続的で検索可能なコンテキストストレージ。AI セッション要約、チェックポイント復元、Web ダッシュボードを備える。"
+},
+{
+"line": 2699,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/majiayu000/remem) 🦀 🏠 🍎 🐧 - Claude Code と Codex のためのローカル優先メモリ：フックがセッションを捕捉し、LLM がそれを SQLite に抽出。監査可能な全文および埋め込み検索。"
+},
+{
+"line": 2700,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MakeaMouse/fish-bridge-mcp) 🐍 🏠 🍎 🪟 🐧 - AI チャットセッションをコンパクトな型付き知識グラフに圧縮。Ollama による任意のオフライン抽出付き。"
+},
+{
+"line": 2701,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@entire-vc/evc-team-relay-mcp) - Obsidian ボルトでノートを読み書きする。"
+},
+{
+"line": 2702,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dl4rce/flaiwheel) 🐍 🏠 🍎 🪟 🐧 - コーディングエージェントのための自己ホスト型メモリとガバナンス：構造化された知識の取得、再ランク付きハイブリッド検索、コードベース解析、git ネイティブな保存。"
+},
+{
+"line": 2703,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fabio-rovai/open-ontologies) 🦀 🏠 - OWL、RDF、SPARQL のオントロジー工学：Oxigraph トリプルストア上で知識グラフの検証、クエリ、差分、lint、バージョン管理、ガバナンス。"
+},
+{
+"line": 2704,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/grooverLab/fable) 🐍 🏠 🍎 🐧 - Claude Code のトランスクリプト履歴に対する全文およびセマンティック検索。正確なスレッド想起と、ローカル SQLite に保存される永続的な事実。"
+},
+{
+"line": 2705,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fenghaochang/LoreRoom) 📇 🏠 🍎 - Claude Code Telegram ボットのための暗号化ローカルメモリ：会話の両側を捕捉。SQLCipher 暗号化と CJK 向け全文検索を備える。"
+},
+{
+"line": 2706,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/FilippoPilo/cortex-connector) 📇 ☁️ - 品質ゲート付き書き込み、型付きクレーム、競合追跡、整合性スコアリングを持つエージェントのための永続セマンティックメモリ。"
+},
+{
+"line": 2707,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gamosoft/NoteDiscovery) 🐍 🏠 🍎 🪟 🐧 - Web UI を持つ自己ホスト型 Markdown 知識ベース：ノートの検索、読み取り、作成、編集、タグ付け、テンプレート化。"
+},
+{
+"line": 2708,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/geondongkim/geond-agent-protocol) 🐍 🏠 ☁️ 🍎 🪟 🐧 - PostgreSQL/pgvector 上のコーディングエージェントのためのローカル優先の共有メモリと調整：リポジトリの証拠、予約、引き継ぎ、コードグラフコンテキスト。"
+},
+{
+"line": 2709,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gingugu/gingugu) 🐍 🏠 🍎 🪟 🐧 - コーディングアシスタントのためのローカル SQLite メモリ：信頼ライフサイクル付きの型付きメモリ、名前空間、知識グラフ、ハイブリッド検索、キーチェーン資格情報ボルト。"
+},
+{
+"line": 2710,
+"translated": "- @@L0@@ 📇 🏠 - GistPad のコンパニオンとして、GitHub Gists で個人の知識、日々のノート、再利用可能なプロンプトを管理。"
+},
+{
+"line": 2711,
+"translated": "- @@L0@@ 📇 ☁️ - エージェントが過去に解決した問題を検索・公開・解放し、共有された解決策でトークンを得る知識マーケットプレイス。"
+},
+{
+"line": 2712,
+"translated": "- @@L0@@ 📇 ☁️ - Slack、Discord、Web サイト、Google Drive、Linear、GitHub からコンテンツを Graphlit プロジェクトに取り込み、関連する知識を検索・取得。"
+},
+{
+"line": 2713,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/lego-oracle) 📇 🏠 - Rebrickable の LEGO セット、パーツ、ミニフィグ、在庫：セットの検索と比較、色でのパーツ検索、テーマの閲覧、別の組み方の発見。"
+},
+{
+"line": 2714,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/brewers-almanack) 📇 🏠 - 醸造の知識：BJCP 2021 のビアスタイル、ホップ品種、モルト、酵母、水質プロファイル、オフフレーバー診断、レシピ提案、料理のペアリング。"
+},
+{
+"line": 2715,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/3dprint-oracle) 📇 🏠 🍎 🪟 🐧 - SpoolmanDB からの 3D プリントフィラメント知識ベース：フィラメントの検索、材料特性と印刷設定の比較、印刷問題の診断。"
+},
+{
+"line": 2716,
+"translated": "- @@L0@@ 🐍 🏠 - ベクトル検索を通じて文書を取得・処理し、関連する文書コンテキストで回答を拡張。"
+},
+{
+"line": 2717,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HBarefoot/engram) 📇 🏠 🍎 🪟 🐧 - ローカル埋め込み、ハイブリッドな意味的・全文検索、シークレット検出、矛盾処理を持つ、SQLite 上のオフライン永続エージェントメモリ。"
+},
+{
+"line": 2718,
+"translated": "- @@L0@@ 🐍 ☁️ 🍎 🪟 🐧 - AWS 上の RAGStack サーバーレス知識ベースにアクセス：検索、AI 回答とのチャット、文書とメディアのアップロード、Web サイトのスクレイピング、メタデータ解析。"
+},
+{
+"line": 2719,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hermes-labs-ai/fidelis) 🐍 🏠 🍎 🐧 - LLM を使わない検索を既定とし、逐語的な想起、クエリ、ヘルスチェック、コンテキストに応じた方向付けを持つローカル優先メモリ。"
+},
+{
+"line": 2720,
+"translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - セマンティック検索、AI 抽出、プロジェクトスコーピングを持つ Claude Code のためのクラウドベース永続メモリ。"
+},
+{
+"line": 2721,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hjqcan/GoodMemory) 📇 🏠 - SQLite または Postgres でのスコープ付きユーザー/プロジェクト保存を持つローカル優先で監査可能なメモリ。既定は読み取り専用の想起、オプトインのレビュー済み書き戻し。"
+},
+{
+"line": 2722,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hoornet/agentdocs-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - AgentDocs の Markdown 文書の読み取り、作成、更新、コメント、共有。全文およびセマンティック検索を備える。"
+},
+{
+"line": 2723,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hubinoretros/deep-thinker) 📇 🏠 🍎 🪟 🐧 - 複数の戦略（弁証法、類推、アブダクション等）を持つ DAG 思考グラフによる推論。行き詰まり検出、信頼度スコアリング、自己批判。"
+},
+{
+"line": 2724,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hyunjae-labs/lore) 📇 🏠 🍎 🪟 🐧 - ハイブリッドなベクトル・キーワード検索、バックグラウンドインデックス、プロジェクトごとの選択を持つ、Claude Code 会話に対するローカルセマンティック検索。"
+},
+{
+"line": 2725,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DanceNitra/inspeximus) 🐍 🏠 🍎 🪟 🐧 - 修正チャネルを持つエージェントメモリ：陳腐な事実の置き換えまたは巻き戻し、古い値の再提示のブロック、署名付きトゥームストーンによる削除の証明。"
+},
+{
+"line": 2726,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/idapixl-algora-mcp-server) 📇 ☁️ - Algora でオープンソースのバウンティを閲覧・検索。組織、技術、金額でフィルタリングし、トップバウンティと集計統計を取得。"
+},
+{
+"line": 2727,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/IgorGanapolsky/mcp-memory-gateway) 📇 🏠 - 捕捉したフィードバックと失敗をフックで強制されるルールに変えることで、コーディングエージェントの既知のミスの繰り返しを防ぐ実行前ゲート。"
+},
+{
+"line": 2728,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Ikalus1988/MisakaNet) 🐍 🏠 🍎 🪟 🐧 - エージェント失敗メモリ：実際のエンジニアリングセッションから検証済みのデバッグ教訓を検索。"
+},
+{
+"line": 2729,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/irisxc4/memoryguard) 🐍 🏠 🍎 🪟 🐧 - CLI とデスクトップコンソールを持つ、コーディングエージェントのためのローカル優先で管理された共有メモリ：分類、重複排除、置き換え、隔離、メモリのロールバック。"
+},
+{
+"line": 2730,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zsxh1990/pr-genius) 🐍 🏠 - 実際のリポジトリからの事例に基づくプルリクエスト貢献アドバイザー：マージ確率分析、パターンマッチング、貢献戦略。"
+},
+{
+"line": 2731,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jaimenbell/rag-mcp) 🐍 🏠 - ドキュメントコーパスをベクトル検索し、引用付きの段落を返す最小のローカル RAG。"
+},
+{
+"line": 2732,
+"translated": "- @@L0@@ 📇 🏠 - 異なる AI モデルが会話を越えて協力しコンテキストを共有できるよう、LLM 間の通信とメモリ共有。"
+},
+{
+"line": 2733,
+"translated": "- @@L0@@ 📇 🏠 - MongoDB で複数の LLM の会話メモリを、タイムスタンプと LLM 識別情報付きで保存・取得。"
+},
+{
+"line": 2734,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/japlete/md-vision-mcp) 📇 🏠 🍎 🪟 🐧 - インライン画像と見出しインデックス付きで Markdown を読み取り、ローカル文書や許可された URL に対するエージェント RAG 向け。"
+},
+{
+"line": 2735,
+"translated": "- @@L0@@ 🏎️ ☁️ 🐧 - DuckDB と VoyageAI を使うコーディングエージェントのためのシンプルなメモリ。"
+},
+{
+"line": 2736,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jagoff/memo) 🐍 🏠 🍎 🐧 - ローカル優先のセマンティックメモリ：ハイブリッド検索、Markdown 保存、MLX または CPU 埋め込み、矛盾検出、タイムトラベル履歴、マシン間 git 同期。"
+},
+{
+"line": 2737,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JinNing6/Noosphere) 🐍 ☁️ - 洞察、決定、警告、パターンの共有コミュニティリポジトリ。セマンティック検索、3D インタラクティブ地球儀、自動コンテンツモデレーションを備える。"
+},
+{
+"line": 2738,
+"translated": "- @@L0@@ 📇 🏠 - Markdown をインタラクティブな markmap マインドマップに変換。PNG/JPG/SVG エクスポートとライブブラウザプレビュー。"
+},
+{
+"line": 2739,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/junnnnnw00/obsidian-everywhere) 📇 🏠 🍎 🪟 🐧 - グラフネイティブな Obsidian ボルトアクセス：検索、バックリンク、n ホップ近傍、ページネーション読み取り、ドライランとロールバック付きの安全な部分・一括編集。"
+},
+{
+"line": 2740,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@kael-bit/engram-rs) 📇 🏠 🍎 🪟 🐧 - 自動減衰、昇格、セマンティック重複排除、自己組織化するトピックツリーを持つ階層的なエージェントメモリエンジン。"
+},
+{
+"line": 2741,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kage-core/Kage) 📇 🏠 🍎 🪟 🐧 - コーディングエージェントのための git ネイティブなメモリ：リポジトリ内の JSON エントリを引用されたコードに対して検証し、幻覚的な引用は拒否、陳腐なメモリは保留。"
+},
+{
+"line": 2742,
+"translated": "- @@L0@@ 📇 ☁️ - Zotero Cloud ライブラリのコレクションとソースを操作する。"
+},
+{
+"line": 2743,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/khwanlabs/khwan-mcp) 🐍 ☁️ 🍎 🪟 🐧 - 修正を中心に構築されたコーディングエージェントのメモリ：あなたの修正を後のセッションのための常設ルールに抽出。プロジェクトごとに分離されたメモリ。"
+},
+{
+"line": 2744,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/krimto-labs/krimto) 📇 🏠 - git 内の Markdown として保存されるコーディングエージェントのためのチームメモリ。ユーザー・チーム・組織のアクセスレベルとハイブリッド SQLite/sqlite-vec 検索。"
+},
+{
+"line": 2745,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Krzysztof318/MailFathom) #️⃣ 🏠 🐧 - 自己ホスト型のメール検索：IMAP メールボックスを PostgreSQL に同期し、メールの一覧・検索・読み取りと、アーカイブ全体への引用付き質問。"
+},
+{
+"line": 2746,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kunickiaj/codemem) 📇 🏠 - セッション・マシン・チームメイトを越えた永続的なコーディングメモリ。メモリ検索、任意の同期、プロジェクト共有、自動捕捉を備える。"
+},
+{
+"line": 2747,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kunwar-shah/claudex) 📇 🏠 🍎 🪟 🐧 - SQLite にインデックスされた Claude Code 会話履歴に対する永続メモリと全文検索。セッション要約と探索用 Web UI を備える。"
+},
+{
+"line": 2748,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/renezander030/agentic-task-system) 📇 🏠 - タスクマネージャーをエージェントメモリに変換。TickTick または Obsidian ボルトに対するハイブリッド検索で、別のベクトルデータベースは不要。"
+},
+{
+"line": 2749,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/KVANTRA-dev/NOUZ-MCP) 🐍 🏠 🍎 🪟 🐧 - Obsidian のためのセマンティック知識グラフ。グラフ・分類・階層モード、ローカル埋め込み、セマンティックブリッジ発見、漂移検出。"
+},
+{
+"line": 2750,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/leesgit/passbaton) 📇 🏠 🍎 🪟 🐧 - Claude Code、Codex CLI、Gemini CLI を越えたローカルセッション継続：開始時のコンテキスト注入、コンパクション引き継ぎ、メモリ、タスク、多言語検索。"
+},
+{
+"line": 2751,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lfrmonteiro99/memento-mcp) 📇 🏠 🍎 🪟 🐧 - コーディングエージェントのためのローカル優先メモリ：事実、決定、パターン、アーキテクチャメモを SQLite に保存し、セッション間の繰り返しコンテキストを削減。"
+},
+{
+"line": 2752,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Lians-ai/Lians) 🐍 🏠 🍎 🪟 🐧 - 決定論的な事実の置き換え、時点回帰検索、メモリ系譜、競合追跡、改ざん検知監査証跡を持つ両時間的エージェントメモリ。"
+},
+{
+"line": 2753,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/liftkkkk/owl-mcp) 🐍 🏠 - OWL/TTL/RDF オントロジーを操作：SPARQL クエリ、HermiT/Pellet 推論、知識グラフの CRUD 操作。"
+},
+{
+"line": 2754,
+"translated": "- @@L0@@ 📇 🏠 ☁️ - 法華経の枠組みを用いた内省的な問題解決：多視点推論、方便、非二元の認識、瞑想の休止。"
+},
+{
+"line": 2755,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/knaisoma/data-olympus) 🐍 🏠 🍎 🪟 🐧 - 提案されたものと受け入れられたもののガイダンス、有効期間、置き換えチェーン、ステータス認識検索を持つ、コーディングエージェントのための git ネイティブ Markdown 知識ベース。"
+},
+{
+"line": 2756,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lithtrix/lithtrix-mcp) 📇 ☁️ 🍎 🪟 🐧 - 信頼度スコア付き Web 検索、ブラウザフェッチ、1 つの安定キーの下の共有 Commons プールを持つ永続的なマルチベンダーエージェントメモリ。"
+},
+{
+"line": 2757,
+"translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - ファイルシステムアクセスを通じてローカル Obsidian ボルトでノートの作成、読み取り、更新、検索。"
+},
+{
+"line": 2758,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LuizEduPP/Rememb) 🐍 🏠 🍎 🪟 🐧 - セクション化されたエントリ（プロジェクト、ユーザー、コンテキスト）を持つローカル JSON の永続エージェントメモリ。セマンティック検索、CLI、プロジェクトごとのスコープ。"
+},
+{
+"line": 2759,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lyonzin/knowledge-rag) 🐍 🏠 🍎 🪟 🐧 - ハイブリッド BM25 とセマンティック検索、クロスエンコーダ再ランク、Markdown 対応チャンク、クエリ拡張を持つ Claude Code のためのオフライン RAG。"
+},
+{
+"line": 2760,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/markmhendrickson/neotoma) 📇 🏠 🍎 🪟 🐧 - エージェントのための決定論的状態層：連絡先、タスク、決定などのバージョン管理されたエンティティを、不変の観測と出所と共にローカル SQLite に。"
+},
+{
+"line": 2761,
+"translated": "- @@L0@@ 🐍 🏠 - 面接準備、自己振り返り、コーチングのための構造化されペルソナ主導のセッション。タイマーとパフォーマンス評価を備える。"
+},
+{
+"line": 2762,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/max-ramas/rms-memory-mcp) 🦀 🏠 🍎 🐧 🪟 - コーディングエージェントのためのローカル優先メモリ：ハイブリッド LanceDB/Tantivy 検索、Markdown とコードのインデックス、プロジェクトごとのボルト、低信頼時は検索を控える想起。"
+},
+{
+"line": 2763,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/maxkuminov/obsidian-mcp) 🐍 🏠 🍎 🪟 🐧 - 自己ホスト型 Obsidian サーバー：PostgreSQL/pgvector 上のセマンティック・全文検索、ウィキリンクグラフの走査、アトミックノート CRUD、自己記述型ボルトガイド。"
+},
+{
+"line": 2764,
+"translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - コーディングエージェントのための永続フラクタルグラフメモリ：セマンティック検索、ホット/コールド/アーカイブのコンテキスト階層、Qdrant 上の決定追跡。"
+},
+{
+"line": 2765,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/udjin-labs/mnemostack) 🐍 🏠 🍎 🪟 🐧 - Qdrant 上の自己ホスト型ハイブリッドエージェントメモリ。ベクトル検索、BM25、時間検索、任意の Memgraph 知識グラフをランク融合で結合。"
+},
+{
+"line": 2766,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tverney/mcp-agent-memory) 📇 🏠 🍎 - ファイルシステムベースの永続エージェントメモリ：バックグラウンドデーモンが統合と抽出を処理する間、エージェントはメモリを読み書き・検索。"
+},
+{
+"line": 2767,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/memstate-ai/memstate-mcp) 📇 ☁️ - 事実をキーパスとして保存するバージョン管理された構造化エージェントメモリ。完全なバージョン履歴と自動競合検出。"
+},
+{
+"line": 2768,
+"translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 頻繁に使われるパターンを昇格させ、Claude の出力から知識を抽出してグラフに結びつける 2 層メモリ（ホットキャッシュとコールドセマンティック検索）。"
+},
+{
+"line": 2769,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/michielinksee/linksee-memory) 📇 🏠 🍎 🪟 🐧 - 1 つの SQLite ファイルにあるローカル優先のエージェント間メモリ。階層構造、エビングハウス型の忘却、過去の決定からのコード漂移の検出。"
+},
+{
+"line": 2770,
+"translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - Counsel API を通じた戦略的推論、多視点の議論分析、インタラクティブな助言セッション。"
+},
+{
+"line": 2771,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mlorentedev/hive) 🐍 🏠 🍎 🪟 🐧 - オンデマンドの Obsidian ボルトアクセス：適応的コンテキスト読み込み、全文・ランク付き検索、ヘルスチェック、自動 git コミット、より安価なモデルへの委任。"
+},
+{
+"line": 2772,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TheGoatPsy/mneme) 🐍 🏠 🍎 🪟 🐧 - Claude Code のためのボルトネイティブで責任あるメモリ：Markdown が真実源であり、Stop パスに LLM は存在せず、派生ストアの前に秘匿（redaction）を行う。"
+},
+{
+"line": 2773,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mnlt/wellread) 📇 ☁️ - エージェント間で共有される研究キャッシュ：検証済みソースの回答を再利用、または次の開発者のために新しい研究を保存。"
+},
+{
+"line": 2774,
+"translated": "- @@L0@@ 📇 🏠 - コンテキストを維持するための知識グラフベースの永続メモリ。"
+},
+{
+"line": 2775,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DuhoKim/NebulaMind) 🐍 ☁️ - AI エージェントによって書かれる協調的な天文学 Wiki。エージェントは公開 API を通じて登録、読み取り、編集、投票、コメントが可能。"
+},
+{
+"line": 2776,
+"translated": "- @@L0@@ 📇 ☁️ - 複数の開発者で共有されるワークスペースに根ざした知識グラフ。Azure Functions と Table ストレージでホスト。"
+},
+{
+"line": 2777,
+"translated": "- @@L0@@ 🏎️ 🏠 🍎 🪟 🐧 - 単一のバイナリとして提供される、ローカルで依存関係のないメモリサーバー。"
+},
+{
+"line": 2778,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@n24q02m/mnemo-mcp) 🐍 🏠 🍎 🪟 🐧 - SQLite ハイブリッド検索（FTS5 とセマンティック）、内蔵の Qwen3 埋め込み、マシン間の rclone 同期を持つ永続メモリ。"
+},
+{
+"line": 2779,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ndjordjevic/pinrag) 🐍 🏠 - PDF、YouTube 動画、GitHub リポジトリ、Discord エクスポートに対する RAG：文書をインデックスし、引用付きでクエリ。"
+},
+{
+"line": 2780,
+"translated": "- @@L0@@ 📇 🏠 ☁️ 🍎 🪟 🐧 - コーディングエージェントのための永続共有メモリ：事実をエンティティ/キー/値のトリプルとして保存。ハイブリッドセマンティック検索、タスクチェックポイント、競合解決。"
+},
+{
+"line": 2781,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NicolasPrimeau/artel) 🐍 🏠 🍎 🪟 🐧 - エージェント群のための自己ホスト型調整：共有セマンティックメモリ、タスク、エージェント間メッセージング、セッション引き継ぎ、エージェント間知識合成。"
+},
+{
+"line": 2782,
+"translated": "- @@L0@@ 🐍 🏠 - Markdown 文書を検索可能に：キーワード検索と任意の pgvector ハイブリッドセマンティック検索で SQLite または PostgreSQL に読み込む。"
+},
+{
+"line": 2783,
+"translated": "- @@L0@@ 🐍 🏠 🍎 🐧 - RAG のためのローカル FAISS ベクトルデータベース。文書取り込み（PDF、TXT、MD、DOCX）、セマンティック検索、再ランク、インデックス・クエリ用 CLI ツール。"
+},
+{
+"line": 2784,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nworks3d/THOR-memory-bible-for-AI) 🦀 🏠 🪟 🐧 - 機械検証可能な証明を持つルールが一致するコマンドをブロックするコーディングエージェントのローカルメモリ。さらに追記専用イベントログとプロジェクトごとのスコーピング。"
+},
+{
+"line": 2785,
+"translated": "- @@L0@@ 🏎️ ☁️ 🏠 🍎 🪟 🐧 - 任意の MediaWiki（Wikipedia、Fandom、企業 Wiki）に接続し、ページの検索・読み取り・編集、リンク解析、リビジョン履歴の表示、Markdown への変換。"
+},
+{
+"line": 2786,
+"translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - セマンティック検索、自動捕捉、セッションを越えた学習、知的な忘却を持つコーディングエージェントのためのローカル優先永続メモリ。"
+},
+{
+"line": 2787,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ontorata/ratary) 📇 🏠 ☁️ 🍎 🪟 🐧 - ハイブリッド検索、知識グラフ、トークン効率の良いコンテキストを持つ AI アシスタントのための永続コーディングメモリ。D1、Postgres、MariaDB、Docker で自己ホスト可能。"
+},
+{
+"line": 2788,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/oomkapwn/enquire-mcp) 📇 🏠 🍎 🪟 🐧 - ローカル Obsidian ボルトを背後に持つ長期エージェントメモリ：再ランク付きハイブリッド検索、エージェント RAG、ウィキリンクコミュニティ検出、Obsidian Bases、PDF OCR。"
+},
+{
+"line": 2789,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AgentBase1/mcp-server) 📇 ☁️ - AgentBase：エージェント命令ファイルの公開レジストリ。システムプロンプト、スキル、ワークフロー、ドメインパック、安全フィルターを検索・取得。"
+},
+{
+"line": 2790,
+"translated": "- @@L0@@ 🐍 ☁️ - Mendeley ライブラリを検索、フォルダを閲覧、文書メタデータを取得、グローバルカタログを検索、コレクションに論文を追加。"
+},
+{
+"line": 2791,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/paladini/mcp-me) 📇 🏠 🍎 🪟 🐧 - AI ツールのためのデジタルアイデンティティ：GitHub、Medium、Strava などの公開 API から自動生成される、ローカル YAML プロフィールの経歴、キャリア、スキル、プロジェクト。"
+},
+{
+"line": 2792,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Patdolitse/piia-engram) 🐍 🏠 🍎 🪟 🐧 - AI ツールを越えた永続的なユーザーアイデンティティ：ローカル JSON の好み、教訓、決定を、段階的検証、AES-256-GCM 暗号化、ツール間同期と共に。"
+},
+{
+"line": 2793,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pavelpilyak/devrecall) 🏎️ 🏠 🍎 🐧 - コミット、PR、Jira/Linear チケット、Confluence 文書、Slack スレッド、カレンダーイベントのローカル優先インデックス。過去の作業を検索・引用。"
+},
+{
+"line": 2794,
+"translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - セキュリティ強化された Google NotebookLM アクセス：セッションベースの会話、ノートブックライブラリ管理、ソースに基づく回答。ポスト量子暗号化付き。"
+},
+{
+"line": 2795,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pathrule/mcp) 📇 ☁️ - Pathrule ワークスペースからのコーディングエージェントのためのパススコープのチームメモリ、ルール、スキル。"
+},
+{
+"line": 2796,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/paultaki/ailooplibrary-mcp) 🐍 🏠 ☁️ - 限定されたエージェント作業ループの読み取り専用 AI Loop Library カタログ：目標に 1 つ選び、検証・停止条件・予算付きの実行プロトコルを生成。"
+},
+{
+"line": 2797,
+"translated": "- @@L0@@ 📇 🦀 🏠 🍎 🐧 🪟 - コーディングアシスタントのための累積メモリとパターン学習。セマンティックコードベース解析のためのローカル SQLite/SurrealDB ストレージ。"
+},
+{
+"line": 2798,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/penfieldlabs/penfield-mcp) 🐍 ☁️ 🐍 ☁️ - Penfield：ハイブリッド BM25/ベクトル/グラフ検索、型付きグラフ関係、コンテキストチェックポイント、アーティファクト保存、ペルソナリティシステムを持つ永続メモリ。"
+},
+{
+"line": 2799,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Piccolo123/url-manager-mcp) 📇 🐍 🏠 🍎 🪟 🐧 - エージェントが Web ページを保存し、検索・タグ・共有フォルダ付きのコレクションに自動分類するブックマークと知識マネージャー。"
+},
+{
+"line": 2800,
+"translated": "- @@L0@@ 🎖️ 🦀 ☁️ - Pinecone Assistant に接続し、その知識エンジンからコンテキストを取得。"
+},
+{
+"line": 2801,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pipeshub-ai/mcp-server) 📇 🏠 ☁️ - Google Workspace、Microsoft 365、Slack、Jira などのビジネスアプリに対する権限認識のエンタープライズ検索と RAG。"
+},
+{
+"line": 2802,
+"translated": "- @@L0@@ 🦀 🏠 🍎 🪟 🐧 - 組み込みデータベースとモデルを持つ単一の自己完結バイナリによる、永続的なセマンティック・グラフベースのエージェントメモリ。"
+},
+{
+"line": 2803,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ProfessionalWiki/MediaWiki-MCP-Server) 📇 ☁️ 🏠 🍎 🪟 🐧 - Wikipedia や Fandom を含む任意の MediaWiki を読み取り・検索・編集。マルチ Wiki サポートと Semantic MediaWiki、Cargo、Wikibase、NeoWiki クエリ。"
+},
+{
+"line": 2804,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Rarefied-Earth/groundwork) 📇 ☁️ - 小規模ビジネス運営のための企業状態：ブランド、声、憲章、優先事項、モジュール、スキル。"
+},
+{
+"line": 2805,
+"translated": "- @@L0@@ 📇 ☁️ - Google Drive、Notion、Jira などのソースに接続された Ragie 知識ベースからコンテキストを取得。"
+},
+{
+"line": 2806,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ravi-labs/mindmap-mcp-server) 📇 🏠 - グレースフルな減衰、ペルソナ層、ポータブルなメモリパスポートを持つ、AI ツール間のローカル優先メモリとコンテキスト引き継ぎ。"
+},
+{
+"line": 2807,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/remembra-ai/remembra) 🐍 📇 🏠 ☁️ 🍎 🪟 🐧 - エンティティ解決、PII 検出、保存時の AES-256-GCM 暗号化、ハイブリッド検索を持つ自己ホスト型永続エージェントメモリ。"
+},
+{
+"line": 2808,
+"translated": "- @@L0@@ 🏎️ 🏠 ☁️ 🍎 🪟 🐧 - LLM 駆動のコンテキストとメモリ管理：ベクトル・タイムライン・知識グラフ検索と再ランク付きの短期・長期メモリ。"
+},
+{
+"line": 2809,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/riponcm/projectmem) 🐍 🏠 🍎 🪟 🐧 - コーディングエージェントのためのローカル優先メモリ：問題、失敗した試み、修正、決定を記録し再注入、繰り返しのミスの前に git コミットで警告。"
+},
+{
+"line": 2810,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Skitchy/rekindle) 📇 🏠 🍎 🪟 🐧 - セッション継続：ギャップ検出とスコアリング付きのセッション開始レポート、構造化されたセッション終了捕捉、BM25 メモリ検索。ローカル SQLite に保存。"
+},
+{
+"line": 2811,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/roampal-ai/roampal-core) 🐍 🏠 - Claude Code と OpenCode のための結果ベースの永続メモリ：役立つメモリは昇格し、誤導するものは降格。"
+},
+{
+"line": 2812,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@roomi-fields/notebooklm-mcp) 📇 🏠 🍎 🪟 🐧 - Google NotebookLM を自動化：引用付き Q&A、オーディオポッドキャスト、ビデオ、コンテンツ生成、ソース管理、ノートブックライブラリ。"
+},
+{
+"line": 2813,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@rushikeshmore/codecortex) 📇 🏠 🍎 🪟 🐧 - コーディングエージェントのための永続コードベース知識：tree-sitter で抽出されたシンボル、依存グラフ、共変化パターン、アーキテクチャ決定。"
+},
+{
+"line": 2814,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rwnalds/engram) 📇 🏠 - git 支援で Obsidian 互換の Markdown セカンドブレイン（エージェント用）：検索は現行ノートを置き換え済みより上位にランク。エージェントごとのトークンと git 監査証跡。"
+},
+{
+"line": 2815,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/s60yucca/mnemos) 🏎️ 🏠 🍎 🪟 🐧 - アーキテクチャ決定、バグの根本原因、規約を保存するコーディングエージェントの永続メモリ。全文検索とトークン予算付きコンテキスト組み立て。"
+},
+{
+"line": 2816,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/seanmarkwei/agentram-mcp) 📇 ☁️ - 埋め込みなしの HTTP API 上のキー・バリューエージェントメモリ：共有名前空間と TTL でエージェント間にメモリを保存・取得・検索・共有。"
+},
+{
+"line": 2817,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SagaPeak/artifacta-mcp) 🎖️ 📇 🐍 ☁️ 🍎 🪟 🐧 - エージェント出力のためのアーティファクトストア：実行とセッションを越えて永続・取得・共有。コンテンツハッシュ重複排除と期限付き共有リンク。"
+},
+{
+"line": 2818,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SAIHM-Admin/saihm-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - COTI V2 メインネットに固定された暗号化永続エージェントメモリ：GDPR 第 17 条の消去を伴う覚え・想起・共有・忘却。"
+},
+{
+"line": 2819,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SAIHM-Admin/saihm-mcp-server-pro) 📇 ☁️ 🏠 🍎 🪟 🐧 - サーバーが暗号文しか見ないクライアント側暗号化エージェントメモリ。ポスト量子アイデンティティと共有、GDPR 消去のための暗号 shredding。"
+},
+{
+"line": 2820,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SaravananJaichandar/world-model-mcp) 🐍 🏠 🍎 🪟 🐧 - テスト失敗をコード変更に結びつける時間的コードベース知識グラフ。共編集パターンを学習、リグレッションリスクを予測、編集制約を強制。"
+},
+{
+"line": 2821,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sachitrafa/YourMemory) 🐍 🏠 🍎 🪟 🐧 - エビングハウス型の減衰、ハイブリッド BM25/ベクトル検索、マルチホップ推論のためのエンティティグラフ、自動剪定、ブラウザダッシュボードを持つ永続エージェントメモリ。"
+},
+{
+"line": 2822,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Schubeler-Consulting/knowmind) 📇 ☁️ - ドイツでホストされるエージェントメモリと知識グラフ：再ランク付きのハイブリッド BM25・ベクトル・Neo4j グラフ検索、型付き関係、両時間的ストア。"
+},
+{
+"line": 2823,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SecurityRonin/alaya) 🦀 🏠 🍎 🪟 🐧 - エピソードを保存し、時間をかけて知識を統合し、セマンティック検索を持つ個人的な知識グラフを構築する神経科学に着想を得たローカルエージェントメモリ。"
+},
+{
+"line": 2824,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SecurityRonin/docx-mcp) 🐍 🏠 🍎 🪟 🐧 - 追跡された変更、スレッドコメント、脚注、OOXML レベルの検証、文書監査付きで Word（.docx）文書を読み書き。"
+},
+{
+"line": 2825,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/setheerwagen/local-ai-mcp-servers) 🐍 🏠 - ローカルモデルマシンの管理：Ollama モデルの取得と削除、モデル間の推論サービス切り替え、LoRA ファインチューニングジョブの実行。"
+},
+{
+"line": 2826,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sheawinkler/context-lattice) 🏠 🍎 🪟 🐧 🦀 🏎️ - 既定プライベートなエージェントのメモリとコンテキスト層。統合されたデータバックエンドでの段階的検索と長期間のコンテキスト継続。"
+},
+{
+"line": 2827,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/writerslogic/scrivener-mcp) 📇 🏠 🍎 🪟 🐧 - Scrivener 3 執筆プロジェクトを操作：文書管理、執筆分析、セマンティック検索、キャラクターとプロットの記憶、コンテンツ強化。"
+},
+{
+"line": 2828,
+"translated": "- @@L0@@ 📇 🏠 - ローカル文書検索：LanceDB ベクトルストレージとローカル埋め込みによる PDF、DOCX、TXT、Markdown ファイルのセマンティック検索。"
+},
+{
+"line": 2829,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ShipItAndPray/mcp-memory) 📇 🏠 🍎 🪟 🐧 - 指数減衰を持つ SQLite ベースのメモリ：アクセスで強化され未使用で薄れ、無制限のコンテキスト増大を抑制。"
+},
+{
+"line": 2830,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sgx-labs/statelessagent) 🏎️ 🏠 🍎 🪟 🐧 - 出所追跡がありソースの変更を検出するローカルエージェントメモリ。さらにセッション引き継ぎ、決定記録、セマンティック検索、知識グラフ。"
+},
+{
+"line": 2831,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/l33tdawg/s-age) 🏎️ 🏠 🍎 🪟 🐧 - 検証者間の BFT 合意が各メモリのコミット前に承認する、エージェントのためのローカル制度メモリ。"
+},
+{
+"line": 2832,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/laradji/deadzone) 🏎️ 🏠 🍎 🐧 - 初回起動時に取得・検証される事前構築でバージョン固定のベクトルインデックスを用いた、ライブラリ文書に対するオフラインセマンティック検索。"
+},
+{
+"line": 2833,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/leonardsellem/hypermnesic) 🐍 ☁️ 🏠 🍎 🪟 🐧 - git ファーストなエージェントメモリ：Markdown ファイルが真実源、インデックスは使い捨て、書き込みはレビュー可能なコミット。ハイブリッド検索と CLI。"
+},
+{
+"line": 2834,
+"translated": "- @@L0@@ 🐍 🏠 - MemDocs と先回り能力を持つローカル優先永続メモリによる 5 段階の AI コラボレーションシステム。"
+},
+{
+"line": 2835,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rps321321/obsidian-mcp-pro) 📇 🏠 🍎 🪟 🐧 - Obsidian ボルトアクセス：全文検索、ノート CRUD、フロントマタークエリ、タグ、バックリンク、グラフ走査、孤立・リンク切れ検出、キャンバス対応。"
+},
+{
+"line": 2836,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Semiotronika/LINZA-MCP) 🐍 🏠 🍎 🪟 🐧 - Markdown ワークスペースのレビューゲート付きサイドカー：ノートを SQLite にインデックスし、証拠付きでリンク・ドメイン・メモリを提案。レビュー後のみファイルを編集。"
+},
+{
+"line": 2837,
+"translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - SSE 経由のリモート Obsidian ボルト管理：ノート、ディレクトリ、フロントマター、タグ、検索、リンク操作。Docker でデプロイ可能。"
+},
+{
+"line": 2838,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yusufkaraaslan/Skill_Seekers) 🐍 🏠 🍎 🪟 🐧 - 文書、GitHub リポジトリ、PDF、動画、Confluence、Notion、Slack/Discord を AI スキルと RAG 知識に変換。Qdrant などのベクトルデータベースにエクスポート可能。"
+},
+{
+"line": 2839,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/stevepridemore/graph-memory) 📇 🏠 ☁️ 🍎 🪟 🐧 - Neo4j 上の Claude のための個人知識グラフ。型付きエンティティ、両時間的エッジ、重み付き減衰、矛盾検出、ローカル埋め込み。"
+},
+{
+"line": 2840,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SubDownload/subdownload-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - YouTube 知識ベース：動画の要約、トランスクリプトの取得（字幕なしでも）、チャンネルとプレイリストの検索、結果の保存によるセッションを越えた想起。"
+},
+{
+"line": 2841,
+"translated": "- @@L0@@ 📇 ☁️ - Biel.ai の RAG システムを用いて製品文書から質問に回答。"
+},
+{
+"line": 2842,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/The-40-Thieves/obsidian-tc) 📇 🦀 🏠 🍎 🪟 🐧 - ロールベースのアクセス制御、ネイティブ検索、マルチボルト対応、プラガブルな埋め込み、SLSA 証跡を持つ Obsidian ボルトアクセス。"
+},
+{
+"line": 2843,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/threadctx-dev/threadctx-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - コーディングエージェントのためのローカル優先の共有チームメモリ：決定、修正、落とし穴はリポジトリごとに永続し、チームメイトのエージェント間で共有。"
+},
+{
+"line": 2844,
+"translated": "- @@L0@@ 🏎️ 🏠 🍎 🪟 🐧 - sqlite-vec と multilingual-e5-small 埋め込みを用いた、Markdown 文書に対するセマンティックベクトル検索のローカル RAG。ディレクトリとファイル名でフィルタ可能。"
+},
+{
+"line": 2845,
+"translated": "- @@L0@@ 📇 🏠 - グラフとベクトルストアを用い、多くのデータソースからの取り込みを持つ AI アプリとエージェントのためのメモリマネージャー。"
+},
+{
+"line": 2846,
+"translated": "- @@L0@@ 📇 ☁️ - コンテキスト分岐、ホログラフィック想起、夢の統合、オンチェーン永続を持つ 7 層の再帰的エージェントメモリ。"
+},
+{
+"line": 2847,
+"translated": "- @@L0@@ 🐍 🏠 - ポータブルでプライバシー優先の AI アイデンティティ：プロフィール管理、スキル、履歴書インポート、チーム同期を持つエージェントのホームディレクトリ。"
+},
+{
+"line": 2848,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@tstockham96/engram) 📇 🏠 🍎 🪟 🐧 - セマンティック想起、自動統合、矛盾検出、両時間的知識グラフを持つエージェントメモリ。"
+},
+{
+"line": 2849,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@teampolarity/cosmos-mcp) 📇 ☁️ 🏠 🍎 - iMessage、ブラウザ履歴、カレンダー、シェル履歴、Notion、Obsidian などのソースを持つ、AI クライアント間で共有されるポータブルな個人知識グラフ。"
+},
+{
+"line": 2850,
+"translated": "- @@L0@@ 🐍 🏠 - AI エージェントのための永続アイデンティティ：ドライブ、関係性、減衰付きセマンティックメモリ、作業スレッド、学習済みパターン、ジャーナリング、予測のためのサーバー。"
+},
+{
+"line": 2851,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TT-Wang/cortex-plugin) 🐍 🏠 🍎 🐧 - 過去のセッションから決定・規約・バグ修正を掘り起こし、Obsidian ボルトに保存し、新セッションにブリーフィングする Claude Code メモリプラグイン。"
+},
+{
+"line": 2852,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TyKolt/kremis) 🦀 🏠 🍎 🪟 🐧 - LLM や埋め込み呼び出しなしの redb 上のローカル決定論的知識グラフ。BLAKE3 状態ハッシュとバイト同一の監査のための正規エクスポート。"
+},
+{
+"line": 2853,
+"translated": "- @@L0@@ 📇 ☁️ - Membase で分散方式でエージェントメモリを保存・クエリ。"
+},
+{
+"line": 2854,
+"translated": "- @@L0@@ 📇 ☁️ - LLM と AI コードエディタのための最新のコード文書。"
+},
+{
+"line": 2855,
+"translated": "- @@L0@@ 🦀 🏠 - ヘブの学習、3 層アーキテクチャ、知識グラフを持ち、エッジデバイスでオフライン動作する認知エージェントメモリ。"
+},
+{
+"line": 2856,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vbcherepanov/total-agent-memory) 🐍 🏠 🍎 🪟 🐧 - コーディングエージェントのためのローカルメモリ：事実の無効化、手続き・エピソードメモリ、AST コードベース取り込み、プロジェクト間類推を持つ時間的知識グラフ。"
+},
+{
+"line": 2857,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/samvallad33/vestige) 🦀 🏠 🍎 🪟 🐧 - FSRS-6 スケジューリング、スマート取り込み、SQLite 保存、ポータブル同期、組み込みダッシュボード、任意のフックを持つローカル優先の認知エージェントメモリ。"
+},
+{
+"line": 2858,
+"translated": "- @@L0@@ 🐍 ☁️ 🏠 - Hindsight：人間の記憶をモデルにした AI エージェントのための長期記憶。"
+},
+{
+"line": 2859,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vishnu-77/openreflex) 🐍 🏠 🍎 🪟 🐧 - コーディングエージェントのためのローカル実行メモリ：類似タスク前にうまくいったことと既知の修正を注入し、継続・転換・停止を助言。"
+},
+{
+"line": 2860,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vornicx/Midas) 🐍 📇 🏠 🍎 🪟 🐧 - ローカル優先の長期間エージェントメモリ：出所追跡可能な想起、信念修正、選択的忘却、メモリ駆動の破壊的アクションに対するガード。"
+},
+{
+"line": 2861,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Abhigyan-Shekhar/Waggle-mcp) 🐍 🏠 🍎 🪟 🐧 - 会話から事実をローカル埋め込み付きの型付きノードに抽出する永続グラフメモリ。時間クエリと競合検出をサポート。"
+},
+{
+"line": 2862,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/whynowlab/jarvis-orb) 🐍 🏠 - 時間スコアリング、矛盾検出、エンティティ追跡、デスクトップ可視化オーブを持つ 4 層メモリ（エピソード、セマンティック、プロジェクト、手続き）。"
+},
+{
+"line": 2863,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wnbhr/being) 📇 ☁️ - エージェントのためのパーソナリティランタイム：AI クライアント間で引き継がれる永続メモリ、アイデンティティ（SOUL）、関係性。"
+},
+{
+"line": 2864,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Wuesteon/lean-memory) 🐍 🏠 🍎 🪟 🐧 - 名前空間ごとに 1 つの SQLite ファイルにある組み込みローカルエージェントメモリ：ハイブリッド検索、任意の過去時点でクエリ可能な追記専用履歴、人間レビュー付き保守。"
+},
+{
+"line": 2865,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TheStack-ai/waypath) 📇 🏠 - コーディングエージェントのためのローカル優先メモリ CLI：SQLite 支援のコンテキスト、FTS5 と RRF によるグラフ認識想起、昇格・レビューゲート付きの管理メモリ。"
+},
+{
+"line": 2866,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zzhang82/Agent-Memory-Bridge) 🐍 🏠 - コーディングセッションを再利用可能なエンジニアリングメモリ（決定、落とし穴、ドメイン知識）に変えるコーディングエージェントのローカル優先メモリ。"
+},
+{
+"line": 2867,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/teolex2020-aurasdk) 🐍 🏠 - オフラインで動作する永続的で暗号化された認知メモリ。"
+},
+{
+"line": 2868,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@arthurpanhku/arthor-agent) 🐍 🏠 ☁️ - 文書、アンケート、レポートのサイバーセキュリティ評価：マルチフォーマット解析、RAG 知識ベース、リスク、コンプライアンスの隙間、是正策。"
+},
+{
+"line": 2869,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Wynelson94/longhand) 🐍 🏠 🍎 🪟 🐧 - Claude Code のための永続ローカルメモリ：全セッションを逐語的に SQLite と ChromaDB にインデックスし、履歴全体でセマンティック検索。API 呼び出しなし。"
+},
+{
+"line": 2870,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yubinkim444/repo-memory) 🐍 🏠 🍎 🪟 🐧 - 同一コードベース上の AI エージェントのための共有・git 追跡メモリ：事実・決定・落とし穴をコミットされたリポジトリディレクトリに保存し、git で同期。"
+},
+{
+"line": 2871,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/agentcivics/agentcivics) 📇 ☁️ 🏠 🍎 🪟 🐧 - Sui 上の AI エージェントのための分散型市民登録：ソウルバウンドアイデンティティ、オンチェーンメモリ、評判、拒否記録。"
+},
+{
+"line": 2872,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/STiFLeR7/memex) 🐍 🏠 🍎 🪟 🐧 - git リポジトリを監視し、Graphiti と Neo4j を通じてモジュール・シンボル・決定・未解決問題の時間的知識グラフを構築。AI コーディングエージェントに提供。"
+},
+{
+"line": 2873,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/xChuCx/agent-memory) 🏎️ 🏠 🍎 🪟 🐧 - コーディングエージェントのための git ネイティブなプロジェクトメモリ：リポジトリ内の Markdown、レビュー可能なステージ済み更新、シークレット/PII 安全、ブランチ認識。クラウドやベクトル DB 不要。"
+},
+{
+"line": 2874,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/XuebinMa/AIWiki) 📇 ☁️ 🍎 🪟 🐧 - AI コーディングの落とし穴と LLM プライバシー保護に関する英中バイリンガル百科事典 AiWiki を検索・読み取り。引用付き証拠。"
+},
+{
+"line": 2875,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zzallirog/weighted-compact) 🐍 🏠 - Claude Code のための検査可能なメモリ：ローカルのシグナルスコア付きプロジェクトログ解析に対する読み取り専用検索とセッションコンパクション。外部呼び出しなし。"
+},
+{
+"line": 2876,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tribal-memory/tribal) 🦀 🏠 - エンジニアリングチームの暗黙知のための自己ホスト型セマンティックメモリ：コードの背後にある決定とその理由をチームとそのエージェントがクエリ可能。"
+},
+{
+"line": 2877,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SVerITG/Metis) 🐍 🏠 🍎 🪟 🐧 - プライベートなローカル研究セカンドブレイン：プロジェクト認識メモリ、ライブラリからの引用付き回答、リンク付きノートと会議、日次ブリーフィング、会議アシスタント。"
+},
+{
+"line": 2878,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/syndicalt/zaxy) 🐍 🏠 🍎 🪟 🐧 - ハッシュチェーンログ上のイベントソースエージェントメモリ。組み込み Kuzu 時間的知識グラフ、顕著性ベースの忘却、レビューゲート付き統合。"
+},
+{
+"line": 2879,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mnemoverse/mcp-memory-server) 📇 ☁️ - 学習し忘れるホステッドメモリ：フィードバックが有用なメモリを再ランク、想起は新鮮度で薄れ、類似メモリは統合。"
+},
+{
+"line": 2880,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zcag/tela) 🏎️ 🏠 ☁️ - エージェントが検索・読み取り・書き込みできる自己ホスト可能な Markdown チーム Wiki。さらに git リポジトリと Jira から引用付き Wiki を生成する Atlas。"
+},
+{
+"line": 2881,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zuneracodes/localkeep) 🐍 🏠 🍎 🪟 🐧 - ローカル優先の時系列メモリ：ローカル UI で日付付きの編集可能なメモリバンクを書き込み、Claude は SQLite FTS5 でオンデマンドに想起。"
+},
+{
+"line": 2882,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/VonderVuflya/Yggdrasil) 🐍 🏠 🍎 🪟 🐧 - SQLite/FTS5 上の AI コーディングエージェントのためのローカル優先メモリ。キュレーションされ意味的に重複排除、データはあなたが所有する平易な行として保存。"
+},
+{
+"line": 2883,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/teflon07/memkeeper) 🦀 🏠 🍎 🐧 - 1 つの SQLite ファイルにある AI エージェントのためのローカル優先メモリ：再ランク付きハイブリッド BM25 とオンデバイス埋め込み検索。誤ったメモリを返す代わりに検索を控える。"
+},
+{
+"line": 2884,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yamantaka520/Agent-Memory-OS) 🐍 🏠 🍎 🪟 🐧 - AI エージェントチームのためのローカル優先メモリ：プライベート・チーム・プロジェクトのアクセス制御、連想想起、失効付きの連邦同期、Web コンソール。"
+},
+{
+"line": 2885,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ohad6k/emulo) 🐍 🏠 - ローカルの Claude Code、Codex、OpenCode ログから掘り起こした個人プロフィールを読み込み、エージェントがあなたと同じように働くように。"
+},
+{
+"line": 2886,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ctxfile/ctxfile) 📇 🏠 🍎 🪟 🐧 - プロジェクトの作業状態（ファイル、git、計画、決定）を 1 つのコンテキストオブジェクトにスナップショットし、セッションをエージェント間で移動可能に。ローカルかつ読み取り専用。"
+},
+{
+"line": 2887,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atakanelik34/Bilinc) 🐍 ☁️ 🍎 🪟 🐧 - 監査証跡を持つホステッドエージェントメモリ：書き込みは出所を持ち、矛盾は検査可能な変更として浮上し、不正な実行はスナップショットから回復。"
+},
+{
+"line": 2888,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yaminbkk/NexusMem) 📇 🏠 🪟 🐧 - 失敗したシェルコマンドとその終了コードを、後にそれを修正したものと相関付け（git diff と文書と共に）ローカルの SQLite に保存。"
+},
+{
+"line": 2889,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tenequm/pond) 🦀 🏠 🍎 🐧 - クライアントを越えた AI エージェントセッションのロスレスアーカイブと検索。"
+},
+{
+"line": 2890,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kaaustubh/project-memory-mcp) 📇 🏠 - プレーンのリポジトリファイル（AGENTS.md、issues.jsonl）にあるコーディングエージェントの永続メモリ：バグ・修正・決定・訂正を捕捉し後で想起。"
+},
+{
+"line": 2891,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/drexthealpha/Knos) 🐍 🏠 🍎 🪟 🐧 - セッション、コミット、CLAUDE.md/AGENTS.md、ADR から構築されるマシン上の全コーディングエージェントで共有されるローカルメモリ。進行中の作業をロックするクレーム付き。"
+},
+{
+"line": 2893,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yuelinghuashu/story-cli) 📇 🏠 🍎 🪟 🐧 - git ネイティブな Markdown コンテンツ CLI：ストーリー・論文・ノートリポジトリの検索・読み取り・書き込み・管理、README 生成、EPUB エクスポート、学習データ準備。"
+},
+{
+"line": 2894,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/wikijs-mcp) 📇 🏠 🍎 🪟 🐧 - 自己ホスト型 Wiki.js 2.x の検索・読み取り・編集（アセット、コメント、ユーザー、グループを含む）。全文 grep、上書き保護、読み取り専用モード。"
+},
+{
+"line": 2895,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dfrancislyondflabc-tech/agentic-recall) 📇 🏠 🍎 🪟 🐧 - Markdown ファイルのフォルダに対する長期メモリ：回答が存在しないときに報告するローカルハイブリッド検索（BM25F、密ベクトル、フレーズ近接）。"
+},
+{
+"line": 2897,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vishalbanwari26/mnemos) 🐍 🏠 - 切り替え可能な Postgres/pgvector、Qdrant、Neo4j バックエンド、適応的検索重み付け、重複統合、陳腐事実のアーカイブを持つ永続メモリ。"
+},
+{
+"line": 2898,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pjpoulose/PIL) 📇 🏠 🐍 🍎 🪟 🐧 - Instagram の保存投稿をローカルで検索可能な知識ベースに変換。AI 抽出の要約、要点、ハウツー、リンク、タグを SQLite に。"
+},
+{
+"line": 2899,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Mnemosyne-OS/Mnemosyne-Neural-OS) 🎖️ 📇 🏠 🍎 🪟 🐧 - ハイブリッド検索を持つローカルのドメイン分離ボルトにおける人間管理メモリ。他のコーディングエージェントの出力も読み取り。Mnemosyne OS デスクトップアプリが必要。"
+},
+{
+"line": 2900,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/liza-studio/skillmem) 🐍 🏠 🍎 🪟 🐧 - コーディングエージェントのための自己改善するスキルメモリ：有用なスキルは強化され未使用のものは薄れる。ローカルの英露ハイブリッド検索、改ざん検知履歴。"
+},
+{
+"line": 2901,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zensation-ai/zenbrain) 📇 🏠 🍎 🪟 🐧 - 入力を事実・エピソード・手続きに振り分け、全層を検索し、繰り返されるエピソードを事実に統合する 7 層のローカルエージェントメモリ。"
+},
+{
+"line": 2902,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dat999zx/knowl) 📇 🏠 🍎 🪟 🐧 - コーディングエージェントのためのローカル永続メモリ。書き込み時に置き換えられた事実を破棄するため、エージェントは現在の回答を読む。事実は出所付きで型付けされる。"
+},
+{
+"line": 2904,
+"translated": "### ⚖️ <a name=\"legal\"></a>法律"
+},
+{
+"line": 2905,
+"translated": "法的情報、法令、法律データベースへのアクセス。AI モデルが法的文書や規制情報を検索・分析できるようにする。"
+},
+{
+"line": 2906,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ad0750/regintel-mcp) 🐍 ☁️ - RegIntel API（GDPR、MiCA、DORA、SEC、FINRA、FCA 等）からの構造化された規制データ：検索、参照、最近の更新、コンプライアンスチェック。"
+},
+{
+"line": 2907,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Angelthebestone/Normativa-colombiana-MCP) 📇 🏠 - Gestor Normativo、SUIN-Juriscol、憲法裁判所、最高裁判所、国務評議会、DIAN Normograma からのコロンビアの法律と判例。"
+},
+{
+"line": 2908,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@ark-forge/mcp-eu-ai-act) 📇 ☁️ - AI コードベースの規制違反を検出する EU AI 法コンプライアンススキャナ。リスク分類と是正ガイダンス。"
+},
+{
+"line": 2909,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-sudact) 🐍 ☁️ - Sudact からのロシアの裁判実務：条項・裁判所・審級・日付で事件を検索し、決定文を全文読み取り。"
+},
+{
+"line": 2910,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-fssp) 🐍 ☁️ - ロシアの債務者向けの FSSP 強制執行手続の検索とコンプライアンスチェック。"
+},
+{
+"line": 2911,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-zakupki) 🐍 ☁️ - zakupki.gov.ru でロシアの公的調達の入札と契約を検索。"
+},
+{
+"line": 2912,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aydincan/turk-hukuku-mevzuat-mcp) 🐍 ☁️ - mevzuat.gov.tr からのトルコの法令をライブ取得：法律と条項番号ごとの現行条文、検証リンク付き。"
+},
+{
+"line": 2913,
+"translated": "- @@L0@@ 🐍 ☁️ - AI 法、GDPR、DORA の規制コンプライアンス。条項レベルの引用付き。"
+},
+{
+"line": 2914,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ChangkeunJ/australian-law-mcp) 📇 ☁️ - Federal Register of Legislation からのオーストラリア連邦法：1901 年以降の任意の日付時点の法律を読み取り、日付を比較、成文法の引用を検証。"
+},
+{
+"line": 2915,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cm2489/oravan) 📇 ☁️ - 超党派の米国議会データ：英語とスペイン語の平易な法案要約、ZIP コードによる議員検索、進行中法案の緊急度ランキング。"
+},
+{
+"line": 2916,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/djtellado/nexus-legal-mcp) 📇 ☁️ - スペイン・ラテンアメリカ・欧州法のための法的分析（ISO 31000）：起草、監査、判例、租税ドクトリン、国境を越えた比較。"
+},
+{
+"line": 2917,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/edithatogo/fyi-cli) 🦀 🏠 🪟 - Alaveteli サイト（FYI.org.nz、WhatDoTheyKnow、RightToKnow）の情報公開請求トラッカー：請求、当局、往来、オフライン同期。"
+},
+{
+"line": 2918,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forgemeshlabs/gov-transparency-mcp) 📇 ☁️ - 米国政府データからの議会株式取引、連邦契約、キャンペーン資金、ロビー活動、新規規制。Base 上の x402 USDC による呼び出しごとの課金。"
+},
+{
+"line": 2919,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gavelin-ai/mcp) 📇 ☁️ - 米国州議会データ：発言者付き公聴会議事録、法案、投票、AI 生成レポート。"
+},
+{
+"line": 2920,
+"translated": "- @@L0@@ 📇 ☁️ - 米国の法令にアクセス。"
+},
+{
+"line": 2921,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Lex-API/lexapi-mcp) 📇 ☁️ - EUR-Lex を通じた EU 法研究：構造化検索、CELEX 番号での文書取得、最近の官報、引用グラフ、セマンティック検索。"
+},
+{
+"line": 2922,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/librejustice/librejustice) 🎖️ 🦀 🐍 🏠 ☁️ - 時点の統合された法条文に結びついたフランスおよび欧州の判例（国務院、破棄院、ECHR、CJEU 等）。ハイブリッド検索。"
+},
+{
+"line": 2923,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lmaniraruta/license-verify-mcp) 📇 ☁️ - 米国の請負業者のライセンス、surety bond、保険を州のデータ（ワシントン L&I、カリフォルニア CSLB）から検証。"
+},
+{
+"line": 2924,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mambalabsdev/mcp-legal-entity-resolver) 📇 ☁️ - 企業ドメインをその登録された法人に解決：法人名、会社番号、管轄、ステータス、LEI、VAT 番号。"
+},
+{
+"line": 2925,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/meridian-silkdev/meridian-mcp) 📇 ☁️ 🍎 🪟 🐧 - 会社設立やビザなどのスタートアップ創業者サービス：サービスの閲覧、リクエストの作成と追跡、支払の検証、会議のスケジュール。"
+},
+{
+"line": 2926,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NexusFeed/nexusfeed-mcp) 🐍 ☁️ - 米国の酒類ライセンス検索（CA、TX、NY、FL）：商号・所有者・ライセンス番号で検索し、ステータス・有効期限・住所を州ポータルで検証。"
+},
+{
+"line": 2927,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/open-agreements/open-agreements) 📇 🏠 ☁️ 🍎 🐧 🪟 - 標準的な法的合意テンプレート（NDA、SAFE、NVCA 文書、雇用、クラウド規約）に記入し、署名可能な DOCX ファイルを生成。"
+},
+{
+"line": 2928,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Pactlio-ai/pactlio-mcp) 📇 ☁️ - 契約ツール：契約タイプと管轄ごとの法条引用要件、米国の競業避止の执行力、契約起草、リスク分析。"
+},
+{
+"line": 2929,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Patent-PreCheck/patent-precheck-mcp) 📇 ☁️ - コードの特許性事前チェック：USPTO の適格性・新規性・非自明性・文書化のスコア、さらに出願準備状況と先行技術シグナル。"
+},
+{
+"line": 2930,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/philrox/ris-mcp-ts) 📇 ☁️ - RIS（Rechtsinformationssystem）API を通じたオーストリアの連邦・州法、裁判決定、法的文書へのアクセス。"
+},
+{
+"line": 2931,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PolicyForge/mcp) 📇 ☁️ - コードベースから法的ポリシー（プライバシー、規約、クッキー、EULA、返金）を生成・監査・維持。コードとポリシー間の隙間と漂移をフラグ。"
+},
+{
+"line": 2932,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ptrinh/finalnotice-mcp) 📇 ☁️ - 多くの管轄と言語に対して、一致する封筒付きの地域化された債権回収催告状を PDF として生成。"
+},
+{
+"line": 2933,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sebastianfoerste/eu-reg-mcp) 🐍 🏠 - ESMA MiCAR レジスタの検索・要約・変更追跡（週次スナップショット）。さらに MiCAR ホワイトペーパーの lint、EU AI 法リスク層分類。"
+},
+{
+"line": 2934,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SFHAJJI/lex) ☁️ - Legilux と EUR-Lex からの時点のルクセンブルク法および EU 法：読み取り専用検索、時点取得、条項履歴、差分、タイムライン、引用。"
+},
+{
+"line": 2935,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smilemin07/korean-rnd-regs-mcp) 🐍 🏠 - 韓国の国家 R&D 規制を検索・レビューし、国家法令データベースからの引用付きで現行規定を返す。"
+},
+{
+"line": 2936,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smythmyke/patent-search-mcp-server) 📇 ☁️ - 特許研究と先行技術検索：ドシエ、USPTO 審査履歴、オフィスアクション分析、ブールクエリ、引用グラフ、CPC 検索。"
+},
+{
+"line": 2937,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Vaquill-AI/canlii-mcp) 📇 ☁️ - CanLII を通じたカナダの判例と法令のメタデータ。"
+},
+{
+"line": 2938,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ilyautov/sbis-mcp-ru) 🐍 🏠 🍎 🪟 🐧 - SBIS（Saby）API：文書とワークフロー段階、電子署名、証明書、従業員、組織。読み取り/書き込み/破壊的の安全ゲート付き。"
+},
+{
+"line": 2939,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ilyautov/diadoc-mcp-ru) 🐍 🏠 🍎 🪟 🐧 - Kontur Diadoc API：法的効力のある文書交換、署名、取引先、機械可読な委任状、文書フロー状態。安全ゲート付き。"
+},
+{
+"line": 2940,
+"translated": "### 🗺️ <a name=\"location-services\"></a>位置情報サービス"
+},
+{
+"line": 2942,
+"translated": "位置情報ベースのサービスと地図ツール。AI モデルが地理データ、天気情報、位置情報分析を扱えるようにする。"
+},
+{
+"line": 2944,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HasData/yellowpages-mcp) 📇 ☁️ - カテゴリと場所による Yellow Pages の地元企業検索。サービス・ブランド・支払方法を含む完全なリスト。"
+},
+{
+"line": 2945,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HasData/yelp-mcp) 📇 ☁️ - カテゴリと場所による Yelp の企業検索、場所の詳細、ソートと星フィルタ付きの完全なレビュー。"
+},
+{
+"line": 2946,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/qinisolabs/floodwise) 📇 🏠 - Environment Agency のオープンデータからの郵便番号別のイングランドの長期洪水リスク帯。"
+},
+{
+"line": 2947,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/APOGEOAPI/apogeoapi-mcp) 📇 ☁️ - 地理データとライブ為替レート：国、州、都市、IP 位置情報、通貨レート。"
+},
+{
+"line": 2948,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atlasfetch-dev/atlasfetch-mcp) 📇 ☁️ - 座標を国・地域・自治体に逆ジオコード（ISO 3166 コード付き）、自身の GeoJSON ジオフェンスと照合。"
+},
+{
+"line": 2949,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bamwor-dev/bamwor-mcp-server) 📇 ☁️ - Bamwor API からの世界地理データ：人口・座標・タイムゾーン付きの国の統計と都市。"
+},
+{
+"line": 2950,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/baphometnxg/aloha-fyi-mcp) 📇 ☁️ - ハワイ観光：Viator、GetYourGuide、Klook、Groupon からの予約可能なツアー。さらにオアフ、マウイ、ハワイ島、カウアイの会場のイベント。"
+},
+{
+"line": 2951,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/geovicco-dev/bhoonidhi-mcp) 🐍 ☁️ - ISRO の Bhoonidhi（NRSC）地球観測ポータルからの衛星シーンの検索・保存・ダウンロードを自然言語で。"
+},
+{
+"line": 2952,
+"translated": "- @@L0@@ 🐍 ☁️ - IPinfo API を使った IP アドレスの位置情報とネットワーク情報。"
+},
+{
+"line": 2953,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/chuofringer/placeroot) 🐍 🏠 🍎 🪟 🐧 - Overture Maps のオープンデータ：場所、ジオコーディング、行政検索、建物、ルーティング、等時線。公開 GeoParquet リリースから DuckDB でクエリ。"
+},
+{
+"line": 2954,
+"translated": "- @@L0@@ 📇 ☁️ - フランスのコミューンと cadastral（地籍）区画を名前と面積で探索。"
+},
+{
+"line": 2955,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cturkieh/france-data-mcp) 📇 ☁️ 🏠 - フランスの公的レジストリを相互参照：FINESS 医療施設、RPPS 医療従事者、INSEE 企業、IGN ジオコーディング。"
+},
+{
+"line": 2956,
+"translated": "- @@L0@@ 🐍 ☁️ - WeatherAPI.com を通じた任意の場所のリアルタイム天気予報と現在の状況。"
+},
+{
+"line": 2957,
+"translated": "- @@L0@@ 📇 ☁️ - 世界中の地元企業を検索。信頼スコアとエージェントの信頼ランキング付き。"
+},
+{
+"line": 2958,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Flightmussy/castlemap-mcp) 📇 ☁️ 🏠 - オープンな Wikidata ベースの Castlemap データセットから世界中の城・要塞・宮殿（座標、創設日、知名度、Wikipedia 要約）をクエリ。"
+},
+{
+"line": 2959,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Flightmussy/filmmap-mcp) 📇 ☁️ 🏠 - 映画・シリーズ・ゲーム・アニメの撮影場所：作品がどこで撮影されたか、ある場所で何が撮られたか、近くに何があるか。オープンな Wikidata ベースのデータから。"
+},
+{
+"line": 2960,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Vortx-AI/emem) 🦀 ☁️ - 場所に関する質問のための引用可能なレシート付き署名済み地理空間事実：標高、土地被覆、表水、植生、構築物地域。"
+},
+{
+"line": 2961,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/markpdxt/dronelytics-mcp) 📇 ☁️ - 米国ドローン空域チェックとミッション計画：FAA 空域制限、測量飛行計画、Part 107 準拠、飛行前ブリーフィング、KML/GPX エクスポート。"
+},
+{
+"line": 2962,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gaopengbin/cesium-mcp) 📇 🏠 🍎 🪟 🐧 - CesiumJS の 3D 地球を制御：カメラ飛行、GeoJSON と 3D Tiles レイヤー、マーカー、空間解析、ヒートマップ。"
+},
+{
+"line": 2963,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/GeiserX/pumperly-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - Pumperly 燃料価格比較：ガソリンスタンド価格のクエリ、燃費効率の良いルート計画、近くの EV 充電ステーション検索。"
+},
+{
+"line": 2964,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/geolens-io/geolens) 🎖️ 🐍 🏠 - 自己ホスト型 GeoLens 地理空間カタログへの読み取り専用アクセス：データセット検索、スキーマ、GeoJSON フィーチャー、保存マップ、PostGIS 上のサンドボックス SQL。"
+},
+{
+"line": 2965,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/geowire/geowire) 📇 🏠 🍎 🪟 🐧 - マルチプロバイダの位置情報ゲートウェイ（OpenStreetMap、Google、Yelp、Foursquare、Naver 等）：場所検索、ジオコーディング、経路、等時線、地域分析。"
+},
+{
+"line": 2966,
+"translated": "- @@L0@@ 🐍 ☁️ - IP2Location.io API を通じた IP アドレスの位置情報、プロキシ、ネットワーク情報。"
+},
+{
+"line": 2967,
+"translated": "- @@L0@@ 🐍 ☁️ - IP Find API を使った IP アドレスの位置情報。"
+},
+{
+"line": 2968,
+"translated": "- @@L0@@ 🐍 📇 ☁️ - Aiwen を通じた IP 位置情報：IP アドレスの国・地域・都市・座標・ISP・所有者。"
+},
+{
+"line": 2969,
+"translated": "- @@L0@@ 🎖️ 📇 🏠 - IP 位置情報とネットワーク情報の検索、プロキシと VPN の検出、IPLocate.io を使った虐待連絡先の発見。"
+},
+{
+"line": 2970,
+"translated": "- @@L0@@ 🐍 ☁️ - Open-Meteo API から天気情報を取得。"
+},
+{
+"line": 2971,
+"translated": "- @@L0@@ 🐍 🏠 - OpenStreetMap の位置情報サービスと地理空間データ。"
+},
+{
+"line": 2972,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Knight60/ArcGIS-Pro-MCP) #️⃣ 🏠 🪟 - アシスタントが開いたプロジェクトを操作できる ArcGIS Pro アドイン：レイヤー、属性、選択、シンボロジー、レイアウト、ラスター、ジオプロセッシングツール、arcpy。"
+},
+{
+"line": 2973,
+"translated": "- @@L0@@ 🐍 ☁️ - IP ベースの位置検出による近くの場所検索。"
+},
+{
+"line": 2974,
+"translated": "- @@L0@@ 🏠 - GeoServer REST API を通じて地理空間データとサービスを操作。"
+},
+{
+"line": 2975,
+"translated": "- @@L0@@ 🏠 - GIS ライブラリを使った地理空間演算と変換。"
+},
+{
+"line": 2976,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mapsmith-ai/mapsmith) 🐍 🏠 - 決定論的な GIS ジオプロセッシング（バッファ、オーバーレイ、再投影、ゾーン統計、地形、水文学）。各出力に出所マニフェスト。"
+},
+{
+"line": 2977,
+"translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - 地理空間ツール：ジオコーディング、ルーティング、標高、空間解析、Shapefile・GeoJSON・GeoPackage のファイル入出力。"
+},
+{
+"line": 2978,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/muend/arcgis-mcp-bridge) 🐍 🏠 🪟 - ジオプロセッシングのための ArcGIS Pro の ArcPy エンジンへのローカルブリッジ。ワーカープロセス分離とファイルシステム境界。"
+},
+{
+"line": 2979,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cablate/mcp-google-map) 📇 ☁️ 🏠 - Google Maps のジオコーディング、場所検索、経路、標高。スタンドアロン CLI モード付き。"
+},
+{
+"line": 2980,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/osm-mcp) 📇 ☁️ 🍎 🪟 🐧 - OpenStreetMap の旅行計画：ジオコーディング、徒歩・車・自転車ルート、移動時間行列、ルート最適化、等時線、POI 検索。"
+},
+{
+"line": 2981,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Off-Nadir-Lab/offnadir-delta-mcp) 🎖️ 📇 ☁️ - ライブの位置付き世界イベント諜報と日次世界ブリーフ：イベントシグナル、ホットスポット、Sentinel 衛星画像、OSINT/GEOINT アナリスト。"
+},
+{
+"line": 2982,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PostalDataPI/postaldatapi-mcp) 🐍 ☁️ - 全球郵便番号の検索・検証・都市検索。タイムゾーン、行政区、標高メタデータ付き。"
+},
+{
+"line": 2983,
+"translated": "- @@L0@@ - QGIS Desktop を Claude に接続し、プロンプト支援のプロジェクト作成、レイヤー読み込み、コード実行。"
+},
+{
+"line": 2984,
+"translated": "- @@L0@@ 🐍 ☁️ - 世界中どこでも詳細な 7 日間天気予報。"
+},
+{
+"line": 2985,
+"translated": "- @@L0@@ 🐍 ☁️ - OpenWeatherMap API からのリアルタイム天気、予報、過去の天気データ。"
+},
+{
+"line": 2986,
+"translated": "- @@L0@@ 🐍 🏠 - 任意のタイムゾーンの時刻と現在の現地時刻を取得。"
+},
+{
+"line": 2987,
+"translated": "- @@L0@@ 📇 ☁️ - Stadia Maps の位置情報 API：住所と場所のジオコーディング、タイムゾーンの検索、ルートと静的マップの作成。"
+},
+{
+"line": 2988,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sthan-io/mcp-server) 📇 ☁️ - 米国住所の検証・解析・オートコンプリート・正逆ジオコーディング、sthan.io API を通じた IP 位置情報。"
+},
+{
+"line": 2989,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@vibecodebeast/swath-mcp) 🎖️ 📇 ☁️ - 米本土のレーダー検証済みひょうと風嵐検出：NOAA MRMS スワス、住所ごとの嵐履歴、地域アラート、レポート、マップ。"
+},
+{
+"line": 2990,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ThinAirTelematics/thinair-geo) 📇 ☁️ - グローバルな位置情報とルーティング：ジオコーディング、危険物と寸法制約付きトラック経路、交通、天気、等時線、場所検索。"
+},
+{
+"line": 2991,
+"translated": "- @@L0@@ 📇 ☁️ - AccuWeather API を通じた天気予報。"
+},
+{
+"line": 2992,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tools-mcp/vessel-traffic-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - 読み取り専用の船舶検索：AIS 風の位置、軌跡、寄港、キャリアと船舶スケジュール、出所付きの遅延ヒューリスティック。"
+},
+{
+"line": 2993,
+"translated": "- @@L0@@ 📇 - TrackMage API を通じた出荷追跡と物流管理。"
+},
+{
+"line": 2994,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/geolabel/geolabel-mcp) 🐍 ☁️ - GPS 座標を位置コンテキストに変換：場所名、安定カテゴリ、OpenStreetMap 経由のライブ営業時間。"
+},
+{
+"line": 2995,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/xyver/daedal-map) 🐍 ☁️ - 災害、為替レート、グローバル指標の地理データパック。毎週新パックを追加。"
+},
+{
+"line": 2996,
+"translated": "- @@L0@@ 🐍 🏠 - Nominatim、ArcGIS、Bing を通じたジオコーディング。"
+},
+{
+"line": 2997,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/930m310n/geomelon-mcp) 🎖️ 📇 ☁️ - 多言語名を持つ都市・国・地域・言語。さらに場所のオートコンプリート。"
+},
+{
+"line": 2998,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ArtBreguez/greeks-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - ライブのオプション分析：グリークス、GEX/DEX とガンマフリップ、max pain、異常フロー、IV サーフェス、想定変動、ターム構造、スクリーナー、GEX ヒートマップ。"
+},
+{
+"line": 3000,
+"translated": "### 🎯 <a name=\"marketing\"></a>マーケティング"
+},
+{
+"line": 3002,
+"translated": "マーケティングコンテンツの作成と編集、Web メタデータの操作、製品ポジショニング、ガイドの編集のためのツール。"
+},
+{
+"line": 3004,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/A1-x-Tech/mcp-yandex-audience) 📇 ☁️ - Yandex Audience API：広告ターゲティングセグメント（CRM アップロード、類似オーディエンス、ピクセルベース）の構築と管理、アクセス権付与。"
+},
+{
+"line": 3005,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIOProductOS/studio-mcp) 🎖️ 📇 🏠 🍎 🪟 🐧 - 移動するポインタ、ズーム、吹き出し、キャプション、トランジション付きの Web アプリのローカルでのスクリプト録画。さらにスクリーンショットと MP4/GIF エクスポート。"
+},
+{
+"line": 3006,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/D4umak/linkedin-outreach-mcp) 🎖️ 🐍 ☁️ 🍎 🪟 🐧 - 見込み客開拓・採用・求職のための LinkedIn アウトリーチ：人を探し、あなたの声でメッセージし、フォローアップし、返信に対応。"
+},
+{
+"line": 3007,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/InstantStudioAI/instantclips-mcp) 📇 ☁️ - InstantClips で eコマース製品を TikTok、Instagram Reels、Stories 向けの縦型ショート動画広告に変換し、ブランドと製品を管理。"
+},
+{
+"line": 3008,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/acamolese/google-search-console-mcp) 🐍 ☁️ - Google Search Console：パフォーマンスデータのクエリ、URL の検査、インデックスの確認、30/60/90 日のロードマップ付き HTML SEO 監査レポートの生成。"
+},
+{
+"line": 3009,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AKzar1el/mcp-gsc) 📇 ☁️ - Cloudflare Workers 上の Google Search Console：オーガニック検索分析、URL 検査、サイトマップ管理、インデックス、SEO 洞察。"
+},
+{
+"line": 3010,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AKzar1el/mcp-geo) 📇 ☁️ 🏠 🍎 🪟 🐧 - DigestSEO GEO トラッカー：ChatGPT、Claude、Perplexity、Gemini、Google AI Overviews にわたるブランド引用と可視性を測定。"
+},
+{
+"line": 3011,
+"translated": "- @@L0@@ 🐍 ☁️ - TikTok Ads API 統合：キャンペーン管理、パフォーマンス指標分析、オーディエンスとクリエイティブの処理。"
+},
+{
+"line": 3012,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/adsagents/adsagent-ai-skills) 📇 ☁️ - Meta、Google、TikTok 広告向けの AdsAgent プラグインとホステッド MCP サーバー。"
+},
+{
+"line": 3013,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hardeyhemy/revnuvo-dev) 🎖️ ☁️ - Revnuvo 企業インテリジェンス：企業で何が変化したか、証拠付き。"
+},
+{
+"line": 3014,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aitit-inc/leadace) 📇 🏠 - Claude Code のためのアウトバウンドセールス：見込み客ごとの Web サイト調査、あなたの Gmail からの見込み客ごとに 1 通のメール、返信追跡、構造化された拒否フィードバック。"
+},
+{
+"line": 3015,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alttextai/alttext-mcp) 🎖️ 📇 🏠 - 画像の alt テキストを生成・翻訳し、AltText.ai 画像ライブラリを管理。"
+},
+{
+"line": 3016,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-erid) 🐍 ☁️ - ロシアのオンライン広告ラベル（erid/ERIR）をチェック：erid トークンの検証と広告法 38-FZ への準拠監査。"
+},
+{
+"line": 3017,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AutomateLab-tech/seo-performance-mcp) 📇 ☁️ - 公開後の SEO パフォーマンス：Search Console、Matomo、GA4、Clarity、AI 引用シグナルを URL ごとに組み合わせ、各投稿への判定と理由コードを生成。"
+},
+{
+"line": 3018,
+"translated": "- @@L0@@ 📇 🏠 - LinkedHelper 自動化 CLI：キャンペーン管理、メッセージング、プロフィールクエリを Chrome DevTools Protocol 経由で。"
+},
+{
+"line": 3019,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/artgas1/yandex-metrika-mcp) 📇 ☁️ - Yandex Metrika の Stat、Management、Logs API。メソッドごとに 1 ツール、Yandex の文書から生成。書き込みは既定で無効。"
+},
+{
+"line": 3020,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/askads/mcp-vk-ads) 📇 ☁️ - VK Ads API：広告プラン、広告グループ、バナーの管理、統計の取得。"
+},
+{
+"line": 3021,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/askads/mcp-yandex-direct) 📇 ☁️ - Yandex Direct API：PPC キャンペーン、広告グループ、広告、キーワード、入札修正、サイトリンク、コールアウト、vCard の管理、統計の取得。"
+},
+{
+"line": 3022,
+"translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/askads/mcp-yandex-metrica) 📇 ☁️ - 読み取り専用の Yandex Metrica Web 分析：カウンターと目標の一覧、トラフィックとコンバージョン統計の取得。"
+}
+]

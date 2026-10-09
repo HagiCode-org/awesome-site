@@ -1,0 +1,480 @@
+523	Connect to the Perplexity Comet browser for agentic browsing, deep research and real-time task monitoring.
+524	Pay-per-call web scraping via x402 on Base, with structured extraction, screenshots, metadata, browser sessions and workflows.
+525	Drive your open, logged-in Chrome with token-budgeted page reading, complex SPA form and survey handling, and headless Ubuntu support.
+526	Virtual staging for real estate: stage empty rooms, turn floor plans into 3D renders, classify room images, write property descriptions and suggest styles.
+527	Compile browser automation into deterministic plans that run in your logged-in Chrome without runtime LLM calls, detecting drift when sites change.
+528	Token-efficient browser automation: semantic page snapshots and stable element IDs instead of raw DOM or screenshots, driving Chrome over CDP.
+529	Create, run, debug and manage Selenix browser automation tests through natural language.
+530	Local-first web reading escalating from HTTP to a real browser when blocked: clean Markdown, site crawls, search, row extraction and local CAPTCHA handling.
+531	Autonomous browser automation.
+532	Fetch YouTube subtitles and transcripts for AI analysis.
+533	Get transcripts and metadata for summarization and content analysis.
+534	Minimal MCP server and client implementation using Azure OpenAI and Playwright.
+535	Web intelligence API: screenshots, PDF generation, page metadata and specialized extractors for news, social media, search results, prices and more.
+536	Headless browser for AI and web automation with a built-in MCP server.
+537	Browser agent with human takeover via noVNC, reusable auth profiles, approval and audit controls, and isolated Docker sessions.
+538	Control Safari via a web extension: navigate, read pages, click elements, fill forms and manage tabs, without Playwright or WebDriver.
+539	Read any URL as a clean AIDocument (Markdown plus structure) through Lyrenth's cached index.
+540	Web scraping with escalating fetch tiers on detected blocks, returning clean Markdown or saving large scrapes to SQLite for read-only SQL queries.
+541	Browser automation for your existing Chrome or Firefox via CDP and BiDi, with stealth mode, Lighthouse audits, YAML action batching and raw protocol access.
+542	Playwright browser automation: interact with web pages through structured accessibility snapshots.
+543	Autonomous, goal-driven LLM web crawler with stealth browsing, distributed as a single binary.
+544	Interact with your local browsers.
+545	iOS Safari debugging via ios-webkit-debug-proxy with WebKit Inspector Protocol support: DOM, CSS, network, storage, debugger and more.
+546	Web scraping, crawling and search API: extract content as Markdown or JSON, batch-process URLs and get answers with citations.
+547	Control the user's real Chrome browser via an extension, reusing existing sessions, logins and cookies.
+548	Security-hardened Chrome automation and logins with post-quantum encryption, a credential vault, memory scrubbing and audit logging.
+549	Web automation through Selenium WebDriver.
+550	Accessibility-tree browser automation with deterministic snapshots, human approval gates, redacted audit logs and console, network and Web Vitals monitoring.
+551	Web search using Google search results.
+552	Lightweight native browser that runs JavaScript, follows links, fills forms, manages cookies and returns low-token BlockMaps, without Chrome.
+553	Real-browser QA audits of a URL: broken signup, login and checkout flows, console errors, missing analytics, security headers, tap targets and accessibility.
+554	Record actions on any website and replay them in headless Playwright, with encrypted credentials and AI-based selector healing.
+555	Web scraping, structured data extraction and screenshots with JavaScript rendering, residential proxy rotation and automatic retries.
+556	Diagnostics for MCP servers: discover client configs, test connections, audit security issues and benchmark latency.
+557	Render terminal output, syntax-highlighted code, web pages, Markdown, HTML and git diffs as PNG, JPEG, PDF or GIF locally via Playwright.
+558	Integration with Apple Shortcuts.
+559	Compress web page HTML into compact structured maps that preserve actionable elements, so agents can read and interact with pages using fewer tokens.
+560	Fetch web page HTML, AI-parsed JSON or Google results through the ScrapeUnblocker anti-bot API.
+561	Capture web pages as images or PDFs with element targeting, device and viewport controls, location selection, page interactions and blocking options.
+562	Browser automation, testing and bot-detection bypass using SeleniumBase CDP Mode with Chromium, including click-based CAPTCHA solving.
+563	Selenium WebDriver automation with assertions and self-healing locators, plus code generation for Java, Python and C# test frameworks and CI pipelines.
+564	Chrome automation over raw CDP with multiple tabs, cached accessibility-tree refs, server-side multi-step flow execution and a Python scripting API.
+565	Website screenshots via Chromium with full-page capture, country-specific proxies and automatic ad and cookie-banner removal.
+566	Capture any URL as PNG, JPEG, WebP, PDF or HTML, diff page versions to catch visual regressions, and get AI page summaries.
+567	Detect and solve Cloudflare Turnstile challenges: inspect whether a page uses Turnstile or another CAPTCHA and get a solved token when needed.
+568	Playwright MCP-compatible browser automation using CloakBrowser Chromium.
+569	Visible local browser automation in your signed-in Chromium profile, with recovery and optional policy and audit controls.
+570	Self-hosted stealth Chrome automation via Patchright: parallel persistent profiles, encrypted credential vault with 2FA, and prompt-injection scanning.
+571	Capture websites as PNG, JPEG, WebP or PDF with device emulation, dark mode, ad blocking and cookie banner removal.
+572	Render any URL or raw HTML as PNG, JPEG, WebP or PDF, with batch processing, geo-targeting and async webhooks.
+573	Drive a browser or Expo/React Native app alongside your dev server on one correlated timeline, lining up frontend errors with backend stack traces.
+574	Browser and mobile app automation with WebdriverIO: control browsers and automate native Android and iOS apps via WebDriver and Appium.
+575	Fetch trending videos from Bilibili.
+576	Chromium-free agent browser with built-in V8: tiered fetching, multi-engine search, screenshots, persistent login sessions and CDP access.
+577	Fetch content from login-protected pages such as Notion, Google Docs, Jira and Confluence via a real browser login with persistent session caching.
+578	Real-time data from GitHub, Hacker News, Scholar, arXiv, YC, jobs, finance and package trends, with every result timestamped for freshness.
+579	Browser navigation and verification: compact semantic page digests, ranked text search, and typed diffs after each action with assertions.
+580	Glint Render web rendering and evidence API: screenshots, PDFs, OG images, monitoring, extraction and tamper-evident evidence capture.
+581	Identify CAPTCHA types and parameters, create solving tasks and retrieve results via the CapMonster Cloud API, with access to its docs.
+583	Cloud Platforms
+585	Cloud platform service integration. Enables management and interaction with cloud infrastructure and services.
+587	Multi-cluster Kubernetes monitoring and operations with safe access modes, namespace allowlists, gated delete/apply/exec, dry-run and audit logging.
+588	Governed Kubernetes operations for k3s, EKS, GKE and AKS: workloads, jobs, config, storage, networking and rollouts, with audit logging, dry-run and rollback.
+589	Read-only Oracle Cloud (OCI) resource discovery, dependency mapping and reproducible Terraform generation, with secret redaction.
+590	Azure Resource Manager inventory, tags and VM lifecycle management, with resource-group allowlists, delete gating and typed confirmation.
+591	OpenShift and Kubernetes operations on pods, deployments, routes and builds, with access modes, namespace allowlists, dry-run and Secret redaction.
+592	Deploy AI-generated code to decentralized storage networks such as Greenfield, IPFS and Arweave via 4EVERLAND Hosting.
+593	Manage Adios workspaces, previews, builds, logs, services and production deployments.
+594	Governed Nutanix Prism Central operations: clusters, VMs, storage, networking, snapshots/DR, alerts and LCM, with audit logging, dry-run and rollback.
+595	Manage BasicDeploy containers, each with PostgreSQL, S3-compatible storage and a public URL: deploy apps, run commands, read logs and toggle always-on.
+596	Manage Adobe Edge Delivery Services (AEM EDS): preview, publish, bulk operations, content, Core Web Vitals, 404 tracking, A/B experiments and redirects.
+597	AWS SSO integration: log in, list accounts and roles, and run AWS CLI commands with temporary credentials.
+598	Provision, SSH into, run commands on and manage Linux VPSes, paying with USDC over x402 or by card.
+599	Build and run a backend on the Anythink platform: relational data with row-level security, search, RBAC, workflows, growth and retention tools, and payments.
+600	Upload to and manipulate IPFS storage.
+601	Unified deployment dashboard for Vercel, Render, Railway and Fly.io: deploy status, logs, environment variables, rollbacks and health checks.
+602	Manage Spot.io (Spotinst) Ocean clusters, VNGs, Elastigroups, costs, right-sizing and logs across AWS and Azure accounts.
+603	Manage pfSense firewalls: rules, DHCP leases, DNS overrides, gateway monitoring, ARP table and services, with two-step confirmation for destructive actions.
+604	Manage Proxmox VE clusters: VMs, containers, snapshots, templates, cloud-init, firewall and migrations, with two-step confirmation for destructive actions.
+605	Azure cost management: spending analysis, forecasts, anomaly detection, budgets, optimization tips, idle resource detection and tag-based cost allocation.
+606	Compare compute, storage, managed Postgres, egress and GPU prices across AWS, Azure, GCP and OCI, plus FinOps tools for break-even, TCO and migration analysis.
+607	Manage MikroTik RouterOS devices: interfaces, firewall, DHCP, DNS, routes, WireGuard, WiFi, BGP/OSPF and VLANs, with dry-run previews, RBAC and rollback.
+608	Operate Alibaba Cloud resources, including ECS, Cloud Monitor, OOS and other widely used cloud products.
+609	Suite of servers for integrating with AWS services and resources.
+610	Manage Backblaze B2 buckets, files, keys, Object Lock and S3-compatible storage.
+611	Manage BlazingCDN zones, cache purge and warm-up, traffic metrics, custom domains, cloud storage and Video CDN; read-only by default.
+612	VMware ESXi and vCenter virtual machine management via a REST API.
+613	Local-first, read-only FinOps assistant: analyze AWS, Azure, GCP, Kubernetes, SaaS and AI bills, find waste and get fixes as pull requests.
+614	Integration with Cloudflare services including Workers, KV, R2 and D1.
+615	Access the entire OVH API through search and execute tools that run sandboxed JavaScript (Code Mode).
+616	Manage Kubernetes resources through the Cyclops abstraction.
+617	Publish pages written in chat or a local folder to a live HTTPS URL, with static hosting on Cloudflare's edge.
+618	Kubernetes operations via kubectl and helm through natural language, integrated with Open WebUI.
+619	Azure Data Lake Storage: manage containers and file metadata, and read, write, upload and download files.
+620	Manage and control ESP RainMaker devices.
+621	Kubernetes cluster operations for pods, deployments and services.
+622	Docker container management: health checks, auto-restart, Compose lifecycle and log streaming.
+623	Manage self-hosted Coolify PaaS: deployments with verified builds, app diagnostics, database backups, offline docs search and confirmed destructive actions.
+624	Access Cloudeval project context and reports for cloud evaluations of Azure and AWS CloudFormation, with a read-only toolset.
+625	CNCF release intelligence: security fixes, breaking changes and deprecations from graduated and incubating project release notes, with local version checks.
+626	Manage Spinnaker applications, pipelines, executions and cloud infrastructure via the Gate API.
+627	Query, analyze and monitor Azure resources at scale using Azure Resource Graph.
+628	Terraform ecosystem integration: provider discovery, module analysis and Terraform Registry API access for infrastructure-as-code workflows.
+629	Manage Cloudflare DNS, zones, Workers, KV, R2, D1, Pages, WAF, SSL, Email Routing and more via the REST API, with human approval for every change.
+630	Control Easypanel deployments, services, environment variables, logs, domains, databases and monitoring, with confirmation for destructive actions.
+631	Hostodo VPS management: VM details, power control, renaming, OS reinstalls, guest-agent commands and artifact uploads, with scoped tokens and audit logs.
+632	Publish HTML, Markdown, CSV or Mermaid artifacts to temp.md under a stable public link that updates in place, with activity-based expiry.
+633	Manage the Marzban proxy/VPN panel: users, subscriptions, nodes, hosts, config and system stats, with confirmation for destructive calls.
+634	Azure FinOps cost optimization: idle resources, rightsizing and Reserved Instance recommendations.
+635	Inspect and manage IONOS Cloud infrastructure.
+636	Compare real-time cloud instance prices across AWS, Azure, GCP and OCI, with workload calculators and migration savings estimates.
+637	Oracle Cloud Infrastructure price data with cost calculators and cross-provider comparisons.
+638	Manage Proxmox VE, Backup Server, Mail Gateway and Datacenter Manager with dry-run plans, snapshots and a tamper-evident audit log; read-only by default.
+639	Access Netskope Private Access components within an NPA environment, with setup details and usage examples.
+640	Read-only kubectl with structured JSON output, hardcoded safe verbs, withheld Secret and ConfigMap values, and one-shot cluster triage and inventory.
+641	Provision and manage Krova Cloud Cubes (Firecracker microVMs with root access), plus custom domains, TCP port mappings and snapshots.
+642	Deploy AI-generated HTML, CSS and JavaScript to a public HTTPS URL.
+643	Manage local or remote Docker daemons: containers, images, Compose, Swarm, Buildx, Scout and OCI registries, with read-only hosts for safe monitoring.
+644	Manage the software licensing lifecycle in Labs64 NetLicensing through natural language.
+645	Manage Dynadot domains, DNS, WHOIS, nameservers, transfers and aftermarket listings.
+646	Create, modify and delete Liveblocks rooms, threads, comments, notifications and more, with read access to Storage and Yjs.
+647	Deploy services on Lizard with managed Postgres, Redis and S3, logs and metrics, secrets, scaling and custom domains.
+648	Manage LocalStack local AWS environments: lifecycle operations, infrastructure deployments, log analysis, fault injection and state management.
+649	LUNO hosted backend platform: CMS, forms, auth and storage. Unrelated to the Luno cryptocurrency exchange.
+650	Kubernetes and OpenShift management: CRUD operations on any resource plus specialized cluster tools.
+651	Dynadot domain registrar API: domain search, registration, DNS, contacts, transfers and marketplace.
+652	Kubernetes management and automated GitOps.
+653	Unofficial Infomaniak integration: web hosting, mail, kDrive, domains, DNS, FTP/SSH users and more, with two-phase commits and undo for destructive actions.
+654	Rancher ecosystem tools: multi-cluster Kubernetes operations, Harvester HCI management (VMs, storage, networks) and Fleet GitOps.
+655	Access the full NebulaBlock API.
+656	Manage Hetzner DNS zones and records via the Hetzner Cloud API: RRSet CRUD, zonefile import/export, TTL and protection changes, and nameservers.
+657	Microsoft Graph access to Outlook mail and calendar, Teams, OneDrive, SharePoint, OneNote, Planner and Entra ID.
+658	Create, check, deploy and host static sites.
+659	Administer a self-hosted wg-easy (WireGuard Easy) instance: manage VPN clients, fetch configs and QR codes, create one-time links and check server status.
+660	Manage Terraform environments: read configurations, analyze plans, apply configurations and manage state.
+661	App hosting for agents: deploy to a live URL, verify, view logs, inspect, roll back and delete, with human approval for production.
+662	OpenStack cloud infrastructure management based on openstacksdk.
+663	Manage Cloudflare Workers, KV, R2, Pages, DNS and cache.
+664	AWS S3 operations: list buckets, browse objects, upload and download files, and generate presigned URLs.
+665	Manage and troubleshoot cert-manager.
+666	Publish HTML written in chat or local files and folders to a public URL, preserving folder structure.
+667	Rent and operate VPSes paid in USDC or USDT: register, provision and control power, hostname, root password, reinstalls, metrics and cancellation.
+668	Interact with Portainer instances: container management, deployment operations and infrastructure monitoring.
+669	Track LLM token costs across Claude, GPT and Gemini, with optimization hints and savings estimates.
+670	Portkey Admin API control plane: prompts, configs, keys, analytics, guardrails, integrations and deployments.
+671	Publish AI-generated HTML or static files to a shareable URL, with optional permanent hosting, in-place updates and password or members-only access.
+672	Integration with the PythonAnywhere cloud platform.
+673	Terraform operations with two-step confirmation for plan/apply/destroy, plan risk and cost analysis, drift detection, import/taint/refresh and audit logging.
+674	Access Qiniu Cloud products such as Cloud Storage and media processing services.
+675	Manage Redis Cloud resources in natural language: create databases, monitor subscriptions and configure cloud deployments.
+676	Interact with Kubernetes clusters: API resource discovery, resource management, pod logs, metrics and events.
+677	Interact with Kubernetes clusters through natural language.
+678	Self-hosted server suite for Odoo ERP 15-19, plus GitHub, Portainer, OCA and Teams, with a browser terminal, Qdrant/Ollama memory and Bulgarian localization.
+679	Access Tilt resources, logs and management operations for Kubernetes development environments.
+680	Manage Sevalla cloud infrastructure.
+681	Deploy static HTML folders to permanent Vibie URLs, with folder markers for easy redeploys.
+682	Deploy and manage static sites: upload files, get a URL and connect custom domains.
+683	Cloud infrastructure analysis: detect IaC drift, missing indexes, security gaps and performance anti-patterns across AWS services and databases.
+684	Manage any Kubernetes resource, including native resources and CRDs, through natural language.
+685	Deploy live HTTPS websites on subdomains or custom .xyz domains, paid in USDC on Base, with templates for crypto tokens and AI agent profiles.
+686	Manage domains, DNS records, contacts and marketplace listings via the Spaceship API.
+687	SRE observability for Kubernetes and OpenShift: Tekton pipeline debugging, log analysis, root cause analysis and predictive monitoring.
+688	Interact with Kubernetes clusters: list and apply Kubernetes resources.
+689	Interact with OCI registries: retrieve container image information, list tags and more.
+690	Publish a static site or edge function to the web in one call, then manage updates, custom domains, SSL, env vars, databases and email.
+691	Publish agent-made HTML to private, unguessable URLs with passcode or email-domain gating, expiry, burn-after-read and in-place updates.
+692	Kubernetes cluster operations.
+693	Backend services for WeChat Mini Programs and full-stack apps: serverless cloud functions, databases and one-click deployment.
+694	Interface with Nutanix Prism Central resources.
+695	Get up-to-date EC2 prices in one call from a pre-parsed AWS price catalogue.
+696	Kubernetes bulk port forwarding with service discovery, /etc/hosts management, traffic monitoring and pod log streaming.
+697	Multi-client MCP proxy: read across every client's accounts, write only to the named one, via providers' own MCP tools (Cloudflare, Vercel, Notion and more).
+698	Query book information.
+699	Multi-cluster Kubernetes management and operations with a management UI and logging, covering common DevOps tasks for standard and CRD resources.
+700	Multi-cluster Kubernetes management and operations, embeddable as an SDK, covering common DevOps tasks for standard and CRD resources.
+701	Kubernetes management plus cluster and application health analysis.
+702	Kubernetes cluster operations: inspect pods, deployments, services and logs.
+703	Build and host full-stack web apps and sites on Hatchable, with per-project database, auth, storage, domains and cron.
+704	Live AWS, GCP and Azure prices for FinOps: public list prices and enterprise negotiated rates (Reserved Instances, Savings Plans, CUDs, EDPs).
+705	Cloud architecture design for AWS, GCP, Azure and Databricks: cost estimates, compliance checks, Terraform/CloudFormation export and blast-radius analysis.
+706	Install and manage a self-hosted XNS Relayer, S3-compatible object storage on a decentralized provider network: setup, health, configuration and backups.
+707	VMware vSphere/vCenter management: VM lifecycle, deployment, guest operations, snapshots and clusters, with confirmation gates, dry-run mode and audit logging.
+708	VMware Avi Load Balancer (NSX ALB) management with AKO Kubernetes integration: virtual services, pools, analytics metrics and AKO lifecycle.
+709	Read-only VMware vSphere/vCenter monitoring: inventory, alarms, events, host health, VM info and snapshot listing.
+710	VMware NSX network management: segments, Tier-0/Tier-1 gateways, NAT rules, static/BGP routing and IPAM pools, with dry-run previews and delete confirmation.
+711	VMware NSX security: Distributed Firewall policies and rules, security groups, Traceflow troubleshooting and IDS/IPS profiles, with checks before deletion.
+712	VMware vSphere storage management: NFS/VMFS datastores, iSCSI software adapters and dynamic targets, and vSAN cluster operations, with dry-run previews.
+713	VMware Tanzu / vSphere Kubernetes Service: Supervisor cluster, namespace and Tanzu Kubernetes Cluster lifecycle, with dry-run mode and kubeconfig export.
+714	Publish Markdown or HTML to a public shareable link, served script-free from a separate cookieless origin.
+716	Code Execution
+718	Code execution servers. Allow LLMs to execute code in a secure environment, e.g. for coding agents.
+720	Run JavaScript snippets in isolated Docker sandboxes with on-the-fly npm dependency installation and clean teardown.
+721	Execute code through the Piston remote code execution engine.
+722	E2B cloud sandboxes: create isolated Linux VMs, clone repos, run commands, manage files and perform git operations without touching the local machine.
+723	Access any API through its existing OpenAPI documentation.
+724	Containerized environments for coding agents: each agent works in its own fresh container and git branch, with execution history and terminal access.
+725	Dedicated Linux VM sandboxes for untrusted, model-generated code: run commands, move files, expose a preview URL and destroy the VM.
+726	Delegate tasks to other AI providers' models, e.g. ask OpenAI to generate an image.
+727	Python runtime interpreter that executes submitted code in an isolated environment.
+728	Submit SLURM jobs, run YAML workflows, monitor GPU resources, manage SSH profiles and sync files with local or SSH-remote HPC clusters.
+729	Run untrusted Python/JavaScript code in WebAssembly sandboxes.
+730	Self-hostable GPU-aware job broker: dispatch long-running or GPU jobs that outlive the session, route them by VRAM tier and monitor them across sessions.
+731	MATLAB integration: execute code, run async jobs with progress reporting, get interactive Plotly plots and expose custom .m functions as tools.
+732	Access any API via its OpenAPI specification, with full JSON Schema support for parameters and request bodies.
+733	JavaScript sandbox that uses V8 isolation to run AI-generated code locally, with heap snapshotting for persistent sessions.
+734	Persistent cloud dev environments for coding agents: create, run commands, checkpoint and fork, with files, services and terminal state kept between calls.
+735	SWI-Prolog execution for LLMs with CLP(FD), negation as failure and recursion.
+736	Control Google Colab notebooks and assign GPUs (T4/L4/A100). Fork of Google's colab-mcp with all tools visible at startup and Windows support.
+737	Agent-oriented programming language: agents emit a JSON AST that the compiler validates, type- and effect-checks, verifies with Z3/SMT and compiles to WASM.
+738	Code-mode MCP server: collapses user-defined tools into code execution plus docs search, sandboxed in node:vm, WASM or remote microVMs.
+739	Code and logic calculator with an offline core: run code, exact symbolic math, SMT/logic and complexity analysis, with optional gVisor/AppContainer sandboxing.
+740	Run LLM-generated code in a YepCode sandbox and create custom MCP tools in JavaScript or Python with npm and PyPI packages.
+741	Coding Agents
+743	Full coding agents that enable LLMs to read, edit, and execute code and solve general programming tasks completely autonomously.
+745	Shared session bus for coding agents such as Claude Code, Codex and Grok: list, read, hand off, message and spawn live agent sessions via MCP or CLI.
+746	Manage a 5dive agent fleet: file tasks, message and inspect agents, and read the fleet digest.
+747	Explore and download AI agent blueprints: list them, get summaries and download full Agent Skills directories for coding agents to implement.
+748	Document exchange for coding agents across services: versioned Markdown store, pub-sub notifications with structured diffs and lifecycle stage tracking.
+749	AI council: query CLI agents (Claude Code, Codex, Gemini and OpenCode) in parallel with deliberation rounds.
+750	Delegate tasks to the Antigravity CLI (Gemini): file analysis, repo archaeology, web lookups and second-opinion code reviews, with quota-aware model failover.
+751	DevOps and networking tools: network monitoring, system diagnostics, automation workflows and infrastructure management.
+752	Control plane for long-running Codex Desktop tasks: submit asynchronously, poll state, approve Plan Mode, recover retries and search SQLite-backed history.
+753	Structured, model-driven interaction with network devices via Cisco pyATS.
+754	Adversarial test generation in Cline: detects the stack, writes and runs tests, and classifies failures as real bugs, environment problems or test bugs.
+755	Interact with TUI/CLI applications through a structured terminal state tree with element detection, like Playwright for terminals.
+756	IDE assistance for the Intlayer i18n/CMS tool: CLI access and documentation.
+757	Self-hosted Slack bot: mention it and Claude Code or Codex investigates CloudWatch logs, runs tests and opens PRs, with credentials held by an MCP server.
+758	Shared, signed index of failures other coding agents already solved: check it before retrying and ingest fixes so the next agent does not repeat the work.
+759	Multi-agent consultation for Claude Code: MCP servers wrapping Codex, Gemini and Qwen CLIs for parallel code review and problem-solving with fallback chains.
+760	SSH control for Linux and Windows servers, with long-running commands and execution on multiple hosts at once.
+761	Local router for Agent Skills across coding agents and MCP clients, with hybrid matching on the local CPU that spends no tokens.
+762	Deterministic orchestrator for CLI coding agents such as Claude Code, Codex and Aider, with per-agent git worktrees, an audit trail and cost-aware routing.
+763	Delegate multi-file implementation to Cursor's CLI agent over ACP and get typed results: final message, changed files, session ID and plan.
+764	Coordination bus for multiple coding agents: atomic claims, advisory file leases, a shared event ledger, presence, handoffs and a task graph. Self-hostable.
+765	Coordinate parallel coding agents: TTL file claims across git worktrees, hooks blocking colliding edits, presence, handoff notes and searchable lessons.
+766	Search, retrieve and solve LeetCode problems, with metadata filtering and access to user profiles, submissions and contest data.
+767	Turn any CLI tool with --help output into an MCP server, with caching.
+768	Reasoning, code, anti-deception and memory tools for AI agents.
+769	Coding agent with basic read, write and command line tools.
+770	Multi-LLM deliberation with anonymized peer review: parallel responses, anonymous ranking and synthesis, based on Andrej Karpathy's LLM Council concept.
+771	Delegate tasks to OpenClaw AI assistant agents with sync and async tools.
+772	Communication and shared work state across coding agent harnesses: live messages, scope claims before editing, preserved decisions and evidence handoffs.
+773	Access iTerm: run commands and ask questions about what is shown in the terminal.
+774	Local daemon that pre-indexes a codebase into a SQLite catalog and serves AST-compressed snapshots on every query to reduce token usage.
+775	Structured planning and validation for Claude Code: turns an objective into a validated DAG of modules built by worker agents in parallel git worktrees.
+776	Run arbitrary commands and scripts.
+777	Rust reimplementation of WCGW for coding agents: shell execution and file management.
+778	Wraps the Claude Code CLI as MCP tools for queries, search, structured output and sessions, with budget caps and granular tool sandboxing.
+779	Requires every AI agent code change to leave a problem, reason and approach audit record before commit, with a pre-commit hook and audit trail dashboard.
+780	Delegate real-world actions to Hermes Agent: research, browser workflows, messaging, scheduling and skills, with risky actions requiring approval.
+781	See and control long-running processes such as web servers: start, stop, restart and read logs.
+782	Specialist agent council for AI coding CLIs with a self-learning router, cross-CLI memory and guards against dependency hallucinations and decision drift.
+783	Access LeetCode problems, solutions, submissions and public data, with optional login for user features such as notes; supports the global and China sites.
+784	Work in a VS Code workspace: read the directory structure, see linter and language server problems, read code files and make edits.
+785	Governed runtime for AI coding agents with budget caps, verifier gates, runaway-loop prevention, rollback evidence and inspectable run receipts.
+786	Git-backed message bus for coding agents on different machines, with no server: questions, answers, decisions, claimable tasks and delegated repo reviews.
+787	Desktop GUI automation on Windows, macOS and Linux via accessibility APIs instead of screenshots, plus workflow recording, data extraction and DOM inspection.
+788	Local server and Agent Skill for TraeCN desktop automation on macOS.
+789	Safe Python interpreter based on Hugging Face smolagents' LocalPythonExecutor.
+790	Convert source code into an AST, regardless of language.
+791	List and terminate OS processes via natural language queries.
+792	Convert a codebase into a local AST knowledge graph that gives coding agents structural context for navigation and refactoring.
+793	Command-line execution with customizable security policies.
+794	Bidirectional bridge between Gemini Spark and the Antigravity IDE: coding subagent dispatch, shared memory, local file operations and Spark app orchestration.
+795	Deterministic repository context packing for coding agents: selects, compresses, caches and budgets only the files a task needs, without an LLM in the loop.
+796	Bridge to multiple OpenAI-compatible LLMs for rubber duck debugging: explain a problem to several AI ducks and get different perspectives.
+797	Search the Arch Wiki and AUR, get package info, check for updates, install packages and analyze PKGBUILDs, from Arch or non-Arch systems.
+798	Console automation and monitoring, like Playwright for terminal apps: session management, SSH, testing, monitoring and background jobs.
+799	Coding agent that uses language servers for symbolic code operations.
+800	Approval-first local terminal control: policy-based command planning and approval, DeepSeek as an advisor, and signed execution receipts.
+801	Local agent OS for spec-first AI coding: a replayable, ledger-recorded interview, seed, execute, evaluate and evolve loop that MCP clients can drive.
+802	Dynamic map of chat-related repository files with their function prototypes and related files, ranked by relevance, based on Aider's Repo Map.
+803	Create and drive hosted plori agents with persistent disk, tools and memory: invoke agents, manage the human-in-the-loop queue and schedule deferred runs.
+804	Catch vague Claude Code prompts before they waste tokens: prompt scorecards, session history search, cross-service contract awareness and cost estimation.
+805	Run DeepSeek as a sub-agent in Claude Code or Codex CLI, with its own agent loop for reading, editing and running commands in a sandboxed workspace.
+806	Run GLM (Zhipu/Z.ai) as a sub-agent in Claude Code or GitHub Copilot with its own read/write/edit/run loop, Opus-vs-GLM routing and diff/dry-run oversight.
+807	Parallel multi-model code review, security analysis and debate with ChatGPT, Claude and Gemini, including consensus and OWASP Top 10 checks.
+808	Framework for building multi-agent systems that coordinate over MCP, with task management, shared context and RAG.
+809	Unofficial bridge from Warp's Oz coding agent to any IDE or MCP client, plus native @oz in VS Code Copilot Chat.
+810	Index local code into a graph database to give AI assistants context, with graphical code visualizations for humans.
+811	Make AI self-correct its generated output through prompt injection, independent self-auditing and context isolation.
+812	Use Claude Code Skills from any IDE or CLI.
+813	Run shell commands securely, auditably and on demand in isolated environments such as Docker.
+814	Coding agent with basic tools for listing, reading, editing and writing files, running commands and web search, supporting multiple projects at once.
+815	Learning sidecar for AI coding assistants: quizzes developers on AI-generated changes and gives agents persistent project-specific debugging memory via RAG.
+816	Coding agent for Max (Max/MSP/Jitter), the visual programming language for music and multimedia.
+817	Coordinate parallel coding agents: TTL file claims, a task board with dependencies, versioned interface contracts, change notices and a decisions log.
+818	SSH control for Linux and Windows servers: execute remote shell commands with password or SSH key authentication.
+819	See, find and interact with UI elements in any desktop application, like Playwright for the whole OS.
+820	Secure shell command execution.
+821	Run Codex agents from Claude Code through MCP and Channels, with live progress notifications, mid-task steering and session continuation.
+822	Developer tools for file editing, shell command execution and screen capture.
+823	Build, deploy and manage hosted VibeKit apps, each with a live URL and its own persistent server-side agent to chat with.
+824	Runtime and skill library for coding agents: C4 workflow gates, guarded command execution and reasoning engines like Tree of Thoughts and 5 Whys.
+825	Code intelligence for Elixir: module search, function tracking and PR attribution via tree-sitter AST parsing.
+826	Manage and execute programs, and read, write, search and edit code and text files.
+827	Code tools for LLMs to read, understand and modify code, using a tree-sitter parser, SQLite index and transactional writes.
+828	Connect an IDE or AI assistant to Codex CLI for code analysis and editing, with support for multiple models.
+829	Connect an IDE or AI assistant to GitHub Copilot CLI for code analysis, review and batch processing.
+830	Post and fund TaskBounty bounties for GitHub bugs and test coverage, or solve them with PRs that include regression tests and are verified in a sandbox.
+831	Local task bus for CLI AI agents such as Codex and Claude Code: route work, persist state in SQLite and collaborate through a shared server.
+832	Control plane for AI coding agents: time-locks writing, requires evidence for claims, runs adversarial review and keeps a sealed verification record.
+834	Command Line
+835	Run commands, capture output and otherwise interact with shells and command line tools.
+837	Bash for AI agents on Windows via deterministic bash-to-PowerShell translation, without WSL or a VM, with GNU-style output and persistent cwd and env.
+838	Outbound-only remote shell, detached long-running jobs and temporary file transfer for AI agents, without exposing SSH, ports or a VPN.
+839	Manage multiple SSH servers: commands, file transfer and rsync, database dumps and queries, backups, health monitoring, tunnels and per-server security modes.
+840	SSH control of remote Linux, macOS and Windows servers: line-level file editing, background tasks, sudo, host aliases, and directory and archive operations.
+841	SSH connection manager with a TUI dashboard for discovering, searching and running commands on remote hosts.
+842	Run commands on machines you cannot SSH into, such as air-gapped or bastion-only hosts, via git, file shares or S3, with timestamped run logs.
+843	Drive full-screen terminal programs such as vim, htop and lazygit by reading the screen as a live cell grid with cursor, selection and alt-screen state.
+844	SSH access with persistent sessions, SFTP and port forwarding, with secrets injected via stdin and redacted from output before reaching the LLM.
+845	Administer a Linux server: read files and logs, manage systemd services and cron jobs, run read-only MySQL queries, WP-CLI, Git and sandboxed Python.
+846	Remote server work via the local OpenSSH client: run commands, transfer files with checksums, search logs and audit hosts, with destructive commands blocked.
+847	Linux system administration via typed actions instead of shell strings, with a signed audit log, one-time approval receipts and automatic rollback.
+848	Self-hosted SSH and Kubernetes access broker: ephemeral per-operation credentials the model never sees, per-command firewall, human approvals and audit log.
+849	Launch, screenshot and interact with any TUI app.
+850	Local command wrapper for AI coding agents: runs shell commands, stores history locally and returns compressed terminal output to reduce context noise.
+851	Interactive PTY sessions for AI agents: local shells, persistent SSH sessions with attach/detach, and serial ports.
+852	Search, retrieve and diff the output of past terminal commands, recorded locally with exit codes, cwd and duration, with secret redaction by default.
+853	Terminal for AI coding agents: persistent PTY sessions, incremental reads, headless screen capture, multi-agent orchestration and a web dashboard.
+854	Developer toolkit: stack detection for AI context files, port conflicts, .env schema validation, docs drift, dependency license audits and task timing.
+855	Terminal, filesystem and background-job tools for Linux and macOS.
+856	Local full-text search over zsh, bash and fish history, with secret redaction and optional capture of cwd, exit code and duration.
+857	Inspect, manage and kill local dev servers: see what listens on each port, diagnose port conflicts, find zombie processes and kill by PID or port.
+858	Drive tmux locally or over SSH: sessions, windows, panes, keystrokes, pane capture and raw commands, with shared sessions for pair programming.
+859	Manage AWS EC2, Hetzner, OVH and SSH servers: commands, logs, CloudWatch/CloudTrail queries, fleet health, IP banning and S3, with tiered safety guards.
+860	Stateful, auditable shell sessions over local, SSH and Docker, with secret redaction, output budgeting and a read-only live transcript viewer.
+861	Read-only SSH diagnostics for Linux and Docker servers using a fixed command allowlist, with secret redaction and per-command timeouts.
+862	Run privileged commands locally or over SSH, each gated by a single-keypress human approval before sudo, with audit logging and no stored password.
+864	Communication
+866	Integration with communication platforms for message management and channel operations. Enables AI models to interact with team communication tools.
+868	Interact with Nostr: post notes and more.
+869	Microsoft 365 or IMAP mail and calendar: read, search, draft and find free slots, with out-of-band human approval for sends, deletes and calendar writes.
+870	Interact with Twitter search and timeline.
+871	Email and SMS for AI agents via a local mail server: disposable inboxes, sending and receiving email, and fetching verification codes.
+872	Email for AI agents: create inboxes on the fly to send, receive and act on email.
+873	Ephemeral rendezvous for agents: expiring threads with a secret read key and public write address, plus an open board where agents find each other.
+874	Email for Gmail, Fastmail, iCloud, Yahoo, Zoho, Yandex and any IMAP/SMTP mailbox: read, search, send, organize, draft, schedule and auto-triage mail.
+875	Email verification for AI agents: returns send, hold or kill for an address with a reason, using local DNS checks or a hosted SMTP probe.
+876	Write and preview emails: render Markdown into email-safe HTML for Outlook and Gmail, lint drafts for deliverability and get a live preview link.
+877	Physical mail API for AI agents: send letters, certified mail, postcards and batch mailings with cost previews, approval controls, tracking and webhooks.
+878	Email for AI agents: autonomous inbox registration via proof-of-work, custom domains, and sending and receiving over the open JMAP standard.
+879	Publish content to DEV.to, Hashnode, GitHub Discussions, Reddit, Bluesky, LinkedIn, Medium and Twitter, adapted per platform with idempotent state.
+880	Message queue that lets AI coding assistants message each other across sessions and machines. Self-hostable.
+881	Use Claude with local workspace access from Telegram on your phone: read, write and code on the go.
+882	Interface with the Google Tasks API.
+883	Convert .eml exports to Markdown with YAML front matter for RAG pipelines: thread splitting, signature stripping, attachment extraction and calendar parsing.
+884	Send desktop notifications with a sound effect when agent tasks complete.
+885	Query, analyze, send and receive iMessage conversations, with phone number validation, attachments, contacts and group chats.
+886	Telegram API integration: access user data, manage dialogs (chats, channels, groups), retrieve messages and handle read status.
+887	Telegram API integration: access user data, manage dialogs (chats, channels, groups), retrieve and send messages, and handle read status.
+888	Security-focused SendGrid email sending with recipient/domain allowlists, send caps, review mode, an audit log and no silent BCC.
+889	Self-hosted email for Gmail, Microsoft 365, Outlook.com and IMAP/SMTP: read, search, draft, send, schedule and organize mail, with per-client permissions.
+890	Email infrastructure for AI agents: create inboxes on the fly, send and receive email, search messages and manage threads.
+891	IMAP/SMTP email across multiple accounts: read, search, send, schedule and manage mail, with IMAP IDLE push, AI triage and desktop notifications.
+892	Search CometChat documentation and get curated implementation bundles for adding real-time chat, voice, video and moderation to apps.
+893	Mattermost API integration: list channels, read and post messages, manage threads and reactions, and monitor topics.
+894	Manage Cal.com event types, create bookings and access scheduling data.
+895	Local Microsoft Outlook calendar and mail via Microsoft Graph, with multi-account support and OS keychain token storage.
+896	Place consent-based outbound phone calls and retrieve transcripts, summaries and outcomes.
+897	Discourse forum integration: search topics, read posts, manage categories and tags, discover users and interact with communities.
+898	Outlook mail via Microsoft Graph: read, search, draft, send and organize email. Read-only by default, with audit logs and confirmation before send or delete.
+899	Email read tracking via Gmail: send tracked emails and check whether they were opened, with open count, device and timing.
+900	Gmail mailbox control via the live Gmail API: search, read, label, archive, trash, download attachments and snooze threads until a date.
+901	Convert Markdown to WhatsApp formatting so agent output shows bold, lists and quotes instead of raw asterisks, with tables rendered as monospace boxes.
+902	Inbox Zero features on top of Gmail, such as finding emails that need a reply or follow-up.
+903	Feishu/Lark integration: send messages as the actual user rather than a bot, plus docs, Bitable, wiki, Drive, calendar, tasks and OKRs.
+904	Compose, price and send physical letters and postcards, paid with Solana.
+905	List channels and send notifications through the FastAlert API.
+906	Covers the entire Telegram Bot API.
+907	Instagram creator toolkit: download Reels, Stories and photos, extract audio, check engagement, research hashtags and get hook templates and posting times.
+908	X (Twitter) creator toolkit: tweet media downloads, curated hashtags, posting times, hook formulas, engagement calculators and a thread splitter.
+909	Gambot WhatsApp Business API: send WhatsApp messages and templates, and manage CRM contacts, leads, cases, tasks, quotes, invoices, orders and campaigns.
+910	Make phone calls using VoIP/SIP and OpenAI's Realtime API, and observe the transcript.
+911	Search and browse Telegram chat history stored in Telegram Archive: list chats, retrieve messages and run full-text search.
+912	EU-hosted email API: send transactional and marketing email, manage contacts and segments, run broadcasts, render templates and read analytics.
+913	Email verification: mailbox existence checks, including catch-all, accept-all and SEG-protected addresses (Proofpoint, Mimecast, Barracuda), single or bulk.
+914	Send and fetch ntfy notifications on a self-hosted ntfy server, with token auth support.
+915	Signal messenger via a local signal-cli: send and receive messages, manage groups and contacts, search history, and handle attachments and reactions.
+916	Pair two AI coding agents on different machines over an end-to-end encrypted relay to exchange files and messages, with human consent before any file write.
+917	Send various types of messages to a WeCom group bot.
+918	Two-way WhatsApp notifications for AI agents: send messages, ask questions with tap-to-answer buttons and check replies, without a Meta account.
+919	macOS WeChat integration: read chats, send text, files and stickers, retrieve context and monitor allowlisted chats, without screenshots or private protocols.
+920	Safe access to the iMessage database to query and analyze conversations, with phone number validation and attachment handling.
+921	Local Maildir access via notmuch: full-text search, tag filtering, threads, attachments and unanswered-mail tracking, with optional drafts and tagging.
+922	Full Resend email API coverage plus diagnostics: deliverability analysis, DNS troubleshooting, email inspection, bounce explanations and account audits.
+923	Read-only access to ICTPBX, a multi-tenant IP PBX on ICTCore and FreeSWITCH: PBX statistics, extensions, DIDs, providers and tenants.
+924	Asterisk and FreeSWITCH PBX state over AMI and ESL: extensions, active channels, trunk and SIP peer status, dialplan and call history; read-only by default.
+925	ICTBroadcast voice, SMS and fax broadcasting: list campaigns and read live status and per-call results, with optional tools to start and stop campaigns.
+926	Send SMS, query delivery reports, manage senders and blacklists, and register and check İYS (Turkish consent registry) records via the iletiMerkezi API.
+927	Apple Mail access: list accounts and mailboxes, fetch emails with filters, full-text search via an FTS5 index and extract attachments.
+928	Microsoft Teams messaging: read, post and mention, and list members and threads.
+929	Infobip cloud communications: send and receive SMS and RCS, use WhatsApp and Viber, automate communication workflows and manage customer data.
+930	Give AI agents an address on fmsg, an open federated messaging protocol: inbox, threads, replies, reactions, attachments and waiting for new messages.
+931	Read-only search over Sendchamp documentation for SMS, OTP verification and Africa-specific routing.
+932	Manage Discord channels, messages, forums, webhooks, members, roles, threads and moderation. Also runs as a standalone bot with slash commands.
+933	Shipmail business email: manage custom-domain mailboxes, read and send messages, draft replies, inspect threads and automate REST API and webhook workflows.
+934	Apple Mail with indexed full-text search, verified multi-identity sending, scheduled sends, plan-then-apply triage and a local audit ledger.
+935	Unofficial Proton Mail integration via Proton Mail Bridge: send, read, search and organize email, with dry-run bulk operations and a read-only mode.
+936	Manage Inxmail Commerce transactional emails: events, sendings, bounces, blocklist and blacklist, reactions and delivery tracking.
+937	Direct messaging for AI agents over the A2A protocol: inbox, friend list, group threads and per-friend memory for real-time chats with other people's agents.
+938	Read and send email, and manage mailboxes, custom domains and webhooks via the QMailing API.
+939	Email system for agents: message search, importance/urgency triage, commitment follow-through and reviewable drafts, keeping financial actions human-only.
+940	Provision dedicated real-SIM US phone numbers, receive and poll inbound SMS, and extract OTP codes for phone verification.
+941	Read-only Reddit API access: subreddit listings, post, comment, community and user search, comment trees and top posts.
+942	Email (IMAP/SMTP), Sieve mail filters, CalDAV calendars, CardDAV contacts and free/busy scheduling for Open-Xchange and standards-based mail platforms.
+943	Receive SMS verification codes on virtual phone numbers for services like WhatsApp, Telegram and Google: find and buy numbers and extract codes.
+944	Access Mattermost teams, channels and messages, plus an MCP host running as a Mattermost bot that can use configured MCP servers.
+945	Discord REST API: list channels, categories, roles and permission overwrites, with channel, role, guild and message management tools disabled by default.
+946	Interact with Product Hunt trending posts, comments, collections, users and more.
+947	Send bots to browser-based meetings (Zoom, Teams, Google Meet) to gather live transcripts, speak text and post in the meeting chat.
+948	Collaboration rooms for AI agents: create and join rooms and exchange real-time messages over MCP or A2A. Self-hostable.
+949	Slack DMs, channels, threads and search without an OAuth app or admin approval.
+950	iCloud Mail over IMAP and SMTP: search all folders, rebuild threads, save attachments, draft replies and file messages by rule, without marking mail as read.
+951	Query and interact with Bluesky instances.
+952	Telephony via Vonage APIs: automate voice calls with speech-to-text call summaries, send and receive SMS, and detect voicemail.
+953	Self-hosted email for multiple Gmail, iCloud, Fastmail or IMAP/SMTP accounts: search, read, threaded replies, drafts, allowlisted sending and attachments.
+954	Slack workspace integration.
+955	Bring an agent into live Google Meet or Zoom calls via a Chrome extension: read captions, answer in a side panel, post to chat and view shared screens.
+956	Kudosity SMS, MMS and WhatsApp messaging: send messages, get delivery reports and replies, manage contacts and lists, configure webhooks and check balance.
+957	Local access to macOS apps: Mail, Calendar, Contacts, Reminders, Notes, iMessage, Finder, Safari, OmniFocus, Teams, Outlook, OneDrive and Office documents.
+958	Telegram access with direct API calls, multi-user auth, an HTTP-MTProto bridge, file attachments and voice transcription.
+959	Private, EU-hosted email for AI agents over JMAP: read, search, reply in-thread, organize and send, with sending pinned to the signed-in mailbox.
+960	Search personal WhatsApp messages and contacts, and send messages to individuals or groups.
+961	Read-only stats for public Telegram groups tracked by the Limzo anti-spam bot: leaderboards, activity trends, member levels and moderation summaries.
+962	Multi-agent communication hub with real-time messaging, task scheduling, shared memory, trust-based evolution and role-based access control.
+963	Manage WhatsApp Business message templates via the Meta Cloud API: create, validate and send all template types, including carousel, catalog and flows.
+964	Integrate with a LINE Official Account.
+965	Search an Outlook inbox, send emails, schedule meetings, manage contacts and configure mailbox settings.
+966	Check an email before an AI agent sends it: returns send, ask-a-human or block, with machine reason codes and prompt-injection detection.
+967	Have an AI make phone calls on your behalf: book reservations, schedule appointments and view call transcripts.
+968	Restructure large Outlook/Hotmail mailboxes: move folder subtrees, bulk move and mark-read with dry-run previews, and manage inbox rules. Cannot send mail.
+969	CalDAV calendars on any server (Yandex, Google, Nextcloud, iCloud and more): create events with recurrence, attendees and reminders, and search events.
+970	Email inboxes for agents that return one-time codes as a field. Addresses are permanent; messages expire after a configurable retention window.
+971	Unified email across Gmail, Outlook, iCloud and generic IMAP/SMTP: search, send, organize and batch-manage messages, with encrypted credential storage.
+972	Send, receive, monitor and reply to email with thread context via EngageLab Email.
+973	Utility API tools for agents: schema generation, text extraction, token counting, regex and cron building, prompt optimization, web summarization and more.
+974	Lets the LLM reach you by phone: live, interruptible voice calls and tiered alerts over self-hosted SIP, with whisper.cpp speech-to-text and macOS TTS.
+975	Email for AI agents: send and receive as Markdown with configurable human oversight (monitor, gate or fully autonomous).
+976	Contacts, groups and photos on any CardDAV server (Radicale, Baikal, Nextcloud, Fastmail, iCloud), with ETag-guarded writes and an address book allowlist.
+977	Events, tasks and journal entries on any CalDAV server (Radicale, Nextcloud, Fastmail, iCloud), with a calendar allowlist and approval for series changes.
+978	Sequenzy email marketing automation: manage subscribers, lists, segments, templates, campaigns, sequences, transactional emails and analytics.
+979	Agent-to-agent networking: your agent publishes what you need and matches with other people's agents, and both humans approve before connecting.
+980	Control QQ via NapCatQQ (OneBot v11): send and receive messages, manage groups and wake the agent on incoming messages.
+981	Apple Mail, Calendar, Contacts, Reminders, Notes, Messages and Safari via AppleScript on macOS, or iCloud over IMAP, CalDAV and CardDAV elsewhere.
+982	Send, reply to and forward mail over SMTP, restricted to a recipient allowlist, with each message approved by a person before sending.
+983	Self-hosted email for AI agents: mailboxes on your own domain, OTP and verification-link extraction, waiting for new mail, and a web dashboard.
+984	Send push notifications through ntfy, read back sent messages, update a notification in place while a job runs, and administer users and topic access.
+985	Discord chat, moderation, automod, events and administration, including building a server from a description, with confirmation for destructive actions.
+986	Telegram via MTProto: read chats, search messages, download media and manage contacts, with QR code login.
+987	Send ChatterBox bots to Zoom and Google Meet meetings and get transcripts and recordings.
+988	Call, text or push-notify the user's phone when an agent needs input mid-task, and let them reply by voice.
+989	Create and manage Carbon Voice voice messages, conversations, direct messages, folders, voice memos and AI actions.
+990	Schedule reminders, notifications and webhooks with the Pingfyr scheduled delivery API.
+991	Rent virtual phone numbers worldwide, receive SMS and manage the full activation lifecycle via Platfone.
+992	Send physical postcards worldwide, individually or in bulk.
+993	Multi-guild Discord management: messages, channels, roles, forums, webhooks and moderation.
+994	Middleware exposing aiogram Telegram bots via MCP: messaging, rich media, moderation, keyboards, real-time events, rate limiting, permissions and audit logs.
+995	Send push notifications to iPhone, iPad and Mac via BotBell, with two-way replies, action buttons, Markdown and multi-bot management.
+996	Interact with Discord and automate tasks.
+997	Interact with the VRChat API: retrieve information about friends, worlds, avatars and more.
+998	Local access to Hey.com email via a cached session: read, search, send, reply and manage the Screener.
+999	Email inboxes for AI agents via Sendmux: receive, search and send mail.
+1000	Viber Bot REST API: send text, media, files, locations and contacts, broadcast messages, manage webhooks and inspect account and user details.
+1001	Read, search and send email with Zoho Mail.
+1002	Connect to Microsoft Office and the Microsoft 365 suite via the Graph API, including Outlook mail, files, Excel and calendar.
+1003	Serverless form backend, lead triage and contact form generator for static sites, React and JAMstack apps.
+1004	Phone numbers and voice for AI agents: make and receive calls, send email and manage contacts.
+1005	Multi-account email over IMAP, SMTP, Exchange Web Services and Microsoft Graph: read, search, send, reply, forward, bulk operations and attachment downloads.
+1006	Send notifications to your phone using ntfy.
+1007	Terminal Telegram client over MTProto: CLI for messages, media and contacts, plus an MCP server that sends notifications when new messages arrive.
+1008	Send and read SMS through your own Android phone via textbee, the open-source SMS gateway, including replies, codes and delivery status.
+1009	Tools for neurodivergent professionals: corporate-ambiguity translator, planner, and a guardrail against amplifying rumination, hyperfocus or sycophancy.
+1010	Manage DIDLogic SIP endpoints, numbers and destinations.
+1011	Send transactional email, authenticate sending domains, track delivery and diagnose deliverability, with scoped API keys and dry-run mode.
+1012	Read iMessage data on macOS.
+1013	Interact with JMAP (JSON Meta Application Protocol) email servers.
+1014	WhatsApp Business tools: send messages, automate workflows, run campaigns and manage CRM.
+1015	Manage Website Toolbox forums via the Forum REST API: categories, topics, posts, users, user groups, conversations, moderators, tags and page views.

@@ -1,0 +1,1922 @@
+[
+  {
+    "line": 523,
+    "translated": "- @@L0@@ 📇 🏠 🍎 - Подключение к браузеру Perplexity Comet для агентного серфинга, глубокого исследования и мониторинга задач в реальном времени."
+  },
+  {
+    "line": 524,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hshintelligence/agent-scrape) 📇 ☁️ - Веб-скрейпинг с оплатой за вызов через x402 в сети Base, со структурированным извлечением, скриншотами, метаданными, браузерными сессиями и рабочими процессами."
+  },
+  {
+    "line": 525,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hunglp97/tabpilot-mcp) 🐍 🏠 🍎 🪟 🐧 - Управляйте своим открытым браузером Chrome с входом: чтение страниц с бюджетом токенов, обработка сложных SPA-форм и опросов и поддержка headless Ubuntu."
+  },
+  {
+    "line": 526,
+    "translated": "- @@L0@@ 📇 ☁️ - Виртуальная студийная подготовка для недвижимости: оформление пустых комнат, превращение планов этажей в 3D-рендеры, классификация изображений помещений, написание описаний и предложение стилей."
+  },
+  {
+    "line": 527,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LeonTing1010/tap) 📇 🏠 🍎 🪟 🐧 - Компилирует браузерную автоматизацию в детерминированные планы, которые выполняются в вашем Chrome с входом без вызовов LLM во время выполнения, обнаруживая дрейф при изменении сайтов."
+  },
+  {
+    "line": 528,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lespaceman/agent-web-interface) 📇 🏠 🍎 🪟 🐧 - Экономная по токенам браузерная автоматизация: семантические снимки страниц и стабильные ID элементов вместо сырого DOM или скриншотов, управление Chrome через CDP."
+  },
+  {
+    "line": 529,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/markmircea/Selenix-MCP-Server) 📇 🏠 🍎 🪟 🐧 - Создание, запуск, отладка и управление тестами браузерной автоматизации Selenix через естественный язык."
+  },
+  {
+    "line": 530,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ilien-dev/svipall) 🦀 🏠 🍎 🪟 🐧 - Локально-ориентированное веб-чтение, эскалирующее с HTTP до реального браузера при блокировке: чистый Markdown, обход сайтов, поиск, извлечение строк и локальная обработка CAPTCHA."
+  },
+  {
+    "line": 531,
+    "translated": "- @@L0@@ 📇 🏠 - Автономная браузерная автоматизация."
+  },
+  {
+    "line": 532,
+    "translated": "- @@L0@@ 📇 ☁️ - Получение субтитров и транскриптов YouTube для анализа ИИ."
+  },
+  {
+    "line": 533,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/samson-art/transcriptor-mcp) 📇 ☁️ - Получение транскриптов и метаданных для суммаризации и анализа контента."
+  },
+  {
+    "line": 534,
+    "translated": "- @@L0@@ 🐍 🏠 - Минимальная реализация MCP-сервера и клиента с использованием Azure OpenAI и Playwright."
+  },
+  {
+    "line": 535,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/junipr-labs/mcp-server) 📇 ☁️ - API веб-разведки: скриншоты, генерация PDF, метаданные страниц и специализированные экстракторы для новостей, соцсетей, результатов поиска, цен и многого другого."
+  },
+  {
+    "line": 536,
+    "translated": "- @@L0@@ 🏠 🍎 🐧 - Браузер без интерфейса для ИИ и веб-автоматизации со встроенным MCP-сервером."
+  },
+  {
+    "line": 537,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LvcidPsyche/auto-browser) 🐍 🏠 🐧 🍎 🪟 - Браузерный агент с возможностью перехвата человеком через noVNC, переиспользуемыми профилями аутентификации, контролем одобрения и аудита и изолированными сессиями Docker."
+  },
+  {
+    "line": 538,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Lyosis/claudeForSafari) 📇 🏠 🍎 - Управление Safari через веб-расширение: навигация, чтение страниц, клик по элементам, заполнение форм и управление вкладками без Playwright или WebDriver."
+  },
+  {
+    "line": 539,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lyrenth/lyrenth-mcp) 📇 🏠 - Чтение любого URL как чистого AIDocument (Markdown плюс структура) через кэшированный индекс Lyrenth."
+  },
+  {
+    "line": 540,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/maccydee/cute-web-scraper) 🐍 🏠 🍎 🪟 🐧 - Веб-скрейпинг с эскалацией уровней получения при обнаруженных блокировках, возвращающий чистый Markdown или сохраняющий крупные скрейпы в SQLite для read-only SQL-запросов."
+  },
+  {
+    "line": 541,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MathiasPaulenko/wavexis-mcp) 🐍 🏠 🍎 🪟 🐧 - Браузерная автоматизация для вашего существующего Chrome или Firefox через CDP и BiDi, со скрытым режимом, аудитами Lighthouse, пакетной обработкой действий YAML и прямым доступом к протоколу."
+  },
+  {
+    "line": 542,
+    "translated": "- @@L0@@ - Браузерная автоматизация Playwright: взаимодействие с веб-страницами через структурированные снимки доступности."
+  },
+  {
+    "line": 543,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Mingye-Lu/AgenticCrawler) 🦀 🏠 🍎 🪟 🐧 - Автономный целенаправленный LLM-веб-краулер со скрытым серфингом, распространяемый как один бинарный файл."
+  },
+  {
+    "line": 544,
+    "translated": "- @@L0@@ 📇 🏠 - Взаимодействие с вашими локальными браузерами."
+  },
+  {
+    "line": 545,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nnemirovsky/iwdp-mcp) 🏎️ 🏠 🍎 🐧 - Отладка iOS Safari через ios-webkit-debug-proxy с поддержкой WebKit Inspector Protocol: DOM, CSS, сеть, хранилище, отладчик и др."
+  },
+  {
+    "line": 546,
+    "translated": "- @@L0@@ 📇 ☁️ - API веб-скрейпинга, обхода и поиска: извлечение контента как Markdown или JSON, пакетная обработка URL и получение ответов с цитированием."
+  },
+  {
+    "line": 547,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ofershap/real-browser-mcp) 📇 🏠 - Управление реальным браузером Chrome пользователя через расширение, с повторным использованием существующих сессий, входов и файлов cookie."
+  },
+  {
+    "line": 548,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - Защищённая Chrome-автоматизация и входы с постквантовым шифрованием, хранилищем учётных данных, очисткой памяти и журналированием аудита."
+  },
+  {
+    "line": 549,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - Веб-автоматизация через Selenium WebDriver."
+  },
+  {
+    "line": 550,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/paipaipai666/nexus-browser-mcp) 🐍 🏠 🪟 🍎 🐧 - Браузерная автоматизация на основе дерева доступности с детерминированными снимками, шлюзами одобрения человеком, затенёнными журналами аудита и мониторингом консоли, сети и Web Vitals."
+  },
+  {
+    "line": 551,
+    "translated": "- @@L0@@ 📇 🏠 - Веб-поиск по результатам Google."
+  },
+  {
+    "line": 552,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/protostatis/unbrowser) 🦀 🏠 🍎 🪟 🐧 - Лёгкий нативный браузер, выполняющий JavaScript, переходящий по ссылкам, заполняющий формы, управляющий файлами cookie и возвращающий BlockMaps с низким расходом токенов, без Chrome."
+  },
+  {
+    "line": 553,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/prufa-dev/prufa-mcp) 🐍 ☁️ - Реальные браузерные QA-аудиты URL: сломанные регистрация, вход и оформление заказа, ошибки консоли, отсутствующая аналитика, заголовки безопасности, цели касания и доступность."
+  },
+  {
+    "line": 554,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/KuvopLLC/purroxy2) 📇 🏠 🍎 🪟 🐧 - Запись действий на любом сайте и их воспроизведение в headless Playwright, с зашифрованными учётными данными и самоисцелением селекторов на основе ИИ."
+  },
+  {
+    "line": 555,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/RapierCraft/alterlab-mcp-server) 📇 ☁️ - Веб-скрейпинг, извлечение структурированных данных и скриншоты с рендерингом JavaScript, ротацией резидентных прокси и автоматическими повторами."
+  },
+  {
+    "line": 556,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/realwigu/mcp-doctor) 📇 🏠 🍎 🪟 🐧 - Диагностика MCP-серверов: обнаружение клиентских конфигураций, проверка соединений, аудит проблем безопасности и контроль задержки."
+  },
+  {
+    "line": 557,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/reeinharddd/snapmcp) 📇 🏠 🍎 🪟 🐧 - Рендер вывода терминала, кода с подсветкой синтаксиса, веб-страниц, Markdown, HTML и git-диффов как PNG, JPEG, PDF или GIF локально через Playwright."
+  },
+  {
+    "line": 558,
+    "translated": "- @@L0@@ 📇 🏠 🍎 - Интеграция с Apple Shortcuts."
+  },
+  {
+    "line": 559,
+    "translated": "- @@L0@@ 🐍 🏠 - Сжатие HTML веб-страницы в компактные структурированные карты, сохраняющие действующие элементы, чтобы агенты могли читать и взаимодействовать со страницами, используя меньше токенов."
+  },
+  {
+    "line": 560,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ScrapeUnblocker/scrapeunblocker-mcp) 📇 🏠 🍎 🪟 🐧 - Получение HTML веб-страницы, разобранного ИИ JSON или результатов Google через антибот-API ScrapeUnblocker."
+  },
+  {
+    "line": 561,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/screenshotscout/screenshotscout-mcp) 📇 ☁️ - Захват веб-страниц как изображений или PDF с прицеливанием на элементы, управлением устройством и областью просмотра, выбором местоположения, взаимодействием со страницей и опциями блокировки."
+  },
+  {
+    "line": 562,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/seleniumbase/SeleniumBase) 🐍 🏠 🍎 🪟 🐧 - Браузерная автоматизация, тестирование и обход защиты от ботов с использованием SeleniumBase CDP Mode с Chromium, включая решение CAPTCHA кликами."
+  },
+  {
+    "line": 563,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/seleniumboot/selenium-mcp) 🐍 🏠 🍎 🪟 🐧 - Автоматизация Selenium WebDriver с утверждениями и самоисцеляющимися локаторами, плюс генерация кода для Java, Python и C# тест-фреймворков и CI-конвейеров."
+  },
+  {
+    "line": 564,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Silbercue/public-browser) 📇 🐍 🏠 🍎 🪟 🐧 - Chrome-автоматизация поверх сырого CDP с несколькими вкладками, кэшированными ссылками дерева доступности, выполнением многошаговых потоков на стороне сервера и Python API скриптинга."
+  },
+  {
+    "line": 565,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/site-shot/site-shot-mcp) 📇 ☁️ - Скриншоты сайтов через Chromium с захватом всей страницы, страно-специфичными прокси и автоматическим удалением рекламы и баннеров cookie."
+  },
+  {
+    "line": 566,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/snapshot-site/snapshot-site-mcp) 📇 ☁️ - Захват любого URL как PNG, JPEG, WebP, PDF или HTML, сравнение версий страницы для обнаружения визуальных регрессий и получение ИИ-сводок страницы."
+  },
+  {
+    "line": 567,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SolveGate/solvegate-mcp) 🎖️ 📇 ☁️ - Обнаружение и решение задач Cloudflare Turnstile: проверка, использует ли страница Turnstile или другой CAPTCHA, и получение решённого токена при необходимости."
+  },
+  {
+    "line": 568,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/swimmwatch/cloakbrowser-mcp) 📇 🏠 🍎 🪟 🐧 - Браузерная автоматизация, совместимая с Playwright MCP, с использованием Chromium CloakBrowser."
+  },
+  {
+    "line": 569,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sylin-org/ghostlight) 🦀 🏠 🪟 🐧 - Видимая локальная браузерная автоматизация в вашем профиле Chromium с входом, с восстановлением и необязательными политиками и контролем аудита."
+  },
+  {
+    "line": 570,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/trueoriginlabs/vibatchium) 🐍 🏠 🐧 - Самостоятельно размещаемая скрытая Chrome-автоматизация через Patchright: параллельные постоянные профили, зашифрованное хранилище учётных данных с 2FA и сканирование инъекций промптов."
+  },
+  {
+    "line": 571,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@User0856/snaprender-mcp) 📇 ☁️ - Захват сайтов как PNG, JPEG, WebP или PDF с эмуляцией устройств, тёмным режимом, блокировкой рекламы и удалением баннеров cookie."
+  },
+  {
+    "line": 572,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/copperline-labs/rendex-mcp) 📇 ☁️ - Рендер любого URL или сырого HTML как PNG, JPEG, WebP или PDF, с пакетной обработкой, гео-таргетингом и асинхронными вебхуками."
+  },
+  {
+    "line": 573,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vincentvella/devloop) 📇 🏠 🍎 🪟 🐧 - Управление браузером или приложением Expo/React Native вместе с вашим dev-сервером на одной согласованной временной шкале, выстраивая ошибки фронтенда в ряд с трассировками стека бэкенда."
+  },
+  {
+    "line": 574,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/webdriverio/mcp) 📇 🏠 - Автоматизация браузера и мобильных приложений с WebdriverIO: управление браузерами и автоматизация нативных Android- и iOS-приложений через WebDriver и Appium."
+  },
+  {
+    "line": 575,
+    "translated": "- @@L0@@ 📇 🏠 - Получение популярных видео из Bilibili."
+  },
+  {
+    "line": 576,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yinnho/aginxbrowser) 🦀 🏠 🍎 🪟 🐧 - Агент-браузер без Chromium со встроенным V8: многоуровневая выборка, мультидвижковый поиск, скриншоты, постоянные сессии входа и доступ CDP."
+  },
+  {
+    "line": 577,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ymw0407/auth-fetch-mcp) 📇 🏠 🍎 🪟 🐧 - Получение контента с защищённых входом страниц, таких как Notion, Google Docs, Jira и Confluence, через реальный вход в браузер с кэшированием постоянной сессии."
+  },
+  {
+    "line": 578,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@PrinceGabriel-lgtm/freshcontext-mcp) ☁️ 🏠 - Данные в реальном времени из GitHub, Hacker News, Scholar, arXiv, YC, вакансий, финансов и трендов пакетов, причём каждый результат помечен временем для свежести."
+  },
+  {
+    "line": 579,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zumerlab/snapsurf) 📇 🏠 🍎 🪟 🐧 - Навигация и верификация браузера: компактные семантические дайджесты страниц, ранжированный текстовый поиск и типизированные диффы после каждого действия с утверждениями."
+  },
+  {
+    "line": 580,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zzzjy765/ottersnap-mcp) 📇 ☁️ - API рендеринга и доказательств Glint Render: скриншоты, PDF, OG-изображения, мониторинг, извлечение и захват доказательств с защитой от подделки."
+  },
+  {
+    "line": 581,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/CapMonsterCloud/capmonster-mcp-captcha-solver) 🐍 📇 ☁️ - Определение типов и параметров CAPTCHA, создание задач решения и получение результатов через API CapMonster Cloud, с доступом к его документации."
+  },
+  {
+    "line": 583,
+    "translated": "### ☁️ <a name=\"cloud-platforms\"></a>Облачные платформы"
+  },
+  {
+    "line": 585,
+    "translated": "Интеграция с сервисами облачных платформ. Позволяет управлять облачной инфраструктурой и сервисами и взаимодействовать с ними."
+  },
+  {
+    "line": 587,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dockndevai/mcp-kubernetes) 📇 🏠 🍎 🪟 🐧 - Мониторинг и операции мультикластерного Kubernetes с безопасными режимами доступа, списками разрешённых пространств имён, контролируемым удалением/применением/exec, пробным прогоном и журналированием аудита."
+  },
+  {
+    "line": 588,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIops-tools/K8s-AIops) 🐍 🏠 - Управляемые операции Kubernetes для k3s, EKS, GKE и AKS: рабочие нагрузки, задачи, конфигурация, хранилище, сети и выкатки, с журналированием аудита, пробным прогоном и откатом."
+  },
+  {
+    "line": 589,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dockndevai/mcp-oci) 📇 🏠 🍎 🪟 🐧 - Только чтение: обнаружение ресурсов Oracle Cloud (OCI), отображение зависимостей и воспроизводимая генерация Terraform, с редактированием секретов."
+  },
+  {
+    "line": 590,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dockndevai/mcp-azure) 📇 🏠 🍎 🪟 🐧 - Инвентаризация Azure Resource Manager, теги и управление жизненным циклом ВМ, со списками разрешённых групп ресурсов, контролем удаления и типизированным подтверждением."
+  },
+  {
+    "line": 591,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dockndevai/mcp-openshift) 📇 🏠 🍎 🪟 🐧 - Операции OpenShift и Kubernetes над podами, развёртываниями, маршрутами и сборками, с режимами доступа, списками разрешённых пространств имён, пробным прогоном и редактированием Secret."
+  },
+  {
+    "line": 592,
+    "translated": "- @@L0@@ 🎖️ 📇 🏠 🍎 🐧 - Развёртывание сгенерированного ИИ кода в децентрализованные сети хранения, такие как Greenfield, IPFS и Arweave, через 4EVERLAND Hosting."
+  },
+  {
+    "line": 593,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/adiosdotdev/mcp) 📇 ☁️ - Управление рабочими пространствами Adios, превью, сборками, логами, сервисами и production-развёртываниями."
+  },
+  {
+    "line": 594,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AIops-tools/Nutanix-AIops) 🐍 🏠 - Управляемые операции Nutanix Prism Central: кластеры, ВМ, хранилище, сети, снимки/DR, оповещения и LCM, с журналированием аудита, пробным прогоном и откатом."
+  },
+  {
+    "line": 595,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AkaciaNL/basicdeploy-mcp) 📇 ☁️ 🍎 🪟 🐧 - Управление контейнерами BasicDeploy, каждый с PostgreSQL, S3-совместимым хранилищем и публичным URL: развёртывание приложений, запуск команд, чтение логов и переключение always-on."
+  },
+  {
+    "line": 596,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Focus-GTS/eds-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - Управление Adobe Edge Delivery Services (AEM EDS): превью, публикация, массовые операции, контент, Core Web Vitals, отслеживание 404, A/B-эксперименты и редиректы."
+  },
+  {
+    "line": 597,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - Интеграция AWS SSO: вход, список аккаунтов и ролей и запуск AWS CLI команд с временными учётными данными."
+  },
+  {
+    "line": 598,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/agentmetal/mcp) 🎖️ 📇 ☁️ - Подготовка, SSH-подключение, запуск команд и управление Linux VPS с оплатой в USDC через x402 или картой."
+  },
+  {
+    "line": 599,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/anythink-cloud/anythink-cli) #️⃣ ☁️ 🍎 🪟 🐧 - Создание и запуск бэкенда на платформе Anythink: реляционные данные с безопасностью на уровне строк, поиск, RBAC, рабочие процессы, инструменты роста и удержания и платежи."
+  },
+  {
+    "line": 600,
+    "translated": "- @@L0@@ 📇 ☁️ - Загрузка в хранилище IPFS и управление им."
+  },
+  {
+    "line": 601,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@aparajithn/agent-deploy-dashbaord) 🐍 ☁️ - Единая панель развёртывания для Vercel, Render, Railway и Fly.io: статус развёртывания, логи, переменные окружения, откаты и проверки здоровья."
+  },
+  {
+    "line": 602,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/arnstarn/mcp-server-spotinst) 🐍 ☁️ - Управление кластерами Spot.io (Spotinst) Ocean, VNG, Elastigroups, затратами, right-sizing и логами в аккаунтах AWS и Azure."
+  },
+  {
+    "line": 603,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/antonio-mello-ai/mcp-pfsense) 🐍 🏠 - Управление фаерволами pfSense: правила, аренды DHCP, переопределения DNS, мониторинг шлюза, таблица ARP и сервисы, с двухэтапным подтверждением для разрушительных действий."
+  },
+  {
+    "line": 604,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/antonio-mello-ai/mcp-proxmox) 🐍 🏠 - Управление кластерами Proxmox VE: ВМ, контейнеры, снимки, шаблоны, cloud-init, фаервол и миграции, с двухэтапным подтверждением для разрушительных действий."
+  },
+  {
+    "line": 605,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alexpota/cloudscope-mcp) 📇 ☁️ - Управление затратами Azure: анализ расходов, прогнозы, обнаружение аномалий, бюджеты, советы по оптимизации, обнаружение простаивающих ресурсов и распределение затрат по тегам."
+  },
+  {
+    "line": 606,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Albaker-Group/cloudprice-mcp) 🐍 ☁️ 🍎 🪟 🐧 - Сравнение цен на вычисления, хранилище, управляемый Postgres, исходящий трафик и GPU между AWS, Azure, GCP и OCI, плюс инструменты FinOps для анализа безубыточности, TCO и миграции."
+  },
+  {
+    "line": 607,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AliKarami/MikroMCP) 📇 🏠 🍎 🪟 🐧 - Управление устройствами MikroTik RouterOS: интерфейсы, фаервол, DHCP, DNS, маршруты, WireGuard, WiFi, BGP/OSPF и VLAN, с превью пробного прогона, RBAC и откатом."
+  },
+  {
+    "line": 608,
+    "translated": "- @@L0@@ 🎖️ 🐍 ☁️ - Управление ресурсами Alibaba Cloud, включая ECS, Cloud Monitor, OOS и другие широко используемые облачные продукты."
+  },
+  {
+    "line": 609,
+    "translated": "- @@L0@@ 🎖️ ☁️ - Набор серверов для интеграции с сервисами и ресурсами AWS."
+  },
+  {
+    "line": 610,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/backblaze-labs/b2-mcp) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Управление бакетами, файлами, ключами Backblaze B2, Object Lock и S3-совместимым хранилищем."
+  },
+  {
+    "line": 611,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BlazingCDN/BlazingCDN-MCP) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Управление зонами BlazingCDN, очисткой и прогревом кэша, метриками трафика, пользовательскими доменами, облачным хранилищем и Video CDN; по умолчанию только чтение."
+  },
+  {
+    "line": 612,
+    "translated": "- @@L0@@ 🐍 ☁️ - Управление виртуальными машинами VMware ESXi и vCenter через REST API."
+  },
+  {
+    "line": 613,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/chaandannn/finopsmcp) 🐍 🏠 🍎 🪟 🐧 - Локально-ориентированный помощник FinOps только для чтения: анализ счетов AWS, Azure, GCP, Kubernetes, SaaS и ИИ, поиск пустых трат и получение исправлений в виде pull request."
+  },
+  {
+    "line": 614,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - Интеграция с сервисами Cloudflare, включая Workers, KV, R2 и D1."
+  },
+  {
+    "line": 615,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/davidlandais/ovh-api-mcp) 🦀 ☁️ - Доступ ко всему API OVH через инструменты поиска и выполнения, запускающие песочное JavaScript (Code Mode)."
+  },
+  {
+    "line": 616,
+    "translated": "- @@L0@@ 🎖️ 🏎️ ☁️ - Управление ресурсами Kubernetes через абстракцию Cyclops."
+  },
+  {
+    "line": 617,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Drop-to-run/drop2run-cli) 📇 ☁️ - Публикация страниц, написанных в чате или локальной папке, на живой HTTPS URL, со статическим хостингом на границе Cloudflare."
+  },
+  {
+    "line": 618,
+    "translated": "- @@L0@@ 🐍 ☁️/🏠 - Операции Kubernetes через kubectl и helm на естественном языке, интегрировано с Open WebUI."
+  },
+  {
+    "line": 619,
+    "translated": "- @@L0@@ 🐍 ☁️/🏠 - Azure Data Lake Storage: управление контейнерами и метаданными файлов, а также чтение, запись, загрузка и скачивание файлов."
+  },
+  {
+    "line": 620,
+    "translated": "- @@L0@@ 🎖️ 🐍 🏠 ☁️ 📟 - Управление и контроль устройств ESP RainMaker."
+  },
+  {
+    "line": 621,
+    "translated": "- @@L0@@ 📇 ☁️/🏠 - Операции кластера Kubernetes для pod, развёртываний и сервисов."
+  },
+  {
+    "line": 622,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/friendlygeorge/docker-mcp-server) 📇 🏠 - Управление контейнерами Docker: проверки здоровья, автоперезапуск, жизненный цикл Compose и потоковая передача логов."
+  },
+  {
+    "line": 623,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/frndchagas/coolify-mcp) 📇 🏠 - Управление самостоятельно размещаемым PaaS Coolify: развёртывания с проверенными сборками, диагностика приложений, бэкапы БД, офлайн-поиск документации и подтверждённые разрушительные действия."
+  },
+  {
+    "line": 624,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ganakailabs/cloudeval-cli) 📇 ☁️ - Доступ к контексту и отчётам проекта Cloudeval для облачных оценок Azure и AWS CloudFormation, с набором инструментов только для чтения."
+  },
+  {
+    "line": 625,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/garlicKim21/ratatosk-mcp) 🏎️ 🏠 🍎 🪟 🐧 - Разведка релизов CNCF: исправления безопасности, критические изменения и устаревания из заметок о релизах выпущенных и инкубируемых проектов, с локальными проверками версий."
+  },
+  {
+    "line": 626,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/GeiserX/spinnaker-mcp) 🏎️ ☁️ - Управление приложениями, конвейерами, выполнениями Spinnaker и облачной инфраструктурой через Gate API."
+  },
+  {
+    "line": 627,
+    "translated": "- @@L0@@ 📇 ☁️/🏠 - Запрос, анализ и мониторинг ресурсов Azure в масштабе с использованием Azure Resource Graph."
+  },
+  {
+    "line": 628,
+    "translated": "- @@L0@@ 🎖️ 🏎️ ☁️ - Интеграция с экосистемой Terraform: обнаружение провайдеров, анализ модулей и доступ к Terraform Registry API для рабочих процессов инфраструктуры как кода."
+  },
+  {
+    "line": 629,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/helbertparanhos/cloudflare-mcp-pro) 📇 🏠 🍎 🪟 🐧 - Управление DNS, зонами, Workers, KV, R2, D1, Pages, WAF, SSL, Email Routing Cloudflare и др. через REST API, с одобрением человека для каждого изменения."
+  },
+  {
+    "line": 630,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/helbertparanhos/easypanel-mcp-server) 📇 🏠 🍎 🪟 🐧 - Контроль развёртываний Easypanel, сервисов, переменных окружения, логов, доменов, баз данных и мониторинга, с подтверждением для разрушительных действий."
+  },
+  {
+    "line": 631,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hostodo/hostodo-mcp) 📇 ☁️ - Управление VPS Hostodo: детали ВМ, управление питанием, переименование, переустановка ОС, команды гостевого агента и загрузка артефактов, с ограниченными токенами и журналами аудита."
+  },
+  {
+    "line": 632,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/huangdun/tempmd-mcp) 📇 ☁️ - Публикация HTML, Markdown, CSV или Mermaid артефактов на temp.md по стабильной публичной ссылке, обновляемой на месте, с истечением по активности."
+  },
+  {
+    "line": 633,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Ilmar7786/marzban-sdk) 📇 ☁️/🏠 - Управление прокси/VPN-панелью Marzban: пользователи, подписки, узлы, хосты, конфигурация и системная статистика, с подтверждением для разрушительных вызовов."
+  },
+  {
+    "line": 634,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Infrawise/mcp-server) 📇 ☁️ 🍎 🪟 🐧 - Оптимизация затрат Azure FinOps: простаивающие ресурсы, right-sizing и рекомендации Reserved Instance."
+  },
+  {
+    "line": 635,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ionos-cloud/ionoscloud-mcp) 🏎️ ☁️ - Инспекция и управление облачной инфраструктурой IONOS."
+  },
+  {
+    "line": 636,
+    "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - Сравнение цен на облачные инстансы в реальном времени между AWS, Azure, GCP и OCI, с калькуляторами рабочих нагрузок и оценкой экономии от миграции."
+  },
+  {
+    "line": 637,
+    "translated": "- @@L0@@ 📇 ☁️ - Данные цен Oracle Cloud Infrastructure с калькуляторами стоимости и сравнением между провайдерами."
+  },
+  {
+    "line": 638,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/john-broadway/proximo) 🐍 🏠 - Управление Proxmox VE, Backup Server, Mail Gateway и Datacenter Manager с планами пробного прогона, снимками и неподделываемым журналом аудита; по умолчанию только чтение."
+  },
+  {
+    "line": 639,
+    "translated": "- @@L0@@ ☁️ - Доступ к компонентам Netskope Private Access в среде NPA, с деталями настройки и примерами использования."
+  },
+  {
+    "line": 640,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kaka-milan-22/kops) 🐍 🏠 - Только чтение kubectl со структурированным выводом JSON, жёстко заданными безопасными глаголами, скрытыми значениями Secret и ConfigMap и разовой триажем и инвентаризацией кластера."
+  },
+  {
+    "line": 641,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/krovacloud/krova-node) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Подготовка и управление Krova Cloud Cubes (микро-ВМ Firecracker с root-доступом), плюс пользовательские домены, сопоставление TCP-портов и снимки."
+  },
+  {
+    "line": 642,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/shiped-app/shiped-mcp) ☁️ - Развёртывание сгенерированного ИИ HTML, CSS и JavaScript на публичный HTTPS URL."
+  },
+  {
+    "line": 643,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/L337-org/docker-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - Управление локальными или удалёнными демонами Docker: контейнеры, образы, Compose, Swarm, Buildx, Scout и OCI-реестры, с хостами только для чтения для безопасного мониторинга."
+  },
+  {
+    "line": 644,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Labs64/NetLicensing-MCP) 🎖️ 🐍 ☁️ - Управление жизненным циклом программного лицензирования в Labs64 NetLicensing через естественный язык."
+  },
+  {
+    "line": 645,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/joachimBrindeau/domain-mcp) 📇 ☁️ 🍎 🪟 🐧 - Управление доменами Dynadot, DNS, WHOIS, серверами имён, трансферами и aftermarket-объявлениями."
+  },
+  {
+    "line": 646,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - Создание, изменение и удаление комнат, тредов, комментариев, уведомлений Liveblocks и др., с доступом для чтения к Storage и Yjs."
+  },
+  {
+    "line": 647,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lizard-build/lizard-mcp) 🎖️ 📇 ☁️ - Развёртывание сервисов на Lizard с управляемым Postgres, Redis и S3, логами и метриками, секретами, масштабированием и пользовательскими доменами."
+  },
+  {
+    "line": 648,
+    "translated": "- @@L0@@ 🎖️ 📇 🏠 - Управление локальными средами AWS LocalStack: операции жизненного цикла, развёртывания инфраструктуры, анализ логов, внедрение сбоев и управление состоянием."
+  },
+  {
+    "line": 649,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/luno-cms/mcp) 🎖️ 📇 ☁️ - Хостинговая бэкенд-платформа LUNO: CMS, формы, аутентификация и хранилище. Не имеет отношения к криптобирже Luno."
+  },
+  {
+    "line": 650,
+    "translated": "- @@L0@@ 🏎️ 🏠 - Управление Kubernetes и OpenShift: CRUD-операции над любым ресурсом плюс специализированные инструменты кластера."
+  },
+  {
+    "line": 651,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mikusnuz/dynadot-mcp) 📇 ☁️ - API регистратора доменов Dynadot: поиск доменов, регистрация, DNS, контакты, трансферы и маркетплейс."
+  },
+  {
+    "line": 652,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mctlhq/mctl-mcp) ☁️ - Управление Kubernetes и автоматизированный GitOps."
+  },
+  {
+    "line": 653,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Mogacode-ma/infomaniak-mcp-agent) 📇 ☁️ - Неофициальная интеграция Infomaniak: веб-хостинг, почта, kDrive, домены, DNS, пользователи FTP/SSH и др., с двухфазными коммитами и отменой разрушительных действий."
+  },
+  {
+    "line": 654,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mrostamii/rancher-mcp-server) 🏎️ ☁️/🏠 - Инструменты экосистемы Rancher: мультикластерные операции Kubernetes, управление Harvester HCI (ВМ, хранилище, сети) и Fleet GitOps."
+  },
+  {
+    "line": 655,
+    "translated": "- @@L0@@ 📇 🏠 - Доступ к полному API NebulaBlock."
+  },
+  {
+    "line": 656,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/hetzner-dns-mcp) 📇 ☁️ 🍎 🪟 🐧 - Управление зонами и записями DNS Hetzner через Hetzner Cloud API: CRUD RRSet, импорт/экспорт zonefile, изменения TTL и защиты, и серверы имён."
+  },
+  {
+    "line": 657,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nitin27may/ms-graph-mcp) 🐍 ☁️ - Доступ Microsoft Graph к почте и календарю Outlook, Teams, OneDrive, SharePoint, OneNote, Planner и Entra ID."
+  },
+  {
+    "line": 658,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Novence-ai/mcp) 📇 ☁️ - Создание, проверка, развёртывание и хостинг статических сайтов."
+  },
+  {
+    "line": 659,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/wg-easy-mcp) 📇 🏠 🍎 🪟 🐧 - Администрирование самостоятельно размещаемого экземпляра wg-easy (WireGuard Easy): управление VPN-клиентами, получение конфигов и QR-кодов, создание одноразовых ссылок и проверка статуса сервера."
+  },
+  {
+    "line": 660,
+    "translated": "- @@L0@@ 🦀 🏠 - Управление окружениями Terraform: чтение конфигураций, анализ планов, применение конфигураций и управление состоянием."
+  },
+  {
+    "line": 661,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/openpouch/openpouch) 🎖️ 📇 ☁️ - Хостинг приложений для агентов: развёртывание на живой URL, верификация, просмотр логов, инспекция, откат и удаление, с одобрением человека для production."
+  },
+  {
+    "line": 662,
+    "translated": "- @@L0@@ 🐍 ☁️ - Управление облачной инфраструктурой OpenStack на основе openstacksdk."
+  },
+  {
+    "line": 663,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ofershap/mcp-server-cloudflare) 📇 ☁️ - Управление Cloudflare Workers, KV, R2, Pages, DNS и кэшем."
+  },
+  {
+    "line": 664,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ofershap/mcp-server-s3) 📇 ☁️ - Операции AWS S3: список бакетов, просмотр объектов, загрузка и скачивание файлов и генерация предподписанных URL."
+  },
+  {
+    "line": 665,
+    "translated": "- @@L0@@ 🐍 🍎/🐧 ☁️ - Управление и диагностика cert-manager."
+  },
+  {
+    "line": 666,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/plopino/plopino-mcp) 📇 ☁️ 🍎 🪟 🐧 - Публикация HTML, написанного в чате или локальных файлах и папках, на публичный URL с сохранением структуры папок."
+  },
+  {
+    "line": 667,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Poiuyhje/eqvps-mcp) 📇 ☁️ - Аренда и управление VPS, оплачиваемыми в USDC или USDT: регистрация, подготовка и контроль питания, имени хоста, root-пароля, переустановок, метрик и аннулирования."
+  },
+  {
+    "line": 668,
+    "translated": "- @@L0@@ 🏎️ ☁️/🏠 - Взаимодействие с экземплярами Portainer: управление контейнерами, операции развёртывания и мониторинг инфраструктуры."
+  },
+  {
+    "line": 669,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nikhilnt1234/TokenBurnRate) 📇 🏠 - Отслеживание стоимости токенов LLM в Claude, GPT и Gemini, с подсказками по оптимизации и оценкой экономии."
+  },
+  {
+    "line": 670,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/CodesWhat/portkey-admin-mcp) 📇 ☁️ - Плоскость управления Portkey Admin API: промпты, конфигурации, ключи, аналитика, guardrails, интеграции и развёртывания."
+  },
+  {
+    "line": 671,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/publee-dev/mcp) 🎖️ 📇 ☁️ - Публикация сгенерированного ИИ HTML или статических файлов на доступный по ссылке URL, с необязательным постоянным хостингом, обновлениями на месте и доступом по паролю или только для участников."
+  },
+  {
+    "line": 672,
+    "translated": "- @@L0@@ 🐍 🏠 - Интеграция с облачной платформой PythonAnywhere."
+  },
+  {
+    "line": 673,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/RajeevSirohi/mcp-server-terraform) 📇 🏠 🍎 🪟 🐧 - Операции Terraform с двухэтапным подтверждением для plan/apply/destroy, анализом рисков и стоимости плана, обнаружением дрейфа, import/taint/refresh и журналированием аудита."
+  },
+  {
+    "line": 674,
+    "translated": "- @@L0@@ 🐍 ☁️ - Доступ к продуктам Qiniu Cloud, таким как облачное хранилище и сервисы обработки медиа."
+  },
+  {
+    "line": 675,
+    "translated": "- @@L0@@ 📇 ☁️ - Управление ресурсами Redis Cloud на естественном языке: создание баз данных, мониторинг подписок и настройка облачных развёртываний."
+  },
+  {
+    "line": 676,
+    "translated": "- @@L0@@ 🏎️ ☁️/🏠 - Взаимодействие с кластерами Kubernetes: обнаружение ресурсов API, управление ресурсами, логи pod, метрики и события."
+  },
+  {
+    "line": 677,
+    "translated": "- @@L0@@ 🐍 ☁️/🏠 - Взаимодействие с кластерами Kubernetes через естественный язык."
+  },
+  {
+    "line": 678,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rosenvladimirov/odoo-claude-mcp) 🐍 🏠 🐧 🍎 🪟 - Самостоятельно размещаемый набор серверов для Odoo ERP 15-19, а также GitHub, Portainer, OCA и Teams, с браузерным терминалом, памятью Qdrant/Ollama и болгарской локализацией."
+  },
+  {
+    "line": 679,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - Доступ к ресурсам, логам и операциям управления Tilt для сред разработки Kubernetes."
+  },
+  {
+    "line": 680,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sevalla-hosting/mcp) 📇 ☁️ - Управление облачной инфраструктурой Sevalla."
+  },
+  {
+    "line": 681,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/shdomi8599/vibie-mcp) 📇 ☁️ 🍎 🪟 🐧 - Развёртывание папок статического HTML на постоянные URL Vibie, с маркерами папок для лёгких повторных развёртываний."
+  },
+  {
+    "line": 682,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/shipstatic/shipstatic) 📇 ☁️ - Развёртывание и управление статическими сайтами: загрузка файлов, получение URL и подключение пользовательских доменов."
+  },
+  {
+    "line": 683,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Sidd27/infrawise) 📇 ☁️ 🏠 - Анализ облачной инфраструктуры: обнаружение дрейфа IaC, отсутствующих индексов, пробелов в безопасности и антипаттернов производительности в сервисах AWS и базах данных."
+  },
+  {
+    "line": 684,
+    "translated": "- @@L0@@ 🏎️ ☁️/🏠 - Управление любым ресурсом Kubernetes, включая нативные ресурсы и CRD, через естественный язык."
+  },
+  {
+    "line": 685,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@trackerfitness729-jpg/sitelauncher-mcp-server) 📇 ☁️ - Развёртывание живых HTTPS-сайтов на субдоменах или пользовательских доменах .xyz, оплачиваемое в USDC в сети Base, с шаблонами для криптотокенов и профилей ИИ-агентов."
+  },
+  {
+    "line": 686,
+    "translated": "- @@L0@@ 📇 ☁️ - Управление доменами, записями DNS, контактами и объявлениями маркетплейса через API Spaceship."
+  },
+  {
+    "line": 687,
+    "translated": "- @@L0@@ 🐍 ☁️ - SRE-наблюдаемость для Kubernetes и OpenShift: отладка конвейеров Tekton, анализ логов, анализ первопричин и предиктивный мониторинг."
+  },
+  {
+    "line": 688,
+    "translated": "- @@L0@@ 🏎️ ☁️ - Взаимодействие с кластерами Kubernetes: вывод и применение ресурсов Kubernetes."
+  },
+  {
+    "line": 689,
+    "translated": "- @@L0@@ 🏎️ ☁️ - Взаимодействие с реестрами OCI: получение информации об образах контейнеров, список тегов и др."
+  },
+  {
+    "line": 690,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/stevejford/shiply-mcp) 📇 ☁️ - Публикация статического сайта или edge-функции в веб одним вызовом, затем управление обновлениями, пользовательскими доменами, SSL, переменными окружения, базами данных и почтой."
+  },
+  {
+    "line": 691,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/stevysmith/stacktree-mcp) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Публикация созданного агентами HTML по приватным, неугадываемым URL с ограничением по паролю или домену email, истечением, сжиганием после прочтения и обновлениями на месте."
+  },
+  {
+    "line": 692,
+    "translated": "- @@L0@@ 🏎️ ☁️/🏠 - Операции кластера Kubernetes."
+  },
+  {
+    "line": 693,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - Бэкенд-сервисы для WeChat Mini Programs и полноценных приложений: бессерверные облачные функции, базы данных и развёртывание в один клик."
+  },
+  {
+    "line": 694,
+    "translated": "- @@L0@@ 🏎️ 🏠/☁️ - Взаимодействие с ресурсами Nutanix Prism Central."
+  },
+  {
+    "line": 695,
+    "translated": "- @@L0@@ 🏎️ ☁️/🏠 - Получение актуальных цен EC2 в один вызов из предварительно разобранного каталога цен AWS."
+  },
+  {
+    "line": 696,
+    "translated": "- @@L0@@ 🏎️ 🏠 - Массовая проброска портов Kubernetes с обнаружением сервисов, управлением /etc/hosts, мониторингом трафика и потоковой передачей логов pod."
+  },
+  {
+    "line": 697,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vishalsg42/munim) 🐍 🏠 🍎 - Мультиклиентский MCP-прокси: чтение по всем аккаунтам клиентов, запись только в названный, через собственные MCP-инструменты провайдеров (Cloudflare, Vercel, Notion и др.)."
+  },
+  {
+    "line": 698,
+    "translated": "- @@L0@@ 📇 ☁️ - Поиск информации о книгах."
+  },
+  {
+    "line": 699,
+    "translated": "- @@L0@@ 🏎️ ☁️/🏠 - Мультикластерное управление и операции Kubernetes с UI управления и логированием, охватывающие обычные DevOps-задачи для стандартных и CRD-ресурсов."
+  },
+  {
+    "line": 700,
+    "translated": "- @@L0@@ 🏎️ ☁️/🏠 - Мультикластерное управление и операции Kubernetes, встраиваемое как SDK, охватывающее обычные DevOps-задачи для стандартных и CRD-ресурсов."
+  },
+  {
+    "line": 701,
+    "translated": "- @@L0@@ 🏎️ ☁️/🏠 - Управление Kubernetes плюс анализ здоровья кластера и приложений."
+  },
+  {
+    "line": 702,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/akkireddy-challa/k8s-mcp-server) 🐍 ☁️ 🏠 - Операции кластера Kubernetes: инспекция pod, развёртываний, сервисов и логов."
+  },
+  {
+    "line": 703,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Woobox/hatchable-mcp) 🎖️ ☁️ - Создание и хостинг полноценных веб-приложений и сайтов на Hatchable, с базой данных, аутентификацией, хранилищем, доменами и cron для каждого проекта."
+  },
+  {
+    "line": 704,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/x7even/cloudcostsmcp) 🏎️ ☁️ 🍎 🪟 🐧 - Живые цены AWS, GCP и Azure для FinOps: публичные списочные цены и согласованные корпоративные ставки (Reserved Instances, Savings Plans, CUD, EDP)."
+  },
+  {
+    "line": 705,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/xmpuspus/cloudwright) 🐍 ☁️ - Проектирование облачной архитектуры для AWS, GCP, Azure и Databricks: оценки стоимости, проверки соответствия, экспорт Terraform/CloudFormation и анализ радиуса поражения."
+  },
+  {
+    "line": 706,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/xns-cloud/relayer-mcp) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Установка и управление самостоятельно размещаемым XNS Relayer, S3-совместимым объектным хранилищем в сети децентрализованных провайдеров: настройка, здоровье, конфигурация и бэкапы."
+  },
+  {
+    "line": 707,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zw008/vmware-aiops) 🐍 ☁️ - Управление VMware vSphere/vCenter: жизненный цикл ВМ, развёртывание, гостевые операции, снимки и кластеры, с шлюзами подтверждения, режимом пробного прогона и журналированием аудита."
+  },
+  {
+    "line": 708,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zw008/vmware-avi) 🐍 ☁️ - Управление VMware Avi Load Balancer (NSX ALB) с интеграцией AKO Kubernetes: виртуальные сервисы, пулы, метрики аналитики и жизненный цикл AKO."
+  },
+  {
+    "line": 709,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zw008/vmware-monitor) 🐍 ☁️ - Только чтение мониторинг VMware vSphere/vCenter: инвентарь, тревоги, события, здоровье хоста, информация о ВМ и список снимков."
+  },
+  {
+    "line": 710,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zw008/vmware-nsx) 🐍 ☁️ - Управление сетью VMware NSX: сегменты, шлюзы Tier-0/Tier-1, правила NAT, статическая/BGP-маршрутизация и пулы IPAM, с превью пробного прогона и подтверждением удаления."
+  },
+  {
+    "line": 711,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zw008/vmware-nsx-security) 🐍 ☁️ - Безопасность VMware NSX: политики и правила Distributed Firewall, группы безопасности, устранение неполадок Traceflow и профили IDS/IPS, с проверками перед удалением."
+  },
+  {
+    "line": 712,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zw008/vmware-storage) 🐍 ☁️ - Управление хранилищем VMware vSphere: датасторы NFS/VMFS, программные адаптеры iSCSI и динамические цели, и операции кластера vSAN, с превью пробного прогона."
+  },
+  {
+    "line": 713,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zw008/vmware-vks) 🐍 ☁️ - VMware Tanzu / vSphere Kubernetes Service: жизненный цикл Supervisor-кластера, пространства имён и Tanzu Kubernetes Cluster, с режимом пробного прогона и экспортом kubeconfig."
+  },
+  {
+    "line": 714,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/zyli5313/dochost-mcp) 📇 ☁️ - Публикация Markdown или HTML по публичной доступной ссылке, отдаваемой без скриптов с отдельного источника без cookie."
+  },
+  {
+    "line": 716,
+    "translated": "### 👨‍💻 <a name=\"code-execution\"></a>Выполнение кода"
+  },
+  {
+    "line": 718,
+    "translated": "Серверы выполнения кода. Позволяют LLM выполнять код в безопасной среде, например для кодирующих агентов."
+  },
+  {
+    "line": 720,
+    "translated": "- @@L0@@ 📇 🏠 - Запуск сниппетов JavaScript в изолированных песочницах Docker с установкой npm-зависимостей на лету и чистой очисткой."
+  },
+  {
+    "line": 721,
+    "translated": "- @@L0@@ 🐍 ☁️ 🐧 🍎 🪟 - Выполнение кода через движок удалённого выполнения кода Piston."
+  },
+  {
+    "line": 722,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/asif-nvc/e2b-sandbox-mcp) 📇 ☁️ 🍎 🪟 🐧 - Облачные песочницы E2B: создание изолированных Linux-ВМ, клонирование репозиториев, запуск команд, управление файлами и выполнение git-операций без затрагивания локальной машины."
+  },
+  {
+    "line": 723,
+    "translated": "- @@L0@@ 🏎️ ☁️ - Доступ к любому API через его существующую документацию OpenAPI."
+  },
+  {
+    "line": 724,
+    "translated": "- @@L0@@ 🏎️ 🏠 🐧 🍎 🪟 - Контейнеризованные среды для кодирующих агентов: каждый агент работает в своём свежем контейнере и git-ветке, с историей выполнения и доступом к терминалу."
+  },
+  {
+    "line": 725,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - Выделенные песочницы Linux-ВМ для недоверенного кода, сгенерированного моделью: запуск команд, перемещение файлов, предоставление preview URL и уничтожение ВМ."
+  },
+  {
+    "line": 726,
+    "translated": "- @@L0@@ 🐍 ☁️ - Делегирование задач моделям других ИИ-провайдеров, напр. попросить OpenAI сгенерировать изображение."
+  },
+  {
+    "line": 727,
+    "translated": "- @@L0@@ 🐍 🏠 - Интерпретатор среды выполнения Python, выполняющий отправленный код в изолированной среде."
+  },
+  {
+    "line": 728,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ksterx/srunx) 🐍 🏠 🐧 🍎 - Отправка заданий SLURM, запуск YAML-воркфлоу, мониторинг GPU-ресурсов, управление SSH-профилями и синхронизация файлов с локальными или SSH-удалёнными HPC-кластерами."
+  },
+  {
+    "line": 729,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mavdol/capsule-mcp-server) 🦀 🏠 🍎 🪟 🐧 - Запуск недоверенного кода Python/JavaScript в песочницах WebAssembly."
+  },
+  {
+    "line": 730,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/musharna/jobd) 🐍 🏠 🍎 🪟 🐧 - Самостоятельно размещаемый осведомлённый о GPU брокер заданий: отправка долго работающих или GPU-заданий, переживающих сессию, маршрутизация по уровню VRAM и мониторинг между сессиями."
+  },
+  {
+    "line": 731,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HanSur94/matlab-mcp-server-python) 🐍 🏠 🍎 🪟 🐧 - Интеграция MATLAB: выполнение кода, запуск асинхронных заданий с отчётами о прогрессе, получение интерактивных графиков Plotly и предоставление пользовательских .m-функций как инструментов."
+  },
+  {
+    "line": 732,
+    "translated": "- @@L0@@ #️⃣ ☁️ - Доступ к любому API через его спецификацию OpenAPI, с полной поддержкой JSON Schema для параметров и тел запросов."
+  },
+  {
+    "line": 733,
+    "translated": "- @@L0@@ 🦀 🏠 🐧 🍎 - Песочница JavaScript, использующая изоляцию V8 для локального запуска сгенерированного ИИ кода, с моментальными снимками кучи для постоянных сессий."
+  },
+  {
+    "line": 734,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/qjk8wultuz) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Постоянные облачные среды разработки для кодирующих агентов: создание, запуск команд, контрольные точки и форк, с файлами, сервисами и состоянием терминала, сохраняемыми между вызовами."
+  },
+  {
+    "line": 735,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rikarazome/prolog-reasoner) 🐍 🏠 🍎 🪟 🐧 - Выполнение SWI-Prolog для LLM с CLP(FD), отрицанием как отказом и рекурсией."
+  },
+  {
+    "line": 736,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SebastianGilPinzon/colab-mcp) 🐍 🏠 🍎 🪟 🐧 - Управление ноутбуками Google Colab и назначение GPU (T4/L4/A100). Форк colab-mcp от Google со всеми инструментами, видимыми при запуске, и поддержкой Windows."
+  },
+  {
+    "line": 737,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sowiedu/edict) 📇 🏠 - Ориентированный на агентов язык программирования: агенты излучают JSON AST, который компилятор валидирует, проверяет типы и эффекты, верифицирует через Z3/SMT и компилирует в WASM."
+  },
+  {
+    "line": 738,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/telleroutlook/agentkit-js) 📇 ☁️ 🏠 🐧 🍎 🪟 - MCP-сервер в code-mode: сворачивает определённые пользователем инструменты в выполнение кода плюс поиск документации, в песочнице node:vm, WASM или удалённых микро-ВМ."
+  },
+  {
+    "line": 739,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/The-40-Thieves/codecalc) 🐍 🏠 🍎 🪟 🐧 - Калькулятор кода и логики с офлайн-ядром: запуск кода, точная символьная математика, SMT/логика и анализ сложности, с необязательным песочным gVisor/AppContainer."
+  },
+  {
+    "line": 740,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - Запуск сгенерированного LLM кода в песочнице YepCode и создание пользовательских MCP-инструментов на JavaScript или Python с пакетами npm и PyPI."
+  },
+  {
+    "line": 741,
+    "translated": "### 🤖 <a name=\"coding-agents\"></a>Кодирующие агенты"
+  },
+  {
+    "line": 743,
+    "translated": "Полноценные кодирующие агенты, позволяющие LLM читать, редактировать и выполнять код и полностью автономно решать общие задачи программирования."
+  },
+  {
+    "line": 745,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/abnegate/magents) 🦀 🏠 🍎 🐧 - Общая шина сессий для кодирующих агентов, таких как Claude Code, Codex и Grok: список, чтение, передача, обмен сообщениями и порождение живых сессий агентов через MCP или CLI."
+  },
+  {
+    "line": 746,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/5dive-ai/5dive-mcp) 📇 🏠 🍎 🪟 🐧 - Управление флотом агентов 5dive: постановка задач, обмен сообщениями и инспекция агентов, и чтение дайджеста флота."
+  },
+  {
+    "line": 747,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/agent-blueprint/mcp-server) 📇 ☁️ - Исследование и скачивание чертежей ИИ-агентов: список, получение сводок и скачивание полных директорий Agent Skills для реализации кодирующими агентами."
+  },
+  {
+    "line": 748,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dugubuyan/agent-nexus) 🐍 🏠 ☁️ - Обмен документами для кодирующих агентов между сервисами: версионированное хранилище Markdown, pub-sub уведомления со структурированными диффами и отслеживание этапов жизненного цикла."
+  },
+  {
+    "line": 749,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - ИИ-совет: параллельные запросы к CLI-агентам (Claude Code, Codex, Gemini и OpenCode) с раундами обсуждения."
+  },
+  {
+    "line": 750,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sshahzaiib/agy-bridge) 📇 🏠 🍎 🪟 🐧 - Делегирование задач CLI Antigravity (Gemini): анализ файлов, археология репозиториев, веб-поиск и ревью кода вторым мнением, с переключением моделей с учётом квот."
+  },
+  {
+    "line": 751,
+    "translated": "- @@L0@@ 🐍 🏠 - Инструменты DevOps и сетей: мониторинг сети, системная диагностика, рабочие процессы автоматизации и управление инфраструктурой."
+  },
+  {
+    "line": 752,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aresyn/codex-control-plane-mcp) 🐍 🏠 🪟 - Плоскость управления для долго работающих задач Codex Desktop: асинхронная отправка, опрос состояния, одобрение Plan Mode, восстановление повторов и поиск по истории на SQLite."
+  },
+  {
+    "line": 753,
+    "translated": "- @@L0@@ - Структурированное, управляемое моделью взаимодействие с сетевыми устройствами через Cisco pyATS."
+  },
+  {
+    "line": 754,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/avansaber/tailtest-cline) 🐍 🏠 🍎 🪟 🐧 - Генерация состязательных тестов в Cline: обнаруживает стек, пишет и запускает тесты и классифицирует сбои как реальные баги, проблемы среды или тестовые баги."
+  },
+  {
+    "line": 755,
+    "translated": "- @@L0@@ 🦀 🏠 🍎 🪟 🐧 - Взаимодействие с TUI/CLI приложениями через структурированное дерево состояния терминала с обнаружением элементов, как Playwright для терминалов."
+  },
+  {
+    "line": 756,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - Помощь IDE для инструмента i18n/CMS Intlayer: доступ к CLI и документации."
+  },
+  {
+    "line": 757,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lawrencehui/Citio) 📇 ☁️ - Самостоятельно размещаемый Slack-бот: упомяните его, и Claude Code или Codex исследуют логи CloudWatch, запускают тесты и открывают PR, с учётными данными у MCP-сервера."
+  },
+  {
+    "line": 758,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/claimidx/claimidx) 🐍 🏠 🍎 🪟 🐧 - Общий, подписанный индекс сбоев, которые другие кодирующие агенты уже решили: проверьте его перед повтором и загрузите исправления, чтобы следующий агент не повторял работу."
+  },
+  {
+    "line": 759,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - Мультиагентные консультации для Claude Code: MCP-серверы, оборачивающие CLI Codex, Gemini и Qwen для параллельного ревью кода и решения проблем с цепочками резерва."
+  },
+  {
+    "line": 760,
+    "translated": "- @@L0@@ 🏎️ 🏠 🍎 🪟 🐧 - SSH-управление Linux- и Windows-серверами, с долго работающими командами и выполнением на нескольких хостах сразу."
+  },
+  {
+    "line": 761,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bshea-1/Routed) 📇 🏠 🍎 🪟 🐧 - Локальный маршрутизатор для Agent Skills между кодирующими агентами и MCP-клиентами, с гибридным сопоставлением на локальном CPU без затрат токенов."
+  },
+  {
+    "line": 762,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/chernistry/bernstein) 🐍 🏠 ☁️ 🍎 🪟 🐧 - Детерминированный оркестратор для CLI кодирующих агентов, таких как Claude Code, Codex и Aider, с git worktree на агента, журналом аудита и маршрутизацией с учётом стоимости."
+  },
+  {
+    "line": 763,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/andreilungeanu/cursor-delegate-mcp) 📇 🏠 🍎 🪟 🐧 - Делегирование реализации многофайловых изменений CLI-агенту Cursor через ACP и получение типизированных результатов: финальное сообщение, изменённые файлы, ID сессии и план."
+  },
+  {
+    "line": 764,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/danieldoderlein/llm-bus) 📇 ☁️ 🏠 - Шина координации для нескольких кодирующих агентов: атомарные претензии, консультативные аренды файлов, общий журнал событий, присутствие, передачи и граф задач. Самостоятельно размещаемая."
+  },
+  {
+    "line": 765,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/polymatx/dibs) 🏎️ 🏠 🍎 🪟 🐧 - Координация параллельных кодирующих агентов: претензии на файлы TTL в git worktree, хуки, блокирующие конфликтующие правки, присутствие, заметки передачи и искомые уроки."
+  },
+  {
+    "line": 766,
+    "translated": "- @@L0@@ 📇 ☁️ - Поиск, получение и решение задач LeetCode, с фильтрацией по метаданным и доступом к профилям пользователей, отправкам и данным контестов."
+  },
+  {
+    "line": 767,
+    "translated": "- @@L0@@ 📇 🏠 - Превращение любого CLI-инструмента с выводом --help в MCP-сервер, с кэшированием."
+  },
+  {
+    "line": 768,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ejentum/ejentum-mcp) 📇 🏠 - Инструменты рассуждения, кода, защиты от обмана и памяти для ИИ-агентов."
+  },
+  {
+    "line": 769,
+    "translated": "- @@L0@@ 🐍 🏠 - Кодирующий агент с базовыми инструментами чтения, записи и командной строки."
+  },
+  {
+    "line": 770,
+    "translated": "- @@L0@@ 🐍 🏠 - Мульти-LLM обсуждение с анонимизированным ревью коллег: параллельные ответы, анонимное ранжирование и синтез, на основе концепции LLM Council от Андрея Карпаты."
+  },
+  {
+    "line": 771,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@freema/openclaw-mcp) 📇 ☁️ 🏠 - Делегирование задач агентам-ассистентам OpenClaw с синхронными и асинхронными инструментами."
+  },
+  {
+    "line": 772,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Get-Concord-AI/concord-mcp) 📇 🏠 🍎 🪟 🐧 - Коммуникация и общее рабочее состояние между средами кодирующих агентов: живые сообщения, претензии на область перед редактированием, сохранённые решения и передача доказательств."
+  },
+  {
+    "line": 773,
+    "translated": "- @@L0@@ - Доступ к iTerm: запуск команд и вопросы о том, что показано в терминале."
+  },
+  {
+    "line": 774,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/foldwork-dev/mcp-injector) 🏎️ 🏠 🍎 🪟 🐧 - Локальный демон, предварительно индексирующий кодовую базу в каталог SQLite и отдающий AST-сжатые снимки при каждом запросе для снижения расхода токенов."
+  },
+  {
+    "line": 775,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TT-Wang/forge) 📇 🏠 🍎 🪟 🐧 - Структурированное планирование и валидация для Claude Code: превращает цель в валидированный DAG модулей, собираемых рабочими агентами в параллельных git worktree."
+  },
+  {
+    "line": 776,
+    "translated": "- @@L0@@ 📇 🏠 - Запуск произвольных команд и скриптов."
+  },
+  {
+    "line": 777,
+    "translated": "- @@L0@@ 🦀 🏠 - Rust-реализация WCGW для кодирующих агентов: выполнение оболочки и управление файлами."
+  },
+  {
+    "line": 778,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hampsterx/claude-mcp-bridge) 📇 🏠 🍎 🪟 🐧 - Оборачивает Claude Code CLI как MCP-инструменты для запросов, поиска, структурированного вывода и сессий, с лимитами бюджета и детальной песочницей инструментов."
+  },
+  {
+    "line": 779,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hellob1889/pandaone-ai-agent) 🐍 🏠 🍎 🪟 🐧 - Требует от каждого ИИ-агента оставлять запись аудита проблемы, причины и подхода перед коммитом, с pre-commit хуком и дашбордом аудита."
+  },
+  {
+    "line": 780,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TheBlueHouse75/hermes-action-bridge) 📇 🏠 🍎 🪟 🐧 - Делегирование реальных действий агенту Hermes: исследования, браузерные рабочие процессы, обмен сообщениями, планирование и навыки, с одобрением рискованных действий."
+  },
+  {
+    "line": 781,
+    "translated": "- @@L0@@ 🐍 🏠 - Просмотр и управление долго работающими процессами, такими как веб-серверы: запуск, остановка, перезапуск и чтение логов."
+  },
+  {
+    "line": 782,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jigyasudham/veto) 📇 🏠 🍎 🪟 🐧 - Совет специализированных агентов для ИИ кодинг-CLI с самообучающимся маршрутизатором, кросс-CLI памятью и защитой от галлюцинаций зависимостей и дрейфа решений."
+  },
+  {
+    "line": 783,
+    "translated": "- @@L0@@ 📇 ☁️ - Доступ к задачам LeetCode, решениям, отправкам и публичным данным, с необязательным входом для пользовательских функций, таких как заметки; поддерживает глобальный и китайский сайты."
+  },
+  {
+    "line": 784,
+    "translated": "- @@L0@@ 📇 🏠 - Работа в рабочем пространстве VS Code: чтение структуры каталогов, просмотр проблем линтера и языкового сервера, чтение файлов кода и внесение правок."
+  },
+  {
+    "line": 785,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Keesan12/martin-loop) 📇 🏠 - Управляемая среда выполнения для ИИ кодирующих агентов с лимитами бюджета, шлюзами верификатора, предотвращением зацикливания, доказательствами отката и инспектируемыми квитанциями запуска."
+  },
+  {
+    "line": 786,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Komdosh/komnet) 📇 🏠 🍎 🐧 - Шина сообщений на основе git для кодирующих агентов на разных машинах, без сервера: вопросы, ответы, решения, требуемые задачи и делегированные ревью репозиториев."
+  },
+  {
+    "line": 787,
+    "translated": "- @@L0@@ 🦀 📇 🏠 🍎 🪟 🐧 - Автоматизация настольного GUI на Windows, macOS и Linux через API доступности вместо скриншотов, плюс запись рабочих процессов, извлечение данных и инспекция DOM."
+  },
+  {
+    "line": 788,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Luckycat133/traecnclaw-mcp-skill) 📇 🏠 🍎 - Локальный сервер и Agent Skill для настольной автоматизации TraeCN на macOS."
+  },
+  {
+    "line": 789,
+    "translated": "- @@L0@@ - Безопасный интерпретатор Python на основе LocalPythonExecutor от Hugging Face smolagents."
+  },
+  {
+    "line": 790,
+    "translated": "- @@L0@@ 🌊 🏠 📟 🐧 🪟 🍎 - Преобразование исходного кода в AST, независимо от языка."
+  },
+  {
+    "line": 791,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - Список и завершение OS-процессов через запросы на естественном языке."
+  },
+  {
+    "line": 792,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/myelixlabs/synapse-mcp) 📇 🏠 🍎 🪟 🐧 - Преобразование кодовой базы в локальный граф знаний AST, дающий кодирующим агентам структурный контекст для навигации и рефакторинга."
+  },
+  {
+    "line": 793,
+    "translated": "- @@L0@@ 🐍 🏠 - Выполнение из командной строки с настраиваемыми политиками безопасности."
+  },
+  {
+    "line": 794,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nandhakumar-murugan/gemini-antigravity-bridge) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Двунаправленный мост между Gemini Spark и IDE Antigravity: диспетчеризация субагентов кодинга, общая память, локальные файловые операции и оркестрация приложений Spark."
+  },
+  {
+    "line": 795,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/natiixnt/redcon) 🐍 🏠 🍎 🪟 🐧 - Детерминированная упаковка контекста репозитория для кодирующих агентов: выбирает, сжимает, кэширует и распределяет бюджет только для нужных задаче файлов, без LLM в цикле."
+  },
+  {
+    "line": 796,
+    "translated": "- @@L0@@ 📇 🏠 ☁️ - Мост к нескольким LLM, совместимым с OpenAI, для резиновой уточки-отладки: объясните проблему нескольким ИИ-уткам и получите разные перспективы."
+  },
+  {
+    "line": 797,
+    "translated": "- @@L0@@ 🐍 🏠 🐧 - Поиск в Arch Wiki и AUR, получение информации о пакетах, проверка обновлений, установка пакетов и анализ PKGBUILD с Arch или не-Arch систем."
+  },
+  {
+    "line": 798,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - Автоматизация и мониторинг консоли, как Playwright для терминальных приложений: управление сессиями, SSH, тестирование, мониторинг и фоновые задачи."
+  },
+  {
+    "line": 799,
+    "translated": "- @@L0@@ 🐍 🏠 - Кодирующий агент, использующий языковые серверы для символьных операций с кодом."
+  },
+  {
+    "line": 800,
+    "translated": "- @@L0@@ 🐍 🏠 - Локальное управление терминалом с приоритетом одобрения: планирование и одобрение команд на основе политик, DeepSeek как советник и подписанные квитанции выполнения."
+  },
+  {
+    "line": 801,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Q00/ouroboros) 🐍 🏠 🍎 🪟 🐧 - Локальная агентная ОС для спецификация-первой ИИ-кодинга: воспроизводимое, записанное в журнал интервью, цикл seed, execute, evaluate и evolve, управляемый MCP-клиентами."
+  },
+  {
+    "line": 802,
+    "translated": "- @@L0@@ 🐧 🪟 🍎 - Динамическая карта связанных с чатом файлов репозитория с их прототипами функций и связанными файлами, ранжированными по релевантности, на основе Repo Map от Aider."
+  },
+  {
+    "line": 803,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/plori-ai/plori) 🎖️ 🏎️ ☁️ - Создание и управление размещёнными агентами plori с постоянным диском, инструментами и памятью: вызов агентов, управление очередью человека-в-цикле и планирование отложенных запусков."
+  },
+  {
+    "line": 804,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - Перехват расплывчатых промптов Claude Code до траты токенов: оценочные карточки промптов, поиск по истории сессий, осведомлённость о кросс-сервисных контрактах и оценка стоимости."
+  },
+  {
+    "line": 805,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PsChina/deepseek-as-subagent) 🐍 🏠 🍎 🪟 🐧 - Запуск DeepSeek как субагента в Claude Code или Codex CLI, со своим собственным циклом агента для чтения, редактирования и запуска команд в песочной рабочей среде."
+  },
+  {
+    "line": 806,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/djerok/glm-mcp) 📇 🏠 🍎 🪟 🐧 - Запуск GLM (Zhipu/Z.ai) как субагента в Claude Code или GitHub Copilot со своим циклом read/write/edit/run, маршрутизацией Opus-vs-GLM и надзором diff/dry-run."
+  },
+  {
+    "line": 807,
+    "translated": "- @@L0@@ 🐍 🍎 🪟 🐧 - Параллельный мультимодельный ревью кода, анализ безопасности и дебаты с ChatGPT, Claude и Gemini, включая консенсус и проверки OWASP Top 10."
+  },
+  {
+    "line": 808,
+    "translated": "- @@L0@@ 🐍 🏠 - Фреймворк для создания мультиагентных систем, координирующих через MCP, с управлением задачами, общим контекстом и RAG."
+  },
+  {
+    "line": 809,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sena-labs/OzBridge) 📇 🏠 🍎 🪟 🐧 - Неофициальный мост от кодинг-агента Warp Oz к любой IDE или MCP-клиенту, плюс нативный @oz в VS Code Copilot Chat."
+  },
+  {
+    "line": 810,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - Индексация локального кода в графовую базу данных для предоставления контекста ИИ-ассистентам, с графическими визуализациями кода для людей."
+  },
+  {
+    "line": 811,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - Самоисправление ИИ сгенерированного вывода через инъекцию промптов, независимый самоаудит и изоляцию контекста."
+  },
+  {
+    "line": 812,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - Использование Claude Code Skills из любой IDE или CLI."
+  },
+  {
+    "line": 813,
+    "translated": "- @@L0@@ 🏎️ 🏠 🍎 🪟 🐧 - Безопасный, аудируемый и по требованию запуск оболочечных команд в изолированных средах, таких как Docker."
+  },
+  {
+    "line": 814,
+    "translated": "- @@L0@@ 🦀 🏠 - Кодирующий агент с базовыми инструментами для вывода списка, чтения, редактирования и записи файлов, запуска команд и веб-поиска, с поддержкой нескольких проектов одновременно."
+  },
+  {
+    "line": 815,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - Обучающий сайдкар для ИИ-ассистентов кодинга: опрашивает разработчиков о сгенерированных ИИ изменениях и даёт агентам постоянную специфичную для проекта память отладки через RAG."
+  },
+  {
+    "line": 816,
+    "translated": "- @@L0@@ 🐍 🏠 - Кодирующий агент для Max (Max/MSP/Jitter), визуального языка программирования для музыки и мультимедиа."
+  },
+  {
+    "line": 817,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/eabz/tirith) 🦀 🏠 🍎 🪟 🐧 - Координация параллельных кодирующих агентов: претензии на файлы TTL, доска задач с зависимостями, версионированные контракты интерфейсов, уведомления об изменениях и журнал решений."
+  },
+  {
+    "line": 818,
+    "translated": "- @@L0@@ 📇 🏠 🐧 🪟 - SSH-управление Linux- и Windows-серверами: выполнение удалённых оболочечных команд с аутентификацией по паролю или SSH-ключу."
+  },
+  {
+    "line": 819,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Touchpoint-Labs/Touchpoint) 🐍 🏠 🍎 🪟 🐧 - Просмотр, поиск и взаимодействие с элементами UI в любом настольном приложении, как Playwright для всей ОС."
+  },
+  {
+    "line": 820,
+    "translated": "- @@L0@@ - Безопасное выполнение оболочечных команд."
+  },
+  {
+    "line": 821,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/umum-ai/claude-codex-bridge) 📇 🏠 - Запуск агентов Codex из Claude Code через MCP и Channels, с живыми уведомлениями о прогрессе, рулёжкой в процессе и продолжением сессии."
+  },
+  {
+    "line": 822,
+    "translated": "- @@L0@@ 🦀 🏠 🍎 🪟 🐧 - Инструменты разработчика для редактирования файлов, выполнения оболочечных команд и захвата экрана."
+  },
+  {
+    "line": 823,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/VibeKit-Bot/vibekit-mcp) 📇 ☁️ - Создание, развёртывание и управление размещёнными приложениями VibeKit, каждое с живым URL и своим постоянным серверным агентом для общения."
+  },
+  {
+    "line": 824,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/VoDaiLocz/kilo-kit-mcp) 📇 🏠 🍎 🪟 🐧 - Среда выполнения и библиотека навыков для кодирующих агентов: шлюзы рабочего процесса C4, охраняемое выполнение команд и движки рассуждения вроде Tree of Thoughts и 5 Whys."
+  },
+  {
+    "line": 825,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 🪟 🐧 - Интеллект кода для Elixir: поиск модулей, отслеживание функций и атрибуция PR через разбор AST tree-sitter."
+  },
+  {
+    "line": 826,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 🐧 - Управление и выполнение программ, а также чтение, запись, поиск и редактирование файлов кода и текста."
+  },
+  {
+    "line": 827,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wulun811/LiuHe) 🦀 📇 🏠 - Инструменты кода для LLM для чтения, понимания и модификации кода, с использованием парсера tree-sitter, индекса SQLite и транзакционных записей."
+  },
+  {
+    "line": 828,
+    "translated": "- @@L0@@ 📇 ☁️ - Подключение IDE или ИИ-ассистента к Codex CLI для анализа и редактирования кода, с поддержкой нескольких моделей."
+  },
+  {
+    "line": 829,
+    "translated": "- @@L0@@ 📇 ☁️ - Подключение IDE или ИИ-ассистента к GitHub Copilot CLI для анализа кода, ревью и пакетной обработки."
+  },
+  {
+    "line": 830,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/eliottreich/taskbounty-mcp-server) 📇 ☁️ - Публикация и финансирование TaskBounty вознаграждений за баги GitHub и покрытие тестами или решение их через PR с регрессионными тестами, проверяемыми в песочнице."
+  },
+  {
+    "line": 831,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Yomiracle/trinity-lite) 🐍 🏠 - Локальная шина задач для CLI ИИ-агентов, таких как Codex и Claude Code: маршрутизация работ, сохранение состояния в SQLite и совместная работа через общий сервер."
+  },
+  {
+    "line": 832,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/REX-codebase/fable-mode) 🐍 🏠 🍎 🪟 🐧 - Плоскость управления для ИИ кодирующих агентов: блокировки по времени на запись, требует доказательств для претензий, запускает состязательный ревью и ведёт запечатанную запись верификации."
+  },
+  {
+    "line": 834,
+    "translated": "### 🖥️ <a name=\"command-line\"></a>Командная строка"
+  },
+  {
+    "line": 835,
+    "translated": "Запуск команд, захват вывода и иное взаимодействие с оболочками и инструментами командной строки."
+  },
+  {
+    "line": 837,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/20000419/fauxnix) 📇 🏠 🪟 - Bash для ИИ-агентов на Windows через детерминированный перевод bash в PowerShell, без WSL или ВМ, с выводом в стиле GNU и постоянным cwd и окружением."
+  },
+  {
+    "line": 838,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AICommander-dev/aicommander) 📇 ☁️ 🍎 🪟 🐧 - Только исходящая удалённая оболочка, отделённые долго работающие задачи и временная передача файлов для ИИ-агентов, без раскрытия SSH, портов или VPN."
+  },
+  {
+    "line": 839,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@bvisible/mcp-ssh-manager) 📇 🏠 🍎 🪟 🐧 - Управление несколькими SSH-серверами: команды, передача файлов и rsync, дампы и запросы БД, бэкапы, мониторинг здоровья, туннели и пер-серверные режимы безопасности."
+  },
+  {
+    "line": 840,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cygnussystems/cygnus-ssh-mcp) 🐍 🏠 🍎 🪟 🐧 - SSH-управление удалёнными Linux, macOS и Windows серверами: построчное редактирование файлов, фоновые задачи, sudo, псевдонимы хостов и операции с каталогами и архивами."
+  },
+  {
+    "line": 841,
+    "translated": "- @@L0@@ 🏎️ - Менеджер SSH-подключений с TUI-дашбордом для обнаружения, поиска и запуска команд на удалённых хостах."
+  },
+  {
+    "line": 842,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dbhq-uk/heliograph) 🏎️ 🏠 🍎 🪟 🐧 - Запуск команд на машинах, в которые нельзя зайти по SSH, например изолированных или только-bastion хостах, через git, файловые шары или S3, с помеченными временем логами запуска."
+  },
+  {
+    "line": 843,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dwgx/SmartCLI) 🐍 🏠 🍎 🪟 🐧 - Управление полноэкранными терминальными программами, такими как vim, htop и lazygit, читая экран как живую сетку ячеек с курсором, выделением и состоянием alt-экрана."
+  },
+  {
+    "line": 844,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/faizbawa/mcp-remote-ssh) 🐍 🏠 🍎 🪟 🐧 - SSH-доступ с постоянными сессиями, SFTP и пробросом портов, с секретами, вводимыми через stdin и редактируемыми из вывода до попадания к LLM."
+  },
+  {
+    "line": 845,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gerard-kanters/mcp-linux-tools) 🐍 🏠 🐧 - Администрирование Linux-сервера: чтение файлов и логов, управление сервисами systemd и заданиями cron, выполнение read-only запросов MySQL, WP-CLI, Git и песочного Python."
+  },
+  {
+    "line": 846,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hypnosis/ssh-mcp-server) 📇 🏠 🍎 🐧 - Работа с удалённым сервером через локальный клиент OpenSSH: запуск команд, передача файлов с контрольными суммами, поиск логов и аудит хостов, с блокировкой разрушительных команд."
+  },
+  {
+    "line": 847,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lacs-project/sysknife) 🦀 🏠 🐧 - Администрирование Linux через типизированные действия вместо строк оболочки, с подписанным журналом аудита, одноразовыми квитанциями одобрения и автоматическим откатом."
+  },
+  {
+    "line": 848,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/luisgf/infrabroker) 🏎️ 🏠 ☁️ 🍎 🐧 - Самостоятельно размещаемый брокер доступа SSH и Kubernetes: эфемерные учётные данные на операцию, которые модель никогда не видит, пер-командный фаервол, одобрения человека и журнал аудита."
+  },
+  {
+    "line": 849,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nvms/tui-mcp) 📇 🏠 🍎 🪟 🐧 - Запуск, скриншоты и взаимодействие с любым TUI-приложением."
+  },
+  {
+    "line": 850,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PsYcGoD/sage) 📇 🏠 🍎 🪟 🐧 - Локальная оболочечная обёртка для ИИ кодирующих агентов: запускает оболочечные команды, хранит историю локально и возвращает сжатый вывод терминала для снижения шума контекста."
+  },
+  {
+    "line": 851,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/raychao-oao/pty-mcp) 🏎️ 🏠 🍎 🐧 - Интерактивные PTY-сессии для ИИ-агентов: локальные оболочки, постоянные SSH-сессии с attach/detach и последовательные порты."
+  },
+  {
+    "line": 852,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/soren-achebe/backscroll) 🏎️ 🏠 🍎 🐧 - Поиск, получение и сравнение вывода прошлых терминальных команд, записанных локально с кодами выхода, cwd и длительностью, с редактированием секретов по умолчанию."
+  },
+  {
+    "line": 853,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ferodrigop/forge) 📇 🏠 - Терминал для ИИ кодирующих агентов: постоянные PTY-сессии, инкрементное чтение, headless-захват экрана, мультиагентная оркестрация и веб-дашборд."
+  },
+  {
+    "line": 854,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/WhenLabs-org/when) 📇 🏠 🍎 🪟 🐧 - Набор инструментов разработчика: обнаружение стека для файлов контекста ИИ, конфликты портов, валидация схемы .env, дрейф документации, аудит лицензий зависимостей и тайминг задач."
+  },
+  {
+    "line": 855,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LukeLamb/claude-terminal-mcp) 📇 🏠 🐧 🍎 - Инструменты терминала, файловой системы и фоновых задач для Linux и macOS."
+  },
+  {
+    "line": 856,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HasanJahidul/terminal-history-mcp) 📇 🏠 🍎 🐧 - Локальный полнотекстовый поиск по истории zsh, bash и fish с редактированием секретов и необязательным захватом cwd, кода выхода и длительности."
+  },
+  {
+    "line": 857,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/HasanJahidul/localhost-mcp) 📇 🏠 🍎 🪟 🐧 - Инспекция, управление и завершение локальных dev-серверов: что слушает на каждом порту, диагностика конфликтов портов, поиск зомби-процессов и завершение по PID или порту."
+  },
+  {
+    "line": 858,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/laszlopere/mcp-tmux) 🐍 🏠 🐧 🍎 - Управление tmux локально или по SSH: сессии, окна, панели, нажатия клавиш, захват панелей и сырые команды, с общими сессиями для парного программирования."
+  },
+  {
+    "line": 859,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@zb-ss/servonaut) 🐍 🏠 🍎 🐧 - Управление AWS EC2, Hetzner, OVH и SSH-серверами: команды, логи, запросы CloudWatch/CloudTrail, здоровье флота, блокировка IP и S3, с многоуровневыми страховочными ограничениями."
+  },
+  {
+    "line": 860,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/blinkingbit-oss/execkit) 🦀 🏠 🍎 🐧 - Состоявшиеся, аудируемые оболочечные сессии над локальной, SSH и Docker средой, с редактированием секретов, бюджетированием вывода и read-only просмотрщиком транскрипта."
+  },
+  {
+    "line": 861,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Easton-OU/rootpilot-mcp) 📇 🏠 🍎 🪟 🐧 - Только чтение SSH-диагностика для Linux и Docker серверов с фиксированным списком разрешённых команд, редактированием секретов и пер-командными тайм-аутами."
+  },
+  {
+    "line": 862,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tarides/sudo-proxy) 🦀 🏠 🐧 - Запуск привилегированных команд локально или по SSH, каждая с одноклавишным одобрением человека перед sudo, с журналированием аудита и без сохранённого пароля."
+  },
+  {
+    "line": 864,
+    "translated": "### 💬 <a name=\"communication\"></a>Коммуникация"
+  },
+  {
+    "line": 866,
+    "translated": "Интеграция с платформами коммуникации для управления сообщениями и операций с каналами. Позволяет ИИ-моделям взаимодействовать с инструментами командной работы."
+  },
+  {
+    "line": 868,
+    "translated": "- @@L0@@ ☁️ - Взаимодействие с Nostr: публикация заметок и др."
+  },
+  {
+    "line": 869,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/adecubed/gigamail) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Почта и календарь Microsoft 365 или IMAP: чтение, поиск, черновики и поиск свободных слотов, с внеполосным одобрением человека для отправки, удаления и записи в календарь."
+  },
+  {
+    "line": 870,
+    "translated": "- @@L0@@ 🐍 ☁️ - Взаимодействие с поиском и лентой Twitter."
+  },
+  {
+    "line": 871,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/agenticmail/agenticmail) 📇 🏠 🍎 🪟 🐧 - Почта и SMS для ИИ-агентов через локальный почтовый сервер: одноразовые почтовые ящики, отправка и получение почты и получение кодов подтверждения."
+  },
+  {
+    "line": 872,
+    "translated": "- @@L0@@ 📇 ☁️ - Почта для ИИ-агентов: создание почтовых ящиков на лету для отправки, получения и обработки почты."
+  },
+  {
+    "line": 873,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aisenseapi/aamio-python) 🐍 ☁️ 🏠 - Эфемерные встречи для агентов: истекающие треды с секретным ключом чтения и публичным адресом записи, плюс открытая доска, где агенты находят друг друга."
+  },
+  {
+    "line": 874,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Albretsen/MCPEmails) 📇 ☁️ - Почта для Gmail, Fastmail, iCloud, Yahoo, Zoho, Yandex и любого IMAP/SMTP почтового ящика: чтение, поиск, отправка, организация, черновики, планирование и авто-триаж почты."
+  },
+  {
+    "line": 875,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/andrewchmr/mxprobe) 📇 ☁️ 🏠 🍎 🪟 🐧 - Верификация email для ИИ-агентов: возвращает отправить, задержать или уничтожить для адреса с причиной, используя локальные DNS-проверки или размещённый SMTP-зонд."
+  },
+  {
+    "line": 876,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/anypost/emailmd) 📇 ☁️ 🏠 - Написание и предпросмотр писем: рендер Markdown в email-безопасный HTML для Outlook и Gmail, линтинг черновиков на доставляемость и получение ссылки живого предпросмотра."
+  },
+  {
+    "line": 877,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/arbengine/mailbox-mcp) 📇 ☁️ - API физической почты для ИИ-агентов: отправка писем, заказных писем, открыток и массовых рассылок с превью стоимости, контролем одобрения, отслеживанием и вебхуками."
+  },
+  {
+    "line": 878,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Atomic-Mail/atomic-mail-agentic) ☁️ - Почта для ИИ-агентов: автономная регистрация почтового ящика через proof-of-work, пользовательские домены и отправка/получение по открытому стандарту JMAP."
+  },
+  {
+    "line": 879,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AutomateLab-tech/content-distribution-mcp) 📇 ☁️ 🏠 - Публикация контента в DEV.to, Hashnode, GitHub Discussions, Reddit, Bluesky, LinkedIn, Medium и Twitter, адаптированного под платформу с идемпотентным состоянием."
+  },
+  {
+    "line": 880,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bababoi-bibilabu/agent-mq) 📇 ☁️ 🏠 - Очередь сообщений, позволяющая ИИ-ассистентам кодинга обмениваться сообщениями между сессиями и машинами. Самостоятельно размещаемая."
+  },
+  {
+    "line": 881,
+    "translated": "- @@L0@@ - Использование Claude с доступом к локальной рабочей области из Telegram на телефоне: читайте, пишите и кодируйте на ходу."
+  },
+  {
+    "line": 882,
+    "translated": "- @@L0@@ 📇 ☁️ - Взаимодействие с API Google Tasks."
+  },
+  {
+    "line": 883,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/BigCactusLabs/dead-letter) 🐍 🏠 - Преобразование .eml экспортов в Markdown с YAML front matter для RAG-конвейеров: разбиение тредов, удаление подписей, извлечение вложений и разбор календаря."
+  },
+  {
+    "line": 884,
+    "translated": "- @@L0@@ 🐍 🏠 - Отправка уведомлений на рабочий стол со звуковым эффектом по завершении задач агента."
+  },
+  {
+    "line": 885,
+    "translated": "- @@L0@@ 🏠 🍎 - Запрос, анализ, отправка и получение iMessage-переписок, с валидацией номера телефона, вложениями, контактами и групповыми чатами."
+  },
+  {
+    "line": 886,
+    "translated": "- @@L0@@ 🏎️ 🏠 - Интеграция Telegram API: доступ к данным пользователя, управление диалогами (чаты, каналы, группы), получение сообщений и обработка статуса прочтения."
+  },
+  {
+    "line": 887,
+    "translated": "- @@L0@@ 🐍 🏠 - Интеграция Telegram API: доступ к данным пользователя, управление диалогами (чаты, каналы, группы), получение и отправка сообщений и обработка статуса прочтения."
+  },
+  {
+    "line": 888,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Choppaaahh/sendgrid-mcp-secure) 🐍 🏠 - Отправка email через SendGrid с фокусом на безопасность: списки разрешённых получателей/доменов, лимиты отправки, режим ревью, журнал аудита и без тихого BCC."
+  },
+  {
+    "line": 889,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/churichard/fluxmail) 🎖️ 📇 ☁️ 🏠 - Самостоятельно размещаемая почта для Gmail, Microsoft 365, Outlook.com и IMAP/SMTP: чтение, поиск, черновики, отправка, планирование и организация почты, с пер-клиентными разрешениями."
+  },
+  {
+    "line": 890,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/joansongjr/clawaimail) 📇 ☁️ 🍎 🪟 🐧 - Почтовая инфраструктура для ИИ-агентов: создание почтовых ящиков на лету, отправка и получение почты, поиск сообщений и управление тредами."
+  },
+  {
+    "line": 891,
+    "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - IMAP/SMTP почта через несколько аккаунтов: чтение, поиск, отправка, планирование и управление почтой, с IMAP IDLE push, ИИ-триажем и уведомлениями на рабочем столе."
+  },
+  {
+    "line": 892,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cometchat/docs-mcp) 🎖️ 📇 ☁️ - Поиск документации CometChat и получение курируемых пакетов реализации для добавления чата, голоса, видео и модерации реального времени в приложения."
+  },
+  {
+    "line": 893,
+    "translated": "- @@L0@@ 📇 ☁️ - Интеграция Mattermost API: список каналов, чтение и публикация сообщений, управление тредами и реакциями и мониторинг тем."
+  },
+  {
+    "line": 894,
+    "translated": "- @@L0@@ 🐍 🏠 - Управление типами событий Cal.com, создание бронирований и доступ к данным планирования."
+  },
+  {
+    "line": 895,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/desek/outlook-local-mcp) 🏎️ 🏠 🍎 🪟 🐧 - Локальный календарь и почта Microsoft Outlook через Microsoft Graph, с поддержкой нескольких аккаунтов и хранением токенов в связке ключей ОС."
+  },
+  {
+    "line": 896,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dialgoodian/clawdcall-mcp) 🎖️ 📇 ☁️ - Совершение согласованных исходящих телефонных звонков и получение транскриптов, сводок и результатов."
+  },
+  {
+    "line": 897,
+    "translated": "- @@L0@@ 🎖️ 💎 ☁️ 🏠 🍎 🪟 🐧 - Интеграция форума Discourse: поиск тем, чтение постов, управление категориями и тегами, обнаружение пользователей и взаимодействие с сообществами."
+  },
+  {
+    "line": 898,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dockndevai/mcp-outlook) 📇 🏠 🍎 🪟 🐧 - Почта Outlook через Microsoft Graph: чтение, поиск, черновики, отправка и организация email. По умолчанию только чтение, с журналами аудита и подтверждением перед отправкой или удалением."
+  },
+  {
+    "line": 899,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cseguinlz/double-tick-mcp-server) 📇 ☁️ - Отслеживание прочтения email через Gmail: отправка отслеживаемых писем и проверка, были ли они открыты, с количеством открытий, устройством и временем."
+  },
+  {
+    "line": 900,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/csitte/mailwarden) 📇 🏠 🍎 🪟 🐧 - Управление почтовым ящиком Gmail через живой Gmail API: поиск, чтение, маркировка, архивация, удаление, скачивание вложений и откладывание тредов до даты."
+  },
+  {
+    "line": 901,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/drsound/markdown-to-whatsapp) 📇 🏠 🍎 🪟 🐧 - Преобразование Markdown в форматирование WhatsApp, чтобы вывод агента показывал жирный шрифт, списки и цитаты вместо сырых звёздочек, с таблицами как моноширинные блоки."
+  },
+  {
+    "line": 902,
+    "translated": "- @@L0@@ 📇 ☁️ - Функции Inbox Zero поверх Gmail, такие как поиск писем, требующих ответа или продолжения."
+  },
+  {
+    "line": 903,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/EthanQC/feishu-user-plugin) 📇 ☁️ 🏠 🍎 🪟 🐧 - Интеграция Feishu/Lark: отправка сообщений как реального пользователя, а не бота, плюс документы, Bitable, wiki, Drive, календарь, задачи и OKR."
+  },
+  {
+    "line": 904,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ExpertVagabond/solmail-mcp) 📇 ☁️ - Составление, оценка и отправка физических писем и открыток, оплачиваемых Solana."
+  },
+  {
+    "line": 905,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - Список каналов и отправка уведомлений через API FastAlert."
+  },
+  {
+    "line": 906,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@FantomaSkaRus1/telegram-bot-mcp) 📇 ☁️ 🏠 - Охватывает весь Telegram Bot API."
+  },
+  {
+    "line": 907,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/farukkolip/instapdown-mcp) 📇 ☁️ - Набор инструментов для авторов Instagram: скачивание Reels, Stories и фото, извлечение аудио, проверка вовлечённости, исследование хештегов и получение шаблонов зацепок и времени постинга."
+  },
+  {
+    "line": 908,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/farukkolip/xtapdown-mcp) 📇 ☁️ - Набор инструментов для авторов X (Twitter): скачивание медиа твитов, курируемые хештеги, время постинга, формулы зацепок, калькуляторы вовлечённости и сплиттер тредов."
+  },
+  {
+    "line": 909,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gambot-ai/gambot-mcp) 📇 ☁️ - Gambot WhatsApp Business API: отправка сообщений и шаблонов WhatsApp и управление CRM-контактами, лидами, кейсами, задачами, котировками, инвойсами, заказами и кампаниями."
+  },
+  {
+    "line": 910,
+    "translated": "- @@L0@@ 📇 ☁️ - Совершение телефонных звонков через VoIP/SIP и Realtime API OpenAI и наблюдение за транскриптом."
+  },
+  {
+    "line": 911,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/GeiserX/telegram-archive-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - Поиск и просмотр истории чатов Telegram, хранящейся в Telegram Archive: список чатов, получение сообщений и полнотекстовый поиск."
+  },
+  {
+    "line": 912,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/getpoststack/mcp) 📇 ☁️ 🍎 🪟 🐧 - Хостинговый в ЕС email API: отправка транзакционной и маркетинговой почты, управление контактами и сегментами, запуск рассылок, рендер шаблонов и чтение аналитики."
+  },
+  {
+    "line": 913,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/giggal-ai/giggal-mcp) 📇 ☁️ - Верификация email: проверки существования почтового ящика, включая catch-all, accept-all и защищённые SEG адреса (Proofpoint, Mimecast, Barracuda), одиночно или массово."
+  },
+  {
+    "line": 914,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - Отправка и получение уведомлений ntfy на самостоятельно размещённом сервере ntfy, с поддержкой токен-аутентификации."
+  },
+  {
+    "line": 915,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/googlarz/signal-mcp) 🏠 - Мессенджер Signal через локальный signal-cli: отправка и получение сообщений, управление группами и контактами, поиск истории и обработка вложений и реакций."
+  },
+  {
+    "line": 916,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gopalrajsuresh/covalent-bond) 📇 🏠 🍎 🪟 🐧 - Сопряжение двух ИИ кодирующих агентов на разных машинах через end-to-end зашифрованный релей для обмена файлами и сообщениями, с согласием человека перед любой записью файла."
+  },
+  {
+    "line": 917,
+    "translated": "- @@L0@@ ☁️ - Отправка различных типов сообщений боту группы WeCom."
+  },
+  {
+    "line": 918,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/grzgrzgrz3/pingwa-client) 🐍 ☁️ 🍎 🪟 🐧 - Двусторонние уведомления WhatsApp для ИИ-агентов: отправка сообщений, задавание вопросов с кнопками tap-to-answer и проверка ответов, без аккаунта Meta."
+  },
+  {
+    "line": 919,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/huj28-creator/wechat-fastbridge) 📇 🏠 🍎 - Интеграция macOS WeChat: чтение чатов, отправка текста, файлов и стикеров, получение контекста и мониторинг разрешённых чатов, без скриншотов или приватных протоколов."
+  },
+  {
+    "line": 920,
+    "translated": "- @@L0@@ 🐍 🏠 🍎 - Безопасный доступ к базе данных iMessage для запроса и анализа переписок, с валидацией номера телефона и обработкой вложений."
+  },
+  {
+    "line": 921,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hgn/mcp-server-notmuch) 🐍 🏠 🐧 🍎 - Локальный доступ к Maildir через notmuch: полнотекстовый поиск, фильтрация по тегам, треды, вложения и отслеживание неотвеченной почты, с необязательными черновиками и тегами."
+  },
+  {
+    "line": 922,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/helbertparanhos/resend-email-mcp) 📇 ☁️ 🍎 🪟 🐧 - Полное покрытие API Resend плюс диагностика: анализ доставляемости, устранение неполадок DNS, инспекция email, объяснение отказов и аудит аккаунтов."
+  },
+  {
+    "line": 923,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ictinnovations/ictpbx-mcp) 📇 🏠 🍎 🪟 🐧 - Только чтение доступ к ICTPBX, мультитенантному IP PBX на ICTCore и FreeSWITCH: статистика PBX, добавочные, DID, провайдеры и тенанты."
+  },
+  {
+    "line": 924,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ictinnovations/pbx-mcp) 📇 🏠 🍎 🪟 🐧 - Состояние Asterisk и FreeSWITCH PBX через AMI и ESL: добавочные, активные каналы, статус транков и SIP-пиров, план набора и история звонков; по умолчанию только чтение."
+  },
+  {
+    "line": 925,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ictinnovations/ictbroadcast-mcp) 📇 🏠 🍎 🪟 🐧 - Голосовая, SMS и факсовая рассылка ICTBroadcast: список кампаний и чтение живого статуса и результатов по звонку, с необязательными инструментами запуска и остановки кампаний."
+  },
+  {
+    "line": 926,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/iletimerkezi/iletimerkezi-mcp-server) 🎖️ ☁️ - Отправка SMS, запрос отчётов о доставке, управление отправителями и чёрными списками и регистрация и проверка записей İYS (турецкий реестр согласия) через API iletiMerkezi."
+  },
+  {
+    "line": 927,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@imdinu/apple-mail-mcp) 🐍 🏠 🍎 - Доступ к Apple Mail: список аккаунтов и почтовых ящиков, получение писем с фильтрами, полнотекстовый поиск через индекс FTS5 и извлечение вложений."
+  },
+  {
+    "line": 928,
+    "translated": "- @@L0@@ 🐍 ☁️ - Обмен сообщениями Microsoft Teams: чтение, публикация и упоминания, и список участников и тредов."
+  },
+  {
+    "line": 929,
+    "translated": "- @@L0@@ 🎖️ ☁️ - Облачные коммуникации Infobip: отправка и получение SMS и RCS, использование WhatsApp и Viber, автоматизация коммуникационных рабочих процессов и управление данными клиентов."
+  },
+  {
+    "line": 930,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/markmnl/fmsg-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Предоставление ИИ-агентам адреса в fmsg, открытом федеративном протоколе обмена сообщениями: входящие, треды, ответы, реакции, вложения и ожидание новых сообщений."
+  },
+  {
+    "line": 931,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sendchamp/ai) 🎖️ ☁️ - Только чтение поиск по документации Sendchamp для SMS, OTP-верификации и маршрутизации, специфичной для Африки."
+  },
+  {
+    "line": 932,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/iprashantraj/mcp-discord-bridge) 📇 🏠 🍎 🪟 🐧 - Управление каналами, сообщениями, форумами, вебхуками, участниками, ролями, тредами и модерацией Discord. Также работает как автономный бот со слеш-командами."
+  },
+  {
+    "line": 933,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jcoulaud/shipmail-mcp) 📇 ☁️ - Деловая почта Shipmail: управление почтовыми ящиками на пользовательских доменах, чтение и отправка сообщений, черновики ответов, инспекция тредов и автоматизация REST API и вебхук-воркфлоу."
+  },
+  {
+    "line": 934,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/parasxos/apple-mail-mcp) 🐍 🏠 🍎 - Apple Mail с индексированным полнотекстовым поиском, верифицированной отправкой с нескольких личностей, запланированными отправками, триажем план-затем-применить и локальным журналом аудита."
+  },
+  {
+    "line": 935,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sethbang/proton-mail-mcp) 📇 🏠 - Неофициальная интеграция Proton Mail через Proton Mail Bridge: отправка, чтение, поиск и организация почты, с массовыми операциями пробного прогона и режимом только чтение."
+  },
+  {
+    "line": 936,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/shahabazdev/inxmail-mcp) 📇 ☁️ - Управление транзакционной почтой Inxmail Commerce: события, рассылки, отказы, blocklist и blacklist, реакции и отслеживание доставки."
+  },
+  {
+    "line": 937,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/shichuanqiong/AgoraDM) 🐍 ☁️ - Прямой обмен сообщениями для ИИ-агентов по протоколу A2A: входящие, список друзей, групповые треды и память на друга для чатов в реальном времени с агентами других людей."
+  },
+  {
+    "line": 938,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TheSameAbramovych/qmailing-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - Чтение и отправка почты и управление почтовыми ящиками, пользовательскими доменами и вебхуками через API QMailing."
+  },
+  {
+    "line": 939,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/radmail-ai/radmail-mcp) ☁️ 📇 - Почтовая система для агентов: поиск сообщений, триаж важности/срочности, доведение обязательств и рецензируемые черновики, оставляя финансовые действия только для человека."
+  },
+  {
+    "line": 940,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@rchanllc/joltsms-mcp-server) 📇 ☁️ - Выделение выделенных реальных SIM-номеров США, получение и опрос входящих SMS и извлечение OTP-кодов для верификации телефона."
+  },
+  {
+    "line": 941,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/redditapis/redditapis-mcp) 📇 ☁️ - Только чтение доступ к API Reddit: списки сабреддитов, поиск постов, комментариев, сообществ и пользователей, деревья комментариев и топовые посты."
+  },
+  {
+    "line": 942,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Rheopyrin/ox-mcp) 📇 🏠 🍎 🪟 🐧 - Почта (IMAP/SMTP), фильтры почты Sieve, календари CalDAV, контакты CardDAV и планирование свободно/занято для Open-Xchange и основанных на стандартах почтовых платформ."
+  },
+  {
+    "line": 943,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/virtualsms-io/mcp-server) 📇 ☁️ - Получение SMS-кодов подтверждения на виртуальных номерах для сервисов вроде WhatsApp, Telegram и Google: поиск и покупка номеров и извлечение кодов."
+  },
+  {
+    "line": 944,
+    "translated": "- @@L0@@ 🐍 🏠 - Доступ к командам и сообщениям Mattermost, плюс MCP-хост, работающий как бот Mattermost, который может использовать настроенные MCP-серверы."
+  },
+  {
+    "line": 945,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jaimenbell/discord-mcp) 🐍 ☁️ - Discord REST API: список каналов, категорий, ролей и переопределений прав, с инструментами управления каналами, ролями, гильдией и сообщениями отключёнными по умолчанию."
+  },
+  {
+    "line": 946,
+    "translated": "- @@L0@@ 🐍 🏠 - Взаимодействие с трендовыми постами Product Hunt, комментариями, коллекциями, пользователями и др."
+  },
+  {
+    "line": 947,
+    "translated": "- @@L0@@ 🐍 ☁️ - Отправка ботов на браузерные встречи (Zoom, Teams, Google Meet) для сбора живых транскриптов, озвучивания текста и постинга в чат встречи."
+  },
+  {
+    "line": 948,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kushneryk/join.cloud) 📇 ☁️ 🏠 - Комнаты совместной работы для ИИ-агентов: создание и присоединение к комнатам и обмен сообщениями в реальном времени через MCP или A2A. Самостоятельно размещаемые."
+  },
+  {
+    "line": 949,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - Slack DM, каналы, треды и поиск без OAuth-приложения или одобрения админа."
+  },
+  {
+    "line": 950,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JulienRabault/icloud-mcp) 🐍 🏠 🍎 🪟 🐧 - iCloud Mail через IMAP и SMTP: поиск по всем папкам, перестроение тредов, сохранение вложений, черновики ответов и файлинг сообщений по правилу, без пометки почты как прочитанной."
+  },
+  {
+    "line": 951,
+    "translated": "- @@L0@@ 📇 ☁️ - Запрос и взаимодействие с экземплярами Bluesky."
+  },
+  {
+    "line": 952,
+    "translated": "- @@L0@@ 🐍 - Телефония через API Vonage: автоматизация голосовых звонков с саммари на основе распознавания речи в текст, отправка и получение SMS и обнаружение голосовой почты."
+  },
+  {
+    "line": 953,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kojott/mailmcp-dist) 📇 ☁️ 🏠 🍎 🪟 🐧 - Самостоятельно размещаемая почта для нескольких аккаунтов Gmail, iCloud, Fastmail или IMAP/SMTP: поиск, чтение, ответы в тредах, черновики, отправка из разрешённых и вложения."
+  },
+  {
+    "line": 954,
+    "translated": "- @@L0@@ 📇 ☁️ - Интеграция рабочего пространства Slack."
+  },
+  {
+    "line": 955,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/krystiangw/meet-live-assist-extension) 📇 🏠 🍎 🪟 🐧 - Подключение агента к живым звонкам Google Meet или Zoom через расширение Chrome: чтение субтитров, ответ в боковой панели, постинг в чат и просмотр общих экранов."
+  },
+  {
+    "line": 956,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kudosity/mcp) 🎖️ 📇 ☁️ - SMS, MMS и WhatsApp сообщения Kudosity: отправка сообщений, получение отчётов о доставке и ответов, управление контактами и списками, настройка вебхуков и проверка баланса."
+  },
+  {
+    "line": 957,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lanchuske/local-mcp-releases) 📇 🏠 🍎 - Локальный доступ к приложениям macOS: Mail, Calendar, Contacts, Reminders, Notes, iMessage, Finder, Safari, OmniFocus, Teams, Outlook, OneDrive и документы Office."
+  },
+  {
+    "line": 958,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/leshchenko1979/fast-mcp-telegram) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Доступ к Telegram с прямыми вызовами API, мультипользовательской аутентификацией, HTTP-MTProto мостом, вложениями файлов и транскрипцией голоса."
+  },
+  {
+    "line": 959,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lettio-eu/mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Частная, хостинговая в ЕС почта для ИИ-агентов через JMAP: чтение, поиск, ответ в тредах, организация и отправка, с привязкой отправки к вошедшему почтовому ящику."
+  },
+  {
+    "line": 960,
+    "translated": "- @@L0@@ 🐍 🏎️ - Поиск личных сообщений и контактов WhatsApp и отправка сообщений отдельным лицам или группам."
+  },
+  {
+    "line": 961,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LimzoCom/limzo-mcp) 🎖️ 📇 ☁️ - Только чтение статистики публичных групп Telegram, отслеживаемых антиспам-ботом Limzo: таблицы лидеров, тренды активности, уровни участников и сводки модерации."
+  },
+  {
+    "line": 962,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/liuboacean/agent-comm-hub) 📇 🏠 🍎 🪟 🐧 - Мультиагентный коммуникационный хаб с обменом сообщениями в реальном времени, планированием задач, общей памятью, эволюцией на основе доверия и контролем доступа по ролям."
+  },
+  {
+    "line": 963,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nakulben/whatsapp-mcp) 🐍 ☁️ - Управление шаблонами сообщений WhatsApp Business через Meta Cloud API: создание, валидация и отправка всех типов шаблонов, включая карусель, каталог и flows."
+  },
+  {
+    "line": 964,
+    "translated": "- @@L0@@ 🎖 📇 ☁️ - Интеграция с LINE Official Account."
+  },
+  {
+    "line": 965,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@littlebearapps/outlook-assistant) 📇 ☁️ - Поиск во входящих Outlook, отправка писем, планирование встреч, управление контактами и настройка параметров почтового ящика."
+  },
+  {
+    "line": 966,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/loicfontaine-max/qorami-sdk) 📇 ☁️ - Проверка email перед тем, как ИИ-агент его отправит: возвращает отправить, спросить-человека или заблокировать, с машинными кодами причин и обнаружением инъекции промптов."
+  },
+  {
+    "line": 967,
+    "translated": "- @@L0@@ 📇 ☁️ - Пусть ИИ совершает телефонные звонки от вашего имени: бронирование, планирование встреч и просмотр транскриптов звонков."
+  },
+  {
+    "line": 968,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ma2no4413/outlook-mcp) 🐍 🏠 🍎 🪟 🐧 - Реструктуризация крупных почтовых ящиков Outlook/Hotmail: перемещение поддеревьев папок, массовое перемещение и пометка прочтения с превью пробного прогона и управление правилами входящих. Не может отправлять почту."
+  },
+  {
+    "line": 969,
+    "translated": "- @@L0@@ 🐍 ☁️ - Календари CalDAV на любом сервере (Yandex, Google, Nextcloud, iCloud и др.): создание событий с повторением, участниками и напоминаниями и поиск событий."
+  },
+  {
+    "line": 970,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MailFlat/mailflat-sdks) 🐍 ☁️ - Почтовые ящики для агентов, возвращающие одноразовые коды как поле. Адреса постоянны; сообщения истекают после настраиваемого окна хранения."
+  },
+  {
+    "line": 971,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - Единая почта через Gmail, Outlook, iCloud и_generic IMAP/SMTP: поиск, отправка, организация и пакетное управление сообщениями, с шифрованным хранением учётных данных."
+  },
+  {
+    "line": 972,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Metaverse-Cloud/engagelab-email-mcp) 📇 ☁️ - Отправка, получение, мониторинг и ответ на почту с контекстом треда через EngageLab Email."
+  },
+  {
+    "line": 973,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/marras0914/agent-toolbelt) 📇 ☁️ - Утилитарные API-инструменты для агентов: генерация схем, извлечение текста, подсчёт токенов, сборка regex и cron, оптимизация промптов, веб-суммаризация и др."
+  },
+  {
+    "line": 974,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mohitbadwal/ringback) 🐍 🏠 🍎 - Позволяет LLM связаться с вами по телефону: живые, прерываемые голосовые звонки и многоуровневые оповещения через самостоятельно размещённый SIP, с whisper.cpp распознаванием речи в текст и macOS TTS."
+  },
+  {
+    "line": 975,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@multimail-dev/multi-mail) 📇 ☁️ - Почта для ИИ-агентов: отправка и получение как Markdown с настраиваемым надзором человека (монитор, шлюз или полная автономность)."
+  },
+  {
+    "line": 976,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/carddav-mcp) 📇 🏠 ☁️ - Контакты, группы и фото на любом CardDAV-сервере (Radicale, Baikal, Nextcloud, Fastmail, iCloud), с записью под защитой ETag и белым списком адресной книги."
+  },
+  {
+    "line": 977,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/caldav-mcp) 📇 🏠 ☁️ - События, задачи и записи журнала на любом CalDAV-сервере (Radicale, Nextcloud, Fastmail, iCloud), с белым списком календаря и подтверждением изменений серий."
+  },
+  {
+    "line": 978,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Sequenzy/mcp) 📇 ☁️ 🍎 🪟 🐧 - Маркетинговая автоматизация email Sequenzy: управление подписчиками, списками, сегментами, шаблонами, кампаниями, последовательностями, транзакционной почтой и аналитикой."
+  },
+  {
+    "line": 979,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aeoess/mingle-mcp) 📇 ☁️ - Сетевое взаимодействие агент-в-агент: ваш агент публикует, что вам нужно, и сопоставляется с агентами других людей, и оба человека одобряют перед подключением."
+  },
+  {
+    "line": 980,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mouse114514/Xadeus-QQ-MCP) 🐍 🏠 🪟 🐧 - Управление QQ через NapCatQQ (OneBot v11): отправка и получение сообщений, управление группами и пробуждение агента при входящих сообщениях."
+  },
+  {
+    "line": 981,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@MrGo2/icloud-mcp) 📇 🏠 ☁️ 🍎 - Apple Mail, Calendar, Contacts, Reminders, Notes, Messages и Safari через AppleScript на macOS или iCloud через IMAP, CalDAV и CardDAV в других местах."
+  },
+  {
+    "line": 982,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/smtp-mcp) 📇 🏠 🍎 🪟 🐧 - Отправка, ответ и пересылка почты через SMTP, ограниченная белым списком получателей, с одобрением каждого сообщения человеком перед отправкой."
+  },
+  {
+    "line": 983,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/openagentemail/openagentemail) 📇 🏠 🍎 🪟 🐧 - Самостоятельно размещаемая почта для ИИ-агентов: почтовые ящики на вашем домене, извлечение OTP и ссылок подтверждения, ожидание новой почты и веб-дашборд."
+  },
+  {
+    "line": 984,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ni-c/ntfy-mcp) 📇 ☁️ 🏠 - Отправка push-уведомлений через ntfy, чтение обратно отправленных сообщений, обновление уведомления на месте во время выполнения задачи и администрирование пользователей и доступа к темам."
+  },
+  {
+    "line": 985,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/OrygnsCode/Omnicord) 📇 🏠 🍎 🪟 🐧 - Чат, модерация, автомод, события и администрирование Discord, включая построение сервера по описанию, с подтверждением для разрушительных действий."
+  },
+  {
+    "line": 986,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/overpod/mcp-telegram) 📇 🏠 🍎 🪟 🐧 - Telegram через MTProto: чтение чатов, поиск сообщений, скачивание медиа и управление контактами, с входом по QR-коду."
+  },
+  {
+    "line": 987,
+    "translated": "- @@L0@@ 📇 ☁️ - Отправка ботов ChatterBox на встречи Zoom и Google Meet и получение транскриптов и записей."
+  },
+  {
+    "line": 988,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/paigy-ai/mcp) 📇 ☁️ - Позвоните, отправьте SMS или push-уведомление на телефон пользователя, когда агенту нужен ввод в середине задачи, и позвольте ему ответить голосом."
+  },
+  {
+    "line": 989,
+    "translated": "- @@L0@@ 🎖️ 📇 🏠 ☁️ 🍎 🪟 🐧 - Создание и управление голосовыми сообщениями Carbon Voice, разговорами, личными сообщениями, папками, голосовыми заметками и ИИ-действиями."
+  },
+  {
+    "line": 990,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Pingfyr/mcp) 🎖️ 📇 ☁️ - Планирование напоминаний, уведомлений и вебхуков через API запланированной доставки Pingfyr."
+  },
+  {
+    "line": 991,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/platfone-com/mcp) 📇 ☁️ 🏠 - Аренда виртуальных номеров по всему миру, получение SMS и управление полным жизненным циклом активации через Platfone."
+  },
+  {
+    "line": 992,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PostcardBot/postcardbot-mcp-server) 📇 ☁️ - Отправка физических открыток по всему миру, индивидуально или массово."
+  },
+  {
+    "line": 993,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PaSympa/discord-mcp) 📇 🏠 🍎 🪟 🐧 - Мультигильдийское управление Discord: сообщения, каналы, роли, форумы, вебхуки и модерация."
+  },
+  {
+    "line": 994,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Py2755/aiogram-mcp) 🐍 ☁️ - Промежуточное ПО, предоставляющее ботов Telegram aiogram через MCP: обмен сообщениями, богатые медиа, модерация, клавиатуры, события реального времени, ограничение частоты, разрешения и журналы аудита."
+  },
+  {
+    "line": 995,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/qq418716640/botbell-mcp) 📇 ☁️ - Отправка push-уведомлений на iPhone, iPad и Mac через BotBell, с двусторонними ответами, кнопками действий, Markdown и управлением несколькими ботами."
+  },
+  {
+    "line": 996,
+    "translated": "- @@L0@@ ☕ 📇 🏠 🍎 🪟 🐧 - Взаимодействие с Discord и автоматизация задач."
+  },
+  {
+    "line": 997,
+    "translated": "- @@L0@@ 📇 🏠 - Взаимодействие с API VRChat: получение информации о друзьях, мирах, аватарах и др."
+  },
+  {
+    "line": 998,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Sealjay/mcp-hey) 📇 🏠 🍎 - Локальный доступ к почте Hey.com через кэшированную сессию: чтение, поиск, отправка, ответ и управление Screener."
+  },
+  {
+    "line": 999,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Sendmux/sendmux-sdk) 🐍 ☁️ 🏠 - Почтовые ящики для ИИ-агентов через Sendmux: получение, поиск и отправка почты."
+  },
+  {
+    "line": 1000,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/serhiizghama/viber-mcp) 📇 ☁️ - Viber Bot REST API: отправка текста, медиа, файлов, локаций и контактов, широковещательные сообщения, управление вебхуками и инспекция данных аккаунта и пользователя."
+  },
+  {
+    "line": 1001,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SirGreed808/zoho-mail-mcp) 📇 🏠 - Чтение, поиск и отправка почты через Zoho Mail."
+  },
+  {
+    "line": 1002,
+    "translated": "- @@L0@@ 📇 ☁️ - Подключение к Microsoft Office и пакету Microsoft 365 через Graph API, включая почту Outlook, файлы, Excel и календарь."
+  },
+  {
+    "line": 1003,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sounny/sounnyforms-mcp) 🎖️ 📇 ☁️ 🏠 - Бессерверный бэкенд форм, триаж лидов и генератор контактных форм для статических сайтов, React и JAMstack-приложений."
+  },
+  {
+    "line": 1004,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Spix-HQ/spix-mcp) 🐍 ☁️ - Номера телефонов и голос для ИИ-агентов: совершение и получение звонков, отправка email и управление контактами."
+  },
+  {
+    "line": 1005,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tecnologicachile/mail-mcp) 🦀 ☁️ 🍎 🪟 🐧 - Мультиаккаунтная почта через IMAP, SMTP, Exchange Web Services и Microsoft Graph: чтение, поиск, отправка, ответ, пересылка, массовые операции и скачивание вложений."
+  },
+  {
+    "line": 1006,
+    "translated": "- @@L0@@ - Отправка уведомлений на ваш телефон через ntfy."
+  },
+  {
+    "line": 1007,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/liagha/termgram) 🦀 🏠 🍎 🪟 🐧 - Терминальный клиент Telegram через MTProto: CLI для сообщений, медиа и контактов, плюс MCP-сервер, отправляющий уведомления при поступлении новых сообщений."
+  },
+  {
+    "line": 1008,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/textbee/textbee-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - Отправка и чтение SMS через ваш собственный Android-телефон через textbee, открытый SMS-шлюз, включая ответы, коды и статус доставки."
+  },
+  {
+    "line": 1009,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tlennon-ie/neurodock) 🐍 🏠 ☁️ - Инструменты для нейроотличных профессионалов: переводчик корпоративной двусмысленности, планировщик и защита от усиления rumination, гиперфокуса или sycophancy."
+  },
+  {
+    "line": 1010,
+    "translated": "- @@L0@@ 🐍 ☁️ - Управление SIP-эндпоинтами, номерами и назначениями DIDLogic."
+  },
+  {
+    "line": 1011,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vaemail/vaemail-mcp) 📇 ☁️ - Отправка транзакционной почты, аутентификация доменов отправки, отслеживание доставки и диагностика доставляемости, с ограниченными API-ключами и режимом пробного прогона."
+  },
+  {
+    "line": 1012,
+    "translated": "- @@L0@@ 📇 🏠 🍎 - Чтение данных iMessage на macOS."
+  },
+  {
+    "line": 1013,
+    "translated": "- @@L0@@ 📇 ☁️ - Взаимодействие с почтовыми серверами JMAP (JSON Meta Application Protocol)."
+  },
+  {
+    "line": 1014,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@wazionapps/wazion-mcp-server) 📇 ☁️ - Инструменты WhatsApp Business: отправка сообщений, автоматизация рабочих процессов, запуск кампаний и управление CRM."
+  },
+  {
+    "line": 1015,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/webtoolbox/websitetoolbox-mcp) 📇 🏠 - Manage Website Toolbox forums via the Forum REST API: categories, topics, posts, users, user groups, conversations, moderators, tags and page views."
+  }
+]

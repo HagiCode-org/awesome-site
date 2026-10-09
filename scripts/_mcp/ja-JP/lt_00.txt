@@ -1,0 +1,400 @@
+11	from idea to a production-grade MCP server in under a minute! 🦜
+15	A curated list of awesome Model Context Protocol (MCP) servers.
+27	## What is MCP?
+29	is an open protocol that enables AI models to securely interact with local and remote resources through standardized server implementations. This list focuses on production-ready and experimental MCP servers that extend AI capabilities through file access, database connections, API integrations, and other contextual services.
+31	Clients
+33	Checkout @@L0@@ and @@L1@@.
+35	Remote Servers
+37	This list is for servers with a GitHub repo you install and run yourself. Looking for a hosted server you just connect to over a URL? See @@L0@@.
+39	Tutorials
+45	Community
+50	Legend
+52	official implementation
+53	* programming language
+54	Python codebase
+55	TypeScript (or JavaScript) codebase
+56	Go codebase
+57	Rust codebase
+58	C# Codebase
+59	Java codebase
+60	C/C++ codebase
+61	Ruby codebase
+63	* scope
+64	Cloud Service
+65	Local Service
+66	Embedded Systems
+67	* operating system
+68	For macOS
+69	For Windows
+70	For Linux
+73	> Confused about Local 🏠 vs Cloud ☁️?
+74	> * Use local when MCP server is talking to a locally installed software, e.g. taking control over Chrome browser.
+75	> * Use cloud when MCP server is talking to remote APIs, e.g. weather API.
+77	Server Implementations
+80	> We now have a @@L0@@ that is synced with the repository.
+137	Aggregators
+139	Servers for accessing many apps and tools through a single MCP server.
+140	Checks and validates live x402 payment routes across Base, Solana and Algorand.
+141	Bridge to Moltline Studio's hosted MCP servers: code review, agent governance, business math, regulatory deadlines, crypto tax lots, routing and optimization.
+142	Marketplace of vetted agents with automated security scans plus human review, credential-to-host binding and sandboxed hosted code with default-deny egress.
+143	BotHire agent-to-agent hiring marketplace: search agents and skills by capability and trust score, read live demand, and settle in USDT or USDC across chains.
+144	Edge firewall for exposing internal PostgreSQL databases and APIs to AI agents with strict validation.
+145	Pay-per-call x402 tools (utilities, DNS/WHOIS, blockchain RPC, market and DEX data, prediction markets, security audits) plus an OpenAI-compatible LLM gateway.
+146	Paid crypto intelligence via x402 on Base: preflight checks, trade decisions audited against real prices, risk state, signal history and automation search.
+147	Real-time anomaly detection with NASA-derived sequence mining across blockchain, mempool, stablecoin depeg, aviation and GitHub signals, paid via x402 on Base.
+148	Aggregates multiple MCP servers into one unified server.
+149	Pay-per-call x402 API: geocoding, weather, earthquakes, patents, US case law, Federal Register, scientific papers, DNS/WHOIS, OFAC screening and Census data.
+150	Intelligence endpoints for security, company, threat, compliance, sales, sports, property and health data, paid via x402 micropayments on Base.
+151	Search and call utility APIs for OCR, image, audio, web, math, conversion and geodata, paid per call with x402 USDC on Base.
+152	Pay-per-call x402 intelligence APIs on Base and Solana: finance, crypto, legal, immigration, healthcare costs, real estate, tax, climate, sports and science.
+153	Graded MCP registry: live-probes remote servers from the MCP Registry (initialization, tool listing, schema quality, latency, provenance) and publishes grades.
+154	Pay-per-call x402 gateway for agent tools: crypto and DeFi data, web scraping, AI inference, CAPTCHA solving, token security, DNS/WHOIS and gas monitoring.
+155	Daily-verified dataset of LLM API prices for Chinese and global models, with live price queries and token cost estimation.
+156	Search a directory of MCP servers, AI agents, CLI tools and agent skills.
+157	Bridge MCP servers to the agent:// network so other agents can discover and call their tools, with DNS-like identity, mTLS, trust scores and capability search.
+158	Live catalog of x402-payable HTTP tools from AgentBodega: search, public data, social media, status checks, media conversion and agent-readiness checks.
+159	AI agent discovery and marketplace on Nostr with Solana payments (SOL, USDC): NIP-89 discovery, NIP-90 jobs, NIP-44 encryption and on-chain micropayments.
+160	Agent-to-agent (A2A) commerce framework using Nostr NIP-90 and Cashu eCash micro-settlements.
+161	Job aggregator for AI agents across platforms such as x402, RentAHuman and Virtuals.
+162	Job search over employer ATS APIs (Greenhouse, Lever, Ashby, Beisen) with freshness verification, ghost-job scoring and apply links; matching runs client-side.
+163	Self-hostable API gateway and marketplace for AI agents with one API key, REST and streaming access, and health monitoring.
+164	Search, integrate and monetize MCP connectors on the AgentHotspot marketplace.
+165	Search the Remote OpenClaw directory of MCP servers, agent skills and plugins for names, links and install commands; also available as a CLI.
+166	Skill marketplace where AI agents discover, purchase and integrate skills.
+167	AnyAPI: scraping and data APIs for social media, search results, Google Maps, e-commerce and web data, with normalized JSON and automatic provider failover.
+168	CLIRank API intelligence for coding agents: discover, compare and get recommendations for APIs scored on agent-friendliness.
+169	Turn any REST API into a hosted MCP server, with ready-made public servers for GitHub, Stripe, Slack, OpenAI, Notion and more.
+170	AIMarket Hub plugin that packages AIMarket capabilities as self-hosted MCP servers with a Docker image, manifest and client config.
+171	Local MCP proxy that merges downstream servers behind a few meta-tools with progressive discovery and compresses large tool outputs, with full output on demand.
+172	Search, inspect and run data APIs for SEO and AI visibility, finance, social, web search, sales and agent mail through a few meta-tools, with spending caps.
+173	Self-hosted MCP gateway fronting upstream servers with per-tool access control, guardrails, rate limits and usage logs; also proxies LLM and A2A agent traffic.
+174	Live web data as clean JSON: search engines, social media, e-commerce (Amazon, eBay, Etsy), real estate, jobs, travel, news, finance and company intel.
+175	MeshMarket agent-to-agent capability exchange: agents browse, self-onboard, rent memory, reasoning and safety per call, and publish their own tools.
+176	Agent-to-agent marketplace where AI agents discover, invoke and pay for other agents' services using USDC on Base.
+177	DeepSeek AI chat and reasoning with multi-turn sessions, function calling, thinking mode and cost tracking.
+178	Build, validate and deploy multi-agent AI solutions on the ADAS platform: design skills with tools and manage the solution lifecycle.
+179	Meta-MCP server that unifies AI coding assistants (Codex, Claude Code, Cursor, Gemini) behind one interface with automatic discovery and zero configuration.
+180	Search the awesome-mcp.tools catalog of MCP servers from an MCP client or the terminal.
+181	Multi-model AI media generation (image, video, audio, face swap, talking avatars) plus chat with models such as Claude, GPT, Gemini and DeepSeek.
+182	Access AI models such as GPT-5, Claude, Gemini, Grok and DeepSeek, paid per use via x402 micropayments in USDC on Base.
+183	Pay-per-request AI chat completions across supported models via x402, with automatic Solana USDC payments and fail-closed spending caps.
+184	Provenance gateway for stdio MCP servers that blocks tool calls whose destination or content came from an untrusted tool result, with schema-derived policies.
+185	x402 discovery hub: search engine for agent services, paid with USDC on Base via x402.
+186	Browse LLMs from OpenAI, Anthropic, Google, Qwen, DeepSeek and others with live prices, and route chat completions through the OrcaRouter gateway with fallback.
+187	Unified MCP platform that connects many apps, tools and services behind one interface.
+188	Dependency graphs for TypeScript, JavaScript, Python, Go, Rust and C, with arc diagram visualization, health scoring, dead code detection and a temporal graph.
+189	Self-hosted MCP server registry for enterprise AI agents.
+190	MCP governance proxy: allow, deny or human-approval policy gates, DLP redaction and cost caps, with tool calls recorded to a hash-chained, signed audit log.
+191	Search a curated catalog of AI agents, skills, prompts, bundles and MCP connectors.
+192	Shared memory for fleets of AI agents: nightly self-correction rewrites stale facts and merges duplicates, and recall is injected into coding agents' prompts.
+193	Lists MCP servers so you can ask your client which ones could improve your daily workflow.
+194	Pay-per-call AI models (chat, image, video, music, speech) plus web scraping, screenshots, OCR, face matching and crypto/FX rates, paid via HTTP 402 in USDC.
+195	GPU inference API for LLMs, image and video generation, TTS, Whisper, embeddings, reranking and OCR, paid per use via x402 or an API key.
+196	Local-first developer knowledge graph: watches project files, extracts entities and relationships with LLMs, and offers queries, a web dashboard and a CLI.
+197	Generate images from text prompts with Google's Imagen 3 API, with photography, artistic and photorealistic controls.
+198	Discover, register and chat with AI agents on the Hashgraph network via the Registry Broker.
+199	TokenLab AI gateway: model and price discovery plus OpenAI-compatible Chat Completions, Responses, Anthropic Messages and Gemini inference.
+200	Self-hosted MCP gateway turning REST, SOAP and GraphQL APIs and SQL/NoSQL databases into MCP tools without code, with spec import, pre-built adapters and RBAC.
+201	Self-improving tool discovery: searches registries, installs MCP servers as subprocesses without restarts, and persists tool knowledge across sessions.
+202	Draft client proposals in your own voice from a new brief, based on your saved past proposals, with local storage only.
+203	Search and browse the AllMCPs.com registry of MCP servers, get install configs, and submit or claim listings.
+204	Bridge to the Google Gemini API for accessing Gemini Pro and Flash models.
+205	Bridge to a local Ollama server for running Llama, Mistral, Qwen and other local models.
+206	Bridge to the OpenAI API for accessing GPT-4, GPT-4o and other OpenAI models.
+207	Multi-agent orchestration with a race-condition-safe shared blackboard, agent spawning, FSM transitions, budget and token tracking, and audit logs.
+208	Query apps with SQL from a single local-first binary; also connects to PostgreSQL, MySQL and SQLite-compatible databases.
+209	Edge-first AI platform unifying many providers and models, with multi-agent orchestration, human-in-the-loop workflows, guardrails and context summarization.
+210	Search and use Claude Agent Skills from any model or client as if natively supported.
+211	Local-first navigator with verified data on SaaS services and workflow recipes.
+212	Search and buy from a predicate-gated scientific and data marketplace: browse the catalogue and metadata, then pay via x402 (USDC on Base) or Lightning L402.
+213	MapRag: RAG-focused MCP subregistry for discovering and routing to retrieval-capable MCP servers with structured constraints and explainable ranking.
+214	Go-to-market signals via Apify actors: hiring signals, tech stack detection, job board scanning, LinkedIn URL resolution, ICP scoring and signal aggregation.
+215	MCP aggregator that connects agents to multiple MCP servers through one configuration, with ready-made templates and cross-repo prompt workflows.
+216	Search engine for AI agents to discover products, services and businesses across categories, without LLM calls.
+217	MCP servers for Japanese SMB SaaS without their own MCP support, such as KING OF TIME, SmartHR, kaonavi, Smaregi, LINE Lstep and CloudSign.
+218	Access xAI's Grok API with agentic tool calling, image generation, vision and file support.
+219	MetaMCP: unified middleware MCP server that manages your MCP connections through a GUI.
+220	Pay-per-call x402 tools and skill packs (headless browser, web search, OCR, wallet-keyed memory), plus a router that finds the cheapest healthy tool.
+221	MCP gateway with single-port multiplexing and meta-tools that replace individual tool registrations, plus hot-reloadable capabilities and OpenAPI import.
+222	Governed access to DMTF Redfish BMCs (iDRAC, iLO, XCC, OpenBMC) for power, thermal, firmware and BIOS management; read-only by default with tiered write modes.
+223	Mount multiple OpenAPI specs or a FastAPI app as MCP servers in one process, exposing GET endpoints as resources and large specs through meta-tools.
+224	Read-only search over a local index of your engineering stack (GitHub, Jira, Slack, PagerDuty, Datadog and more): incidents, PRs, deployments and DORA metrics.
+225	Serve many stdio MCP servers from one container over HTTPS, with path-based routing, an aggregate endpoint using meta-tools, built-in OAuth 2.1 and hot reload.
+226	Crypto market oracle: BUY/SELL/HOLD consensus from RSI, MACD, funding rates and on-chain flow, plus Polymarket edges with EV scoring and X crowd sentiment.
+227	Plugin-based server and Chrome extension that gives AI agents access to web apps through your authenticated browser session, with a plugin SDK.
+228	Agent-to-agent referral network where AI agents discover, recommend and refer users to each other, with a bilateral trust model and referral tracking.
+229	Automatically discover and configure MCP servers on your local machine.
+230	Orchestrates all your MCP servers through tool discovery, reducing token overhead.
+231	Developer utilities: SEO optimization, document conversion, domain lookup, email validation, QR codes, weather data, social media posting and security scanning.
+232	Search developer infrastructure deals, free tiers and startup programs, compare vendors, plan stacks and track pricing changes.
+233	Tools for agent supply-chain security, scanner consensus and x402 reliability, plus access to Vibes-Coded's commerce catalog.
+234	Hub that aggregates tools from multiple MCP servers with unified BM25 and regex search and deferred loading.
+235	Gateway that funnels multiple MCP servers through one endpoint, with live attach and detach, tool filtering and hiding, hot config reload and optional OAuth.
+236	Preflight checks for x402 payments: detect decoys, zombie endpoints, dead services and price traps before an agent pays, plus forensics and alternatives.
+237	Tool intelligence over scored services: discover and compare providers, check AN Scores, execute with managed or own credentials, and track costs and failures.
+238	Meta-MCP server that lets LLMs discover, install and orchestrate multiple MCP servers to extend their own capabilities on demand.
+239	Local MCP proxy that routes multiple servers through one endpoint, with BM25 tool filtering, quarantine security, activity logging and a web UI.
+240	AI phone number directory: query Voxie AI personas and third-party AI services such as ChatGPT and get webchat links.
+241	Image generation and editing with OpenAI's GPT image models.
+242	Turn a web service into an MCP server without code changes.
+243	Pay-per-call x402 data: equities, crypto/DeFi analytics, options chains, dealer GEX, macro data, congressional trades, prediction markets and SEC filings.
+244	Pay-per-call x402 APIs: Polymarket and Kalshi prediction markets, DeFi and crypto data, on-chain reads across EVM chains, live weather and web search.
+245	MCPX: open-source gateway for managing MCP servers at scale, centralizing tool discovery, access controls, call prioritization and usage tracking.
+246	Create custom tool bundles, connect providers with OAuth or API keys, and use one MCP server across many integrations, with a UI for bundles and credentials.
+247	Deterministic date and time reasoning: arithmetic, DST-aware time zones, business days, public holidays, RFC 5545 recurrence and Gregorian/Persian conversion.
+248	Discover and compare L402 and x402 paid API services from satring.com, a curated Lightning and USDC API directory.
+249	Proxy combining multiple MCP servers into one interface, with discovery and management of tools, prompts, resources and templates plus a debugging playground.
+250	Meta-server that reduces Claude Code tool bloat via progressive disclosure, auto-starting Playwright and Context7 and provisioning MCP servers on demand.
+251	Connect MCP hosts to apps such as Notion, Slack, Monday and Airtable.
+252	Turn a web API into an MCP server and add it to the open-source open-mcp.org registry.
+253	API hub covering travel (Amadeus, Sabre), Polymarket prediction markets, crypto and weather, paid per call via x402 in USDC.
+254	Search, document and execute authenticated API calls across apps such as Gmail, Slack, Stripe, Notion and GitHub through a few tools with constant context size.
+255	Adapter to the OpenAaaS scientific agent network: submit tasks such as literature analysis or materials database queries to remote research agents.
+256	Runtime discovery for x402-payable APIs: find and route to pay-per-call endpoints by capability, ranked by quality and trust score, plus a Python SDK and CLI.
+257	Search x402-enabled HTTP APIs by keyword, paid per search via x402 micropayments on Base.
+258	Multi-agent deliberation across ChatGPT, Claude, Gemini and Perplexity, with dynamically generated roles that explore the question from divergent angles.
+259	Aggregate personal data from Steam, YouTube, Bilibili, Spotify, Reddit and other gaming, music, video and social platforms, with OAuth2 and token management.
+260	Agent hiring protocol on x402: discover specialized agents, hire them in one call and settle in USDC on Base, with reputation and on-chain EIP-3009 receipts.
+261	Connect agents to any REST API on the fly: maps the API once, then fetches typed data deterministically without per-call LLM use. Self-hosted.
+262	Local gateway and manager for MCP servers shared across AI coding tools: set up and authenticate each server once, with lazy discovery and OS keychain storage.
+263	Search the Skillselion catalog of community-vetted Claude Code skills, MCP servers and marketplaces, ranked by installs and GitHub stars; load skills mid-task.
+264	Rust template for an MCP server that queries Anthropic's Claude API via the crimson-crab SDK.
+265	Discover, invoke and verify agents on a paid marketplace: code generation, security scanning (OSV.dev, GitGuardian) and lead scoring, with signed results.
+266	Find and vet x402 payment APIs in the x402-list directory: search and rank services, check uptime, health, per-endpoint prices and on-chain settlement volume.
+268	Connect AI agents to MCP servers from one config synced across coding tools, served through one process with compact tool discovery and spec validation.
+269	Labor marketplace protocol for AI agents with atomic escrow and weighted anti-Sybil reputation.
+271	Aerospace & Astrodynamics
+273	Astronomical catalog data and observing session planning: OpenNGC deep-sky objects with visibility, rise/transit/set and alt/az calculations.
+274	Search FCC, ITU, UNOOSA and FAA space regulatory filings via Orbit Sentinel: semantic search, entity dossiers, spectrum holdings, launch licenses and alerts.
+276	Agreements & Coordination
+278	MCP servers for creating, coordinating, and executing agreements: commitments, escrow, and multi-party decision workflows across humans, agents, and organizations.
+279	CHAP Coordinator for auditable human-agent collaboration: approvals, overrides, handoffs, escalations and hash-linked evidence.
+280	Define, validate, deploy and operate machine-readable agreements, with EIP-712 permit preparation, signed participant inputs, state reads and input history.
+281	Access cogDepot, an anonymous broker where agents publish capability listings, negotiate terms and form escrow-backed deals with two-sided reputation.
+282	External anchoring layer that records AI agent accountability boundaries on both sides, without inspecting content or passing judgment.
+283	Human-in-the-loop via MCP elicitation: native confirmation dialogs and typed forms from JSON schemas in the host, plus a check of supported features.
+284	Marketplace of verifiable tasks for AI agents: publish independently checkable tasks, submit work and build reputation, with actions in a hash-chained register.
+285	Detect and normalize traces of machine generation in Russian text, without authorship verdicts.
+286	Hire human operators for tasks needing physical presence, perception or judgment: real-world verification, product testing, AI output review and errands.
+287	Public bounty board where AI agents claim funded bounties, deliver work and get paid in USDC on Base on acceptance, with a public receipt ledger.
+289	Open Task Relay: bounded public-good tasks that AI agents can discover, complete, submit and independently verify.
+290	Agent identity with self-held Ed25519 keys, verifiable multi-party meeting rooms with co-signed transcript receipts, and script provenance chains.
+291	Community jury platform where humans and AI agents open cases, weigh evidence and vote together, with arbitration mode, verdict waiting and signed webhooks.
+292	Hire ID-verified people for errands, on-site photos, queue-sitting and in-person bookings, with escrow-backed offers, chat and proof-of-completion review.
+294	Accessibility
+296	WCAG 2.2 accessibility tools: color contrast checks including text over images, EU accessibility declaration generation and an aria-live announcement monitor.
+297	Color-vision accessibility: check palettes and images for colorblind safety, generate safe palettes, simulate color blindness and create Ishihara-style plates.
+299	Art & Culture
+301	Access and explore art collections, cultural heritage, and museum databases. Enables AI models to search and analyze artistic and cultural content.
+302	Flux image generation and editing from Black Forest Labs via the Ace Data Cloud API.
+303	Collaborative Arabic poetry arena and Poetic Equity protocol connecting AI agents with human poets.
+305	Nano Banana image generation and editing, including virtual try-on and product placement in realistic scenes.
+306	ByteDance Seedream image generation and editing via the Ace Data Cloud API.
+307	Semantic search over classical philosophy and humanities works.
+308	Search for book information via the Open Library API.
+309	Search the SansFiction book catalog by title, author, series or ISBN and manage a personal reading library: status, progress, ratings, reviews and collections.
+310	Generate animations locally using Manim.
+311	Soundboard with meme sounds from myinstants.com: search, play and browse categories.
+312	Connect AI assistants to Blender.
+313	Generate SVG icons from text descriptions with customizable styles.
+314	Art-tourism data: biennales (Venice, Whitney), art fairs (Art Basel, Frieze), major museum visitor guides and art trip recommendations.
+315	Access the Shahnameh (Book of Kings), Ferdowsi's Persian epic poem, including sections, verses and explanations.
+316	SVG art engine controlled through JSON config: CSS keyframe and SMIL animations, parametric curves, filters, gradients and PNG preview.
+317	Search Archive of Our Own (AO3) and delegate full-fic reading to Gemini, so recommendations draw on the actual text rather than the blurb.
+318	Control JupyterCAD using natural language.
+319	Image editing through Photopea: documents, layers, text, shapes, filters, effects and export.
+320	Search hand-drawn Infyicon icons in four matching styles and fetch SVG markup or PNG URLs.
+321	Resize, compress, convert, remove backgrounds, strip metadata, watermark and export images locally through QuokkaPix, without uploading source images.
+322	Deterministic music theory: chord and Roman numeral analysis, voicing and reharmonization.
+323	Add, analyze, search and generate video edits from your Video Jungle collection.
+324	Bazi (Chinese astrology) charting and analysis.
+325	License-verified search across The Met, Cleveland, AIC, Wikimedia Commons and Europeana, limited to CC0 and public-domain works, with citations.
+326	Image generation, background removal and 4x upscaling, paid per image via x402 in USDC on Base.
+327	Apple Music integration: search the catalog, browse your library, manage playlists and get personalized recommendations.
+328	Creative AI tools: image generation, upscaling, background removal, product mockups, CMYK conversion, print-ready PDFs, SVG vectorization and watermarking.
+329	View, edit and run ComfyUI node-based image generation workflows, with an embedded terminal.
+330	Access media models such as Flux 2 Pro, Nano Banana Pro, GPT Image 2, Veo 3.1, Sora 2, Kling and ElevenLabs for image, video, speech, 3D and branded graphics.
+331	Interact with the Discogs API.
+332	Machine-native listening platform for C.W.A.'s album Straight Outta Crompton, letting AI agents listen to it.
+333	The Bible as a knowledge graph of verses, people, places, topics and Hebrew lexemes: scripture search, interlinear lookup, cross references and genealogy.
+334	Render music notation as SVG, MusicXML and MIDI from a JSON score, analyze MusicXML harmonically and search a music-theory knowledge base.
+335	Create pixel art using the Aseprite API.
+336	Interact with the Quran.com corpus via its REST API.
+337	Search and retrieve movie, TV show and person information from The Movie Database (TMDB) API.
+338	Destiny charting: BaZi, Zi Wei Dou Shu and Western astrology natal charts, with true solar time correction and Chinese, English, Japanese and Korean input.
+339	Local bridge for DaVinci Resolve (Free and Studio): timeline inspection, zoom animation, color adjustments and duplicate-timeline review.
+341	AniList integration with taste-aware recommendations, watch analytics, social tools and list management.
+342	Drive a local FreeCAD from an agent: parametric CAD, TechDraw drawings with GD&T, CalculiX FEM, and CFD, thermal, EM and multiphysics simulation.
+343	Generate and edit SVGs via natural language, with real-time updates and secure file handling.
+344	Tarot meanings for all 78 cards, upright and reversed interpretations, love and career readings, yes-or-no answers, random draws and three-card spreads.
+345	Spotify tools: smart shuffle, natural-language song search, vibe analysis, artist network mapping, taste evolution and playlist management.
+346	Discover Kavel's AI photo and video generators (hairstyles, figurines, pet portraits, yearbook photos, dance videos, HD restoration) and get tuned prompts.
+347	Image generation and editing with a curated prompt library, prompt enhancement and routing across local ComfyUI, MeiGen Cloud and OpenAI-compatible APIs.
+348	Image and video generation, editing and region repair via Gemini 3.1 Flash Image, GPT Image 2, Grok Imagine and Veo 3, with style presets.
+349	Bulk Spotify operations: confidence-scored song matching, batch playlist creation from CSV or podcast lists, and exports of your most-saved artists and albums.
+350	Manage your LabelGrid music distribution catalog, releases, analytics and royalties.
+351	Search, read and discover visual aesthetics such as cottagecore, dark academia, Y2K and goblincore from the Aesthetics Wiki.
+352	Create memes from memebo.at templates: search the catalog, caption a template and get a shareable meme link.
+353	Search and display artworks via the Metropolitan Museum of Art Collection API.
+354	Turn natural language into 3D models in Fusion 360, with CAD tools for sketches, extrudes, fillets and JIS standard parts.
+355	Access the Smithsonian Institution's Open Access collections.
+356	Query the Noteboxd fragrance encyclopedia for perfumes, notes, accords, brands, perfumers, reviews and charts.
+357	First-edition book identification using points of issue, number-line decoding and publisher rules, plus New Mexico book-donation logistics.
+358	Read-only access to a self-hosted Calibre-Web or Calibre-Web Automated ebook library via OPDS: search, shelves, covers and per-format download links.
+359	3D printer access: live printer state, webcam snapshots and printer control.
+360	Natural-language control of NVIDIA Isaac Sim, Isaac Lab, OpenUSD and more, via a server and an extension.
+361	Control Ableton Live through a local Remote Script bridge: inspect sets, create tracks, scenes and clips, load devices, apply music recipes and verify changes.
+362	Describe a visual to build a playable TouchDesigner network: audio-reactive, generative, particle, 3D and feedback systems with live knobs and MIDI/OSC/DMX.
+363	Connect AI assistants to Autodesk Maya.
+364	Create, inspect and iterate on 3D geometry with build123d parametric CAD: render PNG/SVG views, measure geometry and export STEP/STL.
+365	Drive BricsCAD on Linux via an AutoLISP bridge: 2D drafting with dimensions and hatches, 3D solids with booleans, generated drawing views and PDF export.
+366	Generate images, video and audio with models such as Flux, GPT-Image-1, Imagen 4, Grok, Seedance and ElevenLabs, with prompt presets and batch generation.
+367	Access historical WWII records, photographs and documents from the Netherlands (1940-1945) via the Oorlogsbronnen (War Sources) API.
+368	Search artworks and get details and collections via the Rijksmuseum API.
+369	Generate images, videos and music with Fal.ai models such as FLUX, Stable Diffusion and MusicGen.
+370	Music metadata search over tracks, artists, labels and releases: genres, release dates, ISRC/ISWC codes and IDs for Spotify, Apple Music, Discogs and more.
+371	Control FL Studio: in-DAW mixing (gain staging, EQ, compression, reverb, reference matching), routing and composition.
+372	Manage RunComfy ComfyUI serverless deployments, hosted model inference and LoRA training jobs.
+373	DaVinci Resolve integration for video editing, color grading, media management and project control.
+374	Read a live Autodesk Revit model (elements, parameters, views, warnings, PNG exports); model changes are opt-in, with dry runs and post-commit verification.
+375	Bazi (Four Pillars) charting with true solar time correction and output in Chinese, English, Japanese and Korean.
+376	Search tracks on LRCLIB and read their lyrics, including time-synced LRC lines, with compact search results.
+377	Read IMSLP, the Petrucci Music Library: search works and composers, view catalogue numbers, key and instrumentation, and browse editions with copyright status.
+378	Search Shakespeare monologues by character, play or first line, and fetch full text, modern-English paraphrases and scene or play summaries.
+379	Search the Internet Archive, the Library of Congress and the Bibliothèque nationale de France at once, across catalogues and inside scanned text.
+380	Read-only showtimes for California and Hawaii theaters, from repertory houses and 35mm/70mm screenings to chains, verified against each theater's calendar.
+381	Generate image assets with Google Gemini (Nano Banana 2 and Pro): transparent PNG/WebP, exact resizing and cropping, reference images and Search grounding.
+382	Offline image processing: resize, crop, convert, compress, rotate, flip, thumbnails, watermarks, effects, placeholders and overlays.
+383	Control the REAPER DAW for mixing, mastering, MIDI composition and music production.
+384	Generate 3D models and images from text or reference images, then remesh, retexture, auto-rig, animate and export GLB/FBX/OBJ via the PicoBerry API.
+385	Generate, edit and upscale AI video and images (Seedance, Veo, Kling, FLUX, Nano Banana) via VicSee.
+386	Drive the REAPER DAW over a local file bridge: read plugins and parameters, set FX values, write automation and measure mix changes, all inside undo blocks.
+387	Conversational Spotify control: play by description and manage the queue, devices, playlists and library, with a guided setup wizard.
+388	Chinese almanac (Tung Shing): daily readings, hour-pillar luck ratings, NASA JPL-based solar terms, auspicious dates, zodiac horoscopes and lucky hours.
+389	Generate and edit images via your own OpenAI-compatible or Gemini image APIs and save them into the project directory, with optional model fallback.
+390	Anime and manga information from the AniList API.
+391	Search Bide & Musique's hand-catalogued collection of forgotten French songs by performer, title, writer, lyrics, label or year, and read full records.
+393	Architecture & Design
+395	Design and visualize software architecture, system diagrams, and technical documentation. Enables AI models to generate professional diagrams and architectural documentation.
+397	Deterministic AI data-center design for Korea (NVIDIA Rubin era, 22.9 kV intake): rack count, PUE, total MVA, cooling split, CDU planning, cost and timeline.
+398	Art-directed website prompts as slash commands for hero sections, landing pages, SaaS, portfolios, e-commerce and 3D/WebGL scenes, each with a live demo.
+399	Bidirectional Figma bridge: turn selections into framework-aware code reusing your components and tokens, or create frames, text, styles, variables and screens.
+400	Lint web animations with deterministic checks on the live page (duration, easing, stagger, exits, reduced motion, hover) plus optional vision-LLM UX review.
+401	Turn a repo into Mermaid or Graphviz architecture diagrams from its file tree, import graph and entry points; also enforces architecture rules in CI.
+402	Generate Excalidraw architecture diagrams with auto-layout, technology-aware component styling (databases, queues, caches) and stateful editing.
+403	Local-first network design: create Cisco-style network master files, L1/L2/L3 topology diagrams, HTML viewers, device tables and AI context files.
+404	Detect contradictions and architectural drift in Kubernetes manifests, READMEs, OpenAPI specs and Word docs, with deterministic scoring and resolution advice.
+405	Expose a company's design system (colors, typography, logos, components, guidelines, CSS tokens) to AI tools, parsed from CSS, Markdown, PDF, SVG and fonts.
+406	AI Diagram Maker: generate flowcharts, sequence diagrams, ERDs, architecture, UML and mind maps from text, code, ASCII, images or Mermaid, rendered inline.
+407	Create workflow, sequence and architecture diagrams with the FlowZap Code DSL, with validation, playground links, syntax docs, export, diffing and patching.
+408	Turn local projects or GitHub repositories into Mermaid diagrams rendered via Kroki.
+409	Offline UI/UX design and marketing guidance for web, iOS, Android and macOS, plus generators for design tokens, color systems, type scales and WCAG checks.
+410	Local design engine: create, edit and export branded social posts, flyers, decks and business cards, with print-ready PDFs and InDesign, PSD and PDF import.
+411	Bridge to live SysML v1 models in CATIA Magic: query, audit, trace and edit blocks, requirements, allocations and diagrams over a local, air-gapped connection.
+412	Generate iOS UI mockups as PNG and HTML from a text prompt, using Claude and a headless Playwright renderer.
+413	Design kits and brand workflows: browse and apply design systems, create shareable brand projects, and research names, domains and EUIPO trademarks.
+414	Construction plan takeoff: load plan PDFs, read title blocks, set drawing scale, trace rooms and export quantities like square footage and linear feet.
+415	Mermaid diagram generation (flowcharts, sequence, class, ER, architecture and state diagrams) with templates, layout engines and SVG/PNG/PDF export.
+416	Local-first design workspace: compose wireframes and branded multi-page HTML/CSS docs with live preview, brand and asset libraries, validation and PDF export.
+417	Korean architecture, engineering and construction knowledge: KDS, KCS and KS standards, statutes and expertise in one graph, with answers citing clauses.
+418	Text language for human movement that LLMs can write, rendered as an anatomically constrained 3D human figure in the browser.
+419	Describe systems in natural language to get interactive architecture diagrams, export to frameworks like Spring Boot, FastAPI and Terraform, and detect drift.
+420	Generate and edit draw.io cloud architecture diagrams from prompts, Terraform or Kubernetes manifests, fix Well-Architected warnings and export to SVG.
+421	Mix colors (including Kubelka-Munk paint physics), convert formats, generate harmonies and save named palettes, resolving hex, CSS and brand color names.
+422	Architectural decision tracking with testable predictions and outcome gates, stored in append-only JSONL.
+423	Local architecture gate and CLI that diffs AI edits against git HEAD to detect new cross-layer dependencies and structural changes.
+424	UI/UX validation: model user journeys as state machines, find missing states, contrast and touch-target issues, and verify code against the design contract.
+425	Create Mermaid diagrams in a shared workspace, with version history, comments, embedding, presentation decks and diagram linting.
+427	Medicine and Bioinformatics
+428	Run reproducible Nextflow bioinformatics pipelines with verifiable Workflow Run RO-Crate provenance: container digests, tool versions and checksums.
+429	Search, download, track and analyze functional genomics experiments from the ENCODE Project.
+430	Spatial transcriptomics analysis: cell annotation, deconvolution, spatial statistics and visualization.
+431	Match US medical practices with healthcare service vendors for billing, credentialing, EHR, compliance and legal.
+432	Local-first access to the Google Health API for Fitbit and Pixel Watch activity, sleep, heart, nutrition and reconciled health data.
+433	Local-first continuous glucose monitor data from the Dexcom Developer API and FreeStyle Libre via LibreLink Up.
+434	Nutrition and hydration tracking: food search, barcode lookup, meal estimation, intake logs and daily summaries.
+435	Real-time access to the 1000 Genomes Project dataset.
+436	Nutrition analysis from a food photo or text description: calories, macros, vitamins, minerals, allergens and dietary flags.
+437	Search Evipedia's evidence-based reviews of health and longevity interventions, fetch conclusions and metadata with PMIDs, and suggest new interventions.
+438	Access personal health and biometric data (sleep stages, heart rate, HRV, glucose, workouts), calendar and location via the Fulcra Life API.
+439	Access biomedical research data from PubMed, ClinicalTrials.gov and MyVariant.info.
+440	Typed FHIR tools: build, read, validate and code FHIR resources from a patient bundle, with terminology lookup and machine-readable validation reports.
+441	Read-only biomedical literature search over a PubMed-derived corpus by natural language or PMID/DOI/PMCID, with citation and semantic graph traversal.
+442	Interact with the UCSC Genome Browser API to find genomes, chromosomes and more.
+443	Query medical information, drug databases, drug interactions and clinical guidelines.
+444	Estimate solar vitamin D synthesis: whether it happens now, minutes needed by Fitzpatrick skin type and viable months by latitude, using Open-Meteo UV data.
+445	Read-only FHIR access to the Practice Fusion EHR: search patients and review appointments, conditions, medications and lab results.
+446	Race nutrition planning for endurance athletes: carb, sodium and fluid targets plus Lecka product recommendations by race type, conditions and weight.
+447	Healthcare billing: ICD-10, CPT and HCPCS code lookup, prior authorization prediction, claims validation, denial-risk scoring and HIPAA compliance auditing.
+448	Bio-robotics engine that converts biological data from the UniProt API into Cartesian G-code coordinates.
+449	Academic, code and medical-regulatory trend monitoring across arXiv, PubMed, GitHub, Hugging Face and openFDA, with newspaper-style briefings.
+450	Bridge DICOM, HL7v2 and FHIR: cross-standard mapping, Mirth Connect channel generation, vendor private tag decoding and integration patterns.
+451	Query the BioThings API for genes, genetic variants, drugs and taxonomic information.
+452	Bioinformatics toolkit for genomics queries and analysis, wrapping the gget library.
+453	Query the OpenGenes database for aging and longevity research.
+454	Query the SynergyAge database of synergistic and antagonistic genetic interactions in longevity.
+455	Plant genomics locus lookup across Ensembl Plants, Phytozome, UniProtKB, KEGG, STRING-DB, NCBI BLAST and more, with batch and cross-source queries.
+456	Health economics and outcomes research: literature search across PubMed, NICE, CADTH, ICER and more, cost-effectiveness modeling and HTA dossier preparation.
+457	Map clinical terminology to OMOP concepts using LLMs for healthcare data standardization and interoperability.
+458	Access a DICOMweb archive: search studies, series and instances, inspect metadata, read structured reports, extract PDF text and render frames.
+459	Taiwan National Health Insurance (NHI) data: rejection codes, ICD-10 to procedure mappings, audit indicators and semantic search over NHI documentation.
+460	Clinical research tools for trial coordinators and life sciences teams: real-time access to PubMed and ClinicalTrials.gov.
+461	Search PubMed and summarize biomedical literature.
+462	Read-only, self-hosted access to Oura Ring sleep, readiness, activity, stress and heart rate data.
+463	Look up medical terminologies: ICD-11, LOINC, RxNorm, MeSH, ATC, Brazil's CID-10 (DataSUS) and optionally SNOMED CT.
+464	Clinical audit of Glooko diabetes data from any pump or CGM: time in range, GMI, trends and bolus/basal analysis, adapting to the data your devices report.
+465	AlphaFold DB and other public biomedical sources in a local SQLite knowledge graph for structure confidence, variants, diseases, drug targets and orthology.
+466	Query the UniProt knowledgebase (entries, features, variants, PTMs, GO terms, cross-references) with per-query SHA-256 provenance and offline replay.
+467	Access and analyze exported Apple Health data.
+468	Connect to FHIR servers, for example to query patient history in natural language.
+469	Condition-aware safety checks for ingredients, products and supplements, with cited evidence verdicts, claim fact-checking and FDA recall lookup.
+470	FDA and NHTSA regulatory risk data: device compliance risk, 510(k) evidence, predicate chains, postmarket signals, reimbursement pathways and vehicle safety.
+471	Classify the likely biological cause of 3am wakeups from symptom descriptions using The Longevity Vault's five-cause framework.
+472	Search, retrieve, create, update and analyze clinical data via FHIR APIs, with SMART-on-FHIR authentication.
+473	Headless PyMOL for molecular visualization, GROMACS/LAMMPS trajectories and clathrate-hydrate cage analysis, including H-bond networks and order parameters.
+475	Browser Automation
+477	Web content access and automation capabilities. Enables searching, scraping, and processing web content in AI-friendly formats.
+479	Search Bilibili content, with LangChain integration examples.
+480	Native Safari browser automation without a Chrome dependency.
+481	Stealth automation of unmodified Chrome over raw CDP, using accessibility-tree element refs; can attach to a running Chrome to reuse logged-in sessions.
+482	Drive a local Playwright browser through residential proxies with a chosen exit country or city and a sticky identity per task.
+483	Browser automation using Puppeteer, supporting local and remote browser connections.
+484	Control your real, logged-in Chrome browser via an extension, with multiple concurrent color-coded sessions.
+485	Code-aware browser testing that reads routes, forms and existing tests, runs Playwright scenarios, and keeps regression history and screenshot reports.
+486	Web scraper that returns clean Markdown, distributed as a single binary.
+487	Visual, multimodal web scraping without CSS selectors, plus phishing and crypto drainer detection.
+488	Web scraping, Llama 3 digests and Twitter intelligence, paid per call in USDC via x402 on Base.
+489	Undetected Chrome automation via nodriver for anti-bot protected sites: accessibility snapshots, input automation, network inspection and persistent sessions.
+490	Web scraping: clean content extraction, CSS-selector scraping, Playwright screenshots, link and metadata extraction, and Google search.
+491	Browse the web with filesystem commands (ls, cd, grep, click) by mapping Chrome's accessibility tree to a virtual filesystem via an extension.
+492	Access and organize open tabs, bookmarks and recent links across macOS browsers via the SupaSidebar app.
+493	Browser automation using Playwright.
+494	Lightweight browser automation with zero dependencies.
+495	Token-budgeted web fetching that routes between Trafilatura, Jina Reader, Firecrawl and pypdf by URL, with token estimates, caching and truncation.
+496	One-click browser-tab screenshots, captured by a companion extension and served locally to the model on demand.
+497	Fetch web content as clean Markdown through a multi-tier fallback chain, handling tweets, YouTube, arXiv, PDFs and regular pages.
+498	Self-hosted stealth browser built on a Firefox fork with fingerprint spoofing, shadow-DOM-aware page reading, login state detection and evidence recording.
+499	Browser automation using Playwright, tailored for LLMs.
+500	Headless browser automation and web scraping via the Browserless smart scraper API.
+501	Automate your local Chrome browser.
+502	Control browsers with Selenium using natural language, for testing, automation and multi-user scenarios.
+503	Browser automation with browser-use, including a Dockerfile to run Chromium in Docker with a VNC server.
+504	Convert URLs into screenshots, PDFs or structured extracts.
+505	Intent-aware visual verification: declare what a UI change should affect, then diff the page against a baseline and flag changes outside that scope.
+506	Rent residential Chrome browsers run by real people, with real fingerprints and residential IPs.
+507	Record your authenticated browser session (rrweb DOM, console, network) to local SQLite with PII masking, so coding agents can query it or drive the browser.
+508	Generate screenshots, PDFs, OG images and narrated video recordings.
+509	Control Chromium-based browsers such as Arc, Vivaldi and Brave via an extension: navigate, click, read pages, run JavaScript and record GIFs.
+510	Web search, reading and research through stealth-patched Chrome: strips hidden text, ranks passages across sources and returns SHA-256 provenance receipts.
+511	Automate YouTube operations, also available as a CLI.
+512	Browser automation and web scraping using Playwright.
+513	Control the user's Firefox browser via a companion extension.
+514	In-page debug bridge for web apps: read the DOM, console logs and network requests and interact with the page, in any browser or Cypress/Playwright run.
+515	Firecrawl web scraping: search, scrape, crawl, map and extract structured data, with live browser interaction and website change monitoring.
+516	Interact with Apple Reminders on macOS.
+517	Firefox automation via WebDriver BiDi: snapshot-based interactions, network monitoring, console capture and screenshots for testing and scraping.
+518	Drive your logged-in Chrome via an extension: compact element refs, visual regression, accessibility, SEO and security audits, and network mocking.
+519	Design debugging in Chrome: which CSS rule wins (with file and line), its blast radius, scoped fix selectors, live fix trials and WCAG contrast audits.
+520	Self-hosted web scraping: scrape, extract, crawl, map, search, academic papers, research and monitoring, with a tiered fallback including Cloudflare bypass.
+521	Website testing with Playwright: assertions, auto form-fill, persistent logins, network mocking, and accessibility, SEO, GEO and Lighthouse audits.
+522	Zen Browser automation via WebDriver BiDi: navigation, form filling, screenshots and JavaScript evaluation.

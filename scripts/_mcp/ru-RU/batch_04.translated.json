@@ -1,0 +1,1922 @@
+[
+  {
+    "line": 2036,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/traql/mcp-server) 📇 ☁️ - AML- и санкционный скрининг для криптоадресов и транзакций в сетях Ethereum, BNB Chain, TRON, TON и Bitcoin с детализированными оценками риска от 0 до 100."
+  },
+  {
+    "line": 2037,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Zenidp/solinkify-mcp) 📇 🏠 - Агентские платежи в сети Solana: обнаружение эндпоинтов с ценообразованием x402, оплата paywall по протоколу HTTP 402 в USDC, управление балансами и подписками с лимитами расходов и эскроу."
+  },
+  {
+    "line": 2038,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pich/ai-economics-mcp) 📇 ☁️ - Калькуляторы экономики ИИ: стоимость токенов у разных поставщиков, подбор размера контекстного окна, стоимость агенто-часа, энергопотребление и CO2 для LLM, а также метрики верификации с формулами."
+  },
+  {
+    "line": 2039,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-fns-calc) 🐍 ☁️ - Налоговые и бухгалтерские калькуляторы ФНС России и проверка публичного фискального статуса: самозанятые, ИП/ОКВЭД, дисквалификация и заблокированные счета."
+  },
+  {
+    "line": 2040,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Zydanny/x402-intel-engine) 🐍 ☁️ - Моментум токенов DEX в реальном времени, глубина книги ордеров и потоки китов, оплата за вызов без газа через микроплатежи x402 в сети Base."
+  },
+  {
+    "line": 2041,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Luminc/peil-mcp) 🎖️ 🐍 ☁️ - Peil для нидерландских фрилансеров (ZZP'ers): учёт часов, черновики счетов из неоплаченного времени и отслеживание неоплаченных и просроченных счетов и эффективной почасовой ставки."
+  },
+  {
+    "line": 2042,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/toomasgutman-blip/facturolia-mcp) 🎖️ 🐍 ☁️ - Чтение и валидация европейских электронных счетов (Factur-X, ZUGFeRD, XRechnung, UBL, CII) согласно EN 16931 и выявление расхождений между PDF Factur-X и встроенным XML."
+  },
+  {
+    "line": 2043,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SimonTarara62/capitalcom-mcp-server) 🐍 🏠 ☁️ - Неофициальная интеграция с Capital.com Open API: рыночные данные и защищённая торговля с предпросмотром и подтверждением сделок, разрешёнными списками и демо по умолчанию."
+  },
+  {
+    "line": 2044,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SmartyJohnway/tw-market-live-data-intelligence) 🐍 🏠 🪟 - Локально-ориентированные данные о рынке Тайваня с постоянными списками наблюдения и аудируемым однократным получением."
+  },
+  {
+    "line": 2045,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/forum-labs/payfetch) 📇 🏠 🍎 🪟 🐧 - Некастодиальная оплата запросов к API x402 (USDC в сети Base) с устанавливаемыми оператором лимитами расходов, порогами одобрения, списками разрешения/запрета и квитанцией для каждой попытки."
+  },
+  {
+    "line": 2046,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/polsolbridge/solana-swap-api) 📇 ☁️ - Некастодиальный обмен через Jupiter (Solana) и KyberSwap (EVM), кроссчейн-маршрутизация, приоритетные комиссии Solana и перпы Hyperliquid в виде неподписанных транзакций."
+  },
+  {
+    "line": 2047,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mohsinmshabbir/datasaudi-mcp) 🐍 🏠 - Запрос экономической и социальной статистики Саудовской Аравии (ВВП, инфляция, торговля, население, индекс цен на недвижимость) из GASTAT и DataSaudi на английском или арабском."
+  },
+  {
+    "line": 2048,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 🍎 🪟 🐧 - Чтение балансов и цен, просмотр портфелей, подготовка переводов и развёртывание токенов в сетях Stacks, Celo и Base."
+  },
+  {
+    "line": 2049,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Nodeflare-app/nodeflare-mcp) 📇 ☁️ - JSON-RPC для EVM-сетей (Ethereum, Base, Arbitrum, Robinhood Chain, Plasma, Ink и др.) с выделенных узлов, включая методы trace и debug."
+  },
+  {
+    "line": 2050,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/InnarM/blank-invoice-maker-mcp) 📇 🏠 🍎 🪟 🐧 - Создание счетов через глубокую ссылку, открывающую Blank Invoice Maker с предзаполненными данными, затем проверка и загрузка PDF; данные счёта остаются в браузере."
+  },
+  {
+    "line": 2051,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/qinisolabs/bizdays) 📇 🏠 ☁️ - Расчёты рабочих дней и праздников для 200+ стран: добавление или подсчёт рабочих дней, поиск следующего рабочего дня и применение правил выходных страны."
+  },
+  {
+    "line": 2052,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/george-kozlitin/borme-mcp) 🐍 ☁️ - Реестр компаний Испании (BORME): типизированные события компаний с 2009 года, включая регистрации, смену директоров, банкротства и изменения капитала."
+  },
+  {
+    "line": 2053,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/0rkz/byte-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - Рынок данных с оплатой за байт в сети Arbitrum (PayPerByte): поиск издателей, проверка ончейн-оценок качества, подписка и оплата за запрос в USDC через x402."
+  },
+  {
+    "line": 2054,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Savvly/savvly-mcp) 🎖️ 📇 ☁️ 🏠 - Savvly Longevity Benefit Fund: прогнозы пенсии (единовременно, ежемесячно, полная траектория), сравнение продуктов, проверка права на участие и поиск по FAQ."
+  },
+  {
+    "line": 2055,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ShieldZCash/shieldz-mcp) 📇 ☁️ 🏠 - Некастодиальные криптоплатежи: создание платёжных ссылок и чаевых из адреса кошелька, со средствами, поступающими напрямую на кошелёк продавца."
+  },
+  {
+    "line": 2056,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/eliasfire617/crypto-market-data-mcp) 🐍 ☁️ - Рыночные данные криптовалют от Bybit, Binance, OKX, Hyperliquid, Gate и KuCoin: цены, ставки финансирования, открытый интерес, книги ордеров, свечи и арбитраж финансирования."
+  },
+  {
+    "line": 2057,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/seancrecord/scvd-general-store-repo) 📇 ☁️ - Универсальный магазин для ИИ-агентов: подписанные сертификаты, человеческий труд и цифровые товары, оплачиваемые в USDC через x402 в сети Base."
+  },
+  {
+    "line": 2058,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Scottcjn/rustchain-mcp) 🐍 ☁️ - Блокчейн RustChain, видеоплатформа BoTTube и обмен сообщениями агентов Beacon: управление кошельком, запросы майнинга, награды, поиск и загрузка видео, обмен сообщениями."
+  },
+  {
+    "line": 2059,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ocbenji/bitcoinbenji-mcp) 📇 ☁️ 🍎 🪟 🐧 - Данные Bitcoin mempool с оплатой через Lightning (L402): комиссии, оповещения о китах, прогноз комиссий, статус транзакций, плюс самохостинговый вывод ИИ для текста, кода, зрения и OCR."
+  },
+  {
+    "line": 2060,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Kali123411/k402-mcp) 🐍 ☁️ 🍎 🪟 🐧 - API с оплатой за вызов, расчёт в Kaspa L1: текстовые инструменты, чтение веба, эмбеддинги и семантический поиск, данные сети Kaspa, вывод LLM и zk-доказательства RISC Zero."
+  },
+  {
+    "line": 2061,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/teodorofodocrispin-cmyk/intelica-mcp) 🐍 ☁️ - Конкурентная разведка: анализ URL или описания компании с получением структурированного позиционирования, конкурентов, болевых точек и рыночной оценки."
+  },
+  {
+    "line": 2062,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Logitale/toreador-mcp-server) 📇 🏠 🍎 🪟 🐧 - Генерация некастодиальных QR-кодов криптоплатежей (BTC, ETH, SOL, USDC, USDT, EURC) и управление платёжными сессиями."
+  },
+  {
+    "line": 2063,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/infaton/MCP35) 📇 🏠 - Интеграция с ERP 1C:Предприятие: инспекция метаданных, CRUD документов, запросы к регистрам и интеграция с BSP."
+  },
+  {
+    "line": 2064,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mrslbt/xendit-mcp) 📇 ☁️ - Платёжный шлюз Xendit для Юго-Восточной Азии: счета, выплаты, проверка баланса и банковские переводы."
+  },
+  {
+    "line": 2065,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jiayuanliang0716-max/Arbitova) 📇 ☁️ - Некастодиальное ончейн-эскроу с арбитражем споров ИИ для платежей USDC от агента к агенту в сети Base."
+  },
+  {
+    "line": 2066,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/martinhavel/cz-agents-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Ежедневные обменные курсы Национального банка Чехии (ČNB): текущие и исторические курсы CZK и конвертация валют."
+  },
+  {
+    "line": 2067,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Sofiia7/ARC) 📇 🏠 ☁️ - Просмотр, взятие и отправка наград USDC на ArcBounty (Arc Network, эскроу ERC-8183 и репутация ERC-8004) с доступным без учётных данных режимом только для чтения."
+  },
+  {
+    "line": 2068,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Frihet-io/frihet-mcp) 📇 ☁️ - Управление бизнесом Frihet: счета, расходы, клиенты, товары и сметы."
+  },
+  {
+    "line": 2069,
+    "translated": "- @@L0@@ 📇 🏠 🍎 🪟 - Чтение и при необходимости запись локальных журналов hledger для двойной бухгалтерии в виде обычного текста."
+  },
+  {
+    "line": 2070,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Fabio662/yieldagentx402-sdks) 📇 ☁️ - Некастодиальный слой исполнения с политиками для ИИ-агентов в EVM-сетях, Bitcoin, Solana, NEAR и др., с подписью MPC, аттестацией TEE и расчётами x402."
+  },
+  {
+    "line": 2071,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/openpulsechain/public) 📇 ☁️ - Ончейн-аналитика PulseChain: оценки безопасности токенов, обнаружение ханипотов, отслеживание китов и умных денег, предупреждения о скамах, объём DEX и статистика мостов."
+  },
+  {
+    "line": 2072,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sukrutkrdg/x402-bazaar-mcp) 📇 🏠 🍎 🪟 🐧 - Инструменты безопасности токенов сети Base с оплатой через x402: проверки заморозки/изъятия/rug по B20, пре-трейд гейты, обнаружение ханипотов, аудит кошельков и разрешений, цены и отчёты ИИ."
+  },
+  {
+    "line": 2073,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Торговля крипто- и RWA-перпами на DEX Lighter zk-rollup с многоуровневыми учётными данными, ончейн-стоп-лоссом и тейк-профитом и серверными лимитами безопасности."
+  },
+  {
+    "line": 2074,
+    "translated": "- @@L0@@ 📇 ☁️ - Глубокое исследование криптовалют, работающее полностью локально."
+  },
+  {
+    "line": 2075,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AEGISGOVDAO/aegisgov-sec-mcp) 📇 ☁️ - Данные SEC EDGAR: поиск публичных компаний, получение отчётов 10-K, 10-Q и 8-K и доступ к финансовым данным XBRL."
+  },
+  {
+    "line": 2076,
+    "translated": "- @@L0@@ 🎖️ 🐍 ☁️ 🏠 - Альтернативные финансовые данные от FinBrain."
+  },
+  {
+    "line": 2077,
+    "translated": "- @@L0@@ 🎖️ 🐍 ☁️ - Оценки риска и активы BICScan для EVM-адресов (EOA, CA, ENS) и доменных имён."
+  },
+  {
+    "line": 2078,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AletaIndex/aletaindex-fin-narratives) 🐍 ☁️ 🍎 🪟 🐧 - Отслеживание развития новостных нарративов по тикерам: кластеризация новостей, динамика тональности и картирование нарративных рисков по портфелям."
+  },
+  {
+    "line": 2079,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AlexanderLawson17/revettr-python) 🐍 ☁️ - Оценка риска контрагента для агентской коммерции: оценка кошельков, доменов, IP и компаний с оплатой через микроплатежи x402."
+  },
+  {
+    "line": 2080,
+    "translated": "- @@L0@@ 🐍 ☁️ - Определение рыночного режима Bitcoin: вероятности исходов, сопоставление с историческими паттернами, композитные индикаторы и данные макро-, институциональные и ончейн в реальном времени."
+  },
+  {
+    "line": 2081,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/unixlamadev-spec/aiprox-mcp) 📇 ☁️ - Открытый реестр агентов для поиска и найма ИИ-агентов по возможностям с платежами Lightning, Solana USDC и x402 и движком рабочих процессов для связывания агентов."
+  },
+  {
+    "line": 2082,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - Взаимодействие с блокчейн-API Alchemy."
+  },
+  {
+    "line": 2083,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/alforge-labs/alpha-forge-mcp) 🐍 🏠 🍎 🪟 🐧 - Бэктестинг, оптимизация (Optuna TPE) и walk-forward-тестирование торговых стратегий локально с квантовым CLI AlphaForge."
+  },
+  {
+    "line": 2084,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AlvisoOculus/optionsahoy-mcp) 📇 ☁️ - Планирование опционов сотрудников в США: графики реализации ISO/AMT, NSO продать или держать, вестинг RSU, распродажа концентрации, коллары и проверки QSBS."
+  },
+  {
+    "line": 2085,
+    "translated": "- @@L0@@ 🐍 ☁️ - Получение списков и котировок криптовалют через Coinmarket API."
+  },
+  {
+    "line": 2086,
+    "translated": "- @@L0@@ 🐍 ☁️ - Доступ к Jupiter API: торговля токенами Solana, проверка балансов, поиск токенов и создание лимитных ордеров."
+  },
+  {
+    "line": 2087,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jorkal-crypto/jorkal-nft-mcp) 📇 ☁️ - Рыночные данные NFT Solana от Magic Eden: минимальные цены, самые дешёвые лоты, статистика коллекций и активы кошельков, оплата за вызов через x402."
+  },
+  {
+    "line": 2088,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/arcadia-finance/arcadia-finance-mcp-server) 🎖️ 📇 ☁️ 🏠 - Управление позициями ликвидности Uniswap и Aerodrome с плечом, автоматическим ребалансингом и оптимизацией доходности в сетях Base, Unichain и Optimism."
+  },
+  {
+    "line": 2089,
+    "translated": "- @@L0@@ 🐍 🏠 🪟 - Исполнение сделок на платформе MetaTrader 5."
+  },
+  {
+    "line": 2090,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/aranjan/kite-mcp) 🐍 🏠 - Торговля индийскими акциями на Zerodha Kite: позиции, ордера, котировки и триггеры GTT с автоматическим входом по TOTP."
+  },
+  {
+    "line": 2091,
+    "translated": "- @@L0@@ 🐍 ☁️ - Работа с несколькими блокчейнами: стейкинг, DeFi, обмен, мосты, управление кошельком, DCA, лимитные ордера, поиск и отслеживание монет."
+  },
+  {
+    "line": 2092,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-cbr-rates) 🐍 ☁️ - Данные Центрального банка России: ежедневные и исторические курсы, ключевая ставка, инфляция и агрегированная макростатистика."
+  },
+  {
+    "line": 2093,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-egrul) 🐍 🏠 - Государственные реестры России ЕГРЮЛ (юрлица) и ЕГРИП (ИП) из открытых данных ФНС, самохостинговые на локальном SQLite."
+  },
+  {
+    "line": 2094,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/atomno-mcp/mcp-fns-check) 🐍 ☁️ - Проверка контрагентов в России: поиск ИНН/ОГРН по ЕГРЮЛ/ЕГРИП, банкротства, налоговая задолженность, исполнительные и арбитражные дела с вердиктом по риску."
+  },
+  {
+    "line": 2095,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jackrain19743/hou-tea-mcp-server) 📇 ☁️ - Просмотр, получение рекомендаций и покупка китайского чая в магазине Hou Tea за USDC через x402 с делегированием оплаты кошелькам MCP-серверов."
+  },
+  {
+    "line": 2096,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/autonsol/sol-mcp) 📇 ☁️ - Оценка риска токенов Solana по mint-адресу, сигналы импульса выпуска pump.fun и запросы аттестации доверия."
+  },
+  {
+    "line": 2097,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vatnode/vatnode-mcp) 📇 ☁️ - Валидация VAT-номера в ЕС через сервис VIES Европейской комиссии, плюс офлайн-ставки VAT и проверки формата для европейских стран."
+  },
+  {
+    "line": 2098,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vdalhambra/axiom-calculator-mcp) 🐍 🏠 🍎 🪟 🐧 - Личные финансовые калькуляторы: ипотечные платежи, сложные проценты, число FIRE для пенсии, сравнение кредитов, реальная стоимость займа и погашение долга."
+  },
+  {
+    "line": 2099,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@azeth-protocol/mcp-azeth) 📇 ☁️ - Некастодиальные смарт-аккаунты ERC-4337, платежи x402, ончейн-репутация ERC-8004 и обнаружение сервисов для ИИ-агентов."
+  },
+  {
+    "line": 2100,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Claynsn/agent-discovery-mcp) 📇 🏠 🍎 🪟 🐧 - Поиск агентов ERC-8004 и платёж x402: поиск агентов по навыкам через 8004scan, получение карточек агентов и вызов агентов с платежами USDC через прямую подпись EOA."
+  },
+  {
+    "line": 2101,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bakyang2/kr-crypto-intelligence) 🐍 ☁️ - Рыночные данные криптовалют Кореи и анализ ИИ: Kimchi Premium, премия стейблкоинов, цены Upbit и Bithumb и курс USD/KRW, оплата за использование через x402."
+  },
+  {
+    "line": 2102,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/whdrnr2583-cmd/koreanpulse) 🐍 ☁️ 🏠 - Данные акций Кореи на английском: отчёты DART в реальном времени, потоки по правилу 5% для иностранных держателей, активистские обращения и новости отрасли KRX. Самохостинговый."
+  },
+  {
+    "line": 2103,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cuthongthai-vn/vimo-mcp-server) 📇 ☁️ - Данные фондового рынка Вьетнама: котировки SSI в реальном времени, теханализ, финансовая отчётность, скринер акций, рекомендации ИИ, потоки иностранного капитала и макропоказатели."
+  },
+  {
+    "line": 2104,
+    "translated": "- @@L0@@ 📇 ☁️ - Взаимодействие со смарт-контрактами и запрос информации о транзакциях и токенах через Bankless Onchain API."
+  },
+  {
+    "line": 2105,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/belegante-byte/aetherx-mcp) 🐍 ☁️ - Прогнозные сигналы заторов для мировых портов: индекс затора, задержка ETA, ожидающие суда и индекс волатильности фрахта."
+  },
+  {
+    "line": 2106,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bguillow-rgb/itin-finance-mcp) 📇 ☁️ - Каталог только для чтения американских кредиторов и эмитентов карт, принимающих заявителей с ITIN (без SSN), плюс руководства и FAQ на английском/испанском о кредите без SSN."
+  },
+  {
+    "line": 2107,
+    "translated": "- @@L0@@ 📇 ☁️ - Рынки предсказаний Solana на Baozi.bet: просмотр рынков, ставки, получение выигрышей и создание рынков."
+  },
+  {
+    "line": 2108,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cloudQuant/backtrader-mcp) 🐍 🏠 🍎 🪟 🐧 - Создание и запуск воспроизводимых бэктестов Backtrader из локальных CSV-данных с подтверждением человеком, логами и отчётами JSON/Markdown. Офлайн, только бэктесты."
+  },
+  {
+    "line": 2109,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/clicks-protocol/clicks-protocol) 📇 ☁️ - Некастодиальная доходность USDC для ИИ-агентов в сети Base: разделение платежей между ликвидным и доходным балансами, вывод в любой момент, симуляция разделений и проверка APY."
+  },
+  {
+    "line": 2110,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@up2itnow0822/clawpay-mcp) 📇 ☁️ - Некастодиальные платежи x402 для ИИ-агентов в сети Base: агенты подписывают транзакции из своего кошелька с ончейн-лимитами расходов."
+  },
+  {
+    "line": 2111,
+    "translated": "- @@L0@@ 🐍 ☁️ - Получение данных акций и криптовалют из Alpha Vantage API."
+  },
+  {
+    "line": 2112,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bitcompare/mcp-server) 🎖️ 📇 ☁️ - Ставки криптокредитования, стейкинга и займов, метаданные монет, агрегированные цены, рыночная статистика, стабильность привязки стейблкоинов и разрешение символов от Bitcompare."
+  },
+  {
+    "line": 2113,
+    "translated": "- @@L0@@ 📇 - Запуск ИИ-агентов в нескольких блокчейнах через Bitte Protocol."
+  },
+  {
+    "line": 2114,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jf-cmyk/blocksize-agentic-payments-mcp) 🐍 ☁️ - Каталог рыночных данных Blocksize только для чтения: поиск инструментов, чтение документации и создание x402-URL для платных живых данных с расчётом в USDC на Solana и Base."
+  },
+  {
+    "line": 2115,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/signaltech-org/bolthub-sdk) 📇 ☁️ - Поиск и оплата за вызов инструментов на рынке API bolthub через Bitcoin Lightning (L402) с бюджетами, ограниченным делегированием и проверяемыми квитанциями."
+  },
+  {
+    "line": 2116,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Cyberweasel777/botindex-mcp-server) 📇 ☁️ - API сигнальной разведки BotIndex AI и сеть обнаружения сервисов агентов Agorion с платежами x402 за премиум-эндпоинты."
+  },
+  {
+    "line": 2117,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Bortlesboat/bitcoin-mcp) 🐍 🏠 🍎 🪟 🐧 - Самохостинговые инструменты Bitcoin Core: оценки комиссий, анализ mempool, рейтинги пулов майнинга, рыночные настроения, инспекция блоков и транзакций и цена BTC."
+  },
+  {
+    "line": 2118,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/botwallet-co/mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Кошелёк для ИИ-агентов: заработок через счета, оплата других агентов и API, управление USDC на Solana с лимитами расходов, заданными человеком, и подписью FROST 2-of-2."
+  },
+  {
+    "line": 2119,
+    "translated": "- @@L0@@ 📇 ☁️ - Маршрутизация и арбитражные сигналы криптобирж Кореи и мира с микроплатежами x402 в USDC."
+  },
+  {
+    "line": 2120,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ferinator/bullrun-mcp) 📇 ☁️ - Скрининг акций, финансовая отчётность компаний и анализ личного портфеля."
+  },
+  {
+    "line": 2121,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cahthuranag/mcp-server) 📇 ☁️ - Курсы валют AllRatesToday: среднерыночные курсы в реальном времени из межбанковских данных, исторические курсы, список валют и мультивалютный поиск."
+  },
+  {
+    "line": 2122,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AllRates-Today/central-bank-mcp) 📇 ☁️ - Курсы центробанков и налоговых органов (ECB, Fed, Банк Англии, RBI, HMRC, Минфин США): последние и исторические таблицы, сравнения и календари."
+  },
+  {
+    "line": 2123,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cammac-creator/ibanforge) 🎖️ 📇 ☁️ - Предвыплатная проверка контрагента: валидация IBAN, санкционный скрининг OFAC/ЕС/ООН, клиринг швейцарского BC-Nummer, доступность SEPA/VoP и оценка риска."
+  },
+  {
+    "line": 2124,
+    "translated": "- @@L0@@ 🐍 ☁️ - Доступ только для чтения к данным Monarch Money: анализ транзакций, бюджетов, счетов и денежных потоков с поддержкой MFA."
+  },
+  {
+    "line": 2125,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/calintzy/evmscope) 📇 ☁️ - Цены токенов, сравнение газа, котировки обмена, ставки доходности, обнаружение ханипотов и симуляция транзакций в сетях Ethereum, Polygon, Arbitrum, Base и Optimism."
+  },
+  {
+    "line": 2126,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/chopmob-cloud/AlgoVoi-Platform-Adapters) 📇 🐍 🏠 🍎 🪟 🐧 - Криптоплатёжный шлюз AlgoVoi: создание ссылок оформления, верификация ончейн-платежей и генерация MPP/x402/AP2-запросов в сетях Algorand, VOI, Hedera и Stellar."
+  },
+  {
+    "line": 2127,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/chrisbusbin-pixel/propfirmdealfinder-mcp-server) 📇 ☁️ - Скидки, отзывы и предложения проп-трейдинг фирм: запрос промокодов, сравнение фирм по стране и проверка избранных предложений."
+  },
+  {
+    "line": 2128,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cliwant/mcp-sam-gov) 📇 ☁️ 🍎 🪟 🐧 - Данные госзакупок, расходов и регулирования США: SAM.gov, USAspending, Grants.gov, Federal Register, eCFR, санкции OFAC и порталы заявок штатов/муниципалитетов."
+  },
+  {
+    "line": 2129,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/grahammccain/chart-library-mcp) 🐍 ☁️ - Поиск похожих исторических паттернов графиков акций по тикеру и дате или скриншоту, с будущей доходностью, анализом режима и симуляцией сделок."
+  },
+  {
+    "line": 2130,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@CryptoRugMunch/rug-munch-intelligence) 🐍 ☁️ - Разведка рисков криптотокенов: обнаружение rug pull, оценка ханипотов, отслеживание деплоера, анализ держателей, выявление KOL-шиллинга, социальный OSINT и криминалистика LLM."
+  },
+  {
+    "line": 2131,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/4dmrkey/cryptopolitan-mcp) ☁️ - Новости, анализ и прогнозы цен криптовалют от Cryptopolitan: поиск статей по категории или тикеру со встроенной атрибуцией."
+  },
+  {
+    "line": 2132,
+    "translated": "- @@L0@@ 🐍 ☁️ - Ежедневные вероятности геополитических рисков (эскалация, перемирие, смена режима) для конфликтов вроде Россия-Украина и Китай-Тайвань, плюс данные о судах в узких местах."
+  },
+  {
+    "line": 2133,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - Обогащённые блокчейн- и рыночные данные в реальном времени по множеству сетей через Codex API."
+  },
+  {
+    "line": 2134,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/CoinRithm/coinrithm-agent-trading) 📇 ☁️ - Бумажная торговля крипто-спотом, фьючерсами и рынками предсказаний на CoinRithm с симулированными средствами и публичной Agent Arena."
+  },
+  {
+    "line": 2135,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/coinpaprika/coinpaprika-mcp) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Доступ к CoinPaprika API: цены в реальном времени, тикеры, OHLCV, капитализация и метаданные монет для криптовалют и бирж."
+  },
+  {
+    "line": 2136,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Доступ к DexPaprika API: цены токенов DEX в реальном времени, данные пулов ликвидности и исторический OHLCV по множеству сетей."
+  },
+  {
+    "line": 2137,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/abcxz/conviction-fm) 📇 ☁️ - Арена, где ИИ-агенты соревнуются в ежедневных паримутуэльных пулах: опишите стратегию на обычном английском и получите финансируемого автономного агента."
+  },
+  {
+    "line": 2138,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Cubiczan/chp-mcp) 📇 🏠 🍎 🪟 🐧 - Расходы CHP Profile B, подтверждение человеком в контуре и квитанции одобрения инструментов."
+  },
+  {
+    "line": 2139,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dan1d/cobroya) 📇 ☁️ 🍎 🪟 🐧 - Платежи Mercado Pago для продавцов Латинской Америки: создание платёжных ссылок, поиск платежей и выдача возвратов."
+  },
+  {
+    "line": 2140,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/debitura/Debitura.MCP) 🎖️ 📇 ☁️ - Трансграничный сбор долгов с Debitura: передача дел местным партнёрам, проверка статуса, чтение сообщений партнёров и получение расценок."
+  },
+  {
+    "line": 2141,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@debridge-finance/de-bridge) 📇 🏠 ☁️ - Кроссчейн-обмен и мосты между EVM-сетями и Solana через deBridge: поиск маршрутов, оценка комиссий и инициация некастодиальных сделок."
+  },
+  {
+    "line": 2142,
+    "translated": "- @@L0@@ 📇 ☁️ - Детерминированная проверка права на возврат для подписок (Adobe, Spotify и др.), возвращающая ALLOWED, DENIED или UNKNOWN из без состояния движка правил."
+  },
+  {
+    "line": 2143,
+    "translated": "- @@L0@@ 🐍 ☁️ - Данные о структуре корпоративного долга: поиск эмитентов и облигаций с коэффициентами плеча, старшинством, ковенантами, цепочками гарантов и ценами FINRA TRACE."
+  },
+  {
+    "line": 2144,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/decksaga/market-pulse-mcp) 📇 ☁️ - Живые рыночные данные от CoinGecko, Yahoo Finance и ExchangeRate API: цены крипто и акций, основные индексы, форекс, популярные монеты и индекс Fear & Greed."
+  },
+  {
+    "line": 2145,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Declan142/calcnook-mcp-server) 🐍 🏠 🍎 🪟 🐧 - Личные финансовые калькуляторы для семи стран плюс исламские финансы: подоходный налог, кредиты, пенсия, VAT, Закят, Мурабаха, Иджара и халяль-скрининг акций."
+  },
+  {
+    "line": 2146,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/deficlow/zipp-mcp) 🐍 ☁️ - Многоязычные сводки криптоновостей с метками тональности и оценками важности, с указанием исходного издателя."
+  },
+  {
+    "line": 2147,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/demwick/polymarket-agent-mcp) 📇 🏠 - Инструменты торговли Polymarket: прямая и копи-торговля, обнаружение умных денег, бэктестинг, сканирование арбитража, оптимизация портфеля и потоковые цены."
+  },
+  {
+    "line": 2148,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DevDizzle/gammarips-mcp) 🐍 ☁️ - Данные потока опционов: отобранный ночной пул по ликвидности, проверки ликвидности по контрактам, история реализованных исходов и воспроизведение правил выхода."
+  },
+  {
+    "line": 2149,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dizpers/polystrike-examples) 🎖️ ☁️ - Живые ленты твитов Илона Маска и Теда Круза и счётчики для рынков подсчёта твитов Polymarket, сравнивающие реальные, оракул XTracker и UI-значения."
+  },
+  {
+    "line": 2150,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/OSOJDJD/deeplook) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Исследование компаний по нескольким источникам данных: структурированные отчёты с вердиктом «быки/медведи» для акций, крипто и частных компаний."
+  },
+  {
+    "line": 2151,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dan1d/dolar-mcp) 📇 ☁️ - Курсы Аргентины через DolarAPI (blue, oficial, MEP, CCL, crypto, tarjeta), плюс конвертация валют и калькулятор спреда."
+  },
+  {
+    "line": 2152,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dinggi5/kura) 🦀 🏠 🍎 - Локальный кошелёк Ethereum для ИИ-агентов на macOS: чтение балансов и истории, запрос одобренных человеком платежей и оплата ресурсов x402 в USDC на Base."
+  },
+  {
+    "line": 2153,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/disin7c9/asset-management) 🐍 🏠 🪟 🐧 - Анализ только для чтения, офлайн, вашего лога транзакций акций и ETF: риск с фокусом на просадке с бутстрэп-доверительными интервалами и walk-forward-вердиктами."
+  },
+  {
+    "line": 2154,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dkaleganov/mercury-multiorg-mcp) 🐍 ☁️ - Неофициальный банкинг Mercury только для чтения по нескольким организациям: балансы, транзакции, выписки, карты, счета, казначейство и предпроверки 1099."
+  },
+  {
+    "line": 2155,
+    "translated": "- @@L0@@ 📇 ☁️ - Рыночные данные и торговля криптовалютами в реальном времени по множеству бирж через CCXT: спот, фьючерсы, OHLCV, балансы и ордера."
+  },
+  {
+    "line": 2156,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dodopayments/dodo-agent-plugin) 🎖️ 📇 ☁️ - Dodo Payments: управление платежами, подписками, клиентами, товарами, возвратами, лицензионными ключами и пословной тарификацией, плюс семантический поиск по документации."
+  },
+  {
+    "line": 2157,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/donnywin85/arb-dex-mcp) 📇 ☁️ - Живые цены пулов, ликвидность и спреды кросс-DEX из ончейн-состояния на BSC, Polygon, Arbitrum, Base, Avalanche и Optimism, плюс архив измерений."
+  },
+  {
+    "line": 2158,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@douglasborthwick-crypto/mcp-server-insumer) 📇 ☁️ - Ончейн-аттестация по множеству блокчейнов: верификация с подписью ECDSA, профили доверия кошельков, шаблоны соответствия, онбординг мерчантов и поддержка ACP/UCP."
+  },
+  {
+    "line": 2159,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dqj1998/japan-company-info-mcp-bridge) 📇 🏠 🍎 🪟 🐧 - Офлайн-проверка японских компаний: финансовая отчётность EDINET XBRL, корпоративные номера NTA, крупные акционеры, сертификаты gBizINFO и отраслевые бенчмарки."
+  },
+  {
+    "line": 2160,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@edge-claw/mood-booster-agent) 📇 ☁️ - Зарегистрированный агент ERC-8004, доставляющий подбадривающие сообщения, с ончейн-чаевыми USDC, отзывами о репутации и обнаружением по нескольким сетям."
+  },
+  {
+    "line": 2161,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/EmblemCompany/Agent-skills) 🎖️ 📇 ☁️ - Криптоинструменты для Solana, Ethereum, Base, BSC, Polygon, Hedera и Bitcoin: обмен, доходность DeFi, условные ордера, NFT, кроссчейн-мосты и рыночные данные."
+  },
+  {
+    "line": 2162,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/equivault/equivault-mcp) 🎖️ 📇 ☁️ - Исследование акций EquiVault: фундаментал, финансовая отчётность, коэффициенты, котировки, скрининг, сравнение с аналогами, инсайдерские сделки и аналитика портфеля."
+  },
+  {
+    "line": 2163,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/AiAgentKarl/solana-mcp-server) 🐍 🏠 - Данные блокчейна Solana: балансы кошельков, цены токенов, доходность DeFi Raydium и Orca и проверки безопасности токенов (RugCheck, концентрация держателей, инсайдеры)."
+  },
+  {
+    "line": 2164,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ExpertVagabond/solana-mcp-server) 📇 ☁️ - Управление кошельком Solana, переводы SOL и SPL-токенов, создание и чеканка SPL-токенов, операции со счетами и переключение mainnet/devnet/testnet."
+  },
+  {
+    "line": 2165,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/haiiibin/acb-tax-mcp) 🐍 🏠 🍎 🪟 🐧 - Скорректированная стоимость (ACB) и прирост капитала в Канаде из истории сделок: отслеживание средней стоимости, реализованный доход по каждой позиции и выявление формальных убытков."
+  },
+  {
+    "line": 2166,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Haiku-Trading/haiku-mcp-server) 📇 ☁️ - Исполнение DeFi по множеству сетей: обмен, предоставление ликвидности, кредитование, мосты и доходные стратегии, плюс поиск токенов, анализ портфеля и котировки."
+  },
+  {
+    "line": 2167,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Hashlock-Tech/hashlock-mcp) 📇 ☁️ - Кроссчейн OTC-торговля ETH, BTC и SUI через запечатанные заявки RFQ и атомарный сеттлмент HTLC без мостов и кастодианов."
+  },
+  {
+    "line": 2168,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hifriendbot/agentwallet-mcp) 📇 ☁️ - Безразрешительные кошельки для ИИ-агентов в EVM-сетях и Solana: создание кошелька, подпись транзакций, переводы токенов и платежи x402 в USDC."
+  },
+  {
+    "line": 2169,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hernaninverso/eleata-einvoice-mcp) 📇 ☁️ - Валидация электронных счетов ЕС (Peppol BIS, XRechnung, Factur-X/ZUGFeRD, UBL, CII) и объяснение кодов отклонения."
+  },
+  {
+    "line": 2170,
+    "translated": "- @@L0@@ 🐍 ☁️ - Платформа торговых ботов: создание автоматических стратегий на естественном языке через брокера Alpaca."
+  },
+  {
+    "line": 2171,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/everstake/mcp) 🎖️ ☁️ - Данные некастодиального стейкинга Everstake по множеству сетей: живой APY, метрики uptime, калькулятор наград, интеграции, информация о безопасности и соответствии."
+  },
+  {
+    "line": 2172,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/FalsifyLab/falsifylab-alpha-mcp) 🐍 ☁️ - Данные рыночных исследований FalsifyLab: доходность DeFi, vault-ы Hyperliquid, покупки инсайдеров по SEC Form 4, отчёты 8-K, потоки крипто-ETF и позиции китов Polymarket."
+  },
+  {
+    "line": 2173,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp) 📇 ☁️ 🏠 - Калькуляторы ипотечного финансирования Великобритании: стоимость бридж-кредитов, оценка застройки, стресс-тесты buy-to-let и гербовый сбор (SDLT, LBTT, LTT)."
+  },
+  {
+    "line": 2174,
+    "translated": "- @@L0@@ 🐍 ☁️ - Получение рыночных данных акций, включая рекомендации по опционам, из Yahoo Finance."
+  },
+  {
+    "line": 2175,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@sh-patterson/fec-mcp-server) 📇 ☁️ - Запрос данных о финансировании кампаний FEC через OpenFEC API: поиск кандидатов, отслеживание пожертвований, анализ расходов и мониторинг активности Super PAC."
+  },
+  {
+    "line": 2176,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/stillmarcus24/stillos-notary-mcp) 📇 ☁️ - Подписанные инструменты верификации с оплатой x402: нотаризация заявлений, градуированные вердикты со связанными спорами, скрининг OFAC SDN и дистресс-оценка Altman Z-score."
+  },
+  {
+    "line": 2177,
+    "translated": "- @@L0@@ 🐍 ☁️ - Торговля на Tastytrade через Tastyworks API."
+  },
+  {
+    "line": 2178,
+    "translated": "- @@L0@@ 🐍 ☁️ - Анализ контента сообщества WallStreetBets на Reddit."
+  },
+  {
+    "line": 2179,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/callbk/finlight-mcp) 🎖️ ☁️ - Финансовые новости в реальном времени: поиск по тикеру, источнику и языку с оценками тональности и размеченными сущностями компаний."
+  },
+  {
+    "line": 2180,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/finlynq/finlynq) 📇 ☁️ 🏠 🍎 🪟 🐧 - Самохостинговое приложение личных финансов: учёт и запрос доходов, расходов, бюджетов, инвестиций, кредитов, подписок и целей с шифрованием каждого пользователя в покое."
+  },
+  {
+    "line": 2181,
+    "translated": "- @@L0@@ - Исторические данные бирж США, Великобритании, России и Турции от finmap: секторы, тикеры, профили компаний, капитализация, объём и тепловые карты."
+  },
+  {
+    "line": 2182,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/FLOX-Foundation/flox) 🐍 🏠 - Фреймворк торговых систем FLOX: запуск бэктестов, каркас стратегий, проверка на lookahead-смещение, размещение ордеров и запрос PnL."
+  },
+  {
+    "line": 2183,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/foretak/registry-mcp) 🐍 ☁️ 🏠 - Данные компаний из UK Companies House и реестров Норвегии Brønnøysund: поиск, поиск по названию, сроки подачи и проверки регистрации VAT Норвегии."
+  },
+  {
+    "line": 2184,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Fund-z/fundzwatch-mcp) 📇 ☁️ - Деловые события в реальном времени: раунды финансирования, поглощения, найм руководителей, лиды с оценкой ИИ и рыночная разведка."
+  },
+  {
+    "line": 2185,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gabrielmahia/mpesa-mcp) 🐍 ☁️ - M-PESA через Safaricom Daraja API: STK push, B2C-платежи, запросы баланса, статус транзакций, обнаружение SIM-swap и Bill Manager."
+  },
+  {
+    "line": 2186,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gblinproject/GBLIN-MCP) 📇 ☁️ - Казначейство для ИИ-агентов в сети Base: размещение простаивающего USDC в индексе cbBTC/WETH с защитой Crash Shield и обмен на USDC вовремя для платежей x402."
+  },
+  {
+    "line": 2187,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ 🏠 - Подключение любого Bitcoin Lightning-кошелька для мгновенных платежей."
+  },
+  {
+    "line": 2188,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/GeiserX/cashpilot-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - Мониторинг дашбордов шеринга полосы CashPilot: пассивный доход, заработок DePIN и статус контейнеров по сервисам шеринга."
+  },
+  {
+    "line": 2189,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/giskard09/argentum-core) 🐍 🏠 - Карма для ИИ-агентов и людей: отправка добрых дел, получение аттестаций сообщества и заработок ончейн-репутации на Arbitrum с разрешением споров Kleros."
+  },
+  {
+    "line": 2190,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - Финансовые данные в реальном времени для акций, опционов, крипто и форекса."
+  },
+  {
+    "line": 2191,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/cryptobriefing/gloria-mcp) 🎖️ 🐍 ☁️ - Криптоновости с кураторством ИИ: заголовки в реальном времени с анализом тональности, резюме от ИИ, поиск по ключевым словам и сводки по тикерам."
+  },
+  {
+    "line": 2192,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gpartin/CryptoGuardClient) 🐍 ☁️ - Детерминированная валидация криптосделок по транзакциям (PROCEED/CAUTION/BLOCK), сканирование токенов и обнаружение rug pull для торговых агентов."
+  },
+  {
+    "line": 2193,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@gosodax/sodax-builders-mcp) 📇 ☁️ - Кроссчейн-данные DeFi и документация SDK от SODAX: запрос обменов, кредитования, объёма solver и истории интентов."
+  },
+  {
+    "line": 2194,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/goodmeta/intelligence-mcp) 📇 ☁️ - Отслеживание экосистемы платежей агентов: сканирование GitHub, Hacker News и npm на активность AP2, ACP, x402, MPP и UCP с возвратом оценённых возможностей."
+  },
+  {
+    "line": 2195,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Helm-Protocol/openttt-mcp) 📇 ☁️ - Временная аттестация Proof-of-Time для ИИ-агентов на основе множества HTTPS-источников."
+  },
+  {
+    "line": 2196,
+    "translated": "- @@L0@@ 🎖️ ☁️ 🏠 🐍 - Доступ к web3 ИИ-агентам Heurist Mesh для анализа блокчейна, аудита смарт-контрактов, метрик токенов, анализа DeFi, оценки NFT и мониторинга транзакций."
+  },
+  {
+    "line": 2197,
+    "translated": "- @@L0@@ 📇 ☁️ 🏠 - Hive Intelligence: единый доступ к аналитике крипто, DeFi и Web3."
+  },
+  {
+    "line": 2198,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hypeprinter007-stack/signalfuse-mcp) 📇 ☁️ - Инструменты x402 с оплатой за вызов для торговых агентов: объединённые криптосигналы, тональность, макрорежим, арена стратегий, веб-поиск Brave/Tavily и выполнение кода E2B."
+  },
+  {
+    "line": 2199,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hypurrquant/perp-cli) 📇 ☁️ 🏠 🍎 🪟 🐧 - Торговля перпетуальными фьючерсами на Pacifica, Hyperliquid и Lighter: рыночные данные, исполнение с пробными прогонами, сканирование арбитража ставок финансирования и аналитика портфеля."
+  },
+  {
+    "line": 2200,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sentien-labs/verdictswarm-mcp) 📇 🏠 - Сканер рисков криптотокенов Multi-AI для Solana, Base и Ethereum: агенты обсуждают риск для обнаружения rug pull, ханипотов, концентрации держателей и wash trading."
+  },
+  {
+    "line": 2201,
+    "translated": "- @@L0@@ 🦀 ☁️ - Получение цен акций в реальном времени от Stooq для мировых рынков, включая США, Японию, Великобританию и Германию."
+  },
+  {
+    "line": 2202,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/horustechltd/horus-flow-mcp) 🐍 ☁️ - Движок потока ордеров крипто и акций США для анализа ликвидности в реальном времени."
+  },
+  {
+    "line": 2203,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Hovsteder/powersun-tron-mcp) 📇 ☁️ - Рынок TRON Energy и Bandwidth и агрегатор обмена DEX: покупка энергии, продажа ресурсов и обмен TRC-20 токенов через SunSwap."
+  },
+  {
+    "line": 2204,
+    "translated": "- @@L0@@ 🐍 ☁️ - Доступ и анализ данных фондового рынка Китая через baostock."
+  },
+  {
+    "line": 2205,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/human-beyond/mainbook-mcp) 🎖️ 🐍 🏠 ☁️ 🍎 🐧 - Конвертация банковских выписок PDF в JSON, Excel или CSV с валидацией баланса через MainBook API. Не подключается к банковским счетам."
+  },
+  {
+    "line": 2206,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hypeprinter007-stack/anchor-x402-mcp) 📇 ☁️ - Инструменты кошелька x402 с оплатой за вызов на Base и Solana: скрининг OFAC, разведка кошельков, привязка хеша, подписанные аттестации, декодирование tx и разрешение ENS/SNS."
+  },
+  {
+    "line": 2207,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/icyberdeveloper/tbank-mcp) 🐍 ☁️ - Мобильный банкинг T-Bank: счета, карты, переводы, оплата счетов, заказ продуктов, билеты и поиск путешествий."
+  },
+  {
+    "line": 2208,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ignaciohermosillacornejo/copilot-money-mcp) 📇 🏠 ☁️ 🍎 - Чтение и управление данными Copilot Money: транзакции, бюджеты, счета, регулярные списания, инвестиции и цели, с локальным чтением и записью по согласию."
+  },
+  {
+    "line": 2209,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/IMBAwallet/agent-mcp) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - IMBA Wallet для агентов: документация, плюс депозиты USDT TRC-20 и траты на предоплаченных картах Visa, туристических eSIM и подарочных картах. Без вывода."
+  },
+  {
+    "line": 2210,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/IndigoProtocol/indigo-mcp) 📇 ☁️ 🏠 - Indigo Protocol на Cardano: цены iAsset, аналитика CDP и займов, пулы стабильности, стейкинг INDY, управление и данные DEX."
+  },
+  {
+    "line": 2211,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/IndigoProtocol/cardano-mcp) 📇 ☁️ 🏠 - Взаимодействие с кошельком Cardano: отправка транзакций, получение адресов, чтение UTxO, проверка балансов, разрешение ADAHandle и проверка делегирования стейка."
+  },
+  {
+    "line": 2212,
+    "translated": "- @@L0@@ 🐍 - Транзакции BSC: баланс и переводы токенов, обмен токенов PancakeSwap и получение наград Beeper."
+  },
+  {
+    "line": 2213,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/babyblueviper1/invinoveritas) 📇 ☁️ - Рассуждение ИИ, решения, постоянная память и рынок агентов с оплатой за использование через Bitcoin Lightning, где агенты продают услуги и обмениваются сообщениями."
+  },
+  {
+    "line": 2214,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JacobiusMakes/parlay-api-mcp) 🐍 ☁️ - Спортивные коэффициенты, пропсы игроков и данные рынков предсказаний с живыми превью и инструментами качества и охвата источников."
+  },
+  {
+    "line": 2215,
+    "translated": "- @@L0@@ 📇 🏠 - Запрос блокчейна Bitcoin."
+  },
+  {
+    "line": 2216,
+    "translated": "- @@L0@@ 📇 ☁️ - Доступ к методам EVM JSON-RPC через любого EVM-совместимого провайдера узлов, такого как Infura, Alchemy, QuickNode или локальный узел."
+  },
+  {
+    "line": 2217,
+    "translated": "- @@L0@@ 📇 ☁️ - Коэффициенты, цены и информация рынков предсказаний в реальном времени от Polymarket, PredictIt и Kalshi."
+  },
+  {
+    "line": 2218,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Jeric1223/tossinvest-mcp) 📇 🏠 🍎 🪟 🐧 - Toss Securities Open API для акций Кореи и США: ордера за одноразовыми токенами подтверждения, котировки, книга ордеров, свечи, потоки инвесторов, позиции и FX."
+  },
+  {
+    "line": 2219,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jakzaizzat/cukaimax-agent) 🎖️ ☁️ - Налоговый справочник Малайзии для физлиц и ИП только для чтения со ссылками на источники: черновики Form BE за YA2025, готовность Form B и планирование YA2026."
+  },
+  {
+    "line": 2220,
+    "translated": "- @@L0@@ 📇 ☁️ - Рыночные цены ончейн в реальном времени от Dexscreener API."
+  },
+  {
+    "line": 2221,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jblaz6335/mcp-server-aidatamarketplace) 📇 🏠 - Поиск, предпросмотр и покупка живых API данных агентов (риск вендора, разведка компаний, предполётная проверка транзакций, EVM-чтение) с оплатой через x402 в USDC на Base."
+  },
+  {
+    "line": 2222,
+    "translated": "- @@L0@@ 📇 ☁️ - Анализ корейских акций с использованием API OpenDART и KRX."
+  },
+  {
+    "line": 2223,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JosueM1109/personal-finance-mcp) 🐍 ☁️ 🏠 - Самохостинговый доступ только для чтения к банковским, кредитным, заёмным и брокерским счетам через Plaid: балансы, транзакции, регулярные списания, обязательства и позиции."
+  },
+  {
+    "line": 2224,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@jacobsd32-cpu/djd-agent-score-mcp) 📇 ☁️ - Оценка репутации кошельков ИИ-агентов на Base: баллы доверия, отчёты о мошенничестве, проверки чёрного списка, лидерборд, значки и регистрация агентов."
+  },
+  {
+    "line": 2225,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JayOfemi/shikamaru) 📇 🏠 - Детерминированный расчёт дней и накопленных процентов по конвенциям ISDA и ICMA."
+  },
+  {
+    "line": 2226,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/keel-trade/keel-trade) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Создание, бэктестинг и автоматизация стратегий торговли Hyperliquid: типизированная композиция стратегий, детерминированные бэктесты на исторических данных и добровольное живое исполнение."
+  },
+  {
+    "line": 2227,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kevin2003050666-coder/x402-micro-tollgate) 📇 ☁️ 🏠 🍎 🪟 🐧 - HTTP 402 и MCP-paywall для любого API: неоплаченные запросы получают 402, агенты платят USDC на Base, затем запрос проксируется. Также отдаёт платные MCP-инструменты."
+  },
+  {
+    "line": 2228,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kinance/circle-agent-stack-mcp) 📇 ☁️ - Circle Agent Stack через Circle CLI: создание кошельков USDC, установка политик расходов, отправка стейблкоинов и оплата эндпоинтов за x402."
+  },
+  {
+    "line": 2229,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/krystiangw/agenticpay) 📇 ☁️ 🏠 - Стек микроплатежей x402 для MCP: расчёт USDC за вызов инструмента на Solana через самохостингуемый facilitator с SDK, CLI и paywall-промежуточным ПО."
+  },
+  {
+    "line": 2230,
+    "translated": "- @@L0@@ 🐍 ☁️ - Отслеживание сделок Binance Alpha для оптимизации накопления альфа-очков."
+  },
+  {
+    "line": 2231,
+    "translated": "- @@L0@@ 🐍 ☁️ - Отслеживание неизрасходованных выходов транзакций Bitcoin (UTXO) и статистики блоков."
+  },
+  {
+    "line": 2232,
+    "translated": "- @@L0@@ 🐍 ☁️ - Новости блокчейна и подробные статьи от BlockBeats."
+  },
+  {
+    "line": 2233,
+    "translated": "- @@L0@@ 🐍 ☁️ - Прогнозы цен газа в реальном времени по нескольким блокчейнам от Blocknative."
+  },
+  {
+    "line": 2234,
+    "translated": "- @@L0@@ 📇 ☁️ - Метрики кроссчейн-мостов в реальном времени."
+  },
+  {
+    "line": 2235,
+    "translated": "- @@L0@@ 📇 ☁️ - Курсы кроссчейн-мостов и оптимальные маршруты перевода в реальном времени."
+  },
+  {
+    "line": 2236,
+    "translated": "- @@L0@@ 📇 ☁️ - Доступ в реальном времени к децентрализованным ончейн-фидам цен Chainlink."
+  },
+  {
+    "line": 2237,
+    "translated": "- @@L0@@ 📇 ☁️ - Проверенная информация о EVM-сетях: RPC URL, chain ID, эксплореры и нативные токены."
+  },
+  {
+    "line": 2238,
+    "translated": "- @@L0@@ 🐍 ☁️ - Доступ в реальном времени к последним новостям Cointelegraph."
+  },
+  {
+    "line": 2239,
+    "translated": "- @@L0@@ 🐍 ☁️ - Данные индекса Crypto Fear & Greed в реальном времени и исторические."
+  },
+  {
+    "line": 2240,
+    "translated": "- @@L0@@ 🐍 ☁️ - Структурированные данные об инвестиционных фондах криптовалют в реальном времени."
+  },
+  {
+    "line": 2241,
+    "translated": "- @@L0@@ 🐍 ☁️ - Индикаторы и стратегии технического анализа криптовалют."
+  },
+  {
+    "line": 2242,
+    "translated": "- @@L0@@ 🐍 ☁️ - Трансляция событий ликвидации криптовалют в реальном времени от Binance."
+  },
+  {
+    "line": 2243,
+    "translated": "- @@L0@@ 🐍 ☁️ - Криптоновости в реальном времени от NewsData."
+  },
+  {
+    "line": 2244,
+    "translated": "- @@L0@@ 🐍 ☁️ - Анализ глубины и дисбаланса книги ордеров по основным криптобиржам."
+  },
+  {
+    "line": 2245,
+    "translated": "- @@L0@@ 🐍 ☁️ - Отслеживание целостности привязки стейблкоинов по нескольким блокчейнам."
+  },
+  {
+    "line": 2246,
+    "translated": "- @@L0@@ 🐍 ☁️ - Отслеживание и управление распределением криптопортфеля."
+  },
+  {
+    "line": 2247,
+    "translated": "- @@L0@@ 🐍 ☁️ - Данные криптопроектов от Mobula."
+  },
+  {
+    "line": 2248,
+    "translated": "- @@L0@@ 🐍 ☁️ - Агрегация криптоновостей в реальном времени из нескольких RSS-лент."
+  },
+  {
+    "line": 2249,
+    "translated": "- @@L0@@ 🐍 ☁️ - Анализ тональности криптовалют."
+  },
+  {
+    "line": 2250,
+    "translated": "- @@L0@@ 🐍 ☁️ - Отслеживание данных в реальном времени для основных связанных с крипто акций."
+  },
+  {
+    "line": 2251,
+    "translated": "- @@L0@@ 🐍 ☁️ - Отслеживание самых популярных токенов на CoinGecko."
+  },
+  {
+    "line": 2252,
+    "translated": "- @@L0@@ 🐍 ☁️ - Структурированная база знаний вайтпейперов криптовалют."
+  },
+  {
+    "line": 2253,
+    "translated": "- @@L0@@ 🐍 ☁️ - Последние криптоновости от CryptoPanic."
+  },
+  {
+    "line": 2254,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LamboPoewert/mcp-server-madeonsol) 📇 ☁️ - Данные Solana memecoin в реальном времени: отслеживание кошельков KOL и сигналы координации, оценка деплоеров Pump.fun, разведка альфа-кошельков, правила копи-трейда и сделки DEX."
+  },
+  {
+    "line": 2255,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/praveendias1180/easypaydirect-mcp) 📇 🏠 🍎 🪟 🐧 - Доступ только для чтения к платёжным шлюзам Easy Pay Direct и семейства NMI: поиск транзакций, подписок, регулярных планов и Customer Vault."
+  },
+  {
+    "line": 2256,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/LightSpeedPlusOne/invovate-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - Генерация счетов PDF, JSON и UBL на нескольких языках и письменностях, включая арабскую (справа налево), японскую, хинди и кириллицу."
+  },
+  {
+    "line": 2257,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mobymedia/polymarket-news-mcp) 🐍 🏠 - Сопоставление заголовков новостей с рынками предсказаний Polymarket, на которые они могут повлиять, с живыми коэффициентами, глубокими ссылками и объяснимым сопоставлением. Только чтение."
+  },
+  {
+    "line": 2258,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/27dream/mcp-eastmoney) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Данные рынка A-акций Китая через Eastmoney: котировки в реальном времени, рейтинги основных потоков капитала, отраслевые потоки средств и исторические K-линии."
+  },
+  {
+    "line": 2259,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/make-software/cspr-trade-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Некастодиальная торговля DEX в сети Casper через CSPR.trade: рыночные данные, обмен, ликвидность и запросы счетов с локально подписанными транзакциями."
+  },
+  {
+    "line": 2260,
+    "translated": "- @@L0@@ 🐍 ☁️ - Агрегация живых предложений по управлению от основных DAO."
+  },
+  {
+    "line": 2261,
+    "translated": "- @@L0@@ 🐍 ☁️ - Исследование возможностей доходности DeFi."
+  },
+  {
+    "line": 2262,
+    "translated": "- @@L0@@ 🐍 ☁️ - Доступ в реальном времени к данным пулов ликвидности DEX."
+  },
+  {
+    "line": 2263,
+    "translated": "- @@L0@@ 📇 ☁️ - Популярные токены в реальном времени от DexScreener."
+  },
+  {
+    "line": 2264,
+    "translated": "- @@L0@@ 🐍 ☁️ - Доступ к данным Dune Analytics."
+  },
+  {
+    "line": 2265,
+    "translated": "- @@L0@@ 🐍 ☁️ - Данные потоков крипто-ETF."
+  },
+  {
+    "line": 2266,
+    "translated": "- @@L0@@ 🐍 ☁️ - Отслеживание очередей активации и выхода валидаторов Ethereum в реальном времени."
+  },
+  {
+    "line": 2267,
+    "translated": "- @@L0@@ 🐍 ☁️ - Интеграция с криптоторговым ботом Freqtrade."
+  },
+  {
+    "line": 2268,
+    "translated": "- @@L0@@ 🐍 ☁️ - Данные ставок финансирования в реальном времени по основным криптобиржам."
+  },
+  {
+    "line": 2269,
+    "translated": "- @@L0@@ 🐍 ☁️ - Данные и инсайты в реальном времени от перп-Dex Hyperliquid для ботов, дашбордов и аналитики."
+  },
+  {
+    "line": 2270,
+    "translated": "- @@L0@@ 🐍 ☁️ - Оповещения о китах Hyperliquid в реальном времени для позиций с номинальной стоимостью свыше 1 млн долларов."
+  },
+  {
+    "line": 2271,
+    "translated": "- @@L0@@ 🐍 ☁️ - Исполнение обмена токенов на Solana через Ultra API от Jupiter."
+  },
+  {
+    "line": 2272,
+    "translated": "- @@L0@@ 🐍 ☁️ - Отслеживание вновь созданных пулов на PancakeSwap."
+  },
+  {
+    "line": 2273,
+    "translated": "- @@L0@@ 🐍 ☁️ - Коэффициенты рынка в реальном времени от Polymarket."
+  },
+  {
+    "line": 2274,
+    "translated": "- @@L0@@ 🐍 ☁️ - Обмен токенов и автоматизированная ончейн-торговля в реальном времени на PumpSwap."
+  },
+  {
+    "line": 2275,
+    "translated": "- @@L0@@ 🐍 ☁️ - Запуск, покупка и продажа токенов на Raydium LaunchLab (Raydium Launchpad)."
+  },
+  {
+    "line": 2276,
+    "translated": "- @@L0@@ 🐍 ☁️ - Обнаружение потенциальных рисков в Solana meme-токенах."
+  },
+  {
+    "line": 2277,
+    "translated": "- @@L0@@ 📇 ☁️ - Кроссчейн-переводы токенов через протокол Stargate."
+  },
+  {
+    "line": 2278,
+    "translated": "- @@L0@@ 📇 ☁️ - Оптимальный обмен токенов в блокчейне Sui."
+  },
+  {
+    "line": 2279,
+    "translated": "- @@L0@@ 🐍 ☁️ - Индексированные блокчейн-данные от The Graph."
+  },
+  {
+    "line": 2280,
+    "translated": "- @@L0@@ 🐍 ☁️ - Чеканка ERC-20 токенов по нескольким блокчейнам."
+  },
+  {
+    "line": 2281,
+    "translated": "- @@L0@@ 🐍 ☁️ - Проверка и отзыв разрешений ERC-20 токенов по нескольким блокчейнам."
+  },
+  {
+    "line": 2282,
+    "translated": "- @@L0@@ 🐍 ☁️ - Отслеживание исторических изменений имени пользователя Twitter."
+  },
+  {
+    "line": 2283,
+    "translated": "- @@L0@@ 🐍 ☁️ - Отслеживание вновь созданных пулов ликвидности Uniswap по нескольким блокчейнам."
+  },
+  {
+    "line": 2284,
+    "translated": "- @@L0@@ 📇 ☁️ - Цены токенов в реальном времени от Uniswap V3 по нескольким сетям."
+  },
+  {
+    "line": 2285,
+    "translated": "- @@L0@@ 🐍 ☁️ - Автоматизация обмена токенов на Uniswap по нескольким блокчейнам."
+  },
+  {
+    "line": 2286,
+    "translated": "- @@L0@@ 🐍 ☁️ - Инспекция баланса и ончейн-активности любого кошелька по основным EVM-сетям и Solana."
+  },
+  {
+    "line": 2287,
+    "translated": "- @@L0@@ 🐍 ☁️ - Доступ в реальном времени к отобранным вакансиям Web3."
+  },
+  {
+    "line": 2288,
+    "translated": "- @@L0@@ 🐍 ☁️ - Отслеживание транзакций китов криптовалют."
+  },
+  {
+    "line": 2289,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Liquidiction/liquidiction-mcp) 📇 ☁️ - Живые данные рынка предсказаний Hyperliquid HIP-4: коэффициенты, книги ордеров, свечи, сделки и позиции портфеля."
+  },
+  {
+    "line": 2290,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Frontier-Compute/zcash-mcp) 📇 ☁️ - Защищённые операции Zcash: запросы цепи, декодирование memo, ончейн-аттестация и верификация доказательств."
+  },
+  {
+    "line": 2291,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@KyuRish/trading212-mcp-server) 🐍 ☁️ - Интеграция с Trading 212 API: управление портфелем, рыночные, лимитные и стоп-ордера, паи, дивиденды, рыночные данные и аналитика."
+  },
+  {
+    "line": 2292,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - Разработка смарт-контрактов блокчейна Klever, исследование ончейн-данных, запросы счетов и активов, анализ транзакций и развёртывание контрактов."
+  },
+  {
+    "line": 2293,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kindrat86/agentmail) 🐍 ☁️ 🏠 - Санкционный скрининг OFAC имён, кошельков и стран перед платежом через MCP, HTTP или CLI."
+  },
+  {
+    "line": 2294,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/kindrat86/mcp-deal-flow-signal) 📇 ☁️ - Сигналы потока сделок VC из активности GitHub: скорость коммитов стартапов, рост contributor и расширение репозиториев по секторам для инвесторов seed и Series A."
+  },
+  {
+    "line": 2295,
+    "translated": "- @@L0@@ 🐍 ☁️ - Управление портфелями акций и крипто, размещение сделок и доступ к рыночным данным через Alpaca trading API."
+  },
+  {
+    "line": 2296,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lightningfaucet/lightning-wallet-mcp) 📇 ☁️ - Bitcoin Lightning-кошелёк для ИИ-агентов с поддержкой оплачиваемых API L402/x402, иерархией оператор/агент, контролем бюджета и CLI."
+  },
+  {
+    "line": 2297,
+    "translated": "- @@L0@@ 📇 ☁️ 🍎 🪟 🐧 - Детерминированное управление рисками для торговых агентов BTC и ETH: пятиуровневый движок политик с размером позиции, лимитами плеча и блокировкой сделок."
+  },
+  {
+    "line": 2298,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/unixlamadev-spec/lightningprox-mcp) 📇 🏎️ - Доступ к ИИ за запрос через Bitcoin Lightning через LightningProx с поддержкой зрения и мультимодальности."
+  },
+  {
+    "line": 2299,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/unixlamadev-spec/lpxpoly-mcp) 📇 ☁️ - Анализ Polymarket через LightningProx: поиск неверно оценённых рынков, анализ конкретных рынков и список топ-рынков по объёму, оплата за запрос через Lightning."
+  },
+  {
+    "line": 2300,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/untitledfinancial/dpx-mcp) 📇 ☁️ - Трансграничный сеттлмент USDC на Base: оракул стабильности (макро, FX, ESG, климат), ESG-оценка, FX-котировки, Verification of Payee и исполнение сеттлмента."
+  },
+  {
+    "line": 2301,
+    "translated": "- @@L0@@ - Интеграция с кошельком Lightning Network LNbits."
+  },
+  {
+    "line": 2302,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/longbridge/longbridge-mcp) 🎖️ 🦀 ☁️ - Брокер Longbridge: котировки США и Гонконга в реальном времени, опционы, торговля, фундаментал, рейтинги аналитиков, календари, ценовые оповещения, планы DCA и аналитика портфеля."
+  },
+  {
+    "line": 2303,
+    "translated": "- @@L0@@ 🦀 ☁️ - Рыночные данные акций, анализ и торговля в реальном времени через LongPort OpenAPI."
+  },
+  {
+    "line": 2304,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/makeev/alphai-mcp) 🎖️ 🐍 ☁️ - Обогащённые ИИ финансовые новости: полнотекстовый и тикерный поиск, популярные ленты, инсайдерские сделки SEC Form 4 и анализ по тикерам с оценками релевантности."
+  },
+  {
+    "line": 2305,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@MarcinDudekDev/crypto-signals-mcp) 🐍 ☁️ - Обнаружение аномалий объёма крипто в реальном времени: необычная торговая активность, движения китов и сигналы пампа."
+  },
+  {
+    "line": 2306,
+    "translated": "- @@L0@@ 🐍 ☁️ - Торговые сигналы с оценкой ИИ из Reddit, отчётов SEC, одобрений FDA, сделок конгрессменов и других источников."
+  },
+  {
+    "line": 2307,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tersignhq/tersign-js) 📇 ☁️ - Подписанные квитанции, верификация и доказательства споров для торговли от агента к агенту."
+  },
+  {
+    "line": 2308,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tresor4k/macalc-mcp) ☁️ 📇 - Повседневные калькуляторы для финансов, налогов (восемь стран), здоровья, математики, науки, строительства, конвертаций, образования, спорта, готовки и путешествий."
+  },
+  {
+    "line": 2309,
+    "translated": "- @@L0@@ 📇 ☁️ - Блокчейн-сервисы для множества EVM-сетей: нативные токены, ERC-20, NFT, смарт-контракты, транзакции и разрешение ENS."
+  },
+  {
+    "line": 2310,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/MeshLedger/MeshLedger) 📇 ☁️ - Рынок ИИ-ИИ с ончейн-эскроу."
+  },
+  {
+    "line": 2311,
+    "translated": "- @@L0@@ 📇 ☁️ - Интеграция с блокчейном Starknet: нативные токены (ETH, STRK), смарт-контракты, разрешение StarknetID и переводы токенов."
+  },
+  {
+    "line": 2312,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jacksun911/megalaunch-mcp) 📇 ☁️ - Запуск meme-токенов на Solana через pump.fun: создание токенов с ИИ-арт-графикой, пакетные покупки и защита от Jito MEV."
+  },
+  {
+    "line": 2313,
+    "translated": "- @@L0@@ 🐍 🏠 - Управление финансовыми транзакциями и генерация отчётов с ledger-cli."
+  },
+  {
+    "line": 2314,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mission69b/t2000) 📇 ☁️ - Некастодиальный DeFi-банкинг для ИИ-агентов на Sui: сбережения, займы, инвестиции, обмен, отправка и оплата с оптимизацией доходности через NAVI, Suilend и Cetus."
+  },
+  {
+    "line": 2315,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mmxrealQQ/bobai-buyburn) 🎖️ 📇 ☁️ - Ончейн-данные токена $BOBAI в сети BNB Chain: цена из резервов пары и Chainlink, глубина ликвидности, доказательство сжигания LP и аудиторский след выкупа и сжигания."
+  },
+  {
+    "line": 2316,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/moxiespirit/oath-score) 🐍 ☁️ - Состояние рынка в реальном времени для торговых агентов (статус биржи, VIX/VVIX/SKEW, экономические события) плюс оценки качества API финансовых данных."
+  },
+  {
+    "line": 2317,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Muvon/mcp-binance-futures) 🐍 ☁️ - Торговля Binance USDT-M фьючерсами: рыночные данные, состояние счёта, управление ордерами и контроль позиции и маржи."
+  },
+  {
+    "line": 2318,
+    "translated": "- @@L0@@ 🐍 ☁️ - Получение данных Yahoo Finance через yfinance."
+  },
+  {
+    "line": 2319,
+    "translated": "- @@L0@@ 🐍 ☁️ 🏠 - Управление подписками с интеграцией Gmail и MySQL."
+  },
+  {
+    "line": 2320,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/netanelavr/trading-mcp) 📇 🏠 - Локальное исследование акций: скрининг, фундаментал, инсайдерские сделки, опционы и тональность Reddit, а также анализ новостей ИИ."
+  },
+  {
+    "line": 2321,
+    "translated": "- @@L0@@ 📇 🏠 ☁️ - Европейские финансовые данные: ставки ECB, плюс инфляция, ВВП и безработица Eurostat по странам ЕС."
+  },
+  {
+    "line": 2322,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nhantour/inferenceview-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - Предполётная проверка ресурсов x402 и MCP перед оплатой и фактчекинг утверждений перед действием агента с локальными ключами кошелька и сеттлментом USDC на Base."
+  },
+  {
+    "line": 2323,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nicholasbester/clickup-cli) 🦀 🏠 ☁️ 🍎 🪟 🐧 - Интеграция с ClickUp API, охватывающая все эндпоинты, с компактными экономными ответами. Работает также как автономный CLI."
+  },
+  {
+    "line": 2324,
+    "translated": "- @@L0@@ 📇 🏠 - Некастодиальный EVM-кошелёк, направляющий транзакции в браузерные кошельки вроде MetaMask для подписи, с явным одобрением пользователя для каждого действия через EIP-6963."
+  },
+  {
+    "line": 2325,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/0x-devc/novai-mcp-server) 📇 ☁️ - Запросы только для чтения блокчейна уровня 1 NOVAI: блоки, транзакции, ИИ-сущности, ончейн-сигналы, якоря оракулов и объекты памяти."
+  },
+  {
+    "line": 2326,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/noblabs/lit-forge-mcp) 📇 🏠 🍎 🪟 🐧 - Личное планирование активов для японских Tsumitate NISA и iDeCo: симуляции NISA, анализ пенсионного разрыва, требуемые ежемесячные сбережения и сложные проценты."
+  },
+  {
+    "line": 2327,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/nonameuserd/paybond-kit) 📇 🐍 ☁️ 🏠 🍎 🪟 🐧 - Привязанная к арендатору авторизация расходов агента: политики-ограничители, намерения расходов, доказательства, эскроу-сеттлмент, валидация завершения и переносимые квитанции."
+  },
+  {
+    "line": 2328,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/none298-dotcom/mylinedchart-mcp-chart-context) 📇 🏠 🍎 - Локальный доступ только для чтения к живому контексту графиков MyLinedChart на рабочем столе: символ, свечи, рисунки, индикаторы и статус IBKR."
+  },
+  {
+    "line": 2329,
+    "translated": "- @@L0@@ 🐍 ☁️ - Интеграция частных и публичных рыночных данных через ИИ-агентов Octagon."
+  },
+  {
+    "line": 2330,
+    "translated": "- @@L0@@ 📇 ☁️ - Экономический сеттлмент для ИИ-агентов: верификация квитанций, метринг, чистые сеттлменты, кредитные линии и балансовые отчёты."
+  },
+  {
+    "line": 2331,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/OilpriceAPI/mcp-server) 🎖️ 📇 ☁️ - Цены нефти, газа и сырья в реальном времени: спот, история, фьючерсные кривые, ценовые оповещения и рыночные сводки для Brent, WTI, дизеля, авиатоплива и др."
+  },
+  {
+    "line": 2332,
+    "translated": "- @@L0@@ 🏎️ ☁️ - Доступ к базе Global Legal Entity Identifier (LEI) для верификации компаний, KYC и исследования корпоративной собственности через публичный API GLEIF."
+  },
+  {
+    "line": 2333,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/0xzcov/omni-fun-mcp-server) 📇 ☁️ - Мультичейн-лаунчпад meme-токенов, где агенты могут токенизировать себя: популярные токены, поиск, котировки, бондинг-кривые и симуляция торговли."
+  },
+  {
+    "line": 2334,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/omniologynow-rgb/profitspot-mcp) 🐍 ☁️ - Кроссчейн-аналитика DeFi: поиск доходности, анализ пулов, симуляция прибыли, оценка риска, отслеживание китов и расчёт непостоянных потерь."
+  },
+  {
+    "line": 2335,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/openaccountants/openaccountants) 📇 ☁️ - Открытые навыки бухучёта, проверенные лицензированными бухгалтерами, охватывающие подоходный налог, VAT и зарплату по странам, штатам США и провинциям Канады."
+  },
+  {
+    "line": 2336,
+    "translated": "- @@L0@@ 🐍 ☁️ - Самообслуживаемая интеграция с Apache Fineract: регистрация пользователей, аутентификация, управление счетами, транзакции и переводы третьим лицам."
+  },
+  {
+    "line": 2337,
+    "translated": "- @@L0@@ ☁️ 🏠 - Интеграция с ядром банка для управления клиентами, кредитами, сбережениями, акциями и транзакциями и генерации финансовых отчётов."
+  },
+  {
+    "line": 2338,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/opsloft/tariff-resolver) 📇 🏠 - Исследование импортных пошлин США из данных USITC: кандидаты HTS-кодов, пошлины главы 99 (Section 301/IEEPA), сборы MPF/HMF, landed costs и отслеживание изменений тарифов."
+  },
+  {
+    "line": 2339,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/orcalayer/orcalayer-mcp) 🐍 ☁️ - Отслеживание китов Polymarket и аналитика умных денег: отфильтрованный лидерборд, обнаружение хеджей и рынки территорий Украины с наложением фронта ISW."
+  },
+  {
+    "line": 2340,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/partymola/monzo-mcp) 🐍 ☁️ 🏠 - Доступ только для чтения к банковскому API Monzo (Великобритания) с локальным кэшем транзакций SQLite, полнотекстовым поиском и анализом расходов по категориям."
+  },
+  {
+    "line": 2341,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/paulf280-ui/solana-safe-sniper-mcp-template) 📇 ☁️ - Предторговые проверки риска токенов Solana: трассировка финансирования держателей, отметки пакетных покупок, скоординированных дампов и серийных лаунчеров, а также скрининг отдельных кошельков."
+  },
+  {
+    "line": 2342,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@payclaw/payclaw-mcp) 📇 ☁️ - Виртуальные карты Visa для ИИ-агентов: выпуск карт вовремя для каждой транзакции с одобренной человеком авторизацией расходов."
+  },
+  {
+    "line": 2343,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/mikusnuz/pexbot-mcp) 📇 ☁️ - Симулированная криптоторговля с ценами Upbit в реальном времени и виртуальным балансом KRW: регистрация, торговля и автономные инвестиции ИИ."
+  },
+  {
+    "line": 2344,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@PaulieB14/graph-aave-mcp) 📇 ☁️ - Данные кредитования мультичейн Aave V2/V3 через The Graph: резервы, позиции пользователей, health-факторы, ликвидации, флэш-займы и управление."
+  },
+  {
+    "line": 2345,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@PaulieB14/graph-polymarket-mcp) 📇 ☁️ - Данные рынка предсказаний Polymarket через The Graph: рынки, позиции, ордера, активность пользователей и коэффициенты в реальном времени."
+  },
+  {
+    "line": 2346,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@plagtech/spraay-x402-mcp) 📇 ☁️ - Ончейн-данные, ИИ-модели и пакетные платежи USDC на Base через x402: котировки обмена, цены токенов, балансы кошельков, разрешение ENS и переводы нескольким получателям."
+  },
+  {
+    "line": 2347,
+    "translated": "- @@L0@@ 🐍 ☁️ - Доступ к API рыночных данных Polygon.io для акций, индексов, форекса, опционов и др."
+  },
+  {
+    "line": 2348,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@PostOakLabs/ainumbers-mcp-apps) 📇 ☁️ - Детерминированные инструменты финтеха только для чтения: агентские платежи (AP2, x402, Visa TAP, A2A), AML/KYC оценка риска, сравнение BaaS-провайдеров и MCP-инструменты разработки."
+  },
+  {
+    "line": 2349,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/predictionmarketspicks/mcp) 🎖️ 📇 ☁️ - Квантовые инструменты для Kalshi и Polymarket (матожидание, Kelly-сайзинг, байесовское обновление, конвертация коэффициентов) плюс помощник фэнтези-драфта NFL."
+  },
+  {
+    "line": 2350,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/PreReason/mcp) 📇 ☁️ - Брифинги по Bitcoin и макрорынку (баланс ФРС, M2, доходность казначейских облигаций, корреляции) с тренд-сигналами, оценками уверенности и классификацией режима."
+  },
+  {
+    "line": 2351,
+    "translated": "- @@L0@@ 🐍 ☁️ - Получение цен криптовалют из Bitget API."
+  },
+  {
+    "line": 2352,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pythia-the-oracle/pythia-oracle-mcp) 🐍 ☁️ - Криптоиндикаторы, рассчитанные ончейн (EMA, RSI, полосы Боллинджера, волатильность), доставляемые через оракул Chainlink по нескольким таймфреймам."
+  },
+  {
+    "line": 2353,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/QBT-Labs/openmm-mcp) 📇 ☁️ - Набор инструментов крипто-маркетмейкинга для аналитики DeFi, торговли CEX/DEX и управления ликвидностью."
+  },
+  {
+    "line": 2354,
+    "translated": "- @@L0@@ 🐍 ☁️ - Доступ к QuantConnect API: создание проектов, бэктестинг стратегий, управление соавторами и развёртывание живой торговли."
+  },
+  {
+    "line": 2355,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/QuantOracledev/quantoracle) 📇 ☁️ - Детерминированные квантовые финансовые инструменты: ценообразование опционов, метрики риска, оптимизация портфеля, Монте-Карло, техиндикаторы, крипто/DeFi и FX/макро."
+  },
+  {
+    "line": 2356,
+    "translated": "- @@L0@@ 📇 ☁️ - Цены криптовалют и рыночная информация в реальном времени из публичного API CoinCap."
+  },
+  {
+    "line": 2357,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@QuantToGo/quanttogo-mcp) 📇 ☁️ - Квантовые торговые сигналы по макрофакторам для рынков США и A-акций: поиск стратегий, получение живых сигналов и отслеживаемая вперёд доходность."
+  },
+  {
+    "line": 2358,
+    "translated": "- @@L0@@ 🐍 - Неофициальная интеграция с PayPal Braintree: обработка платежей, управление клиентами и проведение транзакций."
+  },
+  {
+    "line": 2359,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@refined-element/lightning-enable-mcp) 🐍 ☁️ 🏠 - Bitcoin Lightning-платежи для ИИ-агентов: оплата и создание счетов, проверка балансов и доступ к API за L402, с кошельками Strike, OpenNode и NWC."
+  },
+  {
+    "line": 2360,
+    "translated": "- @@L0@@ 📇 ☁️ - Генерация QR-кодов Pix и строк для копирования-вставки с резервом по нескольким провайдерам (Efí, Cielo и др.) для мгновенных платежей Бразилии."
+  },
+  {
+    "line": 2361,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rascal-3/chainanalyzer-mcp) 📇 ☁️ - Оценка AML-риска и санкционный скрининг по нескольким сетям с ML-оценкой аномалий и графовым анализом по Bitcoin, Ethereum, Polygon, Avalanche и Solana."
+  },
+  {
+    "line": 2362,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/romanshumy/llm-prices-data) 📇 ☁️ 🏠 - Живые цены токенов LLM API, сравнение моделей, поиск самой дешёвой модели и The LLM Price Index, ежедневно перепроверяемые по страницам провайдеров."
+  },
+  {
+    "line": 2363,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vdmeu/registrum-mcp) 📇 ☁️ - Данные UK Companies House через Registrum API: поиск компаний, профили, финансовая отчётность, разобранная iXBRL, история директоров и графы корпоративных сетей."
+  },
+  {
+    "line": 2364,
+    "translated": "- @@L0@@ 📇 ☁️ - Доступ к XRP Ledger: информация о счёте, история транзакций, объекты ledger, отправка транзакций и мониторинг сети."
+  },
+  {
+    "line": 2365,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ryansilk/apexvol-mcp) 🐍 ☁️ 🏠 - Опционная аналитика ApexVol: цепочки, IV rank, премия волатильности риска, греки, гамма-экспозиция (GEX), ожидаемые движения и скринеры рынка."
+  },
+  {
+    "line": 2366,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sachinuppal/modelcostsaver) 📇 🏠 🍎 🪟 🐧 - Офлайн-прогноз стоимости LLM: оценка стоимости запросов, выбор самой дешёвой подходящей модели, сравнение моделей, список цен и оптимизация запросов."
+  },
+  {
+    "line": 2367,
+    "translated": "- @@L0@@ 🐍 ☁️ - Рыночные данные криптовалют из CoinGecko API."
+  },
+  {
+    "line": 2368,
+    "translated": "- @@L0@@ 🐍 ☁️ - Рыночные данные и анализ акций из Yahoo Finance API."
+  },
+  {
+    "line": 2369,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sapph1re/findata-mcp) 🐍 ☁️ - Данные акций в реальном времени, фундаментал компаний, экономические индикаторы FRED, отчёты SEC и цены крипто, оплата за вызов через x402 на Base."
+  },
+  {
+    "line": 2370,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sailorpepe/litvm-tcg-oracle-mcp) 🐍 ☁️ 🏠 - Ончейн-оракул цен TCG для LitecoinVM: поиск карт, история цен, верификация доказательства Меркла, симуляция Монте-Карло и ИИ-грейдинг карт."
+  },
+  {
+    "line": 2371,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sailorpepe/undesirables-mcp-server) 🐍 🏠 ☁️ 🍎 🪟 🐧 - Коллекционные TCG и утилиты агентов: ИИ-грейдинг карт, симуляция цен Монте-Карло, генерация музыки и изображений, TTS, RAG-память и SAST-аудит."
+  },
+  {
+    "line": 2372,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/scjang01/tossinvest-mcp) 📇 ☁️ - Toss Securities Open API: котировки в реальном времени, книга ордеров, свечи, позиции, покупательная способность и управление ордерами (создание, изменение, отмена)."
+  },
+  {
+    "line": 2373,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/seaworthy-io/seaworthy-mcp) 📇 ☁️ - Брокеридж страхования от нетрудоспособности: отправка запросов расценок от имени пользователя, сравнение страховщиков и исследование покрытия."
+  },
+  {
+    "line": 2374,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Setell-AI/setell-mcp) 📇 🏠 - Quote-to-cash для сервисных бизнесов (механические цеха, подрядчики, HVAC): работы, сметы, память клиентов, ценовые сигналы, напоминания и подтверждённые отправки."
+  },
+  {
+    "line": 2375,
+    "translated": "- @@L0@@ 🏎️ ☁️ - Отчёты SEC, финансовая отчётность и данные инсайдерской торговли в реальном времени через ShareSeer."
+  },
+  {
+    "line": 2376,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ShipItAndPray/mcp-market-data) 📇 🏠 ☁️ 🍎 🪟 🐧 - Живые рыночные данные криптовалют: цены в реальном времени, OHLCV, книги ордеров и сводки рынка."
+  },
+  {
+    "line": 2377,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ShinyDapps/l402-kit) 📇 ☁️ 🍎 🪟 🐧 - SDK L402 для TypeScript, Python, Go и Rust: серверное промежуточное ПО, автооплачивающий клиент агента, MCP-сервер, интеграция LangChain и контроль бюджета."
+  },
+  {
+    "line": 2378,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lmwharton/sieve-mcp) 🐍 ☁️ - Проверка стартапов: скрининг стартапов по измерениям IMPACT-X с возвратом Sieve Score, находок с типами доказательств и рекомендации по встрече."
+  },
+  {
+    "line": 2379,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SiftingIO/siftingio-mcp) 🎖️ 📇 🏠 - Живые и исторические данные для акций, форекса, крипто, сырья и DEX, плюс фундаментал, отчёты и рыночные календари."
+  },
+  {
+    "line": 2380,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SidneyBissoli/bcb-br-mcp) 📇 ☁️ 🍎 🪟 🐧 - Экономические временные ряды Центрального банка Бразилии (BCB) через публичный API SGS: Selic, IPCA, обменные курсы, ВВП и отобранные индикаторы."
+  },
+  {
+    "line": 2381,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/signal8ai/signal8-mcp) 📇 ☁️ - Данные отчётов SEC от Signal8: инсайдерская и 13F собственность, оценка риска разводнения, сделки STOCK Act, финансирование кампаний FEC, поиск отчётов и скринер акций."
+  },
+  {
+    "line": 2382,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/smythmyke/govtoolspro-mcp-server) 📇 ☁️ - Инструменты для федеральных подрядчиков США: оценка заявок go/no-go, исследование действующих подрядчиков, поиск партнёров, прогноз перетендеров и заявки SAM.gov."
+  },
+  {
+    "line": 2383,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/subsquid-labs/portal-mcp-server) 🎖️ 📇 ☁️ 🏠 - Запрос ончейн-данных по EVM, Solana, Bitcoin, Substrate и Hyperliquid через SQD Portal API."
+  },
+  {
+    "line": 2384,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/summerstateofmind/cityparity) 📇 ☁️ - Сравнение стоимости жизни и качества жизни между городами: чистая зарплата, налоги, эквивалентная зарплата, уход за детьми, здравоохранение, отпуск и декрет."
+  },
+  {
+    "line": 2385,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SupplyMaven-SCR/supplymaven-mcp-server) 📇 ☁️ - Данные рисков цепочки поставок в реальном времени: индексы нарушений, цены сырья, заторы портов, задержки на границе, узкие места, фрахт и торговая политика."
+  },
+  {
+    "line": 2386,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/swiftnodes/swiftnodes-mcp) 📇 🏠 🍎 🪟 🐧 - Справочник мультичейн блокчейн-RPC: шаблоны URL эндпоинтов, поддержка методов JSON-RPC по сетям и живое зондирование эндпоинтов."
+  },
+  {
+    "line": 2387,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/supra126/taiwan-payroll) 📇 ☁️ 🏠 - Расчёты зарплаты по закону Тайваня: трудовое и медицинское страхование, трудовая пенсия, дополнительный взнос NHI, удержание подоходного налога и пенсия по старости."
+  },
+  {
+    "line": 2388,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/szhygulin/recon-crypto-mcp) 📇 🏠 - Самокастодиальный криптопортфель: балансы EVM и позиции DeFi с риск-оповещениями, плюс неподписанные транзакции, подписываемые на Ledger через WalletConnect."
+  },
+  {
+    "line": 2389,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tamasPetki/HeadlessTracker) 📇 🏠 ☁️ 🍎 🪟 🐧 - Локально-ориентированная агрегация криптопортфеля по Bybit, Binance, кошелькам EVM и Solana и Polymarket с учётными данными только для чтения в связке ключей ОС."
+  },
+  {
+    "line": 2390,
+    "translated": "- @@L0@@ ☁️ - Доступ к блокчейн-API Tatum по множеству сетей, включая RPC-шлюз и инсайты блокчейн-данных."
+  },
+  {
+    "line": 2391,
+    "translated": "- @@L0@@ 🦀 🏠 - Взаимодействие с блокчейнами на основе Substrate."
+  },
+  {
+    "line": 2392,
+    "translated": "- @@L0@@ 🐍 🏠 - Подключение к любому бэкенду OpenTelemetry, такому как Datadog, Grafana, Dynatrace или Traceloop."
+  },
+  {
+    "line": 2393,
+    "translated": "- @@L0@@ 🎖️ ☁️ - Торговля акциями и крипто на брокерах вроде Robinhood, E*Trade, Coinbase и Kraken через Trade Agent."
+  },
+  {
+    "line": 2394,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/TradeRouter/trade-router-mcp) 📇 ☁️ 🏠 - Некастодиальный движок торговли Solana: обмен, лимитные, trailing, TWAP и DCA-ордера по Raydium, PumpSwap, Orca и Meteora с защитой от Jito MEV."
+  },
+  {
+    "line": 2395,
+    "translated": "- @@L0@@ 🐍 ☁️ - Торговля на Robinhood: анализ портфеля, котировки в реальном времени и исполнение ордеров."
+  },
+  {
+    "line": 2396,
+    "translated": "- @@L0@@ 🐍 ☁️ - Финансовые рыночные данные в реальном времени и исторические из Twelve Data APIs."
+  },
+  {
+    "line": 2397,
+    "translated": "- @@L0@@ 📇 ☁️ - Рыночные данные крипто в реальном времени через CryptoDataAPI: оценки здоровья рынка, деривативы, ставки финансирования, потоки ETF и индикаторы цикла."
+  },
+  {
+    "line": 2398,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Veroq-ai/veroq-mcp) 📇 ☁️ - Верификация заявлений с цепочками доказательств, плюс рыночные данные, торговые сигналы, отчёты SEC, инсайдерские сделки и технический анализ."
+  },
+  {
+    "line": 2399,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/szhygulin/vaultpilot-mcp) 📇 🏠 🍎 🪟 🐧 - DeFi с аппаратной верификацией: чтение балансов и позиций и подготовка транзакций по EVM-сетям, TRON, Solana и Bitcoin с одобрением на Ledger."
+  },
+  {
+    "line": 2400,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/minhoyoo-iotrust/WAIaaS) 📇 🏠 🍎 🪟 🐧 - Самохостинговый wallet-as-a-service для ИИ-агентов на Solana и EVM: переводы, DeFi, NFT, смарт-контракты, подпись и платежи x402 с политиками расходов."
+  },
+  {
+    "line": 2401,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wildsurfer/cnn-fear-and-greed-parse) 🏎️ 🏠 - Индекс CNN Fear & Greed для фондового рынка США: оценка, рейтинг, компонентные индикаторы и около года ежедневной истории."
+  },
+  {
+    "line": 2402,
+    "translated": "- @@L0@@ 🦀 🏠 - Запрос транзакций Solana через Solscan API."
+  },
+  {
+    "line": 2403,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@baskcart/w3ledger-mcp-server) 📇 ☁️ - Самопроверяемый реестр с двойными подписями транзакций, подарочными и спонсорскими картами и уровнями лояльности, использующий подписи EVM или постквантовые (ML-DSA-65, SLH-DSA)."
+  },
+  {
+    "line": 2404,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/vdalhambra/financekit-mcp) 🐍 ☁️ 🏠 - Рыночные данные и анализ: котировки акций, техиндикаторы, цены крипто CoinGecko, метрики риска, цепочки опционов и анализ портфеля."
+  },
+  {
+    "line": 2405,
+    "translated": "- @@L0@@ 🎖️ 📇 ☁️ - Доступ к платформе CRIC Wuye AI, ассистенту для индустрии управления недвижимостью."
+  },
+  {
+    "line": 2406,
+    "translated": "- @@L0@@ 📇 ☁️ - Доступ к функциям бухучёта и бизнеса Xero через его API."
+  },
+  {
+    "line": 2407,
+    "translated": "- @@L0@@ 🐍 ☁️ - Корпоративные данные Японии через государственные API (gBizINFO, EDINET, e-Stat): компании, финансовая отчётность, патенты, субсидии, закупки и государственная статистика."
+  },
+  {
+    "line": 2408,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/YBSbarker/barker-stablecoin-skills) 🎖️ 📇 ☁️ - Индекс доходности стейблкоинов в реальном времени по протоколам DeFi и программам CEX earn, с советником по доходности, риск-сигналами и некастодиальными котировками депозита/вывода."
+  },
+  {
+    "line": 2409,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yli769227-jpg/ashare-mcp) 🐍 🏠 - Финансовая отчётность A-акций Китая: выгрузка годовых отчётов, отраслевые бухгалтерские перекрёстные проверки и сравнение аналогов по ROE на средний капитал."
+  },
+  {
+    "line": 2410,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yolfinance/yolfi-agent) 📇 ☁️ - Интеграция с Yolfi Payments: регистрация рабочих пространств, создание криптоплатёжных ссылок, настройка и верификация вебхуков и проверка статуса платежа."
+  },
+  {
+    "line": 2411,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ypratap11/dokimo-mcp) 🐍 🏠 - Проверка заявлений о выручке ИИ-агентов путём пересчёта доказательства Меркла и сверки с ончейн-якорем (x402, агентские платежи)."
+  },
+  {
+    "line": 2412,
+    "translated": "- @@L0@@ 🐍 ☁️ - Доступ к финансовым данным от нескольких провайдеров, таких как Tushare."
+  },
+  {
+    "line": 2413,
+    "translated": "- @@L0@@ 📇 ☁️ - Поиск рыночных и финансовых новостей с фильтрацией по символам, отраслям, странам и диапазонам дат."
+  },
+  {
+    "line": 2414,
+    "translated": "- @@L0@@ @@L1@@ 🐍 🏠 - Слоистая память для ИИ-торговых агентов (сделки, паттерны, стратегия), поддерживающая MT5, Binance и Alpaca."
+  },
+  {
+    "line": 2415,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ThoughtProof/thoughtproof-mcp) 📇 ☁️ - Состязательная предторговая верификация: Claude, Grok и DeepSeek оспаривают каждое решение агента и возвращают ALLOW или HOLD с подписанной аттестацией."
+  },
+  {
+    "line": 2416,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tickerdb/tickerdb-mcp) 📇 ☁️ - Предрассчитанные индикаторы для акций США, ETF и крипто (тренд, импульс, волатильность, фундаментал) с историей переходов состояний для скрининга и бэктестинга."
+  },
+  {
+    "line": 2417,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tunedforai/x402-mcp) 📇 ☁️ - Структура крипторынка в реальном времени: межбиржевой поток ордеров, цена, финансирование и снимки открытого интереса, CVD с активностью китов и история OHLCV."
+  },
+  {
+    "line": 2418,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@toolstem/toolstem-mcp-server) 📇 ☁️ 🏠 - Финансовые данные, агрегированные из нескольких источников: снимки акций, метрики компаний и сравнения с производными сигналами, CAGR, трендами маржи и потенциалом DCF."
+  },
+  {
+    "line": 2419,
+    "translated": "- @@L0@@ 📇 ☁️ - Сигналы SEC EDGAR: инсайдерская торговля (Form 4), институциональные позиции 13F, скорость подачи 10-K/8-K, флаги риска активистов и сравнения раскрытий."
+  },
+  {
+    "line": 2420,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pickelfintech/the13f-mcp) 🐍 ☁️ - Институциональные данные 13F из SEC EDGAR: поиск управляющих, поиск позиций, схожесть портфелей, консенсусный портфель, рыночный режим и отраслевые потоки."
+  },
+  {
+    "line": 2421,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tradallo/reputation) 📇 ☁️ - Tradallo Verified Record Protocol: запрос верифицированных репутаций торговли людей и ИИ-агентов, треков рекордов, квитанций сделок и нотаризаций memo в Solana."
+  },
+  {
+    "line": 2422,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/pineforge-4pass/pineforge-codegen-mcp) 📇 🏠 - Локальный бэктест стратегий Pine Script v6 путём транспиляции в C++ и запуска на детерминированном движке PineForge."
+  },
+  {
+    "line": 2423,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/michalperni11-gif/secfinapi-mcp) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Стандартизированные финансовые данные SEC EDGAR для публичных компаний США: отчёты о прибылях, балансы, денежные потоки и коэффициенты, нормализованные из XBRL."
+  },
+  {
+    "line": 2424,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/namixai/funding-mcp) 📇 ☁️ - Данные перпетуальных ставок финансирования и межбиржевой арбитраж финансирования по множеству площадок, включая суб-DEX HIP-3, с сигналами за x402."
+  },
+  {
+    "line": 2425,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/namixai/signer-mcp) 📇 ☁️ - Бесключевая подпись CEX/DEX для торговых агентов: ключи остаются в AWS Nitro Enclave, а агенты получают ограниченные политиками подписи для Binance, OKX, Bybit и др."
+  },
+  {
+    "line": 2426,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/JeongSeongMok/tossinvest-openapi-mcp) 📇 🏠 🍎 🪟 🐧 - Документация Toss Securities Open API только для чтения: просмотр эндпоинтов и схем, следование руководствам по интеграции и генерация примеров curl, TypeScript и Python."
+  },
+  {
+    "line": 2427,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ophis-fi/ophis) 🎖️ 📇 ☁️ - DEX-агрегатор на основе интентов (самохостинговый CoW Protocol): разбор интентов обмена, получение котировок, сборка и отправка ордеров EIP-712 и проверка балансов в EVM-сетях."
+  },
+  {
+    "line": 2428,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/phuocdu/agentpay-vn) 🐍 ☁️ - Некастодиальные платежи VietQR во Вьетнаме: генерация VietQR-кода для пользователя и автоподтверждение сеттлмента из банковской ленты мерчанта."
+  },
+  {
+    "line": 2429,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Gainium/gainium-mcp) 🎖️ 📇 ☁️ 🏠 - Управление ботами Gainium DCA, Combo и Grid: боты, сделки, балансы, бэктесты, криптоскринер и пресеты стратегий."
+  },
+  {
+    "line": 2431,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/wuzenghai616-lang/goldbean) 📇 ☁️ 🍎 🪟 🐧 - Инструменты x402 с оплатой за вызов: цены крипто, веб-поиск, погода, генерация изображений, чат LLM, выполнение кода, перевод, анализ тональности и QR-коды."
+  },
+  {
+    "line": 2432,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Faouzi122/Arsenal-Quant-Project) 🐍 ☁️ - Детерминированный оракул риска MEV и проскальзывания для агентов DeFAI."
+  },
+  {
+    "line": 2433,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/true402/mcp-server) 🎖️ 📇 ☁️ - Инструменты x402 с оплатой за вызов: проверки rug и ханипотов токенов, сигналы новых пар и обменов китов, аудит SEO/GEO, извлечение веба, превью ссылок и вывод LLM."
+  },
+  {
+    "line": 2434,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/bevanding/signaldaemon) 🐍 ☁️ - Отслеживание нарративов и сигналов для крипто, ИИ и макро: пересечение нарративов из разных источников и расхождение капитала и нарратива."
+  },
+  {
+    "line": 2435,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ENTIA-IA/entia-mcp-server) 🎖️ 🐍 ☁️ - Данные бизнес-идентичности: верификация компаний, VAT, BORME, GLEIF, собственность и риск-сигналы по многим странам."
+  },
+  {
+    "line": 2436,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Nikolife2016/pulsefeed-x402) 📇 ☁️ - Проверки безопасности перед оплатой эндпоинтов x402: доступность, скан-скамы (перехват payTo, ханипот), верификация ончейн-получателя и баллы доверия."
+  },
+  {
+    "line": 2437,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ninetails-io/gnucash-mcp) 🐍 🏠 🍎 🪟 🐧 - Мультивалютный двойной учёт на локальных книгах GnuCash: транзакции, счета, счета-фактуры, бюджеты, лоты инвестиций, сверка и отчёты."
+  },
+  {
+    "line": 2438,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/viniciuslazzari/bolsai-mcp) 🐍 🏠 🍎 🪟 🐧 - Данные фондового рынка Бразилии от B3, CVM и BCB: цены акций, фундаментал, дивиденды, FII и макроиндикаторы (Selic, IPCA, CDI)."
+  },
+  {
+    "line": 2439,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/agentIgris/agentfund) 📇 ☁️ - Сбор средств для ИИ-агентов на Solana: регистрация агентов, создание кампаний, пожертвования через x402 и отслеживание ончейн-репутации."
+  },
+  {
+    "line": 2441,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sebastienrousseau/camt053-mcp) 🐍 🏠 🍎 🪟 🐧 - Парсинг банковских выписок ISO 20022 camt.053 и валидация XSD, проверки IBAN/BIC/LEI, экспорт журналов Xero и QuickBooks и генерация сторнирующих проводок."
+  },
+  {
+    "line": 2442,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sebastienrousseau/pacs008-mcp) 🐍 🏠 🍎 🪟 🐧 - Генерация, валидация и парсинг сообщений ISO 20022 pacs.008, pacs.004 и pacs.002, исправление структурированных адресов и конвертация SWIFT MT103 в pacs.008."
+  },
+  {
+    "line": 2443,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/manganate006/openlmnp) 🏠 ☁️ - Бухучёт для французского налогового статуса LMNP (меблированная аренда): проводки, амортизация, налоговые формы 2031/2033, экспорт FEC и импорт Airbnb/Booking.com."
+  },
+  {
+    "line": 2444,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tonnode/mcp) 📇 🏠 ☁️ - Прямой доступ к liteserver сети The Open Network (TON) через ADNL: балансы GRAM, состояние счёта, история транзакций и get-методы контрактов."
+  },
+  {
+    "line": 2445,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/slenderongithub/fix-protocol-mcp) 🐍 🏠 - Парсинг, валидация, сборка и объяснение торговых сообщений протокола FIX офлайн с встроенным словарём полей FIX 4.4."
+  },
+  {
+    "line": 2446,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/andresdefi/zerodust) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Сбор нативных балансов газа до ровно нуля в EVM-сетях через спонсируемое исполнение EIP-7702, в той же или кроссчейн, на разрешённые назначения."
+  },
+  {
+    "line": 2447,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/amitesh-m/wealthville-integrations) 🎖️ 📇 🏠 - Оценки пулов ликвидности Solana и EVM только для чтения: вердикты Enter/Hold/Exit, композитный Wealthville Score, топ-пулы, сигналы и публичный трек-рекорд."
+  },
+  {
+    "line": 2448,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SynderAccounting/gl-importer-plugin) 🎖️ 📇 ☁️ - Импорт бухгалтерских данных CSV/XLSX в QuickBooks Online или Xero через Synder Importer API с сопоставлением полей и правилами после импорта."
+  },
+  {
+    "line": 2449,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sturs49/cryptotaxedge-mcp) 🎖️ ☁️ - Классификация налогов США для ончейн-транзакций: отправьте хеш транзакции, чтобы получить её категорию, налоговую трактовку, оценку уверенности и флаг проверки."
+  },
+  {
+    "line": 2450,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/sand0vvv/hyperevm-mcp) 📇 ☁️ 🍎 🪟 🐧 - Данные Hyperliquid/HyperEVM только для чтения: доходность HYPE (стейкинг, кредитование, LP, HLP vault), TVL и комиссии протокола, рынки, история финансирования и глубина книги ордеров."
+  },
+  {
+    "line": 2451,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/asokore/statcite) 📇 ☁️ - Цитируемая экономическая статистика от Всемирного банка, МВФ, BIS, ECB и центробанков Карибов, плюс проверки заявленных значений по исходным рядам."
+  },
+  {
+    "line": 2452,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/ravndex/ravn-mcp-glama) 📇 ☁️ - Исполнение кроссчейн-обмена по нескольким площадкам и сетям, включая нативный Bitcoin как источник или назначение."
+  },
+  {
+    "line": 2453,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/parkyucheol-del/alphapipeline) 🐍 ☁️ 🏠 - Рыночные и ончейн-данные с оплатой за вызов x402: риск разблокировки токенов, оповещения kimchi-premium, аудит ханипотов и LP-локов, проскальзывание DEX и перенос ставки финансирования."
+  },
+  {
+    "line": 2454,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/henfrydls/actual-budget-mcp) 📇 🏠 🍎 🪟 🐧 - Самохостинговый анализ Actual Budget: разбивки расходов, тренды категорий, прогнозы и бюджет против факта, с защищённой записью и опциональным режимом только чтения."
+  },
+  {
+    "line": 2455,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/yourmatematt/agent-billboard-mcp) 📇 🏠 🍎 🪟 🐧 - Чтение и публикация в The Agent Billboard, едином ончейн-слоте сообщений Solana, выигрываемом перебивкой предыдущего постера, с лимитами расходов оператора."
+  },
+  {
+    "line": 2456,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/tillbooks/tillbooks) 📇 🏠 🍎 🐧 - Локально-ориентированный швейцарский бухучёт: двойные проводки, категоризация и сопровождение счетов, и декларации швейцарского VAT (MWST), хранящиеся в локальном SQLite."
+  },
+  {
+    "line": 2457,
+    "translated": "### 🎮 <a name=\"gaming\"></a>Игры"
+  },
+  {
+    "line": 2459,
+    "translated": "Интеграция с игровыми данными, игровыми движками и сервисами."
+  },
+  {
+    "line": 2461,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/26048608982lp-ai/gamenumerics) 📇 🏠 🍎 🪟 🐧 - Проектирование и аудит баланса игр: импорт конфигурационных таблиц xlsx, аудит кривых роста, симуляция боевых и гача-систем и обратный инжиниринг формул таблиц."
+  },
+  {
+    "line": 2462,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/3aKHP/prts-mcp) 🐍 📇 ☁️ 🏠 - Игровые данные Arknights через PRTS Wiki API с автосинхронизированными архивами операторов и репликами для создания фан-творчества."
+  },
+  {
+    "line": 2463,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/antics-gg/antics-mcp) 📇 ☁️ - Развёртывание однофайловой HTML-игры на общедоступный многопользовательский URL с комнатами, синхронизацией состояния и лидербордами без бэкенда и аккаунтов игроков."
+  },
+  {
+    "line": 2464,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/beckettlab/beckett-godot-mcp) 🏠 🍎 🪟 🐧 - Дополнение редактора Godot 4, работающее без сайдкара: рефлексия классов, валидированная запись GDScript, создание сцен/скриптов/ресурсов и цикл play-тестов в рантайме."
+  },
+  {
+    "line": 2465,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/butterlatte-zhang/unity-ai-bridge) #️⃣ 🐍 🏠 🍎 🪟 - Управление редактором Unity из ИИ-инструментов программирования через файловый IPC."
+  },
+  {
+    "line": 2466,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/buildepicshit/Wick) #️⃣ 🏠 🍎 🪟 🐧 - Инструментарий Godot Engine: телеметрия исключений с обогащением Roslyn, инспекция дерева сцен, навигация по символам C#, оркестрация MSBuild и анализ GDScript."
+  },
+  {
+    "line": 2467,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/chaoz23/srdcheck) 🐍 🏠 - Детерминированные вердикты правил D&D 5e (SRD 5.2.1): проверки легальности ходов со ссылками, перечисление legal-действий, математика преимущества и линия состояния игры с хеш-штампом."
+  },
+  {
+    "line": 2468,
+    "translated": "- @@L0@@ #️⃣ 🏠 - Интеграция с игровым движком Unity для разработки игр."
+  },
+  {
+    "line": 2469,
+    "translated": "- @@L0@@ 📇 🏠 - Взаимодействие с игровым движком Godot: редактирование, запуск и отладка проектов и управление сценами."
+  },
+  {
+    "line": 2470,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/danielenricocahall/lorcana-mcp) 🐍 🏠 🍎 🪟 🐧 - TCG Disney Lorcana: поиск карт, валидация колод по правилам формата, статистика колод и импорт/экспорт списков колод Dreamborn/Pixelborn."
+  },
+  {
+    "line": 2471,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dirtcubeinteractive/specter-skills) 📇 🏠 - Настройка игрового бэкенда Specter: игроки, экономика, прогрессия, лидерборды, турниры, боевые пропуска и многопользовательский режим в реальном времени."
+  },
+  {
+    "line": 2472,
+    "translated": "- @@L0@@ ☁️ - Поиск и открытие видеоигр на любой платформе через GameBrain API."
+  },
+  {
+    "line": 2473,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/DiegoLopez0208/RpgMakerMVUltimate-MCP) 📇 🏠 - Офлайн-ассистент RPG Maker MV: генерация карт, редактирование базы данных и событий, валидация сломанных ссылок, отладка событий и семантический поиск по проекту."
+  },
+  {
+    "line": 2474,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dmang-dev/mcp-bizhawk) 📇 🏠 🍎 🪟 🐧 - Управление многосистемным эмулятором BizHawk: чтение/запись памяти, ввод джойпада, покадровый прогон, скриншоты и сохранённые состояния."
+  },
+  {
+    "line": 2475,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dmang-dev/mcp-dolphin) 📇 🏠 🍎 🪟 🐧 - Управление эмулятором Dolphin GameCube/Wii: чтение/запись памяти, ввод GameCube и Wii Remote, сброс, сохранённые состояния и покадровый прогон через форк скриптинга Felk."
+  },
+  {
+    "line": 2476,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dmang-dev/mcp-mgba) 📇 🏠 🍎 🪟 🐧 - Управление эмулятором mGBA Game Boy Advance: чтение/запись памяти, ввод кнопок, скриншоты, сохранённые состояния и пошаговый прогон."
+  },
+  {
+    "line": 2477,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Dreiev/l2calendar-mcp) 📇 ☁️ 🏠 - Запрос предстоящих открытий приватных серверов Lineage 2 по хронике через публичный L2 Calendar API."
+  },
+  {
+    "line": 2478,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/drknowhow/fluxdots-mcp) 📇 ☁️ - Играйте в FluxDots, рейтинговую стратегическую настольную игру, где люди и ИИ-агенты делят один Elo-рейтинг: создавайте или присоединяйтесь к живым матчам с профилями, рейтингами и повторами."
+  },
+  {
+    "line": 2479,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dmang-dev/mcp-pine) 📇 🏠 🍎 🪟 🐧 - Чтение/запись памяти, слоты сохранённых состояний и метаданные игр для PCSX2 и других эмуляторов, поддерживающих протокол PINE."
+  },
+  {
+    "line": 2480,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dmang-dev/mcp-ppsspp) 📇 🏠 🍎 🪟 🐧 - Управление PSP-играми через встроенный WebSocket-отладчик PPSSPP: чтение/запись памяти, ввод, пауза и шаг, скриншоты, регистры CPU и точки останова."
+  },
+  {
+    "line": 2481,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/dmang-dev/mcp-retroarch) 📇 🏠 🍎 🪟 🐧 - Управление ядрами libretro через Network Control Interface RetroArch: чтение/запись памяти, сохранённые состояния, скриншоты, пауза, покадровый прогон и экранные сообщения."
+  },
+  {
+    "line": 2482,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gripforgeai/mcp) 📇 ☁️ - Прикрепление оружия и пропсов к ригованным 3D-персонажам: находит кость руки, масштабирует пропс, сжимает кулак и экспортирует привязки three.js, Unity или Godot и GLB."
+  },
+  {
+    "line": 2483,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/dnd-oracle) 📇 🏠 - Справочник D&D 5e SRD: поиск монстров, поиск заклинаний, построение столкновений и анализ экипировки."
+  },
+  {
+    "line": 2484,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/godot-forge) 📇 🏠 🍎 🪟 🐧 - Спутник разработки Godot 4: запуск тестов GUT/GdUnit4, документация API с картой миграции 3-в-4, анализ скриптов, парсинг сцен, скриншоты и диагностика LSP."
+  },
+  {
+    "line": 2485,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/lorcana-oracle) 📇 🏠 - Поиск карт TCG Disney Lorcana, анализ колод, кривые чернил, генерация преданий и обзор франшизы."
+  },
+  {
+    "line": 2486,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/hearthstone-oracle) 📇 🏠 - Поиск карт Hearthstone, декодирование и анализ колод, классификация архетипов и стратегическое наставничество с использованием данных HearthstoneJSON."
+  },
+  {
+    "line": 2487,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/mtg-oracle) 📇 🏠 - Поиск карт Magic: The Gathering, поиск правил, анализ колод, цены и данные Commander из Scryfall, Academy Ruins и Commander Spellbook."
+  },
+  {
+    "line": 2488,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/onepiece-oracle) 📇 🏠 - Поиск карт TCG One Piece, анализ колод, кривые стоимости, обзор лидеров и контрстратегии."
+  },
+  {
+    "line": 2489,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/tft-oracle) 📇 🏠 - Справочник Teamfight Tactics по чемпионам, чертам, предметам и аугментам с использованием данных CommunityDragon: поиск синергий, рецепты предметов и шансы прокрутки."
+  },
+  {
+    "line": 2490,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/gregario/warhammer-oracle) 📇 🏠 - Справочник правил Warhammer 40K, Combat Patrol и Kill Team: листы данных юнитов, определения ключевых слов, последовательности фаз и ход игры."
+  },
+  {
+    "line": 2491,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@Erodenn/godot-runtime-mcp) 📇 🏠 🍎 🪟 🐧 - Управление запущенными играми Godot 4 через внедрённый мост: симуляция ввода, скриншоты, обнаружение UI и живое выполнение GDScript."
+  },
+  {
+    "line": 2492,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/german-krasnikov/unity-biome-mcp) 🐍 #️⃣ 🏠 🍎 🪟 🐧 - Управление редактором Unity, включая из чата внутри Unity: сцены, GameObjects, компоненты, Shader Graph, материалы, анимация, UI и детерминированные play-тесты."
+  },
+  {
+    "line": 2493,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/haoyifan/Silicon-Pantheon) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Пошаговая стратегия, где ИИ-агенты командуют армиями на тактических сетках, пока люди тренируют, с послематчевыми размышлениями и обучением между играми."
+  },
+  {
+    "line": 2494,
+    "translated": "- @@L0@@ 🐍 🏠 ☁️ - Статистика Dota 2 через OpenDota API: статистика игроков, данные героев и анализ матчей."
+  },
+  {
+    "line": 2495,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/hope1026/roblox-mcp) 📇 🏠 🍎 🪟 - Управление живой сессией Roblox Studio через плагин: создание скриптов, инстансов, ландшафта, освещения и ассетов с двунаправленной синхронизацией и автоматизированными play-тестами."
+  },
+  {
+    "line": 2496,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/isco-tec/scorezilla-mcp) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Подготовка и инспекция лидербордов Scorezilla, включая одношаговую настройку игры, доски и ключей с готовым к использованию SDK-кодом."
+  },
+  {
+    "line": 2497,
+    "translated": "- @@L0@@ #️⃣ 🏠 🍎 🪟 🐧 - Интеграция для редактора Unity и игр, созданных на Unity."
+  },
+  {
+    "line": 2498,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/taygunsavas/patina-unity-mcp) 🦀 #️⃣ 🏠 🍎 🪟 🐧 - Управление редактором Unity через локальный сервер и C#-мост: сцены, GameObjects, префабы, ассеты, скрипты, консоль, тесты и настройки сборки."
+  },
+  {
+    "line": 2499,
+    "translated": "- @@L0@@ 🐍 🏠 - Шахматный оппонент, играющий против LLM."
+  },
+  {
+    "line": 2500,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/jkiley129/steam-mcp) 📇 🏠 🍎 🪟 🐧 - Запрос вашей библиотеки Steam: игры, время в игре, недавно сыгранные тайтлы и метаданные магазина."
+  },
+  {
+    "line": 2501,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/justinscott12/modrinth-mcp) 📇 ☁️ 🍎 🪟 🐧 - Поиск на Modrinth и публикация модов Minecraft через Modrinth API: создание проектов, загрузка новых версий и чтение метаданных проекта и версий."
+  },
+  {
+    "line": 2502,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/Grinv/steam-games-mcp) 📇 🏠 🍎 🪟 🐧 - Поиск в магазине Steam (скидки, отзывы, совместимость со Steam Deck) плюс профили игроков, библиотеки, достижения и друзья через Steam Web API."
+  },
+  {
+    "line": 2503,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/@kitao/pyxel-mcp) 🐍 🏠 - Интеграция с ретро-движком Pyxel: запуск игр, захват скриншотов, инспекция спрайтов и анализ аудио."
+  },
+  {
+    "line": 2504,
+    "translated": "- @@L0@@ 🏎️ ☁️ - Данные настольных игр через BoardGameGeek XML API2."
+  },
+  {
+    "line": 2505,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/lodordev/mcp-romm) 🐍 🏠 - Доступ только для чтения к менеджеру ретро-библиотеки RomM: платформы, поиск ROM, метаданные, коллекции, сохранения, прошивки, устройства и задачи."
+  },
+  {
+    "line": 2506,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/miracle1814/ue5-automation) 🐍 🌊 🏠 🪟 - Автоматизация Blueprint в Unreal Engine 5: создание, связывание и компиляция Blueprint, авторство материалов и UMG-виджетов и верификация состояния PIE в рантайме."
+  },
+  {
+    "line": 2507,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/murzin-ml/mcp-ps-store) 🐍 🏠 🍎 🪟 🐧 - История игр PlayStation Network (время в игре, трофеи, купленная библиотека) для рекомендаций игр на основе сыгранного."
+  },
+  {
+    "line": 2508,
+    "translated": "- @@L0@@ 📇 ☁️ - Управление серверами Minecraft TrueTick: создание, запуск и остановка серверов, живые метрики TPS/MSPT, консоль RCON, файлы, бэкапы и моды Modrinth/CurseForge."
+  },
+  {
+    "line": 2509,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/NAJEMWEHBE/unreal-ai-connection) 🌊 🐍 🏠 🪟 - Автоматизация редактора Unreal Engine 5.7 через нативный плагин и локальный TCP-мост."
+  },
+  {
+    "line": 2510,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/omniologynow-rgb/mcp-server) 📇 ☁️ - Платформа конкурсов ИИ-агентов на Solana: турниры навыков (арт, истории, шутки) с выплатами USDC через ончейн-смарт-контракт."
+  },
+  {
+    "line": 2511,
+    "translated": "- @@L0@@ 📇 ☁️ - Игровые данные в реальном времени для League of Legends, TFT и Valorant: аналитика чемпионов, расписания киберспорта, мета-составы и статистика персонажей."
+  },
+  {
+    "line": 2512,
+    "translated": "- @@L0@@ 🐍 ☁️ - Доступ к данным игроков Chess.com, записям игр и другой публичной информации."
+  },
+  {
+    "line": 2513,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/EnioAguiar/llmpvp-plugin) 📇 ☁️ 🍎 🪟 🐧 - Рейтинговая арена шахмат и Го bring-your-own-LLM для ИИ-агентов: регистрация, матчмейкинг или вызов по имени и игры с рейтингом Glicko-2."
+  },
+  {
+    "line": 2514,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/razz-games/razz-mcp) 📇 ☁️ - Доказуемо честные игры dice, flip, crash, plinko, limbo, mines, tower и HexWar с реальными ставками SOL."
+  },
+  {
+    "line": 2515,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/rkocosmergon/cosmergon-agent) 🐍 ☁️ - Симуляция экономики для ИИ-агентов на основе «Игры жизни» Конвея с энергетической валютой, рынком и бенчмарк-отчётами."
+  },
+  {
+    "line": 2516,
+    "translated": "- @@L0@@ 🐍 ☁️ - Данные и анализ Fantasy Premier League в реальном времени."
+  },
+  {
+    "line": 2517,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/SerifeusStudio/rpgmaker-xp-mcp) 📇 🏠 🪟 - Создание игр RPG Maker XP: прямое чтение и запись данных проекта (актёры, навыки, предметы, карты, события, скрипты) и рендер превью карт в PNG."
+  },
+  {
+    "line": 2518,
+    "translated": "- @@L0@@ 🏎️ 🏠 🍎 🪟 🐧️ - Доступ к шахматному движку Stockfish."
+  },
+  {
+    "line": 2519,
+    "translated": "- @@L0@@ @@L1@@](https://glama.ai/mcp/servers/stagproject/sec-filings-mcp) 📇 ☁️ - Поиск отчётов SEC EDGAR 10-K и 10-Q с превью образцов и полным JSON отчёта за плату через x402 на Polygon."
+  }
+]

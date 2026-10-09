@@ -1,0 +1,473 @@
+4028	Local-first health context from WHOOP and Apple Health: sleep, recovery, workouts and personal baselines in a local SQLite store.
+4029	WHOOP recovery, sleep, strain and workouts with trend analysis, lag-aware correlations, training load and full-history export, plus a demo mode.
+4030	Control MultiViewer, an app for watching motorsports like Formula 1, World Endurance Championship and IndyCar.
+4031	Unofficial Mi Fitness connector: local SQLite storage and JSON/CSV exports of sleep, activity, workouts and other records.
+4032	Create structured Garmin Connect workouts from natural language: pace, HR, power and cadence targets, repeat blocks, swim strokes and pool lengths.
+4033	Read-only TheRundown data for sports, markets, affiliates, events, futures and open main-line odds.
+4034	Running calculators: pace, time and distance, race time predictions (Riegel formula), heart rate training zones (Karvonen method) and marathon event data.
+4035	Sports betting picks, odds, injuries and line movement for NBA, NHL, NCAAB and MLB, with visual bet slip cards showing edges.
+4036	Read workouts, sleep, nutrition and recovery data from Apple Health, Fitbit, Oura and Google Health Connect, with inline chart widgets.
+4037	Australian Football League teams, ladder standings, results, tips and power rankings via the Squiggle API.
+4038	Unofficial, read-only access to your Kilter Board climbing logbook: sessions, sends, projects, grade pyramid, progression and wall-angle comparison.
+4039	Local analysis of Garmin Connect activities, sleep, recovery, body composition, stress and VO2 max against 28-day baselines, with memory for goals and races.
+4040	Support & Service Management
+4041	Tools for managing customer support, IT service management, and helpdesk operations.
+4042	Support desk for AI agents: run tickets with per-action x402 USDC payments, or create and run a bounty board owned by the paying wallet.
+4043	Search and retrieve Yandex Tracker issues, queues and users.
+4044	Manage your website's Asyntai AI support agent: knowledge base, agent instructions, conversations and leads, live visitor replies and plan usage.
+4045	BugHerd bug tracking: list projects, filter tasks by status, priority or tag, get task details and read comments.
+4046	Field-service dispatch and technician scheduling: book jobs against live availability, quote and confirm, and reschedule around emergencies.
+4047	Interact with Freshdesk modules and perform support operations.
+4048	Self-hosted Freshdesk server: ticket search, conversations, attachment text extraction, image OCR and status, group and company enrichment.
+4049	Expose your Quickchat AI agent as an MCP server, giving AI apps real-time access to its knowledge base and conversational capabilities.
+4050	Read and write Zendesk tickets, comments, views, macros, users, groups, organizations and time tracking, with optional Help Center and GitLab integration.
+4051	Atlassian Jira operations: issue management, sprint planning and workflow transitions.
+4052	Jira and Confluence: issue CRUD, sprint lifecycle, comments, transitions, user management and wiki pages.
+4053	IT Glue, the MSP documentation platform: semantic search over documentation, document and flexible-asset read/write, and role-based access control.
+4054	Search, read, create and manage Confluence and Jira content, supporting Confluence Cloud, Jira Cloud and Jira Server/Data Center.
+4055	InvGate Service Desk: incidents, users, knowledge base, assets, custom fields, workflows and time tracking, read-only by default with opt-in writes.
+4057	Translation Services
+4059	Translation tools and services to enable AI assistants to translate content between different languages.
+4061	Spanish dialect localization: translate and QA-check text across 25 regional variants with register control, structure preservation and quality gates.
+4062	Weblate translation management: translation tasks, project management and content discovery with format transformations.
+4063	Translate app string files (JSON, .arb, .po, .strings, Android XML) into 46 languages with placeholder-safe, reproducible output.
+4064	Translation quality evaluation with xCOMET models: quality scoring, error detection with severity levels and batch processing.
+4065	Translate text with the Lara Translate API, including language detection and context-aware translations.
+4066	Real-time English-Mandarin speech translation: local Whisper transcription, translation via the Claude API and local speech synthesis with Piper TTS.
+4068	Speech-to-Text
+4070	Local audio and video transcription on Windows using whisper.cpp with Vulkan GPU acceleration: batch processing, multilingual support and background jobs.
+4071	Transcribe audio, video, YouTube links and podcast feeds via Pepys, with speaker diarization, SRT/VTT export and transcript search.
+4072	Search podcast episodes and fetch published transcripts as Markdown with real speaker names via the Spoken API.
+4074	Text-to-Speech
+4076	Tools for converting text-to-speech and vice-versa
+4078	Generate text-to-speech and text-to-voice audio with the DAISYS platform, and play and store the generated audio.
+4079	Speech tools: pronunciation assessment with phoneme-level feedback, speech-to-text with language detection and text-to-speech with multiple voices.
+4080	Pay-per-call x402 speech generation on Base: multiple voices, personas and languages, speed and quality controls, OpenAI-style requests and batch audio.
+4081	Local text-to-speech from an on-device model with multiple voices and languages, cloned voice profiles and WAV, FLAC, MP3 or Opus output.
+4082	Voice interaction: speech-to-text, text-to-speech and real-time voice conversations via local microphone, OpenAI-compatible APIs and LiveKit.
+4083	Text-to-speech with the open-weight Kokoro TTS models, saving MP3s locally or uploading them to an S3 bucket.
+4084	Transcribe audio and video files and voice memos and work with their text content.
+4085	Text-to-speech for Claude Code using OpenAI's TTS API, with multiple voices and cross-platform playback.
+4087	Travel & Transportation
+4089	Access to travel and transportation information. Enables querying schedules, routes, and real-time travel data.
+4091	Search Airbnb stays by location, dates and guests, and read full listing details (price, amenities, host, reviews) as JSON.
+4092	Search Booking.com stays by destination and dates, and read full property details (rooms, rates, facilities, review scores) as JSON.
+4093	Scuba dive planning: ranked dive-forecast windows, month-by-month climatology, marine-life seasonality from GBIF sightings and dive site facts.
+4094	Multi-city flight routing: plan round-the-world trips, validate Star Alliance and oneworld routings, and get per-segment carrier recommendations.
+4095	Tokyo nightlife: event discovery, venue search, performer info, recommendations and VIP table booking.
+4096	Luxembourg public data: laws, statistics, live parking and traffic, weather alerts, environment, parliament, geodata, GTFS stops and the open-data catalogue.
+4097	Unofficial Samsara fleet management: vehicles and live locations, route creation and optimization, driver records, Hours-of-Service compliance and webhooks.
+4098	Travel agent: search live flights, hotels, activities and events worldwide and complete bookings on Autonomad.
+4099	Search campgrounds worldwide on Campertunity, check availability and get booking links.
+4100	Query Tesla vehicle data and analytics from your TeslaMate database.
+4101	Travel compliance and booking for digital nomads in Europe: visa requirements, tax residency, Schengen 90/180-day tracking, accommodation and transport.
+4102	Flight Master DAST aviation data: flight status, route search, onboard comfort, delay and cancellation risk, airport weather and flight trajectories.
+4103	Monthly sunshine scores, temperatures, rainfall and sea temperatures for destinations: sunny-month rankings, when-to-visit lookups and comparisons.
+4104	World train-route atlas: search notable high-speed, scenic and night train routes and get facts and geometry for each.
+4105	Travel utilities and x402 pay-per-call travel intelligence: disruption checks, day trips, weekend getaways, weather-aware planning and currency conversion.
+4106	Travel search workflow: airport lookup, route comparison, timing guidance and external booking links via generic travel search providers.
+4107	Cash and award (points) rates side by side for hotels, flights and rental cars, with cents-per-point valuations, loyalty balances, rate alerts and booking.
+4108	Fuel prices at gas stations in Spain from the Spanish government's open data API, sorted by price per municipality.
+4109	Kid-friendly hotels in Japan: search by verified conditions such as baby beds, diaper-friendly baths and kids' meals, with sources and verification dates.
+4110	Direct booking for vacation rentals: discover a host's domain, verify signed stay offers, check live availability and prices, and book with the host.
+4111	Japan seasonal travel: cherry blossom forecasts, autumn leaves, flower spots, fruit picking and festivals, using Japan Meteorological Corporation data.
+4112	TeslaMate analytics and Tesla Fleet API commands: telemetry, driving history, energy analytics and remote control of climate, charging, locks and sentry.
+4113	Plan and manage Triplyfy itineraries with interactive maps, places and notes, and search and save flights.
+4114	Buy travel eSIMs via Stripe or Bitcoin checkout and receive the QR code by email.
+4115	Read-only access to VeryChic flash-sale hotel deals: search and filter offers and check availability and prices by date.
+4116	Travel planning via Plantrip: day-by-day itineraries, packing lists, weather insights and trip cost estimates, each as a shareable page.
+4117	U.S. National Parks data from the National Park Service API: park details, alerts, visitor centers, campgrounds and events.
+4118	UK National Rail train schedules and live travel information via the Realtime Trains API.
+4119	Search CuddlyNest hotels by destination and read live room options, prices, availability and cancellation policies from public listing pages.
+4120	Compare real-time Uber and Lyft fare estimates for a route, including surge, and find the cheapest option.
+4121	Visa requirements for passport-destination pairs in 15 languages: visa types, required documents and travel tips.
+4122	Bike, e-bike, kick scooter, motorcycle, wheelchair and walking routes across Europe from the On va où ? Routing API, with safe, balanced and fast variants.
+4123	Search Airbnb and get listing details.
+4124	Rental car search with real-time prices from multiple providers worldwide.
+4125	Tripadvisor API access: location data, reviews and photos.
+4126	Real-time bus and metro data in China via Chelaile: arrival times, vehicle positions, timetables, nearby stops and transit routing.
+4127	Aviation data: decoded METAR weather by ICAO code, airport and aircraft specs, an aviation glossary and FAA-style practice questions.
+4128	Events, reviewed places and ticket checkout in the Caribbean and Latin America: search festivals and venues, read reviews and create Stripe checkout links.
+4129	Real-time flight data from the AviationStack API: airline flights, airport schedules, future flights and aircraft types.
+4130	Read-only access to Hostaway vacation rental management: listings, reservations, calendar availability, guest conversations and owner financials.
+4131	Dutch Railways (NS) travel information, schedules and real-time updates.
+4132	Buy and manage a global eSIM, paying per MB in USDT or USDC on chains such as TRON, Solana, Polygon and TON.
+4133	Madurai CityBus transit: direct and one-transfer route planning, TNSTC stage fare breakdowns, platform bay departures and bilingual stop search.
+4134	Multi-modal trip planning, transport locations and real-time public transport departures via the TripGo API.
+4135	Visa eligibility matching across immigration pathways in 15 countries: score a profile against government criteria and compare ranked pathways.
+4136	Freight tools: ADR dangerous goods, HS codes, LDM, CBM and chargeable weight calculators, duty estimation, airline codes and UN/LOCODE.
+4137	Search AllTrails hiking trails and get detailed trail information.
+4138	German public infrastructure open data: weather, air quality, traffic, transit, parking and roadworks from DWD, Umweltbundesamt, Mobilithek and GovData.
+4139	Discover and book theatre, shows, events, tours and experiences worldwide via tickadoo, with real-time prices, availability and booking links.
+4140	Compare real-time train, bus, ferry and private transfer prices between Italian cities.
+4141	Read and edit Wanderlog trip itineraries: trips, places, notes, hotels, checklists and dates.
+4142	Real-time Lviv (Ukraine) public transport: stop arrivals, live vehicle positions, route geometry and nearby stop discovery.
+4143	Maritime vessel tracking via VesselAPI: search vessels and get real-time positions, ETAs, port events, emissions, inspections and NAVTEX safety messages.
+4144	Unofficial Ryanair flight search: find one-way fares, explore destinations by country or region and find the cheapest day to fly between two airports.
+4145	Personal travel agent: flights, hotels, visa checks, itineraries, travel advisories, currency conversion and card points/miles optimization.
+4146	Access your SimBrief flight plans: weather (METAR/TAF/ATIS), fuel plan, weights, ATC flight plan, navlog, NOTAMs, alternates and performance analysis.
+4148	Version Control
+4150	Interact with Git repositories and version control platforms. Enables repository management, code analysis, pull request handling, issue tracking, and other version control operations through standardized APIs.
+4152	Azure DevOps work items, repos, pull requests, pipelines and projects, with access modes, project allowlists, protected projects and delete confirmation.
+4153	Read and analyze GitHub repositories.
+4154	Open source contribution manager: PR tracking across repos, issue discovery, CI failure diagnosis and maintainer response drafting.
+4155	Bitbucket Cloud pull-request review: read PRs, diffs, comments, commits and files, post inline or general comments, approve or request changes.
+4156	GitHub Enterprise API integration.
+4157	Policy gate for agent-written code: briefs agents on repo-specific team rules and blocks commits that reintroduce documented mistakes via Git hooks and CI.
+4158	Graph-native code repository that shows what a code change might affect before you make it.
+4159	GitHub integration for repository management, pull requests, issues and more.
+4160	Gitopia decentralized Git: repos, issues, PRs, labels, releases, bounties and DAO proposals, with an approval mode for human-in-the-loop.
+4161	Semantic git queries: blame grouped by author, introducing PR, co-change suggestions, branch hygiene, recent-work standups and full commit context.
+4162	Unofficial read/write access to the GitHub REST API, with configurable tool groups, writes off by default and typed rate-limit handling.
+4163	GitLab REST API v4 coverage with meta-tools, resources and prompts, plus read-only and safe modes.
+4164	Bitbucket repository management: PRs, pipelines, branches, commits, deployments, webhooks, tags, branch restrictions and source browsing.
+4165	Local Git hosting for coding agents: serve any directory as an HTTP Git remote with push events, commit statuses, secret and large-file detection and backups.
+4166	AtomGit integration for repository management, pull requests, issues, branches, labels and more.
+4167	Interact with issues and merge requests in your GitLab projects.
+4168	Read-only GitHub Actions health checks: wasted CI compute costs, flaky tests from job logs, slow-run analysis and workflow linting with auto-fix previews.
+4169	Local safety layer for coding agents: deterministic risk checks, checkpoints and policy inspection, plus restoring files to their pre-session state.
+4170	Read, search and analyze local Git repositories.
+4171	Returns active decision records for a path before an agent edits it: constraints, ruled-out alternatives and warnings, stored as git trailers and notes.
+4172	GitLab CI/CD pipelines, jobs, schedules, merge requests and files, for GitLab SaaS or self-hosted instances.
+4173	Selects the minimum code context needed to understand a git diff, using deterministic graph-based fragment selection under a token budget.
+4174	Offline root-cause analysis for coding agents: rank the commit that introduced a regression, map a feature's blast radius and verify a fix is complete.
+4175	Unofficial access to GitHub's GraphQL API for flexible queries on repository data, issues, pull requests and other resources.
+4176	Git helper for conventional commits, pre-PR secret audits and merge conflict resolution.
+4177	Manage your repositories on a Forgejo or Gitea server.
+4178	Code review against your team's written rules: a generator finds issues and an independent judge filters them, with a pre-push gate and PR bot.
+4179	Structured Git repository analysis: project status, recent activity, code map and risk hotspots.
+4180	Azure DevOps integration for repository management, work items and pipelines.
+4181	Line-level authorship in a shared Git checkout: multiple coding agents work in one repo, each committing only its own lines, with symbol-level claims.
+4182	Bitbucket Cloud workspaces, repos, PRs, pipelines, issues and source code, hiding tools the API key cannot use.
+4183	Branch-scoped runbooks and cross-machine verification with auditable receipts for coding agents.
+4185	Workplace & Productivity
+4187	Agency OS: specialized AI roles with a real-time retro Pixel Office visualizer and a multi-provider LLM engine.
+4188	OpenProject API v3 with Community Edition support: search, create, update, assign, prioritize and comment on work packages.
+4189	Cross-device clipboard manager: search synced clipboard history, read OCR text from copied images and add new clipboard items.
+4190	Search and browse the NerdyChefs.ai prompt library by task, open prompt packs or pick a random prompt.
+4191	Read and edit self-hosted Rustpad collaborative pads, merging edits live with human typing and requiring confirmation to replace a pad.
+4192	Read and write spaces, pages, comments and members in self-hosted Docmost, including the Community Edition.
+4193	Calendar middleware for scheduling, multi-calendar availability and conflict-free booking across Google Calendar, Outlook and CalDAV, with RRULE expansion.
+4194	Workflow orchestration with long-term memory and a knowledge graph: lead enrichment, content publishing, company research and media production.
+4195	Schedule Outlook meetings on on-premises Exchange (EWS): resolve attendees, find rooms and suggest slots, with preview and confirmation before any change.
+4196	Deterministic workforce attendance calculations: overtime, overnight shifts, rotating rosters and California wage-and-hour compliance.
+4197	MCP Apps engine for building and reusing interactive UI apps such as todo boards, habit trackers and dashboards, backed by persistent data.
+4198	JobGPT: search jobs, auto-apply, generate tailored resumes, track applications and find recruiters.
+4199	Persistent, cross-session task management for Claude Code with agent coordination, event-sourced storage and per-project isolation.
+4200	SignWell e-signatures: create documents from files or templates, send for signing, track status, send reminders, download signed PDFs and manage templates.
+4201	Manage Kanboard projects, tasks and users through natural language translated into Kanboard API calls.
+4202	Greenhouse ATS for recruiting teams: role-based profiles (full, recruiter, read-only), pipeline views, analytics, candidate search and bulk operations.
+4203	Task prioritization and agent orchestration across projects: multi-factor scoring, document analysis, agent dispatch and time-aware planning.
+4204	Quip document access and management: document lifecycle, search and comments for Quip.com and enterprise instances.
+4205	Files-first project hub for humans and AI agents: shared journal, cross-project tasks, agent queues and a read-only kanban.
+4206	BOSS Zhipin recruitment workflow: job search, benefits filtering, recruiter messaging, pipeline tracking and resume optimization.
+4207	Associative key-graph memory for LLM agents: recall by association rather than vector similarity.
+4208	Control Apple Keynote via AppleScript: create, edit and export presentations, including slides, content, layout and Unsplash images.
+4209	Google Workspace tools for Drive, Sheets, Calendar, Docs and Gmail via the gws CLI.
+4210	Local desktop context capture: screen OCR, voice transcription, keyboard and mouse activity and clipboard, with activity history and semantic memory.
+4211	Read/write access to a story-based project backlog stored as markdown files in your repository: list stories, read content, update status and append notes.
+4212	Local semantic search and RAG over Apple Notes with on-device embeddings, full CRUD, folder management and fuzzy title matching.
+4213	Huly project management: query issues, create and update tasks, and manage labels and priorities.
+4214	AI Interview Agents: create roles, screen CVs, schedule voice interviews and read scored reports, in English, Hindi and other Indian languages.
+4215	Fizzy kanban task management: boards, cards, comments and checklists.
+4216	Self-hostable task management for AI agents: create, delegate and track tasks with agent identity, delegation chains, webhooks and persistent context.
+4217	Laver project management: kanban boards, sprints, tickets, comments, attachments and a team wiki, with versioned writes to prevent concurrent overwrites.
+4218	Render LaTeX, raw or from customizable templates, into PDF documents such as reports, resumes and research papers.
+4219	Yandex Wiki with full-text search: pages, comments, attachments and dynamic tables (grids), plus a read-only mode.
+4220	Job application tracker: agents record applications, interviews, statuses, salaries and next actions, and humans review them in a dashboard.
+4221	Security-focused access to self-hosted n8n Community Edition: workflows, executions, credentials, tags and diagnostics, read-only by default.
+4222	Manage n8n workflows: CRUD, synchronization, inspection and execution.
+4223	Kanboard integration with multi-project routing via a YAML config file.
+4224	EveryPage: upload PDFs, create trackable share links and read page-by-page readership analytics (who read, how far, how long).
+4225	Self-hosted business context: CRM, checkpoints, automation triggers, financial ledger, tasks, playbooks, news feeds, projects and semantic memory.
+4226	Desktop task manager with a To Do-style UI and tools for prioritization, goal tracking and multi-profile workflows.
+4227	Generate, edit and export AI presentations to PDF, PPTX or a shareable link.
+4228	Interact with Google Calendar, Gmail, Drive and other Google Workspace apps.
+4229	Markdown-first Notion access: converts markdown to Notion blocks and back, with documented round-trip support.
+4230	Manage self-hosted n8n, including queue mode: workflows, executions, tags, credentials, variables, projects, users, security audits and health monitoring.
+4231	Document-level AI text humanizer: rewrite whole .docx or .pptx files, selected passages or Turnitin/iThenticate-flagged text in place, preserving formatting.
+4232	Fork of google_workspace_mcp with extra Google Workspace authoring tools: Slides automation, markdown-to-Docs, Sheets validation and Drive folder copy.
+4233	Hire real-world people who list themselves for agent work: search by skill, location and equipment, send job offers, post listings and message workers.
+4234	Feedback collection for AI agents: create surveys from JSON schema, collect structured responses from groups of people and retrieve aggregated results.
+4235	Harvest time tracking via the Harvest API v2: manage time entries, projects, clients and tasks, and generate time reports.
+4236	Edit Word (.docx) files on disk or SharePoint: tracked changes, tables, styles, comments and content controls, validated and previewed before saving.
+4237	Local AI-text analysis: AI detection, exact AI-tell spans, a reuse check and a grammar pass.
+4238	Personal CRM: manage contacts, interactions, tasks, notes, a daily journal and tags.
+4239	Task management for Claude Code with a visual Kanban board and orchestration for product teams and developers.
+4240	Toggl Track time tracking: start and stop timers, manage time entries, track project time and get today's summary.
+4241	Score and edit AI-assisted prose, with checks for changes to names, numbers, quotations and links.
+4242	Amazon Seller Central operations via SP-API: manage inventory, track orders, analyze sales and optimize listings.
+4243	HVAC equipment RFQ management for contractors: submit quote requests to distributors, track responses and compare prices.
+4244	Dida365 (TickTick China) task management: projects, tasks, tags and habits.
+4245	Integration with Gmail and Google Calendar.
+4246	Business analysis for Odoo ERP: one-call reports with a verdict on business pulse, sales pipeline, receivables, inventory risk, sales and absences.
+4247	Search local resume and job application documents (.docx, .pdf, .md, .txt) by skill, company and education, and extract work experience and achievements.
+4248	Fill AcroForm, flat and scanned PDF forms: detect and review fields, save templates, map JSON values and preview filled output before export.
+4249	Word .docx editing: live editing of open documents, tables, citations, footnotes, tracked changes, mail merge, redaction, accessibility audits and Zotero.
+4250	Self-hosted, read-only Jobber operations queries: owner action lists, overdue invoices, stale requests, estimates, jobs and GraphQL validation.
+4251	Deterministic PDF tools: inspect AcroForm fields, fill forms, merge PDFs and generate invoices, working on file paths so PDF bytes stay out of model context.
+4252	Meet.bot scheduling: check calendar availability and book meetings on connected Google and Microsoft calendars.
+4253	Generate prompts for ChatGPT, Claude, Midjourney and other AI platforms, score prompt quality and manage a prompt library with PromptDrive.
+4254	Headless WorkPaper server for spreadsheet formulas, workbook edits, JSON persistence and verified readback.
+4255	Generate PDF reports such as invoices, contracts and statements from ReportFlow templates, singly or in ZIP batches.
+4256	Job search: find tech companies by their tech stack, shortlist them and pull jobs from the shortlist, plus profile, applications and digests.
+4257	Search, filter and retrieve live remote job listings from Jobicy.
+4258	Generate and edit presentations from a topic, text or document (PDF, DOCX, PPTX) and export to PPTX, PDF, images or a shareable link.
+4259	Read public Lever job boards: resolve a company name to its board, search its openings and read postings in full.
+4260	Editable PowerPoint decks from typed slide intents: deterministic rendering, verbatim data binding, fidelity reports, brand templates and translation.
+4261	Collaborative spreadsheet for session management, knowledge base, task tracking and sheet operations.
+4262	Time tracking, invoicing and bookkeeping with Timebook: manage clients and projects, start and stop timers, and log, update and delete time entries.
+4263	Decision intelligence with signal aggregation, RICE scoring and decision audit trails, capturing product feedback from Slack, Teams, Discord and GitHub.
+4264	Karea task manager for developers: create, edit, close, recap and link dev tasks, with per-task open questions, attached resources and Jira links.
+4265	Interface with the Google Calendar API.
+4266	Local job-hunting agent: scans company careers pages, scores roles against your resume, sends top matches to Telegram and drafts tailored cover letters.
+4267	Google Workspace integration covering Calendar, Drive, Gmail, Docs, Forms, Chat, Slides and Sheets.
+4268	Project and resource management for client projects with Teamwork.
+4269	Self-hosted killBottleneck goal and process maps: agents create and update nodes, manage tasks and automation rules and read the org structure.
+4270	Doodle-style scheduling polls: create polls, vote, get results and finalize.
+4271	Clockify time tracking: time entries, projects, reports, invoices, scheduling, time off and approvals. Read-only by default with opt-in writes.
+4272	Manage Todoist tasks, projects, sections and labels via the unified API v1.
+4273	Productivity suite connecting Todo, Idea, Journal and Timer apps.
+4274	Odoo ERP 16-19 integration with no Odoo-side install: read, approval-gated writes, diagnostics, migration and audit tools.
+4275	Tech-hiring data from HireJack: search live job postings, company hiring profiles and tech stacks, salary benchmarks, market pulse and skill trends.
+4276	Odoo 19 ERP via JSON-RPC: CRUD operations, model inspection and user/company context, with a read-only mode and delete confirmation.
+4277	Reclaim.ai calendar integration for tasks, habits, focus time, scheduling links and productivity analytics.
+4278	Convert Markdown into formatted documents for Google Docs, Word, Slack, OneNote, email and plain text using templates.
+4279	Markdown collaboration: share docs via public links with permission levels, inline comments, real-time sync and version history, and resolve review threads.
+4280	Tools for Gmail, Google Calendar, Google Drive and Google Tasks.
+4281	Bear notes via CloudKit: CRUD, tags, TODOs, attachments, search, front matter, stats and health checks.
+4282	Search, read, create and update Bear notes locally.
+4283	Workopia job search across employer career pages and ATS feeds, plus PDF resume generation, resume tailoring, cover letters and career advice.
+4284	Access macOS Calendar events.
+4285	Resume parser and applicant tracking system: parse resumes into JSON, extract skills, score and rank candidates, and manage jobs, interviews and offers.
+4286	Generate PDFs (invoices, contracts, reports, certificates) from reusable templates or inline HTML/Handlebars via the rendoc API, and manage templates.
+4287	Task management for Claude agents: hierarchical tasks, dependencies, sprints, acceptance criteria and multi-agent coordination.
+4288	Self-hostable all-in-one planner: calendar, notes, todos and bookmarks.
+4289	WordPress publishing: create, update, publish and delete posts, with Markdown-to-Gutenberg conversion, image hosting, featured images and SEO metadata.
+4290	Connect to Bitrix24: CRM, tasks, disk, calendar, chat, business processes, telephony and product catalog.
+4291	W-2 event staffing in the US and Canada: look up coverage, rates, lead-time guidance and state compliance, and submit quote requests.
+4292	Bridge to Inkra, the native macOS Markdown editor: document editing, outline navigation, folder browsing, bookmarks and view modes.
+4293	Access SeaMeet meeting recordings, transcripts, AI summaries, screenshots, action items and webhooks, and control the desktop recorder.
+4294	Job search across LinkedIn, Greenhouse, Lever, Ashby, Workday and other boards, with fit scoring and a ranked, triageable board shown in chat.
+4295	Chronary calendar API for AI agents: events, availability, meeting-time search, scheduling proposals, availability rules, webhooks and iCal feeds.
+4296	Local meeting pipeline: Whisper transcription plus Ollama summaries, action items and decisions. Reference implementation of the memnex spec.
+4297	Multi-account Google Workspace: connect several Gmail, Calendar, Drive, Sheets and Docs accounts with routing by label, email or domain.
+4298	Client intake for AI agents: request files, texts and credentials from clients, follow up automatically and retrieve results when complete.
+4299	HeadHunter (hh.ru) API: vacancy search and publishing, applications, invitations, resumes and salary statistics, with a read/write/destructive safety gate.
+4301	Other Tools and Integrations
+4303	Typed judgments from TypeSafe Jev: calibrated choice and score questions, A/B comparison, claim-vs-evidence verification and batch classification.
+4304	Offline novel-writing toolkit for Chinese web-novel authors: chapter stats, style checks, plot-thread tracking, continuity audits and semantic search.
+4306	Russian new-build due diligence: developer checks, escrow, construction permits and 214-FZ compliance.
+4307	Rosreestr open data for Russian property: apartment and land plot checks, transaction history where available, and cadastral value.
+4308	Chinese metaphysics (bazi, qimen, five elements) as decision support: daily readings, compatibility, time windows for actions and name analysis.
+4310	Web-based PlantUML frontend with PlantUML image generation and syntax validation.
+4311	Ed25519-signed receipts for every MCP tool call, with constraints, chains, AI judgment, invoicing and a local dashboard.
+4312	Shorten URLs individually or in batches, creating permanent short links.
+4313	Interact with Bitcoin: generate keys, validate addresses, decode transactions and query the blockchain.
+4314	Self-hosted agent reputation system with signed evidence, its own graph and issuer.
+4315	Semantic search over Food.com recipes with hybrid dense and sparse retrieval and reranking, filterable by diet, cooking time and difficulty.
+4316	Read Bear notes (macOS only).
+4317	Read-only Percolate specialty coffee database: search coffees with tasting profiles, get per-coffee brew recipes, compare coffees and get brew suggestions.
+4318	Read-only Perfume Picks fragrance database: search scents with notes and accords, find dupes, compare fragrances and get wear suggestions.
+4319	Read-only Pour Picks bourbon and whiskey database: search bottles with tasting profiles, prices and ratings, compare bottles and find cheaper alternatives.
+4320	Simulated smart home and lifestyle devices for testing an agent's reasoning and discovery capabilities.
+4321	Generate images with the Amazon Nova Canvas model.
+4322	TypeSafe Jev typed decisions through one batched tool: classification, rubric scores and yes/no probabilities.
+4323	Send requests to OpenAI, Mistral AI, Anthropic, xAI, Google AI or DeepSeek via a tool or predefined prompts.
+4324	Install other MCP servers.
+4325	Fetch YouTube subtitles.
+4326	Talk to OpenAI assistants, letting Claude use any GPT model as its assistant.
+4327	Check local time on the client machine or current UTC time from an NTP server.
+4328	Anki integration for managing notes and decks through natural language.
+4329	Notion integration.
+4330	Use Apify Actors, pre-built cloud tools, to extract data from websites, e-commerce, social media, search engines, maps and more.
+4331	Generate media with Midjourney, Flux, Kling, Hunyuan, Udio and Trellis via PiAPI.
+4332	Create PDFs from Markdown with tables and formatting, fill forms, merge, split, encrypt and add QR codes.
+4333	Context-efficient Notion access: pages, databases, blocks, comments, files and templates through a minimal tool set, with token auth for headless use.
+4334	Generate images via the Replicate API.
+4335	Basic local Taskwarrior usage: add, update and remove tasks.
+4336	Access Azure services including Storage, Cosmos DB and Azure Monitor.
+4337	Manage personal todo lists via Notion's API.
+4338	Read notes and tags from the Bear note-taking app directly from its SQLite database.
+4339	Talk to ChatGPT and use its web search capability.
+4340	Query GraphQL servers.
+4341	Search, request and manage e-signature contracts with BoldSign.
+4342	Multi-round brainstorming debates between LLMs (GPT, Gemini, DeepSeek, Groq, Ollama and more) to explore ideas from diverse perspectives.
+4343	Retrieve ONES Wiki content and convert it to AI-friendly text.
+4344	Format Markdown articles with Wenyan and publish them to WeChat Official Accounts.
+4345	CLI tool for testing MCP servers.
+4346	Phone calls, SMS, fax, translation, text-to-speech, audiobooks, image, video, music and text generation, and document extraction, paid via Lightning (L402).
+4347	Manage personal todo lists via Notion's API.
+4348	PDF download, viewing and manipulation utilities.
+4349	Create, send and manage digital signature envelopes via the DigiSign.cz API.
+4350	Async Python SDK and MCP server for TickTick: tasks, projects, tags, habits, focus/pomodoro sessions and user analytics.
+4351	Apple Notes access with semantic and hybrid vector-keyword search, full CRUD operations and incremental indexing.
+4352	Domain name lookup via RDAP, falling back to WHOIS.
+4353	Manage personal TickTick projects and tasks via the TickTick API.
+4354	Oracle readings that help AI agents think past obvious answers.
+4355	MCP proxy with a web UI showing the full message flow.
+4356	Reduce MCP tool description token costs through text schema distillation.
+4357	Contract and template management for drafting, reviewing and sending binding contracts via the eSignatures API.
+4358	Use Hugging Face Spaces for open-source image generation, chat, vision and more, with image, audio and text uploads and downloads.
+4359	Access Miro whiteboards and bulk create and read items.
+4360	Query FEODE offshore oilfield services: well plug and abandonment, subsea wellheads, continuous circulation drilling and a drill-string spec reference.
+4361	Read, create, update and delete Google Keep notes.
+4362	Generate an MCP server from tools defined as regular GraphQL queries and mutations.
+4363	Turn plain-English food descriptions into structured, content-addressed data blocks for ingredients, products, places, actors and more.
+4364	Calculator for precise numerical calculations.
+4365	Query and execute Dify workflows.
+4366	Integrate with GROWI APIs.
+4367	Free-will tools for AI: a playful experiment letting an AI prompt itself, ignore user requests and wake itself up later.
+4368	Create and update Notion pages and auto-generate mdBooks from structured content.
+4369	Automate Apple Notes: full CRUD with HTML content, folder management and search.
+4370	Yuque integration: manage documents, work with knowledge bases, search content and access analytics data.
+4371	Interact with Raindrop.io bookmarks.
+4372	Manage records and notes in Attio CRM.
+4373	File conversion via Hushvert: convert documents, images, audio, video, archives and PDFs across formats.
+4374	Manage Storyblok headless CMS stories, components, assets, workflows, releases and more.
+4375	Convert technical-drawing PDFs between metric and imperial: dimensions, tolerances, ISO fits, threads and surface roughness, stamped in place on the PDF.
+4376	Generate quality control plans from technical-drawing PDFs: extract tolerances, fits, threads, GD&T and finishes into ballooned drawings and Excel reports.
+4377	Interact with Spotify.
+4378	Turn Make scenarios into callable tools for AI assistants.
+4379	Generate visualizations from fetched data using the Vega-Lite format and renderer.
+4380	Connect to Odoo ERP for business data access, record management and workflow automation.
+4381	Create, update and delete content, content models and assets in a Contentful space.
+4382	Let the agent speak out loud and notify you with a quick summary when it finishes working.
+4383	Calculate carbon emissions and climate impact via the Climatiq API.
+4384	TickTick integration built on the ticktick-py library, with improved filtering capabilities.
+4385	TickTick task management: create, update, complete, move and filter tasks, with field-preserving updates and completion tracking.
+4386	Create, list, update, complete and delete TickTick tasks, plus a natural-language skill for automatic task detection.
+4387	SomaCheck: get an Aligned or Unaligned reading with model confidence for a proposition, as extra input when reasoning and responding.
+4388	Create, update and manage todos and projects in the Things app via its URL scheme.
+4389	Typst typesetting tools: convert between LaTeX and Typst, validate Typst syntax and generate images from Typst code.
+4390	List and launch applications on macOS.
+4391	Multi-agent deliberation: agents submit positions and vote, then get analysis of cruxes, opinion clusters, bridging statements and consensus.
+4392	Miro integration exposing the functionality of the Miro SDK.
+4393	Manage projects and issues through Plane's API.
+4394	Interact with RabbitMQ: admin operations and message enqueue/dequeue.
+4395	Experimental, educational ping-pong server demonstrating remote MCP calls.
+4396	Interact with the Kibela API.
+4397	Interact with Kibela.
+4398	Extract and convert YouTube video information.
+4399	Get Confluence data via CQL and read pages.
+4400	Read Jira data via JQL and the API, and create and edit tickets.
+4401	Access data from Strava, the exercise-tracking app.
+4402	Compile LaTeX, download, organize and read cited papers, run visualization scripts and add figures and tables to LaTeX documents.
+4403	Basic demo of fetching weather from the Hong Kong Observatory.
+4404	PDF accessibility checks (veraPDF PDF/UA-1), auto-tagging remediation and document-to-Markdown conversion via a hosted EU service.
+4405	Search and retrieve GIFs through the Giphy API.
+4406	Microsoft To Do task management via the Microsoft Graph API.
+4407	Control Spotify playback and manage playlists.
+4408	Human-as-a-service for AI agents: hand tasks such as accepting ToS, creating accounts or verifying identity to a real human when stuck.
+4409	Interact with Obsidian via a REST API.
+4410	Drive a running OrcaSlicer 3D-printing slicer: load models, tune settings, slice, compare variants and render the plate, with an offline settings reference.
+4411	Local screen and audio capture with timestamped indexing, SQL and embedding storage, semantic search, history analysis and event-triggered actions.
+4412	Integration platform connecting AI agents to many services through one interface, with OAuth, scaling and monitoring.
+4413	Exercises all features of the MCP protocol.
+4414	Manage contacts, opportunities and tasks in Capsule CRM.
+4415	Token-efficient access to Go package documentation and types without reading entire source files.
+4416	Control the GUI with mouse and keyboard tools for automation, education and experimentation.
+4417	Manage your Gmail inbox in natural language: bulk delete promotions and newsletters, organize labels and get inbox insights.
+4418	Chat with OpenAI models.
+4419	Domain registration: check availability, buy domains via Stripe or x402 and auto-configure Cloudflare DNS.
+4420	Execute commands such as keyboard input and mouse movement.
+4421	Image generation with Google Gemini's Nano Banana model.
+4422	Diagnose and fix MCP client config files: broken JSON, commands missing from PATH, missing env vars, relative paths, transport mismatches and config drift.
+4423	Developer toolkit: Confluence, Jira, GitLab, YouTube channel management, email, calendar, script execution, knowledge-base RAG and URL fetching.
+4424	Access a self-hosted Mealie recipe manager: recipes, website and photo imports, meal plans and shopping lists, with a read-only mode.
+4425	Automatic operation of on-screen GUIs.
+4426	Create and send business proposals with Offorte proposal software.
+4427	Query ProductPlan roadmaps, OKRs, ideas, launches and timeline data.
+4428	Open-source polity where AI agents join, create topics, deliberate, amend, vote, follow debates and invite other agents.
+4429	Coda integration.
+4430	Look up function signatures.
+4431	Search, view and install AI skills from skill4agent.
+4432	Manage your Pantrist pantry, shopping lists, recipes and weekly meal plan: check off items, track stock and plan meals from saved recipes.
+4433	Query OpenAI models.
+4434	Convert, merge, redact, sign, OCR, watermark and extract data from PDFs and Office documents via the Nutrient DWS Processor API.
+4435	Self-hosted, on-premises document processing with Nutrient Document Engine, designed for HIPAA, SOC 2 and GDPR compliance.
+4436	Parse Hacker News pages into structured data for top, new, ask, show and job stories.
+4437	Prevent cascading errors and scope creep by calling a vibe-check agent to ensure user alignment.
+4438	Evaluate mathematical expressions.
+4439	Chat with any OpenAI SDK-compatible Chat Completions API, such as Perplexity, Groq and xAI.
+4440	Draw on a JavaFX canvas.
+4441	Unofficial Shopify Storefront API access: discover storefronts and fetch products, collections and other store data.
+4442	Ethical analysis of AI conversations: detect bias and harmful content and provide critical-thinking assessments, with automated pattern learning.
+4443	Access the Royal Spanish Academy (RAE) dictionary via the RAE API.
+4444	Improve agent reasoning with the think tool described by Anthropic.
+4445	Create spaced-repetition flashcards in Rember to remember what you learn in your chats.
+4446	Inventory intelligence for Shopify and Amazon sellers: stockout risk, demand forecasts, purchase orders and sales analytics. Writes create drafts only.
+4447	Interact with the Asana API.
+4448	Autonomous shell execution, computer control and coding agent for Mac.
+4449	Query the Wolfram Alpha API.
+4450	Interact with TikTok videos.
+4451	Interact with the NetBox API.
+4452	Manage a Directus headless CMS: read and write items, create collections and fields, upload files, trigger flows, administer users and inspect schemas.
+4453	Wine pairing recommendations for meals, ingredients or recipe URLs. Supports API key or x402 (USDC on Base) payments.
+4454	Interact with the Notion API.
+4455	Unofficial Notion access via the private API (token_v2): read and write across your whole workspace without an integration token or per-page sharing.
+4456	Use Mistral AI for chat, OCR, audio, vision, agents, embeddings, moderation, classification, files and batch jobs, with French/English prompts.
+4457	Integrate with the Linear project management system.
+4458	Image, video and object-detection analysis with Google Gemini and Vertex AI for UI/UX evaluation, visual regression testing and interface understanding.
+4459	Interact with the Perplexity API.
+4460	Access Home Assistant data and control devices such as lights, switches and thermostats.
+4461	Time and date utilities with natural-language input, multiple formats and timezone conversion.
+4462	Natural language interface to your ThingsBoard IoT platform.
+4463	Interact with LG ThinQ smart home devices and appliances through ThinQ Connect.
+4464	Persistent identity and cross-platform visual style for AI agents, plus a random identity generator with rarity tiers and shareable cards.
+4465	Access data from Oura, the sleep-tracking app.
+4466	Local Plugwise smart home control: network discovery, thermostats, switches, smart plugs, multi-hub management and real-time climate and energy tracking.
+4467	Interact with Confluence Data Center via its REST API.
+4468	Interactive LLM workflows with local user prompts and chat directly in the MCP loop.
+4469	Disposable email for AI agents: create a throwaway inbox, wait for the OTP verification code, then discard it. Also available as a CLI.
+4470	Access NFT, token and blockchain data across chains such as Ethereum, BSC, Polygon and Avalanche via the Ankr Advanced API.
+4471	Commerce tools: shopping cart, orders and shipment tracking (TMF663/622/621), session booking, Uniswap swaps, a P2P marketplace and wallet-based identity.
+4472	Manage your Anki collection via AnkiConnect.
+4473	Expose curated GraphQL queries as modular tools via configuration.
+4474	Wanaku MCP router: an extensible routing engine for integrating enterprise systems with AI agents.
+4475	Build and publish websites through conversation: manage pages, assets, entities, records and integrations.
+4476	Publish HTML reports, dashboards and demos as shareable links with expiry, social preview cards and optional password protection. Self-hostable.
+4477	Save product URLs from any store to a universal wishlist.
+4478	CLI tool for testing MCP servers.
+4479	Wrap MCP servers with a WebSocket, for use with kibitz.
+4480	Web scraping, crawling, extraction, summarization, diffing and research, using TLS fingerprinting to bypass anti-bot checks without a browser.
+4481	Interact with HackMD.
+4482	Date and time functions in various formats.
+4483	Control the FluxDown multi-protocol download manager (HTTP, FTP, BitTorrent, HLS): add, list, pause, resume and remove downloads and manage queues.
+4484	Web UI to install and manage MCP servers for the Claude Desktop app.
+4485	MLflow experiments, runs, registered models, model versions, traces and assessments, with MLflow 3 GenAI trace support and workflow prompts.
+4486	Tool-augmented LLM system for the full PDDL planning pipeline, improving reliability without domain-specific training.
+4487	Chess and card game arena where LLM agents compete.
+4488	Encrypted secrets vault for AI agents: secrets are resolved at runtime and never exposed in LLM conversations.
+4489	Zero-knowledge secret vault for AI agents: inject API keys, passwords and SSH keys into commands without exposing them to the model, with an audit log.
+4490	Commit-time audits for AI coding agents: scan git diffs for secret leaks, out-of-scope edits and prompt injection, and keep a tamper-evident audit history.
+4491	Network toolbox: IPv4/IPv6 subnet math, IP conversion, MAC vendor lookup, port directory, DNS, blocklist and TLS certificate checks, and public IP lookup.
+4492	Image and video upscaling via the UpRes API: submit jobs, poll status and download results.
+4493	Frameworks
+4496	> More frameworks, utilities, and other developer tools are available at https://github.com/punkpeye/awesome-mcp-devtools
+4498	Visual prompt builder: decompose prompts into semantic blocks and compile them into Claude-optimized XML.
+4499	Self-hosted mission control for AI agents: manage agents, experiments, workflows, crews, skills and more.
+4500	MCP SDK for Rust.
+4501	Self-hosted AI workflow automation: build multi-agent, RAG and tool-using pipelines on a visual canvas and expose any workflow as an MCP server.
+4502	Gin-like Go framework for building MCP servers: struct-tag schemas, middleware, tool groups, Gin/OpenAPI/gRPC adapters, async tasks and an inspector UI.
+4503	Minimal Go wrapper around the MCP go-sdk for building stdio servers, with struct-tag JSON Schema inference and minimal boilerplate.
+4504	High-level framework for building MCP servers in Python.
+4505	Durable AI agent runtime with MCP client/server and A2A support: graph-based workflows, durable execution and multi-agent coordination, authored in Python.
+4506	High-level framework for building MCP servers in TypeScript.
+4507	MCP security firewall: static tool-definition scanning, a signed threat feed, origin checks and pinning before third-party tools reach the model.
+4508	Durable, resumable MCP operations: background tool execution with progress polling, mid-flight input, cancellation and resumable chunked file transfers.
+4509	Tool retrieval for large tool sets: build a graph from OpenAPI/MCP specs and find multi-step workflows via hybrid search. Also an aggregating MCP proxy.
+4510	TypeScript framework for building MCP servers with automatic tool discovery, multiple transports, built-in validation and zero-config setup.
+4511	AI agent framework with tools for search, memory, workflows, code execution and file operations, turning any assistant into a multi-agent system.
+4512	Expose pipelines from RocketRide, a self-hosted, open-source AI pipeline tool with multi-LLM support, as tools.
+4513	Read an Obsidian vault directly from disk with compact payloads, no Local REST API plugin required.
+4514	Japan utilities: era and Western year conversion, kanji-to-romaji, postal codes, national holidays, kana and width conversion, and name splitting.
+4515	Reading, review and guarded editing of DipTrace PCB and schematic projects via a Windows bridge, with cross-platform offline XML analysis.
+4516	Persistent encrypted memory for AI agents with Trust Quotient scoring, cross-agent handover and an immutable audit trail.
+4517	Elixir/OTP framework for MCP servers and clients that derives tools from a running UI component tree, letting agents drive terminal apps.
+4518	Tips and Tricks
+4520	Official prompt to inform LLMs how to use MCP
+4522	Want to ask Claude about Model Context Protocol?
+4524	Create a Project, then add this file to it:
+4528	Now Claude can answer questions about writing MCP servers and how they work
+4532	Star History

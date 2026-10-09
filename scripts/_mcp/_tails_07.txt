@@ -1,0 +1,480 @@
+3527	WHOIS lookups via the IP2WHOIS API: domain registration details including expiry dates, registrar and registrant data.
+3528	Naver Search API integration: blog, news and shopping search plus DataLab analytics.
+3529	Fetch web page content using a Playwright headless browser, supporting JavaScript rendering, content extraction and Markdown or HTML output.
+3530	Google search with parallel queries for multiple keywords.
+3531	Convert any URL into clean Markdown with structured metadata (title, byline, published date, language), paid per use via x402.
+3532	Media discovery, requests and management via Overseerr and Seerr for Plex, Jellyfin and Emby.
+3533	Search and download royalty-free stock photos from Pexels and Unsplash, with rich metadata and pagination.
+3534	Domain name search that returns only .com domains verified as available via live Verisign RDAP checks.
+3535	Convert websites to clean Markdown with links preserved, using Mozilla Readability, caching, robots.txt-aware crawling and concurrent fetching.
+3536	Capture website screenshots, tiling full pages into 1072x1072 chunks for Claude Vision, with configurable viewports and wait strategies for dynamic content.
+3537	Search the web with Kagi Search.
+3538	Scrape, crawl and search the web, converting any URL to LLM-ready Markdown via real Chrome browsers.
+3539	Live web search and clean Markdown page fetching over the Keenable web index.
+3540	Chromium-free web content extraction in a single binary: fetch, render, crawl and screenshot pages with the Servo browser engine.
+3541	Query and extract only the needed parts of JSON files to keep LLM context small.
+3542	Extract clean web content for RAG and answer questions about web pages.
+3543	Search via the Tavily AI search API.
+3544	Web search using the Microsoft Bing Search API.
+3545	Search across DuckDuckGo, Sogou, Bing, Baidu, Wikipedia, Startpage, Yandex and Mojeek with waterfall search, multi-source verification and news search.
+3546	Real-time Korean web data via Apify: Naver place reviews and news, Melon music chart, Daangn and Bunjang listings and Musinsa fashion rankings.
+3547	Extract content from web pages, PDFs, Word documents, YouTube transcripts, audio and video with automatic engine selection and structured JSON output.
+3548	Index files, code and crawled websites and answer with source citations, using its own local models or an existing Ollama or LM Studio setup.
+3549	Control LinkedIn accounts and retrieve real-time LinkedIn data.
+3550	Parse PDFs, images, DOCX and PPTX via the MinerU document parsing API, with multilingual OCR, batch processing, page ranges and local file upload.
+3551	Google Search, Bing, DuckDuckGo, Google Maps, Google AI Mode, AI Overview and Shopping results as JSON.
+3552	Discover, extract and interact with the web via Bright Data, one interface for automated access to the public internet.
+3553	Search TCGPlayer, Reverb and Thumbtack, verify US contractor and nurse licenses, and look up PSA card grading population data.
+3554	Detect whether a company only claims AI, deploys AI tooling on its site or charges for AI, returning an AI maturity tier with supporting evidence.
+3555	Find a company's contact page and extract role emails, a phone number and a postal address.
+3556	Enrich a company domain with firmographics: employee band, industry, HQ, founding year, revenue estimate, logo and description, with source provenance.
+3557	Map a company domain to its LinkedIn, X, Instagram, Facebook and YouTube profiles and follower counts as flat Clay-ready JSON via an Apify actor.
+3558	Resolve a company domain or name to its LinkedIn company URL, with confidence scoring and firmographic metadata.
+3559	List the third-party conferences and trade shows a company publicly says it attends, with the year of each.
+3560	Scan Google News and PR wires for a company's funding rounds, executive moves, launches and acquisitions as deduplicated, dated events in Clay-ready JSON.
+3561	Resolve a company domain to its GitHub organization with repository, language and activity signals.
+3562	Detect GTM hiring signals on Greenhouse, Lever and Ashby career pages, returning Clay-ready JSON with role counts, signal strength and ATS detection.
+3563	Detect CRM, sequencer and marketing automation tools from a company domain as boolean GTM tool signals for Clay enrichment.
+3564	Resolve a company domain to its Trustpilot rating, review count and claimed status.
+3565	Search firsthand observations agents recorded about products, APIs, services or places, as opposed to documentation claims, and write back new ones.
+3566	Web, image, news, video and local point-of-interest search using Brave's Search API.
+3567	Fault-tolerant, stealth-enabled web search and content fetching.
+3568	Fetch any URL as clean Markdown, with HTTP/3, JS rendering, anti-fingerprinting, browser cookie auth and 1Password integration.
+3569	Extract timestamped YouTube transcripts, plus video search, metadata and related videos.
+3570	Web content fetching and processing for AI consumption.
+3571	Semantic search of free-license stock photos from Unsplash, Pexels, Pixabay and more by scene description, example image or similarity, with attribution.
+3572	Real-time world news: events clustered from many sources, classified by topic and geography and ranked by importance.
+3573	Discover, buy, verify and retrieve licensed expert analysis, with per-article license keys, on-chain proof and EU AI Act Article 53 attestation.
+3574	Web search via embedded SearXNG, content extraction and library docs indexing with hybrid FTS5 and semantic search using built-in Qwen3 embeddings.
+3575	Read and manage a self-hosted FreshRSS instance: feeds, categories, labels, articles, read and star state, and OPML import and export.
+3576	Web search using DuckDuckGo, with content fetching and parsing.
+3577	Primitive RAG-like web search that runs locally, without external APIs.
+3578	Manage cryptocurrency project documentation across Ethereum, BSC, Polygon and Solana.
+3579	Deep research agent from Octagon.
+3580	Web intelligence: SERP analysis, competitor research, market trends, content gap analysis, keyword insights, audience discovery and citation tracking.
+3581	Convert PDFs, Word and PowerPoint files, images and spreadsheets to Markdown via the MinerU document parsing API.
+3582	PDF extraction router that classifies each page and routes it to PyMuPDF, Docling, OCR or an LLM fallback, re-extracting pages with low confidence scores.
+3583	Web search for AI via Parallel.
+3584	Unified web layer for agents: multi-engine search including Gemini Grounded Search, stealth browsing, cookie auth and actions across many platforms.
+3585	Deep research and batch task execution via Parallel.
+3586	Search GOV.UK content, retrieve full government pages, look up organisations and resolve UK postcodes to local authorities. Read-only.
+3587	People search engine for talent discovery.
+3588	Natural language API discovery: search API capabilities and get endpoints, auth setup and code snippets, with auto-discovery of new APIs.
+3589	Managed Apache Solr: hybrid BM25 and kNN plus semantic search, document ingestion with server-side embeddings, grounded RAG answers and index management.
+3590	Search and retrieve web crawler data from WARC, wget, Katana, SiteOne and InterroBot crawls.
+3591	Search the Feedbagel RSS catalog, follow feeds and route new entries to webhooks.
+3592	Web data via residential proxies: page scraping to Markdown, SERP search, site crawl and map, ready-made collectors and datasets from plain-language prompts.
+3593	German public procurement data (OCDS): semantic search, tender matching against company profiles and structured filtering.
+3594	Unofficial access to the Catalysis Hub database: search and retrieve computational catalysis research and surface reaction data.
+3595	Search Dutch Parliament (Tweede Kamer) documents, debates, activities and legislative cases, based on the OpenTK project.
+3596	Autonomous deep research with structured query elaboration and concise reporting.
+3597	Local, offline full-text code search for coding agents using a trigram index over large codebases.
+3598	Token-efficient web fetching for Japanese sites: outline-first disclosure, Shift_JIS and EUC-JP decoding, PDF and CSV extraction and polite crawling.
+3599	Access computational knowledge and data via the Wolfram Alpha API.
+3600	Read-only web search via DuckDuckGo Lite, image search via Bing Images and page-to-Markdown scraping with a readability extractor.
+3601	Search products and nearby physical stores to buy locally instead of waiting for delivery.
+3602	Parallel search across GitHub, npm, PyPI, arXiv, Semantic Scholar, Hacker News, Reddit, X, Dev.to, Hashnode, Qiita and Zenn with structured JSON output.
+3603	Measure how independently a claim is reported, with syndication-aware source counting and 0-1 confidence scores. Measures corroboration, not truth.
+3604	Web search via the Scrapeless Google SERP API.
+3605	Web scraping via ScraperAPI with JavaScript rendering, geotargeting, premium proxies and auto-parsing.
+3606	B2B lead generation: Apollo and Google Maps data, email finding and validation, mobile number lookup, skip tracing and ecommerce store data.
+3607	Manage Searchcraft clusters, create search indexes, generate an index from a data file and import data from a feed or local JSON file.
+3608	Connect to SearXNG instances.
+3609	OpenGraph.io API: extract OG metadata, take screenshots, scrape web content, query sites with AI and generate branded images and social cards.
+3610	Domain availability checks, registrar price comparison and domain age lookups across many TLDs.
+3611	Query and retrieve topic-specific knowledge from recursively crawled and indexed web pages via Driflyte.
+3612	Search results from Google, Bing, Yahoo, DuckDuckGo, YouTube, eBay and more via SerpApi, plus real-time weather and stock market data.
+3613	Web search returning extracted page content (URL, title, date, text) instead of links, with automatic localization and an optional synthesized answer.
+3614	Search, documentation retrieval, code analysis and architecture research powered by Google's Vertex AI or the Gemini API.
+3615	ShopSavvy product and price data: search by barcode, ASIN or URL, get product details, compare retailer prices and track price history.
+3616	Extract typed, schema-defined records from any document and query them in natural language like a database.
+3617	Search companies' public Ashby job boards: resolve a company to its board, filter openings, read full postings and compare published pay ranges.
+3618	Search the Anime News Network encyclopedia for anime and manga, read cast, staff, episodes and studios as compact rows, and follow the news wire.
+3619	Search Marmiton recipes, read ingredients and steps, and rescale quantities to any number of servings.
+3620	Read Spanish family recipes from Pequerecetas, rescale servings and browse by diet, main ingredient, appliance or age group from six months up.
+3621	Web and image search, page reading as Markdown, browser-rendered screenshots, schema-based extraction and deep research, with strong Russian web coverage.
+3622	Crawl documentation sites into local Markdown or JSONL corpora and serve them with offline BM25 search, page reads, freshness checks and crawl diffs.
+3623	Search rescue dogs from European and UK organizations, with detailed profiles and personality matching.
+3624	Get the LaTeX source of arXiv papers to handle mathematical content and equations.
+3625	Schema-validated extraction of structured fields from PDFs, scans, images and forms, with searchable memory of past extractions.
+3626	Multi-engine parallel web search with re-ranking that works within China's network without a proxy or VPN.
+3627	Retrieve and process news from GeekNews.
+3628	Query articles, statistics, the wire feed, comments, citations and agent leaderboards from The Agent Times, a newspaper covering the agent economy.
+3629	Gene set enrichment analysis using the Enrichr API.
+3630	Data extraction with AgentQL.
+3631	Search a catalog of AI tools, compare them, find alternatives and check whether a tool is active, defunct or acquired.
+3632	Search via the Tavily AI search API.
+3633	Live trend data from Google, TikTok, YouTube, Amazon, Reddit, npm, Steam and other sources.
+3634	Generate and manage screenshots, PDFs and videos, analyze screenshots with AI and extract web content as Markdown, metadata or HTML via the Urlbox API.
+3635	Self-hostable web crawler and search API (fastCRW): scraping, crawling, site mapping and SearXNG-backed search.
+3636	Resolve an agent's intent to the right MCP server across registries, with an invocation-ready snippet and an Ed25519-signed trust passport.
+3637	Retrieval, private deep research, file-to-Markdown extraction and text chunking via Vectorize.
+3638	NCBI and PubMed literature search with analytics, caching, MeSH integration, related article discovery and batch processing for life sciences research.
+3639	Reptile and exotic pet knowledge base: species identification, genetics calculator, care information, health diagnosis, prices and blockchain provenance.
+3640	Multi-provider web search with automatic routing between Serper, Tavily and Exa.
+3641	Web search, content extraction, screenshots, weather, finance, email validation, translation, news, GeoIP, WHOIS, DNS, PDF extraction and QR codes.
+3642	Web data extraction and scraping via WebScraping.ai.
+3643	License-aware federated image search across many providers, returning license tags, attribution strings, dimensions and download URLs.
+3644	List, fetch and full-text search structured daily AI news from AI Daily Insights, a Chinese AI-industry briefing.
+3645	Self-contained SearXNG in Docker: metasearch across many engines and categories with multi-page fanout, autocomplete, engine discovery and a Web UI proxy.
+3646	Search Baseline status using the Web Platform API.
+3647	Ad-free web scraping and search as clean Markdown: fetch pages singly or in parallel batches, and search the web for top-k pages.
+3648	Web search via DuckDuckGo.
+3649	Web search via Google, Brave, Serper, SearXNG and SearchAPI.io, multi-tier content extraction, academic and patent search, and multi-source research.
+3650	Fetch YouTube transcripts in text, JSON, SRT or WebVTT format and in multiple languages, and optionally summarize them.
+3651	Query network asset information from ZoomEye.
+3652	Full-text PDF search with Apple Vision OCR via the PDF Content Search app, with date, category, sender and amount filters, wildcards and boolean operators.
+3653	Semantic search over the StitchAPI documentation, returning relevant sections with deep links and full pages.
+3654	Self-hosted web research: SearXNG search with DuckDuckGo fallback, crawling, dense and BM25 reranking and deduplication into a cited, source-grounded prompt.
+3655	Search Ptitchef recipes, browse ingredient categories, read ingredients, method, cost and nutrition, find dishes from fridge contents and rescale servings.
+3656	Search BBC Good Food recipes, read them in the original or US version, see accepted search facet values and rescale to any number of people.
+3657	Read Supertoinette's French recipes: ingredients, steps, difficulty, cost, resting time and wine pairings, and rescale to any number of people.
+3658	Search, page reading, images, screenshots and multi-source answers over your own SearXNG, reporting which engines were queried and what to distrust.
+3660	Security
+3662	Claim-level hallucination detection with sources, agent trajectory verification, risk gating for computer-use actions and prompt-injection defense.
+3663	Fail-closed approval layer for unattended agent runs: checks actions against org policy, requests human approval and logs every decision to a causal ledger.
+3664	Install a large security toolset and discover and run it through an authorization-gated server for CTF, pentesting, bug bounty and DFIR.
+3665	Turn other AIops tools' audit trails into tamper-evident, hash-chained evidence bundles mapped to HIPAA, PCI-DSS, SOC 2 and GDPR. Offline and deterministic.
+3666	Self-hosted OWASP ZAP integration with guided security scans, findings summaries and report generation.
+3667	Payment guardrails for AI agents: spend caps, budget and approval gates, prompt-injection defense, an encrypted secret vault and an audit trail.
+3668	Self-hosted security layer that evaluates AI agents' proposed blockchain transactions and returns an explainable allow, warn or block decision.
+3669	EVM bytecode capability analysis, EIP-1967 proxy resolution, gas recommendations and preflight safety checks for agents on Base.
+3670	Malcolm threat hunting: search and aggregate network traffic, query Suricata alerts, browse Arkime sessions and resolve NetBox assets. Read-only by default.
+3671	Read-only safety checks for Base and EVM: honeypot and rug-pull detection, risky approvals, verified source, balances, ENS and Basenames, gas and prices.
+3672	Transparent MCP proxy that keeps a signed, hash-chained audit trail of agent tool calls, with YAML policy enforcement and OpenTelemetry export.
+3673	JSON risk briefs for wallet addresses, tokens and URLs: scores, flags and sources from phishing, scam and URL-reputation heuristics, including OpenPhish.
+3674	Local, zero-trust masking of PII and secrets.
+3675	Supply-chain gate for agent skills and MCP servers: detects poisoned tool definitions, pins servers by hash, checks drift in CI and proxies only pinned tools.
+3676	Check lockfiles against malicious-package advisories and scan artifacts for credential theft, exfiltration, obfuscation, prompt injection and droppers.
+3677	DNS and email security scans via IntoDNS.ai: SPF, DKIM, DMARC, DNSSEC, MTA-STS, BIMI, TLS, blacklist and deliverability checks plus security header analysis.
+3678	Fail-closed trust gate for agents: fact-checking, prompt-injection detection, content moderation, PII and secret detection, and a pre-action guardrail.
+3679	Scan MCP servers and skills before install, vet endpoints before calling them, and run vulnerability scans, threat intel and compliance checks.
+3680	Deterministic audit layer that checks LLM and agent outputs against jailbreak, safety and trading compliance policies and logs verdicts to a hash chain.
+3681	Register and verify domains, queue security scans (headers, TLS, DNS, ports, CVEs and AI-specific checks) and read findings.
+3682	Verify IBAN, VAT, VIN, barcodes, national and tax IDs, crypto addresses, phone numbers, dates and holidays against checksums and curated data.
+3683	Domain security checks: DNS, DNSSEC, TLS grading, HTTP security headers, SPF, DKIM and DMARC, port scans, ASN, RDAP and WHOIS, plus an overall health score.
+3684	Agent compliance and identity: verify an agent's X.509 certificate scope, read its behavioral risk score and append to an immutable audit trail.
+3685	Honeypot threat intelligence from a sensor network: IP reputation, scanner classification, CVE probing trends and JA4, JA4H and HASSH fingerprints.
+3686	Infrastructure diagnostics: DNS checks, TLS certificate chain inspection, email security, global DNS propagation and DNS latency benchmarking.
+3687	Cross-repository code knowledge graph for Java, Kotlin, JavaScript and TypeScript: call-flow tracing, taint analysis, reachability and license compliance.
+3688	Least-privilege compiler for agents: record real tool calls, compile a minimal policy, enforce it at an MCP gateway and keep a hash-chained audit.
+3689	SSRF-hardened web gateway with web fetch, web search and Metis verification, sharing an audited security core with Metis and ARGUS.
+3690	Verifiable oracle tools via AIMarket Hub: Platon VRF randomness, Chronos VDF computation and verification, and LUMEN reputation scores.
+3691	Query ARGUS-3 and check its status; WARDEN vets third-party MCP servers with a scored firewall, tool-definition pinning and drift detection.
+3692	Cryptographic provenance, blind reputation scoring and tamper-evident logging for agent interactions, with dispute resolution and trust-based matchmaking.
+3693	Redacts emails, phone numbers, national IDs, private keys and financial data before text reaches LLMs, in English, Spanish, Portuguese, German and Japanese.
+3694	URL security signals: redirects, brand impersonation, domain age, SSL validation, parked-domain detection, structural analysis and DNS enrichment.
+3695	Ghidra plugin for binary analysis: function inspection, decompilation, memory exploration and import/export analysis.
+3696	Real-time security framework for MCP servers that detects and blocks malicious agent behavior by analyzing tool call patterns and intent.
+3697	Zero-knowledge password manager and MCP credential gateway: policy-gated agent access, deterministic passwords, BIP-39 recovery and a hash-chain audit trail.
+3698	Policy-based governance for agent tool calls across LangChain, OpenAI, Anthropic and MCP: YAML policies, approval gates, risk assessment and audit logging.
+3699	Local-first MCP gateway for coding agents that redacts detected secrets from file reads and command output before they reach model context.
+3700	Reverse engineering tools from Solvitor: extract IDL files from closed-source Solana smart contracts and decompile them.
+3701	Agent identity, scoped delegation and governance: issue passports, verify narrowing-only delegation chains, enforce gateway policy and emit signed records.
+3702	Verify a photo's capture time and provenance: C2PA Content Credentials validation, EXIF/XMP consistency checks and pixel forensics combined into one verdict.
+3703	Query AgentForge Trust Scores for MCP servers before connecting, covering security, code health, behavioral audit, community trust and EU compliance.
+3704	Signed, recomputable safety scores for MCP servers, packages and tools, with offline-verifiable attestations and a GitHub Action to gate CI merges.
+3705	Identity and credential broker for MCP servers: issues scoped, short-lived credentials per agent, with audit logging and human approval gates.
+3706	Local guardrail proxy for MCP servers: blocks destructive tool calls, pins tool catalogs against rug pulls and scans for tool poisoning and prompt injection.
+3707	Proof-of-behavior enforcement for AI agents: define permit/forbid/require rules, enforce them at runtime and keep hash-chained, tamper-evident audit logs.
+3708	Runtime governance for MCP tool calls that blocks prompt injection and capability abuse before tool results reach the agent.
+3709	MCP proxy that enforces least-privilege YAML policies on tool calls, classifies PII/PHI, detects dangerous skill chains and generates compliance audit trails.
+3710	Agent discovery and certification with a trust and payment rail: identity verification, escrow, settlement and reputation management.
+3711	Agent identity registry (reputation, capability search, task marketplace, messaging) plus a local encrypted vault that leases provider keys to agents.
+3712	Local security reconnaissance: WHOIS, DNS and subdomain enumeration, Nmap scanning, TLS inspection, tech fingerprinting, CVE and IP reputation lookups.
+3713	Trust intelligence for AI agents: identity stamps, reputation scoring, a registry, forensic audit trails and A2A passports via x402 micropayments.
+3714	Runtime policy enforcement for AI agents that prevents accidental system damage and unauthorized access, with automatic backups before file writes.
+3715	EU AI Act compliance scanner for Python AI agents (LangChain, CrewAI, AutoGen, OpenAI) with prompt injection detection, risk classification and fix generation.
+3716	Security-focused safety guidelines and content analysis for AI agents.
+3717	Security intelligence: HIBP password breach checks, email/domain/IP/URL reputation, prompt injection detection and skill supply chain scanning.
+3718	Security and governance proxy for MCP with YAML policies (blocklists, rate limits, token budgets), token cost tracking, health monitoring and RBAC.
+3719	MCP interceptor that applies one YAML policy (block, require approval, audit, budget cap) to tool calls, also usable in Claude Code hooks and agent SDKs.
+3720	Server security auditing and hardening (SSH, firewall, Docker, TLS) with CIS/PCI-DSS/HIPAA mapping, fleet management and forensic evidence collection.
+3721	Third-party certifying proxy that signs any HTTP call with an independent Ed25519 signature, RFC 3161 timestamp and Sigstore Rekor anchor.
+3722	Analyze ROADrecon gather results from Azure tenant enumeration.
+3723	Identity and credential gateway for agents: Ed25519 identity, encrypted credential vault, OPA policies with audit logging, per-agent memory and web scraping.
+3724	Deterministic security proxy for MCP that intercepts tool calls, enforces YAML policies, scans for secret leakage and logs everything.
+3725	Security proxy for MCP servers: tool-definition pinning, tool-poisoning and exfiltration detection, injection blocking, secret redaction and audit trails.
+3726	Risk gate that agents call before irreversible actions, returning a risk score, reversibility class, red flags and a proceed/confirm/human-required decision.
+3727	Read-only check of a live URL for publicly exposed secret files: .git, .env, JS source maps, backup/SQL dumps, directory listings and dotfiles.
+3728	On-chain trust oracle for ERC-8004 and x402 agents: composite trust scoring, a scam wallet database, ERC-8004 identity lookup and EAS attestations on Base.
+3729	Anonymize PII for GDPR in Czech and many other languages using ÚFAL/LINDAT NLP (MasKIT, NameTag), plus morphology, translation and spellcheck.
+3730	MINT Protocol work attestation for agents: cryptographically attest, verify, rate and discover agent work to build portable on-chain reputation.
+3731	Run dnstwist, a DNS fuzzing tool, to detect typosquatting, phishing and corporate espionage.
+3732	Search usernames across social networks and analyze URLs with maigret, an OSINT tool that collects account information from public sources.
+3733	Query the Shodan API and Shodan CVEDB: IP lookups, device searches, DNS lookups, vulnerability queries and CPE lookups.
+3734	Query the VirusTotal API: scan URLs, analyze file hashes and retrieve IP address reports.
+3735	Self-hosted policy enforcement for MCP server fleets: deterministic admission and egress policies, attributable audit logs and SIEM export.
+3736	Privacy gateway that sanitizes German and English PII before prompts reach an LLM and issues a signed, timestamped certificate for each call.
+3737	Pre-execution governance for agent tool calls: risk classification, behavioral drift detection, a hold queue for dangerous operations and an audit trail.
+3738	Wireshark packet analysis: capture, protocol statistics, field extraction and security analysis.
+3739	Deterministic AI safety policy engine with Z3 formal verification: write, verify and enforce machine-verifiable constraints for AI agents.
+3740	Demonstrates remote attestation of an MCP server running in a Gramine TEE via RA-TLS, so clients can verify the server before connecting.
+3741	Core Web Vitals metrics by CMS, CDN and framework, based on Chrome field data and a multi-site crawl.
+3742	OPNsense firewall operations via API: query ARP, DHCP, firewall rules, logs, interfaces, system status and packet captures.
+3743	Trust, W3C DID identity and EigenTrust reputation for AI agents, with attestations, disputes, sybil detection and IPFS audit anchoring.
+3744	HTTP MCP gateway that attaches a principal to tool calls and SSE streams, with allowlists and vault rotation.
+3745	Trust and risk control plane for AI teams, with phases, routes and a package catalog.
+3746	AWS security scanner with attack chain detection, breach cost estimation and remediation snippets for CLI and Terraform.
+3747	Local-first AWS security analyzer that discovers attack paths and generates remediations using graph theory.
+3748	Permanently redact PII (names, emails, phone numbers, addresses, IBANs, card numbers) from PDFs, scans and screenshots, with multilingual OCR.
+3749	Public data lookups: CVE/SBOM security audits, license compliance, patents, federal contracts, NPI providers, nonprofit 990 filings and domain intelligence.
+3750	Scan and fix a domain's email authentication (SPF, DMARC, DKIM, MX), blacklist status and domain/SSL expiry, with deterministic, validated fix records.
+3751	GCHQ CyberChef's encryption, encoding, compression and forensics operations, plus analysis tools such as hash identification, cipher solving and RSA attacks.
+3752	Dead code detection, security scanning and code quality analysis for Python, TypeScript and Go, with AI-assisted remediation.
+3753	Trust scores and guardrails for AI-generated code: static security rules, Docker-verified build/boot checks and receipts that catch agents lying about tests.
+3754	Local, read-only scanner for GitHub Actions and CI maintenance issues in AI-built apps, with finding explanations and fix plans.
+3755	Requires a named human's approval before irreversible agent actions such as payments or deploys, then issues an offline-verifiable Ed25519 trust receipt.
+3756	URL fetcher and HTML-to-Markdown converter with layered prompt injection defense: hidden-element sanitization, risk scanning and content boundary wrapping.
+3757	Securely interact with the Authenticator App.
+3758	Secrets manager that injects credentials into commands as environment variables so agents never see plaintext secrets, and sanitizes command output.
+3759	Notarize AI model outputs with signed Ed25519 attestations, SHA-256 content hashes and Merkle anchoring on Base or Solana, paid via x402.
+3760	Binary Ninja plugin and bridge for automating binary analysis and reverse engineering.
+3761	Query the ORKL API to fetch threat reports, analyze threat actors and retrieve intelligence sources.
+3762	Memory forensics with Volatility 3, exposing plugins such as pslist and netscan through REST APIs.
+3763	Cortex integration for observable analysis and automated security responses.
+3764	TheHive integration for collaborative security incident response and case management.
+3765	Access real-time security alerts and event data from Wazuh SIEM.
+3766	Credential isolation proxy that injects secrets at the network boundary, with domain restrictions, agent authentication and audit logging.
+3767	HTTP security testing toolkit (send, intruder, race, chain, out-of-band) with low-level HTTP/1.1 and HTTP/2 control: raw framing and connection pinning.
+3768	Agent identity, trust and audit trails: Ed25519 agent registration, permission checks, tamper-evident audit events, trust scores and credential delegation.
+3769	Domain and URL security analysis with GridinSoft Inspector to verify website and link safety.
+3770	Security scanner for vibe-coded apps (Next.js, Supabase, Stripe, Prisma and more): taint analysis, auto-fix, SARIF export, pre-commit hook and CVE detection.
+3771	Runtime policy enforcement for AI agents: evaluate actions against organization policies before execution, in observe or enforce mode.
+3772	Locally scans AI-generated code for invisible Unicode, Trojan Source, homoglyphs, rules file backdoors and typosquatting using static analysis and CodeBERT.
+3773	Query the NIST National Vulnerability Database (NVD) API.
+3774	Document forensics via the Tamperlens API: detect post-creation edits, failed redactions and embedded prompt injection in PDFs, Office files and images.
+3775	Microsoft Entra ID (Azure AD) directory, user, group, device, sign-in and security operations via Microsoft Graph.
+3776	Quantum-inspired keyring for AI coding agents, securing secrets with superposition, entanglement, tunneling and teleportation.
+3777	Manage Bitwarden and Vaultwarden vaults via the bw CLI: search, create, edit and organize logins, notes, cards, identities, SSH keys, folders and Sends.
+3778	Scans dependency lockfiles for vulnerabilities, prioritizes them by EPSS exploit probability and recommends fix versions, with monitoring and alerting.
+3779	Access Intruder to identify, understand and fix security vulnerabilities in your infrastructure.
+3780	Scan ML model artifacts, URLs and directories for unsafe serialization, malicious patterns and risky packaging using ModelScan, PickleScan and heuristics.
+3781	Audits agents and MCP servers for prompt injection, infinite loops, token bombing and missing human oversight, with EU AI Act and OWASP mapping.
+3782	Self-hosted default-deny action registry, append-only spend-intent ledger and human sign-off audit trail for gating irreversible agent actions.
+3783	Security scanner for AI agents that detects prompt injections using regex patterns.
+3784	Agent security middleware with layered defenses: prompt injection detection, DLP data flow tracking, command blocking and PII detection.
+3785	Action logs for AI agents: records every action in a SHA-256 hash chain as an audit trail.
+3786	Microsoft Patch Tuesday triage from the MSRC Security Update Guide: monthly rollups, CVE/KB lookups, supersedence chains and EPSS/CISA KEV urgency ranking.
+3787	Native Ghidra integration with GUI configuration, logging and no external dependencies.
+3788	Retrieve live and recorded video from a CCTV recording program (VMS) and control it, such as opening live or playback dialogs for specific channels and times.
+3789	Encrypted secrets vault for Claude Code that injects secrets into local files so the AI never sees raw values, with audit logs and per-model access rules.
+3790	Autonomous reverse engineering with Ghidra: decompile binaries, rename methods and data, and list methods, classes, imports and exports.
+3791	Attack-path engine for cloud and Kubernetes: list routes from internet exposure to sensitive assets, explain each hop, find choke points and simulate fixes.
+3792	Honeypot framework for building decoy MCP tools that an agent would never use in normal work, to detect prompt injection and malicious agent behavior.
+3793	Mobb Vibe Shield identifies and remediates vulnerabilities in human and AI-written code.
+3794	Trust infrastructure for AI agents: register DIDs, verify identities, query reputation scores, rate agents and manage W3C Verifiable Credentials.
+3795	AI supply chain security scanner: discovers MCP clients, scans dependencies for CVEs, maps blast radius to credentials and tools, and generates SBOMs.
+3796	IDA Pro plugin for binary analysis: decompilation, disassembly and automatic malware analysis reports.
+3797	Administer Keycloak via its Admin REST API: users, roles, clients, groups, identity providers, federation and events, with a read-only mode.
+3798	Pre-install security scanner for MCP servers: detects backdoors, exfiltration code, obfuscation, dangerous execution, prompt injection and supply chain risks.
+3799	SecObserve vulnerability and license management: triage observations, manage products and rules, import scan reports and SBOMs, run scans and generate VEX.
+3800	Static security scanner for MCP servers and agent tools: detects secrets, shell execution, risky tool descriptions, environment access and prompt injection.
+3801	Permission tiers, approval gates and secret-redacting audit logging enforced inside MCP servers at the tool boundary, with a demo order-desk server.
+3802	Conversational recon with httpx and asnmap: domain analysis, security header inspection, certificate analysis and ASN lookups at multiple recon levels.
+3803	Security testing tools for penetration testing, network forensics, memory analysis and vulnerability assessment.
+3804	OPA and Rego policy toolkit wrapping the OPA CLI and Regal: format, lint, evaluate, test and benchmark policies, manage the OPA REST API and explain decisions.
+3805	Generate, audit, fix and compile smart contracts on Ethereum, Solana, Base and other chains, with adversarial multi-agent pen testing and honeypot detection.
+3806	Transparent proxy that intercepts, signs, rate-limits, redacts and audits MCP tool calls without modifying client or server.
+3807	Use Panther's SIEM platform in natural language to write detections, query logs and manage alerts.
+3808	Supply chain risk scoring for npm, PyPI, Cargo and Go packages from behavioral signals: publisher depth, release consistency and maintenance patterns.
+3809	Static and dynamic analysis of Android and iOS apps with MobSF.
+3810	Read-only MISP threat intelligence (events, attributes, search, tags, feeds, galaxies) with prompt injection scanning of every response.
+3811	Deterministic security scan of public git repositories: vulnerable dependencies via OSV, hard-coded secrets and risky config lint, as file:line findings.
+3812	Audit npm package dependencies for security vulnerabilities with real-time checks against the npm registry.
+3813	Verify agent communication protocols with session types and Lean 4 proofs to catch deadlocks and role violations; includes a linter, formatter and LSP.
+3814	Query the RAD Security API for Kubernetes and cloud security findings, reports and runtime data.
+3815	Disassemble and inspect binaries for reverse engineering with the Radare2 disassembler.
+3816	Static C/C++ memory-safety scanning and PE/ELF binary protection audits (ASLR, DEP/NX, SafeSEH, PIE), with remediation via secure templates.
+3817	Query the CVE-Search API: browse vendors and products, get CVEs by ID and list the latest updated CVEs.
+3818	Fail-closed policy-as-code proxy for MCP that denies risky tool calls, produces offline-verifiable evidence bundles and enforces egress via eBPF and Landlock.
+3819	Locally check npm and PyPI packages, such as those suggested by AI coding tools, for vulnerabilities and malicious code.
+3820	Enumerate AWS IAM data, analyze effective permissions and visualize access relationships across users, roles and resources, based on dAWShund.
+3821	Thales CipherTrust Manager integration for key management, cryptographic operations and compliance monitoring.
+3822	Thales CDSP CAKM integration for key management, cryptographic operations and compliance monitoring for Microsoft SQL Server and Oracle databases.
+3823	Integration with the Thales CipherTrust Manager RESTful Data Protection service.
+3824	Signed audit chain for AI agent decisions: events are signed, Merkle-chained per project, anchored to public transparency logs and verifiable offline.
+3825	Scam and threat checks for phone numbers, URLs, texts, emails, documents and QR codes using FTC/FCC complaints, URLhaus and ThreatFox, with risk scores.
+3826	Manage Scalekit organizations, users and SSO.
+3827	Security trust layer that monitors MCP packages on npm for install scripts, command injection, hardcoded secrets, capability drift and publisher posture.
+3828	Algenta decision engine: dataset discovery, exact queries, utility models, decision memory and governed agent runs with approvals and execution receipts.
+3829	Security gateway that wraps MCP servers with per-tool policies, approval gates and optional signed receipts, in shadow (log-only) or enforce mode.
+3830	Security testing toolbox that combines open source tools behind a single interface for pentesting, bug bounty hunting and threat hunting.
+3831	Self-hostable human-in-the-loop approval inbox: humans approve, reject or edit proposed agent actions via web, mobile, Slack, Discord or Telegram.
+3832	Scan code for security vulnerabilities using Semgrep.
+3833	Local credential gateway for coding agents: agents get handles instead of raw secrets, and one-time approvals inject credentials only into approved commands.
+3834	Scan SKILL.md files, MCP configs and system prompts for credential theft, prompt injection, zero-width character attacks and ClawHavoc indicators.
+3835	Use CyberChef operations through the CyberChef server API.
+3836	Governance proxy that wraps MCP servers with policy evaluation, human approval workflows and hash-chain audit trails.
+3837	Solana token safety oracle: byte-level SPL mint analysis, honeypot detection, freeze/mint authority checks, Birdeye market data and composite risk scoring.
+3838	MCP governance proxy with capability tokens, tiered approvals, fail-closed execution and tamper-evident audit receipts, plus preflight tool-risk scanning.
+3839	SAST/DAST scanners (Bandit, Semgrep, Trivy, CodeQL, OWASP ZAP and more) with closed-loop remediation, SARIF/SBOM/VEX export and compliance reporting.
+3840	Embeds Snyk's security engines into agentic workflows to secure AI-generated code in real time and work through vulnerability backlogs faster.
+3841	Fail-closed policy proxy for MCP tool calls that denies, warns on or holds each call for human approval before forwarding, with client-side redaction.
+3842	Query the OSV (Open Source Vulnerabilities) database by package version or commit, batch-query multiple packages and get vulnerability details by ID.
+3843	Classify input for prompt injection and out-of-scope content with Koma Gate's LLM-based classifier.
+3844	Local security scanner for AI-generated JS/TS that combines Opengrep, Gitleaks and Trivy with checks for exposed secrets, Supabase RLS and prompt injection.
+3845	Search the Russian software registry for import-substitution and FSTEC/FSB-certified products, with full-text search and manufacturer listings.
+3846	Manage and interact with the OPNsense open source firewall in natural language.
+3847	Deterministic pre-execution filter for agent tool calls that blocks scope creep (credential reads, SSRF, destructive shell/SQL) and prompt injection.
+3848	Admission control for agent file edits: checks syntax, structural-cost regressions and workspace boundaries, returning BLOCK, WARN or PASS verdicts.
+3849	Headless IDA Pro binary analysis with concurrent sessions and Il2CppDumper and Blutter metadata import for Unity and Flutter reverse engineering.
+3850	Middleware that gates MCP tool calls behind a Hashcash proof-of-work challenge or an L402 Lightning payment via self-hosted LNbits.
+3851	Automate reverse engineering of Android APKs with Apktool.
+3852	Zitadel identity management: manage users, projects, OIDC apps, roles and service accounts in natural language.
+3853	Enforces rules from existing agent instruction files (CLAUDE.md, .cursorrules) by blocking prohibited tool calls and logging per-rule compliance verdicts.
+3854	Visual CVE audit dashboard for npm, Python, Go and Rust using OSV data, with browser-based human review and fixes applied only after confirmation.
+3855	Offline verification of Ed25519/JCS-signed artifacts such as receipts, manifests and audit bundles.
+3856	JADX decompiler plugin providing live, LLM-assisted reverse engineering.
+3857	Auth proxy for MCP servers: OAuth2 with DCR, JWT, RBAC, rate limiting, multi-server aggregation and a monitoring dashboard.
+3858	Ed25519-signed consent receipts and a policy engine for agents: spending caps, action allowlists, escalation thresholds and JWKS-backed provider verification.
+3859	Automate cybersecurity assessment of documents, questionnaires and reports to surface risks, compliance gaps and remediations, using a RAG knowledge base.
+3860	URL scanning and phishing triage: capture DOM snapshots, network requests and screenshots, and hunt historical scans with a custom query language.
+3861	Regulated-industry AI compliance knowledge: control lookup, use-case classification and crosswalks for EU AI Act, NIST AI RMF, ISO 42001, APRA, GDPR and more.
+3862	Burn-after-read encrypted Volta Notes for agents: hand off credentials between users and agents without secrets appearing in chat history.
+3863	Generate zero-knowledge proofs of identity claims (Coinbase KYC, country, Google OIDC, Microsoft 365) without revealing personal information.
+3864	Injects a live, reversible MCP server into a running Express, FastAPI or Next.js app, with safe reads by default and writes gated behind human confirmation.
+3865	Package intelligence across many ecosystems: health, vulnerabilities (OSV, CISA KEV, EPSS), typosquats, malicious packages, alternatives and breaking changes.
+3866	Code property graph for C, Python and TypeScript: callers/callees, data and taint flow with source-to-sink witnesses, points-to and guard/sink structure.
+3867	Security intelligence: CVE/EPSS/KEV lookups, domain recon (DNS, WHOIS, SSL, subdomains), IOC threat intel, OSINT and code scanning for secrets and injection.
+3869	Share end-to-end encrypted, self-destructing secrets from an agent, reading them from env vars or files so they stay out of LLM context.
+3871	Pre-install npm package checks: static analysis, supply-chain attack detection, vulnerability audits, AI hallucination guard and CycloneDX SBOM generation.
+3873	PCI DSS static analysis for Go payment code: finds PAN/CVV exposure, weak crypto, missing audit logs and vulnerable deps, each mapped to a PCI requirement.
+3874	Mint, resolve, audit and rotate expiring, scope-limited access links (qURLs) via the qURL API.
+3875	Read-only VMware vSphere compliance scanning and drift detection against CIS, vSphere SCG, China DJCP 2.0 and PCI-DSS, with remediation suggestions.
+3876	Write, validate and convert Sigma detection rules for Splunk, Elastic, Kibana and Wazuh, backed by a rule corpus covering MITRE ATT&CK tactics.
+3877	Scores MCP servers, AI skills and npm packages before install, scanning for prompt injection, credential theft and supply-chain risk, with a go/no-go gate.
+3878	Local macOS scanner for secrets leaked into AI tool chat transcripts, with redacted findings, placeholder-only redaction and Keychain-backed command execution.
+3879	Check recruiters and job offers for scams: cross-checks company registration, domain age, look-alike domains, blocklists and crypto-scam databases.
+3880	Analyze AWS IAM policies and CloudFormation templates with Shieldly to flag privilege-escalation paths, wildcards and over-permissive access.
+3881	Local-first domain security and privacy checker: live SPF, DMARC, DKIM, DNSSEC, TLS, CAA and security header checks, scored with remediation advice.
+3882	Find MCP servers by describing a task and get advisory trust screens before connecting, using the mcpindex directory.
+3883	Offline pre-flight security linter for MCP servers, agent tools and skills that returns SAFE, REVIEW, BLOCK or UNKNOWN verdicts without executing them.
+3884	Post-quantum readiness: scan code for quantum-vulnerable cryptography (RSA, ECDH, ECDSA, DH), get ML-KEM/ML-DSA/SLH-DSA migration guidance and verify fixes.
+3885	U.S. exclusion, debarment and license screening (OIG LEIE, SAM.gov, state boards) with an Ed25519-signed receipt of the exact list snapshots checked.
+3887	Check the reputation of AI microservices and public APIs before calling them and submit ratings afterward, via an open trust registry.
+3889	Runtime security proxy for MCP that blocks prompt injection, SSRF, shell/SQL injection and credential exfiltration, plus trust scores for npm MCP packages.
+3890	Author, lint, validate and convert Sigma detection rules with RSigma, evaluate and explain detections against log events, and inspect correlation state.
+3891	Verifiable execution protocol for agent tool calls: signed policy decisions, causal evidence chains and offline verification from a SQLite ledger.
+3892	Policy proxy that refuses forbidden tool calls, stopping prompt-injection exfiltration and forbidden data combinations across Slack, Drive, GitHub and more.
+3893	Exactly-once payments for agents: prevents double settlement across processes and retries, confirms charges with the provider and reconciles out-of-band spend.
+3894	Screen x402 payment counterparties before paying: address sanity, payTo swap, transport safety and spend policy checks with an allow, review or block verdict.
+3896	Static scanner that checks Claude Code skills, plugins and MCP servers for exfiltration, install hooks and prompt injection before you install them.
+3897	Execution safety for agent actions: a YAML-policy gateway that allows, holds or denies tool calls, plus an approval queue and hash-chained receipts.
+3899	MAC address (OUI) vendor lookup with randomized-address detection, plus router default login IPs and admin credentials cited to manufacturer documentation.
+3900	Accountability layer for AI agents: per-version passports, per-job mandates with spending limits, a fail-closed action gate and a hash-chained journal.
+3902	APK reverse engineering workspace that orchestrates jadx, apktool, adb and Frida through a workflow engine, on Termux (Android) or PC.
+3904	Query the Small Print record: versioned, diffed tool descriptions and schemas of MCP servers, skills and plugins, with graded changes and public advisories.
+3906	Offline safety gate for agent shell commands: rates each command as danger, caution or none and explains every flag, pipe, redirect and subshell.
+3907	Deterministic execution governance gateway and W3C DID security guardrail for AI agent MCP tool calls.
+3909	Social Media
+3911	Integration with social media platforms to allow posting, analytics, and interaction management. Enables AI-driven automation for social presence.
+3913	Public Instagram data: profiles and post feeds by handle, with follower counts, captions, hashtags and mentions parsed as JSON.
+3914	Public Facebook pages and profiles as JSON: likes, followers, talking-about counts, contact details and post feeds with reactions.
+3915	YouTube search, video and channel data and transcripts as JSON.
+3916	Public TikTok data as JSON: profile lookup, account videos, comments and reply threads, and keyword search over videos or creators.
+3917	Manage Substack posts, notes, comments, replies, reactions and restacks, with a propose-then-confirm reply flow, audit log and dry-run by default.
+3918	YouTube outlier research: rank a channel's uploads against its own baseline (Shorts and long-form separately), compare channels and find niche overperformers.
+3919	Schedule and manage social media posts on Bluesky, Threads, Instagram, LinkedIn, Mastodon, YouTube, X, Discord and more, with a draft-first workflow.
+3920	Create, edit and delete LinkedIn posts (text, image, article), upload images, fetch profiles, look up company pages and check follower counts.
+3921	Schedule and cross-post to Instagram, TikTok, YouTube, X, LinkedIn and more, with per-platform captions, bulk scheduling, draft approval and media upload.
+3922	Upload videos to YouTube directly from an AI assistant.
+3923	Instagram analytics: account overviews, posts, followers and following lists, post insights, and search for users, hashtags or places.
+3924	Video-first publishing: schedule, publish, update, delete and retry video and image posts on YouTube, TikTok and Instagram.
+3925	Turn URLs into viral posts with a remake command.
+3926	Post tweets, search, read timelines, manage engagement and upload media on Twitter/X using browser cookies.
+3927	Check posts against real character limits before publishing on X, Bluesky, LinkedIn, Threads, Mastodon and Discord, including URL and emoji weighting.
+3928	Read Substack posts, manage drafts, publish Notes, get comments and upload images; it cannot publish or delete posts.
+3929	Local-first TikTok Content Posting API server and CLI with OAuth readiness checks, dry-run publishing and live uploads only when explicitly enabled.
+3930	LinkedIn via an authenticated browser session: profiles, people/job/company search, feed, messaging and gated writes (connect, post, react, comment).
+3931	TikTok creator toolkit: watermark-free video downloads, hashtag sets by niche, recommended posting times by country and viral hook formulas.
+3932	Interact with Bluesky via the atproto client.
+3933	Publish, schedule, edit, delete and analyze social posts on Instagram, TikTok, YouTube, X, LinkedIn and more via Post for Me, with a read-only mode.
+3934	Manage Facebook Page posts, comments and engagement metrics through the Graph API.
+3935	Control Instagram via the Instagram Login API: publish photos, reels and carousels, read account insights, manage comments and reply to DMs.
+3936	Multi-account X (Twitter) automation via a real Chrome session: posting, replies, search, engagement and scheduled actions, with draft approval by default.
+3937	Read WeChat Official Account articles as multimodal content: body text, images and video keyframes, including Tencent Video, native and Channels embeds.
+3938	Sign and publish Nostr events, paid per call in sats over Lightning.
+3939	Schedule and analyze posts on Instagram, TikTok, X, LinkedIn and more: media upload, AI captions, recommended posting times, analytics, listening and comments.
+3940	Browse Reddit posts, search content and analyze user activity.
+3941	Reddit market and competitive research: find subreddits via semantic search, fetch posts and comments with full citations and manage research feeds.
+3942	Twitter management: timelines, user tweets, hashtag monitoring, conversation and sentiment analysis, direct messages and full post lifecycle control.
+3943	Run a Shopstr or Nostr marketplace storefront: create and update stalls and products in both NIP-15 and Shopstr's NIP-99-based listing formats.
+3944	Real-time X, Reddit and YouTube data with filtering by search phrase, user and date.
+3945	Resolves a company domain to its Bluesky account with exact follower, following and post counts.
+3946	Get recent posts from LinkedIn profiles and company pages with engagement counts and publicly visible commenters.
+3947	Resolves a company domain to its Pinterest business account with exact follower, pin and board counts.
+3948	Workflow automation for fitness content creators: jump-cut video editing, revenue analytics and branded content creation.
+3949	Instagram Graph API, Threads API and Meta platform tools for publishing, comments, insights, hashtags, DMs and token management.
+3950	Velog blog integration: read and search posts, stats, tags and series; writes default to drafts or private posts, and public publishing is opt-in.
+3951	Short-form video creator tools: TikTok trend search by country, plus use-case scenarios for video analysis, competitor research and content strategy.
+3952	Local-first social media drafting and scheduling for Instagram, LinkedIn, X, Nostr, WordPress, Ghost and more, behind a human approval gate.
+3953	Post to TikTok, Instagram, YouTube, X, LinkedIn, Bluesky, Telegram, Mastodon and Discord through a single tool.
+3954	Schedule and manage social media posts on Instagram, Facebook, TikTok, X, LinkedIn, YouTube, Threads, Pinterest, Bluesky and Telegram.
+3955	Schedule and publish across Instagram, LinkedIn, TikTok, X, YouTube and more, with campaigns, bulk operations, media, analytics, webhooks and AI captions.
+3956	Publish and schedule posts to LinkedIn, X, Facebook, Instagram, Threads, Bluesky and YouTube Shorts, with preflight checks, brand kits and image generation.
+3957	Schedule and publish posts via Publora to X, LinkedIn, Instagram, Threads, TikTok, YouTube and more, with media upload and LinkedIn analytics.
+3958	Access Twitter/X data, including user profiles, tweets, followers, trends, lists and communities, via the ScrapeBadger API.
+3959	Reddit outreach via Signal Found: find prospects posting about problems your product solves, send personalized DMs and manage an outreach CRM.
+3960	Summarize a user's Reddit homepage or any subreddit from its posts and comments.
+3961	Search Instagram influencers by niche, country, demographics or follower count for usernames, bios, follower counts, categories and public business emails.
+3962	Web tools via the Sofya API: full-content web search, URL and PDF fetching as Markdown, prompt-based data extraction and cited multi-source deep research.
+3963	SynthNet, a social network for AI agents: join with a keypair, paint a daily self-portrait, reply to humans and agents, and keep a persistent reputation.
+3964	Publish or schedule social videos to TikTok, Instagram Reels, YouTube Shorts, X and Facebook through Taisly, with account discovery and video validation.
+3965	Access the VK (VKontakte) social network API: users, walls, groups, friends, newsfeed, photos and community stats.
+3966	Publish and schedule content via Solnk to X, Instagram, TikTok, YouTube, LinkedIn and more, with drafts, media upload and post analytics.
+3967	Publish, comment and react on LinkedIn via the Unipile API, with dry-run by default.
+3968	Managed TikTok, Instagram and YouTube accounts run by TokPortal's human account managers, with video upload, scheduling, analytics and webhooks.
+3969	Browse and search Hermtica, a social network and marketplace for AI agents: feed, trending items, agent profiles and marketplace stats.
+3970	Publish, schedule and analyze posts on TikTok, Instagram, YouTube, LinkedIn, Facebook, X, Reddit and more via Upload-Post, including comments and DMs.
+3971	Real-time LinkedIn, X (Twitter) and Reddit data: profiles, companies, posts, search and sentiment.
+3972	Post AI-generated images to Vynly, an AI-only social feed, and read and search the feed, with provenance support (C2PA, SynthID, XMP).
+3973	X (Twitter) automation: post tweets, reply, like, retweet, follow, DM, search, extract data, run giveaways and monitor accounts.
+3974	VK API access: wall posts, communities, messages, market items, ads and stats, with plain-language method search and a read/write/destructive safety gate.
+3976	Spirituality & Esoterica
+3978	for AI agents that compute charts, draw cards, run dasha cycles, or generate horoscopes.
+3980	Vedic astrology: kundali, Vimshottari dasha, panchang, gochar and Sade Sati, ashtakavarga, guna milan, divisional charts and Hindi janma patrika PDFs.
+3981	Offline Bazi (Four Pillars) charts with True Solar Time: Day Master, Ten Gods, hidden stems, Na Yin, Shen Sha, branch relations and Da Yun luck pillars.
+3982	Self-hosted Vedic astrology: natal charts, dashas, vargas, shadbala, ashtakavarga, panchanga, transits, muhurta search, synastry and property-graph export.
+3983	Vedic and Western astrology: natal and divisional charts, Vimshottari dasha, panchanga, muhurta, compatibility matching, KP, Lal Kitab, numerology and tarot.
+3984	AstroWay Calculation API: natal charts, synastry, transits, Vedic dashas and vargas, tarot, numerology, Human Design and AI horoscopes.
+3985	Astrology tools for natal charts, current transits, synastry, Moon phases and birthplace lookup, with privacy modes for compact payloads.
+3986	Deterministic Western astrology via Swiss Ephemeris: natal charts, transits, synastry and a birthplace resolver with coordinates and historical UTC offsets.
+3987	Vietnamese Tử Vi horoscope calculation: traditional pattern evaluations, transit charts, auspicious date checking and chart rendering.
+3988	Astrology from the NASA JPL DE440 ephemeris: natal, synastry, progressions, transit search, Human Design, Vedic, BaZi and astrocartography.
+3989	Deterministic Bazi (Four Pillars) calculations with True Solar Time, lunar/solar conversion, Da Yun luck cycles, branch interactions and reverse Bazi lookup.
+3990	Telugu Panchangam (Hindu almanac): tithi, nakshatra, muhurta windows, festivals, good-day finder, gochara transits and daily rasi phalalu.
+3992	Sports
+3994	Tools for accessing sports-related data, results, and statistics.
+3996	Workout memory: logs sets, weights, estimated 1RM, per-muscle volume and recovery so the next session is planned from your training history.
+3997	Local-first Garmin data warehouse: incremental SQLite sync with trends, lag-aware correlations, personal baselines, anomaly detection and FIT-file import.
+3998	Live scores, fixtures, standings and read-only prediction-market signals for the 2026 World Cup.
+3999	Live scores, standings, top scorers, player stats and knockout brackets for football, basketball, cricket and tennis.
+4000	Football fixtures, results, standings, lineups, live timelines, shot-level xG and match context (form, Elo, rest, head-to-head) via the OpenFoot API.
+4001	Sports data via the Cloudbet API: upcoming events, live odds, stake limits and market info across soccer, basketball, tennis, esports and more.
+4002	Live sports data and cross-book odds from bookmakers like Betfair, Pinnacle and FanDuel, league feeds, racing, and Kalshi and Polymarket prediction markets.
+4003	Local-first access to WHOOP recovery, HRV, sleep, strain and performance data, with tokens stored locally.
+4004	Personalized Fantasy Premier League insights: captain picks, transfer suggestions, differentials, fixture outlook, price predictions and live points.
+4005	Exercise-to-muscle mapping: look up muscles worked by exercises, analyze workouts for gaps and find alternative exercises ranked by muscle overlap.
+4006	NFL fantasy football: head-to-head player comparisons, PPR, half-PPR and standard rankings, positional scarcity and bye-week conflicts, with cited sources.
+4007	Suunto watch data via the Suunto API: workouts, time-series samples, FIT decoding, GPX export, 24/7 activity, sleep and recovery/HRV.
+4008	Proxy to the public MLB API for player info, stats and game information.
+4009	Live sports betting player props for NBA, MLB, NFL, NHL, NCAA and soccer, unified from sportsbooks with American odds, pre-game and live.
+4010	Query TrainingPeaks workouts, analyze CTL/ATL/TSB fitness metrics and compare power and pace PRs.
+4011	FIFA World Cup 2026 data: matches, teams, venues, city guides, fan zones, visa requirements, injuries, odds and standings.
+4012	Arvo AI workout coach: access training data, workout history, personal records and body progress.
+4013	ESPN fantasy football tools: draft simulations, lineup recommendations and browser actions within configurable user limits.
+4014	Live and historical NBA statistics: player stats, game scores, team data and advanced analytics.
+4015	Aggregated sports data: live scores, standings, player stats and betting odds for NFL, NBA, MLB, NHL, soccer, tennis, cricket, golf, MMA, F1 and esports.
+4016	Real-time ATP, WTA, Challenger and ITF tennis data: live scores, players, fixtures, model win probability and match-winner market prices.
+4017	Sports intelligence: schedules, live scores, odds, betting splits and explainable bet confidence.
+4018	Player, team and game information for the NBA, NFL and MLB via the balldontlie API.
+4019	XERT cycling analytics: fitness signature (FTP, HIE, PP), training status, workouts, activities with XSS metrics and MPA analysis.
+4020	Combines MacroFactor nutrition data with Garmin training data for recovery checks, daily briefings, weekly reports and nutrition-performance correlations.
+4021	Read-only Bosch eBike Flow (Smart System) data: battery health and charge cycles, components and firmware, live charge level and per-ride activity.
+4022	Fitbit Web API access with a local SQLite cache and trend analysis for heart rate, activity, exercises, sleep, weight, SpO2 and HRV.
+4023	Google Health API with a local SQLite cache, offline mode and trend analysis for heart rate, activity, sleep, weight, SpO2, HRV, ECG and irregular rhythms.
+4024	Withings Health API with a local SQLite cache and trend analysis for body composition, sleep, activity, workouts and ECG.
+4025	Live sports betting odds, cross-book +EV and graded prop resolution against box scores for MLB, NBA, NHL, NFL, soccer and UFC.
+4026	Cycling race data from FirstCycling: start lists, race results, rider information and statistics.
+4027	Access Strava data via the Strava API.
