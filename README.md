@@ -104,6 +104,8 @@ With JavaScript enabled, ordinary clicks, keyboard activations, modifier clicks,
 
 The exact-hostname exceptions are configured in `src/external-link-policy.mjs` as `externalHostnameAllowlist`, which is intentionally empty by default. Add only a reviewed hostname string (without a scheme, path, or port); a match applies to that hostname on any HTTP(S) scheme and port, but never to its subdomains or similar suffixes. Do not add broad domains merely for convenience.
 
+Trusted domains are configured as `externalDomainAllowlist` in the same file and currently contain `hagicode.com`. An entry matches the domain itself and every subdomain (`docs.hagicode.com`, `a.b.hagicode.com`) on any HTTP(S) scheme and port, but not lookalikes such as `nothagicode.com` or `hagicode.com.example`. Links to these hosts open without the warning; links carrying credentials are still rejected as invalid.
+
 This prompt is an informed-choice step, not a safety check: it does not guard browser context-menu commands, copied URLs, programmatic navigation, embedded assets, or redirects after a destination is reached.
 
 ## Analytics events
@@ -124,7 +126,7 @@ Production builds load Google Analytics through `@hagicode/hagilight-starlight` 
 
 All events use the category `navigation`. Labels are stable ids or hostnames, never translated text, so every locale reports the same label. Hagilight's own header, footer, showcase, and promotion links keep their Hagilight tags and are reported once. Only clicks are reported; section views, search activity, and the Starlight sidebar are not.
 
-An outbound link is any link to a different origin over HTTP or HTTPS, including links added after the page loads. The hostname allowlist of the external-link warning does not exempt a link from reporting. The ~53,000 content links are not tagged in the build: `src/outbound-tracking.mjs` tags the clicked anchor just before Hagilight's listener reads it, using `classifyExternalLink()` so URL parsing and the credential and malformed-URL rules stay in one place. The tagger only writes `data-ga-*` attributes and never changes navigation, `href`, `target`, `rel`, focus, or the warning.
+An outbound link is any link to a different origin over HTTP or HTTPS, including links added after the page loads. The hostname and domain allowlists of the external-link warning do not exempt a link from reporting. The ~53,000 content links are not tagged in the build: `src/outbound-tracking.mjs` tags the clicked anchor just before Hagilight's listener reads it, using `classifyExternalLink()` so URL parsing and the credential and malformed-URL rules stay in one place. The tagger only writes `data-ga-*` attributes and never changes navigation, `href`, `target`, `rel`, focus, or the warning.
 
 A confirmed departure produces two events: one for the original click, and one with `link_location = outbound_warning_continue` when the reader selects **Continue**. Filter on that location to count readers who actually left; **Stay** leaves only the first event. Parameters are limited to category, label, location, and destination: no link text, search queries, or visitor identifiers.
 
