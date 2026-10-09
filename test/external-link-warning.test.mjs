@@ -3,6 +3,7 @@ import test from "node:test";
 import { locales } from "@hagicode/hagilight-starlight/locales";
 import {
   classifyExternalLink,
+  externalDomainAllowlist,
   externalHostnameAllowlist,
   normalizeExternalHostnameAllowlist,
 } from "../src/external-link-policy.mjs";
@@ -63,6 +64,33 @@ test("hostname exceptions are normalized and match exact hostnames only", () => 
   assert.equal(classifyExternalLink(allowlistedWithCredentials.href, {
     ...context, allowlist: ["trusted.example"],
   }).type, "invalid");
+});
+
+test("hagicode.com and its subdomains skip the warning; lookalike hosts do not", () => {
+  assert.deepEqual(externalDomainAllowlist, ["hagicode.com"]);
+  for (const href of [
+    "https://hagicode.com/",
+    "https://HagiCode.com:8443/path?q=1#frag",
+    "http://www.hagicode.com/",
+    "https://docs.hagicode.com/guide",
+    "https://a.b.hagicode.com/",
+    "//desktop.hagicode.com/download",
+  ]) {
+    assert.deepEqual(classifyExternalLink(href, context), { type: "bypass" }, href);
+  }
+  for (const hostname of [
+    "nothagicode.com", "hagicode.com.attacker.test", "hagicode.org", "hagicode.com.", "evil-hagicode.com",
+  ]) {
+    assert.equal(classifyExternalLink(`https://${hostname}/`, context).type, "warn", hostname);
+  }
+  const withCredentials = new URL("https://docs.hagicode.com/");
+  withCredentials.username = "reader";
+  withCredentials.password = "value";
+  assert.equal(classifyExternalLink(withCredentials.href, context).type, "invalid");
+  assert.equal(classifyExternalLink("https://docs.hagicode.com/", { ...context, domainAllowlist: [] }).type, "warn");
+  assert.equal(classifyExternalLink("https://a.trusted.example/", {
+    ...context, domainAllowlist: ["trusted.example"],
+  }).type, "bypass");
 });
 
 test("warning copy covers every configured locale and rejects unknown keys", () => {

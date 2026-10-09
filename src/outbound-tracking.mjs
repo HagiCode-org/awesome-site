@@ -72,6 +72,7 @@ export function installOutboundTracking(
         baseUrl: documentObject.baseURI,
         origin: windowObject.location.origin,
         allowlist: [],
+        domainAllowlist: [],
       });
       clearTags(anchor);
       if (result.type !== "warn") return;

@@ -203,7 +203,7 @@ test("anchors tagged elsewhere keep their tags and are never marked", () => {
   for (const anchor of [built, labelOnly, internalHero]) assert.equal(anchor.hasAttribute("data-awesome-outbound"), false);
 });
 
-test("the injected classifier receives the document base, the origin, and an empty allowlist", () => {
+test("the injected classifier receives the document base, the origin, and empty allowlists", () => {
   const calls = [];
   const f = fixture((href, context) => {
     calls.push([href, context]);
@@ -213,9 +213,20 @@ test("the injected classifier receives the document base, the origin, and an emp
   f.click(anchor);
   assert.deepEqual(calls, [[
     "https://trusted.example/page",
-    { baseUrl: "https://site.example/base/", origin: "https://site.example", allowlist: [] },
+    { baseUrl: "https://site.example/base/", origin: "https://site.example", allowlist: [], domainAllowlist: [] },
   ]]);
   assert.equal(anchor.getAttribute("data-ga-label"), "trusted.example");
+});
+
+test("links to the trusted domain skip the warning but are still reported as outbound", () => {
+  const f = fixture();
+  const anchor = new FixtureAnchor("https://docs.hagicode.com/guide", content);
+  f.click(anchor);
+  assert.equal(classifyExternalLink("https://docs.hagicode.com/guide", {
+    baseUrl: "https://site.example/base/", origin: "https://site.example",
+  }).type, "bypass");
+  assert.equal(anchor.getAttribute("data-ga-label"), "docs.hagicode.com");
+  assert.equal(anchor.hasAttribute("data-awesome-outbound"), true);
 });
 
 test("tagging never touches the event, the destination, or focus, and failures are swallowed", () => {

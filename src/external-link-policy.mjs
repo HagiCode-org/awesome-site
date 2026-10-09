@@ -1,5 +1,8 @@
 export const externalHostnameAllowlist = Object.freeze([]);
 
+// Each entry trusts the domain itself and every subdomain of it, on a label boundary.
+export const externalDomainAllowlist = Object.freeze(["hagicode.com"]);
+
 /**
  * @param {string[]} entries
  * @returns {Set<string>}
@@ -27,16 +30,37 @@ export function normalizeExternalHostnameAllowlist(entries) {
 }
 
 const allowedExternalHostnames = normalizeExternalHostnameAllowlist(externalHostnameAllowlist);
+const allowedExternalDomains = normalizeExternalHostnameAllowlist(externalDomainAllowlist);
+
+/**
+ * @param {Set<string>} domains
+ * @param {string} hostname
+ */
+function matchesDomain(domains, hostname) {
+  const name = hostname.toLowerCase();
+  for (const domain of domains) {
+    if (name === domain || name.endsWith(`.${domain}`)) return true;
+  }
+  return false;
+}
 
 /**
  * @param {string | null | undefined} href
- * @param {{ baseUrl: string, origin: string, allowlist?: string[] }} context
+ * @param {{ baseUrl: string, origin: string, allowlist?: string[], domainAllowlist?: string[] }} context
  * @returns {{ type: "bypass" } | { type: "warn", url: string, hostname: string } | { type: "invalid" }}
  */
-export function classifyExternalLink(href, { baseUrl, origin, allowlist = externalHostnameAllowlist }) {
+export function classifyExternalLink(href, {
+  baseUrl,
+  origin,
+  allowlist = externalHostnameAllowlist,
+  domainAllowlist = externalDomainAllowlist,
+}) {
   const allowedHostnames = allowlist === externalHostnameAllowlist
     ? allowedExternalHostnames
     : normalizeExternalHostnameAllowlist(allowlist);
+  const allowedDomains = domainAllowlist === externalDomainAllowlist
+    ? allowedExternalDomains
+    : normalizeExternalHostnameAllowlist(domainAllowlist);
   if (typeof href !== "string" || href.trim() === "") return { type: "bypass" };
 
   let url;
@@ -50,7 +74,11 @@ export function classifyExternalLink(href, { baseUrl, origin, allowlist = extern
   if (url.username || url.password) return { type: "invalid" };
 
   const currentOrigin = new URL(origin).origin;
-  if (url.origin === currentOrigin || allowedHostnames.has(url.hostname.toLowerCase())) {
+  if (
+    url.origin === currentOrigin
+    || allowedHostnames.has(url.hostname.toLowerCase())
+    || matchesDomain(allowedDomains, url.hostname)
+  ) {
     return { type: "bypass" };
   }
   return { type: "warn", url: url.href, hostname: url.hostname };
