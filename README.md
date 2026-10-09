@@ -106,6 +106,42 @@ The exact-hostname exceptions are configured in `src/external-link-policy.mjs` a
 
 This prompt is an informed-choice step, not a safety check: it does not guard browser context-menu commands, copied URLs, programmatic navigation, embedded assets, or redirects after a destination is reached.
 
+## Analytics events
+
+Production builds load Google Analytics through `@hagicode/hagilight-starlight` (the default measurement ID, never on the 404 page, silent when `gtag` is blocked or absent). Clicks are reported by Hagilight's single `click` listener as `link_click` events with `event_category`, `event_label`, `link_location`, and `link_url`; the site only decides which links carry the `data-ga-*` tags. Events need Hagilight `0.6.1` or later, and `@hagicode/hagilight`, `@hagicode/hagilight-starlight`, and `@hagicode/hagilight-core` must be bumped together because the first two pin the third exactly.
+
+| `link_location` | Section | `event_label` |
+| --- | --- | --- |
+| `home_hero` | The two home hero calls to action | `exploreCollections`, `startBrowsing` |
+| `topic_rail` | Topic rail in the collection browser | topic id, or `allTopics` |
+| `collection_group` | Topic group heading in the collection browser | topic id |
+| `collection_list` | Collection entry in the collection browser | collection id |
+| `topic_nav` | Topic navigation on a collection page | topic id |
+| `outbound_candidate_list` | GitHub-only candidate list | destination hostname |
+| `outbound_collection_content` | External link in imported collection content | destination hostname |
+| `outbound_warning_continue` | **Continue** link in the external-link warning | destination hostname |
+| `outbound_other` | Any other external link Hagilight does not tag | destination hostname |
+
+All events use the category `navigation`. Labels are stable ids or hostnames, never translated text, so every locale reports the same label. Hagilight's own header, footer, showcase, and promotion links keep their Hagilight tags and are reported once. Only clicks are reported; section views, search activity, and the Starlight sidebar are not.
+
+An outbound link is any link to a different origin over HTTP or HTTPS, including links added after the page loads. The hostname allowlist of the external-link warning does not exempt a link from reporting. The ~53,000 content links are not tagged in the build: `src/outbound-tracking.mjs` tags the clicked anchor just before Hagilight's listener reads it, using `classifyExternalLink()` so URL parsing and the credential and malformed-URL rules stay in one place. The tagger only writes `data-ga-*` attributes and never changes navigation, `href`, `target`, `rel`, focus, or the warning.
+
+A confirmed departure produces two events: one for the original click, and one with `link_location = outbound_warning_continue` when the reader selects **Continue**. Filter on that location to count readers who actually left; **Stay** leaves only the first event. Parameters are limited to category, label, location, and destination: no link text, search queries, or visitor identifiers.
+
+To tag a new link, spread the shared builder onto it and add any new location to `src/analytics-locations.mjs` and the table above:
+
+```astro
+---
+import { gaEventAttributes } from "@hagicode/hagilight-core/analytics-events";
+import { TOPIC_NAV } from "../analytics-locations.mjs";
+---
+<a href={href} {...gaEventAttributes({ category: "navigation", label: id, location: TOPIC_NAV })}>
+```
+
+A new category or action must first be added to Hagilight's `hagilight-ga-click-events` capability; this site does not extend the vocabulary or call `gtag('event', ...)` itself.
+
+Limitations: the middle mouse button (`auxclick`) is not reported, matching Hagilight; when native dialogs are unavailable the browser `confirm()` fallback records only the original click, not a Continue click; the measurement ID is shared with other HagiCode sites, so separate them with `page_location`; ad blockers drop events, so counts are directional. The custom dimensions `event_category`, `event_label`, `link_location`, and `link_url` must be registered in the GA property before the new values appear in standard reports.
+
 ## Build and publication
 
 Local builds may use `http://localhost:36265`. The publication workflow requires the repository variable `SITE_URL` to be a non-loopback HTTPS origin without credentials, path, query, or fragment; configure it to the intended production origin. The workflow validates this before installing dependencies and building.
@@ -114,4 +150,4 @@ The publication job only hands off its existing static payload after content pre
 
 Relative repository images are pinned to the source revision. Other external assets and linked profiles remain remote upstream dependencies and may become unavailable; the build does not mirror them.
 
-Analytics and site promotions remain disabled. Do not edit generated HTML, Pagefind, RSS, robots, or sitemap output in `dist/`.
+Analytics, 51LA, and site promotions use the Hagilight defaults on production builds (see Analytics events). Do not edit generated HTML, Pagefind, RSS, robots, or sitemap output in `dist/`.
