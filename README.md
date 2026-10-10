@@ -150,6 +150,8 @@ Local builds may use `http://localhost:36265`. The publication workflow requires
 
 The publication job only hands off its existing static payload after content preparation, checks, build, and regression tests succeed. The payload layout remains `.deploy/gh-pages/` with `dist/`, `esa.jsonc`, and `wrangler.jsonc`. A successful build proves a valid static snapshot was assembled; it does not prove that an external hosting service has published it or that the live site is reachable.
 
+Each publication overwrites `gh-pages` with a single, latest commit (`force_orphan: true`), so the branch holds only the newest snapshot and is not a rollback source. To roll back a bad release, revert the offending source commit on `main` so the publication workflow runs again; do not revert or reset `gh-pages` history. Treat `gh-pages` as write-only for CI, because local clones will see non-fast-forward updates.
+
 Relative repository images are pinned to the source revision. Other external assets and linked profiles remain remote upstream dependencies and may become unavailable; the build does not mirror them.
 
 Analytics, 51LA, and site promotions use the Hagilight defaults on production builds (see Analytics events). Do not edit generated HTML, Pagefind, RSS, robots, or sitemap output in `dist/`.
