@@ -1,0 +1,1200 @@
+<!DOCTYPE html><html lang="es-ES" dir="ltr" data-theme="dark" data-has-toc data-has-sidebar class="astro-g5ptsecz"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>LLM | Awesome Site</title><link rel="canonical" href="https://awesome.hagicode.com/es-ES/awesome/awesome-llm/"/><link rel="alternate" hreflang="en-US" href="https://awesome.hagicode.com/awesome/awesome-llm/"/><link rel="alternate" hreflang="zh-CN" href="https://awesome.hagicode.com/zh-CN/awesome/awesome-llm/"/><link rel="alternate" hreflang="zh-Hant" href="https://awesome.hagicode.com/zh-Hant/awesome/awesome-llm/"/><link rel="alternate" hreflang="fr-FR" href="https://awesome.hagicode.com/fr-FR/awesome/awesome-llm/"/><link rel="alternate" hreflang="de-DE" href="https://awesome.hagicode.com/de-DE/awesome/awesome-llm/"/><link rel="alternate" hreflang="es-ES" href="https://awesome.hagicode.com/es-ES/awesome/awesome-llm/"/><link rel="alternate" hreflang="ja-JP" href="https://awesome.hagicode.com/ja-JP/awesome/awesome-llm/"/><link rel="alternate" hreflang="ko-KR" href="https://awesome.hagicode.com/ko-KR/awesome/awesome-llm/"/><link rel="alternate" hreflang="pt-BR" href="https://awesome.hagicode.com/pt-BR/awesome/awesome-llm/"/><link rel="alternate" hreflang="ru-RU" href="https://awesome.hagicode.com/ru-RU/awesome/awesome-llm/"/><link rel="alternate" hreflang="x-default" href="https://awesome.hagicode.com/awesome/awesome-llm/"/><link rel="sitemap" href="/sitemap-index.xml"/><link rel="alternate" type="application/rss+xml" href="https://awesome.hagicode.com/rss.xml"/><script>(() => {
+  let mode = 'wide';
+  try {
+    const stored = localStorage.getItem('hagilight-content-width');
+    if (stored === 'wide' || stored === 'narrow') mode = stored;
+  } catch {
+    mode = 'wide';
+  }
+  document.documentElement.dataset.hagilightContentWidth = mode;
+})();</script><script>(function () {
+  var choices = ["default","default-light","default-dark","ocean-light","ocean-dark","sakura-light","sakura-dark","forest-light","forest-dark"];
+  var choiceKey = "hagilight-theme";
+  var choice = 'default';
+  try {
+    var stored = localStorage.getItem(choiceKey);
+    if (choices.includes(stored)) choice = stored;
+  } catch (error) {}
+  var themeId = choice === 'default'
+    ? "forest"
+    : choice.slice(0, choice.lastIndexOf('-'));
+  document.documentElement.dataset.hagilightTheme = themeId;
+})();</script><link rel="icon" href="data:image/x-icon;base64,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" type="image/x-icon"/><link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml"/><meta name="generator" content="Astro v7.3.5"/><meta name="generator" content="Starlight v0.42.5"/><meta property="og:type" content="article"/><meta property="og:url" content="https://awesome.hagicode.com/es-ES/awesome/awesome-llm/"/><meta property="og:locale" content="es-ES"/><meta property="og:site_name" content="Awesome Site"/><meta name="twitter:card" content="summary_large_image"/><meta name="description" content="Una selección de artículos, herramientas de entrenamiento e implementación, cursos, tutoriales, puntos de control públicos y API para LLM."/><meta property="og:title" content="Awesome Site"/><meta property="og:description" content="Una selección de artículos, herramientas de entrenamiento e implementación, cursos, tutoriales, puntos de control públicos y API para LLM."/><meta name="twitter:title" content="Awesome Site"/><meta name="twitter:description" content="Una selección de artículos, herramientas de entrenamiento e implementación, cursos, tutoriales, puntos de control públicos y API para LLM."/><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Colecciones Awesome","item":"https://awesome.hagicode.com/es-ES/"},{"@type":"ListItem","position":2,"name":"Colecciones Awesome","item":"https://awesome.hagicode.com/es-ES/awesome/"},{"@type":"ListItem","position":3,"name":"LLM","item":"https://awesome.hagicode.com/es-ES/awesome/awesome-llm/"}]}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-EN03FMT2Q4"></script><script>(function(){const measurementId = "G-EN03FMT2Q4";
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', measurementId);
+    })();</script><script type="module" src="/_astro/GoogleAnalytics.astro_astro_type_script_index_0_lang.DR20hGCB.js"></script><script>
+	window.StarlightThemeProvider = (() => {
+		const storedTheme =
+			typeof localStorage !== 'undefined' && localStorage.getItem('starlight-theme');
+		const theme =
+			storedTheme ||
+			(window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+		document.documentElement.dataset.theme = theme === 'light' ? 'light' : 'dark';
+		return {
+			updatePickers(theme = storedTheme || 'auto') {
+				document.querySelectorAll('starlight-theme-select').forEach((picker) => {
+					const select = picker.querySelector('select');
+					if (select) select.value = theme;
+					/** @type {HTMLTemplateElement | null} */
+					const tmpl = document.querySelector(`#theme-icons`);
+					const newIcon = tmpl && tmpl.content.querySelector('.' + theme);
+					if (newIcon) {
+						const oldIcon = picker.querySelector('svg.label-icon');
+						if (oldIcon) {
+							oldIcon.replaceChildren(...newIcon.cloneNode(true).childNodes);
+						}
+					}
+				});
+			},
+		};
+	})();
+</script><template id="theme-icons"><svg aria-hidden="true" class="light astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg aria-hidden="true" class="dark astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg><svg aria-hidden="true" class="auto astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg></template><link rel="stylesheet" href="/_astro/print.ehPL0gv-.css" media="print"><link rel="stylesheet" href="/_astro/common.mVYJCJjM.css"><script type="module" src="/_astro/page.Dwipeu-R.js"></script></head><body class="astro-g5ptsecz"><a class="sl-skip-link astro-qb7clj6f" href="#_top">Ir al contenido</a><div class="page sl-flex astro-yntsjkba"><header class="header astro-yntsjkba"><div class="header astro-76dcl4nh"><div class="title-wrapper sl-flex astro-76dcl4nh"><a href="/es-ES" class="site-title sl-flex astro-6rvad3va"><img class="astro-6rvad3va" alt="HagiCode" src="/_astro/logo.COFWaAMt.png" width="32" height="32"><span class="astro-6rvad3va" translate="no">Awesome Site</span></a></div><div class="sl-flex print:hidden astro-76dcl4nh"><site-search class="astro-76dcl4nh astro-b5kgnn7o" data-translations="{&quot;placeholder&quot;:&quot;Buscar&quot;,&quot;clear_search&quot;:&quot;Limpiar&quot;,&quot;load_more&quot;:&quot;Cargar más resultados&quot;,&quot;search_label&quot;:&quot;Buscar página&quot;,&quot;filters_label&quot;:&quot;Filtros&quot;,&quot;zero_results&quot;:&quot;Ningún resultado para: [SEARCH_TERM]&quot;,&quot;many_results&quot;:&quot;[COUNT] resultados para: [SEARCH_TERM]&quot;,&quot;one_result&quot;:&quot;[COUNT] resultado para: [SEARCH_TERM]&quot;,&quot;alt_search&quot;:&quot;Ningún resultado para [SEARCH_TERM]. Mostrando resultados para: [DIFFERENT_TERM]&quot;,&quot;search_suggestion&quot;:&quot;Ningún resultado para [SEARCH_TERM]. Prueba alguna de estas búsquedas:&quot;,&quot;searching&quot;:&quot;Buscando [SEARCH_TERM]...&quot;}"><button data-open-modal disabled aria-label="Buscar" aria-keyshortcuts="Control+K" class="astro-b5kgnn7o"><svg aria-hidden="true" class="astro-b5kgnn7o astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.71 20.29 18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z"/></svg><span class="sl-hidden md:sl-block astro-b5kgnn7o" aria-hidden="true">Buscar</span><kbd class="sl-hidden md:sl-flex astro-b5kgnn7o" style="display: none;"><kbd class="astro-b5kgnn7o">Ctrl</kbd><kbd class="astro-b5kgnn7o">K</kbd></kbd></button><dialog style="padding:0" aria-label="Buscar" class="astro-b5kgnn7o"><div class="dialog-frame sl-flex astro-b5kgnn7o"><button data-close-modal class="sl-flex md:sl-hidden astro-b5kgnn7o">Cancelar</button><div class="search-container astro-b5kgnn7o"><div id="starlight__search" class="astro-b5kgnn7o"></div></div></div></dialog></site-search><script>
+	(() => {
+		const openBtn = document.querySelector('button[data-open-modal]');
+		const shortcut = openBtn?.querySelector('kbd');
+		if (!openBtn || !(shortcut instanceof HTMLElement)) return;
+		const platformKey = shortcut.querySelector('kbd');
+		if (platformKey && /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) {
+			platformKey.textContent = '⌘';
+			openBtn.setAttribute('aria-keyshortcuts', 'Meta+K');
+		}
+		shortcut.style.display = '';
+	})();
+</script><script type="module" src="/_astro/Search.astro_astro_type_script_index_0_lang.Bumivpjo.js"></script></div><div class="sl-hidden md:sl-flex print:hidden right-group astro-76dcl4nh"><nav class="header-links astro-76dcl4nh" aria-label="Site navigation"><a href="https://www.hagicode.com/es-ES/" data-ga-category="navigation" data-ga-label="home" data-ga-location="header" class="astro-76dcl4nh">Inicio</a><a href="https://docs.hagicode.com/es-ES/blog/" data-ga-category="navigation" data-ga-label="blog" data-ga-location="header" class="astro-76dcl4nh">Blog</a><a href="https://www.hagicode.com/es-ES/about/" data-ga-category="navigation" data-ga-label="support" data-ga-location="header" class="astro-76dcl4nh">Soporte</a></nav><div class="sl-flex social-icons astro-76dcl4nh"></div><hagilight-theme-select class="theme-picker astro-mexofp5s"><label style="--sl-select-width: 12.5em" class="astro-mexofp5s"><span class="sr-only astro-mexofp5s">Seleccionar tema</span><svg class="icon label-icon astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-mexofp5s"><option value="default" selected class="astro-mexofp5s">Predeterminado</option><optgroup label="Tema predeterminado" class="astro-mexofp5s"><option value="default-light" class="astro-mexofp5s">Predeterminado · Claro</option><option value="default-dark" class="astro-mexofp5s">Predeterminado · Oscuro</option></optgroup><optgroup label="Océano" class="astro-mexofp5s"><option value="ocean-light" class="astro-mexofp5s">Océano · Claro</option><option value="ocean-dark" class="astro-mexofp5s">Océano · Oscuro</option></optgroup><optgroup label="Sakura" class="astro-mexofp5s"><option value="sakura-light" class="astro-mexofp5s">Sakura · Claro</option><option value="sakura-dark" class="astro-mexofp5s">Sakura · Oscuro</option></optgroup><optgroup label="Bosque" class="astro-mexofp5s"><option value="forest-light" class="astro-mexofp5s">Bosque · Claro</option><option value="forest-dark" class="astro-mexofp5s">Bosque · Oscuro</option></optgroup></select><svg class="icon caret astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label><template class="mode-icons astro-mexofp5s"><svg class="mode-auto astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><svg class="mode-light astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg class="mode-dark astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg></template></hagilight-theme-select><script type="module">var e=`forest`,t=[`default`,`default-light`,`default-dark`,`ocean-light`,`ocean-dark`,`sakura-light`,`sakura-dark`,`forest-light`,`forest-dark`],n=`hagilight-theme`,r=`starlight-theme`,i=new Set(t);function a(e){return i.has(e)?e:`default`}function o(e){if(e==="default")return{themeId:`default`};let t=e.lastIndexOf(`-`);return{themeId:e.slice(0,t),mode:e.slice(t+1)}}function s(e){try{return globalThis.localStorage?.getItem(e)??null}catch{return null}}function c(e,t){try{globalThis.localStorage?.setItem(e,t)}catch{return}}function l(t){let{themeId:n,mode:r}=o(t);return r===void 0?e:n}function u(){return a(s(n))}function d(e,t=document.documentElement){let{mode:i}=o(e);t.dataset.hagilightTheme=l(e),i!==void 0&&(t.dataset.theme=i),c(n,e),c(r,i??``)}`${JSON.stringify(t)}${JSON.stringify(n)}${JSON.stringify(e)}`,{"de-de":{defaultOption:`Standard`,defaultThemeGroup:`Standard-Design`,themes:{ocean:`Ozean`,sakura:`Sakura`,forest:`Wald`}},"en-us":{defaultOption:`Default`,defaultThemeGroup:`Default theme`,themes:{ocean:`Ocean`,sakura:`Sakura`,forest:`Forest`}},"es-es":{defaultOption:`Predeterminado`,defaultThemeGroup:`Tema predeterminado`,themes:{ocean:`Océano`,sakura:`Sakura`,forest:`Bosque`}},"fr-fr":{defaultOption:`Par défaut`,defaultThemeGroup:`Thème par défaut`,themes:{ocean:`Océan`,sakura:`Sakura`,forest:`Forêt`}},"ja-jp":{defaultOption:`デフォルト`,defaultThemeGroup:`デフォルトテーマ`,themes:{ocean:`海`,sakura:`桜`,forest:`森`}},"ko-kr":{defaultOption:`기본값`,defaultThemeGroup:`기본 테마`,themes:{ocean:`바다`,sakura:`벚꽃`,forest:`숲`}},"pt-br":{defaultOption:`Padrão`,defaultThemeGroup:`Tema padrão`,themes:{ocean:`Oceano`,sakura:`Sakura`,forest:`Floresta`}},"ru-ru":{defaultOption:`По умолчанию`,defaultThemeGroup:`Стандартная тема`,themes:{ocean:`Океан`,sakura:`Сакура`,forest:`Лес`}},"zh-cn":{defaultOption:`默认`,defaultThemeGroup:`默认主题`,themes:{ocean:`海洋`,sakura:`樱花`,forest:`森林`}},"zh-hant":{defaultOption:`預設`,defaultThemeGroup:`預設主題`,themes:{ocean:`海洋`,sakura:`櫻花`,forest:`森林`}}}[`en-us`];var f=e=>e.endsWith(`-light`)?`mode-light`:e.endsWith(`-dark`)?`mode-dark`:`mode-auto`,p=class extends HTMLElement{connectedCallback(){if(this.dataset.initialized)return;this.dataset.initialized=`true`;let e=this.querySelector(`select`);if(!(e instanceof HTMLSelectElement))return;let t=t=>{e.value=t;let n=this.querySelector(`svg.label-icon`),r=this.querySelector(`template.mode-icons`)?.content.querySelector(`.${f(t)}`);n&&r&&n.replaceChildren(...r.cloneNode(!0).childNodes)};t(u()),e.addEventListener(`change`,()=>{let n=a(e.value);d(n),t(n)}),matchMedia(`(prefers-color-scheme: light)`).addEventListener(`change`,e=>{u()==="default"&&(document.documentElement.dataset.theme=e.matches?`light`:`dark`)})}};customElements.get(`hagilight-theme-select`)||customElements.define(`hagilight-theme-select`,p);</script><hagilight-language-chooser class="language-switcher astro-pykrs55g"><button type="button" class="language-trigger astro-pykrs55g" aria-haspopup="dialog" aria-controls="hagilight-language-dialog" aria-expanded="false" aria-label="Seleccionar idioma: Español (España)" title="Español (España)"><span class="trigger-label astro-pykrs55g">Español (España)</span><span class="trigger-chevron astro-pykrs55g" aria-hidden="true">▾</span></button><dialog id="hagilight-language-dialog" class="language-dialog astro-pykrs55g" aria-modal="true" aria-labelledby="language-dialog-title"><div class="dialog-header astro-pykrs55g"><div class="astro-pykrs55g"><h2 id="language-dialog-title" class="dialog-title astro-pykrs55g">Seleccionar idioma</h2><p class="dialog-current astro-pykrs55g">Idioma actual: <strong class="astro-pykrs55g">Español (España)</strong></p></div><button type="button" class="dialog-close astro-pykrs55g" aria-label="Cerrar selector de idioma">×</button></div><div class="language-grid-scroller astro-pykrs55g"><div class="language-grid astro-pykrs55g" role="listbox" aria-label="Seleccionar idioma"><button type="button" role="option" data-locale="root" data-href="/awesome/awesome-llm/" lang="en-US" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">English</span></button><button type="button" role="option" data-locale="zh-CN" data-href="/zh-CN/awesome/awesome-llm/" lang="zh-CN" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">简体中文</span></button><button type="button" role="option" data-locale="zh-Hant" data-href="/zh-Hant/awesome/awesome-llm/" lang="zh-Hant" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">繁體中文</span></button><button type="button" role="option" data-locale="fr-FR" data-href="/fr-FR/awesome/awesome-llm/" lang="fr-FR" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Français</span></button><button type="button" role="option" data-locale="de-DE" data-href="/de-DE/awesome/awesome-llm/" lang="de-DE" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Deutsch</span></button><button type="button" role="option" data-locale="es-ES" data-href="/es-ES/awesome/awesome-llm/" lang="es-ES" aria-selected="true" class="language-option language-option-selected astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Español (España)</span><span class="selected-badge astro-pykrs55g">Seleccionado</span></button><button type="button" role="option" data-locale="ja-JP" data-href="/ja-JP/awesome/awesome-llm/" lang="ja-JP" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">日本語</span></button><button type="button" role="option" data-locale="ko-KR" data-href="/ko-KR/awesome/awesome-llm/" lang="ko-KR" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">한국어</span></button><button type="button" role="option" data-locale="pt-BR" data-href="/pt-BR/awesome/awesome-llm/" lang="pt-BR" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Português (Brasil)</span></button><button type="button" role="option" data-locale="ru-RU" data-href="/ru-RU/awesome/awesome-llm/" lang="ru-RU" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Русский</span></button></div></div></dialog></hagilight-language-chooser><script type="module">Object.entries({root:{label:`English`,lang:`en-US`},"zh-CN":{label:`简体中文`,lang:`zh-CN`},"zh-Hant":{label:`繁體中文`,lang:`zh-Hant`},"fr-FR":{label:`Français`,lang:`fr-FR`},"de-DE":{label:`Deutsch`,lang:`de-DE`},"es-ES":{label:`Español (España)`,lang:`es-ES`},"ja-JP":{label:`日本語`,lang:`ja-JP`},"ko-KR":{label:`한국어`,lang:`ko-KR`},"pt-BR":{label:`Português (Brasil)`,lang:`pt-BR`},"ru-RU":{label:`Русский`,lang:`ru-RU`}}).map(([e,t])=>({code:e,label:t.label,lang:t.lang}));function e(e,t,n){if(n<1)return-1;switch(t){case`ArrowDown`:case`ArrowRight`:return(e+1)%n;case`ArrowUp`:case`ArrowLeft`:return(e-1+n)%n;case`Home`:return 0;case`End`:return n-1;default:return e}}function t(e){try{let t=window.localStorage.getItem(`starlight-route`),n={};if(t)try{let e=JSON.parse(t);e&&typeof e==`object`&&!Array.isArray(e)&&(n=e)}catch{n={}}window.localStorage.setItem(`starlight-route`,JSON.stringify({...n,lang:e}))}catch{}}var n=class extends HTMLElement{connectedCallback(){if(this.dataset.initialized)return;this.dataset.initialized=`true`;let n=this.querySelector(`.language-trigger`),r=this.querySelector(`.language-dialog`),i=this.querySelector(`.dialog-close`),a=[...this.querySelectorAll(`[role="option"]`)];if(!(n instanceof HTMLButtonElement)||!(r instanceof HTMLDialogElement)||!(i instanceof HTMLButtonElement))return;let o=()=>{r.open?r.close():n.focus()};n.addEventListener(`click`,()=>{if(r.open){o();return}r.showModal(),n.setAttribute(`aria-expanded`,`true`),(a.find(e=>e.getAttribute(`aria-selected`)===`true`)??a[0])?.focus()}),i.addEventListener(`click`,o),r.addEventListener(`cancel`,e=>{e.preventDefault(),o()}),r.addEventListener(`close`,()=>{n.setAttribute(`aria-expanded`,`false`),n.focus()}),r.addEventListener(`click`,e=>{e.target===r&&o()}),r.querySelector(`[role="listbox"]`)?.addEventListener(`keydown`,t=>{if(!(t.target instanceof HTMLButtonElement))return;let n=a.indexOf(t.target),r=e(n,t.key,a.length);r!==n&&(t.preventDefault(),a[r]?.focus())});for(let e of a)e.addEventListener(`click`,()=>{let n=e.dataset.locale,r=e.dataset.href;if(!n||!r||(o(),e.getAttribute(`aria-selected`)===`true`))return;t(n);let i=new URL(r,window.location.origin);i.search=window.location.search,i.hash=window.location.hash,window.location.assign(i.toString())})}};customElements.get(`hagilight-language-chooser`)||customElements.define(`hagilight-language-chooser`,n);</script></div></div></header><nav class="sidebar print:hidden astro-yntsjkba" aria-label="Primario"><button popovertarget="starlight__sidebar" class="sl-menu-button sl-flex md:sl-hidden print:hidden astro-r2osgdlg"><svg aria-hidden="true" class="open-menu astro-r2osgdlg astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M3 8h18a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"/></svg><svg aria-hidden="true" class="close-menu astro-r2osgdlg astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="m13.41 12 6.3-6.29a1.004 1.004 0 1 0-1.42-1.42L12 10.59l-6.29-6.3a1.004 1.004 0 0 0-1.42 1.42l6.3 6.29-6.3 6.29a1 1 0 0 0 0 1.42.998.998 0 0 0 1.42 0l6.29-6.3 6.29 6.3a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.42L13.41 12Z"/></svg><span class="sr-only astro-r2osgdlg">Menú</span></button><script type="module">var e=class extends HTMLElement{constructor(){super();let e=matchMedia(`(min-width: 50em)`),t=()=>{this.popover=e.matches?null:`auto`};t(),e.addEventListener(`change`,()=>t()),this.addEventListener(`toggle`,({newState:e})=>this.trapFocus(e===`open`))}trapFocus(e){document.querySelectorAll(`.main-frame, .sl-skip-link`).forEach(t=>{t.toggleAttribute(`inert`,e)})}};customElements.define(`sl-sidebar-pane`,e);</script><script type="module">var e=class extends HTMLElement{constructor(){super();let e=this.querySelector(`select`);e&&(e.addEventListener(`change`,e=>{e.currentTarget instanceof HTMLSelectElement&&(window.location.pathname=e.currentTarget.value)}),window.addEventListener(`pageshow`,t=>{if(!t.persisted)return;let n=e.querySelector(`option[selected]`)?.index;n!==e.selectedIndex&&(e.selectedIndex=n??0)}))}};customElements.define(`starlight-lang-select`,e);</script><sl-sidebar-pane popover id="starlight__sidebar" class="sidebar-pane astro-yntsjkba"><div class="sidebar-content sl-flex astro-yntsjkba"><sl-sidebar-state-persist data-hash="1s7qti4" class="astro-ipdry5cl"><script aria-hidden="true">
+		(() => {
+			try {
+				if (!matchMedia('(min-width: 50em)').matches) return;
+				/** @type {HTMLElement | null} */
+				const target = document.querySelector('sl-sidebar-state-persist');
+				const state = JSON.parse(sessionStorage.getItem('sl-sidebar-state') || '0');
+				if (!target || !state || target.dataset.hash !== state.hash) return;
+				window._starlightScrollRestore = state.scroll;
+				customElements.define(
+					'sl-sidebar-restore',
+					class SidebarRestore extends HTMLElement {
+						connectedCallback() {
+							try {
+								const idx = parseInt(this.dataset.index || '');
+								const details = this.closest('details');
+								if (details && typeof state.open[idx] === 'boolean') details.open = state.open[idx];
+							} catch {}
+						}
+					}
+				);
+			} catch {}
+		})();
+	</script><ul class="top-level astro-rmhv4bp6"><li class="astro-rmhv4bp6"><a href="/es-ES/" class="large astro-rmhv4bp6"><span class="astro-rmhv4bp6">Inicio</span></a></li><li class="astro-rmhv4bp6"><details open class="astro-rmhv4bp6"><summary class="astro-rmhv4bp6"><span class="group-label astro-rmhv4bp6"><span class="large astro-rmhv4bp6">Colecciones</span></span><svg aria-hidden="true" class="caret astro-rmhv4bp6 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="0"></sl-sidebar-restore><ul class="astro-rmhv4bp6"><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Colecciones y repositorios</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/android-security-awesome/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Android Security Awesome</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-3d-gaussian-splatting/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">3D Gaussian Splatting</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-actions/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Actions</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-agent-skills/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agent Skills</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-agentic-ai-zh/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agentic AI (Chinese)</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-agentic-patterns/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agentic Patterns</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-ai-apps/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">AI Apps</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-android-ui/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Android UI</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-ansible/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Ansible</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-automl-papers/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">AutoML Papers</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-bash/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Bash</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-chaos-engineering/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Chaos Engineering</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-chatgpt-prompts-zh/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">ChatGPT Prompts (Chinese)</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-chinese-nlp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Chinese NLP</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-chrome-devtools/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Chrome DevTools</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-cloud-security/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Cloud Security</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-codex-subagents/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Codex Subagents</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-compose/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Compose</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-console-services/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Console Services</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-copilot/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Copilot</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-coreml-models/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Core ML Models</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-cpp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">C++</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-ctf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">CTF</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-datascience/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Data Science</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-db-tools/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">DB Tools</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-deep-text-detection-recognition/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Deep Text Detection and Recognition</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-deepseek-integration/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">DeepSeek Integrations</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-design-md/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Design.md</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-design-systems/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Design Systems</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-django/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Django</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-docker/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Docker</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-dotnet/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">.NET</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-electron/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Electron</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-fastapi/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">FastAPI</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-flask/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Flask</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-generative-ai/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Generative AI</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-generative-ai-guide/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Generative AI Guide</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-github-profile-readme/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GitHub Profile README</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-golang-algorithm/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Golang Algorithm</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-gpt-agents/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GPT Agents</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-hacking/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Hacking</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-incident-response/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Incident Response</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-jellyfin/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Jellyfin</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-k8s-resources/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Kubernetes Resources</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-knowledge-distillation/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Knowledge Distillation</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-llm/" aria-current="page" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-llm-apps/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM Apps</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-llm-resources/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM Resources</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-llm-strawberry/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM Strawberry</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-microservices/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Microservices</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-nlp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">NLP</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-nodejs/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Node.js</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-paddle-deeplearning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">DeepLearning</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-php/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PHP</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-postgres/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PostgreSQL</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-privacy/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Privacy</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-production-machine-learning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Production Machine Learning</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-prompt-engineering/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Prompt Engineering</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-rag/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">RAG</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-react-components/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">React Components</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-react-hooks/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">React Hooks</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-red-teaming/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Red Teaming</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-rlhf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">RLHF</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-rust/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Rust</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-scalability/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Scalability</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-shell/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Shell</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-shodan-queries/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Shodan Queries</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-software-architecture/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Software Architecture</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-sre/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">SRE</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-swift/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Swift</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-system-design/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">System Design</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-tf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Terraform</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-threat-intelligence/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Threat Intelligence</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-typescript/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">TypeScript</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-waf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">WAF</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-web-hacking/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Web Hacking</span></a></li></ul></details></li><li class="astro-rmhv4bp6"><details open class="astro-rmhv4bp6"><summary class="astro-rmhv4bp6"><span class="group-label astro-rmhv4bp6"><span class="large astro-rmhv4bp6">Explorar por tema</span></span><svg aria-hidden="true" class="caret astro-rmhv4bp6 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="1"></sl-sidebar-restore><ul class="astro-rmhv4bp6"><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/ai-agents/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agentes de IA</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/algorithms/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Algoritmos y estructuras de datos</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/android-ui/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Interfaces de Android</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/ansible/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Ansible</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/computer-vision/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Visión artificial</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/cpp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">C / C++</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/cybersecurity/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Ciberseguridad</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/databases/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Bases de datos</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/deep-learning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Aprendizaje profundo</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/design-systems/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Sistemas de diseño</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/docker/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Docker</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/dotnet/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">.NET</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/electron/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Electron</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/github-actions/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GitHub Actions</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/github-profile-readme/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">README de perfil de GitHub</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/javascript/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">JavaScript</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/kubernetes/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Kubernetes</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/llm-apps/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Aplicaciones para LLM</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/llm-research/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Investigación sobre LLM</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/machine-learning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Aprendizaje automático</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/mlops/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">MLOps</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/nlp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Procesamiento del lenguaje natural</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/nodejs/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Node.js</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/php/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PHP</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/postgresql/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PostgreSQL</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/python/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Python</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/rag/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Generación aumentada por recuperación</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/react/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">React</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/rust/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Rust</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/scalability/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Arquitectura y escalabilidad</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/self-hosted/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Software autoalojado</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/shell/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Shell y línea de comandos</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/swift/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Swift</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/sysadmin/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Administración de sistemas</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/terraform-opentofu/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Terraform y OpenTofu</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/typescript/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">TypeScript</span></a></li></ul></details></li></ul><script aria-hidden="true">
+		(() => {
+			const scroller = document.getElementById('starlight__sidebar');
+			if (!window._starlightScrollRestore || !scroller) return;
+			scroller.scrollTop = window._starlightScrollRestore;
+			delete window._starlightScrollRestore;
+		})();
+	</script></sl-sidebar-state-persist><div class="md:sl-hidden"><div class="mobile-preferences sl-flex astro-p4azlveh"><div class="social-icons astro-p4azlveh"></div><hagilight-theme-select class="theme-picker astro-mexofp5s"><label style="--sl-select-width: 12.5em" class="astro-mexofp5s"><span class="sr-only astro-mexofp5s">Seleccionar tema</span><svg class="icon label-icon astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-mexofp5s"><option value="default" selected class="astro-mexofp5s">Predeterminado</option><optgroup label="Tema predeterminado" class="astro-mexofp5s"><option value="default-light" class="astro-mexofp5s">Predeterminado · Claro</option><option value="default-dark" class="astro-mexofp5s">Predeterminado · Oscuro</option></optgroup><optgroup label="Océano" class="astro-mexofp5s"><option value="ocean-light" class="astro-mexofp5s">Océano · Claro</option><option value="ocean-dark" class="astro-mexofp5s">Océano · Oscuro</option></optgroup><optgroup label="Sakura" class="astro-mexofp5s"><option value="sakura-light" class="astro-mexofp5s">Sakura · Claro</option><option value="sakura-dark" class="astro-mexofp5s">Sakura · Oscuro</option></optgroup><optgroup label="Bosque" class="astro-mexofp5s"><option value="forest-light" class="astro-mexofp5s">Bosque · Claro</option><option value="forest-dark" class="astro-mexofp5s">Bosque · Oscuro</option></optgroup></select><svg class="icon caret astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label><template class="mode-icons astro-mexofp5s"><svg class="mode-auto astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><svg class="mode-light astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg class="mode-dark astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg></template></hagilight-theme-select><starlight-lang-select><label style="--sl-select-width: 7em" class="astro-2z5xp7gb"><span class="sr-only astro-2z5xp7gb">Seleccionar idioma</span><svg aria-hidden="true" class="icon label-icon astro-2z5xp7gb astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path fill-rule="evenodd" d="M8.516 3a.94.94 0 0 0-.941.94v1.15H2.94a.94.94 0 1 0 0 1.882h7.362a7.422 7.422 0 0 1-1.787 3.958 7.42 7.42 0 0 1-1.422-2.425.94.94 0 1 0-1.774.627 9.303 9.303 0 0 0 1.785 3.043 7.422 7.422 0 0 1-4.164 1.278.94.94 0 1 0 0 1.881 9.303 9.303 0 0 0 5.575-1.855 9.303 9.303 0 0 0 4.11 1.74l-.763 1.525a.968.968 0 0 0-.016.034l-1.385 2.77a.94.94 0 1 0 1.683.841l1.133-2.267h5.806l1.134 2.267a.94.94 0 0 0 1.683-.841l-1.385-2.769a.95.95 0 0 0-.018-.036l-3.476-6.951a.94.94 0 0 0-1.682 0l-1.82 3.639a7.423 7.423 0 0 1-3.593-1.256 9.303 9.303 0 0 0 2.27-5.203h1.894a.94.94 0 0 0 0-1.881H9.456V3.94A.94.94 0 0 0 8.516 3Zm6.426 11.794a1.068 1.068 0 0 1-.02.039l-.703 1.407h3.924l-1.962-3.924-1.24 2.478Z" clip-rule="evenodd"/></svg><select autocomplete="off" class="astro-2z5xp7gb"><option value="/awesome/awesome-llm/" class="astro-2z5xp7gb">English</option><option value="/zh-CN/awesome/awesome-llm/" class="astro-2z5xp7gb">简体中文</option><option value="/zh-Hant/awesome/awesome-llm/" class="astro-2z5xp7gb">繁體中文</option><option value="/fr-FR/awesome/awesome-llm/" class="astro-2z5xp7gb">Français</option><option value="/de-DE/awesome/awesome-llm/" class="astro-2z5xp7gb">Deutsch</option><option value="/es-ES/awesome/awesome-llm/" selected class="astro-2z5xp7gb">Español (España)</option><option value="/ja-JP/awesome/awesome-llm/" class="astro-2z5xp7gb">日本語</option><option value="/ko-KR/awesome/awesome-llm/" class="astro-2z5xp7gb">한국어</option><option value="/pt-BR/awesome/awesome-llm/" class="astro-2z5xp7gb">Português (Brasil)</option><option value="/ru-RU/awesome/awesome-llm/" class="astro-2z5xp7gb">Русский</option></select><svg aria-hidden="true" class="icon caret astro-2z5xp7gb astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label></starlight-lang-select></div></div></div></sl-sidebar-pane></nav><div class="main-frame astro-yntsjkba"><script type="module">var e=document.getElementById(`starlight__sidebar`),t=e?.querySelector(`sl-sidebar-state-persist`),n=`sl-sidebar-state`,r=()=>{let r=[],i=t?.dataset.hash||``;try{let e=sessionStorage.getItem(n),t=JSON.parse(e||`{}`);Array.isArray(t.open)&&t.hash===i&&(r=t.open)}catch{}return{hash:i,open:r,scroll:e?.scrollTop||0}},i=e=>{try{sessionStorage.setItem(n,JSON.stringify(e))}catch{}},a=()=>i(r()),o=(e,t)=>{let n=r();n.open[t]=e,i(n)};t?.addEventListener(`click`,e=>{if(!(e.target instanceof Element))return;let t=e.target.closest(`summary`)?.closest(`details`);if(!t)return;let n=t.querySelector(`sl-sidebar-restore`),r=parseInt(n?.dataset.index||``);isNaN(r)||o(!t.open,r)}),addEventListener(`visibilitychange`,()=>{document.visibilityState===`hidden`&&a()});</script><div class="lg:sl-flex astro-lrzkfocr"><aside class="right-sidebar-container print:hidden astro-lrzkfocr"><div class="right-sidebar astro-lrzkfocr"><div class="lg:sl-hidden astro-qok35upx"><mobile-starlight-toc data-min-h="2" data-max-h="3" class="astro-66cqc7ze"><nav aria-labelledby="starlight__on-this-page--mobile" class="astro-66cqc7ze"><details id="starlight__mobile-toc" class="astro-66cqc7ze"><summary id="starlight__on-this-page--mobile" class="sl-flex astro-66cqc7ze"><span class="toggle sl-flex astro-66cqc7ze">En esta página<svg aria-hidden="true" class="caret astro-66cqc7ze astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></span><span class="display-current astro-66cqc7ze"></span></summary><div class="dropdown astro-66cqc7ze"><ul class="isMobile astro-jugkfwgx" style="--depth: 0;"><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#_top" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Sinopsis</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#proyectos-de-llm-de-tendencia" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Proyectos de LLM de tendencia</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#índice" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Índice</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#artículos-fundamentales" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Artículos fundamentales</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#otros-artículos" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Otros artículos</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#clasificaciones-de-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Clasificaciones de LLM</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#llm-de-código-abierto" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">LLM de código abierto</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#datos-de-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Datos de LLM</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#evaluación-de-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Evaluación de LLM:</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#marcos-de-entrenamiento-de-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Marcos de entrenamiento de LLM</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#inferencia-de-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Inferencia de LLM</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#aplicaciones-de-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Aplicaciones de LLM</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#tutoriales-y-cursos-sobre-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Tutoriales y cursos sobre LLM</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#libros-sobre-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Libros sobre LLM</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#grandes-ideas-sobre-los-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Grandes ideas sobre los LLM</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#miscelánea" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Miscelánea</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#colaboraciones" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Colaboraciones</span></a></li></ul></div></details></nav></mobile-starlight-toc><script type="module" src="/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.C3fM4Kra.js"></script></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-qok35upx"><div class="sl-container astro-qok35upx"><starlight-toc data-min-h="2" data-max-h="3"><nav aria-labelledby="starlight__on-this-page"><h2 id="starlight__on-this-page">En esta página</h2><ul class="astro-jugkfwgx" style="--depth: 0;"><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#_top" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Sinopsis</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#proyectos-de-llm-de-tendencia" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Proyectos de LLM de tendencia</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#índice" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Índice</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#artículos-fundamentales" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Artículos fundamentales</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#otros-artículos" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Otros artículos</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#clasificaciones-de-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Clasificaciones de LLM</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#llm-de-código-abierto" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">LLM de código abierto</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#datos-de-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Datos de LLM</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#evaluación-de-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Evaluación de LLM:</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#marcos-de-entrenamiento-de-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Marcos de entrenamiento de LLM</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#inferencia-de-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Inferencia de LLM</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#aplicaciones-de-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Aplicaciones de LLM</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#tutoriales-y-cursos-sobre-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Tutoriales y cursos sobre LLM</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#libros-sobre-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Libros sobre LLM</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#grandes-ideas-sobre-los-llm" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Grandes ideas sobre los LLM</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#miscelánea" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Miscelánea</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#colaboraciones" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Colaboraciones</span></a></li></ul></nav></starlight-toc><script type="module" src="/_astro/TableOfContents.astro_astro_type_script_index_0_lang.BpJaGz7G.js"></script></div></div></div></aside><div class="main-pane astro-lrzkfocr"><main data-pagefind-body class="astro-g5ptsecz" lang="es-ES" dir="ltr"><div class="content-panel astro-a7po4psb"><div class="sl-container astro-a7po4psb"><h1 id="_top" class="astro-bebwqqxs">LLM</h1><div class="hagilight-content-width-toggle" role="group" aria-label="Ancho del contenido"><button type="button" data-hagilight-content-width-choice="wide" aria-pressed="true">Ancho</button><button type="button" data-hagilight-content-width-choice="narrow" aria-pressed="false">Estrecho</button></div><script type="module">var e=`hagilight-content-width`,t=new Set([`wide`,`narrow`]);function n(e){return t.has(e)?e:`wide`}function r(e,t){e.querySelectorAll(`[data-hagilight-content-width-choice]`).forEach(e=>{e.setAttribute(`aria-pressed`,String(e.dataset.hagilightContentWidthChoice===t))})}function i(t=document.documentElement){let i=`wide`;try{i=n(globalThis.localStorage.getItem(e))}catch{i=`wide`}return t.dataset.hagilightContentWidth=i,r(t,i),i}function a(n,i=document.documentElement){if(!t.has(n))throw TypeError(`Hagilight content width must be "wide" or "narrow".`);i.dataset.hagilightContentWidth=n,r(i,n);try{globalThis.localStorage.setItem(e,n)}catch{return}}function o(e,t=document.documentElement){if(e.key!==`hagilight-content-width`&&e.key!==null)return;let i=n(e.newValue);t.dataset.hagilightContentWidth=i,r(t,i)}var s=document.documentElement;i(s),document.querySelectorAll(`[data-hagilight-content-width-choice]`).forEach(e=>{e.addEventListener(`click`,()=>{a(e.dataset.hagilightContentWidthChoice,s)})}),window.addEventListener(`storage`,e=>o(e,s));</script><nav class="awesome-topic-nav" aria-label="Temas"><span>Temas</span><ul><li><a href="/es-ES/awesome/tags/llm-research/" data-ga-category="navigation" data-ga-label="llm-research" data-ga-location="topic_nav">Investigación sobre LLM</a></li></ul></nav></div></div><div class="content-panel astro-a7po4psb"><div class="sl-container astro-a7po4psb"><div class="sl-markdown-content"><blockquote>
+<p><strong>Source:</strong> <a href="https://github.com/Hannibal046/Awesome-LLM">https://github.com/Hannibal046/Awesome-LLM</a> at <a href="https://github.com/Hannibal046/Awesome-LLM/blob/538eed00fcb05634fd81a68e24397c620fdcd3e8/README.md"><code dir="auto">538eed00fcb0</code></a><br>
+<strong>License:</strong> <a href="https://github.com/Hannibal046/Awesome-LLM/blob/538eed00fcb05634fd81a68e24397c620fdcd3e8/LICENSE.md">CC0-1.0</a><br>
+<a href="/awesome/awesome-llm/">Read the English original</a></p>
+</blockquote>
+<blockquote>
+<p>This edition is an AI-assisted translation.</p>
+</blockquote>
+<div class="sl-heading-wrapper level-h1"><h1 id="awesome-llm-">Awesome-LLM <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a></h1><a class="sl-anchor-link" href="#awesome-llm-"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Awesome-LLM »</span></a></div>
+<p><img src="https://raw.githubusercontent.com/Hannibal046/Awesome-LLM/538eed00fcb05634fd81a68e24397c620fdcd3e8/resources/image8.gif" alt=""></p>
+<p>🔥 Los modelos de lenguaje grandes (LLM) han revolucionado primero a la <del>comunidad de NLP</del>, luego a la <del>comunidad de IA</del> y ahora a <strong>todo el mundo</strong>. Aquí encontrarás una selección de artículos sobre modelos de lenguaje grandes, especialmente los relacionados con ChatGPT. También incluye marcos de trabajo para entrenar LLM, herramientas para desplegarlos, cursos y tutoriales sobre LLM, así como todos los puntos de control y API de LLM disponibles públicamente.</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="proyectos-de-llm-de-tendencia"><span id="trending-llm-projects" class="awesome-anchor-alias" aria-hidden="true"></span>Proyectos de LLM de tendencia</h2><a class="sl-anchor-link" href="#proyectos-de-llm-de-tendencia"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Proyectos de LLM de tendencia»</span></a></div>
+<ul>
+<li><a href="https://github.com/Jiayi-Pan/TinyZero">TinyZero</a> - Reproducción limpia, minimalista y accesible de DeepSeek R1-Zero</li>
+<li><a href="https://github.com/huggingface/open-r1">open-r1</a> - Reproducción completamente abierta de DeepSeek-R1</li>
+<li><a href="https://github.com/deepseek-ai/DeepSeek-R1">DeepSeek-R1</a> - Modelos de razonamiento de primera generación de DeepSeek.</li>
+<li><a href="https://qwenlm.github.io/blog/qwen2.5-max/">Qwen2.5-Max</a> - Exploración de la inteligencia de los modelos MoE a gran escala.</li>
+<li><a href="https://openai.com/index/openai-o3-mini/">OpenAI o3-mini</a> - Ampliando las posibilidades del razonamiento rentable.</li>
+<li><a href="https://github.com/deepseek-ai/DeepSeek-V3">DeepSeek-V3</a> - El primer modelo de nivel GPT-4o con código fuente abierto.</li>
+<li><a href="https://github.com/MoonshotAI/Kimi-K2">Kimi-K2</a> - Modelo de lenguaje MoE con 32B de parámetros activos y 1T de parámetros totales.</li>
+</ul>
+<div class="sl-heading-wrapper level-h2"><h2 id="índice"><span id="table-of-content" class="awesome-anchor-alias" aria-hidden="true"></span>Índice</h2><a class="sl-anchor-link" href="#índice"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Índice»</span></a></div>
+<ul>
+<li><a href="#awesome-llm-">Awesome-LLM </a>
+<ul>
+<li><a href="#milestone-papers">Artículos fundamentales</a></li>
+<li><a href="#other-papers">Otros artículos</a></li>
+<li><a href="#llm-leaderboard">Clasificaciones de LLM</a></li>
+<li><a href="#open-llm">LLM de código abierto</a></li>
+<li><a href="#llm-data">Datos de LLM</a></li>
+<li><a href="#llm-evaluation">Evaluación de LLM</a></li>
+<li><a href="#llm-training-frameworks">Marcos de entrenamiento de LLM</a></li>
+<li><a href="#llm-inference">Inferencia de LLM</a></li>
+<li><a href="#llm-applications">Aplicaciones de LLM</a></li>
+<li><a href="#llm-tutorials-and-courses">Tutoriales y cursos sobre LLM</a></li>
+<li><a href="#llm-books">Libros sobre LLM</a></li>
+<li><a href="#great-thoughts-about-llm">Grandes ideas sobre los LLM</a></li>
+<li><a href="#miscellaneous">Miscelánea</a></li>
+</ul>
+</li>
+</ul>
+<div class="sl-heading-wrapper level-h2"><h2 id="artículos-fundamentales"><span id="milestone-papers" class="awesome-anchor-alias" aria-hidden="true"></span>Artículos fundamentales</h2><a class="sl-anchor-link" href="#artículos-fundamentales"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Artículos fundamentales»</span></a></div>
+<details>
+<summary> artículos fundamentales </summary>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center">Fecha</th><th align="center">palabras clave</th><th align="center">Institución</th><th>Artículo</th></tr></thead><tbody><tr><td align="center">2017-06</td><td align="center">Transformers</td><td align="center">Google</td><td><a href="https://arxiv.org/pdf/1706.03762.pdf">Attention Is All You Need</a></td></tr><tr><td align="center">2018-06</td><td align="center">GPT 1.0</td><td align="center">OpenAI</td><td><a href="https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf">Improving Language Understanding by Generative Pre-Training</a></td></tr><tr><td align="center">2018-10</td><td align="center">BERT</td><td align="center">Google</td><td><a href="https://aclanthology.org/N19-1423.pdf">BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</a></td></tr><tr><td align="center">2019-02</td><td align="center">GPT 2.0</td><td align="center">OpenAI</td><td><a href="https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">Language Models are Unsupervised Multitask Learners</a></td></tr><tr><td align="center">2019-09</td><td align="center">Megatron-LM</td><td align="center">NVIDIA</td><td><a href="https://arxiv.org/pdf/1909.08053.pdf">Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism</a></td></tr><tr><td align="center">2019-10</td><td align="center">T5</td><td align="center">Google</td><td><a href="https://jmlr.org/papers/v21/20-074.html">Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer</a></td></tr><tr><td align="center">2019-10</td><td align="center">ZeRO</td><td align="center">Microsoft</td><td><a href="https://arxiv.org/pdf/1910.02054.pdf">ZeRO: Memory Optimizations Toward Training Trillion Parameter Models</a></td></tr><tr><td align="center">2020-01</td><td align="center">Ley de escalado</td><td align="center">OpenAI</td><td><a href="https://arxiv.org/pdf/2001.08361.pdf">Scaling Laws for Neural Language Models</a></td></tr><tr><td align="center">2020-05</td><td align="center">GPT 3.0</td><td align="center">OpenAI</td><td><a href="https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf">Language models are few-shot learners</a></td></tr><tr><td align="center">2021-01</td><td align="center">Switch Transformers</td><td align="center">Google</td><td><a href="https://arxiv.org/pdf/2101.03961.pdf">Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity</a></td></tr><tr><td align="center">2021-08</td><td align="center">Codex</td><td align="center">OpenAI</td><td><a href="https://arxiv.org/pdf/2107.03374.pdf">Evaluating Large Language Models Trained on Code</a></td></tr><tr><td align="center">2021-08</td><td align="center">Modelos fundacionales</td><td align="center">Stanford</td><td><a href="https://arxiv.org/pdf/2108.07258.pdf">On the Opportunities and Risks of Foundation Models</a></td></tr><tr><td align="center">2021-09</td><td align="center">FLAN</td><td align="center">Google</td><td><a href="https://openreview.net/forum?id=gEZrGCozdqR">Finetuned Language Models are Zero-Shot Learners</a></td></tr><tr><td align="center">2021-10</td><td align="center">T0</td><td align="center">HuggingFace et al.</td><td><a href="https://arxiv.org/abs/2110.08207">Multitask Prompted Training Enables Zero-Shot Task Generalization</a></td></tr><tr><td align="center">2021-12</td><td align="center">GLaM</td><td align="center">Google</td><td><a href="https://arxiv.org/pdf/2112.06905.pdf">GLaM: Efficient Scaling of Language Models with Mixture-of-Experts</a></td></tr><tr><td align="center">2021-12</td><td align="center">WebGPT</td><td align="center">OpenAI</td><td><a href="https://www.semanticscholar.org/paper/WebGPT%3A-Browser-assisted-question-answering-with-Nakano-Hilton/2f3efe44083af91cef562c1a3451eee2f8601d22">WebGPT: Browser-assisted question-answering with human feedback</a></td></tr><tr><td align="center">2021-12</td><td align="center">Retro</td><td align="center">DeepMind</td><td><a href="https://www.deepmind.com/publications/improving-language-models-by-retrieving-from-trillions-of-tokens">Improving language models by retrieving from trillions of tokens</a></td></tr><tr><td align="center">2021-12</td><td align="center">Gopher</td><td align="center">DeepMind</td><td><a href="https://arxiv.org/pdf/2112.11446.pdf">Scaling Language Models: Methods, Analysis &#x26; Insights from Training Gopher</a></td></tr><tr><td align="center">2022-01</td><td align="center">COT</td><td align="center">Google</td><td><a href="https://arxiv.org/pdf/2201.11903.pdf">Chain-of-Thought Prompting Elicits Reasoning in Large Language Models</a></td></tr><tr><td align="center">2022-01</td><td align="center">LaMDA</td><td align="center">Google</td><td><a href="https://arxiv.org/pdf/2201.08239.pdf">LaMDA: Language Models for Dialog Applications</a></td></tr><tr><td align="center">2022-01</td><td align="center">Minerva</td><td align="center">Google</td><td><a href="https://arxiv.org/abs/2206.14858">Solving Quantitative Reasoning Problems with Language Models</a></td></tr><tr><td align="center">2022-01</td><td align="center">Megatron-Turing NLG</td><td align="center">Microsoft&#x26;NVIDIA</td><td><a href="https://arxiv.org/pdf/2201.11990.pdf">Using Deep and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model</a></td></tr><tr><td align="center">2022-03</td><td align="center">InstructGPT</td><td align="center">OpenAI</td><td><a href="https://arxiv.org/pdf/2203.02155.pdf">Training language models to follow instructions with human feedback</a></td></tr><tr><td align="center">2022-04</td><td align="center">PaLM</td><td align="center">Google</td><td><a href="https://arxiv.org/pdf/2204.02311.pdf">PaLM: Scaling Language Modeling with Pathways</a></td></tr><tr><td align="center">2022-04</td><td align="center">Chinchilla</td><td align="center">DeepMind</td><td><a href="https://arxiv.org/pdf/2203.15556">Training Compute-Optimal Large Language Models</a></td></tr><tr><td align="center">2022-05</td><td align="center">OPT</td><td align="center">Meta</td><td><a href="https://arxiv.org/pdf/2205.01068.pdf">OPT: Open Pre-trained Transformer Language Models</a></td></tr><tr><td align="center">2022-05</td><td align="center">UL2</td><td align="center">Google</td><td><a href="https://arxiv.org/abs/2205.05131v1">Unifying Language Learning Paradigms</a></td></tr><tr><td align="center">2022-06</td><td align="center">Capacidades emergentes</td><td align="center">Google</td><td><a href="https://openreview.net/pdf?id=yzkSU5zdwD">Emergent Abilities of Large Language Models</a></td></tr><tr><td align="center">2022-06</td><td align="center">BIG-bench</td><td align="center">Google</td><td><a href="https://github.com/google/BIG-bench">Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models</a></td></tr><tr><td align="center">2022-06</td><td align="center">METALM</td><td align="center">Microsoft</td><td><a href="https://arxiv.org/pdf/2206.06336.pdf">Language Models are General-Purpose Interfaces</a></td></tr><tr><td align="center">2022-09</td><td align="center">Sparrow</td><td align="center">DeepMind</td><td><a href="https://arxiv.org/pdf/2209.14375.pdf">Improving alignment of dialogue agents via targeted human judgements</a></td></tr><tr><td align="center">2022-10</td><td align="center">Flan-T5/PaLM</td><td align="center">Google</td><td><a href="https://arxiv.org/pdf/2210.11416.pdf">Scaling Instruction-Finetuned Language Models</a></td></tr><tr><td align="center">2022-10</td><td align="center">GLM-130B</td><td align="center">Tsinghua</td><td><a href="https://arxiv.org/pdf/2210.02414.pdf">GLM-130B: An Open Bilingual Pre-trained Model</a></td></tr><tr><td align="center">2022-11</td><td align="center">HELM</td><td align="center">Stanford</td><td><a href="https://arxiv.org/pdf/2211.09110.pdf">Holistic Evaluation of Language Models</a></td></tr><tr><td align="center">2022-11</td><td align="center">BLOOM</td><td align="center">BigScience</td><td><a href="https://arxiv.org/pdf/2211.05100.pdf">BLOOM: A 176B-Parameter Open-Access Multilingual Language Model</a></td></tr><tr><td align="center">2022-11</td><td align="center">Galactica</td><td align="center">Meta</td><td><a href="https://arxiv.org/pdf/2211.09085.pdf">Galactica: A Large Language Model for Science</a></td></tr><tr><td align="center">2022-12</td><td align="center">OPT-IML</td><td align="center">Meta</td><td><a href="https://arxiv.org/pdf/2212.12017">OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization</a></td></tr><tr><td align="center">2023-01</td><td align="center">Flan 2022 Collection</td><td align="center">Google</td><td><a href="https://arxiv.org/pdf/2301.13688.pdf">The Flan Collection: Designing Data and Methods for Effective Instruction Tuning</a></td></tr><tr><td align="center">2023-02</td><td align="center">LLaMA</td><td align="center">Meta</td><td><a href="https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/">LLaMA: Open and Efficient Foundation Language Models</a></td></tr><tr><td align="center">2023-02</td><td align="center">Kosmos-1</td><td align="center">Microsoft</td><td><a href="https://arxiv.org/abs/2302.14045">Language Is Not All You Need: Aligning Perception with Language Models</a></td></tr><tr><td align="center">2023-03</td><td align="center">LRU</td><td align="center">DeepMind</td><td><a href="https://arxiv.org/abs/2303.06349">Resurrecting Recurrent Neural Networks for Long Sequences</a></td></tr><tr><td align="center">2023-03</td><td align="center">PaLM-E</td><td align="center">Google</td><td><a href="https://palm-e.github.io">PaLM-E: An Embodied Multimodal Language Model</a></td></tr><tr><td align="center">2023-03</td><td align="center">GPT 4</td><td align="center">OpenAI</td><td><a href="https://openai.com/research/gpt-4">GPT-4 Technical Report</a></td></tr><tr><td align="center">2023-04</td><td align="center">LLaVA</td><td align="center">UW–Madison&#x26;Microsoft</td><td><a href="https://arxiv.org/abs/2304.08485">Visual Instruction Tuning</a></td></tr><tr><td align="center">2023-04</td><td align="center">Pythia</td><td align="center">EleutherAI et al.</td><td><a href="https://arxiv.org/abs/2304.01373">Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling</a></td></tr><tr><td align="center">2023-05</td><td align="center">Dromedary</td><td align="center">CMU et al.</td><td><a href="https://arxiv.org/abs/2305.03047">Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision</a></td></tr><tr><td align="center">2023-05</td><td align="center">PaLM 2</td><td align="center">Google</td><td><a href="https://ai.google/static/documents/palm2techreport.pdf">PaLM 2 Technical Report</a></td></tr><tr><td align="center">2023-05</td><td align="center">RWKV</td><td align="center">Bo Peng</td><td><a href="https://arxiv.org/abs/2305.13048">RWKV: Reinventing RNNs for the Transformer Era</a></td></tr><tr><td align="center">2023-05</td><td align="center">DPO</td><td align="center">Stanford</td><td><a href="https://arxiv.org/pdf/2305.18290.pdf">Direct Preference Optimization: Your Language Model is Secretly a Reward Model</a></td></tr><tr><td align="center">2023-05</td><td align="center">ToT</td><td align="center">Google&#x26;Princeton</td><td><a href="https://arxiv.org/pdf/2305.10601.pdf">Tree of Thoughts: Deliberate Problem Solving with Large Language Models</a></td></tr><tr><td align="center">2023-07</td><td align="center">LLaMA2</td><td align="center">Meta</td><td><a href="https://arxiv.org/pdf/2307.09288.pdf">Llama 2: Open Foundation and Fine-Tuned Chat Models</a></td></tr><tr><td align="center">2023-10</td><td align="center">Mistral 7B</td><td align="center">Mistral</td><td><a href="https://arxiv.org/pdf/2310.06825.pdf">Mistral 7B</a></td></tr><tr><td align="center">2023-12</td><td align="center">Mamba</td><td align="center">CMU&#x26;Princeton</td><td><a href="https://arxiv.org/pdf/2312.00752">Mamba: Linear-Time Sequence Modeling with Selective State Spaces</a></td></tr><tr><td align="center">2024-01</td><td align="center">DeepSeek-v2</td><td align="center">DeepSeek</td><td><a href="https://arxiv.org/abs/2405.04434">DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model</a></td></tr><tr><td align="center">2024-02</td><td align="center">OLMo</td><td align="center">Ai2</td><td><a href="https://arxiv.org/abs/2402.00838">OLMo: Accelerating the Science of Language Models</a></td></tr><tr><td align="center">2024-05</td><td align="center">Mamba2</td><td align="center">CMU&#x26;Princeton</td><td><a href="https://arxiv.org/abs/2405.21060">Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality</a></td></tr><tr><td align="center">2024-05</td><td align="center">Llama3</td><td align="center">Meta</td><td><a href="https://arxiv.org/abs/2407.21783">The Llama 3 Herd of Models</a></td></tr><tr><td align="center">2024-06</td><td align="center">FineWeb</td><td align="center">HuggingFace</td><td><a href="https://arxiv.org/abs/2406.17557">The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale</a></td></tr><tr><td align="center">2024-09</td><td align="center">OLMoE</td><td align="center">Ai2</td><td><a href="https://arxiv.org/abs/2409.02060">OLMoE: Open Mixture-of-Experts Language Models</a></td></tr><tr><td align="center">2024-12</td><td align="center">Qwen2.5</td><td align="center">Alibaba</td><td><a href="https://arxiv.org/abs/2412.15115">Qwen2.5 Technical Report</a></td></tr><tr><td align="center">2024-12</td><td align="center">DeepSeek-V3</td><td align="center">DeepSeek</td><td><a href="https://arxiv.org/abs/2412.19437v1">DeepSeek-V3 Technical Report</a></td></tr><tr><td align="center">2025-01</td><td align="center">DeepSeek-R1</td><td align="center">DeepSeek</td><td><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning</a></td></tr></tbody></table>
+</details>
+<div class="sl-heading-wrapper level-h2"><h2 id="otros-artículos"><span id="other-papers" class="awesome-anchor-alias" aria-hidden="true"></span>Otros artículos</h2><a class="sl-anchor-link" href="#otros-artículos"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Otros artículos»</span></a></div>
+<blockquote>
+<p>[!NOTE]
+Si te interesa el campo de los LLM, la lista anterior de artículos fundamentales puede ayudarte a explorar su historia y el estado del arte. Sin embargo, cada área de los LLM ofrece perspectivas y aportaciones únicas, esenciales para comprender el campo en su conjunto. Para consultar una lista detallada de artículos sobre distintas subáreas, visita el siguiente enlace:</p>
+</blockquote>
+<details>
+  <summary> otros artículos </summary>
+<ul>
+<li>
+<p><a href="https://github.com/LuckyyySTA/Awesome-LLM-hallucination">Awesome-LLM-hallucination</a> - Lista de artículos sobre alucinaciones en LLM.</p>
+</li>
+<li>
+<p><a href="https://github.com/EdinburghNLP/awesome-hallucination-detection">awesome-hallucination-detection</a> - Lista de artículos sobre la detección de alucinaciones en LLM.</p>
+</li>
+<li>
+<p><a href="https://github.com/Mooler0410/LLMsPracticalGuide">LLMsPracticalGuide</a> - Selección de recursos de guías prácticas sobre LLM.</p>
+</li>
+<li>
+<p><a href="https://github.com/f/awesome-chatgpt-prompts">Awesome ChatGPT Prompts</a> - Colección de ejemplos de prompts para usar con el modelo ChatGPT.</p>
+</li>
+<li>
+<p><a href="https://github.com/PlexPt/awesome-chatgpt-prompts-zh">awesome-chatgpt-prompts-zh</a> - Colección china de ejemplos de prompts para usar con el modelo ChatGPT.</p>
+</li>
+<li>
+<p><a href="https://github.com/humanloop/awesome-chatgpt">Awesome ChatGPT</a> - Selección de recursos para ChatGPT y GPT-3 de OpenAI.</p>
+</li>
+<li>
+<p><a href="https://github.com/Timothyxxx/Chain-of-ThoughtsPapers">Chain-of-Thoughts Papers</a> - Una tendencia que comenzó con «Chain of Thought Prompting Elicits Reasoning in Large Language Models.</p>
+</li>
+<li>
+<p><a href="https://github.com/logikon-ai/awesome-deliberative-prompting">Awesome Deliberative Prompting</a> - Cómo pedir a los LLM que produzcan razonamientos fiables y tomen decisiones sensibles a las razones.</p>
+</li>
+<li>
+<p><a href="https://github.com/SinclairCoder/Instruction-Tuning-Papers">Instruction-Tuning-Papers</a> - Una tendencia que comenzó con <code dir="auto">Natrural-Instruction</code> (ACL 2022), <code dir="auto">FLAN</code> (ICLR 2022) y <code dir="auto">T0</code> (ICLR 2022).</p>
+</li>
+<li>
+<p><a href="https://github.com/crazyofapple/Reading_groups/">LLM Reading List</a> - Lista de artículos y recursos sobre modelos de lenguaje grandes.</p>
+</li>
+<li>
+<p><a href="https://github.com/atfortes/LM-Reasoning-Papers">Reasoning using Language Models</a> - Colección de artículos y recursos sobre el razonamiento mediante modelos de lenguaje.</p>
+</li>
+<li>
+<p><a href="https://github.com/FranxYao/chain-of-thought-hub">Chain-of-Thought Hub</a> - Medición del rendimiento de razonamiento de los LLM.</p>
+</li>
+<li>
+<p><a href="https://github.com/formulahendry/awesome-gpt">Awesome GPT</a> - Selección de proyectos y recursos destacados relacionados con GPT, ChatGPT, OpenAI, LLM y más.</p>
+</li>
+<li>
+<p><a href="https://github.com/elyase/awesome-gpt3">Awesome GPT-3</a> - Colección de demostraciones y artículos sobre la API GPT-3 de <a href="https://openai.com/blog/openai-api/">OpenAI</a>.</p>
+</li>
+<li>
+<p><a href="https://github.com/PolisAI/awesome-llm-human-preference-datasets">Awesome LLM Human Preference Datasets</a> - Colección de conjuntos de datos de preferencias humanas para el ajuste por instrucciones de LLM, RLHF y evaluación.</p>
+</li>
+<li>
+<p><a href="https://github.com/Hannibal046/RWKV-howto">RWKV-howto</a> - Materiales y tutoriales que pueden resultar útiles para aprender RWKV.</p>
+</li>
+<li>
+<p><a href="https://github.com/zjunlp/ModelEditingPapers">ModelEditingPapers</a> - Lista de artículos y recursos sobre edición de modelos para modelos de lenguaje grandes.</p>
+</li>
+<li>
+<p><a href="https://github.com/corca-ai/awesome-llm-security">Awesome LLM Security</a> - Selección de herramientas, documentos y proyectos destacados sobre la seguridad de los LLM.</p>
+</li>
+<li>
+<p><a href="https://github.com/GaryYufei/AlignLLMHumanSurvey">Awesome-Align-LLM-Human</a> - Colección de artículos y recursos sobre la alineación de los modelos de lenguaje grandes (LLM) con las personas.</p>
+</li>
+<li>
+<p><a href="https://github.com/huybery/Awesome-Code-LLM">Awesome-Code-LLM</a> - Selección de los mejores LLM de código para investigación.</p>
+</li>
+<li>
+<p><a href="https://github.com/HuangOwen/Awesome-LLM-Compression">Awesome-LLM-Compression</a> - Artículos de investigación y herramientas sobre compresión de LLM.</p>
+</li>
+<li>
+<p><a href="https://github.com/AmberLJC/LLMSys-PaperList">Awesome-LLM-Systems</a> - Artículos de investigación sobre sistemas de LLM.</p>
+</li>
+<li>
+<p><a href="https://github.com/snowfort-ai/awesome-llm-webapps">awesome-llm-webapps</a> - Colección de aplicaciones web de código abierto y mantenimiento activo para aplicaciones de LLM.</p>
+</li>
+<li>
+<p><a href="https://github.com/llm-jp/awesome-japanese-llm">awesome-japanese-llm</a> - Resumen de los LLM japoneses.</p>
+</li>
+<li>
+<p><a href="https://github.com/mingze-yuan/Awesome-LLM-Healthcare">Awesome-LLM-Healthcare</a> - Lista de artículos de la revisión sobre LLM en medicina.</p>
+</li>
+<li>
+<p><a href="https://github.com/DefTruth/Awesome-LLM-Inference">Awesome-LLM-Inference</a> - Selección de artículos destacados sobre inferencia de LLM, con código.</p>
+</li>
+<li>
+<p><a href="https://github.com/ActiveVisionLab/Awesome-LLM-3D">Awesome-LLM-3D</a> - Selección de modelos de lenguaje grandes multimodales en entornos 3D, que incluye comprensión y razonamiento 3D, generación y agentes incorporados.</p>
+</li>
+<li>
+<p><a href="https://github.com/Zjh-819/LLMDataHub">LLMDatahub</a> - Colección seleccionada de conjuntos de datos diseñados específicamente para entrenar chatbots, con enlaces, tamaño, idioma, uso y una breve descripción de cada conjunto.</p>
+</li>
+<li>
+<p><a href="https://github.com/HqWu-HITCS/Awesome-Chinese-LLM">Awesome-Chinese-LLM</a> - Recopilación de modelos de lenguaje grandes (LLM) de código abierto en chino, principalmente modelos más pequeños, desplegables de forma privada y con menores costes de entrenamiento; incluye modelos base, ajustes y aplicaciones de dominios verticales, conjuntos de datos y tutoriales, entre otros.</p>
+</li>
+<li>
+<p><a href="https://github.com/FeiLiu36/LLM4Opt">LLM4Opt</a> - La aplicación de modelos de lenguaje grandes (LLM) a diversas tareas de optimización (Opt) es un área de investigación emergente. Esta colección reúne referencias y artículos sobre LLM4Opt.</p>
+</li>
+<li>
+<p><a href="https://github.com/Furyton/awesome-language-model-analysis">awesome-language-model-analysis</a> - Esta lista de artículos se centra en el análisis teórico o empírico de los modelos de lenguaje, por ejemplo, la dinámica del aprendizaje, la capacidad expresiva, la interpretabilidad, la generalización y otros temas de interés.</p>
+</li>
+</ul>
+</details>
+<div class="sl-heading-wrapper level-h2"><h2 id="clasificaciones-de-llm"><span id="llm-leaderboard" class="awesome-anchor-alias" aria-hidden="true"></span>Clasificaciones de LLM</h2><a class="sl-anchor-link" href="#clasificaciones-de-llm"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Clasificaciones de LLM»</span></a></div>
+<ul>
+<li><a href="https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard">Chatbot Arena Leaderboard</a> - plataforma de evaluación comparativa para modelos de lenguaje grandes (LLM) con enfrentamientos anónimos y aleatorizados mediante crowdsourcing.</li>
+<li><a href="https://livebench.ai/#/">LiveBench</a> - Una evaluación comparativa exigente y libre de contaminación.</li>
+<li><a href="https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard">Open LLM Leaderboard</a> - Tiene como objetivo seguir, clasificar y evaluar los LLM y los chatbots a medida que se publican.</li>
+<li><a href="https://tatsu-lab.github.io/alpaca_eval/">AlpacaEval</a> - Evaluador automático de modelos de lenguaje que siguen instrucciones, basado en el conjunto de pruebas de Nous.</li>
+</ul>
+<details>
+  <summary> otras clasificaciones </summary>
+<ul>
+<li><a href="https://github.com/isen-zhang/ACLUE">ACLUE</a> - referencia de evaluación centrada en la comprensión del chino antiguo.</li>
+<li><a href="https://gair-nlp.github.io/BeHonest/#leaderboard">BeHonest</a> - Referencia pionera diseñada específicamente para evaluar exhaustivamente la honestidad de los LLM.</li>
+<li><a href="https://gorilla.cs.berkeley.edu/leaderboard.html">Berkeley Function-Calling Leaderboard</a> - evalúa la capacidad de los LLM para llamar a funciones y herramientas externas.</li>
+<li><a href="https://github.com/jeinlee1991/chinese-llm-benchmark">Chinese Large Model Leaderboard</a> - referencia de evaluación dirigida por expertos para LLM en chino.</li>
+<li><a href="https://rank.opencompass.org.cn">CompassRank</a> - CompassRank se dedica a explorar los modelos de lenguaje y visuales más avanzados y ofrece una referencia de evaluación integral, objetiva y neutral para la industria y la investigación.</li>
+<li><a href="https://qa.mpi-inf.mpg.de/compmix">CompMix</a> - referencia que evalúa métodos de preguntas y respuestas que operan con una mezcla de fuentes de entrada heterogéneas (KB, texto, tablas e infoboxes).</li>
+<li><a href="https://dreambenchplus.github.io/#leaderboard">DreamBench++</a> - referencia para evaluar el rendimiento de los modelos de lenguaje grandes (LLM) en diversas tareas relacionadas con la imaginación textual y visual.</li>
+<li><a href="https://hkust-nlp.github.io/felm">FELM</a> - metaevaluación que mide hasta qué punto los evaluadores de factualidad valoran las respuestas de los modelos de lenguaje grandes (LLM).</li>
+<li><a href="https://infi-coder.github.io/infibench">InfiBench</a> - referencia diseñada específicamente para evaluar la capacidad de los modelos de lenguaje grandes (LLM) de responder preguntas de programación del mundo real.</li>
+<li><a href="https://lawbench.opencompass.org.cn/leaderboard">LawBench</a> - referencia diseñada para evaluar los modelos de lenguaje grandes en el ámbito jurídico.</li>
+<li><a href="http://llmeval.com">LLMEval</a> - se centra en comprender el rendimiento de estos modelos en diversos escenarios y analizar los resultados desde una perspectiva de interpretabilidad.</li>
+<li><a href="https://lightchen233.github.io/m3cot.github.io/leaderboard.html">M3CoT</a> - referencia que evalúa los modelos de lenguaje grandes en una variedad de tareas de razonamiento multimodal, como lenguaje, ciencias naturales y sociales, sentido común físico y social, razonamiento temporal, álgebra y geometría.</li>
+<li><a href="https://matheval.ai">MathEval</a> - plataforma integral de evaluación comparativa diseñada para evaluar las capacidades matemáticas de modelos grandes en 20 áreas y casi 30 000 problemas matemáticos.</li>
+<li><a href="https://mixeval.github.io/#leaderboard">MixEval</a> - referencia dinámica basada en valores de referencia reales y derivada de mezclas de referencias disponibles; evalúa los LLM con una clasificación de modelos muy capaz (correlación de 0,96 con Chatbot Arena) y se ejecuta localmente con rapidez (en el 6 % del tiempo y coste de MMLU).</li>
+<li><a href="https://henrychur.github.io/MultilingualMedQA">MMedBench</a> - referencia que evalúa la capacidad de los modelos de lenguaje grandes para responder preguntas médicas en varios idiomas.</li>
+<li><a href="https://chuanyangjin.com/mmtom-qa-leaderboard">MMToM-QA</a> - referencia multimodal de preguntas y respuestas diseñada para evaluar la capacidad cognitiva de los modelos de IA para comprender las creencias y los objetivos humanos.</li>
+<li><a href="https://gair-nlp.github.io/OlympicArena/#leaderboard">OlympicArena</a> - referencia para evaluar modelos de IA en varias disciplinas académicas, como matemáticas, física, química, biología y otras.</li>
+<li><a href="https://pubmedqa.github.io">PubMedQA</a> - referencia biomédica de preguntas y respuestas diseñada para responder preguntas de investigación mediante resúmenes de PubMed.</li>
+<li><a href="https://scibench-ucla.github.io/#leaderboard">SciBench</a> - referencia diseñada para evaluar modelos de lenguaje grandes (LLM) resolviendo problemas científicos complejos, de nivel universitario, en áreas como química, física y matemáticas.</li>
+<li><a href="https://fm.ai.tsinghua.edu.cn/superbench/#/leaderboard">SuperBench</a> - plataforma de evaluación comparativa diseñada para evaluar modelos de lenguaje grandes (LLM) en diversas tareas, con especial atención a aspectos como la comprensión del lenguaje natural, el razonamiento y la generalización.</li>
+<li><a href="https://lab.kb.se/leaderboard/results">SuperLim</a> - referencia sueca de comprensión del lenguaje que evalúa modelos de procesamiento del lenguaje natural (NLP) en tareas como análisis argumentativo, similitud semántica e implicación textual.</li>
+<li><a href="https://nextplusplus.github.io/TAT-DQA">TAT-DQA</a> - conjunto de datos de preguntas y respuestas visuales sobre documentos a gran escala, diseñado para comprender documentos complejos, en especial informes financieros.</li>
+<li><a href="https://nextplusplus.github.io/TAT-QA">TAT-QA</a> - referencia de preguntas y respuestas a gran escala centrada en datos financieros del mundo real, que integra información tabular y textual.</li>
+<li><a href="https://jykoh.com/vwa">VisualWebArena</a> - referencia diseñada para evaluar el rendimiento de agentes web multimodales en tareas realistas fundamentadas visualmente.</li>
+<li><a href="https://we-math.github.io/#leaderboard">We-Math</a> - referencia que evalúa la capacidad de los modelos multimodales grandes (LMM) para realizar razonamientos matemáticos similares a los humanos.</li>
+<li><a href="https://whoops-benchmark.github.io">WHOOPS!</a> - conjunto de datos de evaluación comparativa que pone a prueba la capacidad de la IA para razonar sobre el sentido común visual mediante imágenes que desafían las expectativas habituales.</li>
+</ul>
+</details>
+<div class="sl-heading-wrapper level-h2"><h2 id="llm-de-código-abierto"><span id="open-llm" class="awesome-anchor-alias" aria-hidden="true"></span>LLM de código abierto</h2><a class="sl-anchor-link" href="#llm-de-código-abierto"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «LLM de código abierto»</span></a></div>
+<details>
+<summary>DeepSeek</summary>
+<ul>
+<li><a href="https://huggingface.co/collections/deepseek-ai/deepseek-math-65f2962739da11599e441681">DeepSeek-Math-7B</a></li>
+<li><a href="https://huggingface.co/collections/deepseek-ai/deepseek-coder-65f295d7d8a0a29fe39b4ec4">DeepSeek-Coder-1.3|6.7|7|33B</a></li>
+<li><a href="https://huggingface.co/collections/deepseek-ai/deepseek-vl-65f295948133d9cf92b706d3">DeepSeek-VL-1.3|7B</a></li>
+<li><a href="https://huggingface.co/collections/deepseek-ai/deepseek-moe-65f29679f5cf26fe063686bf">DeepSeek-MoE-16B</a></li>
+<li><a href="https://arxiv.org/abs/2405.04434">DeepSeek-v2-236B-MoE</a></li>
+<li><a href="https://github.com/deepseek-ai/DeepSeek-Coder-V2">DeepSeek-Coder-v2-16|236B-MOE</a></li>
+<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V2.5">DeepSeek-V2.5</a></li>
+<li><a href="https://github.com/deepseek-ai/DeepSeek-V3">DeepSeek-V3</a></li>
+<li><a href="https://github.com/deepseek-ai/DeepSeek-R1">DeepSeek-R1</a></li>
+</ul>
+</details>
+<details>
+<summary>Alibaba</summary>
+<ul>
+<li><a href="https://huggingface.co/collections/Qwen/qwen-65c0e50c3f1ab89cb8704144">Qwen-1.8B|7B|14B|72B</a></li>
+<li><a href="https://qwenlm.github.io/blog/qwen1.5/">Qwen1.5-0.5B|1.8B|4B|7B|14B|32B|72B|110B|MoE-A2.7B</a></li>
+<li><a href="https://qwenlm.github.io/blog/qwen2">Qwen2-0.5B|1.5B|7B|57B-A14B-MoE|72B</a></li>
+<li><a href="https://qwenlm.github.io/blog/qwen2.5/">Qwen2.5-0.5B|1.5B|3B|7B|14B|32B|72B</a></li>
+<li><a href="https://qwenlm.github.io/blog/codeqwen1.5/">CodeQwen1.5-7B</a></li>
+<li><a href="https://qwenlm.github.io/blog/qwen2.5-coder/">Qwen2.5-Coder-1.5B|7B|32B</a></li>
+<li><a href="https://qwenlm.github.io/blog/qwen2-math/">Qwen2-Math-1.5B|7B|72B</a></li>
+<li><a href="https://qwenlm.github.io/blog/qwen2.5-math/">Qwen2.5-Math-1.5B|7B|72B</a></li>
+<li><a href="https://huggingface.co/Qwen/Qwen-VL">Qwen-VL-7B</a></li>
+<li><a href="https://qwenlm.github.io/blog/qwen2-vl/">Qwen2-VL-2B|7B|72B</a></li>
+<li><a href="https://qwenlm.github.io/blog/qwen2-audio/">Qwen2-Audio-7B</a></li>
+<li><a href="https://qwenlm.github.io/blog/qwen2.5-vl/">Qwen2.5-VL-3|7|72B</a></li>
+<li><a href="https://qwenlm.github.io/blog/qwen2.5-1m/">Qwen2.5-1M-7|14B</a></li>
+</ul>
+</details>
+<details>
+<summary>Meta</summary>
+<ul>
+<li><a href="https://llama.meta.com/">Llama 3.2-1|3|11|90B</a></li>
+<li><a href="https://llama.meta.com/">Llama 3.1-8|70|405B</a></li>
+<li><a href="https://llama.meta.com/llama3/">Llama 3-8|70B</a></li>
+<li><a href="https://llama.meta.com/llama2/">Llama 2-7|13|70B</a></li>
+<li><a href="https://ai.facebook.com/blog/large-language-model-llama-meta-ai/">Llama 1-7|13|33|65B</a></li>
+<li><a href="https://arxiv.org/abs/2205.01068">OPT-1.3|6.7|13|30|66B</a></li>
+</ul>
+</details>
+<details>
+<summary>Mistral AI</summary>
+<ul>
+<li><a href="https://mistral.ai/news/codestral/">Codestral-7|22B</a></li>
+<li><a href="https://mistral.ai/news/announcing-mistral-7b/">Mistral-7B</a></li>
+<li><a href="https://mistral.ai/news/mixtral-of-experts/">Mixtral-8x7B</a></li>
+<li><a href="https://mistral.ai/news/mixtral-8x22b/">Mixtral-8x22B</a></li>
+</ul>
+</details>
+<details>
+<summary>Google</summary>
+<ul>
+<li><a href="https://blog.google/technology/developers/google-gemma-2/">Gemma2-9|27B</a></li>
+<li><a href="https://blog.google/technology/developers/gemma-open-models/">Gemma-2|7B</a></li>
+<li><a href="https://github.com/google-deepmind/recurrentgemma">RecurrentGemma-2B</a></li>
+<li><a href="https://arxiv.org/abs/1910.10683">T5</a></li>
+</ul>
+</details>
+<details>
+<summary>Apple</summary>
+<ul>
+<li><a href="https://huggingface.co/apple/OpenELM">OpenELM-1.1|3B</a></li>
+</ul>
+</details>
+<details>
+<summary>Microsoft</summary>
+<ul>
+<li><a href="https://huggingface.co/microsoft/phi-1">Phi1-1.3B</a></li>
+<li><a href="https://huggingface.co/microsoft/phi-2">Phi2-2.7B</a></li>
+<li><a href="https://huggingface.co/microsoft/Phi-3-mini-4k-instruct">Phi3-3.8|7|14B</a></li>
+</ul>
+</details>
+<details>
+<summary>AllenAI</summary>
+<ul>
+<li><a href="https://huggingface.co/collections/allenai/olmo-suite-65aeaae8fe5b6b2122b46778">OLMo-7B</a></li>
+</ul>
+</details>
+<details>
+<summary>xAI</summary>
+<ul>
+<li><a href="https://x.ai/blog/grok-os">Grok-1-314B-MoE</a></li>
+</ul>
+</details>
+<details>
+<summary>Cohere</summary>
+<ul>
+<li><a href="https://huggingface.co/CohereForAI/c4ai-command-r-v01">Command R-35B</a></li>
+</ul>
+</details>
+<details>
+<summary>01-ai</summary>
+<ul>
+<li><a href="https://huggingface.co/collections/01-ai/yi-2023-11-663f3f19119ff712e176720f">Yi-34B</a></li>
+<li><a href="https://huggingface.co/collections/01-ai/yi-15-2024-05-663f3ecab5f815a3eaca7ca8">Yi1.5-6|9|34B</a></li>
+<li><a href="https://huggingface.co/collections/01-ai/yi-vl-663f557228538eae745769f3">Yi-VL-6B|34B</a></li>
+</ul>
+</details>
+<details>
+<summary>Baichuan</summary>
+<ul>
+<li><a href="https://huggingface.co/baichuan-inc">Baichuan-7|13B</a></li>
+<li><a href="https://huggingface.co/baichuan-inc">Baichuan2-7|13B</a></li>
+</ul>
+</details>
+<details>
+<summary>Nvidia</summary>
+<ul>
+<li><a href="https://huggingface.co/nvidia/Nemotron-4-340B-Instruct">Nemotron-4-340B</a></li>
+</ul>
+</details>
+<details>
+<summary>BLOOM</summary>
+<ul>
+<li><a href="https://huggingface.co/bigscience/bloomz">BLOOMZ&#x26;mT0</a></li>
+</ul>
+</details>
+<details>
+<summary>Zhipu AI</summary>
+<ul>
+<li><a href="https://huggingface.co/THUDM">GLM-2|6|10|13|70B</a></li>
+<li><a href="https://huggingface.co/collections/THUDM/cogvlm2-6645f36a29948b67dc4eef75">CogVLM2-19B</a></li>
+</ul>
+</details>
+<details>
+<summary>OpenBMB</summary>
+<ul>
+<li><a href="https://huggingface.co/collections/openbmb/minicpm-2b-65d48bf958302b9fd25b698f">MiniCPM-2B</a></li>
+<li><a href="https://huggingface.co/openbmb/OmniLMM-12B">OmniLLM-12B</a></li>
+<li><a href="https://huggingface.co/openbmb/VisCPM-Chat">VisCPM-10B</a></li>
+<li><a href="https://huggingface.co/collections/openbmb/cpm-bee-65d491cc84fc93350d789361">CPM-Bee-1|2|5|10B</a></li>
+</ul>
+</details>
+<details>
+<summary>RWKV Foundation</summary>
+<ul>
+<li><a href="https://huggingface.co/RWKV">RWKV-v4|5|6</a>minicpm-2b-65d48bf958302b9fd25b698f)</li>
+</ul>
+</details>
+<details>
+<summary>ElutherAI</summary>
+<ul>
+<li><a href="https://github.com/EleutherAI/pythia">Pythia-1|1.4|2.8|6.9|12B</a></li>
+</ul>
+</details>
+<details>
+<summary>Stability AI</summary>
+<ul>
+<li><a href="https://huggingface.co/stabilityai/stablelm-3b-4e1t">StableLM-3B</a></li>
+<li><a href="https://huggingface.co/stabilityai/stablelm-2-1_6b">StableLM-v2-1.6B</a></li>
+<li><a href="https://huggingface.co/stabilityai/stablelm-2-12b">StableLM-v2-12B</a></li>
+<li><a href="https://huggingface.co/collections/stabilityai/stable-code-64f9dfb4ebc8a1be0a3f7650">StableCode-3B</a></li>
+</ul>
+</details>
+<details>
+<summary>BigCode</summary>
+<ul>
+<li><a href="https://huggingface.co/collections/bigcode/%E2%AD%90-starcoder-64f9bd5740eb5daaeb81dbec">StarCoder-1|3|7B</a></li>
+<li><a href="https://huggingface.co/collections/bigcode/starcoder2-65de6da6e87db3383572be1a">StarCoder2-3|7|15B</a></li>
+</ul>
+</details>
+<details>
+<summary>DataBricks</summary>
+<ul>
+<li><a href="https://www.databricks.com/blog/mpt-7b">MPT-7B</a></li>
+<li><a href="https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm">DBRX-132B-MoE</a></li>
+</ul>
+</details>
+<details>
+<summary>Shanghai AI Laboratory</summary>
+<ul>
+<li><a href="https://huggingface.co/collections/internlm/internlm2-65b0ce04970888799707893c">InternLM2-1.8|7|20B</a></li>
+<li><a href="https://huggingface.co/collections/internlm/internlm2-math-65b0ce88bf7d3327d0a5ad9f">InternLM-Math-7B|20B</a></li>
+<li><a href="https://huggingface.co/collections/internlm/internlm-xcomposer2-65b3706bf5d76208998e7477">InternLM-XComposer2-1.8|7B</a></li>
+<li><a href="https://huggingface.co/collections/OpenGVLab/internvl-65b92d6be81c86166ca0dde4">InternVL-2|6|14|26</a></li>
+</ul>
+</details>
+<details>
+<summary>Moonshot AI</summary>
+<ul>
+<li><a href="https://huggingface.co/collections/moonshotai/moonlight-a3b-67f67b029cecfdce34f4dc23">Moonlight-A3B</a></li>
+<li><a href="https://huggingface.co/collections/moonshotai/kimi-vl-a3b-67f67b6ac91d3b03d382dd85">Kimi-VL-A3B</a></li>
+<li><a href="https://huggingface.co/collections/moonshotai/kimi-k2-6871243b990f2af5ba60617d">Kimi-K2</a></li>
+</ul>
+</details>
+<div class="sl-heading-wrapper level-h2"><h2 id="datos-de-llm"><span id="llm-data" class="awesome-anchor-alias" aria-hidden="true"></span>Datos de LLM</h2><a class="sl-anchor-link" href="#datos-de-llm"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Datos de LLM»</span></a></div>
+<blockquote>
+<p>Referencia: <a href="https://github.com/Zjh-819/LLMDataHub">LLMDataHub</a></p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/IBM/data-prep-kit">IBM data-prep-kit</a> - Kit de herramientas de código abierto para procesar datos no estructurados de forma eficiente, con módulos preconstruidos y escalabilidad desde el entorno local hasta clústeres.</li>
+<li><a href="https://github.com/huggingface/datatrove">Datatrove</a> - Libera el procesamiento de datos de la locura de los scripts mediante un conjunto de bloques de procesamiento personalizables e independientes de la plataforma.</li>
+<li><a href="https://github.com/DataEval/dingo">Dingo</a> - Herramienta integral para evaluar la calidad de los datos.</li>
+<li><a href="https://github.com/ZhuLinsen/FastDatasets">FastDatasets</a> - Herramienta potente para crear conjuntos de datos de entrenamiento de alta calidad para modelos de lenguaje grandes.</li>
+</ul>
+<div class="sl-heading-wrapper level-h2"><h2 id="evaluación-de-llm"><span id="llm-evaluation" class="awesome-anchor-alias" aria-hidden="true"></span>Evaluación de LLM:</h2><a class="sl-anchor-link" href="#evaluación-de-llm"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Evaluación de LLM:»</span></a></div>
+<ul>
+<li><a href="https://github.com/EleutherAI/lm-evaluation-harness">lm-evaluation-harness</a> - Marco para la evaluación con pocos ejemplos de modelos de lenguaje.</li>
+<li><a href="https://github.com/huggingface/lighteval">lighteval</a> - Conjunto ligero de herramientas de evaluación de LLM que Hugging Face utiliza internamente.</li>
+<li><a href="https://github.com/openai/simple-evals">simple-evals</a> - Herramientas de evaluación de OpenAI.</li>
+</ul>
+<details>
+<summary>otros marcos de evaluación</summary>
+<ul>
+<li><a href="https://github.com/allenai/OLMo-Eval">OLMO-eval</a> - repositorio para evaluar modelos de lenguaje abiertos.</li>
+<li><a href="https://github.com/Psycoy/MixEval">MixEval</a> - Conjunto de evaluación fiable, listo para usar y compatible con modelos de código abierto y propietarios; admite MixEval y otras referencias.</li>
+<li><a href="https://github.com/stanford-crfm/helm">HELM</a> - Holistic Evaluation of Language Models (HELM), un marco para aumentar la transparencia de los modelos de lenguaje.</li>
+<li><a href="https://github.com/declare-lab/instruct-eval">instruct-eval</a> - Este repositorio contiene código para evaluar cuantitativamente modelos ajustados por instrucciones, como Alpaca y Flan-T5, en tareas reservadas para evaluación.</li>
+<li><a href="https://github.com/Giskard-AI/giskard">Giskard</a> - Biblioteca de pruebas y evaluación para aplicaciones de LLM, en particular RAG.</li>
+<li><a href="https://www.langchain.com/langsmith">LangSmith</a> - plataforma unificada del marco LangChain para evaluación, colaboración HITL (Human In The Loop), registro y supervisión de aplicaciones de LLM.</li>
+<li><a href="https://github.com/explodinggradients/ragas">Ragas</a> - marco que ayuda a evaluar las canalizaciones de generación aumentada por recuperación (RAG).</li>
+</ul>
+</details>
+<div class="sl-heading-wrapper level-h2"><h2 id="marcos-de-entrenamiento-de-llm"><span id="llm-training-frameworks" class="awesome-anchor-alias" aria-hidden="true"></span>Marcos de entrenamiento de LLM</h2><a class="sl-anchor-link" href="#marcos-de-entrenamiento-de-llm"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Marcos de entrenamiento de LLM»</span></a></div>
+<ul>
+<li><a href="https://github.com/facebookresearch/lingua">Meta Lingua</a> - base de código ligera, eficiente y fácil de modificar para investigar los LLM.</li>
+<li><a href="https://github.com/Lightning-AI/litgpt">Litgpt</a> - Más de 20 LLM de alto rendimiento con recetas para preentrenar, ajustar y desplegar a escala.</li>
+<li><a href="https://github.com/huggingface/nanotron">nanotron</a> - Entrenamiento minimalista de modelos de lenguaje grandes con paralelismo 3D.</li>
+<li><a href="https://github.com/microsoft/DeepSpeed">DeepSpeed</a> - DeepSpeed es una biblioteca de optimización de aprendizaje profundo que facilita el entrenamiento y la inferencia distribuidos, de forma eficiente y eficaz.</li>
+<li><a href="https://github.com/NVIDIA/Megatron-LM">Megatron-LM</a> - Investigación en curso sobre el entrenamiento de modelos Transformer a gran escala.</li>
+<li><a href="https://github.com/pytorch/torchtitan">torchtitan</a> - Biblioteca nativa de PyTorch para entrenar modelos grandes.</li>
+</ul>
+<details>
+<summary>otros marcos</summary>
+<ul>
+<li><a href="https://github.com/microsoft/Megatron-DeepSpeed">Megatron-DeepSpeed</a> - Versión de NVIDIA Megatron-LM basada en DeepSpeed que añade compatibilidad con varias funciones, como el entrenamiento de modelos MoE, el aprendizaje curricular, el paralelismo 3D y otras.</li>
+<li><a href="https://github.com/pytorch/torchtune">torchtune</a> - Biblioteca nativa de PyTorch para ajustar LLM.</li>
+<li><a href="https://github.com/alibaba/ROLL">ROLL</a> - Biblioteca eficiente y fácil de usar para escalar el aprendizaje por refuerzo con modelos de lenguaje grandes.</li>
+<li><a href="https://github.com/volcengine/verl">veRL</a> - veRL es un marco de aprendizaje por refuerzo flexible y eficiente para LLM.</li>
+<li><a href="https://github.com/NVIDIA/NeMo">NeMo Framework</a> - Marco de IA generativa creado para investigadores y desarrolladores de PyTorch que trabajan con modelos de lenguaje grandes (LLM), modelos multimodales (MM), reconocimiento automático del habla (ASR), conversión de texto a voz (TTS) y visión artificial (CV).</li>
+<li><a href="https://github.com/hpcaitech/ColossalAI">Colossal-AI</a> - Hace que los grandes modelos de IA sean más baratos, rápidos y accesibles.</li>
+<li><a href="https://github.com/OpenBMB/BMTrain">BMTrain</a> - Entrenamiento eficiente de modelos grandes.</li>
+<li><a href="https://github.com/tensorflow/mesh">Mesh Tensorflow</a> - Mesh TensorFlow: paralelismo de modelos más sencillo.</li>
+<li><a href="https://github.com/AI-Hypercomputer/maxtext">maxtext</a> - ¡Un LLM de JAX sencillo, de alto rendimiento y escalable!</li>
+<li><a href="https://github.com/EleutherAI/gpt-neox">GPT-NeoX</a> - Implementación de Transformers autorregresivos con paralelismo de modelos en GPU, basada en la biblioteca DeepSpeed.</li>
+<li><a href="https://github.com/NVIDIA/TransformerEngine">Transformer Engine</a> - Biblioteca para acelerar el entrenamiento de modelos Transformer en GPU NVIDIA.</li>
+<li><a href="https://github.com/OpenRLHF/OpenRLHF">OpenRLHF</a> - Marco de RLHF fácil de usar, escalable y de alto rendimiento (ajuste PPO completo para más de 70B, DPO iterativo, LoRA, RingAttention y RFT).</li>
+<li><a href="https://huggingface.co/docs/trl/en/index">TRL</a> - TRL es una biblioteca integral que proporciona un conjunto de herramientas para entrenar modelos de lenguaje Transformer mediante aprendizaje por refuerzo, desde el ajuste fino supervisado (SFT) y el modelado de recompensas (RM) hasta la optimización de políticas proximales (PPO).</li>
+<li><a href="https://github.com/unslothai/unsloth">unslothai</a> - Marco especializado en el ajuste fino eficiente. En su página de GitHub hay plantillas listas para usar para ajustar diversos LLM, con las que puedes entrenar fácilmente tus propios datos gratis en la nube de Google Colab.</li>
+<li><a href="https://github.com/axolotl-ai-cloud/axolotl">Axolotl</a> - Marco de código abierto para ajustar y evaluar LLM. Simplifica la experimentación con distintas configuraciones de entrenamiento y facilita reproducir y compartir resultados; admite funciones como LoRA, QLoRA, DeepSpeed, PEFT y configuraciones con varias GPU.</li>
+</ul>
+</details>
+<div class="sl-heading-wrapper level-h2"><h2 id="inferencia-de-llm"><span id="llm-inference" class="awesome-anchor-alias" aria-hidden="true"></span>Inferencia de LLM</h2><a class="sl-anchor-link" href="#inferencia-de-llm"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Inferencia de LLM»</span></a></div>
+<blockquote>
+<p>Referencia: <a href="https://github.com/mani-kantap/llm-inference-solutions">llm-inference-solutions</a></p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/sgl-project/sglang">SGLang</a> - Marco rápido de servicio para modelos de lenguaje grandes y modelos de lenguaje visual.</li>
+<li><a href="https://github.com/vllm-project/vllm">vLLM</a> - Motor de inferencia y servicio para LLM de alto rendimiento y uso eficiente de memoria.</li>
+<li><a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a> - Inferencia de LLM en C/C++.</li>
+<li><a href="https://github.com/ollama/ollama">ollama</a> - Empieza a usar Llama 3, Mistral, Gemma y otros modelos de lenguaje grandes.</li>
+<li><a href="https://huggingface.co/docs/text-generation-inference/en/index">TGI</a> - conjunto de herramientas para desplegar y ofrecer modelos de lenguaje grandes (LLM).</li>
+<li><a href="https://github.com/NVIDIA/TensorRT-LLM">TensorRT-LLM</a> - Marco de Nvidia para la inferencia de LLM.</li>
+</ul>
+<details>
+<summary>otras herramientas de despliegue</summary>
+<ul>
+<li><a href="https://github.com/NVIDIA/FasterTransformer">FasterTransformer</a> - Marco de NVIDIA para la inferencia de LLM (migrado a TensorRT-LLM).</li>
+<li><a href="https://github.com/microsoft/MInference">MInference</a> - Para acelerar la inferencia de LLM con contextos largos, calcula la atención dispersa de forma aproximada y dinámica; reduce hasta 10 veces la latencia de inferencia del prellenado en una A100 sin perder precisión.</li>
+<li><a href="https://github.com/turboderp/exllama">exllama</a> - Reescritura de la implementación de Llama de HF transformers con mayor eficiencia de memoria para usar pesos cuantizados.</li>
+<li><a href="https://github.com/lm-sys/FastChat">FastChat</a> - Sistema distribuido de servicio de múltiples modelos LLM con interfaz web y API REST compatibles con OpenAI.</li>
+<li><a href="https://github.com/EricLBuehler/mistral.rs">mistral.rs</a> - Inferencia de LLM extremadamente rápida.</li>
+<li><a href="https://github.com/skypilot-org/skypilot">SkyPilot</a> - Ejecuta LLM y trabajos por lotes en cualquier nube. Consigue el máximo ahorro de costes, la mayor disponibilidad de GPU y una ejecución gestionada, todo con una interfaz sencilla.</li>
+<li><a href="https://haystack.deepset.ai/">Haystack</a> - marco de NLP de código abierto que permite utilizar LLM y modelos basados en Transformer de Hugging Face, OpenAI y Cohere para interactuar con tus propios datos.</li>
+<li><a href="https://github.com/bentoml/OpenLLM">OpenLLM</a> - Ajusta, ofrece, despliega y supervisa cualquier LLM de código abierto en producción. <a href="https://bentoml.com/">BentoML</a> lo utiliza en producción para aplicaciones basadas en LLM.</li>
+<li><a href="https://github.com/microsoft/DeepSpeed-MII">DeepSpeed-Mii</a> - MII ofrece inferencia de baja latencia y alto rendimiento, similar a vLLM y con la potencia de DeepSpeed.</li>
+<li><a href="https://github.com/huggingface/text-embeddings-inference">Text-Embeddings-Inference</a> - Inferencia de embeddings de texto en Rust, licencia HFOIL.</li>
+<li><a href="https://github.com/michaelfeil/infinity">Infinity</a> - Inferencia de embeddings de texto en Python.</li>
+<li><a href="https://github.com/InternLM/lmdeploy">LMDeploy</a> - Marco de inferencia y servicio para LLM y VL de alto rendimiento y baja latencia.</li>
+<li><a href="https://github.com/linkedin/Liger-Kernel">Liger-Kernel</a> - Kernels de Triton eficientes para el entrenamiento de LLM.</li>
+<li><a href="https://github.com/Lizonghang/prima.cpp">prima.cpp</a> - Implementación distribuida de llama.cpp que permite ejecutar LLM de nivel 70B en dispositivos de uso cotidiano.</li>
+<li><a href="https://github.com/xamey/deploy-llms-with-ansible">deploy-llms-with-ansible</a> - Despliega fácilmente cualquier LLM en una máquina virtual con una configuración mínima mediante Ansible.</li>
+</ul>
+</details>
+<div class="sl-heading-wrapper level-h2"><h2 id="aplicaciones-de-llm"><span id="llm-applications" class="awesome-anchor-alias" aria-hidden="true"></span>Aplicaciones de LLM</h2><a class="sl-anchor-link" href="#aplicaciones-de-llm"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Aplicaciones de LLM»</span></a></div>
+<blockquote>
+<p>Referencia: <a href="https://github.com/Shubhamsaboo/awesome-llm-apps">awesome-llm-apps</a></p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/stanfordnlp/dspy">dspy</a> - DSPy: el marco para programar —no para crear prompts para— modelos fundacionales.</li>
+<li><a href="https://github.com/hwchase17/langchain">LangChain</a> — Biblioteca popular de Python/JavaScript para encadenar secuencias de prompts de modelos de lenguaje.</li>
+<li><a href="https://github.com/jerryjliu/llama_index">LlamaIndex</a> — Biblioteca de Python para ampliar aplicaciones de LLM con datos.</li>
+</ul>
+<details>
+<summary>más aplicaciones</summary>
+<ul>
+<li>
+<p><a href="https://mlflow.org/">MLflow</a> - MLflow: marco de código abierto para todo el ciclo de vida del aprendizaje automático; ayuda a los desarrolladores a hacer seguimiento de experimentos, evaluar modelos y prompts, desplegar modelos y añadir observabilidad mediante trazas.</p>
+</li>
+<li>
+<p><a href="https://github.com/Dicklesworthstone/swiss_army_llama">Swiss Army Llama</a> - Conjunto integral de herramientas para trabajar con LLM locales en diversas tareas.</p>
+</li>
+<li>
+<p><a href="https://github.com/rogeriochaves/litechain">LiteChain</a> - Alternativa ligera a LangChain para componer LLM.</p>
+</li>
+<li>
+<p><a href="https://github.com/jackmpcollins/magentic">magentic</a> - Integra sin problemas los LLM como funciones de Python.</p>
+</li>
+<li>
+<p><a href="https://github.com/fuergaosi233/wechat-chatgpt">wechat-chatgpt</a> - Usa ChatGPT en WeChat mediante wechaty.</p>
+</li>
+<li>
+<p><a href="https://github.com/typpo/promptfoo">promptfoo</a> - Prueba tus prompts. Evalúa y compara resultados de LLM, detecta regresiones y mejora la calidad de los prompts.</p>
+</li>
+<li>
+<p><a href="https://github.com/agenta-ai/agenta">Agenta</a> - Crea, versiona, evalúa y despliega fácilmente aplicaciones basadas en LLM.</p>
+</li>
+<li>
+<p><a href="https://github.com/serge-chat/serge">Serge</a> - Interfaz de chat creada con llama.cpp para ejecutar modelos Alpaca. ¡Sin claves de API y completamente autoalojada!</p>
+</li>
+<li>
+<p><a href="https://github.com/langroid/langroid">Langroid</a> - Aprovecha los LLM mediante programación multiagente.</p>
+</li>
+<li>
+<p><a href="https://github.com/embedchain/embedchain">Embedchain</a> - Marco para crear bots similares a ChatGPT sobre tus conjuntos de datos.</p>
+</li>
+<li>
+<p><a href="https://github.com/comet-ml/opik">Opik</a> - Evalúa, prueba y publica aplicaciones de LLM con confianza mediante un conjunto de herramientas de observabilidad para calibrar sus resultados durante todo el ciclo de desarrollo y producción.</p>
+</li>
+<li>
+<p><a href="https://github.com/intelligentnode/IntelliServer">IntelliServer</a> - Simplifica la evaluación de LLM al proporcionar un microservicio unificado para acceder a varios modelos de IA y probarlos.</p>
+</li>
+<li>
+<p><a href="https://github.com/chatchat-space/Langchain-Chatchat">Langchain-Chatchat</a> - Antes llamado langchain-ChatGLM; aplicación local de preguntas y respuestas basada en conocimientos con LLM (como ChatGLM) y LangChain.</p>
+</li>
+<li>
+<p><a href="https://github.com/leptonai/search_with_lepton">Search with Lepton</a> - Crea tu propio motor de búsqueda conversacional con menos de 500 líneas de código mediante <a href="https://github.com/leptonai">LeptonAI</a>.</p>
+</li>
+<li>
+<p><a href="https://github.com/robocorp/robocorp">Robocorp</a> - Crea, despliega y opera Actions con Python desde cualquier lugar para mejorar tus agentes y asistentes de IA. Incluye un amplio conjunto de bibliotecas, utilidades y registros.</p>
+</li>
+<li>
+<p><a href="https://studio.tune.app/">Tune Studio</a> - Entorno de pruebas para que los desarrolladores ajusten y desplieguen LLM.</p>
+</li>
+<li>
+<p><a href="https://github.com/nilsherzig/LLocalSearch">LLocalSearch</a> - Búsqueda web local mediante cadenas de LLM.</p>
+</li>
+<li>
+<p><a href="https://github.com/Portkey-AI/gateway">AI Gateway</a> — AI Gateway agiliza las solicitudes a más de 100 modelos de código abierto y cerrado mediante una API unificada. Está listo para producción y admite almacenamiento en caché, alternativas, reintentos, tiempos de espera y balanceo de carga; también puede desplegarse en el borde para minimizar la latencia.</p>
+</li>
+<li>
+<p><a href="https://github.com/talkdai/dialog">talkd.ai dialog</a> - API sencilla para desplegar cualquier RAG o LLM que quieras y añadir complementos.</p>
+</li>
+<li>
+<p><a href="https://github.com/ngxson/wllama">Wllama</a> - Vinculación de WebAssembly para llama.cpp que permite la inferencia de LLM en el navegador.</p>
+</li>
+<li>
+<p><a href="https://github.com/gpustack/gpustack">GPUStack</a> - Administrador de clústeres de GPU de código abierto para ejecutar LLM.</p>
+</li>
+<li>
+<p><a href="https://github.com/alibaba/MNN">MNN-LLM</a> — Marco de inferencia en dispositivos que incluye inferencia de LLM en dispositivos (teléfonos móviles/PC/IoT).</p>
+</li>
+<li>
+<p><a href="https://www.camel-ai.org/">CAMEL</a> - Primer marco multiagente de LLM.</p>
+</li>
+<li>
+<p><a href="https://github.com/reid41/QA-Pilot">QA-Pilot</a> - Proyecto de chat interactivo que aprovecha LLM de Ollama/OpenAI/MistralAI para comprender y explorar rápidamente repositorios de código de GitHub o recursos de archivos comprimidos.</p>
+</li>
+<li>
+<p><a href="https://github.com/reid41/shell-pilot">Shell-Pilot</a> - Interactúa con LLM mediante modelos de Ollama (o OpenAI, MistralAI) usando solo scripts de shell en Linux (o macOS), para mejorar la gestión inteligente del sistema sin dependencias.</p>
+</li>
+<li>
+<p><a href="https://github.com/Mindinventory/MindSQL">MindSQL</a> - Paquete de Python para convertir texto a SQL, con funciones de autoalojamiento y API REST compatibles con LLM propietarios y de código abierto.</p>
+</li>
+<li>
+<p><a href="https://github.com/langfuse/langfuse">Langfuse</a> - Plataforma de ingeniería de LLM de código abierto 🪢: trazas, evaluaciones, gestión de prompts y entorno de pruebas.</p>
+</li>
+<li>
+<p><a href="https://github.com/SylphAI-Inc/AdalFlow">AdalFlow</a> - AdalFlow: biblioteca para crear y optimizar automáticamente aplicaciones de LLM.</p>
+</li>
+<li>
+<p><a href="https://github.com/microsoft/guidance">Guidance</a> — Práctica biblioteca de Python de Microsoft que usa plantillas Handlebars para intercalar generación, prompts y control lógico.</p>
+</li>
+<li>
+<p><a href="https://github.com/evidentlyai/evidently">Evidently</a> — Marco de código abierto para evaluar, probar y supervisar sistemas basados en ML y LLM.</p>
+</li>
+<li>
+<p><a href="https://docs.chainlit.io/overview">Chainlit</a> — Biblioteca de Python para crear interfaces de chatbot.</p>
+</li>
+<li>
+<p><a href="https://www.guardrailsai.com/docs/">Guardrails.ai</a> — Biblioteca de Python para validar resultados y reintentar operaciones fallidas. Sigue en fase alfa, así que pueden aparecer limitaciones y errores.</p>
+</li>
+<li>
+<p><a href="https://github.com/microsoft/semantic-kernel">Semantic Kernel</a> — Biblioteca de Python/C#/Java de Microsoft que admite plantillas de prompts, encadenamiento de funciones, memoria vectorizada y planificación inteligente.</p>
+</li>
+<li>
+<p><a href="https://github.com/hegelai/prompttools">Prompttools</a> — Herramientas de Python de código abierto para probar y evaluar modelos, bases de datos vectoriales y prompts.</p>
+</li>
+<li>
+<p><a href="https://github.com/normal-computing/outlines">Outlines</a> — Biblioteca de Python que ofrece un lenguaje específico de dominio para simplificar la creación de prompts y restringir la generación.</p>
+</li>
+<li>
+<p><a href="https://github.com/promptslab/Promptify">Promptify</a> — Pequeña biblioteca de Python para usar modelos de lenguaje en tareas de NLP.</p>
+</li>
+<li>
+<p><a href="https://scale.com/spellbook">Scale Spellbook</a> — Producto de pago para crear, comparar y publicar aplicaciones de modelos de lenguaje.</p>
+</li>
+<li>
+<p><a href="https://promptperfect.jina.ai/prompts">PromptPerfect</a> — Producto de pago para probar y mejorar prompts.</p>
+</li>
+<li>
+<p><a href="https://wandb.ai/site/solutions/llmops">Weights &#x26; Biases</a> — Producto de pago para hacer seguimiento de experimentos de entrenamiento de modelos e ingeniería de prompts.</p>
+</li>
+<li>
+<p><a href="https://github.com/openai/evals">OpenAI Evals</a> — Biblioteca de código abierto para evaluar el rendimiento de tareas con modelos de lenguaje y prompts.</p>
+</li>
+<li>
+<p><a href="https://www.arthur.ai/get-started">Arthur Shield</a> — Producto de pago para detectar toxicidad, alucinaciones, inyección de prompts, etc.</p>
+</li>
+<li>
+<p><a href="https://lmql.ai">LMQL</a> — Lenguaje de programación para interactuar con LLM, compatible con prompts tipados, flujo de control, restricciones y herramientas.</p>
+</li>
+<li>
+<p><a href="https://github.com/lgrammel/modelfusion">ModelFusion</a> - Biblioteca de TypeScript para crear aplicaciones con LLM y otros modelos de ML (conversión de voz a texto, texto a voz y generación de imágenes).</p>
+</li>
+<li>
+<p><a href="https://openspg.yuque.com/ndx6g9/ps5q6b/vfoi61ks3mqwygvy">OneKE</a> — Modelo bilingüe chino-inglés de extracción de conocimiento que utiliza grafos de conocimiento y tecnologías de procesamiento del lenguaje natural.</p>
+</li>
+<li>
+<p><a href="https://github.com/llm-ui-kit/llm-ui">llm-ui</a> - Biblioteca de React para crear interfaces de usuario de LLM.</p>
+</li>
+<li>
+<p><a href="https://www.wordware.ai">Wordware</a> - IDE alojado en la web donde especialistas de dominio sin conocimientos técnicos colaboran con ingenieros de IA para crear agentes de IA específicos para tareas. Aborda los prompts como un nuevo lenguaje de programación, en lugar de bloques de poco o ningún código.</p>
+</li>
+<li>
+<p><a href="https://github.com/WallarooLabs">Wallaroo.AI</a> - Despliega, gestiona y optimiza cualquier modelo a escala y en cualquier entorno, desde la nube hasta el borde. Permite pasar de un cuaderno de Python a la inferencia en minutos.</p>
+</li>
+<li>
+<p><a href="https://github.com/langgenius/dify">Dify</a> - Plataforma de código abierto para desarrollar aplicaciones de LLM, con una interfaz intuitiva que agiliza los flujos de trabajo de IA, la gestión de modelos y el despliegue en producción.</p>
+</li>
+<li>
+<p><a href="https://github.com/LazyAGI/LazyLLM">LazyLLM</a> - Aplicación de LLM de código abierto para crear fácilmente y sin complicaciones aplicaciones multiagente de LLM; admite el despliegue y el ajuste fino de modelos.</p>
+</li>
+<li>
+<p><a href="https://github.com/memfreeme/memfree">MemFree</a> - Motor de búsqueda híbrida de IA de código abierto que obtiene al instante respuestas precisas de Internet, marcadores, notas y documentos. Admite el despliegue con un solo clic.</p>
+</li>
+<li>
+<p><a href="https://github.com/Marker-Inc-Korea/AutoRAG">AutoRAG</a> - Herramienta AutoML de código abierto para RAG. Optimiza automáticamente la calidad de las respuestas RAG, desde los conjuntos de datos de evaluación de generación hasta el despliegue de canalizaciones RAG optimizadas.</p>
+</li>
+<li>
+<p><a href="https://github.com/epsilla-cloud">Epsilla</a> - Plataforma integral de agentes de LLM con tus datos y conocimientos privados; ofrece agentes de IA listos para producción desde el primer día.</p>
+</li>
+<li>
+<p><a href="https://phoenix.arize.com/">Arize-Phoenix</a> - Herramienta de código abierto para la observabilidad de ML que se ejecuta en el entorno de tus cuadernos. Supervisa y ajusta modelos de LLM, CV y tabulares.</p>
+</li>
+<li>
+<p><a href="https://github.com/Hannibal046/Awesome-LLM/blob/538eed00fcb05634fd81a68e24397c620fdcd3e8/[https:/github.com/simonw/llm">LLM</a> - Utilidad de CLI y biblioteca de Python para interactuar con modelos de lenguaje grandes, tanto mediante API remotas como con modelos que pueden instalarse y ejecutarse en tu propio equipo.</p>
+</li>
+<li>
+<p><a href="https://github.com/longevity-genie/just-chat">Just-Chat</a> - ¡Crea tu agente de LLM y conversa con él de forma sencilla y rápida!</p>
+</li>
+<li>
+<p><a href="https://github.com/splx-ai/agentic-radar">Agentic Radar</a> - Analizador de seguridad de CLI de código abierto para flujos de trabajo agénticos. Examina el código fuente, detecta vulnerabilidades y genera una visualización interactiva junto con un informe de seguridad detallado. Admite LangGraph, CrewAI, n8n, OpenAI Agents y más.</p>
+</li>
+<li>
+<p><a href="https://github.com/langwatch/langwatch">LangWatch</a> - Plataforma de código abierto para la observabilidad de LLM, la evaluación de prompts y su optimización.</p>
+</li>
+<li>
+<p><a href="https://www.tensorzero.com/">TensorZero</a> - TensorZero es un marco de código abierto para crear aplicaciones de LLM listas para producción. Unifica una pasarela de LLM, observabilidad, optimización, evaluaciones y experimentación.</p>
+</li>
+</ul>
+</details>
+<div class="sl-heading-wrapper level-h2"><h2 id="tutoriales-y-cursos-sobre-llm"><span id="llm-tutorials-and-courses" class="awesome-anchor-alias" aria-hidden="true"></span>Tutoriales y cursos sobre LLM</h2><a class="sl-anchor-link" href="#tutoriales-y-cursos-sobre-llm"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Tutoriales y cursos sobre LLM»</span></a></div>
+<ul>
+<li><a href="https://www.youtube.com/@AndrejKarpathy">Andrej Karpathy Series</a> - ¡Mi favorito!</li>
+<li><a href="https://www.youtube.com/@umarjamilai">Umar Jamil Series</a> - vídeos educativos y de gran calidad que no te puedes perder.</li>
+<li><a href="https://rush-nlp.com/projects/">Alexander Rush Series</a> - materiales educativos y de gran calidad que no te puedes perder.</li>
+<li><a href="https://github.com/mlabonne/llm-course">llm-course</a> - Curso para iniciarse en los modelos de lenguaje grandes (LLM), con itinerarios de aprendizaje y cuadernos de Colab.</li>
+<li><a href="https://cs.uwaterloo.ca/~wenhuche/teaching/cs886/">UWaterloo CS 886</a> - Avances recientes en modelos fundacionales.</li>
+<li><a href="https://web.stanford.edu/class/cs25/">CS25-Transformers United</a></li>
+<li><a href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/">ChatGPT Prompt Engineering</a></li>
+<li><a href="https://www.cs.princeton.edu/courses/archive/fall22/cos597G/">Princeton: Understanding Large Language Models</a></li>
+<li><a href="https://stanford-cs324.github.io/winter2022/">CS324 - Large Language Models</a></li>
+<li><a href="https://build.microsoft.com/en-US/sessions/db3f4859-cd30-4445-a0cd-553c3304f8e2">State of GPT</a></li>
+<li><a href="https://maartengrootendorst.substack.com/p/a-visual-guide-to-mamba-and-state?utm_source=multiple-personal-recommendations-email&#x26;utm_medium=email&#x26;open=false">A Visual Guide to Mamba and State Space Models</a></li>
+<li><a href="https://www.youtube.com/watch?v=kCc8FmEb1nY">Let’s build GPT: from scratch, in code, spelled out.</a></li>
+<li><a href="https://www.youtube.com/watch?v=zduSFxRajkE&#x26;t=1157s">minbpe</a> - Código minimalista y limpio para el algoritmo de codificación por pares de bytes (BPE), usado habitualmente en la tokenización de LLM.</li>
+<li><a href="https://github.com/keyvank/femtoGPT">femtoGPT</a> - Implementación pura en Rust de un Transformer generativo preentrenado minimalista.</li>
+<li><a href="https://nips.cc/virtual/2022/tutorial/55796">Neurips2022-Foundational Robustness of Foundation Models</a></li>
+<li><a href="https://icml.cc/virtual/2022/tutorial/18440">ICML2022-Welcome to the “Big Model” Era: Techniques and Systems to Train and Serve Bigger Models</a></li>
+<li><a href="https://jaykmody.com/blog/gpt-from-scratch/">GPT in 60 Lines of NumPy</a></li>
+<li><a href="https://github.com/changyeyu/LLM-RL-Visualized/blob/master/src/README_EN.md">LLM‑RL‑Visualized (EN)</a> | <a href="https://github.com/changyeyu/LLM-RL-Visualized">LLM‑RL‑Visualized (中文)</a> - Más de 100 mapas de algoritmos de LLM y RL 📚.</li>
+</ul>
+<div class="sl-heading-wrapper level-h2"><h2 id="libros-sobre-llm"><span id="llm-books" class="awesome-anchor-alias" aria-hidden="true"></span>Libros sobre LLM</h2><a class="sl-anchor-link" href="#libros-sobre-llm"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Libros sobre LLM»</span></a></div>
+<ul>
+<li><a href="https://amzn.to/3GUlRng">Generative AI with LangChain: Build large language model (LLM) apps with Python, ChatGPT, and other LLMs</a> - incluye un <a href="https://github.com/benman1/generative_ai_with_langchain">repositorio de GitHub</a> que muestra gran parte de su funcionalidad</li>
+<li><a href="https://www.manning.com/books/build-a-large-language-model-from-scratch">Build a Large Language Model (From Scratch)</a> - Guía para crear tu propio LLM funcional.</li>
+<li><a href="https://www.amazon.com/dp/9152799727?ref_=cm_sw_r_cp_ud_dp_W3ZHCD6QWM3DPPC0ARTT_1">BUILD GPT: HOW AI WORKS</a> - explica cómo programar desde cero un Transformer generativo preentrenado, o GPT.</li>
+<li><a href="https://www.llm-book.com/">Hands-On Large Language Models: Language Understanding and Generation</a> - Explora el mundo de los modelos de lenguaje grandes con más de 275 ilustraciones originales en esta guía ilustrada.</li>
+<li><a href="http://aibox.ruc.edu.cn/zws/index.htm">The Chinese Book for Large Language Models</a> - Libro introductorio sobre LLM basado en <a href="https://arxiv.org/abs/2303.18223"><em>A Survey of Large Language Models</em></a>.</li>
+</ul>
+<div class="sl-heading-wrapper level-h2"><h2 id="grandes-ideas-sobre-los-llm"><span id="great-thoughts-about-llm" class="awesome-anchor-alias" aria-hidden="true"></span>Grandes ideas sobre los LLM</h2><a class="sl-anchor-link" href="#grandes-ideas-sobre-los-llm"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Grandes ideas sobre los LLM»</span></a></div>
+<ul>
+<li><a href="https://jingfengyang.github.io/gpt">Why did all of the public reproduction of GPT-3 fail?</a></li>
+<li><a href="https://yaofu.notion.site/June-2023-A-Stage-Review-of-Instruction-Tuning-f59dbfc36e2d4e12a33443bd6b2012c2">A Stage Review of Instruction Tuning</a></li>
+<li><a href="https://lilianweng.github.io/posts/2023-06-23-agent/">LLM Powered Autonomous Agents</a></li>
+<li><a href="https://www.youtube.com/watch?v=fqVLjtvWgq8">Why you should work on AI AGENTS!</a></li>
+<li><a href="https://www.semianalysis.com/p/google-we-have-no-moat-and-neither">Google “We Have No Moat, And Neither Does OpenAI”</a></li>
+<li><a href="https://petergabriel.com/news/ai-competition-statement/">AI competition statement</a></li>
+<li><a href="https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/">Prompt Engineering</a></li>
+<li><a href="https://www.nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.html">Noam Chomsky: The False Promise of ChatGPT</a></li>
+<li><a href="https://orenleung.super.site/is-chatgpt-175-billion-parameters-technical-analysis">Is ChatGPT 175 Billion Parameters? Technical Analysis</a></li>
+<li><a href="https://www.notion.so/Awesome-LLM-40c8aa3f2b444ecc82b79ae8bbd2696b">The Next Generation Of Large Language Models </a></li>
+<li><a href="https://research.aimultiple.com/large-language-model-training/">Large Language Model Training in 2023</a></li>
+<li><a href="https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1">How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources</a></li>
+<li><a href="https://www.youtube.com/watch?v=p9IxoSkvZ-M&#x26;t=4s">Open Pretrained Transformers</a></li>
+<li><a href="https://docs.google.com/presentation/d/1EUV7W7X_w0BDrscDhPg7lMGzJCkeaPkGCJ3bN8dluXc/edit?pli=1&#x26;resourcekey=0-7Nz5A7y8JozyVrnDtcEKJA#slide=id.g16197112905_0_0">Scaling, emergence, and reasoning in large language models</a></li>
+</ul>
+<div class="sl-heading-wrapper level-h2"><h2 id="miscelánea"><span id="miscellaneous" class="awesome-anchor-alias" aria-hidden="true"></span>Miscelánea</h2><a class="sl-anchor-link" href="#miscelánea"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Miscelánea»</span></a></div>
+<ul>
+<li><a href="https://www.emergentmind.com">Emergent Mind</a> - Las últimas noticias sobre IA, seleccionadas y explicadas por GPT-4.</li>
+<li><a href="https://sharegpt.com">ShareGPT</a> - Comparte con un clic tus conversaciones más sorprendentes de ChatGPT.</li>
+<li><a href="https://docs.google.com/spreadsheets/d/1bmpDdLZxvTCleLGVPgzoMTQ0iDP2-7v7QziPrzPdHyM/edit#gid=0">Major LLMs + Data Availability</a></li>
+<li><a href="https://vaulted-polonium-23c.notion.site/500-Best-AI-Tools-e954b36bf688404ababf74a13f98d126">500+ Best AI Tools</a></li>
+<li><a href="https://txt.cohere.ai/summarize-beta/">Cohere Summarize Beta</a> - Presentamos Cohere Summarize Beta: un nuevo endpoint para resumir textos.</li>
+<li><a href="https://github.com/mmabrouk/chatgpt-wrapper">chatgpt-wrapper</a> - ChatGPT Wrapper es una API y CLI de Python no oficial y de código abierto que permite interactuar con ChatGPT.</li>
+<li><a href="https://www.cursor.so">Cursor</a> - Escribe, edita y conversa sobre tu código con una potente IA.</li>
+<li><a href="https://github.com/Significant-Gravitas/Auto-GPT">AutoGPT</a> - aplicación experimental de código abierto que muestra las capacidades del modelo de lenguaje GPT-4.</li>
+<li><a href="https://github.com/agiresearch/OpenAGI">OpenAGI</a> - Cuando los LLM se encuentran con expertos de dominio.</li>
+<li><a href="https://github.com/zjunlp/EasyEdit">EasyEdit</a> - Marco fácil de usar para editar modelos de lenguaje grandes.</li>
+<li><a href="https://github.com/guyShilo/chatgpt-shroud">chatgpt-shroud</a> - Extensión de Chrome para ChatGPT de OpenAI que mejora la privacidad al facilitar ocultar y mostrar el historial de chat. Ideal para proteger la privacidad durante las presentaciones de pantalla.</li>
+<li><a href="https://aifordevelopers.org">AI For Developers</a> - Lista de herramientas y agentes de IA para desarrolladores.</li>
+</ul>
+<div class="sl-heading-wrapper level-h2"><h2 id="colaboraciones"><span id="contributing" class="awesome-anchor-alias" aria-hidden="true"></span>Colaboraciones</h2><a class="sl-anchor-link" href="#colaboraciones"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Colaboraciones»</span></a></div>
+<p>Este repositorio está activo y siempre agradecemos tus contribuciones.</p>
+<p>Mantendré abiertas algunas solicitudes de incorporación de cambios si no estoy seguro de que sean adecuadas para los LLM; puedes votar por ellas añadiendo 👍.</p>
+<hr>
+<p>Si tienes alguna pregunta sobre esta lista seleccionada, no dudes en contactarme en <a href="mailto:chengxin1998@stu.pku.edu.cn">chengxin1998@stu.pku.edu.cn</a>.</p></div><aside class="hagilight-ai-disclosure" role="note">Esta publicación se tradujo con IA. <a href="/awesome/awesome-llm/">Ver original</a></aside><section class="hagilight-article-promotion astro-wvyqmlyc" aria-labelledby="hagilight-article-promotion-title"><div class="hagilight-article-promotion__pitch astro-wvyqmlyc"><div class="hagilight-article-promotion__intro astro-wvyqmlyc"><h2 id="hagilight-article-promotion-title" class="astro-wvyqmlyc">HagiCode</h2><p class="hagilight-article-promotion__lead astro-wvyqmlyc">HagiCode es un espacio de trabajo de programación con agentes: los flujos de trabajo de OpenSpec planifican el cambio, la ejecución multiagente lo lleva a cabo y Hero Dungeon hace visible el largo recorrido, para convertir ideas en software entregado.</p><p class="hagilight-article-promotion__tagline astro-wvyqmlyc">Convierte ideas en software útil con un flujo de trabajo con agentes más inteligente, rápido y ameno.</p><div class="hagilight-article-promotion__actions astro-wvyqmlyc"><a class="hagilight-article-promotion__cta hagilight-article-promotion__cta--primary astro-wvyqmlyc" href="https://www.hagicode.com/es-ES/" data-ga-category="navigation" data-ga-label="home" data-ga-location="article_promotion">Visitar HagiCode</a><a class="hagilight-article-promotion__cta hagilight-article-promotion__cta--secondary astro-wvyqmlyc" href="https://docs.hagicode.com/es-ES/product-overview/" data-ga-category="navigation" data-ga-label="productDocs" data-ga-location="article_promotion">Leer la documentación</a></div></div><ul class="hagilight-article-promotion__features astro-wvyqmlyc" aria-label="HagiCode"><li class="astro-wvyqmlyc"><span class="hagilight-article-promotion__icon astro-wvyqmlyc" aria-hidden="true" style="--hagilight-pillar-icon: url(/_astro/pillar-smart.DAOAYOW6.svg)"></span><strong class="astro-wvyqmlyc">Inteligente</strong><span class="hagilight-article-promotion__feature-text astro-wvyqmlyc">Los flujos de trabajo de OpenSpec convierten la intención en un itinerario ejecutable, de la propuesta al diseño, las tareas y la entrega.</span></li><li class="astro-wvyqmlyc"><span class="hagilight-article-promotion__icon astro-wvyqmlyc" aria-hidden="true" style="--hagilight-pillar-icon: url(/_astro/pillar-efficient.fRriWHtK.svg)"></span><strong class="astro-wvyqmlyc">Eficiente</strong><span class="hagilight-article-promotion__feature-text astro-wvyqmlyc">La ejecución multiagente avanza en paralelo con la investigación, la implementación y la revisión, en varios repositorios y con los Agent CLI que ya usas.</span></li><li class="astro-wvyqmlyc"><span class="hagilight-article-promotion__icon astro-wvyqmlyc" aria-hidden="true" style="--hagilight-pillar-icon: url(/_astro/pillar-fun.CqXYOQWh.svg)"></span><strong class="astro-wvyqmlyc">Divertido</strong><span class="hagilight-article-promotion__feature-text astro-wvyqmlyc">Hero Dungeon convierte las largas sesiones de programación en una aventura visible, con héroes, progreso y logros.</span></li></ul></div><div class="hagilight-article-promotion__gallery-block astro-wvyqmlyc"><h3 id="hagilight-article-promotion-gallery-title" class="astro-wvyqmlyc">HagiCode de un vistazo</h3><ul class="hagilight-article-promotion__gallery astro-wvyqmlyc" aria-labelledby="hagilight-article-promotion-gallery-title"><li class="astro-wvyqmlyc"><figure class="astro-wvyqmlyc"><img src="/_astro/workbench.BeU9cSj3_Z13WVMB.webp" srcset="/_astro/workbench.BeU9cSj3_1q4y77.webp 480w, /_astro/workbench.BeU9cSj3_1f03Ic.webp 800w, /_astro/workbench.BeU9cSj3_Z13WVMB.webp 1600w" alt="Banco de trabajo de HagiCode con un tablero kanban de sesiones en las columnas Pendiente, En curso y Archivado." sizes="(min-width: 50rem) 560px, 100vw" loading="lazy" decoding="async" fetchpriority="low" width="1600" height="845" class="astro-wvyqmlyc"><figcaption class="astro-wvyqmlyc">El banco de trabajo: todas las sesiones en un solo tablero kanban.</figcaption></figure></li><li class="astro-wvyqmlyc"><figure class="astro-wvyqmlyc"><img src="/_astro/proposal-workflow.DcRW_GFa_Z1zy3Uf.webp" srcset="/_astro/proposal-workflow.DcRW_GFa_1nYSDe.webp 480w, /_astro/proposal-workflow.DcRW_GFa_Z13kstl.webp 800w, /_astro/proposal-workflow.DcRW_GFa_Z1zy3Uf.webp 1600w" alt="Barra de etapas de una propuesta de HagiCode, de Creada a Archivada, con la etapa Ejecución completada resaltada y un botón Archivar plan." sizes="(min-width: 50rem) 560px, 100vw" loading="lazy" decoding="async" fetchpriority="low" width="1600" height="340" class="astro-wvyqmlyc"><figcaption class="astro-wvyqmlyc">Una propuesta pasa de creada a redactada, revisada, ejecutada y archivada.</figcaption></figure></li><li class="astro-wvyqmlyc"><figure class="astro-wvyqmlyc"><img src="/_astro/heroes.B7y5aHrT_Z1GmWoS.webp" srcset="/_astro/heroes.B7y5aHrT_1tcCxz.webp 480w, /_astro/heroes.B7y5aHrT_Z4TtoQ.webp 800w, /_astro/heroes.B7y5aHrT_Z1GmWoS.webp 1200w" alt="Panel Hero Dungeon de HagiCode llamado Ember Keep, con tres héroes en ejecución y su nivel, progreso y texto de la historia." sizes="(min-width: 50rem) 560px, 100vw" loading="lazy" decoding="async" fetchpriority="low" width="1200" height="1111" class="astro-wvyqmlyc"><figcaption class="astro-wvyqmlyc">Hero Dungeon: los héroes sacan adelante el trabajo mientras sigues el progreso, los niveles y la historia.</figcaption></figure></li></ul></div><div class="hagilight-article-promotion__closing astro-wvyqmlyc"><div class="hagilight-article-promotion__windows astro-wvyqmlyc"><h3 id="hagilight-article-promotion-windows-title" class="hagilight-article-promotion__windows-label astro-wvyqmlyc">Descargar para Windows</h3><div class="hagilight-article-promotion__windows-actions astro-wvyqmlyc"><ms-store-badge productid="9N3PM0N3SVDW" productname="HagiCode" window-mode="direct" theme="auto" size="large" animation="on" language="es" aria-label="Abrir HagiCode en Microsoft Store" title="Abrir HagiCode en Microsoft Store" data-ga-category="download" data-ga-label="microsoftStore" data-ga-location="article_promotion" data-ga-url="https://apps.microsoft.com/detail/9N3PM0N3SVDW" class="astro-wvyqmlyc"><a class="hagilight-article-promotion__store-fallback astro-wvyqmlyc" href="https://apps.microsoft.com/detail/9N3PM0N3SVDW" aria-label="Abrir HagiCode en Microsoft Store" title="Abrir HagiCode en Microsoft Store">Obtenerlo en Microsoft Store</a></ms-store-badge><a class="hagilight-article-promotion__downloads astro-wvyqmlyc" href="https://www.hagicode.com/es-ES/desktop/" data-ga-category="download" data-ga-label="downloadClient" data-ga-location="article_promotion">Todas las descargas</a></div></div><div class="hagilight-article-promotion__share astro-wvyqmlyc"><h3 id="hagilight-article-promotion-share-title" class="astro-wvyqmlyc">Compartir HagiCode</h3><p class="hagilight-article-promotion__share-text astro-wvyqmlyc">HagiCode es un espacio de trabajo de programación con agentes, con flujos de trabajo de OpenSpec, ejecución multiagente y Hero Dungeon: https://www.hagicode.com/</p></div></div></section><script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script><footer class="sl-flex astro-ddtxxk7k"><div class="meta sl-flex astro-ddtxxk7k"></div><div class="pagination-links print:hidden astro-b5raizh3" dir="ltr"><a href="/es-ES/awesome/awesome-knowledge-distillation/" rel="prev" class="astro-b5raizh3"><svg aria-hidden="true" class="astro-b5raizh3 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17 11H9.41l3.3-3.29a1.004 1.004 0 1 0-1.42-1.42l-5 5a1 1 0 0 0-.21.33 1 1 0 0 0 0 .76 1 1 0 0 0 .21.33l5 5a1.002 1.002 0 0 0 1.639-.325 1 1 0 0 0-.219-1.095L9.41 13H17a1 1 0 0 0 0-2Z"/></svg><span class="astro-b5raizh3">Página anterior<br class="astro-b5raizh3"><span class="link-title astro-b5raizh3">Knowledge Distillation</span></span></a><a href="/es-ES/awesome/awesome-llm-apps/" rel="next" class="astro-b5raizh3"><svg aria-hidden="true" class="astro-b5raizh3 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17.92 11.62a1.001 1.001 0 0 0-.21-.33l-5-5a1.003 1.003 0 1 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1.002 1.002 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219l5-5a1 1 0 0 0 .21-.33 1 1 0 0 0 0-.76Z"/></svg><span class="astro-b5raizh3">Siguiente página<br class="astro-b5raizh3"><span class="link-title astro-b5raizh3">LLM Apps</span></span></a></div></footer><div class="hagilight-site-links astro-psnq7rln"><section class="astro-psnq7rln"><h2 class="astro-psnq7rln">Sitios del ecosistema</h2><nav aria-label="Enlaces de sitios del ecosistema" class="astro-psnq7rln"><ul class="astro-psnq7rln"><li class="astro-psnq7rln"><a href="https://tasks.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">HagiTask</a></li><li class="astro-psnq7rln"><a href="https://cost.hagicode.com" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Me reemplazará la IA?</a></li><li class="astro-psnq7rln"><a href="https://www.hagicode.com/es-ES/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Sitio principal de HagiCode</a></li><li class="astro-psnq7rln"><a href="https://newbe.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">newbe</a></li><li class="astro-psnq7rln"><a href="https://index.hagicode.com/data/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Index Data Mirror</a></li><li class="astro-psnq7rln"><a href="https://builder.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Docker Compose Builder</a></li><li class="astro-psnq7rln"><a href="https://status.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">HagiCode Status</a></li><li class="astro-psnq7rln"><a href="https://awesome.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Awesome Sites</a></li><li class="astro-psnq7rln"><a href="https://design.hagicode.com/es-ES/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Awesome Design MD</a></li><li class="astro-psnq7rln"><a href="https://soul.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Soul Builder</a></li><li class="astro-psnq7rln"><a href="https://trait.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Trait Builder</a></li><li class="astro-psnq7rln"><a href="https://openspec.hagicode.com/es-ES/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Documentación de OpenSpec</a></li><li class="astro-psnq7rln"><a href="https://omniroute.hagicode.com/es-ES/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Documentación de OmniRoute</a></li></ul></nav></section><section class="astro-psnq7rln"><h2 class="astro-psnq7rln">Enlaces rápidos</h2><nav aria-label="Enlaces rápidos" class="astro-psnq7rln"><ul class="astro-psnq7rln"><li class="astro-psnq7rln"><a href="https://www.hagicode.com/es-ES/desktop/" data-ga-category="download" data-ga-label="downloadClient" data-ga-location="footer" class="astro-psnq7rln">Descargar Hagicode</a></li><li class="astro-psnq7rln"><a href="https://apps.microsoft.com/detail/9N3PM0N3SVDW" target="_blank" rel="noopener noreferrer" data-ga-category="download" data-ga-label="microsoftStore" data-ga-location="footer" class="astro-psnq7rln">Descargar Hagicode para Windows</a></li><li class="astro-psnq7rln"><a href="https://docs.hagicode.com/es-ES/installation/docker-compose/" data-ga-category="navigation" data-ga-label="dockerCompose" data-ga-location="footer" class="astro-psnq7rln">Instalación de Docker Compose</a></li><li class="astro-psnq7rln"><a href="https://docs.hagicode.com/es-ES/product-overview/" data-ga-category="navigation" data-ga-label="productDocs" data-ga-location="footer" class="astro-psnq7rln">Documentación del producto</a></li><li class="astro-psnq7rln"><a href="https://docs.hagicode.com/es-ES/blog/" data-ga-category="navigation" data-ga-label="blogPosts" data-ga-location="footer" class="astro-psnq7rln">Artículos del blog</a></li><li class="astro-psnq7rln"><a href="https://awesome.hagicode.com/rss.xml" class="astro-psnq7rln">RSS</a></li><li class="astro-psnq7rln"><a href="https://awesome.hagicode.com/rss.es-ES.xml" class="astro-psnq7rln">RSS del idioma actual</a></li><li class="astro-psnq7rln"><a href="/sitemap-index.xml" class="astro-psnq7rln">Mapa del sitio</a></li><li class="astro-psnq7rln"><a href="https://www.hagicode.com/es-ES/about/" class="astro-psnq7rln">Acerca de HagiCode</a></li></ul></nav></section><section class="astro-psnq7rln"><h2 class="astro-psnq7rln">Comunidad</h2><nav aria-label="Enlaces de la comunidad" class="astro-psnq7rln"><ul class="astro-psnq7rln"><li class="astro-psnq7rln"><a href="https://github.com/HagiCode-org/site" target="_blank" rel="noopener noreferrer" data-ga-category="community" data-ga-label="github" data-ga-location="footer" class="astro-psnq7rln">GitHub</a></li><li class="astro-psnq7rln"><a href="https://discord.gg/qY662sJK" target="_blank" rel="noopener noreferrer" data-ga-category="community" data-ga-label="discord" data-ga-location="footer" class="astro-psnq7rln">Discord</a></li><li class="astro-psnq7rln"><a href="https://github.com/HagiCode-org/site/issues" target="_blank" rel="noopener noreferrer" data-ga-category="community" data-ga-label="issueFeedback" data-ga-location="footer" class="astro-psnq7rln">Reportar un problema</a></li><li class="astro-psnq7rln"><a href="mailto:support@hagicode.com" class="astro-psnq7rln">Correo de contacto</a></li><li class="astro-psnq7rln"><a href="https://qm.qq.com/q/Fwb0o094kw" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Grupo QQ 610394020</a></li></ul></nav></section><nav class="hagilight-filings astro-psnq7rln" aria-label="Ver información de registro"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" aria-label="Ver la información de registro ICP" class="astro-psnq7rln">Registro ICP 闽ICP备2026004153号-1</a><a href="http://www.beian.gov.cn/portal/registerSystemInfo" target="_blank" rel="noopener noreferrer" aria-label="Ver la información de registro de seguridad pública" class="astro-psnq7rln">Registro de seguridad pública 闽公网安备35011102351148号</a></nav></div><p class="hagilight-copyright astro-psnq7rln"><span>© 2026 HagiCode</span> | <span class="hagilight-copyright__attribution astro-psnq7rln">Powered By hagilight-starlight@0.7.0</span></p><hagilight-promoto-banner class="hagilight-promoto" data-locale="es-ES" hidden="true"><section class="hagilight-promoto__shell" data-promoto-shell hidden aria-label="Featured promotion"><div class="hagilight-promoto__viewport"><div class="hagilight-promoto__track" data-promoto-track></div></div><nav class="hagilight-promoto__controls" data-promoto-controls aria-label="Promotion controls" hidden><button type="button" class="hagilight-promoto__control" data-promoto-previous aria-label="Previous promotion"><svg class="hagilight-promoto__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 6l-6 6 6 6"></path></svg></button><span class="hagilight-promoto__count" data-promoto-count aria-label="Promotion progress"></span><button type="button" class="hagilight-promoto__control" data-promoto-next aria-label="Next promotion"><svg class="hagilight-promoto__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6"></path></svg></button><button type="button" class="hagilight-promoto__control" data-promoto-pause aria-pressed="false" aria-label="Pause automatic promotion rotation"><svg class="hagilight-promoto__icon hagilight-promoto__icon--pause" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6v12M15 6v12"></path></svg><svg class="hagilight-promoto__icon hagilight-promoto__icon--play" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5.5v13l11-6.5z"></path></svg></button></nav><button type="button" class="hagilight-promoto__dismiss" data-promoto-dismiss aria-label="Dismiss promotion"><svg class="hagilight-promoto__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"></path></svg></button><span class="hagilight-promoto__status" data-promoto-status aria-live="polite"></span></section></hagilight-promoto-banner><script type="module" src="/_astro/PromotoBanner.astro_astro_type_script_index_0_lang.CV5ho8Sw.js"></script><script charset="UTF-8" id="LA_COLLECT" src="https://sdk.51.la/js-sdk-pro.min.js"></script><script>(function(){const siteId = "L6b88a5yK4h2Xnci";
+
+      LA.init({ id: siteId, ck: siteId, autoTrack: true, hashMode: true, screenRecord: true });
+    })();</script></div></div></main></div></div></div></div><dialog class="awesome-external-warning" aria-labelledby="awesome-external-warning-heading" aria-describedby="awesome-external-warning-explanation" data-warning-fallback="Vas a salir de Awesome Site. No controlamos este sitio web. Continuar a:" data-pagefind-ignore><h2 id="awesome-external-warning-heading">¿Salir de Awesome Site?</h2><p id="awesome-external-warning-explanation">Estás a punto de visitar un sitio web externo. No controlamos su contenido ni sus prácticas de privacidad.</p><p class="awesome-external-warning-label">Destino</p><p class="awesome-external-warning-host" data-warning-host></p><p class="awesome-external-warning-url" data-warning-url></p><p class="awesome-external-warning-error" data-warning-error role="alert" aria-live="assertive" hidden>Esta dirección web no es válida o contiene datos de acceso, por lo que no se puede abrir aquí.</p><div class="awesome-external-warning-actions"><button type="button" data-warning-stay autofocus>Seguir en Awesome Site</button><a data-warning-continue aria-disabled="true" tabindex="-1">Continuar al sitio web</a></div><script type="module" src="/_astro/ExternalLinkWarning.astro_astro_type_script_index_0_lang.DAGpZW5P.js"></script></dialog><script type="module" src="/_astro/PageFrame.astro_astro_type_script_index_0_lang.D1VWYcNP.js"></script></body></html>

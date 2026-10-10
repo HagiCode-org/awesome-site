@@ -1,0 +1,1135 @@
+<!DOCTYPE html><html lang="es-ES" dir="ltr" data-theme="dark" data-has-toc data-has-sidebar class="astro-g5ptsecz"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>AutoML Papers | Awesome Site</title><link rel="canonical" href="https://awesome.hagicode.com/es-ES/awesome/awesome-automl-papers/"/><link rel="alternate" hreflang="en-US" href="https://awesome.hagicode.com/awesome/awesome-automl-papers/"/><link rel="alternate" hreflang="zh-CN" href="https://awesome.hagicode.com/zh-CN/awesome/awesome-automl-papers/"/><link rel="alternate" hreflang="zh-Hant" href="https://awesome.hagicode.com/zh-Hant/awesome/awesome-automl-papers/"/><link rel="alternate" hreflang="fr-FR" href="https://awesome.hagicode.com/fr-FR/awesome/awesome-automl-papers/"/><link rel="alternate" hreflang="de-DE" href="https://awesome.hagicode.com/de-DE/awesome/awesome-automl-papers/"/><link rel="alternate" hreflang="es-ES" href="https://awesome.hagicode.com/es-ES/awesome/awesome-automl-papers/"/><link rel="alternate" hreflang="ja-JP" href="https://awesome.hagicode.com/ja-JP/awesome/awesome-automl-papers/"/><link rel="alternate" hreflang="ko-KR" href="https://awesome.hagicode.com/ko-KR/awesome/awesome-automl-papers/"/><link rel="alternate" hreflang="pt-BR" href="https://awesome.hagicode.com/pt-BR/awesome/awesome-automl-papers/"/><link rel="alternate" hreflang="ru-RU" href="https://awesome.hagicode.com/ru-RU/awesome/awesome-automl-papers/"/><link rel="alternate" hreflang="x-default" href="https://awesome.hagicode.com/awesome/awesome-automl-papers/"/><link rel="sitemap" href="/sitemap-index.xml"/><link rel="alternate" type="application/rss+xml" href="https://awesome.hagicode.com/rss.xml"/><script>(() => {
+  let mode = 'wide';
+  try {
+    const stored = localStorage.getItem('hagilight-content-width');
+    if (stored === 'wide' || stored === 'narrow') mode = stored;
+  } catch {
+    mode = 'wide';
+  }
+  document.documentElement.dataset.hagilightContentWidth = mode;
+})();</script><script>(function () {
+  var choices = ["default","default-light","default-dark","ocean-light","ocean-dark","sakura-light","sakura-dark","forest-light","forest-dark"];
+  var choiceKey = "hagilight-theme";
+  var choice = 'default';
+  try {
+    var stored = localStorage.getItem(choiceKey);
+    if (choices.includes(stored)) choice = stored;
+  } catch (error) {}
+  var themeId = choice === 'default'
+    ? "forest"
+    : choice.slice(0, choice.lastIndexOf('-'));
+  document.documentElement.dataset.hagilightTheme = themeId;
+})();</script><link rel="icon" href="data:image/x-icon;base64,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" type="image/x-icon"/><link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml"/><meta name="generator" content="Astro v7.3.5"/><meta name="generator" content="Starlight v0.42.5"/><meta property="og:type" content="article"/><meta property="og:url" content="https://awesome.hagicode.com/es-ES/awesome/awesome-automl-papers/"/><meta property="og:locale" content="es-ES"/><meta property="og:site_name" content="Awesome Site"/><meta name="twitter:card" content="summary_large_image"/><meta name="description" content="Selección de artículos, tutoriales, presentaciones y proyectos sobre aprendizaje automático automatizado, con ingeniería de características, optimización de hiperparámetros, metaaprendizaje y búsqueda de arquitecturas neuronales."/><meta property="og:title" content="Awesome Site"/><meta property="og:description" content="Selección de artículos, tutoriales, presentaciones y proyectos sobre aprendizaje automático automatizado, con ingeniería de características, optimización de hiperparámetros, metaaprendizaje y búsqueda de arquitecturas neuronales."/><meta name="twitter:title" content="Awesome Site"/><meta name="twitter:description" content="Selección de artículos, tutoriales, presentaciones y proyectos sobre aprendizaje automático automatizado, con ingeniería de características, optimización de hiperparámetros, metaaprendizaje y búsqueda de arquitecturas neuronales."/><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Colecciones Awesome","item":"https://awesome.hagicode.com/es-ES/"},{"@type":"ListItem","position":2,"name":"Colecciones Awesome","item":"https://awesome.hagicode.com/es-ES/awesome/"},{"@type":"ListItem","position":3,"name":"AutoML Papers","item":"https://awesome.hagicode.com/es-ES/awesome/awesome-automl-papers/"}]}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-EN03FMT2Q4"></script><script>(function(){const measurementId = "G-EN03FMT2Q4";
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', measurementId);
+    })();</script><script type="module" src="/_astro/GoogleAnalytics.astro_astro_type_script_index_0_lang.DR20hGCB.js"></script><script>
+	window.StarlightThemeProvider = (() => {
+		const storedTheme =
+			typeof localStorage !== 'undefined' && localStorage.getItem('starlight-theme');
+		const theme =
+			storedTheme ||
+			(window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+		document.documentElement.dataset.theme = theme === 'light' ? 'light' : 'dark';
+		return {
+			updatePickers(theme = storedTheme || 'auto') {
+				document.querySelectorAll('starlight-theme-select').forEach((picker) => {
+					const select = picker.querySelector('select');
+					if (select) select.value = theme;
+					/** @type {HTMLTemplateElement | null} */
+					const tmpl = document.querySelector(`#theme-icons`);
+					const newIcon = tmpl && tmpl.content.querySelector('.' + theme);
+					if (newIcon) {
+						const oldIcon = picker.querySelector('svg.label-icon');
+						if (oldIcon) {
+							oldIcon.replaceChildren(...newIcon.cloneNode(true).childNodes);
+						}
+					}
+				});
+			},
+		};
+	})();
+</script><template id="theme-icons"><svg aria-hidden="true" class="light astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg aria-hidden="true" class="dark astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg><svg aria-hidden="true" class="auto astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg></template><link rel="stylesheet" href="/_astro/print.ehPL0gv-.css" media="print"><link rel="stylesheet" href="/_astro/common.mVYJCJjM.css"><script type="module" src="/_astro/page.Dwipeu-R.js"></script></head><body class="astro-g5ptsecz"><a class="sl-skip-link astro-qb7clj6f" href="#_top">Ir al contenido</a><div class="page sl-flex astro-yntsjkba"><header class="header astro-yntsjkba"><div class="header astro-76dcl4nh"><div class="title-wrapper sl-flex astro-76dcl4nh"><a href="/es-ES" class="site-title sl-flex astro-6rvad3va"><img class="astro-6rvad3va" alt="HagiCode" src="/_astro/logo.COFWaAMt.png" width="32" height="32"><span class="astro-6rvad3va" translate="no">Awesome Site</span></a></div><div class="sl-flex print:hidden astro-76dcl4nh"><site-search class="astro-76dcl4nh astro-b5kgnn7o" data-translations="{&quot;placeholder&quot;:&quot;Buscar&quot;,&quot;clear_search&quot;:&quot;Limpiar&quot;,&quot;load_more&quot;:&quot;Cargar más resultados&quot;,&quot;search_label&quot;:&quot;Buscar página&quot;,&quot;filters_label&quot;:&quot;Filtros&quot;,&quot;zero_results&quot;:&quot;Ningún resultado para: [SEARCH_TERM]&quot;,&quot;many_results&quot;:&quot;[COUNT] resultados para: [SEARCH_TERM]&quot;,&quot;one_result&quot;:&quot;[COUNT] resultado para: [SEARCH_TERM]&quot;,&quot;alt_search&quot;:&quot;Ningún resultado para [SEARCH_TERM]. Mostrando resultados para: [DIFFERENT_TERM]&quot;,&quot;search_suggestion&quot;:&quot;Ningún resultado para [SEARCH_TERM]. Prueba alguna de estas búsquedas:&quot;,&quot;searching&quot;:&quot;Buscando [SEARCH_TERM]...&quot;}"><button data-open-modal disabled aria-label="Buscar" aria-keyshortcuts="Control+K" class="astro-b5kgnn7o"><svg aria-hidden="true" class="astro-b5kgnn7o astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.71 20.29 18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z"/></svg><span class="sl-hidden md:sl-block astro-b5kgnn7o" aria-hidden="true">Buscar</span><kbd class="sl-hidden md:sl-flex astro-b5kgnn7o" style="display: none;"><kbd class="astro-b5kgnn7o">Ctrl</kbd><kbd class="astro-b5kgnn7o">K</kbd></kbd></button><dialog style="padding:0" aria-label="Buscar" class="astro-b5kgnn7o"><div class="dialog-frame sl-flex astro-b5kgnn7o"><button data-close-modal class="sl-flex md:sl-hidden astro-b5kgnn7o">Cancelar</button><div class="search-container astro-b5kgnn7o"><div id="starlight__search" class="astro-b5kgnn7o"></div></div></div></dialog></site-search><script>
+	(() => {
+		const openBtn = document.querySelector('button[data-open-modal]');
+		const shortcut = openBtn?.querySelector('kbd');
+		if (!openBtn || !(shortcut instanceof HTMLElement)) return;
+		const platformKey = shortcut.querySelector('kbd');
+		if (platformKey && /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) {
+			platformKey.textContent = '⌘';
+			openBtn.setAttribute('aria-keyshortcuts', 'Meta+K');
+		}
+		shortcut.style.display = '';
+	})();
+</script><script type="module" src="/_astro/Search.astro_astro_type_script_index_0_lang.Bumivpjo.js"></script></div><div class="sl-hidden md:sl-flex print:hidden right-group astro-76dcl4nh"><nav class="header-links astro-76dcl4nh" aria-label="Site navigation"><a href="https://www.hagicode.com/es-ES/" data-ga-category="navigation" data-ga-label="home" data-ga-location="header" class="astro-76dcl4nh">Inicio</a><a href="https://docs.hagicode.com/es-ES/blog/" data-ga-category="navigation" data-ga-label="blog" data-ga-location="header" class="astro-76dcl4nh">Blog</a><a href="https://www.hagicode.com/es-ES/about/" data-ga-category="navigation" data-ga-label="support" data-ga-location="header" class="astro-76dcl4nh">Soporte</a></nav><div class="sl-flex social-icons astro-76dcl4nh"></div><hagilight-theme-select class="theme-picker astro-mexofp5s"><label style="--sl-select-width: 12.5em" class="astro-mexofp5s"><span class="sr-only astro-mexofp5s">Seleccionar tema</span><svg class="icon label-icon astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-mexofp5s"><option value="default" selected class="astro-mexofp5s">Predeterminado</option><optgroup label="Tema predeterminado" class="astro-mexofp5s"><option value="default-light" class="astro-mexofp5s">Predeterminado · Claro</option><option value="default-dark" class="astro-mexofp5s">Predeterminado · Oscuro</option></optgroup><optgroup label="Océano" class="astro-mexofp5s"><option value="ocean-light" class="astro-mexofp5s">Océano · Claro</option><option value="ocean-dark" class="astro-mexofp5s">Océano · Oscuro</option></optgroup><optgroup label="Sakura" class="astro-mexofp5s"><option value="sakura-light" class="astro-mexofp5s">Sakura · Claro</option><option value="sakura-dark" class="astro-mexofp5s">Sakura · Oscuro</option></optgroup><optgroup label="Bosque" class="astro-mexofp5s"><option value="forest-light" class="astro-mexofp5s">Bosque · Claro</option><option value="forest-dark" class="astro-mexofp5s">Bosque · Oscuro</option></optgroup></select><svg class="icon caret astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label><template class="mode-icons astro-mexofp5s"><svg class="mode-auto astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><svg class="mode-light astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg class="mode-dark astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg></template></hagilight-theme-select><script type="module">var e=`forest`,t=[`default`,`default-light`,`default-dark`,`ocean-light`,`ocean-dark`,`sakura-light`,`sakura-dark`,`forest-light`,`forest-dark`],n=`hagilight-theme`,r=`starlight-theme`,i=new Set(t);function a(e){return i.has(e)?e:`default`}function o(e){if(e==="default")return{themeId:`default`};let t=e.lastIndexOf(`-`);return{themeId:e.slice(0,t),mode:e.slice(t+1)}}function s(e){try{return globalThis.localStorage?.getItem(e)??null}catch{return null}}function c(e,t){try{globalThis.localStorage?.setItem(e,t)}catch{return}}function l(t){let{themeId:n,mode:r}=o(t);return r===void 0?e:n}function u(){return a(s(n))}function d(e,t=document.documentElement){let{mode:i}=o(e);t.dataset.hagilightTheme=l(e),i!==void 0&&(t.dataset.theme=i),c(n,e),c(r,i??``)}`${JSON.stringify(t)}${JSON.stringify(n)}${JSON.stringify(e)}`,{"de-de":{defaultOption:`Standard`,defaultThemeGroup:`Standard-Design`,themes:{ocean:`Ozean`,sakura:`Sakura`,forest:`Wald`}},"en-us":{defaultOption:`Default`,defaultThemeGroup:`Default theme`,themes:{ocean:`Ocean`,sakura:`Sakura`,forest:`Forest`}},"es-es":{defaultOption:`Predeterminado`,defaultThemeGroup:`Tema predeterminado`,themes:{ocean:`Océano`,sakura:`Sakura`,forest:`Bosque`}},"fr-fr":{defaultOption:`Par défaut`,defaultThemeGroup:`Thème par défaut`,themes:{ocean:`Océan`,sakura:`Sakura`,forest:`Forêt`}},"ja-jp":{defaultOption:`デフォルト`,defaultThemeGroup:`デフォルトテーマ`,themes:{ocean:`海`,sakura:`桜`,forest:`森`}},"ko-kr":{defaultOption:`기본값`,defaultThemeGroup:`기본 테마`,themes:{ocean:`바다`,sakura:`벚꽃`,forest:`숲`}},"pt-br":{defaultOption:`Padrão`,defaultThemeGroup:`Tema padrão`,themes:{ocean:`Oceano`,sakura:`Sakura`,forest:`Floresta`}},"ru-ru":{defaultOption:`По умолчанию`,defaultThemeGroup:`Стандартная тема`,themes:{ocean:`Океан`,sakura:`Сакура`,forest:`Лес`}},"zh-cn":{defaultOption:`默认`,defaultThemeGroup:`默认主题`,themes:{ocean:`海洋`,sakura:`樱花`,forest:`森林`}},"zh-hant":{defaultOption:`預設`,defaultThemeGroup:`預設主題`,themes:{ocean:`海洋`,sakura:`櫻花`,forest:`森林`}}}[`en-us`];var f=e=>e.endsWith(`-light`)?`mode-light`:e.endsWith(`-dark`)?`mode-dark`:`mode-auto`,p=class extends HTMLElement{connectedCallback(){if(this.dataset.initialized)return;this.dataset.initialized=`true`;let e=this.querySelector(`select`);if(!(e instanceof HTMLSelectElement))return;let t=t=>{e.value=t;let n=this.querySelector(`svg.label-icon`),r=this.querySelector(`template.mode-icons`)?.content.querySelector(`.${f(t)}`);n&&r&&n.replaceChildren(...r.cloneNode(!0).childNodes)};t(u()),e.addEventListener(`change`,()=>{let n=a(e.value);d(n),t(n)}),matchMedia(`(prefers-color-scheme: light)`).addEventListener(`change`,e=>{u()==="default"&&(document.documentElement.dataset.theme=e.matches?`light`:`dark`)})}};customElements.get(`hagilight-theme-select`)||customElements.define(`hagilight-theme-select`,p);</script><hagilight-language-chooser class="language-switcher astro-pykrs55g"><button type="button" class="language-trigger astro-pykrs55g" aria-haspopup="dialog" aria-controls="hagilight-language-dialog" aria-expanded="false" aria-label="Seleccionar idioma: Español (España)" title="Español (España)"><span class="trigger-label astro-pykrs55g">Español (España)</span><span class="trigger-chevron astro-pykrs55g" aria-hidden="true">▾</span></button><dialog id="hagilight-language-dialog" class="language-dialog astro-pykrs55g" aria-modal="true" aria-labelledby="language-dialog-title"><div class="dialog-header astro-pykrs55g"><div class="astro-pykrs55g"><h2 id="language-dialog-title" class="dialog-title astro-pykrs55g">Seleccionar idioma</h2><p class="dialog-current astro-pykrs55g">Idioma actual: <strong class="astro-pykrs55g">Español (España)</strong></p></div><button type="button" class="dialog-close astro-pykrs55g" aria-label="Cerrar selector de idioma">×</button></div><div class="language-grid-scroller astro-pykrs55g"><div class="language-grid astro-pykrs55g" role="listbox" aria-label="Seleccionar idioma"><button type="button" role="option" data-locale="root" data-href="/awesome/awesome-automl-papers/" lang="en-US" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">English</span></button><button type="button" role="option" data-locale="zh-CN" data-href="/zh-CN/awesome/awesome-automl-papers/" lang="zh-CN" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">简体中文</span></button><button type="button" role="option" data-locale="zh-Hant" data-href="/zh-Hant/awesome/awesome-automl-papers/" lang="zh-Hant" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">繁體中文</span></button><button type="button" role="option" data-locale="fr-FR" data-href="/fr-FR/awesome/awesome-automl-papers/" lang="fr-FR" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Français</span></button><button type="button" role="option" data-locale="de-DE" data-href="/de-DE/awesome/awesome-automl-papers/" lang="de-DE" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Deutsch</span></button><button type="button" role="option" data-locale="es-ES" data-href="/es-ES/awesome/awesome-automl-papers/" lang="es-ES" aria-selected="true" class="language-option language-option-selected astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Español (España)</span><span class="selected-badge astro-pykrs55g">Seleccionado</span></button><button type="button" role="option" data-locale="ja-JP" data-href="/ja-JP/awesome/awesome-automl-papers/" lang="ja-JP" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">日本語</span></button><button type="button" role="option" data-locale="ko-KR" data-href="/ko-KR/awesome/awesome-automl-papers/" lang="ko-KR" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">한국어</span></button><button type="button" role="option" data-locale="pt-BR" data-href="/pt-BR/awesome/awesome-automl-papers/" lang="pt-BR" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Português (Brasil)</span></button><button type="button" role="option" data-locale="ru-RU" data-href="/ru-RU/awesome/awesome-automl-papers/" lang="ru-RU" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Русский</span></button></div></div></dialog></hagilight-language-chooser><script type="module">Object.entries({root:{label:`English`,lang:`en-US`},"zh-CN":{label:`简体中文`,lang:`zh-CN`},"zh-Hant":{label:`繁體中文`,lang:`zh-Hant`},"fr-FR":{label:`Français`,lang:`fr-FR`},"de-DE":{label:`Deutsch`,lang:`de-DE`},"es-ES":{label:`Español (España)`,lang:`es-ES`},"ja-JP":{label:`日本語`,lang:`ja-JP`},"ko-KR":{label:`한국어`,lang:`ko-KR`},"pt-BR":{label:`Português (Brasil)`,lang:`pt-BR`},"ru-RU":{label:`Русский`,lang:`ru-RU`}}).map(([e,t])=>({code:e,label:t.label,lang:t.lang}));function e(e,t,n){if(n<1)return-1;switch(t){case`ArrowDown`:case`ArrowRight`:return(e+1)%n;case`ArrowUp`:case`ArrowLeft`:return(e-1+n)%n;case`Home`:return 0;case`End`:return n-1;default:return e}}function t(e){try{let t=window.localStorage.getItem(`starlight-route`),n={};if(t)try{let e=JSON.parse(t);e&&typeof e==`object`&&!Array.isArray(e)&&(n=e)}catch{n={}}window.localStorage.setItem(`starlight-route`,JSON.stringify({...n,lang:e}))}catch{}}var n=class extends HTMLElement{connectedCallback(){if(this.dataset.initialized)return;this.dataset.initialized=`true`;let n=this.querySelector(`.language-trigger`),r=this.querySelector(`.language-dialog`),i=this.querySelector(`.dialog-close`),a=[...this.querySelectorAll(`[role="option"]`)];if(!(n instanceof HTMLButtonElement)||!(r instanceof HTMLDialogElement)||!(i instanceof HTMLButtonElement))return;let o=()=>{r.open?r.close():n.focus()};n.addEventListener(`click`,()=>{if(r.open){o();return}r.showModal(),n.setAttribute(`aria-expanded`,`true`),(a.find(e=>e.getAttribute(`aria-selected`)===`true`)??a[0])?.focus()}),i.addEventListener(`click`,o),r.addEventListener(`cancel`,e=>{e.preventDefault(),o()}),r.addEventListener(`close`,()=>{n.setAttribute(`aria-expanded`,`false`),n.focus()}),r.addEventListener(`click`,e=>{e.target===r&&o()}),r.querySelector(`[role="listbox"]`)?.addEventListener(`keydown`,t=>{if(!(t.target instanceof HTMLButtonElement))return;let n=a.indexOf(t.target),r=e(n,t.key,a.length);r!==n&&(t.preventDefault(),a[r]?.focus())});for(let e of a)e.addEventListener(`click`,()=>{let n=e.dataset.locale,r=e.dataset.href;if(!n||!r||(o(),e.getAttribute(`aria-selected`)===`true`))return;t(n);let i=new URL(r,window.location.origin);i.search=window.location.search,i.hash=window.location.hash,window.location.assign(i.toString())})}};customElements.get(`hagilight-language-chooser`)||customElements.define(`hagilight-language-chooser`,n);</script></div></div></header><nav class="sidebar print:hidden astro-yntsjkba" aria-label="Primario"><button popovertarget="starlight__sidebar" class="sl-menu-button sl-flex md:sl-hidden print:hidden astro-r2osgdlg"><svg aria-hidden="true" class="open-menu astro-r2osgdlg astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M3 8h18a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"/></svg><svg aria-hidden="true" class="close-menu astro-r2osgdlg astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="m13.41 12 6.3-6.29a1.004 1.004 0 1 0-1.42-1.42L12 10.59l-6.29-6.3a1.004 1.004 0 0 0-1.42 1.42l6.3 6.29-6.3 6.29a1 1 0 0 0 0 1.42.998.998 0 0 0 1.42 0l6.29-6.3 6.29 6.3a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.42L13.41 12Z"/></svg><span class="sr-only astro-r2osgdlg">Menú</span></button><script type="module">var e=class extends HTMLElement{constructor(){super();let e=matchMedia(`(min-width: 50em)`),t=()=>{this.popover=e.matches?null:`auto`};t(),e.addEventListener(`change`,()=>t()),this.addEventListener(`toggle`,({newState:e})=>this.trapFocus(e===`open`))}trapFocus(e){document.querySelectorAll(`.main-frame, .sl-skip-link`).forEach(t=>{t.toggleAttribute(`inert`,e)})}};customElements.define(`sl-sidebar-pane`,e);</script><script type="module">var e=class extends HTMLElement{constructor(){super();let e=this.querySelector(`select`);e&&(e.addEventListener(`change`,e=>{e.currentTarget instanceof HTMLSelectElement&&(window.location.pathname=e.currentTarget.value)}),window.addEventListener(`pageshow`,t=>{if(!t.persisted)return;let n=e.querySelector(`option[selected]`)?.index;n!==e.selectedIndex&&(e.selectedIndex=n??0)}))}};customElements.define(`starlight-lang-select`,e);</script><sl-sidebar-pane popover id="starlight__sidebar" class="sidebar-pane astro-yntsjkba"><div class="sidebar-content sl-flex astro-yntsjkba"><sl-sidebar-state-persist data-hash="1s7qti4" class="astro-ipdry5cl"><script aria-hidden="true">
+		(() => {
+			try {
+				if (!matchMedia('(min-width: 50em)').matches) return;
+				/** @type {HTMLElement | null} */
+				const target = document.querySelector('sl-sidebar-state-persist');
+				const state = JSON.parse(sessionStorage.getItem('sl-sidebar-state') || '0');
+				if (!target || !state || target.dataset.hash !== state.hash) return;
+				window._starlightScrollRestore = state.scroll;
+				customElements.define(
+					'sl-sidebar-restore',
+					class SidebarRestore extends HTMLElement {
+						connectedCallback() {
+							try {
+								const idx = parseInt(this.dataset.index || '');
+								const details = this.closest('details');
+								if (details && typeof state.open[idx] === 'boolean') details.open = state.open[idx];
+							} catch {}
+						}
+					}
+				);
+			} catch {}
+		})();
+	</script><ul class="top-level astro-rmhv4bp6"><li class="astro-rmhv4bp6"><a href="/es-ES/" class="large astro-rmhv4bp6"><span class="astro-rmhv4bp6">Inicio</span></a></li><li class="astro-rmhv4bp6"><details open class="astro-rmhv4bp6"><summary class="astro-rmhv4bp6"><span class="group-label astro-rmhv4bp6"><span class="large astro-rmhv4bp6">Colecciones</span></span><svg aria-hidden="true" class="caret astro-rmhv4bp6 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="0"></sl-sidebar-restore><ul class="astro-rmhv4bp6"><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Colecciones y repositorios</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/android-security-awesome/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Android Security Awesome</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-3d-gaussian-splatting/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">3D Gaussian Splatting</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-actions/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Actions</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-agent-skills/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agent Skills</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-agentic-ai-zh/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agentic AI (Chinese)</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-agentic-patterns/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agentic Patterns</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-ai-apps/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">AI Apps</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-android-ui/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Android UI</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-ansible/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Ansible</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-automl-papers/" aria-current="page" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">AutoML Papers</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-bash/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Bash</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-chaos-engineering/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Chaos Engineering</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-chatgpt-prompts-zh/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">ChatGPT Prompts (Chinese)</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-chinese-nlp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Chinese NLP</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-chrome-devtools/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Chrome DevTools</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-cloud-security/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Cloud Security</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-codex-subagents/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Codex Subagents</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-compose/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Compose</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-console-services/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Console Services</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-copilot/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Copilot</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-coreml-models/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Core ML Models</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-cpp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">C++</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-ctf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">CTF</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-datascience/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Data Science</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-db-tools/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">DB Tools</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-deep-text-detection-recognition/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Deep Text Detection and Recognition</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-deepseek-integration/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">DeepSeek Integrations</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-design-md/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Design.md</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-design-systems/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Design Systems</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-django/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Django</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-docker/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Docker</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-dotnet/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">.NET</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-electron/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Electron</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-fastapi/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">FastAPI</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-flask/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Flask</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-generative-ai/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Generative AI</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-generative-ai-guide/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Generative AI Guide</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-github-profile-readme/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GitHub Profile README</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-golang-algorithm/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Golang Algorithm</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-gpt-agents/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GPT Agents</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-hacking/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Hacking</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-incident-response/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Incident Response</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-jellyfin/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Jellyfin</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-k8s-resources/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Kubernetes Resources</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-knowledge-distillation/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Knowledge Distillation</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-llm/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-llm-apps/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM Apps</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-llm-resources/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM Resources</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-llm-strawberry/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM Strawberry</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-microservices/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Microservices</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-nlp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">NLP</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-nodejs/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Node.js</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-paddle-deeplearning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">DeepLearning</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-php/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PHP</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-postgres/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PostgreSQL</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-privacy/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Privacy</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-production-machine-learning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Production Machine Learning</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-prompt-engineering/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Prompt Engineering</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-rag/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">RAG</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-react-components/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">React Components</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-react-hooks/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">React Hooks</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-red-teaming/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Red Teaming</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-rlhf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">RLHF</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-rust/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Rust</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-scalability/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Scalability</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-shell/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Shell</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-shodan-queries/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Shodan Queries</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-software-architecture/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Software Architecture</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-sre/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">SRE</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-swift/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Swift</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-system-design/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">System Design</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-tf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Terraform</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-threat-intelligence/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Threat Intelligence</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-typescript/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">TypeScript</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-waf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">WAF</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/awesome-web-hacking/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Web Hacking</span></a></li></ul></details></li><li class="astro-rmhv4bp6"><details open class="astro-rmhv4bp6"><summary class="astro-rmhv4bp6"><span class="group-label astro-rmhv4bp6"><span class="large astro-rmhv4bp6">Explorar por tema</span></span><svg aria-hidden="true" class="caret astro-rmhv4bp6 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="1"></sl-sidebar-restore><ul class="astro-rmhv4bp6"><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/ai-agents/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agentes de IA</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/algorithms/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Algoritmos y estructuras de datos</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/android-ui/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Interfaces de Android</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/ansible/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Ansible</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/computer-vision/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Visión artificial</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/cpp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">C / C++</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/cybersecurity/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Ciberseguridad</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/databases/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Bases de datos</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/deep-learning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Aprendizaje profundo</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/design-systems/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Sistemas de diseño</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/docker/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Docker</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/dotnet/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">.NET</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/electron/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Electron</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/github-actions/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GitHub Actions</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/github-profile-readme/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">README de perfil de GitHub</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/javascript/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">JavaScript</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/kubernetes/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Kubernetes</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/llm-apps/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Aplicaciones para LLM</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/llm-research/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Investigación sobre LLM</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/machine-learning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Aprendizaje automático</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/mlops/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">MLOps</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/nlp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Procesamiento del lenguaje natural</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/nodejs/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Node.js</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/php/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PHP</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/postgresql/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PostgreSQL</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/python/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Python</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/rag/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Generación aumentada por recuperación</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/react/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">React</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/rust/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Rust</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/scalability/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Arquitectura y escalabilidad</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/self-hosted/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Software autoalojado</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/shell/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Shell y línea de comandos</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/swift/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Swift</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/sysadmin/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Administración de sistemas</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/terraform-opentofu/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Terraform y OpenTofu</span></a></li><li class="astro-rmhv4bp6"><a href="/es-ES/awesome/tags/typescript/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">TypeScript</span></a></li></ul></details></li></ul><script aria-hidden="true">
+		(() => {
+			const scroller = document.getElementById('starlight__sidebar');
+			if (!window._starlightScrollRestore || !scroller) return;
+			scroller.scrollTop = window._starlightScrollRestore;
+			delete window._starlightScrollRestore;
+		})();
+	</script></sl-sidebar-state-persist><div class="md:sl-hidden"><div class="mobile-preferences sl-flex astro-p4azlveh"><div class="social-icons astro-p4azlveh"></div><hagilight-theme-select class="theme-picker astro-mexofp5s"><label style="--sl-select-width: 12.5em" class="astro-mexofp5s"><span class="sr-only astro-mexofp5s">Seleccionar tema</span><svg class="icon label-icon astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-mexofp5s"><option value="default" selected class="astro-mexofp5s">Predeterminado</option><optgroup label="Tema predeterminado" class="astro-mexofp5s"><option value="default-light" class="astro-mexofp5s">Predeterminado · Claro</option><option value="default-dark" class="astro-mexofp5s">Predeterminado · Oscuro</option></optgroup><optgroup label="Océano" class="astro-mexofp5s"><option value="ocean-light" class="astro-mexofp5s">Océano · Claro</option><option value="ocean-dark" class="astro-mexofp5s">Océano · Oscuro</option></optgroup><optgroup label="Sakura" class="astro-mexofp5s"><option value="sakura-light" class="astro-mexofp5s">Sakura · Claro</option><option value="sakura-dark" class="astro-mexofp5s">Sakura · Oscuro</option></optgroup><optgroup label="Bosque" class="astro-mexofp5s"><option value="forest-light" class="astro-mexofp5s">Bosque · Claro</option><option value="forest-dark" class="astro-mexofp5s">Bosque · Oscuro</option></optgroup></select><svg class="icon caret astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label><template class="mode-icons astro-mexofp5s"><svg class="mode-auto astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><svg class="mode-light astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg class="mode-dark astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg></template></hagilight-theme-select><starlight-lang-select><label style="--sl-select-width: 7em" class="astro-2z5xp7gb"><span class="sr-only astro-2z5xp7gb">Seleccionar idioma</span><svg aria-hidden="true" class="icon label-icon astro-2z5xp7gb astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path fill-rule="evenodd" d="M8.516 3a.94.94 0 0 0-.941.94v1.15H2.94a.94.94 0 1 0 0 1.882h7.362a7.422 7.422 0 0 1-1.787 3.958 7.42 7.42 0 0 1-1.422-2.425.94.94 0 1 0-1.774.627 9.303 9.303 0 0 0 1.785 3.043 7.422 7.422 0 0 1-4.164 1.278.94.94 0 1 0 0 1.881 9.303 9.303 0 0 0 5.575-1.855 9.303 9.303 0 0 0 4.11 1.74l-.763 1.525a.968.968 0 0 0-.016.034l-1.385 2.77a.94.94 0 1 0 1.683.841l1.133-2.267h5.806l1.134 2.267a.94.94 0 0 0 1.683-.841l-1.385-2.769a.95.95 0 0 0-.018-.036l-3.476-6.951a.94.94 0 0 0-1.682 0l-1.82 3.639a7.423 7.423 0 0 1-3.593-1.256 9.303 9.303 0 0 0 2.27-5.203h1.894a.94.94 0 0 0 0-1.881H9.456V3.94A.94.94 0 0 0 8.516 3Zm6.426 11.794a1.068 1.068 0 0 1-.02.039l-.703 1.407h3.924l-1.962-3.924-1.24 2.478Z" clip-rule="evenodd"/></svg><select autocomplete="off" class="astro-2z5xp7gb"><option value="/awesome/awesome-automl-papers/" class="astro-2z5xp7gb">English</option><option value="/zh-CN/awesome/awesome-automl-papers/" class="astro-2z5xp7gb">简体中文</option><option value="/zh-Hant/awesome/awesome-automl-papers/" class="astro-2z5xp7gb">繁體中文</option><option value="/fr-FR/awesome/awesome-automl-papers/" class="astro-2z5xp7gb">Français</option><option value="/de-DE/awesome/awesome-automl-papers/" class="astro-2z5xp7gb">Deutsch</option><option value="/es-ES/awesome/awesome-automl-papers/" selected class="astro-2z5xp7gb">Español (España)</option><option value="/ja-JP/awesome/awesome-automl-papers/" class="astro-2z5xp7gb">日本語</option><option value="/ko-KR/awesome/awesome-automl-papers/" class="astro-2z5xp7gb">한국어</option><option value="/pt-BR/awesome/awesome-automl-papers/" class="astro-2z5xp7gb">Português (Brasil)</option><option value="/ru-RU/awesome/awesome-automl-papers/" class="astro-2z5xp7gb">Русский</option></select><svg aria-hidden="true" class="icon caret astro-2z5xp7gb astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label></starlight-lang-select></div></div></div></sl-sidebar-pane></nav><div class="main-frame astro-yntsjkba"><script type="module">var e=document.getElementById(`starlight__sidebar`),t=e?.querySelector(`sl-sidebar-state-persist`),n=`sl-sidebar-state`,r=()=>{let r=[],i=t?.dataset.hash||``;try{let e=sessionStorage.getItem(n),t=JSON.parse(e||`{}`);Array.isArray(t.open)&&t.hash===i&&(r=t.open)}catch{}return{hash:i,open:r,scroll:e?.scrollTop||0}},i=e=>{try{sessionStorage.setItem(n,JSON.stringify(e))}catch{}},a=()=>i(r()),o=(e,t)=>{let n=r();n.open[t]=e,i(n)};t?.addEventListener(`click`,e=>{if(!(e.target instanceof Element))return;let t=e.target.closest(`summary`)?.closest(`details`);if(!t)return;let n=t.querySelector(`sl-sidebar-restore`),r=parseInt(n?.dataset.index||``);isNaN(r)||o(!t.open,r)}),addEventListener(`visibilitychange`,()=>{document.visibilityState===`hidden`&&a()});</script><div class="lg:sl-flex astro-lrzkfocr"><aside class="right-sidebar-container print:hidden astro-lrzkfocr"><div class="right-sidebar astro-lrzkfocr"><div class="lg:sl-hidden astro-qok35upx"><mobile-starlight-toc data-min-h="2" data-max-h="3" class="astro-66cqc7ze"><nav aria-labelledby="starlight__on-this-page--mobile" class="astro-66cqc7ze"><details id="starlight__mobile-toc" class="astro-66cqc7ze"><summary id="starlight__on-this-page--mobile" class="sl-flex astro-66cqc7ze"><span class="toggle sl-flex astro-66cqc7ze">En esta página<svg aria-hidden="true" class="caret astro-66cqc7ze astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></span><span class="display-current astro-66cqc7ze"></span></summary><div class="dropdown astro-66cqc7ze"><ul class="isMobile astro-jugkfwgx" style="--depth: 0;"><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#_top" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Sinopsis</span></a><ul class="isMobile astro-jugkfwgx" style="--depth: 1;"><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#revisiones" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Revisiones</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#ingeniería-automatizada-de-características" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Ingeniería automatizada de características</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#búsqueda-de-arquitecturas" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Búsqueda de arquitecturas</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#marcos-de-trabajo" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Marcos de trabajo</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#optimización-de-hiperparámetros" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Optimización de hiperparámetros</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#varios" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Varios</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#optimización-bayesiana-1" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Optimización bayesiana</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#metaaprendizaje-3" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Metaaprendizaje</span></a></li></ul></li></ul></div></details></nav></mobile-starlight-toc><script type="module" src="/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.C3fM4Kra.js"></script></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-qok35upx"><div class="sl-container astro-qok35upx"><starlight-toc data-min-h="2" data-max-h="3"><nav aria-labelledby="starlight__on-this-page"><h2 id="starlight__on-this-page">En esta página</h2><ul class="astro-jugkfwgx" style="--depth: 0;"><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#_top" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Sinopsis</span></a><ul class="astro-jugkfwgx" style="--depth: 1;"><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#revisiones" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Revisiones</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#ingeniería-automatizada-de-características" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Ingeniería automatizada de características</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#búsqueda-de-arquitecturas" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Búsqueda de arquitecturas</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#marcos-de-trabajo" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Marcos de trabajo</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#optimización-de-hiperparámetros" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Optimización de hiperparámetros</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#varios" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Varios</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#optimización-bayesiana-1" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Optimización bayesiana</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#metaaprendizaje-3" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Metaaprendizaje</span></a></li></ul></li></ul></nav></starlight-toc><script type="module" src="/_astro/TableOfContents.astro_astro_type_script_index_0_lang.BpJaGz7G.js"></script></div></div></div></aside><div class="main-pane astro-lrzkfocr"><main data-pagefind-body class="astro-g5ptsecz" lang="es-ES" dir="ltr"><div class="content-panel astro-a7po4psb"><div class="sl-container astro-a7po4psb"><h1 id="_top" class="astro-bebwqqxs">AutoML Papers</h1><div class="hagilight-content-width-toggle" role="group" aria-label="Ancho del contenido"><button type="button" data-hagilight-content-width-choice="wide" aria-pressed="true">Ancho</button><button type="button" data-hagilight-content-width-choice="narrow" aria-pressed="false">Estrecho</button></div><script type="module">var e=`hagilight-content-width`,t=new Set([`wide`,`narrow`]);function n(e){return t.has(e)?e:`wide`}function r(e,t){e.querySelectorAll(`[data-hagilight-content-width-choice]`).forEach(e=>{e.setAttribute(`aria-pressed`,String(e.dataset.hagilightContentWidthChoice===t))})}function i(t=document.documentElement){let i=`wide`;try{i=n(globalThis.localStorage.getItem(e))}catch{i=`wide`}return t.dataset.hagilightContentWidth=i,r(t,i),i}function a(n,i=document.documentElement){if(!t.has(n))throw TypeError(`Hagilight content width must be "wide" or "narrow".`);i.dataset.hagilightContentWidth=n,r(i,n);try{globalThis.localStorage.setItem(e,n)}catch{return}}function o(e,t=document.documentElement){if(e.key!==`hagilight-content-width`&&e.key!==null)return;let i=n(e.newValue);t.dataset.hagilightContentWidth=i,r(t,i)}var s=document.documentElement;i(s),document.querySelectorAll(`[data-hagilight-content-width-choice]`).forEach(e=>{e.addEventListener(`click`,()=>{a(e.dataset.hagilightContentWidthChoice,s)})}),window.addEventListener(`storage`,e=>o(e,s));</script><nav class="awesome-topic-nav" aria-label="Temas"><span>Temas</span><ul><li><a href="/es-ES/awesome/tags/machine-learning/" data-ga-category="navigation" data-ga-label="machine-learning" data-ga-location="topic_nav">Aprendizaje automático</a></li></ul></nav></div></div><div class="content-panel astro-a7po4psb"><div class="sl-container astro-a7po4psb"><div class="sl-markdown-content"><blockquote>
+<p><strong>Source:</strong> <a href="https://github.com/hibayesian/awesome-automl-papers">https://github.com/hibayesian/awesome-automl-papers</a> at <a href="https://github.com/hibayesian/awesome-automl-papers/blob/0317821496b4aed694d2197ea50d96dd08716946/README.md"><code dir="auto">0317821496b4</code></a><br>
+<strong>License:</strong> <a href="https://github.com/hibayesian/awesome-automl-papers/blob/0317821496b4aed694d2197ea50d96dd08716946/LICENSE">Apache-2.0</a><br>
+<a href="/awesome/awesome-automl-papers/">Read the English original</a></p>
+</blockquote>
+<blockquote>
+<p>This edition is an AI-assisted translation.</p>
+</blockquote>
+<div class="sl-heading-wrapper level-h1"><h1 id="awesome-automl-papers">Awesome-AutoML-Papers</h1><a class="sl-anchor-link" href="#awesome-automl-papers"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Awesome-AutoML-Papers»</span></a></div>
+<p><strong>Awesome-AutoML-Papers</strong> es una selección de artículos de investigación, artículos, tutoriales, diapositivas y proyectos sobre aprendizaje automático automatizado. <strong>Añade una estrella</strong> a este repositorio para seguir las últimas novedades de este campo de investigación en auge. Gracias a todas las personas que han contribuido al proyecto. Únete y colabora con nosotros.</p>
+<div style="text-align: center">
+<img src="https://raw.githubusercontent.com/hibayesian/awesome-automl-papers/0317821496b4aed694d2197ea50d96dd08716946/resources/banner.png" atl="banner">
+</div>
+<div class="sl-heading-wrapper level-h1"><h1 id="qué-es-automl"><span id="what-is-automl" class="awesome-anchor-alias" aria-hidden="true"></span>¿Qué es AutoML?</h1><a class="sl-anchor-link" href="#qué-es-automl"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «¿Qué es AutoML?»</span></a></div>
+<p>El <em>aprendizaje automático automatizado</em> (AutoML) ofrece métodos y procesos para que quienes no son expertos en aprendizaje automático puedan utilizarlo, mejorar su eficiencia y acelerar la investigación en este ámbito.</p>
+<p>El aprendizaje automático (ML) ha logrado avances considerables en los últimos años y cada vez más disciplinas dependen de él. Sin embargo, estos avances dependen fundamentalmente de que especialistas en ML realicen las siguientes tareas:</p>
+<ul>
+<li>Preprocesar los datos,</li>
+<li>Seleccionar las características adecuadas,</li>
+<li>Elegir una familia de modelos adecuada,</li>
+<li>Optimizar los hiperparámetros del modelo,</li>
+<li>Posprocesar los modelos de aprendizaje automático,</li>
+<li>Analizar críticamente los resultados obtenidos,</li>
+</ul>
+<p>Como estas tareas suelen superar las capacidades de quienes no son expertos en ML, el rápido crecimiento de las aplicaciones de aprendizaje automático ha generado una demanda de métodos listos para usar, fáciles de aplicar sin conocimientos especializados. Llamamos <em>AutoML</em> al área de investigación que busca automatizar progresivamente el aprendizaje automático. Como nueva subárea del ML, <em>AutoML</em> ha despertado interés no solo en este campo, sino también en visión artificial, procesamiento del lenguaje natural y computación con grafos.</p>
+<p>No existe una definición formal de <em>AutoML</em>. Según las descripciones de la mayoría de los artículos, el proceso básico de <em>AutoML</em> puede representarse así.</p>
+<div style="text-align: center">
+<img src="https://raw.githubusercontent.com/hibayesian/awesome-automl-papers/0317821496b4aed694d2197ea50d96dd08716946/resources/procedure.jpg" width="600px" atl="figure1">
+</div>
+<p>Los enfoques de <em>AutoML</em> ya están lo bastante maduros para competir con especialistas en ML y, en ocasiones, incluso superarlos. En pocas palabras, <em>AutoML</em> puede mejorar el rendimiento y ahorrar mucho tiempo y dinero, ya que los especialistas en ML son difíciles de encontrar y caros. Por ello, el interés comercial por <em>AutoML</em> ha crecido notablemente en los últimos años, y varias grandes empresas tecnológicas y empresas emergentes están desarrollando sus propios sistemas. La siguiente tabla ofrece una comparación general de algunos de ellos.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center">Empresa</th><th align="center">AutoFE</th><th align="center">HPO</th><th align="center">NAS</th></tr></thead><tbody><tr><td align="center">4paradigm</td><td align="center">√</td><td align="center">√</td><td align="center">×</td></tr><tr><td align="center">Alibaba</td><td align="center">×</td><td align="center">√</td><td align="center">×</td></tr><tr><td align="center">Baidu</td><td align="center">×</td><td align="center">×</td><td align="center">√</td></tr><tr><td align="center">Determined AI</td><td align="center">×</td><td align="center">√</td><td align="center">√</td></tr><tr><td align="center">Google</td><td align="center">√</td><td align="center">√</td><td align="center">√</td></tr><tr><td align="center">DataCanvas</td><td align="center">√</td><td align="center">√</td><td align="center">√</td></tr><tr><td align="center">H2O.ai</td><td align="center">√</td><td align="center">√</td><td align="center">×</td></tr><tr><td align="center">Microsoft</td><td align="center">×</td><td align="center">√</td><td align="center">√</td></tr><tr><td align="center">MLJAR</td><td align="center">√</td><td align="center">√</td><td align="center">√</td></tr><tr><td align="center">RapidMiner</td><td align="center">√</td><td align="center">√</td><td align="center">×</td></tr><tr><td align="center">Tencent</td><td align="center">×</td><td align="center">√</td><td align="center">×</td></tr></tbody></table>
+<p><strong>Awesome-AutoML-Papers</strong> ofrece resúmenes actualizados de las técnicas fundamentales que necesitamos en <em>AutoML</em>:</p>
+<ul>
+<li>Limpieza automatizada de datos (Auto Clean)</li>
+<li>Ingeniería automatizada de características (Auto FE)</li>
+<li>Optimización de hiperparámetros (HPO)</li>
+<li>Metaaprendizaje</li>
+<li>Búsqueda de arquitecturas neuronales (NAS)</li>
+</ul>
+<div style="text-align: center">
+<img src="https://raw.githubusercontent.com/hibayesian/awesome-automl-papers/0317821496b4aed694d2197ea50d96dd08716946/resources/automl.png" atl="automl">
+</div>
+<div class="sl-heading-wrapper level-h1"><h1 id="índice"><span id="table-of-contents" class="awesome-anchor-alias" aria-hidden="true"></span>Índice</h1><a class="sl-anchor-link" href="#índice"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Índice»</span></a></div>
+<ul>
+<li><a href="#papers">Artículos de investigación</a>
+<ul>
+<li><a href="#surveys">Revisiones</a></li>
+<li><a href="#automated-feature-engineering">Ingeniería automatizada de características</a>
+<ul>
+<li><a href="#expand-reduce">Ampliación y reducción</a></li>
+<li><a href="#hierarchical-organization-of-transformations">Organización jerárquica de transformaciones</a></li>
+<li><a href="#meta-learning">Metaaprendizaje</a></li>
+<li><a href="#reinforcement-learning">Aprendizaje por refuerzo</a></li>
+</ul>
+</li>
+<li><a href="#architecture-search">Búsqueda de arquitecturas</a>
+<ul>
+<li><a href="#evolutionary-algorithms">Algoritmos evolutivos</a></li>
+<li><a href="#local-search">Búsqueda local</a></li>
+<li><a href="#meta-learning-1">Metaaprendizaje</a></li>
+<li><a href="#reinforcement-learning-1">Aprendizaje por refuerzo</a></li>
+<li><a href="#transfer-learning">Aprendizaje por transferencia</a></li>
+<li><a href="#network-morphism">Morfismo de redes</a></li>
+<li><a href="#continuous-optimization">Optimización continua</a></li>
+</ul>
+</li>
+<li><a href="#hyperparameter-optimization">Optimización de hiperparámetros</a>
+<ul>
+<li><a href="#bayesian-optimization">Optimización bayesiana</a></li>
+<li><a href="#evolutionary-algorithms-1">Algoritmos evolutivos</a></li>
+<li><a href="#lipschitz-functions">Funciones de Lipschitz</a></li>
+<li><a href="#local-search-1">Búsqueda local</a></li>
+<li><a href="#meta-learning-2">Metaaprendizaje</a></li>
+<li><a href="#particle-swarm-optimization">Optimización por enjambre de partículas</a></li>
+<li><a href="#random-search">Búsqueda aleatoria</a></li>
+<li><a href="#transfer-learning-1">Aprendizaje por transferencia</a></li>
+</ul>
+</li>
+<li><a href="#performance-prediction">Predicción del rendimiento</a>
+<ul>
+<li><a href="##">Predicción del rendimiento</a></li>
+</ul>
+</li>
+<li><a href="#frameworks">Marcos de trabajo</a></li>
+<li><a href="#miscellaneous">Varios</a></li>
+</ul>
+</li>
+<li><a href="#tutorials">Tutoriales</a>
+<ul>
+<li><a href="#bayesian-optimization">Optimización bayesiana</a></li>
+<li><a href="#meta-learning-3">Metaaprendizaje</a></li>
+</ul>
+</li>
+<li><a href="#articles">Artículos</a>
+<ul>
+<li><a href="#bayesian-optimization">Optimización bayesiana</a></li>
+<li><a href="#meta-learning">Metaaprendizaje</a></li>
+</ul>
+</li>
+<li><a href="#slides">Diapositivas</a>
+<ul>
+<li><a href="#slides">Optimización bayesiana</a></li>
+</ul>
+</li>
+<li><a href="#books">Libros</a>
+<ul>
+<li><a href="#books">Metaaprendizaje</a></li>
+</ul>
+</li>
+<li><a href="#projects">Proyectos</a></li>
+<li><a href="#prominent-researchers">Investigadores destacados</a></li>
+</ul>
+<div class="sl-heading-wrapper level-h1"><h1 id="artículos-de-investigación"><span id="papers" class="awesome-anchor-alias" aria-hidden="true"></span>Artículos de investigación</h1><a class="sl-anchor-link" href="#artículos-de-investigación"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Artículos de investigación»</span></a></div>
+<div class="sl-heading-wrapper level-h3"><h3 id="revisiones"><span id="surveys" class="awesome-anchor-alias" aria-hidden="true"></span>Revisiones</h3><a class="sl-anchor-link" href="#revisiones"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Revisiones»</span></a></div>
+<ul>
+<li>2019 | AutoML: A Survey of the State-of-the-Art | Xin He, et al. | arXiv | <a href="https://arxiv.org/pdf/1908.00709.pdf"><code dir="auto">PDF</code></a></li>
+<li>2019 | Survey on Automated Machine Learning | Marc Zoeller, Marco F. Huber | arXiv | <a href="https://arxiv.org/pdf/1904.12054.pdf"><code dir="auto">PDF</code></a></li>
+<li>2019 | Automated Machine Learning: State-of-The-Art and Open Challenges | Radwa Elshawi, et al. | arXiv | <a href="https://arxiv.org/pdf/1906.02287.pdf"><code dir="auto">PDF</code></a></li>
+<li>2018 | Taking Human out of Learning Applications: A Survey on Automated Machine Learning | Quanming Yao, et al. | arXiv | <a href="https://arxiv.org/pdf/1810.13306.pdf"><code dir="auto">PDF</code></a></li>
+<li>2020 | On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice | Li Yang, et al. | Neurocomputing | <a href="https://arxiv.org/pdf/2007.15745.pdf"><code dir="auto">PDF</code></a></li>
+<li>2020 | Automated Machine Learning—a brief review at the end of the early years | Escalante, H. J. | arXiv | <a href="https://arxiv.org/pdf/2008.08516.pdf"><code dir="auto">PDF</code></a></li>
+<li>2022 | IoT Data Analytics in Dynamic Environments: From An Automated Machine Learning Perspective | Li Yang, et al. | arXiv | <a href="https://arxiv.org/pdf/2209.08018.pdf"><code dir="auto">PDF</code></a></li>
+<li>2024 | Automated machine learning: past, present and future | Baratchi. M, et al. | Artificial Intelligence Review | <a href="https://link.springer.com/article/10.1007/s10462-024-10726-1"><code dir="auto">Springer</code></a></li>
+</ul>
+<div class="sl-heading-wrapper level-h3"><h3 id="ingeniería-automatizada-de-características"><span id="automated-feature-engineering" class="awesome-anchor-alias" aria-hidden="true"></span>Ingeniería automatizada de características</h3><a class="sl-anchor-link" href="#ingeniería-automatizada-de-características"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Ingeniería automatizada de características»</span></a></div>
+<ul>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="ampliación-y-reducción"><span id="expand-reduce" class="awesome-anchor-alias" aria-hidden="true"></span>Ampliación y reducción</h4><a class="sl-anchor-link" href="#ampliación-y-reducción"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Ampliación y reducción»</span></a></div>
+</li>
+</ul>
+<ul>
+<li>2022 | BERT-Sort: A Zero-shot MLM Semantic Encoder on Ordinal Features for AutoML | Mehdi Bahrami, et al. | AutoML | <a href="https://github.com/marscod/BERT-Sort"><code dir="auto">PDF</code></a></li>
+<li>2017 | AutoLearn — Automated Feature Generation and Selection | Ambika Kaul, et al. | ICDM | <a href="https://ieeexplore.ieee.org/document/8215494/"><code dir="auto">PDF</code></a></li>
+<li>2017 | One button machine for automating feature engineering in relational databases | Hoang Thanh Lam, et al. | arXiv | <a href="https://arxiv.org/pdf/1706.00327.pdf"><code dir="auto">PDF</code></a></li>
+<li>2016 | Automating Feature Engineering | Udayan Khurana, et al. | NIPS | <a href="http://workshops.inf.ed.ac.uk/nips2016-ai4datasci/papers/NIPS2016-AI4DataSci_paper_13.pdf"><code dir="auto">PDF</code></a></li>
+<li>2016 | ExploreKit: Automatic Feature Generation and Selection | Gilad Katz, et al. | ICDM | <a href="http://ieeexplore.ieee.org/document/7837936/"><code dir="auto">PDF</code></a></li>
+<li>2015 | Deep Feature Synthesis: Towards Automating Data Science Endeavors | James Max Kanter, Kalyan Veeramachaneni | DSAA | <a href="http://www.jmaxkanter.com/static/papers/DSAA_DSM_2015.pdf"><code dir="auto">PDF</code></a></li>
+</ul>
+<ul>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="organización-jerárquica-de-transformaciones"><span id="hierarchical-organization-of-transformations" class="awesome-anchor-alias" aria-hidden="true"></span>Organización jerárquica de transformaciones</h4><a class="sl-anchor-link" href="#organización-jerárquica-de-transformaciones"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Organización jerárquica de transformaciones»</span></a></div>
+<ul>
+<li>2016 | Cognito: Automated Feature Engineering for Supervised Learning | Udayan Khurana, et al. | ICDMW | <a href="http://ieeexplore.ieee.org/document/7836821/"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="metaaprendizaje"><span id="meta-learning" class="awesome-anchor-alias" aria-hidden="true"></span>Metaaprendizaje</h4><a class="sl-anchor-link" href="#metaaprendizaje"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Metaaprendizaje»</span></a></div>
+<ul>
+<li>2020 | AutoML Pipeline Selection: Efficiently Navigating the Combinatorial Space | Chengrun Yang, et al. | KDD | <a href="https://people.ece.cornell.edu/cy/_papers/tensor_oboe.pdf"><code dir="auto">PDF</code></a></li>
+<li>2017 | Learning Feature Engineering for Classification | Fatemeh Nargesian, et al. | IJCAI | <a href="https://www.ijcai.org/proceedings/2017/0352.pdf"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="aprendizaje-por-refuerzo"><span id="reinforcement-learning" class="awesome-anchor-alias" aria-hidden="true"></span>Aprendizaje por refuerzo</h4><a class="sl-anchor-link" href="#aprendizaje-por-refuerzo"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Aprendizaje por refuerzo»</span></a></div>
+<ul>
+<li>2017 | Feature Engineering for Predictive Modeling using Reinforcement Learning | Udayan Khurana, et al. | arXiv | <a href="https://arxiv.org/pdf/1709.07150.pdf"><code dir="auto">PDF</code></a></li>
+<li>2010 | Feature Selection as a One-Player Game | Romaric Gaudel, Michele Sebag | ICML | <a href="https://hal.archives-ouvertes.fr/inria-00484049/document"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+</ul>
+<div class="sl-heading-wrapper level-h3"><h3 id="búsqueda-de-arquitecturas"><span id="architecture-search" class="awesome-anchor-alias" aria-hidden="true"></span>Búsqueda de arquitecturas</h3><a class="sl-anchor-link" href="#búsqueda-de-arquitecturas"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Búsqueda de arquitecturas»</span></a></div>
+<ul>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="algoritmos-evolutivos"><span id="evolutionary-algorithms" class="awesome-anchor-alias" aria-hidden="true"></span>Algoritmos evolutivos</h4><a class="sl-anchor-link" href="#algoritmos-evolutivos"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Algoritmos evolutivos»</span></a></div>
+<ul>
+<li>2019 | Evolutionary Neural AutoML for Deep Learning | Jason Liang, et al. | GECCO | <a href="https://dl.acm.org/doi/pdf/10.1145/3321707.3321721"><code dir="auto">PDF</code></a></li>
+<li>2017 | Large-Scale Evolution of Image Classifiers | Esteban Real, et al. | PMLR | <a href="https://arxiv.org/abs/1703.01041"><code dir="auto">PDF</code></a></li>
+<li>2002 | Evolving Neural Networks through Augmenting Topologies | Kenneth O.Stanley, Risto Miikkulainen | Evolutionary Computation | <a href="http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="búsqueda-local"><span id="local-search" class="awesome-anchor-alias" aria-hidden="true"></span>Búsqueda local</h4><a class="sl-anchor-link" href="#búsqueda-local"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Búsqueda local»</span></a></div>
+<ul>
+<li>2017 | Simple and Efficient Architecture Search for Convolutional Neural Networks | Thomoas Elsken, et al. | ICLR | <a href="https://arxiv.org/pdf/1711.04528.pdf"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="metaaprendizaje-1"><span id="meta-learning-1" class="awesome-anchor-alias" aria-hidden="true"></span>Metaaprendizaje</h4><a class="sl-anchor-link" href="#metaaprendizaje-1"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Metaaprendizaje»</span></a></div>
+<ul>
+<li>2016 | Learning to Optimize | Ke Li, Jitendra Malik | arXiv | <a href="https://arxiv.org/pdf/1606.01885.pdf"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="aprendizaje-por-refuerzo-1"><span id="reinforcement-learning-1" class="awesome-anchor-alias" aria-hidden="true"></span>Aprendizaje por refuerzo</h4><a class="sl-anchor-link" href="#aprendizaje-por-refuerzo-1"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Aprendizaje por refuerzo»</span></a></div>
+<ul>
+<li>2018 | AMC: AutoML for Model Compression and Acceleration on Mobile Devices | Yihui He, et al. | ECCV | <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Yihui_He_AMC_Automated_Model_ECCV_2018_paper.pdf"><code dir="auto">PDF</code></a></li>
+<li>2018 | Efficient Neural Architecture Search via Parameter Sharing | Hieu Pham, et al. | arXiv | <a href="https://arxiv.org/abs/1802.03268"><code dir="auto">PDF</code></a></li>
+<li>2017 | Neural Architecture Search with Reinforcement Learning | Barret Zoph, Quoc V. Le | ICLR | <a href="https://arxiv.org/pdf/1611.01578.pdf"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="aprendizaje-por-transferencia"><span id="transfer-learning" class="awesome-anchor-alias" aria-hidden="true"></span>Aprendizaje por transferencia</h4><a class="sl-anchor-link" href="#aprendizaje-por-transferencia"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Aprendizaje por transferencia»</span></a></div>
+<ul>
+<li>2017 | Learning Transferable Architectures for Scalable Image Recognition | Barret Zoph, et al. | arXiv | <a href="https://arxiv.org/abs/1707.07012"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="morfismo-de-redes"><span id="network-morphism" class="awesome-anchor-alias" aria-hidden="true"></span>Morfismo de redes</h4><a class="sl-anchor-link" href="#morfismo-de-redes"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Morfismo de redes»</span></a></div>
+<ul>
+<li>2019 | Auto-Keras: An Efficient Neural Architecture Search System | Haifeng Jin, et al. | KDD | <a href="https://dl.acm.org/doi/pdf/10.1145/3292500.3330648"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="optimización-continua"><span id="continuous-optimization" class="awesome-anchor-alias" aria-hidden="true"></span>Optimización continua</h4><a class="sl-anchor-link" href="#optimización-continua"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Optimización continua»</span></a></div>
+<ul>
+<li>2018 | Neural Architecture Optimization | Renqian Luo, et al. | arXiv | <a href="https://arxiv.org/abs/1808.07233"><code dir="auto">PDF</code></a></li>
+<li>2019 | DARTS: Differentiable Architecture Search | Hanxiao Liu, et al. | ICLR | <a href="https://arxiv.org/abs/1806.09055"><code dir="auto">PDF</code></a></li>
+<li>2021 | SEDONA: Search for Decoupled Neural Networks toward Greedy Block-wise Learning | Pyeon, et al. | ICLR | <a href="https://openreview.net/pdf?id=XLfdzwNKzch"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+</ul>
+<div class="sl-heading-wrapper level-h3"><h3 id="marcos-de-trabajo"><span id="frameworks" class="awesome-anchor-alias" aria-hidden="true"></span>Marcos de trabajo</h3><a class="sl-anchor-link" href="#marcos-de-trabajo"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Marcos de trabajo»</span></a></div>
+<ul>
+<li>2019 | Auptimizer — an Extensible, Open-Source Framework for Hyperparameter Tuning | Jiayi Liu, et al. | IEEE Big Data | <a href="https://arxiv.org/pdf/1911.02522"><code dir="auto">PDF</code></a></li>
+<li>2019 | Towards modular and programmable architecture search | Renato Negrinho, et al. | NeurIPS | <a href="https://arxiv.org/pdf/1909.13404.pdf"><code dir="auto">PDF</code></a></li>
+<li>2019 | Evolutionary Neural AutoML for Deep Learning | Jason Liang, et al. | arXiv | <a href="https://arxiv.org/abs/1902.06827"><code dir="auto">PDF</code></a></li>
+<li>2017 | ATM: A Distributed, Collaborative, Scalable System for Automated Machine Learning | T. Swearingen, et al. | IEEE | <a href="https://cyphe.rs/static/atm.pdf"><code dir="auto">PDF</code></a></li>
+<li>2017 | Google Vizier: A Service for Black-Box Optimization | Daniel Golovin, et al. | KDD |<a href="https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/46180.pdf"><code dir="auto">PDF</code></a></li>
+<li>2015 | AutoCompete: A Framework for Machine Learning Competitions | Abhishek Thakur, et al. | ICML | <a href="https://arxiv.org/pdf/1507.02188.pdf"><code dir="auto">PDF</code></a></li>
+</ul>
+<div class="sl-heading-wrapper level-h3"><h3 id="optimización-de-hiperparámetros"><span id="hyperparameter-optimization" class="awesome-anchor-alias" aria-hidden="true"></span>Optimización de hiperparámetros</h3><a class="sl-anchor-link" href="#optimización-de-hiperparámetros"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Optimización de hiperparámetros»</span></a></div>
+<ul>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="optimización-bayesiana"><span id="bayesian-optimization" class="awesome-anchor-alias" aria-hidden="true"></span>Optimización bayesiana</h4><a class="sl-anchor-link" href="#optimización-bayesiana"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Optimización bayesiana»</span></a></div>
+<ul>
+<li>2020 | Bayesian Optimization of Risk Measures | NeurIPS | <a href="https://proceedings.neurips.cc/paper/2020/file/e8f2779682fd11fa2067beffc27a9192-Paper.pdf"><code dir="auto">PDF</code></a></li>
+<li>2020 | BOTORCH: A Framework for Efficient Monte-Carlo Bayesian Optimization | NeurIPS | <a href="https://proceedings.neurips.cc/paper/2020/file/f5b1b89d98b7286673128a5fb112cb9a-Paper.pdf"><code dir="auto">PDF</code></a></li>
+<li>2020 | Tuning Hyperparameters without Grad Students: Scalable and Robust Bayesian Optimisation with Dragonfly | JMLR | <a href="https://arxiv.org/pdf/1903.06694.pdf"><code dir="auto">PDF</code></a></li>
+<li>2019 | Bayesian Optimization with Unknown Search Space  | NeurIPS | <a href="http://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space.pdf"><code dir="auto">PDF</code></a></li>
+<li>2019 | Constrained Bayesian optimization with noisy experiments | <a href="https://projecteuclid.org/download/pdfview_1/euclid.ba/1533866666"><code dir="auto">PDF</code></a></li>
+<li>2019 | Learning search spaces for Bayesian optimization: Another view of hyperparameter transfer learning | NeurIPS | <a href="http://papers.nips.cc/paper/9438-learning-search-spaces-for-bayesian-optimization-another-view-of-hyperparameter-transfer-learning.pdf"><code dir="auto">PDF</code></a></li>
+<li>2019 | Practical Two-Step Lookahead Bayesian Optimization | NeurIPS | <a href="http://papers.nips.cc/paper/9174-practical-two-step-lookahead-bayesian-optimization.pdf"><code dir="auto">PDF</code></a></li>
+<li>2019 | Predictive entropy search for multi-objective bayesian optimization with constraints | <a href="https://arxiv.org/pdf/1609.01051.pdf"><code dir="auto">PDF</code></a></li>
+<li>2018 | BOCK: Bayesian optimization with cylindrical kernels | ICML | <a href="https://arxiv.org/pdf/1806.01619.pdf"><code dir="auto">PDF</code></a></li>
+<li>2018 | Efficient High Dimensional Bayesian Optimization with Additivity and Quadrature Fourier Features | Mojmír Mutný, et al. | NeurIPS | <a href="https://papers.nips.cc/paper/8115-efficient-high-dimensional-bayesian-optimization-with-additivity-and-quadrature-fourier-features.pdf"><code dir="auto">PDF</code></a></li>
+<li>2018 | High-Dimensional Bayesian Optimization via Additive Models with Overlapping Groups. |  PMLR | <a href="https://arxiv.org/pdf/1802.07028v2.pdf"><code dir="auto">PDF</code></a></li>
+<li>2018 | Maximizing acquisition functions for Bayesian optimization | NeurIPS | <a href="http://papers.nips.cc/paper/8194-maximizing-acquisition-functions-for-bayesian-optimization.pdf"><code dir="auto">PDF</code></a></li>
+<li>2018 | Scalable hyperparameter transfer learning | NeurIPS | <a href="http://papers.nips.cc/paper/7917-scalable-hyperparameter-transfer-learning.pdf"><code dir="auto">PDF</code></a></li>
+<li>2016 | Bayesian Optimization with Robust Bayesian Neural Networks | Jost Tobias Springenberg， et al. | NIPS | <a href="https://papers.nips.cc/paper/6117-bayesian-optimization-with-robust-bayesian-neural-networks.pdf"><code dir="auto">PDF</code></a></li>
+<li>2016 | Scalable Hyperparameter Optimization with Products of Gaussian Process Experts | Nicolas Schilling, et al. | PKDD | <a href="https://link.springer.com/chapter/10.1007/978-3-319-46128-1_3"><code dir="auto">PDF</code></a></li>
+<li>2016 | Taking the Human Out of the Loop: A Review of Bayesian Optimization | Bobak Shahriari, et al. | IEEE | <a href="http://ieeexplore.ieee.org/document/7352306/"><code dir="auto">PDF</code></a></li>
+<li>2016 | Towards Automatically-Tuned Neural Networks | Hector Mendoza, et al. | JMLR | <a href="http://aad.informatik.uni-freiburg.de/papers/16-AUTOML-AutoNet.pdf"><code dir="auto">PDF</code></a></li>
+<li>2016 | Two-Stage Transfer Surrogate Model for Automatic Hyperparameter Optimization | Martin Wistuba, et al. | PKDD | <a href="https://link.springer.com/chapter/10.1007/978-3-319-46128-1_13"><code dir="auto">PDF</code></a></li>
+<li>2015 | Efficient and Robust Automated Machine Learning | <a href="https://papers.nips.cc/paper/5872-efficient-and-robust-automated-machine-learning.pdf"><code dir="auto">PDF</code></a></li>
+<li>2015 | Hyperparameter Optimization with Factorized Multilayer Perceptrons | Nicolas Schilling, et al. | PKDD | <a href="https://link.springer.com/chapter/10.1007/978-3-319-23525-7_6"><code dir="auto">PDF</code></a></li>
+<li>2015 | Hyperparameter Search Space Pruning - A New Component for Sequential Model-Based Hyperparameter Optimization | Martin Wistua, et al. | <a href="https://dl.acm.org/citation.cfm?id=2991491"><code dir="auto">PDF</code></a></li>
+<li>2015 | Joint Model Choice and Hyperparameter Optimization with Factorized Multilayer Perceptrons | Nicolas Schilling, et al. | ICTAI | <a href="http://ieeexplore.ieee.org/abstract/document/7372120/"><code dir="auto">PDF</code></a></li>
+<li>2015 | Learning Hyperparameter Optimization Initializations | Martin Wistuba, et al. | DSAA | <a href="http://ieeexplore.ieee.org/abstract/document/7344817/"><code dir="auto">PDF</code></a></li>
+<li>2015 | Scalable Bayesian optimization using deep neural networks | Jasper Snoek, et al. | ACM | <a href="https://dl.acm.org/citation.cfm?id=3045349"><code dir="auto">PDF</code></a></li>
+<li>2015 | Sequential Model-free Hyperparameter Tuning | Martin Wistuba, et al. | ICDM | <a href="http://ieeexplore.ieee.org/abstract/document/7373431/"><code dir="auto">PDF</code></a></li>
+<li>2013 | Auto-WEKA: Combined Selection and Hyperparameter Optimization of Classification Algorithms | <a href="http://www.cs.ubc.ca/labs/beta/Projects/autoweka/papers/autoweka.pdf"><code dir="auto">PDF</code></a></li>
+<li>2013 | Making a Science of Model Search: Hyperparameter Optimization in Hundreds of Dimensions for Vision Architectures | J. Bergstra | JMLR | <a href="http://proceedings.mlr.press/v28/bergstra13.pdf"><code dir="auto">PDF</code></a></li>
+<li>2012 | Practical Bayesian Optimization of Machine Learning Algorithms | <a href="https://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf"><code dir="auto">PDF</code></a></li>
+<li>2011 | Sequential Model-Based Optimization for General Algorithm Configuration(extended version) | <a href="https://www.cs.ubc.ca/~hutter/papers/10-TR-SMAC.pdf"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="algoritmos-evolutivos-1"><span id="evolutionary-algorithms-1" class="awesome-anchor-alias" aria-hidden="true"></span>Algoritmos evolutivos</h4><a class="sl-anchor-link" href="#algoritmos-evolutivos-1"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Algoritmos evolutivos»</span></a></div>
+<ul>
+<li>2020 | Delta-STN: Efficient Bilevel Optimization for Neural Networks using Structured Response Jacobians | Juhan Bae, Roger Grosse | Neurips | <a href="https://arxiv.org/abs/2010.13514"><code dir="auto">PDF</code></a></li>
+<li>2018 | Autostacker: A Compositional Evolutionary Learning System | Boyuan Chen, et al. | arXiv | <a href="https://arxiv.org/pdf/1803.00684.pdf"><code dir="auto">PDF</code></a></li>
+<li>2017 | Large-Scale Evolution of Image Classifiers | Esteban Real, et al. | PMLR | <a href="https://arxiv.org/pdf/1703.01041.pdf"><code dir="auto">PDF</code></a></li>
+<li>2016 | Automating biomedical data science through tree-based pipeline optimization | Randal S. Olson, et al. | ECAL | <a href="https://arxiv.org/pdf/1601.07925.pdf"><code dir="auto">PDF</code></a></li>
+<li>2016 | Evaluation of a tree-based pipeline optimization tool for automating data science | Randal S. Olson, et al. | GECCO | <a href="https://dl.acm.org/citation.cfm?id=2908918"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="lipschitz-functions">Lipschitz Functions</h4><a class="sl-anchor-link" href="#lipschitz-functions"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Lipschitz Functions»</span></a></div>
+<ul>
+<li>2017 | Global Optimization of Lipschitz functions | C´edric Malherbe, Nicolas Vayatis | arXiv | <a href="https://arxiv.org/pdf/1703.02628.pdf"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="búsqueda-local-1"><span id="local-search-1" class="awesome-anchor-alias" aria-hidden="true"></span>Búsqueda local</h4><a class="sl-anchor-link" href="#búsqueda-local-1"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Búsqueda local»</span></a></div>
+<ul>
+<li>2009 | ParamILS: An Automatic Algorithm Configuration Framework | Frank Hutter, et al. | JAIR | <a href="https://arxiv.org/pdf/1401.3492.pdf"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="metaaprendizaje-2"><span id="meta-learning-2" class="awesome-anchor-alias" aria-hidden="true"></span>Metaaprendizaje</h4><a class="sl-anchor-link" href="#metaaprendizaje-2"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Metaaprendizaje»</span></a></div>
+<ul>
+<li>2019 | OBOE: Collaborative Filtering for AutoML Model Selection | Chengrun Yang, et al. | KDD | <a href="https://dl.acm.org/doi/pdf/10.1145/3292500.3330909"><code dir="auto">PDF</code></a></li>
+<li>2019 | SMARTML: A Meta Learning-Based Framework for Automated Selection and Hyperparameter Tuning for Machine Learning Algorithms | <a href="http://openproceedings.org/2019/conf/edbt/EDBT19_paper_235.pdf"><code dir="auto">PDF</code></a></li>
+<li>2008 | Cross-Disciplinary Perspectives on Meta-Learning for Algorithm Selection | <a href="https://dl.acm.org/citation.cfm?id=1456656"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="optimización-por-enjambre-de-partículas"><span id="particle-swarm-optimization" class="awesome-anchor-alias" aria-hidden="true"></span>Optimización por enjambre de partículas</h4><a class="sl-anchor-link" href="#optimización-por-enjambre-de-partículas"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Optimización por enjambre de partículas»</span></a></div>
+<ul>
+<li>2017 | Particle Swarm Optimization for Hyper-parameter Selection in Deep Neural Networks | Pablo Ribalta Lorenzo, et al. | GECCO | <a href="https://dl.acm.org/citation.cfm?id=3071208"><code dir="auto">PDF</code></a></li>
+<li>2008 | Particle Swarm Optimization for Parameter Determination and Feature Selection of Support Vector Machines | Shih-Wei Lin, et al. | Expert Systems with Applications | <a href="http://www.sciencedirect.com/science/article/pii/S0957417407003752"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="búsqueda-aleatoria"><span id="random-search" class="awesome-anchor-alias" aria-hidden="true"></span>Búsqueda aleatoria</h4><a class="sl-anchor-link" href="#búsqueda-aleatoria"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Búsqueda aleatoria»</span></a></div>
+<ul>
+<li>2016 | Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization | Lisha Li, et al. | arXiv |  <a href="https://arxiv.org/pdf/1603.06560.pdf"><code dir="auto">PDF</code></a></li>
+<li>2012 | Random Search for Hyper-Parameter Optimization | James Bergstra, Yoshua Bengio | JMLR | <a href="http://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf"><code dir="auto">PDF</code></a></li>
+<li>2011 | Algorithms for Hyper-parameter Optimization | James Bergstra, et al. | NIPS | <a href="https://dl.acm.org/citation.cfm?id=2986743"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="aprendizaje-por-transferencia-1"><span id="transfer-learning-1" class="awesome-anchor-alias" aria-hidden="true"></span>Aprendizaje por transferencia</h4><a class="sl-anchor-link" href="#aprendizaje-por-transferencia-1"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Aprendizaje por transferencia»</span></a></div>
+<ul>
+<li>2016 | Efficient Transfer Learning Method for Automatic Hyperparameter Tuning | Dani Yogatama, Gideon Mann | JMLR | <a href="https://pdfs.semanticscholar.org/75f2/6734972ebaffc6b43d45abd3048ef75f15a5.pdf"><code dir="auto">PDF</code></a></li>
+<li>2016 | Flexible Transfer Learning Framework for Bayesian Optimisation | Tinu Theckel Joy, et al. | PAKDD | <a href="https://link.springer.com/chapter/10.1007/978-3-319-31753-3_9"><code dir="auto">PDF</code></a></li>
+<li>2016 | Hyperparameter Optimization Machines | Martin Wistuba, et al. | DSAA | <a href="http://ieeexplore.ieee.org/abstract/document/7796889/"><code dir="auto">PDF</code></a></li>
+<li>2013 | Collaborative Hyperparameter Tuning | R´emi Bardenet, et al. | ICML | <a href="http://proceedings.mlr.press/v28/bardenet13.pdf"><code dir="auto">PDF</code></a></li>
+</ul>
+</li>
+</ul>
+<div class="sl-heading-wrapper level-h3"><h3 id="varios"><span id="miscellaneous" class="awesome-anchor-alias" aria-hidden="true"></span>Varios</h3><a class="sl-anchor-link" href="#varios"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Varios»</span></a></div>
+<ul>
+<li>2020 | Automated Machine Learning Techniques for Data Streams | Alexandru-Ionut Imbrea | <a href="https://github.com/AlexImb/automl-streams-research-paper/raw/master/A_Imbrea_AutoML_Data_Streams.pdf"><code dir="auto">PDF</code></a></li>
+<li>2018 | Accelerating Neural Architecture Search using Performance Prediction | Bowen Baker, et al. | ICLR | <a href="https://openreview.net/pdf?id=BJypUGZ0Z"><code dir="auto">PDF</code></a></li>
+<li>2017 | Automatic Frankensteining: Creating Complex Ensembles Autonomously | Martin Wistuba, et al. | SIAM | <a href="http://epubs.siam.org/doi/pdf/10.1137/1.9781611974973.83"><code dir="auto">PDF</code></a></li>
+<li>2018 | Characterizing classification datasets: A study of meta-features for meta-learning | Rivolli, Adriano, et al. | arXiv | <a href="https://arxiv.org/pdf/1808.10406.pdf"><code dir="auto">PDF</code></a></li>
+<li>2020 | Putting the Human Back in the AutoML Loop | Xanthopoulos, Iordanis, et al. | EDBT/ICDT | <a href="http://ceur-ws.org/Vol-2578/ETMLP5.pdf"><code dir="auto">PDF</code></a></li>
+</ul>
+<div class="sl-heading-wrapper level-h1"><h1 id="tutoriales"><span id="tutorials" class="awesome-anchor-alias" aria-hidden="true"></span>Tutoriales</h1><a class="sl-anchor-link" href="#tutoriales"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Tutoriales»</span></a></div>
+<div class="sl-heading-wrapper level-h3"><h3 id="optimización-bayesiana-1"><span id="bayesian-optimization-1" class="awesome-anchor-alias" aria-hidden="true"></span>Optimización bayesiana</h3><a class="sl-anchor-link" href="#optimización-bayesiana-1"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Optimización bayesiana»</span></a></div>
+<ul>
+<li>2018 | A Tutorial on Bayesian Optimization. | <a href="https://arxiv.org/pdf/1807.02811.pdf"><code dir="auto">PDF</code></a></li>
+<li>2010 | A Tutorial on Bayesian Optimization of Expensive Cost Functions, with Application to Active User Modeling and Hierarchical Reinforcement Learning | <a href="https://arxiv.org/pdf/1012.2599v1.pdf"><code dir="auto">PDF</code></a></li>
+</ul>
+<div class="sl-heading-wrapper level-h3"><h3 id="metaaprendizaje-3"><span id="meta-learning-3" class="awesome-anchor-alias" aria-hidden="true"></span>Metaaprendizaje</h3><a class="sl-anchor-link" href="#metaaprendizaje-3"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Metaaprendizaje»</span></a></div>
+<ul>
+<li>2008 | Metalearning - A Tutorial | <a href="https://pdfs.semanticscholar.org/5794/1a4891f673cadf06fba02419372aad85c3bb.pdf"><code dir="auto">PDF</code></a></li>
+</ul>
+<div class="sl-heading-wrapper level-h1"><h1 id="blog">Blog</h1><a class="sl-anchor-link" href="#blog"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Blog»</span></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center">Tipo</th><th align="center">Título del blog</th><th align="center">Enlace</th></tr></thead><tbody><tr><td align="center">HPO</td><td align="center">Bayesian Optimization for Hyperparameter Tuning</td><td align="center"><a href="https://arimo.com/data-science/2016/bayesian-optimization-hyperparameter-tuning/"><code dir="auto">Link</code></a></td></tr><tr><td align="center">Meta-Learning</td><td align="center">Learning to learn</td><td align="center"><a href="http://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/"><code dir="auto">Link</code></a></td></tr><tr><td align="center">Meta-Learning</td><td align="center">Why Meta-learning is Crucial for Further Advances of Artificial Intelligence?</td><td align="center"><a href="https://chatbotslife.com/why-meta-learning-is-crucial-for-further-advances-of-artificial-intelligence-c2df55959adf"><code dir="auto">Link</code></a></td></tr></tbody></table>
+<div class="sl-heading-wrapper level-h1"><h1 id="libros"><span id="books" class="awesome-anchor-alias" aria-hidden="true"></span>Libros</h1><a class="sl-anchor-link" href="#libros"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Libros»</span></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center">Año de publicación</th><th align="center">Tipo</th><th align="center">Título del libro</th><th align="center">Autores</th><th align="center">Editorial</th><th align="center">Enlace</th></tr></thead><tbody><tr><td align="center">2009</td><td align="center">Meta-Learning</td><td align="center">Metalearning - Applications to Data Mining</td><td align="center">Brazdil, P., Giraud Carrier, C., Soares, C., Vilalta, R.</td><td align="center">Springer</td><td align="center"><a href="http://www.springer.com/la/book/9783540732624"><code dir="auto">Download</code></a></td></tr><tr><td align="center">2019</td><td align="center">HPO, Meta-Learning, NAS</td><td align="center">AutoML: Methods, Systems, Challenges</td><td align="center">Frank Hutter, Lars Kotthoff, Joaquin Vanschoren</td><td align="center"></td><td align="center"><a href="https://www.automl.org/book/"><code dir="auto">Download</code></a></td></tr><tr><td align="center">2021</td><td align="center">Learning</td><td align="center">Automated Machine Learning in Action</td><td align="center">Qinquan Song, Haifeng Jin, Xia Hu</td><td align="center">Manning Publications</td><td align="center"><a href="https://www.manning.com/books/automated-machine-learning-in-action"><code dir="auto">Download</code></a></td></tr></tbody></table>
+<div class="sl-heading-wrapper level-h1"><h1 id="vídeos"><span id="videos" class="awesome-anchor-alias" aria-hidden="true"></span>Vídeos</h1><a class="sl-anchor-link" href="#vídeos"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Vídeos»</span></a></div>
+<p>| Título    | Autor    | Enlace     |
+| AutoML Basics: Automated Machine Learning in Action | Qinquan Song, Haifeng Jin, Xia Hu | (<a href="https://www.youtube.com/watch?v=9KpieG0B7VM">https://www.youtube.com/watch?v=9KpieG0B7VM</a>) |</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="proyectos"><span id="projects" class="awesome-anchor-alias" aria-hidden="true"></span>Proyectos</h1><a class="sl-anchor-link" href="#proyectos"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Proyectos»</span></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center">Proyecto</th><th align="center">Tipo</th><th align="center">Idioma</th><th align="center">Licencia</th><th align="center">Enlace</th></tr></thead><tbody><tr><td align="center">AdaNet</td><td align="center">NAS</td><td align="center">Python</td><td align="center">Apache-2.0</td><td align="center"><a href="https://github.com/tensorflow/adanet"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Advisor</td><td align="center">HPO</td><td align="center">Python</td><td align="center">Apache-2.0</td><td align="center"><a href="https://github.com/tobegit3hub/advisor"><code dir="auto">Github</code></a></td></tr><tr><td align="center">AMLA</td><td align="center">HPO, NAS</td><td align="center">Python</td><td align="center">Apache-2.0</td><td align="center"><a href="https://github.com/CiscoAI/amla"><code dir="auto">Github</code></a></td></tr><tr><td align="center">ATM</td><td align="center">HPO</td><td align="center">Python</td><td align="center">MIT</td><td align="center"><a href="https://github.com/HDI-Project/ATM"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Auger</td><td align="center">HPO</td><td align="center">Python</td><td align="center">Commercial</td><td align="center"><a href="https://auger.ai"><code dir="auto">Homepage</code></a></td></tr><tr><td align="center">auptimizer</td><td align="center">HPO, NAS</td><td align="center">Python (support R script)</td><td align="center">GPL-3.0</td><td align="center"><a href="https://github.com/LGE-ARC-AdvancedAI/auptimizer"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Auto-Keras</td><td align="center">NAS</td><td align="center">Python</td><td align="center"><a href="https://github.com/keras-team/autokeras/blob/master/LICENSE.txt"><code dir="auto">License</code></a></td><td align="center"><a href="https://github.com/keras-team/autokeras"><code dir="auto">Github</code></a></td></tr><tr><td align="center">AutoML Vision</td><td align="center">NAS</td><td align="center">Python</td><td align="center">Commercial</td><td align="center"><a href="https://cloud.google.com/vision/"><code dir="auto">Homepage</code></a></td></tr><tr><td align="center">AutoML Video Intelligence</td><td align="center">NAS</td><td align="center">Python</td><td align="center">Commercial</td><td align="center"><a href="https://cloud.google.com/video-intelligence/"><code dir="auto">Homepage</code></a></td></tr><tr><td align="center">AutoML Natural Language</td><td align="center">NAS</td><td align="center">Python</td><td align="center">Commercial</td><td align="center"><a href="https://cloud.google.com/natural-language/"><code dir="auto">Homepage</code></a></td></tr><tr><td align="center">AutoML Translation</td><td align="center">NAS</td><td align="center">Python</td><td align="center">Commercial</td><td align="center"><a href="https://cloud.google.com/translate/"><code dir="auto">Homepage</code></a></td></tr><tr><td align="center">AutoML Tables</td><td align="center">AutoFE, HPO</td><td align="center">Python</td><td align="center">Commercial</td><td align="center"><a href="https://cloud.google.com/automl-tables/"><code dir="auto">Homepage</code></a></td></tr><tr><td align="center">AutoPyTorch</td><td align="center">HPO, NAS</td><td align="center">Python</td><td align="center">Apache-2.0</td><td align="center"><a href="https://github.com/automl/Auto-PyTorch"><code dir="auto">Github</code></a></td></tr><tr><td align="center">HyperGBM</td><td align="center">HPO</td><td align="center">Python</td><td align="center">Python</td><td align="center"><a href="https://github.com/DataCanvasIO/HyperGBM/"><code dir="auto">Github</code></a></td></tr><tr><td align="center">HyperKeras</td><td align="center">NAS</td><td align="center">Python</td><td align="center">Python</td><td align="center"><a href="https://github.com/DataCanvasIO/HyperKeras/"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Hypernets</td><td align="center">HPO, NAS</td><td align="center">Python</td><td align="center">Python</td><td align="center"><a href="https://github.com/DataCanvasIO/Hypernets/"><code dir="auto">Github</code></a></td></tr><tr><td align="center">auto-sklearn</td><td align="center">HPO</td><td align="center">Python</td><td align="center"><a href="https://github.com/automl/auto-sklearn/blob/master/LICENSE.txt"><code dir="auto">License</code></a></td><td align="center"><a href="https://github.com/automl/auto-sklearn"><code dir="auto">Github</code></a></td></tr><tr><td align="center">auto_ml</td><td align="center">HPO</td><td align="center">Python</td><td align="center">MIT</td><td align="center"><a href="https://github.com/ClimbsRocks/auto_ml"><code dir="auto">Github</code></a></td></tr><tr><td align="center">BayesianOptimization</td><td align="center">HPO</td><td align="center">Python</td><td align="center">MIT</td><td align="center"><a href="https://github.com/fmfn/BayesianOptimization"><code dir="auto">Github</code></a></td></tr><tr><td align="center">BayesOpt</td><td align="center">HPO</td><td align="center">C++</td><td align="center">AGPL-3.0</td><td align="center"><a href="https://github.com/rmcantin/bayesopt"><code dir="auto">Github</code></a></td></tr><tr><td align="center">comet</td><td align="center">HPO</td><td align="center">Python</td><td align="center">Commercial</td><td align="center"><a href="https://www.comet.ml"><code dir="auto">Homepage</code></a></td></tr><tr><td align="center">DataRobot</td><td align="center">HPO</td><td align="center">Python</td><td align="center">Commercial</td><td align="center"><a href="https://www.datarobot.com/"><code dir="auto">Homepage</code></a></td></tr><tr><td align="center">DEvol</td><td align="center">NAS</td><td align="center">Python</td><td align="center">MIT</td><td align="center"><a href="https://github.com/joeddav/devol"><code dir="auto">Github</code></a></td></tr><tr><td align="center">DeepArchitect</td><td align="center">NAS</td><td align="center">Python</td><td align="center">MIT</td><td align="center"><a href="https://github.com/negrinho/deep_architect"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Determined</td><td align="center">HPO, NAS</td><td align="center">Python</td><td align="center">Apache-2.0</td><td align="center"><a href="https://github.com/determined-ai/determined"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Driverless AI</td><td align="center">AutoFE</td><td align="center">Python</td><td align="center">Commercial</td><td align="center"><a href="https://www.h2o.ai/products/h2o-driverless-ai/"><code dir="auto">Homepage</code></a></td></tr><tr><td align="center">FAR-HO</td><td align="center">HPO</td><td align="center">Python</td><td align="center">MIT</td><td align="center"><a href="https://github.com/lucfra/FAR-HO"><code dir="auto">Github</code></a></td></tr><tr><td align="center">H2O AutoML</td><td align="center">HPO</td><td align="center">Python, R, Java, Scala</td><td align="center">Apache-2.0</td><td align="center"><a href="https://github.com/h2oai/h2o-3/"><code dir="auto">Github</code></a></td></tr><tr><td align="center">HpBandSter</td><td align="center">HPO</td><td align="center">Python</td><td align="center">BSD-3-Clause</td><td align="center"><a href="https://github.com/automl/HpBandSter"><code dir="auto">Github</code></a></td></tr><tr><td align="center">HyperBand</td><td align="center">HPO</td><td align="center">Python</td><td align="center"><a href="https://github.com/zygmuntz/hyperband/blob/master/LICENSE"><code dir="auto">License</code></a></td><td align="center"><a href="https://github.com/zygmuntz/hyperband"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Hyperopt</td><td align="center">HPO</td><td align="center">Python</td><td align="center"><a href="https://github.com/hyperopt/hyperopt/blob/master/LICENSE.txt"><code dir="auto">License</code></a></td><td align="center"><a href="https://github.com/hyperopt/hyperopt"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Hyperopt-sklearn</td><td align="center">HPO</td><td align="center">Python</td><td align="center"><a href="https://github.com/hyperopt/hyperopt-sklearn/blob/master/LICENSE.txt"><code dir="auto">License</code></a></td><td align="center"><a href="https://github.com/hyperopt/hyperopt-sklearn"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Hyperparameter Hunter</td><td align="center">HPO</td><td align="center">Python</td><td align="center">MIT</td><td align="center"><a href="https://github.com/HunterMcGushion/hyperparameter_hunter"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Katib</td><td align="center">HPO</td><td align="center">Python</td><td align="center">Apache-2.0</td><td align="center"><a href="https://github.com/kubeflow/katib"><code dir="auto">Github</code></a></td></tr><tr><td align="center">MateLabs</td><td align="center">HPO</td><td align="center">Python</td><td align="center">Commercial</td><td align="center"><a href="http://matelabs.in/"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Milano</td><td align="center">HPO</td><td align="center">Python</td><td align="center">Apache-2.0</td><td align="center"><a href="https://github.com/NVIDIA/Milano"><code dir="auto">Github</code></a></td></tr><tr><td align="center">MLJAR</td><td align="center">AutoFE, HPO, NAS</td><td align="center">Python</td><td align="center">MIT</td><td align="center"><a href="https://github.com/mljar/mljar-supervised"><code dir="auto">Github</code></a></td></tr><tr><td align="center">mlr3automl</td><td align="center">HPO</td><td align="center">R</td><td align="center">LGPL-3.0</td><td align="center"><a href="https://github.com/a-hanf/mlr3automl"><code dir="auto">GitHub</code></a></td></tr><tr><td align="center">nasbot</td><td align="center">NAS</td><td align="center">Python</td><td align="center">MIT</td><td align="center"><a href="https://github.com/kirthevasank/nasbot"><code dir="auto">Github</code></a></td></tr><tr><td align="center">neptune</td><td align="center">HPO</td><td align="center">Python</td><td align="center">Commercial</td><td align="center"><a href="https://neptune.ml/"><code dir="auto">Homepage</code></a></td></tr><tr><td align="center">NNI</td><td align="center">HPO, NAS</td><td align="center">Python</td><td align="center">MIT</td><td align="center"><a href="https://github.com/Microsoft/nni"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Oboe</td><td align="center">HPO</td><td align="center">Python</td><td align="center">BSD-3-Clause</td><td align="center"><a href="https://github.com/udellgroup/oboe"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Optunity</td><td align="center">HPO</td><td align="center">Python</td><td align="center"><a href="https://github.com/claesenm/optunity/blob/master/LICENSE.txt"><code dir="auto">License</code></a></td><td align="center"><a href="https://github.com/claesenm/optunity"><code dir="auto">Github</code></a></td></tr><tr><td align="center">R2.ai</td><td align="center">HPO</td><td align="center"></td><td align="center">Commercial</td><td align="center"><a href="https://r2.ai/"><code dir="auto">Homepage</code></a></td></tr><tr><td align="center">RBFOpt</td><td align="center">HPO</td><td align="center">Python</td><td align="center"><a href="https://github.com/coin-or/rbfopt/blob/master/LICENSE"><code dir="auto">License</code></a></td><td align="center"><a href="https://github.com/coin-or/rbfopt"><code dir="auto">Github</code></a></td></tr><tr><td align="center">RoBO</td><td align="center">HPO</td><td align="center">Python</td><td align="center">BSD-3-Clause</td><td align="center"><a href="https://github.com/automl/RoBO"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Scikit-Optimize</td><td align="center">HPO</td><td align="center">Python</td><td align="center"><a href="https://github.com/scikit-optimize/scikit-optimize/blob/master/LICENSE.md"><code dir="auto">License</code></a></td><td align="center"><a href="https://github.com/scikit-optimize/scikit-optimize"><code dir="auto">Github</code></a></td></tr><tr><td align="center">SigOpt</td><td align="center">HPO</td><td align="center">Python</td><td align="center">Commercial</td><td align="center"><a href="https://sigopt.com/"><code dir="auto">Homepage</code></a></td></tr><tr><td align="center">SMAC3</td><td align="center">HPO</td><td align="center">Python</td><td align="center"><a href="https://github.com/automl/SMAC3/blob/master/LICENSE"><code dir="auto">License</code></a></td><td align="center"><a href="https://github.com/automl/SMAC3"><code dir="auto">Github</code></a></td></tr><tr><td align="center">TPOT</td><td align="center">AutoFE, HPO</td><td align="center">Python</td><td align="center">LGPL-3.0</td><td align="center"><a href="https://github.com/rhiever/tpot"><code dir="auto">Github</code></a></td></tr><tr><td align="center">TransmogrifAI</td><td align="center">HPO</td><td align="center">Scala</td><td align="center">BSD-3-Clause</td><td align="center"><a href="https://github.com/salesforce/TransmogrifAI"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Tune</td><td align="center">HPO</td><td align="center">Python</td><td align="center">Apache-2.0</td><td align="center"><a href="https://github.com/ray-project/ray/tree/master/python/ray/tune"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Xcessiv</td><td align="center">HPO</td><td align="center">Python</td><td align="center">Apache-2.0</td><td align="center"><a href="https://github.com/reiinakano/xcessiv"><code dir="auto">Github</code></a></td></tr><tr><td align="center">SmartML</td><td align="center">HPO</td><td align="center">R</td><td align="center">GPL-3.0</td><td align="center"><a href="https://github.com/DataSystemsGroupUT/SmartML"><code dir="auto">Github</code></a></td></tr><tr><td align="center">MLBox</td><td align="center">AutoFE, HPO</td><td align="center">Python</td><td align="center">BSD-3 License</td><td align="center"><a href="https://github.com/AxeldeRomblay/MLBox"><code dir="auto">Github</code></a></td></tr><tr><td align="center">AutoAI Watson</td><td align="center">AutoFE, HPO</td><td align="center"></td><td align="center">Commercial</td><td align="center"><a href="https://www.ibm.com/cloud/watson-studio/autoai"><code dir="auto">Homepage</code></a></td></tr><tr><td align="center">AUtoML</td><td align="center">AutoML</td><td align="center">Python</td><td align="center">MIT</td><td align="center"><a href="https://github.com/Western-OC2-Lab/AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics"><code dir="auto">Github</code></a></td></tr><tr><td align="center">Optuna</td><td align="center">HPO</td><td align="center">Python</td><td align="center">MIT</td><td align="center"><a href="https://github.com/optuna/optuna"><code dir="auto">Github</code></a></td></tr></tbody></table>
+<div class="sl-heading-wrapper level-h1"><h1 id="diapositivas"><span id="slides" class="awesome-anchor-alias" aria-hidden="true"></span>Diapositivas</h1><a class="sl-anchor-link" href="#diapositivas"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Diapositivas»</span></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center">Tipo</th><th align="center">Título de la diapositiva</th><th align="center">Autores</th><th align="center">Enlace</th></tr></thead><tbody><tr><td align="center">AutoFE</td><td align="center">Automated Feature Engineering for Predictive Modeling</td><td align="center">Udyan Khurana, etc al.</td><td align="center"><a href="https://github.com/hibayesian/awesome-automl-papers/blob/master/resources/slides/%5Bslides%5D-automated-feature-engineering-for-predictive-modeling.pdf"><code dir="auto">Download</code></a></td></tr><tr><td align="center">HPO</td><td align="center">A Tutorial on Bayesian Optimization for Machine Learning</td><td align="center">Ryan P. Adams</td><td align="center"><a href="https://github.com/hibayesian/awesome-automl-papers/blob/master/resources/slides/%5Bslides%5D-a-tutorial-on-bayesian-optimization-for-machine-learning.pdf"><code dir="auto">Download</code></a></td></tr><tr><td align="center">HPO</td><td align="center">Bayesian Optimisation</td><td align="center">Gilles Louppe</td><td align="center"><a href="https://github.com/hibayesian/awesome-automl-papers/blob/master/resources/slides/%5Bslides%5D-bayesian-optimisation.pdf"><code dir="auto">Download</code></a></td></tr></tbody></table>
+<div class="sl-heading-wrapper level-h1"><h1 id="agradecimientos"><span id="acknowledgement" class="awesome-anchor-alias" aria-hidden="true"></span>Agradecimientos</h1><a class="sl-anchor-link" href="#agradecimientos"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Agradecimientos»</span></a></div>
+<p>Nuestro más sincero agradecimiento a todas las personas que han contribuido a este proyecto.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center">Nombre</th><th align="center">Biografía</th></tr></thead><tbody><tr><td align="center"><a href="https://github.com/Alro10">Alexander Robles</a></td><td align="center">Estudiante de doctorado en UNICAMP (Brasil)</td></tr><tr><td align="center"><a href="https://github.com/derekflint">derekflint</a></td><td align="center"></td></tr><tr><td align="center"><a href="https://github.com/endymecy">endymecy</a></td><td align="center">Investigador sénior en Tencent</td></tr><tr><td align="center"><a href="https://github.com/ffengENG">Eric</a></td><td align="center"></td></tr><tr><td align="center"><a href="https://github.com/ledell">Erin LeDell</a></td><td align="center">Científico jefe de aprendizaje automático en H2O.ai</td></tr><tr><td align="center"><a href="https://github.com/fwcore">fwcore</a></td><td align="center"></td></tr><tr><td align="center"><a href="https://github.com/g1910">Gaurav Mittal</a></td><td align="center"></td></tr><tr><td align="center"><a href="https://github.com/hcvazquez">Hernan Ceferino Vazquez</a></td><td align="center">Doctor, experto en ciencia de datos en MercadoLibre</td></tr><tr><td align="center"><a href="https://github.com/KaustubhDamania">Kaustubh Damania</a></td><td align="center"></td></tr><tr><td align="center"><a href="https://github.com/naereen">Lilian Besson</a></td><td align="center">Estudiante de doctorado en CentraleSupélec</td></tr><tr><td align="center"><a href="https://github.com/luoleicn">罗磊</a></td><td align="center"></td></tr><tr><td align="center"><a href="https://github.com/Ennosigaeon">Marc</a></td><td align="center"></td></tr><tr><td align="center"><a href="https://github.com/mmaher22">Mohamed Maher</a></td><td align="center"></td></tr><tr><td align="center"><a href="https://github.com/neilconway">Neil Conway</a></td><td align="center">Director de tecnología en Determined AI</td></tr><tr><td align="center"><a href="https://github.com/richardliaw">Richard Liaw</a></td><td align="center">Estudiante de doctorado en UC Berkeley</td></tr><tr><td align="center"><a href="https://github.com/rhiever">Randy Olson</a></td><td align="center">Responsable de ciencia de datos en LifeEGX</td></tr><tr><td align="center"><a href="https://github.com/slavakurilyak">Slava Kurilyak</a></td><td align="center">Fundador y director ejecutivo de Produvia</td></tr><tr><td align="center"><a href="https://github.com/saket-maheshwary">Saket Maheshwary</a></td><td align="center">Investigador de IA</td></tr><tr><td align="center"><a href="https://github.com/shaido987">shaido987</a></td><td align="center"></td></tr><tr><td align="center"><a href="https://github.com/sophia-wright-blue">sophia-wright-blue</a></td><td align="center"></td></tr><tr><td align="center"><a href="https://github.com/tengben0905">tengben0905</a></td><td align="center"></td></tr><tr><td align="center"><a href="https://github.com/xuehui1991">xuehui</a></td><td align="center">@Microsoft</td></tr><tr><td align="center"><a href="https://github.com/yihui-he">Yihui He</a></td><td align="center">Estudiante de posgrado en Carnegie Mellon</td></tr></tbody></table>
+<div class="sl-heading-wrapper level-h1"><h1 id="contacto-y-comentarios"><span id="contact--feedback" class="awesome-anchor-alias" aria-hidden="true"></span>Contacto y comentarios</h1><a class="sl-anchor-link" href="#contacto-y-comentarios"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Contacto y comentarios»</span></a></div>
+<p>Si tienes sugerencias (artículos que falten o nuevos, investigadores destacados o erratas), no dudes en enviar una solicitud. También puedes escribir a:</p>
+<ul>
+<li>Mark Lin (<a href="mailto:hibayesian@gmail.com">hibayesian@gmail.com</a>).</li>
+</ul>
+<div class="sl-heading-wrapper level-h1"><h1 id="licencias"><span id="licenses" class="awesome-anchor-alias" aria-hidden="true"></span>Licencias</h1><a class="sl-anchor-link" href="#licencias"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Sección titulada «Licencias»</span></a></div>
+<p>Awesome-AutoML-Papers está disponible bajo la licencia Apache 2.0.</p></div><aside class="hagilight-ai-disclosure" role="note">Esta publicación se tradujo con IA. <a href="/awesome/awesome-automl-papers/">Ver original</a></aside><section class="hagilight-article-promotion astro-wvyqmlyc" aria-labelledby="hagilight-article-promotion-title"><div class="hagilight-article-promotion__pitch astro-wvyqmlyc"><div class="hagilight-article-promotion__intro astro-wvyqmlyc"><h2 id="hagilight-article-promotion-title" class="astro-wvyqmlyc">HagiCode</h2><p class="hagilight-article-promotion__lead astro-wvyqmlyc">HagiCode es un espacio de trabajo de programación con agentes: los flujos de trabajo de OpenSpec planifican el cambio, la ejecución multiagente lo lleva a cabo y Hero Dungeon hace visible el largo recorrido, para convertir ideas en software entregado.</p><p class="hagilight-article-promotion__tagline astro-wvyqmlyc">Convierte ideas en software útil con un flujo de trabajo con agentes más inteligente, rápido y ameno.</p><div class="hagilight-article-promotion__actions astro-wvyqmlyc"><a class="hagilight-article-promotion__cta hagilight-article-promotion__cta--primary astro-wvyqmlyc" href="https://www.hagicode.com/es-ES/" data-ga-category="navigation" data-ga-label="home" data-ga-location="article_promotion">Visitar HagiCode</a><a class="hagilight-article-promotion__cta hagilight-article-promotion__cta--secondary astro-wvyqmlyc" href="https://docs.hagicode.com/es-ES/product-overview/" data-ga-category="navigation" data-ga-label="productDocs" data-ga-location="article_promotion">Leer la documentación</a></div></div><ul class="hagilight-article-promotion__features astro-wvyqmlyc" aria-label="HagiCode"><li class="astro-wvyqmlyc"><span class="hagilight-article-promotion__icon astro-wvyqmlyc" aria-hidden="true" style="--hagilight-pillar-icon: url(/_astro/pillar-smart.DAOAYOW6.svg)"></span><strong class="astro-wvyqmlyc">Inteligente</strong><span class="hagilight-article-promotion__feature-text astro-wvyqmlyc">Los flujos de trabajo de OpenSpec convierten la intención en un itinerario ejecutable, de la propuesta al diseño, las tareas y la entrega.</span></li><li class="astro-wvyqmlyc"><span class="hagilight-article-promotion__icon astro-wvyqmlyc" aria-hidden="true" style="--hagilight-pillar-icon: url(/_astro/pillar-efficient.fRriWHtK.svg)"></span><strong class="astro-wvyqmlyc">Eficiente</strong><span class="hagilight-article-promotion__feature-text astro-wvyqmlyc">La ejecución multiagente avanza en paralelo con la investigación, la implementación y la revisión, en varios repositorios y con los Agent CLI que ya usas.</span></li><li class="astro-wvyqmlyc"><span class="hagilight-article-promotion__icon astro-wvyqmlyc" aria-hidden="true" style="--hagilight-pillar-icon: url(/_astro/pillar-fun.CqXYOQWh.svg)"></span><strong class="astro-wvyqmlyc">Divertido</strong><span class="hagilight-article-promotion__feature-text astro-wvyqmlyc">Hero Dungeon convierte las largas sesiones de programación en una aventura visible, con héroes, progreso y logros.</span></li></ul></div><div class="hagilight-article-promotion__gallery-block astro-wvyqmlyc"><h3 id="hagilight-article-promotion-gallery-title" class="astro-wvyqmlyc">HagiCode de un vistazo</h3><ul class="hagilight-article-promotion__gallery astro-wvyqmlyc" aria-labelledby="hagilight-article-promotion-gallery-title"><li class="astro-wvyqmlyc"><figure class="astro-wvyqmlyc"><img src="/_astro/workbench.BeU9cSj3_Z13WVMB.webp" srcset="/_astro/workbench.BeU9cSj3_1q4y77.webp 480w, /_astro/workbench.BeU9cSj3_1f03Ic.webp 800w, /_astro/workbench.BeU9cSj3_Z13WVMB.webp 1600w" alt="Banco de trabajo de HagiCode con un tablero kanban de sesiones en las columnas Pendiente, En curso y Archivado." sizes="(min-width: 50rem) 560px, 100vw" loading="lazy" decoding="async" fetchpriority="low" width="1600" height="845" class="astro-wvyqmlyc"><figcaption class="astro-wvyqmlyc">El banco de trabajo: todas las sesiones en un solo tablero kanban.</figcaption></figure></li><li class="astro-wvyqmlyc"><figure class="astro-wvyqmlyc"><img src="/_astro/proposal-workflow.DcRW_GFa_Z1zy3Uf.webp" srcset="/_astro/proposal-workflow.DcRW_GFa_1nYSDe.webp 480w, /_astro/proposal-workflow.DcRW_GFa_Z13kstl.webp 800w, /_astro/proposal-workflow.DcRW_GFa_Z1zy3Uf.webp 1600w" alt="Barra de etapas de una propuesta de HagiCode, de Creada a Archivada, con la etapa Ejecución completada resaltada y un botón Archivar plan." sizes="(min-width: 50rem) 560px, 100vw" loading="lazy" decoding="async" fetchpriority="low" width="1600" height="340" class="astro-wvyqmlyc"><figcaption class="astro-wvyqmlyc">Una propuesta pasa de creada a redactada, revisada, ejecutada y archivada.</figcaption></figure></li><li class="astro-wvyqmlyc"><figure class="astro-wvyqmlyc"><img src="/_astro/heroes.B7y5aHrT_Z1GmWoS.webp" srcset="/_astro/heroes.B7y5aHrT_1tcCxz.webp 480w, /_astro/heroes.B7y5aHrT_Z4TtoQ.webp 800w, /_astro/heroes.B7y5aHrT_Z1GmWoS.webp 1200w" alt="Panel Hero Dungeon de HagiCode llamado Ember Keep, con tres héroes en ejecución y su nivel, progreso y texto de la historia." sizes="(min-width: 50rem) 560px, 100vw" loading="lazy" decoding="async" fetchpriority="low" width="1200" height="1111" class="astro-wvyqmlyc"><figcaption class="astro-wvyqmlyc">Hero Dungeon: los héroes sacan adelante el trabajo mientras sigues el progreso, los niveles y la historia.</figcaption></figure></li></ul></div><div class="hagilight-article-promotion__closing astro-wvyqmlyc"><div class="hagilight-article-promotion__windows astro-wvyqmlyc"><h3 id="hagilight-article-promotion-windows-title" class="hagilight-article-promotion__windows-label astro-wvyqmlyc">Descargar para Windows</h3><div class="hagilight-article-promotion__windows-actions astro-wvyqmlyc"><ms-store-badge productid="9N3PM0N3SVDW" productname="HagiCode" window-mode="direct" theme="auto" size="large" animation="on" language="es" aria-label="Abrir HagiCode en Microsoft Store" title="Abrir HagiCode en Microsoft Store" data-ga-category="download" data-ga-label="microsoftStore" data-ga-location="article_promotion" data-ga-url="https://apps.microsoft.com/detail/9N3PM0N3SVDW" class="astro-wvyqmlyc"><a class="hagilight-article-promotion__store-fallback astro-wvyqmlyc" href="https://apps.microsoft.com/detail/9N3PM0N3SVDW" aria-label="Abrir HagiCode en Microsoft Store" title="Abrir HagiCode en Microsoft Store">Obtenerlo en Microsoft Store</a></ms-store-badge><a class="hagilight-article-promotion__downloads astro-wvyqmlyc" href="https://www.hagicode.com/es-ES/desktop/" data-ga-category="download" data-ga-label="downloadClient" data-ga-location="article_promotion">Todas las descargas</a></div></div><div class="hagilight-article-promotion__share astro-wvyqmlyc"><h3 id="hagilight-article-promotion-share-title" class="astro-wvyqmlyc">Compartir HagiCode</h3><p class="hagilight-article-promotion__share-text astro-wvyqmlyc">HagiCode es un espacio de trabajo de programación con agentes, con flujos de trabajo de OpenSpec, ejecución multiagente y Hero Dungeon: https://www.hagicode.com/</p></div></div></section><script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script><footer class="sl-flex astro-ddtxxk7k"><div class="meta sl-flex astro-ddtxxk7k"></div><div class="pagination-links print:hidden astro-b5raizh3" dir="ltr"><a href="/es-ES/awesome/awesome-ansible/" rel="prev" class="astro-b5raizh3"><svg aria-hidden="true" class="astro-b5raizh3 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17 11H9.41l3.3-3.29a1.004 1.004 0 1 0-1.42-1.42l-5 5a1 1 0 0 0-.21.33 1 1 0 0 0 0 .76 1 1 0 0 0 .21.33l5 5a1.002 1.002 0 0 0 1.639-.325 1 1 0 0 0-.219-1.095L9.41 13H17a1 1 0 0 0 0-2Z"/></svg><span class="astro-b5raizh3">Página anterior<br class="astro-b5raizh3"><span class="link-title astro-b5raizh3">Ansible</span></span></a><a href="/es-ES/awesome/awesome-bash/" rel="next" class="astro-b5raizh3"><svg aria-hidden="true" class="astro-b5raizh3 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17.92 11.62a1.001 1.001 0 0 0-.21-.33l-5-5a1.003 1.003 0 1 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1.002 1.002 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219l5-5a1 1 0 0 0 .21-.33 1 1 0 0 0 0-.76Z"/></svg><span class="astro-b5raizh3">Siguiente página<br class="astro-b5raizh3"><span class="link-title astro-b5raizh3">Bash</span></span></a></div></footer><div class="hagilight-site-links astro-psnq7rln"><section class="astro-psnq7rln"><h2 class="astro-psnq7rln">Sitios del ecosistema</h2><nav aria-label="Enlaces de sitios del ecosistema" class="astro-psnq7rln"><ul class="astro-psnq7rln"><li class="astro-psnq7rln"><a href="https://tasks.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">HagiTask</a></li><li class="astro-psnq7rln"><a href="https://cost.hagicode.com" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Me reemplazará la IA?</a></li><li class="astro-psnq7rln"><a href="https://www.hagicode.com/es-ES/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Sitio principal de HagiCode</a></li><li class="astro-psnq7rln"><a href="https://newbe.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">newbe</a></li><li class="astro-psnq7rln"><a href="https://index.hagicode.com/data/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Index Data Mirror</a></li><li class="astro-psnq7rln"><a href="https://builder.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Docker Compose Builder</a></li><li class="astro-psnq7rln"><a href="https://status.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">HagiCode Status</a></li><li class="astro-psnq7rln"><a href="https://awesome.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Awesome Sites</a></li><li class="astro-psnq7rln"><a href="https://design.hagicode.com/es-ES/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Awesome Design MD</a></li><li class="astro-psnq7rln"><a href="https://soul.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Soul Builder</a></li><li class="astro-psnq7rln"><a href="https://trait.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Trait Builder</a></li><li class="astro-psnq7rln"><a href="https://openspec.hagicode.com/es-ES/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Documentación de OpenSpec</a></li><li class="astro-psnq7rln"><a href="https://omniroute.hagicode.com/es-ES/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Documentación de OmniRoute</a></li></ul></nav></section><section class="astro-psnq7rln"><h2 class="astro-psnq7rln">Enlaces rápidos</h2><nav aria-label="Enlaces rápidos" class="astro-psnq7rln"><ul class="astro-psnq7rln"><li class="astro-psnq7rln"><a href="https://www.hagicode.com/es-ES/desktop/" data-ga-category="download" data-ga-label="downloadClient" data-ga-location="footer" class="astro-psnq7rln">Descargar Hagicode</a></li><li class="astro-psnq7rln"><a href="https://apps.microsoft.com/detail/9N3PM0N3SVDW" target="_blank" rel="noopener noreferrer" data-ga-category="download" data-ga-label="microsoftStore" data-ga-location="footer" class="astro-psnq7rln">Descargar Hagicode para Windows</a></li><li class="astro-psnq7rln"><a href="https://docs.hagicode.com/es-ES/installation/docker-compose/" data-ga-category="navigation" data-ga-label="dockerCompose" data-ga-location="footer" class="astro-psnq7rln">Instalación de Docker Compose</a></li><li class="astro-psnq7rln"><a href="https://docs.hagicode.com/es-ES/product-overview/" data-ga-category="navigation" data-ga-label="productDocs" data-ga-location="footer" class="astro-psnq7rln">Documentación del producto</a></li><li class="astro-psnq7rln"><a href="https://docs.hagicode.com/es-ES/blog/" data-ga-category="navigation" data-ga-label="blogPosts" data-ga-location="footer" class="astro-psnq7rln">Artículos del blog</a></li><li class="astro-psnq7rln"><a href="https://awesome.hagicode.com/rss.xml" class="astro-psnq7rln">RSS</a></li><li class="astro-psnq7rln"><a href="https://awesome.hagicode.com/rss.es-ES.xml" class="astro-psnq7rln">RSS del idioma actual</a></li><li class="astro-psnq7rln"><a href="/sitemap-index.xml" class="astro-psnq7rln">Mapa del sitio</a></li><li class="astro-psnq7rln"><a href="https://www.hagicode.com/es-ES/about/" class="astro-psnq7rln">Acerca de HagiCode</a></li></ul></nav></section><section class="astro-psnq7rln"><h2 class="astro-psnq7rln">Comunidad</h2><nav aria-label="Enlaces de la comunidad" class="astro-psnq7rln"><ul class="astro-psnq7rln"><li class="astro-psnq7rln"><a href="https://github.com/HagiCode-org/site" target="_blank" rel="noopener noreferrer" data-ga-category="community" data-ga-label="github" data-ga-location="footer" class="astro-psnq7rln">GitHub</a></li><li class="astro-psnq7rln"><a href="https://discord.gg/qY662sJK" target="_blank" rel="noopener noreferrer" data-ga-category="community" data-ga-label="discord" data-ga-location="footer" class="astro-psnq7rln">Discord</a></li><li class="astro-psnq7rln"><a href="https://github.com/HagiCode-org/site/issues" target="_blank" rel="noopener noreferrer" data-ga-category="community" data-ga-label="issueFeedback" data-ga-location="footer" class="astro-psnq7rln">Reportar un problema</a></li><li class="astro-psnq7rln"><a href="mailto:support@hagicode.com" class="astro-psnq7rln">Correo de contacto</a></li><li class="astro-psnq7rln"><a href="https://qm.qq.com/q/Fwb0o094kw" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Grupo QQ 610394020</a></li></ul></nav></section><nav class="hagilight-filings astro-psnq7rln" aria-label="Ver información de registro"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" aria-label="Ver la información de registro ICP" class="astro-psnq7rln">Registro ICP 闽ICP备2026004153号-1</a><a href="http://www.beian.gov.cn/portal/registerSystemInfo" target="_blank" rel="noopener noreferrer" aria-label="Ver la información de registro de seguridad pública" class="astro-psnq7rln">Registro de seguridad pública 闽公网安备35011102351148号</a></nav></div><p class="hagilight-copyright astro-psnq7rln"><span>© 2026 HagiCode</span> | <span class="hagilight-copyright__attribution astro-psnq7rln">Powered By hagilight-starlight@0.7.0</span></p><hagilight-promoto-banner class="hagilight-promoto" data-locale="es-ES" hidden="true"><section class="hagilight-promoto__shell" data-promoto-shell hidden aria-label="Featured promotion"><div class="hagilight-promoto__viewport"><div class="hagilight-promoto__track" data-promoto-track></div></div><nav class="hagilight-promoto__controls" data-promoto-controls aria-label="Promotion controls" hidden><button type="button" class="hagilight-promoto__control" data-promoto-previous aria-label="Previous promotion"><svg class="hagilight-promoto__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 6l-6 6 6 6"></path></svg></button><span class="hagilight-promoto__count" data-promoto-count aria-label="Promotion progress"></span><button type="button" class="hagilight-promoto__control" data-promoto-next aria-label="Next promotion"><svg class="hagilight-promoto__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6"></path></svg></button><button type="button" class="hagilight-promoto__control" data-promoto-pause aria-pressed="false" aria-label="Pause automatic promotion rotation"><svg class="hagilight-promoto__icon hagilight-promoto__icon--pause" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6v12M15 6v12"></path></svg><svg class="hagilight-promoto__icon hagilight-promoto__icon--play" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5.5v13l11-6.5z"></path></svg></button></nav><button type="button" class="hagilight-promoto__dismiss" data-promoto-dismiss aria-label="Dismiss promotion"><svg class="hagilight-promoto__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"></path></svg></button><span class="hagilight-promoto__status" data-promoto-status aria-live="polite"></span></section></hagilight-promoto-banner><script type="module" src="/_astro/PromotoBanner.astro_astro_type_script_index_0_lang.CV5ho8Sw.js"></script><script charset="UTF-8" id="LA_COLLECT" src="https://sdk.51.la/js-sdk-pro.min.js"></script><script>(function(){const siteId = "L6b88a5yK4h2Xnci";
+
+      LA.init({ id: siteId, ck: siteId, autoTrack: true, hashMode: true, screenRecord: true });
+    })();</script></div></div></main></div></div></div></div><dialog class="awesome-external-warning" aria-labelledby="awesome-external-warning-heading" aria-describedby="awesome-external-warning-explanation" data-warning-fallback="Vas a salir de Awesome Site. No controlamos este sitio web. Continuar a:" data-pagefind-ignore><h2 id="awesome-external-warning-heading">¿Salir de Awesome Site?</h2><p id="awesome-external-warning-explanation">Estás a punto de visitar un sitio web externo. No controlamos su contenido ni sus prácticas de privacidad.</p><p class="awesome-external-warning-label">Destino</p><p class="awesome-external-warning-host" data-warning-host></p><p class="awesome-external-warning-url" data-warning-url></p><p class="awesome-external-warning-error" data-warning-error role="alert" aria-live="assertive" hidden>Esta dirección web no es válida o contiene datos de acceso, por lo que no se puede abrir aquí.</p><div class="awesome-external-warning-actions"><button type="button" data-warning-stay autofocus>Seguir en Awesome Site</button><a data-warning-continue aria-disabled="true" tabindex="-1">Continuar al sitio web</a></div><script type="module" src="/_astro/ExternalLinkWarning.astro_astro_type_script_index_0_lang.DAGpZW5P.js"></script></dialog><script type="module" src="/_astro/PageFrame.astro_astro_type_script_index_0_lang.D1VWYcNP.js"></script></body></html>

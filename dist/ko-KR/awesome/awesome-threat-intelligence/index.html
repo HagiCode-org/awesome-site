@@ -1,0 +1,2097 @@
+<!DOCTYPE html><html lang="ko-KR" dir="ltr" data-theme="dark" data-has-toc data-has-sidebar class="astro-g5ptsecz"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Threat Intelligence | Awesome Site</title><link rel="canonical" href="https://awesome.hagicode.com/ko-KR/awesome/awesome-threat-intelligence/"/><link rel="alternate" hreflang="en-US" href="https://awesome.hagicode.com/awesome/awesome-threat-intelligence/"/><link rel="alternate" hreflang="zh-CN" href="https://awesome.hagicode.com/zh-CN/awesome/awesome-threat-intelligence/"/><link rel="alternate" hreflang="zh-Hant" href="https://awesome.hagicode.com/zh-Hant/awesome/awesome-threat-intelligence/"/><link rel="alternate" hreflang="fr-FR" href="https://awesome.hagicode.com/fr-FR/awesome/awesome-threat-intelligence/"/><link rel="alternate" hreflang="de-DE" href="https://awesome.hagicode.com/de-DE/awesome/awesome-threat-intelligence/"/><link rel="alternate" hreflang="es-ES" href="https://awesome.hagicode.com/es-ES/awesome/awesome-threat-intelligence/"/><link rel="alternate" hreflang="ja-JP" href="https://awesome.hagicode.com/ja-JP/awesome/awesome-threat-intelligence/"/><link rel="alternate" hreflang="ko-KR" href="https://awesome.hagicode.com/ko-KR/awesome/awesome-threat-intelligence/"/><link rel="alternate" hreflang="pt-BR" href="https://awesome.hagicode.com/pt-BR/awesome/awesome-threat-intelligence/"/><link rel="alternate" hreflang="ru-RU" href="https://awesome.hagicode.com/ru-RU/awesome/awesome-threat-intelligence/"/><link rel="alternate" hreflang="x-default" href="https://awesome.hagicode.com/awesome/awesome-threat-intelligence/"/><link rel="sitemap" href="/sitemap-index.xml"/><link rel="alternate" type="application/rss+xml" href="https://awesome.hagicode.com/rss.xml"/><script>(() => {
+  let mode = 'wide';
+  try {
+    const stored = localStorage.getItem('hagilight-content-width');
+    if (stored === 'wide' || stored === 'narrow') mode = stored;
+  } catch {
+    mode = 'wide';
+  }
+  document.documentElement.dataset.hagilightContentWidth = mode;
+})();</script><script>(function () {
+  var choices = ["default","default-light","default-dark","ocean-light","ocean-dark","sakura-light","sakura-dark","forest-light","forest-dark"];
+  var choiceKey = "hagilight-theme";
+  var choice = 'default';
+  try {
+    var stored = localStorage.getItem(choiceKey);
+    if (choices.includes(stored)) choice = stored;
+  } catch (error) {}
+  var themeId = choice === 'default'
+    ? "forest"
+    : choice.slice(0, choice.lastIndexOf('-'));
+  document.documentElement.dataset.hagilightTheme = themeId;
+})();</script><link rel="icon" href="data:image/x-icon;base64,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" type="image/x-icon"/><link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml"/><meta name="generator" content="Astro v7.3.5"/><meta name="generator" content="Starlight v0.42.5"/><meta property="og:type" content="article"/><meta property="og:url" content="https://awesome.hagicode.com/ko-KR/awesome/awesome-threat-intelligence/"/><meta property="og:locale" content="ko-KR"/><meta property="og:site_name" content="Awesome Site"/><meta name="twitter:card" content="summary_large_image"/><meta name="description" content="위협 인텔리전스 소스, 형식, 프레임워크와 플랫폼, 도구, 연구, 표준 및 도서를 엄선했습니다."/><meta property="og:title" content="Awesome Site"/><meta property="og:description" content="위협 인텔리전스 소스, 형식, 프레임워크와 플랫폼, 도구, 연구, 표준 및 도서를 엄선했습니다."/><meta name="twitter:title" content="Awesome Site"/><meta name="twitter:description" content="위협 인텔리전스 소스, 형식, 프레임워크와 플랫폼, 도구, 연구, 표준 및 도서를 엄선했습니다."/><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Awesome 컬렉션","item":"https://awesome.hagicode.com/ko-KR/"},{"@type":"ListItem","position":2,"name":"Awesome 컬렉션","item":"https://awesome.hagicode.com/ko-KR/awesome/"},{"@type":"ListItem","position":3,"name":"Threat Intelligence","item":"https://awesome.hagicode.com/ko-KR/awesome/awesome-threat-intelligence/"}]}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-EN03FMT2Q4"></script><script>(function(){const measurementId = "G-EN03FMT2Q4";
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', measurementId);
+    })();</script><script type="module" src="/_astro/GoogleAnalytics.astro_astro_type_script_index_0_lang.DR20hGCB.js"></script><script>
+	window.StarlightThemeProvider = (() => {
+		const storedTheme =
+			typeof localStorage !== 'undefined' && localStorage.getItem('starlight-theme');
+		const theme =
+			storedTheme ||
+			(window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+		document.documentElement.dataset.theme = theme === 'light' ? 'light' : 'dark';
+		return {
+			updatePickers(theme = storedTheme || 'auto') {
+				document.querySelectorAll('starlight-theme-select').forEach((picker) => {
+					const select = picker.querySelector('select');
+					if (select) select.value = theme;
+					/** @type {HTMLTemplateElement | null} */
+					const tmpl = document.querySelector(`#theme-icons`);
+					const newIcon = tmpl && tmpl.content.querySelector('.' + theme);
+					if (newIcon) {
+						const oldIcon = picker.querySelector('svg.label-icon');
+						if (oldIcon) {
+							oldIcon.replaceChildren(...newIcon.cloneNode(true).childNodes);
+						}
+					}
+				});
+			},
+		};
+	})();
+</script><template id="theme-icons"><svg aria-hidden="true" class="light astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg aria-hidden="true" class="dark astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg><svg aria-hidden="true" class="auto astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg></template><link rel="stylesheet" href="/_astro/print.ehPL0gv-.css" media="print"><link rel="stylesheet" href="/_astro/common.mVYJCJjM.css"><script type="module" src="/_astro/page.Dwipeu-R.js"></script></head><body class="astro-g5ptsecz"><a class="sl-skip-link astro-qb7clj6f" href="#_top">콘텐츠로 이동</a><div class="page sl-flex astro-yntsjkba"><header class="header astro-yntsjkba"><div class="header astro-76dcl4nh"><div class="title-wrapper sl-flex astro-76dcl4nh"><a href="/ko-KR" class="site-title sl-flex astro-6rvad3va"><img class="astro-6rvad3va" alt="HagiCode" src="/_astro/logo.COFWaAMt.png" width="32" height="32"><span class="astro-6rvad3va" translate="no">Awesome Site</span></a></div><div class="sl-flex print:hidden astro-76dcl4nh"><site-search class="astro-76dcl4nh astro-b5kgnn7o" data-translations="{&quot;placeholder&quot;:&quot;검색&quot;}"><button data-open-modal disabled aria-label="검색" aria-keyshortcuts="Control+K" class="astro-b5kgnn7o"><svg aria-hidden="true" class="astro-b5kgnn7o astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.71 20.29 18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z"/></svg><span class="sl-hidden md:sl-block astro-b5kgnn7o" aria-hidden="true">검색</span><kbd class="sl-hidden md:sl-flex astro-b5kgnn7o" style="display: none;"><kbd class="astro-b5kgnn7o">Ctrl</kbd><kbd class="astro-b5kgnn7o">K</kbd></kbd></button><dialog style="padding:0" aria-label="검색" class="astro-b5kgnn7o"><div class="dialog-frame sl-flex astro-b5kgnn7o"><button data-close-modal class="sl-flex md:sl-hidden astro-b5kgnn7o">취소</button><div class="search-container astro-b5kgnn7o"><div id="starlight__search" class="astro-b5kgnn7o"></div></div></div></dialog></site-search><script>
+	(() => {
+		const openBtn = document.querySelector('button[data-open-modal]');
+		const shortcut = openBtn?.querySelector('kbd');
+		if (!openBtn || !(shortcut instanceof HTMLElement)) return;
+		const platformKey = shortcut.querySelector('kbd');
+		if (platformKey && /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) {
+			platformKey.textContent = '⌘';
+			openBtn.setAttribute('aria-keyshortcuts', 'Meta+K');
+		}
+		shortcut.style.display = '';
+	})();
+</script><script type="module" src="/_astro/Search.astro_astro_type_script_index_0_lang.Bumivpjo.js"></script></div><div class="sl-hidden md:sl-flex print:hidden right-group astro-76dcl4nh"><nav class="header-links astro-76dcl4nh" aria-label="Site navigation"><a href="https://www.hagicode.com/ko-KR/" data-ga-category="navigation" data-ga-label="home" data-ga-location="header" class="astro-76dcl4nh">홈</a><a href="https://docs.hagicode.com/ko-KR/blog/" data-ga-category="navigation" data-ga-label="blog" data-ga-location="header" class="astro-76dcl4nh">블로그</a><a href="https://www.hagicode.com/ko-KR/about/" data-ga-category="navigation" data-ga-label="support" data-ga-location="header" class="astro-76dcl4nh">기술 지원</a></nav><div class="sl-flex social-icons astro-76dcl4nh"></div><hagilight-theme-select class="theme-picker astro-mexofp5s"><label style="--sl-select-width: 12.5em" class="astro-mexofp5s"><span class="sr-only astro-mexofp5s">테마 선택</span><svg class="icon label-icon astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-mexofp5s"><option value="default" selected class="astro-mexofp5s">기본값</option><optgroup label="기본 테마" class="astro-mexofp5s"><option value="default-light" class="astro-mexofp5s">기본값 · 밝은 테마</option><option value="default-dark" class="astro-mexofp5s">기본값 · 어두운 테마</option></optgroup><optgroup label="바다" class="astro-mexofp5s"><option value="ocean-light" class="astro-mexofp5s">바다 · 밝은 테마</option><option value="ocean-dark" class="astro-mexofp5s">바다 · 어두운 테마</option></optgroup><optgroup label="벚꽃" class="astro-mexofp5s"><option value="sakura-light" class="astro-mexofp5s">벚꽃 · 밝은 테마</option><option value="sakura-dark" class="astro-mexofp5s">벚꽃 · 어두운 테마</option></optgroup><optgroup label="숲" class="astro-mexofp5s"><option value="forest-light" class="astro-mexofp5s">숲 · 밝은 테마</option><option value="forest-dark" class="astro-mexofp5s">숲 · 어두운 테마</option></optgroup></select><svg class="icon caret astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label><template class="mode-icons astro-mexofp5s"><svg class="mode-auto astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><svg class="mode-light astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg class="mode-dark astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg></template></hagilight-theme-select><script type="module">var e=`forest`,t=[`default`,`default-light`,`default-dark`,`ocean-light`,`ocean-dark`,`sakura-light`,`sakura-dark`,`forest-light`,`forest-dark`],n=`hagilight-theme`,r=`starlight-theme`,i=new Set(t);function a(e){return i.has(e)?e:`default`}function o(e){if(e==="default")return{themeId:`default`};let t=e.lastIndexOf(`-`);return{themeId:e.slice(0,t),mode:e.slice(t+1)}}function s(e){try{return globalThis.localStorage?.getItem(e)??null}catch{return null}}function c(e,t){try{globalThis.localStorage?.setItem(e,t)}catch{return}}function l(t){let{themeId:n,mode:r}=o(t);return r===void 0?e:n}function u(){return a(s(n))}function d(e,t=document.documentElement){let{mode:i}=o(e);t.dataset.hagilightTheme=l(e),i!==void 0&&(t.dataset.theme=i),c(n,e),c(r,i??``)}`${JSON.stringify(t)}${JSON.stringify(n)}${JSON.stringify(e)}`,{"de-de":{defaultOption:`Standard`,defaultThemeGroup:`Standard-Design`,themes:{ocean:`Ozean`,sakura:`Sakura`,forest:`Wald`}},"en-us":{defaultOption:`Default`,defaultThemeGroup:`Default theme`,themes:{ocean:`Ocean`,sakura:`Sakura`,forest:`Forest`}},"es-es":{defaultOption:`Predeterminado`,defaultThemeGroup:`Tema predeterminado`,themes:{ocean:`Océano`,sakura:`Sakura`,forest:`Bosque`}},"fr-fr":{defaultOption:`Par défaut`,defaultThemeGroup:`Thème par défaut`,themes:{ocean:`Océan`,sakura:`Sakura`,forest:`Forêt`}},"ja-jp":{defaultOption:`デフォルト`,defaultThemeGroup:`デフォルトテーマ`,themes:{ocean:`海`,sakura:`桜`,forest:`森`}},"ko-kr":{defaultOption:`기본값`,defaultThemeGroup:`기본 테마`,themes:{ocean:`바다`,sakura:`벚꽃`,forest:`숲`}},"pt-br":{defaultOption:`Padrão`,defaultThemeGroup:`Tema padrão`,themes:{ocean:`Oceano`,sakura:`Sakura`,forest:`Floresta`}},"ru-ru":{defaultOption:`По умолчанию`,defaultThemeGroup:`Стандартная тема`,themes:{ocean:`Океан`,sakura:`Сакура`,forest:`Лес`}},"zh-cn":{defaultOption:`默认`,defaultThemeGroup:`默认主题`,themes:{ocean:`海洋`,sakura:`樱花`,forest:`森林`}},"zh-hant":{defaultOption:`預設`,defaultThemeGroup:`預設主題`,themes:{ocean:`海洋`,sakura:`櫻花`,forest:`森林`}}}[`en-us`];var f=e=>e.endsWith(`-light`)?`mode-light`:e.endsWith(`-dark`)?`mode-dark`:`mode-auto`,p=class extends HTMLElement{connectedCallback(){if(this.dataset.initialized)return;this.dataset.initialized=`true`;let e=this.querySelector(`select`);if(!(e instanceof HTMLSelectElement))return;let t=t=>{e.value=t;let n=this.querySelector(`svg.label-icon`),r=this.querySelector(`template.mode-icons`)?.content.querySelector(`.${f(t)}`);n&&r&&n.replaceChildren(...r.cloneNode(!0).childNodes)};t(u()),e.addEventListener(`change`,()=>{let n=a(e.value);d(n),t(n)}),matchMedia(`(prefers-color-scheme: light)`).addEventListener(`change`,e=>{u()==="default"&&(document.documentElement.dataset.theme=e.matches?`light`:`dark`)})}};customElements.get(`hagilight-theme-select`)||customElements.define(`hagilight-theme-select`,p);</script><hagilight-language-chooser class="language-switcher astro-pykrs55g"><button type="button" class="language-trigger astro-pykrs55g" aria-haspopup="dialog" aria-controls="hagilight-language-dialog" aria-expanded="false" aria-label="언어 선택: 한국어" title="한국어"><span class="trigger-label astro-pykrs55g">한국어</span><span class="trigger-chevron astro-pykrs55g" aria-hidden="true">▾</span></button><dialog id="hagilight-language-dialog" class="language-dialog astro-pykrs55g" aria-modal="true" aria-labelledby="language-dialog-title"><div class="dialog-header astro-pykrs55g"><div class="astro-pykrs55g"><h2 id="language-dialog-title" class="dialog-title astro-pykrs55g">언어 선택</h2><p class="dialog-current astro-pykrs55g">현재 언어: <strong class="astro-pykrs55g">한국어</strong></p></div><button type="button" class="dialog-close astro-pykrs55g" aria-label="언어 선택 닫기">×</button></div><div class="language-grid-scroller astro-pykrs55g"><div class="language-grid astro-pykrs55g" role="listbox" aria-label="언어 선택"><button type="button" role="option" data-locale="root" data-href="/awesome/awesome-threat-intelligence/" lang="en-US" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">English</span></button><button type="button" role="option" data-locale="zh-CN" data-href="/zh-CN/awesome/awesome-threat-intelligence/" lang="zh-CN" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">简体中文</span></button><button type="button" role="option" data-locale="zh-Hant" data-href="/zh-Hant/awesome/awesome-threat-intelligence/" lang="zh-Hant" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">繁體中文</span></button><button type="button" role="option" data-locale="fr-FR" data-href="/fr-FR/awesome/awesome-threat-intelligence/" lang="fr-FR" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Français</span></button><button type="button" role="option" data-locale="de-DE" data-href="/de-DE/awesome/awesome-threat-intelligence/" lang="de-DE" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Deutsch</span></button><button type="button" role="option" data-locale="es-ES" data-href="/es-ES/awesome/awesome-threat-intelligence/" lang="es-ES" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Español (España)</span></button><button type="button" role="option" data-locale="ja-JP" data-href="/ja-JP/awesome/awesome-threat-intelligence/" lang="ja-JP" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">日本語</span></button><button type="button" role="option" data-locale="ko-KR" data-href="/ko-KR/awesome/awesome-threat-intelligence/" lang="ko-KR" aria-selected="true" class="language-option language-option-selected astro-pykrs55g"><span class="language-option-label astro-pykrs55g">한국어</span><span class="selected-badge astro-pykrs55g">선택됨</span></button><button type="button" role="option" data-locale="pt-BR" data-href="/pt-BR/awesome/awesome-threat-intelligence/" lang="pt-BR" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Português (Brasil)</span></button><button type="button" role="option" data-locale="ru-RU" data-href="/ru-RU/awesome/awesome-threat-intelligence/" lang="ru-RU" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Русский</span></button></div></div></dialog></hagilight-language-chooser><script type="module">Object.entries({root:{label:`English`,lang:`en-US`},"zh-CN":{label:`简体中文`,lang:`zh-CN`},"zh-Hant":{label:`繁體中文`,lang:`zh-Hant`},"fr-FR":{label:`Français`,lang:`fr-FR`},"de-DE":{label:`Deutsch`,lang:`de-DE`},"es-ES":{label:`Español (España)`,lang:`es-ES`},"ja-JP":{label:`日本語`,lang:`ja-JP`},"ko-KR":{label:`한국어`,lang:`ko-KR`},"pt-BR":{label:`Português (Brasil)`,lang:`pt-BR`},"ru-RU":{label:`Русский`,lang:`ru-RU`}}).map(([e,t])=>({code:e,label:t.label,lang:t.lang}));function e(e,t,n){if(n<1)return-1;switch(t){case`ArrowDown`:case`ArrowRight`:return(e+1)%n;case`ArrowUp`:case`ArrowLeft`:return(e-1+n)%n;case`Home`:return 0;case`End`:return n-1;default:return e}}function t(e){try{let t=window.localStorage.getItem(`starlight-route`),n={};if(t)try{let e=JSON.parse(t);e&&typeof e==`object`&&!Array.isArray(e)&&(n=e)}catch{n={}}window.localStorage.setItem(`starlight-route`,JSON.stringify({...n,lang:e}))}catch{}}var n=class extends HTMLElement{connectedCallback(){if(this.dataset.initialized)return;this.dataset.initialized=`true`;let n=this.querySelector(`.language-trigger`),r=this.querySelector(`.language-dialog`),i=this.querySelector(`.dialog-close`),a=[...this.querySelectorAll(`[role="option"]`)];if(!(n instanceof HTMLButtonElement)||!(r instanceof HTMLDialogElement)||!(i instanceof HTMLButtonElement))return;let o=()=>{r.open?r.close():n.focus()};n.addEventListener(`click`,()=>{if(r.open){o();return}r.showModal(),n.setAttribute(`aria-expanded`,`true`),(a.find(e=>e.getAttribute(`aria-selected`)===`true`)??a[0])?.focus()}),i.addEventListener(`click`,o),r.addEventListener(`cancel`,e=>{e.preventDefault(),o()}),r.addEventListener(`close`,()=>{n.setAttribute(`aria-expanded`,`false`),n.focus()}),r.addEventListener(`click`,e=>{e.target===r&&o()}),r.querySelector(`[role="listbox"]`)?.addEventListener(`keydown`,t=>{if(!(t.target instanceof HTMLButtonElement))return;let n=a.indexOf(t.target),r=e(n,t.key,a.length);r!==n&&(t.preventDefault(),a[r]?.focus())});for(let e of a)e.addEventListener(`click`,()=>{let n=e.dataset.locale,r=e.dataset.href;if(!n||!r||(o(),e.getAttribute(`aria-selected`)===`true`))return;t(n);let i=new URL(r,window.location.origin);i.search=window.location.search,i.hash=window.location.hash,window.location.assign(i.toString())})}};customElements.get(`hagilight-language-chooser`)||customElements.define(`hagilight-language-chooser`,n);</script></div></div></header><nav class="sidebar print:hidden astro-yntsjkba" aria-label="메인"><button popovertarget="starlight__sidebar" class="sl-menu-button sl-flex md:sl-hidden print:hidden astro-r2osgdlg"><svg aria-hidden="true" class="open-menu astro-r2osgdlg astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M3 8h18a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"/></svg><svg aria-hidden="true" class="close-menu astro-r2osgdlg astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="m13.41 12 6.3-6.29a1.004 1.004 0 1 0-1.42-1.42L12 10.59l-6.29-6.3a1.004 1.004 0 0 0-1.42 1.42l6.3 6.29-6.3 6.29a1 1 0 0 0 0 1.42.998.998 0 0 0 1.42 0l6.29-6.3 6.29 6.3a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.42L13.41 12Z"/></svg><span class="sr-only astro-r2osgdlg">메뉴</span></button><script type="module">var e=class extends HTMLElement{constructor(){super();let e=matchMedia(`(min-width: 50em)`),t=()=>{this.popover=e.matches?null:`auto`};t(),e.addEventListener(`change`,()=>t()),this.addEventListener(`toggle`,({newState:e})=>this.trapFocus(e===`open`))}trapFocus(e){document.querySelectorAll(`.main-frame, .sl-skip-link`).forEach(t=>{t.toggleAttribute(`inert`,e)})}};customElements.define(`sl-sidebar-pane`,e);</script><script type="module">var e=class extends HTMLElement{constructor(){super();let e=this.querySelector(`select`);e&&(e.addEventListener(`change`,e=>{e.currentTarget instanceof HTMLSelectElement&&(window.location.pathname=e.currentTarget.value)}),window.addEventListener(`pageshow`,t=>{if(!t.persisted)return;let n=e.querySelector(`option[selected]`)?.index;n!==e.selectedIndex&&(e.selectedIndex=n??0)}))}};customElements.define(`starlight-lang-select`,e);</script><sl-sidebar-pane popover id="starlight__sidebar" class="sidebar-pane astro-yntsjkba"><div class="sidebar-content sl-flex astro-yntsjkba"><sl-sidebar-state-persist data-hash="0zpixhz" class="astro-ipdry5cl"><script aria-hidden="true">
+		(() => {
+			try {
+				if (!matchMedia('(min-width: 50em)').matches) return;
+				/** @type {HTMLElement | null} */
+				const target = document.querySelector('sl-sidebar-state-persist');
+				const state = JSON.parse(sessionStorage.getItem('sl-sidebar-state') || '0');
+				if (!target || !state || target.dataset.hash !== state.hash) return;
+				window._starlightScrollRestore = state.scroll;
+				customElements.define(
+					'sl-sidebar-restore',
+					class SidebarRestore extends HTMLElement {
+						connectedCallback() {
+							try {
+								const idx = parseInt(this.dataset.index || '');
+								const details = this.closest('details');
+								if (details && typeof state.open[idx] === 'boolean') details.open = state.open[idx];
+							} catch {}
+						}
+					}
+				);
+			} catch {}
+		})();
+	</script><ul class="top-level astro-rmhv4bp6"><li class="astro-rmhv4bp6"><a href="/ko-KR/" class="large astro-rmhv4bp6"><span class="astro-rmhv4bp6">홈</span></a></li><li class="astro-rmhv4bp6"><details open class="astro-rmhv4bp6"><summary class="astro-rmhv4bp6"><span class="group-label astro-rmhv4bp6"><span class="large astro-rmhv4bp6">컬렉션</span></span><svg aria-hidden="true" class="caret astro-rmhv4bp6 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="0"></sl-sidebar-restore><ul class="astro-rmhv4bp6"><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">컬렉션 및 저장소</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/android-security-awesome/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Android Security Awesome</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-3d-gaussian-splatting/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">3D Gaussian Splatting</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-actions/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Actions</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-agent-skills/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agent Skills</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-agentic-ai-zh/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agentic AI (Chinese)</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-agentic-patterns/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agentic Patterns</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-ai-apps/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">AI Apps</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-android-ui/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Android UI</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-ansible/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Ansible</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-automl-papers/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">AutoML Papers</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-bash/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Bash</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-chaos-engineering/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Chaos Engineering</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-chatgpt-prompts-zh/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">ChatGPT Prompts (Chinese)</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-chinese-nlp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Chinese NLP</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-chrome-devtools/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Chrome DevTools</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-cloud-security/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Cloud Security</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-codex-subagents/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Codex Subagents</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-compose/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Compose</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-console-services/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Console Services</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-copilot/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Copilot</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-coreml-models/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Core ML Models</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-cpp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">C++</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-ctf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">CTF</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-datascience/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Data Science</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-db-tools/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">DB Tools</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-deep-text-detection-recognition/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Deep Text Detection and Recognition</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-deepseek-integration/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">DeepSeek Integrations</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-design-md/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Design.md</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-design-systems/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Design Systems</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-django/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Django</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-docker/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Docker</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-dotnet/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">.NET</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-electron/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Electron</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-fastapi/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">FastAPI</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-flask/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Flask</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-generative-ai/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Generative AI</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-generative-ai-guide/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Generative AI Guide</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-github-profile-readme/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GitHub Profile README</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-golang-algorithm/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Golang Algorithm</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-gpt-agents/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GPT Agents</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-hacking/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Hacking</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-incident-response/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Incident Response</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-jellyfin/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Jellyfin</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-k8s-resources/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Kubernetes Resources</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-knowledge-distillation/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Knowledge Distillation</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-llm/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-llm-apps/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM Apps</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-llm-resources/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM Resources</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-llm-strawberry/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM Strawberry</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-microservices/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Microservices</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-nlp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">NLP</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-nodejs/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Node.js</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-paddle-deeplearning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">DeepLearning</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-php/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PHP</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-postgres/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PostgreSQL</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-privacy/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Privacy</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-production-machine-learning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Production Machine Learning</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-prompt-engineering/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Prompt Engineering</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-rag/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">RAG</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-react-components/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">React Components</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-react-hooks/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">React Hooks</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-red-teaming/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Red Teaming</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-rlhf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">RLHF</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-rust/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Rust</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-scalability/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Scalability</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-shell/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Shell</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-shodan-queries/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Shodan Queries</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-software-architecture/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Software Architecture</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-sre/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">SRE</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-swift/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Swift</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-system-design/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">System Design</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-tf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Terraform</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-threat-intelligence/" aria-current="page" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Threat Intelligence</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-typescript/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">TypeScript</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-waf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">WAF</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/awesome-web-hacking/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Web Hacking</span></a></li></ul></details></li><li class="astro-rmhv4bp6"><details open class="astro-rmhv4bp6"><summary class="astro-rmhv4bp6"><span class="group-label astro-rmhv4bp6"><span class="large astro-rmhv4bp6">주제별로 둘러보기</span></span><svg aria-hidden="true" class="caret astro-rmhv4bp6 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="1"></sl-sidebar-restore><ul class="astro-rmhv4bp6"><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/ai-agents/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">AI 에이전트</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/algorithms/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">알고리즘과 자료 구조</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/android-ui/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Android UI</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/ansible/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Ansible</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/computer-vision/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">컴퓨터 비전</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/cpp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">C / C++</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/cybersecurity/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">사이버 보안</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/databases/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">데이터베이스</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/deep-learning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">딥러닝</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/design-systems/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">디자인 시스템</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/docker/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Docker</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/dotnet/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">.NET</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/electron/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Electron</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/github-actions/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GitHub Actions</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/github-profile-readme/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GitHub 프로필 README</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/javascript/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">JavaScript</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/kubernetes/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Kubernetes</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/llm-apps/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM 애플리케이션</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/llm-research/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM 연구</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/machine-learning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">머신러닝</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/mlops/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">MLOps</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/nlp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">자연어 처리</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/nodejs/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Node.js</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/php/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PHP</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/postgresql/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PostgreSQL</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/python/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Python</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/rag/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">검색 증강 생성</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/react/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">React</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/rust/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Rust</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/scalability/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">시스템 설계와 확장성</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/self-hosted/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">셀프 호스팅 소프트웨어</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/shell/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">셸 및 명령줄</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/swift/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Swift</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/sysadmin/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">시스템 관리</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/terraform-opentofu/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Terraform / OpenTofu</span></a></li><li class="astro-rmhv4bp6"><a href="/ko-KR/awesome/tags/typescript/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">TypeScript</span></a></li></ul></details></li></ul><script aria-hidden="true">
+		(() => {
+			const scroller = document.getElementById('starlight__sidebar');
+			if (!window._starlightScrollRestore || !scroller) return;
+			scroller.scrollTop = window._starlightScrollRestore;
+			delete window._starlightScrollRestore;
+		})();
+	</script></sl-sidebar-state-persist><div class="md:sl-hidden"><div class="mobile-preferences sl-flex astro-p4azlveh"><div class="social-icons astro-p4azlveh"></div><hagilight-theme-select class="theme-picker astro-mexofp5s"><label style="--sl-select-width: 12.5em" class="astro-mexofp5s"><span class="sr-only astro-mexofp5s">테마 선택</span><svg class="icon label-icon astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-mexofp5s"><option value="default" selected class="astro-mexofp5s">기본값</option><optgroup label="기본 테마" class="astro-mexofp5s"><option value="default-light" class="astro-mexofp5s">기본값 · 밝은 테마</option><option value="default-dark" class="astro-mexofp5s">기본값 · 어두운 테마</option></optgroup><optgroup label="바다" class="astro-mexofp5s"><option value="ocean-light" class="astro-mexofp5s">바다 · 밝은 테마</option><option value="ocean-dark" class="astro-mexofp5s">바다 · 어두운 테마</option></optgroup><optgroup label="벚꽃" class="astro-mexofp5s"><option value="sakura-light" class="astro-mexofp5s">벚꽃 · 밝은 테마</option><option value="sakura-dark" class="astro-mexofp5s">벚꽃 · 어두운 테마</option></optgroup><optgroup label="숲" class="astro-mexofp5s"><option value="forest-light" class="astro-mexofp5s">숲 · 밝은 테마</option><option value="forest-dark" class="astro-mexofp5s">숲 · 어두운 테마</option></optgroup></select><svg class="icon caret astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label><template class="mode-icons astro-mexofp5s"><svg class="mode-auto astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><svg class="mode-light astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg class="mode-dark astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg></template></hagilight-theme-select><starlight-lang-select><label style="--sl-select-width: 7em" class="astro-2z5xp7gb"><span class="sr-only astro-2z5xp7gb">언어 선택</span><svg aria-hidden="true" class="icon label-icon astro-2z5xp7gb astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path fill-rule="evenodd" d="M8.516 3a.94.94 0 0 0-.941.94v1.15H2.94a.94.94 0 1 0 0 1.882h7.362a7.422 7.422 0 0 1-1.787 3.958 7.42 7.42 0 0 1-1.422-2.425.94.94 0 1 0-1.774.627 9.303 9.303 0 0 0 1.785 3.043 7.422 7.422 0 0 1-4.164 1.278.94.94 0 1 0 0 1.881 9.303 9.303 0 0 0 5.575-1.855 9.303 9.303 0 0 0 4.11 1.74l-.763 1.525a.968.968 0 0 0-.016.034l-1.385 2.77a.94.94 0 1 0 1.683.841l1.133-2.267h5.806l1.134 2.267a.94.94 0 0 0 1.683-.841l-1.385-2.769a.95.95 0 0 0-.018-.036l-3.476-6.951a.94.94 0 0 0-1.682 0l-1.82 3.639a7.423 7.423 0 0 1-3.593-1.256 9.303 9.303 0 0 0 2.27-5.203h1.894a.94.94 0 0 0 0-1.881H9.456V3.94A.94.94 0 0 0 8.516 3Zm6.426 11.794a1.068 1.068 0 0 1-.02.039l-.703 1.407h3.924l-1.962-3.924-1.24 2.478Z" clip-rule="evenodd"/></svg><select autocomplete="off" class="astro-2z5xp7gb"><option value="/awesome/awesome-threat-intelligence/" class="astro-2z5xp7gb">English</option><option value="/zh-CN/awesome/awesome-threat-intelligence/" class="astro-2z5xp7gb">简体中文</option><option value="/zh-Hant/awesome/awesome-threat-intelligence/" class="astro-2z5xp7gb">繁體中文</option><option value="/fr-FR/awesome/awesome-threat-intelligence/" class="astro-2z5xp7gb">Français</option><option value="/de-DE/awesome/awesome-threat-intelligence/" class="astro-2z5xp7gb">Deutsch</option><option value="/es-ES/awesome/awesome-threat-intelligence/" class="astro-2z5xp7gb">Español (España)</option><option value="/ja-JP/awesome/awesome-threat-intelligence/" class="astro-2z5xp7gb">日本語</option><option value="/ko-KR/awesome/awesome-threat-intelligence/" selected class="astro-2z5xp7gb">한국어</option><option value="/pt-BR/awesome/awesome-threat-intelligence/" class="astro-2z5xp7gb">Português (Brasil)</option><option value="/ru-RU/awesome/awesome-threat-intelligence/" class="astro-2z5xp7gb">Русский</option></select><svg aria-hidden="true" class="icon caret astro-2z5xp7gb astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label></starlight-lang-select></div></div></div></sl-sidebar-pane></nav><div class="main-frame astro-yntsjkba"><script type="module">var e=document.getElementById(`starlight__sidebar`),t=e?.querySelector(`sl-sidebar-state-persist`),n=`sl-sidebar-state`,r=()=>{let r=[],i=t?.dataset.hash||``;try{let e=sessionStorage.getItem(n),t=JSON.parse(e||`{}`);Array.isArray(t.open)&&t.hash===i&&(r=t.open)}catch{}return{hash:i,open:r,scroll:e?.scrollTop||0}},i=e=>{try{sessionStorage.setItem(n,JSON.stringify(e))}catch{}},a=()=>i(r()),o=(e,t)=>{let n=r();n.open[t]=e,i(n)};t?.addEventListener(`click`,e=>{if(!(e.target instanceof Element))return;let t=e.target.closest(`summary`)?.closest(`details`);if(!t)return;let n=t.querySelector(`sl-sidebar-restore`),r=parseInt(n?.dataset.index||``);isNaN(r)||o(!t.open,r)}),addEventListener(`visibilitychange`,()=>{document.visibilityState===`hidden`&&a()});</script><div class="lg:sl-flex astro-lrzkfocr"><aside class="right-sidebar-container print:hidden astro-lrzkfocr"><div class="right-sidebar astro-lrzkfocr"><div class="lg:sl-hidden astro-qok35upx"><mobile-starlight-toc data-min-h="2" data-max-h="3" class="astro-66cqc7ze"><nav aria-labelledby="starlight__on-this-page--mobile" class="astro-66cqc7ze"><details id="starlight__mobile-toc" class="astro-66cqc7ze"><summary id="starlight__on-this-page--mobile" class="sl-flex astro-66cqc7ze"><span class="toggle sl-flex astro-66cqc7ze">목차<svg aria-hidden="true" class="caret astro-66cqc7ze astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></span><span class="display-current astro-66cqc7ze"></span></summary><div class="dropdown astro-66cqc7ze"><ul class="isMobile astro-jugkfwgx" style="--depth: 0;"><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#_top" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">개요</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#정보-출처" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">정보 출처</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#형식" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">형식</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#프레임워크-및-플랫폼" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">프레임워크 및 플랫폼</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#도구" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">도구</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#연구-표준-및-서적" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">연구, 표준 및 서적</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#이름-" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">이름 *</span></a></li></ul></div></details></nav></mobile-starlight-toc><script type="module" src="/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.C3fM4Kra.js"></script></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-qok35upx"><div class="sl-container astro-qok35upx"><starlight-toc data-min-h="2" data-max-h="3"><nav aria-labelledby="starlight__on-this-page"><h2 id="starlight__on-this-page">목차</h2><ul class="astro-jugkfwgx" style="--depth: 0;"><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#_top" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">개요</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#정보-출처" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">정보 출처</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#형식" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">형식</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#프레임워크-및-플랫폼" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">프레임워크 및 플랫폼</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#도구" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">도구</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#연구-표준-및-서적" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">연구, 표준 및 서적</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#이름-" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">이름 *</span></a></li></ul></nav></starlight-toc><script type="module" src="/_astro/TableOfContents.astro_astro_type_script_index_0_lang.BpJaGz7G.js"></script></div></div></div></aside><div class="main-pane astro-lrzkfocr"><main data-pagefind-body class="astro-g5ptsecz" lang="ko-KR" dir="ltr"><div class="content-panel astro-a7po4psb"><div class="sl-container astro-a7po4psb"><h1 id="_top" class="astro-bebwqqxs">Threat Intelligence</h1><div class="hagilight-content-width-toggle" role="group" aria-label="콘텐츠 너비"><button type="button" data-hagilight-content-width-choice="wide" aria-pressed="true">넓게</button><button type="button" data-hagilight-content-width-choice="narrow" aria-pressed="false">좁게</button></div><script type="module">var e=`hagilight-content-width`,t=new Set([`wide`,`narrow`]);function n(e){return t.has(e)?e:`wide`}function r(e,t){e.querySelectorAll(`[data-hagilight-content-width-choice]`).forEach(e=>{e.setAttribute(`aria-pressed`,String(e.dataset.hagilightContentWidthChoice===t))})}function i(t=document.documentElement){let i=`wide`;try{i=n(globalThis.localStorage.getItem(e))}catch{i=`wide`}return t.dataset.hagilightContentWidth=i,r(t,i),i}function a(n,i=document.documentElement){if(!t.has(n))throw TypeError(`Hagilight content width must be "wide" or "narrow".`);i.dataset.hagilightContentWidth=n,r(i,n);try{globalThis.localStorage.setItem(e,n)}catch{return}}function o(e,t=document.documentElement){if(e.key!==`hagilight-content-width`&&e.key!==null)return;let i=n(e.newValue);t.dataset.hagilightContentWidth=i,r(t,i)}var s=document.documentElement;i(s),document.querySelectorAll(`[data-hagilight-content-width-choice]`).forEach(e=>{e.addEventListener(`click`,()=>{a(e.dataset.hagilightContentWidthChoice,s)})}),window.addEventListener(`storage`,e=>o(e,s));</script><nav class="awesome-topic-nav" aria-label="주제"><span>주제</span><ul><li><a href="/ko-KR/awesome/tags/cybersecurity/" data-ga-category="navigation" data-ga-label="cybersecurity" data-ga-location="topic_nav">사이버 보안</a></li></ul></nav></div></div><div class="content-panel astro-a7po4psb"><div class="sl-container astro-a7po4psb"><div class="sl-markdown-content"><blockquote>
+<p><strong>Source:</strong> <a href="https://github.com/hslatman/awesome-threat-intelligence">https://github.com/hslatman/awesome-threat-intelligence</a> at <a href="https://github.com/hslatman/awesome-threat-intelligence/blob/e506c8415406d6d6ad16040c19c23ddb9ed654ac/README.md"><code dir="auto">e506c8415406</code></a><br>
+<strong>License:</strong> <a href="https://github.com/hslatman/awesome-threat-intelligence/blob/e506c8415406d6d6ad16040c19c23ddb9ed654ac/LICENSE">Apache-2.0</a><br>
+<a href="/awesome/awesome-threat-intelligence/">Read the English original</a></p>
+</blockquote>
+<blockquote>
+<p>This edition is an AI-assisted translation.</p>
+</blockquote>
+<div class="sl-heading-wrapper level-h1"><h1 id="awesome-threat-intelligence">awesome-threat-intelligence</h1><a class="sl-anchor-link" href="#awesome-threat-intelligence"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “awesome-threat-intelligence”</span></a></div>
+<p>위협 인텔리전스 추천 자료 모음</p>
+<p>위협 인텔리전스의 간결한 정의: <em>자산에 대한 기존 또는 새롭게 대두되는 위협이나 위험과 관련하여 맥락, 작동 방식, 지표, 영향 및 실행 가능한 조언을 포함하는 증거 기반 지식으로, 해당 위협이나 위험에 대한 대응을 결정하는 데 활용할 수 있습니다</em>.</p>
+<p><a href="https://github.com/hslatman/awesome-threat-intelligence/blob/e506c8415406d6d6ad16040c19c23ddb9ed654ac/CONTRIBUTING.md">기여</a>를 환영합니다.</p>
+<ul>
+<li><a href="#sources">정보 출처</a></li>
+<li><a href="#formats">형식</a></li>
+<li><a href="#frameworks-and-platforms">프레임워크 및 플랫폼</a></li>
+<li><a href="#tools">도구</a></li>
+<li><a href="#research">연구, 표준 및 서적</a></li>
+</ul>
+<div class="sl-heading-wrapper level-h2"><h2 id="정보-출처"><span id="sources" class="awesome-anchor-alias" aria-hidden="true"></span>정보 출처</h2><a class="sl-anchor-link" href="#정보-출처"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “정보 출처”</span></a></div>
+<p>아래 자료 대부분은 위협에 관한 최신 정보를 얻을 수 있도록 목록 및/또는 API를 제공합니다.
+이러한 출처를 위협 인텔리전스로 볼 수 있는지에 대해서는 의견이 엇갈립니다.
+진정한 위협 인텔리전스를 만들려면 특정 분야나 업무에 맞는 분석이 어느 정도 필요합니다.</p>
+<table>
+    <tbody><tr>
+        <td>
+            <a href="https://www.abuseipdb.com/" target="_blank">AbuseIPDB</a>
+        </td>
+        <td>
+            AbuseIPDB 인터넷에서 해커, 스파머, 항공 활동의 확산을 돕는 전용 프로젝트입니다. 그것은 웹마스터, 시스템 관리자 및 기타 관심 당사자를위한 중앙 블랙리스트를 제공함으로써 웹 보안을 만드는 데 도움이되는 임무는 온라인 악의적 인 활동과 관련된 IP 주소를보고하고 찾을 수 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml" target="_blank">APT Groups and Operations</a>
+        </td>
+        <td>
+            APT 그룹, 운영 및 전술에 대한 정보 및 인텔리전스를 포함하는 스프레드 시트.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.binarydefense.com/banlist.txt" target="_blank">Binary Defense IP Banlist</a>
+        </td>
+        <td>
+            Binary Defense Systems Artillery 위협 인텔리전스 피드 및 IP Banlist 피드.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.circl.lu/projects/bgpranking/" target="_blank">BGP Ranking</a>
+        </td>
+        <td>
+            가장 악명 높은 콘텐츠를 가진 ASNs의 순위.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://intel.malwaretech.com/" target="_blank">Botnet Tracker</a>
+        </td>
+        <td>
+            몇몇 활동적인 botnets를 추적하십시오.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://www.botvrij.eu/">BOTVRIJ.EU</a>
+        </td>
+        <td>
+            Botvrij.eu 보안 기기에서 사용할 수 있는 오픈 소스 IOCs의 다른 세트를 제공합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://danger.rulez.sk/index.php/bruteforceblocker/download/" target="_blank">BruteForceBlocker</a>
+        </td>
+        <td>
+            BruteForceBlocker 서버의 sshd 로그를 모니터링하고 brute force attacks를 식별하는 perl 스크립트입니다. 즉, 방화벽 차단 규칙을 자동으로 구성하고 프로젝트 사이트로 IP를 제출하는 데 사용됩니다. <a href="http://danger.rulez.sk/projects/bruteforceblocker/blist.php">http://danger.rulez.sk/projects/bruteforceblocker/blist.php</a>·
+        </td>
+    </tr>    
+    <tr>
+        <td>
+            <a href="http://osint.bambenekconsulting.com/feeds/c2-ipmasterlist.txt" target="_blank">C&#x26;C Tracker</a>
+        </td>
+        <td>
+            알려진, 활성 및 비 sinkholed C의 피드&#x26;C IP 주소, Bambenek Consulting. 상업적인 사용을 위한 면허.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://certstream.calidog.io/" target="_blank">CertStream</a>
+        </td>
+        <td>
+            실시간 인증서 투명성 로그 업데이트 스트림. 실시간 SSL 인증서를 참조하십시오.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://www.ccssforum.org/malware-certificates.php" target="_blank">CCSS Forum Malware Certificates</a>
+        </td>
+        <td>
+            다음은 포럼에 의해보고 된 디지털 인증서의 목록입니다. 맬웨어와 관련된 다양한 인증서 당국. 이 정보는 디지털 인증서를 사용하여 악성 코드에 레거시를 추가하고 그러한 인증서의 신속한 재발행을 격려하는 데 도움이되는 것입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://cinsscore.com/list/ci-badguys.txt" target="_blank">CI Army List</a>
+        </td>
+        <td>
+        상업의 subset <a href="http://cinsscore.com/">CINS Score</a> 목록, 현재 다른 위협리스트에 표시되지 않는 가난한 정격 IP에 집중.
+        </td>
+    </tr>    
+    <tr>
+        <td>
+            <a href="http://s3-us-west-1.amazonaws.com/umbrella-static/index.html" target="_blank">Cisco Umbrella</a>
+        </td>
+        <td>
+            Cisco 우산 (WopenDNS)에 의해 해결 된 상위 1 백만 사이트의 신속한 화이트리스트.
+	</td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://cloudmersive.com/virus-api" target="_blank">Cloudmersive Virus Scan</a>
+        </td>
+        <td>
+            Cloudmersive Virus Scan APIs 스캔 파일, URL 및 바이러스에 대한 클라우드 스토리지. 그들은 수백만의 위협에 대한 지속적으로 업데이트 된 서명을 활용하고 고성능 스캔 기능을 고급. 이 서비스는 무료이지만 개인 API 키를 검색하기 위해 계정을 등록해야합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://app.crowdsec.net/" target="_blank">CrowdSec Console</a>
+        </td>
+        <td>
+            가장 큰 군중 자원 CTI, 실시간에서 업데이트, 덕분에 CrowdSec 차세대 오픈 소스, 무료 및 협업 IDS/IPS 소프트웨어. <a href="https://crowdsec.net" target="_blank">CrowdSec</a>  방문자 행동을 분석하고 모든 종류의 공격에 적합한 응답을 제공 할 수 있습니다. 사용자는 커뮤니티와 위협에 대한 경고를 공유하고 네트워크 효과의 혜택을 누릴 수 있습니다. IP 주소는 실제 공격에서 수집되며 허니팟 네트워크에서 독점적으로 오지 않습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.cybercure.ai/" target="_blank">Cyber Cure free intelligence feeds</a>
+        </td>
+        <td>
+            Cyber Cure는 현재 인터넷에 감염되고 공격되는 IP 주소 목록으로 무료 사이버 위협 인텔리전스 피드를 제공합니다. 현재 확산되는 알려진 악성 코드의 해시 파일에 의해 사용되는 URL 목록이 있습니다. CyberCure는 센서를 사용하여 매우 낮은 거짓 긍정적 인 비율로 지능을 수집합니다. 제품 정보 <a href="https://docs.cybercure.ai" target="_blank">documentation</a> 이용 가능
+        </td>
+    </tr>
+<tr>
+        <td>
+            <a href="https://cyware.com/community/ctix-feeds" target="_blank">Cyware Threat Intelligence Feeds</a>
+        </td>
+        <td>
+            Cyware의 위협 인텔리전스 피드는 다양한 개방 및 신뢰할 수있는 소스에서 귀중한 위협 데이터를 제공하여 가치와 행동 가능한 위협 인텔리전스의 통합 스트림을 제공합니다. 우리의 위협 인텔 피드는 STIX 1.x 및 2.0과 완벽하게 호환되며, 실시간 악성 코드 해시, IP 및 도메인에 대한 최신 정보를 제공합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://dataplane.org/" target="_blank">DataPlane.org</a>
+        </td>
+        <td>
+          DataPlane.org 운영자가 제공하는 커뮤니티 전원 인터넷 데이터, 피드 및 측정 리소스입니다. 신뢰할 수 있고 신뢰할 수 있는 서비스를 제공합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://focsec.com" target="_blank">Focsec.com</a>
+        </td>
+        <td>
+          Focsec.com VPN, 프록시, Bots 및 TOR 요청을 감지하는 API를 제공합니다. 항상 최신 데이터는 의심스러운 로그인, 사기 및 학대를 감지하는 데 도움이됩니다. Code 예제에서 찾을 수 있습니다 <a href="https://docs.focsec.com" target="_blank">documentation</a>·
+        </td>
+   </tr>	
+   <tr>
+        <td>
+            <a href="https://osint.digitalside.it/" target="_blank">DigitalSide Threat-Intel</a>
+        </td>
+        <td>
+          Open Source Cyber Threat Intelligence 지표 세트를 포함합니다. 주로 악성 코드 분석 및 손상된 URL, IP 및 도메인을 기반으로 합니다. 이 프로젝트의 목적은 SOC/CSIRT/CERT/individuals가 minimun 노력과 관련된 IoC를 수집하고 공유하는 새로운 방법을 개발하고 테스트하는 것입니다. 보고서는 세 가지 방법으로 공유됩니다. <a href="https://osint.digitalside.it/Threat-Intel/stix2/" target="_blank">STIX2</a>· <a href="https://osint.digitalside.it/Threat-Intel/csv/" target="_blank">CSV</a> · <a href="https://osint.digitalside.it/Threat-Intel/digitalside-misp-feed/" target="_blank">MISP Feed</a>. 보고는 또한 간행됩니다 <a href="https://github.com/davidonzo/Threat-Intel/" target="_blank">project's Git repository</a>·
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/martenson/disposable-email-domains">Disposable Email Domains</a>
+        </td>
+        <td>
+            익명 또는 일회용 이메일 도메인의 수집은 일반적으로 스팸 / 사용 서비스에 사용됩니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://securitytrails.com/dns-trails">DNS Trails</a>
+        </td>
+        <td>
+            현재 및 과거 DNS 정보를위한 무료 인텔리전스 소스, WHOIS 정보, 특정 IP, 하위 도메인 지식 및 기술과 관련된 다른 웹 사이트를 찾는. 있음 <a href="https://securitytrails.com/">IP and domain intelligence API available</a> 한국어 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://feed.ellio.tech" target="_blank">ELLIO: IP Feed (community free version)</a>
+        </td>
+        <td>
+            알려진 악의적 인 IP 주소의 위협 목록은 가까운 미래에 네트워크에 잠재적 인 위협, 알려진 benign 스캐너, 그리고 알 수없는 의도와 배우의 IP 주소. 그것은 개인, 비 상업적인 사용을 위한 24 시간 지연으로 제공됩니다 그러나 아직도 다른 열려있는 IP 위협 명부/feeds와 비교된 우수한 보호를 제공합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://rules.emergingthreats.net/fwrules/" target="_blank">Emerging Threats Firewall Rules</a>
+        </td>
+        <td>
+            IPtables, PF 및 PIX를 포함한 여러 종류의 방화벽에 대한 규칙 모음.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://rules.emergingthreats.net/blockrules/" target="_blank">Emerging Threats IDS Rules</a>
+        </td>
+        <td>
+            Snort와 Suricata의 컬렉션 <i>【특전】</i> 경고 또는 차단을 위해 사용될 수 있는 파일.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://exonerator.torproject.org/" target="_blank">ExoneraTor</a>
+        </td>
+        <td>
+            더 보기 ExoneraTor 서비스는 Tor 네트워크의 일부였던 IP 주소의 데이터베이스를 유지합니다. 주어진 날짜에 주어진 IP 주소에서 Tor Relay가 실행되었는지 궁금합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://www.exploitalert.com/" target="_blank">Exploitalert</a>
+        </td>
+        <td>
+            최신 악용 목록.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://intercept.sh/threatlists/" target="_blank">FastIntercept</a>
+        </td>
+        <td>
+	    Intercept Security는 글로벌 허니팟 네트워크에서 무료 IP 평판 목록을 제공합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://feodotracker.abuse.ch/" target="_blank">ZeuS Tracker</a>
+        </td>
+        <td>
+            Feodo 추적기 <a href="https://abuse.ch/" target="_blank">abuse.ch</a> Feodo trojan을 추적합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://iplists.firehol.org/" target="_blank">FireHOL IP Lists</a>
+        </td>
+        <td>
+            400명+ 공개적으로 사용 가능한 IP 피드는 진화, geo-map, IP의 나이, 보존 정책, overlaps를 문서로 분석. 이 사이트는 사이버 범죄에 초점을 맞추고 (attacks, 남용, 악성 코드).
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://fraudguard.io/" target="_blank">FraudGuard</a>
+        </td>
+        <td>
+            FraudGuard 실시간 인터넷 트래픽을 지속적으로 수집하고 분석하여 사용량을 검증하는 쉬운 방법을 제공하는 서비스입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://greynoise.io/" target="_blank">GreyNoise</a>
+        </td>
+        <td>
+            GreyNoise Internet-wide 스캐닝 활동에 데이터를 수집하고 분석합니다. 쇼단.io, SSH 및 telnet 웜과 같은 악의적인 행위자와 같은 benign 스캐너에 데이터를 수집합니다. 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://griffinguard.io/" target="_blank">GriffinGuard</a>
+        </td>
+        <td>
+            GriffinGuard 글로벌 인터넷 트래픽 및 악용 패턴을 지속적으로 분석하여 실시간 위협 인텔리전스를 제공하는 사이버 보안 플랫폼입니다. 무료 데이터 검색 및 일부 무료 제공 IP blocklist₢ 킹
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://honeydb.io/" target="_blank">HoneyDB</a>
+        </td> 
+        <td>
+            HoneyDB Honeypot 활동의 실시간 데이터를 제공합니다. 이 데이터는 Honeypots에서 인터넷에 배포됩니다. <a href="https://github.com/foospidy/HoneyPy" target="_blank">HoneyPy</a> 허니팟. 또한, HoneyDB 수집된 honeypot 활동에 API 액세스를 제공, 또한 다양한 honeypot Twitter 피드에서 집계 된 데이터를 포함.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/SupportIntelligence/Icewater" target="_blank">Icewater</a>
+        </td>
+        <td>
+            12,805 프로젝트 아이스 워터에 의해 생성 된 무료 Yara 규칙.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://infosec.cert-pa.it" target="_blank">Infosec - CERT-PA</a>
+        </td>
+        <td>
+            Malware 표본 <a href="https://infosec.cert-pa.it/analyze/submission.html" target="_blank">collection and analysis</a>· <a href="https://infosec.cert-pa.it/analyze/statistics.html" target="_blank">blocklist service, </a><a href="https://infosec.cert-pa.it/cve.html">vulnerabilities database</a> 더 많은 것. CERT-PA에 의해 생성 및 관리.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://labs.inquest.net" target="_blank">InQuest Labs</a>
+        </td>
+        <td>
+            보안 연구원을 위한 오픈, 대화형 및 API 구동 데이터 포털. 파일 샘플의 큰 손상을 검색, 집계 명성 정보, 그리고 IOCs는 공공 소스에서 추출. Augment YARA 개발 도구로 트리거 생성, 혼합 케이스 hex 처리, base64 호환 일반 표현 생성.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.iblocklist.com/lists" target="_blank">I-Blocklist</a>
+        </td>
+        <td>
+            I-Blocklist 다양한 범주에 속하는 IP 주소를 포함하는 여러 종류의 목록을 유지합니다. 이러한 주요 범주의 일부는 국가, ISP 및 조직을 포함한다. 다른 목록에는 웹 공격, TOR, 스파이웨어 및 프록시가 포함됩니다. 다양한 형식으로 사용할 수 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://ipasis.com" target="_blank">IPASIS</a>
+        </td>
+        <td>
+            IPASIS IP 인텔리전스, 프록시/VPN/Tor 탐지를 결합한 실시간 봇 탐지 및 사기 방지 API이며, 단일 API 호출에 대한 이메일 검증입니다. 각 요청은 상호 작용 신뢰 점수 (0-100) sub-20ms 응답 시간으로. 무료 계층에는 1,000개의 요청/일이 포함됩니다. <a href="https://ipasis.com/docs" target="_blank">API documentation</a> · <a href="https://ipasis.com/scan" target="_blank">live scanner</a> 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt" target="_blank">IPsum</a>
+        </td>
+        <td>
+            IPsum 위협 인텔리전스 피드는 30+ 의심스러운 및/또는 악의적인 IP 주소의 다른 공개적으로 유효한 명부. 모든 목록은 매일 (24h)에 자동으로 검색되고 파싱되며 최종 결과는이 저장소에 푸시됩니다. 목록은 총 수 (블랙)리스트 발생 (각)와 함께 IP 주소로 만들어집니다. 작성 및 관리 <a href="https://twitter.com/stamparm">Miroslav Stampar</a>·
+        </td>
+    </tr>
+    <tr>
+	<td>
+            <a href="https://jamesbrine.com.au" target="_blank">James Brine Threat Intelligence Feeds</a>
+        </td>
+        <td>
+		JamesBrine은 SSH, FTP, RDP, GIT, SNMP 및 REDIS를 포함한 다양한 프로토콜을 포함하는 클라우드 및 개인 인프라에 위치한 국제적으로 위치한 허니팟에서 악의적인 IP 주소를 일일 위협 인텔리전스 피드를 제공합니다. 이전날의 IOC는 사용할 수 있습니다 STIX2 URI와 새로 등록 된 도메인과 같은 추가 IOCs는 피싱 캠페인에서 사용의 높은 확률을 가지고 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://support.kaspersky.com/datafeeds" target="_blank">Kaspersky Threat Data Feeds</a>
+        </td>
+        <td>
+지속적인 업데이트 및 사이버 위협과 관련된 위험 및 복제에 대한 귀하의 비즈니스 또는 클라이언트를 알려줍니다. 실시간 데이터는 더 효과적으로 위협을 완화하고 그들이 출시되기 전에 공격을 방어하는 데 도움이됩니다. Demo Data Feeds는 상업적인 것에 비해 IoCs (최대 1%)의 truncated 세트를 포함합니다
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://majestic.com/reports/majestic-million" target="_blank">Majestic Million</a>
+        </td>
+        <td>
+            Majestic에 의해 순위로 상위 1 백만 웹 사이트의 Probable Whitelist. 사이트 참조 하위넷의 수에 의해 주문됩니다. 순위에 대한 더 많은 것은 그들에 찾을 수 있습니다 <a href="https://blog.majestic.com/development/majestic-million-csv-daily/" target="_blank">blog</a>·
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://maldatabase.com/" target="_blank">Maldatabase</a>
+        </td>
+        <td>
+            Maldatabase는 악성 코드 데이터 과학 및 위협 인텔리전스 피드를 돕기 위해 설계되었습니다. 제공된 데이터는 다른 분야, 접촉된 도메인, 실행 프로세스 목록 및 각 샘플에 의해 파일을 떨어졌다. 이 피드는 모니터링 및 보안 도구를 개선 할 수 있습니다. 무료 서비스는 보안 연구자와 학생에게 제공됩니다. 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://malpedia.caad.fkie.fraunhofer.de/" target="_blank">Malpedia</a>
+        </td>
+        <td>
+Malpedia의 주요 목표는 맬웨어를 조사 할 때 급속한 식별 및 행동 상황에 대한 리소스를 제공합니다. 공증에 대한 개방은 의미있는 연구와 재현 가능한 연구를 촉진하기 위해 품질의 책임 수준을 보장한다. 
+        </td>
+    </tr>    
+    <tr>
+        <td>
+            <a href="http://www.malshare.com/" target="_blank">MalShare.com</a>
+        </td>
+        <td>
+            MalShare Project는 연구원이 샘플에 무료 액세스 할 수있는 공공 맬웨어 저장소입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.maltiverse.com/" target="_blank">Maltiverse</a>
+        </td>
+        <td>
+            Maltiverse Project는 복잡한 쿼리를 만들 수 있는 크고 풍부한 IoC 데이터베이스이며, 맬웨어 캠페인 및 인프라에 대한 조사를 위한 집단입니다. 그것은 또한 중대한 IoC 대량 조회 서비스가 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://bazaar.abuse.ch/" target="_blank">MalwareBazaar</a>
+        </td>
+        <td>
+            MalwareBazaar 프로젝트 abuse.ch infosec 커뮤니티, AV 공급 업체 및 위협 인텔리전스 제공 업체와 악성 코드 샘플을 공유하는 목표.
+        </td>
+    </tr>	
+    <tr>
+        <td>
+            <a href="https://www.malwaredomainlist.com/" target="_blank">Malware Domain List</a>
+        </td>
+        <td>
+            역을 수행 할 악성 도메인의 검색 목록 lookups 및 목록 레지스트리, trojans 및 악용 키트에 초점을 맞춘.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.malwarepatrol.net/" target="_blank">Malware Patrol</a>
+        </td>
+        <td>
+            Malware Patrol은 블록 목록, 데이터 피드 및 위협 인텔리전스를 모든 크기의 회사에 제공합니다. 우리의 전문 지식은 사이버 위협 인텔리전스이기 때문에, 우리의 모든 자원은 가능한 가장 높은 품질의 확인으로 이동합니다. 우리는 보안 팀을 믿고 도구는 사용 된 데이터만큼 좋은 것입니다. 이것은 우리의 피드는 스크랩으로 채워지지 않는다, unverified 지표. 우리는 양에 질 값을 매깁니다. 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://malware-traffic-analysis.net/" target="_blank">Malware-Traffic-Analysis.net</a>
+        </td>
+        <td>
+            이 블로그는 멀웨어 감염과 관련된 네트워크 트래픽에 중점을 둡니다. 트래픽 분석 운동, 자습서, 악성 코드 샘플, 악성 네트워크 트래픽의 Pcap 파일 및 관찰과 기술 블로그 게시물을 포함합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://www.malwaredomains.com/" target="_blank">MalwareDomains.com</a>
+        </td>
+        <td>
+            DNS-BH 프로젝트가 생성하고 맬웨어 및 스파이웨어를 전파하는 데 사용되는 도메인의 목록을 유지합니다. 이러한 감지뿐만 아니라 예방에 사용할 수 있습니다 (sinkholing DNS 요청).
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.opswat.com/developers/threat-intelligence-feed" target="_blank">MetaDefender Cloud</a>
+        </td>
+        <td>
+            MetaDefender Cloud 위협 인텔리전스 피드는 MD5, SHA1 및 SHA를 포함하여 최고 새로운 악성 코드 해시 서명을 포함256. 이 새로운 악의적인 hashes가 스포티드되었습니다. MetaDefender Cloud 마지막 24 시간 안에. 이 피드는 새로 발견 된 매일 업데이트하고 악성 코드가 행동 및 적시 위협 인텔리전스를 제공하기 위해보고.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://www.nothink.org">NoThink!</a>
+        </td>
+        <td>SNMP, SSH, 텔넷 블랙리스트 IPs Matteo Cantoni의 허니팟</td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://services.normshield.com" target="_blank">NormShield Services</a>
+        </td>
+        <td>
+            NormShield Services 잠재적 인 피싱 공격이 제공 될 수천 개의 도메인 정보 ( whois information 포함)을 제공합니다. Breach 및 blacklist 서비스를 사용할 수 있습니다. 지속적인 모니터링을 위한 공공 서비스에 대한 무료 가입이 있습니다.
+        </td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="https://novasense-threats.com" target="_blank">NovaSense Threats</a>
+        </td>
+        <td>
+            NovaSense는 Snapt 위협 인텔리전스 센터이며, 사전 예방 위협 보호 및 공격 완화에 대한 통찰력과 도구를 제공합니다. NovaSense는 공격자, 남용, botnets, DoS 공격 등 모든 크기의 클라이언트를 보호합니다.
+        </td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="https://www.obstracts.com/" target="_blank">Obstracts</a>
+        </td>
+        <td>
+            사이버 보안 팀을위한 RSS 리더. 구조 및 행동 위협 인텔리전스로 블로그를 켭니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://openphish.com/phishing_feeds.html" target="_blank">OpenPhish Feeds</a>
+        </td>
+        <td>
+            OpenPhish는 여러 스트림에서 URL을 수신하고 독점적 인 피싱 탐지 알고리즘을 사용하여 분석합니다. 무료 및 상업 제안이 있습니다.
+        </td>
+    </tr>
+        <tr>
+        <td>
+            <a href="https://feed.seguranca-informatica.pt/index.php" target="_blank">0xSI_f33d</a>
+        </td>
+        <td>
+            possbible phishing 및 malware domain, 포르투갈어 사이버 공간에서 블랙리스트 IP를 감지하는 무료 서비스.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.phishtank.com/developer_info.php" target="_blank">PhishTank</a>
+        </td>
+        <td>
+            PhishTank 의심스러운 피싱 URL 목록을 제공합니다. 그들의 데이터는 인간의 보고서에서 온다, 그러나 그들은 또한 가능한 한 외부 피드를 ingest. 무료 서비스이지만 API 키에 등록하는 것은 때때로 필요합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.celerium.com/pickupstix" target="_blank">PickupSTIX</a>
+        </td>
+        <td>
+            PickupSTIX 무료, 오픈 소스 및 비 상업화된 사이버 위협 인텔리전스 피드입니다. 현재, PickupSTIX 세 가지 공공 피드를 사용 하 고 매일 지능의 100 새로운 조각에 대 한 배포. PickupSTIX STIX로 다양한 피드를 번역합니다. TAXII 서버. 데이터는 무료이며 사이버 위협 인텔리전스를 사용하여 시작하는 훌륭한 방법입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://qfeeds.com" target="_blank">Q-Feeds Threat Intelligence</a>
+        </td>
+        <td>
+            Q-Feeds는 OSINT, 독점 연구 및 상용 위협 인텔리전스 피드에서 함께 데이터를 가져오는 사이버 보안 회사입니다. Threat Intelligence Portal (TIP)는 조직이 실시간에 액세스하고 관리할 수 있도록 쉽게 만듭니다. 방화벽, SIEM 및 기타 보안 플랫폼과 통합함으로써, Q-Feeds는 악성 IP, 도메인 및 URL을 알려진 악성 IP, 도메인 및 URL에 대한 통합을 돕습니다. 그들은 또한 요청에 사용할 수있는 커뮤니티 버전이 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://rescure.fruxlabs.com/" target="_blank">REScure Threat Intel Feed</a>
+        </td>
+        <td>
+            [RES]cure는 Fruxlabs Crack Team에서 수행 한 독립 위협 인텔리전스 프로젝트로 분산 시스템의 기본 아키텍처, 위협 인텔리전스의 본질 및 효율적으로 수집, 저장, 소비 및 위협 인텔리전스를 배포합니다. 피드는 6 시간마다 생성됩니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://rstcloud.net/" target="_blank">RST Cloud Threat Intel Feed</a>
+        </td>
+        <td>
+            Compromise의 집계된 지표는 여러 개의 오픈 및 커뮤니티 지원 소스에서 수집 및 교차 검증, 우리의 지능 플랫폼을 사용하여 풍부하고 순위를 매겼습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://report.cs.rutgers.edu/mrtg/drop/dropstat.cgi?start=-86400">Rutgers Blacklisted IPs</a>
+        </td>
+        <td>IP List of SSH Brute force attackers는 지역적으로 관찰 된 IP와 2 시간의 오래된 IPs가 badip.com 및 blocklist.de에 등록되었습니다.</td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://isc.sans.edu/suspicious_domains.html" target="_blank">SANS ICS Suspicious Domains</a>
+        </td>
+        <td>
+            의심스러운 도메인 위협 목록 <a href="https://isc.sans.edu/suspicious_domains.html" target="_blank">SANS ICS</a> 의심스러운 도메인을 추적합니다. 그것은 하나의 분류 3 목록 <a href="https://isc.sans.edu/feeds/suspiciousdomains_High.txt" target="_blank">high</a>· <a href="https://isc.sans.edu/feeds/suspiciousdomains_Medium.txt" target="_blank">medium</a> 또는 <a href="https://isc.sans.edu/feeds/suspiciousdomains_Low.txt" target="_blank">low</a> 높은 감도 명부가 더 적은 거짓 긍정을 비치하고 있는 감도 명부가, 더 거짓 긍정을 가진 낮은 감도 명부가 있는 감도. 또한 있습니다 <a href="https://isc.sans.edu/feeds/suspiciousdomains_whitelist_approved.txt" target="_blank">approved whitelist</a> 도메인의.<br>
+            마지막으로, 제안 된 <a href="https://isc.sans.edu/block.txt" target="_blank">IP blocklist</a> 이름 * <a href="https://dshield.org">DShield</a>·
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/securityscorecard/SSC-Threat-Intel-IoCs" target="_blank">SecurityScorecard IoCs</a>
+        </td>
+        <td>
+            기술 블로그 게시물에서 공개 액세스 IoCs 및 SecurityScorecard에 의해 보고서.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.stixify.com/" target="_blank">Stixify</a>
+        </td>
+        <td>
+            자동화된 위협 인텔리전스 분석가. unstructured 자료에서 읽을 수 있는 지능을 추출하십시오.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/Neo23x0/signature-base" target="_blank">signature-base</a>
+        </td>
+        <td>
+            Neo23x0에 의해 다른 도구에서 사용되는 서명의 데이터베이스.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.spamhaus.org/" target="_blank">The Spamhaus project</a>
+        </td>
+        <td>
+            Spamhaus Project는 스팸 및 악성 코드 활동과 관련된 여러 위협 목록을 포함합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.sophos.com/intelix" target="_blank">SophosLabs Intelix</a>
+        </td>
+        <td>
+            SophosLabs Intelix Sophos 제품 및 파트너를 강화하는 위협 인텔리전스 플랫폼입니다. 당신은 파일 해시, URL 등에 근거를 둔 정보에 접근할 수 있습니다. 또한 분석에 대한 샘플을 제출합니다. REST API를 통해 이 위협 인텔리전스를 시스템에 쉽게 추가할 수 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://spur.us" target="_blank">Spur</a>
+        </td>
+        <td>
+            Spur는 VPN, Residential Proxies 및 Bots를 탐지하는 도구 및 데이터를 제공합니다. 무료 계획은 사용자가 lookup IP 및 분류, VPN 제공 업체, IP 뒤에 인기있는 지리적 위치, 그리고 더 유용한 상황에.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://sslbl.abuse.ch/" target="_blank">SSL Blacklist</a>
+        </td>
+        <td>
+            SSL Blacklist (SSLBL)은 프로젝트 관리 abuse.ch. 목표는 "bad" SSL 인증서의 목록을 제공하는 것입니다. abuse.ch 악성 코드 또는 botnet 활동과 관련이 있습니다. SSLBL은 악성 SSL 인증서의 SHA1 지문에 의존하며 다양한 블랙리스트를 제공합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://statvoo.com/dl/top-1million-sites.csv.zip" target="_blank">Statvoo Top 1 Million Sites</a>
+        </td>
+        <td>
+            Statvoo에 의해 순위로 상위 1 백만 웹 사이트의 Probable Whitelist.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://strongarm.io" target="_blank">Strongarm, by Percipient Networks</a>
+        </td>
+        <td>
+            Strongarm은 악성 코드 명령 및 제어를 차단하여 타협의 지표에 작용하는 DNS 블랙홀입니다. Strongarm은 무료 지표 피드를 구성하고 상업 피드와 통합하여 Percipient의 IOC 피드를 활용하고 네트워크 및 비즈니스를 보호하는 데 사용할 수 있도록 DNS 해설기 및 API를 작동합니다. Strongarm은 개인용으로 무료입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.siemrules.com" target="_blank">SIEM Rules</a>
+        </td>
+        <td>
+            당신의 탐지 기술설계 데이타베이스. 보기, 수정 및 배포 SIEM rules 위협 사냥 및 탐지.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.talosintelligence.com/" target="_blank">Talos</a>
+        </td>
+        <td>
+	    Cisco Talos Intelligence Group은 세계 최고 수준의 연구원, 분석가 및 엔지니어로 구성된 세계에서 가장 큰 상업 위협 인텔리전스 팀 중 하나입니다. 이 팀은 Cisco 고객, 제품 및 서비스에 대한 정확하고 신속한 행동 위협 인텔리전스를 만들기 위해 탁월한 원격 측정 및 정교한 시스템에 의해 지원됩니다. Talos는 알려진 신흥 위협에 대한 Cisco 고객을 방어하고, 일반적인 소프트웨어의 새로운 취약점을 발견하고, 야생에서 위협을 더 큰 인터넷을 해칠 수 있기 전에. Talos는 Snort.org, ClamAV 및 SpamCop의 공식 규칙 세트를 유지하여 많은 오픈 소스 연구 및 분석 도구를 출시 할 수 있습니다. Talos는 웹 UI를 사용하여 쉽게 사용할 수 있습니다. <a href="https://www.talosintelligence.com/reputation">observable's reputation</a>·
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://threatfeeds.io" target="_blank">threatfeeds.io</a>
+        </td>
+        <td>
+            threatfeeds.io 무료 및 오픈 소스 위협 인텔리전스 피드 및 소스를 나열하고 직접 다운로드 링크 및 라이브 summaries를 제공합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://threatfox.abuse.ch/" target="_blank">threatfox.abuse.ch</a>
+        </td>
+        <td>
+            ThreatFox는 무료 플랫폼입니다. abuse.ch infosec 커뮤니티, AV 공급 업체 및 위협 인텔리전스 제공 업체와 악성 코드와 관련된 타협 (IOCs)의 공유 지표의 목표.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://threatconnect.com/blog/ingest-technical-blogs-reports/" target="_blank">Technical Blogs and Reports, by ThreatConnect</a>
+        </td>
+        <td>
+            이 소스는 90 개 이상의 오픈 소스, 보안 블로그에서 콘텐츠로 변환됩니다. IOCs (주)<a href="https://en.wikipedia.org/wiki/Indicator_of_compromise" target="_blank">Indicators of Compromise</a>) 각 블로그에서 파싱하고 블로그의 내용은 Markdown에 포맷됩니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://threatjammer.com" target="_blank">Threat Jammer</a>
+        </td>
+        <td>
+            Threat Jammer는 개발자, 보안 엔지니어 및 기타 IT 전문가가 다양한 소스에서 고품질의 위협 인텔리전스 데이터를 액세스하고 악의적 인 활동을 감지하고 차단하는 유일한 목적으로 응용 프로그램에 통합 할 수있는 REST API 서비스입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.threatminer.org/" target="_blank">ThreatMiner</a>
+        </td>
+        <td>
+            ThreatMiner 데이터 수집에서 무료 분석가에 생성되어 그들이 작업을 수행 할 수있는 포털을 제공하기 위해, 독서 보고서에서 피벗 및 데이터 풍성에 이르기까지.
+            더 강조 ThreatMiner 타협 (IoC)의 지표에 대해뿐만 아니라 IoC와 관련된 컨텍스트 정보와 분석을 제공합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://raw.githubusercontent.com/WSTNPHX/scripts-n-tools/master/malware-email-addresses.txt">WSTNPHX Malware Email Addresses</a>
+        </td>
+        <td>VVestron Phoronix (WSTNPHX)가 수집 한 악성 코드에 의해 사용되는 이메일 주소</td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://portal.underattack.today/" target="_blank">UnderAttack.today</a>
+        </td>
+        <td>UnderAttack은 무료 인텔리전스 플랫폼입니다. 의심스러운 사건과 공격에 대한 IP 및 정보를 공유합니다. 등록은 무료입니다.</td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://urlhaus.abuse.ch">URLhaus</a>
+        </td>
+        <td>URLhaus 프로젝트 abuse.ch 악성 URL을 공유하는 목표로 악성 코드 배포에 사용됩니다.</td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://virusshare.com/" target="_blank">VirusShare</a>
+        </td>
+        <td>
+            VirusShare.com 보안 연구원, 사건 응답자, 법정 분석가 및 악의적 인 코드 샘플에 대한 악성 코드 샘플에 대한 심리적 접근을 제공하는 악성 코드 샘플의 저장소입니다. 사이트에 액세스는 초대를 통해 부여됩니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://vuldb.com/?actor" target="_blank">VulDB CTI</a>
+        </td>
+        <td>
+            VulDB는 배우 활동과 취약성을 가진 공격 세부사항을 연관시키는 취약성 데이터베이스입니다. 예측 접근은 악의적인 행동으로 신흥 연구 및 공격 활동을 결정하는 데 도움이됩니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/Yara-Rules/rules" target="_blank">Yara-Rules</a>
+        </td>
+        <td>
+            컴파일 된 다른 Yara 서명과 함께 오픈 소스 저장소, 분류 및 가능한 한 최대 날짜로 유지.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://IOCFeed.mrlooquer.com/" target="_blank">1st Dual Stack Threat Feed by MrLooquer</a>
+        </td>
+        <td>
+Mrlooquer는 이중 더미를 가진 체계에 집중된 첫번째 위협 급식을 창조했습니다. IPv6 프로토콜은 악성 코드 및 사기 통신의 일부가되기 시작했기 때문에, 두 프로토콜 (IPv4 및 IPv6)의 위협을 감지하고 완화해야합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://app.validin.com/">Validin DNS Database</a>
+        </td>
+        <td>
+            현재 및 과거 DNS 정보에 대한 무료 인텔리전스 소스, 특정 IP와 관련된 다른 웹 사이트를 찾는, 및 하위 도메인 지식 있음 <a href="https://app.validin.com/docs">free API for IP and domain intelligence</a> 한국어 
+        </td>
+    </tr>
+</tbody></table>
+<div class="sl-heading-wrapper level-h2"><h2 id="형식"><span id="formats" class="awesome-anchor-alias" aria-hidden="true"></span>형식</h2><a class="sl-anchor-link" href="#형식"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “형식”</span></a></div>
+<p>위협 인텔리전스(주로 IOC)를 공유하기 위한 표준 형식입니다.</p>
+<table>
+    <tbody><tr>
+        <td>
+            <a href="https://capec.mitre.org/" target="_blank">CAPEC</a>
+        </td>
+        <td>
+            일반 공격 패턴 Enumeration 및 분류 (CAPEC)는 분석가, 개발자, 테스터 및 교육자에 의해 사용될 수있는 알려진 공격의 종합 사전 및 분류 세무제입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://cyboxproject.github.io/" target="_blank">CybOX</a>
+        </td>
+        <td>
+            사이버 관찰 가능한 eXpression (CybOX) 언어는 사이버 관찰 가능을 대표하는 일반적인 구조를 제공하고 기업 사이버 보안의 운영 영역 중에는 배포 도구 및 프로세스의 일관성, 효율성 및 상호 운용성을 향상시키고, 전체적인 상황 인식을 증가하여 상세한 자동화 공유, 매핑, 탐지 및 분석 통계에 대한 잠재력을 가능하게 합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://tools.ietf.org/html/rfc5070" target="_blank">IODEF (RFC5070)</a>
+        </td>
+        <td>
+            Incident Object Description Exchange Format (IODEF)는 컴퓨터 보안 사고에 대한 컴퓨터 보안 Incident Response Teams (CSIRTs)에 의해 일반적으로 정보를 공유하기위한 프레임 워크를 제공하는 데이터 표현을 정의합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://tools.ietf.org/html/rfc4765" target="_blank">IDMEF (RFC4765)</a>
+        </td>
+        <td>
+            <i>회사 소개</i> - Intrusion Detection Message Exchange Format (IDMEF)의 목적은 침입 감지 및 응답 시스템에 대한 관심 정보를 공유하는 데이터 형식 및 교환 절차를 정의하고 그들과 상호 작용 할 수있는 관리 시스템에.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://maecproject.github.io/" target="_blank">MAEC</a>
+        </td>
+        <td>
+            Malware Attribute Enumeration 및 문자화 (주)MAEC) 프로젝트는 행동, artifacts 및 공격 패턴과 같은 속성에 따라 악성코드에 대한 구조화된 정보를 공유하기 위한 표준화된 언어를 생성하고 제공하는 것입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2" target="_blank">OpenC2</a>
+        </td>
+        <td>
+            OASIS 오픈 명령 및 제어 (OpenC2) 기술위원회. 더 보기 OpenC2 TC는 생성한 artifacts에 그것의 노력을 기지개할 것입니다 OpenC2 포럼. 이 TC와 spe의 창조 이전에cif정보, OpenC2 포럼은 National Security Agency (NSA)에 의해 촉진 된 사이버 보안 이해 관계자의 커뮤니티였습니다. 더 보기 OpenC2 TC는 문서, spe에 전세되었습니다cifications, lexicons 또는 다른 artifacts는 표준 방식으로 사이버 보안 명령과 통제의 필요를 성취하기 위하여.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://oasis-open.github.io/cti-documentation/" target="_blank">STIX 2.0</a>
+        </td>
+        <td>
+            Structured Threat Information eXpression (STIX) 언어는 사이버 위협 정보를 나타내는 표준화 된 구성입니다. STIX Language는 전 범위의 사이버 위협 정보를 전달하고, 완전히 표현, 유연하고, 확장 가능하고, automatable 노력합니다. STIX는 Tool-agnostic 필드를 허용하지 않지만 소위 기능을 제공합니다. <i>시험 기계장치</i> 즉, embedding tool-spe의 의미를 제공한다.cific 요소, 포함 OpenIOC, Yara 및 Snort. STIX 1.x가 아카이브되었습니다. <a href="https://stixproject.github.io/" target="_blank">here</a>·
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://taxiiproject.github.io/" target="_blank">TAXII</a>
+        </td>
+        <td>
+            지표 정보의 신뢰할 수있는 자동화 된 eXchange (TAXII) 표준은 조직 및 제품/서비스 경계를 통해 행동 가능한 사이버 위협 정보를 공유할 수 있도록 구현될 때 서비스 및 메시지 교환 세트를 정의합니다. TAXII 사이버 위협의 탐지, 예방, 완화에 대한 사이버 위협 정보를 교환하는 개념, 프로토콜 및 메시지 교환을 정의합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://veriscommunity.net/index.html" target="_blank">VERIS</a>
+        </td>
+        <td>
+            Event Recording 및 Incident 공유를위한 어휘 (Vocabulary)VERIS)는 구조화되고 반복적인 방법에 있는 안전 사건을 설명하기를 위한 일반적인 언어를 제공하기 위하여 디자인된 미터의 세트입니다. VERIS 보안 업계에서 가장 중요하고 지속적인 과제 중 하나에 대한 응답 - 품질 정보의 부족. 구조화된 형식을 제공 이외에, VERIS 또한 Verizon Data Breach Investigations Report (베이즈온 데이터 Breach Investigations Report)의 위반에 대한보고 커뮤니티의 데이터를 수집합니다.<a target="_blank" href="http://www.verizonenterprise.com/verizon-insights-lab/dbir/">DBIR</a>) 이 데이터베이스를 온라인에서 게시 GitHub <a target="_blank" href="https://github.com/vz-risk/VCDB">repository.org</a>·
+        </td>
+    </tr>
+</tbody></table>
+<div class="sl-heading-wrapper level-h2"><h2 id="프레임워크-및-플랫폼"><span id="frameworks-and-platforms" class="awesome-anchor-alias" aria-hidden="true"></span>프레임워크 및 플랫폼</h2><a class="sl-anchor-link" href="#프레임워크-및-플랫폼"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “프레임워크 및 플랫폼”</span></a></div>
+<p>위협 인텔리전스를 수집, 분석, 생성 및 공유하기 위한 프레임워크, 플랫폼 및 서비스입니다.</p>
+<table>
+    <tbody><tr>
+        <td>
+            <a href="https://github.com/abusesa/abusehelper" target="_blank">AbuseHelper</a>
+        </td>
+        <td>
+            AbuseHelper 수신 및 재배포 남용 피드 및 위협 인텔을위한 오픈 소스 프레임 워크입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://abuse.io/" target="_blank">AbuseIO</a>
+        </td>
+        <td>
+            도구 키트 수신, 프로세스, correlate 및 남용 보고서에 대한 최종 사용자를 통지, thereby consuming 위협 인텔리전스 피드.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.cisa.gov/ais" target="_blank">AIS</a>
+        </td>
+        <td>
+            Cybersecurity 및 Infrastructure Security Agency (CISA) 무료 자동화 지표 공유 (AIS) 기능은 연방 정부와 기계 속도의 민간 부문 사이의 사이버 위협 지표의 교환을 가능하게합니다. 위협 지표는 악성 IP 주소 또는 피싱 이메일의 발신자 주소와 같은 정보의 조각입니다 (그들은 훨씬 더 복잡 할 수 있습니다).
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/csirtgadgets/bearded-avenger" target="_blank">Bearded Avenger</a>
+        </td>
+        <td>
+            위협 인텔리전스를 소비하는 가장 빠른 방법. 성공 사례 CIF·
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://community.blueliv.com/" target="_blank">Blueliv Threat Exchange Network</a>
+        </td>
+        <td>
+            참가자는 커뮤니티와 위협 지표를 공유 할 수 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/TheHive-Project/Cortex" target="_blank">Cortex</a>
+        </td>
+        <td>
+            Cortex는 IP, 이메일 주소, URL, 도메인 이름, 파일 또는 해시와 같은 관찰 가능, 단일 웹 인터페이스를 사용하여 하나의 또는 대량 모드로 분석 할 수 있습니다. 웹 인터페이스는 분석 중이 자신을 통합하는 데 필요한 수많은 분석가에 대한 frontend 역할을합니다. 분석은 Cortex REST API를 사용하여 분석의 부품을 자동화 할 수 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://crits.github.io/" target="_blank">CRITS</a>
+        </td>
+        <td>
+            CRITS 분석가를 제공하는 플랫폼은 악성 코드 및 위협으로 협업 연구를 수행하는 수단입니다. 중앙화된 인텔리전스 데이터 저장소에 연결하지만, 개인 인스턴스로도 사용할 수 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://csirtgadgets.org/collective-intelligence-framework" target="_blank">CIF</a>
+        </td>
+        <td>
+            Collective Intelligence 프레임 워크 (Congressive Intelligence Framework)CIF) 많은 소스에서 알려진 악성 위협 정보를 결합하고 IR, 탐지 및 완화에 대한 정보를 사용합니다. 관련 상품 <a href="https://github.com/csirtgadgets/massive-octo-spice" target="_blank">GitHub</a>·
+        </td>
+    </tr>
+<tr>
+        <td>
+            <a href="https://cyware.com/ctix-stix-taxii-cyber-threat-intelligence-exchange" target="_blank">CTIX</a>
+        </td>
+        <td>
+            CTIX 신뢰할 수있는 네트워크 내에서 위협 데이터의 스마트, 클라이언트 서버 위협 인텔리전스 플랫폼 (TIP)입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.eclecticiq.com/platform" target="_blank">EclecticIQ Platform</a>
+        </td>
+        <td>
+            EclecticIQ Platform STIX는TAXII Threat Intelligence Platform (TIP)을 기반으로 한 위협 분석가가가 빠르고, 더 나은, 더 깊은 조사를 수행하여 기계 속도에 대한 지능을 분산시킵니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.enisa.europa.eu/topics/csirt-cert-services/community-projects/incident-handling-automation" target="_blank">IntelMQ</a>
+        </td>
+        <td>
+            IntelMQ 메시지 큐 프로토콜을 사용하여 보안 피드, 풀빈, 트윗을 수집 및 처리하기위한 CERT의 솔루션입니다. IHAP(Incident Handling Automation Project)라는 커뮤니티 주도적인 이니셔티브입니다. CERT의 사고 처리 프로세스를 개선하기 위해 이러한 주요 목표는 사건 대응자에게 쉽게 수집 및 프로세스 위협 인텔리전스를 제공하는 것입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/intelowlproject/IntelOwl/" target="_blank">IntelOwl</a>
+        </td>
+        <td>
+            Intel Owl은 Spe에 대한 위협 인텔리전스 데이터를 얻는 OSINT 솔루션입니다.cific 파일, IP 또는 규모에서 단일 API에서 도메인. Intel Owl은 외부 소스에서 데이터를 검색할 수 있는 분석기 구성(virusTotal 또는 AbuseIPDB) 또는 내부 해석기 (Yara 또는 Oletools 같이)에서 intel를 생성하기 위하여. 보안 도구의 스택에서 쉽게 통합 할 수 있습니다 (<a href="https://github.com/intelowlproject/pyintelowl" target="_blank">pyintelowl</a>) 일반 작업을 자동화하기 위해, 예를 들어, SOC 분석가 수동으로.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.kaspersky.com/enterprise-security/threat-intelligence" target="_blank">Kaspersky Threat Intelligence Portal</a>
+        </td>
+        <td>
+            사이버 위협, 합법적인 개체 및 그들의 관계를 설명하는 지식 기반을 제공하는 웹 사이트는 단일 웹 서비스로 함께 가져 왔습니다. Kaspersky Lab의 위협 인텔리전스 포털에 대해 자세히 알아보세요. Kaspersky Threat Data Feeds, Threat Intelligence Reporting, Kaspersky Threat Lookup 그리고 Kaspersky 연구 Sandbox는, 모두 인간 읽을 수 있는과 기계 읽을 수 있는 체재에서 유효합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/byt3smith/malstrom" target="_blank">Malstrom</a>
+        </td>
+        <td>
+            Malstrom은 위협 추적 및 법정 예측에 대한 저장소가 될 것을 목표로하지만 조사에 대한 YARA 규칙과 메모를 저장합니다. 참고 : Github 프로젝트는 아카이브되었습니다 (새로운 기여는 허용되지 않음).
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/stratosphereips/Manati" target="_blank">ManaTI</a>
+        </td>
+        <td>
+            더 보기 ManaTI 프로젝트는 새로운 관계를 발견하는 기계 학습 기술을 고용하여 위협 분석가를 지원합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://django-mantis.readthedocs.io/en/latest/" target="_blank">MANTIS</a>
+        </td>
+        <td>
+            Threat Intelligence Sources의 모델 기반 분석 (모델 기반 분석)MANTIS) 사이버 위협 인텔리전스 관리 기구는 STIX와 같은 다양한 표준 언어로 표현된 사이버 위협 인텔리전스의 관리를 지원합니다 CybOX. 그것은 입니다 *아니다.* 대규모 생산을 준비했습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/cert-se/megatron-java" target="_blank">Megatron</a>
+        </td>
+        <td>
+            Megatron은 CERT-SE에 의해 구현된 도구로, 나쁜 IP를 수집하고 분석하는 것은 통계, 변환 및 분석 로그 파일 및 남용 및 사고 처리에 사용될 수 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/PaloAltoNetworks/minemeld/wiki" target="_blank">MineMeld</a>
+        </td>
+        <td>
+            확장 가능한 위협 인텔리전스 처리 프레임 워크는 Palo Alto Networks를 만들었습니다.
+            지표 목록과 변환 및/또는 제3자 시행 인프라에 의한 소비를 위해 구성할 수 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://www.misp-project.org/" target="_blank">MISP</a>
+        </td>
+        <td>
+            Malware 정보 공유 플랫폼 (MISP) 수집, 저장, 배포 및 사이버 보안 지표 및 악성코드 분석을위한 오픈 소스 소프트웨어 솔루션입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/CERT-Polska/n6" target="_blank">n6</a>
+        </td>
+        <td>
+            n6 (Network Security Incident eXchange)는 대규모 보안 정보를 수집, 관리 및 배포하는 시스템입니다. 배포는 단순한 REST API 및 웹 인터페이스를 통해 실현됩니다. 공인된 사용자는 네트워크의 위협 및 사고에 대한 특정 정보에서 다양한 유형의 데이터를 수신하는 데 사용할 수 있습니다. 그것은에 의해 개발 <a href="https://www.cert.pl/en/" target="_blank">CERT Polska</a>·
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://ocsf.io/" target="_blank">Open Cybersecurity Schema Framework (OCSF)</a>
+        </td>
+        <td>
+            Open Cybersecurity Schema Framework는 오픈 소스 프로젝트이며, 공급업체의 핵심 보안 스키마와 함께 스키마 개발을 위한 확장 가능한 프레임워크를 제공합니다. 공급 업체 및 기타 데이터 생산자는 spe에 대한 스키마를 채택하고 확장 할 수 있습니다cific 도메인. 데이터 엔지니어는 보안 팀이 데이터 섭취 및 정상화를 단순화하는 데 도움이되는 스키마와 다른지도를 할 수 있으므로 데이터 과학자와 분석가는 위협 탐지 및 조사에 대한 일반적인 언어와 함께 작동 할 수 있습니다. 목표는 기존의 보안 표준과 프로세스를 보완하면서 모든 환경, 응용 프로그램, 또는 솔루션에서 채택된 개방형 표준을 제공하는 것입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.opencti.io/en/" target="_blank">OpenCTI</a>
+        </td>
+        <td>
+            OpenCTI, Open Cyber Threat Intelligence 플랫폼, 조직은 사이버 위협 인텔리전스 지식과 관찰을 관리 할 수 있습니다. 그것의 목표는 구조, 상점, 조직 및 사이버 위협에 대한 기술 및 비 기술 정보를 시각화하는 것입니다. Data는 지식 스키마를 중심으로 구축 STIX2 표준. OpenCTI 다른 도구와 플랫폼과 통합할 수 있습니다. MISP, TheHive, 그리고 MITRE ATT&#x26;CK, 아.o.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.fireeye.com/services/freeware.html" target="_blank">OpenIOC</a>
+        </td>
+        <td>
+            OpenIOC 위협 인텔리전스를 공유하기위한 열린 프레임 워크입니다. 내부적으로 위협 정보를 교환하고 기계 소화 가능한 형식으로 외부로 설계되었습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/EclecticIQ/OpenTAXII" target="_blank">OpenTAXII</a>
+        </td>
+        <td>
+            OpenTAXII 강력한 Python 구현 TAXII 풍부한 기능 세트와 잘 설계 된 응용 프로그램의 상단에 내장 된 친절한 Pythonic API를 제공하는 서비스.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/Ptr32Void/OSTrICa" target="_blank">OSTrICa</a>
+        </td>
+        <td>
+            오픈 소스 플러그인 중심 프레임 워크는 Threat Intelligence 정보를 수집하고 시각화합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://otx.alienvault.com" target="_blank">OTX - Open Threat Exchange</a>
+        </td>
+        <td>
+            AlienVault Open Threat Exchange (OTX)는 위협 연구자와 보안 전문가의 글로벌 커뮤니티에 대한 액세스를 제공합니다. 그것은 커뮤니티 생성 위협 데이터를 전달, 협업 연구 활성화, 어떤 소스에서 위협 데이터와 보안 인프라를 업데이트 프로세스를 자동화.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/Lookingglass/opentpx/" target="_blank">Open Threat Partner eXchange</a>
+        </td>
+        <td>
+            더 보기 Open Threat Partner eXchange (OpenTPX)는 기계 읽기 쉬운 위협 인텔리전스 및 네트워크 보안 운영 데이터를 교환하기위한 오픈 소스 형식 및 도구로 구성됩니다. 연결된 시스템간에 데이터를 공유할 수 있는 JSON 기반 형식입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://community.riskiq.com/" target="_blank">PassiveTotal</a>
+        </td>
+        <td>
+            더 보기 PassiveTotal RiskIQ가 제공하는 플랫폼은 공격을 방지하기 위해 가능한 한 많은 데이터와 분석가를 제공하는 위협 분석 플랫폼입니다. 여러 종류의 솔루션이 제공되고, 다른 시스템과 통합 (APIs).
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://pulsedive.com/" target="_blank">Pulsedive</a>
+        </td>
+        <td>
+            Pulsedive는 오픈 소스 피드를 구성하는 무료, 커뮤니티 위협 인텔리전스 플랫폼이며, IOCs를 풍부하고, 데이터를 개선하기 위해 위험 득점 알고리즘을 통해 실행합니다. 사용자가 IOCs가 더 높은 위험 인 이유를 위해 IOCs를 제출, 검색, correlate 및 업데이트 IOCs; 목록 "리스크 요인"; 및 위협 활동의 높은 수준의보기를 제공합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.recordedfuture.com/" target="_blank">Recorded Future</a>
+        </td>
+        <td>
+            Recorded Future는 오픈, 폐쇄 및 기술 소스로부터 위협 인텔리전스를 자동으로 인식하는 프리미엄 SaaS 제품입니다. 그들의 기술은 자연 언어 처리 (NLP) 및 기계 학습을 사용하여 실시간으로 위협 인텔리전스를 전달합니다. 기록 된 미래는 IT 보안 팀을위한 인기있는 선택입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/Netflix/Scumblr" target="_blank">Scumblr</a>
+        </td>
+        <td>
+            Scumblr는 데이터 소스의 정기 동기화를 수행하는 웹 응용 프로그램입니다 (예 : Github repositories 및 URL) 및 분석 수행 (정역학 분석, 동적 검사 및 메타 데이터 수집과 같은) 식별 된 결과.
+            Scumblr는 지능형 자동화 프레임 워크를 통해 보안을 간소화하고 보안 문제를 빠르게 파악하고, 추적하고 해결하는 데 도움이됩니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.anomali.com/platform/staxx" target="_blank">STAXX (Anomali)</a>
+        </td>
+        <td>
+            Anomali STAXXTM는 STIX/에 가입하는 무료, 쉬운 방법을 제공합니다.TAXII 제품 정보 STAXX 클라이언트를 다운로드하면 데이터 소스를 구성하고 STAXX는 나머지를 처리합니다.
+        </td>
+    </tr>    
+    <tr>
+        <td>
+            <a href="http://stoq.punchcyber.com/" target="_blank">stoQ</a>
+        </td>
+        <td>
+            stoQ 사이버 분석가가가가 조직 및 자동화 반복, 데이터 구동 작업을 허용하는 프레임 워크입니다. 그것은 많은 다른 시스템에 대한 플러그인이 상호 작용합니다.
+            하나의 사용 사례는 문서의 IOCs의 추출이며, 예는 다음과 같습니다. <a href="https://stoq-framework.blogspot.nl/2016/04/operationalizing-indicators.html" target="_blank">here</a>, 그러나 그것은 또한 예를 들면 YARA를 가진 내용과 자동화한 스캐닝의 deobfuscationg 그리고 해독을 위해 사용될 수 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/tripwire/tardis" target="_blank">TARDIS</a>
+        </td>
+        <td>
+            위협 분석, Reconnaissance 및 데이터 인텔리전스 시스템 (Data Intelligence System)TARDIS)는 공격 서명을 사용하여 역사적인 검색을 수행하는 오픈 소스 프레임 워크입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.threatconnect.com/" target="_blank">ThreatConnect</a>
+        </td>
+        <td>
+            ThreatConnect 위협 인텔리전스, 분석, 관현 기능을 갖춘 플랫폼입니다. 데이터 수집, 생성 인텔리전스, 다른 사람들과 공유, 그것에 조치를 취하도록 설계되었습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.threatcrowd.org/" target="_blank">ThreatCrowd</a>
+        </td>
+        <td>
+            ThreatCrowd 사이버 위협에 관한 연구 및 연구의 체계입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.threatpipes.com" target="_blank">ThreatPipes</a>
+        </td>
+        <td>
+            당신의 모험의 앞에 2 단계 체재하십시오. 그들이 너를 악용하는 방법의 완벽한 그림을 얻으십시오.
+            <br>
+            ThreatPipes reconn은aissance 도구 자동으로 IP 주소, 도메인 이름, 이메일 주소, 이름 및 더 많은 정보를 수집하는 데이터 소스 100의 쿼리.
+            <br>
+            당신은 단순히 specif조사하고 싶은 표적, 어떤 모듈을 활성화하고 그 후에 선택 ThreatPipes 데이터를 수집하여 모든 엔티티티티의 이해를 구축하고 어떻게 서로에 의존합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://developers.facebook.com/docs/threat-exchange/" target="_blank">ThreatExchange</a>
+        </td>
+        <td>
+            Facebook 생성 ThreatExchange 참여 조직은 개인 정보 보호 기능을 제공하여 원하는 그룹과 공유할 수 있도록 편리한, 구조 및 사용하기 쉬운 API를 사용하여 위협 데이터를 공유 할 수 있습니다. 이 프로젝트는 여전히 <b>베타 베타</b>. 참고 부호는 안으로 찾아낼 수 있습니다 <a href="https://github.com/facebook/ThreatExchange" target="_blank">GitHub</a>·
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/typedb-osi/typedb-cti" target="_blank">TypeDB CTI</a>
+        </td>
+        <td>
+		TypeDB 데이터 - CTI는 조직의 개방형 위협 인텔리전스 플랫폼으로 사이버 위협 인텔리전스(CTI) 지식을 저장하고 관리합니다. 위협 인텔 전문가가 하나의 데이터베이스로 CTI 정보를 분산시키고 사이버 위협에 대한 새로운 통찰력을 찾을 수 있도록합니다. 이 저장소는 schema를 제공합니다. STIX2MITRE 포함 ATT&#x26;CK 이 위협 인텔리전스 플랫폼을 탐구하기 위해 dataset의 예입니다. 더 많은 <a href="https://blog.vaticle.com/introducing-a-knowledge-graph-for-cyber-threat-intelligence-with-typedb-bdb559a92d2a" target="_blank">blog post</a>·
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://beta.virusbay.io/" target="_blank">VirusBay</a>
+        </td>
+        <td>
+            VirusBay 보안 운영 센터 (SOC) 전문가를 연결하는 웹 기반 협업 플랫폼입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/brianwarehime/threatnote" target="_blank">threatnote.io</a>
+        </td>
+        <td>
+            새로운 개선 threatnote.io - CTI 분석가 및 팀에 대한 도구는 인텔 요구 사항, 보고 및 CTI 프로세스를 모두 하나의 플랫폼에서 관리합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://exchange.xforce.ibmcloud.com/" target="_blank">XFE - X-Force Exchange</a>
+        </td>
+        <td>
+            IBM XFE의 X-Force Exchange (XFE)는 위협 인텔리전스 정보를 검색하는 데 사용할 수있는 무료 SaaS 제품입니다, 당신의 발견을 수집하고 XFE 커뮤니티의 다른 구성원과 통찰력을 공유.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://yeti-platform.github.io/" target="_blank">Yeti</a>
+        </td>
+        <td>
+            개방형, 분산형, 기계 및 분석 가능한 위협 인텔리전스 저장소. 사건 응답자에 의해 만들어.
+        </td>
+    </tr>
+</tbody></table>
+<div class="sl-heading-wrapper level-h2"><h2 id="도구"><span id="tools" class="awesome-anchor-alias" aria-hidden="true"></span>도구</h2><a class="sl-anchor-link" href="#도구"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “도구”</span></a></div>
+<p>위협 인텔리전스를 분석하고 생성·편집하기 위한 다양한 도구이며, 주로 IOC를 다룹니다.</p>
+<table>
+    <tbody><tr>
+        <td>
+            <a href="https://github.com/jalewis/actortrackr" target="_blank">ActorTrackr</a>
+        </td>
+        <td>
+            ActorTrackr 저장/검색/링크 관련 자료에 대한 오픈 소스 웹 응용 프로그램입니다. 주요 소스는 사용자와 다양한 공공 저장소입니다. 사용 설명서 <a href="https://github.com/jalewis/actortrackr" target="_blank">GitHub</a>·
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://bitbucket.org/camp0/aiengine" target="_blank">AIEngine</a>
+        </td>
+        <td>
+            AIEngine 차세대 대화 형 / 프로그래밍 가능 Python / Ruby / Java / Lua 패킷 검사 엔진은 어떤 인간 개입없이 학습의 기능을 갖춘 NIDS (Network Intrusion Detection System) 기능, DNS 도메인 분류, 네트워크 수집가, 네트워크 포렌식 및 기타.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/referefref/aiocrioc" target="_blank">AIOCRIOC</a>
+        </td>
+        <td>
+            Artificial Intelligence Ocular 캐릭터 인식 지표 (Comromise)AIOCRIOC)는 GPT-4와 같은 Tesseract와 OpenAI 호환 LLM API의 OCR 기능, 보고에서 IOC를 추출하고 컨텍스트 데이터와 임베디드 이미지를 포함한 다른 웹 콘텐츠를 추출하는 도구입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://analyze.intezer.com" target="_blank">Analyze (Intezer)</a>
+        </td>
+        <td>
+            Analyze는 모든 유형의 파일에 정적, 동적 및 유전적 코드 분석을 수행 할 수있는 올인원 악성 코드 분석 플랫폼입니다. 사용자는 IOCs/MITRE TTP를 추출하고 YARA 서명을 다운로드 할 수 있습니다. 무료로 시작하기 위해 커뮤니티 에디션이 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/1aN0rmus/TekDefense-Automater" target="_blank">Automater</a>
+        </td>
+        <td>
+            Automater는 URL/Domain, IP Address 및 Md5 Hash OSINT 도구로 침입 분석 프로세스를 쉽게 만드는 것입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/svdwi/BlueBox" target="_blank">BlueBox</a>
+        </td>
+        <td>
+            BlueBox spe에 대한 위협 인텔리전스 데이터를 얻는 OSINT 솔루션cific 파일, IP, 도메인 또는 URL 및 분석.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://botscout.com/">BotScout</a>
+        </td>
+        <td>
+            BotScout 자동화 된 웹 스크립트를 방지하는 데 도움이, "봇", 포럼에 등록에서, 오염 데이터베이스, 스팸 확산, 웹 사이트에 abusing 양식.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/exp0se/bro-intel-generator" target="_blank">bro-intel-generator</a>
+        </td>
+        <td>
+            pdf 또는 html 보고서에서 Bro intel 파일을 생성하는 스크립트.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/EclecticIQ/cabby" target="_blank">cabby</a>
+        </td>
+        <td>
+            간단한 Python 라이브러리와 상호 작용 TAXII 서버.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/sroberts/cacador" target="_blank">cacador</a>
+        </td>
+        <td>
+            Cacador는 텍스트 블록에서 타협의 일반적인 지표를 추출하기위한 도구입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/mlsecproject/combine" target="_blank">Combine</a>
+        </td>
+        <td>
+            Combine는 Threat Intelligence Feeds를 공개적으로 사용 가능한 소스로 수집합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/CrowdStrike/CrowdFMS" target="_blank">CrowdFMS</a>
+        </td>
+        <td>
+            CrowdFMS VirusTotal에서 샘플을 자동 수집 및 처리하기위한 프레임 워크입니다.
+            프레임 워크는 사용자 YARA 알림 피드에 경고를 트리거 최근 샘플을 자동으로 다운로드합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://cti-transmute.org/" target="_blank">CTI-Transmute</a>
+        </td>
+        <td>
+            CTI-Transmute Cyber Threat Intelligence (CTI) 데이터를 변환하는 도구입니다. MISP STIX 형식 자동화된 데이터 변환을 허용하는 API 엔드포인트 세트를 제공하여 다른 위협 인텔리전스 플랫폼과 워크플로우를 통합할 수 있습니다. 사용 설명서 <a href="https://github.com/MISP/cti-transmute" target="_blank">GitHub</a>·
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/cuckoosandbox/cuckoo" target="_blank">Cuckoo Sandbox</a>
+        </td>
+        <td>
+            Cuckoo Sandbox는 자동화된 동적인 맬웨어 분석 시스템입니다. 그것은 가장 잘 알려진 오픈 소스 맬웨어 분석 샌드 박스 주변에는 연구원, CERT / SOC 팀 및 위협 인텔리전스 팀에 의해 자주 배포됩니다. 많은 조직 Cuckoo Sandbox는 잠재적 인 악성 코드 샘플에 대한 첫 통찰력을 제공합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://cybergordon.com/" target="_blank">CyberGordon</a>
+        </td>
+        <td>
+            CyberGordon 위협 인텔리전스 검색 엔진입니다. 레버리지 30+ 이름 *
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/CylanceSPEAR/CyBot" target="_blank">CyBot</a>
+        </td>
+        <td>
+            CyBot 위협 인텔리전스 채팅 봇입니다. 그것은 몇몇 유형을 실행할 수 있습니다 lookup사용자 정의 모듈에 의해 제공 s.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/Neo23x0/Fenrir" target="_blank">Fenrir</a>
+        </td>
+        <td>
+            간단한 Bash IOC 스캐너.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/spacepatcher/FireHOL-IP-Aggregator" target="_blank">FireHOL IP Aggregator</a>
+        </td>
+        <td>
+            FireHOL에서 피드를 유지하기위한 응용 <a href="https://github.com/firehol/blocklist-ipsets" target="_blank">blocklist-ipsets</a> IP 주소 외관 기록으로. HTTP 기반 API 서비스는 검색 요청을 위해 개발됩니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/byt3smith/Forager" target="_blank">Forager</a>
+        </td>
+        <td>
+            Multithreaded 위협 인텔리전스 사냥꾼 스크립트.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.gigasheet.co" target="_blank">Gigasheet</a>
+        </td>
+        <td>
+            Gigasheet는 대규모 분석 및 사이버 보안 데이터 세트를 분산시키는 SaaS 제품입니다. 대규모 로그 파일, netflow, pcaps, 큰 CSVs와 더.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/BinaryDefense/goatrider" target="_blank">GoatRider</a>
+        </td>
+        <td>
+            GoatRider 역학적으로 Artillery Threat Intelligence Feeds, TOR, AlienVaults OTX 및 Alexa top 1 백만 웹 사이트를 끌어 놓고 호스트 이름 파일 또는 IP 파일에 비교 할 수있는 간단한 도구입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://cse.google.com/cse/publicurl?cx=003248445720253387346:turlh5vi4xc" target="_blank">Google APT Search Engine</a>
+        </td>
+        <td>
+            APT 그룹, 운영 및 악성 검색 엔진. 이 Google Custom Search에 사용되는 소스는 위에 나열됩니다. <a href="https://gist.github.com/Neo23x0/c4f40629342769ad0a8f3980942e21d3" target="_blank">this</a> GitHub 이름 *
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/ciscocsirt/gosint" target="_blank">GOSINT</a>
+        </td>
+        <td>
+            더 보기 GOSINT 프레임 워크는 타협 (IOCs)의 고품질 공공 지표를 수집, 처리 및 수출하는 데 사용되는 무료 프로젝트입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://hashdd.com/" target="_blank">hashdd</a>
+        </td>
+        <td>
+            도구에 lookup crytographic hash 가치의 관련 정보
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/exp0se/harbinger" target="_blank">Harbinger Threat Intelligence</a>
+        </td>
+        <td>
+            하나의 인터페이스에서 여러 온라인 위협 집계를 쿼리 할 수있는 Python 스크립트.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/TheHive-Project/Hippocampe" target="_blank">Hippocampe</a>
+        </td>
+        <td>
+            Hippocampe는 Elasticsearch 클러스터의 인터넷에서 위협 피드를 집계합니다. 'memory'로 검색 할 수있는 REST API가 있습니다. 그것은 피드에 대응하는 URL을 fetchs하는 파이썬 스크립트에 기반하고, 파삭스와 색인.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/S03D4-164/Hiryu" target="_blank">Hiryu</a>
+        </td>
+        <td>
+            APT 캠페인 정보를 구성하고 IOC 간의 관계를 시각화하는 도구.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.fireeye.com/services/freeware/ioc-editor.html" target="_blank">IOC Editor</a>
+        </td>
+        <td>
+            Compromise (IOCs)의 지표에 대한 무료 편집기.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/fhightower/ioc-finder" target="_blank">IOC Finder</a>
+        </td>
+        <td>
+            텍스트의 타협의 지표를 찾는 Python 라이브러리. 개량된 comprehensibility를 위한 regexes 보다는 오히려 문법을 이용합니다. 2019 년 2 월 현재 18 개 이상의 지표 유형이 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/ioc-fang/ioc_fanger" target="_blank">IOC Fanger (and Defanger)</a>
+        </td>
+        <td>
+            fanging에 대한 Python 라이브러리 (`hXXp://example[.]com` => · `http://example.com`)와 편향 (`http://example.com` => · `hXXp://example[.]com`) 텍스트의 타협의 지표.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/armbues/ioc_parser" target="_blank">ioc_parser</a>
+        </td>
+        <td>
+            PDF 형식의 보안 보고서에서 타협의 지표를 추출하는 도구.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/mandiant/ioc_writer" target="_blank">ioc_writer</a>
+        </td>
+        <td>
+            기본 생성 및 편집을 허용하는 Python 라이브러리 제공 OpenIOC 기타 제품
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/InQuest/python-iocextract" target="_blank">iocextract</a>
+        </td>
+        <td>
+            URL, IP 주소, MD5/SHA hashes, 이메일 주소 및 텍스트 corpora의 YARA 규칙을 추출합니다. 출력에 몇 인코딩 및 "defanged"IOCs를 포함하고, 선택적으로 decodes/refangs 그들.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/stephenbrannon/IOCextractor" target="_blank">IOCextractor</a>
+        </td>
+        <td>
+            IOC (Comromise) Extractor는 텍스트 파일에서 IOC를 추출하는 데 도움이되는 프로그램입니다. 일반 목표는 구조화된 데이터(IOC)의 파싱 프로세스를 가속화하는 것입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/johestephan/ibmxforceex.checker.py" target="_blank">ibmxforceex.checker.py</a>
+        </td>
+        <td>
+            IBM X-Force Exchange에 대한 파이썬 클라이언트.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/sroberts/jager" target="_blank">jager</a>
+        </td>
+        <td>
+            Jager는 다양한 입력 소스 (PDFs for now, Plain text really soon, webs last)에서 유용한 IOCs (Indicators of compromise)을 끌어 놓는 도구이며 JSON 형식을 조작하기 쉽습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://support.kaspersky.com/13850" target="_blank">Kaspersky CyberTrace</a>
+        </td>
+        <td>
+            위협 데이터 피드를 SIEM 솔루션과 통합하는 위협 인텔리전스 융합 및 분석 도구. 사용자는 기존 보안 운영의 워크플로우에서 보안 모니터링 및 사고 보고서(IR) 활동을 즉시 활용할 수 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/KasperskyLab/klara" target="_blank">KLara</a>
+        </td>
+        <td>
+            KLara, Python에서 작성된 분산 시스템, 연구원들은 샘플과 함께 컬렉션에 하나 이상의 Yara 규칙을 스캔할 수 있으며, 스캔 결과가 준비될 때 이메일과 웹 인터페이스로 알림을 얻고 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/TAXIIProject/libtaxii" target="_blank">libtaxii</a>
+        </td>
+        <td>
+            처리를위한 Python 라이브러리 TAXII 메시지 invoking TAXII 서비스.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/Neo23x0/Loki" target="_blank">Loki</a>
+        </td>
+        <td>
+            간단한 IOC 및 Incident 응답 스캐너.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://bitbucket.org/ssanthosh243/ip-lookup-docker" target="_blank">LookUp</a>
+        </td>
+        <td>
+            LookUp IP 주소에 대한 다양한 위협 정보를 얻을 수있는 중앙화 된 페이지입니다. SIEM 및 기타 투자 도구와 같은 도구의 컨텍스트 메뉴로 쉽게 통합 할 수 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/HurricaneLabs/machinae" target="_blank">Machinae</a>
+        </td>
+        <td>
+            Machinae는 다양한 보안 관련 데이터에 대한 공공 사이트 / 피드로부터 인텔리전스를 수집하기위한 도구입니다. IP 주소, 도메인 이름, URL, 이메일 주소, 파일 해시 및 SSL 지문.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/silascutler/MalPipe" target="_blank">MalPipe</a>
+        </td>
+        <td>
+            Amodular malware (및 지표) 수집 및 처리 프레임 워크. 그것은 여러 피드에서 악성 코드, 도메인, URL 및 IP 주소를 잡아 설계, 수집 된 데이터를 풍부하고 결과를 수출.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/MISP/misp-workbench" target="_blank">MISP Workbench</a>
+        </td>
+        <td>
+            데이터 내보내기 도구 MISP MySQL 데이터베이스 및 사용 및이 플랫폼 밖에 남용.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/MISP/MISP-Taxii-Server" target="_blank">MISP-Taxii-Server</a>
+        </td>
+        <td>
+            EclecticIQ의 설정 OpenTAXII 구현, 데이터가 전송 될 때 콜백과 함께 TAXII 서버의 inbox.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/microsoft/msticpy" target="_blank">MSTIC Jupyter and Python Security Tools</a>
+        </td>
+        <td>
+            msticpy는 Jupyter Notebooks의 InfoSec 조사 및 사냥을위한 라이브러리입니다. 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/paulpc/nyx" target="_blank">nyx</a>
+        </td>
+        <td>
+            이 프로젝트의 목표는 Threat Intelligence Artifacts의 배포를 촉진하고 개방형 소스 및 상용 도구 모두에서 파생 된 가치를 향상시킬 수 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/fhightower/onemillion" target="_blank">OneMillion</a>
+        </td>
+        <td>
+            Python 라이브러리는 Alexa 또는 Cisco 상단에 있는 경우, 백만개의 도메인 목록입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/STIXProject/openioc-to-stix" target="_blank">openioc-to-stix</a>
+        </td>
+        <td>
+            STIX XML 생성 OpenIOC XML.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/InQuest/omnibus" target="_blank">Omnibus</a>
+        </td>
+        <td>
+            Omnibus는 IOCs/artifacts (IPs, Domains, Email Addresses, Usernames 및 Bitcoin Addresses)를 수집하고 관리하기위한 대화 형 명령 줄 응용 프로그램입니다. 공공 소스에서 OSINT 데이터와 이러한 artifacts를 풍부하게하고 간단한 방법으로 이러한 artifacts를 저장하고 액세스하는 수단을 제공합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/kx499/ostip/wiki" target="_blank">OSTIP</a>
+        </td>
+        <td>
+            homebrew 위협 데이터 플랫폼.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/mgeide/poortego" target="_blank">poortego</a>
+        </td>
+        <td>
+            오픈 소스 프로젝트는 오픈 소스 인텔리전스 (ala Maltego)의 저장 및 연결을 처리하지만 맥주로 무료하고 spe에 묶지 않는cific / 독점 데이터베이스). 원래 루비에서 개발, 하지만 새로운 codebase 완전히 python에 rewritten.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/yahoo/PyIOCe" target="_blank">PyIOCe</a>
+        </td>
+        <td>
+            PyIOCe 이름 * IOC editor Python에서 작성되었습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/QTek/QRadio" target="_blank">QRadio</a>
+        </td>
+        <td>
+            QRadio 사이버 위협 인텔리전스 소스를 통합하도록 설계된 도구 / 프레임 워크입니다.
+            프로젝트의 목표는 vetted 소스에서 지능 데이터를 추출하기위한 강력한 모듈 형 프레임 워크를 구축하는 것입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/aboutsecurity/rastrea2r" target="_blank">rastrea2r</a>
+        </td>
+        <td>
+            Compromise (IOC)와 gusto 및 스타일의 지표에 대한 수집 및 사냥!
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.fireeye.com/services/freeware/redline.html" target="_blank">Redline</a>
+        </td>
+        <td>
+            다른 사람, IOC 분석 중, 사용할 수있는 호스트 조사 도구.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/ocmdev/rita" target="_blank">RITA</a>
+        </td>
+        <td>
+            Real Intelligence 위협 분석RITA)는 다양한 크기의 기업 네트워크에서 타협의 지표에 대한 검색에 도움이 될 것입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/spacepatcher/softrace" target="_blank">Softrace</a>
+        </td>
+        <td>
+            경량 국가 소프트웨어 참고 도서관 RDS 저장.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/0x4d31/sqhunter" target="_blank">sqhunter</a>
+        </td>
+        <td>
+            osquery, Salt Open 및 Cymon API를 기반으로 한 위협 사냥꾼. 네트워크 소켓을 열고 위협 인텔리전스 소스에 대해 확인 할 수 있습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/SecurityRiskAdvisors/sra-taxii2-server" target="_blank">SRA TAXII2 Server</a>
+        </td>
+        <td>
+            한국어 TAXII 2.0 스파이cifMongoDB 백엔드와 Node JS에서 구현된 ication 서버.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://stixvalidator.com" target="_blank">Stixvalidator.com</a>
+        </td>
+        <td>
+            Stixvalidator.com 온라인 무료 STIX 및 STIX2 유효한 서비스.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/traut/stixview" target="_blank">Stixview</a>
+        </td>
+        <td>
+            Stixview는 embeddable Interactive에 대한 JS 라이브러리입니다. STIX2 그래프.
+        </td>
+    </tr>
+	<tr>
+        <td>
+            <a href="https://github.com/STIXProject/stix-viz" target="_blank">stix-viz</a>
+        </td>
+        <td>
+            STIX 시각화 도구.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://test.taxiistand.com/" target="_blank">TAXII Test Server</a>
+        </td>
+        <td>
+            테스트 할 수 있습니다. TAXII 제공된 서비스에 연결하고 다른 기능을 수행함으로써 환경 TAXII 뚱 베어cif제품 정보
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/jpsenior/threataggregator" target="_blank">threataggregator</a>
+        </td>
+        <td>
+            ThreatAggregrator는 CEF, Snort 및 IPTables 규칙을 포함하여 다양한 형식으로 온라인 소스에서 보안 위협을 통합합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/jheise/threatcrowd_api" target="_blank">threatcrowd_api</a>
+        </td>
+        <td>
+            Python 라이브러리 ThreatCrowdAPI는
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/jheise/threatcmd" target="_blank">threatcmd</a>
+        </td>
+        <td>
+            Cli 인터페이스 ThreatCrowd·
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/syphon1c/Threatelligence" target="_blank">Threatelligence</a>
+        </td>
+        <td>
+            Threatelligence는 Elasticsearch, Kibana 및 Python을 사용하여 간단한 사이버 위협 인텔리전스 피드 수집가입니다. 자동 업데이트 피드 및 트리는 대시보드에 대한 데이터를 더 향상시킬 수 있습니다. 프로젝트는 더 이상 유지되지 않습니다, 그러나.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/InQuest/ThreatIngestor" target="_blank">ThreatIngestor</a>
+        </td>
+        <td>
+            유연성, 구성 중심, 확장 가능한 프레임 워크 for consuming 위협 인텔리전스. ThreatIngestor Twitter, RSS 피드 및 기타 소스를 볼 수 있으며 C2 IPs/domains 및 YARA 서명과 같은 의미있는 정보를 추출하고 분석을위한 다른 시스템에 대한 정보를 보내주십시오.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://chrome.google.com/webstore/detail/threatpinch-lookup/ljdgplocfnmnofbhpkjclbefmjoikgke" target="_blank">ThreatPinch Lookup</a>
+        </td>
+        <td>
+            IPv4, MD5, SHA2 및 CVE에 대한 모든 페이지에 hover 팝업을 생성하는 크롬의 확장. 그것은 사용될 수 있습니다 lookup위협 조사 중 s.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/michael-yip/ThreatTracker" target="_blank">ThreatTracker</a>
+        </td>
+        <td>
+            Google Custom Search Engines를 설정하여 IOCs의 주어진 세트에 경고를 모니터링하고 생성하도록 설계된 Python 스크립트.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/Yelp/threat_intel" target="_blank">threat_intel</a>
+        </td>
+        <td>
+            단일 패키지에 통합 된 위협 인텔리전스에 대한 몇 가지 API. 포함: OpenDNS 투자, VirusTotal 및 ShadowServer.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/abhinavbom/Threat-Intelligence-Hunter" target="_blank">Threat-Intelligence-Hunter</a>
+        </td>
+        <td>
+            TIH는 여러 개의 오픈 가능한 보안 피드와 잘 알려진 API를 통해 IOC를 검색하는 데 도움이되는 지능 도구입니다. 도구 뒤에 아이디어는 지표의 자신의 로컬 데이터베이스를 만들기 위해 자주 추가 IOCs의 검색 및 저장을 촉진하는 것입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/mlsecproject/tiq-test" target="_blank">tiq-test</a>
+        </td>
+        <td>
+            Threat Intelligence Quotient (TIQ) 테스트 도구는 TI 피드의 시각화 및 통계 분석을 제공합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/TAXIIProject/yeti" target="_blank">YETI</a>
+        </td>
+        <td>
+            YETI 의 증명을 받아들이는 TAXII Inbox, Poll 및 Discovery 서비스를 지원하는 서비스 TAXII 서비스 Specif제품 정보
+        </td>
+    </tr>
+</tbody></table>
+<div class="sl-heading-wrapper level-h2"><h2 id="연구-표준-및-서적"><span id="research-standards--books" class="awesome-anchor-alias" aria-hidden="true"></span><a name="research"></a>연구, 표준 및 서적</h2><a class="sl-anchor-link" href="#연구-표준-및-서적"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “연구, 표준 및 서적”</span></a></div>
+<p>위협 인텔리전스에 관한 다양한 읽을거리로, (과학) 연구와 백서를 포함합니다.</p>
+<table>
+    <tbody><tr>
+        <td>
+            <a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections" target="_blank">APT &#x26; Cyber Criminal Campaign Collection</a>
+        </td>
+        <td>
+            (historic) 캠페인의 광범위한 컬렉션. 다양한 소스에서 온 항목.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/kbandla/APTnotes" target="_blank">APTnotes</a>
+        </td>
+        <td>
+            관련 소스의 훌륭한 컬렉션 <i>고급 Persistent 위협</i> (APT). 이 보고서는 일반적으로 전략적 및 전술적 지식이나 조언을 포함합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://attack.mitre.org/" target="_blank">ATT&#x26;CK</a>
+        </td>
+        <td>
+            Adversarial 전술, 기술 및 일반적인 지식 (ATT&#x26;CKTM)는 작업에 대한 모델과 프레임 워크입니다. adversary는 기업 네트워크 내에서 작동 할 수 있습니다. ATT&#x26;CK 네트워크 침입 중에 어떤 행동이 볼 수 있는지 더 큰 인식을 제공하는 포스트 액세스 기술에 대한 끊임없이 성장하는 일반적인 참조입니다. MITRE는 관련 건설과의 통합에 적극적으로 노력하고 있습니다. CAPEC, STIX 및 MAEC·
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://www.activeresponse.org/building-threat-hunting-strategy-with-the-diamond-model/" target="_blank">Building Threat Hunting Strategies with the Diamond Model</a>
+        </td>
+        <td>
+            Sergio Caltagirone의 블로그 포스트는 Diamond Model을 사용하여 지능형 위협 사냥 전략을 개발하는 방법에.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://car.mitre.org/wiki/Main_Page" target="_blank">Cyber Analytics Repository by MITRE</a>
+        </td>
+        <td>
+            Cyber Analytics Repository (CAR)는 Adversary Tactics, Techniques 및 Common Knowledge를 기반으로하는 MITRE에 의해 개발 된 분석의 지식 기반입니다 (ATT&#x26;CKTM) 위협 모델.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://cti-cmm.org/" target="_blank">Cyber Threat Intelligence Capability Maturity Model (CTI-CMM)</a>
+        </td>
+        <td>
+            새로운 <a href="https://cti-cmm.org/" target="_blank">Cyber Threat Intelligence Capability Maturity Model (CTI-CMM)</a> stakeholder-first 접근을 사용하여 정렬 된 <a href="https://www.energy.gov/ceser/cybersecurity-capability-maturity-model-c2m2" target="_blank">Cybersecurity Capability Maturity Model (C2M2)</a> 팀에 권한을 부여하고 지속적인 가치를 창출합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/mitre/cti" target="_blank">Cyber Threat Intelligence Repository by MITRE</a>
+        </td>
+        <td>
+            사이버 위협 인텔리전스 저장소 ATT&#x26;CK · CAPEC 카탈로그에서 표현 STIX 2.0 JSON입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.tandfonline.com/doi/full/10.1080/08850607.2020.1780062" target="_blank">Cyber Threat Intelligence: A Product Without a Process?</a>
+        </td>
+        <td>
+            현재 사이버 위협 인텔리전스 제품이 얼마나 짧고 어떻게 개선 될 수 있는지 설명하는 연구 논문 및 사운드 방법론 및 프로세스.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://cryptome.org/2015/09/cti-guide.pdf" target="_blank">Definitive Guide to Cyber Threat Intelligence</a>
+        </td>
+        <td>
+            사이버 위협 인텔리전스의 요소를 설명하고 수집, 분석 및 다양한 인간 및 기술 소비자에 의해 사용되는 방법을 논의합니다. 또한 지능이 전술적, 운영 및 전략적인 수준에서 사이버 보안을 개선할 수 있는 방법을 조사하고, 공격을 멈출 수 있는 방법을 통해 방어력을 향상시키고, 사이버 보안 문제에 대해 더 생산적으로 이야기할 수 있습니다. <i>Dummies를 위해</i> 스타일.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://ryanstillions.blogspot.nl/2014/04/the-dml-model_21.html" target="_blank">The Detection Maturity Level (DML)</a>
+        </td>
+        <td>
+            DML 모델은 사이버 공격을 탐지하는 데 하나의 성숙을 참조하기위한 기능 성숙 모델입니다.
+            intel-driven detection and response을 수행하고 성숙한 검출 프로그램을 갖는 것에 중점을 둔 조직을 위해 설계되었습니다.
+            조직의 성숙은 단순히 관련 인텔리전스를 얻을 수있는 능력에 의해 측정되지 않습니다, 그러나 그것은 지능을 효과적으로 탐지 및 응답 기능에 적용 할 수있는 용량입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/hslatman/awesome-threat-intelligence/blob/e506c8415406d6d6ad16040c19c23ddb9ed654ac/docs/diamond.pdf" target="_blank">The Diamond Model of Intrusion Analysis</a>
+        </td>
+        <td>
+            이 논문은 Diamond Model, 인지 프레임 워크 및 분석 기기를 제공하며 침입 분석을 개선합니다. 지원은 더 높은 effectivity, 효율성을 달성하기 위하여 침입 분석에 있는 증가된 measurability, 시험성 및 반복성, 그것의 주요 기여의 한개입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/hslatman/awesome-threat-intelligence/blob/e506c8415406d6d6ad16040c19c23ddb9ed654ac/docs/a547092.pdf" target="_blank">The Targeting Process: D3A and F3EAD</a>
+        </td>
+        <td>
+            F3EAD는 작업과 지능을 결합하는 군사 방법론입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/hslatman/awesome-threat-intelligence/blob/e506c8415406d6d6ad16040c19c23ddb9ed654ac/docs/NIST.SP.800-150.pdf" target="_blank">Guide to Cyber Threat Information Sharing by NIST</a>
+        </td>
+        <td>
+            사이버 위협 정보 공유 가이드 (NIST Special Publication 800-)150) 컴퓨터 보안 사고 대응 능력을 구축하여 공동 지식, 경험 및 파트너의 역량을 활용하여 위협 인텔리전스 및 지속적인 조정을 적극적으로 공유합니다. ο 수집항목 : 이름 , 생년월일 , 성별 , 로그인ID , 비밀번호 , 비밀번호 질문과 답변 , 자택 전화번호 , 자택 주소 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호 , 휴대전화번호
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/hslatman/awesome-threat-intelligence/blob/e506c8415406d6d6ad16040c19c23ddb9ed654ac/docs/Intelligence Preparation for the Battlefield-Battlespace.pdf" target="_blank">Intelligence Preparation of the Battlefield/Battlespace</a>
+        </td>
+        <td>
+            이 간행물은 전투 공간 (IPB)의 인텔리전스 준비를 논의하고 계획 프로세스의 중요한 구성 요소와 IPB가 결정하는 방법을 지원, 뿐만 아니라 통합 프로세스 및 지속적인 활동.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-Paper-Intel-Driven-Defense.pdf" target="_blank">Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains</a>
+        </td>
+        <td>
+            이 종이에 발표 된 침입 위기는 침입 분석, 지표 추출 및 방어 작업을 수행하는 구조화 된 접근법을 제공합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.isao.org" target="_blank">ISAO Standards Organization</a>
+        </td>
+        <td>
+            더 보기 ISAO Standards Organization 10월 1일에 설립된 비정부기구입니다. 2015. 사이버 보안 위험, 사건 및 모범 사례와 관련된 견고한 정보 공유를 위한 표준 및 지침을 식별함으로써 Nation의 사이버 보안 자세를 개선하는 것입니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/hslatman/awesome-threat-intelligence/blob/e506c8415406d6d6ad16040c19c23ddb9ed654ac/docs/jp2_0.pdf" target="_blank">Joint Publication 2-0: Joint Intelligence</a>
+        </td>
+        <td>
+            미국 군대의이 출판은 공동 지능 교리의 핵심을 형성하고 완전히 운영, 계획 및 인텔리전스를 공동 팀에 통합하는 기초를 놓습니다. 발표된 개념은 (Cyber) 위협 인텔리전스에 적용 가능합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://download.microsoft.com/download/8/0/1/801358EC-2A0A-4675-A2E7-96C2E7B93E73/Framework_for_Cybersecurity_Info_Sharing.pdf" target="_blank">Microsoft Research Paper</a>
+        </td>
+        <td>
+            사이버 보안 정보 공유 및 위험 감소를위한 프레임 워크. Microsoft의 높은 수준의 개요 용지.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://tools.ietf.org/html/draft-dulaunoy-misp-core-format-00" target="_blank">MISP Core Format (draft)</a>
+        </td>
+        <td>
+            이 문서는 MISP 표시기 및 위협 정보를 교환하는 데 사용되는 핵심 형식 MISP (Malware Information 및 위협 공유 플랫폼) 인스턴스.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://www.necoma-project.eu/" target="_blank">NECOMA Project</a>
+        </td>
+        <td>
+            Nippon-European Cyberdefense-Oriented Multilayer 위협 분석 (NECOMA) 연구 프로젝트는 위협 데이터 수집 및 분석 개선을 목표로하고 새로운 사이버 공격 메커니즘을 개발하고 민주화합니다.
+            프로젝트의 일부로서 여러 출판물 및 소프트웨어 프로젝트가 출판되었습니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/hslatman/awesome-threat-intelligence/blob/e506c8415406d6d6ad16040c19c23ddb9ed654ac/docs/pyramidofpain.pdf" target="_blank">Pyramid of Pain</a>
+        </td>
+        <td>
+            통증의 피라미드는 지표의 다른 수준을 얻기의 어려움을 표현하는 그래픽 방법이며 자원 adversaries의 금액은 수비수에 의해 얻을 때 만료해야합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/1452241511" target="_blank">Structured Analytic Techniques For Intelligence Analysis</a>
+        </td>
+        <td>
+            이 책은 인텔리전스, 법 집행, 홈랜드 보안 및 비즈니스 분석에서 가장 최신 모범 사례를 나타내는 방법을 포함합니다.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/hslatman/awesome-threat-intelligence/blob/e506c8415406d6d6ad16040c19c23ddb9ed654ac/docs/mwr-threat-intelligence-whitepaper.pdf" target="_blank">Threat Intelligence: Collecting, Analysing, Evaluating</a>
+        </td>
+        <td>
+            MWR InfoSecurity의이 보고서는 전략적, 전술적 및 운영적 변이를 포함한 여러 종류의 위협 인텔리전스를 명확하게 설명합니다. 또한 요구 사항 elicitation, 수집, 분석, 생산 및 위협 인텔리전스의 평가 프로세스에 대해 논의합니다. 또한 포함 된 몇 가지 빠른 승리와 MWR InfoSecurity에 의해 정의 된 위협 인텔리전스의 각 유형에 대한 성숙 모델.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://aisel.aisnet.org/wi2017/track08/paper/3/" target="_blank">Threat Intelligence Sharing Platforms: An Exploratory Study of Software Vendors and Research Perspectives</a>
+        </td>
+        <td>
+            22 Threat Intelligence Sharing Platforms (TISP)의 체계적인 연구는 위협 인텔리전스 사용법의 현재 국가, 그것의 정의 및 TISPs에 관하여 8개의 중요한 발견을 서핑.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.us-cert.gov/tlp" target="_blank">Traffic Light Protocol</a>
+        </td>
+        <td>
+            트래픽 라이트 프로토콜 (TLP)는 민감한 정보가 올바른 청중과 공유되도록 사용하는 지정의 집합입니다. 감도의 다른 정도를 나타내는 4개의 색깔을 고용하고 받는 사람 (s)에 의해 적용되는 대응 공유 고려사항.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://pan-unit42.github.io/playbook_viewer/" target="_blank">Unit42 Playbook Viewer</a>
+        </td> 
+        <td>
+            Playbook의 목표는 다른 사람들과 공유 할 수있는 구조형 형식으로 광고가 사용되는 도구, 기술 및 절차를 구성하는 것입니다. 구조에 사용되는 프레임 워크는 MITRE 's ATT&#x26;CK 프레임 및 STIX 2.0
+        </td>    
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/hslatman/awesome-threat-intelligence/blob/e506c8415406d6d6ad16040c19c23ddb9ed654ac/docs/sans-whos-using-cyberthreat-intelligence-and-how.pdf" target="_blank">Who's Using Cyberthreat Intelligence and How?</a>
+        </td>
+        <td>
+            SANS Institute가 수행한 설문조사를 포함하여 위협 인텔리전스 사용을 설명하는 백서.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://www.wombat-project.eu/" target="_blank">WOMBAT Project</a>
+        </td>
+        <td>
+            더 보기 WOMBAT project 인터넷 경제 및 인터넷 시민을 대상으로하는 기존 및 신흥 위협을 이해하는 새로운 수단을 제공하는 것을 목표로합니다. 이 목표를 달성하기 위해 제안에는 다양한 보안 관련 원시 데이터 (ii)의 실시간 수집, 다양한 분석 기법과 (iii) 루트 원인 식별 및 scrutiny의 현상에 대한 이해에 의해이 입력의 풍부가 포함됩니다.
+        </td>
+    </tr>
+</tbody></table>
+<div class="sl-heading-wrapper level-h2"><h2 id="이름-"><span id="license" class="awesome-anchor-alias" aria-hidden="true"></span>이름 *</h2><a class="sl-anchor-link" href="#이름-"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>섹션 제목: “이름 *”</span></a></div>
+<p><a href="https://github.com/hslatman/awesome-threat-intelligence/blob/e506c8415406d6d6ad16040c19c23ddb9ed654ac/LICENSE">Apache License 2.0</a>에 따라 제공됩니다.</p></div><aside class="hagilight-ai-disclosure" role="note">이 게시물은 AI로 번역되었습니다. <a href="/awesome/awesome-threat-intelligence/">원문 보기</a></aside><section class="hagilight-article-promotion astro-wvyqmlyc" aria-labelledby="hagilight-article-promotion-title"><div class="hagilight-article-promotion__pitch astro-wvyqmlyc"><div class="hagilight-article-promotion__intro astro-wvyqmlyc"><h2 id="hagilight-article-promotion-title" class="astro-wvyqmlyc">HagiCode</h2><p class="hagilight-article-promotion__lead astro-wvyqmlyc">HagiCode는 에이전트 코딩 작업 공간입니다. OpenSpec 워크플로로 변경을 계획하고, 다중 에이전트 실행으로 진행하며, Hero Dungeon으로 긴 작업의 진행 상황을 한눈에 보여 아이디어를 실제로 배포되는 소프트웨어로 만듭니다.</p><p class="hagilight-article-promotion__tagline astro-wvyqmlyc">더 스마트하고 빠르며 즐거운 에이전트 워크플로로 유용한 소프트웨어를 만드세요.</p><div class="hagilight-article-promotion__actions astro-wvyqmlyc"><a class="hagilight-article-promotion__cta hagilight-article-promotion__cta--primary astro-wvyqmlyc" href="https://www.hagicode.com/ko-KR/" data-ga-category="navigation" data-ga-label="home" data-ga-location="article_promotion">HagiCode 방문</a><a class="hagilight-article-promotion__cta hagilight-article-promotion__cta--secondary astro-wvyqmlyc" href="https://docs.hagicode.com/ko-KR/product-overview/" data-ga-category="navigation" data-ga-label="productDocs" data-ga-location="article_promotion">문서 읽기</a></div></div><ul class="hagilight-article-promotion__features astro-wvyqmlyc" aria-label="HagiCode"><li class="astro-wvyqmlyc"><span class="hagilight-article-promotion__icon astro-wvyqmlyc" aria-hidden="true" style="--hagilight-pillar-icon: url(/_astro/pillar-smart.DAOAYOW6.svg)"></span><strong class="astro-wvyqmlyc">스마트</strong><span class="hagilight-article-promotion__feature-text astro-wvyqmlyc">OpenSpec 워크플로는 의도를 제안, 설계, 작업을 거쳐 배포까지 이어지는 실행 가능한 경로로 바꿉니다.</span></li><li class="astro-wvyqmlyc"><span class="hagilight-article-promotion__icon astro-wvyqmlyc" aria-hidden="true" style="--hagilight-pillar-icon: url(/_astro/pillar-efficient.fRriWHtK.svg)"></span><strong class="astro-wvyqmlyc">효율적</strong><span class="hagilight-article-promotion__feature-text astro-wvyqmlyc">다중 에이전트 실행으로 조사, 구현, 검토를 병렬로 진행하며 여러 저장소와 익숙한 Agent CLI를 지원합니다.</span></li><li class="astro-wvyqmlyc"><span class="hagilight-article-promotion__icon astro-wvyqmlyc" aria-hidden="true" style="--hagilight-pillar-icon: url(/_astro/pillar-fun.CqXYOQWh.svg)"></span><strong class="astro-wvyqmlyc">즐거운</strong><span class="hagilight-article-promotion__feature-text astro-wvyqmlyc">Hero Dungeon은 긴 코딩 세션을 영웅, 진행 상황, 업적이 보이는 모험으로 만듭니다.</span></li></ul></div><div class="hagilight-article-promotion__gallery-block astro-wvyqmlyc"><h3 id="hagilight-article-promotion-gallery-title" class="astro-wvyqmlyc">HagiCode 한눈에 보기</h3><ul class="hagilight-article-promotion__gallery astro-wvyqmlyc" aria-labelledby="hagilight-article-promotion-gallery-title"><li class="astro-wvyqmlyc"><figure class="astro-wvyqmlyc"><img src="/_astro/workbench.BeU9cSj3_Z13WVMB.webp" srcset="/_astro/workbench.BeU9cSj3_1q4y77.webp 480w, /_astro/workbench.BeU9cSj3_1f03Ic.webp 800w, /_astro/workbench.BeU9cSj3_Z13WVMB.webp 1600w" alt="대기, 진행 중, 보관됨 세 열로 이루어진 세션 칸반 보드가 보이는 HagiCode 작업대 화면." sizes="(min-width: 50rem) 560px, 100vw" loading="lazy" decoding="async" fetchpriority="low" width="1600" height="845" class="astro-wvyqmlyc"><figcaption class="astro-wvyqmlyc">작업대: 모든 세션을 하나의 칸반 보드에 모았습니다.</figcaption></figure></li><li class="astro-wvyqmlyc"><figure class="astro-wvyqmlyc"><img src="/_astro/proposal-workflow.DcRW_GFa_Z1zy3Uf.webp" srcset="/_astro/proposal-workflow.DcRW_GFa_1nYSDe.webp 480w, /_astro/proposal-workflow.DcRW_GFa_Z13kstl.webp 800w, /_astro/proposal-workflow.DcRW_GFa_Z1zy3Uf.webp 1600w" alt="생성됨부터 보관됨까지의 단계 표시줄에서 실행 완료 단계가 강조되고 계획 보관 버튼이 있는 HagiCode 제안 화면." sizes="(min-width: 50rem) 560px, 100vw" loading="lazy" decoding="async" fetchpriority="low" width="1600" height="340" class="astro-wvyqmlyc"><figcaption class="astro-wvyqmlyc">제안은 생성, 초안 작성, 검토를 거쳐 실행과 보관으로 이어집니다.</figcaption></figure></li><li class="astro-wvyqmlyc"><figure class="astro-wvyqmlyc"><img src="/_astro/heroes.B7y5aHrT_Z1GmWoS.webp" srcset="/_astro/heroes.B7y5aHrT_1tcCxz.webp 480w, /_astro/heroes.B7y5aHrT_Z4TtoQ.webp 800w, /_astro/heroes.B7y5aHrT_Z1GmWoS.webp 1200w" alt="Ember Keep이라는 이름의 HagiCode Hero Dungeon 패널. 실행 중인 영웅 세 명의 레벨, 진행률, 이야기 문구가 표시됩니다." sizes="(min-width: 50rem) 560px, 100vw" loading="lazy" decoding="async" fetchpriority="low" width="1200" height="1111" class="astro-wvyqmlyc"><figcaption class="astro-wvyqmlyc">Hero Dungeon: 영웅이 작업을 진행하고, 당신은 진행 상황과 레벨, 이야기를 지켜봅니다.</figcaption></figure></li></ul></div><div class="hagilight-article-promotion__closing astro-wvyqmlyc"><div class="hagilight-article-promotion__windows astro-wvyqmlyc"><h3 id="hagilight-article-promotion-windows-title" class="hagilight-article-promotion__windows-label astro-wvyqmlyc">Windows용 다운로드</h3><div class="hagilight-article-promotion__windows-actions astro-wvyqmlyc"><ms-store-badge productid="9N3PM0N3SVDW" productname="HagiCode" window-mode="direct" theme="auto" size="large" animation="on" language="ko" aria-label="Microsoft Store에서 HagiCode 열기" title="Microsoft Store에서 HagiCode 열기" data-ga-category="download" data-ga-label="microsoftStore" data-ga-location="article_promotion" data-ga-url="https://apps.microsoft.com/detail/9N3PM0N3SVDW" class="astro-wvyqmlyc"><a class="hagilight-article-promotion__store-fallback astro-wvyqmlyc" href="https://apps.microsoft.com/detail/9N3PM0N3SVDW" aria-label="Microsoft Store에서 HagiCode 열기" title="Microsoft Store에서 HagiCode 열기">Microsoft Store에서 받기</a></ms-store-badge><a class="hagilight-article-promotion__downloads astro-wvyqmlyc" href="https://www.hagicode.com/ko-KR/desktop/" data-ga-category="download" data-ga-label="downloadClient" data-ga-location="article_promotion">모든 다운로드</a></div></div><div class="hagilight-article-promotion__share astro-wvyqmlyc"><h3 id="hagilight-article-promotion-share-title" class="astro-wvyqmlyc">HagiCode 공유</h3><p class="hagilight-article-promotion__share-text astro-wvyqmlyc">HagiCode는 OpenSpec 워크플로, 다중 에이전트 실행, Hero Dungeon을 갖춘 코딩 작업 공간입니다: https://www.hagicode.com/</p></div></div></section><script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script><footer class="sl-flex astro-ddtxxk7k"><div class="meta sl-flex astro-ddtxxk7k"></div><div class="pagination-links print:hidden astro-b5raizh3" dir="ltr"><a href="/ko-KR/awesome/awesome-tf/" rel="prev" class="astro-b5raizh3"><svg aria-hidden="true" class="astro-b5raizh3 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17 11H9.41l3.3-3.29a1.004 1.004 0 1 0-1.42-1.42l-5 5a1 1 0 0 0-.21.33 1 1 0 0 0 0 .76 1 1 0 0 0 .21.33l5 5a1.002 1.002 0 0 0 1.639-.325 1 1 0 0 0-.219-1.095L9.41 13H17a1 1 0 0 0 0-2Z"/></svg><span class="astro-b5raizh3">이전 페이지<br class="astro-b5raizh3"><span class="link-title astro-b5raizh3">Terraform</span></span></a><a href="/ko-KR/awesome/awesome-typescript/" rel="next" class="astro-b5raizh3"><svg aria-hidden="true" class="astro-b5raizh3 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17.92 11.62a1.001 1.001 0 0 0-.21-.33l-5-5a1.003 1.003 0 1 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1.002 1.002 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219l5-5a1 1 0 0 0 .21-.33 1 1 0 0 0 0-.76Z"/></svg><span class="astro-b5raizh3">다음 페이지<br class="astro-b5raizh3"><span class="link-title astro-b5raizh3">TypeScript</span></span></a></div></footer><div class="hagilight-site-links astro-psnq7rln"><section class="astro-psnq7rln"><h2 class="astro-psnq7rln">에코시스템 사이트</h2><nav aria-label="에코시스템 사이트 링크" class="astro-psnq7rln"><ul class="astro-psnq7rln"><li class="astro-psnq7rln"><a href="https://tasks.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">HagiTask</a></li><li class="astro-psnq7rln"><a href="https://cost.hagicode.com" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">AI가 나를 대체할까?</a></li><li class="astro-psnq7rln"><a href="https://www.hagicode.com/ko-KR/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">HagiCode 메인 사이트</a></li><li class="astro-psnq7rln"><a href="https://newbe.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">newbe</a></li><li class="astro-psnq7rln"><a href="https://index.hagicode.com/data/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Index Data Mirror</a></li><li class="astro-psnq7rln"><a href="https://builder.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Docker Compose Builder</a></li><li class="astro-psnq7rln"><a href="https://status.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">HagiCode Status</a></li><li class="astro-psnq7rln"><a href="https://awesome.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Awesome Sites</a></li><li class="astro-psnq7rln"><a href="https://design.hagicode.com/ko-KR/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Awesome Design MD</a></li><li class="astro-psnq7rln"><a href="https://soul.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Soul Builder</a></li><li class="astro-psnq7rln"><a href="https://trait.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Trait Builder</a></li><li class="astro-psnq7rln"><a href="https://openspec.hagicode.com/ko-KR/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">OpenSpec 문서</a></li><li class="astro-psnq7rln"><a href="https://omniroute.hagicode.com/ko-KR/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">OmniRoute 문서</a></li></ul></nav></section><section class="astro-psnq7rln"><h2 class="astro-psnq7rln">빠른 링크</h2><nav aria-label="빠른 링크" class="astro-psnq7rln"><ul class="astro-psnq7rln"><li class="astro-psnq7rln"><a href="https://www.hagicode.com/ko-KR/desktop/" data-ga-category="download" data-ga-label="downloadClient" data-ga-location="footer" class="astro-psnq7rln">Hagicode 다운로드</a></li><li class="astro-psnq7rln"><a href="https://apps.microsoft.com/detail/9N3PM0N3SVDW" target="_blank" rel="noopener noreferrer" data-ga-category="download" data-ga-label="microsoftStore" data-ga-location="footer" class="astro-psnq7rln">Windows용 Hagicode 다운로드</a></li><li class="astro-psnq7rln"><a href="https://docs.hagicode.com/ko-KR/installation/docker-compose/" data-ga-category="navigation" data-ga-label="dockerCompose" data-ga-location="footer" class="astro-psnq7rln">Docker Compose 설치</a></li><li class="astro-psnq7rln"><a href="https://docs.hagicode.com/ko-KR/product-overview/" data-ga-category="navigation" data-ga-label="productDocs" data-ga-location="footer" class="astro-psnq7rln">제품 문서</a></li><li class="astro-psnq7rln"><a href="https://docs.hagicode.com/ko-KR/blog/" data-ga-category="navigation" data-ga-label="blogPosts" data-ga-location="footer" class="astro-psnq7rln">블로그 글</a></li><li class="astro-psnq7rln"><a href="https://awesome.hagicode.com/rss.xml" class="astro-psnq7rln">RSS 구독</a></li><li class="astro-psnq7rln"><a href="https://awesome.hagicode.com/rss.ko-KR.xml" class="astro-psnq7rln">현재 언어 RSS</a></li><li class="astro-psnq7rln"><a href="/sitemap-index.xml" class="astro-psnq7rln">사이트맵</a></li><li class="astro-psnq7rln"><a href="https://www.hagicode.com/ko-KR/about/" class="astro-psnq7rln">HagiCode 소개</a></li></ul></nav></section><section class="astro-psnq7rln"><h2 class="astro-psnq7rln">커뮤니티</h2><nav aria-label="커뮤니티 링크" class="astro-psnq7rln"><ul class="astro-psnq7rln"><li class="astro-psnq7rln"><a href="https://github.com/HagiCode-org/site" target="_blank" rel="noopener noreferrer" data-ga-category="community" data-ga-label="github" data-ga-location="footer" class="astro-psnq7rln">GitHub</a></li><li class="astro-psnq7rln"><a href="https://discord.gg/qY662sJK" target="_blank" rel="noopener noreferrer" data-ga-category="community" data-ga-label="discord" data-ga-location="footer" class="astro-psnq7rln">Discord</a></li><li class="astro-psnq7rln"><a href="https://github.com/HagiCode-org/site/issues" target="_blank" rel="noopener noreferrer" data-ga-category="community" data-ga-label="issueFeedback" data-ga-location="footer" class="astro-psnq7rln">문제 신고</a></li><li class="astro-psnq7rln"><a href="mailto:support@hagicode.com" class="astro-psnq7rln">문의 이메일</a></li><li class="astro-psnq7rln"><a href="https://qm.qq.com/q/Fwb0o094kw" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">QQ 그룹 610394020</a></li></ul></nav></section><nav class="hagilight-filings astro-psnq7rln" aria-label="등록 정보 보기"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" aria-label="ICP 등록 정보 보기" class="astro-psnq7rln">ICP 신고 闽ICP备2026004153号-1</a><a href="http://www.beian.gov.cn/portal/registerSystemInfo" target="_blank" rel="noopener noreferrer" aria-label="공안 등록 정보 보기" class="astro-psnq7rln">공안 신고 闽公网安备35011102351148号</a></nav></div><p class="hagilight-copyright astro-psnq7rln"><span>© 2026 HagiCode</span> | <span class="hagilight-copyright__attribution astro-psnq7rln">Powered By hagilight-starlight@0.7.0</span></p><hagilight-promoto-banner class="hagilight-promoto" data-locale="ko-KR" hidden="true"><section class="hagilight-promoto__shell" data-promoto-shell hidden aria-label="Featured promotion"><div class="hagilight-promoto__viewport"><div class="hagilight-promoto__track" data-promoto-track></div></div><nav class="hagilight-promoto__controls" data-promoto-controls aria-label="Promotion controls" hidden><button type="button" class="hagilight-promoto__control" data-promoto-previous aria-label="Previous promotion"><svg class="hagilight-promoto__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 6l-6 6 6 6"></path></svg></button><span class="hagilight-promoto__count" data-promoto-count aria-label="Promotion progress"></span><button type="button" class="hagilight-promoto__control" data-promoto-next aria-label="Next promotion"><svg class="hagilight-promoto__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6"></path></svg></button><button type="button" class="hagilight-promoto__control" data-promoto-pause aria-pressed="false" aria-label="Pause automatic promotion rotation"><svg class="hagilight-promoto__icon hagilight-promoto__icon--pause" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6v12M15 6v12"></path></svg><svg class="hagilight-promoto__icon hagilight-promoto__icon--play" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5.5v13l11-6.5z"></path></svg></button></nav><button type="button" class="hagilight-promoto__dismiss" data-promoto-dismiss aria-label="Dismiss promotion"><svg class="hagilight-promoto__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"></path></svg></button><span class="hagilight-promoto__status" data-promoto-status aria-live="polite"></span></section></hagilight-promoto-banner><script type="module" src="/_astro/PromotoBanner.astro_astro_type_script_index_0_lang.CV5ho8Sw.js"></script><script charset="UTF-8" id="LA_COLLECT" src="https://sdk.51.la/js-sdk-pro.min.js"></script><script>(function(){const siteId = "L6b88a5yK4h2Xnci";
+
+      LA.init({ id: siteId, ck: siteId, autoTrack: true, hashMode: true, screenRecord: true });
+    })();</script></div></div></main></div></div></div></div><dialog class="awesome-external-warning" aria-labelledby="awesome-external-warning-heading" aria-describedby="awesome-external-warning-explanation" data-warning-fallback="Awesome Site를 떠납니다. 이 웹사이트는 관리하지 않습니다. 다음 주소로 이동할까요:" data-pagefind-ignore><h2 id="awesome-external-warning-heading">Awesome Site를 떠나시겠어요?</h2><p id="awesome-external-warning-explanation">외부 웹사이트로 이동하려고 합니다. 해당 사이트의 콘텐츠와 개인정보 처리 방식을 관리하지 않습니다.</p><p class="awesome-external-warning-label">목적지</p><p class="awesome-external-warning-host" data-warning-host></p><p class="awesome-external-warning-url" data-warning-url></p><p class="awesome-external-warning-error" data-warning-error role="alert" aria-live="assertive" hidden>웹 주소가 올바르지 않거나 로그인 정보가 포함되어 있어 여기서 열 수 없습니다.</p><div class="awesome-external-warning-actions"><button type="button" data-warning-stay autofocus>Awesome Site에 머무르기</button><a data-warning-continue aria-disabled="true" tabindex="-1">웹사이트로 계속하기</a></div><script type="module" src="/_astro/ExternalLinkWarning.astro_astro_type_script_index_0_lang.DAGpZW5P.js"></script></dialog><script type="module" src="/_astro/PageFrame.astro_astro_type_script_index_0_lang.D1VWYcNP.js"></script></body></html>

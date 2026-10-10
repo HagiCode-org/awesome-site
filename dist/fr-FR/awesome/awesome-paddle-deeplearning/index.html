@@ -1,0 +1,1056 @@
+<!DOCTYPE html><html lang="fr-FR" dir="ltr" data-theme="dark" data-has-toc data-has-sidebar class="astro-g5ptsecz"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>DeepLearning | Awesome Site</title><link rel="canonical" href="https://awesome.hagicode.com/fr-FR/awesome/awesome-paddle-deeplearning/"/><link rel="alternate" hreflang="en-US" href="https://awesome.hagicode.com/awesome/awesome-paddle-deeplearning/"/><link rel="alternate" hreflang="zh-CN" href="https://awesome.hagicode.com/zh-CN/awesome/awesome-paddle-deeplearning/"/><link rel="alternate" hreflang="zh-Hant" href="https://awesome.hagicode.com/zh-Hant/awesome/awesome-paddle-deeplearning/"/><link rel="alternate" hreflang="fr-FR" href="https://awesome.hagicode.com/fr-FR/awesome/awesome-paddle-deeplearning/"/><link rel="alternate" hreflang="de-DE" href="https://awesome.hagicode.com/de-DE/awesome/awesome-paddle-deeplearning/"/><link rel="alternate" hreflang="es-ES" href="https://awesome.hagicode.com/es-ES/awesome/awesome-paddle-deeplearning/"/><link rel="alternate" hreflang="ja-JP" href="https://awesome.hagicode.com/ja-JP/awesome/awesome-paddle-deeplearning/"/><link rel="alternate" hreflang="ko-KR" href="https://awesome.hagicode.com/ko-KR/awesome/awesome-paddle-deeplearning/"/><link rel="alternate" hreflang="pt-BR" href="https://awesome.hagicode.com/pt-BR/awesome/awesome-paddle-deeplearning/"/><link rel="alternate" hreflang="ru-RU" href="https://awesome.hagicode.com/ru-RU/awesome/awesome-paddle-deeplearning/"/><link rel="alternate" hreflang="x-default" href="https://awesome.hagicode.com/awesome/awesome-paddle-deeplearning/"/><link rel="sitemap" href="/sitemap-index.xml"/><link rel="alternate" type="application/rss+xml" href="https://awesome.hagicode.com/rss.xml"/><script>(() => {
+  let mode = 'wide';
+  try {
+    const stored = localStorage.getItem('hagilight-content-width');
+    if (stored === 'wide' || stored === 'narrow') mode = stored;
+  } catch {
+    mode = 'wide';
+  }
+  document.documentElement.dataset.hagilightContentWidth = mode;
+})();</script><script>(function () {
+  var choices = ["default","default-light","default-dark","ocean-light","ocean-dark","sakura-light","sakura-dark","forest-light","forest-dark"];
+  var choiceKey = "hagilight-theme";
+  var choice = 'default';
+  try {
+    var stored = localStorage.getItem(choiceKey);
+    if (choices.includes(stored)) choice = stored;
+  } catch (error) {}
+  var themeId = choice === 'default'
+    ? "forest"
+    : choice.slice(0, choice.lastIndexOf('-'));
+  document.documentElement.dataset.hagilightTheme = themeId;
+})();</script><link rel="icon" href="data:image/x-icon;base64,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" type="image/x-icon"/><link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml"/><meta name="generator" content="Astro v7.3.5"/><meta name="generator" content="Starlight v0.42.5"/><meta property="og:type" content="article"/><meta property="og:url" content="https://awesome.hagicode.com/fr-FR/awesome/awesome-paddle-deeplearning/"/><meta property="og:locale" content="fr-FR"/><meta property="og:site_name" content="Awesome Site"/><meta name="twitter:card" content="summary_large_image"/><meta name="description" content="Une sélection de cours, livres, questions-réponses, ressources d’entretien, projets industriels et tutoriels sur le deep learning avec PaddlePaddle."/><meta property="og:title" content="Awesome Site"/><meta property="og:description" content="Une sélection de cours, livres, questions-réponses, ressources d’entretien, projets industriels et tutoriels sur le deep learning avec PaddlePaddle."/><meta name="twitter:title" content="Awesome Site"/><meta name="twitter:description" content="Une sélection de cours, livres, questions-réponses, ressources d’entretien, projets industriels et tutoriels sur le deep learning avec PaddlePaddle."/><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Collections Awesome","item":"https://awesome.hagicode.com/fr-FR/"},{"@type":"ListItem","position":2,"name":"Collections Awesome","item":"https://awesome.hagicode.com/fr-FR/awesome/"},{"@type":"ListItem","position":3,"name":"DeepLearning","item":"https://awesome.hagicode.com/fr-FR/awesome/awesome-paddle-deeplearning/"}]}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-EN03FMT2Q4"></script><script>(function(){const measurementId = "G-EN03FMT2Q4";
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', measurementId);
+    })();</script><script type="module" src="/_astro/GoogleAnalytics.astro_astro_type_script_index_0_lang.DR20hGCB.js"></script><script>
+	window.StarlightThemeProvider = (() => {
+		const storedTheme =
+			typeof localStorage !== 'undefined' && localStorage.getItem('starlight-theme');
+		const theme =
+			storedTheme ||
+			(window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+		document.documentElement.dataset.theme = theme === 'light' ? 'light' : 'dark';
+		return {
+			updatePickers(theme = storedTheme || 'auto') {
+				document.querySelectorAll('starlight-theme-select').forEach((picker) => {
+					const select = picker.querySelector('select');
+					if (select) select.value = theme;
+					/** @type {HTMLTemplateElement | null} */
+					const tmpl = document.querySelector(`#theme-icons`);
+					const newIcon = tmpl && tmpl.content.querySelector('.' + theme);
+					if (newIcon) {
+						const oldIcon = picker.querySelector('svg.label-icon');
+						if (oldIcon) {
+							oldIcon.replaceChildren(...newIcon.cloneNode(true).childNodes);
+						}
+					}
+				});
+			},
+		};
+	})();
+</script><template id="theme-icons"><svg aria-hidden="true" class="light astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg aria-hidden="true" class="dark astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg><svg aria-hidden="true" class="auto astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg></template><link rel="stylesheet" href="/_astro/print.ehPL0gv-.css" media="print"><link rel="stylesheet" href="/_astro/common.mVYJCJjM.css"><script type="module" src="/_astro/page.Dwipeu-R.js"></script></head><body class="astro-g5ptsecz"><a class="sl-skip-link astro-qb7clj6f" href="#_top">Aller au contenu</a><div class="page sl-flex astro-yntsjkba"><header class="header astro-yntsjkba"><div class="header astro-76dcl4nh"><div class="title-wrapper sl-flex astro-76dcl4nh"><a href="/fr-FR" class="site-title sl-flex astro-6rvad3va"><img class="astro-6rvad3va" alt="HagiCode" src="/_astro/logo.COFWaAMt.png" width="32" height="32"><span class="astro-6rvad3va" translate="no">Awesome Site</span></a></div><div class="sl-flex print:hidden astro-76dcl4nh"><site-search class="astro-76dcl4nh astro-b5kgnn7o" data-translations="{&quot;placeholder&quot;:&quot;Rechercher&quot;}"><button data-open-modal disabled aria-label="Rechercher" aria-keyshortcuts="Control+K" class="astro-b5kgnn7o"><svg aria-hidden="true" class="astro-b5kgnn7o astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.71 20.29 18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z"/></svg><span class="sl-hidden md:sl-block astro-b5kgnn7o" aria-hidden="true">Rechercher</span><kbd class="sl-hidden md:sl-flex astro-b5kgnn7o" style="display: none;"><kbd class="astro-b5kgnn7o">Ctrl</kbd><kbd class="astro-b5kgnn7o">K</kbd></kbd></button><dialog style="padding:0" aria-label="Rechercher" class="astro-b5kgnn7o"><div class="dialog-frame sl-flex astro-b5kgnn7o"><button data-close-modal class="sl-flex md:sl-hidden astro-b5kgnn7o">Annuler</button><div class="search-container astro-b5kgnn7o"><div id="starlight__search" class="astro-b5kgnn7o"></div></div></div></dialog></site-search><script>
+	(() => {
+		const openBtn = document.querySelector('button[data-open-modal]');
+		const shortcut = openBtn?.querySelector('kbd');
+		if (!openBtn || !(shortcut instanceof HTMLElement)) return;
+		const platformKey = shortcut.querySelector('kbd');
+		if (platformKey && /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) {
+			platformKey.textContent = '⌘';
+			openBtn.setAttribute('aria-keyshortcuts', 'Meta+K');
+		}
+		shortcut.style.display = '';
+	})();
+</script><script type="module" src="/_astro/Search.astro_astro_type_script_index_0_lang.Bumivpjo.js"></script></div><div class="sl-hidden md:sl-flex print:hidden right-group astro-76dcl4nh"><nav class="header-links astro-76dcl4nh" aria-label="Site navigation"><a href="https://www.hagicode.com/fr-FR/" data-ga-category="navigation" data-ga-label="home" data-ga-location="header" class="astro-76dcl4nh">Accueil</a><a href="https://docs.hagicode.com/fr-FR/blog/" data-ga-category="navigation" data-ga-label="blog" data-ga-location="header" class="astro-76dcl4nh">Blog</a><a href="https://www.hagicode.com/fr-FR/about/" data-ga-category="navigation" data-ga-label="support" data-ga-location="header" class="astro-76dcl4nh">Assistance</a></nav><div class="sl-flex social-icons astro-76dcl4nh"></div><hagilight-theme-select class="theme-picker astro-mexofp5s"><label style="--sl-select-width: 12.5em" class="astro-mexofp5s"><span class="sr-only astro-mexofp5s">Selectionner le thème</span><svg class="icon label-icon astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-mexofp5s"><option value="default" selected class="astro-mexofp5s">Par défaut</option><optgroup label="Thème par défaut" class="astro-mexofp5s"><option value="default-light" class="astro-mexofp5s">Par défaut · Clair</option><option value="default-dark" class="astro-mexofp5s">Par défaut · Sombre</option></optgroup><optgroup label="Océan" class="astro-mexofp5s"><option value="ocean-light" class="astro-mexofp5s">Océan · Clair</option><option value="ocean-dark" class="astro-mexofp5s">Océan · Sombre</option></optgroup><optgroup label="Sakura" class="astro-mexofp5s"><option value="sakura-light" class="astro-mexofp5s">Sakura · Clair</option><option value="sakura-dark" class="astro-mexofp5s">Sakura · Sombre</option></optgroup><optgroup label="Forêt" class="astro-mexofp5s"><option value="forest-light" class="astro-mexofp5s">Forêt · Clair</option><option value="forest-dark" class="astro-mexofp5s">Forêt · Sombre</option></optgroup></select><svg class="icon caret astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label><template class="mode-icons astro-mexofp5s"><svg class="mode-auto astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><svg class="mode-light astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg class="mode-dark astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg></template></hagilight-theme-select><script type="module">var e=`forest`,t=[`default`,`default-light`,`default-dark`,`ocean-light`,`ocean-dark`,`sakura-light`,`sakura-dark`,`forest-light`,`forest-dark`],n=`hagilight-theme`,r=`starlight-theme`,i=new Set(t);function a(e){return i.has(e)?e:`default`}function o(e){if(e==="default")return{themeId:`default`};let t=e.lastIndexOf(`-`);return{themeId:e.slice(0,t),mode:e.slice(t+1)}}function s(e){try{return globalThis.localStorage?.getItem(e)??null}catch{return null}}function c(e,t){try{globalThis.localStorage?.setItem(e,t)}catch{return}}function l(t){let{themeId:n,mode:r}=o(t);return r===void 0?e:n}function u(){return a(s(n))}function d(e,t=document.documentElement){let{mode:i}=o(e);t.dataset.hagilightTheme=l(e),i!==void 0&&(t.dataset.theme=i),c(n,e),c(r,i??``)}`${JSON.stringify(t)}${JSON.stringify(n)}${JSON.stringify(e)}`,{"de-de":{defaultOption:`Standard`,defaultThemeGroup:`Standard-Design`,themes:{ocean:`Ozean`,sakura:`Sakura`,forest:`Wald`}},"en-us":{defaultOption:`Default`,defaultThemeGroup:`Default theme`,themes:{ocean:`Ocean`,sakura:`Sakura`,forest:`Forest`}},"es-es":{defaultOption:`Predeterminado`,defaultThemeGroup:`Tema predeterminado`,themes:{ocean:`Océano`,sakura:`Sakura`,forest:`Bosque`}},"fr-fr":{defaultOption:`Par défaut`,defaultThemeGroup:`Thème par défaut`,themes:{ocean:`Océan`,sakura:`Sakura`,forest:`Forêt`}},"ja-jp":{defaultOption:`デフォルト`,defaultThemeGroup:`デフォルトテーマ`,themes:{ocean:`海`,sakura:`桜`,forest:`森`}},"ko-kr":{defaultOption:`기본값`,defaultThemeGroup:`기본 테마`,themes:{ocean:`바다`,sakura:`벚꽃`,forest:`숲`}},"pt-br":{defaultOption:`Padrão`,defaultThemeGroup:`Tema padrão`,themes:{ocean:`Oceano`,sakura:`Sakura`,forest:`Floresta`}},"ru-ru":{defaultOption:`По умолчанию`,defaultThemeGroup:`Стандартная тема`,themes:{ocean:`Океан`,sakura:`Сакура`,forest:`Лес`}},"zh-cn":{defaultOption:`默认`,defaultThemeGroup:`默认主题`,themes:{ocean:`海洋`,sakura:`樱花`,forest:`森林`}},"zh-hant":{defaultOption:`預設`,defaultThemeGroup:`預設主題`,themes:{ocean:`海洋`,sakura:`櫻花`,forest:`森林`}}}[`en-us`];var f=e=>e.endsWith(`-light`)?`mode-light`:e.endsWith(`-dark`)?`mode-dark`:`mode-auto`,p=class extends HTMLElement{connectedCallback(){if(this.dataset.initialized)return;this.dataset.initialized=`true`;let e=this.querySelector(`select`);if(!(e instanceof HTMLSelectElement))return;let t=t=>{e.value=t;let n=this.querySelector(`svg.label-icon`),r=this.querySelector(`template.mode-icons`)?.content.querySelector(`.${f(t)}`);n&&r&&n.replaceChildren(...r.cloneNode(!0).childNodes)};t(u()),e.addEventListener(`change`,()=>{let n=a(e.value);d(n),t(n)}),matchMedia(`(prefers-color-scheme: light)`).addEventListener(`change`,e=>{u()==="default"&&(document.documentElement.dataset.theme=e.matches?`light`:`dark`)})}};customElements.get(`hagilight-theme-select`)||customElements.define(`hagilight-theme-select`,p);</script><hagilight-language-chooser class="language-switcher astro-pykrs55g"><button type="button" class="language-trigger astro-pykrs55g" aria-haspopup="dialog" aria-controls="hagilight-language-dialog" aria-expanded="false" aria-label="Selectionner la langue: Français" title="Français"><span class="trigger-label astro-pykrs55g">Français</span><span class="trigger-chevron astro-pykrs55g" aria-hidden="true">▾</span></button><dialog id="hagilight-language-dialog" class="language-dialog astro-pykrs55g" aria-modal="true" aria-labelledby="language-dialog-title"><div class="dialog-header astro-pykrs55g"><div class="astro-pykrs55g"><h2 id="language-dialog-title" class="dialog-title astro-pykrs55g">Selectionner la langue</h2><p class="dialog-current astro-pykrs55g">Langue actuelle: <strong class="astro-pykrs55g">Français</strong></p></div><button type="button" class="dialog-close astro-pykrs55g" aria-label="Fermer le sélecteur de langue">×</button></div><div class="language-grid-scroller astro-pykrs55g"><div class="language-grid astro-pykrs55g" role="listbox" aria-label="Selectionner la langue"><button type="button" role="option" data-locale="root" data-href="/awesome/awesome-paddle-deeplearning/" lang="en-US" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">English</span></button><button type="button" role="option" data-locale="zh-CN" data-href="/zh-CN/awesome/awesome-paddle-deeplearning/" lang="zh-CN" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">简体中文</span></button><button type="button" role="option" data-locale="zh-Hant" data-href="/zh-Hant/awesome/awesome-paddle-deeplearning/" lang="zh-Hant" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">繁體中文</span></button><button type="button" role="option" data-locale="fr-FR" data-href="/fr-FR/awesome/awesome-paddle-deeplearning/" lang="fr-FR" aria-selected="true" class="language-option language-option-selected astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Français</span><span class="selected-badge astro-pykrs55g">Sélectionné</span></button><button type="button" role="option" data-locale="de-DE" data-href="/de-DE/awesome/awesome-paddle-deeplearning/" lang="de-DE" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Deutsch</span></button><button type="button" role="option" data-locale="es-ES" data-href="/es-ES/awesome/awesome-paddle-deeplearning/" lang="es-ES" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Español (España)</span></button><button type="button" role="option" data-locale="ja-JP" data-href="/ja-JP/awesome/awesome-paddle-deeplearning/" lang="ja-JP" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">日本語</span></button><button type="button" role="option" data-locale="ko-KR" data-href="/ko-KR/awesome/awesome-paddle-deeplearning/" lang="ko-KR" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">한국어</span></button><button type="button" role="option" data-locale="pt-BR" data-href="/pt-BR/awesome/awesome-paddle-deeplearning/" lang="pt-BR" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Português (Brasil)</span></button><button type="button" role="option" data-locale="ru-RU" data-href="/ru-RU/awesome/awesome-paddle-deeplearning/" lang="ru-RU" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Русский</span></button></div></div></dialog></hagilight-language-chooser><script type="module">Object.entries({root:{label:`English`,lang:`en-US`},"zh-CN":{label:`简体中文`,lang:`zh-CN`},"zh-Hant":{label:`繁體中文`,lang:`zh-Hant`},"fr-FR":{label:`Français`,lang:`fr-FR`},"de-DE":{label:`Deutsch`,lang:`de-DE`},"es-ES":{label:`Español (España)`,lang:`es-ES`},"ja-JP":{label:`日本語`,lang:`ja-JP`},"ko-KR":{label:`한국어`,lang:`ko-KR`},"pt-BR":{label:`Português (Brasil)`,lang:`pt-BR`},"ru-RU":{label:`Русский`,lang:`ru-RU`}}).map(([e,t])=>({code:e,label:t.label,lang:t.lang}));function e(e,t,n){if(n<1)return-1;switch(t){case`ArrowDown`:case`ArrowRight`:return(e+1)%n;case`ArrowUp`:case`ArrowLeft`:return(e-1+n)%n;case`Home`:return 0;case`End`:return n-1;default:return e}}function t(e){try{let t=window.localStorage.getItem(`starlight-route`),n={};if(t)try{let e=JSON.parse(t);e&&typeof e==`object`&&!Array.isArray(e)&&(n=e)}catch{n={}}window.localStorage.setItem(`starlight-route`,JSON.stringify({...n,lang:e}))}catch{}}var n=class extends HTMLElement{connectedCallback(){if(this.dataset.initialized)return;this.dataset.initialized=`true`;let n=this.querySelector(`.language-trigger`),r=this.querySelector(`.language-dialog`),i=this.querySelector(`.dialog-close`),a=[...this.querySelectorAll(`[role="option"]`)];if(!(n instanceof HTMLButtonElement)||!(r instanceof HTMLDialogElement)||!(i instanceof HTMLButtonElement))return;let o=()=>{r.open?r.close():n.focus()};n.addEventListener(`click`,()=>{if(r.open){o();return}r.showModal(),n.setAttribute(`aria-expanded`,`true`),(a.find(e=>e.getAttribute(`aria-selected`)===`true`)??a[0])?.focus()}),i.addEventListener(`click`,o),r.addEventListener(`cancel`,e=>{e.preventDefault(),o()}),r.addEventListener(`close`,()=>{n.setAttribute(`aria-expanded`,`false`),n.focus()}),r.addEventListener(`click`,e=>{e.target===r&&o()}),r.querySelector(`[role="listbox"]`)?.addEventListener(`keydown`,t=>{if(!(t.target instanceof HTMLButtonElement))return;let n=a.indexOf(t.target),r=e(n,t.key,a.length);r!==n&&(t.preventDefault(),a[r]?.focus())});for(let e of a)e.addEventListener(`click`,()=>{let n=e.dataset.locale,r=e.dataset.href;if(!n||!r||(o(),e.getAttribute(`aria-selected`)===`true`))return;t(n);let i=new URL(r,window.location.origin);i.search=window.location.search,i.hash=window.location.hash,window.location.assign(i.toString())})}};customElements.get(`hagilight-language-chooser`)||customElements.define(`hagilight-language-chooser`,n);</script></div></div></header><nav class="sidebar print:hidden astro-yntsjkba" aria-label="principale"><button popovertarget="starlight__sidebar" class="sl-menu-button sl-flex md:sl-hidden print:hidden astro-r2osgdlg"><svg aria-hidden="true" class="open-menu astro-r2osgdlg astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M3 8h18a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"/></svg><svg aria-hidden="true" class="close-menu astro-r2osgdlg astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="m13.41 12 6.3-6.29a1.004 1.004 0 1 0-1.42-1.42L12 10.59l-6.29-6.3a1.004 1.004 0 0 0-1.42 1.42l6.3 6.29-6.3 6.29a1 1 0 0 0 0 1.42.998.998 0 0 0 1.42 0l6.29-6.3 6.29 6.3a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.42L13.41 12Z"/></svg><span class="sr-only astro-r2osgdlg">Menu</span></button><script type="module">var e=class extends HTMLElement{constructor(){super();let e=matchMedia(`(min-width: 50em)`),t=()=>{this.popover=e.matches?null:`auto`};t(),e.addEventListener(`change`,()=>t()),this.addEventListener(`toggle`,({newState:e})=>this.trapFocus(e===`open`))}trapFocus(e){document.querySelectorAll(`.main-frame, .sl-skip-link`).forEach(t=>{t.toggleAttribute(`inert`,e)})}};customElements.define(`sl-sidebar-pane`,e);</script><script type="module">var e=class extends HTMLElement{constructor(){super();let e=this.querySelector(`select`);e&&(e.addEventListener(`change`,e=>{e.currentTarget instanceof HTMLSelectElement&&(window.location.pathname=e.currentTarget.value)}),window.addEventListener(`pageshow`,t=>{if(!t.persisted)return;let n=e.querySelector(`option[selected]`)?.index;n!==e.selectedIndex&&(e.selectedIndex=n??0)}))}};customElements.define(`starlight-lang-select`,e);</script><sl-sidebar-pane popover id="starlight__sidebar" class="sidebar-pane astro-yntsjkba"><div class="sidebar-content sl-flex astro-yntsjkba"><sl-sidebar-state-persist data-hash="0a74aam" class="astro-ipdry5cl"><script aria-hidden="true">
+		(() => {
+			try {
+				if (!matchMedia('(min-width: 50em)').matches) return;
+				/** @type {HTMLElement | null} */
+				const target = document.querySelector('sl-sidebar-state-persist');
+				const state = JSON.parse(sessionStorage.getItem('sl-sidebar-state') || '0');
+				if (!target || !state || target.dataset.hash !== state.hash) return;
+				window._starlightScrollRestore = state.scroll;
+				customElements.define(
+					'sl-sidebar-restore',
+					class SidebarRestore extends HTMLElement {
+						connectedCallback() {
+							try {
+								const idx = parseInt(this.dataset.index || '');
+								const details = this.closest('details');
+								if (details && typeof state.open[idx] === 'boolean') details.open = state.open[idx];
+							} catch {}
+						}
+					}
+				);
+			} catch {}
+		})();
+	</script><ul class="top-level astro-rmhv4bp6"><li class="astro-rmhv4bp6"><a href="/fr-FR/" class="large astro-rmhv4bp6"><span class="astro-rmhv4bp6">Accueil</span></a></li><li class="astro-rmhv4bp6"><details open class="astro-rmhv4bp6"><summary class="astro-rmhv4bp6"><span class="group-label astro-rmhv4bp6"><span class="large astro-rmhv4bp6">Collections</span></span><svg aria-hidden="true" class="caret astro-rmhv4bp6 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="0"></sl-sidebar-restore><ul class="astro-rmhv4bp6"><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Collections et dépôts</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/android-security-awesome/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Android Security Awesome</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-3d-gaussian-splatting/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">3D Gaussian Splatting</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-actions/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Actions</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-agent-skills/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agent Skills</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-agentic-ai-zh/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agentic AI (Chinese)</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-agentic-patterns/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agentic Patterns</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-ai-apps/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">AI Apps</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-android-ui/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Android UI</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-ansible/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Ansible</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-automl-papers/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">AutoML Papers</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-bash/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Bash</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-chaos-engineering/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Chaos Engineering</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-chatgpt-prompts-zh/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">ChatGPT Prompts (Chinese)</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-chinese-nlp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Chinese NLP</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-chrome-devtools/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Chrome DevTools</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-cloud-security/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Cloud Security</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-codex-subagents/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Codex Subagents</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-compose/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Compose</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-console-services/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Console Services</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-copilot/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Copilot</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-coreml-models/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Core ML Models</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-cpp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">C++</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-ctf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">CTF</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-datascience/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Data Science</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-db-tools/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">DB Tools</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-deep-text-detection-recognition/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Deep Text Detection and Recognition</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-deepseek-integration/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">DeepSeek Integrations</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-design-md/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Design.md</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-design-systems/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Design Systems</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-django/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Django</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-docker/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Docker</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-dotnet/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">.NET</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-electron/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Electron</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-fastapi/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">FastAPI</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-flask/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Flask</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-generative-ai/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Generative AI</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-generative-ai-guide/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Generative AI Guide</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-github-profile-readme/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GitHub Profile README</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-golang-algorithm/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Golang Algorithm</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-gpt-agents/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GPT Agents</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-hacking/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Hacking</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-incident-response/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Incident Response</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-jellyfin/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Jellyfin</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-k8s-resources/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Kubernetes Resources</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-knowledge-distillation/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Knowledge Distillation</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-llm/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-llm-apps/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM Apps</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-llm-resources/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM Resources</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-llm-strawberry/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM Strawberry</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-microservices/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Microservices</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-nlp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">NLP</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-nodejs/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Node.js</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-paddle-deeplearning/" aria-current="page" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">DeepLearning</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-php/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PHP</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-postgres/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PostgreSQL</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-privacy/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Privacy</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-production-machine-learning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Production Machine Learning</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-prompt-engineering/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Prompt Engineering</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-rag/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">RAG</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-react-components/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">React Components</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-react-hooks/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">React Hooks</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-red-teaming/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Red Teaming</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-rlhf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">RLHF</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-rust/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Rust</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-scalability/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Scalability</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-shell/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Shell</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-shodan-queries/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Shodan Queries</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-software-architecture/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Software Architecture</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-sre/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">SRE</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-swift/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Swift</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-system-design/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">System Design</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-tf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Terraform</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-threat-intelligence/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Threat Intelligence</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-typescript/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">TypeScript</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-waf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">WAF</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/awesome-web-hacking/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Web Hacking</span></a></li></ul></details></li><li class="astro-rmhv4bp6"><details open class="astro-rmhv4bp6"><summary class="astro-rmhv4bp6"><span class="group-label astro-rmhv4bp6"><span class="large astro-rmhv4bp6">Parcourir par sujet</span></span><svg aria-hidden="true" class="caret astro-rmhv4bp6 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="1"></sl-sidebar-restore><ul class="astro-rmhv4bp6"><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/ai-agents/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agents IA</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/algorithms/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Algorithmes et structures de données</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/android-ui/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Interfaces Android</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/ansible/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Ansible</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/computer-vision/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Vision par ordinateur</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/cpp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">C / C++</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/cybersecurity/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Cybersécurité</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/databases/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Bases de données</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/deep-learning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Apprentissage profond</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/design-systems/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Systèmes de conception</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/docker/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Docker</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/dotnet/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">.NET</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/electron/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Electron</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/github-actions/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GitHub Actions</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/github-profile-readme/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">README de profil GitHub</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/javascript/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">JavaScript</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/kubernetes/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Kubernetes</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/llm-apps/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Applications pour LLM</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/llm-research/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Recherche sur les LLM</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/machine-learning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Apprentissage automatique</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/mlops/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">MLOps</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/nlp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Traitement automatique des langues</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/nodejs/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Node.js</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/php/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PHP</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/postgresql/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PostgreSQL</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/python/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Python</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/rag/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Génération augmentée par récupération</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/react/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">React</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/rust/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Rust</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/scalability/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Architecture et évolutivité</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/self-hosted/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Logiciels auto-hébergés</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/shell/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Shell et ligne de commande</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/swift/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Swift</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/sysadmin/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Administration système</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/terraform-opentofu/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Terraform et OpenTofu</span></a></li><li class="astro-rmhv4bp6"><a href="/fr-FR/awesome/tags/typescript/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">TypeScript</span></a></li></ul></details></li></ul><script aria-hidden="true">
+		(() => {
+			const scroller = document.getElementById('starlight__sidebar');
+			if (!window._starlightScrollRestore || !scroller) return;
+			scroller.scrollTop = window._starlightScrollRestore;
+			delete window._starlightScrollRestore;
+		})();
+	</script></sl-sidebar-state-persist><div class="md:sl-hidden"><div class="mobile-preferences sl-flex astro-p4azlveh"><div class="social-icons astro-p4azlveh"></div><hagilight-theme-select class="theme-picker astro-mexofp5s"><label style="--sl-select-width: 12.5em" class="astro-mexofp5s"><span class="sr-only astro-mexofp5s">Selectionner le thème</span><svg class="icon label-icon astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-mexofp5s"><option value="default" selected class="astro-mexofp5s">Par défaut</option><optgroup label="Thème par défaut" class="astro-mexofp5s"><option value="default-light" class="astro-mexofp5s">Par défaut · Clair</option><option value="default-dark" class="astro-mexofp5s">Par défaut · Sombre</option></optgroup><optgroup label="Océan" class="astro-mexofp5s"><option value="ocean-light" class="astro-mexofp5s">Océan · Clair</option><option value="ocean-dark" class="astro-mexofp5s">Océan · Sombre</option></optgroup><optgroup label="Sakura" class="astro-mexofp5s"><option value="sakura-light" class="astro-mexofp5s">Sakura · Clair</option><option value="sakura-dark" class="astro-mexofp5s">Sakura · Sombre</option></optgroup><optgroup label="Forêt" class="astro-mexofp5s"><option value="forest-light" class="astro-mexofp5s">Forêt · Clair</option><option value="forest-dark" class="astro-mexofp5s">Forêt · Sombre</option></optgroup></select><svg class="icon caret astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label><template class="mode-icons astro-mexofp5s"><svg class="mode-auto astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><svg class="mode-light astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg class="mode-dark astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg></template></hagilight-theme-select><starlight-lang-select><label style="--sl-select-width: 7em" class="astro-2z5xp7gb"><span class="sr-only astro-2z5xp7gb">Selectionner la langue</span><svg aria-hidden="true" class="icon label-icon astro-2z5xp7gb astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path fill-rule="evenodd" d="M8.516 3a.94.94 0 0 0-.941.94v1.15H2.94a.94.94 0 1 0 0 1.882h7.362a7.422 7.422 0 0 1-1.787 3.958 7.42 7.42 0 0 1-1.422-2.425.94.94 0 1 0-1.774.627 9.303 9.303 0 0 0 1.785 3.043 7.422 7.422 0 0 1-4.164 1.278.94.94 0 1 0 0 1.881 9.303 9.303 0 0 0 5.575-1.855 9.303 9.303 0 0 0 4.11 1.74l-.763 1.525a.968.968 0 0 0-.016.034l-1.385 2.77a.94.94 0 1 0 1.683.841l1.133-2.267h5.806l1.134 2.267a.94.94 0 0 0 1.683-.841l-1.385-2.769a.95.95 0 0 0-.018-.036l-3.476-6.951a.94.94 0 0 0-1.682 0l-1.82 3.639a7.423 7.423 0 0 1-3.593-1.256 9.303 9.303 0 0 0 2.27-5.203h1.894a.94.94 0 0 0 0-1.881H9.456V3.94A.94.94 0 0 0 8.516 3Zm6.426 11.794a1.068 1.068 0 0 1-.02.039l-.703 1.407h3.924l-1.962-3.924-1.24 2.478Z" clip-rule="evenodd"/></svg><select autocomplete="off" class="astro-2z5xp7gb"><option value="/awesome/awesome-paddle-deeplearning/" class="astro-2z5xp7gb">English</option><option value="/zh-CN/awesome/awesome-paddle-deeplearning/" class="astro-2z5xp7gb">简体中文</option><option value="/zh-Hant/awesome/awesome-paddle-deeplearning/" class="astro-2z5xp7gb">繁體中文</option><option value="/fr-FR/awesome/awesome-paddle-deeplearning/" selected class="astro-2z5xp7gb">Français</option><option value="/de-DE/awesome/awesome-paddle-deeplearning/" class="astro-2z5xp7gb">Deutsch</option><option value="/es-ES/awesome/awesome-paddle-deeplearning/" class="astro-2z5xp7gb">Español (España)</option><option value="/ja-JP/awesome/awesome-paddle-deeplearning/" class="astro-2z5xp7gb">日本語</option><option value="/ko-KR/awesome/awesome-paddle-deeplearning/" class="astro-2z5xp7gb">한국어</option><option value="/pt-BR/awesome/awesome-paddle-deeplearning/" class="astro-2z5xp7gb">Português (Brasil)</option><option value="/ru-RU/awesome/awesome-paddle-deeplearning/" class="astro-2z5xp7gb">Русский</option></select><svg aria-hidden="true" class="icon caret astro-2z5xp7gb astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label></starlight-lang-select></div></div></div></sl-sidebar-pane></nav><div class="main-frame astro-yntsjkba"><script type="module">var e=document.getElementById(`starlight__sidebar`),t=e?.querySelector(`sl-sidebar-state-persist`),n=`sl-sidebar-state`,r=()=>{let r=[],i=t?.dataset.hash||``;try{let e=sessionStorage.getItem(n),t=JSON.parse(e||`{}`);Array.isArray(t.open)&&t.hash===i&&(r=t.open)}catch{}return{hash:i,open:r,scroll:e?.scrollTop||0}},i=e=>{try{sessionStorage.setItem(n,JSON.stringify(e))}catch{}},a=()=>i(r()),o=(e,t)=>{let n=r();n.open[t]=e,i(n)};t?.addEventListener(`click`,e=>{if(!(e.target instanceof Element))return;let t=e.target.closest(`summary`)?.closest(`details`);if(!t)return;let n=t.querySelector(`sl-sidebar-restore`),r=parseInt(n?.dataset.index||``);isNaN(r)||o(!t.open,r)}),addEventListener(`visibilitychange`,()=>{document.visibilityState===`hidden`&&a()});</script><div class="lg:sl-flex astro-lrzkfocr"><aside class="right-sidebar-container print:hidden astro-lrzkfocr"><div class="right-sidebar astro-lrzkfocr"><div class="lg:sl-hidden astro-qok35upx"><mobile-starlight-toc data-min-h="2" data-max-h="3" class="astro-66cqc7ze"><nav aria-labelledby="starlight__on-this-page--mobile" class="astro-66cqc7ze"><details id="starlight__mobile-toc" class="astro-66cqc7ze"><summary id="starlight__on-this-page--mobile" class="sl-flex astro-66cqc7ze"><span class="toggle sl-flex astro-66cqc7ze">Sur cette page<svg aria-hidden="true" class="caret astro-66cqc7ze astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></span><span class="display-current astro-66cqc7ze"></span></summary><div class="dropdown astro-66cqc7ze"><ul class="isMobile astro-jugkfwgx" style="--depth: 0;"><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#_top" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Vue d’ensemble</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#je-suis-un-utilisateur-duniversité" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">👨‍🏫Je suis un utilisateur d’université.</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#je-suis-un-utilisateur-corporatif" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">👨‍💻Je suis un utilisateur corporatif.</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#-zéro-enseignement-pratique-de-base-approfondi-" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx"> Zéro enseignement pratique de base approfondi </span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#-cours-de-spécialisation---série-transformer-" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx"> Cours de spécialisation - Série Transformer </span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#-japprends-en-profondeurpaddle-" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx"> 《J’apprends en profondeur.》Paddle </span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#-études-approfondies-" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx"> Études approfondies </span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#-paddlepaddle-appliquer-le-jeu-de-cas-" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx"> PaddlePaddle Appliquer le jeu de cas </span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#-paddlepaddle-cas-universitaires-" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx"> PaddlePaddle Cas universitaires </span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#-paddlepaddle-résumé-des-matériels-pédagogiques-par-produit-" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx"> PaddlePaddle Résumé des matériels pédagogiques par produit </span></a><ul class="isMobile astro-jugkfwgx" style="--depth: 1;"><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#code-des-normes-de-contribution" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Code des normes de contribution</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#contributeur" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Contributeur</span></a></li></ul></li></ul></div></details></nav></mobile-starlight-toc><script type="module" src="/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.C3fM4Kra.js"></script></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-qok35upx"><div class="sl-container astro-qok35upx"><starlight-toc data-min-h="2" data-max-h="3"><nav aria-labelledby="starlight__on-this-page"><h2 id="starlight__on-this-page">Sur cette page</h2><ul class="astro-jugkfwgx" style="--depth: 0;"><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#_top" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Vue d’ensemble</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#je-suis-un-utilisateur-duniversité" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">👨‍🏫Je suis un utilisateur d’université.</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#je-suis-un-utilisateur-corporatif" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">👨‍💻Je suis un utilisateur corporatif.</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#-zéro-enseignement-pratique-de-base-approfondi-" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx"> Zéro enseignement pratique de base approfondi </span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#-cours-de-spécialisation---série-transformer-" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx"> Cours de spécialisation - Série Transformer </span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#-japprends-en-profondeurpaddle-" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx"> 《J’apprends en profondeur.》Paddle </span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#-études-approfondies-" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx"> Études approfondies </span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#-paddlepaddle-appliquer-le-jeu-de-cas-" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx"> PaddlePaddle Appliquer le jeu de cas </span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#-paddlepaddle-cas-universitaires-" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx"> PaddlePaddle Cas universitaires </span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#-paddlepaddle-résumé-des-matériels-pédagogiques-par-produit-" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx"> PaddlePaddle Résumé des matériels pédagogiques par produit </span></a><ul class="astro-jugkfwgx" style="--depth: 1;"><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#code-des-normes-de-contribution" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Code des normes de contribution</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#contributeur" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Contributeur</span></a></li></ul></li></ul></nav></starlight-toc><script type="module" src="/_astro/TableOfContents.astro_astro_type_script_index_0_lang.BpJaGz7G.js"></script></div></div></div></aside><div class="main-pane astro-lrzkfocr"><main data-pagefind-body class="astro-g5ptsecz" lang="fr-FR" dir="ltr"><div class="content-panel astro-a7po4psb"><div class="sl-container astro-a7po4psb"><h1 id="_top" class="astro-bebwqqxs">DeepLearning</h1><div class="hagilight-content-width-toggle" role="group" aria-label="Largeur du contenu"><button type="button" data-hagilight-content-width-choice="wide" aria-pressed="true">Large</button><button type="button" data-hagilight-content-width-choice="narrow" aria-pressed="false">Étroit</button></div><script type="module">var e=`hagilight-content-width`,t=new Set([`wide`,`narrow`]);function n(e){return t.has(e)?e:`wide`}function r(e,t){e.querySelectorAll(`[data-hagilight-content-width-choice]`).forEach(e=>{e.setAttribute(`aria-pressed`,String(e.dataset.hagilightContentWidthChoice===t))})}function i(t=document.documentElement){let i=`wide`;try{i=n(globalThis.localStorage.getItem(e))}catch{i=`wide`}return t.dataset.hagilightContentWidth=i,r(t,i),i}function a(n,i=document.documentElement){if(!t.has(n))throw TypeError(`Hagilight content width must be "wide" or "narrow".`);i.dataset.hagilightContentWidth=n,r(i,n);try{globalThis.localStorage.setItem(e,n)}catch{return}}function o(e,t=document.documentElement){if(e.key!==`hagilight-content-width`&&e.key!==null)return;let i=n(e.newValue);t.dataset.hagilightContentWidth=i,r(t,i)}var s=document.documentElement;i(s),document.querySelectorAll(`[data-hagilight-content-width-choice]`).forEach(e=>{e.addEventListener(`click`,()=>{a(e.dataset.hagilightContentWidthChoice,s)})}),window.addEventListener(`storage`,e=>o(e,s));</script><nav class="awesome-topic-nav" aria-label="Sujets"><span>Sujets</span><ul><li><a href="/fr-FR/awesome/tags/deep-learning/" data-ga-category="navigation" data-ga-label="deep-learning" data-ga-location="topic_nav">Apprentissage profond</a></li></ul></nav></div></div><div class="content-panel astro-a7po4psb"><div class="sl-container astro-a7po4psb"><div class="sl-markdown-content"><blockquote>
+<p><strong>Source:</strong> <a href="https://github.com/PaddlePaddle/awesome-DeepLearning">https://github.com/PaddlePaddle/awesome-DeepLearning</a> at <a href="https://github.com/PaddlePaddle/awesome-DeepLearning/blob/772e97d3103fae65313fc2683d3dff13e5cbb723/README.md"><code dir="auto">772e97d3103f</code></a><br>
+<strong>License:</strong> <a href="https://github.com/PaddlePaddle/awesome-DeepLearning/blob/772e97d3103fae65313fc2683d3dff13e5cbb723/LICENSE">Apache-2.0</a><br>
+<a href="/awesome/awesome-paddle-deeplearning/">Read the English original</a></p>
+</blockquote>
+<blockquote>
+<p>This edition is an AI-assisted translation.</p>
+</blockquote>
+<div class="sl-heading-wrapper level-h1"><h1 id="i-description-du-projet"><span id="一项目简介" class="awesome-anchor-alias" aria-hidden="true"></span>I. Description du projet</h1><a class="sl-anchor-link" href="#i-description-du-projet"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée « I. Description du projet »</span></a></div>
+<p>Ce projet est…<a href="https://www.paddlepaddle.org.cn/?fr=paddleEdu_github">PaddlePaddle Fonctionnaires </a> Une étude approfondie et ponctuelle de l’encyclopédie en ligne réalisée par le Ministère de la santé et de la protection sociale. PaddlePaddle Travailler à simplifier et à simplifier l’innovation et l’application des technologies d’apprentissage en profondeur PaddlePaddle Visite de bienvenue<a href="https://www.paddlepaddle.org.cn/?fr=paddleEdu_github">PaddlePaddle Réseau de fonctionnaires </a> Je ne sais pas. Ce projet couvre:</p>
+<p>📒Type de cours:<a href="https://aistudio.baidu.com/aistudio/course/introduce/1297"><strong>Zéro enseignement pratique de base approfondi</strong></a> 、<strong>Enseignement approfondi des pratiques industrielles</strong>、<strong><a href="https://aistudio.baidu.com/aistudio/education/group/info/24322">Cours de spécialisation </a> 、 PaddlePaddle Résumé des cours</strong></p>
+<p>📒Type de livre:<strong>《J’apprends en profondeur.》 PaddlePaddle Version</strong></p>
+<p>📒Monuments:<a href="https://paddlepedia.readthedocs.io/en/latest/index.html"><strong>Études approfondies</strong></a> 、<strong>Le livre des interviews</strong></p>
+<p>📒Catégorie de cas:<strong><a href="https://github.com/PaddlePaddle/awesome-DeepLearning/tree/master/Paddle_Industry_Practice_Sample_Library">PaddlePaddle Base de données sur les pratiques industrielles </a></strong>(Comprenant les villes intelligentes:<a href="https://github.com/PaddlePaddle/awesome-DeepLearning/tree/master/Paddle_Industry_Practice_Sample_Library/Fire_and_Smoke_Detection">Détection des fumées d’incendie </a> 、 <a href="https://github.com/PaddlePaddle/awesome-DeepLearning/tree/master/Paddle_Industry_Practice_Sample_Library/Hemtle%20Detection">Essai du chapeau de sécurité </a> ; fabrication intelligente:<a href="https://github.com/PaddlePaddle/awesome-DeepLearning/tree/master/Paddle_Industry_Practice_Sample_Library/paddlex_steel_defect_seg-master">Détection des défauts d’acier </a> 、 <a href="https://github.com/PaddlePaddle/awesome-DeepLearning/tree/master/Paddle_Industry_Practice_Sample_Library/robot_grab">Prise mécanique </a> ; Internet:<a href="https://github.com/PaddlePaddle/awesome-DeepLearning/tree/master/Paddle_Industry_Practice_Sample_Library/Report_Recognition_and_Analysis">Reconnaissance financière et extraction sur le terrain </a> Attendez.</p>
+<p>De la théorie à la pratique, de la recherche scientifique aux applications industrielles, le matériel d’apprentissage devrait être mis à disposition pour aider les développeurs à apprendre en profondeur et à devenir rapidement des talents transfrontaliers en matière d’IA.</p>
+<center><img src="https://raw.githubusercontent.com/PaddlePaddle/awesome-DeepLearning/772e97d3103fae65313fc2683d3dff13e5cbb723/docs/images/cover/repo_cover1.png" width="60%"></center>
+<ul>
+<li><strong>Généralités</strong>: Vous pouvez rapidement obtenir le matériel d’apprentissage requis dans ce projet, que vous soyez un chercheur en profondeur ou un utilisateur senior.</li>
+<li><strong>C’est riche.</strong>: Le matériel est disponible dans une variété de formats, y compris les carnets en ligne, les vidéos, les livres, les émissions en direct, etc., pour répondre à vos besoins d’apprentissage à tout moment ou à tout lieu.</li>
+<li><strong>Mettre à jour en temps réel</strong>: Les codes impliqués dans ce projet correspondent à la dernière version de Paddle, et les développeurs peuvent apprendre en temps réel le dernier programme de réalisation de mission d’apprentissage approfondi.</li>
+<li><strong>Première partie</strong>Partage régulier de l’interprétation et de la reconstitution des derniers articles post mortem, les développeurs ayant accès en temps réel au dernier algorithme d’apprentissage approfondi.</li>
+</ul>
+<div class="sl-heading-wrapper level-h4"><h4 id="-si-cet-article-vous-aide-cliquez-en-haut-à-droite-de-la-page-pour-star️-"><span id="如果本项目对您有帮助欢迎点击网页右上方进行star️" class="awesome-anchor-alias" aria-hidden="true"></span><span id="0"> Si cet article vous aide, cliquez en haut à droite de la page pour Star❤️ </span></h4><a class="sl-anchor-link" href="#-si-cet-article-vous-aide-cliquez-en-haut-à-droite-de-la-page-pour-star️-"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée «  Si cet article vous aide, cliquez en haut à droite de la page pour Star❤️  »</span></a></div>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="je-suis-un-utilisateur-duniversité"><span id="我是高校用户" class="awesome-anchor-alias" aria-hidden="true"></span>👨‍🏫Je suis un utilisateur d’université.</h2><a class="sl-anchor-link" href="#je-suis-un-utilisateur-duniversité"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée « 👨‍🏫Je suis un utilisateur d’université. »</span></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>J’espère :</th><th>Je peux apprendre :</th></tr></thead><tbody><tr><td>Apprentissage initial en profondeur</td><td>Zéro enseignement pratique de base approfondi<a href="#1">:arrow_heading_down:</a>Apprentissage approfondi<a href="#2">:arrow_heading_down:</a>Je vais à la pagaie.<a href="#dive">:arrow_heading_down: </a></td></tr><tr><td>Enseignement avancé de la profondeur</td><td>Études approfondies dans la pratique industrielle, études approfondies<a href="#2">:arrow_heading_down:</a>♪ Et interview ♪<a href="#6">:arrow_heading_down:</a></td></tr><tr><td>Intéressant, étude approfondie.</td><td>Cours de spécialisation<a href="#3">:arrow_heading_down:</a>、<a href="https://github.com/PaddlePaddle/awesome-DeepLearning/tree/master/Paddle_Industry_Practice_Sample_Library">PaddlePaddle Base de données sur les pratiques industrielles </a></td></tr></tbody></table>
+<div class="sl-heading-wrapper level-h2"><h2 id="je-suis-un-utilisateur-corporatif"><span id="我是企业用户" class="awesome-anchor-alias" aria-hidden="true"></span>👨‍💻Je suis un utilisateur corporatif.</h2><a class="sl-anchor-link" href="#je-suis-un-utilisateur-corporatif"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée « 👨‍💻Je suis un utilisateur corporatif. »</span></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>J’espère :</th><th>Je peux apprendre :</th></tr></thead><tbody><tr><td>Apprentissage initial en profondeur</td><td>Zéro enseignement pratique de base approfondi<a href="#1">:arrow_heading_down:</a>Apprentissage approfondi<a href="#2">:arrow_heading_down:</a>Je vais à la pagaie.<a href="#dive">:arrow_heading_down: </a></td></tr><tr><td>Enseignement avancé de la profondeur</td><td>Études approfondies de pratique industrielle, cours de spécialisation<a href="#3">:arrow_heading_down:</a>♪ Et interview ♪<a href="#6">:arrow_heading_down:</a></td></tr><tr><td>Apprentissage pratique en profondeur</td><td><a href="https://github.com/PaddlePaddle/awesome-DeepLearning/tree/master/Paddle_Industry_Practice_Sample_Library">PaddlePaddle Base de données sur les pratiques industrielles </a> 、 PaddlePaddle Cours de produits<a href="#fj">:arrow_heading_down: </a></td></tr></tbody></table>
+<hr>
+<div class="sl-heading-wrapper level-h1"><h1 id="contenu-du-projet"><span id="二项目内容" class="awesome-anchor-alias" aria-hidden="true"></span>Contenu du projet</h1><a class="sl-anchor-link" href="#contenu-du-projet"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée « Contenu du projet »</span></a></div>
+<div class="sl-heading-wrapper level-h1"><h1 id="type-de-cours"><span id="课程类" class="awesome-anchor-alias" aria-hidden="true"></span>👉Type de cours</h1><a class="sl-anchor-link" href="#type-de-cours"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée « 👉Type de cours »</span></a></div>
+<div class="sl-heading-wrapper level-h2"><h2 id="-zéro-enseignement-pratique-de-base-approfondi-"><span id="-零基础实践深度学习" class="awesome-anchor-alias" aria-hidden="true"></span><span id="1"> Zéro enseignement pratique de base approfondi </span></h2><a class="sl-anchor-link" href="#-zéro-enseignement-pratique-de-base-approfondi-"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée «  Zéro enseignement pratique de base approfondi  »</span></a></div>
+<ul>
+<li>
+<p>**Cours en ligne Al Studio:<a href="https://aistudio.baidu.com/aistudio/course/introduce/1297">《Zéro enseignement pratique de base approfondi》</a>**Théoriques et codes combinés, pratiques combinées avec des plateformes, y compris 20 heures de cours vidéo, par des architectes exceptionnels de 100 degrés, PaddlePaddle Le propriétaire du produit et le personnel supérieur de recherche et développement travaillent ensemble.</p>
+<center><img src="https://raw.githubusercontent.com/PaddlePaddle/awesome-DeepLearning/772e97d3103fae65313fc2683d3dff13e5cbb723/docs/images/cover/0_cover.png"></center><br><br>
+</li>
+<li>
+<p><strong>《Zéro enseignement pratique de base approfondi》Livres</strong>Le livre d ’ accompagnement du cours, publié par Qinghua Press fin 2020, est vendu par Kyoto/Performent Electricians.</p>
+<center><img src="https://github.com/ZhangHandi/images-for-paddledocs/blob/main/images/readme/book.png?raw=true"></center><br><br>
+</li>
+</ul>
+<div class="sl-heading-wrapper level-h2"><h2 id="-cours-de-spécialisation---série-transformer-"><span id="特色课---transformer系列" class="awesome-anchor-alias" aria-hidden="true"></span><span id="3"> Cours de spécialisation - Série Transformer </span></h2><a class="sl-anchor-link" href="#-cours-de-spécialisation---série-transformer-"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée «  Cours de spécialisation - Série Transformer  »</span></a></div>
+<p>PaddlePaddle La série Transformer de produits éducatifs officiels peut être lue en deux plateformes.</p>
+<ul>
+<li>
+<p>Série de principes et de pratiques de transformation : <a href="https://aistudio.baidu.com/aistudio/education/group/info/24683">https://aistudio.baidu.com/aistudio/education/group/info/24683</a></p>
+</li>
+<li>
+<p>PaddlePaddle Numéro de compte officiel de l’éducation: <a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086</a></p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Domaine</th><th><strong>Nom du chapitre</strong></th><th>Introduction aux cours</th><th>Lien de carnet</th></tr></thead><tbody><tr><td>NLP</td><td>Modèle classique de langue pré-formation(Allons-y.)- L’histoire des modèles de préformation.</td><td>Description de l’histoire du développement du modèle de langue pré-formé, word2vec, elmo,bert, gpt.</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2287294">Lien de carnet </a></td></tr><tr><td>NLP</td><td>Modèle pré-entraînement classique.(Allons-y.)- ELMo</td><td>Présentation détaillée ELMo Structure du modèle, avantages, inconvénients, etc.</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2287335">Lien de carnet </a></td></tr><tr><td>NLP</td><td>Modèle pré-entraînement classique.(Allons-y.)- Transformateur</td><td>Description des principes sous-jacents au transformateur, y compris l’intégration, l’auto-attachement, l’encodeur, le décodeur, les calculs de complexité, les mécanismes de partage, etc.</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2287386">Lien de carnet </a></td></tr><tr><td>NLP</td><td>Modèle pré-entraînement classique.(Baisse)- GPT</td><td>Présentation détaillée GPT Les principes, la préformation et le modèle finestune, GPT Structure du modèle, avantages, inconvénients, etc.</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2295114">Lien de carnet </a></td></tr><tr><td>NLP</td><td>Modèle pré-entraînement classique.(Baisse)- BERT</td><td>Présentation détaillée BERT Les principes de base, la mission de préformation et la manière fine, BERT Sa propre structure de modèle, ses forces et ses faiblesses, etc.</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2297740">Lien de carnet </a></td></tr><tr><td>NLP</td><td>Connaissance du langage naturel des modèles de préformation - RoBERTa</td><td>Amélioration de l’interprétation des langues naturelles dans les modèles de préformation - RoBERTa</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2299099">Lien de carnet </a></td></tr><tr><td>NLP</td><td>Connaissance du langage naturel des modèles de préformation - ERNIE</td><td>Meilleure compréhension du langage naturel des modèles de préformation: ERNIE</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2299380">Lien de carnet </a></td></tr><tr><td>NLP</td><td>Connaissance du langage naturel des modèles de préformation — K BERT</td><td>Meilleure compréhension du langage naturel des modèles de préformation: K BERT</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2307309">Lien de carnet </a></td></tr><tr><td>NLP</td><td>Connaissance du langage naturel des modèles de préformation — THU- ERNIE</td><td>Meilleure compréhension du langage naturel des modèles de préformation: THU- ERNIE</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2307342">Lien de carnet </a></td></tr><tr><td>NLP</td><td>Modélisation en séquence longue des modèles de préformation Transformer-XL</td><td>Amélioration de la modélisation séquence des modèles de préformation: Transformer-XL</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2307389">Lien de carnet </a></td></tr><tr><td>NLP</td><td>Modélisation en séquence longue des modèles de préformation XLNet</td><td>Amélioration de la modélisation en séquence de la compréhension des langues naturelles: XLNet</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2307494">Lien de carnet </a></td></tr><tr><td>NLP</td><td>Modélisation en séquence longue des modèles de préformation Longformer</td><td>Amélioration de la modélisation séquence des modèles de préformation: Longformer</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2307544">Lien de carnet </a></td></tr><tr><td>Optimisation du modèle</td><td>Modèle de préformation - structure efficace</td><td>Prévisions de ponctuation basées sur ELECTRA</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2294324">Lien de carnet </a></td></tr><tr><td>Optimisation du modèle</td><td>Modèle de préformation - distillation</td><td>Algorithme de distillation du modèle de préformation: Patient-KD, DistilBERT 、 TinyBERT 、 DynaBERT Détails du modèle et utilisation DynaBERT La politique est juste. TinyBERT Effectuer la distillation du modèle</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2258091">Lien de carnet </a></td></tr><tr><td>CV</td><td>Transformateur-Vit. DeiT</td><td>Détails. ViT et DeiT Justification</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2299267">Lien de carnet </a></td></tr><tr><td>CV</td><td>Transformateur Swin Transformer</td><td>Détails. Swin Transformer Justification</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2292148">Lien de carnet </a></td></tr><tr><td>CV</td><td>CV Modèle de transformateur pour les champs DETR Applications dans les missions de détection des cibles</td><td>Détails. DETR Principes et résolution du code</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2290729">Lien de carnet </a></td></tr></tbody></table>
+<p>Précédent<a href="#0">:arrow_heading_up:</a></p>
+<hr>
+<div class="sl-heading-wrapper level-h1"><h1 id="type-de-livre"><span id="书籍类" class="awesome-anchor-alias" aria-hidden="true"></span>👉Type de livre</h1><a class="sl-anchor-link" href="#type-de-livre"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée « 👉Type de livre »</span></a></div>
+<div class="sl-heading-wrapper level-h2"><h2 id="-japprends-en-profondeurpaddle-"><span id="动手学深度学习paddle版" class="awesome-anchor-alias" aria-hidden="true"></span><span id="dive"> 《J’apprends en profondeur.》Paddle </span></h2><a class="sl-anchor-link" href="#-japprends-en-profondeurpaddle-"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée «  《J’apprends en profondeur.》Paddle  »</span></a></div>
+<p>Ce projet《<a href="http://zh.d2l.ai/">J’apprends en profondeur. </a> 》Au lieu de MXNet dans le livre original lire PaddlePaddle Objectif atteint. Auteur original: Aston Chang, Lee Au, Zachary C. Liton, Alexander J. Smola et d’autres contributeurs communautaires, GitHub adresse: <a href="https://github.com/d2l-ai/d2l-zh%E3%80%82">https://github.com/d2l-ai/d2l-zh。</a></p>
+<p>Le projet est orienté vers l’apprentissage approfondi, en particulier pour PaddlePaddle Chaussures enfant pour une étude approfondie. Ce projet n’exige pas d’apprentissage approfondi ou de formation en apprentissage automatique, mais seulement des mathématiques et des programmes de base, tels que des algèbres linéaires de base, des calculs et des probabilités, et des programmes de base de Python.</p>
+<div align="center">
+<img width="500" src="https://raw.githubusercontent.com/PaddlePaddle/awesome-DeepLearning/772e97d3103fae65313fc2683d3dff13e5cbb723/Dive-into-DL-paddlepaddle/docs/img/cover.jpg">
+</div>
+Précédent[:arrow_heading_up:](#0)
+<hr>
+<div class="sl-heading-wrapper level-h1"><h1 id="des-monuments"><span id="宝典类" class="awesome-anchor-alias" aria-hidden="true"></span>👉Des monuments.</h1><a class="sl-anchor-link" href="#des-monuments"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée « 👉Des monuments. »</span></a></div>
+<div class="sl-heading-wrapper level-h2"><h2 id="-études-approfondies-"><span id="深度学习百问" class="awesome-anchor-alias" aria-hidden="true"></span><span id="2"> Études approfondies </span></h2><a class="sl-anchor-link" href="#-études-approfondies-"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée «  Études approfondies  »</span></a></div>
+<p>L’apprentissage approfondi consiste en des notions fondamentales d’apprentissage approfondi, d’apprentissage approfondi avancé, d’apprentissage approfondi appliqué, d’apprentissage intensif et de cérémonies d’entrevue.<a href="https://paddlepedia.readthedocs.io/en/latest/index.html">Plateforme de documentation Paddle Knowledge Point </a> 。</p>
+<ul>
+<li>
+<p><strong>Principes fondamentaux de l’apprentissage approfondi</strong></p>
+<ol>
+<li>
+<p><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/deep_learning/index.html#">Apprentissage approfondi </a></p>
+</li>
+<li>
+<p><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/CNN/index.html">Réseau neuronal volatil </a></p>
+</li>
+<li>
+<p><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/sequence_model/index.html">Modèle de séquence </a></p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Progrès d’apprentissage approfondi</strong></p>
+<ol>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/pretrain_model/index.html">Modèle de préformation </a></li>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/generative_adversarial_network/index.html">Contre le réseau nerveux. </a></li>
+</ol>
+</li>
+<li>
+<p><strong>Application d’apprentissage de profondeur</strong></p>
+<ol>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/computer_vision/index.html">Visualisation informatique </a></li>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/natural_language_processing/index.html">Traitement des langues naturelles </a></li>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/recommendation_system/index.html">Système recommandé </a></li>
+</ol>
+</li>
+<li>
+<p><strong>Pratique industrielle</strong></p>
+<ol>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/model_compress/index.html">Compression du modèle </a></li>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/model_deployment/index.html">Déploiement du modèle </a></li>
+</ol>
+</li>
+<li>
+<p><strong>Apprentissage intensif</strong></p>
+<ol>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/reinforcement_learning/index.html">Apprentissage amélioré </a></li>
+</ol>
+</li>
+<li>
+<p><span id="6"><strong>Le livre des interviews</strong></span></p>
+<ol>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/interview_questions/interview_questions.html">Entretien commun pour une base d’apprentissage approfondie Sujet </a></li>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/interview_questions/interview_questions.html#id2">Sujets d’entrevue communs pour les modèles de volume </a></li>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/interview_questions/interview_questions.html#id3">Entretiens communs dans les modèles de préformation Sujet </a></li>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/interview_questions/interview_questions.html#id4">C’est un sujet d’interview commun contre le réseau neuronal. </a></li>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/interview_questions/interview_questions.html#id5">Entretiens visuels sur ordinateur </a></li>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/interview_questions/interview_questions.html#id6">Traitement en langage naturel des entrevues communes Sujet </a></li>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/interview_questions/interview_questions.html#id7">Conseillant des entretiens communs dans le système </a></li>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/interview_questions/interview_questions.html#id8">Modèle compression des questions d’entrevue communes </a></li>
+<li><a href="https://paddlepedia.readthedocs.io/en/latest/tutorials/interview_questions/interview_questions.html#id9">Apprentissage intensif Entretiens communs </a></li>
+</ol>
+</li>
+</ul>
+<p>Précédent<a href="#0">:arrow_heading_up:</a></p>
+<hr>
+<div class="sl-heading-wrapper level-h1"><h1 id="catégorie-de-cas"><span id="案例类" class="awesome-anchor-alias" aria-hidden="true"></span>👉Catégorie de cas</h1><a class="sl-anchor-link" href="#catégorie-de-cas"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée « 👉Catégorie de cas »</span></a></div>
+<div class="sl-heading-wrapper level-h2"><h2 id="-paddlepaddle-appliquer-le-jeu-de-cas-"><span id="飞桨应用案例集" class="awesome-anchor-alias" aria-hidden="true"></span><span id="5"> PaddlePaddle Appliquer le jeu de cas </span></h2><a class="sl-anchor-link" href="#-paddlepaddle-appliquer-le-jeu-de-cas-"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée «  PaddlePaddle Appliquer le jeu de cas  »</span></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Domaine</th><th>Affaires industrielles</th><th>Source</th><th>Plus</th></tr></thead><tbody><tr><td><strong>Industrie intelligente</strong></td><td><a href="https://paddlex.readthedocs.io/zh_CN/develop/examples/meter_reader.html">Surveillance statistique des instruments végétaux traditionnels </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Industrie intelligente</strong></td><td><a href="https://www.paddlepaddle.org.cn/support/news?action=detail&#x26;id=2104">Criblage du diaphragme au lithium en néo-énergie </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Industrie intelligente</strong></td><td><a href="https://paddlex.readthedocs.io/zh_CN/develop/examples/industrial_quality_inspection/README.html">Détection des défauts de surface en aluminium </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Industrie intelligente</strong></td><td><a href="https://github.com/PaddleCV-FAQ/PaddleDetection-FAQ/blob/main/Lite%E9%83%A8%E7%BD%B2/yolov3_for_raspi.md">Essai du chapeau de sécurité </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Une ville intelligente.</strong></td><td><a href="https://www.paddlepaddle.org.cn/support/news?action=detail&#x26;id=2103">Surveillance par télédétection des terrains de golf </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Une ville intelligente.</strong></td><td><a href="https://paddlex.readthedocs.io/zh_CN/develop/examples/multi-channel_remote_sensing/README.html">Séparateur de neige </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Une ville intelligente.</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/267322?channelType=0&#x26;channel=0">Le visage du masque. </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Un trafic intelligent.</strong></td><td><a href="https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/configs/vehicle/README_cn.md">Séparation des voies de circulation et contrôle de sécurité des feux rouges et verts </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Un trafic intelligent.</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/1922155?channelType=0&#x26;channel=0">【 PaddleDet EP-YOLOV2 </a></td><td>PaddlePaddle  PaddleDet</td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/330600">Plus de cas PaddleDet </a></td></tr><tr><td><strong>Un trafic intelligent.</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/464339?channelType=0&#x26;channel=0">PaddleX Assisté sans pilote (sur la base de la détection des véhicules YOLOV3 et de la division des voies) </a></td><td>Développeur<a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/67156">C’est un canard. </a></td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Un trafic intelligent.</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/596152?channelType=0&#x26;channel=0">Éblite_Marquage </a></td><td>Développeur<a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/59591">TobeWell </a></td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Un trafic intelligent.</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/739559?channelType=0&#x26;channel=0">PaddleOCR: reconnaissance des plaques </a></td><td>PaddlePaddle Développeur<a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/180581">Tu es seule. </a></td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Une agriculture intelligente</strong></td><td><a href="https://mp.weixin.qq.com/s/JlDVmYlhN7sF0hpRlncDNw">Identification des parcelles agricoles </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Une agriculture intelligente</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/439888">AI connaît les vers. </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Une agriculture intelligente</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/708923?channelType=0&#x26;channel=0">Plus vite et plus fort ! </a></td><td>PaddlePaddle  PaddleDet</td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/330600">Plus de cas PaddleDet </a></td></tr><tr><td><strong>Une agriculture intelligente</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/439888?channelType=0&#x26;channel=0">PaddleX Démarrage rapide - Essai de la cible RCNN rapide </a></td><td>PaddlePaddle  PaddleX</td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/189619">Plus PaddleX Affaires </a></td></tr><tr><td><strong>Une agriculture intelligente</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/289616?channelType=0&#x26;channel=0">Partage des tests AID </a></td><td>Développeur<a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/110992">aaaLKgo </a></td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Une agriculture intelligente</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/1968964?channelType=0&#x26;channel=0">Sur la base PaddleX Surveillance des incendies de forêt </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Médecine intelligente.</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/1434738?channelType=0&#x26;channel=0">Catégorisation des herbes en médecine </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Médecine intelligente.</strong></td><td><a href="https://www.paddlepaddle.org.cn/tutorials/projectdetail/1630501">Reconnaissance des yeux. </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Médecine intelligente.</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/250994?channelType=0&#x26;channel=0">D’après l’image de Paddle. </a></td><td>Développeur<a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/33061">Générateur de code </a></td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Médecine intelligente.</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/289819?channelType=0&#x26;channel=0">PaddleHub Analyse de l’image de Pneumonia CT </a></td><td>PaddlePaddle  PaddleHub</td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/79927">Plus PaddleHub Affaires </a></td></tr><tr><td><strong>Médecine intelligente.</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/457185?channelType=0&#x26;channel=0">Sur la base PaddlePaddle Système de référence pour prédire les tendances de la propagation des maladies sexuellement transmissibles à forte prévalence dans les PGL </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2071768">Les gens tombent pour tester. </a></td><td>Développeur<a href="https://github.com/Niki173">Niki_173 </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/474269">Plus de cas pour le développeur </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://github.com/PaddlePaddle/PaddleVideo/tree/application/FootballAction">Position du jeu de football. </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://github.com/PaddlePaddle/PARL/tree/develop/examples/tutorials/homework/lesson5/ddpg_quadrotor">Simulation d’aéronefs basée sur un apprentissage amélioré </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2247755">Sur la base ERNIE - Gram correspond à la sémantique. </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/1968542?channelType=0&#x26;channel=0">『 NLP Camp de cartes, cours de pratique 5 : Analyse émotionnelle du texte </a></td><td>PaddlePaddle  PaddleNLP</td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/574995">Plus PaddlePaddle  PaddleNLP Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/1468469?channelType=0&#x26;channel=0">『 NLP Série 03: Choix d’un dîner annuel avec analyse émotionnelle </a></td><td>PaddlePaddle  PaddleNLP</td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/574995">Plus PaddlePaddle  PaddleNLP Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/121630?channelType=0&#x26;channel=0">Catégorisation des tâches : comment identifier les émotions des clients dans les conversations avec les clients </a></td><td>Développeur<a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/34238">Taille moyenne </a></td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/1329361?channelType=0&#x26;channel=0">『 NLP Cours pratique 3 du camp de cartes : Utilisation de modèles de préformation pour extraire les fiches de livraison </a></td><td>PaddlePaddle  PaddleNLP</td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/574995">Plus PaddlePaddle  PaddleNLP Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/746002?channelType=0&#x26;channel=0">Tu es contrariée ? PaddleHub C’est pour toi. (C’est le prix de la 7ème nuit.) </a></td><td>PaddlePaddle  PaddleHub</td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/79927">Plus PaddleHub Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2240725">Sur la base PaddleDet Section Détection des bogues PCB </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/1411754?channelType=0&#x26;channel=0">Basé sur 100 degrés PaddlePaddle Suivi des piétons à écran unique ou multiécran (base de référence non officielle) </a></td><td>Développeur<a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/67156">C’est un canard. </a></td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/1059610?channelType=0&#x26;channel=0">PaddleLiteberry tarte de 0 à 1: Déploiement du véhicule de détection de chapeau de sécurité (i) </a></td><td>Développeur<a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/90149">Les profondeurs de l’abîme. </a></td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/920753?channelType=0&#x26;channel=0">PaddleX , PP-Yolo: les mains vous enseignent la formation, le cryptage, le déploiement des modèles de tests cibles </a></td><td>Développeur<a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/90149">Les profondeurs de l’abîme. </a></td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2280562">Reconnaissance vocale chinoise </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/507159?channelType=0&#x26;channel=0">PaddleHub Une reconnaissance COCR(Modèle Superweight 8.1M. Feu.) </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/1161285?channelType=0&#x26;channel=0">Restauration de l’image de la vieille ville de Beijing </a></td><td>PaddlePaddle  PaddleGAN</td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/52570">Plus PaddleGAN Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/1463208?channelType=0&#x26;channel=0">PaddlePaddle Creative Star, le secret de la poésie de Song… PaddleGAN Synthèse exacte des lèvres </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/1100507?channelType=0&#x26;channel=0">Identification du code d’authentification par l’intermédiaire de l’OCR </a></td><td>PaddlePaddle Fonctionnaires</td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/507159?channelType=0&#x26;channel=0">PaddleHub Reconnaissance chinoise OCR en un clic (modèle 8.1M super-poids, feu) </a></td><td>PaddlePaddle  PaddleHub</td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/79927">Plus PaddleHub Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/1674328?channelType=0&#x26;channel=0">Tout le processus. De zéro. PaddlePaddle Séparer les images </a></td><td>Développeur<a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/129509">nanting03 </a></td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2183242?channelType=0&#x26;channel=0">Projection de charge 0,1. </a></td><td>Développeur<a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/29822">gaomaosheng0 </a></td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/764130?channelType=0&#x26;channel=0">L’IA réalise le jeu d’ombre, hérite de l’art manquant </a></td><td>Développeur<a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/331031">Zohar </a></td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Autres</strong></td><td>『<a href="https://aistudio.baidu.com/aistudio/projectdetail/1487972?channelType=0&#x26;channel=0">Étude approfondie du dépistage critique des visages humains dans les camps de cartes de 7 jours </a></td><td>Développeur<a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/157251">TC.Long </a></td><td><a href="https://www.paddlepaddle.org.cn/customercase">Plus PaddlePaddle Affaires </a></td></tr><tr><td><strong>Apprentissage amélioré</strong></td><td><a href="https://github.com/PaddlePaddle/awesome-DeepLearning/tree/master/examples/DDPG%20for%20Stock%20Trading">Algorithme DDPG appliqué aux opérations de quantification des stocks </a></td><td>Développeur</td><td><a href="https://www.paddlepaddle.org.cn/customercase?fr=paddleEdu_github">Plus PaddlePaddle Affaires </a></td></tr></tbody></table>
+<div class="sl-heading-wrapper level-h2"><h2 id="-paddlepaddle-cas-universitaires-"><span id="飞桨学术案例集" class="awesome-anchor-alias" aria-hidden="true"></span><span id="5"> PaddlePaddle Cas universitaires </span></h2><a class="sl-anchor-link" href="#-paddlepaddle-cas-universitaires-"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée «  PaddlePaddle Cas universitaires  »</span></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Orientation technique</th><th>Cas universitaires</th><th>Source</th><th>Plus</th></tr></thead><tbody><tr><td>Apprentissage automatique</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/78918?channelType=0&#x26;channel=0">Catégories de panaches </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/7">AIStudio Fonctionnaires </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Réseau ex-neurologique.</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/79112?channelType=0&#x26;channel=0">Boston House Prévisions de prix. </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/47528">Développeur AIStudio Aide </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Classement de l’image</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/325575?channelType=0&#x26;channel=0">Reconnaissance manuscrite du nombre </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/7">AIStudio Fonctionnaires </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Classement de l’image</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/78960?channelType=0&#x26;channel=0">Chats et chiens classés </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/7">AIStudio Fonctionnaires </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Classement de l’image</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2369842">Les applications VGG du réseau de classification d’images dans plusieurs missions de reconnaissance d’émoticônes </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/530098">Jerry le développeur </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Classement de l’image</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/56779?channelType=0&#x26;channel=0">Classification de l’image - ResNet </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/39">Développeur stupide. </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Classement de l’image</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/169410?channelType=0&#x26;channel=0">Utilisation PaddlePaddle Atteindre la classification des images - SE_RésNeXt </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/7">AIStudio Fonctionnaires </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Classement de l’image</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2293050">C’est une bonne idée de comprendre Transformer-Vit dans la classification des images. DeiT </a></td><td><a href="https://github.com/PaddlePaddle/awesome-DeepLearning">PaddleEdu </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Classement de l’image</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2280436">Swin   Transformer </a></td><td><a href="https://github.com/PaddlePaddle/awesome-DeepLearning">PaddleEdu </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Classement de l’image</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2342018?channelType=0&#x26;channel=0">Petit échantillon d’apprentissage(Apprentissage peu chaud) </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/746341">Développeur DeepGe </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Séparer l’image</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/122273?channelType=0&#x26;channel=0">exemple classique modèle fractionné Masque RCNN </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/7">AIStudio Fonctionnaires </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Séparer l’image</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/226703?channelType=0&#x26;channel=0">PaddleSeg_DeepLabv3+ </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/96056">PaddlePaddle  PaddleSeg </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Séparer l’image</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/124366?channelType=0&#x26;channel=0">Sur la base PaddlePaddle Division sémantique de DeepLabV3+ </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/7">AIStudio Fonctionnaires </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Détection d’image</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/78972?channelType=0&#x26;channel=0">Progrès de l’apprentissage en profondeur - Essais ciblés </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/7">AIStudio Fonctionnaires </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Détection d’image</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2240328">Un texte détaillant l’algorithme de test de la cible Yolov3 </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/96069">Développeur AIStudio 96069 </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Détection d’image</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2290729">CV Modèle de transformateur pour les champs DETR Applications dans les missions de détection des cibles </a></td><td><a href="https://github.com/PaddlePaddle/awesome-DeepLearning">PaddleEdu </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Catégorie vidéo</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2280460">Classification vidéo TSN </a></td><td><a href="https://github.com/PaddlePaddle/awesome-DeepLearning">PaddleEdu </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Catégorie vidéo</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2311166?contributionType=1">Paddle2.1 Modèle classique pour la compréhension vidéo - TSM </a></td><td><a href="https://github.com/PaddlePaddle/awesome-DeepLearning">PaddleEdu </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Catégorie vidéo</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2313514">Classement vidéo basé sur Attention et Bi-LSTM </a></td><td><a href="https://github.com/PaddlePaddle/awesome-DeepLearning">PaddleEdu </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Catégorie vidéo</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2291410">CV Le modèle Transformer TimeSformer Compréhension vidéo réelle </a></td><td><a href="https://github.com/PaddlePaddle/awesome-DeepLearning">PaddleEdu </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>GAN</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/551962?channelType=0&#x26;channel=0">Un livre qui comprend le GAN classique qui génère des anti-réseaux. </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/76563">Développeur FutureSI </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>GAN</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/169439?channelType=0&#x26;channel=0">Sur la base PaddlePaddle StarGAN, AttGAN, algorithme STGAN </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/7">AIStudio Fonctionnaires </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>OCR</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/190025?channelType=0&#x26;channel=0">Reconnaissance textuelle -CRNN </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/34706">Le développeur. </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>NLP</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2345396">Sur la base ERNIE 9 missions GLUE réalisées </a></td><td><a href="https://github.com/PaddlePaddle/awesome-DeepLearning">PaddleEdu </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>NLP</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2333184">NLP Domaine XLNet Utilisation de modèles dans l’analyse émotionnelle </a></td><td><a href="https://github.com/PaddlePaddle/awesome-DeepLearning">PaddleEdu </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>NLP</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2333137">NLP Domaine ERNIE Application modèle pour la compréhension de la lecture </a></td><td><a href="https://github.com/PaddlePaddle/awesome-DeepLearning">PaddleEdu </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>NLP</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2311092">NLP Application d’ELECTRA dans les prédictions de symboles </a></td><td><a href="https://github.com/PaddlePaddle/awesome-DeepLearning">PaddleEdu </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>NLP</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2311016">NLP Transformateur sur la traduction automatique </a></td><td><a href="https://github.com/PaddlePaddle/awesome-DeepLearning">PaddleEdu </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>NLP</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2271498">@PaddlePaddleQuestion: Le défi chinois de similarité est 0,9 + référence </a></td><td><a href="https://github.com/PaddlePaddle/awesome-DeepLearning">PaddleEdu </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>NLP</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/122282?channelType=0&#x26;channel=0">Utilisation PaddlePaddle Objectif atteint BERT </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/7">AIStudio Fonctionnaires </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Multimodulaire</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2332016?channelType=0&#x26;channel=0">[Paddle Clit] Qu’est-ce que tu écris sur lui ? Un petit peintre pour toi. </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/940489">PaddleFleet </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Apprentissage amélioré</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/637951?channelType=0&#x26;channel=0">Comprendre et reproduire les algorithmes MDDPG du code au papier(PARL) </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/147378">M. Jung, développeur_ </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Recommandations</td><td>[Une estimation du nombre de hits basée sur le modèle DeepFM ](<a href="https://github.com/PaddlePaddle/awesome-DeepLearning/tree/master/examples/DeepFM">https://github.com/PaddlePaddle/awesome-DeepLearning/tree/master/examples/DeepFM</a> for CTR Prediction)</td><td><a href="https://github.com/PaddlePaddle/awesome-DeepLearning">PaddleEdu </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Recommandations</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2324144">Recommandations de films basés sur le DSM </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/7">AIStudio Fonctionnaires </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr><tr><td>Distillation des connaissances</td><td><a href="https://github.com/PaddlePaddle/PaddleClas/blob/release/2.2/docs/zh_CN/advanced_tutorials/distillation/distillation.md">Distillation SSLD basée sur CIFAR100 </a></td><td><a href="https://github.com/PaddlePaddle/PaddleClas">PaddleClas </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">Plus PaddlePaddle Affaires </a></td></tr></tbody></table>
+<p>Précédent<a href="#0">:arrow_heading_up:</a></p>
+<hr>
+<div class="sl-heading-wrapper level-h1"><h1 id="catégorie-de-concours"><span id="竞赛类" class="awesome-anchor-alias" aria-hidden="true"></span>👉Catégorie de concours</h1><a class="sl-anchor-link" href="#catégorie-de-concours"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée « 👉Catégorie de concours »</span></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Domaine</th><th>Affaires de concurrence</th><th>Source</th><th>Présentation</th></tr></thead><tbody><tr><td>Apprentissage automatique</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2466206">Une prévision de défaut de prêt Base de référence+0,607. </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/169515">Développeur w5688414 </a></td><td>DataFountain prévisions par défaut, en référence aux améliorations officielles de base et paddle</td></tr><tr><td>NLP</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2271498">@PaddlePaddleQuestion: Le défi chinois de similarité est 0,9 + référence </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/908086">PaddleEdu </a></td><td>Le jeu de contestation de la similarité en langue chinoise, Paddle version Baseline, évalue la similarité de problème basée sur paddenlp réglage fin du modèle de pré-formation</td></tr><tr><td>NLP</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/294224?channelType=0&#x26;channel=0">Sur la base PaddleHub Pendant l’épidémie, les émotions des gens ont été reconnues. </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/82456">Développeur CChan </a></td><td>Ce projet identifie les solutions à la concurrence pendant l’épidémie. Oui. PaddleHub et ERNIE C’est la première fois que j’ai pu obtenir une reconnaissance émotionnelle du texte pendant l’épidémie.</td></tr><tr><td>NLP</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2417709">[Jouer] Concours d’extraction de commentaires de produits </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/169515">Développeur w5688414 </a></td><td>DataFountain basé sur BERT Les avis produits sont tirés du concours, ajoutant la méthode d’optimisation</td></tr><tr><td>NLP</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2423977">[Paddle plays] rôle de script reconnaissance émotionnelle </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/169515">Développeur w5688414 </a></td><td>Playplay rôle reconnaissance émotionnelle Baseline, en utilisant le modèle Bert</td></tr><tr><td>Voix</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2793102?contributionType=1">[Paddle joue] </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/812202">Développeur XYZ_916 </a></td><td>2021 Nouvelle base de référence de la concurrence de la voix intelligente des banques nettes. Au 2021.11.17, le programme est le numéro un de la note globale, le numéro deux de l’ouvrage.</td></tr><tr><td>CV</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/229728?channelType=0&#x26;channel=0">Défi de reconnaissance texte scène chinoise </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/7">Diplômes mineurs AIStudio </a></td><td>Projet de base pour le défi de reconnaissance textuelle de la scène chinoise, destiné aux candidats à des fins de référence</td></tr><tr><td>CV</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2606211">Concours d’identification écrit à la main </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/532066">Développeur </a></td><td>Concours Mondial d’Intelligence Artificielle Innovation 2021, police manuscrite concours de reconnaissance OCR</td></tr><tr><td>CV</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/1090790?channelType=0&#x26;channel=0">CCF BDCI 2020: blocs d’images détectés à distance </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/349179">Développeur lxastro </a></td><td>CSC 2020 BDCI: bibliothèque de modèles de référence de cartes d’images de télédétection, y compris des méthodes de formation pour le modèle de référence et des scénarios d’évaluation pour les concours.</td></tr><tr><td>CV</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2210815">Troisième AI+ chinois Concours Innovation Entrepreneuriat: semi-supervisé le premier programme de ciblage de l’apprentissage </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/635490">Développeur Zhang Mater </a></td><td>Premier partage de scénarios pour la compétition semi-supervisée de positionnement de la cible d’apprentissage.</td></tr><tr><td>Extraction de données</td><td><a href="https://aistudio.baidu.com/aistudio/projectdetail/2712180">“Baaseline-0,6765” </a></td><td><a href="https://aistudio.baidu.com/aistudio/personalcenter/thirdview/169515">Développeur w5688414 </a></td><td>Concours de diagnostic intelligent AIWIN EKG</td></tr></tbody></table>
+<p>Précédent<a href="#0">:arrow_heading_up:</a></p>
+<div class="sl-heading-wrapper level-h1"><h1 id="résumé"><span id="汇总" class="awesome-anchor-alias" aria-hidden="true"></span>👉Résumé</h1><a class="sl-anchor-link" href="#résumé"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée « 👉Résumé »</span></a></div>
+<div class="sl-heading-wrapper level-h2"><h2 id="-paddlepaddle-résumé-des-matériels-pédagogiques-par-produit-"><span id="飞桨各产品学习资料汇总" class="awesome-anchor-alias" aria-hidden="true"></span><span id="fj"> PaddlePaddle Résumé des matériels pédagogiques par produit </span></h2><a class="sl-anchor-link" href="#-paddlepaddle-résumé-des-matériels-pédagogiques-par-produit-"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée «  PaddlePaddle Résumé des matériels pédagogiques par produit  »</span></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Produits</th><th>Cours vidéo</th><th>Document d’apprentissage</th></tr></thead><tbody><tr><td>PaddleGAN</td><td><a href="https://aistudio.baidu.com/aistudio/course/introduce/16651">Générer une campagne de 7 jours contre le réseau. </a></td><td></td></tr><tr><td>PaddleOCR</td><td><a href="https://www.bilibili.com/video/BV1uX4y1K7PW">OCR Automark petits outils présentations </a> 、<a href="https://www.bilibili.com/video/BV1p54y1y7CM">3.5M Interprétation pratique du modèle OCR Superlight </a> 、<a href="https://www.bilibili.com/video/BV1Zz4y1C7MW">Applications et déploiements du ROC </a></td><td></td></tr><tr><td>PaddleClas</td><td><a href="https://aistudio.baidu.com/aistudio/course/introduce/24519">PaddleClas Série de classes en direct </a></td><td></td></tr><tr><td>PaddleDet et</td><td><a href="https://aistudio.baidu.com/aistudio/course/introduce/1617">La cible est au 7e. </a></td><td></td></tr><tr><td>PaddleX</td><td><a href="https://www.bilibili.com/video/BV1M44y1r7s6">PaddleX Autres organisateurs </a> 、<a href="https://www.bilibili.com/video/BV1HB4y1A73b">PaddleX Détails de la mission </a> 、<a href="https://www.bilibili.com/video/BV1qQ4y1Z7co">PaddleX Détail de la tâche sémantique </a> 、<a href="https://www.bilibili.com/video/BV1nK411F7J9">PaddleX Élaboration de la tâche de classification des images </a> 、<a href="https://www.bilibili.com/video/BV1bz4y1C7wr">PaddleX Guide d’exploitation des clients </a> 、<a href="https://www.bilibili.com/video/BV17i4y1b7TZ">PaddlePaddle Outil de développement du processus complet PaddleX </a></td><td></td></tr><tr><td><span id="hub"> PaddleHub </span></td><td><a href="https://www.bilibili.com/video/BV1YK411V71d">Je vais t’apprendre à changer de mains. PaddleHub Modèle de tutoriel </a></td><td></td></tr><tr><td><span id="vdl"> VDL </span></td><td><a href="https://www.bilibili.com/video/BV1uy4y137iH">Outil d’analyse visuelle pour faciliter le développement rapide des algorithmes d’IA </a> 、<a href="https://www.bilibili.com/video/BV1iD4y1o7Pf">Les algorithmes d’apprentissage approfondi visualisent et aiguisent la présentation sur le terrain </a></td><td></td></tr><tr><td>Haut de l’API</td><td><a href="https://aistudio.baidu.com/aistudio/course/introduce/6771">API de haut niveau vous aide à apprendre rapidement. </a></td><td></td></tr><tr><td><span id="nlp"> PaddleNLP </span></td><td><a href="https://www.bilibili.com/video/BV1fB4y1M7A3">Traitement des langues naturelles basé sur l’apprentissage approfondi </a></td><td></td></tr></tbody></table>
+<p>Précédent<a href="#0">:arrow_heading_up:</a></p>
+<div class="sl-heading-wrapper level-h1"><h1 id="iii-échanges-technologiques"><span id="三技术交流" class="awesome-anchor-alias" aria-hidden="true"></span>III. Échanges technologiques</h1><a class="sl-anchor-link" href="#iii-échanges-technologiques"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée « III. Échanges technologiques »</span></a></div>
+<p>Merci beaucoup d’utiliser cet article. Si vous avez des suggestions ou des commentaires pendant votre utilisation, vous pouvez <strong><a href="https://github.com/PaddlePaddle/tutorials/issues">Issue </a></strong> Nous pouvons également être rejoints en scannant le code bidimensionnel ci-dessous. PaddlePaddle Les développeurs sont très heureux de pouvoir vous aider dans une communication plus approfondie et une exploration technique.</p>
+<center><img src="https://github.com/ZhangHandi/images-for-paddledocs/blob/main/images/readme/qr_code.png?raw=true"></center><br><br>
+<div class="sl-heading-wrapper level-h1"><h1 id="permis"><span id="四许可证书" class="awesome-anchor-alias" aria-hidden="true"></span>Permis</h1><a class="sl-anchor-link" href="#permis"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée « Permis »</span></a></div>
+<p>Publication du projet<a href="https://www.apache.org/licenses/LICENSE-2.0.txt">Apache 2.0 license </a> Authentification des licences.</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="v-contribution"><span id="五贡献内容" class="awesome-anchor-alias" aria-hidden="true"></span>V. Contribution</h1><a class="sl-anchor-link" href="#v-contribution"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée « V. Contribution »</span></a></div>
+<p>Si vous êtes intéressé par l’apprentissage approfondi et le partage des connaissances, vous êtes invités à contribuer à notre avantage pour plus de développeurs.</p>
+<p>Le projet accueille favorablement toutes les contributions et suggestions, dont la plupart nécessitent votre accord avec l’Accord de permis des participants (ALC) pour déclarer que vous avez le droit et nous autoriser à utiliser votre contribution.</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="code-des-normes-de-contribution"><span id="代码贡献规范" class="awesome-anchor-alias" aria-hidden="true"></span>Code des normes de contribution</h3><a class="sl-anchor-link" href="#code-des-normes-de-contribution"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée « Code des normes de contribution »</span></a></div>
+<blockquote>
+<p>pip installer pré-commit</p>
+<p>pré-commander l’installation</p>
+</blockquote>
+<p>Ajoute le code modifié pour coder le document modifié, le pré-comité ajuste automatiquement le format du code et l’exécute une fois, et aucune commission ultérieure n’est requise. Soumettre le processus pr comme suit:<a href="https://github.com/PaddlePaddle/awesome-DeepLearning/blob/772e97d3103fae65313fc2683d3dff13e5cbb723/examples/awesome-DeepLearning_pr_procedure.md">Seem-DeepLearning Soumettre un processus complet </a> 。</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="contributeur"><span id="贡献者" class="awesome-anchor-alias" aria-hidden="true"></span>Contributeur</h3><a class="sl-anchor-link" href="#contributeur"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section intitulée « Contributeur »</span></a></div>
+<p>Voici une liste des contributeurs à la session: <a href="https://youngzhou1999.github.io/cv/">yang zhou </a> ，<a href="https://github.com/Niki173">Niki_173 </a> ，<a href="https://github.com/Twelveeee">Twelveeee </a> ，<a href="https://github.com/buriedms">buriedms </a> ，<a href="https://github.com/AqourAreA">AqourAreA </a> ，<a href="https://github.com/zhangjin12138">zhangjin12138 </a> ，<a href="https://github.com/rerny">rerny </a> ，<a href="https://www.zhihu.com/people/LiuCongNLP">LiuCongNLP </a> ，<a href="https://github.com/LemonCherryFu">LemonCherryFu </a>, <a href="https://github.com/lutianhao">lutianhao </a></p></div><aside class="hagilight-ai-disclosure" role="note">Cet article a été traduit avec l’IA. <a href="/awesome/awesome-paddle-deeplearning/">Voir la source</a></aside><section class="hagilight-article-promotion astro-wvyqmlyc" aria-labelledby="hagilight-article-promotion-title"><div class="hagilight-article-promotion__pitch astro-wvyqmlyc"><div class="hagilight-article-promotion__intro astro-wvyqmlyc"><h2 id="hagilight-article-promotion-title" class="astro-wvyqmlyc">HagiCode</h2><p class="hagilight-article-promotion__lead astro-wvyqmlyc">HagiCode est un espace de développement agentique : les workflows OpenSpec planifient le changement, l’exécution multi-agent le réalise et Hero Dungeon rend le long parcours visible, pour transformer vos idées en logiciels livrés.</p><p class="hagilight-article-promotion__tagline astro-wvyqmlyc">Transformez vos idées en logiciels utiles grâce à un workflow agentique plus intelligent, rapide et agréable.</p><div class="hagilight-article-promotion__actions astro-wvyqmlyc"><a class="hagilight-article-promotion__cta hagilight-article-promotion__cta--primary astro-wvyqmlyc" href="https://www.hagicode.com/fr-FR/" data-ga-category="navigation" data-ga-label="home" data-ga-location="article_promotion">Visiter HagiCode</a><a class="hagilight-article-promotion__cta hagilight-article-promotion__cta--secondary astro-wvyqmlyc" href="https://docs.hagicode.com/fr-FR/product-overview/" data-ga-category="navigation" data-ga-label="productDocs" data-ga-location="article_promotion">Lire la documentation</a></div></div><ul class="hagilight-article-promotion__features astro-wvyqmlyc" aria-label="HagiCode"><li class="astro-wvyqmlyc"><span class="hagilight-article-promotion__icon astro-wvyqmlyc" aria-hidden="true" style="--hagilight-pillar-icon: url(/_astro/pillar-smart.DAOAYOW6.svg)"></span><strong class="astro-wvyqmlyc">Intelligent</strong><span class="hagilight-article-promotion__feature-text astro-wvyqmlyc">Les workflows OpenSpec transforment une intention en parcours exécutable, de la proposition à la livraison en passant par la conception et les tâches.</span></li><li class="astro-wvyqmlyc"><span class="hagilight-article-promotion__icon astro-wvyqmlyc" aria-hidden="true" style="--hagilight-pillar-icon: url(/_astro/pillar-efficient.fRriWHtK.svg)"></span><strong class="astro-wvyqmlyc">Efficace</strong><span class="hagilight-article-promotion__feature-text astro-wvyqmlyc">L’exécution multi-agent fait avancer recherche, réalisation et revue en parallèle, sur plusieurs dépôts et avec les Agent CLI que vous utilisez déjà.</span></li><li class="astro-wvyqmlyc"><span class="hagilight-article-promotion__icon astro-wvyqmlyc" aria-hidden="true" style="--hagilight-pillar-icon: url(/_astro/pillar-fun.CqXYOQWh.svg)"></span><strong class="astro-wvyqmlyc">Ludique</strong><span class="hagilight-article-promotion__feature-text astro-wvyqmlyc">Hero Dungeon transforme les longues sessions de code en une aventure visible, avec héros, progression et succès.</span></li></ul></div><div class="hagilight-article-promotion__gallery-block astro-wvyqmlyc"><h3 id="hagilight-article-promotion-gallery-title" class="astro-wvyqmlyc">HagiCode en un coup d’œil</h3><ul class="hagilight-article-promotion__gallery astro-wvyqmlyc" aria-labelledby="hagilight-article-promotion-gallery-title"><li class="astro-wvyqmlyc"><figure class="astro-wvyqmlyc"><img src="/_astro/workbench.BeU9cSj3_Z13WVMB.webp" srcset="/_astro/workbench.BeU9cSj3_1q4y77.webp 480w, /_astro/workbench.BeU9cSj3_1f03Ic.webp 800w, /_astro/workbench.BeU9cSj3_Z13WVMB.webp 1600w" alt="Établi HagiCode affichant un tableau kanban des sessions avec les colonnes En attente, En cours et Archivé." sizes="(min-width: 50rem) 560px, 100vw" loading="lazy" decoding="async" fetchpriority="low" width="1600" height="845" class="astro-wvyqmlyc"><figcaption class="astro-wvyqmlyc">L’établi : toutes les sessions sur un seul tableau kanban.</figcaption></figure></li><li class="astro-wvyqmlyc"><figure class="astro-wvyqmlyc"><img src="/_astro/proposal-workflow.DcRW_GFa_Z1zy3Uf.webp" srcset="/_astro/proposal-workflow.DcRW_GFa_1nYSDe.webp 480w, /_astro/proposal-workflow.DcRW_GFa_Z13kstl.webp 800w, /_astro/proposal-workflow.DcRW_GFa_Z1zy3Uf.webp 1600w" alt="Barre d’étapes d’une proposition HagiCode, de Créée à Archivée, avec l’étape Exécution terminée mise en évidence et un bouton Archiver le plan." sizes="(min-width: 50rem) 560px, 100vw" loading="lazy" decoding="async" fetchpriority="low" width="1600" height="340" class="astro-wvyqmlyc"><figcaption class="astro-wvyqmlyc">Une proposition passe de créée à rédigée, revue, exécutée puis archivée.</figcaption></figure></li><li class="astro-wvyqmlyc"><figure class="astro-wvyqmlyc"><img src="/_astro/heroes.B7y5aHrT_Z1GmWoS.webp" srcset="/_astro/heroes.B7y5aHrT_1tcCxz.webp 480w, /_astro/heroes.B7y5aHrT_Z4TtoQ.webp 800w, /_astro/heroes.B7y5aHrT_Z1GmWoS.webp 1200w" alt="Panneau Hero Dungeon de HagiCode nommé Ember Keep, listant trois héros en cours avec leur niveau, leur progression et le texte du récit." sizes="(min-width: 50rem) 560px, 100vw" loading="lazy" decoding="async" fetchpriority="low" width="1200" height="1111" class="astro-wvyqmlyc"><figcaption class="astro-wvyqmlyc">Hero Dungeon : les héros avancent le travail pendant que vous suivez progression, niveaux et récit.</figcaption></figure></li></ul></div><div class="hagilight-article-promotion__closing astro-wvyqmlyc"><div class="hagilight-article-promotion__windows astro-wvyqmlyc"><h3 id="hagilight-article-promotion-windows-title" class="hagilight-article-promotion__windows-label astro-wvyqmlyc">Télécharger pour Windows</h3><div class="hagilight-article-promotion__windows-actions astro-wvyqmlyc"><ms-store-badge productid="9N3PM0N3SVDW" productname="HagiCode" window-mode="direct" theme="auto" size="large" animation="on" language="fr" aria-label="Ouvrir HagiCode sur le Microsoft Store" title="Ouvrir HagiCode sur le Microsoft Store" data-ga-category="download" data-ga-label="microsoftStore" data-ga-location="article_promotion" data-ga-url="https://apps.microsoft.com/detail/9N3PM0N3SVDW" class="astro-wvyqmlyc"><a class="hagilight-article-promotion__store-fallback astro-wvyqmlyc" href="https://apps.microsoft.com/detail/9N3PM0N3SVDW" aria-label="Ouvrir HagiCode sur le Microsoft Store" title="Ouvrir HagiCode sur le Microsoft Store">Obtenir sur le Microsoft Store</a></ms-store-badge><a class="hagilight-article-promotion__downloads astro-wvyqmlyc" href="https://www.hagicode.com/fr-FR/desktop/" data-ga-category="download" data-ga-label="downloadClient" data-ga-location="article_promotion">Tous les téléchargements</a></div></div><div class="hagilight-article-promotion__share astro-wvyqmlyc"><h3 id="hagilight-article-promotion-share-title" class="astro-wvyqmlyc">Partager HagiCode</h3><p class="hagilight-article-promotion__share-text astro-wvyqmlyc">HagiCode est un espace de développement agentique avec workflows OpenSpec, exécution multi-agent et Hero Dungeon : https://www.hagicode.com/</p></div></div></section><script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script><footer class="sl-flex astro-ddtxxk7k"><div class="meta sl-flex astro-ddtxxk7k"></div><div class="pagination-links print:hidden astro-b5raizh3" dir="ltr"><a href="/fr-FR/awesome/awesome-nodejs/" rel="prev" class="astro-b5raizh3"><svg aria-hidden="true" class="astro-b5raizh3 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17 11H9.41l3.3-3.29a1.004 1.004 0 1 0-1.42-1.42l-5 5a1 1 0 0 0-.21.33 1 1 0 0 0 0 .76 1 1 0 0 0 .21.33l5 5a1.002 1.002 0 0 0 1.639-.325 1 1 0 0 0-.219-1.095L9.41 13H17a1 1 0 0 0 0-2Z"/></svg><span class="astro-b5raizh3">Précédent<br class="astro-b5raizh3"><span class="link-title astro-b5raizh3">Node.js</span></span></a><a href="/fr-FR/awesome/awesome-php/" rel="next" class="astro-b5raizh3"><svg aria-hidden="true" class="astro-b5raizh3 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17.92 11.62a1.001 1.001 0 0 0-.21-.33l-5-5a1.003 1.003 0 1 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1.002 1.002 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219l5-5a1 1 0 0 0 .21-.33 1 1 0 0 0 0-.76Z"/></svg><span class="astro-b5raizh3">Suivant<br class="astro-b5raizh3"><span class="link-title astro-b5raizh3">PHP</span></span></a></div></footer><div class="hagilight-site-links astro-psnq7rln"><section class="astro-psnq7rln"><h2 class="astro-psnq7rln">Sites de l&#39;écosystème</h2><nav aria-label="Liens vers les sites de l'écosystème" class="astro-psnq7rln"><ul class="astro-psnq7rln"><li class="astro-psnq7rln"><a href="https://tasks.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">HagiTask</a></li><li class="astro-psnq7rln"><a href="https://cost.hagicode.com" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">L&#39;IA va-t-elle me remplacer ?</a></li><li class="astro-psnq7rln"><a href="https://www.hagicode.com/fr-FR/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Site principal HagiCode</a></li><li class="astro-psnq7rln"><a href="https://newbe.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">newbe</a></li><li class="astro-psnq7rln"><a href="https://index.hagicode.com/data/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Index Data Mirror</a></li><li class="astro-psnq7rln"><a href="https://builder.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Docker Compose Builder</a></li><li class="astro-psnq7rln"><a href="https://status.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">HagiCode Status</a></li><li class="astro-psnq7rln"><a href="https://awesome.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Awesome Sites</a></li><li class="astro-psnq7rln"><a href="https://design.hagicode.com/fr-FR/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Awesome Design MD</a></li><li class="astro-psnq7rln"><a href="https://soul.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Soul Builder</a></li><li class="astro-psnq7rln"><a href="https://trait.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Trait Builder</a></li><li class="astro-psnq7rln"><a href="https://openspec.hagicode.com/fr-FR/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Documentation OpenSpec</a></li><li class="astro-psnq7rln"><a href="https://omniroute.hagicode.com/fr-FR/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Documentation OmniRoute</a></li></ul></nav></section><section class="astro-psnq7rln"><h2 class="astro-psnq7rln">Liens rapides</h2><nav aria-label="Liens rapides" class="astro-psnq7rln"><ul class="astro-psnq7rln"><li class="astro-psnq7rln"><a href="https://www.hagicode.com/fr-FR/desktop/" data-ga-category="download" data-ga-label="downloadClient" data-ga-location="footer" class="astro-psnq7rln">Télécharger Hagicode</a></li><li class="astro-psnq7rln"><a href="https://apps.microsoft.com/detail/9N3PM0N3SVDW" target="_blank" rel="noopener noreferrer" data-ga-category="download" data-ga-label="microsoftStore" data-ga-location="footer" class="astro-psnq7rln">Télécharger Hagicode pour Windows</a></li><li class="astro-psnq7rln"><a href="https://docs.hagicode.com/fr-FR/installation/docker-compose/" data-ga-category="navigation" data-ga-label="dockerCompose" data-ga-location="footer" class="astro-psnq7rln">Installation de Docker Compose</a></li><li class="astro-psnq7rln"><a href="https://docs.hagicode.com/fr-FR/product-overview/" data-ga-category="navigation" data-ga-label="productDocs" data-ga-location="footer" class="astro-psnq7rln">Documentation produit</a></li><li class="astro-psnq7rln"><a href="https://docs.hagicode.com/fr-FR/blog/" data-ga-category="navigation" data-ga-label="blogPosts" data-ga-location="footer" class="astro-psnq7rln">Articles du blog</a></li><li class="astro-psnq7rln"><a href="https://awesome.hagicode.com/rss.xml" class="astro-psnq7rln">Flux RSS</a></li><li class="astro-psnq7rln"><a href="https://awesome.hagicode.com/rss.fr-FR.xml" class="astro-psnq7rln">Flux RSS de la langue actuelle</a></li><li class="astro-psnq7rln"><a href="/sitemap-index.xml" class="astro-psnq7rln">Plan du site</a></li><li class="astro-psnq7rln"><a href="https://www.hagicode.com/fr-FR/about/" class="astro-psnq7rln">À propos de HagiCode</a></li></ul></nav></section><section class="astro-psnq7rln"><h2 class="astro-psnq7rln">Communauté</h2><nav aria-label="Liens communautaires" class="astro-psnq7rln"><ul class="astro-psnq7rln"><li class="astro-psnq7rln"><a href="https://github.com/HagiCode-org/site" target="_blank" rel="noopener noreferrer" data-ga-category="community" data-ga-label="github" data-ga-location="footer" class="astro-psnq7rln">GitHub</a></li><li class="astro-psnq7rln"><a href="https://discord.gg/qY662sJK" target="_blank" rel="noopener noreferrer" data-ga-category="community" data-ga-label="discord" data-ga-location="footer" class="astro-psnq7rln">Discord</a></li><li class="astro-psnq7rln"><a href="https://github.com/HagiCode-org/site/issues" target="_blank" rel="noopener noreferrer" data-ga-category="community" data-ga-label="issueFeedback" data-ga-location="footer" class="astro-psnq7rln">Signaler un problème</a></li><li class="astro-psnq7rln"><a href="mailto:support@hagicode.com" class="astro-psnq7rln">E-mail de contact</a></li><li class="astro-psnq7rln"><a href="https://qm.qq.com/q/Fwb0o094kw" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Groupe QQ 610394020</a></li></ul></nav></section><nav class="hagilight-filings astro-psnq7rln" aria-label="Voir les informations de dépôt"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" aria-label="Voir les informations de dépôt ICP" class="astro-psnq7rln">Dépôt ICP 闽ICP备2026004153号-1</a><a href="http://www.beian.gov.cn/portal/registerSystemInfo" target="_blank" rel="noopener noreferrer" aria-label="Voir les informations de dépôt de sécurité publique" class="astro-psnq7rln">Dépôt de sécurité publique 闽公网安备35011102351148号</a></nav></div><p class="hagilight-copyright astro-psnq7rln"><span>© 2026 HagiCode</span> | <span class="hagilight-copyright__attribution astro-psnq7rln">Powered By hagilight-starlight@0.7.0</span></p><hagilight-promoto-banner class="hagilight-promoto" data-locale="fr-FR" hidden="true"><section class="hagilight-promoto__shell" data-promoto-shell hidden aria-label="Featured promotion"><div class="hagilight-promoto__viewport"><div class="hagilight-promoto__track" data-promoto-track></div></div><nav class="hagilight-promoto__controls" data-promoto-controls aria-label="Promotion controls" hidden><button type="button" class="hagilight-promoto__control" data-promoto-previous aria-label="Previous promotion"><svg class="hagilight-promoto__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 6l-6 6 6 6"></path></svg></button><span class="hagilight-promoto__count" data-promoto-count aria-label="Promotion progress"></span><button type="button" class="hagilight-promoto__control" data-promoto-next aria-label="Next promotion"><svg class="hagilight-promoto__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6"></path></svg></button><button type="button" class="hagilight-promoto__control" data-promoto-pause aria-pressed="false" aria-label="Pause automatic promotion rotation"><svg class="hagilight-promoto__icon hagilight-promoto__icon--pause" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6v12M15 6v12"></path></svg><svg class="hagilight-promoto__icon hagilight-promoto__icon--play" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5.5v13l11-6.5z"></path></svg></button></nav><button type="button" class="hagilight-promoto__dismiss" data-promoto-dismiss aria-label="Dismiss promotion"><svg class="hagilight-promoto__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"></path></svg></button><span class="hagilight-promoto__status" data-promoto-status aria-live="polite"></span></section></hagilight-promoto-banner><script type="module" src="/_astro/PromotoBanner.astro_astro_type_script_index_0_lang.CV5ho8Sw.js"></script><script charset="UTF-8" id="LA_COLLECT" src="https://sdk.51.la/js-sdk-pro.min.js"></script><script>(function(){const siteId = "L6b88a5yK4h2Xnci";
+
+      LA.init({ id: siteId, ck: siteId, autoTrack: true, hashMode: true, screenRecord: true });
+    })();</script></div></div></main></div></div></div></div><dialog class="awesome-external-warning" aria-labelledby="awesome-external-warning-heading" aria-describedby="awesome-external-warning-explanation" data-warning-fallback="Vous quittez Awesome Site. Nous ne contrôlons pas ce site. Continuer vers :" data-pagefind-ignore><h2 id="awesome-external-warning-heading">Quitter Awesome Site ?</h2><p id="awesome-external-warning-explanation">Vous allez visiter un site externe. Nous ne contrôlons ni son contenu ni ses pratiques de confidentialité.</p><p class="awesome-external-warning-label">Site de destination</p><p class="awesome-external-warning-host" data-warning-host></p><p class="awesome-external-warning-url" data-warning-url></p><p class="awesome-external-warning-error" data-warning-error role="alert" aria-live="assertive" hidden>Cette adresse de site est invalide ou contient des identifiants ; elle ne peut pas être ouverte ici.</p><div class="awesome-external-warning-actions"><button type="button" data-warning-stay autofocus>Rester sur Awesome Site</button><a data-warning-continue aria-disabled="true" tabindex="-1">Continuer vers le site</a></div><script type="module" src="/_astro/ExternalLinkWarning.astro_astro_type_script_index_0_lang.DAGpZW5P.js"></script></dialog><script type="module" src="/_astro/PageFrame.astro_astro_type_script_index_0_lang.D1VWYcNP.js"></script></body></html>

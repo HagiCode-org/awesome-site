@@ -1,0 +1,1353 @@
+<!DOCTYPE html><html lang="zh-Hant" dir="ltr" data-theme="dark" data-has-toc data-has-sidebar class="astro-g5ptsecz"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>DeepSeek Integrations | Awesome Site</title><link rel="canonical" href="https://awesome.hagicode.com/zh-Hant/awesome/awesome-deepseek-integration/"/><link rel="alternate" hreflang="en-US" href="https://awesome.hagicode.com/awesome/awesome-deepseek-integration/"/><link rel="alternate" hreflang="zh-CN" href="https://awesome.hagicode.com/zh-CN/awesome/awesome-deepseek-integration/"/><link rel="alternate" hreflang="zh-Hant" href="https://awesome.hagicode.com/zh-Hant/awesome/awesome-deepseek-integration/"/><link rel="alternate" hreflang="fr-FR" href="https://awesome.hagicode.com/fr-FR/awesome/awesome-deepseek-integration/"/><link rel="alternate" hreflang="de-DE" href="https://awesome.hagicode.com/de-DE/awesome/awesome-deepseek-integration/"/><link rel="alternate" hreflang="es-ES" href="https://awesome.hagicode.com/es-ES/awesome/awesome-deepseek-integration/"/><link rel="alternate" hreflang="ja-JP" href="https://awesome.hagicode.com/ja-JP/awesome/awesome-deepseek-integration/"/><link rel="alternate" hreflang="ko-KR" href="https://awesome.hagicode.com/ko-KR/awesome/awesome-deepseek-integration/"/><link rel="alternate" hreflang="pt-BR" href="https://awesome.hagicode.com/pt-BR/awesome/awesome-deepseek-integration/"/><link rel="alternate" hreflang="ru-RU" href="https://awesome.hagicode.com/ru-RU/awesome/awesome-deepseek-integration/"/><link rel="alternate" hreflang="x-default" href="https://awesome.hagicode.com/awesome/awesome-deepseek-integration/"/><link rel="sitemap" href="/sitemap-index.xml"/><link rel="alternate" type="application/rss+xml" href="https://awesome.hagicode.com/rss.xml"/><script>(() => {
+  let mode = 'wide';
+  try {
+    const stored = localStorage.getItem('hagilight-content-width');
+    if (stored === 'wide' || stored === 'narrow') mode = stored;
+  } catch {
+    mode = 'wide';
+  }
+  document.documentElement.dataset.hagilightContentWidth = mode;
+})();</script><script>(function () {
+  var choices = ["default","default-light","default-dark","ocean-light","ocean-dark","sakura-light","sakura-dark","forest-light","forest-dark"];
+  var choiceKey = "hagilight-theme";
+  var choice = 'default';
+  try {
+    var stored = localStorage.getItem(choiceKey);
+    if (choices.includes(stored)) choice = stored;
+  } catch (error) {}
+  var themeId = choice === 'default'
+    ? "forest"
+    : choice.slice(0, choice.lastIndexOf('-'));
+  document.documentElement.dataset.hagilightTheme = themeId;
+})();</script><link rel="icon" href="data:image/x-icon;base64,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" type="image/x-icon"/><link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml"/><meta name="generator" content="Astro v7.3.5"/><meta name="generator" content="Starlight v0.42.5"/><meta property="og:type" content="article"/><meta property="og:url" content="https://awesome.hagicode.com/zh-Hant/awesome/awesome-deepseek-integration/"/><meta property="og:locale" content="zh-Hant"/><meta property="og:site_name" content="Awesome Site"/><meta name="twitter:card" content="summary_large_image"/><meta name="description" content="精選整合 DeepSeek 的應用程式、工具、擴充功能與框架。"/><meta property="og:title" content="Awesome Site"/><meta property="og:description" content="精選整合 DeepSeek 的應用程式、工具、擴充功能與框架。"/><meta name="twitter:title" content="Awesome Site"/><meta name="twitter:description" content="精選整合 DeepSeek 的應用程式、工具、擴充功能與框架。"/><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Awesome 精選集","item":"https://awesome.hagicode.com/zh-Hant/"},{"@type":"ListItem","position":2,"name":"Awesome 精選集","item":"https://awesome.hagicode.com/zh-Hant/awesome/"},{"@type":"ListItem","position":3,"name":"DeepSeek Integrations","item":"https://awesome.hagicode.com/zh-Hant/awesome/awesome-deepseek-integration/"}]}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-EN03FMT2Q4"></script><script>(function(){const measurementId = "G-EN03FMT2Q4";
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', measurementId);
+    })();</script><script type="module" src="/_astro/GoogleAnalytics.astro_astro_type_script_index_0_lang.DR20hGCB.js"></script><script>
+	window.StarlightThemeProvider = (() => {
+		const storedTheme =
+			typeof localStorage !== 'undefined' && localStorage.getItem('starlight-theme');
+		const theme =
+			storedTheme ||
+			(window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+		document.documentElement.dataset.theme = theme === 'light' ? 'light' : 'dark';
+		return {
+			updatePickers(theme = storedTheme || 'auto') {
+				document.querySelectorAll('starlight-theme-select').forEach((picker) => {
+					const select = picker.querySelector('select');
+					if (select) select.value = theme;
+					/** @type {HTMLTemplateElement | null} */
+					const tmpl = document.querySelector(`#theme-icons`);
+					const newIcon = tmpl && tmpl.content.querySelector('.' + theme);
+					if (newIcon) {
+						const oldIcon = picker.querySelector('svg.label-icon');
+						if (oldIcon) {
+							oldIcon.replaceChildren(...newIcon.cloneNode(true).childNodes);
+						}
+					}
+				});
+			},
+		};
+	})();
+</script><template id="theme-icons"><svg aria-hidden="true" class="light astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg aria-hidden="true" class="dark astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg><svg aria-hidden="true" class="auto astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg></template><link rel="stylesheet" href="/_astro/print.ehPL0gv-.css" media="print"><link rel="stylesheet" href="/_astro/common.mVYJCJjM.css"><script type="module" src="/_astro/page.Dwipeu-R.js"></script></head><body class="astro-g5ptsecz"><a class="sl-skip-link astro-qb7clj6f" href="#_top">Skip to content</a><div class="page sl-flex astro-yntsjkba"><header class="header astro-yntsjkba"><div class="header astro-76dcl4nh"><div class="title-wrapper sl-flex astro-76dcl4nh"><a href="/zh-Hant" class="site-title sl-flex astro-6rvad3va"><img class="astro-6rvad3va" alt="HagiCode" src="/_astro/logo.COFWaAMt.png" width="32" height="32"><span class="astro-6rvad3va" translate="no">Awesome Site</span></a></div><div class="sl-flex print:hidden astro-76dcl4nh"><site-search class="astro-76dcl4nh astro-b5kgnn7o" data-translations="{&quot;placeholder&quot;:&quot;Search&quot;}"><button data-open-modal disabled aria-label="Search" aria-keyshortcuts="Control+K" class="astro-b5kgnn7o"><svg aria-hidden="true" class="astro-b5kgnn7o astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.71 20.29 18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z"/></svg><span class="sl-hidden md:sl-block astro-b5kgnn7o" aria-hidden="true">Search</span><kbd class="sl-hidden md:sl-flex astro-b5kgnn7o" style="display: none;"><kbd class="astro-b5kgnn7o">Ctrl</kbd><kbd class="astro-b5kgnn7o">K</kbd></kbd></button><dialog style="padding:0" aria-label="Search" class="astro-b5kgnn7o"><div class="dialog-frame sl-flex astro-b5kgnn7o"><button data-close-modal class="sl-flex md:sl-hidden astro-b5kgnn7o">Cancel</button><div class="search-container astro-b5kgnn7o"><div id="starlight__search" class="astro-b5kgnn7o"></div></div></div></dialog></site-search><script>
+	(() => {
+		const openBtn = document.querySelector('button[data-open-modal]');
+		const shortcut = openBtn?.querySelector('kbd');
+		if (!openBtn || !(shortcut instanceof HTMLElement)) return;
+		const platformKey = shortcut.querySelector('kbd');
+		if (platformKey && /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) {
+			platformKey.textContent = '⌘';
+			openBtn.setAttribute('aria-keyshortcuts', 'Meta+K');
+		}
+		shortcut.style.display = '';
+	})();
+</script><script type="module" src="/_astro/Search.astro_astro_type_script_index_0_lang.Bumivpjo.js"></script></div><div class="sl-hidden md:sl-flex print:hidden right-group astro-76dcl4nh"><nav class="header-links astro-76dcl4nh" aria-label="Site navigation"><a href="https://www.hagicode.com/zh-Hant/" data-ga-category="navigation" data-ga-label="home" data-ga-location="header" class="astro-76dcl4nh">首頁</a><a href="https://docs.hagicode.com/zh-Hant/blog/" data-ga-category="navigation" data-ga-label="blog" data-ga-location="header" class="astro-76dcl4nh">部落格</a><a href="https://www.hagicode.com/zh-Hant/about/" data-ga-category="navigation" data-ga-label="support" data-ga-location="header" class="astro-76dcl4nh">獲取技術支援</a></nav><div class="sl-flex social-icons astro-76dcl4nh"></div><hagilight-theme-select class="theme-picker astro-mexofp5s"><label style="--sl-select-width: 12.5em" class="astro-mexofp5s"><span class="sr-only astro-mexofp5s">Select theme</span><svg class="icon label-icon astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-mexofp5s"><option value="default" selected class="astro-mexofp5s">預設</option><optgroup label="預設主題" class="astro-mexofp5s"><option value="default-light" class="astro-mexofp5s">預設 · Light</option><option value="default-dark" class="astro-mexofp5s">預設 · Dark</option></optgroup><optgroup label="海洋" class="astro-mexofp5s"><option value="ocean-light" class="astro-mexofp5s">海洋 · Light</option><option value="ocean-dark" class="astro-mexofp5s">海洋 · Dark</option></optgroup><optgroup label="櫻花" class="astro-mexofp5s"><option value="sakura-light" class="astro-mexofp5s">櫻花 · Light</option><option value="sakura-dark" class="astro-mexofp5s">櫻花 · Dark</option></optgroup><optgroup label="森林" class="astro-mexofp5s"><option value="forest-light" class="astro-mexofp5s">森林 · Light</option><option value="forest-dark" class="astro-mexofp5s">森林 · Dark</option></optgroup></select><svg class="icon caret astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label><template class="mode-icons astro-mexofp5s"><svg class="mode-auto astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><svg class="mode-light astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg class="mode-dark astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg></template></hagilight-theme-select><script type="module">var e=`forest`,t=[`default`,`default-light`,`default-dark`,`ocean-light`,`ocean-dark`,`sakura-light`,`sakura-dark`,`forest-light`,`forest-dark`],n=`hagilight-theme`,r=`starlight-theme`,i=new Set(t);function a(e){return i.has(e)?e:`default`}function o(e){if(e==="default")return{themeId:`default`};let t=e.lastIndexOf(`-`);return{themeId:e.slice(0,t),mode:e.slice(t+1)}}function s(e){try{return globalThis.localStorage?.getItem(e)??null}catch{return null}}function c(e,t){try{globalThis.localStorage?.setItem(e,t)}catch{return}}function l(t){let{themeId:n,mode:r}=o(t);return r===void 0?e:n}function u(){return a(s(n))}function d(e,t=document.documentElement){let{mode:i}=o(e);t.dataset.hagilightTheme=l(e),i!==void 0&&(t.dataset.theme=i),c(n,e),c(r,i??``)}`${JSON.stringify(t)}${JSON.stringify(n)}${JSON.stringify(e)}`,{"de-de":{defaultOption:`Standard`,defaultThemeGroup:`Standard-Design`,themes:{ocean:`Ozean`,sakura:`Sakura`,forest:`Wald`}},"en-us":{defaultOption:`Default`,defaultThemeGroup:`Default theme`,themes:{ocean:`Ocean`,sakura:`Sakura`,forest:`Forest`}},"es-es":{defaultOption:`Predeterminado`,defaultThemeGroup:`Tema predeterminado`,themes:{ocean:`Océano`,sakura:`Sakura`,forest:`Bosque`}},"fr-fr":{defaultOption:`Par défaut`,defaultThemeGroup:`Thème par défaut`,themes:{ocean:`Océan`,sakura:`Sakura`,forest:`Forêt`}},"ja-jp":{defaultOption:`デフォルト`,defaultThemeGroup:`デフォルトテーマ`,themes:{ocean:`海`,sakura:`桜`,forest:`森`}},"ko-kr":{defaultOption:`기본값`,defaultThemeGroup:`기본 테마`,themes:{ocean:`바다`,sakura:`벚꽃`,forest:`숲`}},"pt-br":{defaultOption:`Padrão`,defaultThemeGroup:`Tema padrão`,themes:{ocean:`Oceano`,sakura:`Sakura`,forest:`Floresta`}},"ru-ru":{defaultOption:`По умолчанию`,defaultThemeGroup:`Стандартная тема`,themes:{ocean:`Океан`,sakura:`Сакура`,forest:`Лес`}},"zh-cn":{defaultOption:`默认`,defaultThemeGroup:`默认主题`,themes:{ocean:`海洋`,sakura:`樱花`,forest:`森林`}},"zh-hant":{defaultOption:`預設`,defaultThemeGroup:`預設主題`,themes:{ocean:`海洋`,sakura:`櫻花`,forest:`森林`}}}[`en-us`];var f=e=>e.endsWith(`-light`)?`mode-light`:e.endsWith(`-dark`)?`mode-dark`:`mode-auto`,p=class extends HTMLElement{connectedCallback(){if(this.dataset.initialized)return;this.dataset.initialized=`true`;let e=this.querySelector(`select`);if(!(e instanceof HTMLSelectElement))return;let t=t=>{e.value=t;let n=this.querySelector(`svg.label-icon`),r=this.querySelector(`template.mode-icons`)?.content.querySelector(`.${f(t)}`);n&&r&&n.replaceChildren(...r.cloneNode(!0).childNodes)};t(u()),e.addEventListener(`change`,()=>{let n=a(e.value);d(n),t(n)}),matchMedia(`(prefers-color-scheme: light)`).addEventListener(`change`,e=>{u()==="default"&&(document.documentElement.dataset.theme=e.matches?`light`:`dark`)})}};customElements.get(`hagilight-theme-select`)||customElements.define(`hagilight-theme-select`,p);</script><hagilight-language-chooser class="language-switcher astro-pykrs55g"><button type="button" class="language-trigger astro-pykrs55g" aria-haspopup="dialog" aria-controls="hagilight-language-dialog" aria-expanded="false" aria-label="Select language: 繁體中文" title="繁體中文"><span class="trigger-label astro-pykrs55g">繁體中文</span><span class="trigger-chevron astro-pykrs55g" aria-hidden="true">▾</span></button><dialog id="hagilight-language-dialog" class="language-dialog astro-pykrs55g" aria-modal="true" aria-labelledby="language-dialog-title"><div class="dialog-header astro-pykrs55g"><div class="astro-pykrs55g"><h2 id="language-dialog-title" class="dialog-title astro-pykrs55g">Select language</h2><p class="dialog-current astro-pykrs55g">目前語言: <strong class="astro-pykrs55g">繁體中文</strong></p></div><button type="button" class="dialog-close astro-pykrs55g" aria-label="關閉語言選擇">×</button></div><div class="language-grid-scroller astro-pykrs55g"><div class="language-grid astro-pykrs55g" role="listbox" aria-label="Select language"><button type="button" role="option" data-locale="root" data-href="/awesome/awesome-deepseek-integration/" lang="en-US" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">English</span></button><button type="button" role="option" data-locale="zh-CN" data-href="/zh-CN/awesome/awesome-deepseek-integration/" lang="zh-CN" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">简体中文</span></button><button type="button" role="option" data-locale="zh-Hant" data-href="/zh-Hant/awesome/awesome-deepseek-integration/" lang="zh-Hant" aria-selected="true" class="language-option language-option-selected astro-pykrs55g"><span class="language-option-label astro-pykrs55g">繁體中文</span><span class="selected-badge astro-pykrs55g">已選取</span></button><button type="button" role="option" data-locale="fr-FR" data-href="/fr-FR/awesome/awesome-deepseek-integration/" lang="fr-FR" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Français</span></button><button type="button" role="option" data-locale="de-DE" data-href="/de-DE/awesome/awesome-deepseek-integration/" lang="de-DE" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Deutsch</span></button><button type="button" role="option" data-locale="es-ES" data-href="/es-ES/awesome/awesome-deepseek-integration/" lang="es-ES" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Español (España)</span></button><button type="button" role="option" data-locale="ja-JP" data-href="/ja-JP/awesome/awesome-deepseek-integration/" lang="ja-JP" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">日本語</span></button><button type="button" role="option" data-locale="ko-KR" data-href="/ko-KR/awesome/awesome-deepseek-integration/" lang="ko-KR" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">한국어</span></button><button type="button" role="option" data-locale="pt-BR" data-href="/pt-BR/awesome/awesome-deepseek-integration/" lang="pt-BR" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Português (Brasil)</span></button><button type="button" role="option" data-locale="ru-RU" data-href="/ru-RU/awesome/awesome-deepseek-integration/" lang="ru-RU" aria-selected="false" class="language-option astro-pykrs55g"><span class="language-option-label astro-pykrs55g">Русский</span></button></div></div></dialog></hagilight-language-chooser><script type="module">Object.entries({root:{label:`English`,lang:`en-US`},"zh-CN":{label:`简体中文`,lang:`zh-CN`},"zh-Hant":{label:`繁體中文`,lang:`zh-Hant`},"fr-FR":{label:`Français`,lang:`fr-FR`},"de-DE":{label:`Deutsch`,lang:`de-DE`},"es-ES":{label:`Español (España)`,lang:`es-ES`},"ja-JP":{label:`日本語`,lang:`ja-JP`},"ko-KR":{label:`한국어`,lang:`ko-KR`},"pt-BR":{label:`Português (Brasil)`,lang:`pt-BR`},"ru-RU":{label:`Русский`,lang:`ru-RU`}}).map(([e,t])=>({code:e,label:t.label,lang:t.lang}));function e(e,t,n){if(n<1)return-1;switch(t){case`ArrowDown`:case`ArrowRight`:return(e+1)%n;case`ArrowUp`:case`ArrowLeft`:return(e-1+n)%n;case`Home`:return 0;case`End`:return n-1;default:return e}}function t(e){try{let t=window.localStorage.getItem(`starlight-route`),n={};if(t)try{let e=JSON.parse(t);e&&typeof e==`object`&&!Array.isArray(e)&&(n=e)}catch{n={}}window.localStorage.setItem(`starlight-route`,JSON.stringify({...n,lang:e}))}catch{}}var n=class extends HTMLElement{connectedCallback(){if(this.dataset.initialized)return;this.dataset.initialized=`true`;let n=this.querySelector(`.language-trigger`),r=this.querySelector(`.language-dialog`),i=this.querySelector(`.dialog-close`),a=[...this.querySelectorAll(`[role="option"]`)];if(!(n instanceof HTMLButtonElement)||!(r instanceof HTMLDialogElement)||!(i instanceof HTMLButtonElement))return;let o=()=>{r.open?r.close():n.focus()};n.addEventListener(`click`,()=>{if(r.open){o();return}r.showModal(),n.setAttribute(`aria-expanded`,`true`),(a.find(e=>e.getAttribute(`aria-selected`)===`true`)??a[0])?.focus()}),i.addEventListener(`click`,o),r.addEventListener(`cancel`,e=>{e.preventDefault(),o()}),r.addEventListener(`close`,()=>{n.setAttribute(`aria-expanded`,`false`),n.focus()}),r.addEventListener(`click`,e=>{e.target===r&&o()}),r.querySelector(`[role="listbox"]`)?.addEventListener(`keydown`,t=>{if(!(t.target instanceof HTMLButtonElement))return;let n=a.indexOf(t.target),r=e(n,t.key,a.length);r!==n&&(t.preventDefault(),a[r]?.focus())});for(let e of a)e.addEventListener(`click`,()=>{let n=e.dataset.locale,r=e.dataset.href;if(!n||!r||(o(),e.getAttribute(`aria-selected`)===`true`))return;t(n);let i=new URL(r,window.location.origin);i.search=window.location.search,i.hash=window.location.hash,window.location.assign(i.toString())})}};customElements.get(`hagilight-language-chooser`)||customElements.define(`hagilight-language-chooser`,n);</script></div></div></header><nav class="sidebar print:hidden astro-yntsjkba" aria-label="Main"><button popovertarget="starlight__sidebar" class="sl-menu-button sl-flex md:sl-hidden print:hidden astro-r2osgdlg"><svg aria-hidden="true" class="open-menu astro-r2osgdlg astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M3 8h18a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"/></svg><svg aria-hidden="true" class="close-menu astro-r2osgdlg astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="m13.41 12 6.3-6.29a1.004 1.004 0 1 0-1.42-1.42L12 10.59l-6.29-6.3a1.004 1.004 0 0 0-1.42 1.42l6.3 6.29-6.3 6.29a1 1 0 0 0 0 1.42.998.998 0 0 0 1.42 0l6.29-6.3 6.29 6.3a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.42L13.41 12Z"/></svg><span class="sr-only astro-r2osgdlg">Menu</span></button><script type="module">var e=class extends HTMLElement{constructor(){super();let e=matchMedia(`(min-width: 50em)`),t=()=>{this.popover=e.matches?null:`auto`};t(),e.addEventListener(`change`,()=>t()),this.addEventListener(`toggle`,({newState:e})=>this.trapFocus(e===`open`))}trapFocus(e){document.querySelectorAll(`.main-frame, .sl-skip-link`).forEach(t=>{t.toggleAttribute(`inert`,e)})}};customElements.define(`sl-sidebar-pane`,e);</script><script type="module">var e=class extends HTMLElement{constructor(){super();let e=this.querySelector(`select`);e&&(e.addEventListener(`change`,e=>{e.currentTarget instanceof HTMLSelectElement&&(window.location.pathname=e.currentTarget.value)}),window.addEventListener(`pageshow`,t=>{if(!t.persisted)return;let n=e.querySelector(`option[selected]`)?.index;n!==e.selectedIndex&&(e.selectedIndex=n??0)}))}};customElements.define(`starlight-lang-select`,e);</script><sl-sidebar-pane popover id="starlight__sidebar" class="sidebar-pane astro-yntsjkba"><div class="sidebar-content sl-flex astro-yntsjkba"><sl-sidebar-state-persist data-hash="14g212j" class="astro-ipdry5cl"><script aria-hidden="true">
+		(() => {
+			try {
+				if (!matchMedia('(min-width: 50em)').matches) return;
+				/** @type {HTMLElement | null} */
+				const target = document.querySelector('sl-sidebar-state-persist');
+				const state = JSON.parse(sessionStorage.getItem('sl-sidebar-state') || '0');
+				if (!target || !state || target.dataset.hash !== state.hash) return;
+				window._starlightScrollRestore = state.scroll;
+				customElements.define(
+					'sl-sidebar-restore',
+					class SidebarRestore extends HTMLElement {
+						connectedCallback() {
+							try {
+								const idx = parseInt(this.dataset.index || '');
+								const details = this.closest('details');
+								if (details && typeof state.open[idx] === 'boolean') details.open = state.open[idx];
+							} catch {}
+						}
+					}
+				);
+			} catch {}
+		})();
+	</script><ul class="top-level astro-rmhv4bp6"><li class="astro-rmhv4bp6"><a href="/zh-Hant/" class="large astro-rmhv4bp6"><span class="astro-rmhv4bp6">首頁</span></a></li><li class="astro-rmhv4bp6"><details open class="astro-rmhv4bp6"><summary class="astro-rmhv4bp6"><span class="group-label astro-rmhv4bp6"><span class="large astro-rmhv4bp6">精選合集</span></span><svg aria-hidden="true" class="caret astro-rmhv4bp6 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="0"></sl-sidebar-restore><ul class="astro-rmhv4bp6"><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">精選集與儲存庫</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/android-security-awesome/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Android Security Awesome</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-3d-gaussian-splatting/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">3D Gaussian Splatting</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-actions/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Actions</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-agent-skills/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agent Skills</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-agentic-ai-zh/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agentic AI (Chinese)</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-agentic-patterns/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Agentic Patterns</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-ai-apps/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">AI Apps</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-android-ui/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Android UI</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-ansible/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Ansible</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-automl-papers/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">AutoML Papers</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-bash/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Bash</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-chaos-engineering/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Chaos Engineering</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-chatgpt-prompts-zh/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">ChatGPT Prompts (Chinese)</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-chinese-nlp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Chinese NLP</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-chrome-devtools/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Chrome DevTools</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-cloud-security/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Cloud Security</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-codex-subagents/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Codex Subagents</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-compose/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Compose</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-console-services/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Console Services</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-copilot/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Copilot</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-coreml-models/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Core ML Models</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-cpp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">C++</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-ctf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">CTF</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-datascience/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Data Science</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-db-tools/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">DB Tools</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-deep-text-detection-recognition/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Deep Text Detection and Recognition</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-deepseek-integration/" aria-current="page" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">DeepSeek Integrations</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-design-md/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Design.md</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-design-systems/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Design Systems</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-django/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Django</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-docker/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Docker</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-dotnet/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">.NET</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-electron/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Electron</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-fastapi/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">FastAPI</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-flask/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Flask</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-generative-ai/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Generative AI</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-generative-ai-guide/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Generative AI Guide</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-github-profile-readme/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GitHub Profile README</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-golang-algorithm/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Golang Algorithm</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-gpt-agents/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GPT Agents</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-hacking/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Hacking</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-incident-response/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Incident Response</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-jellyfin/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Jellyfin</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-k8s-resources/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Kubernetes Resources</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-knowledge-distillation/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Knowledge Distillation</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-llm/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-llm-apps/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM Apps</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-llm-resources/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM Resources</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-llm-strawberry/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">LLM Strawberry</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-microservices/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Microservices</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-nlp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">NLP</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-nodejs/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Node.js</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-paddle-deeplearning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">DeepLearning</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-php/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PHP</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-postgres/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PostgreSQL</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-privacy/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Privacy</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-production-machine-learning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Production Machine Learning</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-prompt-engineering/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Prompt Engineering</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-rag/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">RAG</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-react-components/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">React Components</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-react-hooks/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">React Hooks</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-red-teaming/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Red Teaming</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-rlhf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">RLHF</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-rust/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Rust</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-scalability/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Scalability</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-shell/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Shell</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-shodan-queries/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Shodan Queries</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-software-architecture/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Software Architecture</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-sre/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">SRE</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-swift/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Swift</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-system-design/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">System Design</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-tf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Terraform</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-threat-intelligence/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Threat Intelligence</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-typescript/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">TypeScript</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-waf/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">WAF</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/awesome-web-hacking/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Web Hacking</span></a></li></ul></details></li><li class="astro-rmhv4bp6"><details open class="astro-rmhv4bp6"><summary class="astro-rmhv4bp6"><span class="group-label astro-rmhv4bp6"><span class="large astro-rmhv4bp6">依主題瀏覽</span></span><svg aria-hidden="true" class="caret astro-rmhv4bp6 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="1"></sl-sidebar-restore><ul class="astro-rmhv4bp6"><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/ai-agents/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">AI 代理</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/algorithms/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">演算法與資料結構</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/android-ui/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Android 介面</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/ansible/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Ansible</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/computer-vision/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">電腦視覺</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/cpp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">C / C++</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/cybersecurity/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">網路安全</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/databases/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">資料庫</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/deep-learning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">深度學習</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/design-systems/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">設計系統</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/docker/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Docker</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/dotnet/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">.NET</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/electron/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Electron</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/github-actions/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GitHub Actions</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/github-profile-readme/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">GitHub 個人檔案 README</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/javascript/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">JavaScript</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/kubernetes/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Kubernetes</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/llm-apps/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">大型語言模型應用開發</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/llm-research/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">大型語言模型研究</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/machine-learning/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">機器學習</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/mlops/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">機器學習工程化</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/nlp/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">自然語言處理</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/nodejs/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Node.js</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/php/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PHP</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/postgresql/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">PostgreSQL</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/python/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Python</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/rag/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">檢索增強生成</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/react/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">React</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/rust/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Rust</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/scalability/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">系統架構與可擴展性</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/self-hosted/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">自架軟體</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/shell/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Shell 與命令列</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/swift/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Swift</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/sysadmin/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">系統管理與維運</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/terraform-opentofu/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">Terraform / OpenTofu</span></a></li><li class="astro-rmhv4bp6"><a href="/zh-Hant/awesome/tags/typescript/" class="astro-rmhv4bp6"><span class="astro-rmhv4bp6">TypeScript</span></a></li></ul></details></li></ul><script aria-hidden="true">
+		(() => {
+			const scroller = document.getElementById('starlight__sidebar');
+			if (!window._starlightScrollRestore || !scroller) return;
+			scroller.scrollTop = window._starlightScrollRestore;
+			delete window._starlightScrollRestore;
+		})();
+	</script></sl-sidebar-state-persist><div class="md:sl-hidden"><div class="mobile-preferences sl-flex astro-p4azlveh"><div class="social-icons astro-p4azlveh"></div><hagilight-theme-select class="theme-picker astro-mexofp5s"><label style="--sl-select-width: 12.5em" class="astro-mexofp5s"><span class="sr-only astro-mexofp5s">Select theme</span><svg class="icon label-icon astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-mexofp5s"><option value="default" selected class="astro-mexofp5s">預設</option><optgroup label="預設主題" class="astro-mexofp5s"><option value="default-light" class="astro-mexofp5s">預設 · Light</option><option value="default-dark" class="astro-mexofp5s">預設 · Dark</option></optgroup><optgroup label="海洋" class="astro-mexofp5s"><option value="ocean-light" class="astro-mexofp5s">海洋 · Light</option><option value="ocean-dark" class="astro-mexofp5s">海洋 · Dark</option></optgroup><optgroup label="櫻花" class="astro-mexofp5s"><option value="sakura-light" class="astro-mexofp5s">櫻花 · Light</option><option value="sakura-dark" class="astro-mexofp5s">櫻花 · Dark</option></optgroup><optgroup label="森林" class="astro-mexofp5s"><option value="forest-light" class="astro-mexofp5s">森林 · Light</option><option value="forest-dark" class="astro-mexofp5s">森林 · Dark</option></optgroup></select><svg class="icon caret astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label><template class="mode-icons astro-mexofp5s"><svg class="mode-auto astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><svg class="mode-light astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg class="mode-dark astro-mexofp5s" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg></template></hagilight-theme-select><starlight-lang-select><label style="--sl-select-width: 7em" class="astro-2z5xp7gb"><span class="sr-only astro-2z5xp7gb">Select language</span><svg aria-hidden="true" class="icon label-icon astro-2z5xp7gb astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path fill-rule="evenodd" d="M8.516 3a.94.94 0 0 0-.941.94v1.15H2.94a.94.94 0 1 0 0 1.882h7.362a7.422 7.422 0 0 1-1.787 3.958 7.42 7.42 0 0 1-1.422-2.425.94.94 0 1 0-1.774.627 9.303 9.303 0 0 0 1.785 3.043 7.422 7.422 0 0 1-4.164 1.278.94.94 0 1 0 0 1.881 9.303 9.303 0 0 0 5.575-1.855 9.303 9.303 0 0 0 4.11 1.74l-.763 1.525a.968.968 0 0 0-.016.034l-1.385 2.77a.94.94 0 1 0 1.683.841l1.133-2.267h5.806l1.134 2.267a.94.94 0 0 0 1.683-.841l-1.385-2.769a.95.95 0 0 0-.018-.036l-3.476-6.951a.94.94 0 0 0-1.682 0l-1.82 3.639a7.423 7.423 0 0 1-3.593-1.256 9.303 9.303 0 0 0 2.27-5.203h1.894a.94.94 0 0 0 0-1.881H9.456V3.94A.94.94 0 0 0 8.516 3Zm6.426 11.794a1.068 1.068 0 0 1-.02.039l-.703 1.407h3.924l-1.962-3.924-1.24 2.478Z" clip-rule="evenodd"/></svg><select autocomplete="off" class="astro-2z5xp7gb"><option value="/awesome/awesome-deepseek-integration/" class="astro-2z5xp7gb">English</option><option value="/zh-CN/awesome/awesome-deepseek-integration/" class="astro-2z5xp7gb">简体中文</option><option value="/zh-Hant/awesome/awesome-deepseek-integration/" selected class="astro-2z5xp7gb">繁體中文</option><option value="/fr-FR/awesome/awesome-deepseek-integration/" class="astro-2z5xp7gb">Français</option><option value="/de-DE/awesome/awesome-deepseek-integration/" class="astro-2z5xp7gb">Deutsch</option><option value="/es-ES/awesome/awesome-deepseek-integration/" class="astro-2z5xp7gb">Español (España)</option><option value="/ja-JP/awesome/awesome-deepseek-integration/" class="astro-2z5xp7gb">日本語</option><option value="/ko-KR/awesome/awesome-deepseek-integration/" class="astro-2z5xp7gb">한국어</option><option value="/pt-BR/awesome/awesome-deepseek-integration/" class="astro-2z5xp7gb">Português (Brasil)</option><option value="/ru-RU/awesome/awesome-deepseek-integration/" class="astro-2z5xp7gb">Русский</option></select><svg aria-hidden="true" class="icon caret astro-2z5xp7gb astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label></starlight-lang-select></div></div></div></sl-sidebar-pane></nav><div class="main-frame astro-yntsjkba"><script type="module">var e=document.getElementById(`starlight__sidebar`),t=e?.querySelector(`sl-sidebar-state-persist`),n=`sl-sidebar-state`,r=()=>{let r=[],i=t?.dataset.hash||``;try{let e=sessionStorage.getItem(n),t=JSON.parse(e||`{}`);Array.isArray(t.open)&&t.hash===i&&(r=t.open)}catch{}return{hash:i,open:r,scroll:e?.scrollTop||0}},i=e=>{try{sessionStorage.setItem(n,JSON.stringify(e))}catch{}},a=()=>i(r()),o=(e,t)=>{let n=r();n.open[t]=e,i(n)};t?.addEventListener(`click`,e=>{if(!(e.target instanceof Element))return;let t=e.target.closest(`summary`)?.closest(`details`);if(!t)return;let n=t.querySelector(`sl-sidebar-restore`),r=parseInt(n?.dataset.index||``);isNaN(r)||o(!t.open,r)}),addEventListener(`visibilitychange`,()=>{document.visibilityState===`hidden`&&a()});</script><div class="lg:sl-flex astro-lrzkfocr"><aside class="right-sidebar-container print:hidden astro-lrzkfocr"><div class="right-sidebar astro-lrzkfocr"><div class="lg:sl-hidden astro-qok35upx"><mobile-starlight-toc data-min-h="2" data-max-h="3" class="astro-66cqc7ze"><nav aria-labelledby="starlight__on-this-page--mobile" class="astro-66cqc7ze"><details id="starlight__mobile-toc" class="astro-66cqc7ze"><summary id="starlight__on-this-page--mobile" class="sl-flex astro-66cqc7ze"><span class="toggle sl-flex astro-66cqc7ze">On this page<svg aria-hidden="true" class="caret astro-66cqc7ze astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></span><span class="display-current astro-66cqc7ze"></span></summary><div class="dropdown astro-66cqc7ze"><ul class="isMobile astro-jugkfwgx" style="--depth: 0;"><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#_top" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Overview</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#目錄" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">目錄</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#專案清單" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">專案清單</span></a><ul class="isMobile astro-jugkfwgx" style="--depth: 1;"><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#應用程式" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">應用程式</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#ai-代理框架" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">AI 代理框架</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#rag-框架" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">RAG 框架</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#資料與-ai-應用程式框架" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">資料與 AI 應用程式框架</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#rag-框架-1" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">RAG 框架</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#fhe全同態加密框架" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">FHE（全同態加密）框架</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#solana-框架" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Solana 框架</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#合成資料整理" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">合成資料整理</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#即時通訊應用程式外掛" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">即時通訊應用程式外掛</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#office-增益集" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Office 增益集</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#瀏覽器擴充功能" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">瀏覽器擴充功能</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#vs-code-擴充功能" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">VS Code 擴充功能</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#visual-studio-擴充功能" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Visual Studio 擴充功能</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#neovim-擴充功能" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Neovim 擴充功能</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#jetbrains-擴充功能" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">JetBrains 擴充功能</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#discord-機器人" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Discord 機器人</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#原生-ai-程式碼編輯器" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">原生 AI 程式碼編輯器</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#emacs" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Emacs</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#安全性" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">安全性</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#提供者" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">提供者</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#其他" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">其他</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#星數歷史" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">星數歷史</span></a></li></ul></li></ul></div></details></nav></mobile-starlight-toc><script type="module" src="/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.C3fM4Kra.js"></script></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-qok35upx"><div class="sl-container astro-qok35upx"><starlight-toc data-min-h="2" data-max-h="3"><nav aria-labelledby="starlight__on-this-page"><h2 id="starlight__on-this-page">On this page</h2><ul class="astro-jugkfwgx" style="--depth: 0;"><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#_top" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">Overview</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#目錄" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">目錄</span></a></li><li style="--depth: 0;" class="astro-jugkfwgx"><a href="#專案清單" style="--depth: 0;" class="astro-jugkfwgx"><span style="--depth: 0;" class="astro-jugkfwgx">專案清單</span></a><ul class="astro-jugkfwgx" style="--depth: 1;"><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#應用程式" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">應用程式</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#ai-代理框架" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">AI 代理框架</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#rag-框架" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">RAG 框架</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#資料與-ai-應用程式框架" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">資料與 AI 應用程式框架</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#rag-框架-1" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">RAG 框架</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#fhe全同態加密框架" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">FHE（全同態加密）框架</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#solana-框架" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Solana 框架</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#合成資料整理" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">合成資料整理</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#即時通訊應用程式外掛" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">即時通訊應用程式外掛</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#office-增益集" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Office 增益集</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#瀏覽器擴充功能" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">瀏覽器擴充功能</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#vs-code-擴充功能" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">VS Code 擴充功能</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#visual-studio-擴充功能" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Visual Studio 擴充功能</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#neovim-擴充功能" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Neovim 擴充功能</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#jetbrains-擴充功能" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">JetBrains 擴充功能</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#discord-機器人" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Discord 機器人</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#原生-ai-程式碼編輯器" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">原生 AI 程式碼編輯器</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#emacs" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">Emacs</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#安全性" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">安全性</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#提供者" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">提供者</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#其他" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">其他</span></a></li><li style="--depth: 1;" class="astro-jugkfwgx"><a href="#星數歷史" style="--depth: 1;" class="astro-jugkfwgx"><span style="--depth: 1;" class="astro-jugkfwgx">星數歷史</span></a></li></ul></li></ul></nav></starlight-toc><script type="module" src="/_astro/TableOfContents.astro_astro_type_script_index_0_lang.BpJaGz7G.js"></script></div></div></div></aside><div class="main-pane astro-lrzkfocr"><main data-pagefind-body class="astro-g5ptsecz" lang="zh-Hant" dir="ltr"><div class="content-panel astro-a7po4psb"><div class="sl-container astro-a7po4psb"><h1 id="_top" class="astro-bebwqqxs">DeepSeek Integrations</h1><div class="hagilight-content-width-toggle" role="group" aria-label="內容寬度"><button type="button" data-hagilight-content-width-choice="wide" aria-pressed="true">寬</button><button type="button" data-hagilight-content-width-choice="narrow" aria-pressed="false">窄</button></div><script type="module">var e=`hagilight-content-width`,t=new Set([`wide`,`narrow`]);function n(e){return t.has(e)?e:`wide`}function r(e,t){e.querySelectorAll(`[data-hagilight-content-width-choice]`).forEach(e=>{e.setAttribute(`aria-pressed`,String(e.dataset.hagilightContentWidthChoice===t))})}function i(t=document.documentElement){let i=`wide`;try{i=n(globalThis.localStorage.getItem(e))}catch{i=`wide`}return t.dataset.hagilightContentWidth=i,r(t,i),i}function a(n,i=document.documentElement){if(!t.has(n))throw TypeError(`Hagilight content width must be "wide" or "narrow".`);i.dataset.hagilightContentWidth=n,r(i,n);try{globalThis.localStorage.setItem(e,n)}catch{return}}function o(e,t=document.documentElement){if(e.key!==`hagilight-content-width`&&e.key!==null)return;let i=n(e.newValue);t.dataset.hagilightContentWidth=i,r(t,i)}var s=document.documentElement;i(s),document.querySelectorAll(`[data-hagilight-content-width-choice]`).forEach(e=>{e.addEventListener(`click`,()=>{a(e.dataset.hagilightContentWidthChoice,s)})}),window.addEventListener(`storage`,e=>o(e,s));</script><nav class="awesome-topic-nav" aria-label="主題"><span>主題</span><ul><li><a href="/zh-Hant/awesome/tags/llm-apps/" data-ga-category="navigation" data-ga-label="llm-apps" data-ga-location="topic_nav">大型語言模型應用開發</a></li></ul></nav></div></div><div class="content-panel astro-a7po4psb"><div class="sl-container astro-a7po4psb"><div class="sl-markdown-content"><blockquote>
+<p><strong>Source:</strong> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration">https://github.com/deepseek-ai/awesome-deepseek-integration</a> at <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/README.md"><code dir="auto">94a834802fd1</code></a><br>
+<strong>License:</strong> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/LICENSE">CC0-1.0</a><br>
+<a href="/awesome/awesome-deepseek-integration/">Read the English original</a></p>
+</blockquote>
+<blockquote>
+<p>This edition is an AI-assisted translation.</p>
+</blockquote>
+<div align="center">
+<p align="center">
+<img width="1000px" alt="Awesome DeepSeek Integrations" src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/Awesome DeepSeek Integrations.png">
+</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="awesome-deepseek-integrations-">Awesome DeepSeek Integrations <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></h1><a class="sl-anchor-link" href="#awesome-deepseek-integrations-"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “Awesome DeepSeek Integrations ”</span></a></div>
+<p>將 DeepSeek API 整合到流行軟體中 。 存取 <a href="https://platform.deepseek.com/">DeepSeek Open Platform</a> 要取得 API 鍵。</p>
+<p>英文 <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_cn.md">简体中文</a> / <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_zh_tw.md">繁體中文</a> / <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_ja.md">日本語</a> / <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_es.md">Español</a></p>
+<p><a href="https://trendshift.io/repositories/12798" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12798" alt="deepseek-ai%2Fawesome-deepseek-integration | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"></a></p>
+</div>
+<div class="sl-heading-wrapper level-h2"><h2 id="目錄"><span id="table-of-contents" class="awesome-anchor-alias" aria-hidden="true"></span><span id="table-of-contents">目錄</span></h2><a class="sl-anchor-link" href="#目錄"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “目錄”</span></a></div>
+<ul>
+<li><a href="#awesome-deepseek-integrations-">Awesome DeepSeek Integrations</a>
+<ul>
+<li><a href="#table-of-contents">目錄</a></li>
+<li><a href="#project-list">專案清單</a>
+<ul>
+<li><a href="#applications">應用程式</a></li>
+<li><a href="#ai-agent-frameworks">AI 代理框架</a></li>
+<li><a href="#data-ai-applications-frameworks">資料與 AI 應用程式框架</a></li>
+<li><a href="#rag-frameworks">RAG 框架</a></li>
+<li><a href="#fhe-fully-homomorphic-encryption-frameworks">FHE（全同態加密）框架</a></li>
+<li><a href="#solana-frameworks">Solana 框架</a></li>
+<li><a href="#synthetic-data-curation">合成資料整理</a></li>
+<li><a href="#im-application-plugins">即時通訊應用程式外掛</a></li>
+<li><a href="#office-addin">Office 增益集</a></li>
+<li><a href="#browser-extensions">瀏覽器擴充功能</a></li>
+<li><a href="#vs-code-extensions">VS Code 擴充功能</a></li>
+<li><a href="#visual-studio-extensions">Visual Studio 擴充功能</a></li>
+<li><a href="#neovim-extensions">Neovim 擴充功能</a></li>
+<li><a href="#jetbrains-extensions">JetBrains 擴充功能</a></li>
+<li><a href="#discord-bots">Discord 機器人</a></li>
+<li><a href="#native-ai-code-editor">原生 AI 程式碼編輯器</a></li>
+<li><a href="#emacs">Emacs</a></li>
+<li><a href="#security">安全性</a></li>
+<li><a href="#providers">提供者</a></li>
+<li><a href="#others">其他</a></li>
+<li><a href="#star-history">星數歷史</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="sl-heading-wrapper level-h2"><h2 id="專案清單"><span id="project-list" class="awesome-anchor-alias" aria-hidden="true"></span><span id="project-list">專案清單</span></h2><a class="sl-anchor-link" href="#專案清單"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “專案清單”</span></a></div>
+<div class="sl-heading-wrapper level-h3"><h3 id="應用程式"><span id="applications" class="awesome-anchor-alias" aria-hidden="true"></span><span id="applications">應用程式</span></h3><a class="sl-anchor-link" href="#應用程式"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “應用程式”</span></a></div>
+<table>
+    <tbody><tr>
+        <td><img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/ETOS-LLM-Studio/assets/logo.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/ETOS-LLM-Studio/README.md">ETOS LLM Studio</a></td>
+        <td>ETOS LLM Studio (ELS)是旗舰AI客戶端, 它的特色是表型第一設計、美學UI、裝置的無缝同步以及深層的系統集成。 支援包括 DeepSeek 在内的多重型號, 重新定义手腕上的 AI 互動 。</td>
+    </tr>
+    <tr>
+        <td><img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/operit/assets/logo.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://github.com/AAswordman/Operit">Operit AI</a></td>
+        <td>Android平台的開源系統集成AI助手,支持近乎完整的mcp使用,并与Android系統高度兼容. 此軟體既具有高定制性, 也具有低學限值, 內置工具用于檔案操作、搜尋、自動點擊、格式轉換,</td>
+    </tr>
+    <tr>
+        <td><img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/openEuler Intelligence/intelligence_icon.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://www.openeuler.org/en/projects/intelligence/">openEuler Intelligence</a></td>
+        <td>在開放Euler平台上建設的智慧大型模型平台, 平台提供核心功能, 如語言介面登記, MCP 服務管理, 智能代理( Agent) 發展, 它支持網絡和桌面客戶端存取,大大提升了發展效率和企業的應用經驗!</td>
+    </tr>
+    <tr>
+        <td><img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/hh-wserver/wserver.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://github.com/hzmosi/ai-wechat">WeChat RPA Intelligent Customer Service</a></td>
+        <td>Ali Bailian DeepSeek API 建設的 DeepSeek 官方API 和 Ali Bailian DeepSeek API, 此工具是通过 RPA 自動執行的, 不存取私人介面 。</td>
+    </tr>
+    <tr>
+        <td><img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/OpenXLab/migo/logo.svg" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://migo.intern-ai.org.cn/">Migo</a></td>
+        <td>一個自由的人工智能創意加速器提供智慧的QQA, 深度的紙面理解, 作為你的探索夥伴,Migo幫助你發現和發明杰出的想法!</td>
+    </tr>
+    <tr>
+        <td><img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/eechat/assets/logo.svg" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://github.com/Lucassssss/eechat">eechat</a></td>
+        <td>一個簡單且方便使用者的大型語言模型本地化部署工具,支持本地私人部署開源模型,如DeepSeek-R1,DLlama 3,Phi-4,Mistral,Gemma 3等,同时也支持遠端的LLM API呼叫.</td>
+    </tr>
+    <tr>
+        <td><img src="https://openrouter.ai/brand/logo-grey.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://openrouter.ai/">OpenRouter</a></td>
+        <td>OpenRouter 提供一個统一的 API , 讓您通過一個單端點存取數以百計的 AI 模型, 同时自動處理倒轉並選擇最合算的選項 。 用你喜歡的 SDK 或框架來開始數行代碼</td>
+    </tr>
+    <tr>
+        <td><img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/aingdesk/assets/logo.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://github.com/aingdesk/AingDesk">AingDesk</a></td>
+        <td>用視覺介面一擊在您的電腦上部署 AI 模型, 以優雅的聊天UI為主角 。 它讓網路分享供合作使用, 支持DeepSeek等各种模式,</td>
+    </tr>
+    <tr>
+        <td><img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/dingtalk/assets/dingtalk_icon.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://www.dingtalk.com/">DingTalk</a></td>
+        <td>DingTalk AI 助理整合了多項 AI 產品功能 DingTalk 以智慧支持企業的日常工作流程 它具有各种智能能力,包括但不限于智能通信、智能合作和智能管理。
+依據創用CC授權使用 此外, DingTalk 人工智能助理利用自己的知識基礎, 明智地回答员工在公司行政流程、人權政策及其他相关議題方面的共同詢問。</td>
+    </tr>
+    <tr>
+        <td><img src="https://chatdoc.com/chatdoc/chatdoc.webp" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://chatdoc.com">ChatDOC</a></td>
+        <td>ChatDOC 這是一個 AI 動文件讀取工具,</td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/SwiftChat/assets/favicon.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/SwiftChat/README.md">SwiftChat</a></td>
+        <td> <a href="https://github.com/aws-samples/swift-chat">SwiftChat</a> 由 React Industrial 建立。 它在Android, iOS和macOS上提供本土表演. 功能包括实时流動聊天、丰富的Markdown支持、AI影像產生、自訂系統提示、快速模型選擇和多模式能力。 支持包括DeepSeek, Amazon Bedrock, Ollama 和 OpenAI 兼容 Modles 在内的多家 AI 提供商,</td>
+    </tr>
+    
+    <tr>
+        <td><img src="https://4everlogo.4everland.store/logo/logo.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/4EVERChat/README.md">4EVERChat</a></td>
+        <td><a href="https://chat.4everland.org/">4EVERChat</a> 這是一個智慧的模型選擇平台 整合了數以百計的LLMS, 可以對模型的性能進行实时比對。 利用 <a href="https://www.4everland.org/">4EVERLAND</a> AI RPC的統一API端點,它实现了免費模型切換,並自動選擇了快速回應和低成本的组合.</td>
+    </tr>
+    <tr>
+        <td><img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/xhai_browser/assets/logo_512.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/xhai_browser/README.md">xhai Browser</a></td>
+        <td>xhai 瀏覽器是 Android 桌面管理與AI 瀏覽器, DeepSeek 是默认的 AI 對話引擎 。 它有最終的性能(0.2秒前啟動), 瘦小的尺寸( apk 3M), 沒有廣告, 超快的廣告封鎖, 多屏幕分類, 屏幕導航, 多搜索盒, 多搜索盒!</td>
+    </tr>
+    <tr>
+        <td><img src="https://i.imgur.com/FkbmMVG.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://intellibar.app/">IntelliBar</a></td>
+        <td>IntelliBar 是 Mac 的美麗助手, 讓您使用像 DeepSeek R1 的進步型態, 在您的 Mac 上使用任何應用程式—— 例如: 在您的郵件應用程式中編輯電子郵件, 或是在您的瀏覽器中總結文章 。</td>
+    </tr>
+    <tr>
+        <td><img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/gptbots/gptbots.png" alt="Icon" width="64" height="auto"> </td>
+        <td><a href="https://www.gptbots.ai/docs">GPTBots</a></td>
+        <td><a href="https://www.gptbots.ai/">GPTBots</a> 包括Deepseek。 它提供了基于RAG的知識儲存/检索、工具定制/呼叫以及工作流程編譯的模組。 提供企業端到端的AI解決方案,</td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/ThinkInAIXYZ/deepchat/blob/main/build/icon.png?raw=true" alt="Icon" width="64" height="auto" style="border-radius: 10px"></td>
+        <td><a href="https://github.com/ThinkInAIXYZ/deepchat/blob/main/README.md">DeepChat</a></td>
+        <td>DeepChat 支持多輪對話、網路搜尋、檔案上傳、知識基礎等等。</td>
+    </tr>
+    <tr>
+        <td width="80"> <img src="https://avatars.githubusercontent.com/u/171659527?s=400&#x26;u=39906ab3b6e2066f83046096a66a77fb3f8bb836&#x26;v=4" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/quantalogic/quantalogic">Quantalogic</a> </td>
+        <td> QuantaLogic 是建立高级AI代理的 Reasoning &#x26; Action 框架 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/deepseek-ai/awesome-deepseek-integration/assets/13600976/224d547a-6fbc-47c8-859f-aa14813e2b0f" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/chatbox/README.md">Chatbox</a> </td>
+        <td> Chatbox 是多端 LLM 模型的桌面用戶端, 可在 Windows, Mac 和 Linux 上找到 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/deepseek-ai/awesome-deepseek-integration/assets/59196087/bb65404c-f867-42d8-ae2b-281fe953ab54" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/chatgpt_next_web/README.md"> ChatGPT-Next-Web </a> </td>
+        <td> ChatGPT Next Web是一个跨平台的ChatGPT web UI,有GPT3,GPT4 &#x26; 雙子體Pro支持. </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/Casibase/assets/casibase.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://casibase.org/docs/category/beginner-guide/">Casibase</a></td>
+        <td> <a href="https://casibase.org">Casibase</a> 這是一個開源的 AI 知識基礎與對話系統, Casisbase旨在為企業及發展者提供強大、灵活、容易使用的知识管理及智能對話平台。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/Coco AI/assets/favicon.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/Coco AI/README.md">Coco AI</a></td>
+        <td> <a href="https://coco.rs">Coco AI</a> 包括應用程式、檔案、Google Drive、Notion、Yuque、Hugo, 和DeepSeek等大型模型融合 Coco AI 幫助使用者迅速、明智地取得資訊。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/liubai/assets/liubai-logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/liubai/README.md">Liubai</a> </td>
+        <td> 劉拜讓DeepSeek有手腳操控你的筆記、工作、行事曆和待辦事項清單! </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/deepseek-ai/awesome-deepseek-integration/assets/59196087/1ac9791b-87f7-41d9-9282-a70698344e1d" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/pal/README.md"> Pal - AI Chat Client<br>(iOS, ipadOS) </a> </td>
+        <td> Pal是iOS上定制的聊天游樂場. </td>
+    </tr>
+    <tr>
+        <td> <img src="https://www.librechat.ai/librechat.svg" alt="LibreChat" width="64" height="auto"> </td>
+        <td> <a href="https://www.librechat.ai/docs/configuration/librechat_yaml/ai_endpoints/deepseek">LibreChat</a> </td>
+        <td> LibreChat 是一個自訂的開源應用程式, </td>
+    </tr>
+     <tr>
+        <td> <img src="https://raw.githubusercontent.com/longevity-genie/chat-ui/11c6647c83f9d2de21180b552474ac5ffcf53980/static/geneticsgenie/icon-128x128.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/longevity-genie/just-chat">Just-Chat</a> </td>
+        <td> 讓你的 LLM 代理和聊天 簡單快!</td>
+     </tr>
+    <tr>
+        <td> <img src="https://www.papersgpt.com/images/logo/favicon.ico" alt="PapersGPT" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/papersgpt/papersgpt-for-zotero">PapersGPT</a> </td>
+        <td> PapersGPT 是 Zotero 外掛程式, 與 Deep Seek 和其他多個 AI 型號無缝, </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/rss-translator/RSS-Translator/main/core/static/favicon.ico" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/rss_translator/README.md"> RSS Translator </a> </td>
+        <td> 把 RSS 輸入您的語言! </td>
+    </tr>
+    <tr>
+        <td> <img src="https://relingo.net/assets/images/relingo-logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://relingo.net"> Relingo </a> </td>
+        <td> 當您瀏覽網站並觀看 Youtube 時, 建立並掌握词汇! </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/ysnows/enconvo_media/main/logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/enconvo/README.md"> Enconvo </a> </td>
+        <td> Enconvo是AI時代的發射者,</td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/kangfenmao/cherry-studio/blob/main/src/renderer/src/assets/images/logo.png?raw=true" alt="Icon" width="64" height="auto" style="border-radius: 10px"></td>
+        <td><a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/cherrystudio/README.md">Cherry Studio</a></td>
+        <td>制片人的強大桌面 AI 助手</td>
+    </tr>
+    <tr>
+        <td> <img src="https://tomemo.top/images/logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/tomemo/README.md"> ToMemo (iOS, ipadOS) </a> </td>
+        <td> 配有集成 AI 宏模組的語言書 + 剪貼板歷史 + 鍵盤 iOS 應用程式,以便在鍵盤中快速輸出 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/buxuku/video-subtitle-master/refs/heads/main/resources/icon.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/buxuku/video-subtitle-master">Video Subtitle Master</a></td>
+        <td> 批次產生影片字幕, 這是一個支持 Mac 和 Windows 平台的客戶端工具, 與多個翻譯服務整合, 如 Baidu, Volcengine, DeepLx, OpenAI, DeepSeek, 以及 Ollama 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/UnknownEnergy/chatgpt-api/blob/master/dist/assets/chatworm-72x72.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/UnknownEnergy/chatgpt-api/blob/master/README.md">Chatworm</a> </td>
+        <td> Chatform是多端 LLM 模型的網路應用程式, </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/tisfeng/ImageBed/main/uPic/icon_512x512@2x.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/tisfeng/Easydict">Easydict</a></td>
+        <td> Easedict是一個簡簡易的翻譯字典 macOS App, 讓您輕鬆而優雅地翻譯文字或翻譯文字。 支援呼叫大型語言型號 API 进行翻譯 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://www.raycast.com/favicon-production.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/raycast/README.md">Raycast</a></td>
+        <td> <a href="https://raycast.com/?via=ViGeng">Raycast</a> 是 macOS 的生产力工具, 讓您用一些按鍵控制您的工具 。 包括DeepSeek AI。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/chatpdflocal/assets/chatpdflocal-icon.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://www.chatpdflocal.com">ChatPDFLocal</a> </td>
+        <td> ChatPDFLocal 是幫助聊天的 AI Mac OS App, 它與 DeepSeek 和其他多個 AI 模型無缝工作, 以提高您的讀取效率 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://niceprompt.app/favicon.ico" alt="Icon" width="64" height="auto"> </td> <td> <a href="https://niceprompt.app">Nice Prompt</a></td> <td> <a href="https://niceprompt.app">Nice Prompt</a> 組織、 分享和使用您在程式碼編輯器中的提示, 以及 Cursor 和 VSCode 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://avatars.githubusercontent.com/u/193405629?s=200&#x26;v=4" alt="PHP Client" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-php/deepseek-php-client/blob/master/README.md">PHP Client</a> </td>
+        <td> 深搜索 PHP Client 是個強大的、由社區推动的 PHP client 與 Deepseek API 無缝集成的函式庫。 </td>
+    </tr>
+        <tr>
+  <td>
+    <img src="https://github.com/tornikegomareli/DeepSwiftSeek/blob/main/logo.webp" alt="DeepSwiftSeek Logo" width="64" height="auto">
+  </td>
+  <td>
+    <a href="https://github.com/tornikegomareli/DeepSwiftSeek/blob/main/README.md">DeepSwiftSeek</a>
+  </td>
+  <td>
+    DeepSwiftSeek 是輕量级但強大的 Swift 客戶端文庫 , 和 DeepSeek API 相當的整合 。
+    提供方便使用的Swift通貨,
+  </td>
+</tr>
+    <tr>
+        <td> <img src="https://avatars.githubusercontent.com/u/958072?s=200&#x26;v=4" alt="Laravel Integration" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-php/deepseek-laravel/blob/master/README.md">Laravel Integration</a> </td>
+        <td> 用于 Deepseek 的 Laravel 包裹 PHP client,以 laravel 應用程式無缝的 epseek API 集成。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/cohesion-org/deepseek-go/refs/heads/main/internal/images/deepseek-go.png" alt="Go Client" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/cohesion-org/deepseek-go/blob/main/README.md">Deepseek Go</a> </td>
+        <td>  為 Go 寫作的 Deepseek 客戶端支持聊天與理性模型 。 也支持Azure等外部供應商, OpenRouter 以及其他人。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/zotero/assets/zotero-icon.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/zotero/README_cn.md">Zotero</a></td>
+        <td> <a href="https://www.zotero.org">Zotero</a> 幫助你收集、整理、註解、引用和分享研究。 它可以使用 deepseek 作为翻譯服務.</td>
+    </tr>
+    <tr>
+        <td> <img src="https://b3log.org/images/brand/siyuan-128.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/SiYuan/README.md">SiYuan</a> </td>
+        <td> SiYuan 是第一個個人知識管理系統, 支持完全的离線使用, 以及端到端加密的資料同步 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/ArvinLovegood/go-stock/raw/master/build/appicon.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/ArvinLovegood/go-stock/blob/master/README.md">go-stock</a> </td>
+        <td>go-stock 由Wails建設,</td>
+    </tr>
+    <tr>
+        <td> <img src="https://avatars.githubusercontent.com/u/102771702?s=200&#x26;v=4" alt="Wordware" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/wordware/README.md">Wordware</a> </td>
+        <td><a href="https://www.wordware.ai/">Wordware</a> 這是一個工具箱,讓任何人都可以建立, 提拉特, 并部署他們的AI堆</td>
+    </tr>
+    <tr>
+        <td> <img src="https://framerusercontent.com/images/xRJ6vNo9mUYeVNxt0KITXCXEuSk.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/langgenius/dify/">Dify</a> </td>
+        <td> <a href="https://dify.ai/">Dify</a> LLM 應用程式發展平台, 支援 DeepSeek 模型建立助手、 工作流程、 文字產生器等 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/enricoros/big-AGI/refs/heads/v2-dev/public/favicon.ico" alt="Big-AGI" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/enricoros/big-AGI/blob/v2-dev/README.md">Big-AGI</a> </td>
+        <td><a href="https://big-agi.com/">Big-AGI</a> 這是一個突破性的人工智能套件 旨在讓每個人 都能獲得先进的人工智能</td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/LiberSonora/LiberSonora/blob/main/assets/avatar.jpeg?raw=true" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/LiberSonora/LiberSonora/blob/main/README_en.md">LiberSonora</a> </td>
+        <td> LiberSonora即「自由之聲」(Voice of Freedom), 是一款AI動力強大、開源的音源工具箱, 其中包括智慧字幕提取、AI標題產生、多語語言翻譯等功能,</td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/ripperhe/Bob/master/docs/_media/icon_128.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://bobtranslate.com/">Bob</a></td>
+        <td> <a href="https://bobtranslate.com/">Bob</a> 這是一個 macOS 翻譯 &#x26; OCR 工具, 可以用在任何應用程式中 。 rig滾出盒子!</td>
+    </tr>
+    <tr>
+        <td> <img src="https://agenticflow.ai/favicon.ico" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://agenticflow.ai/">AgenticFlow</a> </td>
+        <td> <a href="https://agenticflow.ai/">AgenticFlow</a> 由數以百計的日常應用程式提供電源,</td>
+    </tr>
+    <tr>
+        <td> <img src="https://agentomat.com/static/favicon.ico" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://agentomat.com/">AGENTOMAT</a> </td>
+        <td> <a href="https://agentomat.com/">AGENTOMAT</a> AI Agents for Everyone - 建立,分享和监督AI Agents的平台.</td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/obot-platform/obot/refs/heads/main/docs/static/img/favicon.ico" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/obot-platform/obot">Obot</a> </td>
+        <td> Obot是建設與部署AI助手的代理平台, </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/STranslate/STranslate/refs/heads/main/images/favicon.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://stranslate.zggsong.com/">STranslate</a></td>
+        <td> <a href="https://stranslate.zggsong.com/">STranslate</a>(Windows)是一款由WPF開發的即時翻譯 OCR 工具 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://devinci.onicai.com/favicon.ico" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://devinci.onicai.com/">DeVinci</a></td>
+        <td> <a href="https://devinci.onicai.com/">DeVinci</a> 是端到端分散的 AI 聊天應用程式, 可以與開源 LLM 私下聊天 。</td>
+    </tr>
+     <tr>
+        <td> <img src="https://github.com/user-attachments/assets/5e16beb0-993e-47bf-807e-7c8804b313a2" alt="Asp Client" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/Anwar-alhitar/Deepseek.Asp.Client/blob/master/README.md">ASP Client</a> </td>
+        <td><a href="https://github.com/Anwar-alhitar/Deepseek.Asp.Client/blob/master/README.md">Deepseek.ASPClient</a>  是 Deepseek AI API 的輕量级 ASP. NET 包裝程式,旨在簡化 .NET 應用程式中的 AI 驅動文字處理。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://www.gptaiflow.tech/logo.png" alt="gpt-ai-flow-logo" width="64" height="auto"> </td>
+        <td> <a href="https://www.gptaiflow.tech/docs/product/api-keys-setup#setup-deepseek-api-keys">GPT AI Flow</a></td>
+        <td>
+            工程師為效率爱好者建造的終極生产力武器: <a href="https://www.gptaiflow.tech/">GPT AI Flow</a>
+            <ul>
+                <li>`Shift+Alt+Space` 醒醒桌面智能中枢</li>
+                <li>本地加密儲存</li>
+                <li>自訂指令引擎</li>
+                <li>點電話而不訂閱 捆綁</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/user-attachments/assets/b09f17a8-936d-4dac-8b24-1682d52c9a3c" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/alecm20/story-flicks">Story-Flicks</a></td>
+        <td>只要一句話,你可以快速生成高清的故事短片,支持Depseek等模型.</td>
+    </tr>
+    <tr>
+        <td> <img src="https://prompt.16x.engineer/favicon.ico" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/16x_prompt/README.md">16x Prompt</a> </td>
+        <td> <a href="https://prompt.16x.engineer/">16x Prompt</a> 是一個有上下文管理的 AI 編碼工具。 它能幫助開發者管理源碼上下文和手術提示, 在已有的編碼庫上執行複雜的編碼工作 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/Alpha派/assets/favicon1.png?raw=true" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/Alpha派/README.md"> Alpha Pai </a> </td>
+        <td> AI研究助理 / 由AI驱动的下一個Generation金融信息门户网站.<br>以及提供搜尋與XQA服務, 提供投資研究的金融資訊與數量分析。</td>
+    </tr>
+        <tr><td> <img src="https://docs.xark-argo.com/img/logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://www.xark-argo.com">argo</a> </td>
+        <td>在Mac/Windows/Linux上, 也支持 LLM API 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://www.petercat.ai/images/favicon.ico" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://www.petercat.ai">PeterCat</a> </td>
+        <td> 一個對話的 QQA 代理設定系統, 自主辦的部署溶液, 以及一個方便的全體應用程式 SDK, 讓您可以為您的 GitHub 寄存器建立智慧的 QQA bots 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/labring/FastGPT/refs/heads/main/.github/imgs/logo.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://fastgpt.cn/en">FastGPT</a> </td>
+        <td>
+            FastGPT 這是一個開源的 AI 知識基礎平台, 我們提供數據處理、模型引申、RAG检索、視覺AI工作流程的排外能力,
+        </td>
+   </tr>
+   <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/ruzhiai_note/assets/play_store_512.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/ruzhiai_note/README.md">RuZhi AI Notes</a> </td>
+        <td>RuZhi AI Notes 提供一站式的知识管理及應用服務, 包括 AI 搜尋與探索、 AI 結果以備註轉換、 備註管理與組織、 知識展示與分享。 與 DeepSeek 模型融合, 以提供更穩定和高质量的輸出 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://cdn.link-ai.tech/doc/CoW%20logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/zhayujie/chatgpt-on-wechat">Chatgpt-on-Wechat</a> </td>
+        <td> Chatgpt-on-Wechat(CoW)是一個灵活的聊天台框架,支持包括DeepSeek, OpenAI, Claude, Quen等多個LLMs的无缝集成, 加入通常使用的平台或辦公室軟體, 如 WeChat Official Account, WeCom, Feishu,,,, DingTalk和网站。 它也支持广泛的自訂外掛程式 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://athenalab.ai/assets/favicon/favicon.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://athenalab.ai/">Athena</a> </td>
+        <td>世界第一個自主的通用AI, 具有先进的认知架构和人類類的推理能力,</td>
+    </tr>
+    <tr>
+        <td> <img src="https://maxkb.cn/images/favicon.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/1Panel-dev/MaxKB">MaxKB</a> </td>
+        <td> <a href="https://maxkb.cn/">MaxKB</a> 即時使用 柔軟的RAG Chatbot </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/TigerGPT/assets/logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://ttm.financial/gpt">TigerGPT</a> </td>
+        <td>TigerGPT 是第一位基于OpenAI的金融AI投資助手, TigerGPT 旨在為投資者提供智慧的投資决策支持。 2025年2月18日 TigerGPT 官方整合 DeepSeek-R1 模式, </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/HIX.AI/assets/logo.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://hix.ai">HIX.AI</a> </td>
+        <td>自由試試 DeepSeek 并享受無限的 AI 聊天 HIX.AI。使用 DeepSeek R1 进行 AI 聊天、 寫入、 編碼和更多 。 經驗下一個基因AI聊天!</td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/sharmt1411/askanywhere/blob/main/icon/Depth_8,_Frame_0explore-%E8%A7%92%E6%A0%87.png?raw=true" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/sharmt1411/askanywhere">Askanywhere</a> </td>
+        <td>選擇文字與 Deepseek 對話</td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/OJZen/1chat/raw/refs/heads/main/doc/assets/icon.ico?raw=true" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/OJZen/1chat">1chat</a> </td>
+        <td>iOS 應用程式讓您在當地與 DeepSeek- R1 模式聊天 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://chatlabsai.com/assets/logo/logo.png" alt="iOS AI Chatbot" width="64" height="auto"> </td>
+        <td> <a href="https://chatlabsai.com">Access 250+ text, image LLMs in one app</a> </td>
+        <td> 1AI iOS Chatbot集成了250+文字,影像,语音模型,可以讓使用者和世界上任何模型聊天,其中包括Deepseek R1和Deepseek V3模型.</td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/PopAi/assets/logo.svg" alt="PopAi" width="64" height="auto"> </td>
+        <td> <a href="https://popai.pro">PopAi</a> </td>
+        <td>PopAi 發射DeepSeek R1! 享受不落後的閃電快速表演 PopAi。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://pot-app.com/logo/icon.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://pot-app.com/">Pot</a></td>
+        <td> <a href="https://pot-app.com/">Pot</a> 翻譯與認同的跨平台軟體。 </td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/Byaidu/PDFMathTranslate/raw/main/docs/images/banner.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://github.com/Byaidu/PDFMathTranslate">PDFMathTranslate</a></td>
+        <td>PDF Math Translate是一种基于AI的全文双语翻譯工具,完全保留了PDF文件的布局.</td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/Richasy/Bili.Copilot/raw/master/assets/StoreLogo.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://github.com/Richasy/Bili.Copilot">Bili.Copilot</a></td>
+        <td>Bilibili 第三方 Windows 桌面客戶端,是用 Windows App SDK 建造的本地應用程式.</td>
+    </tr>
+    <tr>
+        <td><img src="https://www.tensorbounce.com/logo.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://www.tensorbounce.com/">LawAgent</a></td>
+        <td>LawAgent 是Tensorbounce團隊研發的 一個合法的 AI 產品 整合了一個與 AI 代理能力相關的知識基礎 也允許自訂知識基礎設定。 專業模式利用DeepSeek-R1的推理能力,</td>
+    </tr>
+    <tr>
+        <td width="80"> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/AlphaBot/assets/logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://alphabot.x-pai.com/">AlphaBot</a> </td>
+        <td> AlphaBot 以提供技術分析、預測和風險評估, 幫助投資者做出數據導引的交易決定。 它支持一擊部署、易操作、支持Windows/Linux/MacOS和其他平台</td>
+    </tr>
+    <tr>
+        <td><img src="https://h1.appinn.me/file/1741929316827_21.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://github.com/jiqi136/DS-AI">Real-time Web-Access AI Assistant</a></td>
+        <td>AI助手支持直接API透過DeepSeek-V3.1介面存取最強的Claude碼模型, 它支持影像與PDF檔案解析, 具有自由影像產生能力, 允許自訂整合其他 AI 模型, 或者, 免费的網路內容检索模型 。 或者, R1 等自由型號也可以使用 。
+</td>
+    </tr>
+    <tr>
+    <td><img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/remio/assets/remio_icon.png" alt="Icon" width="64" height="auto"></td>
+    <td><a href="https://www.remio.ai/">remio</a></td>
+    <td>Remio是一個人工智能的個人知識中枢, 也提供智慧的寫作幫助, Remio 設計與本地第一儲存,</td>
+    </tr> 
+    <tr>
+    <td><img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/DocKit/assets/dockit.png" alt="Icon" width="64" height="auto"></td>
+    <td><a href="https://dockit.geekfun.club/">DocKit</a></td>
+    <td>DocKit 是為 NoSQL 數據庫設計的 AI 動力桌面 GUI 用戶端, 支援 ElasticSearch 和 OpenSearch 跨越 Mac, 視窗和 Linux 。 和DeepSeek等大型模型融合 DocKit 可以幫助發展者寫入複雜的 DSL 查詢, 並提供更好的資料管理和分析經驗 。 </td>
+    </tr> 
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/zenfeed/assets/icon.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/glidea/zenfeed">zenfeed</a> </td>
+        <td> 並推動重要資訊, </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/NoteGen/NoteGen.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/codexu/note-gen">NoteGen</a> </td>
+        <td> NoteGen 這是一個跨平台的Markdown便條應用程式, </td>
+    </tr>
+    <tr>
+        <td> </td>
+        <td> <a href="https://github.com/SamYuan1990/i18n-agent-action">i18n-agent-action</a> </td>
+        <td> i18n Agent是AI的動力工具, 幫助發展者、翻譯者和產品團隊高效管理多語語言內容, </td>
+    </tr>
+    <tr>
+        <td> <img src="https://mindpal.space/favicon.ico" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://mindpal.io">MindPal</a> </td>
+        <td> <a href="https://mindpal.io">MindPal</a> 是建立 AI Agents 和 多代理系統的平台, 可以使任何商業流程自动化 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://3min.top/imgs/logo.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://3min.top/en">3mintop</a> </td>
+        <td> 一個強大的AI動力工具, 幫助你在短短三分鐘內快速总结和理解任何內容, </td>
+    </tr>
+    <tr>
+        <td> <img src="https://5ire.app/favicon.ico" alt="5ire-logo" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/nanbingxyz/5ire">5ire</a> </td>
+        <td> <a href="https://github.com/nanbingxyz/5ire">5ire</a> 這是一個方便使用者的跨平台開源桌面AI助手, 與主流 LLM 兼容, 支援 MCP 伺服器, 本地的 RAG, 即時圖書館, 以及各种实用功能 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://prompt.16x.engineer/favicon.ico" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/16x_prompt/README.md">16x Prompt</a> </td>
+        <td> <a href="https://prompt.16x.engineer/">16x Prompt</a> 是一個有上下文管理的 AI 編碼工具。 它能幫助開發者管理源碼上下文和手術提示, 在已有的編碼庫上執行複雜的編碼工作 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://cantian.ai/favicon.ico" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://cantian.ai/">Cantian AI</a></td>
+        <td>一個專有的 AI -native Bazi 算命服務,</td>
+    </tr>
+    <tr>
+        <td> <img src="https://obsidian.md/favicon.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/TarsLab/obsidian-tars">Obsidian Tars</a></td>
+        <td> 將 LLM 對話整合到 Obsidian 的便條編輯中, 並且以 callout 格式使用 deepseek- reasoner 的 CoT 輸出 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://www.chatbotbuilder.dev/logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/bobbylkchao/chatbotBuilder">AI Chatbot Builder</a> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/www.chatbotbuilder.dev/">Chatbot Builder</a> 由DeepSeek與OpenAI提供電源的開源聊天平台,</td>
+    </tr>
+    <tr>
+        <td> <img src="https://bibigpt.co/icons/lucid/icon_32x32@2x.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="http://bibigpt.co">BibiGPT</a> </td>
+        <td> <a href="http://bibigpt.co">BibiGPT</a> 支持Bilibili、YouTube、小洪修、播客平台等主要平台的內容分析及簡介, 功能包括內容總結、互動性QQA和文章產生。 支援影像檔案上傳、 記號應用程式整合、 以及 DeepSeek R1 與 V3 型態 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://lobehub.com/favicon.ico" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://lobehub.com/docs/usage/providers/deepseek">LobeChat</a> </td>
+        <td> <a href="https://lobehub.com">LobeChat</a> - 開源、現代設計的 AI 聊天框架。 支援 DeepSeek R1, 知識基礎( 文件上傳/ 知识管理 / RAG), 多模組( Vision/ TTS/ Plugins/ Artifacts) 。 一擊 FREE 部署您的私人 DeepSeek 應用程式 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/ruzhiai_note/assets/play_store_512.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/ruzhiai_note/README.md">RuZhi AI Notes</a> </td>
+        <td>RuZhi AI Notes 提供一站式的知识管理及應用服務, 包括 AI 搜尋與探索、 AI 結果以備註轉換、 備註管理與組織、 知識展示與分享。 與 DeepSeek 模型融合, 以提供更穩定和高质量的輸出 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://cdn.link-ai.tech/doc/CoW%20logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/zhayujie/chatgpt-on-wechat">Chatgpt-on-Wechat</a> </td>
+        <td> Chatgpt-on-Wechat(CoW)是一個灵活的聊天台框架,支持包括DeepSeek, OpenAI, Claude, Quen等多個LLMs的无缝集成, 加入通常使用的平台或辦公室軟體, 如 WeChat Official Account, WeCom, Feishu,,,, DingTalk和网站。 它也支持广泛的自訂外掛程式 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://www.weiyuai.cn/logo.png" alt="AI Customer Service" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/Bytedesk/bytedesk">Bytedesk</a> </td>
+        <td> Entertainment IM Solution with AI 發動的直播聊天, 電子郵件支援,</td>
+    </tr>
+    <tr>
+        <td><img src="https://raw.githubusercontent.com/rockbenben/subtitle-translator/main/public/logo.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://github.com/rockbenben/subtitle-translator">Subtitle Translator</a></td>
+        <td>一個支持 SRT/ASS/VTT/LRC 格式的批次字幕翻譯器, 兼容 DeepSeek 和其他各种 LLMs 及機器翻譯介面 。</td>
+    </tr>
+    <tr>
+        <td width="80"> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/turtlenoir/assets/logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://turtlenoir.com/"> Turtle Noir </a> </td>
+        <td> <a href="https://turtlenoir.com/"> Turtle Noir </a> 由 DeepSeek 啟動的 AI 導演的平面思考益智遊戲( Pates Pizzles / "Turtle Soup" ), 支持單玩和多人模式 。 AI主持人管理遊戲流程并提供機智的評論, 功能包括浸泡遊戲模式、智慧提示、拼圖解析、內容溫和。 完全適合於隨機大腦訓練和網路社交遊戲. </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/songquanpeng/one-api/main/web/default/public/logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/songquanpeng/one-api">One API</a> </td>
+        <td> One API 是 LLM API 管理與金鑰再分配系統, 將多個提供者统一到一個 API 下 。 單位二進位, Docker - ready, 有英國UI.</td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="ai-代理框架"><span id="ai-agent-frameworks" class="awesome-anchor-alias" aria-hidden="true"></span><span id="agent">AI 代理框架</span></h3><a class="sl-anchor-link" href="#ai-代理框架"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “AI 代理框架”</span></a></div>
+
+<table>
+    <tbody><tr>
+        <td width="80"> <img src="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/smolagents/mascot_smol.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/huggingface/smolagents/tree/main"> smolagents </a> </td>
+        <td> 最簡單的方法 建立偉大的特工。 特工們寫了蟒蛇密碼 呼叫工具並召集其他特工 Depseek-R1等開放型態的优先支援!  </td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/865634cb-1383-4317-a895-dfcb15f11375" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/yomo/README.md">YoMo</a></td>
+        <td>強烈類型的語言支援框架</td>
+     </tr>
+    <tr>
+        <td> <img src="https://avatars.githubusercontent.com/u/182288589?s=200&#x26;v=4" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/DMontgomery40/deepseek-mcp-server/blob/main/README.md">DeepSeek MCP Server</a> </td>
+        <td> DeepSeek 的高级語言模型背景协议伺服器 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/superagentxai/superagentX/refs/heads/master/docs/logo/icononly_transparent_nobuffer.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/superagentx/README.md">SuperAgentX</a> </td>
+        <td>SuperAgentX: 輕量级開源AI框架,</td>
+    </tr>
+    <tr>
+        <td> <img src="https://panda.fans/_assets/favicons/apple-touch-icon.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/anda/README.md">Anda</a> </td>
+        <td>設計於建立一个高度複雜、自主和永久記憶的AI代理網路。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://www.dreams.fun/favicon.ico" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/daydreamsai/daydreams">Daydreams</a> </td>
+        <td>Daydreams是一個基因跨鏈代理框架, 自主和容易建立 使下一代的代理。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://rig.rs/assets/favicon.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://rig.rs">RIG</a> </td>
+        <td>在 Rust 中建立模块化和可縮放的 LLM 應用程式 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/longevity-genie/chat-ui/11c6647c83f9d2de21180b552474ac5ffcf53980/static/geneticsgenie/icon-128x128.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/longevity-genie/just-agents">Just-Agents</a> </td>
+        <td>輕量級、直截了當的LLM員工文庫,</td>
+    </tr>
+    <tr>
+        <td> <img src="https://alice.fun/alice-logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/bob-robert-ai/bob/blob/main/alice/readme.md">Alice</a> </td>
+        <td>利用DeepSeek等LLMs做連環决策。 愛麗絲將实时數據分析 和樂趣的性格结合起来 管理符號 我的BOB 和治理環境</td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/Upsonic/Upsonic/blob/9d2e6d43b44defc6744817330625661ca3a2184e/Upsonic%20pp.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/Upsonic/Upsonic">Upsonic</a> </td>
+        <td>Upsonic提供一個尖端的企業預備代理框架, 你可以安排 LLM 呼叫, 代理, 以及電腦使用,</td>
+    </tr><tr>
+        <td> <img src="https://github.com/guyoung/AIMatrices/raw/main/docs/assets/logo/ai-matrices1.png" alt="AIMatrices 图标" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/guyoung/AIMatrices/blob/main/README.md">AIMatrices</a> </td>
+        <td>AIMatrices 這是一個輕量级、高性能、可伸展和開源的 AI 應用程式快速建設平台, 幫助使用者快速建立、部署和维持AI應用程式,</td>
+    </tr>
+</tbody></table>
+<div class="sl-heading-wrapper level-h3"><h3 id="rag-框架"><span id="rag-frameworks" class="awesome-anchor-alias" aria-hidden="true"></span>RAG 框架</h3><a class="sl-anchor-link" href="#rag-框架"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “RAG 框架”</span></a></div>
+<table>
+    <tbody><tr>
+        <td> <img src="https://avatars.githubusercontent.com/u/173022229" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/APRO-com">ATTPs</a> </td>
+        <td>代理商之間信任的通訊的基礎协议框架 。 任何以 DeepSeek 为基础的代理商, 通过整合到 <a href="https://docs.apro.com/attps">ATTPs</a> SDK, 可以存取代理登記, 傳送可核实的資料, 以及检索可核实的資料等功能 。 以便它能与其他平台的代理商建立可信的交流. </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/translate.js/assets/icon.png" alt="图标" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/translate.js/README.md">translate.js</a> </td>
+        <td> 前端開發者AI i18n. 它只需JavaScript的兩行就能完全自動地完成 HTML 翻譯 。 您可以單擊一擊地切換數以百計的語言 。 不需要修改頁面, 不需要用語言設定檔案, 它支持數十項微調延伸指令 。 這是SEO友好的。 此外,它開啟了标准的文字翻譯 API 介面 。  </td>
+    </tr>
+    <tr>
+        <td width="80"> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/agentUniverse/assets/agentUniverse_logo_s.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/antgroup/agentUniverse"> agentUniverse </a> </td>
+        <td> agentUniverse 是一個多代理合作框架, 它為 LLM 代理應用程式提供快速且方便使用者的發展能力, 框架 orig來自Ant Group在金融業的實際經驗 2024年6月, agentUniverse 取得 DeepSeek 系列模型的全面整合支持。  </td>
+    </tr>
+        <tr>
+            <td width="80"> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/BotSharp/assets/logo.png" alt="Icon" width="64" height="auto"> </td>
+            <td> <a href="https://github.com/SciSharp/BotSharp"> BotSharp </a> </td>
+            <td> BotSharp 是開源多代理應用程式發展框架。 從簡單的聊天人到多代理合作以及像 Text To SQL 框架那樣的複雜工作,它提供外框的解答,以快速將大型模型能力整合到现有的商業系統中. 包括內置的知識基礎和會議管理功能。 框架已經用 DeepSeek V3 模型進行過全面的測試, </td>
+        </tr>
+           <tr>
+            <td width="80"> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/eino/assets/logo.png" alt="Icon" width="64" height="auto"> </td>
+            <td> <a href="https://github.com/cloudwego/eino"> Eino </a> </td>
+            <td> Eino(發音為"I know"), 它借鉴了LangChain和LlamaIndex等開源群落中出色的LLM框架的設計理念,同时吸收了尖端的研究成果和实际的應用經驗,提供了更符合Go程式規定的LLM應用發展框架,强调簡便,可伸展性,可靠性和效率. </td>
+        </tr>
+    
+    <tr>
+        <td width="80"> <img src="https://raw.githubusercontent.com/Tencent/Youtu-agent/924aeeb6c49ee524b8bb4de2642a3dc84b7b86b9/docs/assets/mascot.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/Tencent/Youtu-agent/"> Youtu-Agent </a> </td>
+        <td> <a href="https://github.com/Tencent/Youtu-agent/"> Youtu-Agent </a> 建立、運作和评价自動代理商。 除了提高基准外,這個框架提供強大的代理能力,例如數據分析、檔案處理和深度研究,都使用開源模型。 </td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="資料與-ai-應用程式框架"><span id="data-ai-applications-frameworks" class="awesome-anchor-alias" aria-hidden="true"></span><span id="data">資料與 AI 應用程式框架</span></h3><a class="sl-anchor-link" href="#資料與-ai-應用程式框架"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “資料與 AI 應用程式框架”</span></a></div>
+<table>
+    <tbody><tr>
+        <td width="80"> <img src="https://github.com/user-attachments/assets/a327d72f-755f-4256-8a37-32a518a55df3" alt="Icon" width="64" height="auto"> </td>
+        <td width="120"> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/dbgpt/README.md"> DB-GPT </a> </td>
+        <td> 🤖 DB-GPT 這是一個開源的 AI 本地資料應用程式發展框架, 包含 AWEL( 代理工作流程表达語言) 和代理 。
+目的是在大型模型领域建立基础设施,通过开发多种科技能力,如多模型管理(SMMF),Text2SQL效果优化,RAG框架和优化,多代理框架合作,AWEL(代理工作流程管弦)等. 這讓數據的大型模擬應用程式更簡單更方便
+ </td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="rag-框架-1"><span id="rag-frameworks-1" class="awesome-anchor-alias" aria-hidden="true"></span><span id="rag">RAG 框架</span></h3><a class="sl-anchor-link" href="#rag-框架-1"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “RAG 框架”</span></a></div>
+<table>
+    <tbody><tr>
+        <td width="80"> <img src="https://github.com/deepseek-ai/awesome-deepseek-integration/assets/33142505/77093e84-9f7c-4716-9168-bac962fa1372" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/ragflow/README.md"> RAGFlow </a> </td>
+        <td> 基于深度文件理解的開源RAG( Retrival-Augmented Generation)引擎 。 它為任何规模的企業提供精简的RAG工作流程, 整合LLM(Large Language Models), </td>
+    </tr>
+    <tr>
+        <td width="80"> <img src="https://raw.githubusercontent.com/pingcap/autoflow/refs/heads/main/docs/public/icon-dark.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/autoflow/README.md"> Autoflow </a> </td>
+        <td> <a href="https://github.com/pingcap/autoflow">AutoFlow</a> 是一種基于 Graph 的開源知識基礎工具( 基于 Graph 的 Retrieval- Augmented Generation), 建立在 <a href="https://www.pingcap.com/ai?utm_source=tidb.ai&#x26;utm_medium=community">TiDB</a> 矢量,LlamaIndex和DSPy。 它提供類似 Perfusion 的搜尋介面, 并方便整合 AutoFlow將 JavaScript 片段嵌入到您的網站中 。 </td>
+    </tr>
+    <tr>
+        <td width="80"> <img src="https://assets.zilliz.com/Zilliz_Logo_Mark_White_20230223_041013_86057436cc.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/zilliztech/deep-searcher"> DeepSearcher </a> </td>
+        <td> DeepSearcher 结合強大的LLMS(DeepSeek, OpenAI等)和矢量數據庫(Milvus等),在私人資料的基础上進行搜尋,評估和推理,提供高度精確的答案和全面報告.  </td>
+    </tr>
+    <tr>
+        <td width="80"> <img src="https://raw.githubusercontent.com/OpenSPG/openspg/089188f3e7b0392221f5a8e8f1a3629b6352a6f9/LOGO.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/OpenSPG/KAG/blob/master/README.md"> KAG </a> </td>
+        <td> KAG 以 <a href="https://github.com/OpenSPG/openspg">OpenSPG</a> 引擎與大語言模型, 用于建立垂直網域知識基礎的逻辑推理與 QQA 解答。 KAG OpenIE引入的GraphRAG的噪音問題。 KAG 支持逻辑推理和多跳實驗 XQA 等。</td>
+    </tr>
+    <tr>
+        <td width="80"> <img src="https://raw.githubusercontent.com/TencentCloudADP/youtu-graphrag/refs/heads/main/assets/logo.png" alt="Youtu-GraphRAG icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/TencentCloudADP/Youtu-GraphRAG"> Youtu-GraphRAG </a> </td>
+        <td>Youtu-GraphRAG 提出一個新的圖形回歸式產生范式, 它垂直地统一圖形建構, 索引和回歸方式為 schema 。 它將GraphRAG推向企業層次的應用, 允許在最小的人類干涉下, 無缝的跨域調整, (一) 生動的按部就班的提取;(二) 全面的群體測試算法;(三) 用于迭代反射和推理的按部就班的按部就班的查詢分解。</td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="fhe全同態加密框架"><span id="fhe-fully-homomorphic-encryption-frameworks" class="awesome-anchor-alias" aria-hidden="true"></span><span id="fhe">FHE（全同態加密）框架</span></h3><a class="sl-anchor-link" href="#fhe全同態加密框架"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “FHE（全同態加密）框架”</span></a></div>
+<table>
+    <tbody><tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/fhe.mind-network/mind-network-log.png" alt="Icon" width="200" height="auto"> </td>
+        <td> <a href="https://github.com/mind-network/mind-sdk-deepseek-rust"> Mind FHE Rust SDK </a> </td>
+        <td> <p>一個開源的 SDK , 用于加密 AI 用 Fully Homomorphic 加密( FHE) , 與 Mind Network 整合, 以取得代理共识 。 FHE被认为是 <b>神圣的加密格子</b>,可以直接在加密資料上計算,而不需要解密。 用FHE,探員在使用Deepseek時可以保護他們的隱私,既能确保模型的完整,又能取得共识。<b> 全部不暴露他們的數據 </b>- 聯系到心智網 SDK <a href="https://github.com/mind-network/mind-sdk-deepseek-rust"> source code </a> 以纯 <b>拉斯特</b>> 和和平kage 也可在 <a href="https://crates.io/crates/mind_sdk_deepseek"> crates.io </a>. </p> </td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="solana-框架"><span id="solana-frameworks" class="awesome-anchor-alias" aria-hidden="true"></span><span id="solana">Solana 框架</span></h3><a class="sl-anchor-link" href="#solana-框架"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “Solana 框架”</span></a></div>
+<table>
+    <tbody><tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/solana-agent-kit/assets/sendai-logo.png" alt="Icon" width="128" height="auto"> </td>
+        <td> <a href="https://github.com/sendaifun/solana-agent-kit"> Solana Agent Kit </a> </td>
+        <td>一個開源工具箱, 可以連接 AI 代理與索拉納協議。 現在,任何代理,使用任何 Deepseek LLM,都可以自主地執行60+ 索拉納行動: </td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="合成資料整理"><span id="synthetic-data-curation" class="awesome-anchor-alias" aria-hidden="true"></span><span id="sythetic">合成資料整理</span></h3><a class="sl-anchor-link" href="#合成資料整理"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “合成資料整理”</span></a></div>
+<table>
+    <tbody><tr>
+        <td> <img src="https://raw.githubusercontent.com/bespokelabsai/curator/main/docs/Bespoke-Labs-Logomark-Red-crop.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/curator/README.md"> Curator </a> </td>
+        <td> 一個開源工具, 以管理大尺度的數據集, 供訓練後的 LLMS 使用 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/user-attachments/assets/8455694b-c52e-40ec-847e-adf6a5ac064f" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/Kiln-AI/Kiln"> Kiln </a> </td>
+        <td>生成合成數據集, 將 R1 模型蒸馏成自訂的微調 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://avatars.githubusercontent.com/u/192579850?s=200&#x26;v=4" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/DataEval/dingo"> Dingo </a> </td>
+        <td>丁戈:综合數據質量評估工具. </td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="即時通訊應用程式外掛"><span id="im-application-plugins" class="awesome-anchor-alias" aria-hidden="true"></span><span id="im">即時通訊應用程式外掛</span></h3><a class="sl-anchor-link" href="#即時通訊應用程式外掛"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “即時通訊應用程式外掛”</span></a></div>
+<table>
+    <tbody><tr>
+        <td> <img src="https://github.com/InternLM/HuixiangDou/releases/download/v0.1.0rc1/huixiangdou.jpg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/huixiangdou/README_cn.md">HuixiangDou<br>(wechat,lark)</a> </td>
+        <td>專注於回答問題。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/RockChinQ/LangBot/blob/master/res/logo.png?raw=true" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/RockChinQ/LangBot">LangBot<br>（QQ, Lark, WeCom）</a> </td>
+        <td> 基于 LLM 的 IM bots 框架, 支援QQ, Lark, WeCom 以及更多平台 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://nonebot.dev/logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/KomoriDev/nonebot-plugin-deepseek">NoneBot<br>（QQ, Lark, Discord, TG, etc.）</a> </td>
+        <td> 支持QQ、Lark、Discord、TG及更多平台。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://avatars.githubusercontent.com/u/197911947?s=200&#x26;v=4" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/AstrBotDevs/AstrBot/">AstrBot<br>（QQ, WeChat, WeCom, Lark, TG, etc.）</a> </td>
+        <td> 基于 WebUI 的易用 LLM 的多平台聊天工具, 支持長期模擬、 RAG、 LLM 代理和插件集成 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://oss.nekro.ai/nekro_agent_logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/KroMiose/nekro-agent">NekroAgent<br>(QQ, Discord, BiliBiliLive, Minecraft etc.)</a> </td>
+        <td> Nekro探員是個聰明而優雅的AI探員執行框架 在安全沙盒內發表及執行密碼。 它通过本土多平台适配器架构提供強大的跨平台事件流處理, 這項計畫也夸大了一個高度延伸的插件系統, 即個人與插件的共享環境, 它的目標是向使用者和開發者提供一個非常高效、高度灵活且易于使用的開發者友好智慧中枢。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://www.lanyingim.com/img/header/dock_lanying.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://www.lanyingim.com">蓝莺IM<br></a> </td>
+        <td> <b>使用 IM 雲端服務的 AI Chatbot SDK</b>, <br> 跨平台( iOS, Android, Web, PC, Linux) <a href="https://github.com/maxim-top/maxim-bistro">chat SDK</a> 和AI代理平台。 <br> 很容易融入應用程式, <br> 本地 DeepSeek 支援, 不需要 API- Key 。</td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="office-增益集"><span id="office-addin" class="awesome-anchor-alias" aria-hidden="true"></span><span id="office">Office 增益集</span></h3><a class="sl-anchor-link" href="#office-增益集"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “Office 增益集”</span></a></div>
+<table>
+    <tbody><tr>
+        <td> <img src="https://www.44886.com/view/img/bukeng.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://www.bukenghezi.com/">BKOffice</a> </td>
+        <td>支援 Word 、 Excel 和 PPT 套件的 Office 插件( 也支援 WPS 套件) , 將300多項函數加入 Office 。</td>
+    </tr>
+      <tr>
+        <td> <img src="https://www.aippt.cn/_nuxt/logo_cn.eYEokZzA.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://www.aippt.cn/">AiPPT</a> </td>
+        <td>AiPPT.com, 由逾2000萬使用者選擇, 1句, 1分鐘, 1 點產生 PPT.</td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/office-sec/OfficeAI/blob/main/logo/logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/office-sec/OfficeAI">OfficeAI Assistant</a> </td>
+        <td>OfficeAI Assistant 是自由的辦公室外掛程式, 提供 AI QQA 、 AI 校對、 AI 排版、 AI 建立、 以及 AI 資料處理等功能 。 它能提高办公效率,并与Microsoft Office和WPS Office兼容。</td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="瀏覽器擴充功能"><span id="browser-extensions" class="awesome-anchor-alias" aria-hidden="true"></span><span id="browser">瀏覽器擴充功能</span></h3><a class="sl-anchor-link" href="#瀏覽器擴充功能"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “瀏覽器擴充功能”</span></a></div>
+<table>
+    <tbody><tr>
+        <td><img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/SelectTranslate/assets/icon.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://selecttranslate.com/">SelectTranslate</a></td>
+        <td>包括双语網頁翻譯、AI選取翻譯(翻譯)、輸入翻譯、PDF翻譯。
+        </td>
+    </tr>
+    <tr>
+        <td><img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/deepshare/assets/logo_200.png" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/deepshare/README.md">Tiny AI Bee</a></td>
+        <td> Tiny AI Bee 一個自由登入的單擊油脂猴子插件, 用于分享 AI 聊天,
+            專門解決向朋友發送數以千計的AI QQA字,
+            相當滿意的使用者需要與他人分享其結晶的智慧。
+        </td>
+    </tr>
+    <tr>
+        <td><img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/OpenXLab/migo/logo.svg" alt="Icon" width="64" height="auto"></td>
+        <td><a href="https://chromewebstore.google.com/detail/cjapgnecnkblehipjghhegiccobeloka?utm_source=item-share-cb">Migo</a></td>
+        <td> Migo提供全面文字處理、資訊搜尋及知識QQA功能,</td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/deepseek-ai/awesome-deepseek-integration/assets/59196087/9d3f42b8-fcd0-47ab-8b06-1dd0554dd80e" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/immersive_translate/README.md"> Immersive Translate </a> </td>
+        <td> Immersive Translate 是双语的網頁翻譯插件。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://lh3.googleusercontent.com/K9i0qJb8phasC5wWf5tU68rhnfvX4swsE0hrhJP-WB3WV7MwE5KpMUIJvHKNHHRE6GKNIvIdTNSWoDMl_NggrmUsaw=s120" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/immersive_reading_guide/README.md"> Immersive Reading Guide </a> </td>
+        <td> 沒有邊巴! Immersive AI 總結,問問... </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/deepseek-ai/awesome-deepseek-integration/assets/59196087/8a301619-a3de-489b-81fd-69aaa7c1c561" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/chatgpt_box/README.md"> ChatGPT Box </a> </td>
+        <td> ChatGPT Box 是在瀏覽器中的 ChatGPT 集成, 完全免费 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/deepseek-ai/awesome-deepseek-integration/assets/59196087/c3d9d100-247a-41cc-97c1-10b01ed25e70" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/hcfy/README.md"> hcfy (划词翻译) </a> </td>
+        <td> hcfy (QQ) 是整合多個翻譯服務的網頁瀏覽器延伸 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://static.eudic.net/web/trans/en_trans.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/Lulu Translate/README.md"> Lulu Translate </a> </td>
+        <td> 插件提供滑鼠選擇翻譯, 逐段比較翻譯, 以及 PDF 文件翻譯功能 。 它可以使用各种翻譯引擎,例如DeepSeek AI,Bing,GPT,Google等. </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/Bistutu/FluentRead/blob/main/public/icon/128.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://fluent.thinkstu.com/"> FluentRead </a> </td>
+        <td> 革命性的開源瀏覽器翻譯外掛程式,讓每個人都有像本地人一樣的讀取經驗 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://www.ncurator.com/_next/image?url=%2Ffavicon.ico&#x26;w=96&#x26;q=75" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://www.ncurator.com/"> Ncurator </a> </td>
+        <td> 協助人工智能組織及分析知識。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/oinzen/RSSFlow-doc/blob/main/docs/images/en/icon64.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://rssflow.oinchain.com"> RssFlow </a> </td>
+        <td>智慧的 RSS 讀者瀏覽器延伸, 有 AI 動力的 RSS summmarization 和多维訊息檢視 。 支援 DeepSeek 模型設定, 以增进內容理解 。 </td>
+    </tr>
+    <tr>
+<td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/refinereader/assets/refinereader-128.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://refinereader.cuihuaer.com"> Refine Reader </a> </td>
+        <td> 使用 AI( DeepSeek, OpenAI 等) 的 Chrome 延伸檔, 幫助您快速理解及摘要文章 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/Hedwi/deepchat/refs/heads/main/images/logo.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://chromewebstore.google.com/detail/deepchat-power-of-deepsee/femhcibnncinlabdboehojdhfcihpkpl?hl=en"> DeepChat </a> </td>
+        <td>Chrome 延伸檔名, 讓使用者在任何網站上開啟旁邊列以與 DeepSeek 聊天 。 此外, 它在任何網站上的任何選取的文字之下提供一個浮動的選單, 讓使用者可以產生文字摘要、檢查文法問題以及翻譯內容。</td>
+    </tr>
+     <tr>
+        <td> <img src="https://www.typral.com/_next/image?url=%2Ffavicon.ico&#x26;w=96&#x26;q=75" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://www.typral.com/"> Typral </a> </td>
+        <td> 快的 AI 寫作助理 - 讓 AI 幫助你快速改善文章,紙,文字...</td>
+    </tr>
+    <tr>
+        <td> <img src="https://static.trancy.org/assets/trancy_logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://www.trancy.org/"> Trancy </a> </td>
+        <td>短篇双语翻譯、影片双语字幕、句子/字選譯延伸</td>
+    </tr>
+    <tr>
+        <td> <img src="https://ziziyi.com/svg/anything_copilot.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/baotlake/anything-copilot"> Anything Copilot </a> </td>
+        <td> Anything Copilot 是瀏覽器的延伸, 可以直接從您的侧邊列中無缝存取主流 AI 工具 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://cliprun.com/apple-touch-icon.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://cliprun.com/"> Cliprun </a> </td>
+        <td> Python 代碼跑步與游樂場 。 Right 按下 DeepSeek 上的 Python 代碼, 在您的瀏覽器中即時執行 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="http://cdn.docky.ai/assets/logo.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/docky-ai/README.md"> Docky AI </a> </td>
+        <td>Docky AI 這是一個強大的瀏覽器延伸, 可以讓您通過邊列與多個 AI 模型進行实时對話 。 它支持與多個模型的同步通訊, 并且可以幫助您讀取網頁、 寫作、 翻譯、 建立影像</td>
+    </tr>
+    <tr>
+        <td> <img src="https://readfrog.mengxi.work/logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://readfrog.mengxi.work"> 🐸 Read Frog </a> </td>
+        <td> 在AI協助下, </td>
+    </tr>
+    <tr>
+        <td> <img src="https://chathub.gg/logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://chathub.gg"> ChatHub </a> </td>
+        <td> 全能 AI 客戶端 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/Rearview/assets/favicon.webp" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/Rearview/README.md"> RearView </a> </td>
+        <td>Rearview 是瀏覽器歷史管理延伸, 支持對歷史瀏覽內容的全文搜尋, 將瀏覽歷史轉換成可對話的知識基礎 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://www.chatgot.io/chat/assets/imgs/logo@2x.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://www.chatgot.io/"> ChatGOT </a> </td>
+        <td> 自由的 AI 聊天器助理, 以提升生产率 </td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="vs-code-擴充功能"><span id="vs-code-extensions" class="awesome-anchor-alias" aria-hidden="true"></span><span id="vscode">VS Code 擴充功能</span></h3><a class="sl-anchor-link" href="#vs-code-擴充功能"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “VS Code 擴充功能”</span></a></div>
+<table>
+    <tbody><tr>
+        <td> <img src="https://mintlify.s3.us-west-1.amazonaws.com/continue-docs/logo/light.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/continue/README.md"> Continue </a> </td>
+        <td> 繼續是 IDE 中的開源自動駕駛 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/cline/assets/favicon.png?raw=true" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/cline/README.md"> Cline </a> </td>
+        <td> 這是 Cline, 可以使用您的 CLI aNd 編輯器的 AI 助手 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/Sitoi/ai-commit/refs/heads/main/images/logo.png?raw=true" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/Sitoi/ai-commit/blob/main/README.md"> AI Commit </a> </td>
+        <td> 使用 AI 來產生 VS 碼中的 git 輸入訊息 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/titusTong/seekCodeCopilot/blob/main/assets/SeekCodeCopilotLogo.png?raw=true" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/titusTong/seekCodeCopilot/blob/main/README.md"> SeekCode Copilot </a> </td>
+        <td> vscode 智慧編碼助手支持本地部署的 DeepSeek 模型配置 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/intellism/vscode-comment-translate/blob/master/doc/image/icon.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/intellism/vscode-comment-translate/blob/master/README.md"> Comment Translation </a> </td>
+        <td> 此延伸檔名會幫助發展者翻譯註解, 字串, 密碼提示, 錯誤訊息, 以及代碼中的變數名稱 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/AITK/assets/AIToolkit.png?raw=true" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://code.visualstudio.com/docs/intelligentapps/overview"> AI Toolkit </a> </td>
+        <td> AI Toolkit 因為Visual Studio Code是一個全面延伸, 它使開發者和AI工程師有能力使用基因化的AI模型建立、測試和部署智慧應用程式。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/joygqz/commit-genie/refs/heads/main/images/logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://marketplace.visualstudio.com/items?itemName=joygqz.commit-genie"> Commit Genie </a> </td>
+        <td> 由 AI 發動的碼檢視, 並將信件產生器輸入 VS 碼 。 自動檢視您的程式碼變更並產生有意义的, 標準的輸入訊息 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/JohnnyZ93/oai-compatible-copilot/blob/main/assets/logo.png?raw=true" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/oai-compatible-copilot/README.md"> OAI Compatible Provider for Copilot </a> </td>
+        <td> 在 GitHub 副駕駛中使用 Openai 兼容推測提供者的開源 VS 碼延伸 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://littlecareless.gallerycdn.vsassets.io/extensions/littlecareless/dish-ai-commit/0.56.1/1766035023782/Microsoft.VisualStudio.Services.Icons.Default" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/littleCareless/dish-ai-commit"> Dish AI Commit </a> </td>
+        <td> 使用 DeepSeek 及其他 AI 提供商自動產生標準化的 Git/ SVN 訊息、 PR 摘要及每周報告。 </td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="visual-studio-擴充功能"><span id="visual-studio-extensions" class="awesome-anchor-alias" aria-hidden="true"></span><span id="vs">Visual Studio 擴充功能</span></h3><a class="sl-anchor-link" href="#visual-studio-擴充功能"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “Visual Studio 擴充功能”</span></a></div>
+<table>
+    <tbody><tr>
+        <td> <img src="https://merryyellow.gallerycdn.vsassets.io/extensions/merryyellow/comment2gpt/2.0.5/1739475434185/Microsoft.VisualStudio.Services.Icons.Default" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://marketplace.visualstudio.com/items?itemName=MerryYellow.Comment2GPT"> Comment2GPT </a> </td>
+        <td> 透過您的評論使用 OpenAI ChatGPT、 Google 雙子座、 Anthropic Claude、 DeepSeek 和 Ollama 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://merryyellow.gallerycdn.vsassets.io/extensions/merryyellow/codelens2gpt/2.0.5/1739475875714/Microsoft.VisualStudio.Services.Icons.Default" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://marketplace.visualstudio.com/items?itemName=MerryYellow.CodeLens2GPT"> CodeLens2GPT </a> </td>
+        <td> 透過 CodeLens 使用 OpenAI ChatGPT、 Google 雙子座、 Anthropic Claude、 Deep Seek 和 Ollama 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://merryyellow.gallerycdn.vsassets.io/extensions/merryyellow/uca-lite/1.4.2/1739392928984/Microsoft.VisualStudio.Services.Icons.Default" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://marketplace.visualstudio.com/items?itemName=MerryYellow.UCA-Lite"> Unity Code Assist Lite </a> </td>
+        <td> Unity 文稿的碼助手 </td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="neovim-擴充功能"><span id="neovim-extensions" class="awesome-anchor-alias" aria-hidden="true"></span><span id="neovim">Neovim 擴充功能</span></h3><a class="sl-anchor-link" href="#neovim-擴充功能"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “Neovim 擴充功能”</span></a></div>
+<table>
+    <tbody><tr>
+        <td> <img src="https://github.com/user-attachments/assets/c316f70a-0a3c-4a32-b148-4df15e609acc" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/avante.nvim/README.md"> avante.nvim </a> </td>
+        <td> avante.nvim 是在 IDE 中的開源自動駕駛 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/user-attachments/assets/d66dfc62-8e69-4b00-8549-d0158e48e2e0" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/llm.nvim/README.md"> llm.nvim </a> </td>
+        <td> 一個自由的大語言模型( LLM) 插件, 讓您可以在 Neovim 與 LLM 互動 。 支援任何 LLM, 如 Deepseek、 GPT、 GLM、 Kimi 或本地 LLM( 如 ollama ) 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/user-attachments/assets/d66dfc62-8e69-4b00-8549-d0158e48e2e0" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/codecompanion.nvim/README.md"> codecompanion.nvim </a> </td>
+        <td> AI電源編碼,在Neovim無缝. </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/user-attachments/assets/d66dfc62-8e69-4b00-8549-d0158e48e2e0" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/minuet-ai.nvim/README.md"> minuet-ai.nvim </a> </td>
+        <td> Minuet提供來自流行的LLMs(包括Deepseek、OpenAI、雙子座、Claude、Ollama、Codestral等)的代碼完成。 </td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="jetbrains-擴充功能"><span id="jetbrains-extensions" class="awesome-anchor-alias" aria-hidden="true"></span><span id="jetbrains">JetBrains 擴充功能</span></h3><a class="sl-anchor-link" href="#jetbrains-擴充功能"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “JetBrains 擴充功能”</span></a></div>
+<table>
+    <tbody><tr>
+        <td> <img src="https://ide.unitmesh.cc/img/logo.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://ide.unitmesh.cc/quick-start"> AutoDev </a> </td>
+        <td>‍AutoDev JetBrain的IDE中是開源的AI編碼助手. </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/user-attachments/assets/84a0175f-39a6-41b0-83e5-2ea15a4ac771" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://plugins.jetbrains.com/plugin/21410-onegai-copilot"> Onegai Copilot </a> </td>
+        <td>Onegai Copilot是JetBrain IDE的AI編碼助手. </td>
+    </tr>
+    <tr>
+        <td> <img src="https://mintlify.s3.us-west-1.amazonaws.com/continue-docs/logo/light.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/continue/README.md"> Continue </a> </td>
+        <td> 繼續是 IDE 中的開源自動駕駛 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/a18792721831/studyplugin/535b9cab69da0f97b42dcaebb00bb0d4ed15c8a6/translate/src/main/resources/META-INF/pluginIcon.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://plugins.jetbrains.com/plugin/18336-chinese-english-translate">Chinese-English Translate</a> </td>
+        <td> Chinese-English Translate JetBrain的IDE裡有多重翻譯服務。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://ai-commit.com/git-commit-logo.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://plugins.jetbrains.com/plugin/24851-ai-git-commit">AI Git Commit</a> </td>
+        <td> 此外掛程式使用 AI 來根據您的密碼變更自動產生輸入訊息 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/YiiGuxing/TranslationPlugin/blob/master/pluginIcon.svg?raw=true" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://intellij-translation.yiiguxing.top/#/en/">IntelliJ Translation Plugin</a> </td>
+        <td> 基于 IntelliJ 的 IDEs 的翻譯外掛程式整合多個翻譯服務, 包括 OpenAI 翻譯( 與 DeepSeek, Doubao, Ollama 等兼容) , 隨時可以直接翻譯IDE內的註解與文件等密碼文本 。 </td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="discord-機器人"><span id="discord-bots" class="awesome-anchor-alias" aria-hidden="true"></span><span id="discord">Discord 機器人</span></h3><a class="sl-anchor-link" href="#discord-機器人"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “Discord 機器人”</span></a></div>
+<table>
+    <tbody><tr>
+        <td> <img src="https://geneplore.com/img/geneplore_color_logo_circular.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/Geneplore AI/README.md"> Geneplore AI </a> </td>
+        <td> Geneplore AI 經營最大的AI Discord bots之一,現在有Deepseek v3和R1。 </td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="原生-ai-程式碼編輯器"><span id="native-ai-code-editor" class="awesome-anchor-alias" aria-hidden="true"></span><span id="codeeditor">原生 AI 程式碼編輯器</span></h3><a class="sl-anchor-link" href="#原生-ai-程式碼編輯器"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “原生 AI 程式碼編輯器”</span></a></div>
+<table>
+    <tbody><tr>
+        <td> <img src="https://avatars.githubusercontent.com/u/126759922?s=200&#x26;v=4" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://www.cursor.com/"> Cursor </a> </td>
+        <td>基于 VS 碼的 AI 碼編輯器</td>
+    </tr>
+    <tr>
+        <td> <img src="https://exafunction.github.io/public/images/windsurf/windsurf-app-icon.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://codeium.com/windsurf"> WindSurf </a> </td>
+        <td>另一部基于 VS 編碼的 AI 碼編輯器, by Codeium</td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/wusigram/assets/logo-512.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/wusigram/README.md"> 无思微程序 </a> </td>
+        <td>一個可動的 AI 碼寫入與執行的工具 。 深搜索編程伴奏</td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="emacs"><span id="emacs">Emacs</span></h3><a class="sl-anchor-link" href="#emacs"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “Emacs”</span></a></div>
+<table>
+    <tbody><tr>
+        <td> <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/EmacsIcon.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/karthink/gptel"> gptel </a> </td>
+        <td>Emacs 的簡單 LLM 用戶端</td>
+    </tr>
+    <tr>
+        <td> <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/EmacsIcon.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/milanglacier/minuet-ai.el"> Minuet AI </a> </td>
+        <td>在您的密碼中與情報部一起跳舞</td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="安全性"><span id="security" class="awesome-anchor-alias" aria-hidden="true"></span><span id="security">安全性</span></h3><a class="sl-anchor-link" href="#安全性"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “安全性”</span></a></div>
+<table>
+    <tbody><tr>
+        <td> <img src="https://github.com/lukehinds/awesome-deepseek-integration/blob/codegate/docs/codegate/assets/codegate.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/stacklok/codegate/"> CodeGate </a> </td>
+        <td> CodeGate: 安全 AI 代碼產生</td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/tencent/hunyuan.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/tencent/AI-Infra-Guard"> AI-Infra-Guard </a> </td>
+        <td> Tencent的Hunyuan安全隊伍 - AI基建安全評估工具,</td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="提供者"><span id="providers" class="awesome-anchor-alias" aria-hidden="true"></span><span id="providers">提供者</span></h3><a class="sl-anchor-link" href="#提供者"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “提供者”</span></a></div>
+<table>
+    <tbody><tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/aimlapi/aimlapi_logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://docs.aimlapi.com/api-references/text-models-llm?utm_source=awesome-deepseek-integrations&#x26;utm_medium=github&#x26;utm_campaign=integration"> AI/ML API </a> </td>
+        <td> AI/ML API 給使用者200+型態的企業級權限 one API。這包括 Deepseek R1 和 V3, 以及密闭和開源模型 。 全程99%的起落架和全天候的人力支援</td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="其他"><span id="others" class="awesome-anchor-alias" aria-hidden="true"></span><span id="others">其他</span></h3><a class="sl-anchor-link" href="#其他"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “其他”</span></a></div>
+<table>
+    <tbody><tr>
+        <td> <img src="https://raw.githubusercontent.com/mlflow/mlflow/refs/heads/master/assets/icon.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://mlflow.org/docs/latest/tracing/integrations/deepseek"> MLflow </a></td>
+        <td> 開源 MLOPS / LLMOps 平台, 以 DeepSeek 建立、测试、部署和監控 AI 應用程式 。 </td>
+    </tr>
+    <tr>
+        <td style="font-size: 64px">🤖</td>
+        <td> <a href="https://github.com/wangrongding/wechat-bot/blob/main/README.md"> Wechat-Bot </a></td>
+        <td> 一個基于 WeChaty 的 Wechat 機器人 加上 DeepSeek 和其他 Ai 服務。 </td>
+    </tr>
+    <tr>
+        <td style="font-size: 64px">🐠</td>
+        <td> <a href="https://github.com/lunary-ai/abso/blob/main/README.md"> Abso </a></td>
+        <td> TypeScript SDK 可以使用 OpenAI 格式與任何 LLM 提供者互動 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://i.imgur.com/IsQYInJ.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/djcopley/ShellOracle/"> ShellOracle </a> </td>
+        <td> 智能 shell 指令產生的終端工具 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://avatars.githubusercontent.com/u/178783630?s=200&#x26;v=4" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/bolna-ai/bolna/"> Bolna </a> </td>
+        <td> 使用 DeepSeek 作为對話語音效 AI 代理的 LLM</td>
+    </tr>
+    <tr>
+        <td> <img src="https://pics.fatwang2.com/56912e614b35093426c515860f9f2234.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/fatwang2/siri-ultra"> Siri Ultra </a> </td>
+        <td> GitHub 計畫有1000星, 支持網路連接, 多回合對話, </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/deepseek-ai/awesome-deepseek-integration/assets/59196087/c1e47b01-1766-4f7e-bfe6-ab3cb3991c30" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/tree/main/docs/siri_deepseek_shortcut"> siri_deepseek_shortcut </a> </td>
+        <td> Siri 配备了 DeepSeek API </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/n8n-io/n8n/blob/master/assets/n8n-logo.png?raw=true" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/rubickecho/n8n-deepseek"> n8n-nodes-deepseek </a> </td>
+        <td> 支持直接與 DeepSeek API整合到工作流程的 N8N 群組節點 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://framerusercontent.com/images/TSKshn2UFdTyvUi85EDMIXrXgs.png?scale-down-to=512" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/Portkey-AI/gateway"> Portkey AI </a> </td>
+        <td> Portkey 是與超過 1600+ 互動的 API LLM 模型, 提供您 DeepSeek 應用程式的 控制、能見度和安全的 高级工具 。 Python &#x26; 節點 SDK 可用 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://framerusercontent.com/images/8rF2JOaZ8l9AvM4H6ezliw44aI.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/BerriAI/litellm"> LiteLLM </a> </td>
+        <td> Python SDK, 代理伺服器( LLM Gateway) 用 OpenAI 格式呼叫 100+ LLM API 。 支持DeepSeek AI, </td>
+    </tr>
+    <tr>
+        <td> <img src="https://i.postimg.cc/k5Z4YWjt/Screenshot-2025-01-23-at-6-08-01-PM.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/mem0ai/mem0"> Mem0 </a> </td>
+        <td> Mem0 以智慧記憶層增强 AI 助手, 允許個人化的互動, 并隨時繼續學習。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://simplismart-public-assets.s3.ap-south-1.amazonaws.com/logos/Logo+Icon+Light.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://simplismart.ai/"> Simplismart AI </a> </td>
+        <td> Simplismart 使得 GenAI 的部署無缝, 在星雲上或用自己的星雲 無懈可擊 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://www.promptfoo.dev/img/logo-panda.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/promptfoo/README.md"> promptfoo </a> </td>
+        <td> 測試與評估 LLM 提示, 包括 DeepSeek 模型 。 比較不同的 LLM 提供者, 捕捉回傳, 並評估回應 。 </td>
+    </tr>
+    <tr>
+        <td>  </td>
+        <td> <a href="https://github.com/AndersonBY/deepseek-tokenizer"> deepseek-tokenizer </a> </td>
+        <td> DeepSeek 模型的高效和輕量级的代碼化文库,只依靠 `tokenizers` 文庫中沒有重的依賴性 `transformers`. </td>
+    </tr>
+    <tr>
+        <td> <img src="https://langfuse.com/icon.svg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://langfuse.com/docs/integrations/deepseek"> Langfuse </a> </td>
+        <td> 開源 LLM 監控平台, 幫助團隊合作调试, 分析, </td>
+    </tr>
+    <tr>
+        <td> <img src="https://avatars.githubusercontent.com/u/8226202?s=200&#x26;v=4" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/comet-ml/opik"> Opik </a> </td>
+        <td> LLM 可觀察性、 評估性及 DeepSeek 應用程式的開源平台。 Name </td>
+    </tr>
+    <tr>
+        <td> 中央R </td>
+        <td> <a href="https://github.com/hustcer/deepseek-review"> deepseek-review </a> </td>
+        <td> 以 Deepseek 程式碼評論提升工作流量。 </td>
+    </tr>
+    <tr>
+        <td> <img src="http://gptlocalhost.com/wp-content/uploads/2025/01/icon_1024.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://youtu.be/T1my2gqi-7Q"> GPTLocalost </a> </td>
+        <td> 在 Microsoft Word 本地端使用 DeepSeek- R1 。 沒有推測成本。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/suqicloud/wp-ai-chat/raw/main/ic_logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/suqicloud/wp-ai-chat"> WordPress ai助手 </a> </td>
+        <td> Docking Deepseek api for WordPress site AI 對話助手, 郵政產生, 郵政摘要插件 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/deepseek-ai/awesome-deepseek-integration/94a834802fd1489db4ced41f3a23c669cb8644b1/docs/ComfyUI-Copilot/assets/logo 2.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/AIDC-AI/ComfyUI-Copilot"> ComfyUI-Copilot </a> </td>
+        <td> 依據Comfy-UI框架, </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/Optima-CityU/llm4ad/blob/main/assets/figs/logo_short.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/Optima-CityU/llm4ad">LLM4AD</a> </td>
+        <td> <a href="https://github.com/Optima-CityU/llm4ad">LLM4AD</a> 是使用大語模組(LLMs)的以 Python 为基础的统一開源平台,用于自動算法設計(AD).</td>
+    </tr>
+    <tr>
+        <td>  </td>
+        <td> <a href="https://github.com/JiauZhang/chatchat"> chatchat </a> </td>
+        <td> 大型語言模型 Python API. </td>
+    </tr>
+    <tr>
+        <td> <img src="https://i.imgur.com/zDgW8wB.png" width="64" alt="Icon" height="auto"> </td>
+        <td> <a href="https://github.com/skypilot-org/skypilot">SkyPilot</a> </td>
+        <td> <a href="https://github.com/skypilot-org/skypilot/tree/master/llm/deepseek-r1">Serve DeepSeek models</a> 在任何云基础设施(Kubernetes、AWS、Azure、GCP或GPU云)中。 自動調整成多區域、多群組和多雲</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td> <a href="https://serpapi.com/blog/connect-deepseek-api-with-the-internet-google-search-and-more/#connect-deepseek-with-google-search-result"> SerpApi </a> </td>
+        <td> 將 DeepSeek API 連接到谷歌等搜尋結果 。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/yincongcyincong/telegram-deepseek-bot/blob/main/static/logo.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/yincongcyincong/telegram-deepseek-bot">telegram-deepseek-bot</a> </td>
+        <td> <a href="https://github.com/yincongcyincong/telegram-deepseek-bot">telegram-deepseek-bot</a> 由 DeepSeek AI 能力整合而成的Telegram bot。 </td>
+    </tr>
+    <tr>
+        <td>  </td>
+        <td> <a href="https://github.com/eqld/nlsh">nlsh</a> </td>
+        <td> <a href="https://github.com/eqld/nlsh">nlsh</a> 是一种 AI 動力的 CLI 工具, 以產生多後端 LLM 支援的上下文感知 shell 命令 。 支援 shell 特定語法、 只讀的系統工具、 以及自訂推測端點 。</td>
+    </tr>
+    <tr>
+        <td> <img src="https://www.godtierprompts.com/logo.jpg" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://www.godtierprompts.com">God Tier Prompts</a> </td>
+        <td> <a href="https://www.godtierprompts.com">God Tier Prompts</a> 由社區推動的領導板,</td>
+    </tr>
+    <tr>
+<td> <img src="https://avatars.githubusercontent.com/u/89342560?s=200&#x26;v=4" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/Jeff2Ma/AlfredWorkflow-DeepSeek">DeepSeek Alfred WorkFlow</a> </td>
+        <td> 在阿爾弗雷德的Deekseek集成。 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/user-attachments/assets/cbf6193b-fd66-4b88-bcf7-98699becf046" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/sally-suite/open-office-copilot">Open Office Copilot</a> </td>
+        <td> Open Office Copilot 是支持微软 Office 和 Google 工作區的開源的 Office 副駕駛, 基于 AI- Agent 。 它能幫助您在 Word 中寫作, 在 PowerPoint 中產生幻灯片, 在 Excel 中分析資料, 在 Outlook 中產生電子郵件等等 。 它已經和DeepSeek融合在一起了 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/LSTM-Kirigaya/openmcp-client/raw/main/icons/openmcp.png" alt="Icon" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/LSTM-Kirigaya/openmcp-client"> OpenMCP </a> </td>
+        <td> 用于 MCP 伺服器發展與調试的全體 VS 碼/ Trae/ Cursor 插件 。 使用 DeepSeek 作为預設的 LLM 來測試 MCP 伺服器 。 </td>
+    </tr>
+    <tr>
+<td></td>
+        <td> <a href="https://github.com/informatico-madrid/blackwell-linux-infra-optimizer"> Blackwell Linux Infra Optimizer </a> </td>
+        <td> 优化 NVIDIA Blackwell (SM) 的 vLLM 堆疊_120)和Linux Kernel 6.14. 使用本地 FlashInfer 后端在 DeepSeek-R1-32B 上達到 59.0 t/s 。 </td>
+    </tr>
+</tbody></table>
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+<div class="sl-heading-wrapper level-h3"><h3 id="星數歷史"><span id="star-history" class="awesome-anchor-alias" aria-hidden="true"></span><span id="star-history">星數歷史</span></h3><a class="sl-anchor-link" href="#星數歷史"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “星數歷史”</span></a></div>
+<p><a href="https://star-history.com/#deepseek-ai/awesome-deepseek-integration&#x26;Date"><img src="https://api.star-history.com/svg?repos=deepseek-ai/awesome-deepseek-integration&#x26;type=Date" alt="Star History Chart"></a></p></div><aside class="hagilight-ai-disclosure" role="note">本文由 AI 翻譯。 <a href="/awesome/awesome-deepseek-integration/">查看原文</a></aside><section class="hagilight-article-promotion astro-wvyqmlyc" aria-labelledby="hagilight-article-promotion-title"><div class="hagilight-article-promotion__pitch astro-wvyqmlyc"><div class="hagilight-article-promotion__intro astro-wvyqmlyc"><h2 id="hagilight-article-promotion-title" class="astro-wvyqmlyc">HagiCode</h2><p class="hagilight-article-promotion__lead astro-wvyqmlyc">HagiCode 是面向專案開發的 AI 編碼工作台：以 OpenSpec 工作流程規劃變更，多 Agent 並行執行，再由 Hero Dungeon 讓進度一目了然，將想法化為交付成果。</p><p class="hagilight-article-promotion__tagline astro-wvyqmlyc">以更聰明、更快速且更有趣的 Agent 工作流程，打造實用的軟體。</p><div class="hagilight-article-promotion__actions astro-wvyqmlyc"><a class="hagilight-article-promotion__cta hagilight-article-promotion__cta--primary astro-wvyqmlyc" href="https://www.hagicode.com/zh-Hant/" data-ga-category="navigation" data-ga-label="home" data-ga-location="article_promotion">造訪 HagiCode</a><a class="hagilight-article-promotion__cta hagilight-article-promotion__cta--secondary astro-wvyqmlyc" href="https://docs.hagicode.com/zh-Hant/product-overview/" data-ga-category="navigation" data-ga-label="productDocs" data-ga-location="article_promotion">閱讀文件</a></div></div><ul class="hagilight-article-promotion__features astro-wvyqmlyc" aria-label="HagiCode"><li class="astro-wvyqmlyc"><span class="hagilight-article-promotion__icon astro-wvyqmlyc" aria-hidden="true" style="--hagilight-pillar-icon: url(/_astro/pillar-smart.DAOAYOW6.svg)"></span><strong class="astro-wvyqmlyc">智慧</strong><span class="hagilight-article-promotion__feature-text astro-wvyqmlyc">OpenSpec 工作流程將意圖轉化為從提案、設計、任務到交付的可執行路徑。</span></li><li class="astro-wvyqmlyc"><span class="hagilight-article-promotion__icon astro-wvyqmlyc" aria-hidden="true" style="--hagilight-pillar-icon: url(/_astro/pillar-efficient.fRriWHtK.svg)"></span><strong class="astro-wvyqmlyc">高效</strong><span class="hagilight-article-promotion__feature-text astro-wvyqmlyc">多 Agent 並行推進研究、實作與審查，並支援多儲存庫變更與你熟悉的 Agent CLI。</span></li><li class="astro-wvyqmlyc"><span class="hagilight-article-promotion__icon astro-wvyqmlyc" aria-hidden="true" style="--hagilight-pillar-icon: url(/_astro/pillar-fun.CqXYOQWh.svg)"></span><strong class="astro-wvyqmlyc">有趣</strong><span class="hagilight-article-promotion__feature-text astro-wvyqmlyc">Hero Dungeon 讓長時間的程式協作化為看得見的冒險：英雄、進度與成就一目了然。</span></li></ul></div><div class="hagilight-article-promotion__gallery-block astro-wvyqmlyc"><h3 id="hagilight-article-promotion-gallery-title" class="astro-wvyqmlyc">一覽 HagiCode</h3><ul class="hagilight-article-promotion__gallery astro-wvyqmlyc" aria-labelledby="hagilight-article-promotion-gallery-title"><li class="astro-wvyqmlyc"><figure class="astro-wvyqmlyc"><img src="/_astro/workbench.BeU9cSj3_Z13WVMB.webp" srcset="/_astro/workbench.BeU9cSj3_1q4y77.webp 480w, /_astro/workbench.BeU9cSj3_1f03Ic.webp 800w, /_astro/workbench.BeU9cSj3_Z13WVMB.webp 1600w" alt="HagiCode 工作台畫面，工作階段看板分為待處理、進行中與已封存三欄。" sizes="(min-width: 50rem) 560px, 100vw" loading="lazy" decoding="async" fetchpriority="low" width="1600" height="845" class="astro-wvyqmlyc"><figcaption class="astro-wvyqmlyc">工作台：所有工作階段集中在同一塊看板上。</figcaption></figure></li><li class="astro-wvyqmlyc"><figure class="astro-wvyqmlyc"><img src="/_astro/proposal-workflow.DcRW_GFa_Z1zy3Uf.webp" srcset="/_astro/proposal-workflow.DcRW_GFa_1nYSDe.webp 480w, /_astro/proposal-workflow.DcRW_GFa_Z13kstl.webp 800w, /_astro/proposal-workflow.DcRW_GFa_Z1zy3Uf.webp 1600w" alt="HagiCode 提案階段列畫面，從已建立到已封存，目前標示「執行完成」階段並附有封存計畫按鈕。" sizes="(min-width: 50rem) 560px, 100vw" loading="lazy" decoding="async" fetchpriority="low" width="1600" height="340" class="astro-wvyqmlyc"><figcaption class="astro-wvyqmlyc">提案從建立、起草、審查一路推進到執行與封存。</figcaption></figure></li><li class="astro-wvyqmlyc"><figure class="astro-wvyqmlyc"><img src="/_astro/heroes.B7y5aHrT_Z1GmWoS.webp" srcset="/_astro/heroes.B7y5aHrT_1tcCxz.webp 480w, /_astro/heroes.B7y5aHrT_Z4TtoQ.webp 800w, /_astro/heroes.B7y5aHrT_Z1GmWoS.webp 1200w" alt="HagiCode Hero Dungeon 面板畫面，名為 Ember Keep，列出三位執行中的英雄及其等級、進度與劇情文字。" sizes="(min-width: 50rem) 560px, 100vw" loading="lazy" decoding="async" fetchpriority="low" width="1200" height="1111" class="astro-wvyqmlyc"><figcaption class="astro-wvyqmlyc">Hero Dungeon：英雄推進工作，你隨時查看進度、等級與劇情。</figcaption></figure></li></ul></div><div class="hagilight-article-promotion__closing astro-wvyqmlyc"><div class="hagilight-article-promotion__windows astro-wvyqmlyc"><h3 id="hagilight-article-promotion-windows-title" class="hagilight-article-promotion__windows-label astro-wvyqmlyc">下載 Windows 版</h3><div class="hagilight-article-promotion__windows-actions astro-wvyqmlyc"><ms-store-badge productid="9N3PM0N3SVDW" productname="HagiCode" window-mode="direct" theme="auto" size="large" animation="on" language="zh-tw" aria-label="在 Microsoft Store 開啟 HagiCode" title="在 Microsoft Store 開啟 HagiCode" data-ga-category="download" data-ga-label="microsoftStore" data-ga-location="article_promotion" data-ga-url="https://apps.microsoft.com/detail/9N3PM0N3SVDW" class="astro-wvyqmlyc"><a class="hagilight-article-promotion__store-fallback astro-wvyqmlyc" href="https://apps.microsoft.com/detail/9N3PM0N3SVDW" aria-label="在 Microsoft Store 開啟 HagiCode" title="在 Microsoft Store 開啟 HagiCode">從 Microsoft Store 取得</a></ms-store-badge><a class="hagilight-article-promotion__downloads astro-wvyqmlyc" href="https://www.hagicode.com/zh-Hant/desktop/" data-ga-category="download" data-ga-label="downloadClient" data-ga-location="article_promotion">所有下載</a></div></div><div class="hagilight-article-promotion__share astro-wvyqmlyc"><h3 id="hagilight-article-promotion-share-title" class="astro-wvyqmlyc">分享 HagiCode</h3><p class="hagilight-article-promotion__share-text astro-wvyqmlyc">HagiCode 是結合 OpenSpec 工作流程、多 Agent 並行執行與 Hero Dungeon 的編碼工作台：https://www.hagicode.com/</p></div></div></section><script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script><footer class="sl-flex astro-ddtxxk7k"><div class="meta sl-flex astro-ddtxxk7k"></div><div class="pagination-links print:hidden astro-b5raizh3" dir="ltr"><a href="/zh-Hant/awesome/awesome-deep-text-detection-recognition/" rel="prev" class="astro-b5raizh3"><svg aria-hidden="true" class="astro-b5raizh3 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17 11H9.41l3.3-3.29a1.004 1.004 0 1 0-1.42-1.42l-5 5a1 1 0 0 0-.21.33 1 1 0 0 0 0 .76 1 1 0 0 0 .21.33l5 5a1.002 1.002 0 0 0 1.639-.325 1 1 0 0 0-.219-1.095L9.41 13H17a1 1 0 0 0 0-2Z"/></svg><span class="astro-b5raizh3">Previous<br class="astro-b5raizh3"><span class="link-title astro-b5raizh3">Deep Text Detection and Recognition</span></span></a><a href="/zh-Hant/awesome/awesome-design-md/" rel="next" class="astro-b5raizh3"><svg aria-hidden="true" class="astro-b5raizh3 astro-hkc32dio" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17.92 11.62a1.001 1.001 0 0 0-.21-.33l-5-5a1.003 1.003 0 1 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1.002 1.002 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219l5-5a1 1 0 0 0 .21-.33 1 1 0 0 0 0-.76Z"/></svg><span class="astro-b5raizh3">Next<br class="astro-b5raizh3"><span class="link-title astro-b5raizh3">Design.md</span></span></a></div></footer><div class="hagilight-site-links astro-psnq7rln"><section class="astro-psnq7rln"><h2 class="astro-psnq7rln">生態站點</h2><nav aria-label="生態站點連結" class="astro-psnq7rln"><ul class="astro-psnq7rln"><li class="astro-psnq7rln"><a href="https://tasks.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">HagiTask</a></li><li class="astro-psnq7rln"><a href="https://cost.hagicode.com" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">算一算，AI 會不會淘汰我</a></li><li class="astro-psnq7rln"><a href="https://www.hagicode.com/zh-Hant/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">HagiCode 主站</a></li><li class="astro-psnq7rln"><a href="https://newbe.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">newbe</a></li><li class="astro-psnq7rln"><a href="https://index.hagicode.com/data/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Index Data Mirror</a></li><li class="astro-psnq7rln"><a href="https://builder.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Docker Compose Builder</a></li><li class="astro-psnq7rln"><a href="https://status.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">HagiCode Status</a></li><li class="astro-psnq7rln"><a href="https://awesome.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Awesome Sites</a></li><li class="astro-psnq7rln"><a href="https://design.hagicode.com/zh-Hant/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Awesome Design MD</a></li><li class="astro-psnq7rln"><a href="https://soul.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Soul Builder</a></li><li class="astro-psnq7rln"><a href="https://trait.hagicode.com/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">Trait Builder</a></li><li class="astro-psnq7rln"><a href="https://openspec.hagicode.com/zh-Hant/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">OpenSpec 文件</a></li><li class="astro-psnq7rln"><a href="https://omniroute.hagicode.com/zh-Hant/" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">OmniRoute 文件</a></li></ul></nav></section><section class="astro-psnq7rln"><h2 class="astro-psnq7rln">快速連結</h2><nav aria-label="快速連結" class="astro-psnq7rln"><ul class="astro-psnq7rln"><li class="astro-psnq7rln"><a href="https://www.hagicode.com/zh-Hant/desktop/" data-ga-category="download" data-ga-label="downloadClient" data-ga-location="footer" class="astro-psnq7rln">下載 Hagicode</a></li><li class="astro-psnq7rln"><a href="https://apps.microsoft.com/detail/9N3PM0N3SVDW" target="_blank" rel="noopener noreferrer" data-ga-category="download" data-ga-label="microsoftStore" data-ga-location="footer" class="astro-psnq7rln">下載 Hagicode Windows 版本</a></li><li class="astro-psnq7rln"><a href="https://docs.hagicode.com/zh-Hant/installation/docker-compose/" data-ga-category="navigation" data-ga-label="dockerCompose" data-ga-location="footer" class="astro-psnq7rln">Docker Compose 安裝</a></li><li class="astro-psnq7rln"><a href="https://docs.hagicode.com/zh-Hant/product-overview/" data-ga-category="navigation" data-ga-label="productDocs" data-ga-location="footer" class="astro-psnq7rln">產品文件</a></li><li class="astro-psnq7rln"><a href="https://docs.hagicode.com/zh-Hant/blog/" data-ga-category="navigation" data-ga-label="blogPosts" data-ga-location="footer" class="astro-psnq7rln">部落格文章</a></li><li class="astro-psnq7rln"><a href="https://awesome.hagicode.com/rss.xml" class="astro-psnq7rln">RSS 訂閱</a></li><li class="astro-psnq7rln"><a href="https://awesome.hagicode.com/rss.zh-Hant.xml" class="astro-psnq7rln">目前語言 RSS</a></li><li class="astro-psnq7rln"><a href="/sitemap-index.xml" class="astro-psnq7rln">網站地圖</a></li><li class="astro-psnq7rln"><a href="https://www.hagicode.com/zh-Hant/about/" class="astro-psnq7rln">關於 HagiCode</a></li></ul></nav></section><section class="astro-psnq7rln"><h2 class="astro-psnq7rln">社群</h2><nav aria-label="社群連結" class="astro-psnq7rln"><ul class="astro-psnq7rln"><li class="astro-psnq7rln"><a href="https://github.com/HagiCode-org/site" target="_blank" rel="noopener noreferrer" data-ga-category="community" data-ga-label="github" data-ga-location="footer" class="astro-psnq7rln">GitHub</a></li><li class="astro-psnq7rln"><a href="https://discord.gg/qY662sJK" target="_blank" rel="noopener noreferrer" data-ga-category="community" data-ga-label="discord" data-ga-location="footer" class="astro-psnq7rln">Discord</a></li><li class="astro-psnq7rln"><a href="https://github.com/HagiCode-org/site/issues" target="_blank" rel="noopener noreferrer" data-ga-category="community" data-ga-label="issueFeedback" data-ga-location="footer" class="astro-psnq7rln">問題回饋</a></li><li class="astro-psnq7rln"><a href="mailto:support@hagicode.com" class="astro-psnq7rln">聯絡信箱</a></li><li class="astro-psnq7rln"><a href="https://qm.qq.com/q/Fwb0o094kw" target="_blank" rel="noopener noreferrer" class="astro-psnq7rln">QQ 群 610394020</a></li></ul></nav></section><nav class="hagilight-filings astro-psnq7rln" aria-label="查看備案資訊"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" aria-label="查看 ICP 備案資訊" class="astro-psnq7rln">闽ICP备2026004153号-1</a><a href="http://www.beian.gov.cn/portal/registerSystemInfo" target="_blank" rel="noopener noreferrer" aria-label="查看公安備案資訊" class="astro-psnq7rln">闽公网安备35011102351148号</a></nav></div><p class="hagilight-copyright astro-psnq7rln"><span>© 2026 HagiCode</span> | <span class="hagilight-copyright__attribution astro-psnq7rln">Powered By hagilight-starlight@0.7.0</span></p><hagilight-promoto-banner class="hagilight-promoto" data-locale="zh-Hant" hidden="true"><section class="hagilight-promoto__shell" data-promoto-shell hidden aria-label="Featured promotion"><div class="hagilight-promoto__viewport"><div class="hagilight-promoto__track" data-promoto-track></div></div><nav class="hagilight-promoto__controls" data-promoto-controls aria-label="Promotion controls" hidden><button type="button" class="hagilight-promoto__control" data-promoto-previous aria-label="Previous promotion"><svg class="hagilight-promoto__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 6l-6 6 6 6"></path></svg></button><span class="hagilight-promoto__count" data-promoto-count aria-label="Promotion progress"></span><button type="button" class="hagilight-promoto__control" data-promoto-next aria-label="Next promotion"><svg class="hagilight-promoto__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6"></path></svg></button><button type="button" class="hagilight-promoto__control" data-promoto-pause aria-pressed="false" aria-label="Pause automatic promotion rotation"><svg class="hagilight-promoto__icon hagilight-promoto__icon--pause" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6v12M15 6v12"></path></svg><svg class="hagilight-promoto__icon hagilight-promoto__icon--play" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5.5v13l11-6.5z"></path></svg></button></nav><button type="button" class="hagilight-promoto__dismiss" data-promoto-dismiss aria-label="Dismiss promotion"><svg class="hagilight-promoto__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"></path></svg></button><span class="hagilight-promoto__status" data-promoto-status aria-live="polite"></span></section></hagilight-promoto-banner><script type="module" src="/_astro/PromotoBanner.astro_astro_type_script_index_0_lang.CV5ho8Sw.js"></script><script charset="UTF-8" id="LA_COLLECT" src="https://sdk.51.la/js-sdk-pro.min.js"></script><script>(function(){const siteId = "L6b88a5yK4h2Xnci";
+
+      LA.init({ id: siteId, ck: siteId, autoTrack: true, hashMode: true, screenRecord: true });
+    })();</script></div></div></main></div></div></div></div><dialog class="awesome-external-warning" aria-labelledby="awesome-external-warning-heading" aria-describedby="awesome-external-warning-explanation" data-warning-fallback="您即將離開 Awesome Site。我們無法控制此網站。要繼續前往：" data-pagefind-ignore><h2 id="awesome-external-warning-heading">要離開 Awesome Site 嗎？</h2><p id="awesome-external-warning-explanation">您即將前往外部網站。我們無法控制其內容或隱私慣例。</p><p class="awesome-external-warning-label">目的地</p><p class="awesome-external-warning-host" data-warning-host></p><p class="awesome-external-warning-url" data-warning-url></p><p class="awesome-external-warning-error" data-warning-error role="alert" aria-live="assertive" hidden>此網站地址無效或包含登入資訊，因此無法從這裡開啟。</p><div class="awesome-external-warning-actions"><button type="button" data-warning-stay autofocus>留在 Awesome Site</button><a data-warning-continue aria-disabled="true" tabindex="-1">繼續前往網站</a></div><script type="module" src="/_astro/ExternalLinkWarning.astro_astro_type_script_index_0_lang.DAGpZW5P.js"></script></dialog><script type="module" src="/_astro/PageFrame.astro_astro_type_script_index_0_lang.D1VWYcNP.js"></script></body></html>
