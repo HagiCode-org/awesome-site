@@ -36,14 +36,17 @@ SITE_URL=http://localhost:36265 npm run preview
 
 `data/` is the [`awesome-site-data`](https://github.com/HagiCode-org/awesome-site-data) submodule. Its `content/awesome/` tree holds the collection registry, catalogs, candidates, source review ledger, and reviewed translations; its nested `sources/<id>` submodules hold the pinned upstream READMEs. The pipeline reads only from `data/`. The pinned commits fix the content and source revisions a build uses, so upstream commits do not change a build until the pin moves. Collection onboarding, ledger rules, and translation work are documented in the data repository README.
 
+The published text of each collection is its mirror, `content/awesome/<id>/mirror/README.md`, bound by `content/awesome/<id>/mirror.json`. The ledger records the pinned upstream revision and README digest, the mirror digest, and each reviewed edit (its id, category, reason, reviewer, review date, exact anchor, and replacement). An unedited collection's mirror is byte-identical to its upstream README. The site builds English and translated editions from the mirror, and translations bind to the mirror's digest. It reads the pinned upstream README only to verify the mirror and for the provenance and license links; relative links still resolve against the pinned upstream revision.
+
 - Clone with `git clone --recurse-submodules`. For an existing checkout, run `git submodule update --init --recursive`, which also initializes the nested source submodules.
 - A missing or uninitialized `data/` fails `content:check` and `content:prepare`, and the `dev`, `check`, and `build` hooks that run them, with `data submodule is missing or not initialized: run git submodule update --init --recursive to populate data/`. A collection whose source is not initialized fails with its collection id and the same command, run inside `data/`.
 - The npm hooks run the pipeline first, so they show those diagnostics. Running `astro` directly skips them and fails with a module-not-found error for `data/content/awesome/collections.json`, because `astro.config.mjs` imports that file statically.
 - Older checkouts may still have local `content/awesome/` and `sources/` directories. They are no longer tracked and are not ignored, so they appear as untracked files. Remove them once nothing in them is needed; the authoritative copies are in `data/`.
+- Mirror failures stop `content:check`, `content:prepare`, and the hooks that run them before any generated page changes. Each names the collection id. A missing `mirror/README.md` or `mirror.json` is reported as missing. A stale mirror, meaning the pinned revision or upstream digest moved without a refresh, or a mirror changed outside its ledger, fails with `run "node scripts/mirror.mjs sync --collection <id>" inside data/` as the fix. The pipeline never falls back to the raw upstream README, so a broken mirror cannot publish unreviewed text.
 
 To change data and bump the pin:
 
-1. In `awesome-site-data`, commit the change to `main` and push it.
+1. In `awesome-site-data`, refresh the mirror of every collection whose upstream or ledger changed with `node scripts/mirror.mjs sync --collection <id>`, confirm with `node scripts/mirror.mjs check`, commit the change to `main`, and push it.
 2. In this repository, run `git -C data fetch origin main && git -C data checkout <commit>`, then `git submodule update --init --recursive`.
 3. Run `SITE_URL=http://localhost:36265 npm run content:check`, `npm run check`, `npm run build`, and `npm test`.
 4. Stage the `data` gitlink with `git add data` and commit the new pin in `awesome-site`.
@@ -69,7 +72,7 @@ npm run content:prepare
 npm run content:export -- --collection <id> --output <dir>
 ```
 
-`content:check` validates the registry, catalogs, candidates, source review ledger, pinned source revisions, and translations, plus every source and translation gate. `content:prepare` runs the same validation, then replaces generated pages. `content:export` validates the ledger, then writes a translation work package to `--output` without overwriting existing files.
+`content:check` validates the registry, catalogs, candidates, source review ledger, pinned source revisions, mirror ledgers and mirrors, and translations, plus every source and translation gate. `content:prepare` runs the same validation, then replaces generated pages. `content:export` validates the ledger, then writes a translation work package to `--output` without overwriting existing files. The package's `README.md` is the mirror to translate, and its `source.json` records the mirror `sourceDigest` alongside the `upstreamDigest`, `upstreamRevision`, and `edited` flag. The output may not be inside `data/`.
 
 Missing, stale, unreviewed, unsafe, or structurally incomplete content fails with a collection/locale diagnostic before generated pages are replaced. Fix the reported inputs in `data/` and rerun preparation; authored files and the previous generated set remain intact on validation or staging failure.
 

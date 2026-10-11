@@ -30,6 +30,11 @@ export const collections = {
         licenseId: z.string().min(1),
         readmeUrl: z.string().refine((value) => value.startsWith("https://")),
         licenseUrl: z.string().refine((value) => value.startsWith("https://")),
+        mirror: z.object({
+          edited: z.boolean(),
+          editCount: z.number().int().positive(),
+          upstreamDigest: z.string().regex(/^[a-f0-9]{64}$/u),
+        }).optional(),
         sourceFragments: z.array(z.object({
           sourceId: z.string(),
           targetId: z.string(),

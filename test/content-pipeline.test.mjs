@@ -1,11 +1,12 @@
 import assert from "node:assert/strict";
 import { execFileSync, spawnSync } from "node:child_process";
 import { createHash } from "node:crypto";
-import { access, copyFile, mkdtemp, mkdir, readFile, rename, rm, symlink, writeFile } from "node:fs/promises";
+import { access, copyFile, mkdtemp, mkdir, readFile, readdir, rename, rm, symlink, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import test from "node:test";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
+import ts from "typescript";
 import {
   assertEquivalentStructure,
   awesomeContent,
@@ -28,6 +29,7 @@ import {
 } from "../scripts/content-pipeline.mjs";
 import { loadSourceReviews } from "../scripts/source-reviews.mjs";
 import { stringify } from "yaml";
+import { z } from "astro/zod";
 import { normalizeCatalogTags } from "../src/catalog-tags.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
@@ -103,7 +105,64 @@ const testCatalogs = {
   },
 };
 
-async function createIsolatedPipeline({ ledgerContent, validSource = false }) {
+const defaultSourceMarkdown = "# Example\n\nA concise source.\n";
+const defaultTranslationBody = (locale) => `# Example ${locale}\n\nTranslated source ${locale}.\n`;
+const fixtureCollectionDirectory = "data/content/awesome/test-collection";
+
+const sha256Hex = (value) => createHash("sha256").update(value).digest("hex");
+
+// Test-side model of the mirror sync: each find must occur exactly once in the upstream text.
+function applyMirrorEdits(markdown, edits) {
+  let text = markdown;
+  for (const edit of edits) {
+    const first = text.indexOf(edit.find);
+    if (first < 0 || text.indexOf(edit.find, first + 1) >= 0) throw new Error(`fixture anchor ${edit.id} must occur once`);
+    text = `${text.slice(0, first)}${edit.replace}${text.slice(first + edit.find.length)}`;
+  }
+  return text;
+}
+
+// Writes mirror/README.md and mirror.json for the fixture collection. Overrides let a test
+// produce deliberately inconsistent ledgers or mirrors.
+async function writeMirror(fixtureRoot, { revision, sourceMarkdown, edits = [], mirrorMarkdown, ledgerOverrides = {} }) {
+  const base = path.join(fixtureRoot, fixtureCollectionDirectory);
+  const mirrored = mirrorMarkdown ?? applyMirrorEdits(sourceMarkdown, edits);
+  const ledger = {
+    version: 1,
+    upstream: { revision, readmePath: "README.md", digest: sha256Hex(sourceMarkdown) },
+    mirror: { path: "mirror/README.md", digest: sha256Hex(mirrored) },
+    edits,
+    ...ledgerOverrides,
+  };
+  await mkdir(path.join(base, "mirror"), { recursive: true });
+  await writeFile(path.join(base, "mirror/README.md"), mirrored);
+  await writeFile(path.join(base, "mirror.json"), `${JSON.stringify(ledger, null, 2)}\n`);
+  return { mirrored, mirrorDigest: sha256Hex(mirrored) };
+}
+
+// Every file under a directory keyed by relative path, skipping Git metadata.
+async function readTree(directory, base = directory) {
+  const files = {};
+  for (const entry of await readdir(directory, { withFileTypes: true })) {
+    if (entry.name === ".git") continue;
+    const full = path.join(directory, entry.name);
+    if (entry.isDirectory()) Object.assign(files, await readTree(full, base));
+    else files[path.relative(base, full)] = await readFile(full, "utf8");
+  }
+  return files;
+}
+
+function runPipeline(cwd, command) {
+  return spawnSync(process.execPath, ["scripts/content-pipeline.mjs", command], { cwd, encoding: "utf8" });
+}
+
+async function createIsolatedPipeline({
+  ledgerContent,
+  validSource = false,
+  sourceMarkdown = defaultSourceMarkdown,
+  edits = [],
+  translationBody = defaultTranslationBody,
+}) {
   const fixtureRoot = await mkdtemp(path.join(os.tmpdir(), "awesome-pipeline-isolated-"));
   const collection = {
     id: "test-collection",
@@ -209,7 +268,6 @@ async function createIsolatedPipeline({ ledgerContent, validSource = false }) {
     const dataDirectory = path.join(fixtureRoot, "data");
     const sourceDirectory = path.join(dataDirectory, collection.sourceDir);
     await mkdir(sourceDirectory, { recursive: true });
-    const sourceMarkdown = "# Example\n\nA concise source.\n";
     await writeFile(path.join(sourceDirectory, "README.md"), sourceMarkdown);
     await writeFile(
       path.join(sourceDirectory, "LICENSE"),
@@ -237,7 +295,8 @@ async function createIsolatedPipeline({ ledgerContent, validSource = false }) {
       "--cacheinfo",
       `160000,${revision},${collection.sourceDir}`,
     ], { cwd: dataDirectory, stdio: "pipe" });
-    const sourceDigest = createHash("sha256").update(sourceMarkdown).digest("hex");
+    // Translations bind to the mirror digest, which equals the upstream digest unless edits apply.
+    const { mirrorDigest: sourceDigest } = await writeMirror(fixtureRoot, { revision, sourceMarkdown, edits });
     const translations = Object.fromEntries(translationLocales.map((locale) => [locale, {
       title: collection.title,
       description: `An example collection in ${locale}.`,
@@ -247,8 +306,8 @@ async function createIsolatedPipeline({ ledgerContent, validSource = false }) {
     }]));
     await Promise.all([
       ...translationLocales.map((locale) => writeFile(
-        path.join(fixtureRoot, `data/content/awesome/test-collection/locales/${locale}.md`),
-        `# Example ${locale}\n\nTranslated source ${locale}.\n`,
+        path.join(fixtureRoot, `${fixtureCollectionDirectory}/locales/${locale}.md`),
+        translationBody(locale),
       )),
       writeFile(
         path.join(fixtureRoot, "data/content/awesome/test-collection/translations.json"),
@@ -731,6 +790,356 @@ test("valid repeated checks and preparations preserve the ledger and hosted-vers
   }
 });
 
+function ledgerEdit({ id, find, replace }) {
+  return {
+    id,
+    category: "political-sensitive",
+    reason: "Fixture edit for pipeline tests.",
+    reviewer: "Fixture Reviewer",
+    reviewedAt: "2026-10-11",
+    find,
+    replace,
+  };
+}
+
+async function ledgerRevision(fixtureRoot) {
+  const ledger = JSON.parse(await readFile(path.join(fixtureRoot, fixtureCollectionDirectory, "mirror.json"), "utf8"));
+  return ledger.upstream.revision;
+}
+
+// Commits a new upstream README in the fixture source checkout and moves the data pin to it.
+async function bumpUpstreamPin(fixtureRoot, readme) {
+  const sourceDirectory = path.join(fixtureRoot, "data/sources/test-collection");
+  await writeFile(path.join(sourceDirectory, "README.md"), readme);
+  execFileSync("git", [
+    "-c", "user.name=Fixture",
+    "-c", "user.email=fixture@example.invalid",
+    "commit", "--quiet", "-am", "newer upstream",
+  ], { cwd: sourceDirectory, stdio: "pipe" });
+  const revision = execFileSync("git", ["rev-parse", "HEAD"], { cwd: sourceDirectory, encoding: "utf8" }).trim();
+  execFileSync("git", [
+    "update-index",
+    "--cacheinfo",
+    `160000,${revision},sources/test-collection`,
+  ], { cwd: path.join(fixtureRoot, "data"), stdio: "pipe" });
+  return revision;
+}
+
+// Both check and prepare must fail with the diagnostic, and neither may change the
+// previously generated pages, the ownership manifest, or any file under data/.
+async function assertRejectedWithoutChanges(fixtureRoot, pattern) {
+  const generatedPaths = [".awesome-content-manifest.json", "src/content/docs/awesome/old-page.md"];
+  const readGenerated = () => Promise.all(generatedPaths.map((relative) => readFile(path.join(fixtureRoot, relative), "utf8")));
+  const dataBefore = await readTree(path.join(fixtureRoot, "data"));
+  const generatedBefore = await readGenerated();
+  for (const command of ["check", "prepare"]) {
+    const result = runPipeline(fixtureRoot, command);
+    assert.notEqual(result.status, 0, `${command} should reject the mirror`);
+    assert.match(`${result.stdout}${result.stderr}`, pattern);
+  }
+  assert.deepEqual(await readGenerated(), generatedBefore);
+  assert.deepEqual(await readTree(path.join(fixtureRoot, "data")), dataBefore);
+  await assert.rejects(access(path.join(fixtureRoot, "src/content/docs/awesome/test-collection.md")), { code: "ENOENT" });
+}
+
+const refreshHint = /run "node scripts\/mirror\.mjs sync --collection test-collection" inside data\//u;
+const mirrorFailureScenarios = [
+  {
+    name: "a missing mirror README stops preparation and names the refresh command",
+    mutate: (fixtureRoot) => rm(path.join(fixtureRoot, fixtureCollectionDirectory, "mirror/README.md")),
+    pattern: new RegExp(
+      `test-collection: mirror README is missing \\(content/awesome/test-collection/mirror/README\\.md\\); ${refreshHint.source}`,
+      "u",
+    ),
+  },
+  {
+    name: "a missing mirror ledger stops preparation and names the refresh command",
+    mutate: (fixtureRoot) => rm(path.join(fixtureRoot, fixtureCollectionDirectory, "mirror.json")),
+    pattern: new RegExp(
+      `test-collection: mirror ledger is missing \\(content/awesome/test-collection/mirror\\.json\\); ${refreshHint.source}`,
+      "u",
+    ),
+  },
+  {
+    name: "a pin bump without a mirror refresh is reported as a stale mirror revision",
+    mutate: (fixtureRoot) => bumpUpstreamPin(fixtureRoot, "# Example\n\nA newer upstream source.\n"),
+    pattern: new RegExp(
+      `test-collection: mirror is stale: ledger upstream revision [0-9a-f]{40} does not match pinned revision [0-9a-f]{40}; ${refreshHint.source}`,
+      "u",
+    ),
+  },
+  {
+    name: "a ledger whose upstream digest no longer matches the pinned README is reported as stale",
+    mutate: async (fixtureRoot) => {
+      const revision = await bumpUpstreamPin(fixtureRoot, "# Example\n\nA newer upstream source.\n");
+      const ledgerPath = path.join(fixtureRoot, fixtureCollectionDirectory, "mirror.json");
+      const ledger = JSON.parse(await readFile(ledgerPath, "utf8"));
+      ledger.upstream.revision = revision;
+      await writeFile(ledgerPath, `${JSON.stringify(ledger, null, 2)}\n`);
+    },
+    pattern: new RegExp(
+      `test-collection: mirror is stale: ledger upstream digest does not match the pinned README; ${refreshHint.source}`,
+      "u",
+    ),
+  },
+  {
+    name: "a hand-edited mirror that is not recorded in the ledger is rejected",
+    mutate: (fixtureRoot) => writeFile(
+      path.join(fixtureRoot, fixtureCollectionDirectory, "mirror/README.md"),
+      "# Example\n\nHand-edited without the ledger.\n",
+    ),
+    pattern: new RegExp(
+      `test-collection: mirror/README\\.md does not match its digest in mirror\\.json \\(edited outside the ledger\\); ${refreshHint.source}`,
+      "u",
+    ),
+  },
+  {
+    name: "an unedited collection whose mirror differs from upstream is rejected",
+    mutate: async (fixtureRoot) => writeMirror(fixtureRoot, {
+      revision: await ledgerRevision(fixtureRoot),
+      sourceMarkdown: defaultSourceMarkdown,
+      mirrorMarkdown: "# Example\n\nAn unreviewed rewrite.\n",
+    }),
+    pattern: /test-collection: mirror\/README\.md differs from the pinned README but mirror\.json lists no edits/u,
+  },
+  {
+    name: "a ledgered replacement that is missing from the mirror is rejected",
+    mutate: async (fixtureRoot) => writeMirror(fixtureRoot, {
+      revision: await ledgerRevision(fixtureRoot),
+      sourceMarkdown: defaultSourceMarkdown,
+      edits: [ledgerEdit({ id: "reword-summary", find: "A concise source.", replace: "A reviewed replacement." })],
+      mirrorMarkdown: defaultSourceMarkdown,
+    }),
+    pattern: /test-collection: edit "reword-summary" replacement text is missing from mirror\/README\.md/u,
+  },
+  {
+    name: "a ledgered anchor still present in the mirror is rejected",
+    mutate: async (fixtureRoot) => writeMirror(fixtureRoot, {
+      revision: await ledgerRevision(fixtureRoot),
+      sourceMarkdown: defaultSourceMarkdown,
+      edits: [ledgerEdit({ id: "remove-summary", find: "A concise source.", replace: "" })],
+      mirrorMarkdown: defaultSourceMarkdown,
+    }),
+    pattern: /test-collection: edit "remove-summary" anchor is still present in mirror\/README\.md/u,
+  },
+];
+
+for (const scenario of mirrorFailureScenarios) {
+  test(`mirror verification: ${scenario.name}`, async () => {
+    const fixtureRoot = await createIsolatedPipeline({ validSource: true });
+    try {
+      await scenario.mutate(fixtureRoot);
+      await assertRejectedWithoutChanges(fixtureRoot, scenario.pattern);
+    } finally {
+      await rm(fixtureRoot, { recursive: true, force: true });
+    }
+  });
+}
+
+test("an edited collection omits removed passages in every edition with the notice and mirror provenance", async () => {
+  const upstreamMarkdown = "# Example\n\nA concise source.\n\n- Keep this entry\n- Remove this entry\n";
+  const fixtureRoot = await createIsolatedPipeline({
+    validSource: true,
+    sourceMarkdown: upstreamMarkdown,
+    edits: [ledgerEdit({ id: "remove-entry", find: "- Remove this entry\n", replace: "" })],
+    translationBody: (locale) => `# Example ${locale}\n\nTranslated source ${locale}.\n\n- Keep this entry in ${locale}\n`,
+  });
+  try {
+    const revision = await ledgerRevision(fixtureRoot);
+    const ledger = JSON.parse(await readFile(path.join(fixtureRoot, fixtureCollectionDirectory, "mirror.json"), "utf8"));
+    const prepared = runPipeline(fixtureRoot, "prepare");
+    assert.equal(prepared.status, 0, `${prepared.stdout}${prepared.stderr}`);
+    const pages = [
+      "src/content/docs/awesome/test-collection.md",
+      ...translationLocales.map((locale) => `src/content/docs/${locale}/awesome/test-collection.md`),
+    ];
+    for (const relative of pages) {
+      const page = await readFile(path.join(fixtureRoot, relative), "utf8");
+      assert.doesNotMatch(page, /Remove this entry/u, relative);
+      assert.match(page, /- Keep this entry/u, relative);
+      assert.match(page, /^  mirror:\n    edited: true\n    editCount: 1\n    upstreamDigest: "[a-f0-9]{64}"$/mu, relative);
+      assert.ok(page.includes(`upstreamDigest: "${ledger.upstream.digest}"`), relative);
+      assert.equal(page.match(/\*\*Edited edition:\*\*/gu)?.length, 1, relative);
+      assert.ok(
+        page.includes(`  readmeUrl: "https://github.com/example/test-collection/blob/${revision}/README.md"`),
+        relative,
+      );
+      assert.ok(
+        page.includes(`  licenseUrl: "https://github.com/example/test-collection/blob/${revision}/LICENSE"`),
+        relative,
+      );
+      assert.ok(page.includes(`(https://github.com/example/test-collection/blob/${revision}/LICENSE)`), relative);
+    }
+  } finally {
+    await rm(fixtureRoot, { recursive: true, force: true });
+  }
+});
+
+test("a translation that keeps a removed entry fails with a structural mismatch naming the locale", async () => {
+  const fixtureRoot = await createIsolatedPipeline({
+    validSource: true,
+    sourceMarkdown: "# Example\n\nA concise source.\n\n- Keep this entry\n- Remove this entry\n",
+    edits: [ledgerEdit({ id: "remove-entry", find: "- Remove this entry\n", replace: "" })],
+    translationBody: (locale) => locale === "fr-FR"
+      ? `# Example ${locale}\n\nTranslated source ${locale}.\n\n- Keep this entry in ${locale}\n- Remove this entry\n`
+      : `# Example ${locale}\n\nTranslated source ${locale}.\n\n- Keep this entry in ${locale}\n`,
+  });
+  try {
+    await assertRejectedWithoutChanges(
+      fixtureRoot,
+      /test-collection\/fr-FR: translation does not preserve list structure and entries/u,
+    );
+  } finally {
+    await rm(fixtureRoot, { recursive: true, force: true });
+  }
+});
+
+test("an unedited collection has no edited notice, no mirror frontmatter, and an unedited export", async () => {
+  const fixtureRoot = await createIsolatedPipeline({ validSource: true });
+  try {
+    const prepared = runPipeline(fixtureRoot, "prepare");
+    assert.equal(prepared.status, 0, `${prepared.stdout}${prepared.stderr}`);
+    const english = await readFile(path.join(fixtureRoot, "src/content/docs/awesome/test-collection.md"), "utf8");
+    assert.doesNotMatch(english, /Edited edition|^  mirror:/mu);
+    assert.ok(english.endsWith(defaultSourceMarkdown));
+    const french = await readFile(path.join(fixtureRoot, "src/content/docs/fr-FR/awesome/test-collection.md"), "utf8");
+    assert.doesNotMatch(french, /Edited edition|^  mirror:/mu);
+
+    const output = path.join(fixtureRoot, "export");
+    const exported = spawnSync(
+      process.execPath,
+      ["scripts/content-pipeline.mjs", "export", "--collection", "test-collection", "--output", output],
+      { cwd: fixtureRoot, encoding: "utf8" },
+    );
+    assert.equal(exported.status, 0, `${exported.stdout}${exported.stderr}`);
+    const info = JSON.parse(await readFile(path.join(output, "test-collection/source.json"), "utf8"));
+    assert.equal(info.edited, false);
+    assert.equal(info.upstreamDigest, info.sourceDigest);
+  } finally {
+    await rm(fixtureRoot, { recursive: true, force: true });
+  }
+});
+
+test("translation export carries the mirror README with the upstream and mirror digests", async () => {
+  const upstreamMarkdown = "# Example\n\nA concise source.\n\n- Keep this entry\n- Remove this entry\n";
+  const mirrorMarkdown = "# Example\n\nA concise source.\n\n- Keep this entry\n";
+  const fixtureRoot = await createIsolatedPipeline({
+    validSource: true,
+    sourceMarkdown: upstreamMarkdown,
+    edits: [ledgerEdit({ id: "remove-entry", find: "- Remove this entry\n", replace: "" })],
+  });
+  const output = path.join(fixtureRoot, "export");
+  const args = ["scripts/content-pipeline.mjs", "export", "--collection", "test-collection", "--output", output];
+  try {
+    const exported = spawnSync(process.execPath, args, { cwd: fixtureRoot, encoding: "utf8" });
+    assert.equal(exported.status, 0, `${exported.stdout}${exported.stderr}`);
+    const inputs = path.join(output, "test-collection");
+    assert.equal(await readFile(path.join(inputs, "README.md"), "utf8"), mirrorMarkdown);
+    const info = JSON.parse(await readFile(path.join(inputs, "source.json"), "utf8"));
+    const ledger = JSON.parse(await readFile(path.join(fixtureRoot, fixtureCollectionDirectory, "mirror.json"), "utf8"));
+    assert.equal(info.sourceDigest, sha256Hex(mirrorMarkdown));
+    assert.equal(info.upstreamDigest, sha256Hex(upstreamMarkdown));
+    assert.equal(info.upstreamDigest, ledger.upstream.digest);
+    assert.equal(info.upstreamRevision, ledger.upstream.revision);
+    assert.equal(info.revision, ledger.upstream.revision);
+    assert.equal(info.edited, true);
+    assert.match(
+      await readFile(path.join(inputs, "TRANSLATION-INSTRUCTIONS.md"), "utf8"),
+      /reviewed mirror of the upstream README/u,
+    );
+
+    const secondRun = spawnSync(process.execPath, args, { cwd: fixtureRoot, encoding: "utf8" });
+    assert.notEqual(secondRun.status, 0);
+    assert.match(`${secondRun.stdout}${secondRun.stderr}`, /not empty/u);
+  } finally {
+    await rm(fixtureRoot, { recursive: true, force: true });
+  }
+});
+
+test("edit replacements containing script elements or unsafe URL schemes are rejected without output changes", async () => {
+  const scenarios = [
+    {
+      id: "inject-script",
+      replace: "<script>alert(1)</script>",
+      pattern: /test-collection: active HTML element <script> is not allowed/u,
+    },
+    {
+      id: "unsafe-link",
+      replace: "[details](javascript:alert(1))",
+      pattern: /test-collection: unsafe URL scheme in "javascript:alert\(1\)"/u,
+    },
+  ];
+  for (const { id, replace, pattern } of scenarios) {
+    const fixtureRoot = await createIsolatedPipeline({
+      validSource: true,
+      edits: [ledgerEdit({ id, find: "A concise source.", replace })],
+    });
+    try {
+      await assertRejectedWithoutChanges(fixtureRoot, pattern);
+    } finally {
+      await rm(fixtureRoot, { recursive: true, force: true });
+    }
+  }
+});
+
+test("awesomeSource.mirror accepts a valid edit summary and rejects a bad digest or edit count", async () => {
+  const transpiled = ts.transpileModule(await readFile(path.join(root, "src/content.config.ts"), "utf8"), {
+    compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2022 },
+  }).outputText.replace('from "astro:content"', 'from "./astro-content-stub.mjs"');
+  const directory = await mkdtemp(path.join(os.tmpdir(), "awesome-schema-test-"));
+  try {
+    await symlink(path.join(root, "node_modules"), path.join(directory, "node_modules"), "dir");
+    await copyFile(path.join(root, "src/catalog-tags.mjs"), path.join(directory, "catalog-tags.mjs"));
+    await writeFile(
+      path.join(directory, "astro-content-stub.mjs"),
+      "export const defineCollection = (definition) => definition;\n",
+    );
+    await writeFile(path.join(directory, "content.config.mjs"), transpiled);
+    const { collections } = await import(pathToFileURL(path.join(directory, "content.config.mjs")).href);
+    const schema = collections.docs.schema({ image: () => z.string() });
+
+    const revision = "a".repeat(40);
+    const base = {
+      title: "Example",
+      catalog: "test-topic",
+      awesomeSource: {
+        id: "test-collection",
+        repositoryUrl: "https://github.com/example/test-collection",
+        revision,
+        readmePath: "README.md",
+        licensePath: "LICENSE",
+        licenseId: "Unlicense",
+        readmeUrl: `https://github.com/example/test-collection/blob/${revision}/README.md`,
+        licenseUrl: `https://github.com/example/test-collection/blob/${revision}/LICENSE`,
+        sourceFragments: [],
+      },
+    };
+    const withMirror = (mirror) => ({ ...base, awesomeSource: { ...base.awesomeSource, mirror } });
+    const digest = "b".repeat(64);
+
+    assert.equal(schema.safeParse(base).success, true, "unedited collections omit the mirror object");
+    assert.equal(
+      schema.safeParse(withMirror({ edited: true, editCount: 2, upstreamDigest: digest })).success,
+      true,
+    );
+    for (const [mirror, field] of [
+      [{ edited: true, editCount: 1, upstreamDigest: "not-a-digest" }, "awesomeSource.mirror.upstreamDigest"],
+      [{ edited: true, editCount: 1, upstreamDigest: "B".repeat(64) }, "awesomeSource.mirror.upstreamDigest"],
+      [{ edited: true, editCount: 0, upstreamDigest: digest }, "awesomeSource.mirror.editCount"],
+      [{ edited: true, editCount: 1.5, upstreamDigest: digest }, "awesomeSource.mirror.editCount"],
+    ]) {
+      const result = schema.safeParse(withMirror(mirror));
+      assert.equal(result.success, false, JSON.stringify(mirror));
+      assert.ok(
+        result.error.issues.some((issue) => issue.path.join(".") === field),
+        `${JSON.stringify(mirror)} should fail at ${field}`,
+      );
+    }
+  } finally {
+    await rm(directory, { recursive: true, force: true });
+  }
+});
+
 test("resolved input paths reject symlinks that escape their source root", async () => {
   const temporaryRoot = await mkdtemp(path.join(os.tmpdir(), "awesome-path-test-"));
   const source = path.join(temporaryRoot, "source");
@@ -920,8 +1329,8 @@ test("source images are pinned before local image imports", () => {
 test("translation export includes pinned provenance and refuses to overwrite work", { skip: slowSkip }, async () => {
   const temporaryRoot = await mkdtemp(path.join(os.tmpdir(), "awesome-export-test-"));
   const output = path.join(temporaryRoot, "export");
-  const sourceFile = path.join(root, "data/sources/awesome-github-profile-readme/README.md");
-  const expectedSource = await readFile(sourceFile);
+  const mirrorFile = path.join(root, "data/content/awesome/awesome-github-profile-readme/mirror/README.md");
+  const expectedSource = await readFile(mirrorFile);
   const args = [
     "scripts/content-pipeline.mjs",
     "export",
@@ -942,6 +1351,10 @@ test("translation export includes pinned provenance and refuses to overwrite wor
     assert.equal(sourceInfo.revision.length, 40);
     assert.match(sourceInfo.sourceDigest, /^[a-f0-9]{64}$/u);
     assert.equal(sourceInfo.locales.length, 9);
+    assert.equal(sourceInfo.sourceDigest, createHash("sha256").update(expectedSource).digest("hex"));
+    assert.match(sourceInfo.upstreamDigest, /^[a-f0-9]{64}$/u);
+    assert.equal(sourceInfo.upstreamRevision, sourceInfo.revision);
+    assert.equal(typeof sourceInfo.edited, "boolean");
 
     const secondRun = spawnSync(process.execPath, args, { cwd: root, encoding: "utf8" });
     assert.notEqual(secondRun.status, 0);
@@ -975,8 +1388,8 @@ test("production origin validator requires a public HTTPS origin", () => {
   }
 });
 
-test("generated English retains the source bytes and repeated preparation is deterministic", { skip: slowSkip }, async () => {
-  const source = await readFile(path.join(root, "data/sources/awesome-github-profile-readme/README.md"), "utf8");
+test("generated English retains the mirror bytes and repeated preparation is deterministic", { skip: slowSkip }, async () => {
+  const source = await readFile(path.join(root, "data/content/awesome/awesome-github-profile-readme/mirror/README.md"), "utf8");
   const generatedPath = path.join(
     root,
     "src/content/docs/awesome/awesome-github-profile-readme.md",

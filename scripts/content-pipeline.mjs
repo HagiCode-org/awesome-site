@@ -72,7 +72,11 @@ export async function realPathInside(parent, relative, label) {
   try {
     actual = await realpath(candidate);
   } catch (error) {
-    if (error.code === "ENOENT") throw new Error(`${label} does not exist: ${relative}`);
+    if (error.code === "ENOENT") {
+      const missing = new Error(`${label} does not exist: ${relative}`);
+      missing.code = "ENOENT";
+      throw missing;
+    }
     throw error;
   }
   if (!isWithin(await realpath(parent), actual)) {
@@ -219,6 +223,114 @@ export function validateCandidateRepositories(candidates, collections, catalogs)
   }
 }
 
+const sha256Pattern = /^[a-f0-9]{64}$/u;
+const revisionPattern = /^[a-f0-9]{40}$/u;
+const reviewedAtPattern = /^\d{4}-\d{2}-\d{2}$/u;
+
+function sha256(bytes) {
+  return createHash("sha256").update(bytes).digest("hex");
+}
+
+function mirrorSyncHint(id) {
+  return `run "node scripts/mirror.mjs sync --collection ${id}" inside data/`;
+}
+
+function isPlainObject(value) {
+  return value !== null && typeof value === "object" && !Array.isArray(value);
+}
+
+function parseMirrorLedger(id, text) {
+  let ledger;
+  try {
+    ledger = JSON.parse(text);
+  } catch (error) {
+    throw new Error(`${id}: mirror ledger is not valid JSON: ${error.message}`);
+  }
+  const fail = (message) => {
+    throw new Error(`${id}: mirror.json ${message}`);
+  };
+  if (!isPlainObject(ledger)) fail("must be an object");
+  if (ledger.version !== 1) fail("version must be 1");
+  if (!isPlainObject(ledger.upstream) || !revisionPattern.test(ledger.upstream.revision ?? "")) {
+    fail("upstream.revision must be a 40-character hex commit");
+  }
+  if (typeof ledger.upstream.readmePath !== "string" || ledger.upstream.readmePath.length === 0) {
+    fail("upstream.readmePath must be a nonempty string");
+  }
+  if (!sha256Pattern.test(ledger.upstream.digest ?? "")) fail("upstream.digest must be a SHA-256 hex digest");
+  if (!isPlainObject(ledger.mirror) || ledger.mirror.path !== "mirror/README.md") {
+    fail('mirror.path must be "mirror/README.md"');
+  }
+  if (!sha256Pattern.test(ledger.mirror.digest ?? "")) fail("mirror.digest must be a SHA-256 hex digest");
+  if (!Array.isArray(ledger.edits)) fail("edits must be an array");
+  const editIds = new Set();
+  for (const edit of ledger.edits) {
+    const label = isPlainObject(edit) && typeof edit.id === "string" ? `edit "${edit.id}"` : "an edit";
+    const editFail = (message) => fail(`${label} ${message}`);
+    if (!isPlainObject(edit)) editFail("must be an object");
+    if (typeof edit.id !== "string" || edit.id.length === 0) editFail("id must be a nonempty string");
+    if (editIds.has(edit.id)) editFail("id is duplicated");
+    editIds.add(edit.id);
+    for (const key of ["category", "reason", "reviewer"]) {
+      if (typeof edit[key] !== "string" || edit[key].trim().length === 0) editFail(`${key} must be a nonempty string`);
+    }
+    if (typeof edit.reviewedAt !== "string" || !reviewedAtPattern.test(edit.reviewedAt)) {
+      editFail("reviewedAt must be a YYYY-MM-DD date");
+    }
+    if (typeof edit.find !== "string" || edit.find.length === 0) editFail("find must be a nonempty string");
+    if (typeof edit.replace !== "string") editFail("replace must be a string");
+  }
+  return ledger;
+}
+
+async function readMirrorFile(id, relative, label) {
+  let file;
+  try {
+    file = await realPathInside(dataRoot, relative, `${id} ${label}`);
+  } catch (error) {
+    if (error.code === "ENOENT") throw new Error(`${id}: ${label} is missing (${relative}); ${mirrorSyncHint(id)}`);
+    throw error;
+  }
+  return readFile(file);
+}
+
+// Reads the reviewed mirror and its ledger. Nothing falls back to the raw upstream README.
+export async function loadMirror(collection) {
+  const base = `content/awesome/${collection.id}`;
+  const ledgerBytes = await readMirrorFile(collection.id, `${base}/mirror.json`, "mirror ledger");
+  const mirrorBytes = await readMirrorFile(collection.id, `${base}/mirror/README.md`, "mirror README");
+  return { ledger: parseMirrorLedger(collection.id, ledgerBytes.toString("utf8")), mirrorBytes };
+}
+
+export function verifyMirror(collection, { ledger, mirrorBytes }, upstreamBytes, revision) {
+  const id = collection.id;
+  const hint = mirrorSyncHint(id);
+  if (ledger.upstream.revision !== revision) {
+    throw new Error(`${id}: mirror is stale: ledger upstream revision ${ledger.upstream.revision} does not match pinned revision ${revision}; ${hint}`);
+  }
+  if (ledger.upstream.readmePath !== collection.readmePath) {
+    throw new Error(`${id}: mirror is stale: ledger readmePath ${ledger.upstream.readmePath} does not match ${collection.readmePath}; ${hint}`);
+  }
+  if (ledger.upstream.digest !== sha256(upstreamBytes)) {
+    throw new Error(`${id}: mirror is stale: ledger upstream digest does not match the pinned README; ${hint}`);
+  }
+  if (ledger.mirror.digest !== sha256(mirrorBytes)) {
+    throw new Error(`${id}: mirror/README.md does not match its digest in mirror.json (edited outside the ledger); ${hint}`);
+  }
+  if (ledger.edits.length === 0 && !mirrorBytes.equals(upstreamBytes)) {
+    throw new Error(`${id}: mirror/README.md differs from the pinned README but mirror.json lists no edits; ${hint}`);
+  }
+  const mirrorText = mirrorBytes.toString("utf8");
+  for (const edit of ledger.edits) {
+    if (edit.replace && !mirrorText.includes(edit.replace)) {
+      throw new Error(`${id}: edit "${edit.id}" replacement text is missing from mirror/README.md; ${hint}`);
+    }
+    if (!edit.replace.includes(edit.find) && mirrorText.includes(edit.find)) {
+      throw new Error(`${id}: edit "${edit.id}" anchor is still present in mirror/README.md; ${hint}`);
+    }
+  }
+}
+
 async function validateSource(collection) {
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/u.test(collection.id)) {
     throw new Error(`Invalid collection identifier "${collection.id}"`);
@@ -248,16 +360,20 @@ async function validateSource(collection) {
   if (!licenseIsVerified(collection.licenseId, licenseText)) {
     throw new Error(`${collection.id}: pinned ${collection.licensePath} does not confirm ${collection.licenseId}`);
   }
-  const sourceBytes = await readFile(readme);
+  const upstreamBytes = await readFile(readme);
+  const { ledger, mirrorBytes } = await loadMirror(collection);
+  verifyMirror(collection, { ledger, mirrorBytes }, upstreamBytes, actualRevision);
   return {
     collection,
     sourceDirectory,
     readme,
     license,
     revision: actualRevision,
-    sourceBytes,
-    sourceMarkdown: sourceBytes.toString("utf8"),
-    digest: createHash("sha256").update(sourceBytes).digest("hex"),
+    sourceBytes: mirrorBytes,
+    sourceMarkdown: mirrorBytes.toString("utf8"),
+    digest: sha256(mirrorBytes),
+    upstreamDigest: ledger.upstream.digest,
+    editCount: ledger.edits.length,
   };
 }
 
@@ -401,6 +517,14 @@ function frontmatter(source, title, description, aiTranslation, fragments) {
     ? fragments.map(({ sourceId, targetId }) =>
       `  - sourceId: ${quote(sourceId)}\n    targetId: ${quote(targetId)}`).join("\n")
     : "  []";
+  const mirrorYaml = source.editCount > 0
+    ? [
+      "  mirror:",
+      "    edited: true",
+      `    editCount: ${source.editCount}`,
+      `    upstreamDigest: ${quote(source.upstreamDigest)}`,
+    ]
+    : [];
   return [
     "---",
     `title: ${quote(title)}`,
@@ -420,6 +544,7 @@ function frontmatter(source, title, description, aiTranslation, fragments) {
     `  licenseId: ${quote(metadata.licenseId)}`,
     `  readmeUrl: ${quote(links.readme)}`,
     `  licenseUrl: ${quote(links.license)}`,
+    ...mirrorYaml,
     "  sourceFragments:",
     fragmentYaml,
     "---",
@@ -427,10 +552,16 @@ function frontmatter(source, title, description, aiTranslation, fragments) {
   ].join("\n");
 }
 
+function editedNotice(editCount) {
+  const noun = editCount === 1 ? "edit" : "edits";
+  return `> **Edited edition:** this page is based on the upstream README with ${editCount} reviewed ${noun} that remove or replace passages. The source and license links above point to the unedited upstream.`;
+}
+
 function generatedBody(source, title, description, aiTranslation, body, fragments) {
   const links = sourceLinks(source);
   const disclosure = aiTranslation ? "\n> This edition is an AI-assisted translation.\n" : "";
-  return `${frontmatter(source, title, description, aiTranslation, fragments)}> **Source:** [${source.collection.repositoryUrl}](${links.repository}) at [\`${source.revision.slice(0, 12)}\`](${links.readme})  \n> **License:** [${source.collection.licenseId}](${links.license})  \n> [Read the English original](/${source.collection.route}/)\n${disclosure}\n${body}`;
+  const edited = source.editCount > 0 ? `${editedNotice(source.editCount)}  \n` : "";
+  return `${frontmatter(source, title, description, aiTranslation, fragments)}> **Source:** [${source.collection.repositoryUrl}](${links.repository}) at [\`${source.revision.slice(0, 12)}\`](${links.readme})  \n> **License:** [${source.collection.licenseId}](${links.license})  \n${edited}> [Read the English original](/${source.collection.route}/)\n${disclosure}\n${body}`;
 }
 
 function getFragments(sourceStructure, translatedStructure) {
@@ -765,6 +896,9 @@ async function exportTranslations(args) {
   if (isWithin(source.sourceDirectory, outputDirectory)) {
     throw new Error("Export output must not be inside the read-only upstream submodule");
   }
+  if (isWithin(dataRoot, outputDirectory)) {
+    throw new Error("Export output must not be inside the data submodule");
+  }
   try {
     const existing = await readdir(outputDirectory);
     if (existing.length) throw new Error(`Export output is not empty: ${outputDirectory}`);
@@ -774,6 +908,7 @@ async function exportTranslations(args) {
   await mkdir(outputDirectory, { recursive: true });
   const inputs = path.join(outputDirectory, id);
   await mkdir(path.join(inputs, "locales"), { recursive: true });
+  // README.md is the reviewed mirror, the text the site publishes; the raw upstream README is not exported.
   await writeFile(path.join(inputs, "README.md"), source.sourceBytes, { flag: "wx" });
   await writeFile(
     path.join(inputs, "LICENSE"),
@@ -785,16 +920,22 @@ async function exportTranslations(args) {
     `${JSON.stringify({
       repositoryUrl: source.collection.repositoryUrl,
       revision: source.revision,
+      upstreamRevision: source.revision,
       readmePath: source.collection.readmePath,
       licenseId: source.collection.licenseId,
       sourceDigest: source.digest,
+      upstreamDigest: source.upstreamDigest,
+      edited: source.editCount > 0,
       locales,
     }, null, 2)}\n`,
     { flag: "wx" },
   );
+  const editedSentence = source.editCount > 0
+    ? " This mirror omits or replaces passages that were reviewed and removed upstream; do not restore them from the upstream README."
+    : "";
   await writeFile(
     path.join(inputs, "TRANSLATION-INSTRUCTIONS.md"),
-    `# Translation instructions\n\nTranslate the complete README into each of these locales: ${locales.join(", ")}.\n\nPreserve all headings and their order, list and table entries, code values, names, identifiers, link and image destinations, and source-fragment links. Translate prose and headings fully; do not add recommendations or omit content. Keep each locale in \`locales/<locale>.md\`. Have a maintainer review each translation and record its current source digest and truthful AI-translation flag in \`translations.json\`; keep every locale's title identical to the collection title and localize only the description. Builds never contact translation services.\n`,
+    `# Translation instructions\n\nThe source is \`README.md\` in this package: the reviewed mirror of the upstream README, not the raw upstream file. Translate the complete mirror README into each of these locales: ${locales.join(", ")}.${editedSentence}\n\nPreserve all headings and their order, list and table entries, code values, names, identifiers, link and image destinations, and source-fragment links. Translate prose and headings fully; do not add recommendations or omit content. Keep each locale in \`locales/<locale>.md\`. Have a maintainer review each translation and record its current source digest and truthful AI-translation flag in \`translations.json\`; keep every locale's title identical to the collection title and localize only the description. Builds never contact translation services.\n`,
     { flag: "wx" },
   );
   console.log(`Exported ${id} at ${source.revision} (${source.digest}) to ${outputDirectory}`);
