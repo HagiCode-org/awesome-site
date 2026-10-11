@@ -1,8 +1,8 @@
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 import starlight from "@astrojs/starlight";
-import collections from "./content/awesome/collections.json" with { type: "json" };
-import catalogs from "./content/awesome/catalogs.json" with { type: "json" };
+import collections from "./data/content/awesome/collections.json" with { type: "json" };
+import catalogs from "./data/content/awesome/catalogs.json" with { type: "json" };
 import hagilight from "@hagicode/hagilight-starlight";
 import { locales as hagilightLocales } from "@hagicode/hagilight-starlight/locales";
 import { hagilight as hagilightDiscovery } from "@hagicode/hagilight/integration";

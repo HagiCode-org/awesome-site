@@ -12,7 +12,7 @@ import {
 } from "../scripts/source-reviews.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
-const ledgerPath = path.join(root, "content/awesome/source-reviews.yml");
+const ledgerPath = path.join(root, "data/content/awesome/source-reviews.yml");
 const timestamp = "2026-10-03T19:00:00Z";
 
 function review(overrides = {}) {
@@ -212,8 +212,8 @@ test("review reconciliation requires matching hosted and GitHub-only registratio
 
 test("migration data covers the ledger baseline and both registries", async () => {
   const [collections, candidates] = await Promise.all([
-    readFile(path.join(root, "content/awesome/collections.json"), "utf8").then(JSON.parse),
-    readFile(path.join(root, "content/awesome/candidates.json"), "utf8").then(JSON.parse),
+    readFile(path.join(root, "data/content/awesome/collections.json"), "utf8").then(JSON.parse),
+    readFile(path.join(root, "data/content/awesome/candidates.json"), "utf8").then(JSON.parse),
   ]);
   const reviews = await loadSourceReviews(ledgerPath);
   const rightsReviews = reviews.filter((review) => Object.hasOwn(review, "reviewedAt"));

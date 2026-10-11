@@ -15,6 +15,7 @@ import {
   sourceHeadingAliases,
 } from "../src/plugins/awesome-content.mjs";
 import {
+  dataRoot,
   realPathInside,
   preparePages,
   validateCatalogs,
@@ -60,6 +61,37 @@ test("generated pages and their ownership manifest stay ignored and untracked", 
     input: `${generatedPaths.join("\n")}\n`,
   }).trim().split("\n");
   assert.deepEqual(ignoredPaths, generatedPaths);
+});
+
+test("awesome-site tracks only the data submodule and no migrated content or source paths", () => {
+  assert.deepEqual(
+    execFileSync("git", ["config", "--file", ".gitmodules", "--get-regexp", "\\.path$"], { cwd: root, encoding: "utf8" })
+      .trim()
+      .split("\n"),
+    ["submodule.data.path data"],
+  );
+  assert.match(
+    execFileSync("git", ["ls-files", "-s", "data"], { cwd: root, encoding: "utf8" }),
+    /^160000 [0-9a-f]{40} 0\tdata\n$/u,
+  );
+  assert.equal(
+    execFileSync("git", ["ls-files", "--", "content/awesome", "sources"], { cwd: root, encoding: "utf8" }),
+    "",
+    "Migrated content and source gitlinks must live in the data submodule",
+  );
+});
+
+test("config and component imports resolve catalog data inside the exported dataRoot", async () => {
+  assert.equal(dataRoot, path.join(root, "data"));
+  for (const file of ["astro.config.mjs", "src/components/CollectionBrowser.astro", "src/components/PageTitle.astro"]) {
+    const source = await readFile(path.join(root, file), "utf8");
+    const specifiers = [...source.matchAll(/from "([^"]*content\/awesome\/[^"]+)"/gu)].map(([, specifier]) => specifier);
+    assert.notEqual(specifiers.length, 0, `${file} imports no awesome content`);
+    for (const specifier of specifiers) {
+      const resolved = path.resolve(path.dirname(path.join(root, file)), specifier);
+      assert.ok(resolved.startsWith(`${dataRoot}${path.sep}`), `${file} imports ${specifier} outside dataRoot`);
+    }
+  }
 });
 
 const testCatalogs = {
@@ -141,7 +173,7 @@ async function createIsolatedPipeline({ ledgerContent, validSource = false }) {
   const directories = [
     "scripts",
     "src/plugins",
-    "content/awesome/test-collection/locales",
+    "data/content/awesome/test-collection/locales",
     "src/content/docs/awesome",
   ];
   for (const directory of directories) await mkdir(path.join(fixtureRoot, directory), { recursive: true });
@@ -149,6 +181,7 @@ async function createIsolatedPipeline({ ledgerContent, validSource = false }) {
   await Promise.all([
     copyFile(path.join(root, "scripts/content-pipeline.mjs"), path.join(fixtureRoot, "scripts/content-pipeline.mjs")),
     copyFile(path.join(root, "scripts/source-reviews.mjs"), path.join(fixtureRoot, "scripts/source-reviews.mjs")),
+    copyFile(path.join(root, "scripts/data-root.mjs"), path.join(fixtureRoot, "scripts/data-root.mjs")),
     copyFile(path.join(root, "src/plugins/awesome-content.mjs"), path.join(fixtureRoot, "src/plugins/awesome-content.mjs")),
     copyFile(path.join(root, "src/catalog-tags.mjs"), path.join(fixtureRoot, "src/catalog-tags.mjs")),
   ]);
@@ -158,22 +191,23 @@ async function createIsolatedPipeline({ ledgerContent, validSource = false }) {
     },
   };
   const initialFiles = [
-    writeFile(path.join(fixtureRoot, "content/awesome/collections.json"), `${JSON.stringify([collection], null, 2)}\n`),
-    writeFile(path.join(fixtureRoot, "content/awesome/catalogs.json"), `${JSON.stringify(catalogs, null, 2)}\n`),
-    writeFile(path.join(fixtureRoot, "content/awesome/candidates.json"), `${JSON.stringify([candidate], null, 2)}\n`),
+    writeFile(path.join(fixtureRoot, "data/content/awesome/collections.json"), `${JSON.stringify([collection], null, 2)}\n`),
+    writeFile(path.join(fixtureRoot, "data/content/awesome/catalogs.json"), `${JSON.stringify(catalogs, null, 2)}\n`),
+    writeFile(path.join(fixtureRoot, "data/content/awesome/candidates.json"), `${JSON.stringify([candidate], null, 2)}\n`),
     writeFile(path.join(fixtureRoot, ".awesome-content-manifest.json"), `${JSON.stringify({ paths: ["src/content/docs/awesome/old-page.md"] })}\n`),
     writeFile(path.join(fixtureRoot, "src/content/docs/awesome/old-page.md"), "Previously generated content\n"),
   ];
   if (ledgerContent !== null) {
     initialFiles.push(writeFile(
-      path.join(fixtureRoot, "content/awesome/source-reviews.yml"),
+      path.join(fixtureRoot, "data/content/awesome/source-reviews.yml"),
       ledgerContent ?? reviewYaml,
     ));
   }
   await Promise.all(initialFiles);
 
   if (validSource) {
-    const sourceDirectory = path.join(fixtureRoot, collection.sourceDir);
+    const dataDirectory = path.join(fixtureRoot, "data");
+    const sourceDirectory = path.join(dataDirectory, collection.sourceDir);
     await mkdir(sourceDirectory, { recursive: true });
     const sourceMarkdown = "# Example\n\nA concise source.\n";
     await writeFile(path.join(sourceDirectory, "README.md"), sourceMarkdown);
@@ -192,9 +226,9 @@ async function createIsolatedPipeline({ ledgerContent, validSource = false }) {
       cwd: sourceDirectory,
       encoding: "utf8",
     }).trim();
-    execFileSync("git", ["init", "--quiet"], { cwd: fixtureRoot, stdio: "pipe" });
+    execFileSync("git", ["init", "--quiet"], { cwd: dataDirectory, stdio: "pipe" });
     await writeFile(
-      path.join(fixtureRoot, ".gitmodules"),
+      path.join(dataDirectory, ".gitmodules"),
       `[submodule "sources/test-collection"]\n\tpath = sources/test-collection\n\turl = ${collection.repositoryUrl}\n`,
     );
     execFileSync("git", [
@@ -202,7 +236,7 @@ async function createIsolatedPipeline({ ledgerContent, validSource = false }) {
       "--add",
       "--cacheinfo",
       `160000,${revision},${collection.sourceDir}`,
-    ], { cwd: fixtureRoot, stdio: "pipe" });
+    ], { cwd: dataDirectory, stdio: "pipe" });
     const sourceDigest = createHash("sha256").update(sourceMarkdown).digest("hex");
     const translations = Object.fromEntries(translationLocales.map((locale) => [locale, {
       title: collection.title,
@@ -213,11 +247,11 @@ async function createIsolatedPipeline({ ledgerContent, validSource = false }) {
     }]));
     await Promise.all([
       ...translationLocales.map((locale) => writeFile(
-        path.join(fixtureRoot, `content/awesome/test-collection/locales/${locale}.md`),
+        path.join(fixtureRoot, `data/content/awesome/test-collection/locales/${locale}.md`),
         `# Example ${locale}\n\nTranslated source ${locale}.\n`,
       )),
       writeFile(
-        path.join(fixtureRoot, "content/awesome/test-collection/translations.json"),
+        path.join(fixtureRoot, "data/content/awesome/test-collection/translations.json"),
         `${JSON.stringify({ translations }, null, 2)}\n`,
       ),
     ]);
@@ -437,12 +471,12 @@ test("translation metadata requires all locales, current digests, review, and ho
 });
 
 test("content check reports missing source checkouts and stale translation digests", async () => {
-  const registryPath = path.join(root, "content/awesome/collections.json");
+  const registryPath = path.join(root, "data/content/awesome/collections.json");
   const sidecarPath = path.join(
     root,
-    "content/awesome/awesome-github-profile-readme/translations.json",
+    "data/content/awesome/awesome-github-profile-readme/translations.json",
   );
-  const reviewPath = path.join(root, "content/awesome/source-reviews.yml");
+  const reviewPath = path.join(root, "data/content/awesome/source-reviews.yml");
   const originalRegistry = await readFile(registryPath, "utf8");
   const originalSidecar = await readFile(sidecarPath, "utf8");
   const originalLedger = await readFile(reviewPath, "utf8");
@@ -482,9 +516,9 @@ test("content check reports missing source checkouts and stale translation diges
 
 test("missing or invalid review ledgers stop export, check, and prepare before output writes", async () => {
   const authoredPaths = [
-    "content/awesome/collections.json",
-    "content/awesome/catalogs.json",
-    "content/awesome/candidates.json",
+    "data/content/awesome/collections.json",
+    "data/content/awesome/catalogs.json",
+    "data/content/awesome/candidates.json",
     ".awesome-content-manifest.json",
     "src/content/docs/awesome/old-page.md",
   ];
@@ -495,7 +529,7 @@ test("missing or invalid review ledgers stop export, check, and prepare before o
   ]) {
     for (const command of ["export", "check", "prepare"]) {
       const fixtureRoot = await createIsolatedPipeline({ ledgerContent });
-      const ledgerPath = path.join(fixtureRoot, "content/awesome/source-reviews.yml");
+      const ledgerPath = path.join(fixtureRoot, "data/content/awesome/source-reviews.yml");
       const exportPath = path.join(fixtureRoot, "translation-export");
       const args = ["scripts/content-pipeline.mjs", command];
       if (command === "export") {
@@ -524,6 +558,81 @@ test("missing or invalid review ledgers stop export, check, and prepare before o
       } finally {
         await rm(fixtureRoot, { recursive: true, force: true });
       }
+    }
+  }
+});
+
+test("missing or empty data submodule fails check and prepare before generated pages change", async () => {
+  for (const state of ["missing", "empty"]) {
+    const fixtureRoot = await createIsolatedPipeline({});
+    try {
+      await rm(path.join(fixtureRoot, "data"), { recursive: true });
+      if (state === "empty") await mkdir(path.join(fixtureRoot, "data"));
+      const generatedPaths = [
+        ".awesome-content-manifest.json",
+        "src/content/docs/awesome/old-page.md",
+      ];
+      const generatedBefore = await Promise.all(generatedPaths.map((relative) => readFile(path.join(fixtureRoot, relative))));
+      for (const command of ["check", "prepare"]) {
+        const result = spawnSync(process.execPath, ["scripts/content-pipeline.mjs", command], {
+          cwd: fixtureRoot,
+          encoding: "utf8",
+        });
+        assert.notEqual(result.status, 0, `${state} data should fail ${command}`);
+        assert.match(
+          `${result.stdout}${result.stderr}`,
+          /data submodule is missing or not initialized: run git submodule update --init --recursive/u,
+        );
+      }
+      assert.deepEqual(
+        await Promise.all(generatedPaths.map((relative) => readFile(path.join(fixtureRoot, relative)))),
+        generatedBefore,
+      );
+      await assert.rejects(access(path.join(fixtureRoot, "src/content/docs/index.md")), { code: "ENOENT" });
+    } finally {
+      await rm(fixtureRoot, { recursive: true, force: true });
+    }
+  }
+});
+
+test("data sources that are uninitialized or registered only in awesome-site fail with the collection identifier", async () => {
+  const uninitialized = await createIsolatedPipeline({ validSource: true });
+  try {
+    const sourceDirectory = path.join(uninitialized, "data/sources/test-collection");
+    await rm(sourceDirectory, { recursive: true });
+    await mkdir(sourceDirectory);
+    const result = spawnSync(process.execPath, ["scripts/content-pipeline.mjs", "check"], {
+      cwd: uninitialized,
+      encoding: "utf8",
+    });
+    assert.notEqual(result.status, 0);
+    assert.match(`${result.stdout}${result.stderr}`, /test-collection: source submodule is not initialized/u);
+  } finally {
+    await rm(uninitialized, { recursive: true, force: true });
+  }
+
+  for (const dataGitmodules of [
+    "",
+    '[submodule "sources/other-collection"]\n\tpath = sources/other-collection\n\turl = https://github.com/example/other-collection\n',
+  ]) {
+    const unregistered = await createIsolatedPipeline({ validSource: true });
+    try {
+      await writeFile(path.join(unregistered, "data/.gitmodules"), dataGitmodules);
+      await writeFile(
+        path.join(unregistered, ".gitmodules"),
+        '[submodule "sources/test-collection"]\n\tpath = sources/test-collection\n\turl = https://github.com/example/test-collection\n',
+      );
+      const result = spawnSync(process.execPath, ["scripts/content-pipeline.mjs", "check"], {
+        cwd: unregistered,
+        encoding: "utf8",
+      });
+      assert.notEqual(result.status, 0);
+      assert.match(
+        `${result.stdout}${result.stderr}`,
+        /test-collection: \.gitmodules must register sources\/test-collection at https:\/\/github\.com\/example\/test-collection/u,
+      );
+    } finally {
+      await rm(unregistered, { recursive: true, force: true });
     }
   }
 });
@@ -578,7 +687,7 @@ test("fresh-checkout preparation rejects symlinked content ancestors", async () 
 
 test("valid repeated checks and preparations preserve the ledger and hosted-versus-candidate output", async () => {
   const fixtureRoot = await createIsolatedPipeline({ validSource: true });
-  const ledgerPath = path.join(fixtureRoot, "content/awesome/source-reviews.yml");
+  const ledgerPath = path.join(fixtureRoot, "data/content/awesome/source-reviews.yml");
   const originalLedger = await readFile(ledgerPath);
   const run = (command) => spawnSync(
     process.execPath,
@@ -811,7 +920,7 @@ test("source images are pinned before local image imports", () => {
 test("translation export includes pinned provenance and refuses to overwrite work", { skip: slowSkip }, async () => {
   const temporaryRoot = await mkdtemp(path.join(os.tmpdir(), "awesome-export-test-"));
   const output = path.join(temporaryRoot, "export");
-  const sourceFile = path.join(root, "sources/awesome-github-profile-readme/README.md");
+  const sourceFile = path.join(root, "data/sources/awesome-github-profile-readme/README.md");
   const expectedSource = await readFile(sourceFile);
   const args = [
     "scripts/content-pipeline.mjs",
@@ -867,7 +976,7 @@ test("production origin validator requires a public HTTPS origin", () => {
 });
 
 test("generated English retains the source bytes and repeated preparation is deterministic", { skip: slowSkip }, async () => {
-  const source = await readFile(path.join(root, "sources/awesome-github-profile-readme/README.md"), "utf8");
+  const source = await readFile(path.join(root, "data/sources/awesome-github-profile-readme/README.md"), "utf8");
   const generatedPath = path.join(
     root,
     "src/content/docs/awesome/awesome-github-profile-readme.md",
@@ -910,7 +1019,7 @@ test("generated English retains the source bytes and repeated preparation is det
 test("failed staging leaves all pipeline-owned outputs unchanged", async () => {
   const manifestPath = path.join(root, ".awesome-content-manifest.json");
   const manifest = JSON.parse(await readFile(manifestPath, "utf8"));
-  const candidates = JSON.parse(await readFile(path.join(root, "content/awesome/candidates.json"), "utf8"));
+  const candidates = JSON.parse(await readFile(path.join(root, "data/content/awesome/candidates.json"), "utf8"));
   const before = await Promise.all(manifest.paths.map(async (relative) => [
     relative,
     await readFile(path.join(root, relative), "utf8"),
@@ -998,7 +1107,7 @@ test("preparation supports another collection and removes retired outputs only",
     makePrepared("third-collection", "Third collection"),
   ];
   const manifestPath = path.join(root, ".awesome-content-manifest.json");
-  const candidates = JSON.parse(await readFile(path.join(root, "content/awesome/candidates.json"), "utf8"));
+  const candidates = JSON.parse(await readFile(path.join(root, "data/content/awesome/candidates.json"), "utf8"));
   const homepagePaths = [
     "src/content/docs/index.md",
     ...locales.map((locale) => `src/content/docs/${locale}/index.md`),

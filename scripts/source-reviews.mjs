@@ -1,10 +1,13 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 import { isAlias, isMap, isScalar, isSeq, parseAllDocuments } from "yaml";
+import { dataRoot } from "./data-root.mjs";
 
-const root = fileURLToPath(new URL("../", import.meta.url));
-const defaultLedgerPath = path.join(root, "content/awesome/source-reviews.yml");
+const defaultLedgerPath = path.join(dataRoot, "content/awesome/source-reviews.yml");
+
+function ledgerLabel(filePath) {
+  return path.relative(dataRoot, filePath).split(path.sep).join("/");
+}
 const fields = new Set(["id", "source", "title", "imported", "notImportedReason", "importedAt"]);
 const readmeRightsFields = new Set([
   "id",
@@ -93,7 +96,7 @@ function validateTimestamp(value, id) {
 
 export function validateSourceReviews(reviews, filePath = defaultLedgerPath) {
   if (!Array.isArray(reviews)) {
-    throw new Error(`${filePath}: review ledger must have a YAML sequence root`);
+    throw new Error(`${ledgerLabel(filePath)}: review ledger must have a YAML sequence root`);
   }
 
   const ids = new Map();
@@ -101,62 +104,62 @@ export function validateSourceReviews(reviews, filePath = defaultLedgerPath) {
   for (const [index, review] of reviews.entries()) {
     const label = `record ${index + 1}`;
     if (!review || typeof review !== "object" || Array.isArray(review)) {
-      throw new Error(`${filePath}: ${label} must be a mapping`);
+      throw new Error(`${ledgerLabel(filePath)}: ${label} must be a mapping`);
     }
     for (const field of fields) {
-      if (!Object.hasOwn(review, field)) throw new Error(`${filePath}: ${label} is missing required field "${field}"`);
+      if (!Object.hasOwn(review, field)) throw new Error(`${ledgerLabel(filePath)}: ${label} is missing required field "${field}"`);
     }
     for (const field of Object.keys(review)) {
-      if (!sourceReviewFields.has(field)) throw new Error(`${filePath}: ${label} has unknown field "${field}"`);
+      if (!sourceReviewFields.has(field)) throw new Error(`${ledgerLabel(filePath)}: ${label} has unknown field "${field}"`);
     }
     const hasRightsMetadata = [...readmeRightsMetadataFields].some((field) => Object.hasOwn(review, field));
     if (hasRightsMetadata) {
       for (const field of readmeRightsMetadataFields) {
         if (!Object.hasOwn(review, field)) {
-          throw new Error(`${filePath}: ${label} is missing required README rights field "${field}"`);
+          throw new Error(`${ledgerLabel(filePath)}: ${label} is missing required README rights field "${field}"`);
         }
       }
     }
 
     const id = review.id;
     if (typeof id !== "string" || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/u.test(id)) {
-      throw new Error(`${filePath}: ${label} id must be a kebab-case string`);
+      throw new Error(`${ledgerLabel(filePath)}: ${label} id must be a kebab-case string`);
     }
     if (ids.has(id)) {
-      throw new Error(`${filePath}: duplicate review identifier "${id}" in records ${ids.get(id)} and ${index + 1}`);
+      throw new Error(`${ledgerLabel(filePath)}: duplicate review identifier "${id}" in records ${ids.get(id)} and ${index + 1}`);
     }
     if (typeof review.source !== "string") {
-      throw new Error(`${filePath}: ${id}: source must be a canonical HTTPS GitHub repository URL`);
+      throw new Error(`${ledgerLabel(filePath)}: ${id}: source must be a canonical HTTPS GitHub repository URL`);
     }
     try {
       validateRepositoryUrl(review.source, id);
     } catch (error) {
-      throw new Error(`${filePath}: ${error.message}`);
+      throw new Error(`${ledgerLabel(filePath)}: ${error.message}`);
     }
     if (new URL(review.source).href !== review.source) {
-      throw new Error(`${filePath}: ${id}: source must use its canonical HTTPS GitHub repository URL`);
+      throw new Error(`${ledgerLabel(filePath)}: ${id}: source must use its canonical HTTPS GitHub repository URL`);
     }
     const identity = repositoryIdentity(review.source);
     if (repositories.has(identity)) {
-      throw new Error(`${filePath}: duplicate repository "${identity}" in records ${repositories.get(identity)} and ${index + 1}`);
+      throw new Error(`${ledgerLabel(filePath)}: duplicate repository "${identity}" in records ${repositories.get(identity)} and ${index + 1}`);
     }
     if (typeof review.title !== "string" || !review.title.trim()) {
-      throw new Error(`${filePath}: ${id}: title must be a nonempty string`);
+      throw new Error(`${ledgerLabel(filePath)}: ${id}: title must be a nonempty string`);
     }
     if (typeof review.imported !== "boolean") {
-      throw new Error(`${filePath}: ${id}: imported must be a YAML boolean`);
+      throw new Error(`${ledgerLabel(filePath)}: ${id}: imported must be a YAML boolean`);
     }
     if (review.imported) {
       if (review.notImportedReason !== null) {
-        throw new Error(`${filePath}: ${id}: imported records require notImportedReason: null`);
+        throw new Error(`${ledgerLabel(filePath)}: ${id}: imported records require notImportedReason: null`);
       }
       if (review.importedAt !== null) validateTimestamp(review.importedAt, id);
     } else {
       if (typeof review.notImportedReason !== "string" || !review.notImportedReason.trim()) {
-        throw new Error(`${filePath}: ${id}: non-imported records require a nonempty notImportedReason`);
+        throw new Error(`${ledgerLabel(filePath)}: ${id}: non-imported records require a nonempty notImportedReason`);
       }
       if (review.importedAt !== null) {
-        throw new Error(`${filePath}: ${id}: non-imported records require importedAt: null`);
+        throw new Error(`${ledgerLabel(filePath)}: ${id}: non-imported records require importedAt: null`);
       }
     }
     ids.set(id, index + 1);
@@ -167,10 +170,10 @@ export function validateSourceReviews(reviews, filePath = defaultLedgerPath) {
 
 export function validateReadmeRightsReviews(reviews, candidates, filePath = defaultLedgerPath) {
   if (!Array.isArray(reviews)) {
-    throw new Error(`${filePath}: rights review ledger must have a YAML sequence root`);
+    throw new Error(`${ledgerLabel(filePath)}: rights review ledger must have a YAML sequence root`);
   }
   if (reviews.length !== candidates.length) {
-    throw new Error(`${filePath}: expected ${candidates.length} candidate reviews, found ${reviews.length}`);
+    throw new Error(`${ledgerLabel(filePath)}: expected ${candidates.length} candidate reviews, found ${reviews.length}`);
   }
   const candidatesById = new Map(candidates.map((candidate) => [candidate.id, candidate]));
   const ids = new Set();
@@ -178,33 +181,33 @@ export function validateReadmeRightsReviews(reviews, candidates, filePath = defa
   for (const [index, review] of reviews.entries()) {
     const label = `record ${index + 1}`;
     if (!review || typeof review !== "object" || Array.isArray(review)) {
-      throw new Error(`${filePath}: ${label} must be a mapping`);
+      throw new Error(`${ledgerLabel(filePath)}: ${label} must be a mapping`);
     }
     for (const field of readmeRightsMetadataFields) {
-      if (!Object.hasOwn(review, field)) throw new Error(`${filePath}: ${label} is missing required field "${field}"`);
+      if (!Object.hasOwn(review, field)) throw new Error(`${ledgerLabel(filePath)}: ${label} is missing required field "${field}"`);
     }
     for (const field of Object.keys(review)) {
-      if (!sourceReviewFields.has(field)) throw new Error(`${filePath}: ${label} has unknown field "${field}"`);
+      if (!sourceReviewFields.has(field)) throw new Error(`${ledgerLabel(filePath)}: ${label} has unknown field "${field}"`);
     }
     if (typeof review.id !== "string" || !candidatesById.has(review.id) || ids.has(review.id)) {
-      throw new Error(`${filePath}: ${label} has an unknown or duplicate candidate identifier`);
+      throw new Error(`${ledgerLabel(filePath)}: ${label} has an unknown or duplicate candidate identifier`);
     }
     const candidate = candidatesById.get(review.id);
-    if (typeof review.source !== "string") throw new Error(`${filePath}: ${review.id}: source must be a GitHub URL`);
+    if (typeof review.source !== "string") throw new Error(`${ledgerLabel(filePath)}: ${review.id}: source must be a GitHub URL`);
     validateRepositoryUrl(review.source, review.id);
     if (repositoryIdentity(review.source) !== repositoryIdentity(candidate.repositoryUrl)) {
-      throw new Error(`${filePath}: ${review.id}: source does not match the candidate registry`);
+      throw new Error(`${ledgerLabel(filePath)}: ${review.id}: source does not match the candidate registry`);
     }
     if (!timestampPattern.test(review.reviewedAt ?? "")) {
-      throw new Error(`${filePath}: ${review.id}: reviewedAt must be a quoted UTC timestamp`);
+      throw new Error(`${ledgerLabel(filePath)}: ${review.id}: reviewedAt must be a quoted UTC timestamp`);
     }
     const reviewedAt = new Date(review.reviewedAt);
     if (Number.isNaN(reviewedAt.valueOf()) || reviewedAt.toISOString().replace(".000Z", "Z") !== review.reviewedAt) {
-      throw new Error(`${filePath}: ${review.id}: reviewedAt is not a valid UTC timestamp`);
+      throw new Error(`${ledgerLabel(filePath)}: ${review.id}: reviewedAt is not a valid UTC timestamp`);
     }
     for (const field of ["revision", "readmeBlob", "licenseBlob"]) {
       if (typeof review[field] !== "string" || !gitObjectPattern.test(review[field])) {
-        throw new Error(`${filePath}: ${review.id}: ${field} must be a full Git object ID`);
+        throw new Error(`${ledgerLabel(filePath)}: ${review.id}: ${field} must be a full Git object ID`);
       }
     }
     if (
@@ -213,24 +216,24 @@ export function validateReadmeRightsReviews(reviews, candidates, filePath = defa
       review.readmePath.startsWith("/") ||
       review.readmePath.split("/").includes("..")
     ) {
-      throw new Error(`${filePath}: ${review.id}: readmePath must be a repository-relative Markdown path`);
+      throw new Error(`${ledgerLabel(filePath)}: ${review.id}: readmePath must be a repository-relative Markdown path`);
     }
     if (
       typeof review.licensePath !== "string" ||
       review.licensePath.startsWith("/") ||
       review.licensePath.split("/").includes("..")
     ) {
-      throw new Error(`${filePath}: ${review.id}: licensePath must be a repository-relative path`);
+      throw new Error(`${ledgerLabel(filePath)}: ${review.id}: licensePath must be a repository-relative path`);
     }
     if (review.licenseId !== candidate.licenseId) {
-      throw new Error(`${filePath}: ${review.id}: reviewed license does not match the candidate registry`);
+      throw new Error(`${ledgerLabel(filePath)}: ${review.id}: reviewed license does not match the candidate registry`);
     }
     if (!readmeNotices.has(review.readmeNotice)) {
-      throw new Error(`${filePath}: ${review.id}: unsupported README rights notice classification`);
+      throw new Error(`${ledgerLabel(filePath)}: ${review.id}: unsupported README rights notice classification`);
     }
     for (const field of ["localAssetReferences", "externalAssetReferences"]) {
       if (!Number.isSafeInteger(review[field]) || review[field] < 0) {
-        throw new Error(`${filePath}: ${review.id}: ${field} must be a nonnegative integer`);
+        throw new Error(`${ledgerLabel(filePath)}: ${review.id}: ${field} must be a nonnegative integer`);
       }
     }
     if (
@@ -240,16 +243,16 @@ export function validateReadmeRightsReviews(reviews, candidates, filePath = defa
       [...review.externalAssetHosts].sort().some((host, i) => host !== review.externalAssetHosts[i]) ||
       Boolean(review.externalAssetReferences) !== Boolean(review.externalAssetHosts.length)
     ) {
-      throw new Error(`${filePath}: ${review.id}: externalAssetHosts must be a sorted unique host list matching the asset count`);
+      throw new Error(`${ledgerLabel(filePath)}: ${review.id}: externalAssetHosts must be a sorted unique host list matching the asset count`);
     }
     if (review.disposition !== linkOnlyDisposition) {
-      throw new Error(`${filePath}: ${review.id}: disposition must keep README and embedded assets link-only`);
+      throw new Error(`${ledgerLabel(filePath)}: ${review.id}: disposition must keep README and embedded assets link-only`);
     }
     ids.add(review.id);
     repositories.add(repositoryIdentity(review.source));
   }
   if (repositories.size !== candidates.length) {
-    throw new Error(`${filePath}: rights reviews do not cover each candidate exactly once`);
+    throw new Error(`${ledgerLabel(filePath)}: rights reviews do not cover each candidate exactly once`);
   }
   return reviews;
 }
@@ -290,7 +293,7 @@ function validateTimestampStyles(node, filePath) {
         timestamp.type !== "QUOTE_DOUBLE" &&
         timestamp.type !== "QUOTE_SINGLE"
       ) {
-        throw new Error(`${filePath}: ${label}: ${field} must be a quoted UTC timestamp`);
+        throw new Error(`${ledgerLabel(filePath)}: ${label}: ${field} must be a quoted UTC timestamp`);
       }
     }
   }
@@ -301,7 +304,7 @@ export async function loadSourceReviews(filePath = defaultLedgerPath) {
   try {
     source = await readFile(filePath, "utf8");
   } catch (error) {
-    if (error.code === "ENOENT") throw new Error(`${filePath}: source review ledger does not exist`);
+    if (error.code === "ENOENT") throw new Error(`${ledgerLabel(filePath)}: source review ledger does not exist`);
     throw error;
   }
 
@@ -309,25 +312,25 @@ export async function loadSourceReviews(filePath = defaultLedgerPath) {
   try {
     documents = parseAllDocuments(source, { uniqueKeys: true, version: "1.2" });
   } catch (error) {
-    throw new Error(`${filePath}: invalid YAML: ${error.message}`);
+    throw new Error(`${ledgerLabel(filePath)}: invalid YAML: ${error.message}`);
   }
   if (documents.length !== 1) {
-    throw new Error(`${filePath}: expected exactly one YAML document, found ${documents.length}`);
+    throw new Error(`${ledgerLabel(filePath)}: expected exactly one YAML document, found ${documents.length}`);
   }
   const [document] = documents;
   if (document.errors.length) {
     const details = document.errors.map(({ message }) => message.trim()).join("; ");
-    throw new Error(`${filePath}: invalid YAML: ${details}`);
+    throw new Error(`${ledgerLabel(filePath)}: invalid YAML: ${details}`);
   }
   const nodeIssue = findNodeIssue(document.contents);
-  if (nodeIssue) throw new Error(`${filePath}: ${nodeIssue}`);
+  if (nodeIssue) throw new Error(`${ledgerLabel(filePath)}: ${nodeIssue}`);
   validateTimestampStyles(document.contents, filePath);
 
   let reviews;
   try {
     reviews = document.toJS({ maxAliasCount: 0 });
   } catch (error) {
-    throw new Error(`${filePath}: invalid YAML data: ${error.message}`);
+    throw new Error(`${ledgerLabel(filePath)}: invalid YAML data: ${error.message}`);
   }
   return validateSourceReviews(reviews, filePath);
 }

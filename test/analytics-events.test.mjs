@@ -356,7 +356,7 @@ test("built home page tags the hero, topic rail, groups, and collection entries"
 });
 
 test("built collection pages tag the topic navigation and leave content links untagged", async () => {
-  const collections = JSON.parse(await readFile(path.join(root, "content/awesome/collections.json"), "utf8"));
+  const collections = JSON.parse(await readFile(path.join(root, "data/content/awesome/collections.json"), "utf8"));
   const html = await readFile(path.join(root, "dist/awesome", collections[0].id, "index.html"), "utf8");
   const nav = balanced(html, '<nav class="awesome-topic-nav"', "<nav", "</nav>");
   const links = tagged(nav, TOPIC_NAV);

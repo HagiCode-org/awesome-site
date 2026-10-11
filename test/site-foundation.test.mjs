@@ -114,8 +114,8 @@ test("SITE_URL is required outside dev and must be an absolute HTTP(S) URL", () 
 });
 
 test("built pages use Awesome Site identity, local routes, shared shell, and generated search", async () => {
-  const collections = JSON.parse(await readFile(path.join(root, "content/awesome/collections.json"), "utf8"));
-  const candidates = JSON.parse(await readFile(path.join(root, "content/awesome/candidates.json"), "utf8"));
+  const collections = JSON.parse(await readFile(path.join(root, "data/content/awesome/collections.json"), "utf8"));
+  const candidates = JSON.parse(await readFile(path.join(root, "data/content/awesome/candidates.json"), "utf8"));
   const topics = [...new Set(collections.flatMap(({ catalog, tags = [] }) => [
     ...(Array.isArray(catalog) ? catalog : [catalog]),
     ...(Array.isArray(tags) ? tags : [tags]),
@@ -368,7 +368,7 @@ test("built pages use Awesome Site identity, local routes, shared shell, and gen
         expectedSidebarTitles.set(collection.id, collection.title);
       } else {
         const translation = JSON.parse(await readFile(
-          path.join(root, `content/awesome/${collection.id}/translations.json`),
+          path.join(root, `data/content/awesome/${collection.id}/translations.json`),
           "utf8",
         ));
         expectedSidebarTitles.set(collection.id, translation.translations[locale].title);
@@ -422,8 +422,8 @@ test("built pages use Awesome Site identity, local routes, shared shell, and gen
 });
 
 test("production sidebars include all localized topic links", async () => {
-  const collections = JSON.parse(await readFile(path.join(root, "content/awesome/collections.json"), "utf8"));
-  const catalogs = JSON.parse(await readFile(path.join(root, "content/awesome/catalogs.json"), "utf8"));
+  const collections = JSON.parse(await readFile(path.join(root, "data/content/awesome/collections.json"), "utf8"));
+  const catalogs = JSON.parse(await readFile(path.join(root, "data/content/awesome/catalogs.json"), "utf8"));
   const topics = [...new Set(collections.flatMap(({ catalog, tags = [] }) => [
     ...(Array.isArray(catalog) ? catalog : [catalog]),
     ...(Array.isArray(tags) ? tags : [tags]),

@@ -18,6 +18,7 @@ import {
   inspectMarkdown,
 } from "../src/plugins/awesome-content.mjs";
 import { normalizeCatalogTags } from "../src/catalog-tags.mjs";
+import { dataRoot } from "./data-root.mjs";
 import {
   loadSourceReviews,
   reconcileSourceReviews,
@@ -25,12 +26,12 @@ import {
   validateReadmeRightsReviews,
 } from "./source-reviews.mjs";
 
-export { validateRepositoryUrl };
+export { dataRoot, validateRepositoryUrl };
 
 const root = fileURLToPath(new URL("../", import.meta.url));
-const registryPath = path.join(root, "content/awesome/collections.json");
-const catalogsPath = path.join(root, "content/awesome/catalogs.json");
-const candidatesPath = path.join(root, "content/awesome/candidates.json");
+const registryPath = path.join(dataRoot, "content/awesome/collections.json");
+const catalogsPath = path.join(dataRoot, "content/awesome/catalogs.json");
+const candidatesPath = path.join(dataRoot, "content/awesome/candidates.json");
 const manifestPath = path.join(root, ".awesome-content-manifest.json");
 const locales = ["zh-CN", "zh-Hant", "fr-FR", "de-DE", "es-ES", "ja-JP", "ko-KR", "pt-BR", "ru-RU"];
 const discoveryLocales = ["root", ...locales];
@@ -81,7 +82,7 @@ export async function realPathInside(parent, relative, label) {
 }
 
 function sourceRevision(collection) {
-  const entries = git(["ls-files", "--stage", "--", collection.sourceDir])
+  const entries = git(["ls-files", "--stage", "--", collection.sourceDir], dataRoot)
     .split("\n")
     .filter(Boolean);
   const entry = entries.find((line) => line.endsWith(`\t${collection.sourceDir}`));
@@ -92,13 +93,20 @@ function sourceRevision(collection) {
 }
 
 function validateSubmoduleRegistration(collection) {
-  const paths = git(["config", "--file", ".gitmodules", "--get-regexp", "\\.path$"])
+  let registrations = "";
+  try {
+    registrations = git(["config", "--file", ".gitmodules", "--get-regexp", "\\.path$"], dataRoot);
+  } catch (error) {
+    // git config exits 1 when no path is registered; the collection-specific error below reports it.
+    if (error.status !== 1) throw error;
+  }
+  const paths = registrations
     .split("\n")
     .filter(Boolean)
     .map((line) => {
       const [key, value] = line.split(/\s+/u);
       const section = key.slice(0, -".path".length);
-      const url = git(["config", "--file", ".gitmodules", "--get", `${section}.url`]);
+      const url = git(["config", "--file", ".gitmodules", "--get", `${section}.url`], dataRoot);
       return { path: value, url };
     });
   if (!paths.some(({ path: registeredPath, url }) =>
@@ -220,7 +228,11 @@ async function validateSource(collection) {
   }
   validateRepositoryUrl(collection.repositoryUrl, collection.id);
   validateRelativePath(collection.sourceDir, `${collection.id} sourceDir`);
-  const sourceDirectory = await realPathInside(root, collection.sourceDir, `${collection.id} sourceDir`);
+  const sourceDirectory = await realPathInside(dataRoot, collection.sourceDir, `${collection.id} sourceDir`);
+  const isCheckout = await lstat(path.join(sourceDirectory, ".git")).then(() => true, () => false);
+  if (!isCheckout) {
+    throw new Error(`${collection.id}: source submodule is not initialized; run git submodule update --init --recursive in data/`);
+  }
   validateSubmoduleRegistration(collection);
   const indexedRevision = sourceRevision(collection);
   const actualRevision = git(["rev-parse", "HEAD"], sourceDirectory);
@@ -250,7 +262,16 @@ async function validateSource(collection) {
 }
 
 async function loadSources() {
-  const collections = JSON.parse(await readFile(registryPath, "utf8"));
+  let registryText;
+  try {
+    registryText = await readFile(registryPath, "utf8");
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      throw new Error("data submodule is missing or not initialized: run git submodule update --init --recursive to populate data/");
+    }
+    throw error;
+  }
+  const collections = JSON.parse(registryText);
   const catalogs = JSON.parse(await readFile(catalogsPath, "utf8"));
   const candidates = JSON.parse(await readFile(candidatesPath, "utf8"));
   validateRegistry(collections, catalogs);
@@ -307,7 +328,7 @@ export function validateMetadata(metadata, source, locale) {
 }
 
 async function validateTranslations(source) {
-  const translationDirectory = path.join(root, "content/awesome", source.collection.id);
+  const translationDirectory = path.join(dataRoot, "content/awesome", source.collection.id);
   const sidecarPath = path.join(translationDirectory, "translations.json");
   let sidecar;
   try {

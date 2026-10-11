@@ -1,6 +1,6 @@
 # Awesome Site
 
-A static, multilingual collection site built with Astro, Starlight, and Hagilight. Site-authored pages and pinned upstream README sources are maintained separately; the site does not ingest OpenSpec content or depend on the `openspec-docs` repository.
+A static, multilingual collection site built with Astro, Starlight, and Hagilight. Collection content, the source review ledger, and pinned upstream sources live in the [`awesome-site-data`](https://github.com/HagiCode-org/awesome-site-data) repository, mounted at `data/`. The site does not ingest OpenSpec content or depend on the `openspec-docs` repository.
 
 ## Requirements
 
@@ -10,7 +10,7 @@ A static, multilingual collection site built with Astro, Starlight, and Hagiligh
 
 ## Install and run
 
-Clone with the pinned source submodules, or initialize them after cloning:
+Clone with the pinned `data/` submodule and its nested source submodules, or initialize them after cloning:
 
 ```sh
 git clone --recurse-submodules https://github.com/HagiCode-org/awesome-site.git
@@ -30,73 +30,50 @@ SITE_URL=http://localhost:36265 npm test
 SITE_URL=http://localhost:36265 npm run preview
 ```
 
-`dev`, `check`, and `build` prepare collection pages before using them. `preview` serves an existing build without regenerating content. Run `npm test` after a successful build.
+`dev`, `check`, and `build` prepare collection pages from `data/` before using them. `preview` serves an existing build without regenerating content. Run `npm test` after a successful build.
 
-## Content ownership and locales
+## Data submodule
+
+`data/` is the [`awesome-site-data`](https://github.com/HagiCode-org/awesome-site-data) submodule. Its `content/awesome/` tree holds the collection registry, catalogs, candidates, source review ledger, and reviewed translations; its nested `sources/<id>` submodules hold the pinned upstream READMEs. The pipeline reads only from `data/`. The pinned commits fix the content and source revisions a build uses, so upstream commits do not change a build until the pin moves. Collection onboarding, ledger rules, and translation work are documented in the data repository README.
+
+- Clone with `git clone --recurse-submodules`. For an existing checkout, run `git submodule update --init --recursive`, which also initializes the nested source submodules.
+- A missing or uninitialized `data/` fails `content:check` and `content:prepare`, and the `dev`, `check`, and `build` hooks that run them, with `data submodule is missing or not initialized: run git submodule update --init --recursive to populate data/`. A collection whose source is not initialized fails with its collection id and the same command, run inside `data/`.
+- The npm hooks run the pipeline first, so they show those diagnostics. Running `astro` directly skips them and fails with a module-not-found error for `data/content/awesome/collections.json`, because `astro.config.mjs` imports that file statically.
+- Older checkouts may still have local `content/awesome/` and `sources/` directories. They are no longer tracked and are not ignored, so they appear as untracked files. Remove them once nothing in them is needed; the authoritative copies are in `data/`.
+
+To change data and bump the pin:
+
+1. In `awesome-site-data`, commit the change to `main` and push it.
+2. In this repository, run `git -C data fetch origin main && git -C data checkout <commit>`, then `git submodule update --init --recursive`.
+3. Run `SITE_URL=http://localhost:36265 npm run content:check`, `npm run check`, `npm run build`, and `npm test`.
+4. Stage the `data` gitlink with `git add data` and commit the new pin in `awesome-site`.
+
+## Locales and homepages
 
 The English homepage at `/` and the nine locale homepages at `/zh-CN/`, `/zh-Hant/`, `/fr-FR/`, `/de-DE/`, `/es-ES/`, `/ja-JP/`, `/ko-KR/`, `/pt-BR/`, and `/ru-RU/` are generated from the validated collection registry, reviewed translations, topic catalogs, and GitHub-only candidates. Each root retains the same collection directory as its `/awesome/` compatibility route; its title, descriptions, topic labels, counts, and hosted-versus-GitHub-only sections are localized. The homepage-only `HomeWelcome.astro` component adds welcome content, exploration links, live registry counts, and featured topics above that directory. Maintain its ten language editions in `src/home-copy.mjs`, not the generated Markdown. Its responsive artwork and short entrance animations use CSS only and respect reduced-motion preferences.
 
-`content/awesome/collections.json` is the collection registry. Each imported source is a pinned submodule under `sources/`; the original source is `awesome-github-profile-readme`. The source review ledger records the imported sources, GitHub-only candidates, and the three documented exclusions: `awesome-redis` (746 stars at the 2026-10-03 review), `awesome-kotlin` (its README is an introduction, not the collection), and `awesome-public-datasets` (its README is reStructuredText). Git records each selected source's exact commit, so later upstream commits do not change a build until the gitlink is deliberately updated.
+The site publishes English at unprefixed routes and nine locale editions at `/zh-CN/`, `/zh-Hant/`, `/fr-FR/`, `/de-DE/`, `/es-ES/`, `/ja-JP/`, `/ko-KR/`, `/pt-BR/`, and `/ru-RU/`. Hagilight owns `/rss.xml`, its English alias `/rss.en.xml`, the locale RSS feeds, and `robots.txt`; Astro's sitemap integration owns the sitemap. Feeds and search contain actual locale editions, not English fallback copies. Requests for untranslated optional authored pages recover to their English source. GitHub-only candidates are listed as links to GitHub; the site does not copy or translate their README or embedded assets.
 
-`content/awesome/candidates.json` lists qualifying repositories that do not yet have a hosted collection edition. The candidates have a reviewed repository license matching the pipeline's supported allowlist; their `licenseId` and dated star count are recorded in the registry and validated by the pipeline. Candidate entries in `content/awesome/source-reviews.yml` also record the reviewed README/license commit and blobs, README rights notices, embedded-asset counts, and remote asset hosts. These checks do not independently clear third-party material or prove a repository license covers every README asset. All candidates remain GitHub links only: the site does not copy or translate their README or embedded assets.
+## Generated pages
 
-## Source review ledger
+Generated collection pages, discovery indexes under `src/content/docs/**/awesome/`, and the ten exact locale homepage paths listed in [Locales and homepages](#locales-and-homepages) are pipeline-owned; do not edit them directly. The manifest tracks articles, homepages, all-collection indexes, and used-topic indexes in one transaction, and preparation removes obsolete generated pages without replacing authored files. The navigation sidebar automatically lists each published collection in its current locale; the `/awesome/` routes remain available as compatible directory links. Git ignores only the generated homepage paths and `awesome/` output directories.
 
-[`content/awesome/source-reviews.yml`](content/awesome/source-reviews.yml) is the canonical maintainer record of source review outcomes. Each YAML sequence entry includes `id` (stable kebab-case identifier), `source` (canonical GitHub repository URL), `title`, `imported` (a boolean), `notImportedReason`, and `importedAt`. Candidate entries also include the README rights review fields. Repository identities are compared case-insensitively.
+Generated pages and their ownership manifest must remain both ignored and untracked: ignore rules alone do not remove previously tracked files, and checking in generated pages without the manifest makes fresh-checkout preparation fail. Preparation does not adopt or overwrite an unowned homepage: if an existing file collides with a generated destination, remove or migrate that file deliberately before preparing content. Unrelated authored documents remain outside the pipeline's ownership.
+## Content commands
 
-`imported: true` means the matching source is admitted to `collections.json`. A checked-out submodule or a GitHub-only candidate is not an import. Imported records have `notImportedReason: null`; non-imported records require a reason and `importedAt: null`. For example:
-
-```yaml
-- id: pending-source
-  source: https://github.com/example/pending-source
-  title: Pending Source
-  imported: false
-  notImportedReason: "Pending confirmation of redistribution permission."
-  importedAt: null
-- id: excluded-source
-  source: https://github.com/example/excluded-source
-  title: Excluded Source
-  imported: false
-  notImportedReason: "Excluded by the documented eligibility threshold."
-  importedAt: null
-```
-
-When an imported source's admission time is known, record it as a quoted UTC timestamp such as `"2026-10-03T19:00:00Z"`. Use explicit `importedAt: null` for unknown historical timing; null does not mean the source is unimported. The migrated records use null where repository history did not establish a reliable admission time. Do not substitute an audit date, submodule checkout time, or build time.
-
-When admitting a source, update its hosted registration and review record together, then record the known admission time. Re-review does not refresh that time. When removing a source from the hosted registry, set `imported: false`, explain the removal, clear the current import time, and update any candidate registration as appropriate. The pipeline checks both registries against the ledger and never changes any of them automatically. Review status does not grant redistribution permission or bypass license, safety, or translation checks.
-
-Run `npm run content:check` to validate review data and all existing source and translation gates, and `npm run content:prepare` to validate and prepare generated pages. `npm run content:export` also validates the ledger before writing a translation package.
-
-Onboard a listed repository with `git submodule add https://github.com/<owner>/<repo>.git sources/<id>`, which checks out the remote's current default-branch HEAD and records that exact commit. Record its GitHub star count and canonical one-file README in the dated audit snapshot. Missing LICENSE files do not automatically disqualify a star-qualified candidate, but a license or explicit permission confirming redistribution is still required before copying the README into published content. The current verifier recognizes `CC0-1.0`, `MIT`, `Apache-2.0`, `Unlicense`, and `WTFPL`; do not infer permission from a missing or ambiguous license. Also verify source language and safety compatibility. Unverified permissions, rejected content, or missing reviewed translations keep that collection out of the published set.
-
-Each collection registration requires `catalog` as one topic key or an array. `content/awesome/catalogs.json` defines stable topic keys and nonempty labels for `root` and all nine locales. Docs may also provide `tags`; effective tags preserve explicit tag order and append catalog keys, with duplicates removed. Every effective collection tag must exist in the taxonomy. Technology names may keep their usual spelling across locales; translate human topic labels.
-
-Reviewed translation inputs live under `content/awesome/<id>/`. Generated collection pages, discovery indexes under `src/content/docs/**/awesome/`, and the ten exact locale homepage paths listed above are pipeline-owned; do not edit them directly. The manifest tracks articles, homepages, all-collection indexes, and used-topic indexes in one transaction, and preparation removes obsolete generated pages without replacing authored files. The navigation sidebar automatically lists each published collection in its current locale; the `/awesome/` routes remain available as compatible directory links. Git ignores only the generated homepage paths and `awesome/` output directories.
-
-The ten former authored welcome pages were explicitly removed as part of the ownership migration. Generated pages and their ownership manifest must remain both ignored and untracked: ignore rules alone do not remove previously tracked files, and checking in generated pages without the manifest makes fresh-checkout preparation fail. Preparation does not adopt or overwrite an unowned homepage: if an existing file collides with a generated destination, remove or migrate that file deliberately before preparing content. Unrelated authored documents remain outside the pipeline's ownership.
-
-The site publishes English at unprefixed routes and nine locale editions at `/zh-CN/`, `/zh-Hant/`, `/fr-FR/`, `/de-DE/`, `/es-ES/`, `/ja-JP/`, `/ko-KR/`, `/pt-BR/`, and `/ru-RU/`. Hagilight owns `/rss.xml`, its English alias `/rss.en.xml`, the locale RSS feeds, and `robots.txt`; Astro's sitemap integration owns the sitemap. Feeds and search contain actual locale editions, not English fallback copies. Requests for untranslated optional authored pages recover to their English source.
-
-## Translate or update a collection
-
-Export a translation work package without overwriting existing files:
-
-```sh
-npm run content:export -- --collection awesome-github-profile-readme --output /tmp/agpr-translation
-```
-
-The export contains the byte-preserved README and license, pinned revision, SHA-256 source digest, target locale list, and full-coverage instructions. Translate the complete README for each target locale. Preserve names, code, list/table entries, link and image destinations, and section order. Store each body at `content/awesome/<id>/locales/<locale>.md`.
-
-For every locale, record a localized `title` and `description`, the current `sourceDigest`, `reviewStatus: "reviewed"`, and a truthful `isAITranslation` boolean in `content/awesome/<id>/translations.json`. AI translations must set `isAITranslation: true`; the published edition then shows an AI-translation disclosure. Builds validate review status and structure but do not contact translation services or claim that structural checks prove linguistic quality.
-
-Run the content gate before building:
+`content:check`, `content:prepare`, and `content:export` read `data/` and never write into it:
 
 ```sh
 npm run content:check
 npm run content:prepare
+npm run content:export -- --collection <id> --output <dir>
 ```
 
-If the source README changes, export it again and update all translations to the new digest. Missing, stale, unreviewed, unsafe, or structurally incomplete content fails with a collection/locale diagnostic before generated pages are replaced. Fix the reported inputs and rerun preparation; authored files and the previous generated set remain intact on validation or staging failure.
+`content:check` validates the registry, catalogs, candidates, source review ledger, pinned source revisions, and translations, plus every source and translation gate. `content:prepare` runs the same validation, then replaces generated pages. `content:export` validates the ledger, then writes a translation work package to `--output` without overwriting existing files.
+
+Missing, stale, unreviewed, unsafe, or structurally incomplete content fails with a collection/locale diagnostic before generated pages are replaced. Fix the reported inputs in `data/` and rerun preparation; authored files and the previous generated set remain intact on validation or staging failure.
+
+Collection onboarding, source review, and translation maintenance are documented in the [`awesome-site-data` README](https://github.com/HagiCode-org/awesome-site-data#readme).
 
 ## External-link warning
 
