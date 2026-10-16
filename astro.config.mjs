@@ -148,6 +148,6 @@ export default defineConfig({
       ],
     }),
     sitemap(),
-    hagilightDiscovery(),
+    hagilightDiscovery({ llms: { summary: "A multilingual directory of curated awesome lists. Each collection page mirrors the list's README, translated into 10 languages.", maxLinksPerSection: 80 } }),
   ],
 });
