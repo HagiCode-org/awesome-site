@@ -1,6 +1,27 @@
 # Awesome Site
 
-A static, multilingual collection site built with Astro, Starlight, and Hagilight. Collection content, the source review ledger, and pinned upstream sources live in the [`awesome-site-data`](https://github.com/HagiCode-org/awesome-site-data) repository, mounted at `data/`. The site does not ingest OpenSpec content or depend on the `openspec-docs` repository.
+**Less searching. More discovering.** Awesome Site gathers community-curated open-source "awesome" collections in one place, so you can pick a topic, read in your language, and follow each entry back to its source.
+
+Part of the [HagiCode](https://hagicode.com/) ecosystem. HagiCode is an AI workbench for project development: it works with the Agent CLIs and models you already use, reads the repository first, sets the scope, and then executes with a trail you can review. Install it from the [installation guide](https://docs.hagicode.com/en-US/installation/) or see the [product overview](https://docs.hagicode.com/en-US/product-overview/).
+
+## Highlights
+
+- **76 hosted collections** across topics, each with its own page and a topic-based browser on the home page.
+- **10 reading languages**: English plus `zh-CN`, `zh-Hant`, `fr-FR`, `de-DE`, `es-ES`, `ja-JP`, `ko-KR`, `pt-BR`, and `ru-RU`, all with full translated editions, search, and RSS feeds.
+- **Close to the source.** Hosted editions are reviewed mirrors of pinned upstream READMEs, with provenance and license links. Repositories that are not hosted open on GitHub.
+- **Safe outbound links.** Links to untrusted sites show a localized confirmation with the exact destination before you leave.
+- **Static and fast.** Built with Astro, Starlight, and Hagilight, and deployed as a plain static site.
+
+## Quick start
+
+```sh
+git clone --recurse-submodules https://github.com/HagiCode-org/awesome-site.git
+cd awesome-site
+npm ci
+npm run dev
+```
+
+Open `http://localhost:36265`. You need Node.js 24 or later and Git. The details below cover requirements, the `data/` submodule, content commands, and publication.
 
 ## Requirements
 
