@@ -4,7 +4,7 @@ A static, multilingual collection site built with Astro, Starlight, and Hagiligh
 
 ## Requirements
 
-- Node.js 22.12 or later
+- Node.js 24 or later
 - npm 9.6.5 or later
 - Git with submodule support
 
