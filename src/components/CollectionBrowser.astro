@@ -181,6 +181,7 @@ const more = (candidates as Array<{ id: string; repositoryUrl: string; catalog: 
         .replace("{total}", String(items.length));
       empty.hidden = shown > 0;
       clear.hidden = !filtered;
+      document.dispatchEvent(new CustomEvent("awesome:topic-change", { detail: { topic } }));
     }
 
     function selectTopic(next: string) {
@@ -193,6 +194,14 @@ const more = (candidates as Array<{ id: string; repositoryUrl: string; catalog: 
         });
       }
     }
+
+    // The hero's topic map asks for a topic from far above this section: skip the view transition, which would
+    // animate an off-screen change, and bring the result into view instead.
+    document.addEventListener("awesome:topic-select", (event) => {
+      topic = (event as CustomEvent<{ topic: string }>).detail.topic;
+      apply();
+      document.getElementById("awesome-start")?.scrollIntoView({ behavior: reducedMotion.matches ? "auto" : "smooth", block: "start" });
+    });
 
     tools.hidden = false;
     apply();

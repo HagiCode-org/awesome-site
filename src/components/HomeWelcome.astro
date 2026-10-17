@@ -2,8 +2,10 @@
 import { getCollection } from "astro:content";
 import { gaEventAttributes } from "@hagicode/hagilight-core/analytics-events";
 import { locales } from "@hagicode/hagilight-starlight/locales";
+import catalogs from "../../data/content/awesome/catalogs.json";
 import { HOME_HERO } from "../analytics-locations.mjs";
 import { getWelcomeCopy } from "../home-copy.mjs";
+import { TOPIC_MAP_DOT, estimateLabelWidth, layoutTopicMap, placeLabels } from "../topic-map.mjs";
 import CollectionBrowser from "./CollectionBrowser.astro";
 
 const locale = Astro.locals.starlightRoute.locale ?? "root";
@@ -12,6 +14,26 @@ const prefix = locale === "root" ? "" : `/${locale}`;
 const docPrefix = locale === "root" ? "awesome/" : `${locale}/awesome/`;
 const hosted = await getCollection("docs", ({ id, data }) => Boolean(data.awesomeSource) && id.startsWith(docPrefix));
 const number = new Intl.NumberFormat(locale === "root" ? "en-US" : locale);
+const dotRadius = TOPIC_MAP_DOT;
+const map = layoutTopicMap(hosted.map(({ data }) => data.tags ?? []));
+const labelText = (node: { topic: string; count: number }) => {
+  const entry = (catalogs as Record<string, { labels: Record<string, string> }>)[node.topic];
+  if (!entry || !Object.hasOwn(entry.labels, locale)) {
+    throw new Error(`Missing topic map label for "${node.topic}/${locale}"`);
+  }
+  return entry.labels[locale];
+};
+const labelTexts = map.nodes.map(labelText);
+const placements = placeLabels(
+  map.nodes,
+  labelTexts.map((text, index) => estimateLabelWidth(`${text} ${number.format(map.nodes[index].count)}`) + 4),
+);
+const clusters = map.nodes.map((node, index) => ({
+  ...node,
+  label: labelTexts[index],
+  place: placements[index],
+  spread: Math.round(Math.hypot(node.x - map.size / 2, node.y - map.size / 2)),
+}));
 const stats = [
   { value: hosted.length, label: copy.collections },
   { value: new Set(hosted.flatMap(({ data }) => data.tags ?? [])).size, label: copy.topics },
@@ -35,12 +57,21 @@ const stats = [
       </div>
     </div>
     <div class="awesome-welcome-art" aria-hidden="true">
-      <div class="awesome-welcome-orbit awesome-welcome-orbit-outer"></div>
-      <div class="awesome-welcome-orbit awesome-welcome-orbit-inner"></div>
-      <span class="awesome-welcome-node awesome-welcome-node-code">&lt;/&gt;</span>
-      <span class="awesome-welcome-node awesome-welcome-node-star">&#10022;</span>
-      <span class="awesome-welcome-node awesome-welcome-node-branch">&#9282;</span>
-      <span class="awesome-welcome-monogram">A<span>&#8226;</span></span>
+      <svg class="awesome-map" viewBox={`0 0 ${map.size} ${map.size}`} focusable="false" data-topic-map>
+        {clusters.map((cluster) => <g class="awesome-map-cluster" data-topic={cluster.topic} style={`--d:${cluster.spread}`}>
+          <circle class="awesome-map-hit" cx={cluster.x} cy={cluster.y} r={cluster.r + 5} />
+          {cluster.dots.map((dot, k) => <circle class="awesome-map-dot" cx={dot.x} cy={dot.y} r={dotRadius} style={`--k:${k}`} />)}
+        </g>)}
+        <g class="awesome-map-labels">
+          {clusters.map((cluster) => <text
+            class="awesome-map-label"
+            data-label-for={cluster.topic}
+            x={cluster.place.x}
+            y={cluster.place.y}
+            text-anchor={cluster.place.anchor}
+          >{cluster.label}<tspan class="awesome-map-count" dx="0.4em">{number.format(cluster.count)}</tspan></text>)}
+        </g>
+      </svg>
     </div>
   </section>
 
@@ -58,3 +89,134 @@ const stats = [
     </section>)}
   </div>
 </div>
+
+<script>
+  const map = document.querySelector<SVGSVGElement>("[data-topic-map]");
+  if (map) {
+    const SIZE = map.viewBox.baseVal.width;
+    const RADIUS = 46;
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+    const dots = [...map.querySelectorAll<SVGCircleElement>(".awesome-map-dot")].map((el) => {
+      const x = Number(el.getAttribute("cx"));
+      const y = Number(el.getAttribute("cy"));
+      return { el, hx: x, hy: y, x, y, vx: 0, vy: 0 };
+    });
+    const clusters = new Map([...map.querySelectorAll<SVGGElement>(".awesome-map-cluster")].map((el) => [el.dataset.topic!, el]));
+    const labels = new Map([...map.querySelectorAll<SVGTextElement>("[data-label-for]")].map((el) => [el.dataset.labelFor!, el]));
+
+    let pointer: { x: number; y: number } | null = null;
+    let frame = 0;
+    let last = 0;
+    let onScreen = true;
+    let hovered = "";
+    let selected = "";
+
+    function step(now: number) {
+      const dt = Math.min(2.5, (now - last) / 16.667 || 1);
+      last = now;
+      let energy = 0;
+      for (const dot of dots) {
+        let ax = (dot.hx - dot.x) * 0.075;
+        let ay = (dot.hy - dot.y) * 0.075;
+        if (pointer) {
+          const dx = dot.x - pointer.x;
+          const dy = dot.y - pointer.y;
+          const d = Math.hypot(dx, dy);
+          if (d < RADIUS) {
+            const push = (1 - d / RADIUS) ** 2 * 3.4;
+            ax += (dx / (d || 1)) * push;
+            ay += (dy / (d || 1)) * push;
+          }
+        }
+        const damping = 0.8 ** dt;
+        dot.vx = (dot.vx + ax * dt) * damping;
+        dot.vy = (dot.vy + ay * dt) * damping;
+        dot.x += dot.vx * dt;
+        dot.y += dot.vy * dt;
+        dot.el.setAttribute("cx", dot.x.toFixed(2));
+        dot.el.setAttribute("cy", dot.y.toFixed(2));
+        energy += Math.abs(dot.vx) + Math.abs(dot.vy) + Math.abs(dot.hx - dot.x) + Math.abs(dot.hy - dot.y);
+      }
+      frame = pointer || energy > 0.02 ? requestAnimationFrame(step) : 0;
+    }
+
+    function wake() {
+      if (!frame && onScreen && !reduced.matches) {
+        last = performance.now();
+        frame = requestAnimationFrame(step);
+      }
+    }
+
+    function toSvg(event: PointerEvent) {
+      const box = map!.getBoundingClientRect();
+      return { x: ((event.clientX - box.left) / box.width) * SIZE, y: ((event.clientY - box.top) / box.height) * SIZE };
+    }
+
+    function paint() {
+      const shown = hovered || selected;
+      map!.toggleAttribute("data-focus", Boolean(shown));
+      for (const [topic, el] of clusters) {
+        el.classList.toggle("is-on", topic === shown);
+        el.classList.toggle("is-selected", topic === selected);
+        labels.get(topic)?.classList.toggle("is-on", topic === shown);
+      }
+    }
+
+    function topicAt(target: EventTarget | null) {
+      return (target as Element | null)?.closest<SVGGElement>(".awesome-map-cluster")?.dataset.topic ?? "";
+    }
+
+    map.addEventListener("pointermove", (event) => {
+      if (event.pointerType === "touch") return;
+      pointer = toSvg(event);
+      const topic = topicAt(event.target);
+      if (topic !== hovered) {
+        hovered = topic;
+        paint();
+      }
+      wake();
+    });
+    map.addEventListener("pointerleave", () => {
+      pointer = null;
+      hovered = "";
+      paint();
+      wake();
+    });
+    map.addEventListener("click", (event) => {
+      const topic = topicAt(event.target);
+      if (topic) document.dispatchEvent(new CustomEvent("awesome:topic-select", { detail: { topic: topic === selected ? "" : topic } }));
+    });
+    document.addEventListener("awesome:topic-change", (event) => {
+      selected = (event as CustomEvent<{ topic: string }>).detail.topic;
+      paint();
+    });
+
+    // Once the bloom has landed, light the biggest cluster for a moment so the labels announce themselves.
+    // Any pointer movement over the map takes over.
+    if (!reduced.matches) {
+      const lead = map.querySelector<SVGGElement>(".awesome-map-cluster")?.dataset.topic ?? "";
+      const show = window.setTimeout(() => {
+        if (!onScreen || hovered) return;
+        hovered = lead;
+        paint();
+        window.setTimeout(() => {
+          if (hovered === lead && !pointer) {
+            hovered = "";
+            paint();
+          }
+        }, 2200);
+      }, 2000);
+      map.addEventListener("pointermove", () => window.clearTimeout(show), { once: true });
+    }
+
+    new IntersectionObserver(([entry]) => {
+      onScreen = entry.isIntersecting;
+      if (!onScreen) {
+        pointer = null;
+        hovered = "";
+        paint();
+      }
+    }).observe(map);
+  }
+</script>

@@ -151,7 +151,8 @@
 .awesome-welcome {
   --awesome-signal: #b8ee75;
   --awesome-ink: #192510;
-  margin-block: 2rem 1rem;
+  container-type: inline-size;
+  margin-block: 0.5rem 1rem;
   color: var(--sl-color-text);
 }
 
@@ -170,7 +171,7 @@
   position: relative;
   isolation: isolate;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 12rem;
+  grid-template-columns: minmax(0, 1fr) clamp(14rem, 40%, 22rem);
   gap: 1.5rem;
   align-items: center;
   padding-block: 1rem 2.5rem;
@@ -244,61 +245,64 @@
 }
 
 .awesome-welcome-art {
-  position: relative;
-  display: grid;
-  place-items: center;
-  width: 12rem;
+  width: 100%;
   aspect-ratio: 1;
-  background: radial-gradient(circle, color-mix(in srgb, var(--awesome-signal) 10%, transparent), transparent 70%);
 }
 
-.awesome-welcome-orbit {
-  position: absolute;
-  border: 1px solid color-mix(in srgb, var(--awesome-signal) 35%, transparent);
-  border-radius: 50%;
+/* One dot per collection, one cluster per topic: the catalog drawn as itself. */
+.awesome-map {
+  --map-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
 }
 
-.awesome-welcome-orbit-outer {
-  inset: 0;
-  transform: rotate(-30deg) scaleY(0.72);
+.awesome-map-hit {
+  fill: transparent;
+  cursor: pointer;
 }
 
-.awesome-welcome-orbit-inner {
-  inset: 1rem;
-  transform: rotate(45deg) scaleY(0.8);
+.awesome-map-dot {
+  fill: var(--awesome-signal);
+  pointer-events: none;
+  transition: opacity 180ms ease;
 }
 
-.awesome-welcome-monogram {
-  color: var(--sl-color-white);
-  font-size: 6rem;
-  font-weight: 800;
-  letter-spacing: -0.1em;
-  line-height: 1;
-  transform: rotate(-8deg);
+.awesome-map[data-focus] .awesome-map-cluster:not(.is-on) .awesome-map-dot {
+  opacity: 0.2;
 }
 
-.awesome-welcome-monogram > span {
-  color: var(--awesome-signal);
+.awesome-map-cluster.is-selected .awesome-map-hit {
+  stroke: var(--awesome-signal);
+  stroke-width: 1px;
+  stroke-dasharray: 2 3;
 }
 
-.awesome-welcome-node {
-  position: absolute;
-  z-index: 1;
-  display: grid;
-  place-items: center;
-  width: 2.6rem;
-  height: 2.6rem;
-  border: 1px solid var(--sl-color-gray-5);
-  border-radius: 0.6rem;
-  color: var(--awesome-signal);
-  background: var(--sl-color-bg);
-  font-family: var(--sl-font-mono);
-  font-size: 1.1rem;
+.awesome-map-labels {
+  pointer-events: none;
 }
 
-.awesome-welcome-node-code { inset-block-start: 0.3rem; inset-inline-end: 0.5rem; }
-.awesome-welcome-node-star { inset-block-end: 0.5rem; inset-inline-end: 1rem; }
-.awesome-welcome-node-branch { inset-block-start: 5rem; inset-inline-start: -0.3rem; }
+.awesome-map-label {
+  fill: var(--sl-color-white);
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0;
+  paint-order: stroke;
+  stroke: var(--sl-color-bg);
+  stroke-linejoin: round;
+  stroke-width: 4px;
+  transition: opacity 180ms ease;
+}
+
+.awesome-map-count {
+  fill: var(--awesome-signal);
+  font-variant-numeric: tabular-nums;
+}
+
+.awesome-map-label.is-on {
+  opacity: 1;
+}
 
 .awesome-welcome-stats {
   display: grid;
@@ -335,6 +339,25 @@
   overflow: hidden;
   clip-path: inset(50%);
   white-space: nowrap;
+}
+
+/* The hero headline is the page's visual title, so the generated h1 stays in the outline but leaves the layout,
+   and the width toggle sits at the end of a slim row instead of pushing the hero below the fold. */
+:root:has(.awesome-welcome) .sl-container > h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (min-width: 50em) {
+  :root:has(.awesome-welcome) .hagilight-content-width-toggle {
+    display: flex;
+    width: fit-content;
+    margin-inline-start: auto;
+  }
 }
 
 /* The homepage body is the generated flat directory; the browser above replaces it. */
@@ -752,27 +775,25 @@
   line-height: 1.7;
 }
 
-@media (max-width: 40rem) {
+/* The map needs a content column wide enough to sit beside the copy; below that the copy keeps the row to itself. */
+@container (max-width: 40rem) {
   .awesome-welcome-hero { grid-template-columns: minmax(0, 1fr); }
   .awesome-welcome-art { display: none; }
+}
+
+@media (max-width: 40rem) {
   .awesome-welcome-features { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .awesome-welcome-copy,
-  .awesome-welcome-art,
-  .awesome-welcome-stats,
-  .awesome-browser,
-  .awesome-welcome-features {
-    animation: awesome-arrive 600ms cubic-bezier(0.2, 0.7, 0.3, 1) both;
+  .awesome-welcome-copy { animation: awesome-arrive 600ms cubic-bezier(0.2, 0.7, 0.3, 1) both; }
+  /* The one authored moment: the map blooms outward from its centre, one dot after another. */
+  .awesome-map-dot {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: awesome-dot-bloom 900ms var(--map-ease) backwards;
+    animation-delay: calc(160ms + var(--d) * 4ms + var(--k) * 22ms);
   }
-  .awesome-welcome-art { animation-delay: 100ms; }
-  .awesome-welcome-stats { animation-delay: 150ms; }
-  .awesome-browser { animation-delay: 220ms; }
-  .awesome-welcome-features { animation-delay: 280ms; }
-  .awesome-welcome-node { animation: awesome-node-arrive 900ms ease-out both; }
-  .awesome-welcome-node-star { animation-delay: 180ms; }
-  .awesome-welcome-node-branch { animation-delay: 300ms; }
   .awesome-welcome-actions a { transition: transform 180ms ease, box-shadow 180ms ease; }
   .awesome-welcome-actions a:hover,
   .awesome-welcome-actions a:focus-visible { transform: translateY(-2px); }
@@ -796,9 +817,9 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes awesome-node-arrive {
-  from { opacity: 0; transform: translateY(8px) rotate(-12deg) scale(0.85); }
-  to { opacity: 1; transform: translateY(0) rotate(0) scale(1); }
+@keyframes awesome-dot-bloom {
+  from { opacity: 0; transform: scale(0); }
+  60% { opacity: 1; }
 }
 
 /*
