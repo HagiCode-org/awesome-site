@@ -1,5 +1,8 @@
 # Awesome Site
 
+[![last commit](https://img.shields.io/github/last-commit/HagiCode-org/awesome-site)](https://github.com/HagiCode-org/awesome-site/commits/main)
+[![website](https://img.shields.io/website?url=https%3A%2F%2Fawesome.hagicode.com&label=website)](https://awesome.hagicode.com)
+
 **Less searching. More discovering.** Awesome Site gathers community-curated open-source "awesome" collections in one place, so you can pick a topic, read in your language, and follow each entry back to its source.
 
 Part of the [HagiCode](https://hagicode.com/) ecosystem. HagiCode is an AI workbench for project development: it works with the Agent CLIs and models you already use, reads the repository first, sets the scope, and then executes with a trail you can review. Install it from the [installation guide](https://docs.hagicode.com/en-US/installation/) or see the [product overview](https://docs.hagicode.com/en-US/product-overview/).
