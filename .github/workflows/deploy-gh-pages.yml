@@ -49,6 +49,7 @@ jobs:
         with:
           name: awesome-site-dist
           path: .deploy/gh-pages/
+          include-hidden-files: true
           if-no-files-found: error
           retention-days: 1
 
