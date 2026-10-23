@@ -42,6 +42,7 @@ Requires Node.js 24+ and Git with submodule support. `SITE_URL` (absolute HTTP(S
 - Generated pages under `src/content/docs/**/awesome/`, the ten locale homepages (`src/content/docs/index.md` and `<locale>/index.md`) and `.awesome-content-manifest.json` are pipeline-owned: never edit, track or commit them; they stay git-ignored.
 - Do not edit `data/` from here. Change content in `awesome-site-data`, push it to `main`, then bump the pin with `git -C data fetch origin main && git -C data checkout <commit>` and `git add data`; rerun `content:check`, `check`, `build`, `test`.
 - Do not edit generated output in `dist/` (HTML, Pagefind, RSS, robots, sitemap). Hagilight owns RSS and `robots.txt`; Astro's sitemap integration owns the sitemap.
+- Keep `links.siteId` in `astro.config.mjs` set to `awesome-sites` (the id in hagilight's related-sites data); it keeps the site out of its own footer list and tags first-party footer links with `utm_source=awesome-sites`. `test/site-foundation.test.mjs` asserts both.
 - External-link allowlist entries must be reviewed exact hostnames (`externalHostnameAllowlist`) or trusted domains (`externalDomainAllowlist`); do not add broad domains for convenience.
 - New analytics link locations must be added to `src/analytics-locations.mjs` and the README table; do not call `gtag('event', ...)` directly or extend the Hagilight event vocabulary here.
 - Running `astro` directly skips the content pre-hooks and fails on the missing `data/content/awesome/collections.json` import; use the npm scripts.
