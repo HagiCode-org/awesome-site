@@ -132,9 +132,13 @@ test("built pages use Awesome Site identity, local routes, shared shell, and gen
 
   assert.match(home, /Awesome Site/u);
   assert.equal((home.match(/class="hagilight-site-links\b/gu) ?? []).length, 1);
-  assert.match(home, /href="https:\/\/www\.hagicode\.com\/en-US\/desktop\/"[^>]*>Download Hagicode</u);
+  assert.match(home, /href="https:\/\/www\.hagicode\.com\/en-US\/desktop\/\?utm_source=awesome-sites&amp;utm_medium=footer"[^>]*>Download Hagicode</u);
   assert.match(home, /href="https:\/\/github\.com\/HagiCode-org\/site"[^>]*>GitHub</u);
-  assert.match(home, /href="https:\/\/tasks\.hagicode\.com\/"[^>]*>HagiTask</u);
+  assert.match(home, /href="https:\/\/tasks\.hagicode\.com\/\?utm_source=awesome-sites&amp;utm_medium=footer"[^>]*>HagiTask</u);
+  // The footer lists the other sites but never this one (links.siteId matches the related-sites id).
+  const relatedSites = home.match(/class="hagilight-site-links\b[\s\S]*?<\/section>/u)?.[0] ?? "";
+  assert.match(relatedSites, /href="https:\/\/www\.hagicode\.com\//u);
+  assert.doesNotMatch(relatedSites, /href="https:\/\/awesome\.hagicode\.com\//u);
   assert.match(home, /class="hagilight-article-promotion(?:\s|")/u);
   assert.match(home, /googletagmanager\.com\/gtag\/js/u);
   assert.match(home, /sdk\.51\.la\/js-sdk-pro\.min\.js/u);

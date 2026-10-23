@@ -143,7 +143,7 @@ export default defineConfig({
             isAIAuthor: false,
             sourceLocale: "root",
           },
-          promoto: { enabled: true },
+          links: { siteId: "awesome-sites" },
         }),
       ],
     }),
