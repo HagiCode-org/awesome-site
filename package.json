@@ -5,15 +5,15 @@
   "type": "module",
   "engines": {
     "node": ">=24.0.0",
-    "npm": ">=9.6.5"
+    "pnpm": ">=12.16.1"
   },
   "scripts": {
     "dev": "astro dev",
-    "predev": "npm run content:prepare",
+    "predev": "pnpm run content:prepare",
     "check": "export NODE_OPTIONS=\"${NODE_OPTIONS:-} --max-old-space-size=8192\"; astro check",
-    "precheck": "npm run content:prepare",
+    "precheck": "pnpm run content:prepare",
     "build": "export NODE_OPTIONS=\"${NODE_OPTIONS:-} --max-old-space-size=8192\"; astro build",
-    "prebuild": "npm run content:prepare",
+    "prebuild": "pnpm run content:prepare",
     "preview": "astro preview",
     "test": "node --test --test-concurrency=1 test/*.test.mjs",
     "content:export": "node scripts/content-pipeline.mjs export",
@@ -33,11 +33,13 @@
     "rehype-raw": "7.0.0",
     "remark-gfm": "4.0.1",
     "remark-parse": "11.0.0",
+    "sharp": "^0.35.5",
     "unified": "11.0.5",
     "yaml": "^2.9.1"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
     "typescript": "^6.0.3"
-  }
+  },
+  "packageManager": "pnpm@12.16.1"
 }

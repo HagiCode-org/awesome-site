@@ -26,14 +26,17 @@ jobs:
           submodules: recursive
       - name: Validate production origin
         run: node scripts/validate-production-origin.mjs
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-          cache: npm
-          cache-dependency-path: package-lock.json
-      - run: npm ci
-      - run: npm run build
-      - run: npm test
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run build
+      - run: pnpm test
         # CI runs the full suite (including the slow content-pipeline
         # integration tests and astro check) on the same commit; publishing
         # only re-verifies the fast subset to keep deploys short.
