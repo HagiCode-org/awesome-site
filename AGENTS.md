@@ -16,14 +16,14 @@ Run commands from `repos/awesome-site/`.
 
 ```bash
 git submodule update --init --recursive   # data/ and its nested sources/<id> must be initialized
-npm ci
-npm run dev                               # http://localhost:36265 (strict port)
-SITE_URL=http://localhost:36265 npm run check
-SITE_URL=http://localhost:36265 npm run build
-SITE_URL=http://localhost:36265 npm test  # run after a successful build
-npm run content:check                     # validate registry, ledger, mirrors, translations
-npm run content:prepare                   # validate, then replace generated pages
-npm run content:export -- --collection <id> --output <dir>
+pnpm install
+pnpm run dev                               # http://localhost:36265 (strict port)
+SITE_URL=http://localhost:36265 pnpm run check
+SITE_URL=http://localhost:36265 pnpm run build
+SITE_URL=http://localhost:36265 pnpm test  # run after a successful build
+pnpm run content:check                     # validate registry, ledger, mirrors, translations
+pnpm run content:prepare                   # validate, then replace generated pages
+pnpm run content:export --collection <id> --output <dir>
 ```
 
 Requires Node.js 24+ and Git with submodule support. `SITE_URL` (absolute HTTP(S) URL) is required for `check`, `build`, `test` and `preview`; only `dev` defaults it. `dev`, `check` and `build` run `content:prepare` via npm pre-hooks, while `preview` serves an existing build. Set `AWESOME_TEST_FAST=1` to skip the slow integration tests (the publish workflow does this).
@@ -45,7 +45,7 @@ Requires Node.js 24+ and Git with submodule support. `SITE_URL` (absolute HTTP(S
 - Keep `links.siteId` in `astro.config.mjs` set to `awesome-sites` (the id in hagilight's related-sites data); it keeps the site out of its own footer list and tags first-party footer links with `utm_source=awesome-sites`. `test/site-foundation.test.mjs` asserts both.
 - External-link allowlist entries must be reviewed exact hostnames (`externalHostnameAllowlist`) or trusted domains (`externalDomainAllowlist`); do not add broad domains for convenience.
 - New analytics link locations must be added to `src/analytics-locations.mjs` and the README table; do not call `gtag('event', ...)` directly or extend the Hagilight event vocabulary here.
-- Running `astro` directly skips the content pre-hooks and fails on the missing `data/content/awesome/collections.json` import; use the npm scripts.
+- Running `astro` directly skips the content pre-hooks and fails on the missing `data/content/awesome/collections.json` import; use the package scripts.
 
 ## Publication
 
@@ -55,3 +55,10 @@ The publish workflow runs on push to `main`: validates `vars.SITE_URL` (non-loop
 
 - `README.md`
 - `https://github.com/HagiCode-org/awesome-site-data#readme` (collection onboarding, source review, translation maintenance)
+
+## Package management
+
+- The repository uses pnpm, pinned in `package.json` `packageManager`. Run `corepack enable` once, then `pnpm install`. `pnpm-lock.yaml` is the only lockfile; do not commit `package-lock.json`.
+- Settings live in `pnpm-workspace.yaml`. `allowBuilds` lists the dependencies whose install scripts may run (reviewed individually, `false` means reviewed and denied); review any new dependency that has an install script and add it there.
+- A local registry mirror belongs in `~/.npmrc` only. Never commit a `registry=` line or a mirror URL; `pnpm run check:registry` (also run in CI) fails on any non-`registry.npmjs.org` `tarball` in the lockfile and on mirror hosts in tracked files.
+- Undeclared imports fail under pnpm's strict layout: declare the package instead of hoisting it.
