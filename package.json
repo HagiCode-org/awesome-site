@@ -18,7 +18,9 @@
     "test": "node --test --test-concurrency=1 test/*.test.mjs",
     "content:export": "node scripts/content-pipeline.mjs export",
     "content:check": "node scripts/content-pipeline.mjs check",
-    "content:prepare": "node scripts/content-pipeline.mjs prepare"
+    "content:prepare": "node scripts/content-pipeline.mjs prepare",
+    "check:registry": "node scripts/check-registry-neutrality.mjs",
+    "test:registry": "node --test scripts/check-registry-neutrality.node-test.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "7.3.0",
