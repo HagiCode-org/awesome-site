@@ -1,0 +1,102 @@
+# Awesome Site
+
+> A multilingual directory of curated awesome lists. Each collection page mirrors the list's README, translated into 10 languages.
+
+## Overview
+
+- [Awesome collections](https://awesome.hagicode.com/): 76 collections
+
+## Awesome
+
+- [Awesome collections](https://awesome.hagicode.com/awesome/): 76 collections
+- [Android Security Awesome](https://awesome.hagicode.com/awesome/android-security-awesome/): A curated collection from ashishb/android-security-awesome.
+- [3D Gaussian Splatting](https://awesome.hagicode.com/awesome/awesome-3d-gaussian-splatting/): A curated collection from MrNeRF/awesome-3D-gaussian-splatting.
+- [Actions](https://awesome.hagicode.com/awesome/awesome-actions/): A curated collection from sdras/awesome-actions.
+- [Agent Skills](https://awesome.hagicode.com/awesome/awesome-agent-skills/): A curated collection from VoltAgent/awesome-agent-skills.
+- [Agentic AI (Chinese)](https://awesome.hagicode.com/awesome/awesome-agentic-ai-zh/): A curated collection from WenyuChiou/awesome-agentic-ai-zh.
+- [Agentic Patterns](https://awesome.hagicode.com/awesome/awesome-agentic-patterns/): A curated collection from nibzard/awesome-agentic-patterns.
+- [AI Apps](https://awesome.hagicode.com/awesome/awesome-ai-apps/): A curated collection from Arindam200/awesome-ai-apps.
+- [Android UI](https://awesome.hagicode.com/awesome/awesome-android-ui/): A curated collection from wasabeef/awesome-android-ui.
+- [Ansible](https://awesome.hagicode.com/awesome/awesome-ansible/): A curated collection from ansible-community/awesome-ansible.
+- [AutoML Papers](https://awesome.hagicode.com/awesome/awesome-automl-papers/): A curated collection from hibayesian/awesome-automl-papers.
+- [Bash](https://awesome.hagicode.com/awesome/awesome-bash/): A curated collection from awesome-lists/awesome-bash.
+- [Chaos Engineering](https://awesome.hagicode.com/awesome/awesome-chaos-engineering/): A curated collection from dastergon/awesome-chaos-engineering.
+- [ChatGPT Prompts (Chinese)](https://awesome.hagicode.com/awesome/awesome-chatgpt-prompts-zh/): A curated collection from PlexPt/awesome-chatgpt-prompts-zh.
+- [Chinese NLP](https://awesome.hagicode.com/awesome/awesome-chinese-nlp/): A curated collection from crownpku/Awesome-Chinese-NLP.
+- [Chrome DevTools](https://awesome.hagicode.com/awesome/awesome-chrome-devtools/): A curated collection from ChromeDevTools/awesome-chrome-devtools.
+- [Cloud Security](https://awesome.hagicode.com/awesome/awesome-cloud-security/): A curated collection from teamssix/awesome-cloud-security.
+- [Codex Subagents](https://awesome.hagicode.com/awesome/awesome-codex-subagents/): A curated collection from VoltAgent/awesome-codex-subagents.
+- [Compose](https://awesome.hagicode.com/awesome/awesome-compose/): A curated collection from docker/awesome-compose.
+- [Console Services](https://awesome.hagicode.com/awesome/awesome-console-services/): A curated collection from chubin/awesome-console-services.
+- [Copilot](https://awesome.hagicode.com/awesome/awesome-copilot/): A curated collection from github/awesome-copilot.
+- [Core ML Models](https://awesome.hagicode.com/awesome/awesome-coreml-models/): A curated collection from likedan/Awesome-CoreML-Models.
+- [C++](https://awesome.hagicode.com/awesome/awesome-cpp/): A curated collection from fffaraz/awesome-cpp.
+- [CTF](https://awesome.hagicode.com/awesome/awesome-ctf/): A curated collection from apsdehal/awesome-ctf.
+- [Data Science](https://awesome.hagicode.com/awesome/awesome-datascience/): A curated collection from academic/awesome-datascience.
+- [DB Tools](https://awesome.hagicode.com/awesome/awesome-db-tools/): A curated collection from mgramin/awesome-db-tools.
+- [Deep Text Detection and Recognition](https://awesome.hagicode.com/awesome/awesome-deep-text-detection-recognition/): A curated collection from hwalsuklee/awesome-deep-text-detection-recognition.
+- [DeepSeek Integrations](https://awesome.hagicode.com/awesome/awesome-deepseek-integration/): A curated collection from deepseek-ai/awesome-deepseek-integration.
+- [Design.md](https://awesome.hagicode.com/awesome/awesome-design-md/): A curated collection from VoltAgent/awesome-design-md.
+- [Design Systems](https://awesome.hagicode.com/awesome/awesome-design-systems/): A curated collection from alexpate/awesome-design-systems.
+- [Django](https://awesome.hagicode.com/awesome/awesome-django/): A curated collection from wsvincent/awesome-django.
+- [Docker](https://awesome.hagicode.com/awesome/awesome-docker/): A curated collection from veggiemonk/awesome-docker.
+- [.NET](https://awesome.hagicode.com/awesome/awesome-dotnet/): A curated collection from quozd/awesome-dotnet.
+- [Electron](https://awesome.hagicode.com/awesome/awesome-electron/): A curated collection from sindresorhus/awesome-electron.
+- [FastAPI](https://awesome.hagicode.com/awesome/awesome-fastapi/): A curated collection from mjhea0/awesome-fastapi.
+- [Flask](https://awesome.hagicode.com/awesome/awesome-flask/): A curated collection from humiaozuzu/awesome-flask.
+- [Generative AI Guide](https://awesome.hagicode.com/awesome/awesome-generative-ai-guide/): A curated collection from aishwaryanr/awesome-generative-ai-guide.
+- [Generative AI](https://awesome.hagicode.com/awesome/awesome-generative-ai/): A curated collection from steven2358/awesome-generative-ai.
+- [GitHub Profile README](https://awesome.hagicode.com/awesome/awesome-github-profile-readme/): A curated collection from abhisheknaiidu/awesome-github-profile-readme.
+- [Golang Algorithm](https://awesome.hagicode.com/awesome/awesome-golang-algorithm/): A curated collection from 6boris/awesome-golang-algorithm.
+- [GPT Agents](https://awesome.hagicode.com/awesome/awesome-gpt-agents/): A curated collection from fr0gger/Awesome-GPT-Agents.
+- [Hacking](https://awesome.hagicode.com/awesome/awesome-hacking/): A curated collection from Hack-with-Github/Awesome-Hacking.
+- [Incident Response](https://awesome.hagicode.com/awesome/awesome-incident-response/): A curated collection from meirwah/awesome-incident-response.
+- [Jellyfin](https://awesome.hagicode.com/awesome/awesome-jellyfin/): A curated collection from awesome-jellyfin/awesome-jellyfin.
+- [Kubernetes Resources](https://awesome.hagicode.com/awesome/awesome-k8s-resources/): A curated collection from tomhuang12/awesome-k8s-resources.
+- [Knowledge Distillation](https://awesome.hagicode.com/awesome/awesome-knowledge-distillation/): A curated collection from dkozlov/awesome-knowledge-distillation.
+- [LLM Apps](https://awesome.hagicode.com/awesome/awesome-llm-apps/): A curated collection from Shubhamsaboo/awesome-llm-apps.
+- [LLM Resources](https://awesome.hagicode.com/awesome/awesome-llm-resources/): A curated collection from WangRongsheng/awesome-LLM-resources.
+- [LLM Strawberry](https://awesome.hagicode.com/awesome/awesome-llm-strawberry/): A curated collection from hijkzzz/Awesome-LLM-Strawberry.
+- [LLM](https://awesome.hagicode.com/awesome/awesome-llm/): A curated collection from Hannibal046/Awesome-LLM.
+- [Microservices](https://awesome.hagicode.com/awesome/awesome-microservices/): A curated collection from mfornos/awesome-microservices.
+- [NLP](https://awesome.hagicode.com/awesome/awesome-nlp/): A curated collection from keon/awesome-nlp.
+- [Node.js](https://awesome.hagicode.com/awesome/awesome-nodejs/): A curated collection from sindresorhus/awesome-nodejs.
+- [DeepLearning](https://awesome.hagicode.com/awesome/awesome-paddle-deeplearning/): A curated collection from PaddlePaddle/awesome-DeepLearning.
+- [PHP](https://awesome.hagicode.com/awesome/awesome-php/): A curated collection from ziadoz/awesome-php.
+- [PostgreSQL](https://awesome.hagicode.com/awesome/awesome-postgres/): A curated collection from dhamaniasad/awesome-postgres.
+- [Privacy](https://awesome.hagicode.com/awesome/awesome-privacy/): A curated collection from pluja/awesome-privacy.
+- [Production Machine Learning](https://awesome.hagicode.com/awesome/awesome-production-machine-learning/): A curated collection from EthicalML/awesome-production-machine-learning.
+- [Prompt Engineering](https://awesome.hagicode.com/awesome/awesome-prompt-engineering/): A curated collection from promptslab/Awesome-Prompt-Engineering.
+- [RAG](https://awesome.hagicode.com/awesome/awesome-rag/): A curated collection from Danielskry/Awesome-RAG.
+- [React Components](https://awesome.hagicode.com/awesome/awesome-react-components/): A curated collection from brillout/awesome-react-components.
+- [React Hooks](https://awesome.hagicode.com/awesome/awesome-react-hooks/): A curated collection from rehooks/awesome-react-hooks.
+- [Red Teaming](https://awesome.hagicode.com/awesome/awesome-red-teaming/): A curated collection from yeyintminthuhtut/Awesome-Red-Teaming.
+- [RLHF](https://awesome.hagicode.com/awesome/awesome-rlhf/): A curated collection from opendilab/awesome-RLHF.
+- [Rust](https://awesome.hagicode.com/awesome/awesome-rust/): A curated collection from rust-unofficial/awesome-rust.
+- [Scalability](https://awesome.hagicode.com/awesome/awesome-scalability/): A curated collection from binhnguyennus/awesome-scalability.
+- [Shell](https://awesome.hagicode.com/awesome/awesome-shell/): A curated collection from alebcay/awesome-shell.
+- [Shodan Queries](https://awesome.hagicode.com/awesome/awesome-shodan-queries/): A curated collection from jakejarvis/awesome-shodan-queries.
+- [Software Architecture](https://awesome.hagicode.com/awesome/awesome-software-architecture/): A curated collection from mehdihadeli/awesome-software-architecture.
+- [SRE](https://awesome.hagicode.com/awesome/awesome-sre/): A curated collection from dastergon/awesome-sre.
+- [Swift](https://awesome.hagicode.com/awesome/awesome-swift/): A curated collection from matteocrippa/awesome-swift.
+- [System Design](https://awesome.hagicode.com/awesome/awesome-system-design/): A curated collection from madd86/awesome-system-design.
+- [Terraform](https://awesome.hagicode.com/awesome/awesome-tf/): A curated collection from shuaibiyy/awesome-tf.
+- [Threat Intelligence](https://awesome.hagicode.com/awesome/awesome-threat-intelligence/): A curated collection from hslatman/awesome-threat-intelligence.
+- [TypeScript](https://awesome.hagicode.com/awesome/awesome-typescript/): A curated collection from dzharii/awesome-typescript.
+- [WAF](https://awesome.hagicode.com/awesome/awesome-waf/): A curated collection from 0xInfection/Awesome-WAF.
+- [Web Hacking](https://awesome.hagicode.com/awesome/awesome-web-hacking/): A curated collection from infoslack/awesome-web-hacking.
+- [AI Agents](https://awesome.hagicode.com/awesome/tags/ai-agents/): 6 collections
+- [Algorithms and Data Structures](https://awesome.hagicode.com/awesome/tags/algorithms/)
+- [Android UI](https://awesome.hagicode.com/awesome/tags/android-ui/)
+
+## Optional
+
+- [de-DE](https://awesome.hagicode.com/de-DE/)
+- [es-ES](https://awesome.hagicode.com/es-ES/)
+- [fr-FR](https://awesome.hagicode.com/fr-FR/)
+- [ja-JP](https://awesome.hagicode.com/ja-JP/)
+- [ko-KR](https://awesome.hagicode.com/ko-KR/)
+- [pt-BR](https://awesome.hagicode.com/pt-BR/)
+- [ru-RU](https://awesome.hagicode.com/ru-RU/)
+- [zh-CN](https://awesome.hagicode.com/zh-CN/)
+- [zh-Hant](https://awesome.hagicode.com/zh-Hant/)
