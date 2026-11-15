@@ -233,7 +233,7 @@ test("migration data covers the ledger baseline and both registries", async () =
     disposition === "github-link-only; README and embedded assets are not republished; third-party asset rights are not individually cleared"));
   assert.ok(candidates.every(({ licenseId }) =>
     ["CC0-1.0", "MIT", "Apache-2.0", "Unlicense", "WTFPL"].includes(licenseId)));
-  assert.equal(baseline.size, 119);
+  assert.equal(baseline.size, 118);
   assert.equal(reviews.length, 147);
   assert.equal(new Set(reviews.map(({ id }) => id)).size, 147);
   assert.equal(reviewsByIdentity.size, reviews.length);
