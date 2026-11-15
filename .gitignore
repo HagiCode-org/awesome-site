@@ -25,3 +25,6 @@ src/content/docs/ja-JP/index.md
 src/content/docs/ko-KR/index.md
 src/content/docs/pt-BR/index.md
 src/content/docs/ru-RU/index.md
+
+# Local deja session-rule export (auto-extracted from agent sessions; not committed)
+.deja/
